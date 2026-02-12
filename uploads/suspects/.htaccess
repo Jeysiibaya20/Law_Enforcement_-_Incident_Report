@@ -1,0 +1,7 @@
+# Allow viewing of images only
+<FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+    Allow from all
+</FilesMatch>
+
+# Deny PHP execution in this directory
+php_flag engine off

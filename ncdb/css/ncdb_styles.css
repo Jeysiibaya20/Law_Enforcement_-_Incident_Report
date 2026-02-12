@@ -1,0 +1,644 @@
+/* NCDB Module Styles
+   Integration with global.css
+   Secure National Crime Database Interface Styling
+*/
+
+/* ============================================================================
+   NCDB Color Scheme
+   ============================================================================ */
+
+:root {
+    --ncdb-primary: #667eea;
+    --ncdb-secondary: #764ba2;
+    --ncdb-danger: #d63031;
+    --ncdb-warning: #fdcb6e;
+    --ncdb-success: #00b894;
+    --ncdb-info: #0984e3;
+    --ncdb-dark: #2d3436;
+    --ncdb-light: #f5f6fa;
+    --ncdb-border: #dfe6e9;
+}
+
+/* ============================================================================
+   NCDB Containers & Layouts
+   ============================================================================ */
+
+.ncdb-container {
+    background: linear-gradient(135deg, var(--ncdb-light) 0%, #ffffff 100%);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.ncdb-header {
+    background: linear-gradient(135deg, var(--ncdb-primary) 0%, var(--ncdb-secondary) 100%);
+    color: white;
+    padding: 32px 24px;
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 0;
+}
+
+.ncdb-header h1 {
+    color: white;
+    margin: 0;
+    font-weight: 700;
+}
+
+.ncdb-header p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+/* ============================================================================
+   NCDB Cards
+   ============================================================================ */
+
+.ncdb-card {
+    background: white;
+    border: 1px solid var(--ncdb-border);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.ncdb-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+}
+
+.ncdb-card.active {
+    border-color: var(--ncdb-primary);
+    box-shadow: 0 4px 16px rgba(102, 126, 234, 0.2);
+}
+
+.ncdb-card-header {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+    border-bottom: 2px solid var(--ncdb-border);
+    padding: 16px 20px;
+}
+
+.ncdb-card-header h5 {
+    color: var(--ncdb-dark);
+    margin: 0;
+    font-weight: 600;
+}
+
+.ncdb-card-body {
+    padding: 20px;
+}
+
+/* ============================================================================
+   Stat Boxes
+   ============================================================================ */
+
+.stat-box {
+    background: linear-gradient(135deg, var(--ncdb-primary) 0%, var(--ncdb-secondary) 100%);
+    color: white;
+    padding: 24px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+    transition: all 0.3s ease;
+}
+
+.stat-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+}
+
+.stat-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    opacity: 0.95;
+    font-weight: 500;
+}
+
+.stat-change {
+    font-size: 0.85rem;
+    margin-top: 8px;
+    opacity: 0.85;
+}
+
+.stat-change.positive {
+    color: #00b894;
+}
+
+.stat-change.negative {
+    color: #d63031;
+}
+
+/* ============================================================================
+   Status Badges
+   ============================================================================ */
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.status-badge.active {
+    background: rgba(0, 184, 148, 0.15);
+    color: var(--ncdb-success);
+}
+
+.status-badge.inactive {
+    background: rgba(208, 208, 208, 0.2);
+    color: #636e72;
+}
+
+.status-badge.error {
+    background: rgba(214, 48, 49, 0.15);
+    color: var(--ncdb-danger);
+}
+
+.status-badge.warning {
+    background: rgba(253, 203, 110, 0.2);
+    color: #d63031;
+}
+
+.status-badge.processing {
+    background: rgba(9, 132, 227, 0.15);
+    color: var(--ncdb-info);
+}
+
+/* ============================================================================
+   Alert Styles
+   ============================================================================ */
+
+.ncdb-alert {
+    padding: 16px 20px;
+    border-radius: 8px;
+    border-left: 4px solid;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.ncdb-alert i {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.ncdb-alert.success {
+    background: rgba(0, 184, 148, 0.1);
+    border-color: var(--ncdb-success);
+    color: #27ae60;
+}
+
+.ncdb-alert.error {
+    background: rgba(214, 48, 49, 0.1);
+    border-color: var(--ncdb-danger);
+    color: #c0392b;
+}
+
+.ncdb-alert.warning {
+    background: rgba(253, 203, 110, 0.15);
+    border-color: #f39c12;
+    color: #d68910;
+}
+
+.ncdb-alert.info {
+    background: rgba(9, 132, 227, 0.1);
+    border-color: var(--ncdb-info);
+    color: #1a5276;
+}
+
+/* ============================================================================
+   Form Elements
+   ============================================================================ */
+
+.ncdb-form-group {
+    margin-bottom: 20px;
+}
+
+.ncdb-form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--ncdb-dark);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.ncdb-form-control,
+.ncdb-form-select,
+.ncdb-form-textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid var(--ncdb-border);
+    border-radius: 6px;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.ncdb-form-control:focus,
+.ncdb-form-select:focus,
+.ncdb-form-textarea:focus {
+    outline: none;
+    border-color: var(--ncdb-primary);
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    background: rgba(102, 126, 234, 0.02);
+}
+
+.ncdb-form-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.ncdb-form-hint {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.85rem;
+    color: #636e72;
+}
+
+/* ============================================================================
+   Buttons
+   ============================================================================ */
+
+.ncdb-btn {
+    padding: 10px 18px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.ncdb-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ncdb-btn-primary {
+    background: linear-gradient(135deg, var(--ncdb-primary) 0%, var(--ncdb-secondary) 100%);
+    color: white;
+}
+
+.ncdb-btn-primary:hover {
+    background: linear-gradient(135deg, #5568d3 0%, #6a3a8a 100%);
+    color: white;
+}
+
+.ncdb-btn-secondary {
+    background: var(--ncdb-light);
+    color: var(--ncdb-dark);
+    border: 1px solid var(--ncdb-border);
+}
+
+.ncdb-btn-secondary:hover {
+    background: white;
+    border-color: var(--ncdb-primary);
+    color: var(--ncdb-primary);
+}
+
+.ncdb-btn-success {
+    background: var(--ncdb-success);
+    color: white;
+}
+
+.ncdb-btn-success:hover {
+    background: #00a882;
+    color: white;
+}
+
+.ncdb-btn-danger {
+    background: var(--ncdb-danger);
+    color: white;
+}
+
+.ncdb-btn-danger:hover {
+    background: #c41e3a;
+    color: white;
+}
+
+.ncdb-btn-sm {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+}
+
+.ncdb-btn-lg {
+    padding: 14px 28px;
+    font-size: 1rem;
+}
+
+.ncdb-btn-block {
+    width: 100%;
+}
+
+.ncdb-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+/* ============================================================================
+   Tables
+   ============================================================================ */
+
+.ncdb-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.ncdb-table thead {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+    border-bottom: 2px solid var(--ncdb-border);
+}
+
+.ncdb-table thead th {
+    padding: 14px 16px;
+    text-align: left;
+    color: var(--ncdb-dark);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.ncdb-table tbody td {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--ncdb-border);
+    color: #2d3436;
+    font-size: 0.95rem;
+}
+
+.ncdb-table tbody tr {
+    transition: background 0.3s ease;
+}
+
+.ncdb-table tbody tr:hover {
+    background: rgba(102, 126, 234, 0.05);
+}
+
+.ncdb-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* ============================================================================
+   List Groups
+   ============================================================================ */
+
+.ncdb-list-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ncdb-list-item {
+    padding: 16px;
+    border: 1px solid var(--ncdb-border);
+    border-radius: 6px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ncdb-list-item:hover {
+    background: rgba(102, 126, 234, 0.02);
+    border-color: var(--ncdb-primary);
+}
+
+.ncdb-list-item-content {
+    flex: 1;
+}
+
+.ncdb-list-item-title {
+    color: var(--ncdb-dark);
+    font-weight: 600;
+    margin: 0 0 4px 0;
+}
+
+.ncdb-list-item-meta {
+    color: #636e72;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+/* ============================================================================
+   Tabs
+   ============================================================================ */
+
+.ncdb-tabs {
+    display: flex;
+    gap: 8px;
+    border-bottom: 2px solid var(--ncdb-border);
+    margin-bottom: 24px;
+    overflow-x: auto;
+}
+
+.ncdb-tab {
+    padding: 12px 16px;
+    background: none;
+    border: none;
+    color: #636e72;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.ncdb-tab:hover {
+    color: var(--ncdb-primary);
+}
+
+.ncdb-tab.active {
+    color: var(--ncdb-primary);
+    border-bottom-color: var(--ncdb-primary);
+}
+
+/* ============================================================================
+   Loading States
+   ============================================================================ */
+
+.ncdb-loading {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ncdb-spinner {
+    width: 20px;
+    height: 20px;
+    border: 3px solid var(--ncdb-border);
+    border-top-color: var(--ncdb-primary);
+    border-radius: 50%;
+    animation: ncdb-spin 1s linear infinite;
+}
+
+@keyframes ncdb-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ============================================================================
+   Responsive Design
+   ============================================================================ */
+
+@media (max-width: 768px) {
+    .ncdb-container {
+        padding: 16px;
+    }
+
+    .ncdb-header {
+        padding: 20px 16px;
+    }
+
+    .stat-value {
+        font-size: 2rem;
+    }
+
+    .ncdb-table {
+        font-size: 0.85rem;
+    }
+
+    .ncdb-table thead th,
+    .ncdb-table tbody td {
+        padding: 10px 12px;
+    }
+
+    .ncdb-btn {
+        padding: 8px 14px;
+        font-size: 0.9rem;
+    }
+
+    .ncdb-list-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ncdb-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .stat-box {
+        padding: 16px;
+    }
+
+    .stat-value {
+        font-size: 1.75rem;
+    }
+
+    .ncdb-tabs {
+        flex-wrap: wrap;
+    }
+
+    .ncdb-tab {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+/* ============================================================================
+   Animations
+   ============================================================================ */
+
+@keyframes ncdb-fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ncdb-fade-in {
+    animation: ncdb-fadeIn 0.3s ease;
+}
+
+@keyframes ncdb-slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.ncdb-slide-in {
+    animation: ncdb-slideIn 0.3s ease;
+}
+
+/* ============================================================================
+   Utility Classes
+   ============================================================================ */
+
+.ncdb-mt-1 { margin-top: 8px; }
+.ncdb-mt-2 { margin-top: 16px; }
+.ncdb-mt-3 { margin-top: 24px; }
+.ncdb-mt-4 { margin-top: 32px; }
+
+.ncdb-mb-1 { margin-bottom: 8px; }
+.ncdb-mb-2 { margin-bottom: 16px; }
+.ncdb-mb-3 { margin-bottom: 24px; }
+.ncdb-mb-4 { margin-bottom: 32px; }
+
+.ncdb-p-1 { padding: 8px; }
+.ncdb-p-2 { padding: 16px; }
+.ncdb-p-3 { padding: 24px; }
+.ncdb-p-4 { padding: 32px; }
+
+.ncdb-text-center { text-align: center; }
+.ncdb-text-muted { color: #636e72; }
+.ncdb-text-danger { color: var(--ncdb-danger); }
+.ncdb-text-success { color: var(--ncdb-success); }
+.ncdb-text-info { color: var(--ncdb-info); }
+
+.ncdb-font-bold { font-weight: 700; }
+.ncdb-font-semibold { font-weight: 600; }
+.ncdb-font-small { font-size: 0.85rem; }
+.ncdb-font-large { font-size: 1.15rem; }
+
+.ncdb-hidden { display: none !important; }
+.ncdb-visible { display: block !important; }
+
+/* ============================================================================
+   Print Styles
+   ============================================================================ */
+
+@media print {
+    .ncdb-no-print {
+        display: none !important;
+    }
+
+    .ncdb-card {
+        page-break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+
+    .ncdb-btn {
+        display: none;
+    }
+}

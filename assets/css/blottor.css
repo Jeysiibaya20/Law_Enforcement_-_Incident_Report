@@ -1,0 +1,128 @@
+:root {
+  --bg: #0f172a;            /* dark slate background */
+  --panel: #111827;         /* card background */
+  --text: #e5e7eb;          /* light text */
+  --muted: #94a3b8;         /* muted text */
+  --accent-blue: #3b82f6;   /* info */
+  --accent-yellow: #facc15; /* warning */
+  --accent-green: #22c55e;  /* success */
+  --accent-red: #ef4444;    /* danger */
+  --border: #1f2937;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0b1220;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar {
+  position: fixed;
+  top: 48px;
+  bottom: 0;
+  width: 220px;
+  background: #0b1220;
+  padding: 16px;
+  border-right: 1px solid var(--border);
+}
+
+.sidebar a {
+  display: block;
+  color: var(--muted);
+  padding: 10px 14px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  background: #1f2937;
+  color: #fff;
+}
+
+.content {
+  margin-left: 240px;
+  padding: 20px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.status-boxes {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.status-box {
+  flex: 1;
+  padding: 20px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.status-blue { background: var(--accent-blue); }
+.status-yellow { background: var(--accent-yellow); color: #000; }
+.status-green { background: var(--accent-green); }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.table th {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: var(--accent-blue);
+  color: #fff;
+}
+
+.btn-success {
+  background: var(--accent-green);
+  color: #fff;
+}
+
+.btn-warning {
+  background: var(--accent-yellow);
+  color: #000;
+}
+
+.btn-danger {
+  background: var(--accent-red);
+  color: #fafafa;
+}

@@ -1,0 +1,577 @@
+/**
+ * LGU #4 - Buttons Component Styles
+ * Dedicated styles for the buttons page
+ * 
+ * This file contains:
+ * - Button-specific styling
+ * - Page layout and organization
+ * - Component showcase styling
+ * - Usage documentation styling
+ * 
+ * @version 1.1.0
+ * @author LGU #4 Development Team
+ */
+
+/* ===================================
+   BUTTON VARIANTS - Color-specific button styles
+   =================================== */
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #218838;
+    transform: translateY(-1px);
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+    transform: translateY(-1px);
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #212529;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+    transform: translateY(-1px);
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #138496;
+    transform: translateY(-1px);
+}
+
+/* ===================================
+   BUTTON SIZES - Different button dimensions
+   =================================== */
+.btn-lg {
+    padding: 1rem 2rem;
+    font-size: 16px;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.75rem;
+    font-size: 12px;
+}
+
+/* ===================================
+   OUTLINE BUTTONS - Transparent button variants
+   =================================== */
+.btn-outline-primary {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-outline-secondary {
+    background-color: transparent;
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--text-color);
+    color: white;
+}
+
+.btn-outline-success {
+    background-color: transparent;
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-outline-danger {
+    background-color: transparent;
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-outline-warning {
+    background-color: transparent;
+    color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.btn-outline-info {
+    background-color: transparent;
+    color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+/* ===================================
+   BUTTON STATES - Disabled, loading, and active states
+   =================================== */
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+.btn:disabled:hover {
+    transform: none !important;
+}
+
+.btn.loading {
+    position: relative;
+    color: transparent !important;
+}
+
+.btn.loading::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -8px;
+    border: 2px solid transparent;
+    border-top-color: currentColor;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ===================================
+   BUTTON SHOWCASE - Layout for button demonstrations
+   =================================== */
+.buttons-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem 0;
+    align-items: center;
+}
+
+/* ===================================
+   PAGE CONTENT STYLING - Page-specific layout
+   =================================== */
+.page-content {
+    max-width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll on mobile */
+}
+
+/* ===================================
+   COMPONENT SECTIONS - Individual component demonstrations
+   =================================== */
+.component-section {
+    margin-bottom: 3rem;
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 12px var(--shadow);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.component-section h3 {
+    color: var(--text-color);
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.component-section h3 i {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.component-section h4 {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+}
+
+.component-section p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+/* ===================================
+   USAGE REQUIREMENTS - File dependencies display
+   =================================== */
+.usage-requirements {
+    background: var(--header-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.requirement-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+    background: var(--card-bg);
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    word-break: break-all; /* Break long URLs */
+}
+
+.requirement-item:last-child {
+    margin-bottom: 0;
+}
+
+.requirement-item i {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    width: 20px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* ===================================
+   IMPLEMENTATION STEPS - Step-by-step guide styling
+   =================================== */
+.implementation-steps {
+    margin: 1.5rem 0;
+}
+
+.step-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--card-bg);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.step-item:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.step-number {
+    width: 32px;
+    height: 32px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+}
+
+.step-content {
+    flex: 1;
+    min-width: 0; /* This is crucial for flex item text wrapping */
+    overflow-x: hidden;
+}
+
+.step-content strong {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    word-break: break-word;
+}
+
+.step-content pre {
+    margin: 0.5rem 0 0 0;
+    background: var(--header-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.step-content code {
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    color: var(--text-color);
+    line-height: 1.4;
+    white-space: pre-wrap; /* Allow code to wrap */
+    word-break: break-word;
+}
+
+/* ===================================
+   CODE BLOCKS - Syntax highlighting and styling
+   =================================== */
+pre {
+    background: var(--header-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: var(--text-color);
+    white-space: pre-wrap; /* Allow code to wrap */
+    word-break: break-word;
+}
+
+pre code {
+    display: block;
+    line-height: 1.5;
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
+}
+
+/* ===================================
+   FONT AWESOME ICONS FIX - Ensure icons don't break layout
+   =================================== */
+.fa-icon-fix {
+    display: inline-block;
+    width: 1em;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* ===================================
+   RESPONSIVE DESIGN - Mobile and tablet adjustments
+   =================================== */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+    .usage-requirements {
+        padding: 1rem;
+    }
+    
+    .requirement-item {
+        flex-direction: row; /* Keep horizontal on tablets */
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.75rem;
+    }
+    
+    .step-item {
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 0.75rem;
+    }
+    
+    .step-number {
+        align-self: flex-start;
+    }
+    
+    .step-content pre {
+        font-size: 12px;
+        padding: 0.75rem;
+        margin: 0.5rem -0.5rem 0 -0.5rem;
+        border-radius: 4px;
+    }
+    
+    .step-content strong {
+        font-size: 1rem;
+    }
+    
+    .buttons-showcase {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.75rem;
+    }
+    
+    .buttons-showcase .btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .component-section {
+        padding: 1.5rem;
+        margin: 0 -1rem 2rem -1rem;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
+    
+    pre {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+    
+    pre code {
+        font-size: 12px;
+    }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+    .component-section {
+        padding: 1rem;
+        margin: 0 -0.75rem 1.5rem -0.75rem;
+    }
+    
+    .component-section h3 {
+        font-size: 1.5rem;
+        flex-wrap: wrap;
+    }
+    
+    .component-section h3 i {
+        font-size: 1.25rem;
+    }
+    
+    .step-item {
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+    }
+    
+    .step-content strong {
+        font-size: 1rem;
+    }
+    
+    .step-content code {
+        font-size: 11px;
+    }
+    
+    .step-content pre {
+        padding: 0.75rem;
+        margin: 0.5rem -0.25rem 0 -0.25rem;
+    }
+    
+    .step-number {
+        width: 28px;
+        height: 28px;
+        font-size: 0.875rem;
+    }
+    
+    .usage-requirements {
+        padding: 0.75rem;
+        margin: 1rem 0;
+    }
+    
+    .requirement-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        padding: 0.75rem;
+    }
+    
+    .requirement-item i {
+        align-self: flex-start;
+    }
+    
+    pre {
+        padding: 0.75rem;
+    }
+    
+    pre code {
+        font-size: 11px;
+    }
+    
+    .buttons-showcase {
+        gap: 0.5rem;
+    }
+    
+    .btn {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    .btn-lg {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9375rem;
+    }
+}
+
+/* Small Mobile (320px and below) */
+@media (max-width: 320px) {
+    .step-content pre {
+        font-size: 10px;
+        padding: 0.5rem;
+    }
+    
+    .step-content code {
+        font-size: 10px;
+    }
+    
+    .step-number {
+        width: 24px;
+        height: 24px;
+        font-size: 0.75rem;
+    }
+    
+    .component-section h3 {
+        font-size: 1.25rem;
+    }
+    
+    .component-section p {
+        font-size: 0.875rem;
+    }
+    
+    .requirement-item {
+        font-size: 0.875rem;
+    }
+}
+
+/* Desktop (1200px and above) */
+@media (min-width: 1200px) {
+    .page-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

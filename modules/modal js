@@ -1,0 +1,15 @@
+<script>
+function showActionModal(title,id,ref,type){
+    if(type==='create'){
+        window.location='create_form.php';
+    }
+    if(type==='archive'){
+        if(confirm('Archive this blotter?')){
+            fetch('blotter_archive.php',{
+                method:'POST',
+                body:new URLSearchParams({id:id})
+            }).then(()=>location.reload());
+        }
+    }
+}
+</script>

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suspect Photo Management - Setup Center</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #667eea;
+            --secondary: #764ba2;
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        }
+        
+        .header h1 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            color: #666;
+            margin: 0;
+            font-size: 1.1rem;
+        }
+        
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+        }
+        
+        .card-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            border: none;
+            padding: 20px;
+        }
+        
+        .card-header h5 {
+            margin: 0;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .card-body {
+            padding: 25px;
+        }
+        
+        .setup-step {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9ff;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .setup-step-number {
+            background: var(--primary);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+        
+        .setup-step-content h4 {
+            color: #333;
+            margin: 0 0 8px 0;
+            font-weight: 600;
+        }
+        
+        .setup-step-content p {
+            color: #666;
+            margin: 0;
+            font-size: 0.95rem;
+        }
+        
+        .btn-setup {
+            padding: 12px 30px;
+            font-weight: 600;
+            border-radius: 10px;
+            border: none;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn-setup-primary {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+        }
+        
+        .btn-setup-primary:hover {
+            color: white;
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-setup-secondary {
+            background: white;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+        
+        .btn-setup-secondary:hover {
+            background: var(--primary);
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .feature-item {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .feature-item strong {
+            color: var(--primary);
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .feature-item p {
+            color: #666;
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .status-ready {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .footer-section {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .icon-lg {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .documentation-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .doc-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px;
+            background: #f0f4ff;
+            border-radius: 10px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .doc-link:hover {
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body class="py-4">
+    <div class="container" style="max-width: 900px;">
+        <!-- Header -->
+        <div class="header">
+            <i class="bi bi-camera-fill" style="font-size: 3rem; color: var(--primary);"></i>
+            <h1>Suspect Photo Management</h1>
+            <p>Setup & Quick Start Guide</p>
+            <span class="status-badge status-ready">✓ Ready for Installation</span>
+        </div>
+
+        <!-- Quick Start Section -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5><i class="bi bi-lightning-fill"></i> Quick Start (3 Steps)</h5>
+            </div>
+            <div class="card-body">
+                <div class="setup-step">
+                    <div class="setup-step-number">1</div>
+                    <div class="setup-step-content">
+                        <h4>Initialize System</h4>
+                        <p>Run the setup script to add database support and create storage directory.</p>
+                        <a href="setup_suspect_photo.php" class="btn btn-setup btn-setup-primary mt-3" style="font-size: 0.9rem;">
+                            <i class="bi bi-wrench"></i> Run Setup Script
+                        </a>
+                    </div>
+                </div>
+
+                <div class="setup-step">
+                    <div class="setup-step-number">2</div>
+                    <div class="setup-step-content">
+                        <h4>Verify Installation</h4>
+                        <p>Test all components to ensure proper configuration.</p>
+                        <a href="test_suspect_photo.php" class="btn btn-setup btn-setup-primary mt-3" style="font-size: 0.9rem;">
+                            <i class="bi bi-check-circle"></i> Run Test Script
+                        </a>
+                    </div>
+                </div>
+
+                <div class="setup-step">
+                    <div class="setup-step-number">3</div>
+                    <div class="setup-step-content">
+                        <h4>Start Using</h4>
+                        <p>Go to Case Management → Select Case → Suspects Management and upload photos!</p>
+                        <a href="admin/cases.php" class="btn btn-setup btn-setup-primary mt-3" style="font-size: 0.9rem;">
+                            <i class="bi bi-arrow-right"></i> Go to Cases
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5><i class="bi bi-sparkles"></i> Key Features</h5>
+            </div>
+            <div class="card-body">
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <strong><i class="bi bi-image"></i> Photo Upload</strong>
+                        <p>Upload JPG, PNG, GIF, or WebP images with real-time preview</p>
+                    </div>
+                    <div class="feature-item">
+                        <strong><i class="bi bi-images"></i> Thumbnails</strong>
+                        <p>View suspect photos in list (80×100px) for quick identification</p>
+                    </div>
+                    <div class="feature-item">
+                        <strong><i class="bi bi-pencil"></i> Easy Updates</strong>
+                        <p>Change or replace photos with automatic cleanup</p>
+                    </div>
+                    <div class="feature-item">
+                        <strong><i class="bi bi-shield-check"></i> Secure</strong>
+                        <p>Protected storage with file validation and directory security</p>
+                    </div>
+                    <div class="feature-item">
+                        <strong><i class="bi bi-lightning-fast"></i> Fast</strong>
+                        <p>Real-time preview and efficient browser caching</p>
+                    </div>
+                    <div class="feature-item">
+                        <strong><i class="bi bi-database"></i> Database Support</strong>
+                        <p>New photo_path column stores image references</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- What Was Added Section -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5><i class="bi bi-gear-fill"></i> What Was Added</h5>
+            </div>
+            <div class="card-body">
+                <div style="margin-bottom: 20px;">
+                    <h6 style="color: var(--primary); font-weight: 600; margin-bottom: 10px;">
+                        ✓ Modified Files:
+                    </h6>
+                    <ul style="margin: 0; padding-left: 20px; color: #666;">
+                        <li><strong>modules/suspects_management.php</strong> - Photo form & thumbnails</li>
+                        <li><strong>includes/suspect_witness_management.php</strong> - Database functions</li>
+                    </ul>
+                </div>
+
+                <div style="margin-bottom: 20px;">
+                    <h6 style="color: var(--primary); font-weight: 600; margin-bottom: 10px;">
+                        ✓ New Files Created:
+                    </h6>
+                    <ul style="margin: 0; padding-left: 20px; color: #666;">
+                        <li><strong>setup_suspect_photo.php</strong> - Database migration</li>
+                        <li><strong>test_suspect_photo.php</strong> - System verification</li>
+                        <li><strong>uploads/suspects/</strong> - Photo storage directory</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h6 style="color: var(--primary); font-weight: 600; margin-bottom: 10px;">
+                        ✓ Documentation Added:
+                    </h6>
+                    <ul style="margin: 0; padding-left: 20px; color: #666;">
+                        <li><strong>SUSPECT_PHOTO_README.md</strong> - Overview & summary</li>
+                        <li><strong>SUSPECT_PHOTO_FEATURE.md</strong> - Complete guide</li>
+                        <li><strong>SUSPECT_PHOTO_QUICK_START.md</strong> - Quick reference</li>
+                        <li><strong>IMPLEMENTATION_DETAILS.md</strong> - Technical details</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Supported Formats -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5><i class="bi bi-file-earmark-image"></i> Supported Formats & Specifications</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6 style="color: var(--primary); margin-bottom: 15px;">Image Formats:</h6>
+                        <ul style="list-style: none; padding: 0;">
+                            <li><i class="bi bi-check-circle" style="color: #28a745;"></i> JPEG (.jpg, .jpeg)</li>
+                            <li><i class="bi bi-check-circle" style="color: #28a745;"></i> PNG (.png)</li>
+                            <li><i class="bi bi-check-circle" style="color: #28a745;"></i> GIF (.gif)</li>
+                            <li><i class="bi bi-check-circle" style="color: #28a745;"></i> WebP (.webp)</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 style="color: var(--primary); margin-bottom: 15px;">Specifications:</h6>
+                        <ul style="list-style: none; padding: 0; color: #666;">
+                            <li><i class="bi bi-info-circle"></i> Max Size: 5MB</li>
+                            <li><i class="bi bi-info-circle"></i> Thumbnails: 80×100px</li>
+                            <li><i class="bi bi-info-circle"></i> Storage: /uploads/suspects/</li>
+                            <li><i class="bi bi-info-circle"></i> Security: Protected with .htaccess</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Documentation -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5><i class="bi bi-book-fill"></i> Documentation & Resources</h5>
+            </div>
+            <div class="card-body">
+                <div class="documentation-links">
+                    <a href="SUSPECT_PHOTO_README.md" class="doc-link">
+                        <i class="bi bi-file-text"></i> Summary & Overview
+                    </a>
+                    <a href="SUSPECT_PHOTO_QUICK_START.md" class="doc-link">
+                        <i class="bi bi-lightning"></i> Quick Reference
+                    </a>
+                    <a href="SUSPECT_PHOTO_FEATURE.md" class="doc-link">
+                        <i class="bi bi-book"></i> Complete Guide
+                    </a>
+                    <a href="IMPLEMENTATION_DETAILS.md" class="doc-link">
+                        <i class="bi bi-code-square"></i> Technical Details
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-section">
+            <h4 style="color: var(--primary); margin-bottom: 20px;">Ready to get started?</h4>
+            <div style="margin-bottom: 20px;">
+                <p style="color: #666; margin: 0;">Follow the 3 quick steps above or run setup manually:</p>
+            </div>
+            <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+                <a href="setup_suspect_photo.php" class="btn btn-setup btn-setup-primary">
+                    <i class="bi bi-wrench"></i> Setup System
+                </a>
+                <a href="test_suspect_photo.php" class="btn btn-setup btn-setup-secondary">
+                    <i class="bi bi-check-circle"></i> Verify Install
+                </a>
+                <a href="admin/cases.php" class="btn btn-setup btn-setup-secondary">
+                    <i class="bi bi-arrow-right"></i> Go to Cases
+                </a>
+            </div>
+            <hr style="margin: 20px 0; border-color: #e0e0e0;">
+            <small style="color: #999;">
+                Law Enforcement Incident Report System • Suspect Photo Management v1.0<br>
+                Implementation Date: January 20, 2026 • Status: ✅ Ready for Use
+            </small>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,664 @@
+/**
+ * LGU #4 - Data Tables Component Styles
+ * Dedicated styles for the data tables page
+ * 
+ * This file contains:
+ * - Table styling and layout
+ * - Table controls and pagination
+ * - Responsive table design
+ * - Interactive table features
+ * 
+ * @version 1.0.0
+ * @author LGU #4 Development Team
+ */
+
+/* ===================================
+   DATA TABLES - Base table styling
+   =================================== */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card-bg-1);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border-color-1);
+}
+
+.data-table th,
+.data-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color-1);
+}
+
+.data-table th {
+    background: var(--header-bg-1);
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s ease;
+}
+
+.data-table th:hover {
+    background: var(--border-color-1);
+}
+
+.data-table th i {
+    margin-left: 0.5rem;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.data-table td {
+    color: var(--text-color-1);
+    font-size: 14px;
+}
+
+.data-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.data-table tbody tr:hover {
+    background: var(--header-bg-1);
+}
+
+/* ===================================
+   TABLE CONTROLS - Search, filters, and actions
+   =================================== */
+.table-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.search-box {
+    position: relative;
+    max-width: 300px;
+    flex: 1;
+}
+
+.search-box::before {
+    content: '\f002';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-secondary-1);
+    z-index: 1;
+}
+
+.search-box input {
+    padding-left: 40px !important;
+}
+
+.search-box .form-control {
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--border-color-1);
+    border-radius: 8px;
+    font-size: 14px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.search-box .form-control:focus {
+    border-color: var(--primary-color-1);
+    box-shadow: 0 0 0 3px rgba(76, 138, 137, 0.1);
+}
+
+.table-actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.table-actions .form-control {
+    padding: 0.75rem;
+    border: 2px solid var(--border-color-1);
+    border-radius: 8px;
+    font-size: 14px;
+    background: var(--bg-color-1);
+    color: var(--text-color-1);
+    cursor: pointer;
+}
+
+.table-actions .form-control:focus {
+    border-color: var(--primary-color-1);
+    box-shadow: 0 0 0 3px rgba(76, 138, 137, 0.1);
+}
+
+/* ===================================
+   BULK ACTIONS - Multi-select functionality
+   =================================== */
+.bulk-actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bulk-actions .btn {
+    font-size: 12px;
+    padding: 0.5rem 0.75rem;
+}
+
+/* ===================================
+   TABLE WRAPPER - Responsive container
+   =================================== */
+.table-wrapper {
+    overflow-x: auto;
+    border-radius: 8px;
+    border: 1px solid var(--border-color-1);
+    margin-bottom: 1.5rem;
+}
+
+/* ===================================
+   TABLE INFO - Pagination and information
+   =================================== */
+.table-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.table-info-text {
+    color: var(--text-secondary-1);
+    font-size: 14px;
+}
+
+.pagination {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.pagination .btn {
+    font-size: 12px;
+    padding: 0.5rem 0.75rem;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination .btn-primary {
+    background-color: var(--primary-color-1) !important;
+    border-color: var(--primary-color-1) !important;
+    color: white !important;
+}
+
+.pagination .btn-secondary {
+    background-color: var(--border-color-1) !important;
+    border-color: var(--border-color-1) !important;
+    color: var(--text-color-1) !important;
+}
+
+.pagination .btn i {
+    margin: 0;
+    font-size: 12px;
+    color: white;
+}
+
+.pagination .btn-secondary i {
+    color: white;
+}
+
+.pagination span {
+    color: var(--text-secondary-1);
+    font-size: 14px;
+    padding: 0 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+/* ===================================
+   TABLE STYLES - Different table variations
+   =================================== */
+.table-striped tbody tr:nth-child(even) {
+    background: var(--header-bg-1);
+}
+
+.table-striped tbody tr:nth-child(even):hover {
+    background: var(--border-color-1);
+}
+
+.table-bordered {
+    border: 1px solid var(--border-color-1);
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid var(--border-color-1);
+}
+
+/* ===================================
+   BADGES - Status indicators
+   =================================== */
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.badge-success {
+    background-color: rgba(40, 167, 69, 0.1);
+    color: #28a745;
+}
+
+.badge-danger {
+    background-color: rgba(220, 53, 69, 0.1);
+    color: #dc3545;
+}
+
+.badge-warning {
+    background-color: rgba(255, 193, 7, 0.1);
+    color: #ffc107;
+}
+
+.badge-secondary {
+    background-color: rgba(108, 117, 125, 0.1);
+    color: #6c757d;
+}
+
+.badge-primary {
+    background-color: rgba(76, 138, 137, 0.1);
+    color: var(--primary-color-1);
+}
+
+/* ===================================
+   CHECKBOXES - Row selection
+   =================================== */
+.row-checkbox {
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--border-color-1);
+    border-radius: 3px;
+    background-color: var(--bg-color-1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.row-checkbox:checked {
+    background-color: var(--primary-color-1);
+    border-color: var(--primary-color-1);
+}
+
+.row-checkbox:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(76, 138, 137, 0.2);
+}
+
+/* ===================================
+   RESPONSIVE TABLES - Mobile-friendly design
+   =================================== */
+.responsive-table {
+    display: none;
+}
+
+.mobile-card {
+    background: var(--card-bg-1);
+    border: 1px solid var(--border-color-1);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px var(--shadow-1);
+}
+
+.mobile-card-header {
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color-1);
+}
+
+.mobile-card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+}
+
+.mobile-card-label {
+    font-weight: 500;
+    color: var(--text-secondary-1);
+}
+
+.mobile-card-value {
+    color: var(--text-color-1);
+    text-align: right;
+}
+
+/* ===================================
+   PAGE CONTENT STYLING - Page-specific layout
+   =================================== */
+.page-content {
+    max-width: 100%;
+}
+
+/* ===================================
+   COMPONENT SECTIONS - Individual component demonstrations
+   =================================== */
+.component-section {
+    margin-bottom: 3rem;
+    background: var(--card-bg-1);
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid var(--border-color-1);
+    box-shadow: 0 4px 12px var(--shadow-1);
+}
+
+.component-section h3 {
+    color: var(--text-color-1);
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.component-section h3 i {
+    color: var(--primary-color-1);
+    font-size: 1.5rem;
+}
+
+.component-section h4 {
+    color: var(--text-color-1);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+}
+
+.component-section p {
+    color: var(--text-secondary-1);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+/* ===================================
+   USAGE REQUIREMENTS - File dependencies display
+   =================================== */
+.usage-requirements {
+    background: var(--header-bg-1);
+    border: 1px solid var(--border-color-1);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.requirement-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+    background: var(--card-bg-1);
+    border-radius: 6px;
+    border: 1px solid var(--border-color-1);
+}
+
+.requirement-item:last-child {
+    margin-bottom: 0;
+}
+
+.requirement-item i {
+    color: var(--primary-color-1);
+    font-size: 1.1rem;
+    width: 20px;
+    text-align: center;
+}
+
+/* ===================================
+   IMPLEMENTATION STEPS - Step-by-step guide styling
+   =================================== */
+.implementation-steps {
+    margin: 1.5rem 0;
+}
+
+.step-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--card-bg-1);
+    border-radius: 8px;
+    border: 1px solid var(--border-color-1);
+    transition: all 0.3s ease;
+}
+
+.step-item:hover {
+    border-color: var(--primary-color-1);
+    box-shadow: 0 4px 12px var(--shadow-1);
+}
+
+.step-number {
+    width: 32px;
+    height: 32px;
+    background: var(--primary-color-1);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.step-content strong {
+    color: var(--text-color-1);
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.step-content pre {
+    margin: 0.5rem 0 0 0;
+    background: var(--header-bg-1);
+    border: 1px solid var(--border-color-1);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+.step-content code {
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    color: var(--text-color-1);
+    line-height: 1.4;
+}
+
+/* ===================================
+   CODE BLOCKS - Syntax highlighting and styling
+   =================================== */
+pre {
+    background: var(--header-bg-1);
+    border: 1px solid var(--border-color-1);
+    border-radius: 8px;
+    padding: 1.5rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: var(--text-color-1);
+}
+
+pre code {
+    display: block;
+    line-height: 1.5;
+}
+
+/* ===================================
+   RESPONSIVE DESIGN - Mobile and tablet adjustments
+   =================================== */
+@media (max-width: 768px) {
+    .usage-requirements {
+        padding: 1rem;
+    }
+    
+    .requirement-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+    
+    .requirement-item i {
+        align-self: center;
+    }
+    
+    .step-item {
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 0.75rem;
+    }
+    
+    .step-number {
+        align-self: flex-start;
+    }
+    
+    .step-content pre {
+        font-size: 12px;
+        padding: 0.75rem;
+    }
+    
+    .table-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .search-box {
+        max-width: 100%;
+    }
+    
+    .table-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .pagination {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .bulk-actions {
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .table-wrapper {
+        display: block;
+    }
+    
+    .responsive-table {
+        display: block;
+    }
+    
+    .data-table {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .component-section {
+        padding: 1.5rem;
+    }
+    
+    .step-content strong {
+        font-size: 1rem;
+    }
+    
+    .step-content code {
+        font-size: 11px;
+    }
+    
+    .step-content pre {
+        padding: 0.5rem;
+    }
+    
+    pre code {
+        font-size: 12px;
+    }
+    
+    .data-table th,
+    .data-table td {
+        padding: 0.75rem 0.5rem;
+        font-size: 12px;
+    }
+    
+    .table-controls .form-control {
+        padding: 0.625rem 0.875rem;
+        font-size: 13px;
+    }
+    
+    .mobile-card {
+        padding: 0.75rem;
+    }
+    
+    .mobile-card-row {
+        font-size: 12px;
+    }
+}
+
+/* ===================================
+   FUNCTIONAL BUTTON COLORS - For datatables page
+   =================================== */
+
+/* Specific button colors for datatables page */
+.btn-success {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    color: white !important;
+}
+
+.btn-warning {
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+    color: #212529 !important;
+}
+
+.btn-danger {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: white !important;
+}
+
+.btn-info {
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+    color: white !important;
+}
+
+.btn-primary {
+    background-color: #4c8a89 !important;
+    border-color: #4c8a89 !important;
+    color: white !important;
+}

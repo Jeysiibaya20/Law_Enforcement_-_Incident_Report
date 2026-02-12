@@ -1,0 +1,187 @@
+/* ===================================
+   HERO SECTION STYLES
+   =================================== */
+
+.hero-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+    background-color: transparent;
+    color: var(--text-color);
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hero section container styling */
+.hero-section .main-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section .sub-container {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+
+/* Enhanced button styling in hero */
+.hero-buttons .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-buttons .btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border: 2px solid var(--primary-color);
+}
+
+.hero-buttons .btn-primary:hover {
+    background-color: #4ca8a6;
+    border-color: #4ca8a6;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(76, 138, 137, 0.15);
+}
+
+.hero-buttons .btn-secondary {
+    background-color: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--border-color);
+}
+
+.hero-buttons .btn-secondary:hover {
+    background-color: var(--border-color);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero-buttons .btn-outline-primary {
+    background: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.hero-buttons .btn-outline-primary:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(76, 138, 137, 0.1);
+}
+
+/* ===================================
+   RESPONSIVE HERO
+   =================================== */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 2rem 1.5rem 1.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 6px;
+    }
+    
+    .hero-section .main-container {
+        padding: 0 0.75rem;
+    }
+    
+    .hero-section h1 {
+        font-size: 2rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .hero-section p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+        max-width: 280px;
+        padding: 0.75rem 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 1.5rem 1rem 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        border-radius: 4px;
+    }
+    
+    .hero-section .main-container {
+        padding: 0 0.5rem;
+    }
+    
+    .hero-section h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .hero-section p {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+        line-height: 1.4;
+    }
+    
+    .hero-buttons .btn {
+        max-width: 250px;
+        padding: 0.625rem 1.25rem;
+        font-size: 0.9rem;
+    }
+}

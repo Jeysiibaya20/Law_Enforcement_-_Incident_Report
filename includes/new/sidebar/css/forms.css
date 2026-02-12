@@ -1,0 +1,522 @@
+/**
+ * LGU #4 - Forms Component Styles
+ * Dedicated styles for the forms page
+ * 
+ * This file contains:
+ * - Form-specific styling
+ * - Input field styles and states
+ * - Validation state styling
+ * - Form layout and organization
+ * 
+ * @version 1.0.0
+ * @author LGU #4 Development Team
+ */
+
+/* ===================================
+   FORM LAYOUTS - Form structure and organization
+   =================================== */
+.form-demo {
+    background: var(--card-bg-1);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color-1);
+    box-shadow: 0 4px 12px var(--shadow-1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* ===================================
+   FORM CONTROLS - Input, textarea, select styling
+   =================================== */
+.form-control {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--border-color-1);
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: var(--font-family-1);
+    background-color: var(--bg-color-1);
+    color: var(--text-color-1);
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color-1);
+    box-shadow: 0 0 0 3px rgba(76, 138, 137, 0.1);
+}
+
+.form-control::placeholder {
+    color: var(--text-secondary-1);
+    opacity: 0.7;
+}
+
+.form-control:disabled {
+    background-color: var(--border-color-1);
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* ===================================
+   FORM LABELS - Label styling and positioning
+   =================================== */
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--text-color-1);
+    font-size: 14px;
+}
+
+/* ===================================
+   VALIDATION STATES - Success, error, warning states
+   =================================== */
+.form-control.is-success {
+    border-color: #28a745;
+    background-color: rgba(40, 167, 69, 0.05);
+}
+
+.form-control.is-success:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.1);
+}
+
+.form-control.is-error {
+    border-color: #dc3545;
+    background-color: rgba(220, 53, 69, 0.05);
+}
+
+.form-control.is-error:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.1);
+}
+
+.form-control.is-warning {
+    border-color: #ffc107;
+    background-color: rgba(255, 193, 7, 0.05);
+}
+
+.form-control.is-warning:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.1);
+}
+
+/* ===================================
+   FORM HELP TEXT - Validation messages and hints
+   =================================== */
+.form-text {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 12px;
+    color: var(--text-secondary-1);
+}
+
+.form-text.success-text {
+    color: #28a745;
+    font-weight: 500;
+}
+
+.form-text.error-text {
+    color: #dc3545;
+    font-weight: 500;
+}
+
+.form-text.warning-text {
+    color: #ffc107;
+    font-weight: 500;
+}
+
+/* ===================================
+   CHECKBOXES - Custom checkbox styling
+   =================================== */
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    color: var(--text-color-1);
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.checkbox-label:hover {
+    color: var(--primary-color-1);
+}
+
+.form-checkbox {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--border-color-1);
+    border-radius: 4px;
+    background-color: var(--bg-color-1);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.form-checkbox:checked {
+    background-color: var(--primary-color-1);
+    border-color: var(--primary-color-1);
+}
+
+.form-checkbox:checked::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form-checkbox:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 138, 137, 0.1);
+}
+
+/* ===================================
+   RADIO BUTTONS - Custom radio button styling
+   =================================== */
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    color: var(--text-color-1);
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.radio-label:hover {
+    color: var(--primary-color-1);
+}
+
+.form-radio {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--border-color-1);
+    border-radius: 50%;
+    background-color: var(--bg-color-1);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.form-radio:checked {
+    border-color: var(--primary-color-1);
+}
+
+.form-radio:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--primary-color-1);
+}
+
+.form-radio:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 138, 137, 0.1);
+}
+
+/* ===================================
+   TEXTAREA STYLING - Special textarea adjustments
+   =================================== */
+textarea.form-control {
+    resize: vertical;
+    min-height: 100px;
+}
+
+textarea.form-control:focus {
+    transform: none;
+}
+
+/* ===================================
+   SELECT STYLING - Custom dropdown appearance
+   =================================== */
+select.form-control {
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2371775c'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 20px;
+    padding-right: 2.5rem;
+}
+
+select.form-control:focus {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%234c8a89'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+}
+
+/* ===================================
+   FORMS SHOWCASE - Layout for form demonstrations
+   =================================== */
+.forms-showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+/* ===================================
+   PAGE CONTENT STYLING - Page-specific layout
+   =================================== */
+.page-content {
+    max-width: 100%;
+}
+
+/* ===================================
+   COMPONENT SECTIONS - Individual component demonstrations
+   =================================== */
+.component-section {
+    margin-bottom: 3rem;
+    background: var(--card-bg-1);
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid var(--border-color-1);
+    box-shadow: 0 4px 12px var(--shadow-1);
+}
+
+.component-section h3 {
+    color: var(--text-color-1);
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.component-section h3 i {
+    color: var(--primary-color-1);
+    font-size: 1.5rem;
+}
+
+.component-section h4 {
+    color: var(--text-color-1);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+}
+
+.component-section p {
+    color: var(--text-secondary-1);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+/* ===================================
+   USAGE REQUIREMENTS - File dependencies display
+   =================================== */
+.usage-requirements {
+    background: var(--header-bg-1);
+    border: 1px solid var(--border-color-1);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.requirement-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+    background: var(--card-bg-1);
+    border-radius: 6px;
+    border: 1px solid var(--border-color-1);
+}
+
+.requirement-item:last-child {
+    margin-bottom: 0;
+}
+
+.requirement-item i {
+    color: var(--primary-color-1);
+    font-size: 1.1rem;
+    width: 20px;
+    text-align: center;
+}
+
+/* ===================================
+   IMPLEMENTATION STEPS - Step-by-step guide styling
+   =================================== */
+.implementation-steps {
+    margin: 1.5rem 0;
+}
+
+.step-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--card-bg-1);
+    border-radius: 8px;
+    border: 1px solid var(--border-color-1);
+    transition: all 0.3s ease;
+}
+
+.step-item:hover {
+    border-color: var(--primary-color-1);
+    box-shadow: 0 4px 12px var(--shadow-1);
+}
+
+.step-number {
+    width: 32px;
+    height: 32px;
+    background: var(--primary-color-1);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.step-content strong {
+    color: var(--text-color-1);
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.step-content pre {
+    margin: 0.5rem 0 0 0;
+    background: var(--header-bg-1);
+    border: 1px solid var(--border-color-1);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+.step-content code {
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    color: var(--text-color-1);
+    line-height: 1.4;
+}
+
+/* ===================================
+   CODE BLOCKS - Syntax highlighting and styling
+   =================================== */
+pre {
+    background: var(--header-bg-1);
+    border: 1px solid var(--border-color-1);
+    border-radius: 8px;
+    padding: 1.5rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: var(--text-color-1);
+}
+
+pre code {
+    display: block;
+    line-height: 1.5;
+}
+
+/* ===================================
+   RESPONSIVE DESIGN - Mobile and tablet adjustments
+   =================================== */
+@media (max-width: 768px) {
+    .usage-requirements {
+        padding: 1rem;
+    }
+    
+    .requirement-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+    
+    .requirement-item i {
+        align-self: center;
+    }
+    
+    .step-item {
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 0.75rem;
+    }
+    
+    .step-number {
+        align-self: flex-start;
+    }
+    
+    .step-content pre {
+        font-size: 12px;
+        padding: 0.75rem;
+    }
+    
+    .forms-showcase {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-demo {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .component-section {
+        padding: 1.5rem;
+    }
+    
+    .form-demo {
+        padding: 1rem;
+    }
+    
+    .step-content strong {
+        font-size: 1rem;
+    }
+    
+    .step-content code {
+        font-size: 11px;
+    }
+    
+    .step-content pre {
+        padding: 0.5rem;
+    }
+    
+    pre code {
+        font-size: 12px;
+    }
+    
+    .form-control {
+        padding: 0.625rem 0.875rem;
+    }
+}

@@ -1,0 +1,305 @@
+/* ===================================
+   HOME SECTION STYLES
+   =================================== */
+
+.home {
+    background: var(--bg-color-1-alt);
+    width: 100%;
+    padding: 6rem 1rem;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.home-content {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.home .content h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    color: var(--text-color-1);
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-align: center;
+    justify-content: center;
+}
+
+.home .content h1 span {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.home .content h1 img {
+    height: 1.1em;
+    width: auto;
+    vertical-align: middle;
+    object-fit: contain;
+}
+
+.home .tara {
+    margin-bottom: 13px;
+}
+
+.home .content h2 {
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    font-weight: 500;
+    color: var(--text-secondary-1);
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.home .content p {
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    color: var(--text-secondary-1);
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Home Features Grid */
+.home-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+    margin: 4rem auto;
+    max-width: var(--max-width);
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.feature-item {
+    background: var(--card-bg-1);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color-1);
+    transition: all 0.3s ease;
+}
+
+.feature-item i {
+    font-size: 2.5rem;
+    color: var(--primary-color-1);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.feature-item h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-secondary-1);
+    margin-bottom: 0.75rem;
+}
+
+.feature-item p {
+    font-size: 0.95rem;
+    color: var(--text-secondary-1);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ===================================
+   RESPONSIVE DESIGN
+   =================================== */
+
+/* Large Desktop - 1400px and up */
+@media (min-width: 1400px) {
+    .home-content {
+        max-width: 1400px;
+        padding: 0 3rem;
+    }
+    
+    .home-features {
+        max-width: 1400px;
+        gap: 3rem;
+    }
+}
+
+/* Desktop - 1025px to 1399px */
+@media (max-width: 1399px) {
+    .home-content {
+        padding: 0 2.5rem;
+    }
+    
+    .home-features {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+    }
+}
+
+/* Tablet Landscape - 1024px */
+@media (max-width: 1024px) {
+    .home {
+        padding: 5rem 1rem 2rem;
+        min-height: 90vh;
+    }
+    
+    .home-content {
+        padding: 0 2rem;
+    }
+    
+    .home-features {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin: 3rem auto;
+        padding: 0 2rem;
+    }
+}
+
+/* Tablet Portrait - 768px to 1023px */
+@media (max-width: 768px) {
+    .home {
+        padding: 8rem 1rem 2rem;
+        min-height: 85vh;
+        align-items: flex-start;
+    }
+    
+    .home-content {
+        padding: 0 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .home .content h1 {
+        margin-bottom: 1.5rem;
+        line-height: 1.3;
+    }
+    
+    .home .content h1 img {
+        height: 1.1em;
+        margin-bottom: 12px;
+    }
+    
+    .home-features {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1.5rem;
+        margin: 2.5rem auto;
+        padding: 0 1.5rem;
+    }
+    
+    .feature-item {
+        padding: 1.5rem;
+    }
+}
+
+/* Mobile Large - 600px to 767px */
+@media (max-width: 600px) {
+    .home {
+        padding: 7rem 1rem 2rem;
+        min-height: 80vh;
+    }
+    
+    .home-content {
+        padding: 0 1.25rem;
+        margin-top: 1rem;
+    }
+    
+    .home .content h1 {
+        margin-bottom: 1.5rem;
+        line-height: 1.3;
+    }
+    
+    .home .content h1 img {
+        height: 1.1em;
+        margin-bottom: 10px;
+    }
+    
+    .home-features {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+        margin: 2rem auto;
+        padding: 0 1.25rem;
+        max-width: var(--max-width);
+    }
+    
+    .feature-item {
+        padding: 1.25rem;
+    }
+    
+    .feature-item i {
+        font-size: 2.2rem;
+    }
+}
+
+/* Mobile Small - 480px and below */
+@media (max-width: 480px) {
+    .home {
+        padding: 8rem 0.75rem 2rem;
+        min-height: 75vh;
+    }
+    
+    .home-content {
+        padding: 0 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .home .content h1 {
+        font-size: clamp(2rem, 8vw, 3rem);
+        margin-bottom: 1rem;
+        line-height: 1.3;
+    }
+    
+    .home .content h1 img {
+        height: 1.1em;
+        margin-bottom: 7px;
+    }
+    
+    .home .content h2 {
+        font-size: clamp(1rem, 4vw, 1.25rem);
+        margin-bottom: 1.25rem;
+    }
+    
+    .home .content p {
+        font-size: clamp(0.9rem, 3vw, 1rem);
+        margin-bottom: 1.5rem;
+    }
+    
+    .home-features {
+        gap: 1rem;
+        margin: 1.75rem auto;
+        padding: 0 1rem;
+    }
+    
+    .feature-item {
+        padding: 1rem;
+    }
+    
+    .feature-item i {
+        font-size: 2rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .feature-item h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .feature-item p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Ultra Small Mobile - 320px and below */
+@media (max-width: 320px) {
+    .home {
+        padding: 11rem 0.5rem 1.5rem;
+        min-height: 70vh;
+    }
+    
+    .home-content {
+        padding: 0 0.75rem;
+        margin-top: 0.5rem;
+    }
+    
+    .home .content h1 img {
+        height: 1.1em;
+        margin-bottom: 7px;
+    }
+    
+    .feature-item {
+        padding: 0.875rem;
+    }
+}
