@@ -26,6 +26,15 @@ function parseDotEnv($path) {
 }
 
 $env = parseDotEnv(__DIR__ . '/../.env');
+// Also attempt to load mailer.env for deployments that use that file for settings
+$mailerEnvPath = __DIR__ . '/../mailer.env';
+if (file_exists($mailerEnvPath)) {
+    $mailerEnv = parseDotEnv($mailerEnvPath);
+    // merge without overwriting existing keys
+    foreach ($mailerEnv as $k => $v) {
+        if (!isset($env[$k])) $env[$k] = $v;
+    }
+}
 
 // Application enable guard — prevents accidental deployment until configured
 $enableApp = $env['ENABLE_APP'] ?? getenv('ENABLE_APP') ?: '0';
@@ -72,7 +81,16 @@ function getDBConnection() {
         
     } catch (PDOException $e) {
         // Log the detailed error for administrators
-        error_log("Database connection failed: " . $e->getMessage());
+        $msg = "Database connection failed: " . $e->getMessage();
+        error_log($msg);
+        // also write to dedicated log file if logs directory is writable
+        try {
+            $logDir = __DIR__ . '/../logs';
+            if (!is_dir($logDir)) @mkdir($logDir, 0755, true);
+            @file_put_contents($logDir . '/db_error.log', date('c') . " | " . $msg . "\n", FILE_APPEND | LOCK_EX);
+        } catch (Exception $ex) {
+            // ignore
+        }
         // If running in development mode, show the underlying error to help debugging
         $appEnv = $env['APP_ENV'] ?? getenv('APP_ENV');
         if ($appEnv === 'development' || $appEnv === 'local') {
