@@ -71,7 +71,14 @@ function getDBConnection() {
         return $pdo;
         
     } catch (PDOException $e) {
+        // Log the detailed error for administrators
         error_log("Database connection failed: " . $e->getMessage());
+        // If running in development mode, show the underlying error to help debugging
+        $appEnv = $env['APP_ENV'] ?? getenv('APP_ENV');
+        if ($appEnv === 'development' || $appEnv === 'local') {
+            die("Database connection failed: " . $e->getMessage());
+        }
+        // In production don't expose details
         die("Database connection failed. Please contact system administrator.");
     }
 }
