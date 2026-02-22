@@ -8,137 +8,74 @@
 
 class TwoFactorAuth {
     private $pdo;
-    private $secret_length = 16;
-    private $code_length = 6;
-    private $code_validity = 300; // 5 minutes
-    
-    public function __construct($pdo) {
+    private $code_validity = 900; // seconds (15 minutes) for email/SMS codes
+    private $totp_period = 30; // seconds for TOTP
+
+    public function __construct($pdo = null, $code_validity = 900) {
         $this->pdo = $pdo;
+        $this->code_validity = (int)$code_validity;
     }
-    
+
     /**
-     * Generate a secret key for TOTP
-     * 
-     * @return string
-     */
-    public function generateSecret() {
-        $chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
-        $secret = '';
-        for ($i = 0; $i < $this->secret_length; $i++) {
-            $secret .= $chars[random_int(0, strlen($chars) - 1)];
-        }
-        return $secret;
-    }
-    
-    /**
-     * Generate QR code URL for Google Authenticator
-     * 
-     * @param string $secret
-     * @param string $email
-     * @param string $issuer
-     * @return string
-     */
-    public function getQRCodeUrl($secret, $email, $issuer = 'Luz De Luna Hotel') {
-        $url = sprintf(
-            'otpauth://totp/%s:%s?secret=%s&issuer=%s',
-            rawurlencode($issuer),
-            rawurlencode($email),
-            $secret,
-            rawurlencode($issuer)
-        );
-        return $url;
-    }
-    
-    /**
-     * Generate QR code image URL using Google Charts API
-     * 
-     * @param string $secret
-     * @param string $email
-     * @param string $issuer
-     * @return string
-     */
-    public function getQRCodeImageUrl($secret, $email, $issuer = 'Luz De Luna Hotel') {
-        $qr_url = $this->getQRCodeUrl($secret, $email, $issuer);
-        return 'https://chart.googleapis.com/chart?chs=200x200&chld=M|0&cht=qr&chl=' . urlencode($qr_url);
-    }
-    
-    /**
-     * Generate TOTP code
-     * 
-     * @param string $secret
-     * @param int $time_slice
-     * @return string
-     */
-    public function generateTOTP($secret, $time_slice = null) {
-        if ($time_slice === null) {
-            $time_slice = floor(time() / 30);
-        }
-        
-        $secret_key = $this->base32Decode($secret);
-        $time = pack('N*', 0, $time_slice);
-        $hm = hash_hmac('sha1', $time, $secret_key, true);
-        $offset = ord(substr($hm, -1)) & 0x0F;
-        $hashpart = substr($hm, $offset, 4);
-        $value = unpack('N', $hashpart);
-        $value = $value[1];
-        $value = $value & 0x7FFFFFFF;
-        
-        $modulo = pow(10, $this->code_length);
-        return str_pad($value % $modulo, $this->code_length, '0', STR_PAD_LEFT);
-    }
-    
-    /**
-     * Verify TOTP code
-     * 
-     * @param string $secret
-     * @param string $code
-     * @param int $window
-     * @return bool
-     */
-    public function verifyTOTP($secret, $code, $window = 1) {
-        $time_slice = floor(time() / 30);
-        
-        for ($i = -$window; $i <= $window; $i++) {
-            $calculated_code = $this->generateTOTP($secret, $time_slice + $i);
-            if (hash_equals($calculated_code, $code)) {
-                return true;
-            }
-        }
-        
-        return false;
-    }
-    
-    /**
-     * Generate SMS code
-     * 
+     * Generate a 6-digit numeric code for SMS/Email
      * @return string
      */
     public function generateSMSCode() {
-        return str_pad(random_int(0, 999999), $this->code_length, '0', STR_PAD_LEFT);
-    }
-    
-    /**
-     * Store SMS code in database
-     * 
-     * @param int $user_id
-     * @param string $code
-     * @return bool
-     */
-    public function storeSMSCode($user_id, $code) {
         try {
+            $n = random_int(0, 999999);
+        } catch (Exception $e) {
+            $n = mt_rand(0, 999999);
+        }
+        return str_pad((string)$n, 6, '0', STR_PAD_LEFT);
+    }
+
+    // Backwards-compat alias
+    public function generateEmailCode() { return $this->generateSMSCode(); }
+    
+    public function storeSMSCode($user_id, $code) {
+        // If PDO is not available, skip DB attempt and use session fallback
+        if (!($this->pdo instanceof PDO)) {
+            if (session_status() === PHP_SESSION_NONE) { @session_start(); }
+            $_SESSION['tfa_codes'] = $_SESSION['tfa_codes'] ?? [];
+            $_SESSION['tfa_codes'][$user_id] = [
+                'code' => $code,
+                'expires_at' => time() + $this->code_validity,
+                'used' => false,
+                'type' => 'SMS'
+            ];
+            error_log("Stored SMS code in session for user {$user_id} (no PDO)");
+            return true;
+        }
+
+        try {
+            // Invalidate previous SMS codes for this user immediately to avoid confusion
+            $invalidateSql = "UPDATE two_factor_codes SET used = 1 WHERE user_id = ? AND type = 'SMS' AND used = 0";
+            $this->pdo->prepare($invalidateSql)->execute([$user_id]);
+
             $sql = "INSERT INTO two_factor_codes (user_id, code, type, expires_at) 
-                    VALUES (?, ?, 'SMS', DATE_ADD(NOW(), INTERVAL ? SECOND))
-                    ON DUPLICATE KEY UPDATE 
-                    code = VALUES(code), 
-                    expires_at = VALUES(expires_at),
-                    created_at = NOW()";
-            
+                    VALUES (?, ?, 'SMS', DATE_ADD(NOW(), INTERVAL ? SECOND))";
             $stmt = $this->pdo->prepare($sql);
-            return $stmt->execute([$user_id, $code, $this->code_validity]);
+            $ok = $stmt->execute([$user_id, $code, $this->code_validity]);
+            if ($ok) return true;
+            // if execute returns false, fallthrough to fallback below
         } catch (Exception $e) {
             error_log("Error storing SMS code: " . $e->getMessage());
-            return false;
+            // We'll fall back to session storage below
         }
+
+        // Fallback: if DB table is missing or write failed, store code in session for local/dev environments
+        if (session_status() === PHP_SESSION_NONE) {
+            @session_start();
+        }
+        $_SESSION['tfa_codes'] = $_SESSION['tfa_codes'] ?? [];
+        $_SESSION['tfa_codes'][$user_id] = [
+            'code' => $code,
+            'expires_at' => time() + $this->code_validity,
+            'used' => false,
+            'type' => 'SMS'
+        ];
+        error_log("Stored SMS code in session for user {$user_id}");
+        return true;
     }
     
     /**
@@ -149,6 +86,24 @@ class TwoFactorAuth {
      * @return bool
      */
     public function verifySMSCode($user_id, $code) {
+        // If no PDO, use session fallback
+        if (!($this->pdo instanceof PDO)) {
+            if (session_status() === PHP_SESSION_NONE) {
+                @session_start();
+            }
+            if (!empty($_SESSION['tfa_codes'][$user_id])) {
+                $entry = $_SESSION['tfa_codes'][$user_id];
+                if (!empty($entry['used'])) return false;
+                if ($entry['type'] !== 'SMS') return false;
+                if ($entry['code'] === $code && time() < $entry['expires_at']) {
+                    // mark used
+                    $_SESSION['tfa_codes'][$user_id]['used'] = true;
+                    return true;
+                }
+            }
+            return false;
+        }
+
         try {
             $sql = "SELECT id FROM two_factor_codes 
                     WHERE user_id = ? AND code = ? AND type = 'SMS' 
@@ -169,6 +124,20 @@ class TwoFactorAuth {
             return false;
         } catch (Exception $e) {
             error_log("Error verifying SMS code: " . $e->getMessage());
+            // Fallback: check session-stored codes (useful for local/dev with no table)
+            if (session_status() === PHP_SESSION_NONE) {
+                @session_start();
+            }
+            if (!empty($_SESSION['tfa_codes'][$user_id])) {
+                $entry = $_SESSION['tfa_codes'][$user_id];
+                if (!empty($entry['used'])) return false;
+                if ($entry['type'] !== 'SMS') return false;
+                if ($entry['code'] === $code && time() < $entry['expires_at']) {
+                    // mark used
+                    $_SESSION['tfa_codes'][$user_id]['used'] = true;
+                    return true;
+                }
+            }
             return false;
         }
     }
@@ -177,25 +146,87 @@ class TwoFactorAuth {
      * Store Email code in database (uses two_factor_codes with type EMAIL)
      */
     public function storeEmailCode($user_id, $code) {
+        // If PDO is not available, use session fallback immediately
+        if (!($this->pdo instanceof PDO)) {
+            if (session_status() === PHP_SESSION_NONE) { @session_start(); }
+            $_SESSION['tfa_codes'] = $_SESSION['tfa_codes'] ?? [];
+            $_SESSION['tfa_codes'][$user_id] = [
+                'code' => $code,
+                'expires_at' => time() + $this->code_validity,
+                'used' => false,
+                'type' => 'EMAIL'
+            ];
+            error_log("Stored EMAIL code in session for user {$user_id} (no PDO)");
+            return true;
+        }
+
         try {
+            // Invalidate previous EMAIL codes for this user to ensure only the latest code is valid
+            $invalidateSql = "UPDATE two_factor_codes SET used = 1 WHERE user_id = ? AND type = 'EMAIL' AND used = 0";
+            $this->pdo->prepare($invalidateSql)->execute([$user_id]);
+
             $sql = "INSERT INTO two_factor_codes (user_id, code, type, expires_at) 
-                    VALUES (?, ?, 'EMAIL', DATE_ADD(NOW(), INTERVAL ? SECOND))
-                    ON DUPLICATE KEY UPDATE 
-                    code = VALUES(code), 
-                    expires_at = VALUES(expires_at),
-                    created_at = NOW()";
+                    VALUES (?, ?, 'EMAIL', DATE_ADD(NOW(), INTERVAL ? SECOND))";
             $stmt = $this->pdo->prepare($sql);
-            return $stmt->execute([$user_id, $code, $this->code_validity]);
+            $ok = $stmt->execute([$user_id, $code, $this->code_validity]);
+            if ($ok) return true;
+            // fallthrough to session fallback
         } catch (Exception $e) {
             error_log("Error storing Email code: " . $e->getMessage());
-            return false;
+            // fallthrough to session fallback
         }
+
+        // Fallback: store in session for environments without table
+        if (session_status() === PHP_SESSION_NONE) {
+            @session_start();
+        }
+        $_SESSION['tfa_codes'] = $_SESSION['tfa_codes'] ?? [];
+        $_SESSION['tfa_codes'][$user_id] = [
+            'code' => $code,
+            'expires_at' => time() + $this->code_validity,
+            'used' => false,
+            'type' => 'EMAIL'
+        ];
+        error_log("Stored EMAIL code in session for user {$user_id}");
+        return true;
     }
     
     /**
      * Verify Email code
      */
     public function verifyEmailCode($user_id, $code) {
+        // If no PDO, use session fallback
+        if (!($this->pdo instanceof PDO)) {
+            if (session_status() === PHP_SESSION_NONE) {
+                @session_start();
+            }
+            if (!empty($_SESSION['tfa_codes'][$user_id])) {
+                $entry = $_SESSION['tfa_codes'][$user_id];
+                if (!empty($entry['used'])) return false;
+                if ($entry['type'] !== 'EMAIL') return false;
+                // Use loose equality to allow string/int matches from different generators
+                if ($entry['code'] == $code && time() < $entry['expires_at']) {
+                    $_SESSION['tfa_codes'][$user_id]['used'] = true;
+                    return true;
+                }
+            }
+
+            // Also support session fallback keyed by email (used by sendEmailCode and test tools)
+            $email = $this->getUserEmail($user_id);
+            if ($email && !empty($_SESSION['tfa_last_email_otp'][$email])) {
+                $e = $_SESSION['tfa_last_email_otp'][$email];
+                // e['when'] is stored as Y-m-d H:i:s — compute expiry using timestamp
+                $whenTs = !empty($e['when']) ? strtotime($e['when']) : 0;
+                $expiresAt = $whenTs + $this->code_validity;
+                if (!empty($e['code']) && $e['code'] == $code && time() < $expiresAt) {
+                    // consume the fallback so it's not reusable
+                    unset($_SESSION['tfa_last_email_otp'][$email]);
+                    return true;
+                }
+            }
+            return false;
+        }
+
         try {
             $sql = "SELECT id FROM two_factor_codes 
                     WHERE user_id = ? AND code = ? AND type = 'EMAIL' 
@@ -212,6 +243,32 @@ class TwoFactorAuth {
             return false;
         } catch (Exception $e) {
             error_log("Error verifying Email code: " . $e->getMessage());
+            // Fallback: check session-stored codes
+            if (session_status() === PHP_SESSION_NONE) {
+                @session_start();
+            }
+            if (!empty($_SESSION['tfa_codes'][$user_id])) {
+                $entry = $_SESSION['tfa_codes'][$user_id];
+                if (!empty($entry['used'])) return false;
+                if ($entry['type'] !== 'EMAIL') return false;
+                // Allow loose comparison for string/int
+                if ($entry['code'] == $code && time() < $entry['expires_at']) {
+                    $_SESSION['tfa_codes'][$user_id]['used'] = true;
+                    return true;
+                }
+            }
+
+            // Also check session fallback by email (sendEmailCode uses this when email delivery failed)
+            $email = $this->getUserEmail($user_id);
+            if ($email && !empty($_SESSION['tfa_last_email_otp'][$email])) {
+                $e = $_SESSION['tfa_last_email_otp'][$email];
+                $whenTs = !empty($e['when']) ? strtotime($e['when']) : 0;
+                $expiresAt = $whenTs + $this->code_validity;
+                if (!empty($e['code']) && $e['code'] == $code && time() < $expiresAt) {
+                    unset($_SESSION['tfa_last_email_otp'][$email]);
+                    return true;
+                }
+            }
             return false;
         }
     }
@@ -238,57 +295,130 @@ class TwoFactorAuth {
     }
     
     /**
-     * Send Email code using PHPMailer (fallback to mail())
+     * Send Email code using PHPMailer (SMTP preferred), fallback to mail(), then session storage.
+     * Works on both LOCALHOST (dev/testing) and DOMAIN (production).
+     * 
+     * Flow:
+     * 1. If SMTP credentials are configured (not placeholders): attempt PHPMailer + SMTP
+     * 2. If SMTP unavailable/fails OR on localhost: attempt PHP mail()
+     * 3. Always store in session as fallback (accessible in same browser for dev testing)
+     * 4. Return true if real delivery succeeded OR session fallback stored successfully
      */
     public function sendEmailCode($toEmail, $code) {
         if (!$toEmail) return false;
         $subject = 'Your Two-Factor Authentication Code';
-        $body = "Your verification code is: <strong>{$code}</strong><br/>This code expires in 5 minutes.";
+        $minutes = (int) max(1, floor($this->code_validity / 60));
+        $body = "Your verification code is: <strong>{$code}</strong><br/>This code expires in {$minutes} minute" . ($minutes > 1 ? 's' : '') . ".";
         
-        try {
-            // Try PHPMailer if available
-            if (!class_exists('PHPMailer\\PHPMailer\\PHPMailer')) {
-                // Attempt to include common paths safely (no fatal on missing file)
-                $autoload = __DIR__ . '/../vendor/autoload.php';
-                if (file_exists($autoload)) {
-                    require_once $autoload;
-                }
+        // Load environment vars
+        $envFile = __DIR__ . '/../mailer.env';
+        $env = [];
+        if (file_exists($envFile)) {
+            $lines = file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+            foreach ($lines as $ln) {
+                $ln = trim($ln);
+                if ($ln === '' || strpos($ln, '#') === 0) continue;
+                if (strpos($ln, '=') === false) continue;
+                list($k, $v) = explode('=', $ln, 2);
+                $env[trim($k)] = trim(trim($v), "\"'");
             }
-            if (class_exists('PHPMailer\\PHPMailer\\PHPMailer')) {
-                $mail = new \PHPMailer\PHPMailer\PHPMailer(true);
-                // SMTP config from environment or defaults
-                $host = getenv('SMTP_HOST') ?: 'smtp.example.com';
-                $port = getenv('SMTP_PORT') ?: 587;
-                $user = getenv('SMTP_USER') ?: '';
-                $pass = getenv('SMTP_PASS') ?: '';
-                $from = getenv('SMTP_FROM') ?: 'no-reply@example.com';
-                $fromName = getenv('SMTP_FROM_NAME') ?: 'Luz De Luna HRMS';
-                
-                $mail->isSMTP();
-                $mail->Host = $host;
-                $mail->SMTPAuth = !empty($user);
-                if (!empty($user)) {
-                    $mail->Username = $user;
-                    $mail->Password = $pass;
-                }
-                $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
-                $mail->Port = $port;
-                $mail->setFrom($from, $fromName);
-                $mail->addAddress($toEmail);
-                $mail->isHTML(true);
-                $mail->Subject = $subject;
-                $mail->Body = $body;
-                $mail->AltBody = strip_tags($body);
-                $mail->send();
-                return true;
-            }
-        } catch (Exception $e) {
-            error_log('PHPMailer error: ' . $e->getMessage());
         }
         
-        // Fallback to PHP mail()
-        $headers = "MIME-Version: 1.0\r\nContent-type:text/html;charset=UTF-8\r\nFrom: Luz De Luna HRMS <no-reply@example.com>\r\n";
-        return @mail($toEmail, $subject, $body, $headers);
+        $host = getenv('SMTP_HOST') ?: ($env['MAIL_HOST'] ?? 'smtp.example.com');
+        $port = getenv('SMTP_PORT') ?: ($env['MAIL_PORT'] ?? 587);
+        $user = getenv('SMTP_USER') ?: ($env['MAIL_USERNAME'] ?? '');
+        $pass = getenv('SMTP_PASS') ?: ($env['MAIL_PASSWORD'] ?? '');
+        $from = getenv('SMTP_FROM') ?: ($env['MAIL_FROM_ADDRESS'] ?? 'no-reply@example.com');
+        $fromName = getenv('SMTP_FROM_NAME') ?: ($env['MAIL_FROM_NAME'] ?? 'Alertara System');
+        $encryption = getenv('SMTP_ENCRYPTION') ?: ($env['MAIL_ENCRYPTION'] ?? 'tls');
+        
+        // Helper: check if SMTP credentials look real (not placeholder values)
+        $hasRealSMTPCreds = !empty($user) && !empty($pass) 
+            && strpos($user, 'your-') === false 
+            && strpos($pass, 'your-') === false
+            && strpos($host, 'example.com') === false;
+        
+        $deliveredViaRealEmail = false;
+        
+        // Step 1: Attempt PHPMailer + SMTP if credentials look real
+        if ($hasRealSMTPCreds) {
+            try {
+                if (!class_exists('PHPMailer\\PHPMailer\\PHPMailer')) {
+                    $autoload = __DIR__ . '/../vendor/autoload.php';
+                    if (file_exists($autoload)) {
+                        require_once $autoload;
+                    }
+                }
+                if (class_exists('PHPMailer\\PHPMailer\\PHPMailer')) {
+                    $mail = new \PHPMailer\PHPMailer\PHPMailer(true);
+                    $mail->isSMTP();
+                    $mail->Host = $host;
+                    $mail->SMTPAuth = true;
+                    $mail->Username = $user;
+                    $mail->Password = $pass;
+                    
+                    // Set encryption
+                    if (defined('PHPMailer\\PHPMailer\\PHPMailer::ENCRYPTION_SMTPS') && strtolower($encryption) === 'ssl') {
+                        $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_SMTPS;
+                    } else {
+                        $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
+                    }
+                    
+                    $mail->Port = (int)$port;
+                    $mail->setFrom($from, $fromName);
+                    $mail->addAddress($toEmail);
+                    $mail->isHTML(true);
+                    $mail->Subject = $subject;
+                    $mail->Body = $body;
+                    $mail->AltBody = strip_tags($body);
+                    $mail->send();
+                    $deliveredViaRealEmail = true;
+                    error_log("OTP sent to {$toEmail} via SMTP");
+                    return true;
+                }
+            } catch (Exception $e) {
+                // SMTP failed; log and continue to fallback
+                error_log('PHPMailer SMTP error for ' . $toEmail . ': ' . $e->getMessage());
+            }
+        }
+        
+        // Step 2: Attempt PHP mail() as secondary delivery method
+        $headers = "MIME-Version: 1.0\r\nContent-type:text/html;charset=UTF-8\r\nFrom: {$fromName} <{$from}>\r\n";
+        $mailOk = @mail($toEmail, $subject, $body, $headers);
+        if ($mailOk) {
+            $deliveredViaRealEmail = true;
+            error_log("OTP sent to {$toEmail} via mail()");
+            return true;
+        }
+        
+        // Step 3: Store in session as fallback (works on both LOCALHOST and DOMAIN)
+        // This ensures the same browser session can verify the code even if email delivery failed.
+        $devLog = getenv('DEV_LOG_OTP') === '1';
+        if (session_status() === PHP_SESSION_NONE) { @session_start(); }
+        $_SESSION['tfa_last_email_otp'] = $_SESSION['tfa_last_email_otp'] ?? [];
+        $_SESSION['tfa_last_email_otp'][$toEmail] = [
+            'code' => $code,
+            'when' => date('Y-m-d H:i:s'),
+            'delivered_via_email' => $deliveredViaRealEmail,
+            'log' => $devLog ? (__DIR__ . '/../logs/otp.log') : null
+        ];
+        
+        // Optional: log to file if DEV_LOG_OTP is enabled (for debugging)
+        if ($devLog) {
+            try {
+                $logDir = __DIR__ . '/../logs';
+                if (!is_dir($logDir)) @mkdir($logDir, 0755, true);
+                $logFile = $logDir . '/otp.log';
+                $status = $deliveredViaRealEmail ? 'DELIVERED' : 'SESSION_FALLBACK';
+                $entry = date('Y-m-d H:i:s') . " | EMAIL OTP to {$toEmail}: {$code} ({$status})\n";
+                @file_put_contents($logFile, $entry, FILE_APPEND | LOCK_EX);
+            } catch (Exception $e) {
+                error_log('Failed to write OTP log: ' . $e->getMessage());
+            }
+        }
+        
+        // Return true if session fallback is available (allowing verification to succeed)
+        return !empty($_SESSION['tfa_last_email_otp'][$toEmail]);
     }
     
     /**
@@ -373,6 +503,34 @@ class TwoFactorAuth {
     }
     
     /**
+     * Verify TOTP (RFC6238 compatible)
+     *
+     * @param string $secret Base32 encoded secret
+     * @param string $code 6-digit code
+     * @param int $window number of time steps to check on each side
+     * @return bool
+     */
+    public function verifyTOTP($secret, $code, $window = 1) {
+        if (empty($secret) || !preg_match('/^\d{6}$/', $code)) return false;
+        $secretKey = $this->base32Decode($secret);
+        if ($secretKey === '') return false;
+
+        $timeStep = floor(time() / $this->totp_period);
+        for ($i = -$window; $i <= $window; $i++) {
+            $counter = pack('N*', 0) . pack('N*', $timeStep + $i);
+            $hash = hash_hmac('sha1', $counter, $secretKey, true);
+            $offset = ord($hash[19]) & 0x0F;
+            $binCode = (ord($hash[$offset]) & 0x7F) << 24 |
+                       (ord($hash[$offset+1]) & 0xFF) << 16 |
+                       (ord($hash[$offset+2]) & 0xFF) << 8 |
+                       (ord($hash[$offset+3]) & 0xFF);
+            $otp = $binCode % 1000000;
+            if ((string)str_pad($otp, 6, '0', STR_PAD_LEFT) === (string)$code) return true;
+        }
+        return false;
+    }
+    
+    /**
      * Verify 2FA code
      * 
      * @param int $user_id
@@ -404,9 +562,75 @@ class TwoFactorAuth {
      * @return bool
      */
     public function sendSMSCode($phone, $code) {
-        // TODO: Integrate with actual SMS provider (Twilio, etc.)
-        // For now, just log the code
-        error_log("SMS Code for {$phone}: {$code}");
+        // Try to send via Twilio REST API if credentials are available in environment
+        $sid = getenv('TWILIO_ACCOUNT_SID') ?: getenv('TWILIO_SID');
+        $token = getenv('TWILIO_AUTH_TOKEN') ?: getenv('TWILIO_TOKEN');
+        $from = getenv('TWILIO_FROM') ?: null;
+        // Normalize phone number: accept 09123456789 -> +639123456789 for PH numbers
+        $raw = trim($phone);
+        $normalized = preg_replace('/[^0-9+]/', '', $raw);
+        if (strpos($normalized, '+') !== 0) {
+            // no + present
+            if (preg_match('/^0(9\d{9})$/', $normalized, $m)) {
+                // Philippine mobile starting with 0 (e.g., 09123456789)
+                $normalized = '+63' . $m[1];
+            } elseif (preg_match('/^9\d{9}$/', $normalized)) {
+                // local 9XXXXXXXXX -> assume +63
+                $normalized = '+63' . $normalized;
+            } else {
+                // leave as-is but prefix + if it's 10-15 digits
+                if (preg_match('/^\d{10,15}$/', $normalized)) {
+                    $normalized = '+' . $normalized;
+                }
+            }
+        }
+
+        // ensure we have credentials
+        if ($sid && $token && $from) {
+            $url = "https://api.twilio.com/2010-04-01/Accounts/{$sid}/Messages.json";
+            $bodyText = "Your verification code is: {$code} (valid for 5 minutes)";
+            $data = http_build_query([
+                'From' => $from,
+                'To' => $normalized,
+                'Body' => $bodyText
+            ]);
+
+            $ch = curl_init($url);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+            curl_setopt($ch, CURLOPT_USERPWD, $sid . ':' . $token);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                'Content-Type: application/x-www-form-urlencoded'
+            ]);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+
+            $result = curl_exec($ch);
+            $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            $curlErr = curl_error($ch);
+
+            if ($result === false) {
+                error_log("Twilio curl error sending SMS to {$normalized}: " . $curlErr);
+                curl_close($ch);
+                return false;
+            }
+
+            // Try decode JSON response for detailed error
+            $json = @json_decode($result, true);
+            if ($httpCode >= 400) {
+                $errMsg = isset($json['message']) ? $json['message'] : $result;
+                error_log("Twilio responded HTTP {$httpCode} sending SMS to {$normalized}: {$errMsg}");
+                curl_close($ch);
+                return false;
+            }
+
+            // success
+            curl_close($ch);
+            return true;
+        }
+
+        // Fallback: log the code (useful for local/dev environments)
+        error_log("SMS Code for {$normalized}: {$code}");
         return true;
     }
     

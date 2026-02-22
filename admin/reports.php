@@ -3,8 +3,11 @@ require_once 'admin_auth.php';
 
 $base_url = '../';
 $page_title = 'Reports & Analytics';
-require_once '../includes/header.php';
-require_once '../includes/navbar.php';
+// When embedded in dashboard, the parent will include header/navbar.
+if (empty($embed_in_dashboard)) {
+    require_once '../includes/header.php';
+    require_once '../includes/navbar.php';
+}
 
 // Get statistics
 try {
@@ -61,6 +64,24 @@ try {
     foreach ($incidentTypes as $type) {
         $incidentTypeLabels[] = $type['incident_type'];
         $incidentTypeCounts[] = $type['count'];
+    }
+
+    // Evidence types distribution
+    $evidenceTypes = $pdo->query("SELECT IFNULL(evidence_type, 'Unknown') AS type, COUNT(*) AS count FROM evidence_records GROUP BY evidence_type ORDER BY count DESC LIMIT 10")->fetchAll(PDO::FETCH_ASSOC);
+    $evidenceTypeLabels = [];
+    $evidenceTypeCounts = [];
+    foreach ($evidenceTypes as $et) {
+        $evidenceTypeLabels[] = $et['type'];
+        $evidenceTypeCounts[] = $et['count'];
+    }
+
+    // Top officers by assigned cases
+    $topOfficers = $pdo->query("SELECT ca.assigned_to as officer_id, COUNT(*) as count, s.fullname FROM case_assignments ca LEFT JOIN signup s ON ca.assigned_to = s.user_id WHERE ca.assigned_to IS NOT NULL GROUP BY ca.assigned_to ORDER BY count DESC LIMIT 10")->fetchAll(PDO::FETCH_ASSOC);
+    $officerLabels = [];
+    $officerCounts = [];
+    foreach ($topOfficers as $of) {
+        $officerLabels[] = $of['fullname'] ?: ('User ' . $of['officer_id']);
+        $officerCounts[] = $of['count'];
     }
 
     // Get user registration trend (last 12 months)
@@ -316,6 +337,35 @@ try {
             </div>
         </div>
 
+        <!-- Additional Analytics (Admin-only) -->
+        <div class="row mb-4">
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h5><i class="bi bi-pie-chart"></i> Evidence Types Distribution</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-container">
+                            <canvas id="evidenceTypesChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h5><i class="bi bi-bar-chart"></i> Top Officers by Assigned Cases</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-container">
+                            <canvas id="topOfficersChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Area Charts Section -->
         <div class="row mb-4">
             <!-- Monthly Blotter Trend Area Chart -->
@@ -368,7 +418,9 @@ try {
     </div>
 </div>
 
+<?php if (empty($embed_in_dashboard)): ?>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<?php endif; ?>
     <style>
         .chart-container {
             position: relative;
@@ -540,6 +592,71 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     }
                 }
+            }
+        }
+    });
+
+    // Incident Types Pie Chart
+    const incidentTypesCtx = document.getElementById('incidentTypesChart').getContext('2d');
+    new Chart(incidentTypesCtx, {
+        type: 'pie',
+        data: {
+            labels: <?= json_encode($incidentTypeLabels) ?>,
+            datasets: [{
+                data: <?= json_encode($incidentTypeCounts) ?>,
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.8)',
+                    'rgba(54, 162, 235, 0.8)',
+                    'rgba(255, 206, 86, 0.8)',
+                    'rgba(75, 192, 192, 0.8)',
+                    'rgba(153, 102, 255, 0.8)',
+                    'rgba(255, 159, 64, 0.8)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: { responsive: true, maintainAspectRatio: false }
+    });
+
+    // Evidence Types Pie Chart
+    const evidenceTypesCtx = document.getElementById('evidenceTypesChart').getContext('2d');
+    new Chart(evidenceTypesCtx, {
+        type: 'pie',
+        data: {
+            labels: <?= json_encode($evidenceTypeLabels) ?>,
+            datasets: [{
+                data: <?= json_encode($evidenceTypeCounts) ?>,
+                backgroundColor: [
+                    'rgba(99, 255, 132, 0.8)',
+                    'rgba(54, 162, 235, 0.8)',
+                    'rgba(255, 206, 86, 0.8)',
+                    'rgba(153, 102, 255, 0.8)',
+                    'rgba(255, 159, 64, 0.8)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: { responsive: true, maintainAspectRatio: false }
+    });
+
+    // Top Officers Bar Chart
+    const topOfficersCtx = document.getElementById('topOfficersChart').getContext('2d');
+    new Chart(topOfficersCtx, {
+        type: 'bar',
+        data: {
+            labels: <?= json_encode($officerLabels) ?>,
+            datasets: [{
+                label: 'Assigned Cases',
+                data: <?= json_encode($officerCounts) ?>,
+                backgroundColor: 'rgba(13, 110, 253, 0.8)'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: { ticks: { autoSkip: false } },
+                y: { beginAtZero: true }
             }
         }
     });

@@ -72,6 +72,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $respondent_email = trim($_POST['respondent_email'] ?? '');
     $respondent_address = trim($_POST['respondent_address'] ?? '');
     $incident_type = trim($_POST['incident_type'] ?? '');
+    // If user selected "Other", prefer the free-text other field when provided
+    if (strtolower($incident_type) === 'other') {
+        $otherType = trim($_POST['incident_type_other'] ?? '');
+        if (!empty($otherType)) {
+            $incident_type = $otherType;
+        }
+    }
     $incident_date = $_POST['incident_date'] ?? null;
     $incident_time = $_POST['incident_time'] ?? null;
     $location = trim($_POST['location'] ?? '');
@@ -224,7 +231,43 @@ require '../includes/navbar.php';
 
                 <div class="col-md-6">
                     <label class="form-label fw-bold">Incident Type</label>
-                    <input id="incident_type" type="text" name="incident_type" class="form-control" placeholder="e.g., Theft, Assault, etc." value="<?= htmlspecialchars($_POST['incident_type'] ?? '') ?>">
+                    <select id="incident_type" name="incident_type" class="form-select">
+                        <option value="">-- Select incident type --</option>
+                        <?php
+                        $incident_high = ['Murder','Homicide','Rape','Sexual Assault','Kidnapping','Robbery','Armed Robbery','Assault with Weapon','Shooting','Stabbing','Bombing','Terrorism','Hostage','Serious Injury','Critical Incident','Arson','Human Trafficking','Drug Trafficking','Grave Threat','Death Threat','Violent Crime','Aggravated Assault','Attempted Murder','Gang Violence'];
+                        $incident_medium = ['Theft','Burglary','Robbery Attempt','Vehicle Theft','Shoplifting','Fraud','Scam','Identity Theft','Vandalism','Property Damage','Trespassing','Harassment','Cybercrime','Extortion','Intimidation','Simple Assault','Battery','Accident','Hit and Run','DUI','Drunken Driving'];
+                        $incident_low = ['Lost and Found','Noise Complaint','Parking Violation','Minor Dispute','Civil Matter','Lost Property','Found Property','Traffic Violation','Speeding','Jaywalking','Loitering','Minor Trespass','Complaint'];
+
+                        $selected = $_POST['incident_type'] ?? '';
+
+                        echo '<optgroup label="High Priority">';
+                        foreach ($incident_high as $opt) {
+                            $sel = ($selected === $opt) ? 'selected' : '';
+                            echo '<option value="'.htmlspecialchars($opt).'" '.$sel.'>'.htmlspecialchars($opt).'</option>';
+                        }
+                        echo '</optgroup>';
+
+                        echo '<optgroup label="Medium Priority">';
+                        foreach ($incident_medium as $opt) {
+                            $sel = ($selected === $opt) ? 'selected' : '';
+                            echo '<option value="'.htmlspecialchars($opt).'" '.$sel.'>'.htmlspecialchars($opt).'</option>';
+                        }
+                        echo '</optgroup>';
+
+                        echo '<optgroup label="Low Priority">';
+                        foreach ($incident_low as $opt) {
+                            $sel = ($selected === $opt) ? 'selected' : '';
+                            echo '<option value="'.htmlspecialchars($opt).'" '.$sel.'>'.htmlspecialchars($opt).'</option>';
+                        }
+                        echo '</optgroup>';
+
+                        $sel = ($selected === 'Other') ? 'selected' : '';
+                        echo '<option value="Other" '.$sel.'>Other (specify)</option>';
+                        ?>
+                    </select>
+                    <div id="incident_type_other_wrap" style="display: none; margin-top:8px;">
+                        <input type="text" id="incident_type_other" name="incident_type_other" class="form-control" placeholder="Specify incident type" value="<?= htmlspecialchars($_POST['incident_type_other'] ?? '') ?>">
+                    </div>
                 </div>
                 <div class="col-md-3">
                     <label class="form-label fw-bold">Incident Date</label>
@@ -365,8 +408,16 @@ function removeAttachment(button) {
 }
 
 // Auto-detect priority based on incident type
+// Auto-detect priority based on incident type
 function updatePriorityBadge() {
-    const incidentType = document.getElementById('incident_type').value.toLowerCase();
+    const incidentEl = document.getElementById('incident_type');
+    const otherEl = document.getElementById('incident_type_other');
+    let incidentType = '';
+    if (incidentEl) incidentType = String(incidentEl.value || '').toLowerCase();
+    // if user selected "Other", use the free-text value for detection
+    if (incidentType === 'other' && otherEl) {
+        incidentType = String(otherEl.value || '').toLowerCase();
+    }
     const prioritySelect = document.getElementById('priority');
     const priorityDisplay = document.getElementById('priority_display');
     
@@ -426,11 +477,27 @@ function updatePriorityBadge() {
     prioritySelect.value = detectedPriority;
 }
 
+function toggleOtherField() {
+    const incidentEl = document.getElementById('incident_type');
+    const wrap = document.getElementById('incident_type_other_wrap');
+    if (!incidentEl || !wrap) return;
+    wrap.style.display = (incidentEl.value === 'Other') ? 'block' : 'none';
+}
+
 // Listen for incident type changes
-document.getElementById('incident_type').addEventListener('input', updatePriorityBadge);
+const incidentEl = document.getElementById('incident_type');
+if (incidentEl) {
+    incidentEl.addEventListener('input', updatePriorityBadge);
+    incidentEl.addEventListener('change', function() { toggleOtherField(); updatePriorityBadge(); });
+}
+const incidentOtherEl = document.getElementById('incident_type_other');
+if (incidentOtherEl) {
+    incidentOtherEl.addEventListener('input', updatePriorityBadge);
+}
 
 // Initial priority update on page load
 document.addEventListener('DOMContentLoaded', function() {
+    toggleOtherField();
     updatePriorityBadge();
 });
 </script>

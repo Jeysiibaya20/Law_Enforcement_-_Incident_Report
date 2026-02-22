@@ -4,6 +4,56 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 $is_logged_in = isset($_SESSION['user_id']);
 $current_user = $is_logged_in ? $_SESSION : null;
+// Determine account status for notification bell
+$account_status_text = null;
+$account_status_badge = 'bg-secondary';
+$account_status_detail = '';
+$show_notif_badge = false;
+if ($is_logged_in) {
+    // Try to load DB connection and fetch account state
+    try {
+        require_once __DIR__ . '/../config/db_connect.php';
+        $uid = intval($_SESSION['user_id'] ?? 0);
+        if ($uid) {
+            $s = $pdo->prepare('SELECT email_verified, admin_approved, banned FROM signup WHERE user_id = ?');
+            $s->execute([$uid]);
+            $r = $s->fetch(PDO::FETCH_ASSOC) ?: [];
+            $isBanned = !empty($r['banned']);
+            $emailVerified = !empty($r['email_verified']);
+            $adminApproved = isset($r['admin_approved']) ? ((int)$r['admin_approved'] === 1) : null;
+
+            // Admin users don't require admin_approved; treat them as approved/unlocked
+            $userRole = strtolower($_SESSION['role'] ?? '');
+            if ($userRole === 'admin') {
+                $adminApproved = true;
+                $emailVerified = true;
+            }
+
+            if ($isBanned) {
+                $account_status_text = 'Banned';
+                $account_status_badge = 'bg-danger';
+                $account_status_detail = 'Your account has been suspended by an administrator.';
+                $show_notif_badge = true;
+            } elseif ($emailVerified && $adminApproved === true) {
+                $account_status_text = 'Verified';
+                $account_status_badge = 'bg-success';
+                $account_status_detail = 'Your account is verified and active.';
+            } elseif ($emailVerified && $adminApproved !== 1) {
+                $account_status_text = 'Pending Admin';
+                $account_status_badge = 'bg-warning text-dark';
+                $account_status_detail = 'Your email is verified but awaiting admin approval.';
+                $show_notif_badge = true;
+            } else {
+                $account_status_text = 'Not Verified';
+                $account_status_badge = 'bg-secondary';
+                $account_status_detail = 'Please verify your email to access full features.';
+                $show_notif_badge = true;
+            }
+        }
+    } catch (Throwable $e) {
+        // ignore DB errors and keep notification hidden
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -34,6 +84,21 @@ $current_user = $is_logged_in ? $_SESSION : null;
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
+                    <?php if ($is_logged_in && !empty($account_status_text)): ?>
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link position-relative" href="#" id="notifDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-bell" style="font-size:1.1rem;"></i>
+                            <?php if ($show_notif_badge): ?>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style="font-size:.6rem">!</span>
+                            <?php endif; ?>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end p-3" aria-labelledby="notifDropdown" style="min-width:260px;">
+                            <li><div><strong>Account Status</strong></div></li>
+                            <li class="mt-2"><span class="badge <?= htmlspecialchars($account_status_badge) ?>"><?= htmlspecialchars($account_status_text) ?></span></li>
+                            <li class="mt-2"><div style="font-size:.95rem;color:#666"><?= htmlspecialchars($account_status_detail) ?></div></li>
+                        </ul>
+                    </li>
+                    <?php endif; ?>
                     <li class="nav-item">
                         <a class="nav-link active" href="index.php"><i class="bi bi-house-fill"></i> Home</a>
                     </li>

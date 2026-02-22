@@ -8,12 +8,37 @@ require_once dirname(__DIR__) . '/config/db_connect.php';
 require_once dirname(__DIR__) . '/includes/case_management.php';
 require_once dirname(__DIR__) . '/includes/suspect_witness_management.php';
 
-// Check authorization
-session_start();
-if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'Admin') {
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+include '../includes/navbar.php';
+// Safely read session role and user id to avoid undefined index warnings
+$userId = $_SESSION['user_id'] ?? null;
+$role = strtolower($_SESSION['role'] ?? '');
+
+if (!$userId) {
     http_response_code(403);
     echo "Access Denied";
     exit;
+}
+
+// Allow access if session role is admin, otherwise fallback to DB check
+if ($role !== 'admin') {
+    try {
+        $rstmt = $pdo->prepare("SELECT role FROM signup WHERE user_id = ? LIMIT 1");
+        $rstmt->execute([$userId]);
+        $rrow = $rstmt->fetch(PDO::FETCH_ASSOC);
+        if (!($rrow && strtolower($rrow['role'] ?? '') === 'admin')) {
+            http_response_code(403);
+            echo "Access Denied";
+            exit;
+        }
+    } catch (Exception $e) {
+        http_response_code(403);
+        echo "Access Denied";
+        exit;
+    }
 }
 
 $case_id = $_GET['case_id'] ?? null;
@@ -30,7 +55,6 @@ try {
     $stmt = $pdo->prepare("SELECT * FROM case_assignments WHERE id = ?");
     $stmt->execute([$case_id]);
     $case = $stmt->fetch(PDO::FETCH_ASSOC);
-    
     if (!$case) {
         http_response_code(404);
         echo "Case not found";
@@ -58,32 +82,23 @@ if ($edit_id) {
 // Handle form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $photo_path = $old_photo_path; // Start with old photo path
-    
+
     // Handle photo upload
     if (isset($_FILES['photo']) && $_FILES['photo']['error'] === UPLOAD_ERR_OK) {
         $upload_dir = dirname(__DIR__) . '/uploads/suspects/';
-        if (!is_dir($upload_dir)) {
-            mkdir($upload_dir, 0755, true);
-        }
-        
+        if (!is_dir($upload_dir)) mkdir($upload_dir, 0755, true);
+
         $file_ext = strtolower(pathinfo($_FILES['photo']['name'], PATHINFO_EXTENSION));
         $allowed_ext = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
-        
         if (in_array($file_ext, $allowed_ext)) {
             $file_name = 'suspect_' . time() . '_' . uniqid() . '.' . $file_ext;
             $file_path = $upload_dir . $file_name;
-            
             if (move_uploaded_file($_FILES['photo']['tmp_name'], $file_path)) {
                 $new_photo_path = 'uploads/suspects/' . $file_name;
-                
-                // Delete old photo if updating and new photo uploaded
                 if ($old_photo_path && $old_photo_path !== $new_photo_path) {
                     $old_file = dirname(__DIR__) . '/' . $old_photo_path;
-                    if (file_exists($old_file)) {
-                        @unlink($old_file);
-                    }
+                    if (file_exists($old_file)) @unlink($old_file);
                 }
-                
                 $photo_path = $new_photo_path;
             }
         } else {
@@ -91,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $message_type = 'warning';
         }
     }
-    
+
     $suspect_data = [
         'case_id' => $case_id,
         'case_number' => $case['case_number'],
@@ -116,12 +131,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'remarks' => $_POST['remarks'] ?? '',
         'status' => $_POST['status'] ?? 'Active',
         'photo_path' => $photo_path,
-        'created_by' => $_SESSION['user_id']
+        'created_by' => $userId
     ];
-    
+
     if ($edit_id) {
-        // Update suspect
-        $result = updateSuspect($edit_id, $suspect_data, $_SESSION['user_id']);
+        $result = updateSuspect($edit_id, $suspect_data, $userId);
         if ($result['success']) {
             $message = "Suspect information updated successfully";
             $message_type = 'success';
@@ -132,7 +146,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $message_type = 'danger';
         }
     } else {
-        // Create new suspect
         $result = createSuspect($suspect_data);
         if ($result['success']) {
             $message = "Suspect added successfully";
@@ -144,31 +157,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-// Get all suspects for this case (reload suspect if editing to show updated data)
+// Reload suspect if edited
 if ($edit_id && !$suspect) {
     $suspect = getSuspectById($edit_id);
 }
 $suspects = getSuspectsByCase($case_id);
-?>
 
 $page_title = "Suspect Management - " . htmlspecialchars($case['case_number']);
+$body_class = 'blotter-page';
 include '../includes/header.php';
+include '../includes/navbar.php';
 ?>
 
-<div class="container-fluid">
-    <div class="row">
-        <!-- Sidebar -->
-        <div class="col-md-2">
-            <?php include '../includes/navbar.php'; ?>
-        </div>
-
-        <!-- Main Content -->
-        <div class="col-md-10 main-content">
+<div class="main-content">
+    <div class="content-container">
         <div class="d-flex justify-content-between align-items-start mb-4">
             <div>
-                <h1 class="h2 mb-2">
-                    <i class="bi bi-person-fill"></i> Suspect Management
-                </h1>
+                <h1 class="h2 mb-2"><i class="bi bi-person-fill"></i> Suspect Management</h1>
                 <p class="text-muted">Case: <strong><?= htmlspecialchars($case['case_number']) ?></strong></p>
             </div>
             <a href="../modules/case_details.php?case_id=<?= $case_id ?>" class="btn btn-outline-secondary">
@@ -184,7 +189,6 @@ include '../includes/header.php';
         <?php endif; ?>
 
         <div class="row g-4">
-            <!-- Form -->
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-header bg-primary text-white">
@@ -192,7 +196,6 @@ include '../includes/header.php';
                     </div>
                     <div class="card-body">
                         <form method="POST" enctype="multipart/form-data">
-                            <!-- Photo Upload Section -->
                             <div class="row g-3 mb-4 p-3 bg-light rounded">
                                 <div class="col-12">
                                     <label class="form-label"><strong>Suspect Photo</strong></label>
@@ -376,40 +379,28 @@ include '../includes/header.php';
             </div>
         </div>
     </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Photo preview functionality
-        const photoInput = document.getElementById('photo');
-        const photoPreview = document.getElementById('photoPreview');
-        
-        if (photoInput) {
-            photoInput.addEventListener('change', function(e) {
-                const file = e.target.files[0];
-                if (file) {
-                    // Validate file size (5MB max)
-                    if (file.size > 5 * 1024 * 1024) {
-                        alert('File size exceeds 5MB limit');
-                        this.value = '';
-                        return;
-                    }
-                    
-                    const reader = new FileReader();
-                    reader.onload = function(event) {
-                        if (photoPreview.classList.contains('border')) {
-                            photoPreview.innerHTML = '';
-                            photoPreview.classList.remove('border', 'rounded', 'p-3', 'text-center', 'bg-white');
-                        }
-                        const img = document.createElement('img');
-                        img.src = event.target.result;
-                        img.className = 'img-thumbnail';
-                        img.style.maxWidth = '150px';
-                        img.style.maxHeight = '200px';
-                        photoPreview.innerHTML = '';
-                        photoPreview.appendChild(img);
-                    };
-                    reader.readAsDataURL(file);
+<script>
+// Photo preview functionality
+const photoInput = document.getElementById('photo');
+const photoPreview = document.getElementById('photoPreview');
+if (photoInput) {
+    photoInput.addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (file) {
+            if (file.size > 5 * 1024 * 1024) { alert('File size exceeds 5MB limit'); this.value = ''; return; }
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                if (photoPreview.classList.contains('border')) {
+                    photoPreview.innerHTML = ''; photoPreview.classList.remove('border','rounded','p-3','text-center','bg-white');
                 }
-            });
+                const img = document.createElement('img'); img.src = event.target.result; img.className = 'img-thumbnail'; img.style.maxWidth = '150px'; img.style.maxHeight = '200px'; photoPreview.innerHTML = ''; photoPreview.appendChild(img);
+            };
+            reader.readAsDataURL(file);
         }
-    </script>
+    });
+}
+</script>
+
+<?php include '../includes/footer.php'; ?>

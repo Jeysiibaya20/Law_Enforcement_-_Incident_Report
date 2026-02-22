@@ -1,26 +1,54 @@
 <?php
 require_once '../config/db_connect.php';
-require '../vendor/autoload.php';
+// Load composer autoload if present (PHPMailer lives in vendor/)
+$autoload = __DIR__ . '/../vendor/autoload.php';
+if (file_exists($autoload)) {
+    require_once $autoload;
+} else {
+    error_log('Warning: Composer autoload not found at ' . $autoload . '. PHPMailer may be unavailable.');
+}
+require_once '../includes/two_factor_auth.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // Check connection
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $fullname = trim($_POST['Fullname'] ?? '');
+    // Personal & contact fields (UI updated to match multi-step sign up)
+    $first_name = trim($_POST['first_name'] ?? '');
+    $middle_name = trim($_POST['middle_name'] ?? '');
+    $last_name = trim($_POST['last_name'] ?? '');
+    $fullname = trim(implode(' ', array_filter([$first_name, $middle_name, $last_name])));
+    $sex = trim($_POST['sex'] ?? '');
+    $dob = trim($_POST['dob'] ?? '');
     $email    = trim($_POST['emailadd'] ?? '');
+    $phone    = trim($_POST['phone'] ?? '');
+    $address  = trim($_POST['address'] ?? '');
     $username = trim($_POST['username'] ?? '');
     $password = $_POST['password'] ?? '';
     $agree_terms = isset($_POST['agree_terms']) ? 1 : 0;
 
-    if (empty($fullname) || empty($email) || empty($username) || empty($password)) {
-        echo "<script>alert('Please fill in all fields'); window.location.href='signup.php';</script>";
+    if (empty($first_name) || empty($last_name) || empty($dob) || empty($email) || empty($username) || empty($password)) {
+        echo "<script>alert('Please fill in all fields'); window.location.href='signup_multistep.php';</script>";
+        exit();
+    }
+
+    // Password confirm
+    $confirm_password = $_POST['confirmpassword'] ?? '';
+    if ($password !== $confirm_password) {
+        echo "<script>alert('Passwords do not match'); window.location.href='signup_multistep.php';</script>";
+        exit();
+    }
+
+    // Basic phone validation (digits only, length 10-14)
+    if (!empty($phone) && !preg_match('/^\+?\d{10,14}$/', $phone)) {
+        echo "<script>alert('Please enter a valid phone number'); window.location.href='signup_multistep.php';</script>";
         exit();
     }
 
     // ✅ Check if user agreed to terms and conditions
     if (!$agree_terms) {
-        echo "<script>alert('You must agree to the Terms and Conditions and Data Privacy Policy to sign up.'); window.location.href='signup.php';</script>";
+        echo "<script>alert('You must agree to the Terms and Conditions and Data Privacy Policy to sign up.'); window.location.href='signup_multistep.php';</script>";
         exit();
     }
 
@@ -32,11 +60,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $checkUserRow = $checkUserStmt->fetch(PDO::FETCH_ASSOC);
 
         if ($checkUserRow) {
-            echo "<script>alert('Username already exists'); window.location.href='signup.php';</script>";
+            echo "<script>alert('Username already exists'); window.location.href='signup_multistep.php';</script>";
             exit();
         }
     } catch (PDOException $e) {
-        error_log("signup.php - Error checking username: " . $e->getMessage());
+        error_log("signup_multistep.php - Error checking username: " . $e->getMessage());
         echo "<script>alert('An error occurred. Please try again later.'); window.location.href='signup.php';</script>";
         exit();
     }
@@ -49,12 +77,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $checkEmailRow = $checkEmailStmt->fetch(PDO::FETCH_ASSOC);
 
         if ($checkEmailRow) {
-            echo "<script>alert('Email address already exists'); window.location.href='signup.php';</script>";
+            echo "<script>alert('Email address already exists'); window.location.href='signup_multistep.php';</script>";
             exit();
         }
     } catch (PDOException $e) {
-        error_log("signup.php - Error checking email: " . $e->getMessage());
-        echo "<script>alert('An error occurred. Please try again later.'); window.location.href='signup.php';</script>";
+        error_log("signup_multistep.php - Error checking email: " . $e->getMessage());
+        echo "<script>alert('An error occurred. Please try again later.'); window.location.href='signup_multistep.php';</script>";
         exit();
     }
 
@@ -69,65 +97,201 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $pdo->prepare($sql);
         $res = $stmt->execute([$fullname, $email, $username, $hashed_password, $verification_token, $token_expires, $terms_accepted_date]);
     } catch (PDOException $e) {
-        error_log("signup.php - Insert Error: " . $e->getMessage());
-        echo "<script>alert('Error creating account. Please try again later.'); window.location.href='signup.php';</script>";
+        error_log("signup_multistep.php - Insert Error: " . $e->getMessage());
+        echo "<script>alert('Error creating account. Please try again later.'); window.location.href='signup_multistep.php';</script>";
         exit();
     }
 
     if ($res) {
-        // 📧 Send verification email
-        $mail = new PHPMailer(true);
-        
+        // Get new user id
+        $user_id = $pdo->lastInsertId();
+
+        // If phone provided, generate SMS 2FA and send
+        if (!empty($phone)) {
+            $tfa = new TwoFactorAuth($pdo);
+            $smsCode = $tfa->generateSMSCode();
+            $storeOk = $tfa->storeSMSCode($user_id, $smsCode);
+            $sentOk = false;
+            if ($storeOk) {
+                $sentOk = $tfa->sendSMSCode($phone, $smsCode);
+            }
+            // mark pending SMS 2FA in session and redirect to verify page
+            session_start();
+            $_SESSION['pending_2fa_user'] = $user_id;
+            $_SESSION['pending_2fa_method'] = 'SMS';
+            $_SESSION['pending_2fa_phone'] = $phone;
+            // Handle file uploads (document verification) if provided
+            $front_path = null;
+            $back_path = null;
+            if (!empty($_FILES['front_id']) && $_FILES['front_id']['error'] === UPLOAD_ERR_OK) {
+                $allowed = ['image/jpeg','image/png'];
+                if (!in_array($_FILES['front_id']['type'], $allowed)) {
+                    // ignore but log
+                    error_log('Invalid front id mime: ' . $_FILES['front_id']['type']);
+                } else {
+                    $targetDir = __DIR__ . '/../uploads/ids/';
+                    if (!is_dir($targetDir)) mkdir($targetDir, 0755, true);
+                    $ext = pathinfo($_FILES['front_id']['name'], PATHINFO_EXTENSION);
+                    $fname = uniqid('front_') . '.' . $ext;
+                    $dest = $targetDir . $fname;
+                    if (move_uploaded_file($_FILES['front_id']['tmp_name'], $dest)) {
+                        $front_path = 'uploads/ids/' . $fname;
+                        $_SESSION['uploaded_front_id'] = $front_path;
+                    }
+                }
+            }
+            if (!empty($_FILES['back_id']) && $_FILES['back_id']['error'] === UPLOAD_ERR_OK) {
+                $allowed = ['image/jpeg','image/png'];
+                if (!in_array($_FILES['back_id']['type'], $allowed)) {
+                    error_log('Invalid back id mime: ' . $_FILES['back_id']['type']);
+                } else {
+                    $targetDir = __DIR__ . '/../uploads/ids/';
+                    if (!is_dir($targetDir)) mkdir($targetDir, 0755, true);
+                    $ext = pathinfo($_FILES['back_id']['name'], PATHINFO_EXTENSION);
+                    $fname = uniqid('back_') . '.' . $ext;
+                    $dest = $targetDir . $fname;
+                    if (move_uploaded_file($_FILES['back_id']['tmp_name'], $dest)) {
+                        $back_path = 'uploads/ids/' . $fname;
+                        $_SESSION['uploaded_back_id'] = $back_path;
+                    }
+                }
+            }
+            $_SESSION['pending_uploaded_front'] = $front_path;
+            $_SESSION['pending_uploaded_back'] = $back_path;
+            if ($sentOk) {
+                echo "<script>alert('Account created! A verification code was sent to your phone. Please enter it to complete registration.'); window.location.href='verify_2fa.php';</script>";
+                exit();
+            } else {
+                error_log('SMS not sent for user ' . $user_id);
+                // continue with email as fallback below
+            }
+        }
+
+        // Persist additional profile fields and uploaded ID paths into the signup table.
+        // If columns don't exist, attempt to add them (best-effort).
         try {
-            $mail->isSMTP();
-            $mail->Host       = 'smtp.gmail.com';
-            $mail->SMTPAuth   = true;
-            $mail->Username   = 'alertaraqc@gmail.com';
-            $mail->Password   = 'fyyzywptnqlqemyt';
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-            $mail->Port       = 465;
+            $colsToCheck = [
+                'phone' => "ALTER TABLE signup ADD COLUMN phone VARCHAR(30) DEFAULT NULL",
+                'sex' => "ALTER TABLE signup ADD COLUMN sex VARCHAR(20) DEFAULT NULL",
+                'dob' => "ALTER TABLE signup ADD COLUMN dob DATE DEFAULT NULL",
+                'address' => "ALTER TABLE signup ADD COLUMN address VARCHAR(255) DEFAULT NULL",
+                'resident_qc' => "ALTER TABLE signup ADD COLUMN resident_qc TINYINT(1) DEFAULT 0",
+                'id_type' => "ALTER TABLE signup ADD COLUMN id_type VARCHAR(100) DEFAULT NULL",
+                'uploaded_front' => "ALTER TABLE signup ADD COLUMN uploaded_front VARCHAR(255) DEFAULT NULL",
+                'uploaded_back' => "ALTER TABLE signup ADD COLUMN uploaded_back VARCHAR(255) DEFAULT NULL",
+                'role' => "ALTER TABLE signup ADD COLUMN role VARCHAR(50) DEFAULT 'User'"
+            ];
 
-            $mail->setFrom('alertaraqc@gmail.com', 'Alertara PH');
-            $mail->addAddress($email);
+            foreach ($colsToCheck as $col => $alterSql) {
+                // SHOW COLUMNS does not accept PDO parameter binding in some MariaDB versions; quote the value instead
+                $qcol = $pdo->quote($col);
+                $check = $pdo->query("SHOW COLUMNS FROM signup LIKE " . $qcol);
+                $has = false;
+                if ($check !== false) {
+                    $row = $check->fetch(PDO::FETCH_ASSOC);
+                    if ($row) $has = true;
+                }
+                if (!$has) {
+                    // try to add column
+                    try { $pdo->exec($alterSql); } catch (Exception $e) { error_log('Could not add column ' . $col . ': ' . $e->getMessage()); }
+                }
+            }
 
-            $mail->isHTML(true);
-            $mail->Subject = 'Email Verification - Alertara PH';
-            
-            $verificationLink = "http://localhost/Law_Enforcement_-_Incident_Report/auth/verify_email.php?token=" . $verification_token;
-            
-            $mail->Body = "
-                <html>
-                <head></head>
-                <body style='font-family: Arial, sans-serif;'>
-                    <div style='max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px;'>
-                        <h2 style='color: #333;'>Welcome to Alertara PH</h2>
-                        <p>Hello <strong>" . htmlspecialchars($fullname) . "</strong>,</p>
-                        <p>Thank you for registering! Please verify your email address to complete your account setup.</p>
-                        
-                        <p style='margin: 30px 0;'>
-                            <a href='" . $verificationLink . "' style='background-color: #4c8a89; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; display: inline-block;'>
-                                Verify Email Address
-                            </a>
-                        </p>
-                        
-                        <p>Or copy this link in your browser:</p>
-                        <p style='background: #f5f5f5; padding: 10px; word-break: break-all;'>" . $verificationLink . "</p>
-                        
-                        <p style='color: #666; font-size: 12px;'>This verification link expires in 24 hours.</p>
-                        <p style='color: #666; font-size: 12px;'>If you did not create this account, please ignore this email.</p>
-                    </div>
-                </body>
-                </html>
-            ";
-
-            $mail->send();
-            echo "<script>alert('Account created! Please check your email to verify your account.'); window.location.href='login.php';</script>";
-            exit();
-            
+            // Now update the record with available POST values and uploaded paths
+            $updateSql = "UPDATE signup SET phone = ?, sex = ?, dob = ?, address = ?, resident_qc = ?, id_type = ?, uploaded_front = ?, uploaded_back = ?, role = ? WHERE user_id = ?";
+            $updateStmt = $pdo->prepare($updateSql);
+            $roleVal = $_POST['role'] ?? 'User';
+            $dobVal = !empty($dob) ? $dob : null;
+            $updateStmt->execute([
+                $phone ?? null,
+                $sex ?? null,
+                $dobVal,
+                $address ?? null,
+                isset($_POST['resident_qc']) ? (int)$_POST['resident_qc'] : 0,
+                $_POST['id_type'] ?? null,
+                $front_path ?? null,
+                $back_path ?? null,
+                $roleVal,
+                $user_id
+            ]);
         } catch (Exception $e) {
-            error_log("Email sending failed: " . $mail->ErrorInfo);
-            echo "<script>alert('Account created but email verification failed. Please try again later.'); window.location.href='login.php';</script>";
-            exit();
+            error_log('Failed to persist profile fields: ' . $e->getMessage());
+        }
+
+        // 📧 Send verification email. Use PHPMailer if available, otherwise fall back to PHP mail().
+        $verificationLink = "http://localhost/Law_Enforcement_-_Incident_Report/auth/verify_email.php?token=" . $verification_token;
+
+        $emailBody = "
+            <html>
+            <head></head>
+            <body style='font-family: Arial, sans-serif;'>
+                <div style='max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px;'>
+                    <h2 style='color: #333;'>Welcome to Alertara PH</h2>
+                    <p>Hello <strong>" . htmlspecialchars($fullname) . "</strong>,</p>
+                    <p>Thank you for registering! Please verify your email address to complete your account setup.</p>
+                    <p style='margin: 30px 0;'>
+                        <a href='" . $verificationLink . "' style='background-color: #4c8a89; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; display: inline-block;'>
+                            Verify Email Address
+                        </a>
+                    </p>
+                    <p>Or copy this link in your browser:</p>
+                    <p style='background: #f5f5f5; padding: 10px; word-break: break-all;'>" . $verificationLink . "</p>
+                    <p style='color: #666; font-size: 12px;'>This verification link expires in 24 hours.</p>
+                    <p style='color: #666; font-size: 12px;'>If you did not create this account, please ignore this email.</p>
+                </div>
+            </body>
+            </html>
+        ";
+
+        if (class_exists('PHPMailer\\PHPMailer\\PHPMailer')) {
+            // Use PHPMailer when available
+            try {
+                $mail = new PHPMailer(true);
+                $mail->isSMTP();
+                $mail->Host       = 'smtp.gmail.com';
+                $mail->SMTPAuth   = true;
+                $mail->Username   = 'alertaraqc@gmail.com';
+                $mail->Password   = 'fyyzywptnqlqemyt';
+                $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+                $mail->Port       = 465;
+
+                $mail->setFrom('alertaraqc@gmail.com', 'Alertara PH');
+                $mail->addAddress($email);
+
+                $mail->isHTML(true);
+                $mail->Subject = 'Email Verification - Alertara PH';
+                $mail->Body = $emailBody;
+
+                $mail->send();
+                echo "<script>alert('Account created! Please check your email to verify your account.'); window.location.href='login.php';</script>";
+                exit();
+            } catch (Exception $e) {
+                error_log("Email sending failed (PHPMailer): " . ($mail->ErrorInfo ?? $e->getMessage()));
+                echo "<script>alert('Account created but email verification failed. Please try again later.'); window.location.href='login.php';</script>";
+                exit();
+            }
+        } else {
+            // Fallback: basic PHP mail(). May not work on local dev without proper mail server.
+            $subject = 'Email Verification - Alertara PH';
+            $headers  = "MIME-Version: 1.0\r\n";
+            $headers .= "Content-type: text/html; charset=UTF-8\r\n";
+            $headers .= "From: Alertara PH <alertaraqc@gmail.com>\r\n";
+
+            $sent = false;
+            try {
+                $sent = mail($email, $subject, $emailBody, $headers);
+            } catch (Exception $e) {
+                error_log('mail() threw exception: ' . $e->getMessage());
+            }
+
+            if ($sent) {
+                echo "<script>alert('Account created! Please check your email to verify your account.'); window.location.href='login.php';</script>";
+                exit();
+            } else {
+                error_log('Email not sent: PHPMailer unavailable and mail() failed for ' . $email);
+                echo "<script>alert('Account created but email verification failed. Please try again later.'); window.location.href='login.php';</script>";
+                exit();
+            }
         }
     } else {
         $err = $stmt->errorInfo();
@@ -163,51 +327,154 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <!-- Login Form -->
             <div class="login-form-container">
                 
-                <form method="POST" id="loginForm" class="login-form">
-                      <!-- Fullname Form -->
+                <form method="POST" id="signupForm" class="login-form" enctype="multipart/form-data" autocomplete="off" novalidate>
+                    <!-- Multi-step Sign Up -->
+                    <input type="hidden" name="enable_totp" id="enable_totp_hidden" value="0">
+                    <!-- Step 1: Personal Information -->
+                    <div class="signup-step" data-step="1">
+                    <h3>1. Personal Information</h3>
+                    <div class="form-row" style="display:flex; gap:0.75rem;">
+                        <div class="form-group" style="flex:1;">
+                            <label for="first_name" class="form-label">First Name *</label>
+                            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First name" required autocomplete="given-name" autocapitalize="words">
+                        </div>
+                        <div class="form-group" style="flex:1;">
+                            <label for="middle_name" class="form-label">Middle Name</label>
+                            <input type="text" class="form-control" id="middle_name" name="middle_name" placeholder="Optional" autocomplete="additional-name" autocapitalize="words">
+                        </div>
+                    </div>
                     <div class="form-group">
-                        <label for="Fullname" class="form-label">
-                            <i class="bi bi-person"></i>
-                            Full Name
-                        </label>
-                        <input type="text" class="form-control" id="Fullname" name="Fullname" 
-                               placeholder="Enter your fullname" required>
+                        <label for="last_name" class="form-label">Last Name *</label>
+                        <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last name" required autocomplete="family-name" autocapitalize="words">
                     </div>
-                    <!-- Email address Form -->
-                        <div class="form-group">
-                        <label for="EmailAdd" class="form-label">
-                            <i class="bi bi-person"></i>
-                            Email Address 
-                        </label>
-                        <input type="text" class="form-control" id="emailadd" name="emailadd" 
-                               placeholder="Enter your email address" required>
+                    <div class="form-row" style="display:flex; gap:0.75rem;">
+                        <div class="form-group" style="flex:1;">
+                            <label for="sex" class="form-label">Sex *</label>
+                            <select name="sex" id="sex" class="form-control" required>
+                                <option value="">Select Sex</option>
+                                <option value="Female">Female</option>
+                                <option value="Male">Male</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group" style="flex:1;">
+                            <label for="dob" class="form-label">Date of Birth *</label>
+                            <input type="date" class="form-control" id="dob" name="dob" required autocomplete="bday">
+                        </div>
                     </div>
-                    <!-- Username Form -->
-                        <div class="form-group">
-                        <label for="username" class="form-label">
-                            <i class="bi bi-person"></i>
-                            Username
-                        </label>
-                        <input type="text" class="form-control" id="username" name="username" 
-                               placeholder="Enter your username" required>
-                    </div>
-                    <!-- Password Form -->
+
+                    <!-- Contact Information -->
                     <div class="form-group">
-                        <label for="password" class="form-label">
-                            <i class="bi bi-lock"></i>
-                            Password
-                        </label>
-                        <input type="password" class="form-control" id="password" name="password" 
-                               placeholder="Enter your password" required>
+                        <label for="emailadd" class="form-label">Email Address *</label>
+                        <div style="display:flex;gap:0.5rem;align-items:center;"><input type="email" class="form-control" id="emailadd" name="emailadd" placeholder="Enter your email address" required style="flex:1;" autocomplete="email"><span id="emailStatus" style="min-width:150px;color:#6c757d;"></span></div>
                     </div>
-                    <!-- Confirm Password Form -->
+                    <div style="margin-top:1rem;display:flex;justify-content:flex-end;gap:0.5rem;">
+                        <button type="button" class="login-btn" id="toStep2">Next →</button>
+                    </div>
+                    </div>
+
+                    <!-- Step 2: Contact Info -->
+                    <div class="signup-step" data-step="2" style="display:none;">
+                    <h3>2. Contact Information</h3>
+                    <div class="form-group">
+                        <label for="emailadd" class="form-label">Email Address *</label>
+                        <div style="display:flex;gap:0.5rem;align-items:center;"><input type="email" class="form-control" id="emailadd" name="emailadd" placeholder="Enter your email address" required style="flex:1;" autocomplete="email"><span id="emailStatus" style="min-width:150px;color:#6c757d;"></span></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Phone Number *</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="09XXXXXXXXX" pattern="\d{10,14}" required autocomplete="tel">
+                        <small class="form-text text-muted">We'll send a verification code to this number.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="resident_qc" class="form-label">Are you a resident of Quezon City?</label>
+                        <input type="hidden" name="resident_qc" value="0">
+                        <label style="display:inline-block;margin-left:8px;"><input type="checkbox" id="resident_qc" name="resident_qc" value="1"> Yes, I am a resident of Quezon City</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="barangay">Barangay *</label>
+                        <select id="barangay" name="barangay" class="form-control" required autocomplete="address-level3">
+                            <option value="">Select Barangay</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">House Number/Street/Purok</label>
+                        <input type="text" class="form-control" id="address" name="address" placeholder="Enter your full address (Street, Purok, House Number)" required>
+                    </div>
+
+                    <div style="margin-top:1rem;display:flex;justify-content:space-between;gap:0.5rem;">
+                        <button type="button" class="login-btn" id="backTo1" style="background:#6c757d;">← Back</button>
+                        <button type="button" class="login-btn" id="toStep3">Next →</button>
+                    </div>
+                    </div>
+                        <label for="phone" class="form-label">Phone Number *</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="09XXXXXXXXX" pattern="\d{10,14}" required>
+                        <small class="form-text text-muted">We'll send a verification code to this number.</small>
+                    </div>
+
+                    <!-- Account Security -->
+                    <div class="form-group">
+                        <label for="username" class="form-label">Username *</label>
+                        <div style="display:flex; align-items:center; gap:0.5rem;">
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Enter your username" required style="flex:1;" autocomplete="username" autocapitalize="off">
+                            <span id="usernameStatus" style="min-width:160px;color:#6c757d;font-size:0.95rem;"></span>
+                        </div>
+                        <small id="usernameHelp" class="form-text"></small>
+                    </div>
+                    <div class="form-row" style="display:flex; gap:0.75rem;">
+                        <div class="form-group" style="flex:1;">
+                            <label for="password" class="form-label">Password *</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required autocomplete="new-password">
+                            <div id="passwordStrength" style="height:8px;background:#e9ecef;border-radius:4px;margin-top:6px;overflow:hidden;">
+                                <div id="passwordStrengthBar" style="height:100%;width:0%;background:#e74c3c;transition:width .2s linear;"></div>
+                            </div>
+                            <small id="passwordHelp" class="form-text text-muted">Minimum 8 characters, no spaces</small>
+                        </div>
+                        <div class="form-group" style="flex:1;">
+                            <label for="confirmpassword" class="form-label">Confirm Password *</label>
+                            <input type="password" class="form-control" id="confirmpassword" name="confirmpassword" placeholder="Confirm your password" required autocomplete="new-password">
+                            <small id="passwordMatch" class="form-text" style="color:#6c757d;">Passwords must match</small>
+                        </div>
+                    </div>
+
+                    <div style="margin-top:0.5rem;">
+                        <label><input type="checkbox" id="enable_totp" name="enable_totp_opt"> Enable Authenticator App (TOTP) after signup</label>
+                    </div>
+
+                    <!-- Document Upload (hidden until Next) -->
+                    <div id="documentSection" style="display:none; margin-top:1rem; padding:1rem; border:1px dashed #dcdcdc; border-radius:6px; background:#f8f9fa;">
+                        <h4>Document Verification</h4>
                         <div class="form-group">
-                        <label for="confirmpassword" class="form-label">
-                            <i class="bi bi-lock"></i>
-                            Confirm Password
-                        </label>
-                        <input type="password" class="form-control" id="confirmpassword" name="confirmpassword" 
-                               placeholder="Confirm your password" required>
+                            <label for="id_type">Valid ID Type *</label>
+                            <select id="id_type" name="id_type" class="form-control">
+                                <option value="">Select ID Type</option>
+                                <option>Philippine National ID (PhilID / PhilSys)</option>
+                                <option>Driver's License</option>
+                                <option>Passport</option>
+                                <option>SSS ID</option>
+                                <option>GSIS ID</option>
+                                <option>PRC ID</option>
+                                <option>TIN ID</option>
+                                <option>Voter's ID</option>
+                                <option>Postal ID</option>
+                                <option>School ID</option>
+                                <option>Company ID</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="front_id">Front of ID * (JPG, PNG up to 5MB)</label>
+                            <input type="file" id="front_id" name="front_id" accept="image/jpeg,image/png" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="back_id">Back of ID (optional)</label>
+                            <input type="file" id="back_id" name="back_id" accept="image/jpeg,image/png" class="form-control">
+                        </div>
+                        <div id="documentError" style="color:#c0392b;"></div>
+                    </div>
+
+                    <div style="display:flex; gap:0.5rem; margin-top:0.75rem;">
+                        <button type="button" id="nextBtn" class="login-btn" style="background:#6c757d;">Next →</button>
+                        <button type="submit" id="submitBtn" class="login-btn">Complete Registration</button>
                     </div>
 
                     <!-- Terms and Conditions Checkbox -->
@@ -215,7 +482,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="agree_terms" name="agree_terms" required>
                             <label class="form-check-label" for="agree_terms">
-                                I agree to the <a href="terms_conditions.php" target="_blank" class="text-primary">Terms and Conditions</a> 
+                                I agree to the <a href="terms_conditions.php" target="_blank" class="text-primary">Terms and Conditions</a>
                                 and <a href="data_privacy.php" target="_blank" class="text-primary">Data Privacy Policy</a>
                             </label>
                         </div>
@@ -223,19 +490,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <i class="bi bi-info-circle"></i> You must accept the terms to create an account
                         </small>
                     </div>
-                    
+
                     <button type="submit" class="login-btn">
                         <i class="bi bi-box-arrow-in-right"></i>
-                        <span>Submit</span>
+                        <span>Complete Registration</span>
                     </button>
-                    
-                <div class="signup-container">
-                 <a href="login.php" class="login-btn">
-                <i class="bi bi-box-arrow-in-right"></i>
-                <span>Back to Login</span>
-            </a>
-            <p>Already have an account?</p>
-            </div>
+
+                    <div class="signup-container">
+                        <a href="login.php" class="login-btn" style="margin-top:0.75rem;background:#6c757d;">
+                            <i class="bi bi-box-arrow-in-right"></i>
+                            <span>Back to Login</span>
+                        </a>
+                        <p style="margin-top:0.5rem;">Already have an account?</p>
+                    </div>
 
                 </form>
                 
@@ -618,6 +885,155 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         form.classList.add('was-validated');
     });
+
+    // Email availability check (debounced)
+    const emailInput = document.getElementById('emailadd');
+    const emailStatus = document.getElementById('emailStatus');
+    let emailTimer = null;
+    if (emailInput) {
+        emailInput.addEventListener('input', function() {
+            emailStatus.textContent = '';
+            clearTimeout(emailTimer);
+            const value = this.value.trim();
+            if (value.length === 0) return;
+            emailTimer = setTimeout(() => {
+                fetch('check_email.php?email=' + encodeURIComponent(value))
+                    .then(r => r.json())
+                    .then(data => {
+                        if (data.available) {
+                            emailStatus.style.color = '#16a34a';
+                            emailStatus.textContent = '✓ Available';
+                        } else {
+                            emailStatus.style.color = '#c0392b';
+                            emailStatus.textContent = '✗ Already in Use';
+                        }
+                    })
+                    .catch(err => {
+                        emailStatus.style.color = '#6c757d';
+                        emailStatus.textContent = 'Check failed';
+                    });
+            }, 600);
+        });
+    }
+
+    // Username availability check (debounced)
+    const usernameInput = document.getElementById('username');
+    const usernameStatus = document.getElementById('usernameStatus');
+    const usernameHelp = document.getElementById('usernameHelp');
+    let usernameTimer = null;
+    if (usernameInput) {
+        usernameInput.addEventListener('input', function() {
+            usernameStatus.textContent = '';
+            usernameHelp.textContent = '';
+            clearTimeout(usernameTimer);
+            const value = this.value.trim();
+            if (value.length === 0) return;
+            usernameTimer = setTimeout(() => {
+                fetch('check_username.php?username=' + encodeURIComponent(value))
+                    .then(r => r.json())
+                    .then(data => {
+                        if (data.available) {
+                            usernameStatus.style.color = '#16a34a';
+                            usernameStatus.textContent = '✓ Available';
+                            usernameHelp.textContent = '';
+                        } else {
+                            usernameStatus.style.color = '#c0392b';
+                            usernameStatus.textContent = '✗ Not Available';
+                            usernameHelp.textContent = '';
+                        }
+                    })
+                    .catch(err => {
+                        usernameStatus.style.color = '#6c757d';
+                        usernameStatus.textContent = 'Check failed';
+                        usernameHelp.textContent = '';
+                    });
+            }, 600);
+        });
+    }
+
+    // Password strength and match
+    const pwd = document.getElementById('password');
+    const pwdConfirm = document.getElementById('confirmpassword');
+    const strengthBar = document.getElementById('passwordStrengthBar');
+    const passwordHelp = document.getElementById('passwordHelp');
+    const passwordMatch = document.getElementById('passwordMatch');
+
+    function updateStrength() {
+        const v = pwd.value || '';
+        let score = 0;
+        if (v.length >= 8) score += 1;
+        if (/[A-Z]/.test(v)) score += 1;
+        if (/[0-9]/.test(v)) score += 1;
+        if (/[^A-Za-z0-9]/.test(v)) score += 1;
+
+        const pct = Math.min(100, (score / 4) * 100);
+        strengthBar.style.width = pct + '%';
+        if (pct < 50) strengthBar.style.background = '#e74c3c';
+        else if (pct < 80) strengthBar.style.background = '#f39c12';
+        else strengthBar.style.background = '#16a34a';
+
+        // enforce minimum tooltip
+        if (v.length >= 8) {
+            passwordHelp.textContent = 'Minimum reached';
+        } else {
+            passwordHelp.textContent = 'Minimum 8 characters';
+        }
+    }
+
+    function updateMatch() {
+        if (!pwd.value && !pwdConfirm.value) {
+            passwordMatch.style.color = '#6c757d';
+            passwordMatch.textContent = 'Passwords must match';
+            return;
+        }
+        if (pwd.value === pwdConfirm.value) {
+            passwordMatch.style.color = '#16a34a';
+            passwordMatch.textContent = 'Passwords match';
+        } else {
+            passwordMatch.style.color = '#c0392b';
+            passwordMatch.textContent = 'Passwords do not match';
+        }
+    }
+
+    if (pwd) pwd.addEventListener('input', () => { updateStrength(); updateMatch(); });
+    if (pwdConfirm) pwdConfirm.addEventListener('input', updateMatch);
+
+    // Next button shows document section and validates residency and password min
+    const nextBtn = document.getElementById('nextBtn');
+    const documentSection = document.getElementById('documentSection');
+    const documentError = document.getElementById('documentError');
+    if (nextBtn) {
+        nextBtn.addEventListener('click', function() {
+            documentError.textContent = '';
+            // Basic checks: resident selected, password >=8, username available
+            const resident = document.querySelector('input[name="resident_qc"]:checked');
+            if (!resident) { documentError.textContent = 'Please indicate residency (Yes / No).'; return; }
+            if (pwd.value.length < 8) { documentError.textContent = 'Password must be at least 8 characters.'; return; }
+            if (usernameStatus.textContent === 'Username not available') { documentError.textContent = 'Please choose a different username.'; return; }
+
+            // Submit current form data to document_upload.php for file upload step
+            form.action = 'document_upload.php';
+            form.method = 'POST';
+            form.enctype = 'application/x-www-form-urlencoded';
+            form.submit();
+        });
+    }
+
+    // Client-side file validation on submit
+    const submitBtn = document.getElementById('submitBtn');
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            const docVisible = documentSection.style.display !== 'none';
+            if (docVisible) {
+                const idType = document.getElementById('id_type').value;
+                const front = document.getElementById('front_id').files[0];
+                if (!idType) { e.preventDefault(); documentError.textContent = 'Please select an ID type.'; return false; }
+                if (!front) { e.preventDefault(); documentError.textContent = 'Please upload the front of your ID.'; return false; }
+                if (front.size > 5 * 1024 * 1024) { e.preventDefault(); documentError.textContent = 'Front ID exceeds 5MB.'; return false; }
+            }
+            return true;
+        });
+    }
 });
 </script>
 

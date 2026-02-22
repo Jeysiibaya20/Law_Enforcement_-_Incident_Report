@@ -4,6 +4,64 @@ require '../config/db_connect.php';
 require 'helpers.php';
 require '../includes/attachment_manager.php';
 
+// Check account verification status (must be verified by admin to use blotter)
+$accountVerified = false;
+$adminApprovalState = null;
+$userId = $_SESSION['user_id'] ?? null;
+
+if ($userId) {
+    try {
+        $stmt = $pdo->prepare("SELECT email_verified FROM signup WHERE user_id = ?");
+        $stmt->execute([$userId]);
+        $u = $stmt->fetch(PDO::FETCH_ASSOC);
+        $accountVerified = !empty($u['email_verified']);
+
+        // Try to read admin approval column
+        try {
+            $stmt2 = $pdo->prepare("SELECT admin_approved FROM signup WHERE user_id = ?");
+            $stmt2->execute([$userId]);
+            $a = $stmt2->fetch(PDO::FETCH_ASSOC);
+            if ($a && array_key_exists('admin_approved', $a)) {
+                $adminApprovalState = (int)$a['admin_approved'];
+                $accountVerified = ($adminApprovalState === 1);
+            }
+        } catch (Throwable $inner) {
+            // ignore - column may not exist
+            $adminApprovalState = null;
+        }
+    } catch (Exception $e) {
+        $accountVerified = false;
+    }
+
+    // If the logged-in user is an admin, always treat them as verified/unlocked
+    $userRole = strtolower($_SESSION['role'] ?? '');
+    if ($userRole === 'admin') {
+        $accountVerified = true;
+        $isBanned = false;
+    } else {
+        // Check banned status for non-admins
+        try {
+            $bStmt = $pdo->prepare("SELECT banned FROM signup WHERE user_id = ?");
+            $bStmt->execute([$userId]);
+            $bRow = $bStmt->fetch(PDO::FETCH_ASSOC);
+            $isBanned = !empty($bRow['banned']);
+        } catch (Exception $e) {
+            $isBanned = false;
+        }
+    }
+}
+
+// If banned, render a banned notice and stop further processing
+if (!empty($isBanned)) {
+    require '../includes/header.php';
+    require 'helpers.php';
+    echo '<div class="main-content"><div class="content-container">';
+    echo '<div class="alert alert-danger"><h4>Account Suspended</h4><p>Your account has been banned by an administrator. You cannot access the blotter until your account is unbanned. If you believe this is an error, contact the system administrator.</p></div>';
+    echo '</div></div>';
+    require '../includes/footer.php';
+    exit;
+}
+
 /**
  * Determine priority level based on incident type
  */
@@ -457,94 +515,159 @@ require '../includes/navbar.php';
 <div class="card">
 <div class="card-header d-flex justify-content-between align-items-center">
         <h5 style="margin: 0;">Blotter Records</h5>
-        <a href="blotter_create.php" id="btnNewBlotter" type="button" class="btn btn-primary btn-sm">
+        <?php if (!$accountVerified): ?>
+            <button class="btn btn-primary btn-sm" disabled title="Account must be approved by admin">
                 <i class="bi bi-plus-circle"></i> New Blotter
-        </a>
+            </button>
+        <?php else: ?>
+            <a href="blotter_create.php" id="btnNewBlotter" type="button" class="btn btn-primary btn-sm">
+                <i class="bi bi-plus-circle"></i> New Blotter
+            </a>
+        <?php endif; ?>
 </div>
 
-<!-- Search Bar -->
-<div class="card-body" style="padding: 12px 15px; border-bottom: 1px solid #dee2e6;">
+<?php if (!$accountVerified): ?>
+    <!-- ACCOUNT NOT VERIFIED - Show locked state -->
+    <div class="alert alert-warning card-body">
+        <strong>Account Verification Pending</strong>
+        <p>Your account is currently under review by the admin. Blotter access will be available once an admin approves your account.</p>
+    </div>
+
+    <!-- Search Bar (disabled) -->
+    <div class="card-body" style="padding: 12px 15px; border-bottom: 1px solid #dee2e6; opacity: 0.5; pointer-events: none;">
         <div style="display: flex; gap: 10px; align-items: center;">
-                <input 
-                        type="text" 
-                        id="blotterSearch" 
-                        class="form-control" 
-                        placeholder="Search by Blotter No..."
-                        onkeyup="filterBlotterTable()"
-                        style="max-width: 300px;"
-                >
-                <button class="btn btn-outline-secondary btn-sm" onclick="resetBlotterSearch()" title="Reset Search">
-                        <i class="bi bi-arrow-counterclockwise"></i> Reset
-                </button>
+            <input 
+                type="text" 
+                id="blotterSearch" 
+                class="form-control" 
+                placeholder="Search by Blotter No..."
+                onkeyup="filterBlotterTable()"
+                style="max-width: 300px;"
+                disabled
+            >
+            <button class="btn btn-outline-secondary btn-sm" onclick="resetBlotterSearch()" disabled>
+                <i class="bi bi-arrow-counterclockwise"></i> Reset
+            </button>
         </div>
-</div>
+    </div>
 
-<div class="table-responsive">
-<table class="table table-hover align-middle">
-<thead>
-<tr>
-        <th>Blotter No</th>
-        <th>Incident</th>
-        <th>Complainant</th>
-        <th>Status</th>
-        <th>Priority</th>
-        <th>Date</th>
-        <th class="text-center">Actions</th>
-</tr>
-</thead>
-<tbody>
-<?php if (empty($blotters)): ?>
-<tr>
-    <td colspan="7" class="text-center py-5">
-        <div class="text-muted">
-            <i class="bi bi-inbox" style="font-size: 2rem;"></i>
-            <p class="mt-3">No blotter records found.</p>
-            <small>Click "New Blotter" to create your first blotter record.</small>
-        </div>
-    </td>
-</tr>
-<?php else: ?>
-<?php foreach ($blotters as $b): ?>
-<tr>
-        <td class="fw-bold"><?= htmlspecialchars($b['blotter_no']) ?></td>
-        <td><?= htmlspecialchars($b['incident_type']) ?></td>
-        <td><?= htmlspecialchars($b['complainant_name']) ?></td>
-        <td><?= render_status_badge($b['status']) ?></td>
-        <td><?= render_priority_badge($b['priority']) ?></td>
-        <td><?= $b['incident_date'] ? date('M d, Y', strtotime($b['incident_date'])) : '' ?></td>
-        <td class="text-center">
-            <div class="btn-group btn-group-sm">
-                <a href="blotter_view.php?id=<?= intval($b['id']) ?>" class="btn btn-outline-info" title="View Blotter Report"><i class="bi bi-eye"></i> View</a>
-                <?php
-                    $userRole = strtolower($_SESSION['role'] ?? '');
-                    $currentUserId = $_SESSION['user_id'] ?? null;
-                    $canEdit = false;
-                    
-                    // Check if admin or if user created this blotter
-                    if ($userRole === 'admin') {
-                        $canEdit = true;
-                    } elseif ($currentUserId && isset($b['created_by']) && intval($b['created_by']) === intval($currentUserId)) {
-                        $canEdit = true;
-                    } elseif ($currentUserId && isset($b['officer_id']) && intval($b['officer_id']) === intval($currentUserId)) {
-                        $canEdit = true;
-                    }
-                ?>
-                <?php if ($canEdit): ?>
-                    <a href="blotter_update.php?id=<?= intval($b['id']) ?>" class="btn btn-outline-success" title="Edit Blotter"><i class="bi bi-pencil"></i> Edit</a>
-                    <button class="btn btn-outline-danger" onclick="showActionModal('Archive',<?= intval($b['id']) ?>,'<?= htmlspecialchars($b['blotter_no'], ENT_QUOTES) ?>','archive')"><i class="bi bi-archive"></i> Archive</button>
-                    <button class="btn btn-outline-primary" onclick="printBlotter(<?= intval($b['id']) ?>, '<?= htmlspecialchars($b['blotter_no'], ENT_QUOTES) ?>')"><i class="bi bi-printer"></i> Print</button>
-                <?php else: ?>
-                    <span class="text-muted small">View only</span>
-                <?php endif; ?>
+    <div class="table-responsive" style="position: relative;">
+        <div style="position: absolute; inset: 0; background: rgba(255, 255, 255, 0.85); display: flex; align-items: center; justify-content: center; border-radius: 8px; z-index: 10;">
+            <div class="text-center">
+                <i class="bi bi-lock-fill" style="font-size: 48px; color: #dc3545; margin-bottom: 10px; display: block;"></i>
+                <h5 class="text-danger">Blotter Locked</h5>
+                <p class="text-secondary">Waiting for admin approval</p>
             </div>
-        </td>
-    </tr>
-<?php endforeach; ?>
+        </div>
+        <table class="table table-hover align-middle" style="opacity: 0.4;">
+            <thead>
+                <tr>
+                    <th>Blotter No</th>
+                    <th>Incident</th>
+                    <th>Complainant</th>
+                    <th>Status</th>
+                    <th>Priority</th>
+                    <th>Date</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="7" class="text-center py-5">
+                        <div class="text-muted">
+                            <i class="bi bi-inbox" style="font-size: 2rem;"></i>
+                            <p class="mt-3">Blotter records hidden</p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<?php else: ?>
+    <!-- ACCOUNT VERIFIED - Show unlocked state with normal content -->
+    <!-- Search Bar -->
+    <div class="card-body" style="padding: 12px 15px; border-bottom: 1px solid #dee2e6;">
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <input 
+                type="text" 
+                id="blotterSearch" 
+                class="form-control" 
+                placeholder="Search by Blotter No..."
+                onkeyup="filterBlotterTable()"
+                style="max-width: 300px;"
+            >
+            <button class="btn btn-outline-secondary btn-sm" onclick="resetBlotterSearch()" title="Reset Search">
+                <i class="bi bi-arrow-counterclockwise"></i> Reset
+            </button>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover align-middle">
+            <thead>
+                <tr>
+                    <th>Blotter No</th>
+                    <th>Incident</th>
+                    <th>Complainant</th>
+                    <th>Status</th>
+                    <th>Priority</th>
+                    <th>Date</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php if (empty($blotters)): ?>
+                    <tr>
+                        <td colspan="7" class="text-center py-5">
+                            <div class="text-muted">
+                                <i class="bi bi-inbox" style="font-size: 2rem;"></i>
+                                <p class="mt-3">No blotter records found.</p>
+                                <small>Click "New Blotter" to create your first blotter record.</small>
+                            </div>
+                        </td>
+                    </tr>
+                <?php else: ?>
+                    <?php foreach ($blotters as $b): ?>
+                        <tr>
+                            <td class="fw-bold"><?= htmlspecialchars($b['blotter_no']) ?></td>
+                            <td><?= htmlspecialchars($b['incident_type']) ?></td>
+                            <td><?= htmlspecialchars($b['complainant_name']) ?></td>
+                            <td><?= render_status_badge($b['status']) ?></td>
+                            <td><?= render_priority_badge($b['priority']) ?></td>
+                            <td><?= $b['incident_date'] ? date('M d, Y', strtotime($b['incident_date'])) : '' ?></td>
+                            <td class="text-center">
+                                <div class="btn-group btn-group-sm">
+                                    <a href="blotter_view.php?id=<?= intval($b['id']) ?>" class="btn btn-outline-info" title="View Blotter Report"><i class="bi bi-eye"></i> View</a>
+                                    <?php
+                                        $userRole = strtolower($_SESSION['role'] ?? '');
+                                        $currentUserId = $_SESSION['user_id'] ?? null;
+                                        $canEdit = false;
+                                        
+                                        // Check if admin or if user created this blotter
+                                        if ($userRole === 'admin') {
+                                            $canEdit = true;
+                                        } elseif ($currentUserId && isset($b['created_by']) && intval($b['created_by']) === intval($currentUserId)) {
+                                            $canEdit = true;
+                                        } elseif ($currentUserId && isset($b['officer_id']) && intval($b['officer_id']) === intval($currentUserId)) {
+                                            $canEdit = true;
+                                        }
+                                    ?>
+                                    <?php if ($canEdit): ?>
+                                        <a href="blotter_update.php?id=<?= intval($b['id']) ?>" class="btn btn-outline-success" title="Edit Blotter"><i class="bi bi-pencil"></i> Edit</a>
+                                        <button class="btn btn-outline-danger" onclick="showActionModal('Archive',<?= intval($b['id']) ?>,'<?= htmlspecialchars($b['blotter_no'], ENT_QUOTES) ?>','archive')"><i class="bi bi-archive"></i> Archive</button>
+                                        <button class="btn btn-outline-primary" onclick="printBlotter(<?= intval($b['id']) ?>, '<?= htmlspecialchars($b['blotter_no'], ENT_QUOTES) ?>')"><i class="bi bi-printer"></i> Print</button>
+                                    <?php else: ?>
+                                        <span class="text-muted small">View only</span>
+                                    <?php endif; ?>
+                                </div>
+                            </td>
+                        </tr>
+                    <?php endforeach; ?>
+                <?php endif; ?>
+            </tbody>
+        </table>
+    </div>
 <?php endif; ?>
-</tbody>
-</table>
-</div>
-</div>
 
 </div>
 

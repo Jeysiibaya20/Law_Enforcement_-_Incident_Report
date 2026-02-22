@@ -6,6 +6,21 @@
 
 require_once __DIR__ . '/../config/db_connect.php';
 
+// Helper: check if table has a column (safe for older schemas)
+function tableHasColumn($table, $column) {
+    global $pdo;
+    try {
+        $stmt = $pdo->prepare("SHOW COLUMNS FROM `" . str_replace('`','', $table) . "` LIKE ?");
+        $stmt->execute([$column]);
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+        return !empty($row);
+    } catch (PDOException $e) {
+        // If SHOW COLUMNS is not permitted, assume false to avoid failing operations
+        error_log("tableHasColumn error: " . $e->getMessage());
+        return false;
+    }
+}
+
 // ==================== SUSPECT FUNCTIONS ====================
 
 /**
@@ -23,8 +38,33 @@ function createSuspect($data) {
              remarks, status, photo_path, created_by) 
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ");
-        
-        $stmt->execute([
+        // Build insert dynamically depending on whether photo_path column exists
+        $hasPhoto = tableHasColumn('suspects', 'photo_path');
+        // If photo_path not present but a photo was uploaded, attempt to add the column so photos can be saved
+        if (!$hasPhoto && !empty($data['photo_path'])) {
+            try {
+                $pdo->exec("ALTER TABLE suspects ADD COLUMN photo_path VARCHAR(255) DEFAULT NULL");
+                $hasPhoto = true;
+            } catch (PDOException $e) {
+                error_log("Could not add photo_path column automatically: " . $e->getMessage());
+                // proceed without photo column
+            }
+        }
+        $columns = [
+            'case_id','case_number','first_name','middle_name','last_name','age','date_of_birth',
+            'gender','address','barangay','city','province','zip_code','contact_number','email',
+            'id_type','id_number','physical_description','known_aliases','criminal_history','remarks','status'
+        ];
+        if ($hasPhoto) $columns[] = 'photo_path';
+        $columns[] = 'created_by';
+
+        $placeholders = implode(', ', array_fill(0, count($columns), '?'));
+        $colList = implode(', ', $columns);
+
+        $sql = "INSERT INTO suspects ({$colList}) VALUES ({$placeholders})";
+        $stmt = $pdo->prepare($sql);
+
+        $values = [
             $data['case_id'],
             $data['case_number'],
             $data['first_name'],
@@ -46,23 +86,44 @@ function createSuspect($data) {
             $data['known_aliases'] ?? null,
             $data['criminal_history'] ?? null,
             $data['remarks'] ?? null,
-            $data['status'] ?? 'Active',
-            $data['photo_path'] ?? null,
-            $data['created_by']
-        ]);
-        
+            $data['status'] ?? 'Active'
+        ];
+        if ($hasPhoto) $values[] = $data['photo_path'] ?? null;
+        $values[] = $data['created_by'];
+
+        $stmt->execute($values);
+
         $suspect_id = $pdo->lastInsertId();
-        
+
+        // If the suspects table does not have photo_path, store photo in side table
+        if (!$hasPhoto && !empty($data['photo_path'])) {
+            try {
+                $pdo->exec("CREATE TABLE IF NOT EXISTS suspect_photos (
+                    id INT AUTO_INCREMENT PRIMARY KEY,
+                    suspect_id INT NOT NULL,
+                    photo_path VARCHAR(255) NOT NULL,
+                    created_by INT DEFAULT NULL,
+                    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                    INDEX (suspect_id)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+                $pstmt = $pdo->prepare("INSERT INTO suspect_photos (suspect_id, photo_path, created_by) VALUES (?, ?, ?)");
+                $pstmt->execute([$suspect_id, $data['photo_path'], $data['created_by']]);
+            } catch (PDOException $e) {
+                error_log("Error storing suspect photo in side table: " . $e->getMessage());
+            }
+        }
+
         // Add to updates log
         addSuspectUpdate($suspect_id, 'Record Created', 'Suspect record created', $data['created_by']);
-        
+
         return ['success' => true, 'suspect_id' => $suspect_id];
-        
-    } catch (PDOException $e) {
-        error_log("Error creating suspect: " . $e->getMessage());
-        return ['success' => false, 'error' => $e->getMessage()];
+
+        } catch (PDOException $e) {
+            error_log("Error creating suspect: " . $e->getMessage());
+            return ['success' => false, 'error' => $e->getMessage()];
+        }
     }
-}
 
 /**
  * Get suspect by ID
@@ -71,7 +132,24 @@ function getSuspectById($suspect_id) {
     global $pdo;
     
     try {
-        $stmt = $pdo->prepare("SELECT * FROM suspects WHERE id = ?");
+        // Try to include photo path either from suspects.photo_path or suspect_photos side table
+        $hasPhoto = tableHasColumn('suspects', 'photo_path');
+        if ($hasPhoto) {
+            $sql = "SELECT s.*, COALESCE(s.photo_path, sp.photo_path) AS photo_path
+                FROM suspects s
+                LEFT JOIN (
+                    SELECT suspect_id, photo_path FROM suspect_photos GROUP BY suspect_id
+                ) sp ON sp.suspect_id = s.id
+                WHERE s.id = ? LIMIT 1";
+        } else {
+            $sql = "SELECT s.*, sp.photo_path AS photo_path
+                FROM suspects s
+                LEFT JOIN (
+                    SELECT suspect_id, photo_path FROM suspect_photos GROUP BY suspect_id
+                ) sp ON sp.suspect_id = s.id
+                WHERE s.id = ? LIMIT 1";
+        }
+        $stmt = $pdo->prepare($sql);
         $stmt->execute([$suspect_id]);
         return $stmt->fetch(PDO::FETCH_ASSOC);
     } catch (PDOException $e) {
@@ -103,6 +181,33 @@ function getSuspectsByCase($case_id) {
         error_log("Error getting suspects for case: " . $e->getMessage());
         return [];
     }
+        // Include photo from suspects.photo_path if present, otherwise from suspect_photos side table
+        $hasPhoto = tableHasColumn('suspects', 'photo_path');
+        if ($hasPhoto) {
+            $sql = "SELECT s.*, COALESCE(s.photo_path, sp.photo_path) AS photo_path, u.username as created_by_name, u2.username as updated_by_name
+                FROM suspects s
+                LEFT JOIN (
+                    SELECT suspect_id, photo_path FROM suspect_photos GROUP BY suspect_id
+                ) sp ON sp.suspect_id = s.id
+                LEFT JOIN users u ON s.created_by = u.user_id
+                LEFT JOIN users u2 ON s.updated_by = u2.user_id
+                WHERE s.case_id = ?
+                ORDER BY s.created_at DESC";
+        } else {
+            $sql = "SELECT s.*, sp.photo_path AS photo_path, u.username as created_by_name, u2.username as updated_by_name
+                FROM suspects s
+                LEFT JOIN (
+                    SELECT suspect_id, photo_path FROM suspect_photos GROUP BY suspect_id
+                ) sp ON sp.suspect_id = s.id
+                LEFT JOIN users u ON s.created_by = u.user_id
+                LEFT JOIN users u2 ON s.updated_by = u2.user_id
+                WHERE s.case_id = ?
+                ORDER BY s.created_at DESC";
+        }
+
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute([$case_id]);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
 
 /**
@@ -112,17 +217,34 @@ function updateSuspect($suspect_id, $data, $updated_by) {
     global $pdo;
     
     try {
-        $stmt = $pdo->prepare("
-            UPDATE suspects 
-            SET first_name = ?, middle_name = ?, last_name = ?, age = ?, date_of_birth = ?,
-                gender = ?, address = ?, barangay = ?, city = ?, province = ?, zip_code = ?,
-                contact_number = ?, email = ?, id_type = ?, id_number = ?,
-                physical_description = ?, known_aliases = ?, criminal_history = ?,
-                remarks = ?, status = ?, photo_path = ?, updated_by = ?, updated_at = NOW()
-            WHERE id = ?
-        ");
-        
-        $stmt->execute([
+        // Build update dynamically to avoid failing when photo_path column is absent
+        $hasPhoto = tableHasColumn('suspects', 'photo_path');
+        $sets = [
+            'first_name = ?', 'middle_name = ?', 'last_name = ?', 'age = ?', 'date_of_birth = ?',
+            'gender = ?', 'address = ?', 'barangay = ?', 'city = ?', 'province = ?', 'zip_code = ?',
+            'contact_number = ?', 'email = ?', 'id_type = ?', 'id_number = ?',
+            'physical_description = ?', 'known_aliases = ?', 'criminal_history = ?',
+            'remarks = ?', 'status = ?'
+        ];
+        if ($hasPhoto) $sets[] = 'photo_path = ?';
+        // If photo_path missing but photo provided, attempt to add column so update can include it
+        if (!$hasPhoto && !empty($data['photo_path'])) {
+            try {
+                $pdo->exec("ALTER TABLE suspects ADD COLUMN photo_path VARCHAR(255) DEFAULT NULL");
+                $hasPhoto = true;
+                // ensure photo field is included
+                if (!in_array('photo_path = ?', $sets)) $sets[] = 'photo_path = ?';
+            } catch (PDOException $e) {
+                error_log("Could not add photo_path column automatically for update: " . $e->getMessage());
+            }
+        }
+        $sets[] = 'updated_by = ?';
+        $sets[] = 'updated_at = NOW()';
+
+        $sql = "UPDATE suspects SET " . implode(', ', $sets) . " WHERE id = ?";
+        $stmt = $pdo->prepare($sql);
+
+        $values = [
             $data['first_name'],
             $data['middle_name'] ?? null,
             $data['last_name'],
@@ -142,12 +264,36 @@ function updateSuspect($suspect_id, $data, $updated_by) {
             $data['known_aliases'] ?? null,
             $data['criminal_history'] ?? null,
             $data['remarks'] ?? null,
-            $data['status'] ?? 'Active',
-            $data['photo_path'] ?? null,
-            $updated_by,
-            $suspect_id
-        ]);
-        
+            $data['status'] ?? 'Active'
+        ];
+        if ($hasPhoto) $values[] = $data['photo_path'] ?? null;
+        $values[] = $updated_by;
+        $values[] = $suspect_id;
+
+        $stmt->execute($values);
+
+        // If suspects table has no photo_path but a photo was provided, store/update in side table
+        if (!$hasPhoto && !empty($data['photo_path'])) {
+            try {
+                $pdo->exec("CREATE TABLE IF NOT EXISTS suspect_photos (
+                    id INT AUTO_INCREMENT PRIMARY KEY,
+                    suspect_id INT NOT NULL,
+                    photo_path VARCHAR(255) NOT NULL,
+                    created_by INT DEFAULT NULL,
+                    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                    INDEX (suspect_id)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+                // Upsert: delete existing then insert latest
+                $del = $pdo->prepare("DELETE FROM suspect_photos WHERE suspect_id = ?");
+                $del->execute([$suspect_id]);
+                $pstmt = $pdo->prepare("INSERT INTO suspect_photos (suspect_id, photo_path, created_by) VALUES (?, ?, ?)");
+                $pstmt->execute([$suspect_id, $data['photo_path'], $updated_by]);
+            } catch (PDOException $e) {
+                error_log("Error storing suspect photo in side table during update: " . $e->getMessage());
+            }
+        }
+
         addSuspectUpdate($suspect_id, 'Record Updated', 'Suspect information updated', $updated_by);
         return ['success' => true];
         

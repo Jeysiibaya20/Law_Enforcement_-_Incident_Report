@@ -3,17 +3,42 @@
  * Witness Management Page
  * Allows admin to add, view, and update witness information for cases
  */
-
+include '../includes/header.php';
+include '../includes/navbar.php';
 require_once dirname(__DIR__) . '/config/db_connect.php';
 require_once dirname(__DIR__) . '/includes/case_management.php';
 require_once dirname(__DIR__) . '/includes/suspect_witness_management.php';
 
 // Check authorization
-session_start();
-if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'Admin') {
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+// Safely read session role and user id to avoid undefined index warnings
+$userId = $_SESSION['user_id'] ?? null;
+$role = strtolower($_SESSION['role'] ?? '');
+
+if (!$userId) {
     http_response_code(403);
     echo "Access Denied";
     exit;
+}
+
+// Allow access if session role is admin, otherwise fallback to DB check
+if ($role !== 'admin') {
+    try {
+        $rstmt = $pdo->prepare("SELECT role FROM signup WHERE user_id = ? LIMIT 1");
+        $rstmt->execute([$userId]);
+        $rrow = $rstmt->fetch(PDO::FETCH_ASSOC);
+        if (!($rrow && strtolower($rrow['role'] ?? '') === 'admin')) {
+            http_response_code(403);
+            echo "Access Denied";
+            exit;
+        }
+    } catch (Exception $e) {
+        http_response_code(403);
+        echo "Access Denied";
+        exit;
+    }
 }
 
 $case_id = $_GET['case_id'] ?? null;
@@ -107,19 +132,15 @@ if ($edit_id) {
 
 // Get all witnesses for this case
 $witnesses = getWitnessesByCase($case_id);
+
+$page_title = "Witness Management - " . htmlspecialchars($case['case_number']);
+$body_class = 'blotter-page';
+include '../includes/header.php';
+include '../includes/navbar.php';
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Witness Management - <?= htmlspecialchars($case['case_number']) ?></title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
-</head>
-<body class="bg-light">
-    <div class="container-fluid py-4">
+<div class="main-content">
+    <div class="content-container py-4">
         <div class="d-flex justify-content-between align-items-start mb-4">
             <div>
                 <h1 class="h2 mb-2">
@@ -314,6 +335,4 @@ $witnesses = getWitnessesByCase($case_id);
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    <?php include '../includes/footer.php'; ?>

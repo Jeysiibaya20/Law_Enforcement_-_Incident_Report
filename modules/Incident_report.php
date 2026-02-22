@@ -206,7 +206,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_incident'])) {
 }
 
 // --- ADMIN UPDATE HANDLER ---
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) && $_SESSION['role'] === 'Admin') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) && (($_SESSION['role'] ?? '') === 'Admin')) {
     try {
         $incident_id = intval($_POST['incident_id'] ?? 0);
         $status = $_POST['status'] ?? 'Submitted';
@@ -251,7 +251,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) &&
 }
 
 // --- DELETE INCIDENT HANDLER ---
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['action'] === 'delete_incident' && $_SESSION['role'] === 'Admin') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['action'] === 'delete_incident' && (($_SESSION['role'] ?? '') === 'Admin')) {
     try {
         $incident_id = intval($_POST['incident_id'] ?? 0);
         
@@ -648,14 +648,14 @@ require_once '../includes/navbar.php'; ?>
                                                 <i class="bi bi-eye"></i>
                                             </button>
                                             <?php 
-                                            $canEdit = ($_SESSION['role'] === 'Admin') || (isset($_SESSION['user_id']) && $incident['created_by'] == $_SESSION['user_id']);
+                                            $canEdit = ($user_role === 'Admin') || (isset($_SESSION['user_id']) && $incident['created_by'] == $_SESSION['user_id']);
                                             if ($canEdit): 
                                             ?>
-                                                <button class="btn btn-sm btn-outline-warning" title="Edit Report" data-bs-toggle="modal" data-bs-target="#<?php echo $_SESSION['role'] === 'Admin' ? 'editIncidentModal' : 'userEditIncidentModal'; ?>" onclick="<?php echo $_SESSION['role'] === 'Admin' ? 'loadIncidentForEdit' : 'loadIncidentForUserEdit'; ?>(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
+                                                <button class="btn btn-sm btn-outline-warning" title="Edit Report" data-bs-toggle="modal" data-bs-target="#<?php echo ($user_role === 'Admin') ? 'editIncidentModal' : 'userEditIncidentModal'; ?>" onclick="<?php echo ($user_role === 'Admin') ? 'loadIncidentForEdit' : 'loadIncidentForUserEdit'; ?>(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
                                                     <i class="bi bi-pencil"></i>
                                                 </button>
                                             <?php endif; ?>
-                                            <?php if ($_SESSION['role'] === 'Admin'): ?>
+                                            <?php if ($user_role === 'Admin'): ?>
                                                 <button class="btn btn-sm btn-outline-danger" title="Delete Case" onclick="deleteIncident(<?php echo $incident['id']; ?>, '<?php echo htmlspecialchars($incident['case_no']); ?>')">
                                                     <i class="bi bi-trash"></i>
                                                 </button>

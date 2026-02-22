@@ -17,6 +17,7 @@ $base_url = '../';
 
 // Include required files
 require_once '../config/db_connect.php';
+require_once '../includes/two_factor_auth.php';
 
 // Redirect if already logged in
 if (isset($_SESSION['user_id'])) {
@@ -71,24 +72,89 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         //     throw new Exception('Please verify your email address before logging in.');
         // }
 
-        // Set session
-        $_SESSION['user_id']   = $user['user_id'];
-        $_SESSION['username']  = $user['username'];
-        $_SESSION['fullname']  = $user['fullname'];
-        $_SESSION['email']     = $user['emailadd'];
-        
-        // Get user role from database if role column exists
+        // At login, require SMS verification to complete login
+        // Look up email on file (signup table or users table)
+        $email = $user['emailadd'] ?? $user['email'] ?? '';
+        if (empty($email)) {
+            try {
+                $pstmt = $pdo->prepare("SELECT emailadd FROM signup WHERE user_id = ? LIMIT 1");
+                $pstmt->execute([$user['user_id']]);
+                $prow = $pstmt->fetch(PDO::FETCH_ASSOC);
+                if ($prow && !empty($prow['emailadd'])) {
+                    $email = $prow['emailadd'];
+                }
+            } catch (Exception $e) {
+                // ignore
+            }
+        }
+
+        if (empty($email)) {
+            // try users table
+            try {
+                $pstmt2 = $pdo->prepare("SELECT email FROM users WHERE user_id = ? LIMIT 1");
+                $pstmt2->execute([$user['user_id']]);
+                $prow2 = $pstmt2->fetch(PDO::FETCH_ASSOC);
+                if ($prow2 && !empty($prow2['email'])) {
+                    $email = $prow2['email'];
+                }
+            } catch (Exception $e) {
+                // ignore
+            }
+        }
+
+        if (empty($email)) {
+            throw new Exception('No email address on file for this account. Please contact support to enable email verification.');
+        }
+
+        // If the user has TOTP (Google Authenticator) enabled, prefer that flow
+        $tfa = new TwoFactorAuth($pdo);
+        if ($tfa->is2FAEnabled($user['user_id'])) {
+            // TOTP flow - user must open their Authenticator app and enter code
+            $_SESSION['pending_2fa_user'] = $user['user_id'];
+            $_SESSION['pending_2fa_method'] = 'TOTP';
+            $_SESSION['pending_2fa_username'] = $user['username'];
+
+            // role lookup
+            try {
+                $roleStmt = $pdo->prepare("SELECT role FROM signup WHERE user_id = ? LIMIT 1");
+                $roleStmt->execute([$user['user_id']]);
+                $roleData = $roleStmt->fetch(PDO::FETCH_ASSOC);
+                $_SESSION['pending_2fa_role'] = $roleData['role'] ?? 'User';
+            } catch (Exception $e) {
+                $_SESSION['pending_2fa_role'] = 'User';
+            }
+
+            header('Location: verify_2fa.php');
+            exit();
+        }
+
+        // Generate and send EMAIL verification code (fallback)
+        $code = $tfa->generateSMSCode();
+        $storeOk = $tfa->storeEmailCode($user['user_id'], $code);
+        $sentOk = false;
+        if ($storeOk) {
+            $sentOk = $tfa->sendEmailCode($email, $code);
+        }
+        if (!$storeOk || !$sentOk) {
+            throw new Exception('Failed to send verification code. Please try again later.');
+        }
+
+        // Set pending 2FA session info and redirect to verification page (EMAIL)
+        $_SESSION['pending_2fa_user'] = $user['user_id'];
+        $_SESSION['pending_2fa_method'] = 'EMAIL';
+        $_SESSION['pending_2fa_email'] = $email;
+        $_SESSION['pending_2fa_username'] = $user['username'];
+        // role lookup
         try {
             $roleStmt = $pdo->prepare("SELECT role FROM signup WHERE user_id = ? LIMIT 1");
             $roleStmt->execute([$user['user_id']]);
             $roleData = $roleStmt->fetch(PDO::FETCH_ASSOC);
-            $_SESSION['role'] = $roleData['role'] ?? 'User';
+            $_SESSION['pending_2fa_role'] = $roleData['role'] ?? 'User';
         } catch (Exception $e) {
-            $_SESSION['role'] = 'User';
+            $_SESSION['pending_2fa_role'] = 'User';
         }
 
-        // Redirect to landing page
-        header('Location: ../landing.php');
+        header('Location: verify_2fa.php');
         exit();
 
     } catch (Exception $e) {
@@ -154,7 +220,7 @@ require_once '../includes/two_factor_auth.php';
                     </button>
                     
 <div class="signup-container">
-  <a href="signup.php" class="login-btn">
+  <a href="signup_multistep.php" class="login-btn">
     <i class="bi bi-box-arrow-in-right"></i>
     <span>Sign up</span>
   </a>

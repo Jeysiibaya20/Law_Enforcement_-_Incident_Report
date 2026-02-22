@@ -1,0 +1,35 @@
+/* Auth / Signup shared styles */
+:root{
+    --primary-bg: #f5f7fb;
+    --text-white:#ffffff;
+    --main-color:#4c8a89;
+    --gradient-accent: linear-gradient(135deg,#4c8a89,#2e6b5f);
+    --border-radius-sm:8px;
+    --border-radius-lg:12px;
+    --shadow-md: 0 6px 18px rgba(0,0,0,0.08);
+    --shadow-lg: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.login-container { min-height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; background: var(--primary-bg); overflow: hidden; padding: 2rem; width: 100%; margin: 0; box-sizing: border-box; }
+.login-background { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(135deg, rgba(76, 138, 137, 0.8) 0%, rgba(58, 80, 107, 0.7) 50%, rgba(28, 37, 65, 0.8) 100%); z-index: 1; }
+.login-background::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('../css/QC.jpeg') center/90% no-repeat; opacity: 0.06; z-index: 1; }
+.login-overlay { position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 2; }
+.login-content { position: relative; z-index: 3; width: 100%; max-width: 700px; padding: 2rem; display: flex; justify-content: center; align-items: center; }
+.login-card { background: rgba(250,250,250,0.98); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-lg); width: 100%; max-width: 700px; overflow: hidden; }
+.login-header { text-align:center; padding: 2.25rem; background: linear-gradient(135deg, rgba(76,138,137,0.9), rgba(58,80,107,0.8)); color:var(--text-white); }
+.login-logo { width:80px;height:80px;border-radius:50%;background:#fff;margin:0 auto 1rem; display:flex;align-items:center;justify-content:center; }
+.login-title{ font-family: 'Libre Baskerville', serif; font-size:1.8rem; margin:0; }
+.login-subtitle{ margin:0; opacity:0.9; }
+.login-form-container{ padding: 1.5rem; }
+.login-form .form-group{ margin-bottom:1rem; }
+.login-form .form-label{ display:block; margin-bottom:0.5rem; font-weight:600; color:#2e6b5f; }
+.login-form .form-control{ width:100%; padding:0.75rem 1rem; border:2px solid #e9ecef; border-radius:8px; }
+.login-form .form-control:focus{ outline:none; border-color:var(--main-color); box-shadow:0 0 0 3px rgba(76,138,137,0.08); }
+.login-btn{ background:var(--main-color); color:#fff; padding:0.75rem 1.25rem; border-radius:8px; border:none; cursor:pointer; font-weight:600; }
+.login-btn[style*="background:#6c757d"]{ background:#6c757d; }
+
+@media (max-width:768px){ .login-content{ padding:1rem; max-width:100%; } .login-card{ max-width:100%; } }
+
+/* Small helpers used by the auth forms */
+.form-text { font-size:0.9rem; color:#6c757d; }
+.text-muted { color:#6c757d; }

@@ -1,6 +1,9 @@
 //
 
 <?php
+if (session_status() === PHP_SESSION_NONE) {
+    @session_start();
+}
 require_once __DIR__ . '/../config/LanguageManager.php';
 
 $current_page = basename($_SERVER['PHP_SELF'], '.php');
@@ -24,7 +27,9 @@ $setup_automated_reports_path = $root_path . 'admin/setup_automated_reports.php'
 $test_reports_path = $root_path . 'admin/test_reports_analytics.php';
 $new_hire_path = $root_path . 'admin/analytics_dashboard.php';
 $performance_path = $root_path . 'modules/blotter.php';
+// For regular users, link to 'My Reports' which lists their submitted incidents.
 $recruitment_path = $root_path . 'modules/incident_report.php';
+$my_reports_path = $root_path . 'modules/my_reports.php';
 $recognition_path = $root_path . 'modules/CaseAssign.php';
 $competency_path = $root_path . 'modules/competency.php';
 $succession_path = $root_path . 'modules/succession.php';
@@ -94,9 +99,9 @@ $recognition_path = $root_path . 'admin/cases.php';
             </form>
         </div>
         
-        <?php if (isset($_SESSION['role']) && strtolower($_SESSION['role']) === 'admin'): ?>
+                <?php if (isset($_SESSION['role']) && strtolower($_SESSION['role']) === 'admin'): ?>
             <div class="mt-2 text-center">
-            
+                <a href="<?php echo $base_url; ?>admin/account_approvals.php" class="btn btn-sm btn-outline-light">Account Approvals</a>
             </div>
         <?php endif; ?>
     </div>
@@ -108,7 +113,7 @@ $recognition_path = $root_path . 'admin/cases.php';
             </div>
             <div class="nav-section-content">
                 <a href="<?php echo $dashboard_path; ?>" class="nav-link <?php echo ($current_page=='index')?'active':''; ?>" onclick="closeSidebar()">
-                    <i class="bi bi-speedometer2"></i> <span><?php echo LanguageManager::translate('dashboard'); ?></span>
+                    <i class="bi bi-speedometer2"></i> <span><?php echo LanguageManager::translate('dashboard analytics'); ?></span>
                 </a>
                 <?php if (isset($_SESSION['user_id'])): 
                     // Check if user is admin
@@ -127,11 +132,36 @@ $recognition_path = $root_path . 'admin/cases.php';
         <?php if (isset($_SESSION['user_id'])): 
             // Check user role
             require_once __DIR__ . '/../config/db_connect.php';
-            $roleCheck = $pdo->prepare("SELECT role FROM signup WHERE user_id = ?");
-            $roleCheck->execute([$_SESSION['user_id']]);
-            $userRole = $roleCheck->fetch(PDO::FETCH_ASSOC);
-                $isOfficer = $userRole && strtolower($userRole['role']) === 'officer';
-                $isUser = $userRole && strtolower($userRole['role']) === 'user';
+                        $roleCheck = $pdo->prepare("SELECT role, email_verified FROM signup WHERE user_id = ?");
+                        $roleCheck->execute([$_SESSION['user_id']]);
+                        $userRole = $roleCheck->fetch(PDO::FETCH_ASSOC);
+
+                        // Determine admin approval state (if column exists) and fall back to email_verified
+                        $userEmailVerified = !empty($userRole['email_verified']);
+                        $userApproved = $userEmailVerified; // default fallback
+                        try {
+                            $ap = $pdo->prepare("SELECT admin_approved FROM signup WHERE user_id = ?");
+                            $ap->execute([$_SESSION['user_id']]);
+                            $apRow = $ap->fetch(PDO::FETCH_ASSOC);
+                                if ($apRow && array_key_exists('admin_approved', $apRow)) {
+                                    $userApproved = ((int)$apRow['admin_approved'] === 1);
+                                }
+                                // Admin role should not be blocked by admin_approved flag
+                                $sessionRole = strtolower($_SESSION['role'] ?? '');
+                                if ($sessionRole === 'admin') {
+                                    $userApproved = true;
+                                }
+                                // Also if we are inside the admin panel URL, ensure the link is available
+                                $scriptName = $_SERVER['SCRIPT_NAME'] ?? '';
+                                if (stripos($scriptName, '/admin/') !== false) {
+                                    $userApproved = true;
+                                }
+                        } catch (Throwable $e) {
+                            // ignore - column may not exist
+                        }
+
+                    $isOfficer = $userRole && strtolower($userRole['role']) === 'officer';
+                    $isUser = $userRole && strtolower($userRole['role']) === 'user';
             
             // Show Modules section only for non-Officer users
             if (!$isOfficer):
@@ -145,12 +175,24 @@ $recognition_path = $root_path . 'admin/cases.php';
                 <?php if (!$isUser): ?>
 
                 <?php endif; ?>
-                <a href="<?php echo $performance_path; ?>" class="nav-link <?php echo ($current_page=='performance')?'active':''; ?>" onclick="closeSidebar()">
-                    <i class="bi bi-ban"></i> <span><?php echo LanguageManager::translate('blotter'); ?></span>
+                <?php if (!$userApproved): ?>
+                <a class="nav-link disabled" title="Account not approved by admin">
+                    <i class="bi bi-lock-fill"></i> <span><?php echo LanguageManager::translate('blotter'); ?></span>
                 </a>
+                <?php else: ?>
+                <a href="<?php echo $performance_path; ?>" class="nav-link <?php echo ($current_page=='performance')?'active':''; ?>" onclick="closeSidebar()">
+                    <i class="bi bi-journal-text"></i> <span><?php echo LanguageManager::translate('blotter'); ?></span>
+                </a>
+                <?php endif; ?>
+                <?php if ($userRole && strtolower($userRole['role']) === 'user'): ?>
+                <a href="<?php echo $my_reports_path; ?>" class="nav-link <?php echo ($current_page=='recruitment')?'active':''; ?>" onclick="closeSidebar()">
+                    <i class="bi bi-briefcase"></i> <span>My Reports</span>
+                </a>
+                <?php else: ?>
                 <a href="<?php echo $recruitment_path; ?>" class="nav-link <?php echo ($current_page=='recruitment')?'active':''; ?>" onclick="closeSidebar()">
                     <i class="bi bi-briefcase"></i> <span><?php echo LanguageManager::translate('incident_report'); ?></span>
                 </a>
+                <?php endif; ?>
                 <?php if (!$isUser): ?>
                 <a href="<?php echo $recognition_path; ?>" class="nav-link <?php echo ($current_page=='recognition')?'active':''; ?>" onclick="closeSidebar()">
                     <i class="bi bi-eye"></i> <span><?php echo LanguageManager::translate('case_management'); ?></span>
@@ -158,9 +200,6 @@ $recognition_path = $root_path . 'admin/cases.php';
                 <?php if ($userRole && strtolower($userRole['role']) === 'admin'): ?>
                 <a href="<?php echo $base_url; ?>modules/evidence_collection.php" class="nav-link <?php echo ($current_page=='evidence_collection')?'active':''; ?>" onclick="closeSidebar()">
                     <i class="bi bi-file-earmark-lock"></i> <span>Evidence Collection</span>
-                </a>
-                <a href="<?php echo $reports_path; ?>" class="nav-link <?php echo ($current_page=='reports')?'active':''; ?>" onclick="closeSidebar()">
-                    <i class="bi bi-file-earmark-text"></i> <span>Reports & Analytics</span>
                 </a>
                 <?php endif; ?>
                 <?php endif; ?>

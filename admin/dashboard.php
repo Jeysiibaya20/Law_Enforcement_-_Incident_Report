@@ -373,4 +373,14 @@ try {
 }
 </style>
 
-<?php require_once '../includes/footer.php'; ?>
+<!-- Embedded Reports for quick access (admin-only) -->
+<?php
+try {
+    $embed_in_dashboard = true;
+    include __DIR__ . '/reports.php';
+} catch (Throwable $e) {
+    // fallback: show link to reports page
+    echo '<div class="content-container"><div class="alert alert-warning">Unable to load reports inline. <a href="reports.php">Open Reports page</a></div></div>';
+}
+
+require_once '../includes/footer.php';

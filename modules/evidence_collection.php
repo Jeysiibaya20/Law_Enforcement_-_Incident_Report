@@ -39,14 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $collector_name = $collector ? $collector['fullname'] : 'Unknown';
 
             // Insert evidence record
-            $insert_stmt = $pdo->prepare("
-                INSERT INTO evidence_records
-                (evidence_number, evidence_type, case_id, case_number, item_description,
-                 location_found, collection_date, `condition`, storage_location,
-                 security_level, notes, collected_by, collector_name, status)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Collected')
-            ");
-
+            $insert_stmt = $pdo->prepare("\n                INSERT INTO evidence_records\n                (evidence_number, evidence_type, case_id, case_number, item_description,\n                 location_found, collection_date, `condition`, storage_location,\n                 security_level, witness_name, witness_description, notes, collected_by, collector_name, status)\n                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Collected')\n            ");
             // Combine date and time for collection_date
             $collection_datetime = $_POST['collection_date'];
             if (!empty($_POST['collection_time'])) {
@@ -66,6 +59,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_POST['condition'],
                 $_POST['storage_location'],
                 $_POST['security_level'],
+                $_POST['witness_name'] ?: null,
+                $_POST['witness_description'] ?: null,
                 $_POST['notes'] ?: null,
                 $_SESSION['user_id'],
                 $collector_name
@@ -303,13 +298,25 @@ include '../includes/header.php';
                                 <label class="form-label">Evidence Type *</label>
                                 <select name="evidence_type" class="form-select" required>
                                     <option value="">Select Type</option>
-                                    <option value="Physical">Physical</option>
-                                    <option value="Digital">Digital</option>
-                                    <option value="Document">Document</option>
-                                    <option value="Photo">Photo</option>
-                                    <option value="Video">Video</option>
-                                    <option value="Audio">Audio</option>
-                                    <option value="Other">Other</option>
+                                        <option value="Physical">Physical</option>
+                                        <option value="Biological">Biological (blood, tissue)</option>
+                                        <option value="Forensic Sample">Forensic Sample (DNA, toxicology)</option>
+                                        <option value="Trace">Trace Evidence (fibers, hair)</option>
+                                        <option value="Fingerprint">Fingerprint / Latent Print</option>
+                                        <option value="Weapon">Weapon / Tool</option>
+                                        <option value="Controlled Substance">Controlled Substance</option>
+                                        <option value="Currency">Currency</option>
+                                        <option value="Digital">Digital / Electronic</option>
+                                        <option value="Computer Forensics">Computer Forensics (PC, HDD)</option>
+                                        <option value="Mobile Device">Mobile Device (phone, tablet)</option>
+                                        <option value="Network Data">Network / Server Logs</option>
+                                        <option value="Document">Document</option>
+                                        <option value="Photo">Photo</option>
+                                        <option value="Video">Video</option>
+                                        <option value="Audio">Audio</option>
+                                        <option value="Clothing">Clothing / Textile</option>
+                                        <option value="Toolmark">Toolmark / Impression</option>
+                                        <option value="Other">Other</option>
                                 </select>
                             </div>
                         </div>
@@ -332,6 +339,18 @@ include '../includes/header.php';
                     <div class="mb-3">
                         <label class="form-label">Item Description *</label>
                         <textarea name="item_description" class="form-control" rows="3" required></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Witness Name (if any)</label>
+                        <input type="text" name="witness_name" class="form-control" placeholder="Name of witness who described the evidence">
+                        <small class="text-muted">Provide the witness who described the evidence (optional)</small>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Witness Description</label>
+                        <textarea name="witness_description" class="form-control" rows="3" placeholder="Description as given by the witness"></textarea>
+                        <small class="text-muted">Record the witness's account describing the evidence (optional)</small>
                     </div>
 
                     <div class="row">

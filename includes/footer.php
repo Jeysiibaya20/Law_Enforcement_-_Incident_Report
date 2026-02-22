@@ -132,14 +132,16 @@
                 return new bootstrap.Popover(popoverTriggerEl);
             });
         });
+
+        // Chat widget handlers removed per request
     </script>
     
     <!-- Additional Footer Content -->
     <?php if (isset($additional_footer)) echo $additional_footer; ?>
     
     <!-- Debug Information (only in development) -->
-    <?php if (defined('DEBUG') && DEBUG): ?>
-    <div class="debug-info" style="position: fixed; bottom: 10px; right: 10px; background: rgba(0,0,0,0.8); color: white; padding: 10px; border-radius: 5px; font-size: 12px; z-index: 9999;">
+    <?php if (getenv('DEBUG')): ?>
+    <div class="debug-info" style="position: fixed; bottom: 10px; right: 10px; background: rgba(0,0,0,0.8); color: white; padding: 10px; border-radius: 5px; font-size: 12px; z-index: 900;">
         <strong>Debug Info:</strong><br>
         Page: <?php echo basename($_SERVER['PHP_SELF']); ?><br>
         User: <?php echo $_SESSION['username'] ?? 'Not logged in'; ?><br>
