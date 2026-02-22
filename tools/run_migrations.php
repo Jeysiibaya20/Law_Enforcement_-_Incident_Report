@@ -48,10 +48,9 @@ try {
     exit(1);
 }
 
-$migrations = [
-    __DIR__ . '/../migrations/create_two_factor_codes.sql',
-    __DIR__ . '/../migrations/alter_two_factor_codes.sql'
-];
+$migrations = glob(__DIR__ . '/../migrations/*.sql');
+if ($migrations === false) $migrations = [];
+sort($migrations, SORT_STRING);
 
 foreach ($migrations as $file) {
     if (!file_exists($file)) {

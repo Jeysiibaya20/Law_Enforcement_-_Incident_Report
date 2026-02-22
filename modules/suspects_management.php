@@ -258,20 +258,29 @@ include '../includes/navbar.php';
                                     <input type="text" name="address" class="form-control" value="<?= htmlspecialchars($suspect['address'] ?? '') ?>">
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label">Barangay</label>
-                                    <input type="text" name="barangay" class="form-control" value="<?= htmlspecialchars($suspect['barangay'] ?? '') ?>">
-                                </div>
-                                <div class="col-md-6">
                                     <label class="form-label">City</label>
-                                    <input type="text" name="city" class="form-control" value="<?= htmlspecialchars($suspect['city'] ?? '') ?>">
+                                    <select name="city" id="citySelect" class="form-select">
+                                        <option value="">-- Select City / Municipality --</option>
+                                    </select>
                                 </div>
+
                                 <div class="col-md-6">
-                                    <label class="form-label">Province</label>
-                                    <input type="text" name="province" class="form-control" value="<?= htmlspecialchars($suspect['province'] ?? '') ?>">
+                                    <label class="form-label">Barangay</label>
+                                    <select name="barangay" id="brgySelect" class="form-select">
+                                        <option value="">-- Select Barangay --</option>
+                                    </select>
                                 </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label">Province (optional)</label>
+                                    <select name="province" id="provinceSelect" class="form-select">
+                                        <option value="">-- Province (optional) --</option>
+                                    </select>
+                                </div>
+
                                 <div class="col-md-6">
                                     <label class="form-label">ZIP Code</label>
-                                    <input type="text" name="zip_code" class="form-control" value="<?= htmlspecialchars($suspect['zip_code'] ?? '') ?>">
+                                    <input type="text" name="zip_code" id="zipCode" class="form-control" value="<?= htmlspecialchars($suspect['zip_code'] ?? '') ?>" readonly>
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label">Contact Number</label>
@@ -401,6 +410,118 @@ if (photoInput) {
         }
     });
 }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" rel="stylesheet" />
+
+<script>
+// Load city/barangay data and populate selects
+(function(){
+    const citySelect = document.getElementById('citySelect');
+    const brgySelect = document.getElementById('brgySelect');
+    const provinceSelect = document.getElementById('provinceSelect');
+    const zipCode = document.getElementById('zipCode');
+
+    if (!citySelect) return;
+
+    // Fetch the full geodata JSON
+    fetch('../assets/data/ph_geodata_full.json').then(r=>r.json()).then(data=>{
+        const cities = data.cities || [];
+        
+        // Populate city select (not using Select2 yet, will be enhanced below)
+        cities.forEach(c=>{
+            const opt = document.createElement('option');
+            opt.value = c.city;
+            opt.dataset.province = c.province || '';
+            opt.dataset.zip = c.zip || '';
+            opt.textContent = c.city + (c.province ? (', ' + c.province) : '');
+            citySelect.appendChild(opt);
+        });
+
+        // Populate province select with unique provinces
+        const provinces = Array.from(new Set(cities.map(c=>c.province).filter(Boolean))).sort();
+        provinces.forEach(p=>{
+            const opt = document.createElement('option'); opt.value = p; opt.textContent = p; provinceSelect.appendChild(opt);
+        });
+
+        // Initialize Select2 for better UX with large lists
+        try {
+            $(citySelect).select2({
+                theme: 'bootstrap-5',
+                width: '100%',
+                placeholder: 'Search and select city...'
+            });
+            $(brgySelect).select2({
+                theme: 'bootstrap-5',
+                width: '100%',
+                placeholder: 'Search and select barangay...'
+            });
+            $(provinceSelect).select2({
+                theme: 'bootstrap-5',
+                width: '100%',
+                placeholder: 'Select province (optional)...'
+            });
+        } catch (e) {
+            // Select2 not available, degrade gracefully to regular select
+            console.warn('Select2 not loaded, using native select');
+        }
+
+        // If editing existing suspect, pre-select values from server-rendered values
+        const existingCity = <?= json_encode($suspect['city'] ?? '') ?>;
+        const existingBrgy = <?= json_encode($suspect['barangay'] ?? '') ?>;
+        const existingProvince = <?= json_encode($suspect['province'] ?? '') ?>;
+        const existingZip = <?= json_encode($suspect['zip_code'] ?? '') ?>;
+
+        if (existingCity) {
+            citySelect.value = existingCity;
+            try { $(citySelect).trigger('change.select2'); } catch(e) {}
+            citySelect.dispatchEvent(new Event('change'));
+            if (existingBrgy) {
+                brgySelect.value = existingBrgy;
+                try { $(brgySelect).trigger('change.select2'); } catch(e) {}
+            }
+            if (existingProvince) {
+                provinceSelect.value = existingProvince;
+                try { $(provinceSelect).trigger('change.select2'); } catch(e) {}
+            }
+            if (existingZip) zipCode.value = existingZip;
+        }
+
+        // When city changes, populate barangays and set province/zip
+        citySelect.addEventListener('change', function(){
+            // clear barangays
+            brgySelect.innerHTML = '<option value="">-- Select Barangay --</option>';
+            const sel = citySelect.value;
+            const cityObj = cities.find(c=>c.city === sel);
+            if (cityObj) {
+                (cityObj.barangays || []).forEach(b=>{
+                    const o = document.createElement('option'); o.value = b; o.textContent = b; brgySelect.appendChild(o);
+                });
+                // Reinitialize Select2
+                try { $(brgySelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'Search and select barangay...' }); } catch(e) {}
+                
+                // set province (if empty, set from city); user may override
+                if (provinceSelect && (!provinceSelect.value || provinceSelect.value === '')) {
+                    if (cityObj.province) {
+                        provinceSelect.value = cityObj.province;
+                        try { $(provinceSelect).trigger('change.select2'); } catch(e) {}
+                    }
+                }
+                // set zip
+                if (zipCode) zipCode.value = cityObj.zip || '';
+            } else {
+                // clear zip
+                if (zipCode) zipCode.value = '';
+            }
+        });
+
+    }).catch(err=>{
+        console.error('Failed to load geodata:', err);
+    });
+
+})();
 </script>
 
 <?php include '../includes/footer.php'; ?>

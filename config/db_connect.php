@@ -60,7 +60,7 @@ if ($enableApp !== '1') {
 define('DB_HOST', $env['DB_HOST'] ?? getenv('DB_HOST') ?: 'localhost');
 define('DB_NAME', $env['DB_NAME'] ?? getenv('DB_NAME') ?: 'law&inci');
 define('DB_USER', $env['DB_USER'] ?? getenv('DB_USER') ?: 'root');
-define('DB_PASS', $env['DB_PASS'] ?? getenv('DB_PASS') ?: '');
+define('DB_PASS', $env['DB_PASS'] ?? getenv('DB_PASS') ?: 'qwerty123');
 define('DB_CHARSET', $env['DB_CHARSET'] ?? getenv('DB_CHARSET') ?: 'utf8mb4');
 
 /**

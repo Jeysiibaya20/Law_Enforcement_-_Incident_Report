@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "city": "Manila",
+      "province": "Metro Manila",
+      "zip": "1000",
+      "barangays": ["Barangay 1", "Barangay 2", "Barangay 3"]
+    },
+    {
+      "city": "Quezon City",
+      "province": "Metro Manila",
+      "zip": "1100",
+      "barangays": ["Bagong Pag-asa", "Balingasa", "Batasan Hills", "Greater Lagro"]
+    },
+    {
+      "city": "Cebu City",
+      "province": "Cebu",
+      "zip": "6000",
+      "barangays": ["Apas", "Asiatown I", "Banilad", "Cansaga"]
+    },
+    {
+      "city": "Davao City",
+      "province": "Davao del Sur",
+      "zip": "8000",
+      "barangays": ["Agdao", "Bago Oshiro", "Bangkal", "Catalunan Grande"]
+    }
+  ]
+}
