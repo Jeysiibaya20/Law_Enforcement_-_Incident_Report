@@ -204,7 +204,7 @@ class NotificationSystem {
                 $this->sendEmailAlert($user['email'], $title, $message);
             }
             
-            // In production, could also send SMS via service like Twilio
+            // In production, could also send SMS via a configured SMS provider
             // $this->sendSMSAlert($user['phone_number'], $title);
             
             return true;

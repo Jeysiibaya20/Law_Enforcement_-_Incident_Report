@@ -562,74 +562,22 @@ class TwoFactorAuth {
      * @return bool
      */
     public function sendSMSCode($phone, $code) {
-        // Try to send via Twilio REST API if credentials are available in environment
-        $sid = getenv('TWILIO_ACCOUNT_SID') ?: getenv('TWILIO_SID');
-        $token = getenv('TWILIO_AUTH_TOKEN') ?: getenv('TWILIO_TOKEN');
-        $from = getenv('TWILIO_FROM') ?: null;
         // Normalize phone number: accept 09123456789 -> +639123456789 for PH numbers
         $raw = trim($phone);
         $normalized = preg_replace('/[^0-9+]/', '', $raw);
         if (strpos($normalized, '+') !== 0) {
-            // no + present
             if (preg_match('/^0(9\d{9})$/', $normalized, $m)) {
-                // Philippine mobile starting with 0 (e.g., 09123456789)
                 $normalized = '+63' . $m[1];
             } elseif (preg_match('/^9\d{9}$/', $normalized)) {
-                // local 9XXXXXXXXX -> assume +63
                 $normalized = '+63' . $normalized;
             } else {
-                // leave as-is but prefix + if it's 10-15 digits
                 if (preg_match('/^\d{10,15}$/', $normalized)) {
                     $normalized = '+' . $normalized;
                 }
             }
         }
 
-        // ensure we have credentials
-        if ($sid && $token && $from) {
-            $url = "https://api.twilio.com/2010-04-01/Accounts/{$sid}/Messages.json";
-            $bodyText = "Your verification code is: {$code} (valid for 5 minutes)";
-            $data = http_build_query([
-                'From' => $from,
-                'To' => $normalized,
-                'Body' => $bodyText
-            ]);
-
-            $ch = curl_init($url);
-            curl_setopt($ch, CURLOPT_POST, true);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-            curl_setopt($ch, CURLOPT_USERPWD, $sid . ':' . $token);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_HTTPHEADER, [
-                'Content-Type: application/x-www-form-urlencoded'
-            ]);
-            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-
-            $result = curl_exec($ch);
-            $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-            $curlErr = curl_error($ch);
-
-            if ($result === false) {
-                error_log("Twilio curl error sending SMS to {$normalized}: " . $curlErr);
-                curl_close($ch);
-                return false;
-            }
-
-            // Try decode JSON response for detailed error
-            $json = @json_decode($result, true);
-            if ($httpCode >= 400) {
-                $errMsg = isset($json['message']) ? $json['message'] : $result;
-                error_log("Twilio responded HTTP {$httpCode} sending SMS to {$normalized}: {$errMsg}");
-                curl_close($ch);
-                return false;
-            }
-
-            // success
-            curl_close($ch);
-            return true;
-        }
-
-        // Fallback: log the code (useful for local/dev environments)
+        // Twilio integration removed. Log the code for local/dev fallback and return success.
         error_log("SMS Code for {$normalized}: {$code}");
         return true;
     }
