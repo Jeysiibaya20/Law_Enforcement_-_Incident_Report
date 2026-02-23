@@ -37,10 +37,19 @@ if (file_exists($mailerEnvPath)) {
 }
 
 // Application enable guard — prevents accidental deployment until configured
-$enableApp = $env['ENABLE_APP'] ?? getenv('ENABLE_APP') ?: '0';
+// Smart guard: allow local/CLI access and allow when explicit DB_* config is present,
+// but still recommend ENABLE_APP=1 for production. Also allow hosts listed in ALLOWED_HOSTS.
+$enableApp = $env['ENABLE_APP'] ?? getenv('ENABLE_APP');
 $allowedHosts = array_map('trim', explode(',', $env['ALLOWED_HOSTS'] ?? getenv('ALLOWED_HOSTS') ?: ''));
 $currentHost = $_SERVER['HTTP_HOST'] ?? ($_SERVER['SERVER_NAME'] ?? '');
-// If app is not enabled and current host is not in allowed list, block execution
+
+// Determine helpful flags
+$hasDBConfig = (!empty($env['DB_HOST'] ?? getenv('DB_HOST')))
+    && (!empty($env['DB_USER'] ?? getenv('DB_USER')));
+$isLocalRequest = in_array(strtolower($currentHost), ['localhost', '127.0.0.1', '::1']) || php_sapi_name() === 'cli';
+
+// If app is not explicitly enabled, allow when running locally, or when DB credentials are present,
+// or when the current host matches ALLOWED_HOSTS. Otherwise block with clear instructions.
 if ($enableApp !== '1') {
     $hostAllowed = false;
     if (!empty($currentHost)) {
@@ -49,10 +58,15 @@ if ($enableApp !== '1') {
             if (stripos($currentHost, $ah) !== false) { $hostAllowed = true; break; }
         }
     }
-    if (!$hostAllowed) {
-        // Show a safe message instead of trying to connect to DB
+
+    if (!($isLocalRequest || $hasDBConfig || $hostAllowed)) {
         http_response_code(503);
-        die("Application is disabled. Configure the .env file (set ENABLE_APP=1 and DB_* values) before deploying to your domain.");
+        $msg = "Application is disabled for this host. To enable:\n";
+        $msg .= "  1) In your .env set ENABLE_APP=1 and optionally ALLOWED_HOSTS=yourdomain.com\n";
+        $msg .= "  2) Ensure DB_HOST, DB_USER and DB_PASS are set in .env or environment variables\n";
+        $msg .= "  3) If you're testing locally you can run from localhost or CLI.\n";
+        $msg .= "If you believe this is an error, add your domain to ALLOWED_HOSTS in .env.";
+        die(nl2br(htmlspecialchars($msg)));
     }
 }
 
