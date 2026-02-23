@@ -115,8 +115,7 @@ function testDBConnection() {
     }
 }
 
-// Load mail environment (SMTP) for PHPMailer/email 2FA
-@require_once __DIR__ . '/mail_env.php';
+
 
 // Global PDO instance
 $pdo = getDBConnection();
