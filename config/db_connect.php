@@ -73,10 +73,26 @@ if ($enableApp !== '1') {
 // Database configuration (from .env or defaults)
 define('DB_HOST', $env['DB_HOST'] ?? getenv('DB_HOST') ?: 'localhost');
 define('DB_PORT', $env['DB_PORT'] ?? getenv('DB_PORT') ?: '3306');
-define('DB_NAME', $env['DB_NAME'] ?? getenv('DB_NAME') ?: 'emer_comms_test');
+define('DB_NAME', $env['DB_NAME'] ?? getenv('DB_NAME') ?: 'law&inci');
 define('DB_USER', $env['DB_USER'] ?? getenv('DB_USER') ?: 'root');
-define('DB_PASS', $env['DB_PASS'] ?? getenv('DB_PASS') ?: 'YsqnXk6q#145');
+define('DB_PASS', $env['DB_PASS'] ?? getenv('DB_PASS') ?: 'qwerty123');
 define('DB_CHARSET', $env['DB_CHARSET'] ?? getenv('DB_CHARSET') ?: 'utf8mb4');
+
+//online
+
+$online_creds = [
+    'host' => 'localhost',
+    'db' => 'emer_comm_test',
+    'user' => 'root',
+    'pass' => 'YsqnXK6q#145',
+];
+// local xammp
+$local_creds = [
+    'host' => '127.0.0.1',
+    'db' => 'emer_comm_test',
+    'user' => 'root',
+    'pass' => '',
+];
 
 /**
  * Create PDO database connection
