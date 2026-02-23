@@ -172,7 +172,7 @@ function getSuspectsByCase($case_id) {
             FROM suspects s
             LEFT JOIN users u ON s.created_by = u.user_id
             LEFT JOIN users u2 ON s.updated_by = u2.user_id
-            WHERE s.case_id = ?
+            WHERE s.case_id = ? AND s.deleted_at IS NULL
             ORDER BY s.created_at DESC
         ");
         $stmt->execute([$case_id]);
@@ -181,33 +181,31 @@ function getSuspectsByCase($case_id) {
         error_log("Error getting suspects for case: " . $e->getMessage());
         return [];
     }
-        // Include photo from suspects.photo_path if present, otherwise from suspect_photos side table
-        $hasPhoto = tableHasColumn('suspects', 'photo_path');
-        if ($hasPhoto) {
-            $sql = "SELECT s.*, COALESCE(s.photo_path, sp.photo_path) AS photo_path, u.username as created_by_name, u2.username as updated_by_name
-                FROM suspects s
-                LEFT JOIN (
-                    SELECT suspect_id, photo_path FROM suspect_photos GROUP BY suspect_id
-                ) sp ON sp.suspect_id = s.id
-                LEFT JOIN users u ON s.created_by = u.user_id
-                LEFT JOIN users u2 ON s.updated_by = u2.user_id
-                WHERE s.case_id = ?
-                ORDER BY s.created_at DESC";
-        } else {
-            $sql = "SELECT s.*, sp.photo_path AS photo_path, u.username as created_by_name, u2.username as updated_by_name
-                FROM suspects s
-                LEFT JOIN (
-                    SELECT suspect_id, photo_path FROM suspect_photos GROUP BY suspect_id
-                ) sp ON sp.suspect_id = s.id
-                LEFT JOIN users u ON s.created_by = u.user_id
-                LEFT JOIN users u2 ON s.updated_by = u2.user_id
-                WHERE s.case_id = ?
-                ORDER BY s.created_at DESC";
-        }
+}
 
-        $stmt = $pdo->prepare($sql);
+/**
+ * Get deleted (soft-deleted) suspects for a case
+ */
+function getDeletedSuspectsByCase($case_id) {
+    global $pdo;
+    
+    try {
+        $stmt = $pdo->prepare("
+            SELECT s.*, 
+                   u.username as created_by_name,
+                   u2.username as updated_by_name
+            FROM suspects s
+            LEFT JOIN users u ON s.created_by = u.user_id
+            LEFT JOIN users u2 ON s.updated_by = u2.user_id
+            WHERE s.case_id = ? AND s.deleted_at IS NOT NULL
+            ORDER BY s.deleted_at DESC
+        ");
         $stmt->execute([$case_id]);
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } catch (PDOException $e) {
+        error_log("Error getting deleted suspects for case: " . $e->getMessage());
+        return [];
+    }
 }
 
 /**

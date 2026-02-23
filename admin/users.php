@@ -138,7 +138,7 @@ require_once '../includes/header.php';
                                             <input type="hidden" name="action" value="toggle_verify">
                                             <input type="hidden" name="user_id" value="<?= $u['user_id'] ?>">
                                             <input type="hidden" name="new_status" value="1">
-                                            <button type="submit" class="btn btn-success btn-sm" title="Verify Email">
+                                            <button type="submit" class="btn btn-success btn-sm"  title="Verify Email" style="background-color: #ffffff; border-color: #28a745;">
                                                 <i class="bi bi-check-circle"></i>
                                             </button>
                                         </form>
@@ -148,28 +148,28 @@ require_once '../includes/header.php';
                                         <form method="POST" class="d-inline">
                                             <input type="hidden" name="action" value="approve_account">
                                             <input type="hidden" name="user_id" value="<?= $u['user_id'] ?>">
-                                            <button type="submit" class="btn btn-success btn-sm" title="Approve Account">
+                                            <button type="submit" class="btn btn-success btn-sm" style="background-color: #ffffff; border-color: #28a745;" title="Approve Account">
                                                 <i class="bi bi-person-check"></i>
                                             </button>
                                         </form>
                                         <form method="POST" class="d-inline">
                                             <input type="hidden" name="action" value="reject_account">
                                             <input type="hidden" name="user_id" value="<?= $u['user_id'] ?>">
-                                            <button type="submit" class="btn btn-danger btn-sm" title="Reject Account">
+                                            <button type="submit" class="btn btn-danger btn-sm" style="background-color: #ffffff; border-color: #28a745;" title="Reject Account">
                                                 <i class="bi bi-person-x"></i>
                                             </button>
                                         </form>
                                         <?php elseif ((int)$u['admin_approved'] === -1): ?>
-                                            <span class="text-muted">Rejected</span>
+                                            <span style="background-color: #ffffff; border-color: #28a745;" class="text-muted">Rejected</span>
                                         <?php else: ?>
-                                            <span class="text-muted">Approved</span>
+                                            <span style="background-color: #ffffff; border-color: #28a745;" class="text-muted">Approved</span>
                                         <?php endif; ?>
 
                                         <?php if (empty($u['banned']) || (int)$u['banned'] === 0): ?>
                                         <form method="POST" class="d-inline" onsubmit="return confirm('Ban this user?');">
                                             <input type="hidden" name="action" value="ban">
                                             <input type="hidden" name="user_id" value="<?= $u['user_id'] ?>">
-                                            <button type="submit" class="btn btn-outline-danger btn-sm" title="Ban User">
+                                            <button type="submit" class="btn btn-outline-danger btn-sm" style="background-color: #ffffff; border-color: #28a745;" title="Ban User">
                                                 <i class="bi bi-slash-circle"></i>
                                             </button>
                                         </form>
@@ -177,7 +177,7 @@ require_once '../includes/header.php';
                                         <form method="POST" class="d-inline" onsubmit="return confirm('Unban this user?');">
                                             <input type="hidden" name="action" value="unban">
                                             <input type="hidden" name="user_id" value="<?= $u['user_id'] ?>">
-                                            <button type="submit" class="btn btn-warning btn-sm" title="Unban User">
+                                            <button type="submit" class="btn btn-warning btn-sm" style="background-color: #ffffff; border-color: #28a745;" title="Unban User">
                                                 <i class="bi bi-unlock"></i>
                                             </button>
                                         </form>
@@ -186,7 +186,7 @@ require_once '../includes/header.php';
                                         <form method="POST" class="d-inline" onsubmit="return confirm('Delete this user?');">
                                             <input type="hidden" name="action" value="delete">
                                             <input type="hidden" name="user_id" value="<?= $u['user_id'] ?>">
-                                            <button type="submit" class="btn btn-outline-danger btn-sm" title="Delete">
+                                            <button type="submit" class="btn btn-outline-danger btn-sm" style="background-color: #ffffff; border-color: #28a745;" title="Delete">
                                                 <i class="bi bi-trash"></i>
                                             </button>
                                         </form>

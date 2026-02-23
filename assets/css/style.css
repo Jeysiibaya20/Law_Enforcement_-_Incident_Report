@@ -1671,12 +1671,12 @@ p {
 
 /* Specific fix for regular cards with stats elements */
 .card .stats-number {
-    color: var(--text-primary) !important;
+    color: rgb(236, 230, 230) !important;
     font-weight: 700;
 }
 
 .card .stats-label {
-    color: var(--text-secondary) !important;
+    color: rgb(255, 255, 255); !important;
     font-weight: 500;
 }
 

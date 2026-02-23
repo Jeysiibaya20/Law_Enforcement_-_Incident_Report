@@ -71,6 +71,38 @@ $message_type = '';
 $suspect = null;
 $old_photo_path = null;
 
+// Handle soft delete request
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_suspect_id'])) {
+    $delete_id = $_POST['delete_suspect_id'];
+    try {
+        // Soft delete: set deleted_at timestamp instead of removing data
+        $stmt = $pdo->prepare("UPDATE suspects SET deleted_at = NOW() WHERE id = ? AND case_id = ?");
+        $stmt->execute([$delete_id, $case_id]);
+        
+        $message = "Suspect moved to stash successfully. You can retrieve it from the Deleted tab.";
+        $message_type = 'success';
+    } catch (Exception $e) {
+        $message = "Error deleting suspect: " . $e->getMessage();
+        $message_type = 'danger';
+    }
+}
+
+// Handle restore request
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['restore_suspect_id'])) {
+    $restore_id = $_POST['restore_suspect_id'];
+    try {
+        // Restore: clear deleted_at timestamp
+        $stmt = $pdo->prepare("UPDATE suspects SET deleted_at = NULL WHERE id = ? AND case_id = ?");
+        $stmt->execute([$restore_id, $case_id]);
+        
+        $message = "Suspect restored successfully";
+        $message_type = 'success';
+    } catch (Exception $e) {
+        $message = "Error restoring suspect: " . $e->getMessage();
+        $message_type = 'danger';
+    }
+}
+
 // Get suspect if editing (do this BEFORE form submission to capture old photo)
 if ($edit_id) {
     $suspect = getSuspectById($edit_id);
@@ -82,6 +114,7 @@ if ($edit_id) {
 // Handle form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $photo_path = $old_photo_path; // Start with old photo path
+    $id_attachment_path = $suspect['id_attachment'] ?? null; // Start with old ID attachment
 
     // Handle photo upload
     if (isset($_FILES['photo']) && $_FILES['photo']['error'] === UPLOAD_ERR_OK) {
@@ -107,6 +140,38 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 
+    // Handle ID attachment upload
+    if (isset($_FILES['id_attachment']) && $_FILES['id_attachment']['error'] === UPLOAD_ERR_OK) {
+        $upload_dir = dirname(__DIR__) . '/uploads/id_documents/';
+        if (!is_dir($upload_dir)) mkdir($upload_dir, 0755, true);
+
+        $file_ext = strtolower(pathinfo($_FILES['id_attachment']['name'], PATHINFO_EXTENSION));
+        $allowed_ext = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
+        if (in_array($file_ext, $allowed_ext)) {
+            $file_name = 'id_' . time() . '_' . uniqid() . '.' . $file_ext;
+            $file_path = $upload_dir . $file_name;
+            if (move_uploaded_file($_FILES['id_attachment']['tmp_name'], $file_path)) {
+                $new_id_attach = 'uploads/id_documents/' . $file_name;
+                // Delete old ID attachment if exists
+                if ($id_attachment_path && $id_attachment_path !== $new_id_attach) {
+                    $old_file = dirname(__DIR__) . '/' . $id_attachment_path;
+                    if (file_exists($old_file)) @unlink($old_file);
+                }
+                $id_attachment_path = $new_id_attach;
+            }
+        } else {
+            $message = "Invalid ID attachment file type. Allowed: JPG, PNG, GIF, WebP";
+            $message_type = 'warning';
+        }
+    }
+
+    // Auto-generate ID Number if not provided
+    $id_number = $_POST['id_number'] ?? '';
+    if (empty($id_number)) {
+        // Auto-generate: ID_CASE_TIMESTAMP
+        $id_number = 'ID_' . str_replace('-', '', $case['case_number']) . '_' . time();
+    }
+
     $suspect_data = [
         'case_id' => $case_id,
         'case_number' => $case['case_number'],
@@ -124,7 +189,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'contact_number' => $_POST['contact_number'] ?? '',
         'email' => $_POST['email'] ?? '',
         'id_type' => $_POST['id_type'] ?? '',
-        'id_number' => $_POST['id_number'] ?? '',
+        'id_number' => $id_number,
+        'id_attachment' => $id_attachment_path,
         'physical_description' => $_POST['physical_description'] ?? '',
         'known_aliases' => $_POST['known_aliases'] ?? '',
         'criminal_history' => $_POST['criminal_history'] ?? '',
@@ -162,6 +228,7 @@ if ($edit_id && !$suspect) {
     $suspect = getSuspectById($edit_id);
 }
 $suspects = getSuspectsByCase($case_id);
+$deleted_suspects = getDeletedSuspectsByCase($case_id);
 
 $page_title = "Suspect Management - " . htmlspecialchars($case['case_number']);
 $body_class = 'blotter-page';
@@ -258,9 +325,16 @@ include '../includes/navbar.php';
                                     <input type="text" name="address" class="form-control" value="<?= htmlspecialchars($suspect['address'] ?? '') ?>">
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label">City</label>
+                                    <label class="form-label">Province</label>
+                                    <select name="province" id="provinceSelect" class="form-select">
+                                        <option value="">-- Select Province --</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label">City / Municipality</label>
                                     <select name="city" id="citySelect" class="form-select">
-                                        <option value="">-- Select City / Municipality --</option>
+                                        <option value="">-- Select City --</option>
                                     </select>
                                 </div>
 
@@ -268,13 +342,6 @@ include '../includes/navbar.php';
                                     <label class="form-label">Barangay</label>
                                     <select name="barangay" id="brgySelect" class="form-select">
                                         <option value="">-- Select Barangay --</option>
-                                    </select>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <label class="form-label">Province (optional)</label>
-                                    <select name="province" id="provinceSelect" class="form-select">
-                                        <option value="">-- Province (optional) --</option>
                                     </select>
                                 </div>
 
@@ -292,11 +359,52 @@ include '../includes/navbar.php';
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label">ID Type</label>
-                                    <input type="text" name="id_type" class="form-control" placeholder="e.g., Driver's License, Passport" value="<?= htmlspecialchars($suspect['id_type'] ?? '') ?>">
+                                    <select name="id_type" class="form-select">
+                                        <option value="">-- Select ID Type --</option>
+                                        <option value="Philippine Passport" <?= ($suspect['id_type'] ?? '') === 'Philippine Passport' ? 'selected' : '' ?>>Philippine Passport</option>
+                                        <option value="Driver's License" <?= ($suspect['id_type'] ?? '') === "Driver's License" ? 'selected' : '' ?>>Driver's License</option>
+                                        <option value="National ID (ID)" <?= ($suspect['id_type'] ?? '') === 'National ID (ID)' ? 'selected' : '' ?>>National ID (ID)</option>
+                                        <option value="Postal ID" <?= ($suspect['id_type'] ?? '') === 'Postal ID' ? 'selected' : '' ?>>Postal ID</option>
+                                        <option value="UMID" <?= ($suspect['id_type'] ?? '') === 'UMID' ? 'selected' : '' ?>>UMID (Union Card)</option>
+                                        <option value="PNP Clearance" <?= ($suspect['id_type'] ?? '') === 'PNP Clearance' ? 'selected' : '' ?>>PNP Clearance</option>
+                                        <option value="TIN ID" <?= ($suspect['id_type'] ?? '') === 'TIN ID' ? 'selected' : '' ?>>TIN ID</option>
+                                        <option value="Senior Citizen ID" <?= ($suspect['id_type'] ?? '') === 'Senior Citizen ID' ? 'selected' : '' ?>>Senior Citizen ID</option>
+                                        <option value="PWD ID" <?= ($suspect['id_type'] ?? '') === 'PWD ID' ? 'selected' : '' ?>>PWD ID</option>
+                                        <option value="Barangay ID" <?= ($suspect['id_type'] ?? '') === 'Barangay ID' ? 'selected' : '' ?>>Barangay ID</option>
+                                        <option value="School ID" <?= ($suspect['id_type'] ?? '') === 'School ID' ? 'selected' : '' ?>>School ID</option>
+                                        <option value="Company ID" <?= ($suspect['id_type'] ?? '') === 'Company ID' ? 'selected' : '' ?>>Company ID</option>
+                                        <option value="Other" <?= ($suspect['id_type'] ?? '') === 'Other' ? 'selected' : '' ?>>Other</option>
+                                    </select>
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label">ID Number</label>
-                                    <input type="text" name="id_number" class="form-control" value="<?= htmlspecialchars($suspect['id_number'] ?? '') ?>">
+                                    <input type="text" name="id_number" class="form-control" value="<?= htmlspecialchars($suspect['id_number'] ?? '') ?>" placeholder="Auto-generated or enter manually">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">ID Attachment (Document Photo)</label>
+                                    <div class="d-flex gap-3 align-items-start">
+                                        <div>
+                                            <?php if ($suspect && isset($suspect['id_attachment']) && $suspect['id_attachment']): ?>
+                                                <img id="idPreview" src="<?= htmlspecialchars('../' . $suspect['id_attachment']) ?>?t=<?= time() ?>" alt="ID Document" class="img-thumbnail" style="max-width: 150px; max-height: 150px;">
+                                            <?php else: ?>
+                                                <div id="idPreview" class="border rounded p-3 text-center bg-light" style="width: 150px; height: 150px; display: flex; align-items: center; justify-content: center;">
+                                                    <div>
+                                                        <i class="bi bi-card-text" style="font-size: 2rem; color: #ccc;"></i>
+                                                        <p class="text-muted mt-2 mb-0" style="font-size: 0.8rem;">No ID</p>
+                                                    </div>
+                                                </div>
+                                            <?php endif; ?>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <input type="file" name="id_attachment" id="idAttachment" class="form-control" accept="image/*">
+                                            <small class="text-muted d-block mt-2">
+                                                <i class="bi bi-info-circle"></i>
+                                                Upload a photo of the ID/document<br>
+                                                Accepted: JPG, PNG, GIF, WebP<br>
+                                                Max size: 5MB recommended
+                                            </small>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-12">
                                     <label class="form-label">Physical Description</label>
@@ -341,15 +449,30 @@ include '../includes/navbar.php';
             <!-- Suspects List -->
             <div class="col-lg-6">
                 <div class="card">
-                    <div class="card-header bg-secondary text-white">
-                        <h5 class="mb-0">Recorded Suspects (<?= count($suspects) ?>)</h5>
-                    </div>
-                    <div class="card-body" style="max-height: 600px; overflow-y: auto;">
-                        <?php if (!empty($suspects)): ?>
-                            <?php foreach ($suspects as $s): ?>
-                                <div class="border-bottom pb-3 mb-3">
-                                    <div class="d-flex justify-content-between align-items-start gap-3">
-                                        <?php if (isset($s['photo_path']) && $s['photo_path']): ?>
+                    <!-- Tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="active-tab" data-bs-toggle="tab" data-bs-target="#activeTab" type="button" role="tab">
+                                <i class="bi bi-person-check"></i> Active Suspects (<?= count($suspects) ?>)
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="deleted-tab" data-bs-toggle="tab" data-bs-target="#deletedTab" type="button" role="tab">
+                                <i class="bi bi-trash"></i> Stash (<?= count($deleted_suspects) ?>)
+                            </button>
+                        </li>
+                    </ul>
+
+                    <!-- Tab Content -->
+                    <div class="tab-content">
+                        <!-- Active Suspects Tab -->
+                        <div class="tab-pane fade show active" id="activeTab" role="tabpanel">
+                            <div class="card-body" style="max-height: 600px; overflow-y: auto;">
+                                <?php if (!empty($suspects)): ?>
+                                    <?php foreach ($suspects as $s): ?>
+                                        <div class="border-bottom pb-3 mb-3">
+                                            <div class="d-flex justify-content-between align-items-start gap-3">
+                                                <?php if (isset($s['photo_path']) && $s['photo_path']): ?>
                                             <img src="<?= htmlspecialchars('../' . $s['photo_path']) ?>" alt="Suspect Photo" class="img-thumbnail" style="width: 80px; height: 100px; object-fit: cover; flex-shrink: 0;" onerror="this.style.display='none'">
                                         <?php else: ?>
                                             <div class="border rounded p-2 text-center bg-light" style="width: 80px; height: 100px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
@@ -376,13 +499,61 @@ include '../includes/navbar.php';
                                                 </span>
                                             </small>
                                         </div>
-                                        <a href="?case_id=<?= $case_id ?>&edit=<?= $s['id'] ?>" class="btn btn-sm btn-outline-primary flex-shrink-0">Edit</a>
+                                        <div class="flex-shrink-0 d-flex gap-2">
+                                            <a href="?case_id=<?= $case_id ?>&edit=<?= $s['id'] ?>" class="btn btn-sm btn-outline-primary">Edit</a>
+                                            <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal" onclick="prepareDeleteModal(<?= $s['id'] ?>, '<?= htmlspecialchars($s['first_name'] . ' ' . $s['last_name']) ?>')">Delete</button>
+                                        </div>
                                     </div>
                                 </div>
                             <?php endforeach; ?>
-                        <?php else: ?>
-                            <p class="text-muted text-center py-5">No suspects recorded yet</p>
-                        <?php endif; ?>
+                                <?php else: ?>
+                                    <p class="text-muted text-center py-5">No suspects recorded yet</p>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+
+                        <!-- Deleted Suspects Tab (Stash) -->
+                        <div class="tab-pane fade" id="deletedTab" role="tabpanel">
+                            <div class="card-body" style="max-height: 600px; overflow-y: auto;">
+                                <?php if (!empty($deleted_suspects)): ?>
+                                    <?php foreach ($deleted_suspects as $ds): ?>
+                                        <div class="border-bottom pb-3 mb-3">
+                                            <div class="d-flex justify-content-between align-items-start gap-3">
+                                                <?php if (isset($ds['photo_path']) && $ds['photo_path']): ?>
+                                                    <img src="<?= htmlspecialchars('../' . $ds['photo_path']) ?>" alt="Suspect Photo" class="img-thumbnail" style="width: 80px; height: 100px; object-fit: cover; flex-shrink: 0;" onerror="this.style.display='none'">
+                                                <?php else: ?>
+                                                    <div class="border rounded p-2 text-center bg-light" style="width: 80px; height: 100px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                                        <i class="bi bi-person-fill" style="font-size: 2rem; color: #ccc;"></i>
+                                                    </div>
+                                                <?php endif; ?>
+                                                <div class="flex-grow-1">
+                                                    <h6 class="mb-1">
+                                                        <strong><?= htmlspecialchars($ds['first_name'] . ' ' . $ds['last_name']) ?></strong>
+                                                        <?php if ($ds['age']): ?>
+                                                            <span class="text-muted">(<?= $ds['age'] ?> years)</span>
+                                                        <?php endif; ?>
+                                                    </h6>
+                                                    <small class="text-muted d-block">
+                                                        <?php if ($ds['address']): ?>
+                                                            <?= htmlspecialchars($ds['address']) ?><br>
+                                                        <?php endif; ?>
+                                                        <?php if ($ds['contact_number']): ?>
+                                                            <i class="bi bi-telephone"></i> <?= htmlspecialchars($ds['contact_number']) ?><br>
+                                                        <?php endif; ?>
+                                                        Deleted: <span class="badge bg-secondary"><?= date('M d, Y', strtotime($ds['deleted_at'])) ?></span>
+                                                    </small>
+                                                </div>
+                                                <div class="flex-shrink-0">
+                                                    <button type="button" class="btn btn-sm btn-success text-white restore-btn" style="background-color: #ffffff; border-color: #28a745;" data-bs-toggle="modal" data-bs-target="#restoreModal" onclick="prepareRestoreModal(<?= $ds['id'] ?>, '<?= htmlspecialchars($ds['first_name'] . ' ' . $ds['last_name']) ?>')"><i class="bi bi-arrow-counterclockwise"></i> Restore</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php endforeach; ?>
+                                <?php else: ?>
+                                    <p class="text-muted text-center py-5">No deleted suspects</p>
+                                <?php endif; ?>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -390,7 +561,65 @@ include '../includes/navbar.php';
     </div>
 </div>
 
+<!-- Delete Confirmation Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content bg-white text-dark border border-2">
+            <div class="modal-header bg-danger text-white border-bottom border-2">
+                <h5 class="modal-title">Move to Stash</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-dark border-bottom border-2">
+                <p>Move <strong id="deleteSuspectName"></strong> to stash?</p>
+                <p class="text-muted small mb-0">The suspect record will be moved to the stash and hidden from the active list. You can restore it later from the Stash tab.</p>
+            </div>
+            <div class="modal-footer border-top border-2">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <form method="POST" style="display:inline;">
+                    <input type="hidden" name="delete_suspect_id" id="deleteSuspectId" value="">
+                    <button type="submit" class="btn btn-danger">Move to Stash</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Restore Confirmation Modal -->
+<div class="modal fade" id="restoreModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content bg-white text-dark border border-2">
+            <div class="modal-header bg-success text-white border-bottom border-2">
+                <h5 class="modal-title">Restore Suspect</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-dark border-bottom border-2">
+                <p>Restore <strong id="restoreSuspectName"></strong> to active suspects?</p>
+                <p class="text-muted small mb-0">The suspect record will be moved back to the active list.</p>
+            </div>
+            <div class="modal-footer border-top border-2">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <form method="POST" style="display:inline;">
+                    <input type="hidden" name="restore_suspect_id" id="restoreSuspectId" value="">
+                    <button type="submit" class="btn btn-success">Restore Suspect</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script>
+// Prepare delete modal
+function prepareDeleteModal(suspectId, suspectName) {
+    document.getElementById('deleteSuspectId').value = suspectId;
+    document.getElementById('deleteSuspectName').textContent = suspectName;
+}
+
+// Prepare restore modal
+function prepareRestoreModal(suspectId, suspectName) {
+    document.getElementById('restoreSuspectId').value = suspectId;
+    document.getElementById('restoreSuspectName').textContent = suspectName;
+}
+
 // Photo preview functionality
 const photoInput = document.getElementById('photo');
 const photoPreview = document.getElementById('photoPreview');
@@ -410,6 +639,26 @@ if (photoInput) {
         }
     });
 }
+
+// ID attachment preview functionality
+const idInput = document.getElementById('idAttachment');
+const idPreview = document.getElementById('idPreview');
+if (idInput) {
+    idInput.addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (file) {
+            if (file.size > 5 * 1024 * 1024) { alert('File size exceeds 5MB limit'); this.value = ''; return; }
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                if (idPreview.classList.contains('border')) {
+                    idPreview.innerHTML = ''; idPreview.classList.remove('border','rounded','p-3','text-center','bg-light');
+                }
+                const img = document.createElement('img'); img.src = event.target.result; img.className = 'img-thumbnail'; img.style.maxWidth = '150px'; img.style.maxHeight = '150px'; idPreview.innerHTML = ''; idPreview.appendChild(img);
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+}
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
@@ -417,103 +666,138 @@ if (photoInput) {
 <link href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" rel="stylesheet" />
 
 <script>
-// Load city/barangay data and populate selects
+// Load city/barangay data and populate selects with reversed cascade
+// Province -> City -> Barangay
 (function(){
+    const provinceSelect = document.getElementById('provinceSelect');
     const citySelect = document.getElementById('citySelect');
     const brgySelect = document.getElementById('brgySelect');
-    const provinceSelect = document.getElementById('provinceSelect');
     const zipCode = document.getElementById('zipCode');
 
-    if (!citySelect) return;
+    if (!provinceSelect) return;
 
     // Fetch the full geodata JSON
     fetch('../assets/data/ph_geodata_full.json').then(r=>r.json()).then(data=>{
         const cities = data.cities || [];
         
-        // Populate city select (not using Select2 yet, will be enhanced below)
-        cities.forEach(c=>{
-            const opt = document.createElement('option');
-            opt.value = c.city;
-            opt.dataset.province = c.province || '';
-            opt.dataset.zip = c.zip || '';
-            opt.textContent = c.city + (c.province ? (', ' + c.province) : '');
-            citySelect.appendChild(opt);
-        });
-
-        // Populate province select with unique provinces
+        // Get unique provinces and sort
         const provinces = Array.from(new Set(cities.map(c=>c.province).filter(Boolean))).sort();
+        
+        // Populate province select
         provinces.forEach(p=>{
-            const opt = document.createElement('option'); opt.value = p; opt.textContent = p; provinceSelect.appendChild(opt);
+            const opt = document.createElement('option');
+            opt.value = p;
+            opt.textContent = p;
+            provinceSelect.appendChild(opt);
         });
 
         // Initialize Select2 for better UX with large lists
         try {
+            $(provinceSelect).select2({
+                theme: 'bootstrap-5',
+                width: '100%',
+                placeholder: 'Search and select province...'
+            });
             $(citySelect).select2({
                 theme: 'bootstrap-5',
                 width: '100%',
-                placeholder: 'Search and select city...'
+                placeholder: 'Select city first...'
             });
             $(brgySelect).select2({
                 theme: 'bootstrap-5',
                 width: '100%',
-                placeholder: 'Search and select barangay...'
-            });
-            $(provinceSelect).select2({
-                theme: 'bootstrap-5',
-                width: '100%',
-                placeholder: 'Select province (optional)...'
+                placeholder: 'Select barangay...'
             });
         } catch (e) {
-            // Select2 not available, degrade gracefully to regular select
             console.warn('Select2 not loaded, using native select');
         }
 
         // If editing existing suspect, pre-select values from server-rendered values
+        const existingProvince = <?= json_encode($suspect['province'] ?? '') ?>;
         const existingCity = <?= json_encode($suspect['city'] ?? '') ?>;
         const existingBrgy = <?= json_encode($suspect['barangay'] ?? '') ?>;
-        const existingProvince = <?= json_encode($suspect['province'] ?? '') ?>;
         const existingZip = <?= json_encode($suspect['zip_code'] ?? '') ?>;
 
-        if (existingCity) {
-            citySelect.value = existingCity;
-            try { $(citySelect).trigger('change.select2'); } catch(e) {}
-            citySelect.dispatchEvent(new Event('change'));
-            if (existingBrgy) {
-                brgySelect.value = existingBrgy;
-                try { $(brgySelect).trigger('change.select2'); } catch(e) {}
-            }
-            if (existingProvince) {
-                provinceSelect.value = existingProvince;
-                try { $(provinceSelect).trigger('change.select2'); } catch(e) {}
-            }
-            if (existingZip) zipCode.value = existingZip;
+        if (existingProvince) {
+            provinceSelect.value = existingProvince;
+            try { $(provinceSelect).trigger('change.select2'); } catch(e) {}
+            provinceSelect.dispatchEvent(new Event('change'));
         }
 
-        // When city changes, populate barangays and set province/zip
-        citySelect.addEventListener('change', function(){
-            // clear barangays
+        // When province changes, populate cities
+        provinceSelect.addEventListener('change', function(){
+            // Clear cities and barangays
+            citySelect.innerHTML = '<option value="">-- Select City --</option>';
             brgySelect.innerHTML = '<option value="">-- Select Barangay --</option>';
-            const sel = citySelect.value;
-            const cityObj = cities.find(c=>c.city === sel);
+            zipCode.value = '';
+            
+            const selectedProvince = provinceSelect.value;
+            if (!selectedProvince) return;
+
+            // Filter cities by province
+            const citiesInProvince = cities.filter(c => c.province === selectedProvince);
+            
+            citiesInProvince.forEach(c=>{
+                const opt = document.createElement('option');
+                opt.value = c.city;
+                opt.dataset.zip = c.zip || '';
+                opt.textContent = c.city;
+                citySelect.appendChild(opt);
+            });
+
+            // Reinitialize Select2
+            try { 
+                $(citySelect).select2({ 
+                    theme: 'bootstrap-5', 
+                    width: '100%', 
+                    placeholder: 'Select city...' 
+                }); 
+            } catch(e) {}
+
+            // Pre-select city if editing
+            if (existingCity) {
+                citySelect.value = existingCity;
+                try { $(citySelect).trigger('change.select2'); } catch(e) {}
+                citySelect.dispatchEvent(new Event('change'));
+            }
+        });
+
+        // When city changes, populate barangays and set ZIP
+        citySelect.addEventListener('change', function(){
+            brgySelect.innerHTML = '<option value="">-- Select Barangay --</option>';
+            const selectedCity = citySelect.value;
+            if (!selectedCity) {
+                zipCode.value = '';
+                return;
+            }
+
+            const cityObj = cities.find(c => c.city === selectedCity);
             if (cityObj) {
+                // Populate barangays
                 (cityObj.barangays || []).forEach(b=>{
-                    const o = document.createElement('option'); o.value = b; o.textContent = b; brgySelect.appendChild(o);
+                    const o = document.createElement('option');
+                    o.value = b;
+                    o.textContent = b;
+                    brgySelect.appendChild(o);
                 });
+
                 // Reinitialize Select2
-                try { $(brgySelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'Search and select barangay...' }); } catch(e) {}
-                
-                // set province (if empty, set from city); user may override
-                if (provinceSelect && (!provinceSelect.value || provinceSelect.value === '')) {
-                    if (cityObj.province) {
-                        provinceSelect.value = cityObj.province;
-                        try { $(provinceSelect).trigger('change.select2'); } catch(e) {}
-                    }
+                try { 
+                    $(brgySelect).select2({ 
+                        theme: 'bootstrap-5', 
+                        width: '100%', 
+                        placeholder: 'Select barangay...' 
+                    }); 
+                } catch(e) {}
+
+                // Set ZIP code
+                zipCode.value = cityObj.zip || '';
+
+                // Pre-select barangay if editing
+                if (existingBrgy) {
+                    brgySelect.value = existingBrgy;
+                    try { $(brgySelect).trigger('change.select2'); } catch(e) {}
                 }
-                // set zip
-                if (zipCode) zipCode.value = cityObj.zip || '';
-            } else {
-                // clear zip
-                if (zipCode) zipCode.value = '';
             }
         });
 
