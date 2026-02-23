@@ -61,7 +61,7 @@ define('DB_HOST', $env['DB_HOST'] ?? getenv('DB_HOST') ?: 'localhost');
 define('DB_PORT', $env['DB_PORT'] ?? getenv('DB_PORT') ?: '3306');
 define('DB_NAME', $env['DB_NAME'] ?? getenv('DB_NAME') ?: 'LGU');
 define('DB_USER', $env['DB_USER'] ?? getenv('DB_USER') ?: 'root');
-define('DB_PASS', $env['DB_PASS'] ?? getenv('DB_PASS') ?: "YsqnXk6q");
+define('DB_PASS', $env['DB_PASS'] ?? getenv('DB_PASS') ?: "YsqnXk6q#145");
 define('DB_CHARSET', $env['DB_CHARSET'] ?? getenv('DB_CHARSET') ?: 'utf8mb4');
 
 /**
