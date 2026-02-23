@@ -37,19 +37,10 @@ if (file_exists($mailerEnvPath)) {
 }
 
 // Application enable guard — prevents accidental deployment until configured
-// Smart guard: allow local/CLI access and allow when explicit DB_* config is present,
-// but still recommend ENABLE_APP=1 for production. Also allow hosts listed in ALLOWED_HOSTS.
-$enableApp = $env['ENABLE_APP'] ?? getenv('ENABLE_APP');
+$enableApp = $env['ENABLE_APP'] ?? getenv('ENABLE_APP') ?: '0';
 $allowedHosts = array_map('trim', explode(',', $env['ALLOWED_HOSTS'] ?? getenv('ALLOWED_HOSTS') ?: ''));
 $currentHost = $_SERVER['HTTP_HOST'] ?? ($_SERVER['SERVER_NAME'] ?? '');
-
-// Determine helpful flags
-$hasDBConfig = (!empty($env['DB_HOST'] ?? getenv('DB_HOST')))
-    && (!empty($env['DB_USER'] ?? getenv('DB_USER')));
-$isLocalRequest = in_array(strtolower($currentHost), ['localhost', '127.0.0.1', '::1']) || php_sapi_name() === 'cli';
-
-// If app is not explicitly enabled, allow when running locally, or when DB credentials are present,
-// or when the current host matches ALLOWED_HOSTS. Otherwise block with clear instructions.
+// If app is not enabled and current host is not in allowed list, block execution
 if ($enableApp !== '1') {
     $hostAllowed = false;
     if (!empty($currentHost)) {
@@ -58,41 +49,20 @@ if ($enableApp !== '1') {
             if (stripos($currentHost, $ah) !== false) { $hostAllowed = true; break; }
         }
     }
-
-    if (!($isLocalRequest || $hasDBConfig || $hostAllowed)) {
+    if (!$hostAllowed) {
+        // Show a safe message instead of trying to connect to DB
         http_response_code(503);
-        $msg = "Application is disabled for this host. To enable:\n";
-        $msg .= "  1) In your .env set ENABLE_APP=1 and optionally ALLOWED_HOSTS=yourdomain.com\n";
-        $msg .= "  2) Ensure DB_HOST, DB_USER and DB_PASS are set in .env or environment variables\n";
-        $msg .= "  3) If you're testing locally you can run from localhost or CLI.\n";
-        $msg .= "If you believe this is an error, add your domain to ALLOWED_HOSTS in .env.";
-        die(nl2br(htmlspecialchars($msg)));
+        die("Application is disabled. Configure the .env file (set ENABLE_APP=1 and DB_* values) before deploying to your domain.");
     }
 }
 
 // Database configuration (from .env or defaults)
 define('DB_HOST', $env['DB_HOST'] ?? getenv('DB_HOST') ?: 'localhost');
 define('DB_PORT', $env['DB_PORT'] ?? getenv('DB_PORT') ?: '3306');
-define('DB_NAME', $env['DB_NAME'] ?? getenv('DB_NAME') ?: 'law&inci');
+define('DB_NAME', $env['DB_NAME'] ?? getenv('DB_NAME') ?: 'LGU');
 define('DB_USER', $env['DB_USER'] ?? getenv('DB_USER') ?: 'root');
-define('DB_PASS', $env['DB_PASS'] ?? getenv('DB_PASS') ?: 'qwerty123');
+define('DB_PASS', $env['DB_PASS'] ?? getenv('DB_PASS') ?: "YsqnXk6q");
 define('DB_CHARSET', $env['DB_CHARSET'] ?? getenv('DB_CHARSET') ?: 'utf8mb4');
-
-//online
-
-$online_creds = [
-    'host' => 'localhost',
-    'db' => 'emer_comm_test',
-    'user' => 'root',
-    'pass' => 'YsqnXK6q#145',
-];
-// local xammp
-$local_creds = [
-    'host' => '127.0.0.1',
-    'db' => 'emer_comm_test',
-    'user' => 'root',
-    'pass' => '',
-];
 
 /**
  * Create PDO database connection
