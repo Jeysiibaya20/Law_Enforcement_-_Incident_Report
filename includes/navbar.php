@@ -223,6 +223,9 @@ $recognition_path = $root_path . 'admin/cases.php';
         <div class="user-role"><?php echo htmlspecialchars($_SESSION['fullname'] ?? 'Guest'); ?></div>
 
         <div class="mt-2">
+                        <a href="<?php echo $base_url; ?>index.php" class="btn btn-sm btn-outline" onclick="closeSidebar()">
+            <i class="bi bi-house"></i> <?php echo LanguageManager::translate('back'); ?>
+            </a>
             <a href="<?php echo $base_url; ?>auth/logout.php" class="btn btn-sm btn-outline" onclick="closeSidebar()">
                 <i class="bi bi-box-arrow-right"></i> <?php echo LanguageManager::translate('logout'); ?>
             </a>
