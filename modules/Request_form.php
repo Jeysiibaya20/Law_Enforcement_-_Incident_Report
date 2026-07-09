@@ -3,17 +3,17 @@ session_start();
 require_once '../config/db_connect.php';
 require_once '../config/LanguageManager.php';
 
-$page_title = 'CCTV Request Form';
-$base_url = '../';
-$current_page = 'request_form';
-require_once '../includes/header.php';
-require_once '../includes/navbar.php';
-
 // Only allow authenticated admin users to submit CCTV requests
 if (!isset($_SESSION['user_id']) || strtolower($_SESSION['role'] ?? '') !== 'admin') {
     header('Location: ../index.php');
     exit();
 }
+
+$page_title = 'CCTV Request Form';
+$base_url = '../';
+$current_page = 'request_form';
+require_once '../includes/header.php';
+require_once '../includes/navbar.php';
 
 $message = '';
 $message_type = 'info';
