@@ -200,7 +200,7 @@ $crime_mapping_path = $root_path . 'modules/crime_mapping.php';
                 <a href="<?php echo $base_url; ?>modules/crime_mapping.php" class="nav-link <?php echo ($current_page=='crime_mapping')?'active':''; ?>" onclick="closeSidebar()">
                     <i class="bi bi-map"></i> <span>Crime Mapping</span>
                 </a>
-                <a href="<?php echo $base_url; ?>modules/Request_form.php" class="nav-link <?php echo ($current_page=='crime_mapping')?'active':''; ?>" onclick="closeSidebar()">
+                <a href="<?php echo $base_url; ?>modules/Request_form.php" class="nav-link <?php echo ($current_page=='request_form')?'active':''; ?>" onclick="closeSidebar()">
                     <i class="bi bi-map"></i> <span>Request Form</span>
                 </a>
                 <?php endif; ?>
