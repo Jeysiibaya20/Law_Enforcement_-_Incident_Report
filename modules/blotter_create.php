@@ -1,8 +1,38 @@
 <?php
 session_start();
-require '../config/db_connect.php';
-require 'helpers.php';
-require '../includes/attachment_manager.php';
+if (!isset($_SESSION['user_id'])) {
+    header('Location: ../auth/login.php');
+    exit;
+}
+require_once __DIR__ . '/../config/db_connect.php';
+if (!isset($pdo) || !$pdo) {
+    $pdo = getDBConnection();
+}
+
+$userId = $_SESSION['user_id'] ?? null;
+$userApproved = true;
+if ($userId) {
+    try {
+        $approvalStmt = $pdo->prepare("SELECT admin_approved FROM signup WHERE user_id = ?");
+        $approvalStmt->execute([$userId]);
+        $approvalRow = $approvalStmt->fetch(PDO::FETCH_ASSOC);
+        $userApproved = !empty($approvalRow['admin_approved']) && (int)$approvalRow['admin_approved'] === 1;
+    } catch (Exception $e) {
+        $userApproved = true;
+    }
+}
+
+if ($userId && strtolower($_SESSION['role'] ?? '') !== 'admin' && !$userApproved) {
+    require '../includes/header.php';
+    echo '<div class="main-content"><div class="content-container">';
+    echo '<div class="alert alert-warning"><h4>Access Locked</h4><p>Your account is pending administrator approval. The blotter creation module is locked until an administrator approves your account.</p></div>';
+    echo '</div></div>';
+    require '../includes/footer.php';
+    exit;
+}
+
+require_once __DIR__ . '/helpers.php';
+require_once __DIR__ . '/../includes/attachment_manager.php';
 
 $page_title = 'Create Blotter';
 $base_url = '../';
@@ -63,14 +93,51 @@ function getPriorityByIncidentType($incident_type) {
 // Handle form submission
 $error = null;
 $success = null;
+$userRole = strtolower($_SESSION['role'] ?? '');
+$defaultComplainantName = '';
+$defaultComplainantContact = '';
+$defaultComplainantEmail = '';
+$defaultComplainantAddress = '';
+if ($userRole !== 'admin') {
+    $defaultComplainantName = trim($_SESSION['fullname'] ?? '');
+    $defaultComplainantEmail = trim($_SESSION['email'] ?? '');
+
+    if (!empty($_SESSION['user_id'])) {
+        try {
+            $stmt = $pdo->prepare('SELECT fullname, emailadd, email, phone, address FROM signup WHERE user_id = ?');
+            $stmt->execute([$_SESSION['user_id']]);
+            $userRow = $stmt->fetch(PDO::FETCH_ASSOC);
+            if (!empty($userRow['fullname'])) {
+                $defaultComplainantName = trim($userRow['fullname']);
+            }
+            if (!empty($userRow['phone'])) {
+                $defaultComplainantContact = trim($userRow['phone']);
+            }
+            if (!empty($userRow['address'])) {
+                $defaultComplainantAddress = trim($userRow['address']);
+            }
+            if (!empty($userRow['emailadd'])) {
+                $defaultComplainantEmail = trim($userRow['emailadd']);
+            } elseif (!empty($userRow['email'])) {
+                $defaultComplainantEmail = trim($userRow['email']);
+            }
+        } catch (Exception $e) {
+            error_log('Unable to resolve default complainant profile: ' . $e->getMessage());
+        }
+    }
+}
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $blotter_no = 'BLT' . time() . rand(100, 999);
-    $complainant = trim($_POST['complainant_name'] ?? '');
+    $complainant = trim($_POST['complainant_name'] ?? $defaultComplainantName);
+    $complainant_contact = trim($_POST['complainant_contact'] ??'');
+    $complainant_email = trim($_POST['complainant_email'] ?? '');
+    $complainant_address = trim($_POST['complainant_address'] ?? '');
     $respondent = trim($_POST['respondent_name'] ?? '');
     $respondent_contact = trim($_POST['respondent_contact'] ?? '');
     $respondent_email = trim($_POST['respondent_email'] ?? '');
     $respondent_address = trim($_POST['respondent_address'] ?? '');
+    $complainant_signature = trim($_POST['complainant_signature'] ?? '');
     $incident_type = trim($_POST['incident_type'] ?? '');
     // If user selected "Other", prefer the free-text other field when provided
     if (strtolower($incident_type) === 'other') {
@@ -102,15 +169,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = 'Description is required.';
     } elseif (empty($respondent_address)) {
         $error = 'Respondent home address is required.';
-    } elseif (empty($respondent_contact) && empty($respondent_email)) {
-        $error = 'Respondent contact number or email is required.';
+    } elseif (empty($incident_date) || empty($incident_time)) {
+        $error = 'Incident date and time are required.';
     } else {
         try {
-            // Build SQL with created_by and respondent contact fields
-            $sql = "INSERT INTO blotters (blotter_no, complainant_name, respondent_name, respondent_contact, respondent_email, respondent_address, incident_type, incident_date, incident_time, location, description, priority, created_by";
+            // Build SQL with created_by, status, and respondent contact fields
+            $sql = "INSERT INTO blotters (blotter_no, complainant_name, complainant_contact, complainant_email, complainant_address, respondent_name, respondent_contact, respondent_email, respondent_address, incident_type, incident_date, incident_time, location, description, priority, status, complainant_signature, created_by";
             $params = [
                 ':blotter_no' => $blotter_no,
                 ':complainant' => $complainant,
+                ':complainant_contact' => $complainant_contact,
+                ':complainant_email' => $complainant_email,
+                ':complainant_address' => $complainant_address,
                 ':respondent' => $respondent,
                 ':respondent_contact' => $respondent_contact,
                 ':respondent_email' => $respondent_email,
@@ -121,6 +191,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ':location' => $location,
                 ':description' => $description,
                 ':priority' => $priority,
+                ':status' => 'Pending',
+                ':complainant_signature' => $complainant_signature,
                 ':created_by' => $_SESSION['user_id'] ?? null
             ];
             
@@ -129,7 +201,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $params[':officer_id'] = $officer_id;
             }
             
-            $sql .= ") VALUES (:blotter_no, :complainant, :respondent, :respondent_contact, :respondent_email, :respondent_address, :incident_type, :incident_date, :incident_time, :location, :description, :priority, :created_by";
+            $sql .= ") VALUES (:blotter_no, :complainant, :complainant_contact, :complainant_email, :complainant_address, :respondent, :respondent_contact, :respondent_email, :respondent_address, :incident_type, :incident_date, :incident_time, :location, :description, :priority, :status, :complainant_signature, :created_by";
             if ($officer_id !== null) {
                 $sql .= ", :officer_id";
             }
@@ -143,7 +215,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Handle file uploads
             handleFileUpload('blotter', $blotter_id, $_SESSION['user_id'] ?? null);
             
-            $success = "Blotter #{$blotter_no} created successfully!";
+            $_SESSION['flash'] = ['type' => 'success', 'message' => "Blotter #{$blotter_no} created successfully."];
+            header('Location: Blotter.php');
+            exit;
         } catch (Exception $e) {
             $msg = $e->getMessage();
             if (strpos($msg, 'Unknown column') !== false) {
@@ -202,31 +276,69 @@ require '../includes/navbar.php';
         <h5>Blotter Details</h5>
     </div>
     <div class="card-body">
-        <form method="post" enctype="multipart/form-data">
+        <form method="post" enctype="multipart/form-data" autocomplete="off">
             <div class="row g-3">
+                <div class="col-12">
+                    <h5 class="mb-3">Complainant Information</h5>
+                </div>
                 <div class="col-md-6">
-                    <label class="form-label fw-bold">Complainant <span class="text-danger">*</span></label>
-                    <input type="text" name="complainant_name" class="form-control" value="<?= htmlspecialchars($_POST['complainant_name'] ?? '') ?>" required>
+                    <label class="form-label fw-bold">Complainant Name <span class="text-danger">*</span></label>
+                    <input type="text" id="complainant_name" name="complainant_name" autocomplete="off" class="form-control" value="<?= htmlspecialchars($_POST['complainant_name'] ?? ($userRole !== 'admin' ? $defaultComplainantName : '')) ?>" required>
                     <small class="text-muted">Name of the person filing the complaint</small>
                 </div>
                 <div class="col-md-6">
+                    <label class="form-label fw-bold">Complainant Contact</label>
+                    <input type="text" name="complainant_contact" autocomplete="off" class="form-control" placeholder="Phone or contact number" value="<?= htmlspecialchars($_POST['complainant_contact'] ?? ($userRole !== 'admin' ? $defaultComplainantContact : '')) ?>">
+                    <small class="text-muted">Optional phone or mobile number</small>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Complainant Email</label>
+                    <input type="email" name="complainant_email" autocomplete="off" class="form-control" placeholder="Email address" value="<?= htmlspecialchars($_POST['complainant_email'] ?? ($userRole !== 'admin' ? $defaultComplainantEmail : '')) ?>">
+                    <small class="text-muted">Optional email address</small>
+                </div>
+                <div class="col-12">
+                    <label class="form-label fw-bold">Complainant Home Address</label>
+                    <input type="text" name="complainant_address" autocomplete="off" class="form-control" placeholder="Complainant's home address" value="<?= htmlspecialchars($_POST['complainant_address'] ?? ($userRole !== 'admin' ? $defaultComplainantAddress : '')) ?>">
+                    <small class="text-muted">Optional full address</small>
+                </div>
+
+                <div class="col-12 mt-4">
+                    <h5 class="mb-3">Respondent Information</h5>
+                </div>
+                <div class="col-md-6">
                     <label class="form-label fw-bold">Respondent Name</label>
-                    <input type="text" name="respondent_name" class="form-control" value="<?= htmlspecialchars($_POST['respondent_name'] ?? '') ?>">
+                    <input type="text" id="respondent_name" name="respondent_name" autocomplete="off" class="form-control" value="<?= htmlspecialchars($_POST['respondent_name'] ?? '') ?>">
                     <small class="text-muted">Name of the person being reported</small>
                 </div>
 
                 <div class="col-md-6">
                     <label class="form-label fw-bold">Respondent Contact / Email</label>
                     <div class="d-flex gap-2">
-                        <input type="text" name="respondent_contact" class="form-control" placeholder="Phone or contact number" value="<?= htmlspecialchars($_POST['respondent_contact'] ?? '') ?>">
-                        <input type="email" name="respondent_email" class="form-control" placeholder="Email (optional)" value="<?= htmlspecialchars($_POST['respondent_email'] ?? '') ?>">
+                        <input type="text" id="respondent_contact" name="respondent_contact" autocomplete="off" class="form-control" placeholder="Phone or contact number" value="<?= htmlspecialchars($_POST['respondent_contact'] ?? '') ?>">
+                        <input type="email" id="respondent_email" name="respondent_email" autocomplete="off" class="form-control" placeholder="Email (optional)" value="<?= htmlspecialchars($_POST['respondent_email'] ?? '') ?>">
                     </div>
-                    <small class="text-muted">Provide phone number or email. At least one is required.</small>
+                    <small class="text-muted">Optional. Provide phone number or email if available.</small>
                 </div>
 
                 <div class="col-12">
                     <label class="form-label fw-bold">Respondent Home Address <span class="text-danger">*</span></label>
-                    <input type="text" name="respondent_address" class="form-control" placeholder="Respondent's home address" value="<?= htmlspecialchars($_POST['respondent_address'] ?? '') ?>" required>
+                    <input type="text" id="respondent_address" name="respondent_address" autocomplete="off" class="form-control" placeholder="Respondent's home address" value="<?= htmlspecialchars($_POST['respondent_address'] ?? '') ?>" required>
+                </div>
+
+                <div class="col-12 mt-4">
+                    <h5 class="mb-3">Complainant Signature</h5>
+                </div>
+                <div class="col-12">
+                    <div class="card p-3 mb-4">
+                        <label class="form-label fw-bold">Use your mouse or touch screen to sign below</label>
+                        <canvas id="signature-pad" class="form-control" style="width: 100%; height: 220px; border: 1px solid #ced4da; border-radius: 0.375rem; cursor: crosshair;"></canvas>
+                        <div class="mt-3 d-flex gap-2">
+                            <button type="button" class="btn btn-outline-secondary" id="clear-signature">Clear</button>
+                            <button type="button" class="btn btn-outline-primary" id="save-signature">Capture Signature</button>
+                        </div>
+                        <input type="hidden" name="complainant_signature" id="complainant_signature" value="<?= htmlspecialchars($_POST['complainant_signature'] ?? '') ?>">
+                        <small class="text-muted d-block mt-2">Click Capture Signature before submitting, or the signature will be saved automatically when the form is sent.</small>
+                    </div>
                 </div>
 
                 <div class="col-md-6">
@@ -495,10 +607,99 @@ if (incidentOtherEl) {
     incidentOtherEl.addEventListener('input', updatePriorityBadge);
 }
 
-// Initial priority update on page load
-document.addEventListener('DOMContentLoaded', function() {
-    toggleOtherField();
-    updatePriorityBadge();
-});
+    const signatureCanvas = document.getElementById('signature-pad');
+    const signatureInput = document.getElementById('complainant_signature');
+    const clearSignatureBtn = document.getElementById('clear-signature');
+    const saveSignatureBtn = document.getElementById('save-signature');
+
+    if (signatureCanvas) {
+        const ctx = signatureCanvas.getContext('2d');
+        let drawing = false;
+        let lastX = 0;
+        let lastY = 0;
+
+        function resizeCanvas() {
+            const rect = signatureCanvas.getBoundingClientRect();
+            const ratio = window.devicePixelRatio || 1;
+            signatureCanvas.width = rect.width * ratio;
+            signatureCanvas.height = rect.height * ratio;
+            signatureCanvas.style.width = rect.width + 'px';
+            signatureCanvas.style.height = rect.height + 'px';
+            ctx.scale(ratio, ratio);
+            ctx.lineCap = 'round';
+            ctx.lineJoin = 'round';
+            ctx.strokeStyle = '#000';
+            ctx.lineWidth = 2;
+        }
+
+        function getPointerPosition(event) {
+            const rect = signatureCanvas.getBoundingClientRect();
+            const x = (event.clientX - rect.left);
+            const y = (event.clientY - rect.top);
+            return { x, y };
+        }
+
+        function startDrawing(event) {
+            drawing = true;
+            const pos = getPointerPosition(event);
+            lastX = pos.x;
+            lastY = pos.y;
+            ctx.beginPath();
+            ctx.moveTo(lastX, lastY);
+            event.preventDefault();
+        }
+
+        function draw(event) {
+            if (!drawing) return;
+            const pos = getPointerPosition(event);
+            ctx.lineTo(pos.x, pos.y);
+            ctx.stroke();
+            lastX = pos.x;
+            lastY = pos.y;
+            event.preventDefault();
+        }
+
+        function stopDrawing() {
+            drawing = false;
+        }
+
+        function clearSignature() {
+            ctx.clearRect(0, 0, signatureCanvas.width, signatureCanvas.height);
+            if (signatureInput) {
+                signatureInput.value = '';
+            }
+        }
+
+        function captureSignature() {
+            const dataUrl = signatureCanvas.toDataURL('image/png');
+            if (signatureInput) {
+                signatureInput.value = dataUrl;
+            }
+        }
+
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        signatureCanvas.addEventListener('pointerdown', startDrawing);
+        signatureCanvas.addEventListener('pointermove', draw);
+        signatureCanvas.addEventListener('pointerup', stopDrawing);
+        signatureCanvas.addEventListener('pointerleave', stopDrawing);
+
+        if (clearSignatureBtn) {
+            clearSignatureBtn.addEventListener('click', clearSignature);
+        }
+
+        if (saveSignatureBtn) {
+            saveSignatureBtn.addEventListener('click', captureSignature);
+        }
+
+        const formElement = document.querySelector('form');
+        if (formElement) {
+            formElement.addEventListener('submit', function() {
+                captureSignature();
+            });
+        }
+    }
+
 </script>
 

@@ -7,6 +7,13 @@
  */
 
 class NaturalLanguageProcessor {
+    public static function analyzeText($text, array $context = []) {
+        require_once __DIR__ . '/CloudNLPService.php';
+
+        $service = new CloudNLPService();
+        return $service->analyze($text, $context);
+    }
+
     
     // Sentiment and emotion keywords
     private static $positive_keywords = [

@@ -44,6 +44,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action'])) {
         } elseif ($action === 'reject_account') {
             $pdo->prepare("UPDATE signup SET admin_approved = -1 WHERE user_id = ?")->execute([$user_id]);
             $_SESSION['flash'] = ['type' => 'warning', 'message' => 'Account rejected.'];
+        } elseif ($action === 'unreject_account') {
+            $pdo->prepare("UPDATE signup SET admin_approved = 0 WHERE user_id = ?")->execute([$user_id]);
+            $_SESSION['flash'] = ['type' => 'success', 'message' => 'Account rejection has been undone.'];
         } elseif ($action === 'ban') {
             $pdo->prepare("UPDATE signup SET banned = 1 WHERE user_id = ?")->execute([$user_id]);
             $_SESSION['flash'] = ['type' => 'warning', 'message' => 'User has been banned.'];
@@ -51,8 +54,29 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action'])) {
             $pdo->prepare("UPDATE signup SET banned = 0 WHERE user_id = ?")->execute([$user_id]);
             $_SESSION['flash'] = ['type' => 'success', 'message' => 'User has been unbanned.'];
         } elseif ($action === 'delete') {
-            $pdo->prepare("DELETE FROM signup WHERE user_id = ?")->execute([$user_id]);
-            $_SESSION['flash'] = ['type' => 'warning', 'message' => 'User account deleted.'];
+            $countStmt = $pdo->prepare("SELECT COUNT(*) FROM incidents WHERE created_by = ? OR assigned_to = ? OR updated_by = ?");
+            $countStmt->execute([$user_id, $user_id, $user_id]);
+            $referenceCount = (int)$countStmt->fetchColumn();
+
+            $attachmentStmt = $pdo->prepare("SELECT COUNT(*) FROM attachments WHERE uploaded_by = ?");
+            $attachmentStmt->execute([$user_id]);
+            $attachmentCount = (int)$attachmentStmt->fetchColumn();
+
+            if ($referenceCount > 0) {
+                $_SESSION['flash'] = [
+                    'type' => 'danger',
+                    'message' => 'Cannot delete this user because they are referenced by one or more incident reports. Reassign or remove the related incident records first.'
+                ];
+            } else {
+                if ($attachmentCount > 0) {
+                    // Remove attachments uploaded by this user before deleting the account.
+                    $deleteAttachments = $pdo->prepare("DELETE FROM attachments WHERE uploaded_by = ?");
+                    $deleteAttachments->execute([$user_id]);
+                }
+
+                $pdo->prepare("DELETE FROM signup WHERE user_id = ?")->execute([$user_id]);
+                $_SESSION['flash'] = ['type' => 'warning', 'message' => 'User account deleted.'];
+            }
         }
         header('Location: users.php');
         exit();
@@ -160,7 +184,14 @@ require_once '../includes/header.php';
                                             </button>
                                         </form>
                                         <?php elseif ((int)$u['admin_approved'] === -1): ?>
-                                            <span style="background-color: #ffffff; border-color: #28a745;" class="text-muted">Rejected</span>
+                                            <span class="badge bg-danger"><i class="bi bi-x-circle"></i> Rejected</span>
+                                            <form method="POST" class="d-inline ms-1">
+                                                <input type="hidden" name="action" value="unreject_account">
+                                                <input type="hidden" name="user_id" value="<?= $u['user_id'] ?>">
+                                                <button type="submit" class="btn btn-outline-secondary btn-sm" title="Undo Rejection">
+                                                    <i class="bi bi-arrow-counterclockwise"></i>
+                                                </button>
+                                            </form>
                                         <?php else: ?>
                                             <span style="background-color: #ffffff; border-color: #28a745;" class="text-muted">Approved</span>
                                         <?php endif; ?>

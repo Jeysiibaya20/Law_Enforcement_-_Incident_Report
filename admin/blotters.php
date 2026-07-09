@@ -10,7 +10,7 @@ $filter = $_GET['filter'] ?? 'all';
 $sql = "SELECT b.* FROM blotters b";
 
 if ($filter !== 'all') {
-    $sql .= " WHERE b.status = '" . $pdo->quote($filter) . "'";
+    $sql .= " WHERE b.status = " . $pdo->quote($filter);
 }
 
 $sql .= " ORDER BY b.created_at DESC";
@@ -23,17 +23,99 @@ try {
     $totalCount = 0;
 }
 
+function ensureBlotterStatusEnum(PDO $pdo, array $requiredStatuses)
+{
+    try {
+        $stmt = $pdo->prepare("SELECT COLUMN_TYPE FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'blotters' AND COLUMN_NAME = 'status'");
+        $stmt->execute();
+        $columnType = $stmt->fetchColumn();
+        if (!$columnType) {
+            return;
+        }
+
+        preg_match_all("/'([^']+)'/", $columnType, $matches);
+        $currentValues = $matches[1] ?? [];
+        $missing = array_diff($requiredStatuses, $currentValues);
+        if (empty($missing)) {
+            return;
+        }
+
+        $newValues = $currentValues;
+        foreach ($missing as $value) {
+            if (!in_array($value, $newValues, true)) {
+                $newValues[] = $value;
+            }
+        }
+
+        $enumSql = "ENUM('" . implode("','", array_map(function ($item) {
+            return str_replace("'", "\\'", $item);
+        }, $newValues)) . "') NOT NULL";
+
+        $pdo->exec("ALTER TABLE blotters MODIFY COLUMN status {$enumSql}");
+    } catch (Exception $e) {
+        error_log('Failed to ensure blotter status enum: ' . $e->getMessage());
+    }
+}
+
 // Handle status update from admin
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'update_status') {
     $blotter_id = (int)($_POST['blotter_id'] ?? 0);
     $new_status = trim($_POST['new_status'] ?? '');
-    $allowed = ['Pending', 'Under Investigation', 'Resolved', 'Archived'];
+    $allowed = ['Pending', 'Under Investigation', 'Resolved', 'Archived', 'Rejected'];
     if ($blotter_id > 0 && in_array($new_status, $allowed, true)) {
+        // Ensure the status enum includes all allowed values before updating status.
+        ensureBlotterStatusEnum($pdo, $allowed);
+
+        $notifyData = null;
+        if ($new_status === 'Rejected') {
+            $notifyStmt = $pdo->prepare("SELECT created_by, blotter_no FROM blotters WHERE id = ?");
+            $notifyStmt->execute([$blotter_id]);
+            $notifyData = $notifyStmt->fetch(PDO::FETCH_ASSOC);
+        }
+
         try {
             $update = $pdo->prepare("UPDATE blotters SET status = ?, updated_at = NOW() WHERE id = ?");
             $update->execute([$new_status, $blotter_id]);
         } catch (Exception $e) {
-            // ignore; page will reload and show updated data if successful
+            // Try repairing the enum if the update failed due to a missing value.
+            if (stripos($e->getMessage(), 'Incorrect enum value') !== false) {
+                ensureBlotterStatusEnum($pdo, $allowed);
+                try {
+                    $update->execute([$new_status, $blotter_id]);
+                } catch (Exception $inner) {
+                    error_log('Blotter status update failed after enum repair: ' . $inner->getMessage());
+                    $_SESSION['flash'] = ['type' => 'danger', 'message' => 'Failed to update blotter status.'];
+                }
+            } else {
+                error_log('Blotter status update failed: ' . $e->getMessage());
+                $_SESSION['flash'] = ['type' => 'danger', 'message' => 'Failed to update blotter status.'];
+            }
+        }
+
+        if ($new_status === 'Rejected' && !empty($notifyData['created_by'])) {
+            require_once '../includes/notifications.php';
+            $complainantUserId = intval($notifyData['created_by']);
+            $bno = $notifyData['blotter_no'] ?? '';
+            $title = "Blotter Rejected: {$bno}";
+            $msg = "Your blotter ({$bno}) has been rejected by the administration and remains on record. Please review the details or contact support for next steps.";
+
+            try {
+                createNotification($pdo, $complainantUserId, $blotter_id, 'Blotter Rejected', $title, $msg);
+            } catch (Exception $e) {
+                error_log('Notification create failed: ' . $e->getMessage());
+                $_SESSION['flash'] = ['type' => 'warning', 'message' => 'Blotter rejected, but the notification could not be saved.'];
+            }
+
+            $u = $pdo->prepare("SELECT emailadd AS email FROM signup WHERE user_id = :uid");
+            $u->execute([':uid' => $complainantUserId]);
+            $userRow = $u->fetch(PDO::FETCH_ASSOC);
+            if (!empty($userRow['email'])) {
+                try {
+                    sendEmailNotification($userRow['email'], $title, nl2br(htmlspecialchars($msg)));
+                } catch (Exception $e) {
+                    error_log('Email failed: ' . $e->getMessage());
+                }
+            }
         }
     }
     // Redirect to avoid form resubmission and preserve filter
@@ -46,7 +128,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'updat
 // Get status counts
 try {
     $statusCounts = [];
-    $statuses = ['Pending', 'Under Investigation', 'Resolved', 'Archived'];
+    $statuses = ['Pending', 'Under Investigation', 'Resolved', 'Archived', 'Rejected'];
     foreach ($statuses as $status) {
         $count = $pdo->query("SELECT COUNT(*) FROM blotters WHERE status = '$status'")->fetchColumn();
         $statusCounts[$status] = $count;
@@ -117,6 +199,9 @@ try {
                 <a href="blotters.php?filter=Resolved" class="btn btn-outline-success <?= $filter === 'Resolved' ? 'active' : '' ?>">
                     Resolved (<?= $statusCounts['Resolved'] ?? 0 ?>)
                 </a>
+                <a href="blotters.php?filter=Rejected" class="btn btn-outline-danger <?= $filter === 'Rejected' ? 'active' : '' ?>">
+                    Rejected (<?= $statusCounts['Rejected'] ?? 0 ?>)
+                </a>
                 <a href="blotters.php?filter=Archived" class="btn btn-outline-secondary <?= $filter === 'Archived' ? 'active' : '' ?>">
                     Archived (<?= $statusCounts['Archived'] ?? 0 ?>)
                 </a>
@@ -155,6 +240,7 @@ try {
                                         'Pending' => 'warning',
                                         'Under Investigation' => 'info',
                                         'Resolved' => 'success',
+                                        'Rejected' => 'danger',
                                         'Archived' => 'secondary',
                                         default => 'light'
                                     };
@@ -181,6 +267,7 @@ try {
                                             <option value="Pending" <?= $b['status'] === 'Pending' ? 'selected' : '' ?>>Pending</option>
                                             <option value="Under Investigation" <?= $b['status'] === 'Under Investigation' ? 'selected' : '' ?>>Under Investigation</option>
                                             <option value="Resolved" <?= $b['status'] === 'Resolved' ? 'selected' : '' ?>>Resolved</option>
+                                            <option value="Rejected" <?= $b['status'] === 'Rejected' ? 'selected' : '' ?>>Rejected</option>
                                             <option value="Archived" <?= $b['status'] === 'Archived' ? 'selected' : '' ?>>Archived</option>
                                         </select>
                                     </form>

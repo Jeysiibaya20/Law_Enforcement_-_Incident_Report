@@ -1,53 +1,22 @@
 <?php
 session_start();
-require '../config/db_connect.php';
-require 'helpers.php';
-require '../includes/attachment_manager.php';
+require_once __DIR__ . '/../config/db_connect.php';
+if (!isset($pdo) || !$pdo) {
+    $pdo = getDBConnection();
+}
+require_once __DIR__ . '/helpers.php';
+require_once __DIR__ . '/../includes/attachment_manager.php';
 
-// Check account verification status (must be verified by admin to use blotter)
-$accountVerified = false;
-$adminApprovalState = null;
 $userId = $_SESSION['user_id'] ?? null;
-
+$isBanned = false;
 if ($userId) {
     try {
-        $stmt = $pdo->prepare("SELECT email_verified FROM signup WHERE user_id = ?");
-        $stmt->execute([$userId]);
-        $u = $stmt->fetch(PDO::FETCH_ASSOC);
-        $accountVerified = !empty($u['email_verified']);
-
-        // Try to read admin approval column
-        try {
-            $stmt2 = $pdo->prepare("SELECT admin_approved FROM signup WHERE user_id = ?");
-            $stmt2->execute([$userId]);
-            $a = $stmt2->fetch(PDO::FETCH_ASSOC);
-            if ($a && array_key_exists('admin_approved', $a)) {
-                $adminApprovalState = (int)$a['admin_approved'];
-                $accountVerified = ($adminApprovalState === 1);
-            }
-        } catch (Throwable $inner) {
-            // ignore - column may not exist
-            $adminApprovalState = null;
-        }
+        $bStmt = $pdo->prepare("SELECT banned FROM signup WHERE user_id = ?");
+        $bStmt->execute([$userId]);
+        $bRow = $bStmt->fetch(PDO::FETCH_ASSOC);
+        $isBanned = !empty($bRow['banned']);
     } catch (Exception $e) {
-        $accountVerified = false;
-    }
-
-    // If the logged-in user is an admin, always treat them as verified/unlocked
-    $userRole = strtolower($_SESSION['role'] ?? '');
-    if ($userRole === 'admin') {
-        $accountVerified = true;
         $isBanned = false;
-    } else {
-        // Check banned status for non-admins
-        try {
-            $bStmt = $pdo->prepare("SELECT banned FROM signup WHERE user_id = ?");
-            $bStmt->execute([$userId]);
-            $bRow = $bStmt->fetch(PDO::FETCH_ASSOC);
-            $isBanned = !empty($bRow['banned']);
-        } catch (Exception $e) {
-            $isBanned = false;
-        }
     }
 }
 
@@ -57,6 +26,28 @@ if (!empty($isBanned)) {
     require 'helpers.php';
     echo '<div class="main-content"><div class="content-container">';
     echo '<div class="alert alert-danger"><h4>Account Suspended</h4><p>Your account has been banned by an administrator. You cannot access the blotter until your account is unbanned. If you believe this is an error, contact the system administrator.</p></div>';
+    echo '</div></div>';
+    require '../includes/footer.php';
+    exit;
+}
+
+$userApproved = true;
+if ($userId) {
+    try {
+        $approveStmt = $pdo->prepare("SELECT admin_approved FROM signup WHERE user_id = ?");
+        $approveStmt->execute([$userId]);
+        $approvalRow = $approveStmt->fetch(PDO::FETCH_ASSOC);
+        $userApproved = !empty($approvalRow['admin_approved']) && (int)$approvalRow['admin_approved'] === 1;
+    } catch (Exception $e) {
+        $userApproved = true;
+    }
+}
+
+if ($userId && strtolower($_SESSION['role'] ?? '') !== 'admin' && !$userApproved) {
+    require '../includes/header.php';
+    require 'helpers.php';
+    echo '<div class="main-content"><div class="content-container">';
+    echo '<div class="alert alert-warning"><h4>Access Locked</h4><p>Your account is pending administrator approval. The blotter system is locked until an administrator approves your account.</p></div>';
     echo '</div></div>';
     require '../includes/footer.php';
     exit;
@@ -142,20 +133,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                     $officer_id = null;
                 }
                 $created_by = $_SESSION['user_id'] ?? null;
+                $status = 'Pending';
 
-                // Basic validation: require respondent address and contact/email
+                // Basic validation: require respondent address and incident date/time
                 if (empty($respondent_address)) {
                     $_SESSION['flash'] = ['type' => 'danger', 'message' => 'Respondent home address is required.'];
                     header('Location: ' . $_SERVER['PHP_SELF']);
                     exit;
                 }
-                if (empty($respondent_contact) && empty($respondent_email)) {
-                    $_SESSION['flash'] = ['type' => 'danger', 'message' => 'Respondent phone or email is required.'];
+                if (empty($incident_date) || empty($incident_time)) {
+                    $_SESSION['flash'] = ['type' => 'danger', 'message' => 'Incident date and time are required.'];
                     header('Location: ' . $_SERVER['PHP_SELF']);
                     exit;
                 }
 
-                $sql = "INSERT INTO blotters (blotter_no, complainant_name, respondent_name, respondent_contact, respondent_email, respondent_address, incident_type, incident_date, incident_time, location, description, priority, officer_id, created_by) VALUES (:blotter_no, :complainant, :respondent, :respondent_contact, :respondent_email, :respondent_address, :incident_type, :incident_date, :incident_time, :location, :description, :priority, :officer_id, :created_by)";
+                $sql = "INSERT INTO blotters (blotter_no, complainant_name, respondent_name, respondent_contact, respondent_email, respondent_address, incident_type, incident_date, incident_time, location, description, priority, status, officer_id, created_by) VALUES (:blotter_no, :complainant, :respondent, :respondent_contact, :respondent_email, :respondent_address, :incident_type, :incident_date, :incident_time, :location, :description, :priority, :status, :officer_id, :created_by)";
                 $stmt = $pdo->prepare($sql);
                 $stmt->execute([
                         ':blotter_no' => $blotter_no,
@@ -170,6 +162,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                         ':location' => $location,
                         ':description' => $description,
                         ':priority' => $priority,
+                        ':status' => $status,
                         ':officer_id' => $officer_id,
                         ':created_by' => $created_by
                 ]);
@@ -362,6 +355,43 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                 header('Location: ' . $_SERVER['PHP_SELF']);
                 exit;
         }
+
+        if ($action === 'delete' && !empty($_POST['id'])) {
+                $id = intval($_POST['id']);
+                $allowed = false;
+                $userRole = strtolower($_SESSION['role'] ?? '');
+                $currentUserId = $_SESSION['user_id'] ?? null;
+                try {
+                    $permStmt = $pdo->prepare('SELECT created_by, officer_id FROM blotters WHERE id = :id');
+                    $permStmt->execute([':id' => $id]);
+                    $permRow = $permStmt->fetch(PDO::FETCH_ASSOC);
+                    if ($userRole === 'admin') {
+                        $allowed = true;
+                    } elseif ($permRow && $currentUserId && (intval($permRow['created_by']) === intval($currentUserId) || intval($permRow['officer_id']) === intval($currentUserId))) {
+                        $allowed = true;
+                    }
+                } catch (Exception $e) {
+                    error_log('Permission check error: ' . $e->getMessage());
+                }
+
+                if (! $allowed) {
+                    $_SESSION['flash'] = ['type' => 'danger', 'message' => 'You do not have permission to delete this blotter.'];
+                    header('Location: ' . $_SERVER['PHP_SELF']);
+                    exit;
+                }
+
+                try {
+                    $pdo->prepare('DELETE FROM blotters WHERE id = :id')->execute([':id' => $id]);
+                    $pdo->prepare('DELETE FROM attachments WHERE entity_type = ? AND entity_id = ?')->execute(['blotter', $id]);
+                    $_SESSION['flash'] = ['type' => 'warning', 'message' => 'Blotter deleted.'];
+                } catch (Exception $e) {
+                    error_log('Blotter delete error: ' . $e->getMessage());
+                    $_SESSION['flash'] = ['type' => 'danger', 'message' => 'Failed to delete blotter.'];
+                }
+
+                header('Location: ' . $_SERVER['PHP_SELF']);
+                exit;
+        }
 }
 
 // AJAX: return blotter JSON for view/update
@@ -476,13 +506,6 @@ require '../includes/navbar.php';
     </div>
 </div>
 
-<?php if (!empty($_SESSION['flash'])): $f = $_SESSION['flash']; ?>
-        <div class="alert alert-<?= htmlspecialchars($f['type']) ?> alert-dismissible">
-                <?= htmlspecialchars($f['message']) ?>
-                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-        </div>
-<?php unset($_SESSION['flash']); endif; ?>
-
 <!-- KPI CARDS -->
 <div class="row row-cols-1 row-cols-md-4 g-4 mb-4">
         <div class="col">
@@ -515,76 +538,11 @@ require '../includes/navbar.php';
 <div class="card">
 <div class="card-header d-flex justify-content-between align-items-center">
         <h5 style="margin: 0;">Blotter Records</h5>
-        <?php if (!$accountVerified): ?>
-            <button class="btn btn-primary btn-sm" disabled title="Account must be approved by admin">
-                <i class="bi bi-plus-circle"></i> New Blotter
-            </button>
-        <?php else: ?>
-            <a href="blotter_create.php" id="btnNewBlotter" type="button" class="btn btn-primary btn-sm">
-                <i class="bi bi-plus-circle"></i> New Blotter
-            </a>
-        <?php endif; ?>
+        <a href="blotter_create.php" id="btnNewBlotter" type="button" class="btn btn-primary btn-sm">
+            <i class="bi bi-plus-circle"></i> New Blotter
+        </a>
 </div>
 
-<?php if (!$accountVerified): ?>
-    <!-- ACCOUNT NOT VERIFIED - Show locked state -->
-    <div class="alert alert-warning card-body">
-        <strong>Account Verification Pending</strong>
-        <p>Your account is currently under review by the admin. Blotter access will be available once an admin approves your account.</p>
-    </div>
-
-    <!-- Search Bar (disabled) -->
-    <div class="card-body" style="padding: 12px 15px; border-bottom: 1px solid #dee2e6; opacity: 0.5; pointer-events: none;">
-        <div style="display: flex; gap: 10px; align-items: center;">
-            <input 
-                type="text" 
-                id="blotterSearch" 
-                class="form-control" 
-                placeholder="Search by Blotter No..."
-                onkeyup="filterBlotterTable()"
-                style="max-width: 300px;"
-                disabled
-            >
-            <button class="btn btn-outline-secondary btn-sm" onclick="resetBlotterSearch()" disabled>
-                <i class="bi bi-arrow-counterclockwise"></i> Reset
-            </button>
-        </div>
-    </div>
-
-    <div class="table-responsive" style="position: relative;">
-        <div style="position: absolute; inset: 0; background: rgba(255, 255, 255, 0.85); display: flex; align-items: center; justify-content: center; border-radius: 8px; z-index: 10;">
-            <div class="text-center">
-                <i class="bi bi-lock-fill" style="font-size: 48px; color: #dc3545; margin-bottom: 10px; display: block;"></i>
-                <h5 class="text-danger">Blotter Locked</h5>
-                <p class="text-secondary">Waiting for admin approval</p>
-            </div>
-        </div>
-        <table class="table table-hover align-middle" style="opacity: 0.4;">
-            <thead>
-                <tr>
-                    <th>Blotter No</th>
-                    <th>Incident</th>
-                    <th>Complainant</th>
-                    <th>Status</th>
-                    <th>Priority</th>
-                    <th>Date</th>
-                    <th class="text-center">Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td colspan="7" class="text-center py-5">
-                        <div class="text-muted">
-                            <i class="bi bi-inbox" style="font-size: 2rem;"></i>
-                            <p class="mt-3">Blotter records hidden</p>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-<?php else: ?>
-    <!-- ACCOUNT VERIFIED - Show unlocked state with normal content -->
     <!-- Search Bar -->
     <div class="card-body" style="padding: 12px 15px; border-bottom: 1px solid #dee2e6;">
         <div style="display: flex; gap: 10px; align-items: center;">
@@ -654,7 +612,10 @@ require '../includes/navbar.php';
                                     ?>
                                     <?php if ($canEdit): ?>
                                         <a href="blotter_update.php?id=<?= intval($b['id']) ?>" class="btn btn-outline-success" title="Edit Blotter"><i class="bi bi-pencil"></i> Edit</a>
-                                        <button class="btn btn-outline-danger" onclick="showActionModal('Archive',<?= intval($b['id']) ?>,'<?= htmlspecialchars($b['blotter_no'], ENT_QUOTES) ?>','archive')"><i class="bi bi-archive"></i> Archive</button>
+                                        <?php if ($userRole === 'admin'): ?>
+                                            <button class="btn btn-outline-danger" onclick="showActionModal('Archive',<?= intval($b['id']) ?>,'<?= htmlspecialchars($b['blotter_no'], ENT_QUOTES) ?>','archive')"><i class="bi bi-archive"></i> Archive</button>
+                                            <button class="btn btn-outline-danger" onclick="showActionModal('Delete',<?= intval($b['id']) ?>,'<?= htmlspecialchars($b['blotter_no'], ENT_QUOTES) ?>','delete')"><i class="bi bi-trash"></i> Delete</button>
+                                        <?php endif; ?>
                                         <button class="btn btn-outline-primary" onclick="printBlotter(<?= intval($b['id']) ?>, '<?= htmlspecialchars($b['blotter_no'], ENT_QUOTES) ?>')"><i class="bi bi-printer"></i> Print</button>
                                     <?php else: ?>
                                         <span class="text-muted small">View only</span>
@@ -667,7 +628,6 @@ require '../includes/navbar.php';
             </tbody>
         </table>
     </div>
-<?php endif; ?>
 
 </div>
 
@@ -675,7 +635,7 @@ require '../includes/navbar.php';
 <div class="modal fade" id="actionModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <form id="blotterForm" method="post" enctype="multipart/form-data">
+            <form id="blotterForm" method="post" enctype="multipart/form-data" autocomplete="off">
                 <div class="modal-header">
                     <h5 class="modal-title" id="actionTitle">Blotter</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
@@ -687,7 +647,7 @@ require '../includes/navbar.php';
                     <div class="row g-3">
                         <div class="col-md-6">
                             <label class="form-label">Complainant</label>
-                            <input type="text" name="complainant_name" id="complainant_name" class="form-control" required>
+                            <input type="text" name="complainant_name" id="complainant_name" class="form-control" autocomplete="off" required>
                         </div>
                         <div class="col-md-6">
                             <label class="form-label">Respondent</label>
@@ -699,13 +659,14 @@ require '../includes/navbar.php';
                                 <input type="text" name="respondent_contact" id="respondent_contact" class="form-control" placeholder="Phone">
                                 <input type="email" name="respondent_email" id="respondent_email" class="form-control" placeholder="Email">
                             </div>
+                            <small class="text-muted">Optional. Provide phone number or email if available.</small>
                         </div>
                         <div class="col-12">
-                            <label class="form-label">Respondent Home Address</label>
-                            <input type="text" name="respondent_address" id="respondent_address" class="form-control">
+                            <label class="form-label">Respondent Home Address <span class="text-danger">*</span></label>
+                            <input type="text" name="respondent_address" id="respondent_address" class="form-control" required>
                         </div>
                         <div class="col-md-6">
-                            <label class="form-label"></label>Incident Type</label>
+                            <label class="form-label">Incident Type</label>
                             <input type="text" name="incident_type" id="incident_type" class="form-control">
                         </div>
                         <div class="col-md-3">
@@ -739,7 +700,7 @@ require '../includes/navbar.php';
                             <select name="status" id="status" class="form-select">
                                 <option>Pending</option>
                                 <option>Approved</option>
-                                <option></option>Under Investigation</option>
+                                <option>Under Investigation</option>
                                 <option>Resolved</option>
                                 <option>Archived</option>
                             </select>
@@ -783,6 +744,7 @@ require '../includes/navbar.php';
     $module_endpoint = str_replace('\\','/', str_replace($_SERVER['DOCUMENT_ROOT'], '', __FILE__));
     ?>
     const moduleEndpoint = '<?= $module_endpoint ?>';
+    const defaultComplainant = <?= json_encode($_SESSION['fullname'] ?? '') ?>;
     const actionModalEl = document.getElementById('actionModal');
     const bsModal = new bootstrap.Modal(actionModalEl);
 
@@ -795,6 +757,7 @@ require '../includes/navbar.php';
 
         if (mode === 'create') {
             document.getElementById('submitBtn').textContent = 'Create';
+            document.getElementById('complainant_name').value = defaultComplainant;
             document.getElementById('status').value = 'Pending';
             bsModal.show();
             return;
@@ -834,12 +797,15 @@ require '../includes/navbar.php';
             return;
         }
 
-        if (mode === 'archive') {
-            if (!confirm('Archive blotter ' + blotterNo + '?')) return;
+        if (mode === 'archive' || mode === 'delete') {
+            const confirmText = mode === 'archive'
+                ? 'Archive blotter ' + blotterNo + '?'
+                : 'Delete blotter ' + blotterNo + '? This action cannot be undone.';
+            if (!confirm(confirmText)) return;
             const frm = document.createElement('form');
             frm.method = 'post';
             frm.style.display = 'none';
-            const a = document.createElement('input'); a.name = 'action'; a.value = 'archive'; frm.appendChild(a);
+            const a = document.createElement('input'); a.name = 'action'; a.value = mode; frm.appendChild(a);
             const i = document.createElement('input'); i.name = 'id'; i.value = id; frm.appendChild(i);
             document.body.appendChild(frm);
             frm.submit();

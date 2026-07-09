@@ -36,6 +36,15 @@ try {
     exit;
 }
 
+$userRole = strtolower($_SESSION['role'] ?? '');
+$currentUserId = $_SESSION['user_id'] ?? null;
+$canManageAttachments = $userRole === 'admin' || (
+    $currentUserId && (
+        intval($blotter['created_by']) === intval($currentUserId) ||
+        intval($blotter['officer_id']) === intval($currentUserId)
+    )
+);
+
 // Fetch attachments
 $attachment_manager = new AttachmentManager($pdo);
 $attachments = $attachment_manager->getAttachments('blotter', $blotter_id);
@@ -44,6 +53,12 @@ $attachments = $attachment_manager->getAttachments('blotter', $blotter_id);
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['action'] === 'delete_attachments') {
     $attachment_ids = $_POST['attachment_ids'] ?? [];
     
+    if (!$canManageAttachments) {
+        $_SESSION['flash'] = ['type' => 'danger', 'message' => 'You do not have permission to delete attachments for this blotter.'];
+        header('Location: blotter_view.php?id=' . $blotter_id);
+        exit;
+    }
+
     if (!empty($attachment_ids)) {
         $user_id = $_SESSION['user_id'] ?? null;
         $deleted_count = 0;
@@ -231,6 +246,7 @@ $isPrintMode = isset($_GET['print']) && $_GET['print'] == 1;
         <div style="margin-top: 16px;">
             <div class="d-flex justify-content-between align-items-center mb-2">
                 <h6 class="mb-0">Attachments</h6>
+                <?php if ($canManageAttachments): ?>
                 <div class="d-flex gap-2">
                     <button type="button" id="selectAllBtn" class="btn btn-outline-secondary btn-sm" onclick="toggleSelectAll()">
                         <i class="bi bi-check-square"></i> Select All
@@ -239,7 +255,9 @@ $isPrintMode = isset($_GET['print']) && $_GET['print'] == 1;
                         <i class="bi bi-trash"></i> Delete Selected
                     </button>
                 </div>
+                <?php endif; ?>
             </div>
+            <?php if ($canManageAttachments): ?>
             <form id="deleteAttachmentsForm" method="POST" action="blotter_view.php?id=<?= $blotter_id ?>">
                 <input type="hidden" name="action" value="delete_attachments">
                 <div class="bg-light" style="margin-top: 8px; padding: 12px;">
@@ -271,6 +289,36 @@ $isPrintMode = isset($_GET['print']) && $_GET['print'] == 1;
                     <?php endforeach; ?>
                 </div>
             </form>
+            <?php else: ?>
+                <div class="bg-light" style="margin-top: 8px; padding: 12px;">
+                    <?php foreach ($attachments as $attachment): ?>
+                    <div class="d-flex align-items-center mb-3 attachment-item">
+                        <div class="form-check me-3">
+                            <input class="form-check-input attachment-checkbox" type="checkbox" 
+                                   name="attachment_ids[]" value="<?= $attachment['id'] ?>" 
+                                   id="attachment_<?= $attachment['id'] ?>" disabled>
+                        </div>
+                        <i class="bi <?= AttachmentManager::getFileIcon($attachment['mime_type']) ?> me-2"></i>
+                        <div class="flex-grow-1">
+                            <label for="attachment_<?= $attachment['id'] ?>" class="cursor-pointer">
+                                <a href="download_attachment.php?type=blotter&file=<?= htmlspecialchars($attachment['stored_filename']) ?>&action=view" 
+                                   target="_blank" class="text-decoration-none">
+                                    <?= htmlspecialchars($attachment['original_filename']) ?>
+                                </a>
+                            </label>
+                            <?php if (!empty($attachment['description'])): ?>
+                                <br><small class="text-muted"><?= htmlspecialchars($attachment['description']) ?></small>
+                            <?php endif; ?>
+                            <br><small class="text-muted">
+                                <?= AttachmentManager::formatFileSize($attachment['file_size']) ?> • 
+                                Uploaded by <?= htmlspecialchars($attachment['uploaded_by_name']) ?> on 
+                                <?= date('M d, Y H:i', strtotime($attachment['uploaded_at'])) ?>
+                            </small>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+            <?php endif; ?>
         </div>
         <?php endif; ?>
 
@@ -280,9 +328,13 @@ $isPrintMode = isset($_GET['print']) && $_GET['print'] == 1;
             <div class="row">
                 <div class="col-md-4 signature-block">
                     <div style="text-align: center;">
-                        <div class="signature-line"></div>
+                        <?php if (!empty($blotter['complainant_signature'])): ?>
+                            <img src="<?= htmlspecialchars($blotter['complainant_signature']) ?>" alt="Complainant Signature" style="max-width: 100%; max-height: 140px; display: block; margin: 0 auto 12px;" />
+                        <?php else: ?>
+                            <div class="signature-line"></div>
+                        <?php endif; ?>
                         <div class="signature-name"><?= htmlspecialchars($_SESSION['fullname'] ?? 'Report By') ?></div>
-                        <div class="signature-title">Reporting Officer/User</div>
+                        <div class="signature-title">Complainant</div>
                         <small class="text-muted">Date: <?= date('M d, Y') ?></small>
                     </div>
                 </div>

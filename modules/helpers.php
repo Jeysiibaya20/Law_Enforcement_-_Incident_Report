@@ -7,6 +7,7 @@ if (!function_exists('render_status')) {
             'Approved' => '<span class="badge bg-primary">Approved</span>',
             'Under Investigation' => '<span class="badge bg-info">Under Investigation</span>',
             'Resolved' => '<span class="badge bg-success">Resolved</span>',
+            'Rejected' => '<span class="badge bg-danger">Rejected</span>',
             default => '<span class="badge bg-secondary">Archived</span>',
         };
     }

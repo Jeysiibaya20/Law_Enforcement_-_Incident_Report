@@ -4,8 +4,11 @@
  * Handles system-wide language switching and storage
  */
 
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
+// Avoid starting sessions or handling HTTP redirects when running in CLI (artisan/package discovery)
+if (php_sapi_name() !== 'cli') {
+    if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+    }
 }
 
 class LanguageManager {
@@ -226,8 +229,8 @@ class LanguageManager {
     }
 }
 
-// Handle language change request
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['set_language'])) {
+// Handle language change request (only in web requests)
+if (php_sapi_name() !== 'cli' && ($_SERVER['REQUEST_METHOD'] ?? '') === 'POST' && isset($_POST['set_language'])) {
     $lang = $_POST['set_language'] ?? 'en';
     LanguageManager::setLanguage($lang);
     
@@ -239,7 +242,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['set_language'])) {
     }
     
     // Redirect back
-    $redirect = $_POST['redirect'] ?? $_SERVER['HTTP_REFERER'] ?? '../index.php';
+    $redirect = $_POST['redirect'] ?? ($_SERVER['HTTP_REFERER'] ?? '../index.php');
     header("Location: $redirect");
     exit;
 }

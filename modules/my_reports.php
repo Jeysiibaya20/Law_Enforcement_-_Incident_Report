@@ -11,61 +11,38 @@ if (!$userId) {
 }
 
 // Check account verification status
-$accountVerified = false;
-$adminApprovalState = null;
-
+$bannedNotice = false;
+$userNeedsApproval = false;
 try {
-    $stmt = $pdo->prepare("SELECT email_verified, role FROM signup WHERE user_id = ?");
-    $stmt->execute([$userId]);
-    $u = $stmt->fetch(PDO::FETCH_ASSOC);
-    $accountVerified = !empty($u['email_verified']);
-
-    // Admin users are exempt from needing admin approval
-    $userRole = strtolower($u['role'] ?? $_SESSION['role'] ?? '');
-    if ($userRole === 'admin') {
-        $accountVerified = true;
-        $adminApprovalState = 1;
-    }
-
-    // Try to read admin approval column
-    try {
-        $stmt2 = $pdo->prepare("SELECT admin_approved FROM signup WHERE user_id = ?");
-        $stmt2->execute([$userId]);
-        $a = $stmt2->fetch(PDO::FETCH_ASSOC);
-        if ($a && array_key_exists('admin_approved', $a)) {
-            $adminApprovalState = (int)$a['admin_approved'];
-            $accountVerified = ($adminApprovalState === 1);
-        }
-    } catch (Throwable $inner) {
-        // ignore - column may not exist
-        $adminApprovalState = null;
-    }
-} catch (Exception $e) {
-    $accountVerified = false;
-}
-
-// Check banned status
-try {
-    $bStmt = $pdo->prepare("SELECT banned FROM signup WHERE user_id = ?");
+    $bStmt = $pdo->prepare("SELECT banned, admin_approved FROM signup WHERE user_id = ?");
     $bStmt->execute([$userId]);
     $bRow = $bStmt->fetch(PDO::FETCH_ASSOC);
     $isBanned = !empty($bRow['banned']);
+    $userApproved = !empty($bRow['admin_approved']) && (int)$bRow['admin_approved'] === 1;
+    $userNeedsApproval = !$isBanned && !$userApproved && strtolower($_SESSION['role'] ?? '') !== 'admin';
 } catch (Exception $e) {
     $isBanned = false;
+    $userApproved = true;
+    $userNeedsApproval = false;
 }
 
-if (!empty($isBanned)) {
-    // Render banned notice in place of reports
+if (!empty($isBanned) || $userNeedsApproval) {
     $myReports = [];
-    $accountVerified = false; // also prevent filing reports
     $bannedNotice = true;
 } else {
     $bannedNotice = false;
 }
 
-// Fetch user's incidents only if account is verified
+if (!empty($isBanned) || (!$userApproved && strtolower($_SESSION['role'] ?? '') !== 'admin')) {
+    $myReports = [];
+    $bannedNotice = true;
+} else {
+    $bannedNotice = false;
+}
+
+// Fetch user's incidents unless the account is suspended
 $myReports = [];
-if ($accountVerified) {
+if (!$bannedNotice) {
     try {
         $stmt = $pdo->prepare("SELECT id, case_no, incident_type, incident_date, status, created_at FROM incidents WHERE created_by = ? ORDER BY id DESC");
         $stmt->execute([$userId]);
@@ -88,9 +65,7 @@ require_once __DIR__ . '/../includes/navbar.php';
             </div>
             <div>
                 <?php if (!empty($bannedNotice)): ?>
-                    <button class="btn btn-secondary" disabled title="Account suspended">File Report</button>
-                <?php elseif (!$accountVerified): ?>
-                    <button class="btn btn-secondary" disabled title="Account must be approved by admin">File Report</button>
+                    <button class="btn btn-secondary" disabled title="Access locked">File Report</button>
                 <?php else: ?>
                     <a href="../modules/incident_report.php" class="btn btn-primary">File Report</a>
                 <?php endif; ?>
@@ -98,49 +73,12 @@ require_once __DIR__ . '/../includes/navbar.php';
         </div>
 
         <?php if (!empty($bannedNotice)): ?>
-            <div class="main-content">
-                <div class="content-container">
-                    <div class="alert alert-danger p-4 mb-4" role="alert" style="border-radius:6px;">
-                        <h4 class="alert-heading">Account Suspended</h4>
-                        <p class="mb-0">Your account has been banned by an administrator. You cannot access the reports until your account is unbanned. If you believe this is a mistake, contact the system administrator.</p>
-                    </div>
-                </div>
-            </div>
-        <?php elseif (!$accountVerified): ?>
-            <!-- LOCKED STATE -->
-            <div class="alert alert-warning mb-4">
-                <strong>Account Verification Pending</strong>
-                <p>Your account is currently under review by the admin. Your reports will be accessible once an admin approves your account.</p>
-            </div>
-
-            <div class="enhanced-card" style="position: relative;">
-                <div style="position: absolute; inset: 0; background: rgba(255, 255, 255, 0.8); display: flex; align-items: center; justify-content: center; border-radius: 8px; z-index: 10;">
-                    <div class="text-center">
-                        <i class="bi bi-lock-fill" style="font-size: 48px; color: #dc3545; margin-bottom: 10px; display: block;"></i>
-                        <h5 class="text-danger">Reports Locked</h5>
-                        <p class="text-secondary">Waiting for admin approval</p>
-                    </div>
-                </div>
-
-                <div class="table-responsive" style="opacity: 0.4;">
-                    <table class="table table-sm align-middle">
-                        <thead>
-                            <tr>
-                                <th>Case No</th>
-                                <th>Type</th>
-                                <th>Date</th>
-                                <th>Status</th>
-                                <th>Created</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td colspan="5" class="text-center text-secondary">Reports hidden</td></tr>
-                        </tbody>
-                    </table>
-                </div>
+            <div class="alert alert-danger p-4 mb-4" role="alert" style="border-radius:6px;">
+                <h4 class="alert-heading"><?php echo !empty($userNeedsApproval) ? 'Access Locked' : 'Account Suspended'; ?></h4>
+                <p class="mb-0"><?php echo !empty($userNeedsApproval) ? 'Your account is pending administrator approval. The reports and blotter access are locked until an administrator approves your account.' : 'Your account has been banned by an administrator. You cannot access the reports until your account is unbanned. If you believe this is a mistake, contact the system administrator.'; ?></p>
             </div>
         <?php else: ?>
-            <!-- UNLOCKED STATE - Show reports -->
+            <!-- Show reports -->
             <div class="enhanced-card">
                 <div class="table-responsive">
                     <table class="table table-sm align-middle">

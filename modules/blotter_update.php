@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
 }
 
 // Handle form submission
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'update') {
     $complainant = $_POST['complainant_name'] ?? '';
     $respondent = $_POST['respondent_name'] ?? '';
     $respondent_contact = trim($_POST['respondent_contact'] ?? '');
@@ -90,6 +90,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $priority = $_POST['priority'] ?? 'Medium';
     $status = $_POST['status'] ?? 'Pending';
     $officer_id = !empty($_POST['officer_id']) ? intval($_POST['officer_id']) : null;
+
+    if (empty($respondent_address)) {
+        $_SESSION['flash'] = ['type' => 'danger', 'message' => 'Respondent home address is required.'];
+        header('Location: ' . $_SERVER['PHP_SELF'] . '?id=' . $blotter_id);
+        exit;
+    }
 
     // Hearing schedule (optional)
     $hearing_date = $_POST['hearing_date'] ?? null;
@@ -275,6 +281,7 @@ require '../includes/navbar.php';
     </div>
     <div class="card-body">
         <form method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="action" value="update">
             <div class="row g-3">
                 <div class="col-md-6">
                     <label class="form-label">Complainant Name *</label>
@@ -290,10 +297,11 @@ require '../includes/navbar.php';
                         <input type="text" name="respondent_contact" class="form-control" placeholder="Phone" value="<?= htmlspecialchars($blotter['respondent_contact'] ?? '') ?>">
                         <input type="email" name="respondent_email" class="form-control" placeholder="Email" value="<?= htmlspecialchars($blotter['respondent_email'] ?? '') ?>">
                     </div>
+                    <small class="text-muted">Optional. Provide phone number or email if available.</small>
                 </div>
                 <div class="col-12">
-                    <label class="form-label">Respondent Home Address</label>
-                    <input type="text" name="respondent_address" class="form-control" value="<?= htmlspecialchars($blotter['respondent_address'] ?? '') ?>">
+                    <label class="form-label">Respondent Home Address <span class="text-danger">*</span></label>
+                    <input type="text" name="respondent_address" class="form-control" value="<?= htmlspecialchars($blotter['respondent_address'] ?? '') ?>" required>
                 </div>
                 <div class="col-md-6">
                     <label class="form-label">Incident Type</label>
@@ -329,8 +337,7 @@ require '../includes/navbar.php';
                         <option value="Pending" <?= $blotter['status'] === 'Pending' ? 'selected' : '' ?>>Pending</option>
                         <option value="Approved" <?= $blotter['status'] === 'Approved' ? 'selected' : '' ?>>Approved</option>
                         <option value="Under Investigation" <?= $blotter['status'] === 'Under Investigation' ? 'selected' : '' ?>>Under Investigation</option>
-                        <option value="Resolved" <?= $blotter['status'] === 'Resolved' ? 'selected' : '' ?>>Resolved</option>
-                        <option value="Archived" <?= $blotter['status'] === 'Archived' ? 'selected' : '' ?>>Archived</option>
+                        <option value="Resolved" <?= $blotter['status'] === 'Resolved' ? 'selected' : '' ?>>Resolved</option>                        <option value="Rejected" <?= $blotter['status'] === 'Rejected' ? 'selected' : '' ?>>Rejected</option>                        <option value="Archived" <?= $blotter['status'] === 'Archived' ? 'selected' : '' ?>>Archived</option>
                     </select>
                 </div>
                 <div class="col-md-4">

@@ -7,14 +7,43 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-require_once '../config/db_connect.php';
+require_once __DIR__ . '/../config/db_connect.php';
+if (!isset($pdo) || !$pdo) {
+    $pdo = getDBConnection();
+}
+
+$userId = $_SESSION['user_id'] ?? null;
+$userApproved = true;
+if ($userId) {
+    try {
+        $approvalStmt = $pdo->prepare("SELECT admin_approved FROM signup WHERE user_id = ?");
+        $approvalStmt->execute([$userId]);
+        $approvalRow = $approvalStmt->fetch(PDO::FETCH_ASSOC);
+        $userApproved = !empty($approvalRow['admin_approved']) && (int)$approvalRow['admin_approved'] === 1;
+    } catch (Exception $e) {
+        $userApproved = true;
+    }
+}
+
+if ($userId && strtolower($_SESSION['role'] ?? '') !== 'admin' && !$userApproved) {
+    require_once '../includes/header.php';
+    echo '<div class="main-content"><div class="content-container">';
+    echo '<div class="alert alert-warning"><h4>Access Locked</h4><p>Your account is pending administrator approval. The incident reporting module is locked until an administrator approves your account.</p></div>';
+    echo '</div></div>';
+    require_once '../includes/footer.php';
+    exit;
+}
 
 // Load NLP and Workflow systems (needed before processing POST requests)
 require_once 'NaturalLanguageProcessor.php';
-require_once 'IncidentWorkflowManager.php';
-require_once 'NotificationSystem.php';
-require_once 'ReviewRequestSystem.php';
-require_once '../includes/attachment_manager.php';
+require_once __DIR__ . '/IncidentWorkflowManager.php';
+require_once __DIR__ . '/IncidentRoutingManager.php';
+require_once __DIR__ . '/NotificationSystem.php';
+require_once __DIR__ . '/ReviewRequestSystem.php';
+require_once __DIR__ . '/../includes/attachment_manager.php';
+
+$routing_manager = new IncidentRoutingManager($pdo);
+$routing_manager->ensureSchema();
 
 // Utility function: Capitalize first letter
 function capitalize_first($text) {
@@ -134,6 +163,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_incident'])) {
         
         $incident_type = $_POST['incident_type'] ?? 'Other';
         $incident_subtype = trim($_POST['incident_subtype'] ?? '');
+        $report_type = $_POST['report_type'] ?? 'Walk-in Complaint';
+        $incident_category = $_POST['incident_category'] ?? $incident_type;
         $narrative = trim($_POST['narrative'] ?? '');
         $evidence_description = trim($_POST['evidence_description'] ?? '');
         
@@ -158,6 +189,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_incident'])) {
             'case_no' => $case_no,
             'incident_type' => $incident_type,
             'incident_subtype' => $incident_subtype,
+            'report_type' => $report_type,
+            'incident_category' => $incident_category,
             'reporter_name' => $reporter_name,
             'reporter_email' => $reporter_email,
             'reporter_phone' => $reporter_phone,
@@ -211,6 +244,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) &&
         $incident_id = intval($_POST['incident_id'] ?? 0);
         $status = $_POST['status'] ?? 'Submitted';
         $manual_classification = $_POST['manual_classification'] ?? null;
+        $routing_group = $_POST['routing_group'] ?? null;
+        $routing_notes = trim($_POST['routing_notes'] ?? '');
         $urgency_level = $_POST['urgency_level'] ?? 'Medium';
         $is_high_risk = isset($_POST['is_high_risk']) ? 1 : 0;
         $admin_notes = trim($_POST['admin_notes'] ?? '');
@@ -225,15 +260,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) &&
                 is_high_risk = ?, 
                 admin_notes = ?, 
                 assigned_to = ?,
+                routing_group = ?,
+                routing_status = ?,
+                forwarding_notes = ?,
                 updated_by = ?,
                 updated_at = NOW()
                 WHERE id = ?";
 
         $stmt = $pdo->prepare($sql);
+        $routing_status = !empty($routing_group) ? 'Forwarded' : 'Pending';
         $success = $stmt->execute([
             $status, $manual_classification, $urgency_level, $is_high_risk, 
-            $admin_notes, $assigned_to, $updated_by, $incident_id
+            $admin_notes, $assigned_to, $routing_group, $routing_status, $routing_notes, $updated_by, $incident_id
         ]);
+
+        if ($success && !empty($routing_group)) {
+            $routing_manager->forwardIncident($incident_id, $routing_group, $updated_by, $routing_notes);
+        }
 
         if ($success) {
             $_SESSION['message'] = [
@@ -247,6 +290,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) &&
 
     } catch (Exception $e) {
         $_SESSION['message'] = ['type' => 'danger', 'text' => 'Error: ' . $e->getMessage()];
+    }
+}
+
+// --- ADMIN FORWARDING HANDLER ---
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['forward_incident']) && (($_SESSION['role'] ?? '') === 'Admin')) {
+    try {
+        $incident_id = intval($_POST['incident_id'] ?? 0);
+        $group = $_POST['forward_to_group'] ?? '';
+        $notes = trim($_POST['forward_notes'] ?? '');
+
+        if (!$incident_id || !$group) {
+            throw new Exception('Please select a destination group.');
+        }
+
+        $routing_manager->forwardIncident($incident_id, $group, $_SESSION['user_id'], $notes);
+        $_SESSION['message'] = ['type' => 'success', 'text' => 'Incident forwarded successfully to ' . $group . '.'];
+        header("Location: incident_report.php");
+        exit;
+    } catch (Exception $e) {
+        $_SESSION['message'] = ['type' => 'danger', 'text' => '❌ Error forwarding incident: ' . $e->getMessage()];
+        header("Location: incident_report.php");
+        exit;
     }
 }
 
@@ -421,9 +486,11 @@ try {
 function render_status_badge($status) {
     $classes = [
         'Draft' => 'bg-secondary-subtle text-secondary',
+        'Pending' => 'bg-primary-subtle text-primary',
         'Submitted' => 'bg-primary-subtle text-primary',
         'Under Review' => 'bg-warning-subtle text-warning',
         'Verified' => 'bg-info-subtle text-info',
+        'Forwarded' => 'bg-info-subtle text-info',
         'Resolved' => 'bg-success-subtle text-success',
         'Closed' => 'bg-dark-subtle text-dark',
         'Archived' => 'bg-secondary-subtle text-secondary'
@@ -496,7 +563,7 @@ require_once '../includes/navbar.php'; ?>
             $total = count($incidents);
             $critical = count(array_filter($incidents, fn($i) => $i['urgency_level'] === 'Critical'));
             $high_risk = count(array_filter($incidents, fn($i) => $i['is_high_risk'] === 1));
-            $pending = count(array_filter($incidents, fn($i) => $i['status'] === 'Submitted'));
+            $pending = count(array_filter($incidents, fn($i) => in_array($i['status'], ['Submitted', 'Pending'], true)));
             ?>
             <div class="col-md-3 mb-3">
                 <div class="card enhanced-card shadow-sm border-start border-primary border-5">
@@ -561,9 +628,10 @@ require_once '../includes/navbar.php'; ?>
                         <select name="status" class="form-select">
                             <option value="">All Status</option>
                             <option value="Draft" <?php echo $filter_status === 'Draft' ? 'selected' : ''; ?>>Draft</option>
-                            <option value="Submitted" <?php echo $filter_status === 'Submitted' ? 'selected' : ''; ?>>Submitted</option>
+                            <option value="Pending" <?php echo $filter_status === 'Pending' ? 'selected' : ''; ?>>Pending</option>
                             <option value="Under Review" <?php echo $filter_status === 'Under Review' ? 'selected' : ''; ?>>Under Review</option>
                             <option value="Verified" <?php echo $filter_status === 'Verified' ? 'selected' : ''; ?>>Verified</option>
+                            <option value="Forwarded" <?php echo $filter_status === 'Forwarded' ? 'selected' : ''; ?>>Forwarded</option>
                             <option value="Resolved" <?php echo $filter_status === 'Resolved' ? 'selected' : ''; ?>>Resolved</option>
                         </select>
                     </div>
@@ -656,6 +724,9 @@ require_once '../includes/navbar.php'; ?>
                                                 </button>
                                             <?php endif; ?>
                                             <?php if ($user_role === 'Admin'): ?>
+                                                <button class="btn btn-sm btn-outline-info" title="Forward Incident" data-bs-toggle="modal" data-bs-target="#forwardIncidentModal" onclick="loadIncidentForForwarding(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
+                                                    <i class="bi bi-send"></i>
+                                                </button>
                                                 <button class="btn btn-sm btn-outline-danger" title="Delete Case" onclick="deleteIncident(<?php echo $incident['id']; ?>, '<?php echo htmlspecialchars($incident['case_no']); ?>')">
                                                     <i class="bi bi-trash"></i>
                                                 </button>
@@ -735,6 +806,14 @@ require_once '../includes/navbar.php'; ?>
                     </div>
                     <div class="row mb-3">
                         <div class="col-md-6">
+                            <label class="form-label">Report Type *</label>
+                            <select name="report_type" class="form-select" required>
+                                <option value="Walk-in Complaint">Walk-in Complaint</option>
+                                <option value="Online Complaint">Online Complaint</option>
+                                <option value="Referral Report">Referral Report</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
                             <label class="form-label">Incident Category *</label>
                             <select name="incident_type" class="form-select" required>
                                 <option value="">-- Select Category --</option>
@@ -746,6 +825,12 @@ require_once '../includes/navbar.php'; ?>
                                 <option value="Domestic">Domestic</option>
                                 <option value="Other">Other</option>
                             </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Primary Incident Category</label>
+                            <input type="text" name="incident_category" class="form-control" placeholder="e.g., Crime, Public Disturbance, Emergency Incident">
                         </div>
                         <div class="col-md-6">
                             <label class="form-label">Sub-Category</label>
@@ -1046,9 +1131,11 @@ require_once '../includes/navbar.php'; ?>
                             <label class="form-label">Current Status</label>
                             <select name="status" class="form-select" id="edit_status">
                                 <option value="Draft">Draft</option>
+                                <option value="Pending">Pending</option>
                                 <option value="Submitted">Submitted</option>
                                 <option value="Under Review">Under Review</option>
                                 <option value="Verified">Verified</option>
+                                <option value="Forwarded">Forwarded</option>
                                 <option value="Resolved">Resolved</option>
                                 <option value="Closed">Closed</option>
                                 <option value="Archived">Archived</option>
@@ -1107,6 +1194,20 @@ require_once '../includes/navbar.php'; ?>
                                 <option value="">-- Unassigned --</option>
                             </select>
                         </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Forward To Group</label>
+                            <select name="routing_group" class="form-select" id="edit_routing_group">
+                                <option value="">-- No Forwarding --</option>
+                                <option value="GRP4">GRP4 - Emergency Response</option>
+                                <option value="GRP5">GRP5 - Community Complaint</option>
+                                <option value="GRP6">GRP6 - Crime Analytics</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Routing Notes</label>
+                        <textarea name="routing_notes" class="form-control" rows="2" id="edit_routing_notes" placeholder="Explain why this incident is being forwarded or tracked."></textarea>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -1114,6 +1215,44 @@ require_once '../includes/navbar.php'; ?>
                     <button type="submit" name="update_incident" class="btn btn-warning">
                         <i class="bi bi-save me-2"></i>Save Changes
                     </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- FORWARD INCIDENT MODAL -->
+<div class="modal fade" id="forwardIncidentModal" tabindex="-1" aria-labelledby="forwardIncidentModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="POST" action="incident_report.php">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title" id="forwardIncidentModalLabel"><i class="bi bi-send"></i> Forward Incident</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="forward_incident_id" name="incident_id">
+                    <div class="mb-3">
+                        <label class="form-label">Case Number</label>
+                        <input type="text" id="forward_case_no" class="form-control" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Forward To</label>
+                        <select name="forward_to_group" class="form-select" required>
+                            <option value="">-- Select Group --</option>
+                            <option value="GRP4">GRP4 - Emergency Response</option>
+                            <option value="GRP5">GRP5 - Community Complaint</option>
+                            <option value="GRP6">GRP6 - Crime Analytics</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Notes</label>
+                        <textarea name="forward_notes" class="form-control" rows="3" placeholder="Reason or handoff details"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" name="forward_incident" class="btn btn-info">Forward</button>
                 </div>
             </form>
         </div>
@@ -1227,6 +1366,7 @@ require_once '../includes/navbar.php'; ?>
 function loadIncidentDetails(incident) {
     document.getElementById('view_case_no').textContent = incident.case_no;
     document.getElementById('view_status').innerHTML = '<span class="badge bg-info-subtle text-info">' + incident.status + '</span>';
+    document.getElementById('view_routing_group').textContent = incident.routing_group || 'Not forwarded yet';
     document.getElementById('view_auto_class').textContent = incident.auto_classification;
     document.getElementById('view_urgency').innerHTML = '<span class="badge bg-warning-subtle text-warning">' + incident.urgency_level + '</span>';
     document.getElementById('view_reporter').textContent = incident.reporter_name;
@@ -1315,6 +1455,13 @@ function loadIncidentForEdit(incident) {
     document.getElementById('edit_high_risk').checked = incident.is_high_risk === 1;
     document.getElementById('edit_admin_notes').value = incident.admin_notes || '';
     document.getElementById('edit_assigned_to').value = incident.assigned_to || '';
+    document.getElementById('edit_routing_group').value = incident.routing_group || '';
+    document.getElementById('edit_routing_notes').value = incident.forwarding_notes || '';
+}
+
+function loadIncidentForForwarding(incident) {
+    document.getElementById('forward_incident_id').value = incident.id;
+    document.getElementById('forward_case_no').value = incident.case_no;
 }
 
 // Attachment management functions

@@ -12,25 +12,36 @@ try {
     }
 
     // column_type looks like: enum('Pending','Under Investigation','Resolved','Archived')
-    if (strpos($row, "'Approved'") !== false) {
-        echo "'Approved' already present in blotters.status.<br>\n";
+    if (strpos($row, "'Approved'") !== false && strpos($row, "'Rejected'") !== false) {
+        echo "'Approved' and 'Rejected' already present in blotters.status.<br>\n";
         exit;
     }
 
-    // Build new enum preserving existing values and inserting 'Approved' after 'Pending' if possible
+    // Build new enum preserving existing values and inserting 'Approved' and 'Rejected' after 'Pending' if possible
     preg_match_all("/'([^']+)'/", $row, $matches);
     $vals = $matches[1];
-    // Insert Approved after Pending if Pending exists, else append
     $newVals = [];
-    $inserted = false;
+    $insertedApproved = false;
+    $insertedRejected = false;
+
     foreach ($vals as $v) {
         $newVals[] = $v;
-        if (!$inserted && strtolower($v) === 'pending') {
+        if (!$insertedApproved && strtolower($v) === 'pending') {
             $newVals[] = 'Approved';
-            $inserted = true;
+            $insertedApproved = true;
+        }
+        if (!$insertedRejected && strtolower($v) === 'resolved') {
+            $newVals[] = 'Rejected';
+            $insertedRejected = true;
         }
     }
-    if (!$inserted) $newVals[] = 'Approved';
+
+    if (!$insertedApproved) {
+        $newVals[] = 'Approved';
+    }
+    if (!$insertedRejected) {
+        $newVals[] = 'Rejected';
+    }
 
     $enumSql = "ENUM('" . implode("','", array_map(function($x){return str_replace("'","\\'", $x);}, $newVals)) . "') NOT NULL";
 

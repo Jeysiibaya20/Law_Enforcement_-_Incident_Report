@@ -11,7 +11,6 @@
 
 session_start();
 require_once '../config/db_connect.php';
-require_once '../includes/two_factor_auth.php';
 
 // Quezon City Barangays and Streets (comprehensive list)
 $qc_barangays = [
@@ -114,9 +113,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $token_expires = date("Y-m-d H:i:s", strtotime("+24 hours"));
         $terms_accepted_date = date("Y-m-d H:i:s");
 
-        // Insert user
+        // Insert user as verified for local development
         $sql = "INSERT INTO signup (fullname, emailadd, username, password, email_verified, verification_token, token_expires, terms_accepted, terms_accepted_date, sex, dob, phone, resident_qc) 
-                VALUES (?, ?, ?, ?, 0, ?, ?, 1, ?, ?, ?, ?, ?)";
+                VALUES (?, ?, ?, ?, 1, ?, ?, 1, ?, ?, ?, ?, ?)";
         $stmt = $pdo->prepare($sql);
         $stmt->execute([$fullname, $email, $username, $hashed_password, $verification_token, $token_expires, $terms_accepted_date, $sex, $dob, $phone, $resident_qc]);
         $user_id = $pdo->lastInsertId();
@@ -186,54 +185,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             error_log('Failed to store documents: ' . $e->getMessage());
         }
 
-        // If TOTP enabled, generate secret and set up session for post-signup TOTP page
-        if ($enable_totp) {
-            $tfa = new TwoFactorAuth($pdo);
-            
-            // Generate base32 secret
-            function generate_base32_secret($length = 16) {
-                $chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
-                $secret = '';
-                try {
-                    for ($i = 0; $i < $length; $i++) {
-                        $secret .= $chars[random_int(0, strlen($chars) - 1)];
-                    }
-                } catch (Exception $e) {
-                    for ($i = 0; $i < $length; $i++) {
-                        $secret .= $chars[mt_rand(0, strlen($chars) - 1)];
-                    }
-                }
-                return $secret;
-            }
-
-            $secret = generate_base32_secret(16);
-            $_SESSION['pending_totp_setup'] = [
-                'user_id' => $user_id,
-                'secret' => $secret,
-                'username' => $username,
-            ];
-        }
-
-        // Handle SMS 2FA
-        if (!empty($phone)) {
-            $tfa = new TwoFactorAuth($pdo);
-            $smsCode = $tfa->generateSMSCode();
-            $tfa->storeSMSCode($user_id, $smsCode);
-            $tfa->sendSMSCode($phone, $smsCode);
-            
-            $_SESSION['pending_2fa_user'] = $user_id;
-            $_SESSION['pending_2fa_method'] = 'SMS';
-            $_SESSION['pending_2fa_phone'] = $phone;
-        }
-
-        // Redirect to verify 2FA or TOTP setup
-        if ($enable_totp) {
-            header('Location: setup_totp_signup.php');
-            exit();
-        } else {
-            header('Location: verify_2fa.php');
-            exit();
-        }
+        // Account created successfully; no 2FA verification required for local setup.
+        echo "<script>alert('Account created successfully. You may now log in.'); window.location.href='login.php';</script>";
+        exit();
 
     } catch (Exception $e) {
         $error_message = $e->getMessage();

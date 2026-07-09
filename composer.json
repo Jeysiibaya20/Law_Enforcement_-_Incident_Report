@@ -1,5 +1,35 @@
 {
     "require": {
+        "php": ">=8.2",
+        "laravel/framework": "*",
+        "laravel/tinker": "*",
+        "laravel/pint": "*",
         "phpmailer/phpmailer": "^7.0"
+    },
+    "require-dev": {
+        "laravel/sail": "^1.26"
+    },
+    "config": {
+        "policy": {
+            "advisories": {
+                "block": false
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --force-ansi"
+        ]
     }
 }

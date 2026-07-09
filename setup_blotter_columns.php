@@ -11,6 +11,10 @@ try {
 
     $cols = [
         // column_name => column_definition
+        'complainant_contact' => "VARCHAR(50) DEFAULT NULL",
+        'complainant_email' => "VARCHAR(150) DEFAULT NULL",
+        'complainant_address' => "VARCHAR(255) DEFAULT NULL",
+        'complainant_signature' => "VARCHAR(255) DEFAULT NULL",
         'respondent_contact' => "VARCHAR(50) DEFAULT NULL",
         'respondent_email' => "VARCHAR(150) DEFAULT NULL",
         'respondent_address' => "VARCHAR(255) DEFAULT NULL",

@@ -1,4 +1,4 @@
-<?php
+ <?php
 $page_title = 'Law & Incident Report';
 $base_url = '';
 require_once "includes/header.php";
@@ -12,42 +12,29 @@ $userId = $_SESSION['user_id'] ?? null;
 $myReports = 0;
 $activeCases = 0;
 $myClearances = 0;
-$accountVerified = false;
-$adminApprovalState = null; // null = unknown/not configured, 0 = pending, 1 = approved, -1 = rejected
+$isBanned = false;
+$userApproved = true;
+$userNeedsApproval = false;
 
 if ($userId) {
     try {
-        $stmt = $pdo->prepare("SELECT email_verified, role, fullname FROM signup WHERE user_id = ?");
+        $stmt = $pdo->prepare("SELECT role, fullname, banned, admin_approved FROM signup WHERE user_id = ?");
         $stmt->execute([$userId]);
         $u = $stmt->fetch(PDO::FETCH_ASSOC);
-        $accountVerified = !empty($u['email_verified']);
         $_SESSION['fullname'] = $u['fullname'] ?? $_SESSION['fullname'] ?? '';
-
-        // Admin users do not require admin approval - treat them as verified/unlocked
-        $userRole = strtolower($u['role'] ?? $_SESSION['role'] ?? '');
-        if ($userRole === 'admin') {
-            $accountVerified = true;
-            $adminApprovalState = 1;
-        }
-
-        // Try to read an optional admin approval column (admin_approved).
-        // If the column does not exist, we'll treat admin approval as not configured and fall back to email_verified.
-        try {
-            $stmt2 = $pdo->prepare("SELECT admin_approved FROM signup WHERE user_id = ?");
-            $stmt2->execute([$userId]);
-            $a = $stmt2->fetch(PDO::FETCH_ASSOC);
-            if ($a && array_key_exists('admin_approved', $a)) {
-                // Normalize values: 1 = approved, 0 = pending, -1 = rejected
-                $adminApprovalState = (int)$a['admin_approved'];
-                // If admin_approved exists use it as the source of truth for unlocking features
-                $accountVerified = ($adminApprovalState === 1);
-            }
-        } catch (Throwable $inner) {
-            // ignore - column may not exist
-            $adminApprovalState = null;
-        }
+        $isBanned = !empty($u['banned']);
+        $userApproved = !empty($u['admin_approved']) && (int)$u['admin_approved'] === 1;
+        $userNeedsApproval = !$isBanned && !$userApproved && strtolower($_SESSION['role'] ?? '') !== 'admin';
     } catch (Exception $e) {
-        $accountVerified = false;
+        $isBanned = false;
+        $userApproved = true;
+        $userNeedsApproval = false;
+    }
+
+    if ($userNeedsApproval) {
+        $myReports = 0;
+        $activeCases = 0;
+        $myClearances = 0;
     }
 
     try {
@@ -115,24 +102,17 @@ if ($userId) {
                 <h1>My Dashboard</h1>
                 <p class="text-secondary">Welcome back, <?php echo htmlspecialchars($_SESSION['fullname'] ?? ''); ?></p>
             </div>
-            <div>
-                <?php if (!$accountVerified): ?>
-                    <button class="btn btn-secondary" disabled>File Report (Pending Verification)</button>
-                <?php else: ?>
-                    <a href="modules/incident_report.php" class="btn btn-primary">File Report</a>
-                <?php endif; ?>
-            </div>
         </div>
 
-        <?php if (isset($adminApprovalState) && $adminApprovalState === -1): ?>
+        <?php if (!empty($isBanned)): ?>
             <div class="alert alert-danger mb-4">
-                <strong>Account Not Approved</strong>
-                <p>YOU ARE NOT ACCEPTABLE TO USE THIS SITE. ONLY FOR CITIZEN OF QUEZON CITY.</p>
+                <strong>Account Suspended</strong>
+                <p>Your account has been banned by an administrator. Reporting and blotter access are disabled until your account is reinstated.</p>
             </div>
-        <?php elseif (!$accountVerified): ?>
+        <?php elseif (!empty($userNeedsApproval)): ?>
             <div class="alert alert-warning mb-4">
-                <strong>Account Verification Pending</strong>
-                <p>Your account is currently under review by the admin. Filing reports and other features (blotter, my reports) will remain locked until an admin approves your account.</p>
+                <strong>Account Not Verified</strong>
+                <p>Your account is pending administrator approval. The system modules are temporarily unavailable until verification is complete.</p>
             </div>
         <?php endif; ?>
 
@@ -144,14 +124,14 @@ if ($userId) {
         <div class="row g-3 mb-3">
             <div class="col-12 col-md-4">
                 <div class="card p-3" style="position:relative;">
-                    <h6>My Reports <?php if (!$accountVerified) echo '<i class="bi bi-lock-fill text-muted" title="Locked until admin approval"></i>'; ?></h6>
+                    <h6>My Reports <?php if (!empty($isBanned)) echo '<i class="bi bi-lock-fill text-muted" title="Account suspended"></i>'; ?></h6>
                     <div style="font-size:2rem;font-weight:700"><?php echo $myReports; ?></div>
                     <div class="text-muted">Total filed</div>
-                    <?php if (!$accountVerified): ?>
+                    <?php if (!empty($isBanned)): ?>
                         <div style="position:absolute;inset:0;background:rgba(255,255,255,0.6);display:flex;align-items:center;justify-content:center;border-radius:6px;">
                             <div class="text-center text-muted">
                                 <i class="bi bi-lock-fill" style="font-size:24px"></i>
-                                <div style="font-size:0.9rem">Locked until admin approval</div>
+                                <div style="font-size:0.9rem">Account suspended</div>
                             </div>
                         </div>
                     <?php endif; ?>
@@ -175,7 +155,7 @@ if ($userId) {
 
         <div class="card">
                 <div class="card-body">
-                <h5 class="card-title">My Recent Reports <?php if (!$accountVerified) echo '<i class="bi bi-lock-fill text-muted" title="Locked until admin approval"></i>'; ?></h5>
+                <h5 class="card-title">My Recent Reports <?php if (!empty($isBanned)) echo '<i class="bi bi-lock-fill text-muted" title="Account suspended"></i>'; ?></h5>
                 <p class="text-muted">Your recent incident reports</p>
                 <div class="table-responsive">
                     <table class="table table-sm">
@@ -184,9 +164,10 @@ if ($userId) {
                         </thead>
                         <tbody>
                             <?php
-                            // If account not verified by admin, hide report list and show locked message
-                            if (!$accountVerified) {
-                                echo '<tr><td colspan="4" class="text-center text-danger">Your reports are locked until an admin verifies your account.</td></tr>';
+                            if (!empty($isBanned)) {
+                                echo '<tr><td colspan="4" class="text-center text-danger">Your account has been suspended. Reports are unavailable until your account is reinstated.</td></tr>';
+                            } elseif (!empty($userNeedsApproval)) {
+                                echo '<tr><td colspan="4" class="text-center text-warning">Your account is pending verification. Reporting and module access are locked until an administrator approves your account.</td></tr>';
                             } else {
                                 try {
                                     if ($userId) {
@@ -199,7 +180,7 @@ if ($userId) {
                                 } catch (Exception $e) { $rows = []; }
 
                                 if (empty($rows)) {
-                                    echo '<tr><td colspan="4" class="text-center text-secondary">Your recent incident reports</td></tr>';
+                                    echo '<tr><td colspan="4" class="text-center text-secondary">You have not filed any incident reports yet.</td></tr>';
                                 } else {
                                     foreach ($rows as $r) {
                                         echo '<tr>';

@@ -1,18 +1,7 @@
 <?php
 require_once '../config/db_connect.php';
-// Load composer autoload if present (PHPMailer lives in vendor/)
-$autoload = __DIR__ . '/../vendor/autoload.php';
-if (file_exists($autoload)) {
-    require_once $autoload;
-} else {
-    error_log('Warning: Composer autoload not found at ' . $autoload . '. PHPMailer may be unavailable.');
-}
-require_once '../includes/two_factor_auth.php';
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-// Check connection
+// Process sign-up form and create a verified local account for development.
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Personal & contact fields (UI updated to match multi-step sign up)
     $first_name = trim($_POST['first_name'] ?? '');
@@ -92,7 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $token_expires = date("Y-m-d H:i:s", strtotime("+24 hours"));
     $terms_accepted_date = date("Y-m-d H:i:s");
     
-    $sql = "INSERT INTO signup (fullname, emailadd, username, password, email_verified, verification_token, token_expires, terms_accepted, terms_accepted_date) VALUES (?, ?, ?, ?, 0, ?, ?, 1, ?)";
+    $sql = "INSERT INTO signup (fullname, emailadd, username, password, email_verified, verification_token, token_expires, terms_accepted, terms_accepted_date) VALUES (?, ?, ?, ?, 1, ?, ?, 1, ?)";
     try {
         $stmt = $pdo->prepare($sql);
         $res = $stmt->execute([$fullname, $email, $username, $hashed_password, $verification_token, $token_expires, $terms_accepted_date]);
@@ -106,66 +95,41 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get new user id
         $user_id = $pdo->lastInsertId();
 
-        // If phone provided, generate SMS 2FA and send
-        if (!empty($phone)) {
-            $tfa = new TwoFactorAuth($pdo);
-            $smsCode = $tfa->generateSMSCode();
-            $storeOk = $tfa->storeSMSCode($user_id, $smsCode);
-            $sentOk = false;
-            if ($storeOk) {
-                $sentOk = $tfa->sendSMSCode($phone, $smsCode);
-            }
-            // mark pending SMS 2FA in session and redirect to verify page
-            session_start();
-            $_SESSION['pending_2fa_user'] = $user_id;
-            $_SESSION['pending_2fa_method'] = 'SMS';
-            $_SESSION['pending_2fa_phone'] = $phone;
-            // Handle file uploads (document verification) if provided
-            $front_path = null;
-            $back_path = null;
-            if (!empty($_FILES['front_id']) && $_FILES['front_id']['error'] === UPLOAD_ERR_OK) {
-                $allowed = ['image/jpeg','image/png'];
-                if (!in_array($_FILES['front_id']['type'], $allowed)) {
-                    // ignore but log
-                    error_log('Invalid front id mime: ' . $_FILES['front_id']['type']);
-                } else {
-                    $targetDir = __DIR__ . '/../uploads/ids/';
-                    if (!is_dir($targetDir)) mkdir($targetDir, 0755, true);
-                    $ext = pathinfo($_FILES['front_id']['name'], PATHINFO_EXTENSION);
-                    $fname = uniqid('front_') . '.' . $ext;
-                    $dest = $targetDir . $fname;
-                    if (move_uploaded_file($_FILES['front_id']['tmp_name'], $dest)) {
-                        $front_path = 'uploads/ids/' . $fname;
-                        $_SESSION['uploaded_front_id'] = $front_path;
-                    }
-                }
-            }
-            if (!empty($_FILES['back_id']) && $_FILES['back_id']['error'] === UPLOAD_ERR_OK) {
-                $allowed = ['image/jpeg','image/png'];
-                if (!in_array($_FILES['back_id']['type'], $allowed)) {
-                    error_log('Invalid back id mime: ' . $_FILES['back_id']['type']);
-                } else {
-                    $targetDir = __DIR__ . '/../uploads/ids/';
-                    if (!is_dir($targetDir)) mkdir($targetDir, 0755, true);
-                    $ext = pathinfo($_FILES['back_id']['name'], PATHINFO_EXTENSION);
-                    $fname = uniqid('back_') . '.' . $ext;
-                    $dest = $targetDir . $fname;
-                    if (move_uploaded_file($_FILES['back_id']['tmp_name'], $dest)) {
-                        $back_path = 'uploads/ids/' . $fname;
-                        $_SESSION['uploaded_back_id'] = $back_path;
-                    }
-                }
-            }
-            $_SESSION['pending_uploaded_front'] = $front_path;
-            $_SESSION['pending_uploaded_back'] = $back_path;
-            if ($sentOk) {
-                echo "<script>alert('Account created! A verification code was sent to your phone. Please enter it to complete registration.'); window.location.href='verify_2fa.php';</script>";
-                exit();
+        // Handle file uploads (document verification) if provided
+        $front_path = null;
+        $back_path = null;
+        if (!empty($_FILES['front_id']) && $_FILES['front_id']['error'] === UPLOAD_ERR_OK) {
+            $allowed = ['image/jpeg','image/png'];
+            if (!in_array($_FILES['front_id']['type'], $allowed)) {
+                error_log('Invalid front id mime: ' . $_FILES['front_id']['type']);
             } else {
-                error_log('SMS not sent for user ' . $user_id);
-                // continue with email as fallback below
+                $targetDir = __DIR__ . '/../uploads/ids/';
+                if (!is_dir($targetDir)) mkdir($targetDir, 0755, true);
+                $ext = pathinfo($_FILES['front_id']['name'], PATHINFO_EXTENSION);
+                $fname = uniqid('front_') . '.' . $ext;
+                $dest = $targetDir . $fname;
+                if (move_uploaded_file($_FILES['front_id']['tmp_name'], $dest)) {
+                    $front_path = 'uploads/ids/' . $fname;
+                }
             }
         }
+        if (!empty($_FILES['back_id']) && $_FILES['back_id']['error'] === UPLOAD_ERR_OK) {
+            $allowed = ['image/jpeg','image/png'];
+            if (!in_array($_FILES['back_id']['type'], $allowed)) {
+                error_log('Invalid back id mime: ' . $_FILES['back_id']['type']);
+            } else {
+                $targetDir = __DIR__ . '/../uploads/ids/';
+                if (!is_dir($targetDir)) mkdir($targetDir, 0755, true);
+                $ext = pathinfo($_FILES['back_id']['name'], PATHINFO_EXTENSION);
+                $fname = uniqid('back_') . '.' . $ext;
+                $dest = $targetDir . $fname;
+                if (move_uploaded_file($_FILES['back_id']['tmp_name'], $dest)) {
+                    $back_path = 'uploads/ids/' . $fname;
+                }
+            }
+        }
+
+        // Persist additional profile fields and uploaded ID paths into the signup table.    
 
         // Persist additional profile fields and uploaded ID paths into the signup table.
         // If columns don't exist, attempt to add them (best-effort).
@@ -218,81 +182,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             error_log('Failed to persist profile fields: ' . $e->getMessage());
         }
 
-        // 📧 Send verification email. Use PHPMailer if available, otherwise fall back to PHP mail().
-        $verificationLink = "http://localhost/Law_Enforcement_-_Incident_Report/auth/verify_email.php?token=" . $verification_token;
-
-        $emailBody = "
-            <html>
-            <head></head>
-            <body style='font-family: Arial, sans-serif;'>
-                <div style='max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px;'>
-                    <h2 style='color: #333;'>Welcome to Alertara PH</h2>
-                    <p>Hello <strong>" . htmlspecialchars($fullname) . "</strong>,</p>
-                    <p>Thank you for registering! Please verify your email address to complete your account setup.</p>
-                    <p style='margin: 30px 0;'>
-                        <a href='" . $verificationLink . "' style='background-color: #4c8a89; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; display: inline-block;'>
-                            Verify Email Address
-                        </a>
-                    </p>
-                    <p>Or copy this link in your browser:</p>
-                    <p style='background: #f5f5f5; padding: 10px; word-break: break-all;'>" . $verificationLink . "</p>
-                    <p style='color: #666; font-size: 12px;'>This verification link expires in 24 hours.</p>
-                    <p style='color: #666; font-size: 12px;'>If you did not create this account, please ignore this email.</p>
-                </div>
-            </body>
-            </html>
-        ";
-
-        if (class_exists('PHPMailer\\PHPMailer\\PHPMailer')) {
-            // Use PHPMailer when available
-            try {
-                $mail = new PHPMailer(true);
-                $mail->isSMTP();
-                $mail->Host       = 'smtp.gmail.com';
-                $mail->SMTPAuth   = true;
-                $mail->Username   = 'alertaraqc@gmail.com';
-                $mail->Password   = 'fyyzywptnqlqemyt';
-                $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-                $mail->Port       = 465;
-
-                $mail->setFrom('alertaraqc@gmail.com', 'Alertara PH');
-                $mail->addAddress($email);
-
-                $mail->isHTML(true);
-                $mail->Subject = 'Email Verification - Alertara PH';
-                $mail->Body = $emailBody;
-
-                $mail->send();
-                echo "<script>alert('Account created! Please check your email to verify your account.'); window.location.href='login.php';</script>";
-                exit();
-            } catch (Exception $e) {
-                error_log("Email sending failed (PHPMailer): " . ($mail->ErrorInfo ?? $e->getMessage()));
-                echo "<script>alert('Account created but email verification failed. Please try again later.'); window.location.href='login.php';</script>";
-                exit();
-            }
-        } else {
-            // Fallback: basic PHP mail(). May not work on local dev without proper mail server.
-            $subject = 'Email Verification - Alertara PH';
-            $headers  = "MIME-Version: 1.0\r\n";
-            $headers .= "Content-type: text/html; charset=UTF-8\r\n";
-            $headers .= "From: Alertara PH <alertaraqc@gmail.com>\r\n";
-
-            $sent = false;
-            try {
-                $sent = mail($email, $subject, $emailBody, $headers);
-            } catch (Exception $e) {
-                error_log('mail() threw exception: ' . $e->getMessage());
-            }
-
-            if ($sent) {
-                echo "<script>alert('Account created! Please check your email to verify your account.'); window.location.href='login.php';</script>";
-                exit();
-            } else {
-                error_log('Email not sent: PHPMailer unavailable and mail() failed for ' . $email);
-                echo "<script>alert('Account created but email verification failed. Please try again later.'); window.location.href='login.php';</script>";
-                exit();
-            }
-        }
+        echo "<script>alert('Account created successfully. You may now login.'); window.location.href='login.php';</script>";
+        exit();
     } else {
         $err = $stmt->errorInfo();
         $errMsg = isset($err[2]) ? $err[2] : 'Unknown error';

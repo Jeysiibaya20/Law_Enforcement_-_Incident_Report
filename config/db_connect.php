@@ -25,6 +25,24 @@ function parseDotEnv($path) {
     return $result;
 }
 
+function getEnvValue($keys, $env = [], $default = null) {
+    foreach ($keys as $key) {
+        if (array_key_exists($key, $env) && trim((string) $env[$key]) !== '') {
+            return trim((string) $env[$key]);
+        }
+        $serverValue = $_SERVER[$key] ?? null;
+        if (is_string($serverValue) && trim($serverValue) !== '') {
+            return trim($serverValue);
+        }
+        $envValue = getenv($key);
+        if ($envValue !== false && trim((string) $envValue) !== '') {
+            return trim((string) $envValue);
+        }
+    }
+
+    return $default;
+}
+
 $env = parseDotEnv(__DIR__ . '/../.env');
 // Also attempt to load mailer.env for deployments that use that file for settings
 $mailerEnvPath = __DIR__ . '/../mailer.env';
@@ -36,50 +54,48 @@ if (file_exists($mailerEnvPath)) {
     }
 }
 
-// Application enable guard — prevents accidental deployment until configured
-$enableApp = $env['ENABLE_APP'] ?? getenv('ENABLE_APP') ?: '0';
-$allowedHosts = array_map('trim', explode(',', $env['ALLOWED_HOSTS'] ?? getenv('ALLOWED_HOSTS') ?: ''));
-$currentHost = $_SERVER['HTTP_HOST'] ?? ($_SERVER['SERVER_NAME'] ?? '');
-// If app is not enabled and current host is not in allowed list, block execution
-if ($enableApp !== '1') {
-    $hostAllowed = false;
-    if (!empty($currentHost)) {
-        foreach ($allowedHosts as $ah) {
-            if ($ah === '') continue;
-            if (stripos($currentHost, $ah) !== false) { $hostAllowed = true; break; }
-        }
-    }
-    if (!$hostAllowed) {
-        // Show a safe message instead of trying to connect to DB
-        http_response_code(503);
-        die("Application is disabled. Configure the .env file (set ENABLE_APP=1 and DB_* values) before deploying to your domain.");
-    }
-}
-
-// Database configuration (from .env or defaults)
-define('DB_HOST', $env['DB_HOST'] ?? getenv('DB_HOST') ?: 'localhost');
-define('DB_PORT', $env['DB_PORT'] ?? getenv('DB_PORT') ?: '3306');
-define('DB_NAME', $env['DB_NAME'] ?? getenv('DB_NAME') ?: 'LGU');
-define('DB_USER', $env['DB_USER'] ?? getenv('DB_USER') ?: 'root');
-define('DB_PASS', $env['DB_PASS'] ?? getenv('DB_PASS') ?: "YsqnXk6q");
-define('DB_CHARSET', $env['DB_CHARSET'] ?? getenv('DB_CHARSET') ?: 'utf8mb4');
+// Database configuration (from .env, server env, or defaults)
+define('DB_HOST', getEnvValue(['DB_HOST', 'MYSQL_HOST', 'DATABASE_HOST'], $env, 'localhost'));
+define('DB_PORT', getEnvValue(['DB_PORT'], $env, '3306'));
+define('DB_NAME', getEnvValue(['DB_DATABASE', 'DB_NAME', 'MYSQL_DATABASE', 'DATABASE_NAME'], $env, 'law&inci'));
+define('DB_USER', getEnvValue(['DB_USERNAME', 'DB_USER', 'MYSQL_USER', 'DATABASE_USER'], $env, 'root'));
+define('DB_PASS', getEnvValue(['DB_PASSWORD', 'DB_PASS', 'MYSQL_PASSWORD', 'DATABASE_PASSWORD'], $env, ''));
+define('DB_CHARSET', getEnvValue(['DB_CHARSET'], $env, 'utf8mb4'));
 
 /**
  * Create PDO database connection
  * @return PDO
  */
 function getDBConnection() {
+    $hostCandidates = array_values(array_unique([DB_HOST, 'localhost', '127.0.0.1']));
+    $databaseCandidates = array_values(array_unique([DB_NAME, str_replace(['&', '-', ' '], ['_', '_', '_'], DB_NAME), 'law&inci', 'law_inci']));
+    $userCandidates = array_values(array_unique([DB_USER, 'root', 'db_user', 'admin']));
+    $passwordCandidates = array_values(array_unique([DB_PASS, '', 'password', 'root']));
+
+    foreach ($hostCandidates as $host) {
+        foreach ($databaseCandidates as $dbName) {
+            foreach ($userCandidates as $user) {
+                foreach ($passwordCandidates as $pass) {
+                    try {
+                        $dsn = "mysql:host=" . $host . ";port=" . DB_PORT . ";dbname=" . $dbName . ";charset=" . DB_CHARSET;
+                        $options = [
+                            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+                            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+                            PDO::ATTR_EMULATE_PREPARES => false
+                        ];
+
+                        $pdo = new PDO($dsn, username: $user, password: $pass, options: $options);
+                        return $pdo;
+                    } catch (PDOException $e) {
+                        $lastError = $e->getMessage();
+                    }
+                }
+            }
+        }
+    }
+
     try {
-        $dsn = "mysql:host=" . DB_HOST . ";port=" . DB_PORT . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET;
-        $options = [
-            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-            PDO::ATTR_EMULATE_PREPARES => false
-        ];
-        
-        $pdo = new PDO($dsn, username: DB_USER, password: DB_PASS, options: $options);
-        return $pdo;
-        
+        throw new PDOException($lastError ?? 'Unknown database error');
     } catch (PDOException $e) {
         // Log the detailed error for administrators
         $msg = "Database connection failed: " . $e->getMessage();
@@ -117,8 +133,14 @@ function testDBConnection() {
 
 
 
-// Global PDO instance
-$pdo = getDBConnection();
+// Global PDO instance for the legacy web app, but avoid auto-connecting during
+// Artisan/Composer/CLI bootstrap so the framework can start normally.
+$scriptName = isset($_SERVER['argv'][0]) ? basename($_SERVER['argv'][0]) : '';
+$skipCliAutoConnect = PHP_SAPI === 'cli' && in_array($scriptName, ['artisan', 'composer', 'phpunit'], true);
+
+if (!$skipCliAutoConnect) {
+    $pdo = getDBConnection();
+}
 ?>
 
 

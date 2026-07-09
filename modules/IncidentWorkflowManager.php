@@ -16,6 +16,11 @@ class IncidentWorkflowManager {
     
     private $pdo;
     private $nlp;
+
+    private function getRoutingManager() {
+        require_once 'IncidentRoutingManager.php';
+        return new IncidentRoutingManager($this->pdo);
+    }
     
     public function __construct($pdo) {
         $this->pdo = $pdo;
@@ -28,42 +33,45 @@ class IncidentWorkflowManager {
      */
     public function processIncidentReport($incident_data) {
         try {
-            $this->pdo->beginTransaction();
-            
+            $routing_manager = $this->getRoutingManager();
+            $routing_manager->ensureSchema();
+
             // Step 1: Apply NLP analysis to narrative
             $nlp_analysis = $this->performNLPAnalysis($incident_data);
-            
+
             // Step 2: Insert incident with NLP data
             $incident_id = $this->createIncidentRecord($incident_data, $nlp_analysis);
-            
-            // Step 3: Auto-create blotter entry for digital blotter system
+
+            // Step 3: Apply incident routing to requested groups and create forwarding log
+            $routing_result = $routing_manager->applyRouting($incident_id, $incident_data, $incident_data['created_by'] ?? null, 'Auto-routed from incident submission');
+
+            // Step 4: Auto-create blotter entry for digital blotter system
             $blotter_id = $this->createBlotterEntry($incident_id, $incident_data, $nlp_analysis);
-            
-            // Step 4: Generate case notification for relevant officials
+
+            // Step 5: Generate case notification for relevant officials
             $this->generateCaseNotifications($incident_id, $incident_data, $nlp_analysis);
-            
-            // Step 5: Auto-assign to appropriate officer if urgency is high
+
+            // Step 6: Auto-assign to appropriate officer if urgency is high
             $this->autoAssignCase($incident_id, $incident_data, $nlp_analysis);
-            
-            // Step 6: Create case record in case management system
+
+            // Step 7: Create case record in case management system
             $case_id = $this->createCaseRecord($incident_id, $incident_data, $nlp_analysis);
-            
-            // Step 7: Log workflow event
+
+            // Step 8: Log workflow event
             $this->logWorkflowEvent($incident_id, 'Incident Created & Processed', 'System automatically processed incident through NLP and workflow');
-            
-            $this->pdo->commit();
-            
+
             return [
                 'success' => true,
                 'incident_id' => $incident_id,
                 'blotter_id' => $blotter_id,
                 'case_id' => $case_id,
                 'nlp_analysis' => $nlp_analysis,
+                'routing_result' => $routing_result,
                 'message' => 'Incident processed and entered into workflow'
             ];
-            
+
         } catch (Exception $e) {
-            $this->pdo->rollBack();
+            error_log('IncidentWorkflowManager error: ' . $e->getMessage());
             return [
                 'success' => false,
                 'error' => $e->getMessage()
@@ -87,21 +95,23 @@ class IncidentWorkflowManager {
      */
     private function createIncidentRecord($incident_data, $nlp_analysis) {
         $sql = "INSERT INTO incidents (
-                case_no, incident_type, incident_subtype, auto_classification, 
-                urgency_level, is_high_risk, reporter_name, reporter_email, 
-                reporter_phone, reporter_type, incident_date, incident_time, 
-                location, latitude, longitude, narrative, evidence_description, 
-                victim_name, victim_age, victim_gender, suspect_name, status, 
-                created_by, nlp_sentiment, nlp_threat_level, nlp_severity_score,
-                nlp_emotions, nlp_analysis_data, nlp_confidence_score, nlp_summary
+                case_no, incident_type, incident_subtype, auto_classification,
+                report_type, incident_category, urgency_level, is_high_risk,
+                reporter_name, reporter_email, reporter_phone, reporter_type,
+                incident_date, incident_time, location, latitude, longitude,
+                narrative, evidence_description, victim_name, victim_age,
+                victim_gender, suspect_name, status, created_by, nlp_sentiment,
+                nlp_threat_level, nlp_severity_score, nlp_emotions,
+                nlp_analysis_data, nlp_confidence_score, nlp_summary
             ) VALUES (
                 :case_no, :incident_type, :incident_subtype, :auto_classification,
-                :urgency_level, :is_high_risk, :reporter_name, :reporter_email,
-                :reporter_phone, :reporter_type, :incident_date, :incident_time,
-                :location, :latitude, :longitude, :narrative, :evidence_description,
-                :victim_name, :victim_age, :victim_gender, :suspect_name, :status,
-                :created_by, :nlp_sentiment, :nlp_threat_level, :nlp_severity_score,
-                :nlp_emotions, :nlp_analysis_data, :nlp_confidence_score, :nlp_summary
+                :report_type, :incident_category, :urgency_level, :is_high_risk,
+                :reporter_name, :reporter_email, :reporter_phone, :reporter_type,
+                :incident_date, :incident_time, :location, :latitude, :longitude,
+                :narrative, :evidence_description, :victim_name, :victim_age,
+                :victim_gender, :suspect_name, :status, :created_by, :nlp_sentiment,
+                :nlp_threat_level, :nlp_severity_score, :nlp_emotions,
+                :nlp_analysis_data, :nlp_confidence_score, :nlp_summary
             )";
         
         $stmt = $this->pdo->prepare($sql);
@@ -109,6 +119,8 @@ class IncidentWorkflowManager {
             ':case_no' => $incident_data['case_no'],
             ':incident_type' => $incident_data['incident_type'] ?? 'Other',
             ':incident_subtype' => $incident_data['incident_subtype'] ?? '',
+            ':report_type' => $incident_data['report_type'] ?? 'Walk-in Complaint',
+            ':incident_category' => $incident_data['incident_category'] ?? ($incident_data['incident_type'] ?? 'Other'),
             ':auto_classification' => $incident_data['auto_classification'] ?? 'Other',
             ':urgency_level' => $incident_data['urgency_level'] ?? 'Medium',
             ':is_high_risk' => $incident_data['is_high_risk'] ?? 0,
@@ -127,7 +139,7 @@ class IncidentWorkflowManager {
             ':victim_age' => $incident_data['victim_age'] ?? null,
             ':victim_gender' => $incident_data['victim_gender'] ?? null,
             ':suspect_name' => $incident_data['suspect_name'] ?? '',
-            ':status' => 'Submitted',
+            ':status' => 'Pending',
             ':created_by' => $incident_data['created_by'] ?? null,
             ':nlp_sentiment' => $nlp_analysis['sentiment']['sentiment'] ?? 'Neutral',
             ':nlp_threat_level' => $nlp_analysis['threat_level'] ?? 'Low',

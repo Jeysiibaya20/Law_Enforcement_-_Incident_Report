@@ -15,38 +15,26 @@ if ($is_logged_in) {
         require_once __DIR__ . '/../config/db_connect.php';
         $uid = intval($_SESSION['user_id'] ?? 0);
         if ($uid) {
-            $s = $pdo->prepare('SELECT email_verified, admin_approved, banned FROM signup WHERE user_id = ?');
+            $s = $pdo->prepare('SELECT email_verified, banned FROM signup WHERE user_id = ?');
             $s->execute([$uid]);
             $r = $s->fetch(PDO::FETCH_ASSOC) ?: [];
             $isBanned = !empty($r['banned']);
             $emailVerified = !empty($r['email_verified']);
-            $adminApproved = isset($r['admin_approved']) ? ((int)$r['admin_approved'] === 1) : null;
 
-            // Admin users don't require admin_approved; treat them as approved/unlocked
-            $userRole = strtolower($_SESSION['role'] ?? '');
-            if ($userRole === 'admin') {
-                $adminApproved = true;
-                $emailVerified = true;
-            }
-
+            // Account status shown for awareness only. Access control is now based on ban state only.
             if ($isBanned) {
                 $account_status_text = 'Banned';
                 $account_status_badge = 'bg-danger';
                 $account_status_detail = 'Your account has been suspended by an administrator.';
                 $show_notif_badge = true;
-            } elseif ($emailVerified && $adminApproved === true) {
+            } elseif ($emailVerified) {
                 $account_status_text = 'Verified';
                 $account_status_badge = 'bg-success';
                 $account_status_detail = 'Your account is verified and active.';
-            } elseif ($emailVerified && $adminApproved !== 1) {
-                $account_status_text = 'Pending Admin';
-                $account_status_badge = 'bg-warning text-dark';
-                $account_status_detail = 'Your email is verified but awaiting admin approval.';
-                $show_notif_badge = true;
             } else {
                 $account_status_text = 'Not Verified';
                 $account_status_badge = 'bg-secondary';
-                $account_status_detail = 'Please verify your email to access full features.';
+                $account_status_detail = 'Your account is active. Please verify your email for better tracking and communication.';
                 $show_notif_badge = true;
             }
         }
@@ -106,16 +94,19 @@ if ($is_logged_in) {
                         <a class="nav-link" href="#modules"><i class="bi bi-grid-3x3-gap"></i> Modules</a>
                     </li>
                     <?php if ($is_logged_in) { ?>
+                        <?php $dashboardLink = (isset($_SESSION['role']) && strtolower($_SESSION['role']) === 'admin') ? 'admin/dashboard.php' : 'landing.php'; ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="admin/dashboard.php"><i class="bi bi-speedometer2"></i> Dashboard</a>
+                            <a class="nav-link" href="<?php echo htmlspecialchars($dashboardLink); ?>"><i class="bi bi-speedometer2"></i> Dashboard</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="bi bi-person-circle"></i> <?php echo substr($_SESSION['user_email'] ?? 'User', 0, 15); ?>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
-                                <li><a class="dropdown-item" href="admin/settings.php"><i class="bi bi-gear"></i> Settings</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <?php if (isset($_SESSION['role']) && strtolower($_SESSION['role']) === 'admin'): ?>
+                                    <li><a class="dropdown-item" href="admin/settings.php"><i class="bi bi-gear"></i> Settings</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                <?php endif; ?>
                                 <li><a class="dropdown-item" href="auth/logout.php"><i class="bi bi-box-arrow-right"></i> Logout</a></li>
                             </ul>
                         </li>
