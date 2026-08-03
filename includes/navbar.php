@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
@@ -29,6 +29,81 @@ $logout_path = $base_url . 'auth/logout.php';
 $display_name = htmlspecialchars($_SESSION['first_name'] ?? 'Officer');
 $display_role = htmlspecialchars($role === 'admin' ? 'Admin' : ($role === 'officer' ? 'Officer' : 'User'));
 ?>
+
+<style>
+    :root {
+        --alertara-dropdown-bg: rgba(247, 241, 241, 0.97);
+        --alertara-dropdown-hover: rgba(245, 245, 243, 0.97);
+        --alertara-dropdown-active: #eceef1;
+        --alertara-dropdown-text: #f8fafc;
+        --alertara-dropdown-border: rgb(0, 0, 0);
+    }
+
+    .alertara-group {
+        margin: 0.25rem 0;
+    }
+
+    .alertara-group-toggle {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.8rem 0.95rem;
+        border: 1px solid transparent;
+        border-radius: 0.75rem;
+        background: transparent;
+        color: #ffffff;
+        transition: all 0.2s ease;
+    }
+
+    .alertara-group-toggle:hover,
+    .alertara-group-toggle.active {
+        background: transparent !important;
+        border-color: transparent;
+        color: #ffffff !important;
+    }
+
+    .alertara-group-toggle.active {
+        box-shadow: inset 0 0 0 1px rgba(248, 246, 246, 0.92);
+    }
+
+    .alertara-group-panel {
+        display: none;
+        margin: 0.25rem 0 0.35rem 0.9rem;
+        padding: 0.25rem 0;
+        border-left: 2px solid var(--alertara-dropdown-border);
+    }
+
+    .alertara-group-panel.show {
+        display: block;
+    }
+
+    .alertara-group-panel .alertara-link {
+        margin: 0.2rem 0;
+        padding: 0.7rem 0.85rem;
+        border-radius: 0.6rem;
+        color: #ffffff;
+        background: transparent;
+    }
+
+    .alertara-group-panel .alertara-link:hover,
+    .alertara-group-panel .alertara-link.active {
+        background: transparent !important;
+        color: #ffffff !important;
+    }
+
+    .alertara-link:hover,
+    .alertara-link.active {
+        background: transparent !important;
+        color: #000000 !important;
+    }
+
+    .alertara-link .link-text,
+    .alertara-group-toggle .link-text,
+    .alertara-group-panel .alertara-link .link-text {
+        color: #0c0101 !important;
+    }
+</style>
 
 <button class="alertara-mobile-toggle" id="alertaraMobileToggle" aria-label="Open navigation">
     <i class="bi bi-list"></i>
@@ -93,37 +168,67 @@ $display_role = htmlspecialchars($role === 'admin' ? 'Admin' : ($role === 'offic
             <?php if ($is_admin): ?>
 
                 
-<div class="alertara-group">
-    <button class="alertara-link alertara-group-toggle<?php echo in_array($current_page, ['blotters','certificate_of_file_action','blotter','blotter_create']) ? ' active' : ''; ?>" data-group="blotter-menu">
+               <div class="alertara-group<?php echo in_array($current_page, ['blotters','certificate_of_file_action','blotter','blotter_create']) ? ' active' : ''; ?>">
+    <button class="alertara-link alertara-group-toggle<?php echo in_array($current_page, ['blotters','certificate_of_file_action','blotter','blotter_create']) ? ' active' : ''; ?>"
+            type="button"
+            aria-expanded="<?php echo in_array($current_page, ['blotters','certificate_of_file_action','blotter','blotter_create']) ? 'true' : 'false'; ?>"
+            aria-controls="blotter-menu-panel"
+            data-group="blotter-menu">
         <span class="link-icon"><i class="bi bi-journal-text"></i></span>
         <span class="link-text">Digital Blotter</span>
         <span class="link-caret"><i class="bi bi-caret-down-fill"></i></span>
     </button>
-    <div class="alertara-group-panel" data-group="blotter-menu">
+    <div class="alertara-group-panel<?php echo in_array($current_page, ['blotters','certificate_of_file_action','blotter','blotter_create']) ? ' show' : ''; ?>" id="blotter-menu-panel" data-group="blotter-menu">
         <a href="<?php echo $base_url; ?>admin/blotters.php" class="alertara-link<?php echo $current_page === 'blotters' ? ' active' : ''; ?>">
             <span class="link-icon"><i class="bi bi-list-task"></i></span>
-            <span class="link-text">Manage Blotters</span>
+            <span class="link-text">Blotters</span>
         </a>
         <a href="<?php echo $base_url; ?>admin/certificate_of_file_action.php" class="alertara-link<?php echo $current_page === 'certificate_of_file_action' ? ' active' : ''; ?>">
             <span class="link-icon"><i class="bi bi-file-earmark-text"></i></span>
             <span class="link-text">Certificate of File Action</span>
         </a>
-        <?php if ($is_admin): ?>
-        <a href="<?php echo $user_management_path; ?>" class="alertara-link<?php echo in_array($current_page, ['users','account_approvals']) ? ' active' : ''; ?>">
-            <span class="link-icon"><i class="bi bi-people-fill"></i></span>
-            <span class="link-text">User Management</span>
+    </div>
+</div>
+<!-- Case Management -->
+<div class="alertara-group<?php echo in_array($current_page, ['cases','summons','hearing_schedule','hearing_result','settlement','close_cases']) ? ' active' : ''; ?>">
+    <button class="alertara-link alertara-group-toggle<?php echo in_array($current_page, ['cases','summons','hearing_schedule','hearing_result','settlement','close_cases']) ? ' active' : ''; ?>"
+            type="button"
+            aria-expanded="<?php echo in_array($current_page, ['cases','summons','hearing_schedule','hearing_result','settlement','close_cases']) ? 'true' : 'false'; ?>"
+            aria-controls="case-menu-panel"
+            data-group="case-menu">
+        <span class="link-icon"><i class="bi bi-clipboard-data"></i></span>
+        <span class="link-text">Case Management</span>
+        <span class="link-caret"><i class="bi bi-caret-down-fill"></i></span>
+    </button>
+    <div class="alertara-group-panel<?php echo in_array($current_page, ['cases','summons','hearing_schedule','hearing_result','settlement','close_cases']) ? ' show' : ''; ?>" id="case-menu-panel" data-group="case-menu">
+        <a href="<?php echo $base_url; ?>admin/Summons.php" class="alertara-link<?php echo $current_page === 'summons' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-list-task"></i></span>
+            <span class="link-text">Summons</span>
         </a>
-        <?php endif; ?>
+        <a href="<?php echo $base_url; ?>admin/Hearing_schedule.php" class="alertara-link<?php echo $current_page === 'hearing_schedule' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-calendar-event"></i></span>
+            <span class="link-text">Hearing Schedule</span>
+        </a>
+        <a href="<?php echo $base_url; ?>admin/hearing_result.php" class="alertara-link<?php echo $current_page === 'hearing_result' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-clipboard-check"></i></span>
+            <span class="link-text">Hearing Result</span>
+        </a>
+        <a href="<?php echo $base_url; ?>admin/cases.php" class="alertara-link<?php echo $current_page === 'settlement' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-hand-thumbs-up"></i></span>
+            <span class="link-text">Settlement</span>
+        </a>
+        <a href="<?php echo $base_url; ?>admin/suspects&witnesses.php" class="alertara-link<?php echo $current_page === 'suspects&witnesses' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-person-lines-fill"></i></span>
+            <span class="link-text">Suspects & Witnesses</span>
+         </a>
+        <a href="<?php echo $base_url; ?>admin/cases.php" class="alertara-link<?php echo $current_page === 'close_cases' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-x-circle"></i></span>
+            <span class="link-text">Close Cases</span>
+        </a>
     </div>
 </div>
 
-
                 <?php endif; ?>
-
-                <a href="<?php echo $base_url; ?>admin/cases.php" class="alertara-link<?php echo $current_page === 'cases' ? ' active' : ''; ?>">
-                    <span class="link-icon"><i class="bi bi-clipboard-data"></i></span>
-                    <span class="link-text">Case Management</span>
-                </a>
 
                 <a href="<?php echo $base_url; ?>modules/incident_report.php" class="alertara-link<?php echo $current_page === 'incident_report' ? ' active' : ''; ?>">
                     <span class="link-icon"><i class="bi bi-file-earmark-bar-graph"></i></span>
@@ -170,14 +275,15 @@ $display_role = htmlspecialchars($role === 'admin' ? 'Admin' : ($role === 'offic
 <div class="alertara-backdrop" id="alertaraBackdrop"></div>
 
 <script>
-(function() {
-    const navbar = document.getElementById('alertaraNavbar');
-    const edge = document.getElementById('alertaraHoverEdge');
-    const backdrop = document.getElementById('alertaraBackdrop');
-    const mobileToggle = document.getElementById('alertaraMobileToggle');
-    const groupButtons = Array.from(document.querySelectorAll('.alertara-group-toggle'));
+document.addEventListener('DOMContentLoaded', function() {
+    (function() {
+        const navbar = document.getElementById('alertaraNavbar');
+        const edge = document.getElementById('alertaraHoverEdge');
+        const backdrop = document.getElementById('alertaraBackdrop');
+        const mobileToggle = document.getElementById('alertaraMobileToggle');
+        const groupButtons = Array.from(document.querySelectorAll('.alertara-group-toggle'));
 
-    // Theme toggle handling
+        // Theme toggle handling
     (function() {
         const toggle = document.getElementById('themeToggle');
         const icon = document.getElementById('themeIcon');
@@ -276,35 +382,39 @@ $display_role = htmlspecialchars($role === 'admin' ? 'Admin' : ($role === 'offic
         const group = button.closest('.alertara-group');
         const panel = group ? group.querySelector('.alertara-group-panel') : null;
 
-        button.addEventListener('click', function() {
-            const isOpen = this.classList.toggle('active');
-            if (group) {
-                group.classList.toggle('active', isOpen);
-            }
-            if (panel) {
-                panel.classList.toggle('active', isOpen);
-            }
-        });
+        if (group && panel) {
+            let hideTimeout = null;
 
-        if (group) {
-            group.addEventListener('mouseenter', () => {
-                if (isDesktop()) {
-                    button.classList.add('active');
-                    group.classList.add('active');
-                    if (panel) panel.classList.add('active');
-                }
-            });
-            group.addEventListener('mouseleave', () => {
-                if (isDesktop()) {
+            const showPanel = () => {
+                if (!isDesktop()) return;
+                clearTimeout(hideTimeout);
+                openDesktop();
+                button.classList.add('active');
+                group.classList.add('active');
+                panel.classList.add('show');
+                button.setAttribute('aria-expanded', 'true');
+            };
+
+            const hidePanel = () => {
+                if (!isDesktop()) return;
+                clearTimeout(hideTimeout);
+                hideTimeout = setTimeout(() => {
                     button.classList.remove('active');
                     group.classList.remove('active');
-                    if (panel) panel.classList.remove('active');
-                }
-            });
+                    panel.classList.remove('show');
+                    button.setAttribute('aria-expanded', 'false');
+                }, 150);
+            };
+
+            group.addEventListener('mouseenter', showPanel);
+            group.addEventListener('mouseleave', hidePanel);
+            panel.addEventListener('mouseenter', showPanel);
+            panel.addEventListener('mouseleave', hidePanel);
         }
     });
 
     window.addEventListener('resize', updateEdge);
     updateEdge();
-})();
+    })();
+});
 </script>

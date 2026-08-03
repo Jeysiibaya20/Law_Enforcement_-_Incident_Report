@@ -5,5 +5,24 @@
   "description": "Law enforcement and incident report system",
   "scripts": {
     "test": "echo \"No frontend tests configured\""
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeysiibaya20/Law_Enforcement_-_Incident_Report.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jeysiibaya20/Law_Enforcement_-_Incident_Report/issues"
+  },
+  "homepage": "https://github.com/Jeysiibaya20/Law_Enforcement_-_Incident_Report#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
   }
 }
