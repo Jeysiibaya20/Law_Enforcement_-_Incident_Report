@@ -1,0 +1,3252 @@
+[
+  {
+    "id": "050502001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Anoling",
+      "en": "Anoling",
+      "slug": "anoling-050502001"
+    },
+    "code": {
+      "id": "050502001",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.2093",
+      "lon": "123.6761"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baligang",
+      "en": "Baligang",
+      "slug": "baligang-050502002"
+    },
+    "code": {
+      "id": "050502002",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1537",
+      "lon": "123.6432"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bantonan",
+      "en": "Bantonan",
+      "slug": "bantonan-050502003"
+    },
+    "code": {
+      "id": "050502003",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1833",
+      "lon": "123.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502046",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 1 (Pob.)",
+      "en": "Barangay 1 (Pob.)",
+      "slug": "barangay-1-pob-050502046"
+    },
+    "code": {
+      "id": "050502046",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502047",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 2 (Pob.)",
+      "en": "Barangay 2 (Pob.)",
+      "slug": "barangay-2-pob-050502047"
+    },
+    "code": {
+      "id": "050502047",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502048",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 3 (Pob.)",
+      "en": "Barangay 3 (Pob.)",
+      "slug": "barangay-3-pob-050502048"
+    },
+    "code": {
+      "id": "050502048",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502049",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 4 (Pob.)",
+      "en": "Barangay 4 (Pob.)",
+      "slug": "barangay-4-pob-050502049"
+    },
+    "code": {
+      "id": "050502049",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502050",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 5 (Pob.)",
+      "en": "Barangay 5 (Pob.)",
+      "slug": "barangay-5-pob-050502050"
+    },
+    "code": {
+      "id": "050502050",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502051",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 6 (Pob.)",
+      "en": "Barangay 6 (Pob.)",
+      "slug": "barangay-6-pob-050502051"
+    },
+    "code": {
+      "id": "050502051",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502052",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 7 (Pob.)",
+      "en": "Barangay 7 (Pob.)",
+      "slug": "barangay-7-pob-050502052"
+    },
+    "code": {
+      "id": "050502052",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bariw",
+      "en": "Bariw",
+      "slug": "bariw-050502004"
+    },
+    "code": {
+      "id": "050502004",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1333",
+      "lon": "123.7333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binanderahan",
+      "en": "Binanderahan",
+      "slug": "binanderahan-050502006"
+    },
+    "code": {
+      "id": "050502006",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.133",
+      "lon": "123.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binitayan",
+      "en": "Binitayan",
+      "slug": "binitayan-050502007"
+    },
+    "code": {
+      "id": "050502007",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.2945",
+      "lon": "123.7579"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bongabong",
+      "en": "Bongabong",
+      "slug": "bongabong-050502009"
+    },
+    "code": {
+      "id": "050502009",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "12.7469",
+      "lon": "121.4881"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabagñan",
+      "en": "Cabagñan",
+      "slug": "cabagan-050502010"
+    },
+    "code": {
+      "id": "050502010",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1829",
+      "lon": "123.6777"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabraran Pequeño",
+      "en": "Cabraran Pequeño",
+      "slug": "cabraran-pequeo-050502011"
+    },
+    "code": {
+      "id": "050502011",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1",
+      "lon": "123.6167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502053",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caguiba",
+      "en": "Caguiba",
+      "slug": "caguiba-050502053"
+    },
+    "code": {
+      "id": "050502053",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1031",
+      "lon": "123.653"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calabidongan",
+      "en": "Calabidongan",
+      "slug": "calabidongan-050502012"
+    },
+    "code": {
+      "id": "050502012",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.133",
+      "lon": "123.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Comun",
+      "en": "Comun",
+      "slug": "comun-050502013"
+    },
+    "code": {
+      "id": "050502013",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1295",
+      "lon": "123.659"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cotmon",
+      "en": "Cotmon",
+      "slug": "cotmon-050502014"
+    },
+    "code": {
+      "id": "050502014",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1175",
+      "lon": "123.6637"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Del Rosario",
+      "en": "Del Rosario",
+      "slug": "del-rosario-050502015"
+    },
+    "code": {
+      "id": "050502015",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1",
+      "lon": "123.6667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gapo",
+      "en": "Gapo",
+      "slug": "gapo-050502016"
+    },
+    "code": {
+      "id": "050502016",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1833",
+      "lon": "123.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gotob",
+      "en": "Gotob",
+      "slug": "gotob-050502017"
+    },
+    "code": {
+      "id": "050502017",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1833",
+      "lon": "123.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ilawod",
+      "en": "Ilawod",
+      "slug": "ilawod-050502018"
+    },
+    "code": {
+      "id": "050502018",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "11.1833",
+      "lon": "124.7833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Iluluan",
+      "en": "Iluluan",
+      "slug": "iluluan-050502019"
+    },
+    "code": {
+      "id": "050502019",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1333",
+      "lon": "123.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Libod",
+      "en": "Libod",
+      "slug": "libod-050502021"
+    },
+    "code": {
+      "id": "050502021",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1833",
+      "lon": "123.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ligban",
+      "en": "Ligban",
+      "slug": "ligban-050502022"
+    },
+    "code": {
+      "id": "050502022",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.133",
+      "lon": "123.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabunga",
+      "en": "Mabunga",
+      "slug": "mabunga-050502023"
+    },
+    "code": {
+      "id": "050502023",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.0567",
+      "lon": "123.6514"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magogon",
+      "en": "Magogon",
+      "slug": "magogon-050502024"
+    },
+    "code": {
+      "id": "050502024",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.133",
+      "lon": "123.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Manawan",
+      "en": "Manawan",
+      "slug": "manawan-050502025"
+    },
+    "code": {
+      "id": "050502025",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "8.4274",
+      "lon": "123.008"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maninila",
+      "en": "Maninila",
+      "slug": "maninila-050502026"
+    },
+    "code": {
+      "id": "050502026",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.209",
+      "lon": "123.6285"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mina",
+      "en": "Mina",
+      "slug": "mina-050502027"
+    },
+    "code": {
+      "id": "050502027",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1667",
+      "lon": "123.6667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Miti",
+      "en": "Miti",
+      "slug": "miti-050502028"
+    },
+    "code": {
+      "id": "050502028",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1333",
+      "lon": "123.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Palanog",
+      "en": "Palanog",
+      "slug": "palanog-050502029"
+    },
+    "code": {
+      "id": "050502029",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.146",
+      "lon": "123.6153"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panoypoy",
+      "en": "Panoypoy",
+      "slug": "panoypoy-050502030"
+    },
+    "code": {
+      "id": "050502030",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.0747",
+      "lon": "123.6603"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502031",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pariaan",
+      "en": "Pariaan",
+      "slug": "pariaan-050502031"
+    },
+    "code": {
+      "id": "050502031",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1083",
+      "lon": "123.5936"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Quinartilan",
+      "en": "Quinartilan",
+      "slug": "quinartilan-050502032"
+    },
+    "code": {
+      "id": "050502032",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.133",
+      "lon": "123.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Quirangay",
+      "en": "Quirangay",
+      "slug": "quirangay-050502033"
+    },
+    "code": {
+      "id": "050502033",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.133",
+      "lon": "123.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Quitinday",
+      "en": "Quitinday",
+      "slug": "quitinday-050502034"
+    },
+    "code": {
+      "id": "050502034",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.133",
+      "lon": "123.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salugan",
+      "en": "Salugan",
+      "slug": "salugan-050502035"
+    },
+    "code": {
+      "id": "050502035",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1833",
+      "lon": "123.6667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502036",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Solong",
+      "en": "Solong",
+      "slug": "solong-050502036"
+    },
+    "code": {
+      "id": "050502036",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1167",
+      "lon": "123.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502037",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sua",
+      "en": "Sua",
+      "slug": "sua-050502037"
+    },
+    "code": {
+      "id": "050502037",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1833",
+      "lon": "123.6667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502038",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sumlang",
+      "en": "Sumlang",
+      "slug": "sumlang-050502038"
+    },
+    "code": {
+      "id": "050502038",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.133",
+      "lon": "123.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502039",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tagaytay",
+      "en": "Tagaytay",
+      "slug": "tagaytay-050502039"
+    },
+    "code": {
+      "id": "050502039",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1631",
+      "lon": "123.6386"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502040",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tagoytoy",
+      "en": "Tagoytoy",
+      "slug": "tagoytoy-050502040"
+    },
+    "code": {
+      "id": "050502040",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.4158",
+      "lon": "123.678"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502041",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taladong",
+      "en": "Taladong",
+      "slug": "taladong-050502041"
+    },
+    "code": {
+      "id": "050502041",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.138",
+      "lon": "123.6526"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502042",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taloto",
+      "en": "Taloto",
+      "slug": "taloto-050502042"
+    },
+    "code": {
+      "id": "050502042",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.0766",
+      "lon": "123.64"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502043",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taplacon",
+      "en": "Taplacon",
+      "slug": "taplacon-050502043"
+    },
+    "code": {
+      "id": "050502043",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.0929",
+      "lon": "123.6406"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502044",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tinago",
+      "en": "Tinago",
+      "slug": "tinago-050502044"
+    },
+    "code": {
+      "id": "050502044",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.1833",
+      "lon": "123.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502045",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tumpa",
+      "en": "Tumpa",
+      "slug": "tumpa-050502045"
+    },
+    "code": {
+      "id": "050502045",
+      "iso": null
+    },
+    "parent": {
+      "id": "050502",
+      "level": 3,
+      "name": {
+        "local": "Camalig",
+        "en": "Camalig",
+        "slug": "camalig-050502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050502",
+        "level": 3,
+        "name": {
+          "local": "Camalig",
+          "en": "Camalig",
+          "slug": "camalig-050502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4502"
+    ],
+    "geo": {
+      "lat": "13.2007",
+      "lon": "123.6358"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

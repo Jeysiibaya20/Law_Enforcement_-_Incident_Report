@@ -34,8 +34,11 @@ require_once __DIR__ . '/includes/header.php';
                 <li><strong>cURL Extension:</strong>
                     <?php echo extension_loaded('curl') ? '<span class="text-success">Available</span>' : '<span class="text-danger">Not Available</span>'; ?>
                 </li>
-                <li><strong>OpenAI API Key:</strong>
-                    <?php echo getenv('OPENAI_API_KEY') ? '<span class="text-success">Set</span>' : '<span class="text-warning">Not set (will use fallback)</span>'; ?>
+                <li><strong>OpenAI / NLP AI API Key:</strong>
+                    <?php
+                    $aiKey = getenv('OPENAI_API_KEY') ?: getenv('NLP_AI_API_KEY') ?: getenv('CLOUD_NLP_API_KEY');
+                    echo $aiKey ? '<span class="text-success">Set</span>' : '<span class="text-warning">Not set (will use fallback)</span>'; 
+                    ?>
                 </li>
             </ul>
 

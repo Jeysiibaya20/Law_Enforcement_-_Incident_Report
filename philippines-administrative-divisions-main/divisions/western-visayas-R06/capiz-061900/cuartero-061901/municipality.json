@@ -1,0 +1,56 @@
+{
+  "id": "061901",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Cuartero",
+    "en": "Cuartero",
+    "slug": "cuartero-061901"
+  },
+  "code": {
+    "id": "061901",
+    "iso": null
+  },
+  "parent": {
+    "id": "061900",
+    "level": 2,
+    "name": {
+      "local": "Capiz",
+      "en": "Capiz",
+      "slug": "capiz-061900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 22
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.35",
+    "lon": "122.667"
+  },
+  "metadata": {},
+  "source": {}
+}

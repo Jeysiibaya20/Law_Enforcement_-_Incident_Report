@@ -1,0 +1,56 @@
+{
+  "id": "045618",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Guinayangan",
+    "en": "Guinayangan",
+    "slug": "guinayangan-045618"
+  },
+  "code": {
+    "id": "045618",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 54
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.9",
+    "lon": "122.45"
+  },
+  "metadata": {},
+  "source": {}
+}

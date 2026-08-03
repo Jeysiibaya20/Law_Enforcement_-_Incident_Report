@@ -6,6 +6,9 @@
  * @version 1.0.0
  */
 
+if (!defined('DB_CONNECT_LOADED')) {
+    define('DB_CONNECT_LOADED', true);
+
 // Load .env (simple parser)
 function parseDotEnv($path) {
     $result = [];
@@ -54,8 +57,17 @@ if (file_exists($mailerEnvPath)) {
     }
 }
 
+// Load env values into PHP runtime so getenv() works everywhere in the app
+foreach ($env as $k => $v) {
+    if (is_string($v) && trim($v) !== '') {
+        putenv($k . '=' . $v);
+        $_ENV[$k] = $v;
+        $_SERVER[$k] = $v;
+    }
+}
+
 // Database configuration (from .env, server env, or defaults)
-define('DB_HOST', getEnvValue(['DB_HOST', 'MYSQL_HOST', 'DATABASE_HOST'], $env, 'localhost'));
+define('DB_HOST', getEnvValue(['DB_HOST', 'MYSQL_HOST', 'DATABASE_HOST'], $env, '127.0.0.1'));
 define('DB_PORT', getEnvValue(['DB_PORT'], $env, '3306'));
 define('DB_NAME', getEnvValue(['DB_DATABASE', 'DB_NAME', 'MYSQL_DATABASE', 'DATABASE_NAME'], $env, 'law&inci'));
 define('DB_USER', getEnvValue(['DB_USERNAME', 'DB_USER', 'MYSQL_USER', 'DATABASE_USER'], $env, 'root'));
@@ -68,16 +80,42 @@ define('DB_CHARSET', getEnvValue(['DB_CHARSET'], $env, 'utf8mb4'));
  */
 function getDBConnection() {
     $hostCandidates = array_values(array_unique([DB_HOST, 'localhost', '127.0.0.1']));
-    $databaseCandidates = array_values(array_unique([DB_NAME, str_replace(['&', '-', ' '], ['_', '_', '_'], DB_NAME), 'law&inci', 'law_inci']));
+    $databaseCandidates = array_values(array_unique([DB_NAME, str_replace(['&', '-', ' '], ['_', '_', '_'], DB_NAME), 'law&inci', 'law_inci', 'mysql']));
     $userCandidates = array_values(array_unique([DB_USER, 'root', 'db_user', 'admin']));
     $passwordCandidates = array_values(array_unique([DB_PASS, '', 'password', 'root']));
+    $socketCandidates = array_values(array_unique([
+        getenv('MYSQL_UNIX_PORT') ?: '',
+        'C:/xampp/mysql/mysql.sock',
+        'C:\\xampp\\mysql\\mysql.sock',
+        '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock',
+        '/var/run/mysqld/mysqld.sock',
+    ]));
 
-    foreach ($hostCandidates as $host) {
-        foreach ($databaseCandidates as $dbName) {
-            foreach ($userCandidates as $user) {
-                foreach ($passwordCandidates as $pass) {
+    foreach ($databaseCandidates as $dbName) {
+        foreach ($userCandidates as $user) {
+            foreach ($passwordCandidates as $pass) {
+                foreach ($hostCandidates as $host) {
                     try {
                         $dsn = "mysql:host=" . $host . ";port=" . DB_PORT . ";dbname=" . $dbName . ";charset=" . DB_CHARSET;
+                        $options = [
+                            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+                            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+                            PDO::ATTR_EMULATE_PREPARES => false
+                        ];
+
+                        $pdo = new PDO($dsn, username: $user, password: $pass, options: $options);
+                        return $pdo;
+                    } catch (PDOException $e) {
+                        $lastError = $e->getMessage();
+                    }
+                }
+
+                foreach ($socketCandidates as $socket) {
+                    if ($socket === '') {
+                        continue;
+                    }
+                    try {
+                        $dsn = "mysql:unix_socket=" . $socket . ";dbname=" . $dbName . ";charset=" . DB_CHARSET;
                         $options = [
                             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
                             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
@@ -140,6 +178,7 @@ $skipCliAutoConnect = PHP_SAPI === 'cli' && in_array($scriptName, ['artisan', 'c
 
 if (!$skipCliAutoConnect) {
     $pdo = getDBConnection();
+}
 }
 ?>
 

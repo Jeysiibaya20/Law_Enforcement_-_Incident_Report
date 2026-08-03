@@ -1,0 +1,56 @@
+{
+  "id": "098312",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Roseller Lim",
+    "en": "Roseller Lim",
+    "slug": "roseller-lim-098312"
+  },
+  "code": {
+    "id": "098312",
+    "iso": null
+  },
+  "parent": {
+    "id": "098300",
+    "level": 2,
+    "name": {
+      "local": "Zamboanga Sibugay",
+      "en": "Zamboanga Sibugay",
+      "slug": "zamboanga-sibugay-098300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 26
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.7",
+    "lon": "122.467"
+  },
+  "metadata": {},
+  "source": {}
+}

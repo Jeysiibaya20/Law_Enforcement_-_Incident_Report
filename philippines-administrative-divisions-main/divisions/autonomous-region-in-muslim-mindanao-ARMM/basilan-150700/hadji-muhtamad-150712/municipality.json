@@ -1,0 +1,56 @@
+{
+  "id": "150712",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Hadji Muhtamad",
+    "en": "Hadji Muhtamad",
+    "slug": "hadji-muhtamad-150712"
+  },
+  "code": {
+    "id": "150712",
+    "iso": null
+  },
+  "parent": {
+    "id": "150700",
+    "level": 2,
+    "name": {
+      "local": "Basilan",
+      "en": "Basilan",
+      "slug": "basilan-150700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 10
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.633",
+    "lon": "121.617"
+  },
+  "metadata": {},
+  "source": {}
+}

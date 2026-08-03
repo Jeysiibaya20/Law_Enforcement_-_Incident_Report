@@ -1,0 +1,35 @@
+{
+  "id": "R05",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "Bicol Region",
+    "en": "Bicol Region",
+    "slug": "bicol-region-R05"
+  },
+  "code": {
+    "id": "R05",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 6,
+    "barangay": 3471,
+    "municipality": 114
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.2085",
+    "lon": "123.5496"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/bicol-region-R05/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

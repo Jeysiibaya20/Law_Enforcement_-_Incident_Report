@@ -1,0 +1,786 @@
+[
+  {
+    "id": "037101",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Botolan",
+      "en": "Botolan",
+      "slug": "botolan-037101"
+    },
+    "code": {
+      "id": "037101",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.283",
+      "lon": "120.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037102",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cabangan",
+      "en": "Cabangan",
+      "slug": "cabangan-037102"
+    },
+    "code": {
+      "id": "037102",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.133",
+      "lon": "120.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037103",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Candelaria",
+      "en": "Candelaria",
+      "slug": "candelaria-037103"
+    },
+    "code": {
+      "id": "037103",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.633",
+      "lon": "119.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Castillejos",
+      "en": "Castillejos",
+      "slug": "castillejos-037104"
+    },
+    "code": {
+      "id": "037104",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.933",
+      "lon": "120.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037105",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Iba",
+      "en": "Iba",
+      "slug": "iba-037105"
+    },
+    "code": {
+      "id": "037105",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.333",
+      "lon": "119.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037106",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Masinloc",
+      "en": "Masinloc",
+      "slug": "masinloc-037106"
+    },
+    "code": {
+      "id": "037106",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.533",
+      "lon": "119.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037107",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Olongapo City",
+      "en": "Olongapo City",
+      "slug": "olongapo-city-037107"
+    },
+    "code": {
+      "id": "037107",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.5959",
+      "lon": "120.8904"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037108",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Palauig",
+      "en": "Palauig",
+      "slug": "palauig-037108"
+    },
+    "code": {
+      "id": "037108",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.433",
+      "lon": "120.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037109",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Antonio",
+      "en": "San Antonio",
+      "slug": "san-antonio-037109"
+    },
+    "code": {
+      "id": "037109",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.9222",
+      "lon": "123.7233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037110",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Felipe",
+      "en": "San Felipe",
+      "slug": "san-felipe-037110"
+    },
+    "code": {
+      "id": "037110",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.06194",
+      "lon": "120.07"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037111",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Marcelino",
+      "en": "San Marcelino",
+      "slug": "san-marcelino-037111"
+    },
+    "code": {
+      "id": "037111",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.967",
+      "lon": "120.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037112",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Narciso",
+      "en": "San Narciso",
+      "slug": "san-narciso-037112"
+    },
+    "code": {
+      "id": "037112",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.017",
+      "lon": "120.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037113",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-037113"
+    },
+    "code": {
+      "id": "037113",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.5619",
+      "lon": "121.0799"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037114",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Subic",
+      "en": "Subic",
+      "slug": "subic-037114"
+    },
+    "code": {
+      "id": "037114",
+      "iso": null
+    },
+    "parent": {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.9",
+      "lon": "120.233"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

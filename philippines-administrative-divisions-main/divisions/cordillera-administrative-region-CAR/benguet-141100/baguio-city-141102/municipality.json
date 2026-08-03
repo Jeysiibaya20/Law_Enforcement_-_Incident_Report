@@ -1,0 +1,56 @@
+{
+  "id": "141102",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Baguio City",
+    "en": "Baguio City",
+    "slug": "baguio-city-141102"
+  },
+  "code": {
+    "id": "141102",
+    "iso": null
+  },
+  "parent": {
+    "id": "141100",
+    "level": 2,
+    "name": {
+      "local": "Benguet",
+      "en": "Benguet",
+      "slug": "benguet-141100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "141100",
+      "level": 2,
+      "name": {
+        "local": "Benguet",
+        "en": "Benguet",
+        "slug": "benguet-141100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 129
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.2755",
+    "lon": "121.2066"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,48 @@
+{
+  "id": "051700",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Camarines Sur",
+    "en": "Camarines Sur",
+    "slug": "camarines-sur-051700"
+  },
+  "code": {
+    "id": "051700",
+    "iso": null
+  },
+  "parent": {
+    "id": "R05",
+    "level": 1,
+    "name": {
+      "local": "Bicol Region",
+      "en": "Bicol Region",
+      "slug": "bicol-region-R05"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 37,
+    "barangay": 1063
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.5462",
+    "lon": "123.142"
+  },
+  "metadata": {},
+  "source": {}
+}

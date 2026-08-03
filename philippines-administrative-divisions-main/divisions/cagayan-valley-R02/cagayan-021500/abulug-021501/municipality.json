@@ -1,0 +1,56 @@
+{
+  "id": "021501",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Abulug",
+    "en": "Abulug",
+    "slug": "abulug-021501"
+  },
+  "code": {
+    "id": "021501",
+    "iso": null
+  },
+  "parent": {
+    "id": "021500",
+    "level": 2,
+    "name": {
+      "local": "Cagayan",
+      "en": "Cagayan",
+      "slug": "cagayan-021500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 20
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "18.45",
+    "lon": "121.45"
+  },
+  "metadata": {},
+  "source": {}
+}

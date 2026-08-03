@@ -1,0 +1,912 @@
+[
+  {
+    "id": "101307002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baborawon",
+      "en": "Baborawon",
+      "slug": "baborawon-101307002"
+    },
+    "code": {
+      "id": "101307002",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "7.75",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bangbang",
+      "en": "Bangbang",
+      "slug": "bangbang-101307001"
+    },
+    "code": {
+      "id": "101307001",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "13.1159",
+      "lon": "121.3021"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Canituan",
+      "en": "Canituan",
+      "slug": "canituan-101307003"
+    },
+    "code": {
+      "id": "101307003",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "11.15",
+      "lon": "122.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kibaning",
+      "en": "Kibaning",
+      "slug": "kibaning-101307004"
+    },
+    "code": {
+      "id": "101307004",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "7.75",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kinura",
+      "en": "Kinura",
+      "slug": "kinura-101307005"
+    },
+    "code": {
+      "id": "101307005",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "7.75",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lampanusan",
+      "en": "Lampanusan",
+      "slug": "lampanusan-101307006"
+    },
+    "code": {
+      "id": "101307006",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "7.75",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maca-opao",
+      "en": "Maca-opao",
+      "slug": "maca-opao-101307007"
+    },
+    "code": {
+      "id": "101307007",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "7.75",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malinao",
+      "en": "Malinao",
+      "slug": "malinao-101307008"
+    },
+    "code": {
+      "id": "101307008",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "8.2414",
+      "lon": "124.5814"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ninoy Aquino",
+      "en": "Ninoy Aquino",
+      "slug": "ninoy-aquino-101307013"
+    },
+    "code": {
+      "id": "101307013",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "15.1545",
+      "lon": "120.5968"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pamotolon (Pamotdon)",
+      "en": "Pamotolon (Pamotdon)",
+      "slug": "pamotolon-pamotdon-101307009"
+    },
+    "code": {
+      "id": "101307009",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "7.75",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-101307010"
+    },
+    "code": {
+      "id": "101307010",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Public",
+      "en": "Public",
+      "slug": "public-101307012"
+    },
+    "code": {
+      "id": "101307012",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "7.75",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Vicente Ferrer",
+      "en": "San Vicente Ferrer",
+      "slug": "san-vicente-ferrer-101307014"
+    },
+    "code": {
+      "id": "101307014",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "7.75",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "West Poblacion",
+      "en": "West Poblacion",
+      "slug": "west-poblacion-101307015"
+    },
+    "code": {
+      "id": "101307015",
+      "iso": null
+    },
+    "parent": {
+      "id": "101307",
+      "level": 3,
+      "name": {
+        "local": "Kalilangan",
+        "en": "Kalilangan",
+        "slug": "kalilangan-101307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101307",
+        "level": 3,
+        "name": {
+          "local": "Kalilangan",
+          "en": "Kalilangan",
+          "slug": "kalilangan-101307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8718"
+    ],
+    "geo": {
+      "lat": "15.82",
+      "lon": "121.1387"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

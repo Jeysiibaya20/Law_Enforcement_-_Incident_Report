@@ -1,0 +1,674 @@
+[
+  {
+    "id": "051601",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Basud",
+      "en": "Basud",
+      "slug": "basud-051601"
+    },
+    "code": {
+      "id": "051601",
+      "iso": null
+    },
+    "parent": {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.067",
+      "lon": "122.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Capalonga",
+      "en": "Capalonga",
+      "slug": "capalonga-051602"
+    },
+    "code": {
+      "id": "051602",
+      "iso": null
+    },
+    "parent": {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.333",
+      "lon": "122.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051603",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Daet",
+      "en": "Daet",
+      "slug": "daet-051603"
+    },
+    "code": {
+      "id": "051603",
+      "iso": null
+    },
+    "parent": {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.117",
+      "lon": "122.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051605",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Jose Panganiban",
+      "en": "Jose Panganiban",
+      "slug": "jose-panganiban-051605"
+    },
+    "code": {
+      "id": "051605",
+      "iso": null
+    },
+    "parent": {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.3",
+      "lon": "122.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051606",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Labo",
+      "en": "Labo",
+      "slug": "labo-051606"
+    },
+    "code": {
+      "id": "051606",
+      "iso": null
+    },
+    "parent": {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 52
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.017",
+      "lon": "122.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051607",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mercedes",
+      "en": "Mercedes",
+      "slug": "mercedes-051607"
+    },
+    "code": {
+      "id": "051607",
+      "iso": null
+    },
+    "parent": {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.1",
+      "lon": "123.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051608",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Paracale",
+      "en": "Paracale",
+      "slug": "paracale-051608"
+    },
+    "code": {
+      "id": "051608",
+      "iso": null
+    },
+    "parent": {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.283",
+      "lon": "122.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051604",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Lorenzo Ruiz (Imelda)",
+      "en": "San Lorenzo Ruiz (Imelda)",
+      "slug": "san-lorenzo-ruiz-imelda-051604"
+    },
+    "code": {
+      "id": "051604",
+      "iso": null
+    },
+    "parent": {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.617",
+      "lon": "122.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051609",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Vicente",
+      "en": "San Vicente",
+      "slug": "san-vicente-051609"
+    },
+    "code": {
+      "id": "051609",
+      "iso": null
+    },
+    "parent": {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.1",
+      "lon": "122.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051610",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Elena",
+      "en": "Santa Elena",
+      "slug": "santa-elena-051610"
+    },
+    "code": {
+      "id": "051610",
+      "iso": null
+    },
+    "parent": {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.2",
+      "lon": "122.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Talisay",
+      "en": "Talisay",
+      "slug": "talisay-051611"
+    },
+    "code": {
+      "id": "051611",
+      "iso": null
+    },
+    "parent": {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.133",
+      "lon": "122.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051612",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Vinzons",
+      "en": "Vinzons",
+      "slug": "vinzons-051612"
+    },
+    "code": {
+      "id": "051612",
+      "iso": null
+    },
+    "parent": {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.183",
+      "lon": "122.9"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

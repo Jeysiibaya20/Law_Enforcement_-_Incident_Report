@@ -1,0 +1,56 @@
+{
+  "id": "174005",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Cruz",
+    "en": "Santa Cruz",
+    "slug": "santa-cruz-174005"
+  },
+  "code": {
+    "id": "174005",
+    "iso": null
+  },
+  "parent": {
+    "id": "174000",
+    "level": 2,
+    "name": {
+      "local": "Marinduque",
+      "en": "Marinduque",
+      "slug": "marinduque-174000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "174000",
+      "level": 2,
+      "name": {
+        "local": "Marinduque",
+        "en": "Marinduque",
+        "slug": "marinduque-174000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 55
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.47667",
+    "lon": "122.02667"
+  },
+  "metadata": {},
+  "source": {}
+}

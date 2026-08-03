@@ -1,0 +1,912 @@
+[
+  {
+    "id": "168502001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Boa",
+      "en": "Boa",
+      "slug": "boa-168502001"
+    },
+    "code": {
+      "id": "168502001",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "10.0997",
+      "lon": "125.6795"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabunga-an",
+      "en": "Cabunga-an",
+      "slug": "cabunga-an-168502002"
+    },
+    "code": {
+      "id": "168502002",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "11.2833",
+      "lon": "124.7833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Del Pilar",
+      "en": "Del Pilar",
+      "slug": "del-pilar-168502003"
+    },
+    "code": {
+      "id": "168502003",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "9.9953",
+      "lon": "125.675"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Laguna",
+      "en": "Laguna",
+      "slug": "laguna-168502004"
+    },
+    "code": {
+      "id": "168502004",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "9.7655",
+      "lon": "123.39"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Legaspi",
+      "en": "Legaspi",
+      "slug": "legaspi-168502005"
+    },
+    "code": {
+      "id": "168502005",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ma-atas",
+      "en": "Ma-atas",
+      "slug": "ma-atas-168502006"
+    },
+    "code": {
+      "id": "168502006",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "9.9439",
+      "lon": "125.6428"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabini (Borja)",
+      "en": "Mabini (Borja)",
+      "slug": "mabini-borja-168502013"
+    },
+    "code": {
+      "id": "168502013",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "10.3289",
+      "lon": "125.5925"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nueva Estrella",
+      "en": "Nueva Estrella",
+      "slug": "nueva-estrella-168502007"
+    },
+    "code": {
+      "id": "168502007",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "9.9692",
+      "lon": "125.675"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-168502008"
+    },
+    "code": {
+      "id": "168502008",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "R. Ecleo, Sr.",
+      "en": "R. Ecleo, Sr.",
+      "slug": "r-ecleo-sr-168502014"
+    },
+    "code": {
+      "id": "168502014",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "9.917",
+      "lon": "125.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-168502009"
+    },
+    "code": {
+      "id": "168502009",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "10.0083",
+      "lon": "125.5889"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Rita",
+      "en": "Santa Rita",
+      "slug": "santa-rita-168502010"
+    },
+    "code": {
+      "id": "168502010",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "14.9953",
+      "lon": "120.6153"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tigbao",
+      "en": "Tigbao",
+      "slug": "tigbao-168502011"
+    },
+    "code": {
+      "id": "168502011",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "7.8205",
+      "lon": "123.2277"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Valencia",
+      "en": "Valencia",
+      "slug": "valencia-168502012"
+    },
+    "code": {
+      "id": "168502012",
+      "iso": null
+    },
+    "parent": {
+      "id": "168502",
+      "level": 3,
+      "name": {
+        "local": "Cagdianao",
+        "en": "Cagdianao",
+        "slug": "cagdianao-168502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168502",
+        "level": 3,
+        "name": {
+          "local": "Cagdianao",
+          "en": "Cagdianao",
+          "slug": "cagdianao-168502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8411"
+    ],
+    "geo": {
+      "lat": "10.1524",
+      "lon": "125.6596"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

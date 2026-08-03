@@ -1,0 +1,522 @@
+[
+  {
+    "id": "153826002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dapiawan",
+      "en": "Dapiawan",
+      "slug": "dapiawan-153826002"
+    },
+    "code": {
+      "id": "153826002",
+      "iso": null
+    },
+    "parent": {
+      "id": "153826",
+      "level": 3,
+      "name": {
+        "local": "Datu Saudi-Ampatuan",
+        "en": "Datu Saudi-Ampatuan",
+        "slug": "datu-saudi-ampatuan-153826"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153826",
+        "level": 3,
+        "name": {
+          "local": "Datu Saudi-Ampatuan",
+          "en": "Datu Saudi-Ampatuan",
+          "slug": "datu-saudi-ampatuan-153826"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9626"
+    ],
+    "geo": {
+      "lat": "6.9644",
+      "lon": "124.4533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153826003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Elian",
+      "en": "Elian",
+      "slug": "elian-153826003"
+    },
+    "code": {
+      "id": "153826003",
+      "iso": null
+    },
+    "parent": {
+      "id": "153826",
+      "level": 3,
+      "name": {
+        "local": "Datu Saudi-Ampatuan",
+        "en": "Datu Saudi-Ampatuan",
+        "slug": "datu-saudi-ampatuan-153826"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153826",
+        "level": 3,
+        "name": {
+          "local": "Datu Saudi-Ampatuan",
+          "en": "Datu Saudi-Ampatuan",
+          "slug": "datu-saudi-ampatuan-153826"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9626"
+    ],
+    "geo": {
+      "lat": "6.95722",
+      "lon": "124.44444"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153826005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gawang",
+      "en": "Gawang",
+      "slug": "gawang-153826005"
+    },
+    "code": {
+      "id": "153826005",
+      "iso": null
+    },
+    "parent": {
+      "id": "153826",
+      "level": 3,
+      "name": {
+        "local": "Datu Saudi-Ampatuan",
+        "en": "Datu Saudi-Ampatuan",
+        "slug": "datu-saudi-ampatuan-153826"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153826",
+        "level": 3,
+        "name": {
+          "local": "Datu Saudi-Ampatuan",
+          "en": "Datu Saudi-Ampatuan",
+          "slug": "datu-saudi-ampatuan-153826"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9626"
+    ],
+    "geo": {
+      "lat": "6.95722",
+      "lon": "124.44444"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153826007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kabengi",
+      "en": "Kabengi",
+      "slug": "kabengi-153826007"
+    },
+    "code": {
+      "id": "153826007",
+      "iso": null
+    },
+    "parent": {
+      "id": "153826",
+      "level": 3,
+      "name": {
+        "local": "Datu Saudi-Ampatuan",
+        "en": "Datu Saudi-Ampatuan",
+        "slug": "datu-saudi-ampatuan-153826"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153826",
+        "level": 3,
+        "name": {
+          "local": "Datu Saudi-Ampatuan",
+          "en": "Datu Saudi-Ampatuan",
+          "slug": "datu-saudi-ampatuan-153826"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9626"
+    ],
+    "geo": {
+      "lat": "6.95722",
+      "lon": "124.44444"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153826008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kitango",
+      "en": "Kitango",
+      "slug": "kitango-153826008"
+    },
+    "code": {
+      "id": "153826008",
+      "iso": null
+    },
+    "parent": {
+      "id": "153826",
+      "level": 3,
+      "name": {
+        "local": "Datu Saudi-Ampatuan",
+        "en": "Datu Saudi-Ampatuan",
+        "slug": "datu-saudi-ampatuan-153826"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153826",
+        "level": 3,
+        "name": {
+          "local": "Datu Saudi-Ampatuan",
+          "en": "Datu Saudi-Ampatuan",
+          "slug": "datu-saudi-ampatuan-153826"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9626"
+    ],
+    "geo": {
+      "lat": "6.9483",
+      "lon": "124.4411"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153826009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kitapok",
+      "en": "Kitapok",
+      "slug": "kitapok-153826009"
+    },
+    "code": {
+      "id": "153826009",
+      "iso": null
+    },
+    "parent": {
+      "id": "153826",
+      "level": 3,
+      "name": {
+        "local": "Datu Saudi-Ampatuan",
+        "en": "Datu Saudi-Ampatuan",
+        "slug": "datu-saudi-ampatuan-153826"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153826",
+        "level": 3,
+        "name": {
+          "local": "Datu Saudi-Ampatuan",
+          "en": "Datu Saudi-Ampatuan",
+          "slug": "datu-saudi-ampatuan-153826"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9626"
+    ],
+    "geo": {
+      "lat": "6.9533",
+      "lon": "124.4256"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153826010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Madia",
+      "en": "Madia",
+      "slug": "madia-153826010"
+    },
+    "code": {
+      "id": "153826010",
+      "iso": null
+    },
+    "parent": {
+      "id": "153826",
+      "level": 3,
+      "name": {
+        "local": "Datu Saudi-Ampatuan",
+        "en": "Datu Saudi-Ampatuan",
+        "slug": "datu-saudi-ampatuan-153826"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153826",
+        "level": 3,
+        "name": {
+          "local": "Datu Saudi-Ampatuan",
+          "en": "Datu Saudi-Ampatuan",
+          "slug": "datu-saudi-ampatuan-153826"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9626"
+    ],
+    "geo": {
+      "lat": "6.95722",
+      "lon": "124.44444"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153826013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salbu",
+      "en": "Salbu",
+      "slug": "salbu-153826013"
+    },
+    "code": {
+      "id": "153826013",
+      "iso": null
+    },
+    "parent": {
+      "id": "153826",
+      "level": 3,
+      "name": {
+        "local": "Datu Saudi-Ampatuan",
+        "en": "Datu Saudi-Ampatuan",
+        "slug": "datu-saudi-ampatuan-153826"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153826",
+        "level": 3,
+        "name": {
+          "local": "Datu Saudi-Ampatuan",
+          "en": "Datu Saudi-Ampatuan",
+          "slug": "datu-saudi-ampatuan-153826"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9626"
+    ],
+    "geo": {
+      "lat": "6.9348",
+      "lon": "124.428"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

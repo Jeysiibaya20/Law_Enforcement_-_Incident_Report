@@ -1,0 +1,782 @@
+[
+  {
+    "id": "140108002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Benben (Bonbon)",
+      "en": "Benben (Bonbon)",
+      "slug": "benben-bonbon-140108002"
+    },
+    "code": {
+      "id": "140108002",
+      "iso": null
+    },
+    "parent": {
+      "id": "140108",
+      "level": 3,
+      "name": {
+        "local": "La Paz",
+        "en": "La Paz",
+        "slug": "la-paz-140108"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140108",
+        "level": 3,
+        "name": {
+          "local": "La Paz",
+          "en": "La Paz",
+          "slug": "la-paz-140108"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2826"
+    ],
+    "geo": {
+      "lat": "17.663",
+      "lon": "120.6517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140108003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulbulala",
+      "en": "Bulbulala",
+      "slug": "bulbulala-140108003"
+    },
+    "code": {
+      "id": "140108003",
+      "iso": null
+    },
+    "parent": {
+      "id": "140108",
+      "level": 3,
+      "name": {
+        "local": "La Paz",
+        "en": "La Paz",
+        "slug": "la-paz-140108"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140108",
+        "level": 3,
+        "name": {
+          "local": "La Paz",
+          "en": "La Paz",
+          "slug": "la-paz-140108"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2826"
+    ],
+    "geo": {
+      "lat": "17.6473",
+      "lon": "120.6584"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140108004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buli",
+      "en": "Buli",
+      "slug": "buli-140108004"
+    },
+    "code": {
+      "id": "140108004",
+      "iso": null
+    },
+    "parent": {
+      "id": "140108",
+      "level": 3,
+      "name": {
+        "local": "La Paz",
+        "en": "La Paz",
+        "slug": "la-paz-140108"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140108",
+        "level": 3,
+        "name": {
+          "local": "La Paz",
+          "en": "La Paz",
+          "slug": "la-paz-140108"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2826"
+    ],
+    "geo": {
+      "lat": "17.6821",
+      "lon": "120.6953"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140108005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Canan (Gapan)",
+      "en": "Canan (Gapan)",
+      "slug": "canan-gapan-140108005"
+    },
+    "code": {
+      "id": "140108005",
+      "iso": null
+    },
+    "parent": {
+      "id": "140108",
+      "level": 3,
+      "name": {
+        "local": "La Paz",
+        "en": "La Paz",
+        "slug": "la-paz-140108"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140108",
+        "level": 3,
+        "name": {
+          "local": "La Paz",
+          "en": "La Paz",
+          "slug": "la-paz-140108"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2826"
+    ],
+    "geo": {
+      "lat": "17.661",
+      "lon": "120.6689"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140108006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Liguis",
+      "en": "Liguis",
+      "slug": "liguis-140108006"
+    },
+    "code": {
+      "id": "140108006",
+      "iso": null
+    },
+    "parent": {
+      "id": "140108",
+      "level": 3,
+      "name": {
+        "local": "La Paz",
+        "en": "La Paz",
+        "slug": "la-paz-140108"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140108",
+        "level": 3,
+        "name": {
+          "local": "La Paz",
+          "en": "La Paz",
+          "slug": "la-paz-140108"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2826"
+    ],
+    "geo": {
+      "lat": "17.6523",
+      "lon": "120.6325"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140108007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malabbaga",
+      "en": "Malabbaga",
+      "slug": "malabbaga-140108007"
+    },
+    "code": {
+      "id": "140108007",
+      "iso": null
+    },
+    "parent": {
+      "id": "140108",
+      "level": 3,
+      "name": {
+        "local": "La Paz",
+        "en": "La Paz",
+        "slug": "la-paz-140108"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140108",
+        "level": 3,
+        "name": {
+          "local": "La Paz",
+          "en": "La Paz",
+          "slug": "la-paz-140108"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2826"
+    ],
+    "geo": {
+      "lat": "17.6965",
+      "lon": "120.702"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140108008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mudeng",
+      "en": "Mudeng",
+      "slug": "mudeng-140108008"
+    },
+    "code": {
+      "id": "140108008",
+      "iso": null
+    },
+    "parent": {
+      "id": "140108",
+      "level": 3,
+      "name": {
+        "local": "La Paz",
+        "en": "La Paz",
+        "slug": "la-paz-140108"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140108",
+        "level": 3,
+        "name": {
+          "local": "La Paz",
+          "en": "La Paz",
+          "slug": "la-paz-140108"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2826"
+    ],
+    "geo": {
+      "lat": "17.6298",
+      "lon": "120.6192"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140108009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pidipid",
+      "en": "Pidipid",
+      "slug": "pidipid-140108009"
+    },
+    "code": {
+      "id": "140108009",
+      "iso": null
+    },
+    "parent": {
+      "id": "140108",
+      "level": 3,
+      "name": {
+        "local": "La Paz",
+        "en": "La Paz",
+        "slug": "la-paz-140108"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140108",
+        "level": 3,
+        "name": {
+          "local": "La Paz",
+          "en": "La Paz",
+          "slug": "la-paz-140108"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2826"
+    ],
+    "geo": {
+      "lat": "17.6666",
+      "lon": "120.6628"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140108010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-140108010"
+    },
+    "code": {
+      "id": "140108010",
+      "iso": null
+    },
+    "parent": {
+      "id": "140108",
+      "level": 3,
+      "name": {
+        "local": "La Paz",
+        "en": "La Paz",
+        "slug": "la-paz-140108"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140108",
+        "level": 3,
+        "name": {
+          "local": "La Paz",
+          "en": "La Paz",
+          "slug": "la-paz-140108"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2826"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140108011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Gregorio",
+      "en": "San Gregorio",
+      "slug": "san-gregorio-140108011"
+    },
+    "code": {
+      "id": "140108011",
+      "iso": null
+    },
+    "parent": {
+      "id": "140108",
+      "level": 3,
+      "name": {
+        "local": "La Paz",
+        "en": "La Paz",
+        "slug": "la-paz-140108"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140108",
+        "level": 3,
+        "name": {
+          "local": "La Paz",
+          "en": "La Paz",
+          "slug": "la-paz-140108"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2826"
+    ],
+    "geo": {
+      "lat": "17.648",
+      "lon": "120.6434"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140108012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Toon",
+      "en": "Toon",
+      "slug": "toon-140108012"
+    },
+    "code": {
+      "id": "140108012",
+      "iso": null
+    },
+    "parent": {
+      "id": "140108",
+      "level": 3,
+      "name": {
+        "local": "La Paz",
+        "en": "La Paz",
+        "slug": "la-paz-140108"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140108",
+        "level": 3,
+        "name": {
+          "local": "La Paz",
+          "en": "La Paz",
+          "slug": "la-paz-140108"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2826"
+    ],
+    "geo": {
+      "lat": "17.6667",
+      "lon": "120.6833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140108013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Udangan",
+      "en": "Udangan",
+      "slug": "udangan-140108013"
+    },
+    "code": {
+      "id": "140108013",
+      "iso": null
+    },
+    "parent": {
+      "id": "140108",
+      "level": 3,
+      "name": {
+        "local": "La Paz",
+        "en": "La Paz",
+        "slug": "la-paz-140108"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140108",
+        "level": 3,
+        "name": {
+          "local": "La Paz",
+          "en": "La Paz",
+          "slug": "la-paz-140108"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2826"
+    ],
+    "geo": {
+      "lat": "17.6382",
+      "lon": "120.6154"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

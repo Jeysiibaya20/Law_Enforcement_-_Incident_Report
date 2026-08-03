@@ -1,0 +1,56 @@
+{
+  "id": "153821",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Talitay",
+    "en": "Talitay",
+    "slug": "talitay-153821"
+  },
+  "code": {
+    "id": "153821",
+    "iso": null
+  },
+  "parent": {
+    "id": "153800",
+    "level": 2,
+    "name": {
+      "local": "Maguindanao",
+      "en": "Maguindanao",
+      "slug": "maguindanao-153800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "153800",
+      "level": 2,
+      "name": {
+        "local": "Maguindanao",
+        "en": "Maguindanao",
+        "slug": "maguindanao-153800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 9
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.99667",
+    "lon": "124.70528"
+  },
+  "metadata": {},
+  "source": {}
+}

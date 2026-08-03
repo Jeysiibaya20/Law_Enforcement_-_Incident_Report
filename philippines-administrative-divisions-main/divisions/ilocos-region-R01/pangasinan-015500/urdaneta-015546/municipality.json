@@ -1,0 +1,56 @@
+{
+  "id": "015546",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Urdaneta",
+    "en": "Urdaneta",
+    "slug": "urdaneta-015546"
+  },
+  "code": {
+    "id": "015546",
+    "iso": null
+  },
+  "parent": {
+    "id": "015500",
+    "level": 2,
+    "name": {
+      "local": "Pangasinan",
+      "en": "Pangasinan",
+      "slug": "pangasinan-015500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 34
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.97611",
+    "lon": "120.57111"
+  },
+  "metadata": {},
+  "source": {}
+}

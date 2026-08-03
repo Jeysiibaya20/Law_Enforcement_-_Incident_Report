@@ -1,0 +1,56 @@
+{
+  "id": "153813",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sultan Sa Barongis (Lambayong)",
+    "en": "Sultan Sa Barongis (Lambayong)",
+    "slug": "sultan-sa-barongis-lambayong-153813"
+  },
+  "code": {
+    "id": "153813",
+    "iso": null
+  },
+  "parent": {
+    "id": "153800",
+    "level": 2,
+    "name": {
+      "local": "Maguindanao",
+      "en": "Maguindanao",
+      "slug": "maguindanao-153800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "153800",
+      "level": 2,
+      "name": {
+        "local": "Maguindanao",
+        "en": "Maguindanao",
+        "slug": "maguindanao-153800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 12
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.8",
+    "lon": "124.633"
+  },
+  "metadata": {},
+  "source": {}
+}

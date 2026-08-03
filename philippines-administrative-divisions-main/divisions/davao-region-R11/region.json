@@ -1,0 +1,35 @@
+{
+  "id": "R11",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "Davao Region",
+    "en": "Davao Region",
+    "slug": "davao-region-R11"
+  },
+  "code": {
+    "id": "R11",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 5,
+    "barangay": 1162,
+    "municipality": 49
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.9166",
+    "lon": "125.2928"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/davao-region-R11/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

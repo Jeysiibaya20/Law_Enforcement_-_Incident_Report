@@ -1,0 +1,56 @@
+{
+  "id": "063034",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Oton",
+    "en": "Oton",
+    "slug": "oton-063034"
+  },
+  "code": {
+    "id": "063034",
+    "iso": null
+  },
+  "parent": {
+    "id": "063000",
+    "level": 2,
+    "name": {
+      "local": "Iloilo",
+      "en": "Iloilo",
+      "slug": "iloilo-063000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 37
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.7",
+    "lon": "122.467"
+  },
+  "metadata": {},
+  "source": {}
+}

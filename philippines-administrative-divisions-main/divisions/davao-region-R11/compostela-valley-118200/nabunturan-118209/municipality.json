@@ -1,0 +1,56 @@
+{
+  "id": "118209",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Nabunturan",
+    "en": "Nabunturan",
+    "slug": "nabunturan-118209"
+  },
+  "code": {
+    "id": "118209",
+    "iso": null
+  },
+  "parent": {
+    "id": "118200",
+    "level": 2,
+    "name": {
+      "local": "Compostela Valley",
+      "en": "Compostela Valley",
+      "slug": "compostela-valley-118200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    {
+      "id": "118200",
+      "level": 2,
+      "name": {
+        "local": "Compostela Valley",
+        "en": "Compostela Valley",
+        "slug": "compostela-valley-118200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 28
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.6",
+    "lon": "125.967"
+  },
+  "metadata": {},
+  "source": {}
+}

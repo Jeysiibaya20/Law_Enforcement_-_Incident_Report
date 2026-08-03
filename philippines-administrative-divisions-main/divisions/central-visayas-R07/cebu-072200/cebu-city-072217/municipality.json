@@ -1,0 +1,56 @@
+{
+  "id": "072217",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Cebu City",
+    "en": "Cebu City",
+    "slug": "cebu-city-072217"
+  },
+  "code": {
+    "id": "072217",
+    "iso": null
+  },
+  "parent": {
+    "id": "072200",
+    "level": 2,
+    "name": {
+      "local": "Cebu",
+      "en": "Cebu",
+      "slug": "cebu-072200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 80
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.1377",
+    "lon": "123.3847"
+  },
+  "metadata": {},
+  "source": {}
+}

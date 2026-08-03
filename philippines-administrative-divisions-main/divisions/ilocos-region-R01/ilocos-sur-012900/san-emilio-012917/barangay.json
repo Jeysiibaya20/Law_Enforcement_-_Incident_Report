@@ -1,0 +1,522 @@
+[
+  {
+    "id": "012917001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabaroan (Pob.)",
+      "en": "Cabaroan (Pob.)",
+      "slug": "cabaroan-pob-012917001"
+    },
+    "code": {
+      "id": "012917001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012917",
+      "level": 3,
+      "name": {
+        "local": "San Emilio",
+        "en": "San Emilio",
+        "slug": "san-emilio-012917"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012917",
+        "level": 3,
+        "name": {
+          "local": "San Emilio",
+          "en": "San Emilio",
+          "slug": "san-emilio-012917"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2722"
+    ],
+    "geo": {
+      "lat": "17.5862",
+      "lon": "120.3711"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012917002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kalumsing",
+      "en": "Kalumsing",
+      "slug": "kalumsing-012917002"
+    },
+    "code": {
+      "id": "012917002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012917",
+      "level": 3,
+      "name": {
+        "local": "San Emilio",
+        "en": "San Emilio",
+        "slug": "san-emilio-012917"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012917",
+        "level": 3,
+        "name": {
+          "local": "San Emilio",
+          "en": "San Emilio",
+          "slug": "san-emilio-012917"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2722"
+    ],
+    "geo": {
+      "lat": "17.274",
+      "lon": "120.5565"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012917003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lancuas",
+      "en": "Lancuas",
+      "slug": "lancuas-012917003"
+    },
+    "code": {
+      "id": "012917003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012917",
+      "level": 3,
+      "name": {
+        "local": "San Emilio",
+        "en": "San Emilio",
+        "slug": "san-emilio-012917"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012917",
+        "level": 3,
+        "name": {
+          "local": "San Emilio",
+          "en": "San Emilio",
+          "slug": "san-emilio-012917"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2722"
+    ],
+    "geo": {
+      "lat": "17.2535",
+      "lon": "120.5906"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012917004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Matibuey",
+      "en": "Matibuey",
+      "slug": "matibuey-012917004"
+    },
+    "code": {
+      "id": "012917004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012917",
+      "level": 3,
+      "name": {
+        "local": "San Emilio",
+        "en": "San Emilio",
+        "slug": "san-emilio-012917"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012917",
+        "level": 3,
+        "name": {
+          "local": "San Emilio",
+          "en": "San Emilio",
+          "slug": "san-emilio-012917"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2722"
+    ],
+    "geo": {
+      "lat": "17.2167",
+      "lon": "120.6833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012917005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Paltoc",
+      "en": "Paltoc",
+      "slug": "paltoc-012917005"
+    },
+    "code": {
+      "id": "012917005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012917",
+      "level": 3,
+      "name": {
+        "local": "San Emilio",
+        "en": "San Emilio",
+        "slug": "san-emilio-012917"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012917",
+        "level": 3,
+        "name": {
+          "local": "San Emilio",
+          "en": "San Emilio",
+          "slug": "san-emilio-012917"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2722"
+    ],
+    "geo": {
+      "lat": "17.2214",
+      "lon": "120.5669"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012917008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miliano",
+      "en": "San Miliano",
+      "slug": "san-miliano-012917008"
+    },
+    "code": {
+      "id": "012917008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012917",
+      "level": 3,
+      "name": {
+        "local": "San Emilio",
+        "en": "San Emilio",
+        "slug": "san-emilio-012917"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012917",
+        "level": 3,
+        "name": {
+          "local": "San Emilio",
+          "en": "San Emilio",
+          "slug": "san-emilio-012917"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2722"
+    ],
+    "geo": {
+      "lat": "17.233",
+      "lon": "120.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012917006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sibsibbu",
+      "en": "Sibsibbu",
+      "slug": "sibsibbu-012917006"
+    },
+    "code": {
+      "id": "012917006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012917",
+      "level": 3,
+      "name": {
+        "local": "San Emilio",
+        "en": "San Emilio",
+        "slug": "san-emilio-012917"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012917",
+        "level": 3,
+        "name": {
+          "local": "San Emilio",
+          "en": "San Emilio",
+          "slug": "san-emilio-012917"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2722"
+    ],
+    "geo": {
+      "lat": "17.2972",
+      "lon": "120.5751"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012917007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tiagan",
+      "en": "Tiagan",
+      "slug": "tiagan-012917007"
+    },
+    "code": {
+      "id": "012917007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012917",
+      "level": 3,
+      "name": {
+        "local": "San Emilio",
+        "en": "San Emilio",
+        "slug": "san-emilio-012917"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012917",
+        "level": 3,
+        "name": {
+          "local": "San Emilio",
+          "en": "San Emilio",
+          "slug": "san-emilio-012917"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2722"
+    ],
+    "geo": {
+      "lat": "17.2219",
+      "lon": "120.6178"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

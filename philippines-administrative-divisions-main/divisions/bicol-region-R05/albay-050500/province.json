@@ -1,0 +1,48 @@
+{
+  "id": "050500",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Albay",
+    "en": "Albay",
+    "slug": "albay-050500"
+  },
+  "code": {
+    "id": "050500",
+    "iso": null
+  },
+  "parent": {
+    "id": "R05",
+    "level": 1,
+    "name": {
+      "local": "Bicol Region",
+      "en": "Bicol Region",
+      "slug": "bicol-region-R05"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 18,
+    "barangay": 720
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.2725",
+    "lon": "123.3927"
+  },
+  "metadata": {},
+  "source": {}
+}

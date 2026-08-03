@@ -1,0 +1,717 @@
+[
+  {
+    "id": "104326001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balacanas",
+      "en": "Balacanas",
+      "slug": "balacanas-104326001"
+    },
+    "code": {
+      "id": "104326001",
+      "iso": null
+    },
+    "parent": {
+      "id": "104326",
+      "level": 3,
+      "name": {
+        "local": "Villanueva",
+        "en": "Villanueva",
+        "slug": "villanueva-104326"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      },
+      {
+        "id": "104326",
+        "level": 3,
+        "name": {
+          "local": "Villanueva",
+          "en": "Villanueva",
+          "slug": "villanueva-104326"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9002"
+    ],
+    "geo": {
+      "lat": "8.5606",
+      "lon": "124.7425"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104326003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dayawan",
+      "en": "Dayawan",
+      "slug": "dayawan-104326003"
+    },
+    "code": {
+      "id": "104326003",
+      "iso": null
+    },
+    "parent": {
+      "id": "104326",
+      "level": 3,
+      "name": {
+        "local": "Villanueva",
+        "en": "Villanueva",
+        "slug": "villanueva-104326"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      },
+      {
+        "id": "104326",
+        "level": 3,
+        "name": {
+          "local": "Villanueva",
+          "en": "Villanueva",
+          "slug": "villanueva-104326"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9002"
+    ],
+    "geo": {
+      "lat": "7.8017",
+      "lon": "124.3247"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104326010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Imelda",
+      "en": "Imelda",
+      "slug": "imelda-104326010"
+    },
+    "code": {
+      "id": "104326010",
+      "iso": null
+    },
+    "parent": {
+      "id": "104326",
+      "level": 3,
+      "name": {
+        "local": "Villanueva",
+        "en": "Villanueva",
+        "slug": "villanueva-104326"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      },
+      {
+        "id": "104326",
+        "level": 3,
+        "name": {
+          "local": "Villanueva",
+          "en": "Villanueva",
+          "slug": "villanueva-104326"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9002"
+    ],
+    "geo": {
+      "lat": "15.333",
+      "lon": "120.9176"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104326004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Katipunan",
+      "en": "Katipunan",
+      "slug": "katipunan-104326004"
+    },
+    "code": {
+      "id": "104326004",
+      "iso": null
+    },
+    "parent": {
+      "id": "104326",
+      "level": 3,
+      "name": {
+        "local": "Villanueva",
+        "en": "Villanueva",
+        "slug": "villanueva-104326"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      },
+      {
+        "id": "104326",
+        "level": 3,
+        "name": {
+          "local": "Villanueva",
+          "en": "Villanueva",
+          "slug": "villanueva-104326"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9002"
+    ],
+    "geo": {
+      "lat": "8.5134",
+      "lon": "123.2847"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104326005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kimaya",
+      "en": "Kimaya",
+      "slug": "kimaya-104326005"
+    },
+    "code": {
+      "id": "104326005",
+      "iso": null
+    },
+    "parent": {
+      "id": "104326",
+      "level": 3,
+      "name": {
+        "local": "Villanueva",
+        "en": "Villanueva",
+        "slug": "villanueva-104326"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      },
+      {
+        "id": "104326",
+        "level": 3,
+        "name": {
+          "local": "Villanueva",
+          "en": "Villanueva",
+          "slug": "villanueva-104326"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9002"
+    ],
+    "geo": {
+      "lat": "8.6492",
+      "lon": "124.7656"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104326011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Looc",
+      "en": "Looc",
+      "slug": "looc-104326011"
+    },
+    "code": {
+      "id": "104326011",
+      "iso": null
+    },
+    "parent": {
+      "id": "104326",
+      "level": 3,
+      "name": {
+        "local": "Villanueva",
+        "en": "Villanueva",
+        "slug": "villanueva-104326"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      },
+      {
+        "id": "104326",
+        "level": 3,
+        "name": {
+          "local": "Villanueva",
+          "en": "Villanueva",
+          "slug": "villanueva-104326"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9002"
+    ],
+    "geo": {
+      "lat": "12.2605",
+      "lon": "121.9926"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104326007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion 1",
+      "en": "Poblacion 1",
+      "slug": "poblacion-1-104326007"
+    },
+    "code": {
+      "id": "104326007",
+      "iso": null
+    },
+    "parent": {
+      "id": "104326",
+      "level": 3,
+      "name": {
+        "local": "Villanueva",
+        "en": "Villanueva",
+        "slug": "villanueva-104326"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      },
+      {
+        "id": "104326",
+        "level": 3,
+        "name": {
+          "local": "Villanueva",
+          "en": "Villanueva",
+          "slug": "villanueva-104326"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9002"
+    ],
+    "geo": {
+      "lat": "14.2983",
+      "lon": "121.0096"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104326012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion 2",
+      "en": "Poblacion 2",
+      "slug": "poblacion-2-104326012"
+    },
+    "code": {
+      "id": "104326012",
+      "iso": null
+    },
+    "parent": {
+      "id": "104326",
+      "level": 3,
+      "name": {
+        "local": "Villanueva",
+        "en": "Villanueva",
+        "slug": "villanueva-104326"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      },
+      {
+        "id": "104326",
+        "level": 3,
+        "name": {
+          "local": "Villanueva",
+          "en": "Villanueva",
+          "slug": "villanueva-104326"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9002"
+    ],
+    "geo": {
+      "lat": "14.2949",
+      "lon": "121.0091"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104326013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion 3",
+      "en": "Poblacion 3",
+      "slug": "poblacion-3-104326013"
+    },
+    "code": {
+      "id": "104326013",
+      "iso": null
+    },
+    "parent": {
+      "id": "104326",
+      "level": 3,
+      "name": {
+        "local": "Villanueva",
+        "en": "Villanueva",
+        "slug": "villanueva-104326"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      },
+      {
+        "id": "104326",
+        "level": 3,
+        "name": {
+          "local": "Villanueva",
+          "en": "Villanueva",
+          "slug": "villanueva-104326"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9002"
+    ],
+    "geo": {
+      "lat": "14.2923",
+      "lon": "121.007"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104326008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Martin",
+      "en": "San Martin",
+      "slug": "san-martin-104326008"
+    },
+    "code": {
+      "id": "104326008",
+      "iso": null
+    },
+    "parent": {
+      "id": "104326",
+      "level": 3,
+      "name": {
+        "local": "Villanueva",
+        "en": "Villanueva",
+        "slug": "villanueva-104326"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      },
+      {
+        "id": "104326",
+        "level": 3,
+        "name": {
+          "local": "Villanueva",
+          "en": "Villanueva",
+          "slug": "villanueva-104326"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9002"
+    ],
+    "geo": {
+      "lat": "15.3083",
+      "lon": "120.6765"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104326009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tambobong",
+      "en": "Tambobong",
+      "slug": "tambobong-104326009"
+    },
+    "code": {
+      "id": "104326009",
+      "iso": null
+    },
+    "parent": {
+      "id": "104326",
+      "level": 3,
+      "name": {
+        "local": "Villanueva",
+        "en": "Villanueva",
+        "slug": "villanueva-104326"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      },
+      {
+        "id": "104326",
+        "level": 3,
+        "name": {
+          "local": "Villanueva",
+          "en": "Villanueva",
+          "slug": "villanueva-104326"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9002"
+    ],
+    "geo": {
+      "lat": "15.9326",
+      "lon": "119.7841"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

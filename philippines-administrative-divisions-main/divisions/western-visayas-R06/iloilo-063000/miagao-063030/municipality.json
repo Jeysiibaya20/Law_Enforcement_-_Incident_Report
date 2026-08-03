@@ -1,0 +1,56 @@
+{
+  "id": "063030",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Miagao",
+    "en": "Miagao",
+    "slug": "miagao-063030"
+  },
+  "code": {
+    "id": "063030",
+    "iso": null
+  },
+  "parent": {
+    "id": "063000",
+    "level": 2,
+    "name": {
+      "local": "Iloilo",
+      "en": "Iloilo",
+      "slug": "iloilo-063000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 119
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.65",
+    "lon": "122.233"
+  },
+  "metadata": {},
+  "source": {}
+}

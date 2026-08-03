@@ -1,0 +1,652 @@
+[
+  {
+    "id": "034921001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Callos",
+      "en": "Callos",
+      "slug": "callos-034921001"
+    },
+    "code": {
+      "id": "034921001",
+      "iso": null
+    },
+    "parent": {
+      "id": "034921",
+      "level": 3,
+      "name": {
+        "local": "Peñaranda",
+        "en": "Peñaranda",
+        "slug": "pearanda-034921"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034921",
+        "level": 3,
+        "name": {
+          "local": "Peñaranda",
+          "en": "Peñaranda",
+          "slug": "pearanda-034921"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3103"
+    ],
+    "geo": {
+      "lat": "15.7011",
+      "lon": "120.8302"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034921003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Las Piñas",
+      "en": "Las Piñas",
+      "slug": "las-pias-034921003"
+    },
+    "code": {
+      "id": "034921003",
+      "iso": null
+    },
+    "parent": {
+      "id": "034921",
+      "level": 3,
+      "name": {
+        "local": "Peñaranda",
+        "en": "Peñaranda",
+        "slug": "pearanda-034921"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034921",
+        "level": 3,
+        "name": {
+          "local": "Peñaranda",
+          "en": "Peñaranda",
+          "slug": "pearanda-034921"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3103"
+    ],
+    "geo": {
+      "lat": "15.3721",
+      "lon": "121.0111"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034921006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion I",
+      "en": "Poblacion I",
+      "slug": "poblacion-i-034921006"
+    },
+    "code": {
+      "id": "034921006",
+      "iso": null
+    },
+    "parent": {
+      "id": "034921",
+      "level": 3,
+      "name": {
+        "local": "Peñaranda",
+        "en": "Peñaranda",
+        "slug": "pearanda-034921"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034921",
+        "level": 3,
+        "name": {
+          "local": "Peñaranda",
+          "en": "Peñaranda",
+          "slug": "pearanda-034921"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3103"
+    ],
+    "geo": {
+      "lat": "14.2983",
+      "lon": "121.0096"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034921007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion II",
+      "en": "Poblacion II",
+      "slug": "poblacion-ii-034921007"
+    },
+    "code": {
+      "id": "034921007",
+      "iso": null
+    },
+    "parent": {
+      "id": "034921",
+      "level": 3,
+      "name": {
+        "local": "Peñaranda",
+        "en": "Peñaranda",
+        "slug": "pearanda-034921"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034921",
+        "level": 3,
+        "name": {
+          "local": "Peñaranda",
+          "en": "Peñaranda",
+          "slug": "pearanda-034921"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3103"
+    ],
+    "geo": {
+      "lat": "14.2949",
+      "lon": "121.0091"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034921008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion III",
+      "en": "Poblacion III",
+      "slug": "poblacion-iii-034921008"
+    },
+    "code": {
+      "id": "034921008",
+      "iso": null
+    },
+    "parent": {
+      "id": "034921",
+      "level": 3,
+      "name": {
+        "local": "Peñaranda",
+        "en": "Peñaranda",
+        "slug": "pearanda-034921"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034921",
+        "level": 3,
+        "name": {
+          "local": "Peñaranda",
+          "en": "Peñaranda",
+          "slug": "pearanda-034921"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3103"
+    ],
+    "geo": {
+      "lat": "14.2923",
+      "lon": "121.007"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034921009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion IV",
+      "en": "Poblacion IV",
+      "slug": "poblacion-iv-034921009"
+    },
+    "code": {
+      "id": "034921009",
+      "iso": null
+    },
+    "parent": {
+      "id": "034921",
+      "level": 3,
+      "name": {
+        "local": "Peñaranda",
+        "en": "Peñaranda",
+        "slug": "pearanda-034921"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034921",
+        "level": 3,
+        "name": {
+          "local": "Peñaranda",
+          "en": "Peñaranda",
+          "slug": "pearanda-034921"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3103"
+    ],
+    "geo": {
+      "lat": "14.3016",
+      "lon": "121.0115"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034921014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Josef",
+      "en": "San Josef",
+      "slug": "san-josef-034921014"
+    },
+    "code": {
+      "id": "034921014",
+      "iso": null
+    },
+    "parent": {
+      "id": "034921",
+      "level": 3,
+      "name": {
+        "local": "Peñaranda",
+        "en": "Peñaranda",
+        "slug": "pearanda-034921"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034921",
+        "level": 3,
+        "name": {
+          "local": "Peñaranda",
+          "en": "Peñaranda",
+          "slug": "pearanda-034921"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3103"
+    ],
+    "geo": {
+      "lat": "15.4759",
+      "lon": "120.9478"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034921015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Mariano (Maugat)",
+      "en": "San Mariano (Maugat)",
+      "slug": "san-mariano-maugat-034921015"
+    },
+    "code": {
+      "id": "034921015",
+      "iso": null
+    },
+    "parent": {
+      "id": "034921",
+      "level": 3,
+      "name": {
+        "local": "Peñaranda",
+        "en": "Peñaranda",
+        "slug": "pearanda-034921"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034921",
+        "level": 3,
+        "name": {
+          "local": "Peñaranda",
+          "en": "Peñaranda",
+          "slug": "pearanda-034921"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3103"
+    ],
+    "geo": {
+      "lat": "15.3208",
+      "lon": "120.8761"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034921012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Tomas",
+      "en": "Santo Tomas",
+      "slug": "santo-tomas-034921012"
+    },
+    "code": {
+      "id": "034921012",
+      "iso": null
+    },
+    "parent": {
+      "id": "034921",
+      "level": 3,
+      "name": {
+        "local": "Peñaranda",
+        "en": "Peñaranda",
+        "slug": "pearanda-034921"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034921",
+        "level": 3,
+        "name": {
+          "local": "Peñaranda",
+          "en": "Peñaranda",
+          "slug": "pearanda-034921"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3103"
+    ],
+    "geo": {
+      "lat": "15.3708",
+      "lon": "120.9125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034921013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sinasajan",
+      "en": "Sinasajan",
+      "slug": "sinasajan-034921013"
+    },
+    "code": {
+      "id": "034921013",
+      "iso": null
+    },
+    "parent": {
+      "id": "034921",
+      "level": 3,
+      "name": {
+        "local": "Peñaranda",
+        "en": "Peñaranda",
+        "slug": "pearanda-034921"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034921",
+        "level": 3,
+        "name": {
+          "local": "Peñaranda",
+          "en": "Peñaranda",
+          "slug": "pearanda-034921"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3103"
+    ],
+    "geo": {
+      "lat": "15.3537",
+      "lon": "121.0164"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

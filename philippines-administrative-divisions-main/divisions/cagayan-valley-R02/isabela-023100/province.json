@@ -1,0 +1,48 @@
+{
+  "id": "023100",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Isabela",
+    "en": "Isabela",
+    "slug": "isabela-023100"
+  },
+  "code": {
+    "id": "023100",
+    "iso": null
+  },
+  "parent": {
+    "id": "R02",
+    "level": 1,
+    "name": {
+      "local": "Cagayan Valley",
+      "en": "Cagayan Valley",
+      "slug": "cagayan-valley-R02"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 37,
+    "barangay": 1055
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.8104",
+    "lon": "121.7823"
+  },
+  "metadata": {},
+  "source": {}
+}

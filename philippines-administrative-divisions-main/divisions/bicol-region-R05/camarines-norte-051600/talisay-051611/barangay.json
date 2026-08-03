@@ -1,0 +1,977 @@
+[
+  {
+    "id": "051611001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binanuaan",
+      "en": "Binanuaan",
+      "slug": "binanuaan-051611001"
+    },
+    "code": {
+      "id": "051611001",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.1333",
+      "lon": "122.9167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caawigan",
+      "en": "Caawigan",
+      "slug": "caawigan-051611002"
+    },
+    "code": {
+      "id": "051611002",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.1333",
+      "lon": "122.9167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cahabaan",
+      "en": "Cahabaan",
+      "slug": "cahabaan-051611003"
+    },
+    "code": {
+      "id": "051611003",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.1333",
+      "lon": "122.9167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calintaan",
+      "en": "Calintaan",
+      "slug": "calintaan-051611004"
+    },
+    "code": {
+      "id": "051611004",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "12.5756",
+      "lon": "120.9428"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Del Carmen",
+      "en": "Del Carmen",
+      "slug": "del-carmen-051611005"
+    },
+    "code": {
+      "id": "051611005",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.1721",
+      "lon": "122.9404"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gabon",
+      "en": "Gabon",
+      "slug": "gabon-051611006"
+    },
+    "code": {
+      "id": "051611006",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.1264",
+      "lon": "122.9098"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Itomang",
+      "en": "Itomang",
+      "slug": "itomang-051611007"
+    },
+    "code": {
+      "id": "051611007",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.1333",
+      "lon": "122.9167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-051611008"
+    },
+    "code": {
+      "id": "051611008",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Francisco",
+      "en": "San Francisco",
+      "slug": "san-francisco-051611009"
+    },
+    "code": {
+      "id": "051611009",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.1333",
+      "lon": "122.9167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-051611010"
+    },
+    "code": {
+      "id": "051611010",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.1333",
+      "lon": "122.9167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-051611011"
+    },
+    "code": {
+      "id": "051611011",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.1643",
+      "lon": "122.9446"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Nicolas",
+      "en": "San Nicolas",
+      "slug": "san-nicolas-051611012"
+    },
+    "code": {
+      "id": "051611012",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.1333",
+      "lon": "122.9167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-051611013"
+    },
+    "code": {
+      "id": "051611013",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.15",
+      "lon": "122.8333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Elena",
+      "en": "Santa Elena",
+      "slug": "santa-elena-051611014"
+    },
+    "code": {
+      "id": "051611014",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.1797",
+      "lon": "122.3919"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051611015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-051611015"
+    },
+    "code": {
+      "id": "051611015",
+      "iso": null
+    },
+    "parent": {
+      "id": "051611",
+      "level": 3,
+      "name": {
+        "local": "Talisay",
+        "en": "Talisay",
+        "slug": "talisay-051611"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051611",
+        "level": 3,
+        "name": {
+          "local": "Talisay",
+          "en": "Talisay",
+          "slug": "talisay-051611"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4602"
+    ],
+    "geo": {
+      "lat": "14.1333",
+      "lon": "122.9167"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

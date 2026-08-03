@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "082601",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Arteche",
+      "en": "Arteche",
+      "slug": "arteche-082601"
+    },
+    "code": {
+      "id": "082601",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.267",
+      "lon": "125.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balangiga",
+      "en": "Balangiga",
+      "slug": "balangiga-082602"
+    },
+    "code": {
+      "id": "082602",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.117",
+      "lon": "125.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082603",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balangkayan",
+      "en": "Balangkayan",
+      "slug": "balangkayan-082603"
+    },
+    "code": {
+      "id": "082603",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.467",
+      "lon": "125.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082604",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Borongan",
+      "en": "Borongan",
+      "slug": "borongan-082604"
+    },
+    "code": {
+      "id": "082604",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 61
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.6",
+      "lon": "125.43"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082605",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Can-Avid",
+      "en": "Can-Avid",
+      "slug": "can-avid-082605"
+    },
+    "code": {
+      "id": "082605",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12",
+      "lon": "125.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082606",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dolores",
+      "en": "Dolores",
+      "slug": "dolores-082606"
+    },
+    "code": {
+      "id": "082606",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 46
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.05",
+      "lon": "125.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082607",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "General Macarthur",
+      "en": "General Macarthur",
+      "slug": "general-macarthur-082607"
+    },
+    "code": {
+      "id": "082607",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.25",
+      "lon": "125.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082608",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Giporlos",
+      "en": "Giporlos",
+      "slug": "giporlos-082608"
+    },
+    "code": {
+      "id": "082608",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.117",
+      "lon": "125.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082609",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Guiuan",
+      "en": "Guiuan",
+      "slug": "guiuan-082609"
+    },
+    "code": {
+      "id": "082609",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 60
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.033",
+      "lon": "125.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082610",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Hernani",
+      "en": "Hernani",
+      "slug": "hernani-082610"
+    },
+    "code": {
+      "id": "082610",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.333",
+      "lon": "125.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082611",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Jipapad",
+      "en": "Jipapad",
+      "slug": "jipapad-082611"
+    },
+    "code": {
+      "id": "082611",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.283",
+      "lon": "125.233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082612",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lawaan",
+      "en": "Lawaan",
+      "slug": "lawaan-082612"
+    },
+    "code": {
+      "id": "082612",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.15",
+      "lon": "125.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082613",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Llorente",
+      "en": "Llorente",
+      "slug": "llorente-082613"
+    },
+    "code": {
+      "id": "082613",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.417",
+      "lon": "125.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082614",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maslog",
+      "en": "Maslog",
+      "slug": "maslog-082614"
+    },
+    "code": {
+      "id": "082614",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.1",
+      "lon": "125.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082615",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maydolong",
+      "en": "Maydolong",
+      "slug": "maydolong-082615"
+    },
+    "code": {
+      "id": "082615",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.5",
+      "lon": "125.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082616",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mercedes",
+      "en": "Mercedes",
+      "slug": "mercedes-082616"
+    },
+    "code": {
+      "id": "082616",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.1",
+      "lon": "125.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082617",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Oras",
+      "en": "Oras",
+      "slug": "oras-082617"
+    },
+    "code": {
+      "id": "082617",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.133",
+      "lon": "125.433"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082618",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Quinapondan",
+      "en": "Quinapondan",
+      "slug": "quinapondan-082618"
+    },
+    "code": {
+      "id": "082618",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.15",
+      "lon": "125.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082619",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Salcedo",
+      "en": "Salcedo",
+      "slug": "salcedo-082619"
+    },
+    "code": {
+      "id": "082619",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 41
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.15",
+      "lon": "125.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082620",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Julian",
+      "en": "San Julian",
+      "slug": "san-julian-082620"
+    },
+    "code": {
+      "id": "082620",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.75",
+      "lon": "125.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082621",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Policarpo",
+      "en": "San Policarpo",
+      "slug": "san-policarpo-082621"
+    },
+    "code": {
+      "id": "082621",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.183",
+      "lon": "125.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082622",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sulat",
+      "en": "Sulat",
+      "slug": "sulat-082622"
+    },
+    "code": {
+      "id": "082622",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.817",
+      "lon": "125.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082623",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Taft",
+      "en": "Taft",
+      "slug": "taft-082623"
+    },
+    "code": {
+      "id": "082623",
+      "iso": null
+    },
+    "parent": {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.9",
+      "lon": "125.417"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

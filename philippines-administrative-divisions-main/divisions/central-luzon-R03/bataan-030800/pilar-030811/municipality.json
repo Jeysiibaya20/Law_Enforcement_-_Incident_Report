@@ -1,0 +1,56 @@
+{
+  "id": "030811",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pilar",
+    "en": "Pilar",
+    "slug": "pilar-030811"
+  },
+  "code": {
+    "id": "030811",
+    "iso": null
+  },
+  "parent": {
+    "id": "030800",
+    "level": 2,
+    "name": {
+      "local": "Bataan",
+      "en": "Bataan",
+      "slug": "bataan-030800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 19
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.667",
+    "lon": "120.567"
+  },
+  "metadata": {},
+  "source": {}
+}

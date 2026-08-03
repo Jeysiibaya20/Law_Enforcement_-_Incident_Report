@@ -1,0 +1,56 @@
+{
+  "id": "175111",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Cruz",
+    "en": "Santa Cruz",
+    "slug": "santa-cruz-175111"
+  },
+  "code": {
+    "id": "175111",
+    "iso": null
+  },
+  "parent": {
+    "id": "175100",
+    "level": 2,
+    "name": {
+      "local": "Occidental Mindoro",
+      "en": "Occidental Mindoro",
+      "slug": "occidental-mindoro-175100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175100",
+      "level": 2,
+      "name": {
+        "local": "Occidental Mindoro",
+        "en": "Occidental Mindoro",
+        "slug": "occidental-mindoro-175100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.117",
+    "lon": "120.85"
+  },
+  "metadata": {},
+  "source": {}
+}

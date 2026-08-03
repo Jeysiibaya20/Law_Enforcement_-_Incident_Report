@@ -1,0 +1,48 @@
+{
+  "id": "082600",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Eastern Samar",
+    "en": "Eastern Samar",
+    "slug": "eastern-samar-082600"
+  },
+  "code": {
+    "id": "082600",
+    "iso": null
+  },
+  "parent": {
+    "id": "R08",
+    "level": 1,
+    "name": {
+      "local": "Eastern Visayas",
+      "en": "Eastern Visayas",
+      "slug": "eastern-visayas-R08"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 23,
+    "barangay": 597
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.8562",
+    "lon": "123.8641"
+  },
+  "metadata": {},
+  "source": {}
+}

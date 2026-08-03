@@ -1,0 +1,48 @@
+{
+  "id": "129800",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Cotabato City (Province)",
+    "en": "Cotabato City (Province)",
+    "slug": "cotabato-city-province-129800"
+  },
+  "code": {
+    "id": "129800",
+    "iso": null
+  },
+  "parent": {
+    "id": "R12",
+    "level": 1,
+    "name": {
+      "local": "SOCCSKSARGEN",
+      "en": "SOCCSKSARGEN",
+      "slug": "soccsksargen-R12"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 1,
+    "barangay": 37
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.506",
+    "lon": "123.7835"
+  },
+  "metadata": {},
+  "source": {}
+}

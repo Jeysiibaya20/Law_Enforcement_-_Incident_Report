@@ -1,0 +1,48 @@
+{
+  "id": "128000",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Sarangani",
+    "en": "Sarangani",
+    "slug": "sarangani-128000"
+  },
+  "code": {
+    "id": "128000",
+    "iso": null
+  },
+  "parent": {
+    "id": "R12",
+    "level": 1,
+    "name": {
+      "local": "SOCCSKSARGEN",
+      "en": "SOCCSKSARGEN",
+      "slug": "soccsksargen-R12"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 7,
+    "barangay": 141
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.3873",
+    "lon": "124.4587"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "160211",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tubay",
+    "en": "Tubay",
+    "slug": "tubay-160211"
+  },
+  "code": {
+    "id": "160211",
+    "iso": null
+  },
+  "parent": {
+    "id": "160200",
+    "level": 2,
+    "name": {
+      "local": "Agusan del Norte",
+      "en": "Agusan del Norte",
+      "slug": "agusan-del-norte-160200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 13
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.167",
+    "lon": "125.533"
+  },
+  "metadata": {},
+  "source": {}
+}

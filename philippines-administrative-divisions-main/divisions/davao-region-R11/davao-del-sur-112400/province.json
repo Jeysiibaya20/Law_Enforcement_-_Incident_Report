@@ -1,0 +1,48 @@
+{
+  "id": "112400",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Davao del Sur",
+    "en": "Davao del Sur",
+    "slug": "davao-del-sur-112400"
+  },
+  "code": {
+    "id": "112400",
+    "iso": null
+  },
+  "parent": {
+    "id": "R11",
+    "level": 1,
+    "name": {
+      "local": "Davao Region",
+      "en": "Davao Region",
+      "slug": "davao-region-R11"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 11,
+    "barangay": 414
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.7044",
+    "lon": "123.7491"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "064513",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Ilog",
+    "en": "Ilog",
+    "slug": "ilog-064513"
+  },
+  "code": {
+    "id": "064513",
+    "iso": null
+  },
+  "parent": {
+    "id": "064500",
+    "level": 2,
+    "name": {
+      "local": "Negros Occidental",
+      "en": "Negros Occidental",
+      "slug": "negros-occidental-064500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "064500",
+      "level": 2,
+      "name": {
+        "local": "Negros Occidental",
+        "en": "Negros Occidental",
+        "slug": "negros-occidental-064500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.033",
+    "lon": "122.767"
+  },
+  "metadata": {},
+  "source": {}
+}

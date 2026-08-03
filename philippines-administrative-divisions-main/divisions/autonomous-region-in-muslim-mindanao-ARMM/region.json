@@ -1,0 +1,35 @@
+{
+  "id": "ARMM",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "Autonomous Region in Muslim Mindanao",
+    "en": "Autonomous Region in Muslim Mindanao",
+    "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+  },
+  "code": {
+    "id": "ARMM",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 5,
+    "barangay": 2490,
+    "municipality": 118
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.9071",
+    "lon": "123.1515"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/autonomous-region-in-muslim-mindanao-ARMM/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

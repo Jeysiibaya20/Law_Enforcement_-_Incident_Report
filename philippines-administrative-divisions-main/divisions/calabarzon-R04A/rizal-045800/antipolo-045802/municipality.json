@@ -1,0 +1,56 @@
+{
+  "id": "045802",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Antipolo",
+    "en": "Antipolo",
+    "slug": "antipolo-045802"
+  },
+  "code": {
+    "id": "045802",
+    "iso": null
+  },
+  "parent": {
+    "id": "045800",
+    "level": 2,
+    "name": {
+      "local": "Rizal",
+      "en": "Rizal",
+      "slug": "rizal-045800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045800",
+      "level": 2,
+      "name": {
+        "local": "Rizal",
+        "en": "Rizal",
+        "slug": "rizal-045800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 16
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.583",
+    "lon": "121.167"
+  },
+  "metadata": {},
+  "source": {}
+}

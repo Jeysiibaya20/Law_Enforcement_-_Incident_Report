@@ -1,0 +1,242 @@
+[
+  {
+    "id": "174000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Marinduque",
+      "en": "Marinduque",
+      "slug": "marinduque-174000"
+    },
+    "code": {
+      "id": "174000",
+      "iso": null
+    },
+    "parent": {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 6,
+      "barangay": 218
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.4346",
+      "lon": "121.9289"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Occidental Mindoro",
+      "en": "Occidental Mindoro",
+      "slug": "occidental-mindoro-175100"
+    },
+    "code": {
+      "id": "175100",
+      "iso": null
+    },
+    "parent": {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 163
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.2257",
+      "lon": "121.0603"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Oriental Mindoro",
+      "en": "Oriental Mindoro",
+      "slug": "oriental-mindoro-175200"
+    },
+    "code": {
+      "id": "175200",
+      "iso": null
+    },
+    "parent": {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 15,
+      "barangay": 426
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.052",
+      "lon": "121.5535"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Palawan",
+      "en": "Palawan",
+      "slug": "palawan-175300"
+    },
+    "code": {
+      "id": "175300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 24,
+      "barangay": 433
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.5038",
+      "lon": "120.4645"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175900",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Romblon",
+      "en": "Romblon",
+      "slug": "romblon-175900"
+    },
+    "code": {
+      "id": "175900",
+      "iso": null
+    },
+    "parent": {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 17,
+      "barangay": 219
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.5928",
+      "lon": "122.0832"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

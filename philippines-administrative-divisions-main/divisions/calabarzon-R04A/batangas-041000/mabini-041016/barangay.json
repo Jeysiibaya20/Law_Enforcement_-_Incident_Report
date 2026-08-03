@@ -1,0 +1,2212 @@
+[
+  {
+    "id": "041016002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Anilao East",
+      "en": "Anilao East",
+      "slug": "anilao-east-041016002"
+    },
+    "code": {
+      "id": "041016002",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.908",
+      "lon": "121.1733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Anilao Proper",
+      "en": "Anilao Proper",
+      "slug": "anilao-proper-041016001"
+    },
+    "code": {
+      "id": "041016001",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.908",
+      "lon": "121.1733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagalangit",
+      "en": "Bagalangit",
+      "slug": "bagalangit-041016003"
+    },
+    "code": {
+      "id": "041016003",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7098",
+      "lon": "120.8771"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulacan",
+      "en": "Bulacan",
+      "slug": "bulacan-041016004"
+    },
+    "code": {
+      "id": "041016004",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "14.7928",
+      "lon": "120.8789"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calamias",
+      "en": "Calamias",
+      "slug": "calamias-041016005"
+    },
+    "code": {
+      "id": "041016005",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.8641",
+      "lon": "121.1464"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Estrella",
+      "en": "Estrella",
+      "slug": "estrella-041016006"
+    },
+    "code": {
+      "id": "041016006",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7301",
+      "lon": "120.909"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gasang",
+      "en": "Gasang",
+      "slug": "gasang-041016007"
+    },
+    "code": {
+      "id": "041016007",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7155",
+      "lon": "120.9224"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Laurel",
+      "en": "Laurel",
+      "slug": "laurel-041016008"
+    },
+    "code": {
+      "id": "041016008",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "14.05",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ligaya",
+      "en": "Ligaya",
+      "slug": "ligaya-041016009"
+    },
+    "code": {
+      "id": "041016009",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7285",
+      "lon": "120.8906"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mainaga",
+      "en": "Mainaga",
+      "slug": "mainaga-041016010"
+    },
+    "code": {
+      "id": "041016010",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7609",
+      "lon": "120.9553"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mainit",
+      "en": "Mainit",
+      "slug": "mainit-041016011"
+    },
+    "code": {
+      "id": "041016011",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.6911",
+      "lon": "120.9007"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Majuben",
+      "en": "Majuben",
+      "slug": "majuben-041016012"
+    },
+    "code": {
+      "id": "041016012",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "9.87",
+      "lon": "124.52"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malimatoc I",
+      "en": "Malimatoc I",
+      "slug": "malimatoc-i-041016014"
+    },
+    "code": {
+      "id": "041016014",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.6966",
+      "lon": "120.9053"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malimatoc II",
+      "en": "Malimatoc II",
+      "slug": "malimatoc-ii-041016015"
+    },
+    "code": {
+      "id": "041016015",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.6966",
+      "lon": "120.9053"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nag-Iba",
+      "en": "Nag-Iba",
+      "slug": "nag-iba-041016016"
+    },
+    "code": {
+      "id": "041016016",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7063",
+      "lon": "120.9124"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pilahan",
+      "en": "Pilahan",
+      "slug": "pilahan-041016017"
+    },
+    "code": {
+      "id": "041016017",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.9479",
+      "lon": "121.1664"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-041016018"
+    },
+    "code": {
+      "id": "041016018",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pulang Lupa",
+      "en": "Pulang Lupa",
+      "slug": "pulang-lupa-041016019"
+    },
+    "code": {
+      "id": "041016019",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "6.9386",
+      "lon": "124.9475"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pulong Anahao",
+      "en": "Pulong Anahao",
+      "slug": "pulong-anahao-041016020"
+    },
+    "code": {
+      "id": "041016020",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7447",
+      "lon": "120.9179"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pulong Balibaguhan",
+      "en": "Pulong Balibaguhan",
+      "slug": "pulong-balibaguhan-041016021"
+    },
+    "code": {
+      "id": "041016021",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7386",
+      "lon": "120.9274"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pulong Niogan",
+      "en": "Pulong Niogan",
+      "slug": "pulong-niogan-041016022"
+    },
+    "code": {
+      "id": "041016022",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7411",
+      "lon": "120.9052"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Saguing",
+      "en": "Saguing",
+      "slug": "saguing-041016023"
+    },
+    "code": {
+      "id": "041016023",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7279",
+      "lon": "120.9297"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sampaguita",
+      "en": "Sampaguita",
+      "slug": "sampaguita-041016024"
+    },
+    "code": {
+      "id": "041016024",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "14.345",
+      "lon": "121.0377"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Francisco",
+      "en": "San Francisco",
+      "slug": "san-francisco-041016025"
+    },
+    "code": {
+      "id": "041016025",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "14.0333",
+      "lon": "121.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-041016026"
+    },
+    "code": {
+      "id": "041016026",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.8772",
+      "lon": "121.105"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan",
+      "en": "San Juan",
+      "slug": "san-juan-041016027"
+    },
+    "code": {
+      "id": "041016027",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.826",
+      "lon": "121.396"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Teodoro",
+      "en": "San Teodoro",
+      "slug": "san-teodoro-041016028"
+    },
+    "code": {
+      "id": "041016028",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.4358",
+      "lon": "121.0192"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Ana",
+      "en": "Santa Ana",
+      "slug": "santa-ana-041016029"
+    },
+    "code": {
+      "id": "041016029",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "14.0691",
+      "lon": "121.202"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Mesa",
+      "en": "Santa Mesa",
+      "slug": "santa-mesa-041016030"
+    },
+    "code": {
+      "id": "041016030",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "17.486",
+      "lon": "120.4344"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016031",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-041016031"
+    },
+    "code": {
+      "id": "041016031",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.8553",
+      "lon": "121.2255"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Tomas",
+      "en": "Santo Tomas",
+      "slug": "santo-tomas-041016032"
+    },
+    "code": {
+      "id": "041016032",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "14.08",
+      "lon": "121.18"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Solo",
+      "en": "Solo",
+      "slug": "solo-041016033"
+    },
+    "code": {
+      "id": "041016033",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7469",
+      "lon": "120.9012"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talaga East",
+      "en": "Talaga East",
+      "slug": "talaga-east-041016035"
+    },
+    "code": {
+      "id": "041016035",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7365",
+      "lon": "120.9362"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talaga Proper",
+      "en": "Talaga Proper",
+      "slug": "talaga-proper-041016034"
+    },
+    "code": {
+      "id": "041016034",
+      "iso": null
+    },
+    "parent": {
+      "id": "041016",
+      "level": 3,
+      "name": {
+        "local": "Mabini",
+        "en": "Mabini",
+        "slug": "mabini-041016"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041016",
+        "level": 3,
+        "name": {
+          "local": "Mabini",
+          "en": "Mabini",
+          "slug": "mabini-041016"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4202"
+    ],
+    "geo": {
+      "lat": "13.7365",
+      "lon": "120.9362"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

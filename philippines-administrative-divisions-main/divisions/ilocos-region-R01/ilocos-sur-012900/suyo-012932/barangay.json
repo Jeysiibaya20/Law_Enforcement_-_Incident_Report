@@ -1,0 +1,522 @@
+[
+  {
+    "id": "012932001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baringcucurong",
+      "en": "Baringcucurong",
+      "slug": "baringcucurong-012932001"
+    },
+    "code": {
+      "id": "012932001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012932",
+      "level": 3,
+      "name": {
+        "local": "Suyo",
+        "en": "Suyo",
+        "slug": "suyo-012932"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012932",
+        "level": 3,
+        "name": {
+          "local": "Suyo",
+          "en": "Suyo",
+          "slug": "suyo-012932"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2715"
+    ],
+    "geo": {
+      "lat": "16.9657",
+      "lon": "120.4688"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012932002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabugao",
+      "en": "Cabugao",
+      "slug": "cabugao-012932002"
+    },
+    "code": {
+      "id": "012932002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012932",
+      "level": 3,
+      "name": {
+        "local": "Suyo",
+        "en": "Suyo",
+        "slug": "suyo-012932"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012932",
+        "level": 3,
+        "name": {
+          "local": "Suyo",
+          "en": "Suyo",
+          "slug": "suyo-012932"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2715"
+    ],
+    "geo": {
+      "lat": "17.7947",
+      "lon": "120.4556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012932003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Man-atong",
+      "en": "Man-atong",
+      "slug": "man-atong-012932003"
+    },
+    "code": {
+      "id": "012932003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012932",
+      "level": 3,
+      "name": {
+        "local": "Suyo",
+        "en": "Suyo",
+        "slug": "suyo-012932"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012932",
+        "level": 3,
+        "name": {
+          "local": "Suyo",
+          "en": "Suyo",
+          "slug": "suyo-012932"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2715"
+    ],
+    "geo": {
+      "lat": "16.9509",
+      "lon": "120.6179"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012932004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patoc-ao",
+      "en": "Patoc-ao",
+      "slug": "patoc-ao-012932004"
+    },
+    "code": {
+      "id": "012932004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012932",
+      "level": 3,
+      "name": {
+        "local": "Suyo",
+        "en": "Suyo",
+        "slug": "suyo-012932"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012932",
+        "level": 3,
+        "name": {
+          "local": "Suyo",
+          "en": "Suyo",
+          "slug": "suyo-012932"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2715"
+    ],
+    "geo": {
+      "lat": "16.98",
+      "lon": "120.52694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012932005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion (Kimpusa)",
+      "en": "Poblacion (Kimpusa)",
+      "slug": "poblacion-kimpusa-012932005"
+    },
+    "code": {
+      "id": "012932005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012932",
+      "level": 3,
+      "name": {
+        "local": "Suyo",
+        "en": "Suyo",
+        "slug": "suyo-012932"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012932",
+        "level": 3,
+        "name": {
+          "local": "Suyo",
+          "en": "Suyo",
+          "slug": "suyo-012932"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2715"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012932007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Suyo Proper",
+      "en": "Suyo Proper",
+      "slug": "suyo-proper-012932007"
+    },
+    "code": {
+      "id": "012932007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012932",
+      "level": 3,
+      "name": {
+        "local": "Suyo",
+        "en": "Suyo",
+        "slug": "suyo-012932"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012932",
+        "level": 3,
+        "name": {
+          "local": "Suyo",
+          "en": "Suyo",
+          "slug": "suyo-012932"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2715"
+    ],
+    "geo": {
+      "lat": "16.9839",
+      "lon": "120.5139"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012932008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Urzadan",
+      "en": "Urzadan",
+      "slug": "urzadan-012932008"
+    },
+    "code": {
+      "id": "012932008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012932",
+      "level": 3,
+      "name": {
+        "local": "Suyo",
+        "en": "Suyo",
+        "slug": "suyo-012932"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012932",
+        "level": 3,
+        "name": {
+          "local": "Suyo",
+          "en": "Suyo",
+          "slug": "suyo-012932"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2715"
+    ],
+    "geo": {
+      "lat": "16.9839",
+      "lon": "120.5139"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012932009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Uso",
+      "en": "Uso",
+      "slug": "uso-012932009"
+    },
+    "code": {
+      "id": "012932009",
+      "iso": null
+    },
+    "parent": {
+      "id": "012932",
+      "level": 3,
+      "name": {
+        "local": "Suyo",
+        "en": "Suyo",
+        "slug": "suyo-012932"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012932",
+        "level": 3,
+        "name": {
+          "local": "Suyo",
+          "en": "Suyo",
+          "slug": "suyo-012932"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2715"
+    ],
+    "geo": {
+      "lat": "16.9706",
+      "lon": "120.5435"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

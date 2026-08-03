@@ -1,0 +1,56 @@
+{
+  "id": "074601",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Amlan (Ayuquitan)",
+    "en": "Amlan (Ayuquitan)",
+    "slug": "amlan-ayuquitan-074601"
+  },
+  "code": {
+    "id": "074601",
+    "iso": null
+  },
+  "parent": {
+    "id": "074600",
+    "level": 2,
+    "name": {
+      "local": "Negros Oriental",
+      "en": "Negros Oriental",
+      "slug": "negros-oriental-074600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 8
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.45",
+    "lon": "123.233"
+  },
+  "metadata": {},
+  "source": {}
+}

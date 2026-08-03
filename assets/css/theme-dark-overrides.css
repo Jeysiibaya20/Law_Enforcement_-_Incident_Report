@@ -1,0 +1,165 @@
+/* Dark-mode specific overrides scoped under data-theme="dark" to guarantee high contrast */
+[data-theme="dark"] {
+    --dm-text: #e6eef8;
+    --dm-muted: #9fb5c6;
+    --dm-link: #f7f2f2;
+    --dm-border: rgba(250, 246, 246, 0.06);
+}
+
+/* Force readable text color everywhere in dark mode */
+[data-theme="dark"] body,
+[data-theme="dark"] .card,
+[data-theme="dark"] .login-card,
+[data-theme="dark"] .main-content,
+[data-theme="dark"] .content-container,
+[data-theme="dark"] .card-body,
+[data-theme="dark"] .module-card,
+[data-theme="dark"] .overview-card,
+[data-theme="dark"] .alert,
+[data-theme="dark"] .table,
+[data-theme="dark"] table {
+    color: var(--dm-text) !important;
+    background-color: var(--panel) !important;
+}
+
+/* Links and interactive text */
+[data-theme="dark"] a,
+[data-theme="dark"] a:link,
+[data-theme="dark"] a:visited,
+[data-theme="dark"] .link-text,
+[data-theme="dark"] .alertara-link,
+[data-theme="dark"] .alertara-link .link-text {
+    color: var(--dm-link) !important;
+}
+
+/* Muted / secondary text must still be readable */
+[data-theme="dark"] .text-muted,
+[data-theme="dark"] small,
+[data-theme="dark"] .muted {
+    color: var(--dm-muted) !important;
+    opacity: 1 !important;
+}
+
+/* Inputs, selects and placeholders */
+[data-theme="dark"] input,
+[data-theme="dark"] textarea,
+[data-theme="dark"] select,
+[data-theme="dark"] .form-control {
+    background: var(--panel) !important;
+    color: var(--dm-text) !important;
+    border: 1px solid var(--dm-border) !important;
+}
+[data-theme="dark"] ::placeholder { color: rgba(230,238,248,0.6) !important; }
+
+/* Buttons and badges */
+[data-theme="dark"] .btn,
+[data-theme="dark"] .btn-primary,
+[data-theme="dark"] .login-btn {
+    color: #031018 !important;
+}
+[data-theme="dark"] .btn-primary {
+    background: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+[data-theme="dark"] .badge {
+    background: rgba(255,255,255,0.06) !important;
+    color: var(--dm-text) !important;
+}
+
+/* Navbar/highlighted links */
+[data-theme="dark"] .alertara-navbar,
+[data-theme="dark"] .alertara-footer,
+[data-theme="dark"] .alertara-menu {
+    background: var(--navbar-bg) !important;
+    color: var(--dm-text) !important;
+}
+
+/* Tables */
+[data-theme="dark"] table thead th {
+    background: rgba(255,255,255,0.03) !important;
+    color: var(--dm-text) !important;
+}
+[data-theme="dark"] table tbody td {
+    color: var(--dm-text) !important;
+    border-top: 1px solid rgba(255,255,255,0.03) !important;
+}
+
+/* Code blocks / preformatted */
+[data-theme="dark"] pre, [data-theme="dark"] code {
+    background: rgba(255,255,255,0.03) !important;
+    color: var(--dm-text) !important;
+}
+
+/* High specificity overrides for inline styles or legacy rules */
+[data-theme="dark"] *[style] {
+    color: inherit !important;
+}
+
+/* Ensure icons inherit color */
+[data-theme="dark"] .bi,
+[data-theme="dark"] svg {
+    color: var(--dm-text) !important;
+    fill: currentColor !important;
+}
+
+/* Accessibility helpers */
+[data-theme="dark"] .high-contrast { color: var(--dm-text) !important; background: transparent !important; }
+
+/* Ensure alerts and toasts are readable */
+[data-theme="dark"] .toast, [data-theme="dark"] .alert-dismissible {
+    background: var(--panel) !important;
+    color: var(--dm-text) !important;
+    border: 1px solid var(--dm-border) !important;
+}
+
+/* Additional high-specificity overrides to catch legacy styles and ensure comfortable contrast */
+[data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3, [data-theme="dark"] h4, [data-theme="dark"] h5, [data-theme="dark"] h6 {
+    color: var(--dm-text) !important;
+    font-weight: 600 !important;
+}
+
+[data-theme="dark"] p, [data-theme="dark"] li, [data-theme="dark"] td, [data-theme="dark"] th, [data-theme="dark"] label, [data-theme="dark"] span {
+    color: var(--dm-text) !important;
+}
+
+[data-theme="dark"] .dropdown-menu, [data-theme="dark"] .modal-content, [data-theme="dark"] .popover, [data-theme="dark"] .card {
+    background: var(--panel) !important;
+    color: var(--dm-text) !important;
+    border-color: var(--dm-border) !important;
+}
+
+[data-theme="dark"] .modal-backdrop.show { background-color: rgba(0,0,0,0.55) !important; }
+
+[data-theme="dark"] .table thead th, [data-theme="dark"] .table tbody td {
+    color: var(--dm-text) !important;
+}
+
+/* Ensure low-contrast text (e.g., .text-muted) becomes readable */
+[data-theme="dark"] .text-muted, [data-theme="dark"] small, [data-theme="dark"] .muted, [data-theme="dark"] .form-text {
+    color: var(--dm-muted) !important;
+}
+
+/* Pagination, breadcrumb, and utility components */
+[data-theme="dark"] .pagination a, [data-theme="dark"] .breadcrumb, [data-theme="dark"] .page-link {
+    color: var(--dm-text) !important;
+    background: transparent !important;
+}
+
+/* Make sure icons and SVGs in buttons follow text color */
+[data-theme="dark"] .btn .bi, [data-theme="dark"] .btn svg {
+    color: inherit !important;
+}
+
+/* High-contrast outlines for focus state for keyboard users */
+[data-theme="dark"] :focus {
+    outline: 3px solid rgba(125, 231, 216, 0.18) !important;
+    outline-offset: 2px !important;
+}
+
+/* Avoid pure-white highlights that hurt eyes; use softened accents */
+[data-theme="dark"] ::selection { background: rgba(125,231,216,0.12) !important; color: var(--dm-text) !important; }
+
+/* Force readable color for inline style overrides that set low-contrast colors */
+[data-theme="dark"] *[style*="color:"] {
+    color: var(--dm-text) !important;
+}

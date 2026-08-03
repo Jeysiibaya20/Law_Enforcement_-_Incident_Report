@@ -1,0 +1,56 @@
+{
+  "id": "160309",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Luis",
+    "en": "San Luis",
+    "slug": "san-luis-160309"
+  },
+  "code": {
+    "id": "160309",
+    "iso": null
+  },
+  "parent": {
+    "id": "160300",
+    "level": 2,
+    "name": {
+      "local": "Agusan del Sur",
+      "en": "Agusan del Sur",
+      "slug": "agusan-del-sur-160300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 25
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.47806",
+    "lon": "125.74389"
+  },
+  "metadata": {},
+  "source": {}
+}

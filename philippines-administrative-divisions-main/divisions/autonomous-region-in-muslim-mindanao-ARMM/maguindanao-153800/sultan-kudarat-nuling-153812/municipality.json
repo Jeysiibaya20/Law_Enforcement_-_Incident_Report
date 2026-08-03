@@ -1,0 +1,56 @@
+{
+  "id": "153812",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sultan Kudarat (Nuling)",
+    "en": "Sultan Kudarat (Nuling)",
+    "slug": "sultan-kudarat-nuling-153812"
+  },
+  "code": {
+    "id": "153812",
+    "iso": null
+  },
+  "parent": {
+    "id": "153800",
+    "level": 2,
+    "name": {
+      "local": "Maguindanao",
+      "en": "Maguindanao",
+      "slug": "maguindanao-153800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "153800",
+      "level": 2,
+      "name": {
+        "local": "Maguindanao",
+        "en": "Maguindanao",
+        "slug": "maguindanao-153800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 39
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.233",
+    "lon": "124.25"
+  },
+  "metadata": {},
+  "source": {}
+}

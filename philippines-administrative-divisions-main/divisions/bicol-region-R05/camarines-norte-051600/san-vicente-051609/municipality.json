@@ -1,0 +1,56 @@
+{
+  "id": "051609",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Vicente",
+    "en": "San Vicente",
+    "slug": "san-vicente-051609"
+  },
+  "code": {
+    "id": "051609",
+    "iso": null
+  },
+  "parent": {
+    "id": "051600",
+    "level": 2,
+    "name": {
+      "local": "Camarines Norte",
+      "en": "Camarines Norte",
+      "slug": "camarines-norte-051600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 9
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.1",
+    "lon": "122.867"
+  },
+  "metadata": {},
+  "source": {}
+}

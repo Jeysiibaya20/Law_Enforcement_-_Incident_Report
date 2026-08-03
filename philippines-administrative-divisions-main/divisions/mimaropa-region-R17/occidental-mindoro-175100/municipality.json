@@ -1,0 +1,618 @@
+[
+  {
+    "id": "175101",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Abra De Ilog",
+      "en": "Abra De Ilog",
+      "slug": "abra-de-ilog-175101"
+    },
+    "code": {
+      "id": "175101",
+      "iso": null
+    },
+    "parent": {
+      "id": "175100",
+      "level": 2,
+      "name": {
+        "local": "Occidental Mindoro",
+        "en": "Occidental Mindoro",
+        "slug": "occidental-mindoro-175100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.45",
+      "lon": "120.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175102",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calintaan",
+      "en": "Calintaan",
+      "slug": "calintaan-175102"
+    },
+    "code": {
+      "id": "175102",
+      "iso": null
+    },
+    "parent": {
+      "id": "175100",
+      "level": 2,
+      "name": {
+        "local": "Occidental Mindoro",
+        "en": "Occidental Mindoro",
+        "slug": "occidental-mindoro-175100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 7
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.57556",
+      "lon": "120.94278"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175103",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Looc",
+      "en": "Looc",
+      "slug": "looc-175103"
+    },
+    "code": {
+      "id": "175103",
+      "iso": null
+    },
+    "parent": {
+      "id": "175100",
+      "level": 2,
+      "name": {
+        "local": "Occidental Mindoro",
+        "en": "Occidental Mindoro",
+        "slug": "occidental-mindoro-175100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.72167",
+      "lon": "120.25056"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175104",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lubang",
+      "en": "Lubang",
+      "slug": "lubang-175104"
+    },
+    "code": {
+      "id": "175104",
+      "iso": null
+    },
+    "parent": {
+      "id": "175100",
+      "level": 2,
+      "name": {
+        "local": "Occidental Mindoro",
+        "en": "Occidental Mindoro",
+        "slug": "occidental-mindoro-175100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.85778",
+      "lon": "120.12333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175105",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Magsaysay",
+      "en": "Magsaysay",
+      "slug": "magsaysay-175105"
+    },
+    "code": {
+      "id": "175105",
+      "iso": null
+    },
+    "parent": {
+      "id": "175100",
+      "level": 2,
+      "name": {
+        "local": "Occidental Mindoro",
+        "en": "Occidental Mindoro",
+        "slug": "occidental-mindoro-175100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.333",
+      "lon": "121.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175106",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mamburao",
+      "en": "Mamburao",
+      "slug": "mamburao-175106"
+    },
+    "code": {
+      "id": "175106",
+      "iso": null
+    },
+    "parent": {
+      "id": "175100",
+      "level": 2,
+      "name": {
+        "local": "Occidental Mindoro",
+        "en": "Occidental Mindoro",
+        "slug": "occidental-mindoro-175100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.217",
+      "lon": "120.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175107",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Paluan",
+      "en": "Paluan",
+      "slug": "paluan-175107"
+    },
+    "code": {
+      "id": "175107",
+      "iso": null
+    },
+    "parent": {
+      "id": "175100",
+      "level": 2,
+      "name": {
+        "local": "Occidental Mindoro",
+        "en": "Occidental Mindoro",
+        "slug": "occidental-mindoro-175100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.417",
+      "lon": "120.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175108",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Rizal",
+      "en": "Rizal",
+      "slug": "rizal-175108"
+    },
+    "code": {
+      "id": "175108",
+      "iso": null
+    },
+    "parent": {
+      "id": "175100",
+      "level": 2,
+      "name": {
+        "local": "Occidental Mindoro",
+        "en": "Occidental Mindoro",
+        "slug": "occidental-mindoro-175100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.467",
+      "lon": "120.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175109",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sablayan",
+      "en": "Sablayan",
+      "slug": "sablayan-175109"
+    },
+    "code": {
+      "id": "175109",
+      "iso": null
+    },
+    "parent": {
+      "id": "175100",
+      "level": 2,
+      "name": {
+        "local": "Occidental Mindoro",
+        "en": "Occidental Mindoro",
+        "slug": "occidental-mindoro-175100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.817",
+      "lon": "120.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175110",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-175110"
+    },
+    "code": {
+      "id": "175110",
+      "iso": null
+    },
+    "parent": {
+      "id": "175100",
+      "level": 2,
+      "name": {
+        "local": "Occidental Mindoro",
+        "en": "Occidental Mindoro",
+        "slug": "occidental-mindoro-175100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 38
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.35",
+      "lon": "121.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175111",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-175111"
+    },
+    "code": {
+      "id": "175111",
+      "iso": null
+    },
+    "parent": {
+      "id": "175100",
+      "level": 2,
+      "name": {
+        "local": "Occidental Mindoro",
+        "en": "Occidental Mindoro",
+        "slug": "occidental-mindoro-175100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.117",
+      "lon": "120.85"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

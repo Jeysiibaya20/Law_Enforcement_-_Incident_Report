@@ -1,0 +1,56 @@
+{
+  "id": "086026",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pagsanghan",
+    "en": "Pagsanghan",
+    "slug": "pagsanghan-086026"
+  },
+  "code": {
+    "id": "086026",
+    "iso": null
+  },
+  "parent": {
+    "id": "086000",
+    "level": 2,
+    "name": {
+      "local": "Samar (Western Samar)",
+      "en": "Samar (Western Samar)",
+      "slug": "samar-western-samar-086000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "086000",
+      "level": 2,
+      "name": {
+        "local": "Samar (Western Samar)",
+        "en": "Samar (Western Samar)",
+        "slug": "samar-western-samar-086000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 13
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.967",
+    "lon": "124.8"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,35 @@
+{
+  "id": "R02",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "Cagayan Valley",
+    "en": "Cagayan Valley",
+    "slug": "cagayan-valley-R02"
+  },
+  "code": {
+    "id": "R02",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 5,
+    "barangay": 2311,
+    "municipality": 93
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.3403",
+    "lon": "121.6297"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/cagayan-valley-R02/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

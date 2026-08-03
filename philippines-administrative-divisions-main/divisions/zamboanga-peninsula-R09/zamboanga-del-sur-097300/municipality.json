@@ -1,0 +1,1570 @@
+[
+  {
+    "id": "097302",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Aurora",
+      "en": "Aurora",
+      "slug": "aurora-097302"
+    },
+    "code": {
+      "id": "097302",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 44
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.95",
+      "lon": "123.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097303",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bayog",
+      "en": "Bayog",
+      "slug": "bayog-097303"
+    },
+    "code": {
+      "id": "097303",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.867",
+      "lon": "123.033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097305",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dimataling",
+      "en": "Dimataling",
+      "slug": "dimataling-097305"
+    },
+    "code": {
+      "id": "097305",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.533",
+      "lon": "123.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097306",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dinas",
+      "en": "Dinas",
+      "slug": "dinas-097306"
+    },
+    "code": {
+      "id": "097306",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.633",
+      "lon": "123.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097307",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dumalinao",
+      "en": "Dumalinao",
+      "slug": "dumalinao-097307"
+    },
+    "code": {
+      "id": "097307",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.817",
+      "lon": "123.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097308",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dumingag",
+      "en": "Dumingag",
+      "slug": "dumingag-097308"
+    },
+    "code": {
+      "id": "097308",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 44
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.167",
+      "lon": "123.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097343",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Guipos",
+      "en": "Guipos",
+      "slug": "guipos-097343"
+    },
+    "code": {
+      "id": "097343",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.733",
+      "lon": "123.317"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097337",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Josefina",
+      "en": "Josefina",
+      "slug": "josefina-097337"
+    },
+    "code": {
+      "id": "097337",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.2",
+      "lon": "123.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097311",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kumalarang",
+      "en": "Kumalarang",
+      "slug": "kumalarang-097311"
+    },
+    "code": {
+      "id": "097311",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.75",
+      "lon": "123.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097312",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Labangan",
+      "en": "Labangan",
+      "slug": "labangan-097312"
+    },
+    "code": {
+      "id": "097312",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.867",
+      "lon": "123.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097333",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lakewood",
+      "en": "Lakewood",
+      "slug": "lakewood-097333"
+    },
+    "code": {
+      "id": "097333",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.85",
+      "lon": "123.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097313",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lapuyan",
+      "en": "Lapuyan",
+      "slug": "lapuyan-097313"
+    },
+    "code": {
+      "id": "097313",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.633",
+      "lon": "123.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097315",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mahayag",
+      "en": "Mahayag",
+      "slug": "mahayag-097315"
+    },
+    "code": {
+      "id": "097315",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.133",
+      "lon": "123.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097317",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Margosatubig",
+      "en": "Margosatubig",
+      "slug": "margosatubig-097317"
+    },
+    "code": {
+      "id": "097317",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.583",
+      "lon": "123.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097318",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Midsalip",
+      "en": "Midsalip",
+      "slug": "midsalip-097318"
+    },
+    "code": {
+      "id": "097318",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8",
+      "lon": "123.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097319",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Molave",
+      "en": "Molave",
+      "slug": "molave-097319"
+    },
+    "code": {
+      "id": "097319",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.083",
+      "lon": "123.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097322",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pagadian City",
+      "en": "Pagadian City",
+      "slug": "pagadian-city-097322"
+    },
+    "code": {
+      "id": "097322",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 54
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.83",
+      "lon": "123.43"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097338",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pitogo",
+      "en": "Pitogo",
+      "slug": "pitogo-097338"
+    },
+    "code": {
+      "id": "097338",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.45",
+      "lon": "123.317"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097323",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ramon Magsaysay (Liargo)",
+      "en": "Ramon Magsaysay (Liargo)",
+      "slug": "ramon-magsaysay-liargo-097323"
+    },
+    "code": {
+      "id": "097323",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8",
+      "lon": "123.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097324",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-097324"
+    },
+    "code": {
+      "id": "097324",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.65",
+      "lon": "123.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097325",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Pablo",
+      "en": "San Pablo",
+      "slug": "san-pablo-097325"
+    },
+    "code": {
+      "id": "097325",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.65",
+      "lon": "123.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097340",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sominot (Don Mariano Marcos)",
+      "en": "Sominot (Don Mariano Marcos)",
+      "slug": "sominot-don-mariano-marcos-097340"
+    },
+    "code": {
+      "id": "097340",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.017",
+      "lon": "123.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097327",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tabina",
+      "en": "Tabina",
+      "slug": "tabina-097327"
+    },
+    "code": {
+      "id": "097327",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.467",
+      "lon": "123.417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097328",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tambulig",
+      "en": "Tambulig",
+      "slug": "tambulig-097328"
+    },
+    "code": {
+      "id": "097328",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.067",
+      "lon": "123.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097344",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tigbao",
+      "en": "Tigbao",
+      "slug": "tigbao-097344"
+    },
+    "code": {
+      "id": "097344",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.817",
+      "lon": "123.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097330",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tukuran",
+      "en": "Tukuran",
+      "slug": "tukuran-097330"
+    },
+    "code": {
+      "id": "097330",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.85",
+      "lon": "123.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097341",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Vincenzo A. Sagun",
+      "en": "Vincenzo A. Sagun",
+      "slug": "vincenzo-a-sagun-097341"
+    },
+    "code": {
+      "id": "097341",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.517",
+      "lon": "123.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097332",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Zamboanga City",
+      "en": "Zamboanga City",
+      "slug": "zamboanga-city-097332"
+    },
+    "code": {
+      "id": "097332",
+      "iso": null
+    },
+    "parent": {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "097300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga del Sur",
+          "en": "Zamboanga del Sur",
+          "slug": "zamboanga-del-sur-097300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 98
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.3416",
+      "lon": "122.8419"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

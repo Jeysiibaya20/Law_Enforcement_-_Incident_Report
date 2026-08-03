@@ -1,0 +1,56 @@
+{
+  "id": "153819",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Gen. S.K. Pendatun",
+    "en": "Gen. S.K. Pendatun",
+    "slug": "gen-sk-pendatun-153819"
+  },
+  "code": {
+    "id": "153819",
+    "iso": null
+  },
+  "parent": {
+    "id": "153800",
+    "level": 2,
+    "name": {
+      "local": "Maguindanao",
+      "en": "Maguindanao",
+      "slug": "maguindanao-153800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "153800",
+      "level": 2,
+      "name": {
+        "local": "Maguindanao",
+        "en": "Maguindanao",
+        "slug": "maguindanao-153800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 19
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.9667",
+    "lon": "124.4833"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "141106",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Itogon",
+    "en": "Itogon",
+    "slug": "itogon-141106"
+  },
+  "code": {
+    "id": "141106",
+    "iso": null
+  },
+  "parent": {
+    "id": "141100",
+    "level": 2,
+    "name": {
+      "local": "Benguet",
+      "en": "Benguet",
+      "slug": "benguet-141100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "141100",
+      "level": 2,
+      "name": {
+        "local": "Benguet",
+        "en": "Benguet",
+        "slug": "benguet-141100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 9
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.367",
+    "lon": "120.683"
+  },
+  "metadata": {},
+  "source": {}
+}

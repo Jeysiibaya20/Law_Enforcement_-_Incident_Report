@@ -1,0 +1,56 @@
+{
+  "id": "041029",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Taal",
+    "en": "Taal",
+    "slug": "taal-041029"
+  },
+  "code": {
+    "id": "041029",
+    "iso": null
+  },
+  "parent": {
+    "id": "041000",
+    "level": 2,
+    "name": {
+      "local": "Batangas",
+      "en": "Batangas",
+      "slug": "batangas-041000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 42
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.89417",
+    "lon": "120.92917"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,4552 @@
+[
+  {
+    "id": "050506005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 1 - Em's Barrio (Pob.)",
+      "en": "Bgy. 1 - Em's Barrio (Pob.)",
+      "slug": "bgy-1-ems-barrio-pob-050506005"
+    },
+    "code": {
+      "id": "050506005",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506072",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 10 - Cabugao",
+      "en": "Bgy. 10 - Cabugao",
+      "slug": "bgy-10-cabugao-050506072"
+    },
+    "code": {
+      "id": "050506072",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "17.7947",
+      "lon": "120.4556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 11 - Maoyod Pob. (Bgy. 10 & 11)",
+      "en": "Bgy. 11 - Maoyod Pob. (Bgy. 10 & 11)",
+      "slug": "bgy-11-maoyod-pob-bgy-10-11-050506007"
+    },
+    "code": {
+      "id": "050506007",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 12 - Tula-tula (Pob.)",
+      "en": "Bgy. 12 - Tula-tula (Pob.)",
+      "slug": "bgy-12-tula-tula-pob-050506008"
+    },
+    "code": {
+      "id": "050506008",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 13 - Ilawod West Pob. (Ilawod 1)",
+      "en": "Bgy. 13 - Ilawod West Pob. (Ilawod 1)",
+      "slug": "bgy-13-ilawod-west-pob-ilawod-1-050506009"
+    },
+    "code": {
+      "id": "050506009",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 14 - Ilawod Pob. (Ilawod 2)",
+      "en": "Bgy. 14 - Ilawod Pob. (Ilawod 2)",
+      "slug": "bgy-14-ilawod-pob-ilawod-2-050506010"
+    },
+    "code": {
+      "id": "050506010",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 15 - Ilawod East Pob. (Ilawod 3)",
+      "en": "Bgy. 15 - Ilawod East Pob. (Ilawod 3)",
+      "slug": "bgy-15-ilawod-east-pob-ilawod-3-050506011"
+    },
+    "code": {
+      "id": "050506011",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 16 - Kawit-East Washington Drive (Pob.)",
+      "en": "Bgy. 16 - Kawit-East Washington Drive (Pob.)",
+      "slug": "bgy-16-kawit-east-washington-drive-pob-050506012"
+    },
+    "code": {
+      "id": "050506012",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 17 - Rizal Street., Ilawod (Pob.)",
+      "en": "Bgy. 17 - Rizal Street., Ilawod (Pob.)",
+      "slug": "bgy-17-rizal-street-ilawod-pob-050506013"
+    },
+    "code": {
+      "id": "050506013",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 18 - Cabagñan West (Pob.)",
+      "en": "Bgy. 18 - Cabagñan West (Pob.)",
+      "slug": "bgy-18-cabagan-west-pob-050506017"
+    },
+    "code": {
+      "id": "050506017",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 19 - Cabagñan",
+      "en": "Bgy. 19 - Cabagñan",
+      "slug": "bgy-19-cabagan-050506015"
+    },
+    "code": {
+      "id": "050506015",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.1829",
+      "lon": "123.6777"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 2 - Em's Barrio South (Pob.)",
+      "en": "Bgy. 2 - Em's Barrio South (Pob.)",
+      "slug": "bgy-2-ems-barrio-south-pob-050506016"
+    },
+    "code": {
+      "id": "050506016",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 20 - Cabagñan East (Pob.)",
+      "en": "Bgy. 20 - Cabagñan East (Pob.)",
+      "slug": "bgy-20-cabagan-east-pob-050506021"
+    },
+    "code": {
+      "id": "050506021",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 21 - Binanuahan West (Pob.)",
+      "en": "Bgy. 21 - Binanuahan West (Pob.)",
+      "slug": "bgy-21-binanuahan-west-pob-050506018"
+    },
+    "code": {
+      "id": "050506018",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 22 - Binanuahan East (Pob.)",
+      "en": "Bgy. 22 - Binanuahan East (Pob.)",
+      "slug": "bgy-22-binanuahan-east-pob-050506019"
+    },
+    "code": {
+      "id": "050506019",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 23 - Imperial Court Subd. (Pob.)",
+      "en": "Bgy. 23 - Imperial Court Subd. (Pob.)",
+      "slug": "bgy-23-imperial-court-subd-pob-050506020"
+    },
+    "code": {
+      "id": "050506020",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506073",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 24 - Rizal Street",
+      "en": "Bgy. 24 - Rizal Street",
+      "slug": "bgy-24-rizal-street-050506073"
+    },
+    "code": {
+      "id": "050506073",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 25 - Lapu-lapu (Pob.)",
+      "en": "Bgy. 25 - Lapu-lapu (Pob.)",
+      "slug": "bgy-25-lapu-lapu-pob-050506022"
+    },
+    "code": {
+      "id": "050506022",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 26 - Dinagaan (Pob.)",
+      "en": "Bgy. 26 - Dinagaan (Pob.)",
+      "slug": "bgy-26-dinagaan-pob-050506023"
+    },
+    "code": {
+      "id": "050506023",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 27 - Victory Village South (Pob.)",
+      "en": "Bgy. 27 - Victory Village South (Pob.)",
+      "slug": "bgy-27-victory-village-south-pob-050506024"
+    },
+    "code": {
+      "id": "050506024",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 28 - Victory Village North (Pob.)",
+      "en": "Bgy. 28 - Victory Village North (Pob.)",
+      "slug": "bgy-28-victory-village-north-pob-050506025"
+    },
+    "code": {
+      "id": "050506025",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 29 - Sabang (Pob.)",
+      "en": "Bgy. 29 - Sabang (Pob.)",
+      "slug": "bgy-29-sabang-pob-050506026"
+    },
+    "code": {
+      "id": "050506026",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 3 - Em's Barrio East (Pob.)",
+      "en": "Bgy. 3 - Em's Barrio East (Pob.)",
+      "slug": "bgy-3-ems-barrio-east-pob-050506027"
+    },
+    "code": {
+      "id": "050506027",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 30 - Pigcale (Pob.)",
+      "en": "Bgy. 30 - Pigcale (Pob.)",
+      "slug": "bgy-30-pigcale-pob-050506029"
+    },
+    "code": {
+      "id": "050506029",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 31 - Centro-Baybay (Pob.)",
+      "en": "Bgy. 31 - Centro-Baybay (Pob.)",
+      "slug": "bgy-31-centro-baybay-pob-050506030"
+    },
+    "code": {
+      "id": "050506030",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506067",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 32 - San Roque (Bgy. 66)",
+      "en": "Bgy. 32 - San Roque (Bgy. 66)",
+      "slug": "bgy-32-san-roque-bgy-66-050506067"
+    },
+    "code": {
+      "id": "050506067",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 33 - PNR-Peñaranda St.-Iraya (Pob.)",
+      "en": "Bgy. 33 - PNR-Peñaranda St.-Iraya (Pob.)",
+      "slug": "bgy-33-pnr-pearanda-st-iraya-pob-050506032"
+    },
+    "code": {
+      "id": "050506032",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 34 - Oro Site-Magallanes St. (Pob.)",
+      "en": "Bgy. 34 - Oro Site-Magallanes St. (Pob.)",
+      "slug": "bgy-34-oro-site-magallanes-st-pob-050506033"
+    },
+    "code": {
+      "id": "050506033",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 35 - Tinago (Pob.)",
+      "en": "Bgy. 35 - Tinago (Pob.)",
+      "slug": "bgy-35-tinago-pob-050506034"
+    },
+    "code": {
+      "id": "050506034",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 36 - Kapantawan (Pob.)",
+      "en": "Bgy. 36 - Kapantawan (Pob.)",
+      "slug": "bgy-36-kapantawan-pob-050506028"
+    },
+    "code": {
+      "id": "050506028",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 37 - Bitano (Pob.)",
+      "en": "Bgy. 37 - Bitano (Pob.)",
+      "slug": "bgy-37-bitano-pob-050506035"
+    },
+    "code": {
+      "id": "050506035",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506055",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 38 - Gogon (Bgy. 54)",
+      "en": "Bgy. 38 - Gogon (Bgy. 54)",
+      "slug": "bgy-38-gogon-bgy-54-050506055"
+    },
+    "code": {
+      "id": "050506055",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506037",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 39 - Bonot (Pob.)",
+      "en": "Bgy. 39 - Bonot (Pob.)",
+      "slug": "bgy-39-bonot-pob-050506037"
+    },
+    "code": {
+      "id": "050506037",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506038",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 4 - Sagpon Pob. (Sagpon 1)",
+      "en": "Bgy. 4 - Sagpon Pob. (Sagpon 1)",
+      "slug": "bgy-4-sagpon-pob-sagpon-1-050506038"
+    },
+    "code": {
+      "id": "050506038",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506051",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 40 - Cruzada (Bgy. 52)",
+      "en": "Bgy. 40 - Cruzada (Bgy. 52)",
+      "slug": "bgy-40-cruzada-bgy-52-050506051"
+    },
+    "code": {
+      "id": "050506051",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506046",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 41 - Bogtong (Bgy. 45)",
+      "en": "Bgy. 41 - Bogtong (Bgy. 45)",
+      "slug": "bgy-41-bogtong-bgy-45-050506046"
+    },
+    "code": {
+      "id": "050506046",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506064",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 42 - Rawis (Bgy. 65)",
+      "en": "Bgy. 42 - Rawis (Bgy. 65)",
+      "slug": "bgy-42-rawis-bgy-65-050506064"
+    },
+    "code": {
+      "id": "050506064",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506069",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 43 - Tamaoyan (Bgy. 67)",
+      "en": "Bgy. 43 - Tamaoyan (Bgy. 67)",
+      "slug": "bgy-43-tamaoyan-bgy-67-050506069"
+    },
+    "code": {
+      "id": "050506069",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506062",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 44 - Pawa (Bgy. 61)",
+      "en": "Bgy. 44 - Pawa (Bgy. 61)",
+      "slug": "bgy-44-pawa-bgy-61-050506062"
+    },
+    "code": {
+      "id": "050506062",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506053",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 45 - Dita (Bgy. 51)",
+      "en": "Bgy. 45 - Dita (Bgy. 51)",
+      "slug": "bgy-45-dita-bgy-51-050506053"
+    },
+    "code": {
+      "id": "050506053",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506066",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 46 - San Joaquin (Bgy. 64)",
+      "en": "Bgy. 46 - San Joaquin (Bgy. 64)",
+      "slug": "bgy-46-san-joaquin-bgy-64-050506066"
+    },
+    "code": {
+      "id": "050506066",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 47 - Arimbay",
+      "en": "Bgy. 47 - Arimbay",
+      "slug": "bgy-47-arimbay-050506001"
+    },
+    "code": {
+      "id": "050506001",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.1883",
+      "lon": "123.7565"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 48 - Bagong Abre (Bgy. 42)",
+      "en": "Bgy. 48 - Bagong Abre (Bgy. 42)",
+      "slug": "bgy-48-bagong-abre-bgy-42-050506003"
+    },
+    "code": {
+      "id": "050506003",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506045",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 49 - Bigaa (Bgy. 44)",
+      "en": "Bgy. 49 - Bigaa (Bgy. 44)",
+      "slug": "bgy-49-bigaa-bgy-44-050506045"
+    },
+    "code": {
+      "id": "050506045",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506039",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 5 - Sagmin Pob. (Sagpon 2)",
+      "en": "Bgy. 5 - Sagmin Pob. (Sagpon 2)",
+      "slug": "bgy-5-sagmin-pob-sagpon-2-050506039"
+    },
+    "code": {
+      "id": "050506039",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506061",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 50 - Padang (Bgy. 60)",
+      "en": "Bgy. 50 - Padang (Bgy. 60)",
+      "slug": "bgy-50-padang-bgy-60-050506061"
+    },
+    "code": {
+      "id": "050506061",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506049",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 51 - Buyuan (Bgy. 49)",
+      "en": "Bgy. 51 - Buyuan (Bgy. 49)",
+      "slug": "bgy-51-buyuan-bgy-49-050506049"
+    },
+    "code": {
+      "id": "050506049",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506071",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 52 - Matanag",
+      "en": "Bgy. 52 - Matanag",
+      "slug": "bgy-52-matanag-050506071"
+    },
+    "code": {
+      "id": "050506071",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.2166",
+      "lon": "123.734"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506047",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 53 - Bonga (Bgy. 48)",
+      "en": "Bgy. 53 - Bonga (Bgy. 48)",
+      "slug": "bgy-53-bonga-bgy-48-050506047"
+    },
+    "code": {
+      "id": "050506047",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506058",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 54 - Mabinit (Bgy. 59)",
+      "en": "Bgy. 54 - Mabinit (Bgy. 59)",
+      "slug": "bgy-54-mabinit-bgy-59-050506058"
+    },
+    "code": {
+      "id": "050506058",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506054",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 55 - Estanza (Bgy. 53)",
+      "en": "Bgy. 55 - Estanza (Bgy. 53)",
+      "slug": "bgy-55-estanza-bgy-53-050506054"
+    },
+    "code": {
+      "id": "050506054",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506070",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 56 - Taysan (Bgy. 68)",
+      "en": "Bgy. 56 - Taysan (Bgy. 68)",
+      "slug": "bgy-56-taysan-bgy-68-050506070"
+    },
+    "code": {
+      "id": "050506070",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506052",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 57 - Dap-dap (Bgy. 69)",
+      "en": "Bgy. 57 - Dap-dap (Bgy. 69)",
+      "slug": "bgy-57-dap-dap-bgy-69-050506052"
+    },
+    "code": {
+      "id": "050506052",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506074",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 58 - Buragwis",
+      "en": "Bgy. 58 - Buragwis",
+      "slug": "bgy-58-buragwis-050506074"
+    },
+    "code": {
+      "id": "050506074",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506063",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 59 - Puro (Bgy. 63)",
+      "en": "Bgy. 59 - Puro (Bgy. 63)",
+      "slug": "bgy-59-puro-bgy-63-050506063"
+    },
+    "code": {
+      "id": "050506063",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506040",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 6 - Bañadero Pob. (Sagpon 3)",
+      "en": "Bgy. 6 - Bañadero Pob. (Sagpon 3)",
+      "slug": "bgy-6-baadero-pob-sagpon-3-050506040"
+    },
+    "code": {
+      "id": "050506040",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506077",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 60 - Lamba",
+      "en": "Bgy. 60 - Lamba",
+      "slug": "bgy-60-lamba-050506077"
+    },
+    "code": {
+      "id": "050506077",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.1284",
+      "lon": "123.7664"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506060",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 61 - Maslog (Bgy. 58)",
+      "en": "Bgy. 61 - Maslog (Bgy. 58)",
+      "slug": "bgy-61-maslog-bgy-58-050506060"
+    },
+    "code": {
+      "id": "050506060",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506056",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 62 - Homapon (Bgy. 55)",
+      "en": "Bgy. 62 - Homapon (Bgy. 55)",
+      "slug": "bgy-62-homapon-bgy-55-050506056"
+    },
+    "code": {
+      "id": "050506056",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506059",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 63 - Mariawa (Bgy. 56)",
+      "en": "Bgy. 63 - Mariawa (Bgy. 56)",
+      "slug": "bgy-63-mariawa-bgy-56-050506059"
+    },
+    "code": {
+      "id": "050506059",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 64 - Bagacay (Bgy. 41 Bagacay)",
+      "en": "Bgy. 64 - Bagacay (Bgy. 41 Bagacay)",
+      "slug": "bgy-64-bagacay-bgy-41-bagacay-050506002"
+    },
+    "code": {
+      "id": "050506002",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.0739",
+      "lon": "123.7618"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506057",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 65 - Imalnod (Bgy. 57)",
+      "en": "Bgy. 65 - Imalnod (Bgy. 57)",
+      "slug": "bgy-65-imalnod-bgy-57-050506057"
+    },
+    "code": {
+      "id": "050506057",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 66 - Banquerohan (Bgy. 43)",
+      "en": "Bgy. 66 - Banquerohan (Bgy. 43)",
+      "slug": "bgy-66-banquerohan-bgy-43-050506004"
+    },
+    "code": {
+      "id": "050506004",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506044",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 67 - Bariis (Bgy. 46)",
+      "en": "Bgy. 67 - Bariis (Bgy. 46)",
+      "slug": "bgy-67-bariis-bgy-46-050506044"
+    },
+    "code": {
+      "id": "050506044",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506065",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 68 - San Francisco (Bgy. 62)",
+      "en": "Bgy. 68 - San Francisco (Bgy. 62)",
+      "slug": "bgy-68-san-francisco-bgy-62-050506065"
+    },
+    "code": {
+      "id": "050506065",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506048",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 69 - Buenavista (Bgy.47)",
+      "en": "Bgy. 69 - Buenavista (Bgy.47)",
+      "slug": "bgy-69-buenavista-bgy47-050506048"
+    },
+    "code": {
+      "id": "050506048",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506041",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 7 - Baño (Pob.)",
+      "en": "Bgy. 7 - Baño (Pob.)",
+      "slug": "bgy-7-bao-pob-050506041"
+    },
+    "code": {
+      "id": "050506041",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506050",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 70 - Cagbacong (Bgy. 50)",
+      "en": "Bgy. 70 - Cagbacong (Bgy. 50)",
+      "slug": "bgy-70-cagbacong-bgy-50-050506050"
+    },
+    "code": {
+      "id": "050506050",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506042",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 8 - Bagumbayan (Pob.)",
+      "en": "Bgy. 8 - Bagumbayan (Pob.)",
+      "slug": "bgy-8-bagumbayan-pob-050506042"
+    },
+    "code": {
+      "id": "050506042",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506043",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bgy. 9 - Pinaric (Pob.)",
+      "en": "Bgy. 9 - Pinaric (Pob.)",
+      "slug": "bgy-9-pinaric-pob-050506043"
+    },
+    "code": {
+      "id": "050506043",
+      "iso": null
+    },
+    "parent": {
+      "id": "050506",
+      "level": 3,
+      "name": {
+        "local": "Legazpi City",
+        "en": "Legazpi City",
+        "slug": "legazpi-city-050506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      },
+      {
+        "id": "050506",
+        "level": 3,
+        "name": {
+          "local": "Legazpi City",
+          "en": "Legazpi City",
+          "slug": "legazpi-city-050506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4500"
+    ],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

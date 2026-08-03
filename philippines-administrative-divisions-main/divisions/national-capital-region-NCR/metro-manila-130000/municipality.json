@@ -1,0 +1,954 @@
+[
+  {
+    "id": "137501",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Caloocan City",
+      "en": "Caloocan City",
+      "slug": "caloocan-city-137501"
+    },
+    "code": {
+      "id": "137501",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 188
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137601",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Las Piñas",
+      "en": "Las Piñas",
+      "slug": "las-pias-137601"
+    },
+    "code": {
+      "id": "137601",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.1965",
+      "lon": "121.1925"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137602",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Makati",
+      "en": "Makati",
+      "slug": "makati-137602"
+    },
+    "code": {
+      "id": "137602",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.3471",
+      "lon": "121.2538"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137502",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malabon",
+      "en": "Malabon",
+      "slug": "malabon-137502"
+    },
+    "code": {
+      "id": "137502",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.571",
+      "lon": "121.1507"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137401",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mandaluyong",
+      "en": "Mandaluyong",
+      "slug": "mandaluyong-137401"
+    },
+    "code": {
+      "id": "137401",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.5736",
+      "lon": "121.0303"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "133900",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Manila",
+      "en": "Manila",
+      "slug": "manila-133900"
+    },
+    "code": {
+      "id": "133900",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 897
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.1381",
+      "lon": "120.7863"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137402",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Marikina",
+      "en": "Marikina",
+      "slug": "marikina-137402"
+    },
+    "code": {
+      "id": "137402",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.3311",
+      "lon": "121.9677"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137603",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Muntinlupa",
+      "en": "Muntinlupa",
+      "slug": "muntinlupa-137603"
+    },
+    "code": {
+      "id": "137603",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.4046",
+      "lon": "121.049"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Navotas",
+      "en": "Navotas",
+      "slug": "navotas-137503"
+    },
+    "code": {
+      "id": "137503",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.3238",
+      "lon": "121.2281"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137604",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Parañaque",
+      "en": "Parañaque",
+      "slug": "paraaque-137604"
+    },
+    "code": {
+      "id": "137604",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.0339",
+      "lon": "121.2322"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137605",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pasay City",
+      "en": "Pasay City",
+      "slug": "pasay-city-137605"
+    },
+    "code": {
+      "id": "137605",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 201
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137403",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pasig",
+      "en": "Pasig",
+      "slug": "pasig-137403"
+    },
+    "code": {
+      "id": "137403",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.3361",
+      "lon": "121.2804"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137606",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pateros",
+      "en": "Pateros",
+      "slug": "pateros-137606"
+    },
+    "code": {
+      "id": "137606",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.0655",
+      "lon": "121.7681"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137404",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Quezon City",
+      "en": "Quezon City",
+      "slug": "quezon-city-137404"
+    },
+    "code": {
+      "id": "137404",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 142
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.3697",
+      "lon": "121.5626"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137405",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Juan",
+      "en": "San Juan",
+      "slug": "san-juan-137405"
+    },
+    "code": {
+      "id": "137405",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.2042",
+      "lon": "121.5334"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137607",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Taguig City",
+      "en": "Taguig City",
+      "slug": "taguig-city-137607"
+    },
+    "code": {
+      "id": "137607",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.3034",
+      "lon": "121.0067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137504",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Valenzuela",
+      "en": "Valenzuela",
+      "slug": "valenzuela-137504"
+    },
+    "code": {
+      "id": "137504",
+      "iso": null
+    },
+    "parent": {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.5202",
+      "lon": "120.9553"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

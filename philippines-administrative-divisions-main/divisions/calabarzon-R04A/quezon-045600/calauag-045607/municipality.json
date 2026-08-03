@@ -1,0 +1,56 @@
+{
+  "id": "045607",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Calauag",
+    "en": "Calauag",
+    "slug": "calauag-045607"
+  },
+  "code": {
+    "id": "045607",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 81
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.9575",
+    "lon": "122.2875"
+  },
+  "metadata": {},
+  "source": {}
+}

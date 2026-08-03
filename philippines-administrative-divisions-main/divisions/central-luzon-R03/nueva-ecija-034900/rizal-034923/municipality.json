@@ -1,0 +1,56 @@
+{
+  "id": "034923",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Rizal",
+    "en": "Rizal",
+    "slug": "rizal-034923"
+  },
+  "code": {
+    "id": "034923",
+    "iso": null
+  },
+  "parent": {
+    "id": "034900",
+    "level": 2,
+    "name": {
+      "local": "Nueva Ecija",
+      "en": "Nueva Ecija",
+      "slug": "nueva-ecija-034900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "034900",
+      "level": 2,
+      "name": {
+        "local": "Nueva Ecija",
+        "en": "Nueva Ecija",
+        "slug": "nueva-ecija-034900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 26
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.683",
+    "lon": "121.167"
+  },
+  "metadata": {},
+  "source": {}
+}

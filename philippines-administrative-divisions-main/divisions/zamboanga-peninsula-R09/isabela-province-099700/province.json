@@ -1,0 +1,48 @@
+{
+  "id": "099700",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Isabela (Province)",
+    "en": "Isabela (Province)",
+    "slug": "isabela-province-099700"
+  },
+  "code": {
+    "id": "099700",
+    "iso": null
+  },
+  "parent": {
+    "id": "R09",
+    "level": 1,
+    "name": {
+      "local": "Zamboanga Peninsula",
+      "en": "Zamboanga Peninsula",
+      "slug": "zamboanga-peninsula-R09"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 1,
+    "barangay": 45
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.3629",
+    "lon": "122.5763"
+  },
+  "metadata": {},
+  "source": {}
+}

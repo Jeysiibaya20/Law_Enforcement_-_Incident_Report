@@ -1,0 +1,56 @@
+{
+  "id": "153633",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Buadiposo-Buntong",
+    "en": "Buadiposo-Buntong",
+    "slug": "buadiposo-buntong-153633"
+  },
+  "code": {
+    "id": "153633",
+    "iso": null
+  },
+  "parent": {
+    "id": "153600",
+    "level": 2,
+    "name": {
+      "local": "Lanao del Sur",
+      "en": "Lanao del Sur",
+      "slug": "lanao-del-sur-153600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 33
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.967",
+    "lon": "124.383"
+  },
+  "metadata": {},
+  "source": {}
+}

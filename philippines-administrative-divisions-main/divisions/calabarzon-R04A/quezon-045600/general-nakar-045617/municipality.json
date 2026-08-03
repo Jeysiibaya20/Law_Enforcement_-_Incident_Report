@@ -1,0 +1,56 @@
+{
+  "id": "045617",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "General Nakar",
+    "en": "General Nakar",
+    "slug": "general-nakar-045617"
+  },
+  "code": {
+    "id": "045617",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 19
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.767",
+    "lon": "121.617"
+  },
+  "metadata": {},
+  "source": {}
+}

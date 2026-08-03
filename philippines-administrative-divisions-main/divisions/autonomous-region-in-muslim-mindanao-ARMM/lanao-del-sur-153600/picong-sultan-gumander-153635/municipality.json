@@ -1,0 +1,56 @@
+{
+  "id": "153635",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Picong (Sultan Gumander)",
+    "en": "Picong (Sultan Gumander)",
+    "slug": "picong-sultan-gumander-153635"
+  },
+  "code": {
+    "id": "153635",
+    "iso": null
+  },
+  "parent": {
+    "id": "153600",
+    "level": 2,
+    "name": {
+      "local": "Lanao del Sur",
+      "en": "Lanao del Sur",
+      "slug": "lanao-del-sur-153600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 19
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.683",
+    "lon": "123.95"
+  },
+  "metadata": {},
+  "source": {}
+}

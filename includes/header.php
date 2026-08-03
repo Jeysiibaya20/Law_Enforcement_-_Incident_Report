@@ -25,20 +25,59 @@ $supported_langs = LanguageManager::getSupportedLanguages();
     
     <title><?php echo isset($page_title) ? $page_title . ' - ' : ''; ?>Alertara</title>
     
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem('alertaraTheme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+            const root = document.documentElement;
+
+            root.setAttribute('data-theme', theme);
+            root.classList.remove('light-mode', 'dark-mode');
+            root.classList.add(theme + '-mode');
+
+            function applyBodyTheme() {
+                if (!document.body) return;
+                document.body.classList.remove('light-mode', 'dark-mode');
+                document.body.classList.add(theme + '-mode');
+            }
+
+            applyBodyTheme();
+            document.addEventListener('DOMContentLoaded', applyBodyTheme);
+        })();
+    </script>
+
     <!-- Bootstrap 5.3.8 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: '#0f766e'
+                    }
+                }
+            }
+        };
+    </script>
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     
     <!-- Custom CSS -->
-    <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/style.css" rel="stylesheet">
     <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/global.css" rel="stylesheet">
     <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/auth.css" rel="stylesheet">
-    
+    <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/style.css" rel="stylesheet">
+    <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/navbar.css" rel="stylesheet">
+    <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/theme.css" rel="stylesheet">
+    <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/theme-dark-overrides.css" rel="stylesheet">
+
     <!-- Favicon -->
     <!-- <link rel="icon" type="image/x-icon" href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/images/favicon.ico"> -->
     

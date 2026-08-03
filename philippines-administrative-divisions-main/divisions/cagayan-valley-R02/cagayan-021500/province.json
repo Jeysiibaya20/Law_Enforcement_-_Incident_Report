@@ -1,0 +1,48 @@
+{
+  "id": "021500",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Cagayan",
+    "en": "Cagayan",
+    "slug": "cagayan-021500"
+  },
+  "code": {
+    "id": "021500",
+    "iso": null
+  },
+  "parent": {
+    "id": "R02",
+    "level": 1,
+    "name": {
+      "local": "Cagayan Valley",
+      "en": "Cagayan Valley",
+      "slug": "cagayan-valley-R02"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 29,
+    "barangay": 820
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.9308",
+    "lon": "121.6245"
+  },
+  "metadata": {},
+  "source": {}
+}

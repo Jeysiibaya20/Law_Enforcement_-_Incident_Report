@@ -1,0 +1,56 @@
+{
+  "id": "074608",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Canlaon City",
+    "en": "Canlaon City",
+    "slug": "canlaon-city-074608"
+  },
+  "code": {
+    "id": "074608",
+    "iso": null
+  },
+  "parent": {
+    "id": "074600",
+    "level": 2,
+    "name": {
+      "local": "Negros Oriental",
+      "en": "Negros Oriental",
+      "slug": "negros-oriental-074600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 12
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.383",
+    "lon": "123.2"
+  },
+  "metadata": {},
+  "source": {}
+}

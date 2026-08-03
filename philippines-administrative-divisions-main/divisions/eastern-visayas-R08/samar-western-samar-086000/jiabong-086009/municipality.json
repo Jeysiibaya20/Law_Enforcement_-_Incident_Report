@@ -1,0 +1,56 @@
+{
+  "id": "086009",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Jiabong",
+    "en": "Jiabong",
+    "slug": "jiabong-086009"
+  },
+  "code": {
+    "id": "086009",
+    "iso": null
+  },
+  "parent": {
+    "id": "086000",
+    "level": 2,
+    "name": {
+      "local": "Samar (Western Samar)",
+      "en": "Samar (Western Samar)",
+      "slug": "samar-western-samar-086000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "086000",
+      "level": 2,
+      "name": {
+        "local": "Samar (Western Samar)",
+        "en": "Samar (Western Samar)",
+        "slug": "samar-western-samar-086000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 34
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.767",
+    "lon": "124.95"
+  },
+  "metadata": {},
+  "source": {}
+}

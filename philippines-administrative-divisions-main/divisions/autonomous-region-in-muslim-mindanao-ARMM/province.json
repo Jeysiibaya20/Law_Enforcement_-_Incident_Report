@@ -1,0 +1,242 @@
+[
+  {
+    "id": "150700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Basilan",
+      "en": "Basilan",
+      "slug": "basilan-150700"
+    },
+    "code": {
+      "id": "150700",
+      "iso": null
+    },
+    "parent": {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 12,
+      "barangay": 210
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.6078",
+      "lon": "122.1204"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153600",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Lanao del Sur",
+      "en": "Lanao del Sur",
+      "slug": "lanao-del-sur-153600"
+    },
+    "code": {
+      "id": "153600",
+      "iso": null
+    },
+    "parent": {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 40,
+      "barangay": 1159
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.505",
+      "lon": "123.9808"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Maguindanao",
+      "en": "Maguindanao",
+      "slug": "maguindanao-153800"
+    },
+    "code": {
+      "id": "153800",
+      "iso": null
+    },
+    "parent": {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 36,
+      "barangay": 508
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.4308",
+      "lon": "124.179"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156600",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Sulu",
+      "en": "Sulu",
+      "slug": "sulu-156600"
+    },
+    "code": {
+      "id": "156600",
+      "iso": null
+    },
+    "parent": {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 19,
+      "barangay": 410
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.5156",
+      "lon": "121.1936"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Tawi-tawi",
+      "en": "Tawi-tawi",
+      "slug": "tawi-tawi-157000"
+    },
+    "code": {
+      "id": "157000",
+      "iso": null
+    },
+    "parent": {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 203
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.1544",
+      "lon": "120.2632"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

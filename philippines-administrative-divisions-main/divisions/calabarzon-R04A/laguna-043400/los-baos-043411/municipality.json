@@ -1,0 +1,56 @@
+{
+  "id": "043411",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Los Baños",
+    "en": "Los Baños",
+    "slug": "los-baos-043411"
+  },
+  "code": {
+    "id": "043411",
+    "iso": null
+  },
+  "parent": {
+    "id": "043400",
+    "level": 2,
+    "name": {
+      "local": "Laguna",
+      "en": "Laguna",
+      "slug": "laguna-043400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.167",
+    "lon": "121.217"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "137503",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Navotas",
+    "en": "Navotas",
+    "slug": "navotas-137503"
+  },
+  "code": {
+    "id": "137503",
+    "iso": null
+  },
+  "parent": {
+    "id": "130000",
+    "level": 2,
+    "name": {
+      "local": "Kalakhang Maynila",
+      "en": "Metro Manila",
+      "slug": "metro-manila-130000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "NCR",
+      "level": 1,
+      "name": {
+        "local": "National Capital Region",
+        "en": "National Capital Region",
+        "slug": "national-capital-region-NCR"
+      }
+    },
+    {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.3238",
+    "lon": "121.2281"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "082622",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sulat",
+    "en": "Sulat",
+    "slug": "sulat-082622"
+  },
+  "code": {
+    "id": "082622",
+    "iso": null
+  },
+  "parent": {
+    "id": "082600",
+    "level": 2,
+    "name": {
+      "local": "Eastern Samar",
+      "en": "Eastern Samar",
+      "slug": "eastern-samar-082600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 18
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.817",
+    "lon": "125.45"
+  },
+  "metadata": {},
+  "source": {}
+}

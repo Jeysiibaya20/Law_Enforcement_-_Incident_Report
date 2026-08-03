@@ -1,0 +1,56 @@
+{
+  "id": "051604",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Lorenzo Ruiz (Imelda)",
+    "en": "San Lorenzo Ruiz (Imelda)",
+    "slug": "san-lorenzo-ruiz-imelda-051604"
+  },
+  "code": {
+    "id": "051604",
+    "iso": null
+  },
+  "parent": {
+    "id": "051600",
+    "level": 2,
+    "name": {
+      "local": "Camarines Norte",
+      "en": "Camarines Norte",
+      "slug": "camarines-norte-051600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 12
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.617",
+    "lon": "122.95"
+  },
+  "metadata": {},
+  "source": {}
+}

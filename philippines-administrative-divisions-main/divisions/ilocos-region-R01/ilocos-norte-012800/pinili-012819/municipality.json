@@ -1,0 +1,56 @@
+{
+  "id": "012819",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pinili",
+    "en": "Pinili",
+    "slug": "pinili-012819"
+  },
+  "code": {
+    "id": "012819",
+    "iso": null
+  },
+  "parent": {
+    "id": "012800",
+    "level": 2,
+    "name": {
+      "local": "Ilocos Norte",
+      "en": "Ilocos Norte",
+      "slug": "ilocos-norte-012800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 25
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.95389",
+    "lon": "120.52694"
+  },
+  "metadata": {},
+  "source": {}
+}

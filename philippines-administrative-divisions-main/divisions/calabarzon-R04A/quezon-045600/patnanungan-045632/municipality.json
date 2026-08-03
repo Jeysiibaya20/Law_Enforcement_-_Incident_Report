@@ -1,0 +1,56 @@
+{
+  "id": "045632",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Patnanungan",
+    "en": "Patnanungan",
+    "slug": "patnanungan-045632"
+  },
+  "code": {
+    "id": "045632",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 6
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.783",
+    "lon": "122.183"
+  },
+  "metadata": {},
+  "source": {}
+}

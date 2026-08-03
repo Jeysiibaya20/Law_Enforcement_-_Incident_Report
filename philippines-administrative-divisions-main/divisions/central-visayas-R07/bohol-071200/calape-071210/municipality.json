@@ -1,0 +1,56 @@
+{
+  "id": "071210",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Calape",
+    "en": "Calape",
+    "slug": "calape-071210"
+  },
+  "code": {
+    "id": "071210",
+    "iso": null
+  },
+  "parent": {
+    "id": "071200",
+    "level": 2,
+    "name": {
+      "local": "Bohol",
+      "en": "Bohol",
+      "slug": "bohol-071200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 33
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.88",
+    "lon": "123.88"
+  },
+  "metadata": {},
+  "source": {}
+}

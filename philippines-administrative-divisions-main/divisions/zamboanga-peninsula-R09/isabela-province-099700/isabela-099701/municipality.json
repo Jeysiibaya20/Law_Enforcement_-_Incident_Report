@@ -1,0 +1,56 @@
+{
+  "id": "099701",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Isabela",
+    "en": "Isabela",
+    "slug": "isabela-099701"
+  },
+  "code": {
+    "id": "099701",
+    "iso": null
+  },
+  "parent": {
+    "id": "099700",
+    "level": 2,
+    "name": {
+      "local": "Isabela (Province)",
+      "en": "Isabela (Province)",
+      "slug": "isabela-province-099700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    {
+      "id": "099700",
+      "level": 2,
+      "name": {
+        "local": "Isabela (Province)",
+        "en": "Isabela (Province)",
+        "slug": "isabela-province-099700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 45
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.3629",
+    "lon": "122.5763"
+  },
+  "metadata": {},
+  "source": {}
+}

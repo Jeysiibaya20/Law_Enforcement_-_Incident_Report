@@ -1,0 +1,56 @@
+{
+  "id": "097224",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Baliguian",
+    "en": "Baliguian",
+    "slug": "baliguian-097224"
+  },
+  "code": {
+    "id": "097224",
+    "iso": null
+  },
+  "parent": {
+    "id": "097200",
+    "level": 2,
+    "name": {
+      "local": "Zamboanga del Norte",
+      "en": "Zamboanga del Norte",
+      "slug": "zamboanga-del-norte-097200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    {
+      "id": "097200",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Norte",
+        "en": "Zamboanga del Norte",
+        "slug": "zamboanga-del-norte-097200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 17
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.817",
+    "lon": "122.25"
+  },
+  "metadata": {},
+  "source": {}
+}

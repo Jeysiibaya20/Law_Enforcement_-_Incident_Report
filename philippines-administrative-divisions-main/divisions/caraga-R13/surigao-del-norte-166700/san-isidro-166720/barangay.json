@@ -1,0 +1,782 @@
+[
+  {
+    "id": "166720001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buhing Calipay",
+      "en": "Buhing Calipay",
+      "slug": "buhing-calipay-166720001"
+    },
+    "code": {
+      "id": "166720001",
+      "iso": null
+    },
+    "parent": {
+      "id": "166720",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-166720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166720",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-166720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8421"
+    ],
+    "geo": {
+      "lat": "9.9756",
+      "lon": "126.0914"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166720002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Del Carmen (Pob.)",
+      "en": "Del Carmen (Pob.)",
+      "slug": "del-carmen-pob-166720002"
+    },
+    "code": {
+      "id": "166720002",
+      "iso": null
+    },
+    "parent": {
+      "id": "166720",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-166720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166720",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-166720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8421"
+    ],
+    "geo": {
+      "lat": "9.869",
+      "lon": "125.97"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166720003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Del Pilar",
+      "en": "Del Pilar",
+      "slug": "del-pilar-166720003"
+    },
+    "code": {
+      "id": "166720003",
+      "iso": null
+    },
+    "parent": {
+      "id": "166720",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-166720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166720",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-166720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8421"
+    ],
+    "geo": {
+      "lat": "10.3197",
+      "lon": "119.3408"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166720004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Macapagal",
+      "en": "Macapagal",
+      "slug": "macapagal-166720004"
+    },
+    "code": {
+      "id": "166720004",
+      "iso": null
+    },
+    "parent": {
+      "id": "166720",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-166720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166720",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-166720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8421"
+    ],
+    "geo": {
+      "lat": "9.933",
+      "lon": "126.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166720006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pacifico",
+      "en": "Pacifico",
+      "slug": "pacifico-166720006"
+    },
+    "code": {
+      "id": "166720006",
+      "iso": null
+    },
+    "parent": {
+      "id": "166720",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-166720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166720",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-166720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8421"
+    ],
+    "geo": {
+      "lat": "13.4",
+      "lon": "123.3667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166720007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pelaez",
+      "en": "Pelaez",
+      "slug": "pelaez-166720007"
+    },
+    "code": {
+      "id": "166720007",
+      "iso": null
+    },
+    "parent": {
+      "id": "166720",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-166720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166720",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-166720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8421"
+    ],
+    "geo": {
+      "lat": "9.933",
+      "lon": "126.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166720008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Roxas",
+      "en": "Roxas",
+      "slug": "roxas-166720008"
+    },
+    "code": {
+      "id": "166720008",
+      "iso": null
+    },
+    "parent": {
+      "id": "166720",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-166720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166720",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-166720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8421"
+    ],
+    "geo": {
+      "lat": "10.0089",
+      "lon": "126.0539"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166720009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-166720009"
+    },
+    "code": {
+      "id": "166720009",
+      "iso": null
+    },
+    "parent": {
+      "id": "166720",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-166720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166720",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-166720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8421"
+    ],
+    "geo": {
+      "lat": "9.7344",
+      "lon": "126.0278"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166720010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Paz",
+      "en": "Santa Paz",
+      "slug": "santa-paz-166720010"
+    },
+    "code": {
+      "id": "166720010",
+      "iso": null
+    },
+    "parent": {
+      "id": "166720",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-166720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166720",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-166720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8421"
+    ],
+    "geo": {
+      "lat": "10.1176",
+      "lon": "125.1265"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166720011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-166720011"
+    },
+    "code": {
+      "id": "166720011",
+      "iso": null
+    },
+    "parent": {
+      "id": "166720",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-166720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166720",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-166720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8421"
+    ],
+    "geo": {
+      "lat": "6.43",
+      "lon": "124.68"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166720012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tambacan",
+      "en": "Tambacan",
+      "slug": "tambacan-166720012"
+    },
+    "code": {
+      "id": "166720012",
+      "iso": null
+    },
+    "parent": {
+      "id": "166720",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-166720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166720",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-166720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8421"
+    ],
+    "geo": {
+      "lat": "16.0776",
+      "lon": "119.8733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166720013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tigasao",
+      "en": "Tigasao",
+      "slug": "tigasao-166720013"
+    },
+    "code": {
+      "id": "166720013",
+      "iso": null
+    },
+    "parent": {
+      "id": "166720",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-166720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166720",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-166720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8421"
+    ],
+    "geo": {
+      "lat": "9.933",
+      "lon": "126.083"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

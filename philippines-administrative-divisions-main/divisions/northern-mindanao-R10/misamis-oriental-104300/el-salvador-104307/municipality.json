@@ -1,0 +1,56 @@
+{
+  "id": "104307",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "El Salvador",
+    "en": "El Salvador",
+    "slug": "el-salvador-104307"
+  },
+  "code": {
+    "id": "104307",
+    "iso": null
+  },
+  "parent": {
+    "id": "104300",
+    "level": 2,
+    "name": {
+      "local": "Misamis Oriental",
+      "en": "Misamis Oriental",
+      "slug": "misamis-oriental-104300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.567",
+    "lon": "124.517"
+  },
+  "metadata": {},
+  "source": {}
+}

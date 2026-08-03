@@ -1,0 +1,618 @@
+[
+  {
+    "id": "142708",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Aguinaldo",
+      "en": "Aguinaldo",
+      "slug": "aguinaldo-142708"
+    },
+    "code": {
+      "id": "142708",
+      "iso": null
+    },
+    "parent": {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.783",
+      "lon": "121.317"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142707",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alfonso Lista (Potia)",
+      "en": "Alfonso Lista (Potia)",
+      "slug": "alfonso-lista-potia-142707"
+    },
+    "code": {
+      "id": "142707",
+      "iso": null
+    },
+    "parent": {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.9",
+      "lon": "121.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142711",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Asipulo",
+      "en": "Asipulo",
+      "slug": "asipulo-142711"
+    },
+    "code": {
+      "id": "142711",
+      "iso": null
+    },
+    "parent": {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.6",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142701",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Banaue",
+      "en": "Banaue",
+      "slug": "banaue-142701"
+    },
+    "code": {
+      "id": "142701",
+      "iso": null
+    },
+    "parent": {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.91889",
+      "lon": "121.05889"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142709",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Hingyon",
+      "en": "Hingyon",
+      "slug": "hingyon-142709"
+    },
+    "code": {
+      "id": "142709",
+      "iso": null
+    },
+    "parent": {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.833",
+      "lon": "121.117"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142702",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Hungduan",
+      "en": "Hungduan",
+      "slug": "hungduan-142702"
+    },
+    "code": {
+      "id": "142702",
+      "iso": null
+    },
+    "parent": {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.833",
+      "lon": "121"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142703",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kiangan",
+      "en": "Kiangan",
+      "slug": "kiangan-142703"
+    },
+    "code": {
+      "id": "142703",
+      "iso": null
+    },
+    "parent": {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.783",
+      "lon": "121.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142704",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lagawe",
+      "en": "Lagawe",
+      "slug": "lagawe-142704"
+    },
+    "code": {
+      "id": "142704",
+      "iso": null
+    },
+    "parent": {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.817",
+      "lon": "121.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142705",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lamut",
+      "en": "Lamut",
+      "slug": "lamut-142705"
+    },
+    "code": {
+      "id": "142705",
+      "iso": null
+    },
+    "parent": {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.65",
+      "lon": "121.225"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142706",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mayoyao",
+      "en": "Mayoyao",
+      "slug": "mayoyao-142706"
+    },
+    "code": {
+      "id": "142706",
+      "iso": null
+    },
+    "parent": {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.967",
+      "lon": "121.217"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142710",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tinoc",
+      "en": "Tinoc",
+      "slug": "tinoc-142710"
+    },
+    "code": {
+      "id": "142710",
+      "iso": null
+    },
+    "parent": {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.7",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

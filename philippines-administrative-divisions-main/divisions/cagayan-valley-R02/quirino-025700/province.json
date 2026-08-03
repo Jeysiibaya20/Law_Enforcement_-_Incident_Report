@@ -1,0 +1,48 @@
+{
+  "id": "025700",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Quirino",
+    "en": "Quirino",
+    "slug": "quirino-025700"
+  },
+  "code": {
+    "id": "025700",
+    "iso": null
+  },
+  "parent": {
+    "id": "R02",
+    "level": 1,
+    "name": {
+      "local": "Cagayan Valley",
+      "en": "Cagayan Valley",
+      "slug": "cagayan-valley-R02"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 6,
+    "barangay": 132
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.186",
+    "lon": "121.5279"
+  },
+  "metadata": {},
+  "source": {}
+}

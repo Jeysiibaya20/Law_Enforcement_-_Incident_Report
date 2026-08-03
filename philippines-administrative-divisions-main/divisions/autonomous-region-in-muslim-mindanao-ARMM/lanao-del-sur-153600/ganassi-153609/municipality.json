@@ -1,0 +1,56 @@
+{
+  "id": "153609",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Ganassi",
+    "en": "Ganassi",
+    "slug": "ganassi-153609"
+  },
+  "code": {
+    "id": "153609",
+    "iso": null
+  },
+  "parent": {
+    "id": "153600",
+    "level": 2,
+    "name": {
+      "local": "Lanao del Sur",
+      "en": "Lanao del Sur",
+      "slug": "lanao-del-sur-153600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 32
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.833",
+    "lon": "124.1"
+  },
+  "metadata": {},
+  "source": {}
+}

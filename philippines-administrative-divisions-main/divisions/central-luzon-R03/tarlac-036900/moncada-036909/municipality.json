@@ -1,0 +1,56 @@
+{
+  "id": "036909",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Moncada",
+    "en": "Moncada",
+    "slug": "moncada-036909"
+  },
+  "code": {
+    "id": "036909",
+    "iso": null
+  },
+  "parent": {
+    "id": "036900",
+    "level": 2,
+    "name": {
+      "local": "Tarlac",
+      "en": "Tarlac",
+      "slug": "tarlac-036900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 37
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.733",
+    "lon": "120.567"
+  },
+  "metadata": {},
+  "source": {}
+}

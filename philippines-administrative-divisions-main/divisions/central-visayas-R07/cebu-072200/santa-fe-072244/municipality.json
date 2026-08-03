@@ -1,0 +1,56 @@
+{
+  "id": "072244",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Fe",
+    "en": "Santa Fe",
+    "slug": "santa-fe-072244"
+  },
+  "code": {
+    "id": "072244",
+    "iso": null
+  },
+  "parent": {
+    "id": "072200",
+    "level": 2,
+    "name": {
+      "local": "Cebu",
+      "en": "Cebu",
+      "slug": "cebu-072200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 10
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.3369",
+    "lon": "125.9433"
+  },
+  "metadata": {},
+  "source": {}
+}

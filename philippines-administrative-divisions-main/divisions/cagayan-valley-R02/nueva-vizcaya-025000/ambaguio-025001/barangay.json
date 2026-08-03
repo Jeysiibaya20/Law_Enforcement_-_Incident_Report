@@ -1,0 +1,522 @@
+[
+  {
+    "id": "025001001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ammueg",
+      "en": "Ammueg",
+      "slug": "ammueg-025001001"
+    },
+    "code": {
+      "id": "025001001",
+      "iso": null
+    },
+    "parent": {
+      "id": "025001",
+      "level": 3,
+      "name": {
+        "local": "Ambaguio",
+        "en": "Ambaguio",
+        "slug": "ambaguio-025001"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025001",
+        "level": 3,
+        "name": {
+          "local": "Ambaguio",
+          "en": "Ambaguio",
+          "slug": "ambaguio-025001"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3701"
+    ],
+    "geo": {
+      "lat": "16.517",
+      "lon": "121.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025001004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Camandag",
+      "en": "Camandag",
+      "slug": "camandag-025001004"
+    },
+    "code": {
+      "id": "025001004",
+      "iso": null
+    },
+    "parent": {
+      "id": "025001",
+      "level": 3,
+      "name": {
+        "local": "Ambaguio",
+        "en": "Ambaguio",
+        "slug": "ambaguio-025001"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025001",
+        "level": 3,
+        "name": {
+          "local": "Ambaguio",
+          "en": "Ambaguio",
+          "slug": "ambaguio-025001"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3701"
+    ],
+    "geo": {
+      "lat": "10.3333",
+      "lon": "123.0667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025001010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dulli",
+      "en": "Dulli",
+      "slug": "dulli-025001010"
+    },
+    "code": {
+      "id": "025001010",
+      "iso": null
+    },
+    "parent": {
+      "id": "025001",
+      "level": 3,
+      "name": {
+        "local": "Ambaguio",
+        "en": "Ambaguio",
+        "slug": "ambaguio-025001"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025001",
+        "level": 3,
+        "name": {
+          "local": "Ambaguio",
+          "en": "Ambaguio",
+          "slug": "ambaguio-025001"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3701"
+    ],
+    "geo": {
+      "lat": "16.517",
+      "lon": "121.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025001005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Labang",
+      "en": "Labang",
+      "slug": "labang-025001005"
+    },
+    "code": {
+      "id": "025001005",
+      "iso": null
+    },
+    "parent": {
+      "id": "025001",
+      "level": 3,
+      "name": {
+        "local": "Ambaguio",
+        "en": "Ambaguio",
+        "slug": "ambaguio-025001"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025001",
+        "level": 3,
+        "name": {
+          "local": "Ambaguio",
+          "en": "Ambaguio",
+          "slug": "ambaguio-025001"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3701"
+    ],
+    "geo": {
+      "lat": "16.4667",
+      "lon": "121.0167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025001006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Napo",
+      "en": "Napo",
+      "slug": "napo-025001006"
+    },
+    "code": {
+      "id": "025001006",
+      "iso": null
+    },
+    "parent": {
+      "id": "025001",
+      "level": 3,
+      "name": {
+        "local": "Ambaguio",
+        "en": "Ambaguio",
+        "slug": "ambaguio-025001"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025001",
+        "level": 3,
+        "name": {
+          "local": "Ambaguio",
+          "en": "Ambaguio",
+          "slug": "ambaguio-025001"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3701"
+    ],
+    "geo": {
+      "lat": "17.9539",
+      "lon": "120.495"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025001007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-025001007"
+    },
+    "code": {
+      "id": "025001007",
+      "iso": null
+    },
+    "parent": {
+      "id": "025001",
+      "level": 3,
+      "name": {
+        "local": "Ambaguio",
+        "en": "Ambaguio",
+        "slug": "ambaguio-025001"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025001",
+        "level": 3,
+        "name": {
+          "local": "Ambaguio",
+          "en": "Ambaguio",
+          "slug": "ambaguio-025001"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3701"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025001008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salingsingan",
+      "en": "Salingsingan",
+      "slug": "salingsingan-025001008"
+    },
+    "code": {
+      "id": "025001008",
+      "iso": null
+    },
+    "parent": {
+      "id": "025001",
+      "level": 3,
+      "name": {
+        "local": "Ambaguio",
+        "en": "Ambaguio",
+        "slug": "ambaguio-025001"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025001",
+        "level": 3,
+        "name": {
+          "local": "Ambaguio",
+          "en": "Ambaguio",
+          "slug": "ambaguio-025001"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3701"
+    ],
+    "geo": {
+      "lat": "16.517",
+      "lon": "121.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025001009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tiblac",
+      "en": "Tiblac",
+      "slug": "tiblac-025001009"
+    },
+    "code": {
+      "id": "025001009",
+      "iso": null
+    },
+    "parent": {
+      "id": "025001",
+      "level": 3,
+      "name": {
+        "local": "Ambaguio",
+        "en": "Ambaguio",
+        "slug": "ambaguio-025001"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025001",
+        "level": 3,
+        "name": {
+          "local": "Ambaguio",
+          "en": "Ambaguio",
+          "slug": "ambaguio-025001"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3701"
+    ],
+    "geo": {
+      "lat": "16.517",
+      "lon": "121.017"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

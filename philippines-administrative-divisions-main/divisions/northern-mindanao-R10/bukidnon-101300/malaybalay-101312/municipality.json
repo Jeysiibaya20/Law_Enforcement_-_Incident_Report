@@ -1,0 +1,56 @@
+{
+  "id": "101312",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Malaybalay",
+    "en": "Malaybalay",
+    "slug": "malaybalay-101312"
+  },
+  "code": {
+    "id": "101312",
+    "iso": null
+  },
+  "parent": {
+    "id": "101300",
+    "level": 2,
+    "name": {
+      "local": "Bukidnon",
+      "en": "Bukidnon",
+      "slug": "bukidnon-101300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 46
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.15",
+    "lon": "125.133"
+  },
+  "metadata": {},
+  "source": {}
+}

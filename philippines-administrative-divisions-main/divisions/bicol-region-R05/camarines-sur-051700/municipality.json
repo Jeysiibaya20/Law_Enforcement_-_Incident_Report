@@ -1,0 +1,2074 @@
+[
+  {
+    "id": "051701",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Baao",
+      "en": "Baao",
+      "slug": "baao-051701"
+    },
+    "code": {
+      "id": "051701",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.45611",
+      "lon": "123.36389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051702",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balatan",
+      "en": "Balatan",
+      "slug": "balatan-051702"
+    },
+    "code": {
+      "id": "051702",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.317",
+      "lon": "123.233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051703",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bato",
+      "en": "Bato",
+      "slug": "bato-051703"
+    },
+    "code": {
+      "id": "051703",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.35611",
+      "lon": "123.36389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051704",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bombon",
+      "en": "Bombon",
+      "slug": "bombon-051704"
+    },
+    "code": {
+      "id": "051704",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.683",
+      "lon": "123.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051705",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Buhi",
+      "en": "Buhi",
+      "slug": "buhi-051705"
+    },
+    "code": {
+      "id": "051705",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 38
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.433",
+      "lon": "123.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051706",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bula",
+      "en": "Bula",
+      "slug": "bula-051706"
+    },
+    "code": {
+      "id": "051706",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.467",
+      "lon": "123.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051707",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cabusao",
+      "en": "Cabusao",
+      "slug": "cabusao-051707"
+    },
+    "code": {
+      "id": "051707",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.717",
+      "lon": "123.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051708",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calabanga",
+      "en": "Calabanga",
+      "slug": "calabanga-051708"
+    },
+    "code": {
+      "id": "051708",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 48
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.717",
+      "lon": "123.233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Camaligan",
+      "en": "Camaligan",
+      "slug": "camaligan-051709"
+    },
+    "code": {
+      "id": "051709",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.625",
+      "lon": "123.15694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051710",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Canaman",
+      "en": "Canaman",
+      "slug": "canaman-051710"
+    },
+    "code": {
+      "id": "051710",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.65",
+      "lon": "123.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051711",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Caramoan",
+      "en": "Caramoan",
+      "slug": "caramoan-051711"
+    },
+    "code": {
+      "id": "051711",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 49
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.767",
+      "lon": "123.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051712",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Del Gallego",
+      "en": "Del Gallego",
+      "slug": "del-gallego-051712"
+    },
+    "code": {
+      "id": "051712",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 32
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.917",
+      "lon": "122.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051713",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Gainza",
+      "en": "Gainza",
+      "slug": "gainza-051713"
+    },
+    "code": {
+      "id": "051713",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.617",
+      "lon": "123.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051714",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Garchitorena",
+      "en": "Garchitorena",
+      "slug": "garchitorena-051714"
+    },
+    "code": {
+      "id": "051714",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.883",
+      "lon": "123.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051715",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Goa",
+      "en": "Goa",
+      "slug": "goa-051715"
+    },
+    "code": {
+      "id": "051715",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.7",
+      "lon": "123.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051716",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Iriga City",
+      "en": "Iriga City",
+      "slug": "iriga-city-051716"
+    },
+    "code": {
+      "id": "051716",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 36
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.417",
+      "lon": "123.417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051717",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lagonoy",
+      "en": "Lagonoy",
+      "slug": "lagonoy-051717"
+    },
+    "code": {
+      "id": "051717",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 38
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.73861",
+      "lon": "123.52056"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051718",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Libmanan",
+      "en": "Libmanan",
+      "slug": "libmanan-051718"
+    },
+    "code": {
+      "id": "051718",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 75
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.7",
+      "lon": "123.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051719",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lupi",
+      "en": "Lupi",
+      "slug": "lupi-051719"
+    },
+    "code": {
+      "id": "051719",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 38
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.817",
+      "lon": "122.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Magarao",
+      "en": "Magarao",
+      "slug": "magarao-051720"
+    },
+    "code": {
+      "id": "051720",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.667",
+      "lon": "123.183"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051721",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Milaor",
+      "en": "Milaor",
+      "slug": "milaor-051721"
+    },
+    "code": {
+      "id": "051721",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.6",
+      "lon": "123.183"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051722",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Minalabac",
+      "en": "Minalabac",
+      "slug": "minalabac-051722"
+    },
+    "code": {
+      "id": "051722",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.567",
+      "lon": "123.183"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051723",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Nabua",
+      "en": "Nabua",
+      "slug": "nabua-051723"
+    },
+    "code": {
+      "id": "051723",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.40139",
+      "lon": "123.37639"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051724",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Naga City",
+      "en": "Naga City",
+      "slug": "naga-city-051724"
+    },
+    "code": {
+      "id": "051724",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.62",
+      "lon": "123.17"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051725",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ocampo",
+      "en": "Ocampo",
+      "slug": "ocampo-051725"
+    },
+    "code": {
+      "id": "051725",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.567",
+      "lon": "123.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051726",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pamplona",
+      "en": "Pamplona",
+      "slug": "pamplona-051726"
+    },
+    "code": {
+      "id": "051726",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.6",
+      "lon": "123.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051727",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pasacao",
+      "en": "Pasacao",
+      "slug": "pasacao-051727"
+    },
+    "code": {
+      "id": "051727",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.517",
+      "lon": "123.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051728",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pili",
+      "en": "Pili",
+      "slug": "pili-051728"
+    },
+    "code": {
+      "id": "051728",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.583",
+      "lon": "123.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051729",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Presentacion (Parubcan)",
+      "en": "Presentacion (Parubcan)",
+      "slug": "presentacion-parubcan-051729"
+    },
+    "code": {
+      "id": "051729",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.717",
+      "lon": "123.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051730",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ragay",
+      "en": "Ragay",
+      "slug": "ragay-051730"
+    },
+    "code": {
+      "id": "051730",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 38
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.817",
+      "lon": "122.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051731",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sagñay",
+      "en": "Sagñay",
+      "slug": "sagay-051731"
+    },
+    "code": {
+      "id": "051731",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.60417",
+      "lon": "123.52"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051732",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Fernando",
+      "en": "San Fernando",
+      "slug": "san-fernando-051732"
+    },
+    "code": {
+      "id": "051732",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.567",
+      "lon": "123.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051733",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-051733"
+    },
+    "code": {
+      "id": "051733",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.717",
+      "lon": "123.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051734",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sipocot",
+      "en": "Sipocot",
+      "slug": "sipocot-051734"
+    },
+    "code": {
+      "id": "051734",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 46
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.767",
+      "lon": "122.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051735",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Siruma",
+      "en": "Siruma",
+      "slug": "siruma-051735"
+    },
+    "code": {
+      "id": "051735",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14",
+      "lon": "123.25"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051736",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tigaon",
+      "en": "Tigaon",
+      "slug": "tigaon-051736"
+    },
+    "code": {
+      "id": "051736",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.633",
+      "lon": "123.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051737",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tinambac",
+      "en": "Tinambac",
+      "slug": "tinambac-051737"
+    },
+    "code": {
+      "id": "051737",
+      "iso": null
+    },
+    "parent": {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 44
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.817",
+      "lon": "123.333"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

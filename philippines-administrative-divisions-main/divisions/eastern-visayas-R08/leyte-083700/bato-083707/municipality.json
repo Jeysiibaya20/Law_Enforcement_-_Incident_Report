@@ -1,0 +1,56 @@
+{
+  "id": "083707",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Bato",
+    "en": "Bato",
+    "slug": "bato-083707"
+  },
+  "code": {
+    "id": "083707",
+    "iso": null
+  },
+  "parent": {
+    "id": "083700",
+    "level": 2,
+    "name": {
+      "local": "Leyte",
+      "en": "Leyte",
+      "slug": "leyte-083700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 32
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.5",
+    "lon": "124.45"
+  },
+  "metadata": {},
+  "source": {}
+}

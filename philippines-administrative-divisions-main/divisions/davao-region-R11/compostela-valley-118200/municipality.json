@@ -1,0 +1,618 @@
+[
+  {
+    "id": "118201",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Compostela",
+      "en": "Compostela",
+      "slug": "compostela-118201"
+    },
+    "code": {
+      "id": "118201",
+      "iso": null
+    },
+    "parent": {
+      "id": "118200",
+      "level": 2,
+      "name": {
+        "local": "Compostela Valley",
+        "en": "Compostela Valley",
+        "slug": "compostela-valley-118200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118200",
+        "level": 2,
+        "name": {
+          "local": "Compostela Valley",
+          "en": "Compostela Valley",
+          "slug": "compostela-valley-118200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.667",
+      "lon": "126.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118202",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Laak (San Vicente)",
+      "en": "Laak (San Vicente)",
+      "slug": "laak-san-vicente-118202"
+    },
+    "code": {
+      "id": "118202",
+      "iso": null
+    },
+    "parent": {
+      "id": "118200",
+      "level": 2,
+      "name": {
+        "local": "Compostela Valley",
+        "en": "Compostela Valley",
+        "slug": "compostela-valley-118200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118200",
+        "level": 2,
+        "name": {
+          "local": "Compostela Valley",
+          "en": "Compostela Valley",
+          "slug": "compostela-valley-118200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.3315",
+      "lon": "121.0832"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118203",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mabini (Doña Alicia)",
+      "en": "Mabini (Doña Alicia)",
+      "slug": "mabini-doa-alicia-118203"
+    },
+    "code": {
+      "id": "118203",
+      "iso": null
+    },
+    "parent": {
+      "id": "118200",
+      "level": 2,
+      "name": {
+        "local": "Compostela Valley",
+        "en": "Compostela Valley",
+        "slug": "compostela-valley-118200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118200",
+        "level": 2,
+        "name": {
+          "local": "Compostela Valley",
+          "en": "Compostela Valley",
+          "slug": "compostela-valley-118200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.3",
+      "lon": "125.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118204",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maco",
+      "en": "Maco",
+      "slug": "maco-118204"
+    },
+    "code": {
+      "id": "118204",
+      "iso": null
+    },
+    "parent": {
+      "id": "118200",
+      "level": 2,
+      "name": {
+        "local": "Compostela Valley",
+        "en": "Compostela Valley",
+        "slug": "compostela-valley-118200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118200",
+        "level": 2,
+        "name": {
+          "local": "Compostela Valley",
+          "en": "Compostela Valley",
+          "slug": "compostela-valley-118200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.367",
+      "lon": "125.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118205",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maragusan (San Mariano)",
+      "en": "Maragusan (San Mariano)",
+      "slug": "maragusan-san-mariano-118205"
+    },
+    "code": {
+      "id": "118205",
+      "iso": null
+    },
+    "parent": {
+      "id": "118200",
+      "level": 2,
+      "name": {
+        "local": "Compostela Valley",
+        "en": "Compostela Valley",
+        "slug": "compostela-valley-118200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118200",
+        "level": 2,
+        "name": {
+          "local": "Compostela Valley",
+          "en": "Compostela Valley",
+          "slug": "compostela-valley-118200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.983",
+      "lon": "122.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118206",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mawab",
+      "en": "Mawab",
+      "slug": "mawab-118206"
+    },
+    "code": {
+      "id": "118206",
+      "iso": null
+    },
+    "parent": {
+      "id": "118200",
+      "level": 2,
+      "name": {
+        "local": "Compostela Valley",
+        "en": "Compostela Valley",
+        "slug": "compostela-valley-118200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118200",
+        "level": 2,
+        "name": {
+          "local": "Compostela Valley",
+          "en": "Compostela Valley",
+          "slug": "compostela-valley-118200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.5",
+      "lon": "125.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118207",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Monkayo",
+      "en": "Monkayo",
+      "slug": "monkayo-118207"
+    },
+    "code": {
+      "id": "118207",
+      "iso": null
+    },
+    "parent": {
+      "id": "118200",
+      "level": 2,
+      "name": {
+        "local": "Compostela Valley",
+        "en": "Compostela Valley",
+        "slug": "compostela-valley-118200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118200",
+        "level": 2,
+        "name": {
+          "local": "Compostela Valley",
+          "en": "Compostela Valley",
+          "slug": "compostela-valley-118200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.817",
+      "lon": "126.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118208",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Montevista",
+      "en": "Montevista",
+      "slug": "montevista-118208"
+    },
+    "code": {
+      "id": "118208",
+      "iso": null
+    },
+    "parent": {
+      "id": "118200",
+      "level": 2,
+      "name": {
+        "local": "Compostela Valley",
+        "en": "Compostela Valley",
+        "slug": "compostela-valley-118200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118200",
+        "level": 2,
+        "name": {
+          "local": "Compostela Valley",
+          "en": "Compostela Valley",
+          "slug": "compostela-valley-118200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.7",
+      "lon": "125.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118209",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Nabunturan",
+      "en": "Nabunturan",
+      "slug": "nabunturan-118209"
+    },
+    "code": {
+      "id": "118209",
+      "iso": null
+    },
+    "parent": {
+      "id": "118200",
+      "level": 2,
+      "name": {
+        "local": "Compostela Valley",
+        "en": "Compostela Valley",
+        "slug": "compostela-valley-118200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118200",
+        "level": 2,
+        "name": {
+          "local": "Compostela Valley",
+          "en": "Compostela Valley",
+          "slug": "compostela-valley-118200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.6",
+      "lon": "125.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118210",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "New Bataan",
+      "en": "New Bataan",
+      "slug": "new-bataan-118210"
+    },
+    "code": {
+      "id": "118210",
+      "iso": null
+    },
+    "parent": {
+      "id": "118200",
+      "level": 2,
+      "name": {
+        "local": "Compostela Valley",
+        "en": "Compostela Valley",
+        "slug": "compostela-valley-118200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118200",
+        "level": 2,
+        "name": {
+          "local": "Compostela Valley",
+          "en": "Compostela Valley",
+          "slug": "compostela-valley-118200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.533",
+      "lon": "126.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118211",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pantukan",
+      "en": "Pantukan",
+      "slug": "pantukan-118211"
+    },
+    "code": {
+      "id": "118211",
+      "iso": null
+    },
+    "parent": {
+      "id": "118200",
+      "level": 2,
+      "name": {
+        "local": "Compostela Valley",
+        "en": "Compostela Valley",
+        "slug": "compostela-valley-118200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118200",
+        "level": 2,
+        "name": {
+          "local": "Compostela Valley",
+          "en": "Compostela Valley",
+          "slug": "compostela-valley-118200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.15",
+      "lon": "125.95"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

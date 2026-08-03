@@ -1,0 +1,674 @@
+[
+  {
+    "id": "160201",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Buenavista",
+      "en": "Buenavista",
+      "slug": "buenavista-160201"
+    },
+    "code": {
+      "id": "160201",
+      "iso": null
+    },
+    "parent": {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.1263",
+      "lon": "120.6918"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160202",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Butuan City",
+      "en": "Butuan City",
+      "slug": "butuan-city-160202"
+    },
+    "code": {
+      "id": "160202",
+      "iso": null
+    },
+    "parent": {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 86
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.7891",
+      "lon": "123.9179"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160203",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cabadbaran",
+      "en": "Cabadbaran",
+      "slug": "cabadbaran-160203"
+    },
+    "code": {
+      "id": "160203",
+      "iso": null
+    },
+    "parent": {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.117",
+      "lon": "125.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160204",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Carmen",
+      "en": "Carmen",
+      "slug": "carmen-160204"
+    },
+    "code": {
+      "id": "160204",
+      "iso": null
+    },
+    "parent": {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.217",
+      "lon": "125.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160205",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Jabonga",
+      "en": "Jabonga",
+      "slug": "jabonga-160205"
+    },
+    "code": {
+      "id": "160205",
+      "iso": null
+    },
+    "parent": {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.35",
+      "lon": "125.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160206",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kitcharao",
+      "en": "Kitcharao",
+      "slug": "kitcharao-160206"
+    },
+    "code": {
+      "id": "160206",
+      "iso": null
+    },
+    "parent": {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.45",
+      "lon": "125.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160207",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Las Nieves",
+      "en": "Las Nieves",
+      "slug": "las-nieves-160207"
+    },
+    "code": {
+      "id": "160207",
+      "iso": null
+    },
+    "parent": {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.733",
+      "lon": "125.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160208",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Magallanes",
+      "en": "Magallanes",
+      "slug": "magallanes-160208"
+    },
+    "code": {
+      "id": "160208",
+      "iso": null
+    },
+    "parent": {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.833",
+      "lon": "123.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Nasipit",
+      "en": "Nasipit",
+      "slug": "nasipit-160209"
+    },
+    "code": {
+      "id": "160209",
+      "iso": null
+    },
+    "parent": {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.9333",
+      "lon": "125.3417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160212",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Remedios T. Romualdez",
+      "en": "Remedios T. Romualdez",
+      "slug": "remedios-t-romualdez-160212"
+    },
+    "code": {
+      "id": "160212",
+      "iso": null
+    },
+    "parent": {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.05361",
+      "lon": "125.58667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160210",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santiago",
+      "en": "Santiago",
+      "slug": "santiago-160210"
+    },
+    "code": {
+      "id": "160210",
+      "iso": null
+    },
+    "parent": {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.3",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160211",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tubay",
+      "en": "Tubay",
+      "slug": "tubay-160211"
+    },
+    "code": {
+      "id": "160211",
+      "iso": null
+    },
+    "parent": {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.167",
+      "lon": "125.533"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

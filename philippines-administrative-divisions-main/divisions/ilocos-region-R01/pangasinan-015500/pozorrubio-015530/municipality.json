@@ -1,0 +1,56 @@
+{
+  "id": "015530",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pozorrubio",
+    "en": "Pozorrubio",
+    "slug": "pozorrubio-015530"
+  },
+  "code": {
+    "id": "015530",
+    "iso": null
+  },
+  "parent": {
+    "id": "015500",
+    "level": 2,
+    "name": {
+      "local": "Pangasinan",
+      "en": "Pangasinan",
+      "slug": "pangasinan-015500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 34
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.1089",
+    "lon": "120.5456"
+  },
+  "metadata": {},
+  "source": {}
+}

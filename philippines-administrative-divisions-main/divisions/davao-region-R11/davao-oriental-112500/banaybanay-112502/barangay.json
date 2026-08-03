@@ -1,0 +1,912 @@
+[
+  {
+    "id": "112502001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabangcalan",
+      "en": "Cabangcalan",
+      "slug": "cabangcalan-112502001"
+    },
+    "code": {
+      "id": "112502001",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "9.1333",
+      "lon": "123.6333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caganganan",
+      "en": "Caganganan",
+      "slug": "caganganan-112502002"
+    },
+    "code": {
+      "id": "112502002",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "7.1",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calubihan",
+      "en": "Calubihan",
+      "slug": "calubihan-112502003"
+    },
+    "code": {
+      "id": "112502003",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "7.1",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Causwagan",
+      "en": "Causwagan",
+      "slug": "causwagan-112502004"
+    },
+    "code": {
+      "id": "112502004",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "8.1917",
+      "lon": "124.0847"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mahayag",
+      "en": "Mahayag",
+      "slug": "mahayag-112502006"
+    },
+    "code": {
+      "id": "112502006",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "8.1297",
+      "lon": "123.4383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maputi",
+      "en": "Maputi",
+      "slug": "maputi-112502007"
+    },
+    "code": {
+      "id": "112502007",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "8.4497",
+      "lon": "124.2906"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mogbongcogon",
+      "en": "Mogbongcogon",
+      "slug": "mogbongcogon-112502008"
+    },
+    "code": {
+      "id": "112502008",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "7.1",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panikian",
+      "en": "Panikian",
+      "slug": "panikian-112502009"
+    },
+    "code": {
+      "id": "112502009",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "7.0107",
+      "lon": "126.0242"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pintatagan",
+      "en": "Pintatagan",
+      "slug": "pintatagan-112502010"
+    },
+    "code": {
+      "id": "112502010",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "7.0796",
+      "lon": "125.9508"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Piso Proper",
+      "en": "Piso Proper",
+      "slug": "piso-proper-112502011"
+    },
+    "code": {
+      "id": "112502011",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "6.9938",
+      "lon": "125.9883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-112502012"
+    },
+    "code": {
+      "id": "112502012",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Punta Linao",
+      "en": "Punta Linao",
+      "slug": "punta-linao-112502005"
+    },
+    "code": {
+      "id": "112502005",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "9.6167",
+      "lon": "125.6333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rang-ay",
+      "en": "Rang-ay",
+      "slug": "rang-ay-112502014"
+    },
+    "code": {
+      "id": "112502014",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "16.9236",
+      "lon": "121.6162"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Vicente",
+      "en": "San Vicente",
+      "slug": "san-vicente-112502013"
+    },
+    "code": {
+      "id": "112502013",
+      "iso": null
+    },
+    "parent": {
+      "id": "112502",
+      "level": 3,
+      "name": {
+        "local": "Banaybanay",
+        "en": "Banaybanay",
+        "slug": "banaybanay-112502"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      },
+      {
+        "id": "112502",
+        "level": 3,
+        "name": {
+          "local": "Banaybanay",
+          "en": "Banaybanay",
+          "slug": "banaybanay-112502"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8208"
+    ],
+    "geo": {
+      "lat": "10.5281",
+      "lon": "119.2542"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

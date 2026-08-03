@@ -1,0 +1,56 @@
+{
+  "id": "153617",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Marawi City",
+    "en": "Marawi City",
+    "slug": "marawi-city-153617"
+  },
+  "code": {
+    "id": "153617",
+    "iso": null
+  },
+  "parent": {
+    "id": "153600",
+    "level": 2,
+    "name": {
+      "local": "Lanao del Sur",
+      "en": "Lanao del Sur",
+      "slug": "lanao-del-sur-153600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 96
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8",
+    "lon": "124.3"
+  },
+  "metadata": {},
+  "source": {}
+}

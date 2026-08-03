@@ -1,0 +1,48 @@
+{
+  "id": "175200",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Oriental Mindoro",
+    "en": "Oriental Mindoro",
+    "slug": "oriental-mindoro-175200"
+  },
+  "code": {
+    "id": "175200",
+    "iso": null
+  },
+  "parent": {
+    "id": "R17",
+    "level": 1,
+    "name": {
+      "local": "MIMAROPA Region",
+      "en": "MIMAROPA Region",
+      "slug": "mimaropa-region-R17"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 15,
+    "barangay": 426
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.052",
+    "lon": "121.5535"
+  },
+  "metadata": {},
+  "source": {}
+}

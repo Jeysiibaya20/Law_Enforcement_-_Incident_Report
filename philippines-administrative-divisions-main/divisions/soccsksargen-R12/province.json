@@ -1,0 +1,242 @@
+[
+  {
+    "id": "129800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Cotabato City (Province)",
+      "en": "Cotabato City (Province)",
+      "slug": "cotabato-city-province-129800"
+    },
+    "code": {
+      "id": "129800",
+      "iso": null
+    },
+    "parent": {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 1,
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.506",
+      "lon": "123.7835"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "124700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "North Cotabato",
+      "en": "North Cotabato",
+      "slug": "north-cotabato-124700"
+    },
+    "code": {
+      "id": "124700",
+      "iso": null
+    },
+    "parent": {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 18,
+      "barangay": 543
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.985",
+      "lon": "123.9935"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Sarangani",
+      "en": "Sarangani",
+      "slug": "sarangani-128000"
+    },
+    "code": {
+      "id": "128000",
+      "iso": null
+    },
+    "parent": {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 7,
+      "barangay": 141
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.3873",
+      "lon": "124.4587"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "South Cotabato",
+      "en": "South Cotabato",
+      "slug": "south-cotabato-126300"
+    },
+    "code": {
+      "id": "126300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 12,
+      "barangay": 225
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.1993",
+      "lon": "124.0666"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Sultan Kudarat",
+      "en": "Sultan Kudarat",
+      "slug": "sultan-kudarat-126500"
+    },
+    "code": {
+      "id": "126500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 12,
+      "barangay": 249
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.4525",
+      "lon": "124.2154"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

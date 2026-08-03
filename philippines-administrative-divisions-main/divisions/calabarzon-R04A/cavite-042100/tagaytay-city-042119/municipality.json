@@ -1,0 +1,56 @@
+{
+  "id": "042119",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tagaytay City",
+    "en": "Tagaytay City",
+    "slug": "tagaytay-city-042119"
+  },
+  "code": {
+    "id": "042119",
+    "iso": null
+  },
+  "parent": {
+    "id": "042100",
+    "level": 2,
+    "name": {
+      "local": "Cavite",
+      "en": "Cavite",
+      "slug": "cavite-042100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 34
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.1",
+    "lon": "120.933"
+  },
+  "metadata": {},
+  "source": {}
+}

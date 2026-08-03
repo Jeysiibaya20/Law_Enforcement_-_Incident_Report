@@ -1,0 +1,56 @@
+{
+  "id": "051610",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Elena",
+    "en": "Santa Elena",
+    "slug": "santa-elena-051610"
+  },
+  "code": {
+    "id": "051610",
+    "iso": null
+  },
+  "parent": {
+    "id": "051600",
+    "level": 2,
+    "name": {
+      "local": "Camarines Norte",
+      "en": "Camarines Norte",
+      "slug": "camarines-norte-051600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "051600",
+      "level": 2,
+      "name": {
+        "local": "Camarines Norte",
+        "en": "Camarines Norte",
+        "slug": "camarines-norte-051600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 19
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.2",
+    "lon": "122.383"
+  },
+  "metadata": {},
+  "source": {}
+}

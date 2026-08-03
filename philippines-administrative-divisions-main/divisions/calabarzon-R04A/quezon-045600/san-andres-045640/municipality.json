@@ -1,0 +1,56 @@
+{
+  "id": "045640",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Andres",
+    "en": "San Andres",
+    "slug": "san-andres-045640"
+  },
+  "code": {
+    "id": "045640",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 7
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.1679",
+    "lon": "120.4951"
+  },
+  "metadata": {},
+  "source": {}
+}

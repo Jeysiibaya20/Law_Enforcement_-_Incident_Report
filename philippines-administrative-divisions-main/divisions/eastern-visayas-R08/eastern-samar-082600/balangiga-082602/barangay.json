@@ -1,0 +1,847 @@
+[
+  {
+    "id": "082602001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bacjao",
+      "en": "Bacjao",
+      "slug": "bacjao-082602001"
+    },
+    "code": {
+      "id": "082602001",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "11.0008",
+      "lon": "125.6186"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay Poblacion I",
+      "en": "Barangay Poblacion I",
+      "slug": "barangay-poblacion-i-082602005"
+    },
+    "code": {
+      "id": "082602005",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "14.2983",
+      "lon": "121.0096"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay Poblacion II",
+      "en": "Barangay Poblacion II",
+      "slug": "barangay-poblacion-ii-082602006"
+    },
+    "code": {
+      "id": "082602006",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "14.2949",
+      "lon": "121.0091"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay Poblacion III",
+      "en": "Barangay Poblacion III",
+      "slug": "barangay-poblacion-iii-082602007"
+    },
+    "code": {
+      "id": "082602007",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "14.2923",
+      "lon": "121.007"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay Poblacion IV",
+      "en": "Barangay Poblacion IV",
+      "slug": "barangay-poblacion-iv-082602008"
+    },
+    "code": {
+      "id": "082602008",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "14.3016",
+      "lon": "121.0115"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay Poblacion V",
+      "en": "Barangay Poblacion V",
+      "slug": "barangay-poblacion-v-082602009"
+    },
+    "code": {
+      "id": "082602009",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "14.3034",
+      "lon": "121.0069"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay Poblacion VI",
+      "en": "Barangay Poblacion VI",
+      "slug": "barangay-poblacion-vi-082602010"
+    },
+    "code": {
+      "id": "082602010",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cag-olango",
+      "en": "Cag-olango",
+      "slug": "cag-olango-082602002"
+    },
+    "code": {
+      "id": "082602002",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "11.4",
+      "lon": "125.3667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cansumangcay",
+      "en": "Cansumangcay",
+      "slug": "cansumangcay-082602003"
+    },
+    "code": {
+      "id": "082602003",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "11.117",
+      "lon": "125.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Guinmaayohan",
+      "en": "Guinmaayohan",
+      "slug": "guinmaayohan-082602004"
+    },
+    "code": {
+      "id": "082602004",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "11.117",
+      "lon": "125.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maybunga",
+      "en": "Maybunga",
+      "slug": "maybunga-082602013"
+    },
+    "code": {
+      "id": "082602013",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "14.5753",
+      "lon": "121.0897"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-082602011"
+    },
+    "code": {
+      "id": "082602011",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "11.4358",
+      "lon": "125.5311"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082602012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Rosa",
+      "en": "Santa Rosa",
+      "slug": "santa-rosa-082602012"
+    },
+    "code": {
+      "id": "082602012",
+      "iso": null
+    },
+    "parent": {
+      "id": "082602",
+      "level": 3,
+      "name": {
+        "local": "Balangiga",
+        "en": "Balangiga",
+        "slug": "balangiga-082602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082602",
+        "level": 3,
+        "name": {
+          "local": "Balangiga",
+          "en": "Balangiga",
+          "slug": "balangiga-082602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6812"
+    ],
+    "geo": {
+      "lat": "14.32",
+      "lon": "121.12"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

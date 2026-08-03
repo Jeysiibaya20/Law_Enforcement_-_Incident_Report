@@ -1,0 +1,392 @@
+[
+  {
+    "id": "140112001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baac",
+      "en": "Baac",
+      "slug": "baac-140112001"
+    },
+    "code": {
+      "id": "140112001",
+      "iso": null
+    },
+    "parent": {
+      "id": "140112",
+      "level": 3,
+      "name": {
+        "local": "Langiden",
+        "en": "Langiden",
+        "slug": "langiden-140112"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140112",
+        "level": 3,
+        "name": {
+          "local": "Langiden",
+          "en": "Langiden",
+          "slug": "langiden-140112"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2807"
+    ],
+    "geo": {
+      "lat": "17.6032",
+      "lon": "120.5758"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140112004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dalayap (Nalaas)",
+      "en": "Dalayap (Nalaas)",
+      "slug": "dalayap-nalaas-140112004"
+    },
+    "code": {
+      "id": "140112004",
+      "iso": null
+    },
+    "parent": {
+      "id": "140112",
+      "level": 3,
+      "name": {
+        "local": "Langiden",
+        "en": "Langiden",
+        "slug": "langiden-140112"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140112",
+        "level": 3,
+        "name": {
+          "local": "Langiden",
+          "en": "Langiden",
+          "slug": "langiden-140112"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2807"
+    ],
+    "geo": {
+      "lat": "17.5748",
+      "lon": "120.5609"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140112005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabungtot",
+      "en": "Mabungtot",
+      "slug": "mabungtot-140112005"
+    },
+    "code": {
+      "id": "140112005",
+      "iso": null
+    },
+    "parent": {
+      "id": "140112",
+      "level": 3,
+      "name": {
+        "local": "Langiden",
+        "en": "Langiden",
+        "slug": "langiden-140112"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140112",
+        "level": 3,
+        "name": {
+          "local": "Langiden",
+          "en": "Langiden",
+          "slug": "langiden-140112"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2807"
+    ],
+    "geo": {
+      "lat": "17.5762",
+      "lon": "120.5352"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140112006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malapaao",
+      "en": "Malapaao",
+      "slug": "malapaao-140112006"
+    },
+    "code": {
+      "id": "140112006",
+      "iso": null
+    },
+    "parent": {
+      "id": "140112",
+      "level": 3,
+      "name": {
+        "local": "Langiden",
+        "en": "Langiden",
+        "slug": "langiden-140112"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140112",
+        "level": 3,
+        "name": {
+          "local": "Langiden",
+          "en": "Langiden",
+          "slug": "langiden-140112"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2807"
+    ],
+    "geo": {
+      "lat": "17.583",
+      "lon": "120.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140112007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-140112007"
+    },
+    "code": {
+      "id": "140112007",
+      "iso": null
+    },
+    "parent": {
+      "id": "140112",
+      "level": 3,
+      "name": {
+        "local": "Langiden",
+        "en": "Langiden",
+        "slug": "langiden-140112"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140112",
+        "level": 3,
+        "name": {
+          "local": "Langiden",
+          "en": "Langiden",
+          "slug": "langiden-140112"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2807"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140112008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Quillat",
+      "en": "Quillat",
+      "slug": "quillat-140112008"
+    },
+    "code": {
+      "id": "140112008",
+      "iso": null
+    },
+    "parent": {
+      "id": "140112",
+      "level": 3,
+      "name": {
+        "local": "Langiden",
+        "en": "Langiden",
+        "slug": "langiden-140112"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140112",
+        "level": 3,
+        "name": {
+          "local": "Langiden",
+          "en": "Langiden",
+          "slug": "langiden-140112"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2807"
+    ],
+    "geo": {
+      "lat": "17.5833",
+      "lon": "120.5667"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

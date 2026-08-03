@@ -1,0 +1,56 @@
+{
+  "id": "050517",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tabaco",
+    "en": "Tabaco",
+    "slug": "tabaco-050517"
+  },
+  "code": {
+    "id": "050517",
+    "iso": null
+  },
+  "parent": {
+    "id": "050500",
+    "level": 2,
+    "name": {
+      "local": "Albay",
+      "en": "Albay",
+      "slug": "albay-050500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 47
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.35944",
+    "lon": "123.73028"
+  },
+  "metadata": {},
+  "source": {}
+}

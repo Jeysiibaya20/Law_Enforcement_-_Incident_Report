@@ -1,0 +1,48 @@
+{
+  "id": "060600",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Antique",
+    "en": "Antique",
+    "slug": "antique-060600"
+  },
+  "code": {
+    "id": "060600",
+    "iso": null
+  },
+  "parent": {
+    "id": "R06",
+    "level": 1,
+    "name": {
+      "local": "Western Visayas",
+      "en": "Western Visayas",
+      "slug": "western-visayas-R06"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 18,
+    "barangay": 590
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.2709",
+    "lon": "122.1031"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "012810001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dumalneg",
+      "en": "Dumalneg",
+      "slug": "dumalneg-012810001"
+    },
+    "code": {
+      "id": "012810001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012810",
+      "level": 3,
+      "name": {
+        "local": "Dumalneg",
+        "en": "Dumalneg",
+        "slug": "dumalneg-012810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012810",
+        "level": 3,
+        "name": {
+          "local": "Dumalneg",
+          "en": "Dumalneg",
+          "slug": "dumalneg-012810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2921"
+    ],
+    "geo": {
+      "lat": "18.5217",
+      "lon": "120.8115"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012810002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-012810002"
+    },
+    "code": {
+      "id": "012810002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012810",
+      "level": 3,
+      "name": {
+        "local": "Dumalneg",
+        "en": "Dumalneg",
+        "slug": "dumalneg-012810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012810",
+        "level": 3,
+        "name": {
+          "local": "Dumalneg",
+          "en": "Dumalneg",
+          "slug": "dumalneg-012810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2921"
+    ],
+    "geo": {
+      "lat": "18.1147",
+      "lon": "120.64"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

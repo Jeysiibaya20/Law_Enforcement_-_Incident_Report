@@ -1,0 +1,56 @@
+{
+  "id": "143201",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Balbalan",
+    "en": "Balbalan",
+    "slug": "balbalan-143201"
+  },
+  "code": {
+    "id": "143201",
+    "iso": null
+  },
+  "parent": {
+    "id": "143200",
+    "level": 2,
+    "name": {
+      "local": "Kalinga",
+      "en": "Kalinga",
+      "slug": "kalinga-143200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "143200",
+      "level": 2,
+      "name": {
+        "local": "Kalinga",
+        "en": "Kalinga",
+        "slug": "kalinga-143200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.45",
+    "lon": "121.15"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "126508",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Lambayong (Mariano Marcos)",
+    "en": "Lambayong (Mariano Marcos)",
+    "slug": "lambayong-mariano-marcos-126508"
+  },
+  "code": {
+    "id": "126508",
+    "iso": null
+  },
+  "parent": {
+    "id": "126500",
+    "level": 2,
+    "name": {
+      "local": "Sultan Kudarat",
+      "en": "Sultan Kudarat",
+      "slug": "sultan-kudarat-126500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 26
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.8",
+    "lon": "124.633"
+  },
+  "metadata": {},
+  "source": {}
+}

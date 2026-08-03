@@ -1,0 +1,48 @@
+{
+  "id": "086400",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Southern Leyte",
+    "en": "Southern Leyte",
+    "slug": "southern-leyte-086400"
+  },
+  "code": {
+    "id": "086400",
+    "iso": null
+  },
+  "parent": {
+    "id": "R08",
+    "level": 1,
+    "name": {
+      "local": "Eastern Visayas",
+      "en": "Eastern Visayas",
+      "slug": "eastern-visayas-R08"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 19,
+    "barangay": 500
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.6623",
+    "lon": "124.3661"
+  },
+  "metadata": {},
+  "source": {}
+}

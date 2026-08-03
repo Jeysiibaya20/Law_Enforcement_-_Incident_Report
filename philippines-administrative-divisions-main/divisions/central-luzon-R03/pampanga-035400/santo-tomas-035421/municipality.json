@@ -1,0 +1,56 @@
+{
+  "id": "035421",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santo Tomas",
+    "en": "Santo Tomas",
+    "slug": "santo-tomas-035421"
+  },
+  "code": {
+    "id": "035421",
+    "iso": null
+  },
+  "parent": {
+    "id": "035400",
+    "level": 2,
+    "name": {
+      "local": "Pampanga",
+      "en": "Pampanga",
+      "slug": "pampanga-035400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 7
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.71194",
+    "lon": "120.58472"
+  },
+  "metadata": {},
+  "source": {}
+}

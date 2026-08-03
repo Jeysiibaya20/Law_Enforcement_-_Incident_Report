@@ -1,0 +1,56 @@
+{
+  "id": "060417",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tangalan",
+    "en": "Tangalan",
+    "slug": "tangalan-060417"
+  },
+  "code": {
+    "id": "060417",
+    "iso": null
+  },
+  "parent": {
+    "id": "060400",
+    "level": 2,
+    "name": {
+      "local": "Aklan",
+      "en": "Aklan",
+      "slug": "aklan-060400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.767",
+    "lon": "122.25"
+  },
+  "metadata": {},
+  "source": {}
+}

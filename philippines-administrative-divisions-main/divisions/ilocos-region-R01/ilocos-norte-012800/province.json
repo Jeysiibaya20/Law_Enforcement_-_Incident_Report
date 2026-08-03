@@ -1,0 +1,48 @@
+{
+  "id": "012800",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Ilocos Norte",
+    "en": "Ilocos Norte",
+    "slug": "ilocos-norte-012800"
+  },
+  "code": {
+    "id": "012800",
+    "iso": null
+  },
+  "parent": {
+    "id": "R01",
+    "level": 1,
+    "name": {
+      "local": "Ilocos Region",
+      "en": "Ilocos Region",
+      "slug": "ilocos-region-R01"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 23,
+    "barangay": 557
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.6679",
+    "lon": "120.7347"
+  },
+  "metadata": {},
+  "source": {}
+}

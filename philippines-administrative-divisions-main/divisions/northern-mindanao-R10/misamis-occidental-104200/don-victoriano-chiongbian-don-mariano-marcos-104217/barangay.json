@@ -1,0 +1,717 @@
+[
+  {
+    "id": "104217001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagong Clarin",
+      "en": "Bagong Clarin",
+      "slug": "bagong-clarin-104217001"
+    },
+    "code": {
+      "id": "104217001",
+      "iso": null
+    },
+    "parent": {
+      "id": "104217",
+      "level": 3,
+      "name": {
+        "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104200",
+        "level": 2,
+        "name": {
+          "local": "Misamis Occidental",
+          "en": "Misamis Occidental",
+          "slug": "misamis-occidental-104200"
+        }
+      },
+      {
+        "id": "104217",
+        "level": 3,
+        "name": {
+          "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7216"
+    ],
+    "geo": {
+      "lat": "16.9827",
+      "lon": "121.6111"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104217002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gandawan",
+      "en": "Gandawan",
+      "slug": "gandawan-104217002"
+    },
+    "code": {
+      "id": "104217002",
+      "iso": null
+    },
+    "parent": {
+      "id": "104217",
+      "level": 3,
+      "name": {
+        "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104200",
+        "level": 2,
+        "name": {
+          "local": "Misamis Occidental",
+          "en": "Misamis Occidental",
+          "slug": "misamis-occidental-104200"
+        }
+      },
+      {
+        "id": "104217",
+        "level": 3,
+        "name": {
+          "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7216"
+    ],
+    "geo": {
+      "lat": "8.3",
+      "lon": "123.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104217003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lake Duminagat",
+      "en": "Lake Duminagat",
+      "slug": "lake-duminagat-104217003"
+    },
+    "code": {
+      "id": "104217003",
+      "iso": null
+    },
+    "parent": {
+      "id": "104217",
+      "level": 3,
+      "name": {
+        "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104200",
+        "level": 2,
+        "name": {
+          "local": "Misamis Occidental",
+          "en": "Misamis Occidental",
+          "slug": "misamis-occidental-104200"
+        }
+      },
+      {
+        "id": "104217",
+        "level": 3,
+        "name": {
+          "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7216"
+    ],
+    "geo": {
+      "lat": "8.3",
+      "lon": "123.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104217004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lalud",
+      "en": "Lalud",
+      "slug": "lalud-104217004"
+    },
+    "code": {
+      "id": "104217004",
+      "iso": null
+    },
+    "parent": {
+      "id": "104217",
+      "level": 3,
+      "name": {
+        "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104200",
+        "level": 2,
+        "name": {
+          "local": "Misamis Occidental",
+          "en": "Misamis Occidental",
+          "slug": "misamis-occidental-104200"
+        }
+      },
+      {
+        "id": "104217",
+        "level": 3,
+        "name": {
+          "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7216"
+    ],
+    "geo": {
+      "lat": "13.7179",
+      "lon": "123.4261"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104217005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lampasan",
+      "en": "Lampasan",
+      "slug": "lampasan-104217005"
+    },
+    "code": {
+      "id": "104217005",
+      "iso": null
+    },
+    "parent": {
+      "id": "104217",
+      "level": 3,
+      "name": {
+        "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104200",
+        "level": 2,
+        "name": {
+          "local": "Misamis Occidental",
+          "en": "Misamis Occidental",
+          "slug": "misamis-occidental-104200"
+        }
+      },
+      {
+        "id": "104217",
+        "level": 3,
+        "name": {
+          "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7216"
+    ],
+    "geo": {
+      "lat": "8.3",
+      "lon": "123.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104217006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Liboron",
+      "en": "Liboron",
+      "slug": "liboron-104217006"
+    },
+    "code": {
+      "id": "104217006",
+      "iso": null
+    },
+    "parent": {
+      "id": "104217",
+      "level": 3,
+      "name": {
+        "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104200",
+        "level": 2,
+        "name": {
+          "local": "Misamis Occidental",
+          "en": "Misamis Occidental",
+          "slug": "misamis-occidental-104200"
+        }
+      },
+      {
+        "id": "104217",
+        "level": 3,
+        "name": {
+          "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7216"
+    ],
+    "geo": {
+      "lat": "9.8883",
+      "lon": "123.8578"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104217007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maramara",
+      "en": "Maramara",
+      "slug": "maramara-104217007"
+    },
+    "code": {
+      "id": "104217007",
+      "iso": null
+    },
+    "parent": {
+      "id": "104217",
+      "level": 3,
+      "name": {
+        "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104200",
+        "level": 2,
+        "name": {
+          "local": "Misamis Occidental",
+          "en": "Misamis Occidental",
+          "slug": "misamis-occidental-104200"
+        }
+      },
+      {
+        "id": "104217",
+        "level": 3,
+        "name": {
+          "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7216"
+    ],
+    "geo": {
+      "lat": "19.3668",
+      "lon": "121.4592"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104217008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Napangan",
+      "en": "Napangan",
+      "slug": "napangan-104217008"
+    },
+    "code": {
+      "id": "104217008",
+      "iso": null
+    },
+    "parent": {
+      "id": "104217",
+      "level": 3,
+      "name": {
+        "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104200",
+        "level": 2,
+        "name": {
+          "local": "Misamis Occidental",
+          "en": "Misamis Occidental",
+          "slug": "misamis-occidental-104200"
+        }
+      },
+      {
+        "id": "104217",
+        "level": 3,
+        "name": {
+          "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7216"
+    ],
+    "geo": {
+      "lat": "8.3",
+      "lon": "123.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104217009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nueva Vista (Masawan)",
+      "en": "Nueva Vista (Masawan)",
+      "slug": "nueva-vista-masawan-104217009"
+    },
+    "code": {
+      "id": "104217009",
+      "iso": null
+    },
+    "parent": {
+      "id": "104217",
+      "level": 3,
+      "name": {
+        "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104200",
+        "level": 2,
+        "name": {
+          "local": "Misamis Occidental",
+          "en": "Misamis Occidental",
+          "slug": "misamis-occidental-104200"
+        }
+      },
+      {
+        "id": "104217",
+        "level": 3,
+        "name": {
+          "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7216"
+    ],
+    "geo": {
+      "lat": "14.3564",
+      "lon": "121.0556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104217010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Petianan",
+      "en": "Petianan",
+      "slug": "petianan-104217010"
+    },
+    "code": {
+      "id": "104217010",
+      "iso": null
+    },
+    "parent": {
+      "id": "104217",
+      "level": 3,
+      "name": {
+        "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104200",
+        "level": 2,
+        "name": {
+          "local": "Misamis Occidental",
+          "en": "Misamis Occidental",
+          "slug": "misamis-occidental-104200"
+        }
+      },
+      {
+        "id": "104217",
+        "level": 3,
+        "name": {
+          "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7216"
+    ],
+    "geo": {
+      "lat": "8.3",
+      "lon": "123.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104217011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tuno",
+      "en": "Tuno",
+      "slug": "tuno-104217011"
+    },
+    "code": {
+      "id": "104217011",
+      "iso": null
+    },
+    "parent": {
+      "id": "104217",
+      "level": 3,
+      "name": {
+        "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+        "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104200",
+        "level": 2,
+        "name": {
+          "local": "Misamis Occidental",
+          "en": "Misamis Occidental",
+          "slug": "misamis-occidental-104200"
+        }
+      },
+      {
+        "id": "104217",
+        "level": 3,
+        "name": {
+          "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+          "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7216"
+    ],
+    "geo": {
+      "lat": "11.3206",
+      "lon": "122.0808"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

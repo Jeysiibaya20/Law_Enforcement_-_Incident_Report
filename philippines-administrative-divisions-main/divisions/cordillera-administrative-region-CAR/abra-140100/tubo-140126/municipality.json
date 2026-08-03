@@ -1,0 +1,56 @@
+{
+  "id": "140126",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tubo",
+    "en": "Tubo",
+    "slug": "tubo-140126"
+  },
+  "code": {
+    "id": "140126",
+    "iso": null
+  },
+  "parent": {
+    "id": "140100",
+    "level": 2,
+    "name": {
+      "local": "Abra",
+      "en": "Abra",
+      "slug": "abra-140100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "140100",
+      "level": 2,
+      "name": {
+        "local": "Abra",
+        "en": "Abra",
+        "slug": "abra-140100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 10
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.167",
+    "lon": "120.717"
+  },
+  "metadata": {},
+  "source": {}
+}

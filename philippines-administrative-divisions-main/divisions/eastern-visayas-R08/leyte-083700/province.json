@@ -1,0 +1,48 @@
+{
+  "id": "083700",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Leyte",
+    "en": "Leyte",
+    "slug": "leyte-083700"
+  },
+  "code": {
+    "id": "083700",
+    "iso": null
+  },
+  "parent": {
+    "id": "R08",
+    "level": 1,
+    "name": {
+      "local": "Eastern Visayas",
+      "en": "Eastern Visayas",
+      "slug": "eastern-visayas-R08"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 43,
+    "barangay": 1641
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.1183",
+    "lon": "123.3465"
+  },
+  "metadata": {},
+  "source": {}
+}

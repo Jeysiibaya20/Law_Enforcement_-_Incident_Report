@@ -287,7 +287,9 @@ if ($role === 'admin' || $role === 'officer') {
 }
 
 // Try OpenAI with enhanced context and NLP integration
-$openai_key = getenv('OPENAI_API_KEY') ?: null;
+$openai_key = getenv('OPENAI_API_KEY') ?: getenv('NLP_AI_API_KEY') ?: getenv('CLOUD_NLP_API_KEY') ?: null;
+$openai_base_url = getenv('CLOUD_NLP_BASE_URL') ?: getenv('NLP_AI_BASE_URL') ?: 'https://api.openai.com/v1';
+$openai_model = getenv('CLOUD_NLP_MODEL') ?: getenv('NLP_AI_MODEL') ?: 'gpt-4o-mini';
 $user_context = getUserContext($_SESSION['user_id']);
 $nlp_analysis = analyzeUserMessage($message);
 
@@ -317,7 +319,7 @@ Guidelines:
 Answer helpfully and concisely. If this is an emergency, direct them to call emergency services.";
 
     $payload = [
-        'model' => 'gpt-4', // Upgrade to GPT-4 for better NLP
+        'model' => $openai_model,
         'messages' => [
             ['role' => 'system', 'content' => $system_prompt],
             ['role' => 'user', 'content' => $message]
@@ -328,7 +330,7 @@ Answer helpfully and concisely. If this is an emergency, direct them to call eme
         'frequency_penalty' => 0.1
     ];
 
-    $ch = curl_init('https://api.openai.com/v1/chat/completions');
+    $ch = curl_init(rtrim($openai_base_url, '/') . '/chat/completions');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_TIMEOUT, 20);

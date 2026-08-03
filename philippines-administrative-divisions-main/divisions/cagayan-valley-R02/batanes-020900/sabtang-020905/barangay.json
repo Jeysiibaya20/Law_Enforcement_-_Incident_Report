@@ -1,0 +1,392 @@
+[
+  {
+    "id": "020905001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Chavayan",
+      "en": "Chavayan",
+      "slug": "chavayan-020905001"
+    },
+    "code": {
+      "id": "020905001",
+      "iso": null
+    },
+    "parent": {
+      "id": "020905",
+      "level": 3,
+      "name": {
+        "local": "Sabtang",
+        "en": "Sabtang",
+        "slug": "sabtang-020905"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020905",
+        "level": 3,
+        "name": {
+          "local": "Sabtang",
+          "en": "Sabtang",
+          "slug": "sabtang-020905"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3904"
+    ],
+    "geo": {
+      "lat": "20.2849",
+      "lon": "121.8708"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020905002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malakdang (Pob.)",
+      "en": "Malakdang (Pob.)",
+      "slug": "malakdang-pob-020905002"
+    },
+    "code": {
+      "id": "020905002",
+      "iso": null
+    },
+    "parent": {
+      "id": "020905",
+      "level": 3,
+      "name": {
+        "local": "Sabtang",
+        "en": "Sabtang",
+        "slug": "sabtang-020905"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020905",
+        "level": 3,
+        "name": {
+          "local": "Sabtang",
+          "en": "Sabtang",
+          "slug": "sabtang-020905"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3904"
+    ],
+    "geo": {
+      "lat": "20.333",
+      "lon": "121.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020905003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nakanmuan",
+      "en": "Nakanmuan",
+      "slug": "nakanmuan-020905003"
+    },
+    "code": {
+      "id": "020905003",
+      "iso": null
+    },
+    "parent": {
+      "id": "020905",
+      "level": 3,
+      "name": {
+        "local": "Sabtang",
+        "en": "Sabtang",
+        "slug": "sabtang-020905"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020905",
+        "level": 3,
+        "name": {
+          "local": "Sabtang",
+          "en": "Sabtang",
+          "slug": "sabtang-020905"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3904"
+    ],
+    "geo": {
+      "lat": "20.325",
+      "lon": "121.8384"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020905004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Savidug",
+      "en": "Savidug",
+      "slug": "savidug-020905004"
+    },
+    "code": {
+      "id": "020905004",
+      "iso": null
+    },
+    "parent": {
+      "id": "020905",
+      "level": 3,
+      "name": {
+        "local": "Sabtang",
+        "en": "Sabtang",
+        "slug": "sabtang-020905"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020905",
+        "level": 3,
+        "name": {
+          "local": "Sabtang",
+          "en": "Sabtang",
+          "slug": "sabtang-020905"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3904"
+    ],
+    "geo": {
+      "lat": "20.3109",
+      "lon": "121.8876"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020905005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sinakan (Pob.)",
+      "en": "Sinakan (Pob.)",
+      "slug": "sinakan-pob-020905005"
+    },
+    "code": {
+      "id": "020905005",
+      "iso": null
+    },
+    "parent": {
+      "id": "020905",
+      "level": 3,
+      "name": {
+        "local": "Sabtang",
+        "en": "Sabtang",
+        "slug": "sabtang-020905"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020905",
+        "level": 3,
+        "name": {
+          "local": "Sabtang",
+          "en": "Sabtang",
+          "slug": "sabtang-020905"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3904"
+    ],
+    "geo": {
+      "lat": "20.333",
+      "lon": "121.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020905006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sumnanga",
+      "en": "Sumnanga",
+      "slug": "sumnanga-020905006"
+    },
+    "code": {
+      "id": "020905006",
+      "iso": null
+    },
+    "parent": {
+      "id": "020905",
+      "level": 3,
+      "name": {
+        "local": "Sabtang",
+        "en": "Sabtang",
+        "slug": "sabtang-020905"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020905",
+        "level": 3,
+        "name": {
+          "local": "Sabtang",
+          "en": "Sabtang",
+          "slug": "sabtang-020905"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3904"
+    ],
+    "geo": {
+      "lat": "20.3006",
+      "lon": "121.8431"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

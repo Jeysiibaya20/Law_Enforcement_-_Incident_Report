@@ -1,6 +1,11 @@
 <?php
 require_once 'admin_auth.php';
 
+if (empty($embed_in_dashboard)) {
+    header('Location: dashboard.php');
+    exit();
+}
+
 $base_url = '../';
 $page_title = 'Reports & Analytics';
 // When embedded in dashboard, the parent will include header/navbar.

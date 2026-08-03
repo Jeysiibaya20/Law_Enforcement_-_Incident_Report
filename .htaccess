@@ -1,0 +1,24 @@
+Options -Indexes
+
+DirectoryIndex index.php landing.php
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+<FilesMatch "^(\.env|\.env\..*|.*\.sql|.*\.env|mailer\.env|composer\.(json|lock)|.*\.log)$">
+    Require all denied
+</FilesMatch>
+
+<FilesMatch "^(composer-setup\.php|import_sql\.php|prepare_sql\.php|ensure_db_and_setup\.php|diagnostics\.php|test_ai_key\.php)$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^\.git(?:/|$) - [F,L]
+    RewriteRule ^storage/(?:framework|logs|app/private)(?:/|$) - [F,L]
+    RewriteRule ^bootstrap/cache/(?:.*)$ - [F,L]
+</IfModule>

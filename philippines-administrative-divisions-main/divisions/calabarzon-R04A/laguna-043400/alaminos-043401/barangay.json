@@ -1,0 +1,977 @@
+[
+  {
+    "id": "043401003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay I (Pob.)",
+      "en": "Barangay I (Pob.)",
+      "slug": "barangay-i-pob-043401003"
+    },
+    "code": {
+      "id": "043401003",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay II (Pob.)",
+      "en": "Barangay II (Pob.)",
+      "slug": "barangay-ii-pob-043401004"
+    },
+    "code": {
+      "id": "043401004",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay III (Pob.)",
+      "en": "Barangay III (Pob.)",
+      "slug": "barangay-iii-pob-043401005"
+    },
+    "code": {
+      "id": "043401005",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay IV (Pob.)",
+      "en": "Barangay IV (Pob.)",
+      "slug": "barangay-iv-pob-043401006"
+    },
+    "code": {
+      "id": "043401006",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Del Carmen",
+      "en": "Del Carmen",
+      "slug": "del-carmen-043401001"
+    },
+    "code": {
+      "id": "043401001",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "14.0667",
+      "lon": "121.2333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Palma",
+      "en": "Palma",
+      "slug": "palma-043401002"
+    },
+    "code": {
+      "id": "043401002",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "14.0428",
+      "lon": "121.2148"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Agustin",
+      "en": "San Agustin",
+      "slug": "san-agustin-043401007"
+    },
+    "code": {
+      "id": "043401007",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "14.0622",
+      "lon": "121.2636"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Andres",
+      "en": "San Andres",
+      "slug": "san-andres-043401008"
+    },
+    "code": {
+      "id": "043401008",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "14.05",
+      "lon": "121.2167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Benito",
+      "en": "San Benito",
+      "slug": "san-benito-043401009"
+    },
+    "code": {
+      "id": "043401009",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "14.0638",
+      "lon": "121.2752"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Gregorio",
+      "en": "San Gregorio",
+      "slug": "san-gregorio-043401010"
+    },
+    "code": {
+      "id": "043401010",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "14.0486",
+      "lon": "121.3291"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Ildefonso",
+      "en": "San Ildefonso",
+      "slug": "san-ildefonso-043401011"
+    },
+    "code": {
+      "id": "043401011",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "14.0453",
+      "lon": "121.2186"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan",
+      "en": "San Juan",
+      "slug": "san-juan-043401012"
+    },
+    "code": {
+      "id": "043401012",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "14.2155",
+      "lon": "121.1739"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-043401013"
+    },
+    "code": {
+      "id": "043401013",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "14.0412",
+      "lon": "121.2977"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque",
+      "en": "San Roque",
+      "slug": "san-roque-043401014"
+    },
+    "code": {
+      "id": "043401014",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "14.3681",
+      "lon": "121.0623"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043401015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Rosa",
+      "en": "Santa Rosa",
+      "slug": "santa-rosa-043401015"
+    },
+    "code": {
+      "id": "043401015",
+      "iso": null
+    },
+    "parent": {
+      "id": "043401",
+      "level": 3,
+      "name": {
+        "local": "Alaminos",
+        "en": "Alaminos",
+        "slug": "alaminos-043401"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      },
+      {
+        "id": "043401",
+        "level": 3,
+        "name": {
+          "local": "Alaminos",
+          "en": "Alaminos",
+          "slug": "alaminos-043401"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4001"
+    ],
+    "geo": {
+      "lat": "14.32",
+      "lon": "121.12"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

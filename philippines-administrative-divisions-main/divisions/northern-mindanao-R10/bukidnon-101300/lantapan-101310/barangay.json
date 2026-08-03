@@ -1,0 +1,912 @@
+[
+  {
+    "id": "101310001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alanib",
+      "en": "Alanib",
+      "slug": "alanib-101310001"
+    },
+    "code": {
+      "id": "101310001",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "8.0278",
+      "lon": "124.9861"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baclayon",
+      "en": "Baclayon",
+      "slug": "baclayon-101310002"
+    },
+    "code": {
+      "id": "101310002",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "8.0142",
+      "lon": "125.0039"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balila",
+      "en": "Balila",
+      "slug": "balila-101310003"
+    },
+    "code": {
+      "id": "101310003",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "8.0028",
+      "lon": "125.0131"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bantuanon",
+      "en": "Bantuanon",
+      "slug": "bantuanon-101310004"
+    },
+    "code": {
+      "id": "101310004",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "8.0153",
+      "lon": "125.0708"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Basak",
+      "en": "Basak",
+      "slug": "basak-101310005"
+    },
+    "code": {
+      "id": "101310005",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "8.0411",
+      "lon": "124.8628"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bugcaon",
+      "en": "Bugcaon",
+      "slug": "bugcaon-101310006"
+    },
+    "code": {
+      "id": "101310006",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "8.0458",
+      "lon": "125.1128"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Capitan Juan",
+      "en": "Capitan Juan",
+      "slug": "capitan-juan-101310008"
+    },
+    "code": {
+      "id": "101310008",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "8.0789",
+      "lon": "125.0489"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cawayan",
+      "en": "Cawayan",
+      "slug": "cawayan-101310009"
+    },
+    "code": {
+      "id": "101310009",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "8.0561",
+      "lon": "124.9289"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ka-atoan (Kaatuan)",
+      "en": "Ka-atoan (Kaatuan)",
+      "slug": "ka-atoan-kaatuan-101310007"
+    },
+    "code": {
+      "id": "101310007",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "8.0583",
+      "lon": "125.0044"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kibangay",
+      "en": "Kibangay",
+      "slug": "kibangay-101310011"
+    },
+    "code": {
+      "id": "101310011",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "8.0497",
+      "lon": "124.8931"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kulasihan",
+      "en": "Kulasihan",
+      "slug": "kulasihan-101310010"
+    },
+    "code": {
+      "id": "101310010",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "8.1305",
+      "lon": "123.9271"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-101310012"
+    },
+    "code": {
+      "id": "101310012",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Songco",
+      "en": "Songco",
+      "slug": "songco-101310013"
+    },
+    "code": {
+      "id": "101310013",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "11.6158",
+      "lon": "125.435"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Victory",
+      "en": "Victory",
+      "slug": "victory-101310014"
+    },
+    "code": {
+      "id": "101310014",
+      "iso": null
+    },
+    "parent": {
+      "id": "101310",
+      "level": 3,
+      "name": {
+        "local": "Lantapan",
+        "en": "Lantapan",
+        "slug": "lantapan-101310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101310",
+        "level": 3,
+        "name": {
+          "local": "Lantapan",
+          "en": "Lantapan",
+          "slug": "lantapan-101310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8722"
+    ],
+    "geo": {
+      "lat": "8.3897",
+      "lon": "124.8347"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

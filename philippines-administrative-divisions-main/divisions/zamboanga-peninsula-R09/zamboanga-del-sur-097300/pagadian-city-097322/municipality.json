@@ -1,0 +1,56 @@
+{
+  "id": "097322",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pagadian City",
+    "en": "Pagadian City",
+    "slug": "pagadian-city-097322"
+  },
+  "code": {
+    "id": "097322",
+    "iso": null
+  },
+  "parent": {
+    "id": "097300",
+    "level": 2,
+    "name": {
+      "local": "Zamboanga del Sur",
+      "en": "Zamboanga del Sur",
+      "slug": "zamboanga-del-sur-097300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 54
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.83",
+    "lon": "123.43"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "041010",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Ibaan",
+    "en": "Ibaan",
+    "slug": "ibaan-041010"
+  },
+  "code": {
+    "id": "041010",
+    "iso": null
+  },
+  "parent": {
+    "id": "041000",
+    "level": 2,
+    "name": {
+      "local": "Batangas",
+      "en": "Batangas",
+      "slug": "batangas-041000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 26
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.817",
+    "lon": "121.133"
+  },
+  "metadata": {},
+  "source": {}
+}

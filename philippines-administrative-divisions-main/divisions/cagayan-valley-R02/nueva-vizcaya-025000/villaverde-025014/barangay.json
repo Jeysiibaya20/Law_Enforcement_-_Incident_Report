@@ -1,0 +1,587 @@
+[
+  {
+    "id": "025014009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bintawan Norte",
+      "en": "Bintawan Norte",
+      "slug": "bintawan-norte-025014009"
+    },
+    "code": {
+      "id": "025014009",
+      "iso": null
+    },
+    "parent": {
+      "id": "025014",
+      "level": 3,
+      "name": {
+        "local": "Villaverde",
+        "en": "Villaverde",
+        "slug": "villaverde-025014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025014",
+        "level": 3,
+        "name": {
+          "local": "Villaverde",
+          "en": "Villaverde",
+          "slug": "villaverde-025014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3710"
+    ],
+    "geo": {
+      "lat": "16.5759",
+      "lon": "121.1876"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025014001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bintawan Sur",
+      "en": "Bintawan Sur",
+      "slug": "bintawan-sur-025014001"
+    },
+    "code": {
+      "id": "025014001",
+      "iso": null
+    },
+    "parent": {
+      "id": "025014",
+      "level": 3,
+      "name": {
+        "local": "Villaverde",
+        "en": "Villaverde",
+        "slug": "villaverde-025014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025014",
+        "level": 3,
+        "name": {
+          "local": "Villaverde",
+          "en": "Villaverde",
+          "slug": "villaverde-025014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3710"
+    ],
+    "geo": {
+      "lat": "16.5759",
+      "lon": "121.1876"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025014003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabuluan",
+      "en": "Cabuluan",
+      "slug": "cabuluan-025014003"
+    },
+    "code": {
+      "id": "025014003",
+      "iso": null
+    },
+    "parent": {
+      "id": "025014",
+      "level": 3,
+      "name": {
+        "local": "Villaverde",
+        "en": "Villaverde",
+        "slug": "villaverde-025014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025014",
+        "level": 3,
+        "name": {
+          "local": "Villaverde",
+          "en": "Villaverde",
+          "slug": "villaverde-025014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3710"
+    ],
+    "geo": {
+      "lat": "16.595",
+      "lon": "121.1546"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025014002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ibung",
+      "en": "Ibung",
+      "slug": "ibung-025014002"
+    },
+    "code": {
+      "id": "025014002",
+      "iso": null
+    },
+    "parent": {
+      "id": "025014",
+      "level": 3,
+      "name": {
+        "local": "Villaverde",
+        "en": "Villaverde",
+        "slug": "villaverde-025014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025014",
+        "level": 3,
+        "name": {
+          "local": "Villaverde",
+          "en": "Villaverde",
+          "slug": "villaverde-025014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3710"
+    ],
+    "geo": {
+      "lat": "16.6094",
+      "lon": "121.1861"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025014004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nagbitin",
+      "en": "Nagbitin",
+      "slug": "nagbitin-025014004"
+    },
+    "code": {
+      "id": "025014004",
+      "iso": null
+    },
+    "parent": {
+      "id": "025014",
+      "level": 3,
+      "name": {
+        "local": "Villaverde",
+        "en": "Villaverde",
+        "slug": "villaverde-025014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025014",
+        "level": 3,
+        "name": {
+          "local": "Villaverde",
+          "en": "Villaverde",
+          "slug": "villaverde-025014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3710"
+    ],
+    "geo": {
+      "lat": "16.6034",
+      "lon": "121.1576"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025014005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ocapon",
+      "en": "Ocapon",
+      "slug": "ocapon-025014005"
+    },
+    "code": {
+      "id": "025014005",
+      "iso": null
+    },
+    "parent": {
+      "id": "025014",
+      "level": 3,
+      "name": {
+        "local": "Villaverde",
+        "en": "Villaverde",
+        "slug": "villaverde-025014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025014",
+        "level": 3,
+        "name": {
+          "local": "Villaverde",
+          "en": "Villaverde",
+          "slug": "villaverde-025014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3710"
+    ],
+    "geo": {
+      "lat": "16.627",
+      "lon": "121.1481"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025014006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pieza",
+      "en": "Pieza",
+      "slug": "pieza-025014006"
+    },
+    "code": {
+      "id": "025014006",
+      "iso": null
+    },
+    "parent": {
+      "id": "025014",
+      "level": 3,
+      "name": {
+        "local": "Villaverde",
+        "en": "Villaverde",
+        "slug": "villaverde-025014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025014",
+        "level": 3,
+        "name": {
+          "local": "Villaverde",
+          "en": "Villaverde",
+          "slug": "villaverde-025014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3710"
+    ],
+    "geo": {
+      "lat": "16.6352",
+      "lon": "121.174"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025014008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion (Turod)",
+      "en": "Poblacion (Turod)",
+      "slug": "poblacion-turod-025014008"
+    },
+    "code": {
+      "id": "025014008",
+      "iso": null
+    },
+    "parent": {
+      "id": "025014",
+      "level": 3,
+      "name": {
+        "local": "Villaverde",
+        "en": "Villaverde",
+        "slug": "villaverde-025014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025014",
+        "level": 3,
+        "name": {
+          "local": "Villaverde",
+          "en": "Villaverde",
+          "slug": "villaverde-025014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3710"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025014007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sawmill",
+      "en": "Sawmill",
+      "slug": "sawmill-025014007"
+    },
+    "code": {
+      "id": "025014007",
+      "iso": null
+    },
+    "parent": {
+      "id": "025014",
+      "level": 3,
+      "name": {
+        "local": "Villaverde",
+        "en": "Villaverde",
+        "slug": "villaverde-025014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025014",
+        "level": 3,
+        "name": {
+          "local": "Villaverde",
+          "en": "Villaverde",
+          "slug": "villaverde-025014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3710"
+    ],
+    "geo": {
+      "lat": "16.583",
+      "lon": "121.2"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

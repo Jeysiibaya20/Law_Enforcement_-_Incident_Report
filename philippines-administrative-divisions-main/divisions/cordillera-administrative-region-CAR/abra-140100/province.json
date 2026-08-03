@@ -1,0 +1,48 @@
+{
+  "id": "140100",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Abra",
+    "en": "Abra",
+    "slug": "abra-140100"
+  },
+  "code": {
+    "id": "140100",
+    "iso": null
+  },
+  "parent": {
+    "id": "CAR",
+    "level": 1,
+    "name": {
+      "local": "Cordillera Administrative Region",
+      "en": "Cordillera Administrative Region",
+      "slug": "cordillera-administrative-region-CAR"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 27,
+    "barangay": 303
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.0398",
+    "lon": "120.8684"
+  },
+  "metadata": {},
+  "source": {}
+}

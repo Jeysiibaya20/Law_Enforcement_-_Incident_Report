@@ -1,0 +1,4682 @@
+[
+  {
+    "id": "041014001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Adya",
+      "en": "Adya",
+      "slug": "adya-041014001"
+    },
+    "code": {
+      "id": "041014001",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8813",
+      "lon": "121.1344"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Anilao",
+      "en": "Anilao",
+      "slug": "anilao-041014003"
+    },
+    "code": {
+      "id": "041014003",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.908",
+      "lon": "121.1733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Anilao-Labac",
+      "en": "Anilao-Labac",
+      "slug": "anilao-labac-041014004"
+    },
+    "code": {
+      "id": "041014004",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9411",
+      "lon": "121.1622"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Antipolo Del Norte",
+      "en": "Antipolo Del Norte",
+      "slug": "antipolo-del-norte-041014005"
+    },
+    "code": {
+      "id": "041014005",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9164",
+      "lon": "121.1795"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Antipolo Del Sur",
+      "en": "Antipolo Del Sur",
+      "slug": "antipolo-del-sur-041014006"
+    },
+    "code": {
+      "id": "041014006",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9164",
+      "lon": "121.1795"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagong Pook",
+      "en": "Bagong Pook",
+      "slug": "bagong-pook-041014007"
+    },
+    "code": {
+      "id": "041014007",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "14.0378",
+      "lon": "121.1789"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balintawak",
+      "en": "Balintawak",
+      "slug": "balintawak-041014009"
+    },
+    "code": {
+      "id": "041014009",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9529",
+      "lon": "121.1587"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Banaybanay",
+      "en": "Banaybanay",
+      "slug": "banaybanay-041014010"
+    },
+    "code": {
+      "id": "041014010",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9232",
+      "lon": "121.1029"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014077",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 12 (Pob.)",
+      "en": "Barangay 12 (Pob.)",
+      "slug": "barangay-12-pob-041014077"
+    },
+    "code": {
+      "id": "041014077",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bolbok",
+      "en": "Bolbok",
+      "slug": "bolbok-041014011"
+    },
+    "code": {
+      "id": "041014011",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.826",
+      "lon": "121.396"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bugtong na Pulo",
+      "en": "Bugtong na Pulo",
+      "slug": "bugtong-na-pulo-041014012"
+    },
+    "code": {
+      "id": "041014012",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9963",
+      "lon": "121.1774"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulacnin",
+      "en": "Bulacnin",
+      "slug": "bulacnin-041014013"
+    },
+    "code": {
+      "id": "041014013",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9903",
+      "lon": "121.139"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulaklakan",
+      "en": "Bulaklakan",
+      "slug": "bulaklakan-041014014"
+    },
+    "code": {
+      "id": "041014014",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9411",
+      "lon": "121.1622"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calamias",
+      "en": "Calamias",
+      "slug": "calamias-041014015"
+    },
+    "code": {
+      "id": "041014015",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8641",
+      "lon": "121.1464"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cumba",
+      "en": "Cumba",
+      "slug": "cumba-041014016"
+    },
+    "code": {
+      "id": "041014016",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.7667",
+      "lon": "121.0667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dagatan",
+      "en": "Dagatan",
+      "slug": "dagatan-041014017"
+    },
+    "code": {
+      "id": "041014017",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8606",
+      "lon": "121.1061"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Duhatan",
+      "en": "Duhatan",
+      "slug": "duhatan-041014018"
+    },
+    "code": {
+      "id": "041014018",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9366",
+      "lon": "121.0884"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Halang",
+      "en": "Halang",
+      "slug": "halang-041014020"
+    },
+    "code": {
+      "id": "041014020",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8966",
+      "lon": "120.9291"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Inosloban",
+      "en": "Inosloban",
+      "slug": "inosloban-041014021"
+    },
+    "code": {
+      "id": "041014021",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9803",
+      "lon": "121.1674"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kayumanggi",
+      "en": "Kayumanggi",
+      "slug": "kayumanggi-041014022"
+    },
+    "code": {
+      "id": "041014022",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9185",
+      "lon": "121.1624"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Latag",
+      "en": "Latag",
+      "slug": "latag-041014024"
+    },
+    "code": {
+      "id": "041014024",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9391",
+      "lon": "121.171"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lodlod",
+      "en": "Lodlod",
+      "slug": "lodlod-041014025"
+    },
+    "code": {
+      "id": "041014025",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9313",
+      "lon": "121.1419"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lumbang",
+      "en": "Lumbang",
+      "slug": "lumbang-041014026"
+    },
+    "code": {
+      "id": "041014026",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9815",
+      "lon": "121.2008"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabini",
+      "en": "Mabini",
+      "slug": "mabini-041014027"
+    },
+    "code": {
+      "id": "041014027",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.72",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malagonlong",
+      "en": "Malagonlong",
+      "slug": "malagonlong-041014028"
+    },
+    "code": {
+      "id": "041014028",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9116",
+      "lon": "121.1558"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malitlit",
+      "en": "Malitlit",
+      "slug": "malitlit-041014029"
+    },
+    "code": {
+      "id": "041014029",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "14.2646",
+      "lon": "121.1051"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Marauoy",
+      "en": "Marauoy",
+      "slug": "marauoy-041014030"
+    },
+    "code": {
+      "id": "041014030",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9735",
+      "lon": "121.1668"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014031",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mataas Na Lupa",
+      "en": "Mataas Na Lupa",
+      "slug": "mataas-na-lupa-041014031"
+    },
+    "code": {
+      "id": "041014031",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9411",
+      "lon": "121.1537"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Munting Pulo",
+      "en": "Munting Pulo",
+      "slug": "munting-pulo-041014032"
+    },
+    "code": {
+      "id": "041014032",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9333",
+      "lon": "121.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pagolingin Bata",
+      "en": "Pagolingin Bata",
+      "slug": "pagolingin-bata-041014033"
+    },
+    "code": {
+      "id": "041014033",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8766",
+      "lon": "121.1733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pagolingin East",
+      "en": "Pagolingin East",
+      "slug": "pagolingin-east-041014034"
+    },
+    "code": {
+      "id": "041014034",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8766",
+      "lon": "121.1733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pagolingin West",
+      "en": "Pagolingin West",
+      "slug": "pagolingin-west-041014035"
+    },
+    "code": {
+      "id": "041014035",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8766",
+      "lon": "121.1733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014036",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pangao",
+      "en": "Pangao",
+      "slug": "pangao-041014036"
+    },
+    "code": {
+      "id": "041014036",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9179",
+      "lon": "121.1246"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014037",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pinagkawitan",
+      "en": "Pinagkawitan",
+      "slug": "pinagkawitan-041014037"
+    },
+    "code": {
+      "id": "041014037",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9039",
+      "lon": "121.1928"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014038",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pinagtongulan",
+      "en": "Pinagtongulan",
+      "slug": "pinagtongulan-041014038"
+    },
+    "code": {
+      "id": "041014038",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9287",
+      "lon": "121.1018"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014039",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Plaridel",
+      "en": "Plaridel",
+      "slug": "plaridel-041014039"
+    },
+    "code": {
+      "id": "041014039",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9852",
+      "lon": "121.1717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014040",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 1",
+      "en": "Poblacion Barangay 1",
+      "slug": "poblacion-barangay-1-041014040"
+    },
+    "code": {
+      "id": "041014040",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014041",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 10",
+      "en": "Poblacion Barangay 10",
+      "slug": "poblacion-barangay-10-041014041"
+    },
+    "code": {
+      "id": "041014041",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014042",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 11",
+      "en": "Poblacion Barangay 11",
+      "slug": "poblacion-barangay-11-041014042"
+    },
+    "code": {
+      "id": "041014042",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014043",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 2",
+      "en": "Poblacion Barangay 2",
+      "slug": "poblacion-barangay-2-041014043"
+    },
+    "code": {
+      "id": "041014043",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014044",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 3",
+      "en": "Poblacion Barangay 3",
+      "slug": "poblacion-barangay-3-041014044"
+    },
+    "code": {
+      "id": "041014044",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014045",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 4",
+      "en": "Poblacion Barangay 4",
+      "slug": "poblacion-barangay-4-041014045"
+    },
+    "code": {
+      "id": "041014045",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014046",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 5",
+      "en": "Poblacion Barangay 5",
+      "slug": "poblacion-barangay-5-041014046"
+    },
+    "code": {
+      "id": "041014046",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014047",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 6",
+      "en": "Poblacion Barangay 6",
+      "slug": "poblacion-barangay-6-041014047"
+    },
+    "code": {
+      "id": "041014047",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014048",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 7",
+      "en": "Poblacion Barangay 7",
+      "slug": "poblacion-barangay-7-041014048"
+    },
+    "code": {
+      "id": "041014048",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014049",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 8",
+      "en": "Poblacion Barangay 8",
+      "slug": "poblacion-barangay-8-041014049"
+    },
+    "code": {
+      "id": "041014049",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014050",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 9",
+      "en": "Poblacion Barangay 9",
+      "slug": "poblacion-barangay-9-041014050"
+    },
+    "code": {
+      "id": "041014050",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014076",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 9-A",
+      "en": "Poblacion Barangay 9-A",
+      "slug": "poblacion-barangay-9-a-041014076"
+    },
+    "code": {
+      "id": "041014076",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014051",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pusil",
+      "en": "Pusil",
+      "slug": "pusil-041014051"
+    },
+    "code": {
+      "id": "041014051",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9809",
+      "lon": "121.1535"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014052",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-041014052"
+    },
+    "code": {
+      "id": "041014052",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "14.65",
+      "lon": "121.0475"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014053",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rizal",
+      "en": "Rizal",
+      "slug": "rizal-041014053"
+    },
+    "code": {
+      "id": "041014053",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8238",
+      "lon": "120.9789"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014054",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sabang",
+      "en": "Sabang",
+      "slug": "sabang-041014054"
+    },
+    "code": {
+      "id": "041014054",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9455",
+      "lon": "121.1694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014055",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sampaguita",
+      "en": "Sampaguita",
+      "slug": "sampaguita-041014055"
+    },
+    "code": {
+      "id": "041014055",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "14.345",
+      "lon": "121.0377"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014056",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Benito",
+      "en": "San Benito",
+      "slug": "san-benito-041014056"
+    },
+    "code": {
+      "id": "041014056",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9348",
+      "lon": "121.21"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014057",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Carlos",
+      "en": "San Carlos",
+      "slug": "san-carlos-041014057"
+    },
+    "code": {
+      "id": "041014057",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8422",
+      "lon": "121.2416"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014058",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Celestino",
+      "en": "San Celestino",
+      "slug": "san-celestino-041014058"
+    },
+    "code": {
+      "id": "041014058",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9258",
+      "lon": "121.2349"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014059",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Francisco",
+      "en": "San Francisco",
+      "slug": "san-francisco-041014059"
+    },
+    "code": {
+      "id": "041014059",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "14.0333",
+      "lon": "121.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014060",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Guillermo",
+      "en": "San Guillermo",
+      "slug": "san-guillermo-041014060"
+    },
+    "code": {
+      "id": "041014060",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "16.7244",
+      "lon": "121.81"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014061",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-041014061"
+    },
+    "code": {
+      "id": "041014061",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8772",
+      "lon": "121.105"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014062",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Lucas",
+      "en": "San Lucas",
+      "slug": "san-lucas-041014062"
+    },
+    "code": {
+      "id": "041014062",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "14.0167",
+      "lon": "121.1833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014063",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Salvador",
+      "en": "San Salvador",
+      "slug": "san-salvador-041014063"
+    },
+    "code": {
+      "id": "041014063",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9691",
+      "lon": "121.1253"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Sebastian (Balagbag)",
+      "en": "San Sebastian (Balagbag)",
+      "slug": "san-sebastian-balagbag-041014008"
+    },
+    "code": {
+      "id": "041014008",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9816",
+      "lon": "121.1018"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014068",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-041014068"
+    },
+    "code": {
+      "id": "041014068",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8553",
+      "lon": "121.2255"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014069",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Toribio",
+      "en": "Santo Toribio",
+      "slug": "santo-toribio-041014069"
+    },
+    "code": {
+      "id": "041014069",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9694",
+      "lon": "121.1572"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014064",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapac",
+      "en": "Sapac",
+      "slug": "sapac-041014064"
+    },
+    "code": {
+      "id": "041014064",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9544",
+      "lon": "121.2032"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014066",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sico",
+      "en": "Sico",
+      "slug": "sico-041014066"
+    },
+    "code": {
+      "id": "041014066",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "14.1667",
+      "lon": "122.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014070",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talisay",
+      "en": "Talisay",
+      "slug": "talisay-041014070"
+    },
+    "code": {
+      "id": "041014070",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "14.1",
+      "lon": "121.02"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014071",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tambo",
+      "en": "Tambo",
+      "slug": "tambo-041014071"
+    },
+    "code": {
+      "id": "041014071",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9414",
+      "lon": "121.1389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014072",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tangob",
+      "en": "Tangob",
+      "slug": "tangob-041014072"
+    },
+    "code": {
+      "id": "041014072",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.8867",
+      "lon": "121.2526"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014073",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tanguay",
+      "en": "Tanguay",
+      "slug": "tanguay-041014073"
+    },
+    "code": {
+      "id": "041014073",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9731",
+      "lon": "121.1403"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014074",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tibig",
+      "en": "Tibig",
+      "slug": "tibig-041014074"
+    },
+    "code": {
+      "id": "041014074",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.9563",
+      "lon": "121.1466"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014075",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tipacan",
+      "en": "Tipacan",
+      "slug": "tipacan-041014075"
+    },
+    "code": {
+      "id": "041014075",
+      "iso": null
+    },
+    "parent": {
+      "id": "041014",
+      "level": 3,
+      "name": {
+        "local": "Lipa City",
+        "en": "Lipa City",
+        "slug": "lipa-city-041014"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041014",
+        "level": 3,
+        "name": {
+          "local": "Lipa City",
+          "en": "Lipa City",
+          "slug": "lipa-city-041014"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4217"
+    ],
+    "geo": {
+      "lat": "13.918",
+      "lon": "121.2008"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

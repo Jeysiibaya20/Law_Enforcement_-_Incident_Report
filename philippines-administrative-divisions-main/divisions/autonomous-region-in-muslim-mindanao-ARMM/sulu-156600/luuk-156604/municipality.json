@@ -1,0 +1,56 @@
+{
+  "id": "156604",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Luuk",
+    "en": "Luuk",
+    "slug": "luuk-156604"
+  },
+  "code": {
+    "id": "156604",
+    "iso": null
+  },
+  "parent": {
+    "id": "156600",
+    "level": 2,
+    "name": {
+      "local": "Sulu",
+      "en": "Sulu",
+      "slug": "sulu-156600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 12
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6",
+    "lon": "121.35"
+  },
+  "metadata": {},
+  "source": {}
+}

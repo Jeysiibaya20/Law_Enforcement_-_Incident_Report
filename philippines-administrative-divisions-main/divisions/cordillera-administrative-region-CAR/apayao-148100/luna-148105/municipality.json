@@ -1,0 +1,56 @@
+{
+  "id": "148105",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Luna",
+    "en": "Luna",
+    "slug": "luna-148105"
+  },
+  "code": {
+    "id": "148105",
+    "iso": null
+  },
+  "parent": {
+    "id": "148100",
+    "level": 2,
+    "name": {
+      "local": "Apayao",
+      "en": "Apayao",
+      "slug": "apayao-148100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "148100",
+      "level": 2,
+      "name": {
+        "local": "Apayao",
+        "en": "Apayao",
+        "slug": "apayao-148100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 22
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "18.32583",
+    "lon": "121.35361"
+  },
+  "metadata": {},
+  "source": {}
+}

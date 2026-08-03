@@ -7,105 +7,8 @@ $page_title = 'Case Management';
 require_once '../includes/header.php';
 require_once '../includes/navbar.php';
 
-// Handle form submissions
-$message = '';
-$message_type = '';
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    if (isset($_POST['create_case'])) {
-        // Create new case assignment
-        $case_data = [
-            'incident_type' => $_POST['incident_type'] ?? '',
-            'complainant_name' => $_POST['complainant_name'] ?? '',
-            'respondent_name' => $_POST['respondent_name'] ?? '',
-            'location' => $_POST['location'] ?? '',
-            'incident_date' => $_POST['incident_date'] ?? '',
-            'incident_time' => $_POST['incident_time'] ?? '',
-            'description' => $_POST['description'] ?? '',
-            'priority' => $_POST['priority'] ?? 'Medium',
-            'assigned_by' => $_SESSION['user_id'],
-            'assigned_to' => $_POST['assigned_to'] ?? null,
-            'barangay_chairperson_id' => $_POST['barangay_chairperson_id'] ?? null
-        ];
-
-        $result = createCaseAssignment($case_data);
-        if ($result['success']) {
-            $message = "Case created successfully with number: " . $result['case_number'];
-            $message_type = 'success';
-        } else {
-            $message = "Error creating case: " . $result['error'];
-            $message_type = 'danger';
-        }
-    } elseif (isset($_POST['update_status'])) {
-        // Update case status
-        $result = updateCaseStatus($_POST['case_id'], $_POST['new_status'], $_SESSION['user_id'], $_POST['status_notes'] ?? '');
-        if ($result['success']) {
-            $message = "Case status updated successfully";
-            $message_type = 'success';
-        } else {
-            $message = "Error updating case status: " . $result['error'];
-            $message_type = 'danger';
-        }
-    } elseif (isset($_POST['add_followup'])) {
-        // Add follow-up action
-        $result = addFollowUpAction($_POST['case_id'], $_POST['followup_action'], $_SESSION['user_id']);
-        if ($result['success']) {
-            $message = "Follow-up action added successfully";
-            $message_type = 'success';
-        } else {
-            $message = "Error adding follow-up: " . $result['error'];
-            $message_type = 'danger';
-        }
-    } elseif (isset($_POST['reassign_case'])) {
-        // Reassign case
-        $result = reassignCase($_POST['case_id'], $_POST['new_officer'], $_SESSION['user_id'], $_POST['reassign_reason'] ?? '');
-        if ($result['success']) {
-            $message = "Case reassigned successfully";
-            $message_type = 'success';
-        } else {
-            $message = "Error reassigning case: " . $result['error'];
-            $message_type = 'danger';
-        }
-    } elseif (isset($_POST['action']) && $_POST['action'] === 'delete_case') {
-        // Delete case
-        try {
-            $case_id = intval($_POST['case_id'] ?? 0);
-            
-            if (!$case_id) {
-                throw new Exception('Invalid case ID');
-            }
-            
-            // First, delete any attachments associated with this case
-            require_once '../includes/attachment_manager.php';
-            $attachment_manager = new AttachmentManager($pdo);
-            $attachments = $attachment_manager->getAttachments('case', $case_id);
-            
-            foreach ($attachments as $attachment) {
-                try {
-                    $attachment_manager->deleteAttachment($attachment['id'], $_SESSION['user_id']);
-                } catch (Exception $e) {
-                    // Log but continue with case deletion
-                    error_log("Failed to delete attachment {$attachment['id']}: " . $e->getMessage());
-                }
-            }
-            
-            // Delete the case
-            $stmt = $pdo->prepare("DELETE FROM case_assignments WHERE id = ?");
-            $success = $stmt->execute([$case_id]);
-            
-            if ($success && $stmt->rowCount() > 0) {
-                $message = "✅ Case deleted successfully!";
-                $message_type = 'success';
-            } else {
-                throw new Exception('Failed to delete case or case not found');
-            }
-            
-        } catch (Exception $e) {
-            $message = "❌ Error deleting case: " . $e->getMessage();
-            $message_type = 'danger';
-        }
-    }
-}
+// All create/update/delete actions are handled via the API endpoint at ../api/cases.php
+// Admin page will submit forms to that API so that all data I/O is centralized.
 
 // Get filter parameters
 $filters = [];
@@ -167,9 +70,10 @@ $stats = getCaseStatistics();
             </div>
         </div>
 
-        <?php if (!empty($message)): ?>
-            <div class="alert alert-<?= $message_type ?> alert-dismissible">
-                <?= htmlspecialchars($message) ?>
+        <?php if (!empty($_SESSION['flash'])): ?>
+            <?php $flash = $_SESSION['flash']; unset($_SESSION['flash']); ?>
+            <div class="alert alert-<?= htmlspecialchars($flash['type'] ?? 'info') ?> alert-dismissible">
+                <?= htmlspecialchars($flash['message'] ?? '') ?>
                 <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
             </div>
         <?php endif; ?>
@@ -365,7 +269,7 @@ $stats = getCaseStatistics();
                 <h5 class="modal-title">Create New Case Assignment</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <form method="POST">
+            <form method="POST" action="../api/cases.php">
                 <div class="modal-body">
                     <div class="row g-3">
                         <div class="col-md-6">
@@ -471,7 +375,7 @@ $stats = getCaseStatistics();
                 <h5 class="modal-title">Update Case Status</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <form method="POST">
+            <form method="POST" action="../api/cases.php">
                 <div class="modal-body">
                     <input type="hidden" name="case_id" id="status_case_id">
                     <div class="mb-3">
@@ -505,7 +409,7 @@ $stats = getCaseStatistics();
                 <h5 class="modal-title">Add Follow-up Action</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <form method="POST">
+            <form method="POST" action="../api/cases.php">
                 <div class="modal-body">
                     <input type="hidden" name="case_id" id="followup_case_id">
                     <div class="mb-3">
@@ -530,7 +434,7 @@ $stats = getCaseStatistics();
                 <h5 class="modal-title">Reassign Case</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <form method="POST">
+            <form method="POST" action="../api/cases.php">
                 <div class="modal-body">
                     <input type="hidden" name="case_id" id="reassign_case_id">
                     <div class="mb-3">
@@ -597,10 +501,10 @@ function reassignCase(caseId) {
 
 function deleteCase(caseId, caseNumber) {
     if (confirm(`Are you sure you want to delete Case ${caseNumber}?\n\nThis action cannot be undone and will permanently remove the case and all associated data.`)) {
-        // Create a form to submit the delete request
+        // Create a form to submit the delete request to the API
         const form = document.createElement('form');
         form.method = 'POST';
-        form.action = 'cases.php';
+        form.action = '../api/cases.php';
         
         // Add hidden inputs
         const actionInput = document.createElement('input');

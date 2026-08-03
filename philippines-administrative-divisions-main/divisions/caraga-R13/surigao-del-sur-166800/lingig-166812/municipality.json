@@ -1,0 +1,56 @@
+{
+  "id": "166812",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Lingig",
+    "en": "Lingig",
+    "slug": "lingig-166812"
+  },
+  "code": {
+    "id": "166812",
+    "iso": null
+  },
+  "parent": {
+    "id": "166800",
+    "level": 2,
+    "name": {
+      "local": "Surigao del Sur",
+      "en": "Surigao del Sur",
+      "slug": "surigao-del-sur-166800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 18
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.033",
+    "lon": "126.417"
+  },
+  "metadata": {},
+  "source": {}
+}

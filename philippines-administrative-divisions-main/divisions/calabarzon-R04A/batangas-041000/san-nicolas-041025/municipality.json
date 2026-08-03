@@ -1,0 +1,56 @@
+{
+  "id": "041025",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Nicolas",
+    "en": "San Nicolas",
+    "slug": "san-nicolas-041025"
+  },
+  "code": {
+    "id": "041025",
+    "iso": null
+  },
+  "parent": {
+    "id": "041000",
+    "level": 2,
+    "name": {
+      "local": "Batangas",
+      "en": "Batangas",
+      "slug": "batangas-041000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 18
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.917",
+    "lon": "120.95"
+  },
+  "metadata": {},
+  "source": {}
+}

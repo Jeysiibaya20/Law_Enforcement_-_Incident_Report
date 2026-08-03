@@ -1,0 +1,56 @@
+{
+  "id": "063014",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Carles",
+    "en": "Carles",
+    "slug": "carles-063014"
+  },
+  "code": {
+    "id": "063014",
+    "iso": null
+  },
+  "parent": {
+    "id": "063000",
+    "level": 2,
+    "name": {
+      "local": "Iloilo",
+      "en": "Iloilo",
+      "slug": "iloilo-063000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 33
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.567",
+    "lon": "123.133"
+  },
+  "metadata": {},
+  "source": {}
+}

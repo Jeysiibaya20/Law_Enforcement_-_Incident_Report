@@ -1,0 +1,56 @@
+{
+  "id": "157004",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Simunul",
+    "en": "Simunul",
+    "slug": "simunul-157004"
+  },
+  "code": {
+    "id": "157004",
+    "iso": null
+  },
+  "parent": {
+    "id": "157000",
+    "level": 2,
+    "name": {
+      "local": "Tawi-tawi",
+      "en": "Tawi-tawi",
+      "slug": "tawi-tawi-157000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "4.9",
+    "lon": "119.833"
+  },
+  "metadata": {},
+  "source": {}
+}

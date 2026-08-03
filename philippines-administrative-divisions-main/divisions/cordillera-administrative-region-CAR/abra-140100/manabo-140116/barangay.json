@@ -1,0 +1,717 @@
+[
+  {
+    "id": "140116004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ayyeng (Pob.)",
+      "en": "Ayyeng (Pob.)",
+      "slug": "ayyeng-pob-140116004"
+    },
+    "code": {
+      "id": "140116004",
+      "iso": null
+    },
+    "parent": {
+      "id": "140116",
+      "level": 3,
+      "name": {
+        "local": "Manabo",
+        "en": "Manabo",
+        "slug": "manabo-140116"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140116",
+        "level": 3,
+        "name": {
+          "local": "Manabo",
+          "en": "Manabo",
+          "slug": "manabo-140116"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2810"
+    ],
+    "geo": {
+      "lat": "17.467",
+      "lon": "120.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140116014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Catacdegan Nuevo",
+      "en": "Catacdegan Nuevo",
+      "slug": "catacdegan-nuevo-140116014"
+    },
+    "code": {
+      "id": "140116014",
+      "iso": null
+    },
+    "parent": {
+      "id": "140116",
+      "level": 3,
+      "name": {
+        "local": "Manabo",
+        "en": "Manabo",
+        "slug": "manabo-140116"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140116",
+        "level": 3,
+        "name": {
+          "local": "Manabo",
+          "en": "Manabo",
+          "slug": "manabo-140116"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2810"
+    ],
+    "geo": {
+      "lat": "17.4501",
+      "lon": "120.7113"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140116002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Catacdegan Viejo",
+      "en": "Catacdegan Viejo",
+      "slug": "catacdegan-viejo-140116002"
+    },
+    "code": {
+      "id": "140116002",
+      "iso": null
+    },
+    "parent": {
+      "id": "140116",
+      "level": 3,
+      "name": {
+        "local": "Manabo",
+        "en": "Manabo",
+        "slug": "manabo-140116"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140116",
+        "level": 3,
+        "name": {
+          "local": "Manabo",
+          "en": "Manabo",
+          "slug": "manabo-140116"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2810"
+    ],
+    "geo": {
+      "lat": "17.4501",
+      "lon": "120.7113"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140116003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Luzong",
+      "en": "Luzong",
+      "slug": "luzong-140116003"
+    },
+    "code": {
+      "id": "140116003",
+      "iso": null
+    },
+    "parent": {
+      "id": "140116",
+      "level": 3,
+      "name": {
+        "local": "Manabo",
+        "en": "Manabo",
+        "slug": "manabo-140116"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140116",
+        "level": 3,
+        "name": {
+          "local": "Manabo",
+          "en": "Manabo",
+          "slug": "manabo-140116"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2810"
+    ],
+    "geo": {
+      "lat": "17.4333",
+      "lon": "120.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140116005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose Norte",
+      "en": "San Jose Norte",
+      "slug": "san-jose-norte-140116005"
+    },
+    "code": {
+      "id": "140116005",
+      "iso": null
+    },
+    "parent": {
+      "id": "140116",
+      "level": 3,
+      "name": {
+        "local": "Manabo",
+        "en": "Manabo",
+        "slug": "manabo-140116"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140116",
+        "level": 3,
+        "name": {
+          "local": "Manabo",
+          "en": "Manabo",
+          "slug": "manabo-140116"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2810"
+    ],
+    "geo": {
+      "lat": "17.45",
+      "lon": "120.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140116006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose Sur",
+      "en": "San Jose Sur",
+      "slug": "san-jose-sur-140116006"
+    },
+    "code": {
+      "id": "140116006",
+      "iso": null
+    },
+    "parent": {
+      "id": "140116",
+      "level": 3,
+      "name": {
+        "local": "Manabo",
+        "en": "Manabo",
+        "slug": "manabo-140116"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140116",
+        "level": 3,
+        "name": {
+          "local": "Manabo",
+          "en": "Manabo",
+          "slug": "manabo-140116"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2810"
+    ],
+    "geo": {
+      "lat": "10.1333",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140116007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan Norte",
+      "en": "San Juan Norte",
+      "slug": "san-juan-norte-140116007"
+    },
+    "code": {
+      "id": "140116007",
+      "iso": null
+    },
+    "parent": {
+      "id": "140116",
+      "level": 3,
+      "name": {
+        "local": "Manabo",
+        "en": "Manabo",
+        "slug": "manabo-140116"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140116",
+        "level": 3,
+        "name": {
+          "local": "Manabo",
+          "en": "Manabo",
+          "slug": "manabo-140116"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2810"
+    ],
+    "geo": {
+      "lat": "15.2545",
+      "lon": "120.8601"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140116008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan Sur",
+      "en": "San Juan Sur",
+      "slug": "san-juan-sur-140116008"
+    },
+    "code": {
+      "id": "140116008",
+      "iso": null
+    },
+    "parent": {
+      "id": "140116",
+      "level": 3,
+      "name": {
+        "local": "Manabo",
+        "en": "Manabo",
+        "slug": "manabo-140116"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140116",
+        "level": 3,
+        "name": {
+          "local": "Manabo",
+          "en": "Manabo",
+          "slug": "manabo-140116"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2810"
+    ],
+    "geo": {
+      "lat": "17.467",
+      "lon": "120.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140116011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Ramon East",
+      "en": "San Ramon East",
+      "slug": "san-ramon-east-140116011"
+    },
+    "code": {
+      "id": "140116011",
+      "iso": null
+    },
+    "parent": {
+      "id": "140116",
+      "level": 3,
+      "name": {
+        "local": "Manabo",
+        "en": "Manabo",
+        "slug": "manabo-140116"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140116",
+        "level": 3,
+        "name": {
+          "local": "Manabo",
+          "en": "Manabo",
+          "slug": "manabo-140116"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2810"
+    ],
+    "geo": {
+      "lat": "17.4167",
+      "lon": "120.7167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140116012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Ramon West",
+      "en": "San Ramon West",
+      "slug": "san-ramon-west-140116012"
+    },
+    "code": {
+      "id": "140116012",
+      "iso": null
+    },
+    "parent": {
+      "id": "140116",
+      "level": 3,
+      "name": {
+        "local": "Manabo",
+        "en": "Manabo",
+        "slug": "manabo-140116"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140116",
+        "level": 3,
+        "name": {
+          "local": "Manabo",
+          "en": "Manabo",
+          "slug": "manabo-140116"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2810"
+    ],
+    "geo": {
+      "lat": "17.4167",
+      "lon": "120.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140116013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Tomas",
+      "en": "Santo Tomas",
+      "slug": "santo-tomas-140116013"
+    },
+    "code": {
+      "id": "140116013",
+      "iso": null
+    },
+    "parent": {
+      "id": "140116",
+      "level": 3,
+      "name": {
+        "local": "Manabo",
+        "en": "Manabo",
+        "slug": "manabo-140116"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140116",
+        "level": 3,
+        "name": {
+          "local": "Manabo",
+          "en": "Manabo",
+          "slug": "manabo-140116"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2810"
+    ],
+    "geo": {
+      "lat": "17.44",
+      "lon": "120.6907"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,782 @@
+[
+  {
+    "id": "045601001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binagbag",
+      "en": "Binagbag",
+      "slug": "binagbag-045601001"
+    },
+    "code": {
+      "id": "045601001",
+      "iso": null
+    },
+    "parent": {
+      "id": "045601",
+      "level": 3,
+      "name": {
+        "local": "Agdangan",
+        "en": "Agdangan",
+        "slug": "agdangan-045601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045601",
+        "level": 3,
+        "name": {
+          "local": "Agdangan",
+          "en": "Agdangan",
+          "slug": "agdangan-045601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4304"
+    ],
+    "geo": {
+      "lat": "10.8732",
+      "lon": "124.5021"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045601002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dayap",
+      "en": "Dayap",
+      "slug": "dayap-045601002"
+    },
+    "code": {
+      "id": "045601002",
+      "iso": null
+    },
+    "parent": {
+      "id": "045601",
+      "level": 3,
+      "name": {
+        "local": "Agdangan",
+        "en": "Agdangan",
+        "slug": "agdangan-045601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045601",
+        "level": 3,
+        "name": {
+          "local": "Agdangan",
+          "en": "Agdangan",
+          "slug": "agdangan-045601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4304"
+    ],
+    "geo": {
+      "lat": "14.0956",
+      "lon": "120.6651"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045601003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ibabang Kinagunan",
+      "en": "Ibabang Kinagunan",
+      "slug": "ibabang-kinagunan-045601003"
+    },
+    "code": {
+      "id": "045601003",
+      "iso": null
+    },
+    "parent": {
+      "id": "045601",
+      "level": 3,
+      "name": {
+        "local": "Agdangan",
+        "en": "Agdangan",
+        "slug": "agdangan-045601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045601",
+        "level": 3,
+        "name": {
+          "local": "Agdangan",
+          "en": "Agdangan",
+          "slug": "agdangan-045601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4304"
+    ],
+    "geo": {
+      "lat": "13.8796",
+      "lon": "121.9028"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045601004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ilayang Kinagunan",
+      "en": "Ilayang Kinagunan",
+      "slug": "ilayang-kinagunan-045601004"
+    },
+    "code": {
+      "id": "045601004",
+      "iso": null
+    },
+    "parent": {
+      "id": "045601",
+      "level": 3,
+      "name": {
+        "local": "Agdangan",
+        "en": "Agdangan",
+        "slug": "agdangan-045601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045601",
+        "level": 3,
+        "name": {
+          "local": "Agdangan",
+          "en": "Agdangan",
+          "slug": "agdangan-045601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4304"
+    ],
+    "geo": {
+      "lat": "13.8925",
+      "lon": "121.9106"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045601005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kanlurang Calutan",
+      "en": "Kanlurang Calutan",
+      "slug": "kanlurang-calutan-045601005"
+    },
+    "code": {
+      "id": "045601005",
+      "iso": null
+    },
+    "parent": {
+      "id": "045601",
+      "level": 3,
+      "name": {
+        "local": "Agdangan",
+        "en": "Agdangan",
+        "slug": "agdangan-045601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045601",
+        "level": 3,
+        "name": {
+          "local": "Agdangan",
+          "en": "Agdangan",
+          "slug": "agdangan-045601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4304"
+    ],
+    "geo": {
+      "lat": "14.13",
+      "lon": "121.4403"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045601006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kanlurang Maligaya",
+      "en": "Kanlurang Maligaya",
+      "slug": "kanlurang-maligaya-045601006"
+    },
+    "code": {
+      "id": "045601006",
+      "iso": null
+    },
+    "parent": {
+      "id": "045601",
+      "level": 3,
+      "name": {
+        "local": "Agdangan",
+        "en": "Agdangan",
+        "slug": "agdangan-045601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045601",
+        "level": 3,
+        "name": {
+          "local": "Agdangan",
+          "en": "Agdangan",
+          "slug": "agdangan-045601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4304"
+    ],
+    "geo": {
+      "lat": "13.9028",
+      "lon": "121.9351"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045601012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion I",
+      "en": "Poblacion I",
+      "slug": "poblacion-i-045601012"
+    },
+    "code": {
+      "id": "045601012",
+      "iso": null
+    },
+    "parent": {
+      "id": "045601",
+      "level": 3,
+      "name": {
+        "local": "Agdangan",
+        "en": "Agdangan",
+        "slug": "agdangan-045601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045601",
+        "level": 3,
+        "name": {
+          "local": "Agdangan",
+          "en": "Agdangan",
+          "slug": "agdangan-045601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4304"
+    ],
+    "geo": {
+      "lat": "14.2983",
+      "lon": "121.0096"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045601013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion II",
+      "en": "Poblacion II",
+      "slug": "poblacion-ii-045601013"
+    },
+    "code": {
+      "id": "045601013",
+      "iso": null
+    },
+    "parent": {
+      "id": "045601",
+      "level": 3,
+      "name": {
+        "local": "Agdangan",
+        "en": "Agdangan",
+        "slug": "agdangan-045601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045601",
+        "level": 3,
+        "name": {
+          "local": "Agdangan",
+          "en": "Agdangan",
+          "slug": "agdangan-045601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4304"
+    ],
+    "geo": {
+      "lat": "14.2949",
+      "lon": "121.0091"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045601008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salvacion",
+      "en": "Salvacion",
+      "slug": "salvacion-045601008"
+    },
+    "code": {
+      "id": "045601008",
+      "iso": null
+    },
+    "parent": {
+      "id": "045601",
+      "level": 3,
+      "name": {
+        "local": "Agdangan",
+        "en": "Agdangan",
+        "slug": "agdangan-045601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045601",
+        "level": 3,
+        "name": {
+          "local": "Agdangan",
+          "en": "Agdangan",
+          "slug": "agdangan-045601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4304"
+    ],
+    "geo": {
+      "lat": "14.2927",
+      "lon": "122.6281"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045601009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Silangang Calutan",
+      "en": "Silangang Calutan",
+      "slug": "silangang-calutan-045601009"
+    },
+    "code": {
+      "id": "045601009",
+      "iso": null
+    },
+    "parent": {
+      "id": "045601",
+      "level": 3,
+      "name": {
+        "local": "Agdangan",
+        "en": "Agdangan",
+        "slug": "agdangan-045601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045601",
+        "level": 3,
+        "name": {
+          "local": "Agdangan",
+          "en": "Agdangan",
+          "slug": "agdangan-045601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4304"
+    ],
+    "geo": {
+      "lat": "13.859",
+      "lon": "121.904"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045601010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Silangang Maligaya",
+      "en": "Silangang Maligaya",
+      "slug": "silangang-maligaya-045601010"
+    },
+    "code": {
+      "id": "045601010",
+      "iso": null
+    },
+    "parent": {
+      "id": "045601",
+      "level": 3,
+      "name": {
+        "local": "Agdangan",
+        "en": "Agdangan",
+        "slug": "agdangan-045601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045601",
+        "level": 3,
+        "name": {
+          "local": "Agdangan",
+          "en": "Agdangan",
+          "slug": "agdangan-045601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4304"
+    ],
+    "geo": {
+      "lat": "13.8858",
+      "lon": "121.9211"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045601011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sildora",
+      "en": "Sildora",
+      "slug": "sildora-045601011"
+    },
+    "code": {
+      "id": "045601011",
+      "iso": null
+    },
+    "parent": {
+      "id": "045601",
+      "level": 3,
+      "name": {
+        "local": "Agdangan",
+        "en": "Agdangan",
+        "slug": "agdangan-045601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045601",
+        "level": 3,
+        "name": {
+          "local": "Agdangan",
+          "en": "Agdangan",
+          "slug": "agdangan-045601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4304"
+    ],
+    "geo": {
+      "lat": "13.8727",
+      "lon": "121.9211"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,457 @@
+[
+  {
+    "id": "084821008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Destacado Pob. (Bgy.2)",
+      "en": "Destacado Pob. (Bgy.2)",
+      "slug": "destacado-pob-bgy2-084821008"
+    },
+    "code": {
+      "id": "084821008",
+      "iso": null
+    },
+    "parent": {
+      "id": "084821",
+      "level": 3,
+      "name": {
+        "local": "San Vicente",
+        "en": "San Vicente",
+        "slug": "san-vicente-084821"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084821",
+        "level": 3,
+        "name": {
+          "local": "San Vicente",
+          "en": "San Vicente",
+          "slug": "san-vicente-084821"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6419"
+    ],
+    "geo": {
+      "lat": "14.3315",
+      "lon": "121.0832"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084821002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maragat",
+      "en": "Maragat",
+      "slug": "maragat-084821002"
+    },
+    "code": {
+      "id": "084821002",
+      "iso": null
+    },
+    "parent": {
+      "id": "084821",
+      "level": 3,
+      "name": {
+        "local": "San Vicente",
+        "en": "San Vicente",
+        "slug": "san-vicente-084821"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084821",
+        "level": 3,
+        "name": {
+          "local": "San Vicente",
+          "en": "San Vicente",
+          "slug": "san-vicente-084821"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6419"
+    ],
+    "geo": {
+      "lat": "12.3907",
+      "lon": "124.0168"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084821003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mongol Bongol Pob. (Bgy.1)",
+      "en": "Mongol Bongol Pob. (Bgy.1)",
+      "slug": "mongol-bongol-pob-bgy1-084821003"
+    },
+    "code": {
+      "id": "084821003",
+      "iso": null
+    },
+    "parent": {
+      "id": "084821",
+      "level": 3,
+      "name": {
+        "local": "San Vicente",
+        "en": "San Vicente",
+        "slug": "san-vicente-084821"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084821",
+        "level": 3,
+        "name": {
+          "local": "San Vicente",
+          "en": "San Vicente",
+          "slug": "san-vicente-084821"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6419"
+    ],
+    "geo": {
+      "lat": "14.3315",
+      "lon": "121.0832"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084821009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Punta Pob. (Bgy.3)",
+      "en": "Punta Pob. (Bgy.3)",
+      "slug": "punta-pob-bgy3-084821009"
+    },
+    "code": {
+      "id": "084821009",
+      "iso": null
+    },
+    "parent": {
+      "id": "084821",
+      "level": 3,
+      "name": {
+        "local": "San Vicente",
+        "en": "San Vicente",
+        "slug": "san-vicente-084821"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084821",
+        "level": 3,
+        "name": {
+          "local": "San Vicente",
+          "en": "San Vicente",
+          "slug": "san-vicente-084821"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6419"
+    ],
+    "geo": {
+      "lat": "9.6167",
+      "lon": "125.6333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084821005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sangputan",
+      "en": "Sangputan",
+      "slug": "sangputan-084821005"
+    },
+    "code": {
+      "id": "084821005",
+      "iso": null
+    },
+    "parent": {
+      "id": "084821",
+      "level": 3,
+      "name": {
+        "local": "San Vicente",
+        "en": "San Vicente",
+        "slug": "san-vicente-084821"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084821",
+        "level": 3,
+        "name": {
+          "local": "San Vicente",
+          "en": "San Vicente",
+          "slug": "san-vicente-084821"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6419"
+    ],
+    "geo": {
+      "lat": "12.3661",
+      "lon": "124.0744"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084821006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sila",
+      "en": "Sila",
+      "slug": "sila-084821006"
+    },
+    "code": {
+      "id": "084821006",
+      "iso": null
+    },
+    "parent": {
+      "id": "084821",
+      "level": 3,
+      "name": {
+        "local": "San Vicente",
+        "en": "San Vicente",
+        "slug": "san-vicente-084821"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084821",
+        "level": 3,
+        "name": {
+          "local": "San Vicente",
+          "en": "San Vicente",
+          "slug": "san-vicente-084821"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6419"
+    ],
+    "geo": {
+      "lat": "14.8392",
+      "lon": "122.2123"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084821007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tarnate",
+      "en": "Tarnate",
+      "slug": "tarnate-084821007"
+    },
+    "code": {
+      "id": "084821007",
+      "iso": null
+    },
+    "parent": {
+      "id": "084821",
+      "level": 3,
+      "name": {
+        "local": "San Vicente",
+        "en": "San Vicente",
+        "slug": "san-vicente-084821"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084821",
+        "level": 3,
+        "name": {
+          "local": "San Vicente",
+          "en": "San Vicente",
+          "slug": "san-vicente-084821"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6419"
+    ],
+    "geo": {
+      "lat": "12.3507",
+      "lon": "124.046"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

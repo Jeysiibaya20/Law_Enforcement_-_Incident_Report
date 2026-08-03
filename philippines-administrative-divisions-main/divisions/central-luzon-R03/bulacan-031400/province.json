@@ -1,0 +1,48 @@
+{
+  "id": "031400",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Bulacan",
+    "en": "Bulacan",
+    "slug": "bulacan-031400"
+  },
+  "code": {
+    "id": "031400",
+    "iso": null
+  },
+  "parent": {
+    "id": "R03",
+    "level": 1,
+    "name": {
+      "local": "Central Luzon",
+      "en": "Central Luzon",
+      "slug": "central-luzon-R03"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 24,
+    "barangay": 569
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.9087",
+    "lon": "120.9451"
+  },
+  "metadata": {},
+  "source": {}
+}

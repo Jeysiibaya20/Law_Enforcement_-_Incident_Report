@@ -1,0 +1,48 @@
+{
+  "id": "041000",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Batangas",
+    "en": "Batangas",
+    "slug": "batangas-041000"
+  },
+  "code": {
+    "id": "041000",
+    "iso": null
+  },
+  "parent": {
+    "id": "R04A",
+    "level": 1,
+    "name": {
+      "local": "CALABARZON",
+      "en": "CALABARZON",
+      "slug": "calabarzon-R04A"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 34,
+    "barangay": 1078
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.0316",
+    "lon": "121.1223"
+  },
+  "metadata": {},
+  "source": {}
+}

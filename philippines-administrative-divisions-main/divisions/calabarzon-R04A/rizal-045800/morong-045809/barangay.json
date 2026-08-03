@@ -1,0 +1,522 @@
+[
+  {
+    "id": "045809001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bombongan",
+      "en": "Bombongan",
+      "slug": "bombongan-045809001"
+    },
+    "code": {
+      "id": "045809001",
+      "iso": null
+    },
+    "parent": {
+      "id": "045809",
+      "level": 3,
+      "name": {
+        "local": "Morong",
+        "en": "Morong",
+        "slug": "morong-045809"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045809",
+        "level": 3,
+        "name": {
+          "local": "Morong",
+          "en": "Morong",
+          "slug": "morong-045809"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1960"
+    ],
+    "geo": {
+      "lat": "14.507",
+      "lon": "121.2192"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045809002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Can-Cal-Lan (Caniogan-Calero-Lanang)",
+      "en": "Can-Cal-Lan (Caniogan-Calero-Lanang)",
+      "slug": "can-cal-lan-caniogan-calero-lanang-045809002"
+    },
+    "code": {
+      "id": "045809002",
+      "iso": null
+    },
+    "parent": {
+      "id": "045809",
+      "level": 3,
+      "name": {
+        "local": "Morong",
+        "en": "Morong",
+        "slug": "morong-045809"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045809",
+        "level": 3,
+        "name": {
+          "local": "Morong",
+          "en": "Morong",
+          "slug": "morong-045809"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1960"
+    ],
+    "geo": {
+      "lat": "14.51194",
+      "lon": "121.23889"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045809003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lagundi",
+      "en": "Lagundi",
+      "slug": "lagundi-045809003"
+    },
+    "code": {
+      "id": "045809003",
+      "iso": null
+    },
+    "parent": {
+      "id": "045809",
+      "level": 3,
+      "name": {
+        "local": "Morong",
+        "en": "Morong",
+        "slug": "morong-045809"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045809",
+        "level": 3,
+        "name": {
+          "local": "Morong",
+          "en": "Morong",
+          "slug": "morong-045809"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1960"
+    ],
+    "geo": {
+      "lat": "14.5335",
+      "lon": "121.2562"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045809004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maybancal",
+      "en": "Maybancal",
+      "slug": "maybancal-045809004"
+    },
+    "code": {
+      "id": "045809004",
+      "iso": null
+    },
+    "parent": {
+      "id": "045809",
+      "level": 3,
+      "name": {
+        "local": "Morong",
+        "en": "Morong",
+        "slug": "morong-045809"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045809",
+        "level": 3,
+        "name": {
+          "local": "Morong",
+          "en": "Morong",
+          "slug": "morong-045809"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1960"
+    ],
+    "geo": {
+      "lat": "14.5249",
+      "lon": "121.2299"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045809005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Guillermo",
+      "en": "San Guillermo",
+      "slug": "san-guillermo-045809005"
+    },
+    "code": {
+      "id": "045809005",
+      "iso": null
+    },
+    "parent": {
+      "id": "045809",
+      "level": 3,
+      "name": {
+        "local": "Morong",
+        "en": "Morong",
+        "slug": "morong-045809"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045809",
+        "level": 3,
+        "name": {
+          "local": "Morong",
+          "en": "Morong",
+          "slug": "morong-045809"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1960"
+    ],
+    "geo": {
+      "lat": "14.4667",
+      "lon": "121.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045809006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose (Pob.)",
+      "en": "San Jose (Pob.)",
+      "slug": "san-jose-pob-045809006"
+    },
+    "code": {
+      "id": "045809006",
+      "iso": null
+    },
+    "parent": {
+      "id": "045809",
+      "level": 3,
+      "name": {
+        "local": "Morong",
+        "en": "Morong",
+        "slug": "morong-045809"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045809",
+        "level": 3,
+        "name": {
+          "local": "Morong",
+          "en": "Morong",
+          "slug": "morong-045809"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1960"
+    ],
+    "geo": {
+      "lat": "14.5748",
+      "lon": "121.2025"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045809007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan (Pob.)",
+      "en": "San Juan (Pob.)",
+      "slug": "san-juan-pob-045809007"
+    },
+    "code": {
+      "id": "045809007",
+      "iso": null
+    },
+    "parent": {
+      "id": "045809",
+      "level": 3,
+      "name": {
+        "local": "Morong",
+        "en": "Morong",
+        "slug": "morong-045809"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045809",
+        "level": 3,
+        "name": {
+          "local": "Morong",
+          "en": "Morong",
+          "slug": "morong-045809"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1960"
+    ],
+    "geo": {
+      "lat": "14.5843",
+      "lon": "121.1269"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045809008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro (Pob.)",
+      "en": "San Pedro (Pob.)",
+      "slug": "san-pedro-pob-045809008"
+    },
+    "code": {
+      "id": "045809008",
+      "iso": null
+    },
+    "parent": {
+      "id": "045809",
+      "level": 3,
+      "name": {
+        "local": "Morong",
+        "en": "Morong",
+        "slug": "morong-045809"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045809",
+        "level": 3,
+        "name": {
+          "local": "Morong",
+          "en": "Morong",
+          "slug": "morong-045809"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1960"
+    ],
+    "geo": {
+      "lat": "14.5449",
+      "lon": "121.0679"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

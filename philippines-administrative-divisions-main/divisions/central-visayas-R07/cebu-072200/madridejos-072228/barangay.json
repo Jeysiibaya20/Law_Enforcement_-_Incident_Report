@@ -1,0 +1,912 @@
+[
+  {
+    "id": "072228001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bunakan",
+      "en": "Bunakan",
+      "slug": "bunakan-072228001"
+    },
+    "code": {
+      "id": "072228001",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "9.9231",
+      "lon": "124.0061"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kangwayan",
+      "en": "Kangwayan",
+      "slug": "kangwayan-072228002"
+    },
+    "code": {
+      "id": "072228002",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "11.3",
+      "lon": "123.7333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kaongkod",
+      "en": "Kaongkod",
+      "slug": "kaongkod-072228003"
+    },
+    "code": {
+      "id": "072228003",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "11.2503",
+      "lon": "123.7556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kodia",
+      "en": "Kodia",
+      "slug": "kodia-072228004"
+    },
+    "code": {
+      "id": "072228004",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "11.3",
+      "lon": "123.7333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maalat",
+      "en": "Maalat",
+      "slug": "maalat-072228005"
+    },
+    "code": {
+      "id": "072228005",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "13.3881",
+      "lon": "122.4965"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malbago",
+      "en": "Malbago",
+      "slug": "malbago-072228006"
+    },
+    "code": {
+      "id": "072228006",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "11.25",
+      "lon": "124"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mancilang",
+      "en": "Mancilang",
+      "slug": "mancilang-072228007"
+    },
+    "code": {
+      "id": "072228007",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "11.2835",
+      "lon": "123.7462"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pili",
+      "en": "Pili",
+      "slug": "pili-072228008"
+    },
+    "code": {
+      "id": "072228008",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "13.5542",
+      "lon": "123.2753"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-072228009"
+    },
+    "code": {
+      "id": "072228009",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Agustin",
+      "en": "San Agustin",
+      "slug": "san-agustin-072228010"
+    },
+    "code": {
+      "id": "072228010",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "12.5689",
+      "lon": "122.1314"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tabagak",
+      "en": "Tabagak",
+      "slug": "tabagak-072228011"
+    },
+    "code": {
+      "id": "072228011",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "11.27",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talangnan",
+      "en": "Talangnan",
+      "slug": "talangnan-072228012"
+    },
+    "code": {
+      "id": "072228012",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "11.2951",
+      "lon": "123.7258"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tarong",
+      "en": "Tarong",
+      "slug": "tarong-072228013"
+    },
+    "code": {
+      "id": "072228013",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "13.9465",
+      "lon": "123.0781"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tugas",
+      "en": "Tugas",
+      "slug": "tugas-072228014"
+    },
+    "code": {
+      "id": "072228014",
+      "iso": null
+    },
+    "parent": {
+      "id": "072228",
+      "level": 3,
+      "name": {
+        "local": "Madridejos",
+        "en": "Madridejos",
+        "slug": "madridejos-072228"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      },
+      {
+        "id": "072228",
+        "level": 3,
+        "name": {
+          "local": "Madridejos",
+          "en": "Madridejos",
+          "slug": "madridejos-072228"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6053"
+    ],
+    "geo": {
+      "lat": "11.5428",
+      "lon": "124.8033"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

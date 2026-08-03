@@ -1,0 +1,56 @@
+{
+  "id": "012925",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Lucia",
+    "en": "Santa Lucia",
+    "slug": "santa-lucia-012925"
+  },
+  "code": {
+    "id": "012925",
+    "iso": null
+  },
+  "parent": {
+    "id": "012900",
+    "level": 2,
+    "name": {
+      "local": "Ilocos Sur",
+      "en": "Ilocos Sur",
+      "slug": "ilocos-sur-012900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 36
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.117",
+    "lon": "120.45"
+  },
+  "metadata": {},
+  "source": {}
+}

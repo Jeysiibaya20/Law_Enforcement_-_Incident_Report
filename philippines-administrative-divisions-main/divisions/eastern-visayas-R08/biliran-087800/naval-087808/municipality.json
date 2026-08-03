@@ -1,0 +1,56 @@
+{
+  "id": "087808",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Naval",
+    "en": "Naval",
+    "slug": "naval-087808"
+  },
+  "code": {
+    "id": "087808",
+    "iso": null
+  },
+  "parent": {
+    "id": "087800",
+    "level": 2,
+    "name": {
+      "local": "Biliran",
+      "en": "Biliran",
+      "slug": "biliran-087800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "087800",
+      "level": 2,
+      "name": {
+        "local": "Biliran",
+        "en": "Biliran",
+        "slug": "biliran-087800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 26
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.583",
+    "lon": "124.45"
+  },
+  "metadata": {},
+  "source": {}
+}

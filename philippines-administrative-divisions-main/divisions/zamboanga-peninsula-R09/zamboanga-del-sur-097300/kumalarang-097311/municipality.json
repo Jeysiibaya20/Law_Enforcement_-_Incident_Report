@@ -1,0 +1,56 @@
+{
+  "id": "097311",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Kumalarang",
+    "en": "Kumalarang",
+    "slug": "kumalarang-097311"
+  },
+  "code": {
+    "id": "097311",
+    "iso": null
+  },
+  "parent": {
+    "id": "097300",
+    "level": 2,
+    "name": {
+      "local": "Zamboanga del Sur",
+      "en": "Zamboanga del Sur",
+      "slug": "zamboanga-del-sur-097300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 18
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.75",
+    "lon": "123.15"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,48 @@
+{
+  "id": "051600",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Camarines Norte",
+    "en": "Camarines Norte",
+    "slug": "camarines-norte-051600"
+  },
+  "code": {
+    "id": "051600",
+    "iso": null
+  },
+  "parent": {
+    "id": "R05",
+    "level": 1,
+    "name": {
+      "local": "Bicol Region",
+      "en": "Bicol Region",
+      "slug": "bicol-region-R05"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 12,
+    "barangay": 282
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.0153",
+    "lon": "122.5665"
+  },
+  "metadata": {},
+  "source": {}
+}

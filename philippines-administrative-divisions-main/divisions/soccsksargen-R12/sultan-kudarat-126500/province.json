@@ -1,0 +1,48 @@
+{
+  "id": "126500",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Sultan Kudarat",
+    "en": "Sultan Kudarat",
+    "slug": "sultan-kudarat-126500"
+  },
+  "code": {
+    "id": "126500",
+    "iso": null
+  },
+  "parent": {
+    "id": "R12",
+    "level": 1,
+    "name": {
+      "local": "SOCCSKSARGEN",
+      "en": "SOCCSKSARGEN",
+      "slug": "soccsksargen-R12"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 12,
+    "barangay": 249
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.4525",
+    "lon": "124.2154"
+  },
+  "metadata": {},
+  "source": {}
+}

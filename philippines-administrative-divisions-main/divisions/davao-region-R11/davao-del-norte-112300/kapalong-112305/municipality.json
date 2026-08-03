@@ -1,0 +1,56 @@
+{
+  "id": "112305",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Kapalong",
+    "en": "Kapalong",
+    "slug": "kapalong-112305"
+  },
+  "code": {
+    "id": "112305",
+    "iso": null
+  },
+  "parent": {
+    "id": "112300",
+    "level": 2,
+    "name": {
+      "local": "Davao del Norte",
+      "en": "Davao del Norte",
+      "slug": "davao-del-norte-112300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    {
+      "id": "112300",
+      "level": 2,
+      "name": {
+        "local": "Davao del Norte",
+        "en": "Davao del Norte",
+        "slug": "davao-del-norte-112300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.75",
+    "lon": "125.5"
+  },
+  "metadata": {},
+  "source": {}
+}

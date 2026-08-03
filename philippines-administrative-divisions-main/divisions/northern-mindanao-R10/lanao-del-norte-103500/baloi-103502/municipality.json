@@ -1,0 +1,56 @@
+{
+  "id": "103502",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Baloi",
+    "en": "Baloi",
+    "slug": "baloi-103502"
+  },
+  "code": {
+    "id": "103502",
+    "iso": null
+  },
+  "parent": {
+    "id": "103500",
+    "level": 2,
+    "name": {
+      "local": "Lanao del Norte",
+      "en": "Lanao del Norte",
+      "slug": "lanao-del-norte-103500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 21
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.117",
+    "lon": "124.217"
+  },
+  "metadata": {},
+  "source": {}
+}

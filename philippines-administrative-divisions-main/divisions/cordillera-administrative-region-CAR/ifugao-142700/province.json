@@ -1,0 +1,48 @@
+{
+  "id": "142700",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Ifugao",
+    "en": "Ifugao",
+    "slug": "ifugao-142700"
+  },
+  "code": {
+    "id": "142700",
+    "iso": null
+  },
+  "parent": {
+    "id": "CAR",
+    "level": 1,
+    "name": {
+      "local": "Cordillera Administrative Region",
+      "en": "Cordillera Administrative Region",
+      "slug": "cordillera-administrative-region-CAR"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 11,
+    "barangay": 175
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.359",
+    "lon": "121.2742"
+  },
+  "metadata": {},
+  "source": {}
+}

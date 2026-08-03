@@ -1,0 +1,522 @@
+[
+  {
+    "id": "160204001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cahayagan",
+      "en": "Cahayagan",
+      "slug": "cahayagan-160204001"
+    },
+    "code": {
+      "id": "160204001",
+      "iso": null
+    },
+    "parent": {
+      "id": "160204",
+      "level": 3,
+      "name": {
+        "local": "Carmen",
+        "en": "Carmen",
+        "slug": "carmen-160204"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160204",
+        "level": 3,
+        "name": {
+          "local": "Carmen",
+          "en": "Carmen",
+          "slug": "carmen-160204"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6005"
+    ],
+    "geo": {
+      "lat": "12.6454",
+      "lon": "124.9959"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160204002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gosoon",
+      "en": "Gosoon",
+      "slug": "gosoon-160204002"
+    },
+    "code": {
+      "id": "160204002",
+      "iso": null
+    },
+    "parent": {
+      "id": "160204",
+      "level": 3,
+      "name": {
+        "local": "Carmen",
+        "en": "Carmen",
+        "slug": "carmen-160204"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160204",
+        "level": 3,
+        "name": {
+          "local": "Carmen",
+          "en": "Carmen",
+          "slug": "carmen-160204"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6005"
+    ],
+    "geo": {
+      "lat": "9.217",
+      "lon": "125.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160204004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Manoligao",
+      "en": "Manoligao",
+      "slug": "manoligao-160204004"
+    },
+    "code": {
+      "id": "160204004",
+      "iso": null
+    },
+    "parent": {
+      "id": "160204",
+      "level": 3,
+      "name": {
+        "local": "Carmen",
+        "en": "Carmen",
+        "slug": "carmen-160204"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160204",
+        "level": 3,
+        "name": {
+          "local": "Carmen",
+          "en": "Carmen",
+          "slug": "carmen-160204"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6005"
+    ],
+    "geo": {
+      "lat": "9.217",
+      "lon": "125.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160204009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion (Carmen)",
+      "en": "Poblacion (Carmen)",
+      "slug": "poblacion-carmen-160204009"
+    },
+    "code": {
+      "id": "160204009",
+      "iso": null
+    },
+    "parent": {
+      "id": "160204",
+      "level": 3,
+      "name": {
+        "local": "Carmen",
+        "en": "Carmen",
+        "slug": "carmen-160204"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160204",
+        "level": 3,
+        "name": {
+          "local": "Carmen",
+          "en": "Carmen",
+          "slug": "carmen-160204"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6005"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160204010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rojales",
+      "en": "Rojales",
+      "slug": "rojales-160204010"
+    },
+    "code": {
+      "id": "160204010",
+      "iso": null
+    },
+    "parent": {
+      "id": "160204",
+      "level": 3,
+      "name": {
+        "local": "Carmen",
+        "en": "Carmen",
+        "slug": "carmen-160204"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160204",
+        "level": 3,
+        "name": {
+          "local": "Carmen",
+          "en": "Carmen",
+          "slug": "carmen-160204"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6005"
+    ],
+    "geo": {
+      "lat": "9.217",
+      "lon": "125.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160204011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Agustin",
+      "en": "San Agustin",
+      "slug": "san-agustin-160204011"
+    },
+    "code": {
+      "id": "160204011",
+      "iso": null
+    },
+    "parent": {
+      "id": "160204",
+      "level": 3,
+      "name": {
+        "local": "Carmen",
+        "en": "Carmen",
+        "slug": "carmen-160204"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160204",
+        "level": 3,
+        "name": {
+          "local": "Carmen",
+          "en": "Carmen",
+          "slug": "carmen-160204"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6005"
+    ],
+    "geo": {
+      "lat": "12.5689",
+      "lon": "122.1314"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160204012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tagcatong",
+      "en": "Tagcatong",
+      "slug": "tagcatong-160204012"
+    },
+    "code": {
+      "id": "160204012",
+      "iso": null
+    },
+    "parent": {
+      "id": "160204",
+      "level": 3,
+      "name": {
+        "local": "Carmen",
+        "en": "Carmen",
+        "slug": "carmen-160204"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160204",
+        "level": 3,
+        "name": {
+          "local": "Carmen",
+          "en": "Carmen",
+          "slug": "carmen-160204"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6005"
+    ],
+    "geo": {
+      "lat": "9.0022",
+      "lon": "125.2569"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160204014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Vinapor",
+      "en": "Vinapor",
+      "slug": "vinapor-160204014"
+    },
+    "code": {
+      "id": "160204014",
+      "iso": null
+    },
+    "parent": {
+      "id": "160204",
+      "level": 3,
+      "name": {
+        "local": "Carmen",
+        "en": "Carmen",
+        "slug": "carmen-160204"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160204",
+        "level": 3,
+        "name": {
+          "local": "Carmen",
+          "en": "Carmen",
+          "slug": "carmen-160204"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6005"
+    ],
+    "geo": {
+      "lat": "9.0819",
+      "lon": "125.2181"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "118602",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Jose Abad Santos (Trinidad)",
+    "en": "Jose Abad Santos (Trinidad)",
+    "slug": "jose-abad-santos-trinidad-118602"
+  },
+  "code": {
+    "id": "118602",
+    "iso": null
+  },
+  "parent": {
+    "id": "118600",
+    "level": 2,
+    "name": {
+      "local": "Davao Occidental",
+      "en": "Davao Occidental",
+      "slug": "davao-occidental-118600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    {
+      "id": "118600",
+      "level": 2,
+      "name": {
+        "local": "Davao Occidental",
+        "en": "Davao Occidental",
+        "slug": "davao-occidental-118600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 26
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.05",
+    "lon": "124.35"
+  },
+  "metadata": {},
+  "source": {}
+}

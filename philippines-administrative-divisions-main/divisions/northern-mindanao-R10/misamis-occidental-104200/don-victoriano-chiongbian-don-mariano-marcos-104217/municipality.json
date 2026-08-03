@@ -1,0 +1,56 @@
+{
+  "id": "104217",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+    "en": "Don Victoriano Chiongbian  (Don Mariano Marcos)",
+    "slug": "don-victoriano-chiongbian-don-mariano-marcos-104217"
+  },
+  "code": {
+    "id": "104217",
+    "iso": null
+  },
+  "parent": {
+    "id": "104200",
+    "level": 2,
+    "name": {
+      "local": "Misamis Occidental",
+      "en": "Misamis Occidental",
+      "slug": "misamis-occidental-104200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "104200",
+      "level": 2,
+      "name": {
+        "local": "Misamis Occidental",
+        "en": "Misamis Occidental",
+        "slug": "misamis-occidental-104200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.3",
+    "lon": "123.583"
+  },
+  "metadata": {},
+  "source": {}
+}

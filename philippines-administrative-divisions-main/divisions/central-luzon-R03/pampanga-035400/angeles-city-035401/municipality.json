@@ -1,0 +1,56 @@
+{
+  "id": "035401",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Angeles City",
+    "en": "Angeles City",
+    "slug": "angeles-city-035401"
+  },
+  "code": {
+    "id": "035401",
+    "iso": null
+  },
+  "parent": {
+    "id": "035400",
+    "level": 2,
+    "name": {
+      "local": "Pampanga",
+      "en": "Pampanga",
+      "slug": "pampanga-035400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 33
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.1701",
+    "lon": "121.3044"
+  },
+  "metadata": {},
+  "source": {}
+}

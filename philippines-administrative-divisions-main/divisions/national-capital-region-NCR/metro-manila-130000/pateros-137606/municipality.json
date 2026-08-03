@@ -1,0 +1,56 @@
+{
+  "id": "137606",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pateros",
+    "en": "Pateros",
+    "slug": "pateros-137606"
+  },
+  "code": {
+    "id": "137606",
+    "iso": null
+  },
+  "parent": {
+    "id": "130000",
+    "level": 2,
+    "name": {
+      "local": "Kalakhang Maynila",
+      "en": "Metro Manila",
+      "slug": "metro-manila-130000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "NCR",
+      "level": 1,
+      "name": {
+        "local": "National Capital Region",
+        "en": "National Capital Region",
+        "slug": "national-capital-region-NCR"
+      }
+    },
+    {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 10
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.0655",
+    "lon": "121.7681"
+  },
+  "metadata": {},
+  "source": {}
+}

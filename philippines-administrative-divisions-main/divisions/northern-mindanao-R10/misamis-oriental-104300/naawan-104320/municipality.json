@@ -1,0 +1,56 @@
+{
+  "id": "104320",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Naawan",
+    "en": "Naawan",
+    "slug": "naawan-104320"
+  },
+  "code": {
+    "id": "104320",
+    "iso": null
+  },
+  "parent": {
+    "id": "104300",
+    "level": 2,
+    "name": {
+      "local": "Misamis Oriental",
+      "en": "Misamis Oriental",
+      "slug": "misamis-oriental-104300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 10
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.433",
+    "lon": "124.3"
+  },
+  "metadata": {},
+  "source": {}
+}

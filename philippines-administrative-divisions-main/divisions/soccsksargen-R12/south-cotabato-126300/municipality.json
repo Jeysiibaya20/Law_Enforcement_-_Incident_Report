@@ -1,0 +1,674 @@
+[
+  {
+    "id": "126302",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Banga",
+      "en": "Banga",
+      "slug": "banga-126302"
+    },
+    "code": {
+      "id": "126302",
+      "iso": null
+    },
+    "parent": {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126300",
+        "level": 2,
+        "name": {
+          "local": "South Cotabato",
+          "en": "South Cotabato",
+          "slug": "south-cotabato-126300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.6228",
+      "lon": "122.152"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126303",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "General Santos City (Dadiangas)",
+      "en": "General Santos City (Dadiangas)",
+      "slug": "general-santos-city-dadiangas-126303"
+    },
+    "code": {
+      "id": "126303",
+      "iso": null
+    },
+    "parent": {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126300",
+        "level": 2,
+        "name": {
+          "local": "South Cotabato",
+          "en": "South Cotabato",
+          "slug": "south-cotabato-126300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.1693",
+      "lon": "124.0739"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126306",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Koronadal",
+      "en": "Koronadal",
+      "slug": "koronadal-126306"
+    },
+    "code": {
+      "id": "126306",
+      "iso": null
+    },
+    "parent": {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126300",
+        "level": 2,
+        "name": {
+          "local": "South Cotabato",
+          "en": "South Cotabato",
+          "slug": "south-cotabato-126300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.5",
+      "lon": "124.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126319",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lake Sebu",
+      "en": "Lake Sebu",
+      "slug": "lake-sebu-126319"
+    },
+    "code": {
+      "id": "126319",
+      "iso": null
+    },
+    "parent": {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126300",
+        "level": 2,
+        "name": {
+          "local": "South Cotabato",
+          "en": "South Cotabato",
+          "slug": "south-cotabato-126300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.217",
+      "lon": "124.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126311",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Norala",
+      "en": "Norala",
+      "slug": "norala-126311"
+    },
+    "code": {
+      "id": "126311",
+      "iso": null
+    },
+    "parent": {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126300",
+        "level": 2,
+        "name": {
+          "local": "South Cotabato",
+          "en": "South Cotabato",
+          "slug": "south-cotabato-126300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.55",
+      "lon": "124.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126312",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Polomolok",
+      "en": "Polomolok",
+      "slug": "polomolok-126312"
+    },
+    "code": {
+      "id": "126312",
+      "iso": null
+    },
+    "parent": {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126300",
+        "level": 2,
+        "name": {
+          "local": "South Cotabato",
+          "en": "South Cotabato",
+          "slug": "south-cotabato-126300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.217",
+      "lon": "125.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126318",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-126318"
+    },
+    "code": {
+      "id": "126318",
+      "iso": null
+    },
+    "parent": {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126300",
+        "level": 2,
+        "name": {
+          "local": "South Cotabato",
+          "en": "South Cotabato",
+          "slug": "south-cotabato-126300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.433",
+      "lon": "124.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126313",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Surallah",
+      "en": "Surallah",
+      "slug": "surallah-126313"
+    },
+    "code": {
+      "id": "126313",
+      "iso": null
+    },
+    "parent": {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126300",
+        "level": 2,
+        "name": {
+          "local": "South Cotabato",
+          "en": "South Cotabato",
+          "slug": "south-cotabato-126300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.367",
+      "lon": "124.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126316",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "T'Boli",
+      "en": "T'Boli",
+      "slug": "tboli-126316"
+    },
+    "code": {
+      "id": "126316",
+      "iso": null
+    },
+    "parent": {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126300",
+        "level": 2,
+        "name": {
+          "local": "South Cotabato",
+          "en": "South Cotabato",
+          "slug": "south-cotabato-126300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.2",
+      "lon": "124.7167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126314",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tampakan",
+      "en": "Tampakan",
+      "slug": "tampakan-126314"
+    },
+    "code": {
+      "id": "126314",
+      "iso": null
+    },
+    "parent": {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126300",
+        "level": 2,
+        "name": {
+          "local": "South Cotabato",
+          "en": "South Cotabato",
+          "slug": "south-cotabato-126300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.45",
+      "lon": "124.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126315",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tantangan",
+      "en": "Tantangan",
+      "slug": "tantangan-126315"
+    },
+    "code": {
+      "id": "126315",
+      "iso": null
+    },
+    "parent": {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126300",
+        "level": 2,
+        "name": {
+          "local": "South Cotabato",
+          "en": "South Cotabato",
+          "slug": "south-cotabato-126300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.617",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126317",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tupi",
+      "en": "Tupi",
+      "slug": "tupi-126317"
+    },
+    "code": {
+      "id": "126317",
+      "iso": null
+    },
+    "parent": {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126300",
+        "level": 2,
+        "name": {
+          "local": "South Cotabato",
+          "en": "South Cotabato",
+          "slug": "south-cotabato-126300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.333",
+      "lon": "124.95"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

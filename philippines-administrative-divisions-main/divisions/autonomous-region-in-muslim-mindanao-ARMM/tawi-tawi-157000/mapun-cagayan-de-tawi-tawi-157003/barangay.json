@@ -1,0 +1,977 @@
+[
+  {
+    "id": "157003001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Boki",
+      "en": "Boki",
+      "slug": "boki-157003001"
+    },
+    "code": {
+      "id": "157003001",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "6.9798",
+      "lon": "118.4721"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Duhul Batu",
+      "en": "Duhul Batu",
+      "slug": "duhul-batu-157003002"
+    },
+    "code": {
+      "id": "157003002",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "7.045",
+      "lon": "118.5144"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Erok-erok",
+      "en": "Erok-erok",
+      "slug": "erok-erok-157003013"
+    },
+    "code": {
+      "id": "157003013",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "7",
+      "lon": "118.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Guppah",
+      "en": "Guppah",
+      "slug": "guppah-157003005"
+    },
+    "code": {
+      "id": "157003005",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "7.0344",
+      "lon": "118.5168"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kompang",
+      "en": "Kompang",
+      "slug": "kompang-157003003"
+    },
+    "code": {
+      "id": "157003003",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "16.0614",
+      "lon": "121.4384"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Liyubud",
+      "en": "Liyubud",
+      "slug": "liyubud-157003014"
+    },
+    "code": {
+      "id": "157003014",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "7",
+      "lon": "118.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lubbak Parang",
+      "en": "Lubbak Parang",
+      "slug": "lubbak-parang-157003015"
+    },
+    "code": {
+      "id": "157003015",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "7.3744",
+      "lon": "124.2686"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lupa Pula (Pob.)",
+      "en": "Lupa Pula (Pob.)",
+      "slug": "lupa-pula-pob-157003004"
+    },
+    "code": {
+      "id": "157003004",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "6.9782",
+      "lon": "118.5124"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mahalo",
+      "en": "Mahalo",
+      "slug": "mahalo-157003006"
+    },
+    "code": {
+      "id": "157003006",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "6.9763",
+      "lon": "118.5069"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pawan",
+      "en": "Pawan",
+      "slug": "pawan-157003007"
+    },
+    "code": {
+      "id": "157003007",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "6.983",
+      "lon": "118.4588"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapa",
+      "en": "Sapa",
+      "slug": "sapa-157003016"
+    },
+    "code": {
+      "id": "157003016",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "5.1544",
+      "lon": "120.3241"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sikub",
+      "en": "Sikub",
+      "slug": "sikub-157003008"
+    },
+    "code": {
+      "id": "157003008",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "7",
+      "lon": "118.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tabulian",
+      "en": "Tabulian",
+      "slug": "tabulian-157003009"
+    },
+    "code": {
+      "id": "157003009",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "7.0041",
+      "lon": "118.4732"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tanduan",
+      "en": "Tanduan",
+      "slug": "tanduan-157003010"
+    },
+    "code": {
+      "id": "157003010",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "6.9925",
+      "lon": "118.4332"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Umus Mataha",
+      "en": "Umus Mataha",
+      "slug": "umus-mataha-157003012"
+    },
+    "code": {
+      "id": "157003012",
+      "iso": null
+    },
+    "parent": {
+      "id": "157003",
+      "level": 3,
+      "name": {
+        "local": "Mapun (Cagayan De Tawi-Tawi)",
+        "en": "Mapun (Cagayan De Tawi-Tawi)",
+        "slug": "mapun-cagayan-de-tawi-tawi-157003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157003",
+        "level": 3,
+        "name": {
+          "local": "Mapun (Cagayan De Tawi-Tawi)",
+          "en": "Mapun (Cagayan De Tawi-Tawi)",
+          "slug": "mapun-cagayan-de-tawi-tawi-157003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7508"
+    ],
+    "geo": {
+      "lat": "7.0344",
+      "lon": "118.4625"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

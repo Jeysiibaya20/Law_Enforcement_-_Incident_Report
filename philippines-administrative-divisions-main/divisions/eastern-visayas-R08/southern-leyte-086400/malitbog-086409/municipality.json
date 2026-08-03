@@ -1,0 +1,56 @@
+{
+  "id": "086409",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Malitbog",
+    "en": "Malitbog",
+    "slug": "malitbog-086409"
+  },
+  "code": {
+    "id": "086409",
+    "iso": null
+  },
+  "parent": {
+    "id": "086400",
+    "level": 2,
+    "name": {
+      "local": "Southern Leyte",
+      "en": "Southern Leyte",
+      "slug": "southern-leyte-086400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "086400",
+      "level": 2,
+      "name": {
+        "local": "Southern Leyte",
+        "en": "Southern Leyte",
+        "slug": "southern-leyte-086400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 37
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.15",
+    "lon": "125"
+  },
+  "metadata": {},
+  "source": {}
+}

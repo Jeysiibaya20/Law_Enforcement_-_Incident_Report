@@ -1,0 +1,2074 @@
+[
+  {
+    "id": "023101",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alicia",
+      "en": "Alicia",
+      "slug": "alicia-023101"
+    },
+    "code": {
+      "id": "023101",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.783",
+      "lon": "121.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023102",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Angadanan",
+      "en": "Angadanan",
+      "slug": "angadanan-023102"
+    },
+    "code": {
+      "id": "023102",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 59
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.75",
+      "lon": "121.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023103",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Aurora",
+      "en": "Aurora",
+      "slug": "aurora-023103"
+    },
+    "code": {
+      "id": "023103",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.99194",
+      "lon": "121.63694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023104",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Benito Soliven",
+      "en": "Benito Soliven",
+      "slug": "benito-soliven-023104"
+    },
+    "code": {
+      "id": "023104",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.983",
+      "lon": "121.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Burgos",
+      "en": "Burgos",
+      "slug": "burgos-023105"
+    },
+    "code": {
+      "id": "023105",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.067",
+      "lon": "121.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023106",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cabagan",
+      "en": "Cabagan",
+      "slug": "cabagan-023106"
+    },
+    "code": {
+      "id": "023106",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.433",
+      "lon": "121.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023107",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cabatuan",
+      "en": "Cabatuan",
+      "slug": "cabatuan-023107"
+    },
+    "code": {
+      "id": "023107",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.95889",
+      "lon": "121.66917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023108",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cauayan",
+      "en": "Cauayan",
+      "slug": "cauayan-023108"
+    },
+    "code": {
+      "id": "023108",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 65
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.2937",
+      "lon": "123.8982"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023109",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cordon",
+      "en": "Cordon",
+      "slug": "cordon-023109"
+    },
+    "code": {
+      "id": "023109",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.667",
+      "lon": "121.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023118",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Delfin Albano (Magsaysay)",
+      "en": "Delfin Albano (Magsaysay)",
+      "slug": "delfin-albano-magsaysay-023118"
+    },
+    "code": {
+      "id": "023118",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.867",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023110",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dinapigue",
+      "en": "Dinapigue",
+      "slug": "dinapigue-023110"
+    },
+    "code": {
+      "id": "023110",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 6
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.667",
+      "lon": "122.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023111",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Divilacan",
+      "en": "Divilacan",
+      "slug": "divilacan-023111"
+    },
+    "code": {
+      "id": "023111",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.333",
+      "lon": "122.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023112",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Echague",
+      "en": "Echague",
+      "slug": "echague-023112"
+    },
+    "code": {
+      "id": "023112",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 64
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.7",
+      "lon": "121.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023113",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Gamu",
+      "en": "Gamu",
+      "slug": "gamu-023113"
+    },
+    "code": {
+      "id": "023113",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.05",
+      "lon": "121.833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023114",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ilagan City",
+      "en": "Ilagan City",
+      "slug": "ilagan-city-023114"
+    },
+    "code": {
+      "id": "023114",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 91
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.13",
+      "lon": "121.88"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023115",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Jones",
+      "en": "Jones",
+      "slug": "jones-023115"
+    },
+    "code": {
+      "id": "023115",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.55806",
+      "lon": "121.70694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023116",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Luna",
+      "en": "Luna",
+      "slug": "luna-023116"
+    },
+    "code": {
+      "id": "023116",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.967",
+      "lon": "121.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023117",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maconacon",
+      "en": "Maconacon",
+      "slug": "maconacon-023117"
+    },
+    "code": {
+      "id": "023117",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.433",
+      "lon": "122.233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023119",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mallig",
+      "en": "Mallig",
+      "slug": "mallig-023119"
+    },
+    "code": {
+      "id": "023119",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.2",
+      "lon": "121.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023120",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Naguilian",
+      "en": "Naguilian",
+      "slug": "naguilian-023120"
+    },
+    "code": {
+      "id": "023120",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.02667",
+      "lon": "121.835"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023121",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Palanan",
+      "en": "Palanan",
+      "slug": "palanan-023121"
+    },
+    "code": {
+      "id": "023121",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.05889",
+      "lon": "122.43"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023122",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-023122"
+    },
+    "code": {
+      "id": "023122",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.697",
+      "lon": "121.6295"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023123",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Quirino",
+      "en": "Quirino",
+      "slug": "quirino-023123"
+    },
+    "code": {
+      "id": "023123",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.133",
+      "lon": "121.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023124",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ramon",
+      "en": "Ramon",
+      "slug": "ramon-023124"
+    },
+    "code": {
+      "id": "023124",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.783",
+      "lon": "121.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023125",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Reina Mercedes",
+      "en": "Reina Mercedes",
+      "slug": "reina-mercedes-023125"
+    },
+    "code": {
+      "id": "023125",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.983",
+      "lon": "121.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023126",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Roxas",
+      "en": "Roxas",
+      "slug": "roxas-023126"
+    },
+    "code": {
+      "id": "023126",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.117",
+      "lon": "121.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023127",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Agustin",
+      "en": "San Agustin",
+      "slug": "san-agustin-023127"
+    },
+    "code": {
+      "id": "023127",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.517",
+      "lon": "121.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023128",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Guillermo",
+      "en": "San Guillermo",
+      "slug": "san-guillermo-023128"
+    },
+    "code": {
+      "id": "023128",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.767",
+      "lon": "121.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-023129"
+    },
+    "code": {
+      "id": "023129",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.867",
+      "lon": "121.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023130",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Manuel",
+      "en": "San Manuel",
+      "slug": "san-manuel-023130"
+    },
+    "code": {
+      "id": "023130",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.017",
+      "lon": "121.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023131",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Mariano",
+      "en": "San Mariano",
+      "slug": "san-mariano-023131"
+    },
+    "code": {
+      "id": "023131",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 36
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.983",
+      "lon": "122.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023132",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Mateo",
+      "en": "San Mateo",
+      "slug": "san-mateo-023132"
+    },
+    "code": {
+      "id": "023132",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.883",
+      "lon": "121.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023133",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Pablo",
+      "en": "San Pablo",
+      "slug": "san-pablo-023133"
+    },
+    "code": {
+      "id": "023133",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.467",
+      "lon": "121.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023134",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Maria",
+      "en": "Santa Maria",
+      "slug": "santa-maria-023134"
+    },
+    "code": {
+      "id": "023134",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.467",
+      "lon": "121.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023135",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santiago",
+      "en": "Santiago",
+      "slug": "santiago-023135"
+    },
+    "code": {
+      "id": "023135",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.3",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023136",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santo Tomas",
+      "en": "Santo Tomas",
+      "slug": "santo-tomas-023136"
+    },
+    "code": {
+      "id": "023136",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.4",
+      "lon": "121.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023137",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tumauini",
+      "en": "Tumauini",
+      "slug": "tumauini-023137"
+    },
+    "code": {
+      "id": "023137",
+      "iso": null
+    },
+    "parent": {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 46
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.267",
+      "lon": "121.8"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

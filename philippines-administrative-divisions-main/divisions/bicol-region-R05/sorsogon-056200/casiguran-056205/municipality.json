@@ -1,0 +1,56 @@
+{
+  "id": "056205",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Casiguran",
+    "en": "Casiguran",
+    "slug": "casiguran-056205"
+  },
+  "code": {
+    "id": "056205",
+    "iso": null
+  },
+  "parent": {
+    "id": "056200",
+    "level": 2,
+    "name": {
+      "local": "Sorsogon",
+      "en": "Sorsogon",
+      "slug": "sorsogon-056200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "056200",
+      "level": 2,
+      "name": {
+        "local": "Sorsogon",
+        "en": "Sorsogon",
+        "slug": "sorsogon-056200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 25
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.867",
+    "lon": "124.017"
+  },
+  "metadata": {},
+  "source": {}
+}

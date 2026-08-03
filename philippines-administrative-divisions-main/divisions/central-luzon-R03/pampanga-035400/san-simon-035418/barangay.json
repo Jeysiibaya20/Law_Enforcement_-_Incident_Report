@@ -1,0 +1,912 @@
+[
+  {
+    "id": "035418001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Concepcion",
+      "en": "Concepcion",
+      "slug": "concepcion-035418001"
+    },
+    "code": {
+      "id": "035418001",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "15.3249",
+      "lon": "120.6554"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "De La Paz",
+      "en": "De La Paz",
+      "slug": "de-la-paz-035418002"
+    },
+    "code": {
+      "id": "035418002",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "14.3495",
+      "lon": "121.0826"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Agustin",
+      "en": "San Agustin",
+      "slug": "san-agustin-035418004"
+    },
+    "code": {
+      "id": "035418004",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "12.5689",
+      "lon": "122.1314"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-035418005"
+    },
+    "code": {
+      "id": "035418005",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "14.4685",
+      "lon": "121.0118"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-035418006"
+    },
+    "code": {
+      "id": "035418006",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "12.3528",
+      "lon": "121.0676"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan (Pob.)",
+      "en": "San Juan (Pob.)",
+      "slug": "san-juan-pob-035418003"
+    },
+    "code": {
+      "id": "035418003",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "14.604",
+      "lon": "121.03"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-035418007"
+    },
+    "code": {
+      "id": "035418007",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "15.1458",
+      "lon": "120.9783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Nicolas",
+      "en": "San Nicolas",
+      "slug": "san-nicolas-035418008"
+    },
+    "code": {
+      "id": "035418008",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "16.07",
+      "lon": "120.7653"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pablo Libutad",
+      "en": "San Pablo Libutad",
+      "slug": "san-pablo-libutad-035418009"
+    },
+    "code": {
+      "id": "035418009",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "15.0352",
+      "lon": "120.7488"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pablo Proper",
+      "en": "San Pablo Proper",
+      "slug": "san-pablo-proper-035418010"
+    },
+    "code": {
+      "id": "035418010",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "15.0236",
+      "lon": "120.7537"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro",
+      "en": "San Pedro",
+      "slug": "san-pedro-035418011"
+    },
+    "code": {
+      "id": "035418011",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "14.3583",
+      "lon": "121.0583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-035418012"
+    },
+    "code": {
+      "id": "035418012",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "14.5998",
+      "lon": "120.9802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Monica",
+      "en": "Santa Monica",
+      "slug": "santa-monica-035418013"
+    },
+    "code": {
+      "id": "035418013",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "10.02",
+      "lon": "126.038"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-035418014"
+    },
+    "code": {
+      "id": "035418014",
+      "iso": null
+    },
+    "parent": {
+      "id": "035418",
+      "level": 3,
+      "name": {
+        "local": "San Simon",
+        "en": "San Simon",
+        "slug": "san-simon-035418"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035418",
+        "level": 3,
+        "name": {
+          "local": "San Simon",
+          "en": "San Simon",
+          "slug": "san-simon-035418"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2015"
+    ],
+    "geo": {
+      "lat": "6.43",
+      "lon": "124.68"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

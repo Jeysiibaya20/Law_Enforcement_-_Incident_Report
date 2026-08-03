@@ -1,0 +1,56 @@
+{
+  "id": "142708",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Aguinaldo",
+    "en": "Aguinaldo",
+    "slug": "aguinaldo-142708"
+  },
+  "code": {
+    "id": "142708",
+    "iso": null
+  },
+  "parent": {
+    "id": "142700",
+    "level": 2,
+    "name": {
+      "local": "Ifugao",
+      "en": "Ifugao",
+      "slug": "ifugao-142700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 16
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.783",
+    "lon": "121.317"
+  },
+  "metadata": {},
+  "source": {}
+}

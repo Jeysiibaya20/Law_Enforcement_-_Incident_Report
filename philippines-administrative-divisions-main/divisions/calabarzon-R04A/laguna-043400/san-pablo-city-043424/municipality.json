@@ -1,0 +1,56 @@
+{
+  "id": "043424",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Pablo City",
+    "en": "San Pablo City",
+    "slug": "san-pablo-city-043424"
+  },
+  "code": {
+    "id": "043424",
+    "iso": null
+  },
+  "parent": {
+    "id": "043400",
+    "level": 2,
+    "name": {
+      "local": "Laguna",
+      "en": "Laguna",
+      "slug": "laguna-043400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 80
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.07",
+    "lon": "121.32"
+  },
+  "metadata": {},
+  "source": {}
+}

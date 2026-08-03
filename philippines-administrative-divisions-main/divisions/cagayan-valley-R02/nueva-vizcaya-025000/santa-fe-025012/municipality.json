@@ -1,0 +1,56 @@
+{
+  "id": "025012",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Fe",
+    "en": "Santa Fe",
+    "slug": "santa-fe-025012"
+  },
+  "code": {
+    "id": "025012",
+    "iso": null
+  },
+  "parent": {
+    "id": "025000",
+    "level": 2,
+    "name": {
+      "local": "Nueva Vizcaya",
+      "en": "Nueva Vizcaya",
+      "slug": "nueva-vizcaya-025000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 16
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.16194",
+    "lon": "120.93889"
+  },
+  "metadata": {},
+  "source": {}
+}

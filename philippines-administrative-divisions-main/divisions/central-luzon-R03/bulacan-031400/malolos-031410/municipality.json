@@ -1,0 +1,56 @@
+{
+  "id": "031410",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Malolos",
+    "en": "Malolos",
+    "slug": "malolos-031410"
+  },
+  "code": {
+    "id": "031410",
+    "iso": null
+  },
+  "parent": {
+    "id": "031400",
+    "level": 2,
+    "name": {
+      "local": "Bulacan",
+      "en": "Bulacan",
+      "slug": "bulacan-031400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 51
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.84333",
+    "lon": "120.81139"
+  },
+  "metadata": {},
+  "source": {}
+}

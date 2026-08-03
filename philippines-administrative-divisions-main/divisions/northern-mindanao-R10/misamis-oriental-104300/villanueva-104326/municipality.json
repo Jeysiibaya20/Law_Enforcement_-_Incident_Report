@@ -1,0 +1,56 @@
+{
+  "id": "104326",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Villanueva",
+    "en": "Villanueva",
+    "slug": "villanueva-104326"
+  },
+  "code": {
+    "id": "104326",
+    "iso": null
+  },
+  "parent": {
+    "id": "104300",
+    "level": 2,
+    "name": {
+      "local": "Misamis Oriental",
+      "en": "Misamis Oriental",
+      "slug": "misamis-oriental-104300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.583",
+    "lon": "124.783"
+  },
+  "metadata": {},
+  "source": {}
+}

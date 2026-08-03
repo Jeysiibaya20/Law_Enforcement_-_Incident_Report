@@ -1,0 +1,450 @@
+[
+  {
+    "id": "037701",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Baler",
+      "en": "Baler",
+      "slug": "baler-037701"
+    },
+    "code": {
+      "id": "037701",
+      "iso": null
+    },
+    "parent": {
+      "id": "037700",
+      "level": 2,
+      "name": {
+        "local": "Aurora",
+        "en": "Aurora",
+        "slug": "aurora-037700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.767",
+      "lon": "121.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037702",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Casiguran",
+      "en": "Casiguran",
+      "slug": "casiguran-037702"
+    },
+    "code": {
+      "id": "037702",
+      "iso": null
+    },
+    "parent": {
+      "id": "037700",
+      "level": 2,
+      "name": {
+        "local": "Aurora",
+        "en": "Aurora",
+        "slug": "aurora-037700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.28333",
+      "lon": "122.04444"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037703",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dilasag",
+      "en": "Dilasag",
+      "slug": "dilasag-037703"
+    },
+    "code": {
+      "id": "037703",
+      "iso": null
+    },
+    "parent": {
+      "id": "037700",
+      "level": 2,
+      "name": {
+        "local": "Aurora",
+        "en": "Aurora",
+        "slug": "aurora-037700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.4",
+      "lon": "122.217"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037704",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dinalungan",
+      "en": "Dinalungan",
+      "slug": "dinalungan-037704"
+    },
+    "code": {
+      "id": "037704",
+      "iso": null
+    },
+    "parent": {
+      "id": "037700",
+      "level": 2,
+      "name": {
+        "local": "Aurora",
+        "en": "Aurora",
+        "slug": "aurora-037700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.1",
+      "lon": "121.77389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037705",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dingalan",
+      "en": "Dingalan",
+      "slug": "dingalan-037705"
+    },
+    "code": {
+      "id": "037705",
+      "iso": null
+    },
+    "parent": {
+      "id": "037700",
+      "level": 2,
+      "name": {
+        "local": "Aurora",
+        "en": "Aurora",
+        "slug": "aurora-037700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.383",
+      "lon": "121.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037706",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dipaculao",
+      "en": "Dipaculao",
+      "slug": "dipaculao-037706"
+    },
+    "code": {
+      "id": "037706",
+      "iso": null
+    },
+    "parent": {
+      "id": "037700",
+      "level": 2,
+      "name": {
+        "local": "Aurora",
+        "en": "Aurora",
+        "slug": "aurora-037700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.983",
+      "lon": "121.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037707",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maria Aurora",
+      "en": "Maria Aurora",
+      "slug": "maria-aurora-037707"
+    },
+    "code": {
+      "id": "037707",
+      "iso": null
+    },
+    "parent": {
+      "id": "037700",
+      "level": 2,
+      "name": {
+        "local": "Aurora",
+        "en": "Aurora",
+        "slug": "aurora-037700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.783",
+      "lon": "121.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037708",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Luis",
+      "en": "San Luis",
+      "slug": "san-luis-037708"
+    },
+    "code": {
+      "id": "037708",
+      "iso": null
+    },
+    "parent": {
+      "id": "037700",
+      "level": 2,
+      "name": {
+        "local": "Aurora",
+        "en": "Aurora",
+        "slug": "aurora-037700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.717",
+      "lon": "121.517"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "id": "156600",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Sulu",
+    "en": "Sulu",
+    "slug": "sulu-156600"
+  },
+  "code": {
+    "id": "156600",
+    "iso": null
+  },
+  "parent": {
+    "id": "ARMM",
+    "level": 1,
+    "name": {
+      "local": "Autonomous Region in Muslim Mindanao",
+      "en": "Autonomous Region in Muslim Mindanao",
+      "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 19,
+    "barangay": 410
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.5156",
+    "lon": "121.1936"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "071218",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Danao",
+    "en": "Danao",
+    "slug": "danao-071218"
+  },
+  "code": {
+    "id": "071218",
+    "iso": null
+  },
+  "parent": {
+    "id": "071200",
+    "level": 2,
+    "name": {
+      "local": "Bohol",
+      "en": "Bohol",
+      "slug": "bohol-071200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 17
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.02",
+    "lon": "124.27"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "020901",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Basco",
+    "en": "Basco",
+    "slug": "basco-020901"
+  },
+  "code": {
+    "id": "020901",
+    "iso": null
+  },
+  "parent": {
+    "id": "020900",
+    "level": 2,
+    "name": {
+      "local": "Batanes",
+      "en": "Batanes",
+      "slug": "batanes-020900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    {
+      "id": "020900",
+      "level": 2,
+      "name": {
+        "local": "Batanes",
+        "en": "Batanes",
+        "slug": "batanes-020900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 6
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "20.4496778",
+    "lon": "121.9698694"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "140123001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Labaan",
+      "en": "Labaan",
+      "slug": "labaan-140123001"
+    },
+    "code": {
+      "id": "140123001",
+      "iso": null
+    },
+    "parent": {
+      "id": "140123",
+      "level": 3,
+      "name": {
+        "local": "San Quintin",
+        "en": "San Quintin",
+        "slug": "san-quintin-140123"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140123",
+        "level": 3,
+        "name": {
+          "local": "San Quintin",
+          "en": "San Quintin",
+          "slug": "san-quintin-140123"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2808"
+    ],
+    "geo": {
+      "lat": "17.5337",
+      "lon": "120.5225"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140123002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Palang",
+      "en": "Palang",
+      "slug": "palang-140123002"
+    },
+    "code": {
+      "id": "140123002",
+      "iso": null
+    },
+    "parent": {
+      "id": "140123",
+      "level": 3,
+      "name": {
+        "local": "San Quintin",
+        "en": "San Quintin",
+        "slug": "san-quintin-140123"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140123",
+        "level": 3,
+        "name": {
+          "local": "San Quintin",
+          "en": "San Quintin",
+          "slug": "san-quintin-140123"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2808"
+    ],
+    "geo": {
+      "lat": "17.5485",
+      "lon": "120.5142"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140123003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pantoc",
+      "en": "Pantoc",
+      "slug": "pantoc-140123003"
+    },
+    "code": {
+      "id": "140123003",
+      "iso": null
+    },
+    "parent": {
+      "id": "140123",
+      "level": 3,
+      "name": {
+        "local": "San Quintin",
+        "en": "San Quintin",
+        "slug": "san-quintin-140123"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140123",
+        "level": 3,
+        "name": {
+          "local": "San Quintin",
+          "en": "San Quintin",
+          "slug": "san-quintin-140123"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2808"
+    ],
+    "geo": {
+      "lat": "17.4667",
+      "lon": "120.6032"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140123004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-140123004"
+    },
+    "code": {
+      "id": "140123004",
+      "iso": null
+    },
+    "parent": {
+      "id": "140123",
+      "level": 3,
+      "name": {
+        "local": "San Quintin",
+        "en": "San Quintin",
+        "slug": "san-quintin-140123"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140123",
+        "level": 3,
+        "name": {
+          "local": "San Quintin",
+          "en": "San Quintin",
+          "slug": "san-quintin-140123"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2808"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140123005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tangadan",
+      "en": "Tangadan",
+      "slug": "tangadan-140123005"
+    },
+    "code": {
+      "id": "140123005",
+      "iso": null
+    },
+    "parent": {
+      "id": "140123",
+      "level": 3,
+      "name": {
+        "local": "San Quintin",
+        "en": "San Quintin",
+        "slug": "san-quintin-140123"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140123",
+        "level": 3,
+        "name": {
+          "local": "San Quintin",
+          "en": "San Quintin",
+          "slug": "san-quintin-140123"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2808"
+    ],
+    "geo": {
+      "lat": "17.5068",
+      "lon": "120.5145"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140123006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Villa Mercedes",
+      "en": "Villa Mercedes",
+      "slug": "villa-mercedes-140123006"
+    },
+    "code": {
+      "id": "140123006",
+      "iso": null
+    },
+    "parent": {
+      "id": "140123",
+      "level": 3,
+      "name": {
+        "local": "San Quintin",
+        "en": "San Quintin",
+        "slug": "san-quintin-140123"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140123",
+        "level": 3,
+        "name": {
+          "local": "San Quintin",
+          "en": "San Quintin",
+          "slug": "san-quintin-140123"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2808"
+    ],
+    "geo": {
+      "lat": "17.5244",
+      "lon": "120.5297"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "175909",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Odiongan",
+    "en": "Odiongan",
+    "slug": "odiongan-175909"
+  },
+  "code": {
+    "id": "175909",
+    "iso": null
+  },
+  "parent": {
+    "id": "175900",
+    "level": 2,
+    "name": {
+      "local": "Romblon",
+      "en": "Romblon",
+      "slug": "romblon-175900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175900",
+      "level": 2,
+      "name": {
+        "local": "Romblon",
+        "en": "Romblon",
+        "slug": "romblon-175900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 25
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.4",
+    "lon": "122"
+  },
+  "metadata": {},
+  "source": {}
+}

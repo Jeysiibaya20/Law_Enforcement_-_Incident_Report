@@ -1,0 +1,56 @@
+{
+  "id": "175306",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Brooke'S Point",
+    "en": "Brooke'S Point",
+    "slug": "brookes-point-175306"
+  },
+  "code": {
+    "id": "175306",
+    "iso": null
+  },
+  "parent": {
+    "id": "175300",
+    "level": 2,
+    "name": {
+      "local": "Palawan",
+      "en": "Palawan",
+      "slug": "palawan-175300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 18
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.7833",
+    "lon": "117.8333"
+  },
+  "metadata": {},
+  "source": {}
+}

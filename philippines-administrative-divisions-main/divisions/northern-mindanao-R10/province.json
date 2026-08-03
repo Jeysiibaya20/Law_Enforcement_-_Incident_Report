@@ -1,0 +1,242 @@
+[
+  {
+    "id": "101300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Bukidnon",
+      "en": "Bukidnon",
+      "slug": "bukidnon-101300"
+    },
+    "code": {
+      "id": "101300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 22,
+      "barangay": 464
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.52",
+      "lon": "124.1066"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Camiguin",
+      "en": "Camiguin",
+      "slug": "camiguin-101800"
+    },
+    "code": {
+      "id": "101800",
+      "iso": null
+    },
+    "parent": {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 5,
+      "barangay": 58
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.7314",
+      "lon": "124.328"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Lanao del Norte",
+      "en": "Lanao del Norte",
+      "slug": "lanao-del-norte-103500"
+    },
+    "code": {
+      "id": "103500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 23,
+      "barangay": 506
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.2256",
+      "lon": "123.6301"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Misamis Occidental",
+      "en": "Misamis Occidental",
+      "slug": "misamis-occidental-104200"
+    },
+    "code": {
+      "id": "104200",
+      "iso": null
+    },
+    "parent": {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 17,
+      "barangay": 490
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.5248",
+      "lon": "123.4772"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Misamis Oriental",
+      "en": "Misamis Oriental",
+      "slug": "misamis-oriental-104300"
+    },
+    "code": {
+      "id": "104300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 26,
+      "barangay": 504
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.1615",
+      "lon": "123.2441"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

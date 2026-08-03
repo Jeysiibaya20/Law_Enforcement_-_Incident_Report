@@ -1,0 +1,394 @@
+[
+  {
+    "id": "168501",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Basilisa (Rizal)",
+      "en": "Basilisa (Rizal)",
+      "slug": "basilisa-rizal-168501"
+    },
+    "code": {
+      "id": "168501",
+      "iso": null
+    },
+    "parent": {
+      "id": "168500",
+      "level": 2,
+      "name": {
+        "local": "Dinagat Islands",
+        "en": "Dinagat Islands",
+        "slug": "dinagat-islands-168500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.583",
+      "lon": "123.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168502",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cagdianao",
+      "en": "Cagdianao",
+      "slug": "cagdianao-168502"
+    },
+    "code": {
+      "id": "168502",
+      "iso": null
+    },
+    "parent": {
+      "id": "168500",
+      "level": 2,
+      "name": {
+        "local": "Dinagat Islands",
+        "en": "Dinagat Islands",
+        "slug": "dinagat-islands-168500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.917",
+      "lon": "125.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168503",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dinagat",
+      "en": "Dinagat",
+      "slug": "dinagat-168503"
+    },
+    "code": {
+      "id": "168503",
+      "iso": null
+    },
+    "parent": {
+      "id": "168500",
+      "level": 2,
+      "name": {
+        "local": "Dinagat Islands",
+        "en": "Dinagat Islands",
+        "slug": "dinagat-islands-168500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.95",
+      "lon": "125.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168504",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Libjo (Albor)",
+      "en": "Libjo (Albor)",
+      "slug": "libjo-albor-168504"
+    },
+    "code": {
+      "id": "168504",
+      "iso": null
+    },
+    "parent": {
+      "id": "168500",
+      "level": 2,
+      "name": {
+        "local": "Dinagat Islands",
+        "en": "Dinagat Islands",
+        "slug": "dinagat-islands-168500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.2",
+      "lon": "125.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168505",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Loreto",
+      "en": "Loreto",
+      "slug": "loreto-168505"
+    },
+    "code": {
+      "id": "168505",
+      "iso": null
+    },
+    "parent": {
+      "id": "168500",
+      "level": 2,
+      "name": {
+        "local": "Dinagat Islands",
+        "en": "Dinagat Islands",
+        "slug": "dinagat-islands-168500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.35",
+      "lon": "125.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168506",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-168506"
+    },
+    "code": {
+      "id": "168506",
+      "iso": null
+    },
+    "parent": {
+      "id": "168500",
+      "level": 2,
+      "name": {
+        "local": "Dinagat Islands",
+        "en": "Dinagat Islands",
+        "slug": "dinagat-islands-168500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.2101",
+      "lon": "123.4706"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168507",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tubajon",
+      "en": "Tubajon",
+      "slug": "tubajon-168507"
+    },
+    "code": {
+      "id": "168507",
+      "iso": null
+    },
+    "parent": {
+      "id": "168500",
+      "level": 2,
+      "name": {
+        "local": "Dinagat Islands",
+        "en": "Dinagat Islands",
+        "slug": "dinagat-islands-168500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.3",
+      "lon": "125.567"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

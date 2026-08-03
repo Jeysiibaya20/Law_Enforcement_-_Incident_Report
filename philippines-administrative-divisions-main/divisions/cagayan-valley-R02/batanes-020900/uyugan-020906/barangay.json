@@ -1,0 +1,262 @@
+[
+  {
+    "id": "020906002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Imnajbu",
+      "en": "Imnajbu",
+      "slug": "imnajbu-020906002"
+    },
+    "code": {
+      "id": "020906002",
+      "iso": null
+    },
+    "parent": {
+      "id": "020906",
+      "level": 3,
+      "name": {
+        "local": "Uyugan",
+        "en": "Uyugan",
+        "slug": "uyugan-020906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020906",
+        "level": 3,
+        "name": {
+          "local": "Uyugan",
+          "en": "Uyugan",
+          "slug": "uyugan-020906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3903"
+    ],
+    "geo": {
+      "lat": "20.3784",
+      "lon": "121.9701"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020906003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Itbud",
+      "en": "Itbud",
+      "slug": "itbud-020906003"
+    },
+    "code": {
+      "id": "020906003",
+      "iso": null
+    },
+    "parent": {
+      "id": "020906",
+      "level": 3,
+      "name": {
+        "local": "Uyugan",
+        "en": "Uyugan",
+        "slug": "uyugan-020906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020906",
+        "level": 3,
+        "name": {
+          "local": "Uyugan",
+          "en": "Uyugan",
+          "slug": "uyugan-020906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3903"
+    ],
+    "geo": {
+      "lat": "20.3675",
+      "lon": "121.9606"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020906004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kayuganan (Pob.)",
+      "en": "Kayuganan (Pob.)",
+      "slug": "kayuganan-pob-020906004"
+    },
+    "code": {
+      "id": "020906004",
+      "iso": null
+    },
+    "parent": {
+      "id": "020906",
+      "level": 3,
+      "name": {
+        "local": "Uyugan",
+        "en": "Uyugan",
+        "slug": "uyugan-020906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020906",
+        "level": 3,
+        "name": {
+          "local": "Uyugan",
+          "en": "Uyugan",
+          "slug": "uyugan-020906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3903"
+    ],
+    "geo": {
+      "lat": "20.35",
+      "lon": "121.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020906001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kayvaluganan (Pob.)",
+      "en": "Kayvaluganan (Pob.)",
+      "slug": "kayvaluganan-pob-020906001"
+    },
+    "code": {
+      "id": "020906001",
+      "iso": null
+    },
+    "parent": {
+      "id": "020906",
+      "level": 3,
+      "name": {
+        "local": "Uyugan",
+        "en": "Uyugan",
+        "slug": "uyugan-020906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020906",
+        "level": 3,
+        "name": {
+          "local": "Uyugan",
+          "en": "Uyugan",
+          "slug": "uyugan-020906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3903"
+    ],
+    "geo": {
+      "lat": "20.35",
+      "lon": "121.933"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

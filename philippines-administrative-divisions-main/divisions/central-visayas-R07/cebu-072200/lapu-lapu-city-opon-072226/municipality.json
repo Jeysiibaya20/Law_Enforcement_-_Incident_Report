@@ -1,0 +1,56 @@
+{
+  "id": "072226",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Lapu-lapu City (Opon)",
+    "en": "Lapu-lapu City (Opon)",
+    "slug": "lapu-lapu-city-opon-072226"
+  },
+  "code": {
+    "id": "072226",
+    "iso": null
+  },
+  "parent": {
+    "id": "072200",
+    "level": 2,
+    "name": {
+      "local": "Cebu",
+      "en": "Cebu",
+      "slug": "cebu-072200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 30
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.9645",
+    "lon": "123.4686"
+  },
+  "metadata": {},
+  "source": {}
+}

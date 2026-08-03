@@ -1,0 +1,977 @@
+[
+  {
+    "id": "101804001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agoho",
+      "en": "Agoho",
+      "slug": "agoho-101804001"
+    },
+    "code": {
+      "id": "101804001",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.2443",
+      "lon": "124.6684"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Anito",
+      "en": "Anito",
+      "slug": "anito-101804002"
+    },
+    "code": {
+      "id": "101804002",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.2303",
+      "lon": "124.7446"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balbagon",
+      "en": "Balbagon",
+      "slug": "balbagon-101804003"
+    },
+    "code": {
+      "id": "101804003",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.2351",
+      "lon": "124.7404"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baylao",
+      "en": "Baylao",
+      "slug": "baylao-101804004"
+    },
+    "code": {
+      "id": "101804004",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.2499",
+      "lon": "124.6976"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Benhaan",
+      "en": "Benhaan",
+      "slug": "benhaan-101804005"
+    },
+    "code": {
+      "id": "101804005",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.25",
+      "lon": "124.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bug-ong",
+      "en": "Bug-ong",
+      "slug": "bug-ong-101804006"
+    },
+    "code": {
+      "id": "101804006",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.251",
+      "lon": "124.6787"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kuguita",
+      "en": "Kuguita",
+      "slug": "kuguita-101804007"
+    },
+    "code": {
+      "id": "101804007",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.2493",
+      "lon": "124.6893"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magting",
+      "en": "Magting",
+      "slug": "magting-101804008"
+    },
+    "code": {
+      "id": "101804008",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.2131",
+      "lon": "124.7575"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Naasag",
+      "en": "Naasag",
+      "slug": "naasag-101804009"
+    },
+    "code": {
+      "id": "101804009",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.2351",
+      "lon": "124.6492"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pandan",
+      "en": "Pandan",
+      "slug": "pandan-101804010"
+    },
+    "code": {
+      "id": "101804010",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.2391",
+      "lon": "124.7239"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-101804011"
+    },
+    "code": {
+      "id": "101804011",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Soro-soro",
+      "en": "Soro-soro",
+      "slug": "soro-soro-101804015"
+    },
+    "code": {
+      "id": "101804015",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.2282",
+      "lon": "124.7256"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tagdo",
+      "en": "Tagdo",
+      "slug": "tagdo-101804016"
+    },
+    "code": {
+      "id": "101804016",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.2384",
+      "lon": "124.6886"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tupsan",
+      "en": "Tupsan",
+      "slug": "tupsan-101804017"
+    },
+    "code": {
+      "id": "101804017",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.1992",
+      "lon": "124.7769"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101804018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Yumbing",
+      "en": "Yumbing",
+      "slug": "yumbing-101804018"
+    },
+    "code": {
+      "id": "101804018",
+      "iso": null
+    },
+    "parent": {
+      "id": "101804",
+      "level": 3,
+      "name": {
+        "local": "Mambajao",
+        "en": "Mambajao",
+        "slug": "mambajao-101804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101804",
+        "level": 3,
+        "name": {
+          "local": "Mambajao",
+          "en": "Mambajao",
+          "slug": "mambajao-101804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9100"
+    ],
+    "geo": {
+      "lat": "9.2393",
+      "lon": "124.6578"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

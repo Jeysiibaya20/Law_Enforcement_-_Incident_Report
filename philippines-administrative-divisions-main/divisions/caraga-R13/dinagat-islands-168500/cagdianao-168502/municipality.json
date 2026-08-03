@@ -1,0 +1,56 @@
+{
+  "id": "168502",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Cagdianao",
+    "en": "Cagdianao",
+    "slug": "cagdianao-168502"
+  },
+  "code": {
+    "id": "168502",
+    "iso": null
+  },
+  "parent": {
+    "id": "168500",
+    "level": 2,
+    "name": {
+      "local": "Dinagat Islands",
+      "en": "Dinagat Islands",
+      "slug": "dinagat-islands-168500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "168500",
+      "level": 2,
+      "name": {
+        "local": "Dinagat Islands",
+        "en": "Dinagat Islands",
+        "slug": "dinagat-islands-168500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.917",
+    "lon": "125.667"
+  },
+  "metadata": {},
+  "source": {}
+}

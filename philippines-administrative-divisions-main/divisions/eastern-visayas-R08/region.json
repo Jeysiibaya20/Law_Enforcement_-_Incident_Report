@@ -1,0 +1,35 @@
+{
+  "id": "R08",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "Eastern Visayas",
+    "en": "Eastern Visayas",
+    "slug": "eastern-visayas-R08"
+  },
+  "code": {
+    "id": "R08",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 6,
+    "barangay": 4390,
+    "municipality": 143
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.3799",
+    "lon": "124.8046"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/eastern-visayas-R08/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

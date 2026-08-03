@@ -1,0 +1,56 @@
+{
+  "id": "103513",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Matungao",
+    "en": "Matungao",
+    "slug": "matungao-103513"
+  },
+  "code": {
+    "id": "103513",
+    "iso": null
+  },
+  "parent": {
+    "id": "103500",
+    "level": 2,
+    "name": {
+      "local": "Lanao del Norte",
+      "en": "Lanao del Norte",
+      "slug": "lanao-del-norte-103500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 12
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.133",
+    "lon": "124.167"
+  },
+  "metadata": {},
+  "source": {}
+}

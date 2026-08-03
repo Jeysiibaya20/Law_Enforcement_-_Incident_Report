@@ -1,0 +1,587 @@
+[
+  {
+    "id": "030801001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bangkal",
+      "en": "Bangkal",
+      "slug": "bangkal-030801001"
+    },
+    "code": {
+      "id": "030801001",
+      "iso": null
+    },
+    "parent": {
+      "id": "030801",
+      "level": 3,
+      "name": {
+        "local": "Abucay",
+        "en": "Abucay",
+        "slug": "abucay-030801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030801",
+        "level": 3,
+        "name": {
+          "local": "Abucay",
+          "en": "Abucay",
+          "slug": "abucay-030801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2114"
+    ],
+    "geo": {
+      "lat": "10.0239",
+      "lon": "123.1967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030801002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calaylayan (Pob.)",
+      "en": "Calaylayan (Pob.)",
+      "slug": "calaylayan-pob-030801002"
+    },
+    "code": {
+      "id": "030801002",
+      "iso": null
+    },
+    "parent": {
+      "id": "030801",
+      "level": 3,
+      "name": {
+        "local": "Abucay",
+        "en": "Abucay",
+        "slug": "abucay-030801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030801",
+        "level": 3,
+        "name": {
+          "local": "Abucay",
+          "en": "Abucay",
+          "slug": "abucay-030801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2114"
+    ],
+    "geo": {
+      "lat": "11.4409",
+      "lon": "119.7284"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030801003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Capitangan",
+      "en": "Capitangan",
+      "slug": "capitangan-030801003"
+    },
+    "code": {
+      "id": "030801003",
+      "iso": null
+    },
+    "parent": {
+      "id": "030801",
+      "level": 3,
+      "name": {
+        "local": "Abucay",
+        "en": "Abucay",
+        "slug": "abucay-030801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030801",
+        "level": 3,
+        "name": {
+          "local": "Abucay",
+          "en": "Abucay",
+          "slug": "abucay-030801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2114"
+    ],
+    "geo": {
+      "lat": "14.7078",
+      "lon": "120.5361"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030801004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gabon",
+      "en": "Gabon",
+      "slug": "gabon-030801004"
+    },
+    "code": {
+      "id": "030801004",
+      "iso": null
+    },
+    "parent": {
+      "id": "030801",
+      "level": 3,
+      "name": {
+        "local": "Abucay",
+        "en": "Abucay",
+        "slug": "abucay-030801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030801",
+        "level": 3,
+        "name": {
+          "local": "Abucay",
+          "en": "Abucay",
+          "slug": "abucay-030801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2114"
+    ],
+    "geo": {
+      "lat": "6.2846",
+      "lon": "120.5536"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030801006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Laon (Pob.)",
+      "en": "Laon (Pob.)",
+      "slug": "laon-pob-030801006"
+    },
+    "code": {
+      "id": "030801006",
+      "iso": null
+    },
+    "parent": {
+      "id": "030801",
+      "level": 3,
+      "name": {
+        "local": "Abucay",
+        "en": "Abucay",
+        "slug": "abucay-030801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030801",
+        "level": 3,
+        "name": {
+          "local": "Abucay",
+          "en": "Abucay",
+          "slug": "abucay-030801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2114"
+    ],
+    "geo": {
+      "lat": "13.7305",
+      "lon": "123.3948"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030801007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabatang",
+      "en": "Mabatang",
+      "slug": "mabatang-030801007"
+    },
+    "code": {
+      "id": "030801007",
+      "iso": null
+    },
+    "parent": {
+      "id": "030801",
+      "level": 3,
+      "name": {
+        "local": "Abucay",
+        "en": "Abucay",
+        "slug": "abucay-030801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030801",
+        "level": 3,
+        "name": {
+          "local": "Abucay",
+          "en": "Abucay",
+          "slug": "abucay-030801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2114"
+    ],
+    "geo": {
+      "lat": "14.7403",
+      "lon": "120.5358"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030801008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Omboy",
+      "en": "Omboy",
+      "slug": "omboy-030801008"
+    },
+    "code": {
+      "id": "030801008",
+      "iso": null
+    },
+    "parent": {
+      "id": "030801",
+      "level": 3,
+      "name": {
+        "local": "Abucay",
+        "en": "Abucay",
+        "slug": "abucay-030801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030801",
+        "level": 3,
+        "name": {
+          "local": "Abucay",
+          "en": "Abucay",
+          "slug": "abucay-030801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2114"
+    ],
+    "geo": {
+      "lat": "14.733",
+      "lon": "120.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030801010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salian",
+      "en": "Salian",
+      "slug": "salian-030801010"
+    },
+    "code": {
+      "id": "030801010",
+      "iso": null
+    },
+    "parent": {
+      "id": "030801",
+      "level": 3,
+      "name": {
+        "local": "Abucay",
+        "en": "Abucay",
+        "slug": "abucay-030801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030801",
+        "level": 3,
+        "name": {
+          "local": "Abucay",
+          "en": "Abucay",
+          "slug": "abucay-030801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2114"
+    ],
+    "geo": {
+      "lat": "14.7175",
+      "lon": "120.5322"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030801011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Wawa (Pob.)",
+      "en": "Wawa (Pob.)",
+      "slug": "wawa-pob-030801011"
+    },
+    "code": {
+      "id": "030801011",
+      "iso": null
+    },
+    "parent": {
+      "id": "030801",
+      "level": 3,
+      "name": {
+        "local": "Abucay",
+        "en": "Abucay",
+        "slug": "abucay-030801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030801",
+        "level": 3,
+        "name": {
+          "local": "Abucay",
+          "en": "Abucay",
+          "slug": "abucay-030801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2114"
+    ],
+    "geo": {
+      "lat": "14.7997",
+      "lon": "120.5387"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

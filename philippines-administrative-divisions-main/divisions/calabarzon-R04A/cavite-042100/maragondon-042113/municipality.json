@@ -1,0 +1,56 @@
+{
+  "id": "042113",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Maragondon",
+    "en": "Maragondon",
+    "slug": "maragondon-042113"
+  },
+  "code": {
+    "id": "042113",
+    "iso": null
+  },
+  "parent": {
+    "id": "042100",
+    "level": 2,
+    "name": {
+      "local": "Cavite",
+      "en": "Cavite",
+      "slug": "cavite-042100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 27
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.27333",
+    "lon": "120.73833"
+  },
+  "metadata": {},
+  "source": {}
+}

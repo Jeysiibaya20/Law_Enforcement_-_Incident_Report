@@ -1,0 +1,1367 @@
+[
+  {
+    "id": "064509001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alimango",
+      "en": "Alimango",
+      "slug": "alimango-064509001"
+    },
+    "code": {
+      "id": "064509001",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.834",
+      "lon": "123.5211"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balintawak (Pob.)",
+      "en": "Balintawak (Pob.)",
+      "slug": "balintawak-pob-064509002"
+    },
+    "code": {
+      "id": "064509002",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "14.6506",
+      "lon": "121.0014"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binaguiohan",
+      "en": "Binaguiohan",
+      "slug": "binaguiohan-064509004"
+    },
+    "code": {
+      "id": "064509004",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.833",
+      "lon": "123.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buenavista",
+      "en": "Buenavista",
+      "slug": "buenavista-064509005"
+    },
+    "code": {
+      "id": "064509005",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "8.97",
+      "lon": "125.41"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cervantes",
+      "en": "Cervantes",
+      "slug": "cervantes-064509006"
+    },
+    "code": {
+      "id": "064509006",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "16.9917",
+      "lon": "120.7333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dian-ay",
+      "en": "Dian-ay",
+      "slug": "dian-ay-064509007"
+    },
+    "code": {
+      "id": "064509007",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.8333",
+      "lon": "123.55"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hacienda Fe",
+      "en": "Hacienda Fe",
+      "slug": "hacienda-fe-064509008"
+    },
+    "code": {
+      "id": "064509008",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.9493",
+      "lon": "123.2337"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Japitan",
+      "en": "Japitan",
+      "slug": "japitan-064509010"
+    },
+    "code": {
+      "id": "064509010",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.1279",
+      "lon": "123.5035"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Jonobjonob",
+      "en": "Jonobjonob",
+      "slug": "jonobjonob-064509009"
+    },
+    "code": {
+      "id": "064509009",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.8342",
+      "lon": "123.4865"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Langub",
+      "en": "Langub",
+      "slug": "langub-064509011"
+    },
+    "code": {
+      "id": "064509011",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.5774",
+      "lon": "123.7309"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Libertad",
+      "en": "Libertad",
+      "slug": "libertad-064509012"
+    },
+    "code": {
+      "id": "064509012",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.03",
+      "lon": "123.22"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabini",
+      "en": "Mabini",
+      "slug": "mabini-064509013"
+    },
+    "code": {
+      "id": "064509013",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "13.72",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magsaysay (Binabongol)",
+      "en": "Magsaysay (Binabongol)",
+      "slug": "magsaysay-binabongol-064509003"
+    },
+    "code": {
+      "id": "064509003",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "6.77",
+      "lon": "125.18"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malasibog",
+      "en": "Malasibog",
+      "slug": "malasibog-064509014"
+    },
+    "code": {
+      "id": "064509014",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.833",
+      "lon": "123.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Old Poblacion",
+      "en": "Old Poblacion",
+      "slug": "old-poblacion-064509017"
+    },
+    "code": {
+      "id": "064509017",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Paitan",
+      "en": "Paitan",
+      "slug": "paitan-064509015"
+    },
+    "code": {
+      "id": "064509015",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "6.6356",
+      "lon": "125.2458"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pinapugasan",
+      "en": "Pinapugasan",
+      "slug": "pinapugasan-064509016"
+    },
+    "code": {
+      "id": "064509016",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.833",
+      "lon": "123.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rizal",
+      "en": "Rizal",
+      "slug": "rizal-064509018"
+    },
+    "code": {
+      "id": "064509018",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "15.71",
+      "lon": "121.1047"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tamlang",
+      "en": "Tamlang",
+      "slug": "tamlang-064509019"
+    },
+    "code": {
+      "id": "064509019",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.8167",
+      "lon": "123.4333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Udtongan",
+      "en": "Udtongan",
+      "slug": "udtongan-064509020"
+    },
+    "code": {
+      "id": "064509020",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.7733",
+      "lon": "123.52"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064509021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Washington",
+      "en": "Washington",
+      "slug": "washington-064509021"
+    },
+    "code": {
+      "id": "064509021",
+      "iso": null
+    },
+    "parent": {
+      "id": "064509",
+      "level": 3,
+      "name": {
+        "local": "Escalante",
+        "en": "Escalante",
+        "slug": "escalante-064509"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "064500",
+        "level": 2,
+        "name": {
+          "local": "Negros Occidental",
+          "en": "Negros Occidental",
+          "slug": "negros-occidental-064500"
+        }
+      },
+      {
+        "id": "064509",
+        "level": 3,
+        "name": {
+          "local": "Escalante",
+          "en": "Escalante",
+          "slug": "escalante-064509"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6124"
+    ],
+    "geo": {
+      "lat": "10.8562",
+      "lon": "123.5207"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

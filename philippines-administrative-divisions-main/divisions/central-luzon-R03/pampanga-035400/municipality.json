@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "035401",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Angeles City",
+      "en": "Angeles City",
+      "slug": "angeles-city-035401"
+    },
+    "code": {
+      "id": "035401",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.1701",
+      "lon": "121.3044"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035402",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Apalit",
+      "en": "Apalit",
+      "slug": "apalit-035402"
+    },
+    "code": {
+      "id": "035402",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.95",
+      "lon": "120.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035403",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Arayat",
+      "en": "Arayat",
+      "slug": "arayat-035403"
+    },
+    "code": {
+      "id": "035403",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.15",
+      "lon": "120.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035404",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bacolor",
+      "en": "Bacolor",
+      "slug": "bacolor-035404"
+    },
+    "code": {
+      "id": "035404",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15",
+      "lon": "120.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035405",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Candaba",
+      "en": "Candaba",
+      "slug": "candaba-035405"
+    },
+    "code": {
+      "id": "035405",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.09333",
+      "lon": "120.82833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035406",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Floridablanca",
+      "en": "Floridablanca",
+      "slug": "floridablanca-035406"
+    },
+    "code": {
+      "id": "035406",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.933",
+      "lon": "120.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035407",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Guagua",
+      "en": "Guagua",
+      "slug": "guagua-035407"
+    },
+    "code": {
+      "id": "035407",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.967",
+      "lon": "120.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035408",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lubao",
+      "en": "Lubao",
+      "slug": "lubao-035408"
+    },
+    "code": {
+      "id": "035408",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 44
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.933",
+      "lon": "120.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035409",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mabalacat City",
+      "en": "Mabalacat City",
+      "slug": "mabalacat-city-035409"
+    },
+    "code": {
+      "id": "035409",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.217",
+      "lon": "120.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035410",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Macabebe",
+      "en": "Macabebe",
+      "slug": "macabebe-035410"
+    },
+    "code": {
+      "id": "035410",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.90806",
+      "lon": "120.71556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035411",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Magalang",
+      "en": "Magalang",
+      "slug": "magalang-035411"
+    },
+    "code": {
+      "id": "035411",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.217",
+      "lon": "120.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035412",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Masantol",
+      "en": "Masantol",
+      "slug": "masantol-035412"
+    },
+    "code": {
+      "id": "035412",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.9",
+      "lon": "120.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035413",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mexico",
+      "en": "Mexico",
+      "slug": "mexico-035413"
+    },
+    "code": {
+      "id": "035413",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 43
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.067",
+      "lon": "120.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035414",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Minalin",
+      "en": "Minalin",
+      "slug": "minalin-035414"
+    },
+    "code": {
+      "id": "035414",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.967",
+      "lon": "120.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035415",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Porac",
+      "en": "Porac",
+      "slug": "porac-035415"
+    },
+    "code": {
+      "id": "035415",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.07194",
+      "lon": "120.54194"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035416",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Fernando",
+      "en": "San Fernando",
+      "slug": "san-fernando-035416"
+    },
+    "code": {
+      "id": "035416",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.7847",
+      "lon": "121.7181"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035417",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Luis",
+      "en": "San Luis",
+      "slug": "san-luis-035417"
+    },
+    "code": {
+      "id": "035417",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.04",
+      "lon": "120.79194"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035418",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Simon",
+      "en": "San Simon",
+      "slug": "san-simon-035418"
+    },
+    "code": {
+      "id": "035418",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.99306",
+      "lon": "120.77694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035419",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Ana",
+      "en": "Santa Ana",
+      "slug": "santa-ana-035419"
+    },
+    "code": {
+      "id": "035419",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.09389",
+      "lon": "120.76806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035420",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Rita",
+      "en": "Santa Rita",
+      "slug": "santa-rita-035420"
+    },
+    "code": {
+      "id": "035420",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.467",
+      "lon": "124.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035421",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santo Tomas",
+      "en": "Santo Tomas",
+      "slug": "santo-tomas-035421"
+    },
+    "code": {
+      "id": "035421",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 7
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.71194",
+      "lon": "120.58472"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035422",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sasmuan (Sexmoan)",
+      "en": "Sasmuan (Sexmoan)",
+      "slug": "sasmuan-sexmoan-035422"
+    },
+    "code": {
+      "id": "035422",
+      "iso": null
+    },
+    "parent": {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.933",
+      "lon": "120.617"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

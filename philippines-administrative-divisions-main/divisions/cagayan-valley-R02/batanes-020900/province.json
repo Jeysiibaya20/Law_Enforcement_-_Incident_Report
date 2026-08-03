@@ -1,0 +1,48 @@
+{
+  "id": "020900",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Batanes",
+    "en": "Batanes",
+    "slug": "batanes-020900"
+  },
+  "code": {
+    "id": "020900",
+    "iso": null
+  },
+  "parent": {
+    "id": "R02",
+    "level": 1,
+    "name": {
+      "local": "Cagayan Valley",
+      "en": "Cagayan Valley",
+      "slug": "cagayan-valley-R02"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 6,
+    "barangay": 29
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "20.4421",
+    "lon": "121.9103"
+  },
+  "metadata": {},
+  "source": {}
+}

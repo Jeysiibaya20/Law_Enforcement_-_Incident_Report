@@ -1,0 +1,56 @@
+{
+  "id": "175903",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Cajidiocan",
+    "en": "Cajidiocan",
+    "slug": "cajidiocan-175903"
+  },
+  "code": {
+    "id": "175903",
+    "iso": null
+  },
+  "parent": {
+    "id": "175900",
+    "level": 2,
+    "name": {
+      "local": "Romblon",
+      "en": "Romblon",
+      "slug": "romblon-175900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175900",
+      "level": 2,
+      "name": {
+        "local": "Romblon",
+        "en": "Romblon",
+        "slug": "romblon-175900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.367",
+    "lon": "122.683"
+  },
+  "metadata": {},
+  "source": {}
+}

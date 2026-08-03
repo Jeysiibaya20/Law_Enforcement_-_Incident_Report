@@ -1,0 +1,56 @@
+{
+  "id": "052009",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Miguel",
+    "en": "San Miguel",
+    "slug": "san-miguel-052009"
+  },
+  "code": {
+    "id": "052009",
+    "iso": null
+  },
+  "parent": {
+    "id": "052000",
+    "level": 2,
+    "name": {
+      "local": "Catanduanes",
+      "en": "Catanduanes",
+      "slug": "catanduanes-052000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "052000",
+      "level": 2,
+      "name": {
+        "local": "Catanduanes",
+        "en": "Catanduanes",
+        "slug": "catanduanes-052000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 24
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.633",
+    "lon": "124.3"
+  },
+  "metadata": {},
+  "source": {}
+}

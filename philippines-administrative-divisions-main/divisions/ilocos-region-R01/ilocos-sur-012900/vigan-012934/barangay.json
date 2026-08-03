@@ -1,0 +1,2537 @@
+[
+  {
+    "id": "012934001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ayusan Norte",
+      "en": "Ayusan Norte",
+      "slug": "ayusan-norte-012934001"
+    },
+    "code": {
+      "id": "012934001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5722",
+      "lon": "120.3751"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ayusan Sur",
+      "en": "Ayusan Sur",
+      "slug": "ayusan-sur-012934002"
+    },
+    "code": {
+      "id": "012934002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5648",
+      "lon": "120.3729"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay I (Pob.)",
+      "en": "Barangay I (Pob.)",
+      "slug": "barangay-i-pob-012934003"
+    },
+    "code": {
+      "id": "012934003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay II (Pob.)",
+      "en": "Barangay II (Pob.)",
+      "slug": "barangay-ii-pob-012934004"
+    },
+    "code": {
+      "id": "012934004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay III (Pob.)",
+      "en": "Barangay III (Pob.)",
+      "slug": "barangay-iii-pob-012934005"
+    },
+    "code": {
+      "id": "012934005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay IV (Pob.)",
+      "en": "Barangay IV (Pob.)",
+      "slug": "barangay-iv-pob-012934006"
+    },
+    "code": {
+      "id": "012934006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934040",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay IX",
+      "en": "Barangay IX",
+      "slug": "barangay-ix-012934040"
+    },
+    "code": {
+      "id": "012934040",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay V (Pob.)",
+      "en": "Barangay V (Pob.)",
+      "slug": "barangay-v-pob-012934007"
+    },
+    "code": {
+      "id": "012934007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay VI (Pob.)",
+      "en": "Barangay VI (Pob.)",
+      "slug": "barangay-vi-pob-012934008"
+    },
+    "code": {
+      "id": "012934008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934038",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay VII",
+      "en": "Barangay VII",
+      "slug": "barangay-vii-012934038"
+    },
+    "code": {
+      "id": "012934038",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934039",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay VIII",
+      "en": "Barangay VIII",
+      "slug": "barangay-viii-012934039"
+    },
+    "code": {
+      "id": "012934039",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barraca",
+      "en": "Barraca",
+      "slug": "barraca-012934009"
+    },
+    "code": {
+      "id": "012934009",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5485",
+      "lon": "120.3635"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Beddeng Daya",
+      "en": "Beddeng Daya",
+      "slug": "beddeng-daya-012934011"
+    },
+    "code": {
+      "id": "012934011",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5567",
+      "lon": "120.3944"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Beddeng Laud",
+      "en": "Beddeng Laud",
+      "slug": "beddeng-laud-012934010"
+    },
+    "code": {
+      "id": "012934010",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5595",
+      "lon": "120.3906"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bongtolan",
+      "en": "Bongtolan",
+      "slug": "bongtolan-012934012"
+    },
+    "code": {
+      "id": "012934012",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5673",
+      "lon": "120.4043"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulala",
+      "en": "Bulala",
+      "slug": "bulala-012934013"
+    },
+    "code": {
+      "id": "012934013",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5589",
+      "lon": "120.3605"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabalangegan",
+      "en": "Cabalangegan",
+      "slug": "cabalangegan-012934014"
+    },
+    "code": {
+      "id": "012934014",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5625",
+      "lon": "120.3958"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabaroan Daya",
+      "en": "Cabaroan Daya",
+      "slug": "cabaroan-daya-012934015"
+    },
+    "code": {
+      "id": "012934015",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5862",
+      "lon": "120.3711"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabaroan Laud",
+      "en": "Cabaroan Laud",
+      "slug": "cabaroan-laud-012934016"
+    },
+    "code": {
+      "id": "012934016",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5696",
+      "lon": "120.4045"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Camangaan",
+      "en": "Camangaan",
+      "slug": "camangaan-012934017"
+    },
+    "code": {
+      "id": "012934017",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5588",
+      "lon": "120.4047"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Capangpangan",
+      "en": "Capangpangan",
+      "slug": "capangpangan-012934018"
+    },
+    "code": {
+      "id": "012934018",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5751",
+      "lon": "120.4003"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mindoro",
+      "en": "Mindoro",
+      "slug": "mindoro-012934020"
+    },
+    "code": {
+      "id": "012934020",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5592",
+      "lon": "120.3494"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nagsangalan",
+      "en": "Nagsangalan",
+      "slug": "nagsangalan-012934021"
+    },
+    "code": {
+      "id": "012934021",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5701",
+      "lon": "120.4086"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pantay Daya",
+      "en": "Pantay Daya",
+      "slug": "pantay-daya-012934022"
+    },
+    "code": {
+      "id": "012934022",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5691",
+      "lon": "120.3614"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pantay Fatima",
+      "en": "Pantay Fatima",
+      "slug": "pantay-fatima-012934023"
+    },
+    "code": {
+      "id": "012934023",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5313",
+      "lon": "120.406"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pantay Laud",
+      "en": "Pantay Laud",
+      "slug": "pantay-laud-012934024"
+    },
+    "code": {
+      "id": "012934024",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5659",
+      "lon": "120.359"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Paoa",
+      "en": "Paoa",
+      "slug": "paoa-012934025"
+    },
+    "code": {
+      "id": "012934025",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5651",
+      "lon": "120.3727"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Paratong",
+      "en": "Paratong",
+      "slug": "paratong-012934026"
+    },
+    "code": {
+      "id": "012934026",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.419",
+      "lon": "120.4685"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pong-ol",
+      "en": "Pong-ol",
+      "slug": "pong-ol-012934027"
+    },
+    "code": {
+      "id": "012934027",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.55",
+      "lon": "120.3667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Purok-a-bassit",
+      "en": "Purok-a-bassit",
+      "slug": "purok-a-bassit-012934028"
+    },
+    "code": {
+      "id": "012934028",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.57",
+      "lon": "120.38"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Purok-a-dackel",
+      "en": "Purok-a-dackel",
+      "slug": "purok-a-dackel-012934029"
+    },
+    "code": {
+      "id": "012934029",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.57",
+      "lon": "120.38"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Raois",
+      "en": "Raois",
+      "slug": "raois-012934030"
+    },
+    "code": {
+      "id": "012934030",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5701",
+      "lon": "120.4224"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934031",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rugsuanan",
+      "en": "Rugsuanan",
+      "slug": "rugsuanan-012934031"
+    },
+    "code": {
+      "id": "012934031",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5666",
+      "lon": "120.4175"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salindeg",
+      "en": "Salindeg",
+      "slug": "salindeg-012934032"
+    },
+    "code": {
+      "id": "012934032",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.55",
+      "lon": "120.3686"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-012934033"
+    },
+    "code": {
+      "id": "012934033",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.0983",
+      "lon": "120.4944"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Julian Norte",
+      "en": "San Julian Norte",
+      "slug": "san-julian-norte-012934034"
+    },
+    "code": {
+      "id": "012934034",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5727",
+      "lon": "120.4043"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Julian Sur",
+      "en": "San Julian Sur",
+      "slug": "san-julian-sur-012934035"
+    },
+    "code": {
+      "id": "012934035",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5689",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934036",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro",
+      "en": "San Pedro",
+      "slug": "san-pedro-012934036"
+    },
+    "code": {
+      "id": "012934036",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "16.955",
+      "lon": "120.4407"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934037",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tamag",
+      "en": "Tamag",
+      "slug": "tamag-012934037"
+    },
+    "code": {
+      "id": "012934037",
+      "iso": null
+    },
+    "parent": {
+      "id": "012934",
+      "level": 3,
+      "name": {
+        "local": "Vigan",
+        "en": "Vigan",
+        "slug": "vigan-012934"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012934",
+        "level": 3,
+        "name": {
+          "local": "Vigan",
+          "en": "Vigan",
+          "slug": "vigan-012934"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2700"
+    ],
+    "geo": {
+      "lat": "17.5602",
+      "lon": "120.3669"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

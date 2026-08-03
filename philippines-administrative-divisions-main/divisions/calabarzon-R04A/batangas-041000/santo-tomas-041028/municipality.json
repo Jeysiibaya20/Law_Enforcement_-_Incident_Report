@@ -1,0 +1,56 @@
+{
+  "id": "041028",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santo Tomas",
+    "en": "Santo Tomas",
+    "slug": "santo-tomas-041028"
+  },
+  "code": {
+    "id": "041028",
+    "iso": null
+  },
+  "parent": {
+    "id": "041000",
+    "level": 2,
+    "name": {
+      "local": "Batangas",
+      "en": "Batangas",
+      "slug": "batangas-041000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 30
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.10917",
+    "lon": "121.14194"
+  },
+  "metadata": {},
+  "source": {}
+}

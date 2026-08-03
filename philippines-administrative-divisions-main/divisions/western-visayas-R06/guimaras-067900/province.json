@@ -1,0 +1,48 @@
+{
+  "id": "067900",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Guimaras",
+    "en": "Guimaras",
+    "slug": "guimaras-067900"
+  },
+  "code": {
+    "id": "067900",
+    "iso": null
+  },
+  "parent": {
+    "id": "R06",
+    "level": 1,
+    "name": {
+      "local": "Western Visayas",
+      "en": "Western Visayas",
+      "slug": "western-visayas-R06"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 5,
+    "barangay": 98
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.0238",
+    "lon": "122.5175"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,1237 @@
+[
+  {
+    "id": "160209001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aclan",
+      "en": "Aclan",
+      "slug": "aclan-160209001"
+    },
+    "code": {
+      "id": "160209001",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "8.9914",
+      "lon": "125.3119"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Amontay",
+      "en": "Amontay",
+      "slug": "amontay-160209002"
+    },
+    "code": {
+      "id": "160209002",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "13.8353",
+      "lon": "122.1014"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ata-atahon",
+      "en": "Ata-atahon",
+      "slug": "ata-atahon-160209004"
+    },
+    "code": {
+      "id": "160209004",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "8.9833",
+      "lon": "125.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 1 (Pob.)",
+      "en": "Barangay 1 (Pob.)",
+      "slug": "barangay-1-pob-160209010"
+    },
+    "code": {
+      "id": "160209010",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 2 (Pob.)",
+      "en": "Barangay 2 (Pob.)",
+      "slug": "barangay-2-pob-160209011"
+    },
+    "code": {
+      "id": "160209011",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 3 (Pob.)",
+      "en": "Barangay 3 (Pob.)",
+      "slug": "barangay-3-pob-160209012"
+    },
+    "code": {
+      "id": "160209012",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 4 (Pob.)",
+      "en": "Barangay 4 (Pob.)",
+      "slug": "barangay-4-pob-160209013"
+    },
+    "code": {
+      "id": "160209013",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 5 (Pob.)",
+      "en": "Barangay 5 (Pob.)",
+      "slug": "barangay-5-pob-160209014"
+    },
+    "code": {
+      "id": "160209014",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 6 (Pob.)",
+      "en": "Barangay 6 (Pob.)",
+      "slug": "barangay-6-pob-160209015"
+    },
+    "code": {
+      "id": "160209015",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 7 (Pob.)",
+      "en": "Barangay 7 (Pob.)",
+      "slug": "barangay-7-pob-160209016"
+    },
+    "code": {
+      "id": "160209016",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Camagong",
+      "en": "Camagong",
+      "slug": "camagong-160209005"
+    },
+    "code": {
+      "id": "160209005",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "14.1084",
+      "lon": "122.0295"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cubi-cubi",
+      "en": "Cubi-cubi",
+      "slug": "cubi-cubi-160209006"
+    },
+    "code": {
+      "id": "160209006",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "8.9333",
+      "lon": "125.3417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Culit",
+      "en": "Culit",
+      "slug": "culit-160209007"
+    },
+    "code": {
+      "id": "160209007",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "8.9472",
+      "lon": "125.3569"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Jaguimitan",
+      "en": "Jaguimitan",
+      "slug": "jaguimitan-160209008"
+    },
+    "code": {
+      "id": "160209008",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "7.893",
+      "lon": "126.0614"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kinabjangan",
+      "en": "Kinabjangan",
+      "slug": "kinabjangan-160209009"
+    },
+    "code": {
+      "id": "160209009",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "8.9692",
+      "lon": "125.3575"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Punta",
+      "en": "Punta",
+      "slug": "punta-160209017"
+    },
+    "code": {
+      "id": "160209017",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "9.6167",
+      "lon": "125.6333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Ana",
+      "en": "Santa Ana",
+      "slug": "santa-ana-160209018"
+    },
+    "code": {
+      "id": "160209018",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "14.58",
+      "lon": "121.012"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talisay",
+      "en": "Talisay",
+      "slug": "talisay-160209019"
+    },
+    "code": {
+      "id": "160209019",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "10.25",
+      "lon": "123.83"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160209020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Triangulo",
+      "en": "Triangulo",
+      "slug": "triangulo-160209020"
+    },
+    "code": {
+      "id": "160209020",
+      "iso": null
+    },
+    "parent": {
+      "id": "160209",
+      "level": 3,
+      "name": {
+        "local": "Nasipit",
+        "en": "Nasipit",
+        "slug": "nasipit-160209"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160209",
+        "level": 3,
+        "name": {
+          "local": "Nasipit",
+          "en": "Nasipit",
+          "slug": "nasipit-160209"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8602"
+    ],
+    "geo": {
+      "lat": "8.9333",
+      "lon": "125.3417"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

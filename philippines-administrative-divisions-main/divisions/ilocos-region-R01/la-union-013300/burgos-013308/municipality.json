@@ -1,0 +1,56 @@
+{
+  "id": "013308",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Burgos",
+    "en": "Burgos",
+    "slug": "burgos-013308"
+  },
+  "code": {
+    "id": "013308",
+    "iso": null
+  },
+  "parent": {
+    "id": "013300",
+    "level": 2,
+    "name": {
+      "local": "La Union",
+      "en": "La Union",
+      "slug": "la-union-013300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 12
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.517",
+    "lon": "120.467"
+  },
+  "metadata": {},
+  "source": {}
+}

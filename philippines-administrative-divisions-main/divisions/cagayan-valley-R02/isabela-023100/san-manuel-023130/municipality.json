@@ -1,0 +1,56 @@
+{
+  "id": "023130",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Manuel",
+    "en": "San Manuel",
+    "slug": "san-manuel-023130"
+  },
+  "code": {
+    "id": "023130",
+    "iso": null
+  },
+  "parent": {
+    "id": "023100",
+    "level": 2,
+    "name": {
+      "local": "Isabela",
+      "en": "Isabela",
+      "slug": "isabela-023100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 19
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.017",
+    "lon": "121.633"
+  },
+  "metadata": {},
+  "source": {}
+}

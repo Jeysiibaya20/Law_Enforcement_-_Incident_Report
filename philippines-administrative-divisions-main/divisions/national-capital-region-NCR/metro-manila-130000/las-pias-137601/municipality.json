@@ -1,0 +1,56 @@
+{
+  "id": "137601",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Las Piñas",
+    "en": "Las Piñas",
+    "slug": "las-pias-137601"
+  },
+  "code": {
+    "id": "137601",
+    "iso": null
+  },
+  "parent": {
+    "id": "130000",
+    "level": 2,
+    "name": {
+      "local": "Kalakhang Maynila",
+      "en": "Metro Manila",
+      "slug": "metro-manila-130000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "NCR",
+      "level": 1,
+      "name": {
+        "local": "National Capital Region",
+        "en": "National Capital Region",
+        "slug": "national-capital-region-NCR"
+      }
+    },
+    {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 20
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.1965",
+    "lon": "121.1925"
+  },
+  "metadata": {},
+  "source": {}
+}

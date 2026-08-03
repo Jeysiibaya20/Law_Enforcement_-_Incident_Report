@@ -1,0 +1,782 @@
+[
+  {
+    "id": "166814001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alegria",
+      "en": "Alegria",
+      "slug": "alegria-166814001"
+    },
+    "code": {
+      "id": "166814001",
+      "iso": null
+    },
+    "parent": {
+      "id": "166814",
+      "level": 3,
+      "name": {
+        "local": "Marihatag",
+        "en": "Marihatag",
+        "slug": "marihatag-166814"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166814",
+        "level": 3,
+        "name": {
+          "local": "Marihatag",
+          "en": "Marihatag",
+          "slug": "marihatag-166814"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8306"
+    ],
+    "geo": {
+      "lat": "9.7243",
+      "lon": "123.3402"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166814002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Amontay",
+      "en": "Amontay",
+      "slug": "amontay-166814002"
+    },
+    "code": {
+      "id": "166814002",
+      "iso": null
+    },
+    "parent": {
+      "id": "166814",
+      "level": 3,
+      "name": {
+        "local": "Marihatag",
+        "en": "Marihatag",
+        "slug": "marihatag-166814"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166814",
+        "level": 3,
+        "name": {
+          "local": "Marihatag",
+          "en": "Marihatag",
+          "slug": "marihatag-166814"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8306"
+    ],
+    "geo": {
+      "lat": "13.8353",
+      "lon": "122.1014"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166814003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Antipolo",
+      "en": "Antipolo",
+      "slug": "antipolo-166814003"
+    },
+    "code": {
+      "id": "166814003",
+      "iso": null
+    },
+    "parent": {
+      "id": "166814",
+      "level": 3,
+      "name": {
+        "local": "Marihatag",
+        "en": "Marihatag",
+        "slug": "marihatag-166814"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166814",
+        "level": 3,
+        "name": {
+          "local": "Marihatag",
+          "en": "Marihatag",
+          "slug": "marihatag-166814"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8306"
+    ],
+    "geo": {
+      "lat": "8.7772",
+      "lon": "126.2786"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166814004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Arorogan",
+      "en": "Arorogan",
+      "slug": "arorogan-166814004"
+    },
+    "code": {
+      "id": "166814004",
+      "iso": null
+    },
+    "parent": {
+      "id": "166814",
+      "level": 3,
+      "name": {
+        "local": "Marihatag",
+        "en": "Marihatag",
+        "slug": "marihatag-166814"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166814",
+        "level": 3,
+        "name": {
+          "local": "Marihatag",
+          "en": "Marihatag",
+          "slug": "marihatag-166814"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8306"
+    ],
+    "geo": {
+      "lat": "8.8",
+      "lon": "126.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166814005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bayan",
+      "en": "Bayan",
+      "slug": "bayan-166814005"
+    },
+    "code": {
+      "id": "166814005",
+      "iso": null
+    },
+    "parent": {
+      "id": "166814",
+      "level": 3,
+      "name": {
+        "local": "Marihatag",
+        "en": "Marihatag",
+        "slug": "marihatag-166814"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166814",
+        "level": 3,
+        "name": {
+          "local": "Marihatag",
+          "en": "Marihatag",
+          "slug": "marihatag-166814"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8306"
+    ],
+    "geo": {
+      "lat": "13.3764",
+      "lon": "121.0897"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166814006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mahaba",
+      "en": "Mahaba",
+      "slug": "mahaba-166814006"
+    },
+    "code": {
+      "id": "166814006",
+      "iso": null
+    },
+    "parent": {
+      "id": "166814",
+      "level": 3,
+      "name": {
+        "local": "Marihatag",
+        "en": "Marihatag",
+        "slug": "marihatag-166814"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166814",
+        "level": 3,
+        "name": {
+          "local": "Marihatag",
+          "en": "Marihatag",
+          "slug": "marihatag-166814"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8306"
+    ],
+    "geo": {
+      "lat": "13.2676",
+      "lon": "123.5514"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166814007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mararag",
+      "en": "Mararag",
+      "slug": "mararag-166814007"
+    },
+    "code": {
+      "id": "166814007",
+      "iso": null
+    },
+    "parent": {
+      "id": "166814",
+      "level": 3,
+      "name": {
+        "local": "Marihatag",
+        "en": "Marihatag",
+        "slug": "marihatag-166814"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166814",
+        "level": 3,
+        "name": {
+          "local": "Marihatag",
+          "en": "Marihatag",
+          "slug": "marihatag-166814"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8306"
+    ],
+    "geo": {
+      "lat": "8.8275",
+      "lon": "126.297"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166814008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-166814008"
+    },
+    "code": {
+      "id": "166814008",
+      "iso": null
+    },
+    "parent": {
+      "id": "166814",
+      "level": 3,
+      "name": {
+        "local": "Marihatag",
+        "en": "Marihatag",
+        "slug": "marihatag-166814"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166814",
+        "level": 3,
+        "name": {
+          "local": "Marihatag",
+          "en": "Marihatag",
+          "slug": "marihatag-166814"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8306"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166814009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio",
+      "en": "San Antonio",
+      "slug": "san-antonio-166814009"
+    },
+    "code": {
+      "id": "166814009",
+      "iso": null
+    },
+    "parent": {
+      "id": "166814",
+      "level": 3,
+      "name": {
+        "local": "Marihatag",
+        "en": "Marihatag",
+        "slug": "marihatag-166814"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166814",
+        "level": 3,
+        "name": {
+          "local": "Marihatag",
+          "en": "Marihatag",
+          "slug": "marihatag-166814"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8306"
+    ],
+    "geo": {
+      "lat": "15.3078",
+      "lon": "120.8533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166814010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-166814010"
+    },
+    "code": {
+      "id": "166814010",
+      "iso": null
+    },
+    "parent": {
+      "id": "166814",
+      "level": 3,
+      "name": {
+        "local": "Marihatag",
+        "en": "Marihatag",
+        "slug": "marihatag-166814"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166814",
+        "level": 3,
+        "name": {
+          "local": "Marihatag",
+          "en": "Marihatag",
+          "slug": "marihatag-166814"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8306"
+    ],
+    "geo": {
+      "lat": "8.8133",
+      "lon": "126.2489"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166814011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro",
+      "en": "San Pedro",
+      "slug": "san-pedro-166814011"
+    },
+    "code": {
+      "id": "166814011",
+      "iso": null
+    },
+    "parent": {
+      "id": "166814",
+      "level": 3,
+      "name": {
+        "local": "Marihatag",
+        "en": "Marihatag",
+        "slug": "marihatag-166814"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166814",
+        "level": 3,
+        "name": {
+          "local": "Marihatag",
+          "en": "Marihatag",
+          "slug": "marihatag-166814"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8306"
+    ],
+    "geo": {
+      "lat": "14.3583",
+      "lon": "121.0583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166814012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-166814012"
+    },
+    "code": {
+      "id": "166814012",
+      "iso": null
+    },
+    "parent": {
+      "id": "166814",
+      "level": 3,
+      "name": {
+        "local": "Marihatag",
+        "en": "Marihatag",
+        "slug": "marihatag-166814"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166814",
+        "level": 3,
+        "name": {
+          "local": "Marihatag",
+          "en": "Marihatag",
+          "slug": "marihatag-166814"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8306"
+    ],
+    "geo": {
+      "lat": "8.8352",
+      "lon": "126.3128"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

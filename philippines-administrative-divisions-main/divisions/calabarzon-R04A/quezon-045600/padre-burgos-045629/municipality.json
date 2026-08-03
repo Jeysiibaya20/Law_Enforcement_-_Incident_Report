@@ -1,0 +1,56 @@
+{
+  "id": "045629",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Padre Burgos",
+    "en": "Padre Burgos",
+    "slug": "padre-burgos-045629"
+  },
+  "code": {
+    "id": "045629",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 22
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.033",
+    "lon": "125.017"
+  },
+  "metadata": {},
+  "source": {}
+}

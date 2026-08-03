@@ -1,0 +1,56 @@
+{
+  "id": "037703",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Dilasag",
+    "en": "Dilasag",
+    "slug": "dilasag-037703"
+  },
+  "code": {
+    "id": "037703",
+    "iso": null
+  },
+  "parent": {
+    "id": "037700",
+    "level": 2,
+    "name": {
+      "local": "Aurora",
+      "en": "Aurora",
+      "slug": "aurora-037700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "037700",
+      "level": 2,
+      "name": {
+        "local": "Aurora",
+        "en": "Aurora",
+        "slug": "aurora-037700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.4",
+    "lon": "122.217"
+  },
+  "metadata": {},
+  "source": {}
+}

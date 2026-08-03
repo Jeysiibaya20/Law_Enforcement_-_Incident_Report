@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "031401",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Angat",
+      "en": "Angat",
+      "slug": "angat-031401"
+    },
+    "code": {
+      "id": "031401",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.933",
+      "lon": "121.033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031402",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balagtas (Bigaa)",
+      "en": "Balagtas (Bigaa)",
+      "slug": "balagtas-bigaa-031402"
+    },
+    "code": {
+      "id": "031402",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.817",
+      "lon": "120.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031403",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Baliuag",
+      "en": "Baliuag",
+      "slug": "baliuag-031403"
+    },
+    "code": {
+      "id": "031403",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.95",
+      "lon": "120.883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031404",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bocaue",
+      "en": "Bocaue",
+      "slug": "bocaue-031404"
+    },
+    "code": {
+      "id": "031404",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.8",
+      "lon": "120.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031405",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bulacan",
+      "en": "Bulacan",
+      "slug": "bulacan-031405"
+    },
+    "code": {
+      "id": "031405",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.79306",
+      "lon": "120.87889"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bustos",
+      "en": "Bustos",
+      "slug": "bustos-031406"
+    },
+    "code": {
+      "id": "031406",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.95",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031407",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calumpit",
+      "en": "Calumpit",
+      "slug": "calumpit-031407"
+    },
+    "code": {
+      "id": "031407",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.917",
+      "lon": "120.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031424",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Doña Remedios Trinidad",
+      "en": "Doña Remedios Trinidad",
+      "slug": "doa-remedios-trinidad-031424"
+    },
+    "code": {
+      "id": "031424",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15",
+      "lon": "121.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031408",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Guiguinto",
+      "en": "Guiguinto",
+      "slug": "guiguinto-031408"
+    },
+    "code": {
+      "id": "031408",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.833",
+      "lon": "120.883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031409",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Hagonoy",
+      "en": "Hagonoy",
+      "slug": "hagonoy-031409"
+    },
+    "code": {
+      "id": "031409",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.833",
+      "lon": "120.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031410",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malolos",
+      "en": "Malolos",
+      "slug": "malolos-031410"
+    },
+    "code": {
+      "id": "031410",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 51
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.84333",
+      "lon": "120.81139"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031411",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Marilao",
+      "en": "Marilao",
+      "slug": "marilao-031411"
+    },
+    "code": {
+      "id": "031411",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.75806",
+      "lon": "120.94806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031412",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Meycauayan",
+      "en": "Meycauayan",
+      "slug": "meycauayan-031412"
+    },
+    "code": {
+      "id": "031412",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.733",
+      "lon": "120.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031413",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Norzagaray",
+      "en": "Norzagaray",
+      "slug": "norzagaray-031413"
+    },
+    "code": {
+      "id": "031413",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.917",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031414",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Obando",
+      "en": "Obando",
+      "slug": "obando-031414"
+    },
+    "code": {
+      "id": "031414",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.7",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031415",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pandi",
+      "en": "Pandi",
+      "slug": "pandi-031415"
+    },
+    "code": {
+      "id": "031415",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.867",
+      "lon": "120.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031416",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Paombong",
+      "en": "Paombong",
+      "slug": "paombong-031416"
+    },
+    "code": {
+      "id": "031416",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.83111",
+      "lon": "120.78917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031417",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Plaridel",
+      "en": "Plaridel",
+      "slug": "plaridel-031417"
+    },
+    "code": {
+      "id": "031417",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.883",
+      "lon": "120.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031418",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pulilan",
+      "en": "Pulilan",
+      "slug": "pulilan-031418"
+    },
+    "code": {
+      "id": "031418",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.9",
+      "lon": "120.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031419",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Ildefonso",
+      "en": "San Ildefonso",
+      "slug": "san-ildefonso-031419"
+    },
+    "code": {
+      "id": "031419",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 36
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.07889",
+      "lon": "120.94194"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031420",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Jose Del Monte",
+      "en": "San Jose Del Monte",
+      "slug": "san-jose-del-monte-031420"
+    },
+    "code": {
+      "id": "031420",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 59
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.81389",
+      "lon": "121.04528"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031421",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-031421"
+    },
+    "code": {
+      "id": "031421",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 49
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.14583",
+      "lon": "120.97833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031422",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Rafael",
+      "en": "San Rafael",
+      "slug": "san-rafael-031422"
+    },
+    "code": {
+      "id": "031422",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.95",
+      "lon": "120.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031423",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Maria",
+      "en": "Santa Maria",
+      "slug": "santa-maria-031423"
+    },
+    "code": {
+      "id": "031423",
+      "iso": null
+    },
+    "parent": {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.817",
+      "lon": "120.95"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

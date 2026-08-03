@@ -1,0 +1,56 @@
+{
+  "id": "157003",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Mapun (Cagayan De Tawi-Tawi)",
+    "en": "Mapun (Cagayan De Tawi-Tawi)",
+    "slug": "mapun-cagayan-de-tawi-tawi-157003"
+  },
+  "code": {
+    "id": "157003",
+    "iso": null
+  },
+  "parent": {
+    "id": "157000",
+    "level": 2,
+    "name": {
+      "local": "Tawi-tawi",
+      "en": "Tawi-tawi",
+      "slug": "tawi-tawi-157000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7",
+    "lon": "118.5"
+  },
+  "metadata": {},
+  "source": {}
+}

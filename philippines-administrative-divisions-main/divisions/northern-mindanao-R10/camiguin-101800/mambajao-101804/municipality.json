@@ -1,0 +1,56 @@
+{
+  "id": "101804",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Mambajao",
+    "en": "Mambajao",
+    "slug": "mambajao-101804"
+  },
+  "code": {
+    "id": "101804",
+    "iso": null
+  },
+  "parent": {
+    "id": "101800",
+    "level": 2,
+    "name": {
+      "local": "Camiguin",
+      "en": "Camiguin",
+      "slug": "camiguin-101800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "101800",
+      "level": 2,
+      "name": {
+        "local": "Camiguin",
+        "en": "Camiguin",
+        "slug": "camiguin-101800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.25",
+    "lon": "124.717"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,457 @@
+[
+  {
+    "id": "012910001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alfonso (Tangaoan)",
+      "en": "Alfonso (Tangaoan)",
+      "slug": "alfonso-tangaoan-012910001"
+    },
+    "code": {
+      "id": "012910001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012910",
+      "level": 3,
+      "name": {
+        "local": "Gregorio Del Pilar (Concepcion)",
+        "en": "Gregorio Del Pilar (Concepcion)",
+        "slug": "gregorio-del-pilar-concepcion-012910"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012910",
+        "level": 3,
+        "name": {
+          "local": "Gregorio Del Pilar (Concepcion)",
+          "en": "Gregorio Del Pilar (Concepcion)",
+          "slug": "gregorio-del-pilar-concepcion-012910"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2720"
+    ],
+    "geo": {
+      "lat": "17.1694",
+      "lon": "120.6108"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012910002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bussot",
+      "en": "Bussot",
+      "slug": "bussot-012910002"
+    },
+    "code": {
+      "id": "012910002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012910",
+      "level": 3,
+      "name": {
+        "local": "Gregorio Del Pilar (Concepcion)",
+        "en": "Gregorio Del Pilar (Concepcion)",
+        "slug": "gregorio-del-pilar-concepcion-012910"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012910",
+        "level": 3,
+        "name": {
+          "local": "Gregorio Del Pilar (Concepcion)",
+          "en": "Gregorio Del Pilar (Concepcion)",
+          "slug": "gregorio-del-pilar-concepcion-012910"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2720"
+    ],
+    "geo": {
+      "lat": "17.1167",
+      "lon": "120.6167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012910003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Concepcion",
+      "en": "Concepcion",
+      "slug": "concepcion-012910003"
+    },
+    "code": {
+      "id": "012910003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012910",
+      "level": 3,
+      "name": {
+        "local": "Gregorio Del Pilar (Concepcion)",
+        "en": "Gregorio Del Pilar (Concepcion)",
+        "slug": "gregorio-del-pilar-concepcion-012910"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012910",
+        "level": 3,
+        "name": {
+          "local": "Gregorio Del Pilar (Concepcion)",
+          "en": "Gregorio Del Pilar (Concepcion)",
+          "slug": "gregorio-del-pilar-concepcion-012910"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2720"
+    ],
+    "geo": {
+      "lat": "17.1483",
+      "lon": "120.6111"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012910004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dapdappig",
+      "en": "Dapdappig",
+      "slug": "dapdappig-012910004"
+    },
+    "code": {
+      "id": "012910004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012910",
+      "level": 3,
+      "name": {
+        "local": "Gregorio Del Pilar (Concepcion)",
+        "en": "Gregorio Del Pilar (Concepcion)",
+        "slug": "gregorio-del-pilar-concepcion-012910"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012910",
+        "level": 3,
+        "name": {
+          "local": "Gregorio Del Pilar (Concepcion)",
+          "en": "Gregorio Del Pilar (Concepcion)",
+          "slug": "gregorio-del-pilar-concepcion-012910"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2720"
+    ],
+    "geo": {
+      "lat": "17.1333",
+      "lon": "120.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012910005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Matue-Butarag",
+      "en": "Matue-Butarag",
+      "slug": "matue-butarag-012910005"
+    },
+    "code": {
+      "id": "012910005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012910",
+      "level": 3,
+      "name": {
+        "local": "Gregorio Del Pilar (Concepcion)",
+        "en": "Gregorio Del Pilar (Concepcion)",
+        "slug": "gregorio-del-pilar-concepcion-012910"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012910",
+        "level": 3,
+        "name": {
+          "local": "Gregorio Del Pilar (Concepcion)",
+          "en": "Gregorio Del Pilar (Concepcion)",
+          "slug": "gregorio-del-pilar-concepcion-012910"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2720"
+    ],
+    "geo": {
+      "lat": "6.4541",
+      "lon": "124.8801"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012910007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Norte",
+      "en": "Poblacion Norte",
+      "slug": "poblacion-norte-012910007"
+    },
+    "code": {
+      "id": "012910007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012910",
+      "level": 3,
+      "name": {
+        "local": "Gregorio Del Pilar (Concepcion)",
+        "en": "Gregorio Del Pilar (Concepcion)",
+        "slug": "gregorio-del-pilar-concepcion-012910"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012910",
+        "level": 3,
+        "name": {
+          "local": "Gregorio Del Pilar (Concepcion)",
+          "en": "Gregorio Del Pilar (Concepcion)",
+          "slug": "gregorio-del-pilar-concepcion-012910"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2720"
+    ],
+    "geo": {
+      "lat": "10.5193",
+      "lon": "121.9506"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012910008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Sur",
+      "en": "Poblacion Sur",
+      "slug": "poblacion-sur-012910008"
+    },
+    "code": {
+      "id": "012910008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012910",
+      "level": 3,
+      "name": {
+        "local": "Gregorio Del Pilar (Concepcion)",
+        "en": "Gregorio Del Pilar (Concepcion)",
+        "slug": "gregorio-del-pilar-concepcion-012910"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012910",
+        "level": 3,
+        "name": {
+          "local": "Gregorio Del Pilar (Concepcion)",
+          "en": "Gregorio Del Pilar (Concepcion)",
+          "slug": "gregorio-del-pilar-concepcion-012910"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2720"
+    ],
+    "geo": {
+      "lat": "15.6676",
+      "lon": "120.5811"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

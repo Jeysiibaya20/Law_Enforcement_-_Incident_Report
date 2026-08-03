@@ -1,329 +1,420 @@
-
-<?php
+﻿<?php
 if (session_status() === PHP_SESSION_NONE) {
-    @session_start();
+    session_start();
 }
 require_once __DIR__ . '/../config/LanguageManager.php';
 
-$current_page = basename($_SERVER['PHP_SELF'], '.php');
-$user_role = $_SESSION['role'] ?? 'Costumer';
-$current_lang = LanguageManager::getCurrentLanguage();
-$supported_langs = LanguageManager::getSupportedLanguages();
+$current_page = strtolower(basename($_SERVER['PHP_SELF'], '.php'));
 
-// Calculate base URL dynamically - detect if we're in modules or root
 $script_dir = dirname($_SERVER['SCRIPT_NAME']);
-// If we're inside the modules or admin folder, use parent base URL
 $in_subfolder = (strpos($script_dir, '/modules') !== false) || (strpos($script_dir, '/admin') !== false);
 $base_url = $in_subfolder ? '../' : '';
+$role = strtolower(trim($_SESSION['role'] ?? 'user'));
+$is_admin = $role === 'admin';
+$is_officer = $role === 'officer';
+$is_user = !$is_admin && !$is_officer;
 
-// Create absolute paths for navigation - adjust for current directory
-$root_path = $base_url;
-$dashboard_path = $root_path . 'admin/reports.php';
-$admin_panel_path = $root_path . 'admin/dashboard.php';
-$analytics_dashboard_path = $root_path . 'admin/analytics_dashboard.php';
-$reports_path = $root_path . 'admin/reports.php';
-$setup_automated_reports_path = $root_path . 'admin/setup_automated_reports.php';
-$test_reports_path = $root_path . 'admin/test_reports_analytics.php';
-$new_hire_path = $root_path . 'admin/analytics_dashboard.php';
-$performance_path = $root_path . 'modules/blotter.php';
-// For regular users, link to 'My Reports' which lists their submitted incidents.
-$recruitment_path = $root_path . 'modules/incident_report.php';
-$my_reports_path = $root_path . 'modules/my_reports.php';
-$recognition_path = $root_path . 'modules/CaseAssign.php';
-$competency_path = $root_path . 'modules/competency.php';
-$succession_path = $root_path . 'modules/succession.php';
-$learning_path = $root_path . 'modules/learning.php';
-$recognition_path = $root_path . 'admin/cases.php';
-$crime_mapping_path = $root_path . 'modules/crime_mapping.php';
+$dashboard_path = $is_admin ? $base_url . 'admin/dashboard.php' : $base_url . 'modules/my_reports.php';
+$my_reports_path = $base_url . 'modules/my_reports.php';
+$watch_path = $base_url . 'modules/Blotter.php';
+$cctv_path = $base_url . 'modules/crime_mapping.php';
+$request_path = $base_url . 'modules/Request_form.php';
+$complaint_path = $base_url . 'modules/Incident_report.php';
+$complaint_path = $base_url . 'modules/Request_form.php';
+$patrol_path = $base_url . 'modules/succession.php';
+$awareness_path = $base_url . 'modules/learning.php';
+$user_management_path = $base_url . 'admin/users.php';
+$logout_path = $base_url . 'auth/logout.php';
+
+$display_name = htmlspecialchars($_SESSION['first_name'] ?? 'Officer');
+$display_role = htmlspecialchars($role === 'admin' ? 'Admin' : ($role === 'officer' ? 'Officer' : 'User'));
 ?>
 
-<!-- Mobile Menu Toggle Button -->
-<button class="mobile-menu-toggle" id="menuToggle" onclick="toggleSidebar()">
+<style>
+    :root {
+        --alertara-dropdown-bg: rgba(247, 241, 241, 0.97);
+        --alertara-dropdown-hover: rgba(245, 245, 243, 0.97);
+        --alertara-dropdown-active: #eceef1;
+        --alertara-dropdown-text: #f8fafc;
+        --alertara-dropdown-border: rgb(0, 0, 0);
+    }
+
+    .alertara-group {
+        margin: 0.25rem 0;
+    }
+
+    .alertara-group-toggle {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.8rem 0.95rem;
+        border: 1px solid transparent;
+        border-radius: 0.75rem;
+        background: transparent;
+        color: #ffffff;
+        transition: all 0.2s ease;
+    }
+
+    .alertara-group-toggle:hover,
+    .alertara-group-toggle.active {
+        background: transparent !important;
+        border-color: transparent;
+        color: #ffffff !important;
+    }
+
+    .alertara-group-toggle.active {
+        box-shadow: inset 0 0 0 1px rgba(248, 246, 246, 0.92);
+    }
+
+    .alertara-group-panel {
+        display: none;
+        margin: 0.25rem 0 0.35rem 0.9rem;
+        padding: 0.25rem 0;
+        border-left: 2px solid var(--alertara-dropdown-border);
+    }
+
+    .alertara-group-panel.show {
+        display: block;
+    }
+
+    .alertara-group-panel .alertara-link {
+        margin: 0.2rem 0;
+        padding: 0.7rem 0.85rem;
+        border-radius: 0.6rem;
+        color: #ffffff;
+        background: transparent;
+    }
+
+    .alertara-group-panel .alertara-link:hover,
+    .alertara-group-panel .alertara-link.active {
+        background: transparent !important;
+        color: #ffffff !important;
+    }
+
+    .alertara-link:hover,
+    .alertara-link.active {
+        background: transparent !important;
+        color: #000000 !important;
+    }
+
+    .alertara-link .link-text,
+    .alertara-group-toggle .link-text,
+    .alertara-group-panel .alertara-link .link-text {
+        color: #0c0101 !important;
+    }
+</style>
+
+<button class="alertara-mobile-toggle" id="alertaraMobileToggle" aria-label="Open navigation">
     <i class="bi bi-list"></i>
 </button>
 
-<!-- Expand Navigation Button (when sidebar is collapsed on desktop) -->
-<button class="navbar-expand-btn" id="expandBtn" onclick="toggleCollapse()" title="Show Navigation" aria-label="Show Navigation" style="display:flex;position:fixed;left:16px;top:16px;z-index:9999;align-items:center;justify-content:center;width:44px;height:44px;padding:6px;background:#0d6efd;color:#fff;border:2px solid rgba(255,255,255,0.9);border-radius:8px;box-shadow:0 6px 14px rgba(13,110,253,0.24);">
-    <i class="bi bi-chevron-right"></i>
-</button>
+<aside class="alertara-navbar collapsed" id="alertaraNavbar" aria-label="Primary navigation">
+    <div class="alertara-navbar-inner">
+        <div class="alertara-brand">
+            <div class="alertara-brand-icon">
+                <img src="<?php echo $base_url; ?>assets/css/tara.png" alt="Alertara logo">
+            </div>
+            <div class="alertara-brand-copy">
+                <span class="brand-name">Alertara</span>
+                <span class="brand-note">Incident Reporting</span>
+                <span class="role-badge"><?php echo ucfirst($display_role); ?></span>
+            </div>
+        </div>
 
-<!-- Sidebar Overlay for Mobile -->
-<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+        <div class="alertara-menu">
+            <a href="<?php echo $dashboard_path; ?>" class="alertara-link<?php echo in_array($current_page, ['reports','dashboard','index','my_reports']) ? ' active' : ''; ?>">
+                <span class="link-icon"><i class="bi bi-house-fill"></i></span>
+                <span class="link-text"><?php echo $is_admin ? LanguageManager::translate('dashboard') : 'My Reports'; ?></span>
+            </a>
 
-<script>
-    function changeLanguage() {
-        const form = document.getElementById('languageForm');
-        form.set_language.value = document.getElementById('langSelect').value;
-        form.submit();
-    }
+            <?php if ($is_user): ?>
+                <a href="<?php echo $watch_path; ?>" class="alertara-link<?php echo in_array($current_page, ['blotter','blotter_create','blotter_update','blotter_view']) ? ' active' : ''; ?>">
+                    <span class="link-icon"><i class="bi bi-journal-text"></i></span>
+                    <span class="link-text">Neighborhood Watch</span>
+                </a>
+            <?php elseif ($is_officer): ?>
+                <a href="<?php echo $watch_path; ?>" class="alertara-link<?php echo in_array($current_page, ['blotter','blotter_create','blotter_update','blotter_view']) ? ' active' : ''; ?>">
+                    <span class="link-icon"><i class="bi bi-journal-text"></i></span>
+                    <span class="link-text">Neighborhood Watch</span>
+                </a>
 
-    function toggleNavSection(titleElement) {
-        const content = titleElement.nextElementSibling;
-        const chevron = titleElement.querySelector('.nav-chevron');
-        const sectionName = titleElement.getAttribute('data-section');
-        
-        content.classList.toggle('hidden');
-        chevron.classList.toggle('rotated');
-        
-        // Save state to localStorage
-        localStorage.setItem('navSection_' + sectionName, content.classList.contains('hidden'));
-    }
-</script>
+                <a href="<?php echo $cctv_path; ?>" class="alertara-link<?php echo in_array($current_page, ['crime_mapping']) ? ' active' : ''; ?>">
+                    <span class="link-icon"><i class="bi bi-camera-video"></i></span>
+                    <span class="link-text">CCTV Surveillance</span>
+                </a>
 
-<div class="sidebar-wrapper" id="sidebar">
-    <!-- Collapse Button for Desktop / Close Button for Mobile -->
-    <button class="sidebar-close-btn" id="closeBtn" onclick="closeSidebar()">
-        <i class="bi bi-x"></i>
+                <a href="<?php echo $request_path; ?>" class="alertara-link<?php echo $current_page === 'request_form' ? ' active' : ''; ?>">
+                    <span class="link-icon"><i class="bi bi-card-checklist"></i></span>
+                    <span class="link-text">CCTV Request</span>
+                </a>
+
+                <a href="<?php echo $complaint_path; ?>" class="alertara-link<?php echo $current_page === 'incident_report' ? ' active' : ''; ?>">
+                    <span class="link-icon"><i class="bi bi-file-earmark-text"></i></span>
+                    <span class="link-text">Complaint Logging</span>
+                </a>
+
+                <a href="<?php echo $patrol_path; ?>" class="alertara-link<?php echo $current_page === 'succession' ? ' active' : ''; ?>">
+                    <span class="link-icon"><i class="bi bi-person-lines-fill"></i></span>
+                    <span class="link-text">Patrol Scheduling</span>
+                </a>
+
+                <a href="<?php echo $awareness_path; ?>" class="alertara-link<?php echo $current_page === 'learning' ? ' active' : ''; ?>">
+                    <span class="link-icon"><i class="bi bi-lightbulb-fill"></i></span>
+                    <span class="link-text">Awareness & Events</span>
+                </a>
+            <?php endif; ?>
+
+            <?php if ($is_admin): ?>
+
+                
+               <div class="alertara-group<?php echo in_array($current_page, ['blotters','certificate_of_file_action','blotter','blotter_create']) ? ' active' : ''; ?>">
+    <button class="alertara-link alertara-group-toggle<?php echo in_array($current_page, ['blotters','certificate_of_file_action','blotter','blotter_create']) ? ' active' : ''; ?>"
+            type="button"
+            aria-expanded="<?php echo in_array($current_page, ['blotters','certificate_of_file_action','blotter','blotter_create']) ? 'true' : 'false'; ?>"
+            aria-controls="blotter-menu-panel"
+            data-group="blotter-menu">
+        <span class="link-icon"><i class="bi bi-journal-text"></i></span>
+        <span class="link-text">Digital Blotter</span>
+        <span class="link-caret"><i class="bi bi-caret-down-fill"></i></span>
     </button>
-    <button class="sidebar-collapse-btn" id="collapseBtn" onclick="toggleCollapse()" title="Hide Navigation">
-        <i class="bi bi-chevron-left"></i>
+    <div class="alertara-group-panel<?php echo in_array($current_page, ['blotters','certificate_of_file_action','blotter','blotter_create']) ? ' show' : ''; ?>" id="blotter-menu-panel" data-group="blotter-menu">
+        <a href="<?php echo $base_url; ?>admin/blotters.php" class="alertara-link<?php echo $current_page === 'blotters' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-list-task"></i></span>
+            <span class="link-text">Blotters</span>
+        </a>
+        <a href="<?php echo $base_url; ?>admin/certificate_of_file_action.php" class="alertara-link<?php echo $current_page === 'certificate_of_file_action' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-file-earmark-text"></i></span>
+            <span class="link-text">Certificate of File Action</span>
+        </a>
+    </div>
+</div>
+<!-- Case Management -->
+<div class="alertara-group<?php echo in_array($current_page, ['cases','summons','hearing_schedule','hearing_result','settlement','close_cases']) ? ' active' : ''; ?>">
+    <button class="alertara-link alertara-group-toggle<?php echo in_array($current_page, ['cases','summons','hearing_schedule','hearing_result','settlement','close_cases']) ? ' active' : ''; ?>"
+            type="button"
+            aria-expanded="<?php echo in_array($current_page, ['cases','summons','hearing_schedule','hearing_result','settlement','close_cases']) ? 'true' : 'false'; ?>"
+            aria-controls="case-menu-panel"
+            data-group="case-menu">
+        <span class="link-icon"><i class="bi bi-clipboard-data"></i></span>
+        <span class="link-text">Case Management</span>
+        <span class="link-caret"><i class="bi bi-caret-down-fill"></i></span>
     </button>
-    
-    <div class="sidebar-header">
-        <div class="sidebar-logo">
-            <img src="<?php echo $base_url; ?>assets/css/tara.png" alt="Logo" class="sidebar-logo-image">
-        </div>
-        <div class="sidebar-title">Alertara</div>
-        <div class="sidebar-subtitle">Law Enforcemet & Incident Report</div>
-        
-        <!-- Language Selector -->
-        <div style="margin-top: 15px; padding: 10px 0; border-top: 1px solid rgba(255,255,255,0.2); border-bottom: 1px solid rgba(255,255,255,0.2);">
-            <form id="languageForm" method="POST" action="<?php echo $base_url; ?>config/LanguageManager.php" style="margin: 0;">
-                <select name="set_language" id="langSelect" onchange="changeLanguage()" style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid #ddd; background: white; color: #333; font-size: 13px; cursor: pointer;">
-                    <?php foreach ($supported_langs as $code => $lang_info): ?>
-                        <option value="<?php echo $code; ?>" <?php echo $current_lang === $code ? 'selected' : ''; ?>>
-                            <?php echo $lang_info['flag'] . ' ' . $lang_info['name']; ?>
-                        </option>
-                    <?php endforeach; ?>
-                </select>
-            </form>
-        </div>
-        
-                <?php if (isset($_SESSION['role']) && strtolower($_SESSION['role']) === 'admin'): ?>
-            <div class="mt-2 text-center">
-                <a href="<?php echo $base_url; ?>admin/account_approvals.php" class="btn btn-sm btn-outline-light">Account Approvals</a>
-            </div>
-        <?php endif; ?>
+    <div class="alertara-group-panel<?php echo in_array($current_page, ['cases','summons','hearing_schedule','hearing_result','settlement','close_cases']) ? ' show' : ''; ?>" id="case-menu-panel" data-group="case-menu">
+        <a href="<?php echo $base_url; ?>admin/Summons.php" class="alertara-link<?php echo $current_page === 'summons' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-list-task"></i></span>
+            <span class="link-text">Summons</span>
+        </a>
+        <a href="<?php echo $base_url; ?>admin/Hearing_schedule.php" class="alertara-link<?php echo $current_page === 'hearing_schedule' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-calendar-event"></i></span>
+            <span class="link-text">Hearing Schedule</span>
+        </a>
+        <a href="<?php echo $base_url; ?>admin/hearing_result.php" class="alertara-link<?php echo $current_page === 'hearing_result' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-clipboard-check"></i></span>
+            <span class="link-text">Hearing Result</span>
+        </a>
+        <a href="<?php echo $base_url; ?>admin/cases.php" class="alertara-link<?php echo $current_page === 'settlement' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-hand-thumbs-up"></i></span>
+            <span class="link-text">Settlement</span>
+        </a>
+        <a href="<?php echo $base_url; ?>admin/suspects&witnesses.php" class="alertara-link<?php echo $current_page === 'suspects&witnesses' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-person-lines-fill"></i></span>
+            <span class="link-text">Suspects & Witnesses</span>
+         </a>
+        <a href="<?php echo $base_url; ?>admin/cases.php" class="alertara-link<?php echo $current_page === 'close_cases' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-x-circle"></i></span>
+            <span class="link-text">Close Cases</span>
+        </a>
     </div>
-    <nav class="sidebar-nav">
-        <div class="nav-section">
-            <div class="nav-section-title" onclick="toggleNavSection(this)" data-section="dashboard">
-                <span><?php echo LanguageManager::translate('dashboard'); ?></span>
-                <i class="bi bi-chevron-down nav-chevron"></i>
-            </div>
-            <div class="nav-section-content">
-                <a href="<?php echo $dashboard_path; ?>" class="nav-link <?php echo ($current_page=='index')?'active':''; ?>" onclick="closeSidebar()">
-                    <i class="bi bi-speedometer2"></i> <span><?php echo LanguageManager::translate('dashboard analytics'); ?></span>
-                </a>
-                <?php if (isset($_SESSION['user_id'])): 
-                    // Check if user is admin
-                    require_once __DIR__ . '/../config/db_connect.php';
-                    $adminCheck = $pdo->prepare("SELECT role FROM signup WHERE user_id = ?");
-                    $adminCheck->execute([$_SESSION['user_id']]);
-                    $userRole = $adminCheck->fetch(PDO::FETCH_ASSOC);
-                    if ($userRole && strtolower($userRole['role']) === 'admin'):
-                ?>
-                <a href="<?php echo $admin_panel_path; ?>" class="nav-link <?php echo ($current_page=='dashboard' && strpos($_SERVER['PHP_SELF'], 'admin') !== false)?'active':''; ?>" onclick="closeSidebar()">
-                    <i class="bi bi-shield-lock"></i> <span><?php echo LanguageManager::translate('admin_panel'); ?></span>
-                </a>
-                <?php endif; endif; ?>
-            </div>
-        </div>
-        <?php if (isset($_SESSION['user_id'])): 
-            // Check user role and approval status
-            require_once __DIR__ . '/../config/db_connect.php';
-            $roleCheck = $pdo->prepare("SELECT role, email_verified, banned, admin_approved FROM signup WHERE user_id = ?");
-            $userRole = [];
-            $userApproved = true;
-            try {
-                $roleCheck->execute([$_SESSION['user_id']]);
-                $userRole = $roleCheck->fetch(PDO::FETCH_ASSOC);
-                $userApproved = !empty($userRole['admin_approved']) && (int)$userRole['admin_approved'] === 1;
-            } catch (Exception $e) {
-                $userApproved = true;
-            }
-            $userBanned = !empty($userRole['banned']);
-            $isOfficer = $userRole && strtolower($userRole['role']) === 'officer';
-            $isUser = $userRole && strtolower($userRole['role']) === 'user';
-            $needsApproval = !$userBanned && !($userRole && strtolower($userRole['role']) === 'admin') && !$userApproved;
-            
-            // Show Modules section only for non-Officer users
-            if (!$isOfficer):
-        ?>
-        <div class="nav-section">
-            <div class="nav-section-title" onclick="toggleNavSection(this)" data-section="modules">
-                <span><?php echo LanguageManager::translate('modules'); ?></span>
-                <i class="bi bi-chevron-down nav-chevron"></i>
-            </div>
-            <div class="nav-section-content">
-                <?php if (!$isUser): ?>
-
-                <?php endif; ?>
-                <?php if (!empty($userBanned) || $needsApproval): ?>
-                <a class="nav-link disabled" title="Access locked">
-                    <i class="bi bi-lock-fill"></i> <span><?php echo LanguageManager::translate('blotter'); ?></span>
-                </a>
-                <?php else: ?>
-                <a href="<?php echo $performance_path; ?>" class="nav-link <?php echo ($current_page=='performance')?'active':''; ?>" onclick="closeSidebar()">
-                    <i class="bi bi-journal-text"></i> <span><?php echo LanguageManager::translate('blotter'); ?></span>
-                </a>
-                <?php endif; ?>
-                <?php if ($userRole && strtolower($userRole['role']) === 'user'): ?>
-                    <?php if (!empty($userBanned) || $needsApproval): ?>
-                    <a class="nav-link disabled" title="Access locked">
-                        <i class="bi bi-briefcase"></i> <span>My Reports</span>
-                    </a>
-                    <?php else: ?>
-                    <a href="<?php echo $my_reports_path; ?>" class="nav-link <?php echo ($current_page=='recruitment')?'active':''; ?>" onclick="closeSidebar()">
-                        <i class="bi bi-briefcase"></i> <span>My Reports</span>
-                    </a>
-                    <?php endif; ?>
-                <?php else: ?>
-                    <?php if (!empty($userBanned) || $needsApproval): ?>
-                    <a class="nav-link disabled" title="Access locked">
-                        <i class="bi bi-briefcase"></i> <span><?php echo LanguageManager::translate('incident_report'); ?></span>
-                    </a>
-                    <?php else: ?>
-                    <a href="<?php echo $recruitment_path; ?>" class="nav-link <?php echo ($current_page=='recruitment')?'active':''; ?>" onclick="closeSidebar()">
-                        <i class="bi bi-briefcase"></i> <span><?php echo LanguageManager::translate('incident_report'); ?></span>
-                    </a>
-                    <?php endif; ?>
-                <?php endif; ?>
-                <?php if (!$isUser): ?>
-                <a href="<?php echo $recognition_path; ?>" class="nav-link <?php echo ($current_page=='recognition')?'active':''; ?>" onclick="closeSidebar()">
-                    <i class="bi bi-eye"></i> <span><?php echo LanguageManager::translate('case_management'); ?></span>
-                </a>
-                <?php if ($userRole && strtolower($userRole['role']) === 'admin'): ?>
-                <a href="<?php echo $base_url; ?>modules/evidence_collection.php" class="nav-link <?php echo ($current_page=='evidence_collection')?'active':''; ?>" onclick="closeSidebar()">
-                    <i class="bi bi-file-earmark-lock"></i> <span>Evidence Collection</span>
-                </a>
-                <a href="<?php echo $base_url; ?>modules/crime_mapping.php" class="nav-link <?php echo ($current_page=='crime_mapping')?'active':''; ?>" onclick="closeSidebar()">
-                    <i class="bi bi-map"></i> <span>Crime Mapping</span>
-                </a>
-                <a href="<?php echo $base_url; ?>modules/Request_form.php" class="nav-link <?php echo ($current_page=='request_form')?'active':''; ?>" onclick="closeSidebar()">
-                    <i class="bi bi-map"></i> <span>Request Form</span>
-                </a>
-                <?php endif; ?>
-                <?php endif; ?>
-            </div>
-        </div>
-        <?php endif; ?>
-        
-        <?php if ($isOfficer): ?>
-        <div class="nav-section">
-            <div class="nav-section-title"><span>Officer Tools</span><i class="bi bi-chevron-down nav-chevron"></i></div>
-            <a href="<?php echo $base_url; ?>officer/manage_staff.php" class="nav-link <?php echo ($current_page=='manage_staff')?'active':''; ?>" onclick="closeSidebar()">
-                <i class="bi bi-person-badge"></i> <span>Manage Staff</span>
-            </a>
-        </div>
-        <?php endif; ?>
-        <?php endif; ?>
-    </nav>
-    <?php if (isset($_SESSION['user_id'])): ?>
-    <div class="sidebar-user">
-        <div class="user-avatar"><i class="bi bi-person"></i></div>
-        <div class="user-info"><?php echo htmlspecialchars($_SESSION['first_name'] ?? 'User'); ?></div>
-        <div class="user-role"><?php echo htmlspecialchars($_SESSION['fullname'] ?? 'Guest'); ?></div>
-
-        <div class="mt-2">
-                        <a href="<?php echo $base_url; ?>index.php" class="btn btn-sm btn-outline" onclick="closeSidebar()">
-            <i class="bi bi-house"></i> <?php echo LanguageManager::translate('back'); ?>
-            </a>
-            <a href="<?php echo $base_url; ?>auth/logout.php" class="btn btn-sm btn-outline" onclick="closeSidebar()">
-                <i class="bi bi-box-arrow-right"></i> <?php echo LanguageManager::translate('logout'); ?>
-            </a>
-        </div>
-    </div>
-    <?php endif; ?>
 </div>
 
+                <?php endif; ?>
+
+                <a href="<?php echo $base_url; ?>modules/incident_report.php" class="alertara-link<?php echo $current_page === 'incident_report' ? ' active' : ''; ?>">
+                    <span class="link-icon"><i class="bi bi-file-earmark-bar-graph"></i></span>
+                    <span class="link-text">Generate Report</span>
+                </a>
+
+                <!-- User Management moved into Digital Blotter dropdown -->
+
+                <a href="<?php echo $base_url; ?>modules/Request_form.php" class="alertara-link<?php echo $current_page === 'request_form' ? ' active' : ''; ?>">
+                    <span class="link-icon"><i class="bi bi-envelope"></i></span>
+                    <span class="link-text">Request Form</span>
+                </a>
+
+                <a href="<?php echo $base_url; ?>admin/settings.php" class="alertara-link<?php echo $current_page === 'settings' ? ' active' : ''; ?>">
+                    <span class="link-icon"><i class="bi bi-gear-fill"></i></span>
+                    <span class="link-text">Settings</span>
+                </a>
+
+        </div>
+
+        <div class="alertara-footer">
+            <div class="alertara-user">
+                <span class="user-avatar"><i class="bi bi-person-fill"></i></span>
+                <div class="user-copy">
+                    <span class="user-name"><?php echo $display_name; ?></span>
+                    <span class="user-role"><?php echo $display_role; ?></span>
+                </div>
+            </div>
+                <div style="margin-top:.5rem; display:flex; gap:.5rem; align-items:center;">
+                    <button id="themeToggle" class="theme-toggle" title="Toggle theme">
+                        <span class="icon" id="themeIcon"><i class="bi bi-moon-fill"></i></span>
+                        <span class="label" id="themeLabel">Dark</span>
+                    </button>
+                </div>
+                <a href="<?php echo $logout_path; ?>" class="alertara-link alertara-link-logout">
+                    <span class="link-icon"><i class="bi bi-box-arrow-right"></i></span>
+                    <span class="link-text">Logout</span>
+                </a>
+        </div>
+    </div>
+</aside>
+
+<div class="alertara-hover-edge" id="alertaraHoverEdge" aria-hidden="true"></div>
+<div class="alertara-backdrop" id="alertaraBackdrop"></div>
+
 <script>
-    // Toggle sidebar visibility (mobile)
-    function toggleSidebar() {
-        const sidebar = document.getElementById('sidebar');
-        const overlay = document.getElementById('sidebarOverlay');
-        sidebar.classList.toggle('show');
-        if (overlay) overlay.classList.toggle('show');
-    }
-    
-    // Close sidebar (mobile)
-    function closeSidebar() {
-        const sidebar = document.getElementById('sidebar');
-        const overlay = document.getElementById('sidebarOverlay');
-        sidebar.classList.remove('show');
-        if (overlay) overlay.classList.remove('show');
-    }
-    
-    // Toggle collapse/expand (desktop)
-    function toggleCollapse() {
-        const sidebar = document.getElementById('sidebar');
-        const mainContent = document.querySelector('.main-content');
-        const expandBtn = document.getElementById('expandBtn');
-        
-        sidebar.classList.toggle('collapsed');
-        if (mainContent) {
-            mainContent.classList.toggle('sidebar-collapsed');
-        }
-        
-        // Show/hide expand button
-        if (sidebar.classList.contains('collapsed')) {
-            if (expandBtn) expandBtn.style.display = 'flex';
-        } else {
-            if (expandBtn) expandBtn.style.display = 'none';
-        }
-        
-        // Save preference to localStorage
-        localStorage.setItem('sidebarCollapsed', sidebar.classList.contains('collapsed'));
-    }
-    
-    // Restore sidebar collapse state on page load
-    document.addEventListener('DOMContentLoaded', function() {
-        const isCollapsed = localStorage.getItem('sidebarCollapsed') === 'true';
-        if (isCollapsed) {
-            const sidebar = document.getElementById('sidebar');
-            const mainContent = document.querySelector('.main-content');
-            const expandBtn = document.getElementById('expandBtn');
-            
-            sidebar.classList.add('collapsed');
-            if (mainContent) {
-                mainContent.classList.add('sidebar-collapsed');
-            }
-            if (expandBtn) {
-                expandBtn.style.display = 'flex';
+document.addEventListener('DOMContentLoaded', function() {
+    (function() {
+        const navbar = document.getElementById('alertaraNavbar');
+        const edge = document.getElementById('alertaraHoverEdge');
+        const backdrop = document.getElementById('alertaraBackdrop');
+        const mobileToggle = document.getElementById('alertaraMobileToggle');
+        const groupButtons = Array.from(document.querySelectorAll('.alertara-group-toggle'));
+
+        // Theme toggle handling
+    (function() {
+        const toggle = document.getElementById('themeToggle');
+        const icon = document.getElementById('themeIcon');
+        const label = document.getElementById('themeLabel');
+
+        function setTheme(t) {
+            document.documentElement.setAttribute('data-theme', t);
+            document.body.classList.remove('light-mode', 'dark-mode');
+            document.body.classList.add(t + '-mode');
+            localStorage.setItem('alertaraTheme', t);
+            if (t === 'dark') {
+                icon.innerHTML = '<i class="bi bi-sun-fill"></i>';
+                label.textContent = 'Dark';
+            } else {
+                icon.innerHTML = '<i class="bi bi-moon-fill"></i>';
+                label.textContent = 'Light';
             }
         }
 
-        // Restore nav section states
-        const navTitles = document.querySelectorAll('.nav-section-title');
-        navTitles.forEach(title => {
-            const sectionName = title.getAttribute('data-section');
-            const isHidden = localStorage.getItem('navSection_' + sectionName) === 'true';
-            if (isHidden) {
-                const content = title.nextElementSibling;
-                const chevron = title.querySelector('.nav-chevron');
-                content.classList.add('hidden');
-                chevron.classList.add('rotated');
+        // Initialize UI to current theme
+        const current = localStorage.getItem('alertaraTheme') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        setTheme(current);
+
+        if (toggle) {
+            toggle.addEventListener('click', function() {
+                const next = (document.documentElement.getAttribute('data-theme') === 'dark') ? 'light' : 'dark';
+                setTheme(next);
+            });
+        }
+    })();
+
+    const isDesktop = () => window.innerWidth > 992;
+    const openDesktop = () => {
+        navbar.classList.add('expanded');
+        navbar.classList.remove('collapsed');
+    };
+    const closeDesktop = () => {
+        navbar.classList.remove('expanded');
+        navbar.classList.add('collapsed');
+        document.querySelectorAll('.alertara-group.active').forEach(group => group.classList.remove('active'));
+        document.querySelectorAll('.alertara-group-toggle.active').forEach(button => button.classList.remove('active'));
+    };
+    const hideMobile = () => {
+        navbar.classList.remove('mobile-open');
+        backdrop.classList.remove('visible');
+    };
+    const showMobile = () => {
+        navbar.classList.add('mobile-open');
+        backdrop.classList.add('visible');
+    };
+    const updateEdge = () => {
+        if (!edge) return;
+        if (isDesktop()) {
+            edge.classList.add('visible');
+        } else {
+            edge.classList.remove('visible');
+            closeDesktop();
+        }
+    };
+
+    if (edge) {
+        edge.addEventListener('mouseenter', openDesktop);
+    }
+    if (navbar) {
+        navbar.addEventListener('mouseleave', () => {
+            if (isDesktop()) closeDesktop();
+        });
+        navbar.addEventListener('mouseenter', () => {
+            if (isDesktop()) openDesktop();
+        });
+    }
+
+    if (mobileToggle) {
+        mobileToggle.addEventListener('click', () => {
+            if (navbar.classList.contains('mobile-open')) {
+                hideMobile();
+            } else {
+                showMobile();
             }
         });
-    });
-    
-    // Close sidebar on escape key
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'Escape') {
-            closeSidebar();
-        }
-    });
-    
-    // Close sidebar when clicking on a nav link (but only on mobile)
+    }
+
+    if (backdrop) {
+        backdrop.addEventListener('click', hideMobile);
+    }
+
     document.addEventListener('click', function(event) {
-        const sidebar = document.getElementById('sidebar');
-        const toggle = document.getElementById('menuToggle');
-        
-        // Only close on mobile devices
-        if (window.innerWidth <= 768) {
-            if (event.target.closest('.nav-link') && sidebar.classList.contains('show')) {
-                closeSidebar();
+        if (!event.target.closest('.alertara-navbar') && !event.target.closest('#alertaraMobileToggle')) {
+            if (!isDesktop()) {
+                hideMobile();
             }
         }
     });
+
+    groupButtons.forEach(button => {
+        const group = button.closest('.alertara-group');
+        const panel = group ? group.querySelector('.alertara-group-panel') : null;
+
+        if (group && panel) {
+            let hideTimeout = null;
+
+            const showPanel = () => {
+                if (!isDesktop()) return;
+                clearTimeout(hideTimeout);
+                openDesktop();
+                button.classList.add('active');
+                group.classList.add('active');
+                panel.classList.add('show');
+                button.setAttribute('aria-expanded', 'true');
+            };
+
+            const hidePanel = () => {
+                if (!isDesktop()) return;
+                clearTimeout(hideTimeout);
+                hideTimeout = setTimeout(() => {
+                    button.classList.remove('active');
+                    group.classList.remove('active');
+                    panel.classList.remove('show');
+                    button.setAttribute('aria-expanded', 'false');
+                }, 150);
+            };
+
+            group.addEventListener('mouseenter', showPanel);
+            group.addEventListener('mouseleave', hidePanel);
+            panel.addEventListener('mouseenter', showPanel);
+            panel.addEventListener('mouseleave', hidePanel);
+        }
+    });
+
+    window.addEventListener('resize', updateEdge);
+    updateEdge();
+    })();
+});
 </script>

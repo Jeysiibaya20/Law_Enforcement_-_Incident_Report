@@ -1,0 +1,56 @@
+{
+  "id": "045648",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tiaong",
+    "en": "Tiaong",
+    "slug": "tiaong-045648"
+  },
+  "code": {
+    "id": "045648",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 31
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.95",
+    "lon": "121.317"
+  },
+  "metadata": {},
+  "source": {}
+}

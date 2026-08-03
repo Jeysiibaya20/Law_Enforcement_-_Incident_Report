@@ -1,0 +1,56 @@
+{
+  "id": "060610",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Libertad",
+    "en": "Libertad",
+    "slug": "libertad-060610"
+  },
+  "code": {
+    "id": "060610",
+    "iso": null
+  },
+  "parent": {
+    "id": "060600",
+    "level": 2,
+    "name": {
+      "local": "Antique",
+      "en": "Antique",
+      "slug": "antique-060600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 19
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.783",
+    "lon": "121.917"
+  },
+  "metadata": {},
+  "source": {}
+}

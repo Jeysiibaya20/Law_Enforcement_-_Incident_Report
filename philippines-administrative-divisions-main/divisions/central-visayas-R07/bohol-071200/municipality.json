@@ -1,0 +1,2690 @@
+[
+  {
+    "id": "071201",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alburquerque",
+      "en": "Alburquerque",
+      "slug": "alburquerque-071201"
+    },
+    "code": {
+      "id": "071201",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.6",
+      "lon": "123.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071202",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alicia",
+      "en": "Alicia",
+      "slug": "alicia-071202"
+    },
+    "code": {
+      "id": "071202",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.9",
+      "lon": "124.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071203",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Anda",
+      "en": "Anda",
+      "slug": "anda-071203"
+    },
+    "code": {
+      "id": "071203",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.75",
+      "lon": "124.57"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071204",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Antequera",
+      "en": "Antequera",
+      "slug": "antequera-071204"
+    },
+    "code": {
+      "id": "071204",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.78",
+      "lon": "123.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071205",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Baclayon",
+      "en": "Baclayon",
+      "slug": "baclayon-071205"
+    },
+    "code": {
+      "id": "071205",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.63",
+      "lon": "123.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071206",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balilihan",
+      "en": "Balilihan",
+      "slug": "balilihan-071206"
+    },
+    "code": {
+      "id": "071206",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.75",
+      "lon": "123.97"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071207",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Batuan",
+      "en": "Batuan",
+      "slug": "batuan-071207"
+    },
+    "code": {
+      "id": "071207",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.8",
+      "lon": "124.13"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071248",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bien Unido",
+      "en": "Bien Unido",
+      "slug": "bien-unido-071248"
+    },
+    "code": {
+      "id": "071248",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.13",
+      "lon": "124.38"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071208",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bilar",
+      "en": "Bilar",
+      "slug": "bilar-071208"
+    },
+    "code": {
+      "id": "071208",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.7",
+      "lon": "124.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071209",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Buenavista",
+      "en": "Buenavista",
+      "slug": "buenavista-071209"
+    },
+    "code": {
+      "id": "071209",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.08",
+      "lon": "124.12"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071210",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calape",
+      "en": "Calape",
+      "slug": "calape-071210"
+    },
+    "code": {
+      "id": "071210",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.88",
+      "lon": "123.88"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071211",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Candijay",
+      "en": "Candijay",
+      "slug": "candijay-071211"
+    },
+    "code": {
+      "id": "071211",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.82",
+      "lon": "124.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071212",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Carmen",
+      "en": "Carmen",
+      "slug": "carmen-071212"
+    },
+    "code": {
+      "id": "071212",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.82",
+      "lon": "124.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071213",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Catigbian",
+      "en": "Catigbian",
+      "slug": "catigbian-071213"
+    },
+    "code": {
+      "id": "071213",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.83",
+      "lon": "124.03"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071214",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Clarin",
+      "en": "Clarin",
+      "slug": "clarin-071214"
+    },
+    "code": {
+      "id": "071214",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.97",
+      "lon": "124.02"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071215",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Corella",
+      "en": "Corella",
+      "slug": "corella-071215"
+    },
+    "code": {
+      "id": "071215",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.68",
+      "lon": "123.92"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071216",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cortes",
+      "en": "Cortes",
+      "slug": "cortes-071216"
+    },
+    "code": {
+      "id": "071216",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.72",
+      "lon": "123.88"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071217",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dagohoy",
+      "en": "Dagohoy",
+      "slug": "dagohoy-071217"
+    },
+    "code": {
+      "id": "071217",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.92",
+      "lon": "124.28"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071218",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Danao",
+      "en": "Danao",
+      "slug": "danao-071218"
+    },
+    "code": {
+      "id": "071218",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.02",
+      "lon": "124.27"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071219",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dauis",
+      "en": "Dauis",
+      "slug": "dauis-071219"
+    },
+    "code": {
+      "id": "071219",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.62",
+      "lon": "123.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071220",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dimiao",
+      "en": "Dimiao",
+      "slug": "dimiao-071220"
+    },
+    "code": {
+      "id": "071220",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.62",
+      "lon": "124.17"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071221",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Duero",
+      "en": "Duero",
+      "slug": "duero-071221"
+    },
+    "code": {
+      "id": "071221",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.72",
+      "lon": "124.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071222",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Garcia Hernandez",
+      "en": "Garcia Hernandez",
+      "slug": "garcia-hernandez-071222"
+    },
+    "code": {
+      "id": "071222",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.62",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071226",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Getafe",
+      "en": "Getafe",
+      "slug": "getafe-071226"
+    },
+    "code": {
+      "id": "071226",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.15",
+      "lon": "124.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071223",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Guindulman",
+      "en": "Guindulman",
+      "slug": "guindulman-071223"
+    },
+    "code": {
+      "id": "071223",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.77",
+      "lon": "124.48"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071224",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Inabanga",
+      "en": "Inabanga",
+      "slug": "inabanga-071224"
+    },
+    "code": {
+      "id": "071224",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 50
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.03",
+      "lon": "124.07"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071225",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Jagna",
+      "en": "Jagna",
+      "slug": "jagna-071225"
+    },
+    "code": {
+      "id": "071225",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.65",
+      "lon": "124.37"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071227",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lila",
+      "en": "Lila",
+      "slug": "lila-071227"
+    },
+    "code": {
+      "id": "071227",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.6",
+      "lon": "124.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071228",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Loay",
+      "en": "Loay",
+      "slug": "loay-071228"
+    },
+    "code": {
+      "id": "071228",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.6",
+      "lon": "124.02"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071229",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Loboc",
+      "en": "Loboc",
+      "slug": "loboc-071229"
+    },
+    "code": {
+      "id": "071229",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.63",
+      "lon": "124.03"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071230",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Loon",
+      "en": "Loon",
+      "slug": "loon-071230"
+    },
+    "code": {
+      "id": "071230",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 67
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.8",
+      "lon": "123.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071231",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mabini",
+      "en": "Mabini",
+      "slug": "mabini-071231"
+    },
+    "code": {
+      "id": "071231",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.87",
+      "lon": "124.52"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071232",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maribojoc",
+      "en": "Maribojoc",
+      "slug": "maribojoc-071232"
+    },
+    "code": {
+      "id": "071232",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.75",
+      "lon": "123.83"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071233",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Panglao",
+      "en": "Panglao",
+      "slug": "panglao-071233"
+    },
+    "code": {
+      "id": "071233",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.58",
+      "lon": "123.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071234",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pilar",
+      "en": "Pilar",
+      "slug": "pilar-071234"
+    },
+    "code": {
+      "id": "071234",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.83",
+      "lon": "124.33"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071235",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pres. Carlos P. Garcia (Pitogo)",
+      "en": "Pres. Carlos P. Garcia (Pitogo)",
+      "slug": "pres-carlos-p-garcia-pitogo-071235"
+    },
+    "code": {
+      "id": "071235",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.45",
+      "lon": "123.317"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071236",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sagbayan (Borja)",
+      "en": "Sagbayan (Borja)",
+      "slug": "sagbayan-borja-071236"
+    },
+    "code": {
+      "id": "071236",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.92",
+      "lon": "124.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071237",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-071237"
+    },
+    "code": {
+      "id": "071237",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.8",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071238",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-071238"
+    },
+    "code": {
+      "id": "071238",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10",
+      "lon": "124.32"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071239",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sevilla",
+      "en": "Sevilla",
+      "slug": "sevilla-071239"
+    },
+    "code": {
+      "id": "071239",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.7",
+      "lon": "124.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071240",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sierra Bullones",
+      "en": "Sierra Bullones",
+      "slug": "sierra-bullones-071240"
+    },
+    "code": {
+      "id": "071240",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.82",
+      "lon": "124.28"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071241",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sikatuna",
+      "en": "Sikatuna",
+      "slug": "sikatuna-071241"
+    },
+    "code": {
+      "id": "071241",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.68",
+      "lon": "123.97"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tagbilaran City",
+      "en": "Tagbilaran City",
+      "slug": "tagbilaran-city-071242"
+    },
+    "code": {
+      "id": "071242",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.65",
+      "lon": "123.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071243",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Talibon",
+      "en": "Talibon",
+      "slug": "talibon-071243"
+    },
+    "code": {
+      "id": "071243",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.12",
+      "lon": "124.28"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071244",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Trinidad",
+      "en": "Trinidad",
+      "slug": "trinidad-071244"
+    },
+    "code": {
+      "id": "071244",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.05",
+      "lon": "124.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071245",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tubigon",
+      "en": "Tubigon",
+      "slug": "tubigon-071245"
+    },
+    "code": {
+      "id": "071245",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.95",
+      "lon": "123.97"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071246",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ubay",
+      "en": "Ubay",
+      "slug": "ubay-071246"
+    },
+    "code": {
+      "id": "071246",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 44
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.05",
+      "lon": "124.47"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071247",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Valencia",
+      "en": "Valencia",
+      "slug": "valencia-071247"
+    },
+    "code": {
+      "id": "071247",
+      "iso": null
+    },
+    "parent": {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.62",
+      "lon": "124.2"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -6,6 +6,7 @@ if (!isset($pdo) || !$pdo) {
 }
 require_once __DIR__ . '/helpers.php';
 require_once __DIR__ . '/../includes/attachment_manager.php';
+require_once __DIR__ . '/DescriptionTranslationService.php';
 
 $userId = $_SESSION['user_id'] ?? null;
 $isBanned = false;
@@ -120,7 +121,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                 $incident_date = $_POST['incident_date'] ?? null;
                 $incident_time = $_POST['incident_time'] ?? null;
                 $location = $_POST['location'] ?? '';
-                $description = $_POST['description'] ?? '';
+                $description = trim($_POST['description'] ?? '');
+                $translationColumns = [
+                    'description_english' => 'TEXT NULL AFTER description',
+                    'description_language' => 'VARCHAR(10) NULL AFTER description_english',
+                    'description_translation_provider' => 'VARCHAR(30) NULL AFTER description_language',
+                ];
+                foreach ($translationColumns as $column => $definition) {
+                    $columnCheck = $pdo->prepare("SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'blotters' AND COLUMN_NAME = ?");
+                    $columnCheck->execute([$column]);
+                    if ((int)$columnCheck->fetchColumn() === 0) {
+                        $pdo->exec("ALTER TABLE blotters ADD COLUMN {$column} {$definition}");
+                    }
+                }
+                $translation = (new DescriptionTranslationService($env ?? []))->translateToEnglish($description);
                 
                 // Auto-determine priority based on incident type
                 $priority = getPriorityByIncidentType($incident_type);
@@ -147,7 +161,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                     exit;
                 }
 
-                $sql = "INSERT INTO blotters (blotter_no, complainant_name, respondent_name, respondent_contact, respondent_email, respondent_address, incident_type, incident_date, incident_time, location, description, priority, status, officer_id, created_by) VALUES (:blotter_no, :complainant, :respondent, :respondent_contact, :respondent_email, :respondent_address, :incident_type, :incident_date, :incident_time, :location, :description, :priority, :status, :officer_id, :created_by)";
+                $sql = "INSERT INTO blotters (blotter_no, complainant_name, respondent_name, respondent_contact, respondent_email, respondent_address, incident_type, incident_date, incident_time, location, description, description_english, description_language, description_translation_provider, priority, status, officer_id, created_by) VALUES (:blotter_no, :complainant, :respondent, :respondent_contact, :respondent_email, :respondent_address, :incident_type, :incident_date, :incident_time, :location, :description, :description_english, :description_language, :description_translation_provider, :priority, :status, :officer_id, :created_by)";
                 $stmt = $pdo->prepare($sql);
                 $stmt->execute([
                         ':blotter_no' => $blotter_no,
@@ -161,6 +175,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                         ':incident_time' => $incident_time,
                         ':location' => $location,
                         ':description' => $description,
+                        ':description_english' => $translation['translation'],
+                        ':description_language' => $translation['language'],
+                        ':description_translation_provider' => $translation['provider'],
                         ':priority' => $priority,
                         ':status' => $status,
                         ':officer_id' => $officer_id,

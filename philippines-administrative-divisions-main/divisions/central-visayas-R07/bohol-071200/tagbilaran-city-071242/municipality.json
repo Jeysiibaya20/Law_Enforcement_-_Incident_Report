@@ -1,0 +1,56 @@
+{
+  "id": "071242",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tagbilaran City",
+    "en": "Tagbilaran City",
+    "slug": "tagbilaran-city-071242"
+  },
+  "code": {
+    "id": "071242",
+    "iso": null
+  },
+  "parent": {
+    "id": "071200",
+    "level": 2,
+    "name": {
+      "local": "Bohol",
+      "en": "Bohol",
+      "slug": "bohol-071200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.65",
+    "lon": "123.85"
+  },
+  "metadata": {},
+  "source": {}
+}

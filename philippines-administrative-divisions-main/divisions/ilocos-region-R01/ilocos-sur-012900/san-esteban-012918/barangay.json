@@ -1,0 +1,652 @@
+[
+  {
+    "id": "012918001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ansad",
+      "en": "Ansad",
+      "slug": "ansad-012918001"
+    },
+    "code": {
+      "id": "012918001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012918",
+      "level": 3,
+      "name": {
+        "local": "San Esteban",
+        "en": "San Esteban",
+        "slug": "san-esteban-012918"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012918",
+        "level": 3,
+        "name": {
+          "local": "San Esteban",
+          "en": "San Esteban",
+          "slug": "san-esteban-012918"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2706"
+    ],
+    "geo": {
+      "lat": "17.3274",
+      "lon": "120.4555"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012918002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Apatot",
+      "en": "Apatot",
+      "slug": "apatot-012918002"
+    },
+    "code": {
+      "id": "012918002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012918",
+      "level": 3,
+      "name": {
+        "local": "San Esteban",
+        "en": "San Esteban",
+        "slug": "san-esteban-012918"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012918",
+        "level": 3,
+        "name": {
+          "local": "San Esteban",
+          "en": "San Esteban",
+          "slug": "san-esteban-012918"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2706"
+    ],
+    "geo": {
+      "lat": "17.3235",
+      "lon": "120.4318"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012918003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bateria",
+      "en": "Bateria",
+      "slug": "bateria-012918003"
+    },
+    "code": {
+      "id": "012918003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012918",
+      "level": 3,
+      "name": {
+        "local": "San Esteban",
+        "en": "San Esteban",
+        "slug": "san-esteban-012918"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012918",
+        "level": 3,
+        "name": {
+          "local": "San Esteban",
+          "en": "San Esteban",
+          "slug": "san-esteban-012918"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2706"
+    ],
+    "geo": {
+      "lat": "10.8792",
+      "lon": "123.4612"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012918004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabaroan",
+      "en": "Cabaroan",
+      "slug": "cabaroan-012918004"
+    },
+    "code": {
+      "id": "012918004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012918",
+      "level": 3,
+      "name": {
+        "local": "San Esteban",
+        "en": "San Esteban",
+        "slug": "san-esteban-012918"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012918",
+        "level": 3,
+        "name": {
+          "local": "San Esteban",
+          "en": "San Esteban",
+          "slug": "san-esteban-012918"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2706"
+    ],
+    "geo": {
+      "lat": "17.5862",
+      "lon": "120.3711"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012918005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cappa-cappa",
+      "en": "Cappa-cappa",
+      "slug": "cappa-cappa-012918005"
+    },
+    "code": {
+      "id": "012918005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012918",
+      "level": 3,
+      "name": {
+        "local": "San Esteban",
+        "en": "San Esteban",
+        "slug": "san-esteban-012918"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012918",
+        "level": 3,
+        "name": {
+          "local": "San Esteban",
+          "en": "San Esteban",
+          "slug": "san-esteban-012918"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2706"
+    ],
+    "geo": {
+      "lat": "17.3324",
+      "lon": "120.4601"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012918006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-012918006"
+    },
+    "code": {
+      "id": "012918006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012918",
+      "level": 3,
+      "name": {
+        "local": "San Esteban",
+        "en": "San Esteban",
+        "slug": "san-esteban-012918"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012918",
+        "level": 3,
+        "name": {
+          "local": "San Esteban",
+          "en": "San Esteban",
+          "slug": "san-esteban-012918"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2706"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012918007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Nicolas",
+      "en": "San Nicolas",
+      "slug": "san-nicolas-012918007"
+    },
+    "code": {
+      "id": "012918007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012918",
+      "level": 3,
+      "name": {
+        "local": "San Esteban",
+        "en": "San Esteban",
+        "slug": "san-esteban-012918"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012918",
+        "level": 3,
+        "name": {
+          "local": "San Esteban",
+          "en": "San Esteban",
+          "slug": "san-esteban-012918"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2706"
+    ],
+    "geo": {
+      "lat": "17.1853",
+      "lon": "120.4446"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012918008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pablo",
+      "en": "San Pablo",
+      "slug": "san-pablo-012918008"
+    },
+    "code": {
+      "id": "012918008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012918",
+      "level": 3,
+      "name": {
+        "local": "San Esteban",
+        "en": "San Esteban",
+        "slug": "san-esteban-012918"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012918",
+        "level": 3,
+        "name": {
+          "local": "San Esteban",
+          "en": "San Esteban",
+          "slug": "san-esteban-012918"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2706"
+    ],
+    "geo": {
+      "lat": "17.3386",
+      "lon": "120.4464"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012918009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Rafael",
+      "en": "San Rafael",
+      "slug": "san-rafael-012918009"
+    },
+    "code": {
+      "id": "012918009",
+      "iso": null
+    },
+    "parent": {
+      "id": "012918",
+      "level": 3,
+      "name": {
+        "local": "San Esteban",
+        "en": "San Esteban",
+        "slug": "san-esteban-012918"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012918",
+        "level": 3,
+        "name": {
+          "local": "San Esteban",
+          "en": "San Esteban",
+          "slug": "san-esteban-012918"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2706"
+    ],
+    "geo": {
+      "lat": "17.3342",
+      "lon": "120.446"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012918010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Villa Quirino",
+      "en": "Villa Quirino",
+      "slug": "villa-quirino-012918010"
+    },
+    "code": {
+      "id": "012918010",
+      "iso": null
+    },
+    "parent": {
+      "id": "012918",
+      "level": 3,
+      "name": {
+        "local": "San Esteban",
+        "en": "San Esteban",
+        "slug": "san-esteban-012918"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012918",
+        "level": 3,
+        "name": {
+          "local": "San Esteban",
+          "en": "San Esteban",
+          "slug": "san-esteban-012918"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2706"
+    ],
+    "geo": {
+      "lat": "14.1128",
+      "lon": "122.0205"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

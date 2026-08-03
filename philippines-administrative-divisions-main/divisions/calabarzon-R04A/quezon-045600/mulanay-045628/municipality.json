@@ -1,0 +1,56 @@
+{
+  "id": "045628",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Mulanay",
+    "en": "Mulanay",
+    "slug": "mulanay-045628"
+  },
+  "code": {
+    "id": "045628",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 28
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.5",
+    "lon": "122.417"
+  },
+  "metadata": {},
+  "source": {}
+}

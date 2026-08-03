@@ -1,0 +1,56 @@
+{
+  "id": "061913",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "President Roxas",
+    "en": "President Roxas",
+    "slug": "president-roxas-061913"
+  },
+  "code": {
+    "id": "061913",
+    "iso": null
+  },
+  "parent": {
+    "id": "061900",
+    "level": 2,
+    "name": {
+      "local": "Capiz",
+      "en": "Capiz",
+      "slug": "capiz-061900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 22
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.433",
+    "lon": "122.933"
+  },
+  "metadata": {},
+  "source": {}
+}

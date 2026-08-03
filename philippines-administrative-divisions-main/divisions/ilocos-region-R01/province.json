@@ -1,0 +1,194 @@
+[
+  {
+    "id": "012800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Ilocos Norte",
+      "en": "Ilocos Norte",
+      "slug": "ilocos-norte-012800"
+    },
+    "code": {
+      "id": "012800",
+      "iso": null
+    },
+    "parent": {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 23,
+      "barangay": 557
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.6679",
+      "lon": "120.7347"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012900",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Ilocos Sur",
+      "en": "Ilocos Sur",
+      "slug": "ilocos-sur-012900"
+    },
+    "code": {
+      "id": "012900",
+      "iso": null
+    },
+    "parent": {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 34,
+      "barangay": 768
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.945",
+      "lon": "120.604"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "La Union",
+      "en": "La Union",
+      "slug": "la-union-013300"
+    },
+    "code": {
+      "id": "013300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 20,
+      "barangay": 576
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.2124",
+      "lon": "120.657"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Pangasinan",
+      "en": "Pangasinan",
+      "slug": "pangasinan-015500"
+    },
+    "code": {
+      "id": "015500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 48,
+      "barangay": 1364
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.8555",
+      "lon": "120.4978"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

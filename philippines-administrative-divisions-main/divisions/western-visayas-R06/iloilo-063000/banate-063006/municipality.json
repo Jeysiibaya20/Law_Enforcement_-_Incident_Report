@@ -1,0 +1,56 @@
+{
+  "id": "063006",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Banate",
+    "en": "Banate",
+    "slug": "banate-063006"
+  },
+  "code": {
+    "id": "063006",
+    "iso": null
+  },
+  "parent": {
+    "id": "063000",
+    "level": 2,
+    "name": {
+      "local": "Iloilo",
+      "en": "Iloilo",
+      "slug": "iloilo-063000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 18
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.05",
+    "lon": "122.783"
+  },
+  "metadata": {},
+  "source": {}
+}

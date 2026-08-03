@@ -1,0 +1,977 @@
+[
+  {
+    "id": "118601007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baluntaya",
+      "en": "Baluntaya",
+      "slug": "baluntaya-118601007"
+    },
+    "code": {
+      "id": "118601007",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "6.267",
+      "lon": "125.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calian",
+      "en": "Calian",
+      "slug": "calian-118601001"
+    },
+    "code": {
+      "id": "118601001",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "6.1231",
+      "lon": "125.7003"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dalupan",
+      "en": "Dalupan",
+      "slug": "dalupan-118601008"
+    },
+    "code": {
+      "id": "118601008",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "6.267",
+      "lon": "125.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kinanga",
+      "en": "Kinanga",
+      "slug": "kinanga-118601009"
+    },
+    "code": {
+      "id": "118601009",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "6.267",
+      "lon": "125.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kiobog",
+      "en": "Kiobog",
+      "slug": "kiobog-118601002"
+    },
+    "code": {
+      "id": "118601002",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "6.267",
+      "lon": "125.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lanao",
+      "en": "Lanao",
+      "slug": "lanao-118601010"
+    },
+    "code": {
+      "id": "118601010",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "18.5282",
+      "lon": "120.7972"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lapuan",
+      "en": "Lapuan",
+      "slug": "lapuan-118601011"
+    },
+    "code": {
+      "id": "118601011",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "6.1444",
+      "lon": "125.7008"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lawa (Pob.)",
+      "en": "Lawa (Pob.)",
+      "slug": "lawa-pob-118601004"
+    },
+    "code": {
+      "id": "118601004",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "6.1914",
+      "lon": "125.7014"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Linadasan",
+      "en": "Linadasan",
+      "slug": "linadasan-118601012"
+    },
+    "code": {
+      "id": "118601012",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "6.0569",
+      "lon": "125.6969"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabuhay",
+      "en": "Mabuhay",
+      "slug": "mabuhay-118601013"
+    },
+    "code": {
+      "id": "118601013",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "7.4176",
+      "lon": "122.837"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "North Lamidan",
+      "en": "North Lamidan",
+      "slug": "north-lamidan-118601003"
+    },
+    "code": {
+      "id": "118601003",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "6.0872",
+      "lon": "125.7022"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nueva Villa",
+      "en": "Nueva Villa",
+      "slug": "nueva-villa-118601005"
+    },
+    "code": {
+      "id": "118601005",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "14.3564",
+      "lon": "121.0556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "South Lamidan",
+      "en": "South Lamidan",
+      "slug": "south-lamidan-118601014"
+    },
+    "code": {
+      "id": "118601014",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "6.0872",
+      "lon": "125.7022"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talagutong (Pob.)",
+      "en": "Talagutong (Pob.)",
+      "slug": "talagutong-pob-118601006"
+    },
+    "code": {
+      "id": "118601006",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "6.27",
+      "lon": "125.67"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118601015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "West Lamidan",
+      "en": "West Lamidan",
+      "slug": "west-lamidan-118601015"
+    },
+    "code": {
+      "id": "118601015",
+      "iso": null
+    },
+    "parent": {
+      "id": "118601",
+      "level": 3,
+      "name": {
+        "local": "Don Marcelino",
+        "en": "Don Marcelino",
+        "slug": "don-marcelino-118601"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "118600",
+        "level": 2,
+        "name": {
+          "local": "Davao Occidental",
+          "en": "Davao Occidental",
+          "slug": "davao-occidental-118600"
+        }
+      },
+      {
+        "id": "118601",
+        "level": 3,
+        "name": {
+          "local": "Don Marcelino",
+          "en": "Don Marcelino",
+          "slug": "don-marcelino-118601"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8013"
+    ],
+    "geo": {
+      "lat": "17.6",
+      "lon": "120.6667"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

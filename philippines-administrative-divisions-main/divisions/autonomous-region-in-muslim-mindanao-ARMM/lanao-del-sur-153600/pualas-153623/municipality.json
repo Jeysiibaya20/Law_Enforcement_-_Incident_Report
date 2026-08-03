@@ -1,0 +1,56 @@
+{
+  "id": "153623",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pualas",
+    "en": "Pualas",
+    "slug": "pualas-153623"
+  },
+  "code": {
+    "id": "153623",
+    "iso": null
+  },
+  "parent": {
+    "id": "153600",
+    "level": 2,
+    "name": {
+      "local": "Lanao del Sur",
+      "en": "Lanao del Sur",
+      "slug": "lanao-del-sur-153600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 23
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.817",
+    "lon": "124.067"
+  },
+  "metadata": {},
+  "source": {}
+}

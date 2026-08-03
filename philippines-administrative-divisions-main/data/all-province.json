@@ -1,0 +1,4034 @@
+[
+  {
+    "id": "130000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Kalakhang Maynila",
+      "en": "Metro Manila",
+      "slug": "metro-manila-130000"
+    },
+    "code": {
+      "id": "130000",
+      "iso": null
+    },
+    "parent": {
+      "id": "NCR",
+      "level": 1,
+      "name": {
+        "local": "National Capital Region",
+        "en": "National Capital Region",
+        "slug": "national-capital-region-NCR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 17,
+      "barangay": 1706
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.5145",
+      "lon": "120.9936"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Ilocos Norte",
+      "en": "Ilocos Norte",
+      "slug": "ilocos-norte-012800"
+    },
+    "code": {
+      "id": "012800",
+      "iso": null
+    },
+    "parent": {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 23,
+      "barangay": 557
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.6679",
+      "lon": "120.7347"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012900",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Ilocos Sur",
+      "en": "Ilocos Sur",
+      "slug": "ilocos-sur-012900"
+    },
+    "code": {
+      "id": "012900",
+      "iso": null
+    },
+    "parent": {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 34,
+      "barangay": 768
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.945",
+      "lon": "120.604"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "La Union",
+      "en": "La Union",
+      "slug": "la-union-013300"
+    },
+    "code": {
+      "id": "013300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 20,
+      "barangay": 576
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.2124",
+      "lon": "120.657"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Pangasinan",
+      "en": "Pangasinan",
+      "slug": "pangasinan-015500"
+    },
+    "code": {
+      "id": "015500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 48,
+      "barangay": 1364
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.8555",
+      "lon": "120.4978"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020900",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Batanes",
+      "en": "Batanes",
+      "slug": "batanes-020900"
+    },
+    "code": {
+      "id": "020900",
+      "iso": null
+    },
+    "parent": {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 6,
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "20.4421",
+      "lon": "121.9103"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Cagayan",
+      "en": "Cagayan",
+      "slug": "cagayan-021500"
+    },
+    "code": {
+      "id": "021500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 29,
+      "barangay": 820
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.9308",
+      "lon": "121.6245"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Isabela",
+      "en": "Isabela",
+      "slug": "isabela-023100"
+    },
+    "code": {
+      "id": "023100",
+      "iso": null
+    },
+    "parent": {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 37,
+      "barangay": 1055
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.8104",
+      "lon": "121.7823"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Nueva Vizcaya",
+      "en": "Nueva Vizcaya",
+      "slug": "nueva-vizcaya-025000"
+    },
+    "code": {
+      "id": "025000",
+      "iso": null
+    },
+    "parent": {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 15,
+      "barangay": 275
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.825",
+      "lon": "121.3542"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Quirino",
+      "en": "Quirino",
+      "slug": "quirino-025700"
+    },
+    "code": {
+      "id": "025700",
+      "iso": null
+    },
+    "parent": {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 6,
+      "barangay": 132
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.186",
+      "lon": "121.5279"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Aurora",
+      "en": "Aurora",
+      "slug": "aurora-037700"
+    },
+    "code": {
+      "id": "037700",
+      "iso": null
+    },
+    "parent": {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 8,
+      "barangay": 151
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.5856",
+      "lon": "121.6739"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Bataan",
+      "en": "Bataan",
+      "slug": "bataan-030800"
+    },
+    "code": {
+      "id": "030800",
+      "iso": null
+    },
+    "parent": {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 12,
+      "barangay": 237
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.3545",
+      "lon": "120.7754"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031400",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Bulacan",
+      "en": "Bulacan",
+      "slug": "bulacan-031400"
+    },
+    "code": {
+      "id": "031400",
+      "iso": null
+    },
+    "parent": {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 24,
+      "barangay": 569
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.9087",
+      "lon": "120.9451"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034900",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Nueva Ecija",
+      "en": "Nueva Ecija",
+      "slug": "nueva-ecija-034900"
+    },
+    "code": {
+      "id": "034900",
+      "iso": null
+    },
+    "parent": {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 32,
+      "barangay": 849
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.3875",
+      "lon": "121.0165"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035400",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Pampanga",
+      "en": "Pampanga",
+      "slug": "pampanga-035400"
+    },
+    "code": {
+      "id": "035400",
+      "iso": null
+    },
+    "parent": {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 22,
+      "barangay": 538
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.1481",
+      "lon": "121.3256"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036900",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Tarlac",
+      "en": "Tarlac",
+      "slug": "tarlac-036900"
+    },
+    "code": {
+      "id": "036900",
+      "iso": null
+    },
+    "parent": {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 18,
+      "barangay": 511
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.4437",
+      "lon": "120.6193"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Zambales",
+      "en": "Zambales",
+      "slug": "zambales-037100"
+    },
+    "code": {
+      "id": "037100",
+      "iso": null
+    },
+    "parent": {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 14,
+      "barangay": 247
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.5801",
+      "lon": "120.9012"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Batangas",
+      "en": "Batangas",
+      "slug": "batangas-041000"
+    },
+    "code": {
+      "id": "041000",
+      "iso": null
+    },
+    "parent": {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 34,
+      "barangay": 1078
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.0316",
+      "lon": "121.1223"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Cavite",
+      "en": "Cavite",
+      "slug": "cavite-042100"
+    },
+    "code": {
+      "id": "042100",
+      "iso": null
+    },
+    "parent": {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 23,
+      "barangay": 829
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.5343",
+      "lon": "120.9567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043400",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Laguna",
+      "en": "Laguna",
+      "slug": "laguna-043400"
+    },
+    "code": {
+      "id": "043400",
+      "iso": null
+    },
+    "parent": {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 30,
+      "barangay": 681
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.364",
+      "lon": "121.302"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045600",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    },
+    "code": {
+      "id": "045600",
+      "iso": null
+    },
+    "parent": {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 41,
+      "barangay": 1242
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.7957",
+      "lon": "121.9207"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Rizal",
+      "en": "Rizal",
+      "slug": "rizal-045800"
+    },
+    "code": {
+      "id": "045800",
+      "iso": null
+    },
+    "parent": {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 14,
+      "barangay": 188
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.5555",
+      "lon": "121.199"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Albay",
+      "en": "Albay",
+      "slug": "albay-050500"
+    },
+    "code": {
+      "id": "050500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 18,
+      "barangay": 720
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.2725",
+      "lon": "123.3927"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051600",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Camarines Norte",
+      "en": "Camarines Norte",
+      "slug": "camarines-norte-051600"
+    },
+    "code": {
+      "id": "051600",
+      "iso": null
+    },
+    "parent": {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 12,
+      "barangay": 282
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.0153",
+      "lon": "122.5665"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Camarines Sur",
+      "en": "Camarines Sur",
+      "slug": "camarines-sur-051700"
+    },
+    "code": {
+      "id": "051700",
+      "iso": null
+    },
+    "parent": {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 37,
+      "barangay": 1063
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.5462",
+      "lon": "123.142"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "052000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Catanduanes",
+      "en": "Catanduanes",
+      "slug": "catanduanes-052000"
+    },
+    "code": {
+      "id": "052000",
+      "iso": null
+    },
+    "parent": {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 315
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.2818",
+      "lon": "123.7451"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Masbate",
+      "en": "Masbate",
+      "slug": "masbate-054100"
+    },
+    "code": {
+      "id": "054100",
+      "iso": null
+    },
+    "parent": {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 21,
+      "barangay": 550
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.1403",
+      "lon": "123.3736"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Sorsogon",
+      "en": "Sorsogon",
+      "slug": "sorsogon-056200"
+    },
+    "code": {
+      "id": "056200",
+      "iso": null
+    },
+    "parent": {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 15,
+      "barangay": 541
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.7773",
+      "lon": "123.7049"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060400",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Aklan",
+      "en": "Aklan",
+      "slug": "aklan-060400"
+    },
+    "code": {
+      "id": "060400",
+      "iso": null
+    },
+    "parent": {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 17,
+      "barangay": 327
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.7974",
+      "lon": "122.2374"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060600",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Antique",
+      "en": "Antique",
+      "slug": "antique-060600"
+    },
+    "code": {
+      "id": "060600",
+      "iso": null
+    },
+    "parent": {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 18,
+      "barangay": 590
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.2709",
+      "lon": "122.1031"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061900",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Capiz",
+      "en": "Capiz",
+      "slug": "capiz-061900"
+    },
+    "code": {
+      "id": "061900",
+      "iso": null
+    },
+    "parent": {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 17,
+      "barangay": 473
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.5026",
+      "lon": "122.707"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Negros Occidental",
+      "en": "Negros Occidental",
+      "slug": "negros-occidental-064500"
+    },
+    "code": {
+      "id": "064500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 32,
+      "barangay": 662
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.3647",
+      "lon": "122.4029"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "067900",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Guimaras",
+      "en": "Guimaras",
+      "slug": "guimaras-067900"
+    },
+    "code": {
+      "id": "067900",
+      "iso": null
+    },
+    "parent": {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 5,
+      "barangay": 98
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.0238",
+      "lon": "122.5175"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Iloilo",
+      "en": "Iloilo",
+      "slug": "iloilo-063000"
+    },
+    "code": {
+      "id": "063000",
+      "iso": null
+    },
+    "parent": {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 44,
+      "barangay": 1901
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.5826",
+      "lon": "122.5502"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Bohol",
+      "en": "Bohol",
+      "slug": "bohol-071200"
+    },
+    "code": {
+      "id": "071200",
+      "iso": null
+    },
+    "parent": {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 48,
+      "barangay": 1109
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.9594",
+      "lon": "124.0531"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Cebu",
+      "en": "Cebu",
+      "slug": "cebu-072200"
+    },
+    "code": {
+      "id": "072200",
+      "iso": null
+    },
+    "parent": {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 53,
+      "barangay": 1203
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.1211",
+      "lon": "123.2693"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074600",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Negros Oriental",
+      "en": "Negros Oriental",
+      "slug": "negros-oriental-074600"
+    },
+    "code": {
+      "id": "074600",
+      "iso": null
+    },
+    "parent": {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 25,
+      "barangay": 557
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.2858",
+      "lon": "122.9494"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "076100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Siquijor",
+      "en": "Siquijor",
+      "slug": "siquijor-076100"
+    },
+    "code": {
+      "id": "076100",
+      "iso": null
+    },
+    "parent": {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 6,
+      "barangay": 134
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.3735",
+      "lon": "123.4997"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "087800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Biliran",
+      "en": "Biliran",
+      "slug": "biliran-087800"
+    },
+    "code": {
+      "id": "087800",
+      "iso": null
+    },
+    "parent": {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 8,
+      "barangay": 132
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.9376",
+      "lon": "123.9133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082600",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Eastern Samar",
+      "en": "Eastern Samar",
+      "slug": "eastern-samar-082600"
+    },
+    "code": {
+      "id": "082600",
+      "iso": null
+    },
+    "parent": {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 23,
+      "barangay": 597
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.8562",
+      "lon": "123.8641"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Leyte",
+      "en": "Leyte",
+      "slug": "leyte-083700"
+    },
+    "code": {
+      "id": "083700",
+      "iso": null
+    },
+    "parent": {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 43,
+      "barangay": 1641
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.1183",
+      "lon": "123.3465"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Northern Samar",
+      "en": "Northern Samar",
+      "slug": "northern-samar-084800"
+    },
+    "code": {
+      "id": "084800",
+      "iso": null
+    },
+    "parent": {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 24,
+      "barangay": 569
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.523",
+      "lon": "124.0939"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086400",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Southern Leyte",
+      "en": "Southern Leyte",
+      "slug": "southern-leyte-086400"
+    },
+    "code": {
+      "id": "086400",
+      "iso": null
+    },
+    "parent": {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 19,
+      "barangay": 500
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.6623",
+      "lon": "124.3661"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Samar (Western Samar)",
+      "en": "Samar (Western Samar)",
+      "slug": "samar-western-samar-086000"
+    },
+    "code": {
+      "id": "086000",
+      "iso": null
+    },
+    "parent": {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 26,
+      "barangay": 951
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.1457",
+      "lon": "123.7556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Zamboanga del Norte",
+      "en": "Zamboanga del Norte",
+      "slug": "zamboanga-del-norte-097200"
+    },
+    "code": {
+      "id": "097200",
+      "iso": null
+    },
+    "parent": {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 27,
+      "barangay": 691
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.4852",
+      "lon": "122.8253"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "097300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Zamboanga del Sur",
+      "en": "Zamboanga del Sur",
+      "slug": "zamboanga-del-sur-097300"
+    },
+    "code": {
+      "id": "097300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 28,
+      "barangay": 779
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.3723",
+      "lon": "122.9306"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Zamboanga Sibugay",
+      "en": "Zamboanga Sibugay",
+      "slug": "zamboanga-sibugay-098300"
+    },
+    "code": {
+      "id": "098300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 16,
+      "barangay": 389
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.9491",
+      "lon": "122.6965"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Bukidnon",
+      "en": "Bukidnon",
+      "slug": "bukidnon-101300"
+    },
+    "code": {
+      "id": "101300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 22,
+      "barangay": 464
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.52",
+      "lon": "124.1066"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Camiguin",
+      "en": "Camiguin",
+      "slug": "camiguin-101800"
+    },
+    "code": {
+      "id": "101800",
+      "iso": null
+    },
+    "parent": {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 5,
+      "barangay": 58
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.7314",
+      "lon": "124.328"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Lanao del Norte",
+      "en": "Lanao del Norte",
+      "slug": "lanao-del-norte-103500"
+    },
+    "code": {
+      "id": "103500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 23,
+      "barangay": 506
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.2256",
+      "lon": "123.6301"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Misamis Occidental",
+      "en": "Misamis Occidental",
+      "slug": "misamis-occidental-104200"
+    },
+    "code": {
+      "id": "104200",
+      "iso": null
+    },
+    "parent": {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 17,
+      "barangay": 490
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.5248",
+      "lon": "123.4772"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Misamis Oriental",
+      "en": "Misamis Oriental",
+      "slug": "misamis-oriental-104300"
+    },
+    "code": {
+      "id": "104300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 26,
+      "barangay": 504
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.1615",
+      "lon": "123.2441"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Davao del Norte",
+      "en": "Davao del Norte",
+      "slug": "davao-del-norte-112300"
+    },
+    "code": {
+      "id": "112300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 223
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.4347",
+      "lon": "125.0699"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112400",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Davao del Sur",
+      "en": "Davao del Sur",
+      "slug": "davao-del-sur-112400"
+    },
+    "code": {
+      "id": "112400",
+      "iso": null
+    },
+    "parent": {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 414
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.7044",
+      "lon": "123.7491"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Davao Oriental",
+      "en": "Davao Oriental",
+      "slug": "davao-oriental-112500"
+    },
+    "code": {
+      "id": "112500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 183
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.3438",
+      "lon": "125.1929"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Compostela Valley",
+      "en": "Compostela Valley",
+      "slug": "compostela-valley-118200"
+    },
+    "code": {
+      "id": "118200",
+      "iso": null
+    },
+    "parent": {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 237
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.4534",
+      "lon": "123.9085"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118600",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Davao Occidental",
+      "en": "Davao Occidental",
+      "slug": "davao-occidental-118600"
+    },
+    "code": {
+      "id": "118600",
+      "iso": null
+    },
+    "parent": {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 5,
+      "barangay": 105
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.1233",
+      "lon": "124.5037"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "124700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "North Cotabato",
+      "en": "North Cotabato",
+      "slug": "north-cotabato-124700"
+    },
+    "code": {
+      "id": "124700",
+      "iso": null
+    },
+    "parent": {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 18,
+      "barangay": 543
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.985",
+      "lon": "123.9935"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Sarangani",
+      "en": "Sarangani",
+      "slug": "sarangani-128000"
+    },
+    "code": {
+      "id": "128000",
+      "iso": null
+    },
+    "parent": {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 7,
+      "barangay": 141
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.3873",
+      "lon": "124.4587"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "South Cotabato",
+      "en": "South Cotabato",
+      "slug": "south-cotabato-126300"
+    },
+    "code": {
+      "id": "126300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 12,
+      "barangay": 225
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.1993",
+      "lon": "124.0666"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Sultan Kudarat",
+      "en": "Sultan Kudarat",
+      "slug": "sultan-kudarat-126500"
+    },
+    "code": {
+      "id": "126500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 12,
+      "barangay": 249
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.4525",
+      "lon": "124.2154"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Abra",
+      "en": "Abra",
+      "slug": "abra-140100"
+    },
+    "code": {
+      "id": "140100",
+      "iso": null
+    },
+    "parent": {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 27,
+      "barangay": 303
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.0398",
+      "lon": "120.8684"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "148100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Apayao",
+      "en": "Apayao",
+      "slug": "apayao-148100"
+    },
+    "code": {
+      "id": "148100",
+      "iso": null
+    },
+    "parent": {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 7,
+      "barangay": 133
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.1084",
+      "lon": "121.4886"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "141100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Benguet",
+      "en": "Benguet",
+      "slug": "benguet-141100"
+    },
+    "code": {
+      "id": "141100",
+      "iso": null
+    },
+    "parent": {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 14,
+      "barangay": 269
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.4959",
+      "lon": "121.1235"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Ifugao",
+      "en": "Ifugao",
+      "slug": "ifugao-142700"
+    },
+    "code": {
+      "id": "142700",
+      "iso": null
+    },
+    "parent": {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 175
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.359",
+      "lon": "121.2742"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Kalinga",
+      "en": "Kalinga",
+      "slug": "kalinga-143200"
+    },
+    "code": {
+      "id": "143200",
+      "iso": null
+    },
+    "parent": {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 8,
+      "barangay": 152
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.8611",
+      "lon": "121.3605"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "144400",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Mountain Province",
+      "en": "Mountain Province",
+      "slug": "mountain-province-144400"
+    },
+    "code": {
+      "id": "144400",
+      "iso": null
+    },
+    "parent": {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 10,
+      "barangay": 144
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.0025",
+      "lon": "121.3451"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "150700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Basilan",
+      "en": "Basilan",
+      "slug": "basilan-150700"
+    },
+    "code": {
+      "id": "150700",
+      "iso": null
+    },
+    "parent": {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 12,
+      "barangay": 210
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.6078",
+      "lon": "122.1204"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153600",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Lanao del Sur",
+      "en": "Lanao del Sur",
+      "slug": "lanao-del-sur-153600"
+    },
+    "code": {
+      "id": "153600",
+      "iso": null
+    },
+    "parent": {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 40,
+      "barangay": 1159
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.505",
+      "lon": "123.9808"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Maguindanao",
+      "en": "Maguindanao",
+      "slug": "maguindanao-153800"
+    },
+    "code": {
+      "id": "153800",
+      "iso": null
+    },
+    "parent": {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 36,
+      "barangay": 508
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.4308",
+      "lon": "124.179"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156600",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Sulu",
+      "en": "Sulu",
+      "slug": "sulu-156600"
+    },
+    "code": {
+      "id": "156600",
+      "iso": null
+    },
+    "parent": {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 19,
+      "barangay": 410
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.5156",
+      "lon": "121.1936"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Tawi-tawi",
+      "en": "Tawi-tawi",
+      "slug": "tawi-tawi-157000"
+    },
+    "code": {
+      "id": "157000",
+      "iso": null
+    },
+    "parent": {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 203
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.1544",
+      "lon": "120.2632"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Agusan del Norte",
+      "en": "Agusan del Norte",
+      "slug": "agusan-del-norte-160200"
+    },
+    "code": {
+      "id": "160200",
+      "iso": null
+    },
+    "parent": {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 12,
+      "barangay": 253
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.0905",
+      "lon": "123.6882"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Agusan del Sur",
+      "en": "Agusan del Sur",
+      "slug": "agusan-del-sur-160300"
+    },
+    "code": {
+      "id": "160300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 14,
+      "barangay": 314
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.0469",
+      "lon": "124.4362"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Surigao del Norte",
+      "en": "Surigao del Norte",
+      "slug": "surigao-del-norte-166700"
+    },
+    "code": {
+      "id": "166700",
+      "iso": null
+    },
+    "parent": {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 21,
+      "barangay": 335
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.5885",
+      "lon": "124.5472"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Surigao del Sur",
+      "en": "Surigao del Sur",
+      "slug": "surigao-del-sur-166800"
+    },
+    "code": {
+      "id": "166800",
+      "iso": null
+    },
+    "parent": {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 19,
+      "barangay": 309
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.8657",
+      "lon": "125.0553"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Dinagat Islands",
+      "en": "Dinagat Islands",
+      "slug": "dinagat-islands-168500"
+    },
+    "code": {
+      "id": "168500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 7,
+      "barangay": 100
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.8405",
+      "lon": "124.0229"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "174000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Marinduque",
+      "en": "Marinduque",
+      "slug": "marinduque-174000"
+    },
+    "code": {
+      "id": "174000",
+      "iso": null
+    },
+    "parent": {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 6,
+      "barangay": 218
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.4346",
+      "lon": "121.9289"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Occidental Mindoro",
+      "en": "Occidental Mindoro",
+      "slug": "occidental-mindoro-175100"
+    },
+    "code": {
+      "id": "175100",
+      "iso": null
+    },
+    "parent": {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 163
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.2257",
+      "lon": "121.0603"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Oriental Mindoro",
+      "en": "Oriental Mindoro",
+      "slug": "oriental-mindoro-175200"
+    },
+    "code": {
+      "id": "175200",
+      "iso": null
+    },
+    "parent": {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 15,
+      "barangay": 426
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.052",
+      "lon": "121.5535"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Palawan",
+      "en": "Palawan",
+      "slug": "palawan-175300"
+    },
+    "code": {
+      "id": "175300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 24,
+      "barangay": 433
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.5038",
+      "lon": "120.4645"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175900",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Romblon",
+      "en": "Romblon",
+      "slug": "romblon-175900"
+    },
+    "code": {
+      "id": "175900",
+      "iso": null
+    },
+    "parent": {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 17,
+      "barangay": 219
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.5928",
+      "lon": "122.0832"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "099700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Isabela (Province)",
+      "en": "Isabela (Province)",
+      "slug": "isabela-province-099700"
+    },
+    "code": {
+      "id": "099700",
+      "iso": null
+    },
+    "parent": {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 1,
+      "barangay": 45
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.3629",
+      "lon": "122.5763"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "129800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Cotabato City (Province)",
+      "en": "Cotabato City (Province)",
+      "slug": "cotabato-city-province-129800"
+    },
+    "code": {
+      "id": "129800",
+      "iso": null
+    },
+    "parent": {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 1,
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.506",
+      "lon": "123.7835"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

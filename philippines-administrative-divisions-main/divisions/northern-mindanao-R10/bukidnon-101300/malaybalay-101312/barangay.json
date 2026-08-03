@@ -1,0 +1,2992 @@
+[
+  {
+    "id": "101312001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aglayan",
+      "en": "Aglayan",
+      "slug": "aglayan-101312001"
+    },
+    "code": {
+      "id": "101312001",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.055",
+      "lon": "125.1342"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Apo Macote",
+      "en": "Apo Macote",
+      "slug": "apo-macote-101312027"
+    },
+    "code": {
+      "id": "101312027",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "7.9667",
+      "lon": "125.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bangcud",
+      "en": "Bangcud",
+      "slug": "bangcud-101312002"
+    },
+    "code": {
+      "id": "101312002",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.15",
+      "lon": "125.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312038",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 1 (Pob.)",
+      "en": "Barangay 1 (Pob.)",
+      "slug": "barangay-1-pob-101312038"
+    },
+    "code": {
+      "id": "101312038",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312053",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 10 (Pob.)",
+      "en": "Barangay 10 (Pob.)",
+      "slug": "barangay-10-pob-101312053"
+    },
+    "code": {
+      "id": "101312053",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312054",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 11 (Pob.)",
+      "en": "Barangay 11 (Pob.)",
+      "slug": "barangay-11-pob-101312054"
+    },
+    "code": {
+      "id": "101312054",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312045",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 2 (Pob.)",
+      "en": "Barangay 2 (Pob.)",
+      "slug": "barangay-2-pob-101312045"
+    },
+    "code": {
+      "id": "101312045",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312046",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 3 (Pob.)",
+      "en": "Barangay 3 (Pob.)",
+      "slug": "barangay-3-pob-101312046"
+    },
+    "code": {
+      "id": "101312046",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312047",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 4 (Pob.)",
+      "en": "Barangay 4 (Pob.)",
+      "slug": "barangay-4-pob-101312047"
+    },
+    "code": {
+      "id": "101312047",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312048",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 5 (Pob.)",
+      "en": "Barangay 5 (Pob.)",
+      "slug": "barangay-5-pob-101312048"
+    },
+    "code": {
+      "id": "101312048",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312049",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 6 (Pob.)",
+      "en": "Barangay 6 (Pob.)",
+      "slug": "barangay-6-pob-101312049"
+    },
+    "code": {
+      "id": "101312049",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312050",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 7 (Pob.)",
+      "en": "Barangay 7 (Pob.)",
+      "slug": "barangay-7-pob-101312050"
+    },
+    "code": {
+      "id": "101312050",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312051",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 8 (Pob.)",
+      "en": "Barangay 8 (Pob.)",
+      "slug": "barangay-8-pob-101312051"
+    },
+    "code": {
+      "id": "101312051",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312052",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 9 (Pob.)",
+      "en": "Barangay 9 (Pob.)",
+      "slug": "barangay-9-pob-101312052"
+    },
+    "code": {
+      "id": "101312052",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Busdi",
+      "en": "Busdi",
+      "slug": "busdi-101312003"
+    },
+    "code": {
+      "id": "101312003",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.2761",
+      "lon": "125.2514"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabangahan",
+      "en": "Cabangahan",
+      "slug": "cabangahan-101312004"
+    },
+    "code": {
+      "id": "101312004",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.0228",
+      "lon": "125.1375"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caburacanan",
+      "en": "Caburacanan",
+      "slug": "caburacanan-101312007"
+    },
+    "code": {
+      "id": "101312007",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.2258",
+      "lon": "125.2817"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Canayan",
+      "en": "Canayan",
+      "slug": "canayan-101312009"
+    },
+    "code": {
+      "id": "101312009",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.1836",
+      "lon": "125.1692"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Capitan Angel",
+      "en": "Capitan Angel",
+      "slug": "capitan-angel-101312010"
+    },
+    "code": {
+      "id": "101312010",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.1786",
+      "lon": "125.0403"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Casisang",
+      "en": "Casisang",
+      "slug": "casisang-101312012"
+    },
+    "code": {
+      "id": "101312012",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.1381",
+      "lon": "125.125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dalwangan",
+      "en": "Dalwangan",
+      "slug": "dalwangan-101312014"
+    },
+    "code": {
+      "id": "101312014",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.2006",
+      "lon": "125.0406"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Imbayao",
+      "en": "Imbayao",
+      "slug": "imbayao-101312017"
+    },
+    "code": {
+      "id": "101312017",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.15",
+      "lon": "125.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Indalaza",
+      "en": "Indalaza",
+      "slug": "indalaza-101312018"
+    },
+    "code": {
+      "id": "101312018",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.15",
+      "lon": "125.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kabalabag",
+      "en": "Kabalabag",
+      "slug": "kabalabag-101312021"
+    },
+    "code": {
+      "id": "101312021",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.2864",
+      "lon": "125.1517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kalasungay",
+      "en": "Kalasungay",
+      "slug": "kalasungay-101312019"
+    },
+    "code": {
+      "id": "101312019",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.1733",
+      "lon": "125.1022"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kulaman",
+      "en": "Kulaman",
+      "slug": "kulaman-101312022"
+    },
+    "code": {
+      "id": "101312022",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "7.7997",
+      "lon": "125.1692"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Laguitas",
+      "en": "Laguitas",
+      "slug": "laguitas-101312023"
+    },
+    "code": {
+      "id": "101312023",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.0892",
+      "lon": "125.1306"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Linabo",
+      "en": "Linabo",
+      "slug": "linabo-101312026"
+    },
+    "code": {
+      "id": "101312026",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.0542",
+      "lon": "125.155"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magsaysay",
+      "en": "Magsaysay",
+      "slug": "magsaysay-101312029"
+    },
+    "code": {
+      "id": "101312029",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "6.77",
+      "lon": "125.18"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maligaya",
+      "en": "Maligaya",
+      "slug": "maligaya-101312030"
+    },
+    "code": {
+      "id": "101312030",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "15.8113",
+      "lon": "121.4908"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312031",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Managok",
+      "en": "Managok",
+      "slug": "managok-101312031"
+    },
+    "code": {
+      "id": "101312031",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.0289",
+      "lon": "125.1886"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Manalog",
+      "en": "Manalog",
+      "slug": "manalog-101312032"
+    },
+    "code": {
+      "id": "101312032",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.295",
+      "lon": "125.1517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mapayag",
+      "en": "Mapayag",
+      "slug": "mapayag-101312034"
+    },
+    "code": {
+      "id": "101312034",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "6.3795",
+      "lon": "124.5528"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mapulo",
+      "en": "Mapulo",
+      "slug": "mapulo-101312035"
+    },
+    "code": {
+      "id": "101312035",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.1847",
+      "lon": "125.3092"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Miglamin",
+      "en": "Miglamin",
+      "slug": "miglamin-101312028"
+    },
+    "code": {
+      "id": "101312028",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.0519",
+      "lon": "125.2617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patpat (Lapu-lapu)",
+      "en": "Patpat (Lapu-lapu)",
+      "slug": "patpat-lapu-lapu-101312025"
+    },
+    "code": {
+      "id": "101312025",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.1972",
+      "lon": "125.0619"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312058",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Saint Peter",
+      "en": "Saint Peter",
+      "slug": "saint-peter-101312058"
+    },
+    "code": {
+      "id": "101312058",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.2433",
+      "lon": "125.3083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312059",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-101312059"
+    },
+    "code": {
+      "id": "101312059",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.2258",
+      "lon": "124.5944"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312060",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Martin",
+      "en": "San Martin",
+      "slug": "san-martin-101312060"
+    },
+    "code": {
+      "id": "101312060",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.0547",
+      "lon": "124.6078"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312061",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-101312061"
+    },
+    "code": {
+      "id": "101312061",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "6.43",
+      "lon": "124.68"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312062",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Silae",
+      "en": "Silae",
+      "slug": "silae-101312062"
+    },
+    "code": {
+      "id": "101312062",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.1589",
+      "lon": "125.2825"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312063",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Simaya",
+      "en": "Simaya",
+      "slug": "simaya-101312063"
+    },
+    "code": {
+      "id": "101312063",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.15",
+      "lon": "125.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312064",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sinanglanan",
+      "en": "Sinanglanan",
+      "slug": "sinanglanan-101312064"
+    },
+    "code": {
+      "id": "101312064",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.15",
+      "lon": "125.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312065",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sumpong",
+      "en": "Sumpong",
+      "slug": "sumpong-101312065"
+    },
+    "code": {
+      "id": "101312065",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.1633",
+      "lon": "125.1183"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312066",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Violeta",
+      "en": "Violeta",
+      "slug": "violeta-101312066"
+    },
+    "code": {
+      "id": "101312066",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "8.15",
+      "lon": "125.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312067",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Zamboanguita",
+      "en": "Zamboanguita",
+      "slug": "zamboanguita-101312067"
+    },
+    "code": {
+      "id": "101312067",
+      "iso": null
+    },
+    "parent": {
+      "id": "101312",
+      "level": 3,
+      "name": {
+        "local": "Malaybalay",
+        "en": "Malaybalay",
+        "slug": "malaybalay-101312"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101312",
+        "level": 3,
+        "name": {
+          "local": "Malaybalay",
+          "en": "Malaybalay",
+          "slug": "malaybalay-101312"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8700"
+    ],
+    "geo": {
+      "lat": "9.1",
+      "lon": "123.199"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

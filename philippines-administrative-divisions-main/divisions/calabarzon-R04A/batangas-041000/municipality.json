@@ -1,0 +1,1906 @@
+[
+  {
+    "id": "041001",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Agoncillo",
+      "en": "Agoncillo",
+      "slug": "agoncillo-041001"
+    },
+    "code": {
+      "id": "041001",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.933",
+      "lon": "120.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041002",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alitagtag",
+      "en": "Alitagtag",
+      "slug": "alitagtag-041002"
+    },
+    "code": {
+      "id": "041002",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.867",
+      "lon": "121"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balayan",
+      "en": "Balayan",
+      "slug": "balayan-041003"
+    },
+    "code": {
+      "id": "041003",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 48
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.933",
+      "lon": "120.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041004",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balete",
+      "en": "Balete",
+      "slug": "balete-041004"
+    },
+    "code": {
+      "id": "041004",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.02722",
+      "lon": "121.09806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041005",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Batangas City",
+      "en": "Batangas City",
+      "slug": "batangas-city-041005"
+    },
+    "code": {
+      "id": "041005",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 105
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.75",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041006",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bauan",
+      "en": "Bauan",
+      "slug": "bauan-041006"
+    },
+    "code": {
+      "id": "041006",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.80194",
+      "lon": "121.01306"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041007",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calaca",
+      "en": "Calaca",
+      "slug": "calaca-041007"
+    },
+    "code": {
+      "id": "041007",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.967",
+      "lon": "120.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041008",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calatagan",
+      "en": "Calatagan",
+      "slug": "calatagan-041008"
+    },
+    "code": {
+      "id": "041008",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.833",
+      "lon": "120.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cuenca",
+      "en": "Cuenca",
+      "slug": "cuenca-041009"
+    },
+    "code": {
+      "id": "041009",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.91667",
+      "lon": "121.04472"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041010",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ibaan",
+      "en": "Ibaan",
+      "slug": "ibaan-041010"
+    },
+    "code": {
+      "id": "041010",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.817",
+      "lon": "121.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041011",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Laurel",
+      "en": "Laurel",
+      "slug": "laurel-041011"
+    },
+    "code": {
+      "id": "041011",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.05",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041012",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lemery",
+      "en": "Lemery",
+      "slug": "lemery-041012"
+    },
+    "code": {
+      "id": "041012",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 46
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.92",
+      "lon": "120.88"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041013",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lian",
+      "en": "Lian",
+      "slug": "lian-041013"
+    },
+    "code": {
+      "id": "041013",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.033",
+      "lon": "120.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041014",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lipa City",
+      "en": "Lipa City",
+      "slug": "lipa-city-041014"
+    },
+    "code": {
+      "id": "041014",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 72
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.9411",
+      "lon": "121.1622"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041015",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lobo",
+      "en": "Lobo",
+      "slug": "lobo-041015"
+    },
+    "code": {
+      "id": "041015",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.65",
+      "lon": "121.25"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041016",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mabini",
+      "en": "Mabini",
+      "slug": "mabini-041016"
+    },
+    "code": {
+      "id": "041016",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.717",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malvar",
+      "en": "Malvar",
+      "slug": "malvar-041017"
+    },
+    "code": {
+      "id": "041017",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.04056",
+      "lon": "121.15444"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041018",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mataasnakahoy",
+      "en": "Mataasnakahoy",
+      "slug": "mataasnakahoy-041018"
+    },
+    "code": {
+      "id": "041018",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.9694",
+      "lon": "121.1472"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041019",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Nasugbu",
+      "en": "Nasugbu",
+      "slug": "nasugbu-041019"
+    },
+    "code": {
+      "id": "041019",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.067",
+      "lon": "120.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041020",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Padre Garcia",
+      "en": "Padre Garcia",
+      "slug": "padre-garcia-041020"
+    },
+    "code": {
+      "id": "041020",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.883",
+      "lon": "121.217"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041021",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Rosario",
+      "en": "Rosario",
+      "slug": "rosario-041021"
+    },
+    "code": {
+      "id": "041021",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 48
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.85",
+      "lon": "121.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041022",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-041022"
+    },
+    "code": {
+      "id": "041022",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.87722",
+      "lon": "121.105"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041023",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Juan",
+      "en": "San Juan",
+      "slug": "san-juan-041023"
+    },
+    "code": {
+      "id": "041023",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.833",
+      "lon": "121.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041024",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Luis",
+      "en": "San Luis",
+      "slug": "san-luis-041024"
+    },
+    "code": {
+      "id": "041024",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.833",
+      "lon": "120.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041025",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Nicolas",
+      "en": "San Nicolas",
+      "slug": "san-nicolas-041025"
+    },
+    "code": {
+      "id": "041025",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.917",
+      "lon": "120.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041026",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Pascual",
+      "en": "San Pascual",
+      "slug": "san-pascual-041026"
+    },
+    "code": {
+      "id": "041026",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.8075",
+      "lon": "121.04194"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041027",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Teresita",
+      "en": "Santa Teresita",
+      "slug": "santa-teresita-041027"
+    },
+    "code": {
+      "id": "041027",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.883",
+      "lon": "120.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041028",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santo Tomas",
+      "en": "Santo Tomas",
+      "slug": "santo-tomas-041028"
+    },
+    "code": {
+      "id": "041028",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.10917",
+      "lon": "121.14194"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041029",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Taal",
+      "en": "Taal",
+      "slug": "taal-041029"
+    },
+    "code": {
+      "id": "041029",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.89417",
+      "lon": "120.92917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041030",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Talisay",
+      "en": "Talisay",
+      "slug": "talisay-041030"
+    },
+    "code": {
+      "id": "041030",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.1",
+      "lon": "121.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041031",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tanauan",
+      "en": "Tanauan",
+      "slug": "tanauan-041031"
+    },
+    "code": {
+      "id": "041031",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 48
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.12",
+      "lon": "125.02"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041032",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Taysan",
+      "en": "Taysan",
+      "slug": "taysan-041032"
+    },
+    "code": {
+      "id": "041032",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.74194",
+      "lon": "121.22306"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041033",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tingloy",
+      "en": "Tingloy",
+      "slug": "tingloy-041033"
+    },
+    "code": {
+      "id": "041033",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.65",
+      "lon": "120.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041034",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tuy",
+      "en": "Tuy",
+      "slug": "tuy-041034"
+    },
+    "code": {
+      "id": "041034",
+      "iso": null
+    },
+    "parent": {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.017",
+      "lon": "120.733"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

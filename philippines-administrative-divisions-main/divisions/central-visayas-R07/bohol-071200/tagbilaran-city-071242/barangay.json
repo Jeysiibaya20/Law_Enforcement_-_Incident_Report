@@ -1,0 +1,977 @@
+[
+  {
+    "id": "071242001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bool",
+      "en": "Bool",
+      "slug": "bool-071242001"
+    },
+    "code": {
+      "id": "071242001",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "9.6333",
+      "lon": "123.8833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Booy",
+      "en": "Booy",
+      "slug": "booy-071242002"
+    },
+    "code": {
+      "id": "071242002",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "9.6667",
+      "lon": "123.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabawan",
+      "en": "Cabawan",
+      "slug": "cabawan-071242003"
+    },
+    "code": {
+      "id": "071242003",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "9.976",
+      "lon": "124.1679"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cogon",
+      "en": "Cogon",
+      "slug": "cogon-071242004"
+    },
+    "code": {
+      "id": "071242004",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "9.6555",
+      "lon": "123.8658"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dampas",
+      "en": "Dampas",
+      "slug": "dampas-071242006"
+    },
+    "code": {
+      "id": "071242006",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "9.6473",
+      "lon": "123.8716"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dao",
+      "en": "Dao",
+      "slug": "dao-071242005"
+    },
+    "code": {
+      "id": "071242005",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "9.6728",
+      "lon": "123.8725"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Manga",
+      "en": "Manga",
+      "slug": "manga-071242008"
+    },
+    "code": {
+      "id": "071242008",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "9.6929",
+      "lon": "123.863"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mansasa",
+      "en": "Mansasa",
+      "slug": "mansasa-071242009"
+    },
+    "code": {
+      "id": "071242009",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "9.6337",
+      "lon": "123.869"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion I",
+      "en": "Poblacion I",
+      "slug": "poblacion-i-071242010"
+    },
+    "code": {
+      "id": "071242010",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "14.2983",
+      "lon": "121.0096"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion II",
+      "en": "Poblacion II",
+      "slug": "poblacion-ii-071242011"
+    },
+    "code": {
+      "id": "071242011",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "14.2949",
+      "lon": "121.0091"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion III",
+      "en": "Poblacion III",
+      "slug": "poblacion-iii-071242012"
+    },
+    "code": {
+      "id": "071242012",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "14.2923",
+      "lon": "121.007"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-071242013"
+    },
+    "code": {
+      "id": "071242013",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "9.8",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taloto",
+      "en": "Taloto",
+      "slug": "taloto-071242014"
+    },
+    "code": {
+      "id": "071242014",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "9.6769",
+      "lon": "123.8521"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tiptip",
+      "en": "Tiptip",
+      "slug": "tiptip-071242015"
+    },
+    "code": {
+      "id": "071242015",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "9.6875",
+      "lon": "123.8733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "071242016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ubujan",
+      "en": "Ubujan",
+      "slug": "ubujan-071242016"
+    },
+    "code": {
+      "id": "071242016",
+      "iso": null
+    },
+    "parent": {
+      "id": "071242",
+      "level": 3,
+      "name": {
+        "local": "Tagbilaran City",
+        "en": "Tagbilaran City",
+        "slug": "tagbilaran-city-071242"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "071200",
+        "level": 2,
+        "name": {
+          "local": "Bohol",
+          "en": "Bohol",
+          "slug": "bohol-071200"
+        }
+      },
+      {
+        "id": "071242",
+        "level": 3,
+        "name": {
+          "local": "Tagbilaran City",
+          "en": "Tagbilaran City",
+          "slug": "tagbilaran-city-071242"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6300"
+    ],
+    "geo": {
+      "lat": "9.95",
+      "lon": "123.9667"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

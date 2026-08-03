@@ -20,7 +20,12 @@ function jsonResponse($payload, $statusCode = 200) {
     exit;
 }
 
-Invoke-RestMethod -Method Post -Uri "http://localhost/Law_Enforcement_-_Incident_Report/api/external_integration.php?action=send" -ContentType "application/json" -Body '{"target_url":"http://other-system/api","payload":{"source":"my_system","status":"ok"}}'Invoke-RestMethod -Method Post -Uri "http://localhost/Law_Enforcement_-_Incident_Report/api/external_integration.php?action=send" -ContentType "application/json" -Body '{"target_url":"http://other-system/api","payload":{"source":"my_system","status":"ok"}}'Invoke-RestMethod -Method Post -Uri "http://localhost/Law_Enforcement_-_Incident_Report/api/external_integration.php?action=send" -ContentType "application/json" -Body '{"target_url":"http://other-system/api","payload":{"source":"my_system","status":"ok"}}'function getRequestPayload() {
+/*
+Example usage:
+Invoke-RestMethod -Method Post -Uri "https://report.alertaraqc/api/external_integration.php?action=send" -ContentType "application/json" -Body '{"target_url":"https://other-system/api","payload":{"source":"my_system","status":"ok"}}'
+*/
+
+function getRequestPayload() {
     $raw = file_get_contents('php://input');
     $parsed = json_decode($raw, true);
     if (is_array($parsed)) {

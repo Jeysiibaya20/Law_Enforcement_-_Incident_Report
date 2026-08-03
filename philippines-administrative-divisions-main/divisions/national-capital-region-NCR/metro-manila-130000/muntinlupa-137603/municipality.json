@@ -1,0 +1,56 @@
+{
+  "id": "137603",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Muntinlupa",
+    "en": "Muntinlupa",
+    "slug": "muntinlupa-137603"
+  },
+  "code": {
+    "id": "137603",
+    "iso": null
+  },
+  "parent": {
+    "id": "130000",
+    "level": 2,
+    "name": {
+      "local": "Kalakhang Maynila",
+      "en": "Metro Manila",
+      "slug": "metro-manila-130000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "NCR",
+      "level": 1,
+      "name": {
+        "local": "National Capital Region",
+        "en": "National Capital Region",
+        "slug": "national-capital-region-NCR"
+      }
+    },
+    {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 9
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.4046",
+    "lon": "121.049"
+  },
+  "metadata": {},
+  "source": {}
+}

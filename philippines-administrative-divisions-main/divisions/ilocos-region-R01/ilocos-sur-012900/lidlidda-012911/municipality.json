@@ -1,0 +1,56 @@
+{
+  "id": "012911",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Lidlidda",
+    "en": "Lidlidda",
+    "slug": "lidlidda-012911"
+  },
+  "code": {
+    "id": "012911",
+    "iso": null
+  },
+  "parent": {
+    "id": "012900",
+    "level": 2,
+    "name": {
+      "local": "Ilocos Sur",
+      "en": "Ilocos Sur",
+      "slug": "ilocos-sur-012900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.267",
+    "lon": "120.517"
+  },
+  "metadata": {},
+  "source": {}
+}

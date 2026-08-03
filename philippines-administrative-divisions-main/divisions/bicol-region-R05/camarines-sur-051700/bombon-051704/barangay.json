@@ -1,0 +1,522 @@
+[
+  {
+    "id": "051704005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pagao (San Juan)",
+      "en": "Pagao (San Juan)",
+      "slug": "pagao-san-juan-051704005"
+    },
+    "code": {
+      "id": "051704005",
+      "iso": null
+    },
+    "parent": {
+      "id": "051704",
+      "level": 3,
+      "name": {
+        "local": "Bombon",
+        "en": "Bombon",
+        "slug": "bombon-051704"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051704",
+        "level": 3,
+        "name": {
+          "local": "Bombon",
+          "en": "Bombon",
+          "slug": "bombon-051704"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4404"
+    ],
+    "geo": {
+      "lat": "13.6997",
+      "lon": "123.1297"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051704001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio",
+      "en": "San Antonio",
+      "slug": "san-antonio-051704001"
+    },
+    "code": {
+      "id": "051704001",
+      "iso": null
+    },
+    "parent": {
+      "id": "051704",
+      "level": 3,
+      "name": {
+        "local": "Bombon",
+        "en": "Bombon",
+        "slug": "bombon-051704"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051704",
+        "level": 3,
+        "name": {
+          "local": "Bombon",
+          "en": "Bombon",
+          "slug": "bombon-051704"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4404"
+    ],
+    "geo": {
+      "lat": "13.55",
+      "lon": "123.2667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051704002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Francisco",
+      "en": "San Francisco",
+      "slug": "san-francisco-051704002"
+    },
+    "code": {
+      "id": "051704002",
+      "iso": null
+    },
+    "parent": {
+      "id": "051704",
+      "level": 3,
+      "name": {
+        "local": "Bombon",
+        "en": "Bombon",
+        "slug": "bombon-051704"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051704",
+        "level": 3,
+        "name": {
+          "local": "Bombon",
+          "en": "Bombon",
+          "slug": "bombon-051704"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4404"
+    ],
+    "geo": {
+      "lat": "13.6181",
+      "lon": "123.1631"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051704003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro (Pob.)",
+      "en": "San Isidro (Pob.)",
+      "slug": "san-isidro-pob-051704003"
+    },
+    "code": {
+      "id": "051704003",
+      "iso": null
+    },
+    "parent": {
+      "id": "051704",
+      "level": 3,
+      "name": {
+        "local": "Bombon",
+        "en": "Bombon",
+        "slug": "bombon-051704"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051704",
+        "level": 3,
+        "name": {
+          "local": "Bombon",
+          "en": "Bombon",
+          "slug": "bombon-051704"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4404"
+    ],
+    "geo": {
+      "lat": "13.444",
+      "lon": "123.4064"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051704004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose (Pob.)",
+      "en": "San Jose (Pob.)",
+      "slug": "san-jose-pob-051704004"
+    },
+    "code": {
+      "id": "051704004",
+      "iso": null
+    },
+    "parent": {
+      "id": "051704",
+      "level": 3,
+      "name": {
+        "local": "Bombon",
+        "en": "Bombon",
+        "slug": "bombon-051704"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051704",
+        "level": 3,
+        "name": {
+          "local": "Bombon",
+          "en": "Bombon",
+          "slug": "bombon-051704"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4404"
+    ],
+    "geo": {
+      "lat": "13.6981",
+      "lon": "123.5186"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051704006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque (Pob.)",
+      "en": "San Roque (Pob.)",
+      "slug": "san-roque-pob-051704006"
+    },
+    "code": {
+      "id": "051704006",
+      "iso": null
+    },
+    "parent": {
+      "id": "051704",
+      "level": 3,
+      "name": {
+        "local": "Bombon",
+        "en": "Bombon",
+        "slug": "bombon-051704"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051704",
+        "level": 3,
+        "name": {
+          "local": "Bombon",
+          "en": "Bombon",
+          "slug": "bombon-051704"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4404"
+    ],
+    "geo": {
+      "lat": "13.5535",
+      "lon": "123.2782"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051704008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Domingo",
+      "en": "Santo Domingo",
+      "slug": "santo-domingo-051704008"
+    },
+    "code": {
+      "id": "051704008",
+      "iso": null
+    },
+    "parent": {
+      "id": "051704",
+      "level": 3,
+      "name": {
+        "local": "Bombon",
+        "en": "Bombon",
+        "slug": "bombon-051704"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051704",
+        "level": 3,
+        "name": {
+          "local": "Bombon",
+          "en": "Bombon",
+          "slug": "bombon-051704"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4404"
+    ],
+    "geo": {
+      "lat": "13.5956",
+      "lon": "123.1781"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051704007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Siembre",
+      "en": "Siembre",
+      "slug": "siembre-051704007"
+    },
+    "code": {
+      "id": "051704007",
+      "iso": null
+    },
+    "parent": {
+      "id": "051704",
+      "level": 3,
+      "name": {
+        "local": "Bombon",
+        "en": "Bombon",
+        "slug": "bombon-051704"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051704",
+        "level": 3,
+        "name": {
+          "local": "Bombon",
+          "en": "Bombon",
+          "slug": "bombon-051704"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4404"
+    ],
+    "geo": {
+      "lat": "13.683",
+      "lon": "123.2"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,1626 @@
+[
+  {
+    "id": "021501",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Abulug",
+      "en": "Abulug",
+      "slug": "abulug-021501"
+    },
+    "code": {
+      "id": "021501",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.45",
+      "lon": "121.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021502",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alcala",
+      "en": "Alcala",
+      "slug": "alcala-021502"
+    },
+    "code": {
+      "id": "021502",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.9",
+      "lon": "121.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021503",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Allacapan",
+      "en": "Allacapan",
+      "slug": "allacapan-021503"
+    },
+    "code": {
+      "id": "021503",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.25",
+      "lon": "121.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021504",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Amulung",
+      "en": "Amulung",
+      "slug": "amulung-021504"
+    },
+    "code": {
+      "id": "021504",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 47
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.833",
+      "lon": "121.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021505",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Aparri",
+      "en": "Aparri",
+      "slug": "aparri-021505"
+    },
+    "code": {
+      "id": "021505",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.333",
+      "lon": "121.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Baggao",
+      "en": "Baggao",
+      "slug": "baggao-021506"
+    },
+    "code": {
+      "id": "021506",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 48
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.917",
+      "lon": "121.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021507",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ballesteros",
+      "en": "Ballesteros",
+      "slug": "ballesteros-021507"
+    },
+    "code": {
+      "id": "021507",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.4",
+      "lon": "121.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021508",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Buguey",
+      "en": "Buguey",
+      "slug": "buguey-021508"
+    },
+    "code": {
+      "id": "021508",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.283",
+      "lon": "121.833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021509",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calayan",
+      "en": "Calayan",
+      "slug": "calayan-021509"
+    },
+    "code": {
+      "id": "021509",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "19.267",
+      "lon": "121.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021510",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Camalaniugan",
+      "en": "Camalaniugan",
+      "slug": "camalaniugan-021510"
+    },
+    "code": {
+      "id": "021510",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.27444",
+      "lon": "121.67361"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021511",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Claveria",
+      "en": "Claveria",
+      "slug": "claveria-021511"
+    },
+    "code": {
+      "id": "021511",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 41
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.6075",
+      "lon": "121.085"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021512",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Enrile",
+      "en": "Enrile",
+      "slug": "enrile-021512"
+    },
+    "code": {
+      "id": "021512",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.55",
+      "lon": "121.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021513",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Gattaran",
+      "en": "Gattaran",
+      "slug": "gattaran-021513"
+    },
+    "code": {
+      "id": "021513",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 50
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.067",
+      "lon": "121.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021514",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Gonzaga",
+      "en": "Gonzaga",
+      "slug": "gonzaga-021514"
+    },
+    "code": {
+      "id": "021514",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.267",
+      "lon": "122"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021515",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Iguig",
+      "en": "Iguig",
+      "slug": "iguig-021515"
+    },
+    "code": {
+      "id": "021515",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.75",
+      "lon": "121.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021516",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lal-Lo",
+      "en": "Lal-Lo",
+      "slug": "lal-lo-021516"
+    },
+    "code": {
+      "id": "021516",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.2",
+      "lon": "121.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021517",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lasam",
+      "en": "Lasam",
+      "slug": "lasam-021517"
+    },
+    "code": {
+      "id": "021517",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.067",
+      "lon": "121.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021518",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pamplona",
+      "en": "Pamplona",
+      "slug": "pamplona-021518"
+    },
+    "code": {
+      "id": "021518",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.45",
+      "lon": "121.34167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021519",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Peñablanca",
+      "en": "Peñablanca",
+      "slug": "peablanca-021519"
+    },
+    "code": {
+      "id": "021519",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.633",
+      "lon": "121.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021520",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Piat",
+      "en": "Piat",
+      "slug": "piat-021520"
+    },
+    "code": {
+      "id": "021520",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.79111",
+      "lon": "121.47611"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021521",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Rizal",
+      "en": "Rizal",
+      "slug": "rizal-021521"
+    },
+    "code": {
+      "id": "021521",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.85",
+      "lon": "121.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021522",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sanchez-Mira",
+      "en": "Sanchez-Mira",
+      "slug": "sanchez-mira-021522"
+    },
+    "code": {
+      "id": "021522",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.567",
+      "lon": "121.233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Ana",
+      "en": "Santa Ana",
+      "slug": "santa-ana-021523"
+    },
+    "code": {
+      "id": "021523",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.467",
+      "lon": "122.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021524",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Praxedes",
+      "en": "Santa Praxedes",
+      "slug": "santa-praxedes-021524"
+    },
+    "code": {
+      "id": "021524",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.567",
+      "lon": "121"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021525",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Teresita",
+      "en": "Santa Teresita",
+      "slug": "santa-teresita-021525"
+    },
+    "code": {
+      "id": "021525",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.25",
+      "lon": "121.883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021526",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santo Niño (Faire)",
+      "en": "Santo Niño (Faire)",
+      "slug": "santo-nio-faire-021526"
+    },
+    "code": {
+      "id": "021526",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.883",
+      "lon": "121.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021527",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Solana",
+      "en": "Solana",
+      "slug": "solana-021527"
+    },
+    "code": {
+      "id": "021527",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 38
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.655",
+      "lon": "121.68889"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021528",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tuao",
+      "en": "Tuao",
+      "slug": "tuao-021528"
+    },
+    "code": {
+      "id": "021528",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 32
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.733",
+      "lon": "121.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tuguegarao City",
+      "en": "Tuguegarao City",
+      "slug": "tuguegarao-city-021529"
+    },
+    "code": {
+      "id": "021529",
+      "iso": null
+    },
+    "parent": {
+      "id": "021500",
+      "level": 2,
+      "name": {
+        "local": "Cagayan",
+        "en": "Cagayan",
+        "slug": "cagayan-021500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 49
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.617",
+      "lon": "121.717"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

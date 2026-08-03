@@ -1,0 +1,782 @@
+[
+  {
+    "id": "175308001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bantayan (Pob.)",
+      "en": "Bantayan (Pob.)",
+      "slug": "bantayan-pob-175308001"
+    },
+    "code": {
+      "id": "175308001",
+      "iso": null
+    },
+    "parent": {
+      "id": "175308",
+      "level": 3,
+      "name": {
+        "local": "Cagayancillo",
+        "en": "Cagayancillo",
+        "slug": "cagayancillo-175308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175308",
+        "level": 3,
+        "name": {
+          "local": "Cagayancillo",
+          "en": "Cagayancillo",
+          "slug": "cagayancillo-175308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5321"
+    ],
+    "geo": {
+      "lat": "11.2",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175308002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calsada (Pob.)",
+      "en": "Calsada (Pob.)",
+      "slug": "calsada-pob-175308002"
+    },
+    "code": {
+      "id": "175308002",
+      "iso": null
+    },
+    "parent": {
+      "id": "175308",
+      "level": 3,
+      "name": {
+        "local": "Cagayancillo",
+        "en": "Cagayancillo",
+        "slug": "cagayancillo-175308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175308",
+        "level": 3,
+        "name": {
+          "local": "Cagayancillo",
+          "en": "Cagayancillo",
+          "slug": "cagayancillo-175308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5321"
+    ],
+    "geo": {
+      "lat": "10.7781",
+      "lon": "124.9988"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175308003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Convento (Pob.)",
+      "en": "Convento (Pob.)",
+      "slug": "convento-pob-175308003"
+    },
+    "code": {
+      "id": "175308003",
+      "iso": null
+    },
+    "parent": {
+      "id": "175308",
+      "level": 3,
+      "name": {
+        "local": "Cagayancillo",
+        "en": "Cagayancillo",
+        "slug": "cagayancillo-175308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175308",
+        "level": 3,
+        "name": {
+          "local": "Cagayancillo",
+          "en": "Cagayancillo",
+          "slug": "cagayancillo-175308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5321"
+    ],
+    "geo": {
+      "lat": "9.48194",
+      "lon": "121.03611"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175308004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lipot North (Pob.)",
+      "en": "Lipot North (Pob.)",
+      "slug": "lipot-north-pob-175308004"
+    },
+    "code": {
+      "id": "175308004",
+      "iso": null
+    },
+    "parent": {
+      "id": "175308",
+      "level": 3,
+      "name": {
+        "local": "Cagayancillo",
+        "en": "Cagayancillo",
+        "slug": "cagayancillo-175308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175308",
+        "level": 3,
+        "name": {
+          "local": "Cagayancillo",
+          "en": "Cagayancillo",
+          "slug": "cagayancillo-175308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5321"
+    ],
+    "geo": {
+      "lat": "13.602",
+      "lon": "123.1692"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175308005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lipot South (Pob.)",
+      "en": "Lipot South (Pob.)",
+      "slug": "lipot-south-pob-175308005"
+    },
+    "code": {
+      "id": "175308005",
+      "iso": null
+    },
+    "parent": {
+      "id": "175308",
+      "level": 3,
+      "name": {
+        "local": "Cagayancillo",
+        "en": "Cagayancillo",
+        "slug": "cagayancillo-175308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175308",
+        "level": 3,
+        "name": {
+          "local": "Cagayancillo",
+          "en": "Cagayancillo",
+          "slug": "cagayancillo-175308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5321"
+    ],
+    "geo": {
+      "lat": "13.602",
+      "lon": "123.1692"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175308006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magsaysay",
+      "en": "Magsaysay",
+      "slug": "magsaysay-175308006"
+    },
+    "code": {
+      "id": "175308006",
+      "iso": null
+    },
+    "parent": {
+      "id": "175308",
+      "level": 3,
+      "name": {
+        "local": "Cagayancillo",
+        "en": "Cagayancillo",
+        "slug": "cagayancillo-175308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175308",
+        "level": 3,
+        "name": {
+          "local": "Cagayancillo",
+          "en": "Cagayancillo",
+          "slug": "cagayancillo-175308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5321"
+    ],
+    "geo": {
+      "lat": "6.77",
+      "lon": "125.18"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175308007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mampio",
+      "en": "Mampio",
+      "slug": "mampio-175308007"
+    },
+    "code": {
+      "id": "175308007",
+      "iso": null
+    },
+    "parent": {
+      "id": "175308",
+      "level": 3,
+      "name": {
+        "local": "Cagayancillo",
+        "en": "Cagayancillo",
+        "slug": "cagayancillo-175308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175308",
+        "level": 3,
+        "name": {
+          "local": "Cagayancillo",
+          "en": "Cagayancillo",
+          "slug": "cagayancillo-175308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5321"
+    ],
+    "geo": {
+      "lat": "9.6097",
+      "lon": "121.2372"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175308008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nusa",
+      "en": "Nusa",
+      "slug": "nusa-175308008"
+    },
+    "code": {
+      "id": "175308008",
+      "iso": null
+    },
+    "parent": {
+      "id": "175308",
+      "level": 3,
+      "name": {
+        "local": "Cagayancillo",
+        "en": "Cagayancillo",
+        "slug": "cagayancillo-175308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175308",
+        "level": 3,
+        "name": {
+          "local": "Cagayancillo",
+          "en": "Cagayancillo",
+          "slug": "cagayancillo-175308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5321"
+    ],
+    "geo": {
+      "lat": "7.882",
+      "lon": "124.2109"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175308009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-175308009"
+    },
+    "code": {
+      "id": "175308009",
+      "iso": null
+    },
+    "parent": {
+      "id": "175308",
+      "level": 3,
+      "name": {
+        "local": "Cagayancillo",
+        "en": "Cagayancillo",
+        "slug": "cagayancillo-175308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175308",
+        "level": 3,
+        "name": {
+          "local": "Cagayancillo",
+          "en": "Cagayancillo",
+          "slug": "cagayancillo-175308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5321"
+    ],
+    "geo": {
+      "lat": "14.5998",
+      "lon": "120.9802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175308010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tacas (Pob.)",
+      "en": "Tacas (Pob.)",
+      "slug": "tacas-pob-175308010"
+    },
+    "code": {
+      "id": "175308010",
+      "iso": null
+    },
+    "parent": {
+      "id": "175308",
+      "level": 3,
+      "name": {
+        "local": "Cagayancillo",
+        "en": "Cagayancillo",
+        "slug": "cagayancillo-175308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175308",
+        "level": 3,
+        "name": {
+          "local": "Cagayancillo",
+          "en": "Cagayancillo",
+          "slug": "cagayancillo-175308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5321"
+    ],
+    "geo": {
+      "lat": "10.7667",
+      "lon": "122.55"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175308011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talaga",
+      "en": "Talaga",
+      "slug": "talaga-175308011"
+    },
+    "code": {
+      "id": "175308011",
+      "iso": null
+    },
+    "parent": {
+      "id": "175308",
+      "level": 3,
+      "name": {
+        "local": "Cagayancillo",
+        "en": "Cagayancillo",
+        "slug": "cagayancillo-175308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175308",
+        "level": 3,
+        "name": {
+          "local": "Cagayancillo",
+          "en": "Cagayancillo",
+          "slug": "cagayancillo-175308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5321"
+    ],
+    "geo": {
+      "lat": "7.4335",
+      "lon": "122.3455"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175308012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Wahig (Pob.)",
+      "en": "Wahig (Pob.)",
+      "slug": "wahig-pob-175308012"
+    },
+    "code": {
+      "id": "175308012",
+      "iso": null
+    },
+    "parent": {
+      "id": "175308",
+      "level": 3,
+      "name": {
+        "local": "Cagayancillo",
+        "en": "Cagayancillo",
+        "slug": "cagayancillo-175308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175308",
+        "level": 3,
+        "name": {
+          "local": "Cagayancillo",
+          "en": "Cagayancillo",
+          "slug": "cagayancillo-175308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5321"
+    ],
+    "geo": {
+      "lat": "9.48194",
+      "lon": "121.03611"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

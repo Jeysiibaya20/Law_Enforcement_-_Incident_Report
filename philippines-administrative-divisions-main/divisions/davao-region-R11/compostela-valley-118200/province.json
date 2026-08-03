@@ -1,0 +1,48 @@
+{
+  "id": "118200",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Compostela Valley",
+    "en": "Compostela Valley",
+    "slug": "compostela-valley-118200"
+  },
+  "code": {
+    "id": "118200",
+    "iso": null
+  },
+  "parent": {
+    "id": "R11",
+    "level": 1,
+    "name": {
+      "local": "Davao Region",
+      "en": "Davao Region",
+      "slug": "davao-region-R11"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 11,
+    "barangay": 237
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.4534",
+    "lon": "123.9085"
+  },
+  "metadata": {},
+  "source": {}
+}

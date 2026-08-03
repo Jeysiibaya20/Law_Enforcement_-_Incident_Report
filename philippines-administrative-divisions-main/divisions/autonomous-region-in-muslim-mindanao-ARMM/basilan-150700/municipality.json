@@ -1,0 +1,674 @@
+[
+  {
+    "id": "150708",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Akbar",
+      "en": "Akbar",
+      "slug": "akbar-150708"
+    },
+    "code": {
+      "id": "150708",
+      "iso": null
+    },
+    "parent": {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "150700",
+        "level": 2,
+        "name": {
+          "local": "Basilan",
+          "en": "Basilan",
+          "slug": "basilan-150700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.65",
+      "lon": "122.217"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "150709",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Al-Barka",
+      "en": "Al-Barka",
+      "slug": "al-barka-150709"
+    },
+    "code": {
+      "id": "150709",
+      "iso": null
+    },
+    "parent": {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "150700",
+        "level": 2,
+        "name": {
+          "local": "Basilan",
+          "en": "Basilan",
+          "slug": "basilan-150700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.467",
+      "lon": "122.183"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "150710",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Hadji Mohammad Ajul",
+      "en": "Hadji Mohammad Ajul",
+      "slug": "hadji-mohammad-ajul-150710"
+    },
+    "code": {
+      "id": "150710",
+      "iso": null
+    },
+    "parent": {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "150700",
+        "level": 2,
+        "name": {
+          "local": "Basilan",
+          "en": "Basilan",
+          "slug": "basilan-150700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.617",
+      "lon": "122.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "150712",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Hadji Muhtamad",
+      "en": "Hadji Muhtamad",
+      "slug": "hadji-muhtamad-150712"
+    },
+    "code": {
+      "id": "150712",
+      "iso": null
+    },
+    "parent": {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "150700",
+        "level": 2,
+        "name": {
+          "local": "Basilan",
+          "en": "Basilan",
+          "slug": "basilan-150700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.633",
+      "lon": "121.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "150702",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lamitan",
+      "en": "Lamitan",
+      "slug": "lamitan-150702"
+    },
+    "code": {
+      "id": "150702",
+      "iso": null
+    },
+    "parent": {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "150700",
+        "level": 2,
+        "name": {
+          "local": "Basilan",
+          "en": "Basilan",
+          "slug": "basilan-150700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 45
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.65",
+      "lon": "122.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "150703",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lantawan",
+      "en": "Lantawan",
+      "slug": "lantawan-150703"
+    },
+    "code": {
+      "id": "150703",
+      "iso": null
+    },
+    "parent": {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "150700",
+        "level": 2,
+        "name": {
+          "local": "Basilan",
+          "en": "Basilan",
+          "slug": "basilan-150700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.65",
+      "lon": "121.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "150704",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maluso",
+      "en": "Maluso",
+      "slug": "maluso-150704"
+    },
+    "code": {
+      "id": "150704",
+      "iso": null
+    },
+    "parent": {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "150700",
+        "level": 2,
+        "name": {
+          "local": "Basilan",
+          "en": "Basilan",
+          "slug": "basilan-150700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.55",
+      "lon": "121.883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "150705",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sumisip",
+      "en": "Sumisip",
+      "slug": "sumisip-150705"
+    },
+    "code": {
+      "id": "150705",
+      "iso": null
+    },
+    "parent": {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "150700",
+        "level": 2,
+        "name": {
+          "local": "Basilan",
+          "en": "Basilan",
+          "slug": "basilan-150700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.417",
+      "lon": "121.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "150713",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tabuan-Lasa",
+      "en": "Tabuan-Lasa",
+      "slug": "tabuan-lasa-150713"
+    },
+    "code": {
+      "id": "150713",
+      "iso": null
+    },
+    "parent": {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "150700",
+        "level": 2,
+        "name": {
+          "local": "Basilan",
+          "en": "Basilan",
+          "slug": "basilan-150700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.35",
+      "lon": "121.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "150706",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tipo-Tipo",
+      "en": "Tipo-Tipo",
+      "slug": "tipo-tipo-150706"
+    },
+    "code": {
+      "id": "150706",
+      "iso": null
+    },
+    "parent": {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "150700",
+        "level": 2,
+        "name": {
+          "local": "Basilan",
+          "en": "Basilan",
+          "slug": "basilan-150700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.533",
+      "lon": "122.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "150707",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tuburan",
+      "en": "Tuburan",
+      "slug": "tuburan-150707"
+    },
+    "code": {
+      "id": "150707",
+      "iso": null
+    },
+    "parent": {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "150700",
+        "level": 2,
+        "name": {
+          "local": "Basilan",
+          "en": "Basilan",
+          "slug": "basilan-150700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.6",
+      "lon": "122.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "150711",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ungkaya Pukan",
+      "en": "Ungkaya Pukan",
+      "slug": "ungkaya-pukan-150711"
+    },
+    "code": {
+      "id": "150711",
+      "iso": null
+    },
+    "parent": {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "150700",
+        "level": 2,
+        "name": {
+          "local": "Basilan",
+          "en": "Basilan",
+          "slug": "basilan-150700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.5",
+      "lon": "122.117"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

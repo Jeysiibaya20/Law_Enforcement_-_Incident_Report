@@ -1,0 +1,56 @@
+{
+  "id": "086418",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tomas Oppus",
+    "en": "Tomas Oppus",
+    "slug": "tomas-oppus-086418"
+  },
+  "code": {
+    "id": "086418",
+    "iso": null
+  },
+  "parent": {
+    "id": "086400",
+    "level": 2,
+    "name": {
+      "local": "Southern Leyte",
+      "en": "Southern Leyte",
+      "slug": "southern-leyte-086400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "086400",
+      "level": 2,
+      "name": {
+        "local": "Southern Leyte",
+        "en": "Southern Leyte",
+        "slug": "southern-leyte-086400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 29
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.25",
+    "lon": "124.983"
+  },
+  "metadata": {},
+  "source": {}
+}

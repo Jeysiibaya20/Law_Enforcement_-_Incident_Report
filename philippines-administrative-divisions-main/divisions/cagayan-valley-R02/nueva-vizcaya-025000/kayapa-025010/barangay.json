@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "025010001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Acacia",
+      "en": "Acacia",
+      "slug": "acacia-025010001"
+    },
+    "code": {
+      "id": "025010001",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "15.5944",
+      "lon": "121.0251"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alang-Salacsac",
+      "en": "Alang-Salacsac",
+      "slug": "alang-salacsac-025010023"
+    },
+    "code": {
+      "id": "025010023",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.417",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Amilong Labeng",
+      "en": "Amilong Labeng",
+      "slug": "amilong-labeng-025010002"
+    },
+    "code": {
+      "id": "025010002",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.3333",
+      "lon": "120.8833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ansipsip",
+      "en": "Ansipsip",
+      "slug": "ansipsip-025010003"
+    },
+    "code": {
+      "id": "025010003",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.3062",
+      "lon": "120.8102"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baan",
+      "en": "Baan",
+      "slug": "baan-025010004"
+    },
+    "code": {
+      "id": "025010004",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.3064",
+      "lon": "120.9752"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Babadi",
+      "en": "Babadi",
+      "slug": "babadi-025010005"
+    },
+    "code": {
+      "id": "025010005",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.3837",
+      "lon": "120.9333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balangabang",
+      "en": "Balangabang",
+      "slug": "balangabang-025010006"
+    },
+    "code": {
+      "id": "025010006",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.3718",
+      "lon": "120.8817"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balete",
+      "en": "Balete",
+      "slug": "balete-025010024"
+    },
+    "code": {
+      "id": "025010024",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.6322",
+      "lon": "121.3564"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Banao",
+      "en": "Banao",
+      "slug": "banao-025010007"
+    },
+    "code": {
+      "id": "025010007",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.4125",
+      "lon": "120.8981"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Besong",
+      "en": "Besong",
+      "slug": "besong-025010009"
+    },
+    "code": {
+      "id": "025010009",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.417",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binalian",
+      "en": "Binalian",
+      "slug": "binalian-025010008"
+    },
+    "code": {
+      "id": "025010008",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.391",
+      "lon": "120.9657"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buyasyas",
+      "en": "Buyasyas",
+      "slug": "buyasyas-025010025"
+    },
+    "code": {
+      "id": "025010025",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.2694",
+      "lon": "120.9422"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabalatan-Alang",
+      "en": "Cabalatan-Alang",
+      "slug": "cabalatan-alang-025010010"
+    },
+    "code": {
+      "id": "025010010",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.417",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabanglasan",
+      "en": "Cabanglasan",
+      "slug": "cabanglasan-025010011"
+    },
+    "code": {
+      "id": "025010011",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "8.0772",
+      "lon": "125.2992"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabayo",
+      "en": "Cabayo",
+      "slug": "cabayo-025010026"
+    },
+    "code": {
+      "id": "025010026",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.4356",
+      "lon": "120.9019"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Castillo Village",
+      "en": "Castillo Village",
+      "slug": "castillo-village-025010027"
+    },
+    "code": {
+      "id": "025010027",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.3575",
+      "lon": "120.8933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kayapa Proper East",
+      "en": "Kayapa Proper East",
+      "slug": "kayapa-proper-east-025010012"
+    },
+    "code": {
+      "id": "025010012",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.298",
+      "lon": "120.862"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kayapa Proper West",
+      "en": "Kayapa Proper West",
+      "slug": "kayapa-proper-west-025010013"
+    },
+    "code": {
+      "id": "025010013",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.2861",
+      "lon": "120.8478"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Latbang",
+      "en": "Latbang",
+      "slug": "latbang-025010028"
+    },
+    "code": {
+      "id": "025010028",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.454",
+      "lon": "120.9825"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lawigan",
+      "en": "Lawigan",
+      "slug": "lawigan-025010029"
+    },
+    "code": {
+      "id": "025010029",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.2414",
+      "lon": "120.7624"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mapayao",
+      "en": "Mapayao",
+      "slug": "mapayao-025010014"
+    },
+    "code": {
+      "id": "025010014",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.378",
+      "lon": "120.9651"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nansiakan",
+      "en": "Nansiakan",
+      "slug": "nansiakan-025010015"
+    },
+    "code": {
+      "id": "025010015",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.4369",
+      "lon": "120.9945"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pampang (Pob.)",
+      "en": "Pampang (Pob.)",
+      "slug": "pampang-pob-025010016"
+    },
+    "code": {
+      "id": "025010016",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.3583",
+      "lon": "120.8861"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pangawan",
+      "en": "Pangawan",
+      "slug": "pangawan-025010017"
+    },
+    "code": {
+      "id": "025010017",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.3768",
+      "lon": "120.8675"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pinayag",
+      "en": "Pinayag",
+      "slug": "pinayag-025010018"
+    },
+    "code": {
+      "id": "025010018",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.4156",
+      "lon": "120.9596"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pingkian",
+      "en": "Pingkian",
+      "slug": "pingkian-025010019"
+    },
+    "code": {
+      "id": "025010019",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.3123",
+      "lon": "120.9449"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Fabian",
+      "en": "San Fabian",
+      "slug": "san-fabian-025010020"
+    },
+    "code": {
+      "id": "025010020",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.3327",
+      "lon": "120.9791"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talecabcab",
+      "en": "Talecabcab",
+      "slug": "talecabcab-025010021"
+    },
+    "code": {
+      "id": "025010021",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.417",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tidang Village",
+      "en": "Tidang Village",
+      "slug": "tidang-village-025010030"
+    },
+    "code": {
+      "id": "025010030",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "16.417",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tubongan",
+      "en": "Tubongan",
+      "slug": "tubongan-025010022"
+    },
+    "code": {
+      "id": "025010022",
+      "iso": null
+    },
+    "parent": {
+      "id": "025010",
+      "level": 3,
+      "name": {
+        "local": "Kayapa",
+        "en": "Kayapa",
+        "slug": "kayapa-025010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025010",
+        "level": 3,
+        "name": {
+          "local": "Kayapa",
+          "en": "Kayapa",
+          "slug": "kayapa-025010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3708"
+    ],
+    "geo": {
+      "lat": "18.1",
+      "lon": "121.0333"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

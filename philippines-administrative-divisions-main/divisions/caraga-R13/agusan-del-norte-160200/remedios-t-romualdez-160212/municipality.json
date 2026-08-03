@@ -1,0 +1,56 @@
+{
+  "id": "160212",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Remedios T. Romualdez",
+    "en": "Remedios T. Romualdez",
+    "slug": "remedios-t-romualdez-160212"
+  },
+  "code": {
+    "id": "160212",
+    "iso": null
+  },
+  "parent": {
+    "id": "160200",
+    "level": 2,
+    "name": {
+      "local": "Agusan del Norte",
+      "en": "Agusan del Norte",
+      "slug": "agusan-del-norte-160200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 8
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.05361",
+    "lon": "125.58667"
+  },
+  "metadata": {},
+  "source": {}
+}

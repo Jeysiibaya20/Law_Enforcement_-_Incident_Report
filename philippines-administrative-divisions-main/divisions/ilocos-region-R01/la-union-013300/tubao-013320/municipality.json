@@ -1,0 +1,56 @@
+{
+  "id": "013320",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tubao",
+    "en": "Tubao",
+    "slug": "tubao-013320"
+  },
+  "code": {
+    "id": "013320",
+    "iso": null
+  },
+  "parent": {
+    "id": "013300",
+    "level": 2,
+    "name": {
+      "local": "La Union",
+      "en": "La Union",
+      "slug": "la-union-013300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 18
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.35",
+    "lon": "120.417"
+  },
+  "metadata": {},
+  "source": {}
+}

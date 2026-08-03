@@ -1,0 +1,48 @@
+{
+  "id": "103500",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Lanao del Norte",
+    "en": "Lanao del Norte",
+    "slug": "lanao-del-norte-103500"
+  },
+  "code": {
+    "id": "103500",
+    "iso": null
+  },
+  "parent": {
+    "id": "R10",
+    "level": 1,
+    "name": {
+      "local": "Northern Mindanao",
+      "en": "Northern Mindanao",
+      "slug": "northern-mindanao-R10"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 23,
+    "barangay": 506
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.2256",
+    "lon": "123.6301"
+  },
+  "metadata": {},
+  "source": {}
+}

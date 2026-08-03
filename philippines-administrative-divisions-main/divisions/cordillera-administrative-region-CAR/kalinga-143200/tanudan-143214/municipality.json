@@ -1,0 +1,56 @@
+{
+  "id": "143214",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tanudan",
+    "en": "Tanudan",
+    "slug": "tanudan-143214"
+  },
+  "code": {
+    "id": "143214",
+    "iso": null
+  },
+  "parent": {
+    "id": "143200",
+    "level": 2,
+    "name": {
+      "local": "Kalinga",
+      "en": "Kalinga",
+      "slug": "kalinga-143200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "143200",
+      "level": 2,
+      "name": {
+        "local": "Kalinga",
+        "en": "Kalinga",
+        "slug": "kalinga-143200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 16
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.3",
+    "lon": "121.233"
+  },
+  "metadata": {},
+  "source": {}
+}

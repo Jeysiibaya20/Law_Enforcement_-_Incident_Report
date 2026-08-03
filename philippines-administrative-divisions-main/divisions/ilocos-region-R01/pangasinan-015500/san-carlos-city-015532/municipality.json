@@ -1,0 +1,56 @@
+{
+  "id": "015532",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Carlos City",
+    "en": "San Carlos City",
+    "slug": "san-carlos-city-015532"
+  },
+  "code": {
+    "id": "015532",
+    "iso": null
+  },
+  "parent": {
+    "id": "015500",
+    "level": 2,
+    "name": {
+      "local": "Pangasinan",
+      "en": "Pangasinan",
+      "slug": "pangasinan-015500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 86
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.92806",
+    "lon": "120.34889"
+  },
+  "metadata": {},
+  "source": {}
+}

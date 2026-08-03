@@ -1,0 +1,56 @@
+{
+  "id": "013316",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Juan",
+    "en": "San Juan",
+    "slug": "san-juan-013316"
+  },
+  "code": {
+    "id": "013316",
+    "iso": null
+  },
+  "parent": {
+    "id": "013300",
+    "level": 2,
+    "name": {
+      "local": "La Union",
+      "en": "La Union",
+      "slug": "la-union-013300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 41
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.66889",
+    "lon": "120.34111"
+  },
+  "metadata": {},
+  "source": {}
+}

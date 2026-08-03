@@ -1,0 +1,56 @@
+{
+  "id": "157008",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Turtle Islands",
+    "en": "Turtle Islands",
+    "slug": "turtle-islands-157008"
+  },
+  "code": {
+    "id": "157008",
+    "iso": null
+  },
+  "parent": {
+    "id": "157000",
+    "level": 2,
+    "name": {
+      "local": "Tawi-tawi",
+      "en": "Tawi-tawi",
+      "slug": "tawi-tawi-157000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 2
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.083",
+    "lon": "118.317"
+  },
+  "metadata": {},
+  "source": {}
+}

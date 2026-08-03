@@ -1,0 +1,56 @@
+{
+  "id": "025001",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Ambaguio",
+    "en": "Ambaguio",
+    "slug": "ambaguio-025001"
+  },
+  "code": {
+    "id": "025001",
+    "iso": null
+  },
+  "parent": {
+    "id": "025000",
+    "level": 2,
+    "name": {
+      "local": "Nueva Vizcaya",
+      "en": "Nueva Vizcaya",
+      "slug": "nueva-vizcaya-025000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 8
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.517",
+    "lon": "121.017"
+  },
+  "metadata": {},
+  "source": {}
+}

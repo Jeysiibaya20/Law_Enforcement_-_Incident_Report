@@ -1,0 +1,56 @@
+{
+  "id": "063012",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Cabatuan",
+    "en": "Cabatuan",
+    "slug": "cabatuan-063012"
+  },
+  "code": {
+    "id": "063012",
+    "iso": null
+  },
+  "parent": {
+    "id": "063000",
+    "level": 2,
+    "name": {
+      "local": "Iloilo",
+      "en": "Iloilo",
+      "slug": "iloilo-063000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 68
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.95889",
+    "lon": "121.66917"
+  },
+  "metadata": {},
+  "source": {}
+}

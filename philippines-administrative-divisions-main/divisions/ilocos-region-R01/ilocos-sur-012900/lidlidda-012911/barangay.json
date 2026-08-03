@@ -1,0 +1,717 @@
+[
+  {
+    "id": "012911001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Banucal",
+      "en": "Banucal",
+      "slug": "banucal-012911001"
+    },
+    "code": {
+      "id": "012911001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012911",
+      "level": 3,
+      "name": {
+        "local": "Lidlidda",
+        "en": "Lidlidda",
+        "slug": "lidlidda-012911"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012911",
+        "level": 3,
+        "name": {
+          "local": "Lidlidda",
+          "en": "Lidlidda",
+          "slug": "lidlidda-012911"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2723"
+    ],
+    "geo": {
+      "lat": "17.2851",
+      "lon": "120.5493"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012911002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bequi-Walin",
+      "en": "Bequi-Walin",
+      "slug": "bequi-walin-012911002"
+    },
+    "code": {
+      "id": "012911002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012911",
+      "level": 3,
+      "name": {
+        "local": "Lidlidda",
+        "en": "Lidlidda",
+        "slug": "lidlidda-012911"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012911",
+        "level": 3,
+        "name": {
+          "local": "Lidlidda",
+          "en": "Lidlidda",
+          "slug": "lidlidda-012911"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2723"
+    ],
+    "geo": {
+      "lat": "17.267",
+      "lon": "120.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012911003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bugui",
+      "en": "Bugui",
+      "slug": "bugui-012911003"
+    },
+    "code": {
+      "id": "012911003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012911",
+      "level": 3,
+      "name": {
+        "local": "Lidlidda",
+        "en": "Lidlidda",
+        "slug": "lidlidda-012911"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012911",
+        "level": 3,
+        "name": {
+          "local": "Lidlidda",
+          "en": "Lidlidda",
+          "slug": "lidlidda-012911"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2723"
+    ],
+    "geo": {
+      "lat": "17.25",
+      "lon": "120.55"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012911004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calungbuyan",
+      "en": "Calungbuyan",
+      "slug": "calungbuyan-012911004"
+    },
+    "code": {
+      "id": "012911004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012911",
+      "level": 3,
+      "name": {
+        "local": "Lidlidda",
+        "en": "Lidlidda",
+        "slug": "lidlidda-012911"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012911",
+        "level": 3,
+        "name": {
+          "local": "Lidlidda",
+          "en": "Lidlidda",
+          "slug": "lidlidda-012911"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2723"
+    ],
+    "geo": {
+      "lat": "17.4958",
+      "lon": "120.4173"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012911005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Carcarabasa",
+      "en": "Carcarabasa",
+      "slug": "carcarabasa-012911005"
+    },
+    "code": {
+      "id": "012911005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012911",
+      "level": 3,
+      "name": {
+        "local": "Lidlidda",
+        "en": "Lidlidda",
+        "slug": "lidlidda-012911"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012911",
+        "level": 3,
+        "name": {
+          "local": "Lidlidda",
+          "en": "Lidlidda",
+          "slug": "lidlidda-012911"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2723"
+    ],
+    "geo": {
+      "lat": "17.25",
+      "lon": "120.5167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012911006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Labut",
+      "en": "Labut",
+      "slug": "labut-012911006"
+    },
+    "code": {
+      "id": "012911006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012911",
+      "level": 3,
+      "name": {
+        "local": "Lidlidda",
+        "en": "Lidlidda",
+        "slug": "lidlidda-012911"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012911",
+        "level": 3,
+        "name": {
+          "local": "Lidlidda",
+          "en": "Lidlidda",
+          "slug": "lidlidda-012911"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2723"
+    ],
+    "geo": {
+      "lat": "17.497",
+      "lon": "120.439"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012911007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Norte",
+      "en": "Poblacion Norte",
+      "slug": "poblacion-norte-012911007"
+    },
+    "code": {
+      "id": "012911007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012911",
+      "level": 3,
+      "name": {
+        "local": "Lidlidda",
+        "en": "Lidlidda",
+        "slug": "lidlidda-012911"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012911",
+        "level": 3,
+        "name": {
+          "local": "Lidlidda",
+          "en": "Lidlidda",
+          "slug": "lidlidda-012911"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2723"
+    ],
+    "geo": {
+      "lat": "10.5193",
+      "lon": "121.9506"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012911008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Sur",
+      "en": "Poblacion Sur",
+      "slug": "poblacion-sur-012911008"
+    },
+    "code": {
+      "id": "012911008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012911",
+      "level": 3,
+      "name": {
+        "local": "Lidlidda",
+        "en": "Lidlidda",
+        "slug": "lidlidda-012911"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012911",
+        "level": 3,
+        "name": {
+          "local": "Lidlidda",
+          "en": "Lidlidda",
+          "slug": "lidlidda-012911"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2723"
+    ],
+    "geo": {
+      "lat": "15.6676",
+      "lon": "120.5811"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012911009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Vicente",
+      "en": "San Vicente",
+      "slug": "san-vicente-012911009"
+    },
+    "code": {
+      "id": "012911009",
+      "iso": null
+    },
+    "parent": {
+      "id": "012911",
+      "level": 3,
+      "name": {
+        "local": "Lidlidda",
+        "en": "Lidlidda",
+        "slug": "lidlidda-012911"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012911",
+        "level": 3,
+        "name": {
+          "local": "Lidlidda",
+          "en": "Lidlidda",
+          "slug": "lidlidda-012911"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2723"
+    ],
+    "geo": {
+      "lat": "17.5947",
+      "lon": "120.3753"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012911010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Suysuyan",
+      "en": "Suysuyan",
+      "slug": "suysuyan-012911010"
+    },
+    "code": {
+      "id": "012911010",
+      "iso": null
+    },
+    "parent": {
+      "id": "012911",
+      "level": 3,
+      "name": {
+        "local": "Lidlidda",
+        "en": "Lidlidda",
+        "slug": "lidlidda-012911"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012911",
+        "level": 3,
+        "name": {
+          "local": "Lidlidda",
+          "en": "Lidlidda",
+          "slug": "lidlidda-012911"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2723"
+    ],
+    "geo": {
+      "lat": "17.267",
+      "lon": "120.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012911011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tay-ac",
+      "en": "Tay-ac",
+      "slug": "tay-ac-012911011"
+    },
+    "code": {
+      "id": "012911011",
+      "iso": null
+    },
+    "parent": {
+      "id": "012911",
+      "level": 3,
+      "name": {
+        "local": "Lidlidda",
+        "en": "Lidlidda",
+        "slug": "lidlidda-012911"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012911",
+        "level": 3,
+        "name": {
+          "local": "Lidlidda",
+          "en": "Lidlidda",
+          "slug": "lidlidda-012911"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2723"
+    ],
+    "geo": {
+      "lat": "17.6167",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

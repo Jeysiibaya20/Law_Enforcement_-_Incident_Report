@@ -1,0 +1,56 @@
+{
+  "id": "050506",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Legazpi City",
+    "en": "Legazpi City",
+    "slug": "legazpi-city-050506"
+  },
+  "code": {
+    "id": "050506",
+    "iso": null
+  },
+  "parent": {
+    "id": "050500",
+    "level": 2,
+    "name": {
+      "local": "Albay",
+      "en": "Albay",
+      "slug": "albay-050500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 70
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.13",
+    "lon": "123.73"
+  },
+  "metadata": {},
+  "source": {}
+}

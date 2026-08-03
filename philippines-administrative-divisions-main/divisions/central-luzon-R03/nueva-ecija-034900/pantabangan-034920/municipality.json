@@ -1,0 +1,56 @@
+{
+  "id": "034920",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pantabangan",
+    "en": "Pantabangan",
+    "slug": "pantabangan-034920"
+  },
+  "code": {
+    "id": "034920",
+    "iso": null
+  },
+  "parent": {
+    "id": "034900",
+    "level": 2,
+    "name": {
+      "local": "Nueva Ecija",
+      "en": "Nueva Ecija",
+      "slug": "nueva-ecija-034900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "034900",
+      "level": 2,
+      "name": {
+        "local": "Nueva Ecija",
+        "en": "Nueva Ecija",
+        "slug": "nueva-ecija-034900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.817",
+    "lon": "121.15"
+  },
+  "metadata": {},
+  "source": {}
+}

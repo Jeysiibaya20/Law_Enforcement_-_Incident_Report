@@ -1,0 +1,56 @@
+{
+  "id": "097223",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Gutalac",
+    "en": "Gutalac",
+    "slug": "gutalac-097223"
+  },
+  "code": {
+    "id": "097223",
+    "iso": null
+  },
+  "parent": {
+    "id": "097200",
+    "level": 2,
+    "name": {
+      "local": "Zamboanga del Norte",
+      "en": "Zamboanga del Norte",
+      "slug": "zamboanga-del-norte-097200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    {
+      "id": "097200",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Norte",
+        "en": "Zamboanga del Norte",
+        "slug": "zamboanga-del-norte-097200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 33
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.983",
+    "lon": "122.4"
+  },
+  "metadata": {},
+  "source": {}
+}

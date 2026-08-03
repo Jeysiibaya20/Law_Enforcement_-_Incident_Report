@@ -1,0 +1,56 @@
+{
+  "id": "086411",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pintuyan",
+    "en": "Pintuyan",
+    "slug": "pintuyan-086411"
+  },
+  "code": {
+    "id": "086411",
+    "iso": null
+  },
+  "parent": {
+    "id": "086400",
+    "level": 2,
+    "name": {
+      "local": "Southern Leyte",
+      "en": "Southern Leyte",
+      "slug": "southern-leyte-086400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "086400",
+      "level": 2,
+      "name": {
+        "local": "Southern Leyte",
+        "en": "Southern Leyte",
+        "slug": "southern-leyte-086400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 23
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.95",
+    "lon": "125.25"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,48 @@
+{
+  "id": "143200",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Kalinga",
+    "en": "Kalinga",
+    "slug": "kalinga-143200"
+  },
+  "code": {
+    "id": "143200",
+    "iso": null
+  },
+  "parent": {
+    "id": "CAR",
+    "level": 1,
+    "name": {
+      "local": "Cordillera Administrative Region",
+      "en": "Cordillera Administrative Region",
+      "slug": "cordillera-administrative-region-CAR"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 8,
+    "barangay": 152
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.8611",
+    "lon": "121.3605"
+  },
+  "metadata": {},
+  "source": {}
+}

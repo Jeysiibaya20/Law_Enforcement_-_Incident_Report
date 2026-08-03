@@ -1,0 +1,56 @@
+{
+  "id": "166723",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Socorro",
+    "en": "Socorro",
+    "slug": "socorro-166723"
+  },
+  "code": {
+    "id": "166723",
+    "iso": null
+  },
+  "parent": {
+    "id": "166700",
+    "level": 2,
+    "name": {
+      "local": "Surigao del Norte",
+      "en": "Surigao del Norte",
+      "slug": "surigao-del-norte-166700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.633",
+    "lon": "125.95"
+  },
+  "metadata": {},
+  "source": {}
+}

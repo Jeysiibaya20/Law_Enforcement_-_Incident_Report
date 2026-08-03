@@ -1,0 +1,56 @@
+{
+  "id": "023129",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Isidro",
+    "en": "San Isidro",
+    "slug": "san-isidro-023129"
+  },
+  "code": {
+    "id": "023129",
+    "iso": null
+  },
+  "parent": {
+    "id": "023100",
+    "level": 2,
+    "name": {
+      "local": "Isabela",
+      "en": "Isabela",
+      "slug": "isabela-023100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 13
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.867",
+    "lon": "121.767"
+  },
+  "metadata": {},
+  "source": {}
+}

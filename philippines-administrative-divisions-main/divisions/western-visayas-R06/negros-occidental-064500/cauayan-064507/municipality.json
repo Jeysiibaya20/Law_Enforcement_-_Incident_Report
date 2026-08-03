@@ -1,0 +1,56 @@
+{
+  "id": "064507",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Cauayan",
+    "en": "Cauayan",
+    "slug": "cauayan-064507"
+  },
+  "code": {
+    "id": "064507",
+    "iso": null
+  },
+  "parent": {
+    "id": "064500",
+    "level": 2,
+    "name": {
+      "local": "Negros Occidental",
+      "en": "Negros Occidental",
+      "slug": "negros-occidental-064500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "064500",
+      "level": 2,
+      "name": {
+        "local": "Negros Occidental",
+        "en": "Negros Occidental",
+        "slug": "negros-occidental-064500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 25
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.2937",
+    "lon": "123.8982"
+  },
+  "metadata": {},
+  "source": {}
+}

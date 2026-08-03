@@ -1,0 +1,618 @@
+[
+  {
+    "id": "157002",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bongao",
+      "en": "Bongao",
+      "slug": "bongao-157002"
+    },
+    "code": {
+      "id": "157002",
+      "iso": null
+    },
+    "parent": {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.033",
+      "lon": "119.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157009",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Languyan",
+      "en": "Languyan",
+      "slug": "languyan-157009"
+    },
+    "code": {
+      "id": "157009",
+      "iso": null
+    },
+    "parent": {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.267",
+      "lon": "120.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157003",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mapun (Cagayan De Tawi-Tawi)",
+      "en": "Mapun (Cagayan De Tawi-Tawi)",
+      "slug": "mapun-cagayan-de-tawi-tawi-157003"
+    },
+    "code": {
+      "id": "157003",
+      "iso": null
+    },
+    "parent": {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7",
+      "lon": "118.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157001",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Panglima Sugala (Balimbing)",
+      "en": "Panglima Sugala (Balimbing)",
+      "slug": "panglima-sugala-balimbing-157001"
+    },
+    "code": {
+      "id": "157001",
+      "iso": null
+    },
+    "parent": {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.183",
+      "lon": "120.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157010",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sapa-Sapa",
+      "en": "Sapa-Sapa",
+      "slug": "sapa-sapa-157010"
+    },
+    "code": {
+      "id": "157010",
+      "iso": null
+    },
+    "parent": {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.075",
+      "lon": "120.175"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157011",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sibutu",
+      "en": "Sibutu",
+      "slug": "sibutu-157011"
+    },
+    "code": {
+      "id": "157011",
+      "iso": null
+    },
+    "parent": {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "4.683",
+      "lon": "119.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157004",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Simunul",
+      "en": "Simunul",
+      "slug": "simunul-157004"
+    },
+    "code": {
+      "id": "157004",
+      "iso": null
+    },
+    "parent": {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "4.9",
+      "lon": "119.833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157005",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sitangkai",
+      "en": "Sitangkai",
+      "slug": "sitangkai-157005"
+    },
+    "code": {
+      "id": "157005",
+      "iso": null
+    },
+    "parent": {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "4.667",
+      "lon": "119.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157006",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "South Ubian",
+      "en": "South Ubian",
+      "slug": "south-ubian-157006"
+    },
+    "code": {
+      "id": "157006",
+      "iso": null
+    },
+    "parent": {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.183",
+      "lon": "120.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157007",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tandubas",
+      "en": "Tandubas",
+      "slug": "tandubas-157007"
+    },
+    "code": {
+      "id": "157007",
+      "iso": null
+    },
+    "parent": {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.25",
+      "lon": "120.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157008",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Turtle Islands",
+      "en": "Turtle Islands",
+      "slug": "turtle-islands-157008"
+    },
+    "code": {
+      "id": "157008",
+      "iso": null
+    },
+    "parent": {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 2
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.083",
+      "lon": "118.317"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

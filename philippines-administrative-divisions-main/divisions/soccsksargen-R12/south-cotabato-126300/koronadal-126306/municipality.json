@@ -1,0 +1,56 @@
+{
+  "id": "126306",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Koronadal",
+    "en": "Koronadal",
+    "slug": "koronadal-126306"
+  },
+  "code": {
+    "id": "126306",
+    "iso": null
+  },
+  "parent": {
+    "id": "126300",
+    "level": 2,
+    "name": {
+      "local": "South Cotabato",
+      "en": "South Cotabato",
+      "slug": "south-cotabato-126300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 27
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.5",
+    "lon": "124.85"
+  },
+  "metadata": {},
+  "source": {}
+}

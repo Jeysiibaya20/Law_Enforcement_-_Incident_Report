@@ -1,0 +1,847 @@
+[
+  {
+    "id": "051709001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dugcal",
+      "en": "Dugcal",
+      "slug": "dugcal-051709001"
+    },
+    "code": {
+      "id": "051709001",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "13.6241",
+      "lon": "123.1612"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Marupit",
+      "en": "Marupit",
+      "slug": "marupit-051709002"
+    },
+    "code": {
+      "id": "051709002",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "13.6269",
+      "lon": "123.1663"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Francisco",
+      "en": "San Francisco",
+      "slug": "san-francisco-051709003"
+    },
+    "code": {
+      "id": "051709003",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "13.6181",
+      "lon": "123.1631"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose-San Pablo (Pob.)",
+      "en": "San Jose-San Pablo (Pob.)",
+      "slug": "san-jose-san-pablo-pob-051709011"
+    },
+    "code": {
+      "id": "051709011",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "13.625",
+      "lon": "123.15694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan-San Ramon (Pob.)",
+      "en": "San Juan-San Ramon (Pob.)",
+      "slug": "san-juan-san-ramon-pob-051709005"
+    },
+    "code": {
+      "id": "051709005",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "13.625",
+      "lon": "123.15694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Lucas (Pob.)",
+      "en": "San Lucas (Pob.)",
+      "slug": "san-lucas-pob-051709007"
+    },
+    "code": {
+      "id": "051709007",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "13.7062",
+      "lon": "123.2032"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Marcos (Pob.)",
+      "en": "San Marcos (Pob.)",
+      "slug": "san-marcos-pob-051709008"
+    },
+    "code": {
+      "id": "051709008",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "17.1678",
+      "lon": "121.5937"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Mateo (Pob.)",
+      "en": "San Mateo (Pob.)",
+      "slug": "san-mateo-pob-051709009"
+    },
+    "code": {
+      "id": "051709009",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "14.6969",
+      "lon": "121.1219"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque",
+      "en": "San Roque",
+      "slug": "san-roque-051709013"
+    },
+    "code": {
+      "id": "051709013",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "13.5535",
+      "lon": "123.2782"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Domingo (Pob.)",
+      "en": "Santo Domingo (Pob.)",
+      "slug": "santo-domingo-pob-051709014"
+    },
+    "code": {
+      "id": "051709014",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "13.5956",
+      "lon": "123.1781"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Tomas (Pob.)",
+      "en": "Santo Tomas (Pob.)",
+      "slug": "santo-tomas-pob-051709015"
+    },
+    "code": {
+      "id": "051709015",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "13.65",
+      "lon": "123.1667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sua",
+      "en": "Sua",
+      "slug": "sua-051709016"
+    },
+    "code": {
+      "id": "051709016",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "13.65",
+      "lon": "123.1667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051709017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tarosanan",
+      "en": "Tarosanan",
+      "slug": "tarosanan-051709017"
+    },
+    "code": {
+      "id": "051709017",
+      "iso": null
+    },
+    "parent": {
+      "id": "051709",
+      "level": 3,
+      "name": {
+        "local": "Camaligan",
+        "en": "Camaligan",
+        "slug": "camaligan-051709"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051709",
+        "level": 3,
+        "name": {
+          "local": "Camaligan",
+          "en": "Camaligan",
+          "slug": "camaligan-051709"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4401"
+    ],
+    "geo": {
+      "lat": "13.6161",
+      "lon": "123.1721"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

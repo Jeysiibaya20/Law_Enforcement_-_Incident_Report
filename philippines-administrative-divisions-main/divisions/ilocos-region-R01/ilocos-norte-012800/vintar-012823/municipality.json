@@ -1,0 +1,56 @@
+{
+  "id": "012823",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Vintar",
+    "en": "Vintar",
+    "slug": "vintar-012823"
+  },
+  "code": {
+    "id": "012823",
+    "iso": null
+  },
+  "parent": {
+    "id": "012800",
+    "level": 2,
+    "name": {
+      "local": "Ilocos Norte",
+      "en": "Ilocos Norte",
+      "slug": "ilocos-norte-012800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 33
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "18.23",
+    "lon": "120.64194"
+  },
+  "metadata": {},
+  "source": {}
+}

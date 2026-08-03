@@ -1,0 +1,56 @@
+{
+  "id": "157001",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Panglima Sugala (Balimbing)",
+    "en": "Panglima Sugala (Balimbing)",
+    "slug": "panglima-sugala-balimbing-157001"
+  },
+  "code": {
+    "id": "157001",
+    "iso": null
+  },
+  "parent": {
+    "id": "157000",
+    "level": 2,
+    "name": {
+      "local": "Tawi-tawi",
+      "en": "Tawi-tawi",
+      "slug": "tawi-tawi-157000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "157000",
+      "level": 2,
+      "name": {
+        "local": "Tawi-tawi",
+        "en": "Tawi-tawi",
+        "slug": "tawi-tawi-157000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 17
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "5.183",
+    "lon": "120.017"
+  },
+  "metadata": {},
+  "source": {}
+}

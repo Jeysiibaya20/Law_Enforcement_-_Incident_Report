@@ -1,0 +1,522 @@
+[
+  {
+    "id": "140102001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Amti",
+      "en": "Amti",
+      "slug": "amti-140102001"
+    },
+    "code": {
+      "id": "140102001",
+      "iso": null
+    },
+    "parent": {
+      "id": "140102",
+      "level": 3,
+      "name": {
+        "local": "Boliney",
+        "en": "Boliney",
+        "slug": "boliney-140102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140102",
+        "level": 3,
+        "name": {
+          "local": "Boliney",
+          "en": "Boliney",
+          "slug": "boliney-140102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2815"
+    ],
+    "geo": {
+      "lat": "17.3667",
+      "lon": "120.8667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140102002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bao-yan",
+      "en": "Bao-yan",
+      "slug": "bao-yan-140102002"
+    },
+    "code": {
+      "id": "140102002",
+      "iso": null
+    },
+    "parent": {
+      "id": "140102",
+      "level": 3,
+      "name": {
+        "local": "Boliney",
+        "en": "Boliney",
+        "slug": "boliney-140102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140102",
+        "level": 3,
+        "name": {
+          "local": "Boliney",
+          "en": "Boliney",
+          "slug": "boliney-140102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2815"
+    ],
+    "geo": {
+      "lat": "17.3833",
+      "lon": "120.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140102003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Danac East",
+      "en": "Danac East",
+      "slug": "danac-east-140102003"
+    },
+    "code": {
+      "id": "140102003",
+      "iso": null
+    },
+    "parent": {
+      "id": "140102",
+      "level": 3,
+      "name": {
+        "local": "Boliney",
+        "en": "Boliney",
+        "slug": "boliney-140102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140102",
+        "level": 3,
+        "name": {
+          "local": "Boliney",
+          "en": "Boliney",
+          "slug": "boliney-140102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2815"
+    ],
+    "geo": {
+      "lat": "17.3887",
+      "lon": "120.8864"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140102008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Danac West",
+      "en": "Danac West",
+      "slug": "danac-west-140102008"
+    },
+    "code": {
+      "id": "140102008",
+      "iso": null
+    },
+    "parent": {
+      "id": "140102",
+      "level": 3,
+      "name": {
+        "local": "Boliney",
+        "en": "Boliney",
+        "slug": "boliney-140102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140102",
+        "level": 3,
+        "name": {
+          "local": "Boliney",
+          "en": "Boliney",
+          "slug": "boliney-140102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2815"
+    ],
+    "geo": {
+      "lat": "17.3887",
+      "lon": "120.8864"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140102004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dao-angan",
+      "en": "Dao-angan",
+      "slug": "dao-angan-140102004"
+    },
+    "code": {
+      "id": "140102004",
+      "iso": null
+    },
+    "parent": {
+      "id": "140102",
+      "level": 3,
+      "name": {
+        "local": "Boliney",
+        "en": "Boliney",
+        "slug": "boliney-140102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140102",
+        "level": 3,
+        "name": {
+          "local": "Boliney",
+          "en": "Boliney",
+          "slug": "boliney-140102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2815"
+    ],
+    "geo": {
+      "lat": "17.3834",
+      "lon": "120.7906"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140102005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dumagas",
+      "en": "Dumagas",
+      "slug": "dumagas-140102005"
+    },
+    "code": {
+      "id": "140102005",
+      "iso": null
+    },
+    "parent": {
+      "id": "140102",
+      "level": 3,
+      "name": {
+        "local": "Boliney",
+        "en": "Boliney",
+        "slug": "boliney-140102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140102",
+        "level": 3,
+        "name": {
+          "local": "Boliney",
+          "en": "Boliney",
+          "slug": "boliney-140102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2815"
+    ],
+    "geo": {
+      "lat": "17.4278",
+      "lon": "120.7551"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140102006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kilong-Olao",
+      "en": "Kilong-Olao",
+      "slug": "kilong-olao-140102006"
+    },
+    "code": {
+      "id": "140102006",
+      "iso": null
+    },
+    "parent": {
+      "id": "140102",
+      "level": 3,
+      "name": {
+        "local": "Boliney",
+        "en": "Boliney",
+        "slug": "boliney-140102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140102",
+        "level": 3,
+        "name": {
+          "local": "Boliney",
+          "en": "Boliney",
+          "slug": "boliney-140102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2815"
+    ],
+    "geo": {
+      "lat": "17.4",
+      "lon": "120.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140102007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion (Boliney)",
+      "en": "Poblacion (Boliney)",
+      "slug": "poblacion-boliney-140102007"
+    },
+    "code": {
+      "id": "140102007",
+      "iso": null
+    },
+    "parent": {
+      "id": "140102",
+      "level": 3,
+      "name": {
+        "local": "Boliney",
+        "en": "Boliney",
+        "slug": "boliney-140102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140102",
+        "level": 3,
+        "name": {
+          "local": "Boliney",
+          "en": "Boliney",
+          "slug": "boliney-140102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2815"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,1906 @@
+[
+  {
+    "id": "012901",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alilem",
+      "en": "Alilem",
+      "slug": "alilem-012901"
+    },
+    "code": {
+      "id": "012901",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.883",
+      "lon": "120.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Banayoyo",
+      "en": "Banayoyo",
+      "slug": "banayoyo-012902"
+    },
+    "code": {
+      "id": "012902",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.233",
+      "lon": "120.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012903",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bantay",
+      "en": "Bantay",
+      "slug": "bantay-012903"
+    },
+    "code": {
+      "id": "012903",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.583",
+      "lon": "120.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012904",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Burgos",
+      "en": "Burgos",
+      "slug": "burgos-012904"
+    },
+    "code": {
+      "id": "012904",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.333",
+      "lon": "120.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012905",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cabugao",
+      "en": "Cabugao",
+      "slug": "cabugao-012905"
+    },
+    "code": {
+      "id": "012905",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.8",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Candon",
+      "en": "Candon",
+      "slug": "candon-012906"
+    },
+    "code": {
+      "id": "012906",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.2",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012907",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Caoayan",
+      "en": "Caoayan",
+      "slug": "caoayan-012907"
+    },
+    "code": {
+      "id": "012907",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.533",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cervantes",
+      "en": "Cervantes",
+      "slug": "cervantes-012908"
+    },
+    "code": {
+      "id": "012908",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.99167",
+      "lon": "120.73333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012909",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Galimuyod",
+      "en": "Galimuyod",
+      "slug": "galimuyod-012909"
+    },
+    "code": {
+      "id": "012909",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.183",
+      "lon": "120.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012910",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Gregorio Del Pilar (Concepcion)",
+      "en": "Gregorio Del Pilar (Concepcion)",
+      "slug": "gregorio-del-pilar-concepcion-012910"
+    },
+    "code": {
+      "id": "012910",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 7
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.4541",
+      "lon": "124.8801"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012911",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lidlidda",
+      "en": "Lidlidda",
+      "slug": "lidlidda-012911"
+    },
+    "code": {
+      "id": "012911",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.267",
+      "lon": "120.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012912",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Magsingal",
+      "en": "Magsingal",
+      "slug": "magsingal-012912"
+    },
+    "code": {
+      "id": "012912",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.68333",
+      "lon": "120.425"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012913",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Nagbukel",
+      "en": "Nagbukel",
+      "slug": "nagbukel-012913"
+    },
+    "code": {
+      "id": "012913",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.45",
+      "lon": "120.55"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012914",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Narvacan",
+      "en": "Narvacan",
+      "slug": "narvacan-012914"
+    },
+    "code": {
+      "id": "012914",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.417",
+      "lon": "120.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012915",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Quirino (Angkaki)",
+      "en": "Quirino (Angkaki)",
+      "slug": "quirino-angkaki-012915"
+    },
+    "code": {
+      "id": "012915",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.15",
+      "lon": "120.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012916",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Salcedo (Baugen)",
+      "en": "Salcedo (Baugen)",
+      "slug": "salcedo-baugen-012916"
+    },
+    "code": {
+      "id": "012916",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.15",
+      "lon": "120.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012917",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Emilio",
+      "en": "San Emilio",
+      "slug": "san-emilio-012917"
+    },
+    "code": {
+      "id": "012917",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.233",
+      "lon": "120.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012918",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Esteban",
+      "en": "San Esteban",
+      "slug": "san-esteban-012918"
+    },
+    "code": {
+      "id": "012918",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.333",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012919",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Ildefonso",
+      "en": "San Ildefonso",
+      "slug": "san-ildefonso-012919"
+    },
+    "code": {
+      "id": "012919",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.617",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012920",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Juan (Lapog)",
+      "en": "San Juan (Lapog)",
+      "slug": "san-juan-lapog-012920"
+    },
+    "code": {
+      "id": "012920",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 32
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.72917",
+      "lon": "120.46083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012921",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Vicente",
+      "en": "San Vicente",
+      "slug": "san-vicente-012921"
+    },
+    "code": {
+      "id": "012921",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 7
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.58111",
+      "lon": "120.34694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012922",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa",
+      "en": "Santa",
+      "slug": "santa-012922"
+    },
+    "code": {
+      "id": "012922",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.49056",
+      "lon": "120.43722"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012923",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Catalina",
+      "en": "Santa Catalina",
+      "slug": "santa-catalina-012923"
+    },
+    "code": {
+      "id": "012923",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.6",
+      "lon": "120.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012924",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-012924"
+    },
+    "code": {
+      "id": "012924",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 49
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.02",
+      "lon": "120.47472"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012925",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Lucia",
+      "en": "Santa Lucia",
+      "slug": "santa-lucia-012925"
+    },
+    "code": {
+      "id": "012925",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 36
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.117",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012926",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Maria",
+      "en": "Santa Maria",
+      "slug": "santa-maria-012926"
+    },
+    "code": {
+      "id": "012926",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.35861",
+      "lon": "120.49806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012927",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santiago",
+      "en": "Santiago",
+      "slug": "santiago-012927"
+    },
+    "code": {
+      "id": "012927",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.3",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012928",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santo Domingo",
+      "en": "Santo Domingo",
+      "slug": "santo-domingo-012928"
+    },
+    "code": {
+      "id": "012928",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 36
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.633",
+      "lon": "120.417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012929",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sigay",
+      "en": "Sigay",
+      "slug": "sigay-012929"
+    },
+    "code": {
+      "id": "012929",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 7
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.033",
+      "lon": "120.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sinait",
+      "en": "Sinait",
+      "slug": "sinait-012930"
+    },
+    "code": {
+      "id": "012930",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 44
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.86611",
+      "lon": "120.45806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012931",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sugpon",
+      "en": "Sugpon",
+      "slug": "sugpon-012931"
+    },
+    "code": {
+      "id": "012931",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 6
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.85",
+      "lon": "120.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012932",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Suyo",
+      "en": "Suyo",
+      "slug": "suyo-012932"
+    },
+    "code": {
+      "id": "012932",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.98",
+      "lon": "120.52694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012933",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tagudin",
+      "en": "Tagudin",
+      "slug": "tagudin-012933"
+    },
+    "code": {
+      "id": "012933",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 43
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.933",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012934",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Vigan",
+      "en": "Vigan",
+      "slug": "vigan-012934"
+    },
+    "code": {
+      "id": "012934",
+      "iso": null
+    },
+    "parent": {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 39
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.57",
+      "lon": "120.38"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,587 @@
+[
+  {
+    "id": "140120001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bazar",
+      "en": "Bazar",
+      "slug": "bazar-140120001"
+    },
+    "code": {
+      "id": "140120001",
+      "iso": null
+    },
+    "parent": {
+      "id": "140120",
+      "level": 3,
+      "name": {
+        "local": "Sallapadan",
+        "en": "Sallapadan",
+        "slug": "sallapadan-140120"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140120",
+        "level": 3,
+        "name": {
+          "local": "Sallapadan",
+          "en": "Sallapadan",
+          "slug": "sallapadan-140120"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2818"
+    ],
+    "geo": {
+      "lat": "17.4602",
+      "lon": "120.7866"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140120002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bilabila",
+      "en": "Bilabila",
+      "slug": "bilabila-140120002"
+    },
+    "code": {
+      "id": "140120002",
+      "iso": null
+    },
+    "parent": {
+      "id": "140120",
+      "level": 3,
+      "name": {
+        "local": "Sallapadan",
+        "en": "Sallapadan",
+        "slug": "sallapadan-140120"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140120",
+        "level": 3,
+        "name": {
+          "local": "Sallapadan",
+          "en": "Sallapadan",
+          "slug": "sallapadan-140120"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2818"
+    ],
+    "geo": {
+      "lat": "17.5311",
+      "lon": "120.7647"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140120003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gangal (Pob.)",
+      "en": "Gangal (Pob.)",
+      "slug": "gangal-pob-140120003"
+    },
+    "code": {
+      "id": "140120003",
+      "iso": null
+    },
+    "parent": {
+      "id": "140120",
+      "level": 3,
+      "name": {
+        "local": "Sallapadan",
+        "en": "Sallapadan",
+        "slug": "sallapadan-140120"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140120",
+        "level": 3,
+        "name": {
+          "local": "Sallapadan",
+          "en": "Sallapadan",
+          "slug": "sallapadan-140120"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2818"
+    ],
+    "geo": {
+      "lat": "17.4542",
+      "lon": "120.7609"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140120004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maguyepyep",
+      "en": "Maguyepyep",
+      "slug": "maguyepyep-140120004"
+    },
+    "code": {
+      "id": "140120004",
+      "iso": null
+    },
+    "parent": {
+      "id": "140120",
+      "level": 3,
+      "name": {
+        "local": "Sallapadan",
+        "en": "Sallapadan",
+        "slug": "sallapadan-140120"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140120",
+        "level": 3,
+        "name": {
+          "local": "Sallapadan",
+          "en": "Sallapadan",
+          "slug": "sallapadan-140120"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2818"
+    ],
+    "geo": {
+      "lat": "17.4408",
+      "lon": "120.7644"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140120005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Naguilian",
+      "en": "Naguilian",
+      "slug": "naguilian-140120005"
+    },
+    "code": {
+      "id": "140120005",
+      "iso": null
+    },
+    "parent": {
+      "id": "140120",
+      "level": 3,
+      "name": {
+        "local": "Sallapadan",
+        "en": "Sallapadan",
+        "slug": "sallapadan-140120"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140120",
+        "level": 3,
+        "name": {
+          "local": "Sallapadan",
+          "en": "Sallapadan",
+          "slug": "sallapadan-140120"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2818"
+    ],
+    "geo": {
+      "lat": "17.4931",
+      "lon": "120.7617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140120006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Saccaang",
+      "en": "Saccaang",
+      "slug": "saccaang-140120006"
+    },
+    "code": {
+      "id": "140120006",
+      "iso": null
+    },
+    "parent": {
+      "id": "140120",
+      "level": 3,
+      "name": {
+        "local": "Sallapadan",
+        "en": "Sallapadan",
+        "slug": "sallapadan-140120"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140120",
+        "level": 3,
+        "name": {
+          "local": "Sallapadan",
+          "en": "Sallapadan",
+          "slug": "sallapadan-140120"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2818"
+    ],
+    "geo": {
+      "lat": "17.467",
+      "lon": "120.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140120007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sallapadan",
+      "en": "Sallapadan",
+      "slug": "sallapadan-140120007"
+    },
+    "code": {
+      "id": "140120007",
+      "iso": null
+    },
+    "parent": {
+      "id": "140120",
+      "level": 3,
+      "name": {
+        "local": "Sallapadan",
+        "en": "Sallapadan",
+        "slug": "sallapadan-140120"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140120",
+        "level": 3,
+        "name": {
+          "local": "Sallapadan",
+          "en": "Sallapadan",
+          "slug": "sallapadan-140120"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2818"
+    ],
+    "geo": {
+      "lat": "17.46",
+      "lon": "120.76"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140120008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Subusob",
+      "en": "Subusob",
+      "slug": "subusob-140120008"
+    },
+    "code": {
+      "id": "140120008",
+      "iso": null
+    },
+    "parent": {
+      "id": "140120",
+      "level": 3,
+      "name": {
+        "local": "Sallapadan",
+        "en": "Sallapadan",
+        "slug": "sallapadan-140120"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140120",
+        "level": 3,
+        "name": {
+          "local": "Sallapadan",
+          "en": "Sallapadan",
+          "slug": "sallapadan-140120"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2818"
+    ],
+    "geo": {
+      "lat": "17.5133",
+      "lon": "120.7631"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140120009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ud-udiao",
+      "en": "Ud-udiao",
+      "slug": "ud-udiao-140120009"
+    },
+    "code": {
+      "id": "140120009",
+      "iso": null
+    },
+    "parent": {
+      "id": "140120",
+      "level": 3,
+      "name": {
+        "local": "Sallapadan",
+        "en": "Sallapadan",
+        "slug": "sallapadan-140120"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140120",
+        "level": 3,
+        "name": {
+          "local": "Sallapadan",
+          "en": "Sallapadan",
+          "slug": "sallapadan-140120"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2818"
+    ],
+    "geo": {
+      "lat": "17.4657",
+      "lon": "120.8118"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

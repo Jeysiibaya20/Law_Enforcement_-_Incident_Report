@@ -1,0 +1,338 @@
+[
+  {
+    "id": "025701",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Aglipay",
+      "en": "Aglipay",
+      "slug": "aglipay-025701"
+    },
+    "code": {
+      "id": "025701",
+      "iso": null
+    },
+    "parent": {
+      "id": "025700",
+      "level": 2,
+      "name": {
+        "local": "Quirino",
+        "en": "Quirino",
+        "slug": "quirino-025700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.467",
+      "lon": "121.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025702",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cabarroguis",
+      "en": "Cabarroguis",
+      "slug": "cabarroguis-025702"
+    },
+    "code": {
+      "id": "025702",
+      "iso": null
+    },
+    "parent": {
+      "id": "025700",
+      "level": 2,
+      "name": {
+        "local": "Quirino",
+        "en": "Quirino",
+        "slug": "quirino-025700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.583",
+      "lon": "121.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025703",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Diffun",
+      "en": "Diffun",
+      "slug": "diffun-025703"
+    },
+    "code": {
+      "id": "025703",
+      "iso": null
+    },
+    "parent": {
+      "id": "025700",
+      "level": 2,
+      "name": {
+        "local": "Quirino",
+        "en": "Quirino",
+        "slug": "quirino-025700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.6",
+      "lon": "121.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025704",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maddela",
+      "en": "Maddela",
+      "slug": "maddela-025704"
+    },
+    "code": {
+      "id": "025704",
+      "iso": null
+    },
+    "parent": {
+      "id": "025700",
+      "level": 2,
+      "name": {
+        "local": "Quirino",
+        "en": "Quirino",
+        "slug": "quirino-025700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 32
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.35",
+      "lon": "121.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025706",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Nagtipunan",
+      "en": "Nagtipunan",
+      "slug": "nagtipunan-025706"
+    },
+    "code": {
+      "id": "025706",
+      "iso": null
+    },
+    "parent": {
+      "id": "025700",
+      "level": 2,
+      "name": {
+        "local": "Quirino",
+        "en": "Quirino",
+        "slug": "quirino-025700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.217",
+      "lon": "121.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025705",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Saguday",
+      "en": "Saguday",
+      "slug": "saguday-025705"
+    },
+    "code": {
+      "id": "025705",
+      "iso": null
+    },
+    "parent": {
+      "id": "025700",
+      "level": 2,
+      "name": {
+        "local": "Quirino",
+        "en": "Quirino",
+        "slug": "quirino-025700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.517",
+      "lon": "121.6"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "025015",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alfonso Castaneda",
+      "en": "Alfonso Castaneda",
+      "slug": "alfonso-castaneda-025015"
+    },
+    "code": {
+      "id": "025015",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 6
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.8",
+      "lon": "121.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025001",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ambaguio",
+      "en": "Ambaguio",
+      "slug": "ambaguio-025001"
+    },
+    "code": {
+      "id": "025001",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.517",
+      "lon": "121.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025002",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Aritao",
+      "en": "Aritao",
+      "slug": "aritao-025002"
+    },
+    "code": {
+      "id": "025002",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.3",
+      "lon": "121.033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025003",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bagabag",
+      "en": "Bagabag",
+      "slug": "bagabag-025003"
+    },
+    "code": {
+      "id": "025003",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.6",
+      "lon": "121.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025004",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bambang",
+      "en": "Bambang",
+      "slug": "bambang-025004"
+    },
+    "code": {
+      "id": "025004",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.383",
+      "lon": "121.117"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025005",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bayombong",
+      "en": "Bayombong",
+      "slug": "bayombong-025005"
+    },
+    "code": {
+      "id": "025005",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.483",
+      "lon": "121.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025006",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Diadi",
+      "en": "Diadi",
+      "slug": "diadi-025006"
+    },
+    "code": {
+      "id": "025006",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.633",
+      "lon": "121.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dupax Del Norte",
+      "en": "Dupax Del Norte",
+      "slug": "dupax-del-norte-025007"
+    },
+    "code": {
+      "id": "025007",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.28639",
+      "lon": "121.09417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025008",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dupax Del Sur",
+      "en": "Dupax Del Sur",
+      "slug": "dupax-del-sur-025008"
+    },
+    "code": {
+      "id": "025008",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.283",
+      "lon": "121.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025009",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kasibu",
+      "en": "Kasibu",
+      "slug": "kasibu-025009"
+    },
+    "code": {
+      "id": "025009",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.317",
+      "lon": "121.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025010",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kayapa",
+      "en": "Kayapa",
+      "slug": "kayapa-025010"
+    },
+    "code": {
+      "id": "025010",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.417",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025011",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-025011"
+    },
+    "code": {
+      "id": "025011",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.5",
+      "lon": "121.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025012",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Fe",
+      "en": "Santa Fe",
+      "slug": "santa-fe-025012"
+    },
+    "code": {
+      "id": "025012",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.16194",
+      "lon": "120.93889"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025013",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Solano",
+      "en": "Solano",
+      "slug": "solano-025013"
+    },
+    "code": {
+      "id": "025013",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.52389",
+      "lon": "121.19194"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025014",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Villaverde",
+      "en": "Villaverde",
+      "slug": "villaverde-025014"
+    },
+    "code": {
+      "id": "025014",
+      "iso": null
+    },
+    "parent": {
+      "id": "025000",
+      "level": 2,
+      "name": {
+        "local": "Nueva Vizcaya",
+        "en": "Nueva Vizcaya",
+        "slug": "nueva-vizcaya-025000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.583",
+      "lon": "121.2"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

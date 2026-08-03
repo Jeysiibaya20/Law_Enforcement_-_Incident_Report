@@ -1,0 +1,48 @@
+{
+  "id": "015500",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Pangasinan",
+    "en": "Pangasinan",
+    "slug": "pangasinan-015500"
+  },
+  "code": {
+    "id": "015500",
+    "iso": null
+  },
+  "parent": {
+    "id": "R01",
+    "level": 1,
+    "name": {
+      "local": "Ilocos Region",
+      "en": "Ilocos Region",
+      "slug": "ilocos-region-R01"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 48,
+    "barangay": 1364
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.8555",
+    "lon": "120.4978"
+  },
+  "metadata": {},
+  "source": {}
+}

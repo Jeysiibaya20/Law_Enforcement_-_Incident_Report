@@ -1,0 +1,56 @@
+{
+  "id": "098314",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Talusan",
+    "en": "Talusan",
+    "slug": "talusan-098314"
+  },
+  "code": {
+    "id": "098314",
+    "iso": null
+  },
+  "parent": {
+    "id": "098300",
+    "level": 2,
+    "name": {
+      "local": "Zamboanga Sibugay",
+      "en": "Zamboanga Sibugay",
+      "slug": "zamboanga-sibugay-098300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.333",
+    "lon": "122.883"
+  },
+  "metadata": {},
+  "source": {}
+}

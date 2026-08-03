@@ -1,0 +1,56 @@
+{
+  "id": "041021",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Rosario",
+    "en": "Rosario",
+    "slug": "rosario-041021"
+  },
+  "code": {
+    "id": "041021",
+    "iso": null
+  },
+  "parent": {
+    "id": "041000",
+    "level": 2,
+    "name": {
+      "local": "Batangas",
+      "en": "Batangas",
+      "slug": "batangas-041000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 48
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.85",
+    "lon": "121.2"
+  },
+  "metadata": {},
+  "source": {}
+}

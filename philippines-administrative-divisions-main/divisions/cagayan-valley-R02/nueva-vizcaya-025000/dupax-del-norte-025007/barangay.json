@@ -1,0 +1,977 @@
+[
+  {
+    "id": "025007002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Belance",
+      "en": "Belance",
+      "slug": "belance-025007002"
+    },
+    "code": {
+      "id": "025007002",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.1833",
+      "lon": "121.25"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binnuangan",
+      "en": "Binnuangan",
+      "slug": "binnuangan-025007020"
+    },
+    "code": {
+      "id": "025007020",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.28639",
+      "lon": "121.09417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bitnong",
+      "en": "Bitnong",
+      "slug": "bitnong-025007021"
+    },
+    "code": {
+      "id": "025007021",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.2933",
+      "lon": "121.1729"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulala",
+      "en": "Bulala",
+      "slug": "bulala-025007003"
+    },
+    "code": {
+      "id": "025007003",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.2837",
+      "lon": "121.2382"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Inaban",
+      "en": "Inaban",
+      "slug": "inaban-025007009"
+    },
+    "code": {
+      "id": "025007009",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.3096",
+      "lon": "121.1204"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ineangan",
+      "en": "Ineangan",
+      "slug": "ineangan-025007010"
+    },
+    "code": {
+      "id": "025007010",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.3181",
+      "lon": "121.093"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lamo",
+      "en": "Lamo",
+      "slug": "lamo-025007011"
+    },
+    "code": {
+      "id": "025007011",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.3249",
+      "lon": "121.1042"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabasa",
+      "en": "Mabasa",
+      "slug": "mabasa-025007012"
+    },
+    "code": {
+      "id": "025007012",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.321",
+      "lon": "121.1262"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Macabenga",
+      "en": "Macabenga",
+      "slug": "macabenga-025007022"
+    },
+    "code": {
+      "id": "025007022",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.2665",
+      "lon": "121.1882"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malasin (Pob.)",
+      "en": "Malasin (Pob.)",
+      "slug": "malasin-pob-025007013"
+    },
+    "code": {
+      "id": "025007013",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.6344",
+      "lon": "121.2364"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Munguia",
+      "en": "Munguia",
+      "slug": "munguia-025007015"
+    },
+    "code": {
+      "id": "025007015",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.28639",
+      "lon": "121.09417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "New Gumiad",
+      "en": "New Gumiad",
+      "slug": "new-gumiad-025007018"
+    },
+    "code": {
+      "id": "025007018",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.28639",
+      "lon": "121.09417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Oyao",
+      "en": "Oyao",
+      "slug": "oyao-025007016"
+    },
+    "code": {
+      "id": "025007016",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.2808",
+      "lon": "121.1826"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Parai",
+      "en": "Parai",
+      "slug": "parai-025007023"
+    },
+    "code": {
+      "id": "025007023",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.3037",
+      "lon": "121.1631"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025007019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Yabbi",
+      "en": "Yabbi",
+      "slug": "yabbi-025007019"
+    },
+    "code": {
+      "id": "025007019",
+      "iso": null
+    },
+    "parent": {
+      "id": "025007",
+      "level": 3,
+      "name": {
+        "local": "Dupax Del Norte",
+        "en": "Dupax Del Norte",
+        "slug": "dupax-del-norte-025007"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025007",
+        "level": 3,
+        "name": {
+          "local": "Dupax Del Norte",
+          "en": "Dupax Del Norte",
+          "slug": "dupax-del-norte-025007"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3706"
+    ],
+    "geo": {
+      "lat": "16.28639",
+      "lon": "121.09417"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

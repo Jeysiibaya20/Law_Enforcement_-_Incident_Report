@@ -1,0 +1,56 @@
+{
+  "id": "142709",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Hingyon",
+    "en": "Hingyon",
+    "slug": "hingyon-142709"
+  },
+  "code": {
+    "id": "142709",
+    "iso": null
+  },
+  "parent": {
+    "id": "142700",
+    "level": 2,
+    "name": {
+      "local": "Ifugao",
+      "en": "Ifugao",
+      "slug": "ifugao-142700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 12
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.833",
+    "lon": "121.117"
+  },
+  "metadata": {},
+  "source": {}
+}

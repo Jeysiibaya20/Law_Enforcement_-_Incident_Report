@@ -1,0 +1,912 @@
+[
+  {
+    "id": "166706010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagakay (Pob. West)",
+      "en": "Bagakay (Pob. West)",
+      "slug": "bagakay-pob-west-166706010"
+    },
+    "code": {
+      "id": "166706010",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "9.9868",
+      "lon": "123.6146"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabugo",
+      "en": "Cabugo",
+      "slug": "cabugo-166706001"
+    },
+    "code": {
+      "id": "166706001",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "9.5475",
+      "lon": "125.7658"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cagdianao",
+      "en": "Cagdianao",
+      "slug": "cagdianao-166706002"
+    },
+    "code": {
+      "id": "166706002",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "9.92",
+      "lon": "125.67"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Daywan",
+      "en": "Daywan",
+      "slug": "daywan-166706003"
+    },
+    "code": {
+      "id": "166706003",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "9.557",
+      "lon": "125.7202"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hayanggabon",
+      "en": "Hayanggabon",
+      "slug": "hayanggabon-166706004"
+    },
+    "code": {
+      "id": "166706004",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "9.567",
+      "lon": "125.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ladgaron (Pob.)",
+      "en": "Ladgaron (Pob.)",
+      "slug": "ladgaron-pob-166706005"
+    },
+    "code": {
+      "id": "166706005",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "9.5695",
+      "lon": "125.735"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lapinigan",
+      "en": "Lapinigan",
+      "slug": "lapinigan-166706006"
+    },
+    "code": {
+      "id": "166706006",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "7.3229",
+      "lon": "125.8545"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magallanes",
+      "en": "Magallanes",
+      "slug": "magallanes-166706007"
+    },
+    "code": {
+      "id": "166706007",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "9.5823",
+      "lon": "125.719"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panatao",
+      "en": "Panatao",
+      "slug": "panatao-166706008"
+    },
+    "code": {
+      "id": "166706008",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "9.5628",
+      "lon": "125.747"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapa",
+      "en": "Sapa",
+      "slug": "sapa-166706011"
+    },
+    "code": {
+      "id": "166706011",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "5.1544",
+      "lon": "120.3241"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taganito",
+      "en": "Taganito",
+      "slug": "taganito-166706012"
+    },
+    "code": {
+      "id": "166706012",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "9.5422",
+      "lon": "125.8214"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tayaga (Pob. East)",
+      "en": "Tayaga (Pob. East)",
+      "slug": "tayaga-pob-east-166706009"
+    },
+    "code": {
+      "id": "166706009",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "9.567",
+      "lon": "125.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Urbiztondo",
+      "en": "Urbiztondo",
+      "slug": "urbiztondo-166706013"
+    },
+    "code": {
+      "id": "166706013",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "9.5483",
+      "lon": "125.7792"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Wangke",
+      "en": "Wangke",
+      "slug": "wangke-166706014"
+    },
+    "code": {
+      "id": "166706014",
+      "iso": null
+    },
+    "parent": {
+      "id": "166706",
+      "level": 3,
+      "name": {
+        "local": "Claver",
+        "en": "Claver",
+        "slug": "claver-166706"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166706",
+        "level": 3,
+        "name": {
+          "local": "Claver",
+          "en": "Claver",
+          "slug": "claver-166706"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8410"
+    ],
+    "geo": {
+      "lat": "9.567",
+      "lon": "125.733"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

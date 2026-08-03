@@ -1,0 +1,56 @@
+{
+  "id": "054118",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Fernando",
+    "en": "San Fernando",
+    "slug": "san-fernando-054118"
+  },
+  "code": {
+    "id": "054118",
+    "iso": null
+  },
+  "parent": {
+    "id": "054100",
+    "level": 2,
+    "name": {
+      "local": "Masbate",
+      "en": "Masbate",
+      "slug": "masbate-054100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 26
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.483",
+    "lon": "123.75"
+  },
+  "metadata": {},
+  "source": {}
+}

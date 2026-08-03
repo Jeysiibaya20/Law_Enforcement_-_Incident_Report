@@ -1,0 +1,618 @@
+[
+  {
+    "id": "112501",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Baganga",
+      "en": "Baganga",
+      "slug": "baganga-112501"
+    },
+    "code": {
+      "id": "112501",
+      "iso": null
+    },
+    "parent": {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.567",
+      "lon": "126.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112502",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Banaybanay",
+      "en": "Banaybanay",
+      "slug": "banaybanay-112502"
+    },
+    "code": {
+      "id": "112502",
+      "iso": null
+    },
+    "parent": {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.1",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112503",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Boston",
+      "en": "Boston",
+      "slug": "boston-112503"
+    },
+    "code": {
+      "id": "112503",
+      "iso": null
+    },
+    "parent": {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.867",
+      "lon": "126.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112504",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Caraga",
+      "en": "Caraga",
+      "slug": "caraga-112504"
+    },
+    "code": {
+      "id": "112504",
+      "iso": null
+    },
+    "parent": {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.333",
+      "lon": "126.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112505",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cateel",
+      "en": "Cateel",
+      "slug": "cateel-112505"
+    },
+    "code": {
+      "id": "112505",
+      "iso": null
+    },
+    "parent": {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.783",
+      "lon": "126.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112506",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Governor Generoso",
+      "en": "Governor Generoso",
+      "slug": "governor-generoso-112506"
+    },
+    "code": {
+      "id": "112506",
+      "iso": null
+    },
+    "parent": {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.65",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112507",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lupon",
+      "en": "Lupon",
+      "slug": "lupon-112507"
+    },
+    "code": {
+      "id": "112507",
+      "iso": null
+    },
+    "parent": {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.9",
+      "lon": "126"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112508",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Manay",
+      "en": "Manay",
+      "slug": "manay-112508"
+    },
+    "code": {
+      "id": "112508",
+      "iso": null
+    },
+    "parent": {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.217",
+      "lon": "126.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112509",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mati",
+      "en": "Mati",
+      "slug": "mati-112509"
+    },
+    "code": {
+      "id": "112509",
+      "iso": null
+    },
+    "parent": {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.7098",
+      "lon": "123.2953"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112510",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-112510"
+    },
+    "code": {
+      "id": "112510",
+      "iso": null
+    },
+    "parent": {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.833",
+      "lon": "126.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112511",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tarragona",
+      "en": "Tarragona",
+      "slug": "tarragona-112511"
+    },
+    "code": {
+      "id": "112511",
+      "iso": null
+    },
+    "parent": {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112500",
+        "level": 2,
+        "name": {
+          "local": "Davao Oriental",
+          "en": "Davao Oriental",
+          "slug": "davao-oriental-112500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.05",
+      "lon": "126.45"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

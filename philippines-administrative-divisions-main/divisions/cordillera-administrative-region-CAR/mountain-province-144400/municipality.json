@@ -1,0 +1,562 @@
+[
+  {
+    "id": "144401",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Barlig",
+      "en": "Barlig",
+      "slug": "barlig-144401"
+    },
+    "code": {
+      "id": "144401",
+      "iso": null
+    },
+    "parent": {
+      "id": "144400",
+      "level": 2,
+      "name": {
+        "local": "Mountain Province",
+        "en": "Mountain Province",
+        "slug": "mountain-province-144400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "144400",
+        "level": 2,
+        "name": {
+          "local": "Mountain Province",
+          "en": "Mountain Province",
+          "slug": "mountain-province-144400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.083",
+      "lon": "121.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "144402",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bauko",
+      "en": "Bauko",
+      "slug": "bauko-144402"
+    },
+    "code": {
+      "id": "144402",
+      "iso": null
+    },
+    "parent": {
+      "id": "144400",
+      "level": 2,
+      "name": {
+        "local": "Mountain Province",
+        "en": "Mountain Province",
+        "slug": "mountain-province-144400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "144400",
+        "level": 2,
+        "name": {
+          "local": "Mountain Province",
+          "en": "Mountain Province",
+          "slug": "mountain-province-144400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.983",
+      "lon": "120.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "144403",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Besao",
+      "en": "Besao",
+      "slug": "besao-144403"
+    },
+    "code": {
+      "id": "144403",
+      "iso": null
+    },
+    "parent": {
+      "id": "144400",
+      "level": 2,
+      "name": {
+        "local": "Mountain Province",
+        "en": "Mountain Province",
+        "slug": "mountain-province-144400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "144400",
+        "level": 2,
+        "name": {
+          "local": "Mountain Province",
+          "en": "Mountain Province",
+          "slug": "mountain-province-144400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.1",
+      "lon": "120.817"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "144404",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bontoc",
+      "en": "Bontoc",
+      "slug": "bontoc-144404"
+    },
+    "code": {
+      "id": "144404",
+      "iso": null
+    },
+    "parent": {
+      "id": "144400",
+      "level": 2,
+      "name": {
+        "local": "Mountain Province",
+        "en": "Mountain Province",
+        "slug": "mountain-province-144400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "144400",
+        "level": 2,
+        "name": {
+          "local": "Mountain Province",
+          "en": "Mountain Province",
+          "slug": "mountain-province-144400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.08722",
+      "lon": "120.97556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "144405",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Natonin",
+      "en": "Natonin",
+      "slug": "natonin-144405"
+    },
+    "code": {
+      "id": "144405",
+      "iso": null
+    },
+    "parent": {
+      "id": "144400",
+      "level": 2,
+      "name": {
+        "local": "Mountain Province",
+        "en": "Mountain Province",
+        "slug": "mountain-province-144400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "144400",
+        "level": 2,
+        "name": {
+          "local": "Mountain Province",
+          "en": "Mountain Province",
+          "slug": "mountain-province-144400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.1",
+      "lon": "121.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "144406",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Paracelis",
+      "en": "Paracelis",
+      "slug": "paracelis-144406"
+    },
+    "code": {
+      "id": "144406",
+      "iso": null
+    },
+    "parent": {
+      "id": "144400",
+      "level": 2,
+      "name": {
+        "local": "Mountain Province",
+        "en": "Mountain Province",
+        "slug": "mountain-province-144400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "144400",
+        "level": 2,
+        "name": {
+          "local": "Mountain Province",
+          "en": "Mountain Province",
+          "slug": "mountain-province-144400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.267",
+      "lon": "121.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "144407",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sabangan",
+      "en": "Sabangan",
+      "slug": "sabangan-144407"
+    },
+    "code": {
+      "id": "144407",
+      "iso": null
+    },
+    "parent": {
+      "id": "144400",
+      "level": 2,
+      "name": {
+        "local": "Mountain Province",
+        "en": "Mountain Province",
+        "slug": "mountain-province-144400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "144400",
+        "level": 2,
+        "name": {
+          "local": "Mountain Province",
+          "en": "Mountain Province",
+          "slug": "mountain-province-144400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.95",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "144408",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sadanga",
+      "en": "Sadanga",
+      "slug": "sadanga-144408"
+    },
+    "code": {
+      "id": "144408",
+      "iso": null
+    },
+    "parent": {
+      "id": "144400",
+      "level": 2,
+      "name": {
+        "local": "Mountain Province",
+        "en": "Mountain Province",
+        "slug": "mountain-province-144400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "144400",
+        "level": 2,
+        "name": {
+          "local": "Mountain Province",
+          "en": "Mountain Province",
+          "slug": "mountain-province-144400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.167",
+      "lon": "121.033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "144409",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sagada",
+      "en": "Sagada",
+      "slug": "sagada-144409"
+    },
+    "code": {
+      "id": "144409",
+      "iso": null
+    },
+    "parent": {
+      "id": "144400",
+      "level": 2,
+      "name": {
+        "local": "Mountain Province",
+        "en": "Mountain Province",
+        "slug": "mountain-province-144400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "144400",
+        "level": 2,
+        "name": {
+          "local": "Mountain Province",
+          "en": "Mountain Province",
+          "slug": "mountain-province-144400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.083",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "144410",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tadian",
+      "en": "Tadian",
+      "slug": "tadian-144410"
+    },
+    "code": {
+      "id": "144410",
+      "iso": null
+    },
+    "parent": {
+      "id": "144400",
+      "level": 2,
+      "name": {
+        "local": "Mountain Province",
+        "en": "Mountain Province",
+        "slug": "mountain-province-144400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "144400",
+        "level": 2,
+        "name": {
+          "local": "Mountain Province",
+          "en": "Mountain Province",
+          "slug": "mountain-province-144400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17",
+      "lon": "120.817"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

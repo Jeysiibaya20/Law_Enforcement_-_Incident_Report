@@ -1,0 +1,392 @@
+[
+  {
+    "id": "012931008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balbalayang (Pob.)",
+      "en": "Balbalayang (Pob.)",
+      "slug": "balbalayang-pob-012931008"
+    },
+    "code": {
+      "id": "012931008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012931",
+      "level": 3,
+      "name": {
+        "local": "Sugpon",
+        "en": "Sugpon",
+        "slug": "sugpon-012931"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012931",
+        "level": 3,
+        "name": {
+          "local": "Sugpon",
+          "en": "Sugpon",
+          "slug": "sugpon-012931"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2717"
+    ],
+    "geo": {
+      "lat": "18.5007",
+      "lon": "120.6455"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012931001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Banga",
+      "en": "Banga",
+      "slug": "banga-012931001"
+    },
+    "code": {
+      "id": "012931001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012931",
+      "level": 3,
+      "name": {
+        "local": "Sugpon",
+        "en": "Sugpon",
+        "slug": "sugpon-012931"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012931",
+        "level": 3,
+        "name": {
+          "local": "Sugpon",
+          "en": "Sugpon",
+          "slug": "sugpon-012931"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2717"
+    ],
+    "geo": {
+      "lat": "6.3",
+      "lon": "124.78"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012931002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caoayan",
+      "en": "Caoayan",
+      "slug": "caoayan-012931002"
+    },
+    "code": {
+      "id": "012931002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012931",
+      "level": 3,
+      "name": {
+        "local": "Sugpon",
+        "en": "Sugpon",
+        "slug": "sugpon-012931"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012931",
+        "level": 3,
+        "name": {
+          "local": "Sugpon",
+          "en": "Sugpon",
+          "slug": "sugpon-012931"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2717"
+    ],
+    "geo": {
+      "lat": "17.5469",
+      "lon": "120.3831"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012931005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Danac",
+      "en": "Danac",
+      "slug": "danac-012931005"
+    },
+    "code": {
+      "id": "012931005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012931",
+      "level": 3,
+      "name": {
+        "local": "Sugpon",
+        "en": "Sugpon",
+        "slug": "sugpon-012931"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012931",
+        "level": 3,
+        "name": {
+          "local": "Sugpon",
+          "en": "Sugpon",
+          "slug": "sugpon-012931"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2717"
+    ],
+    "geo": {
+      "lat": "16.8",
+      "lon": "120.55"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012931004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Licungan (Cullang)",
+      "en": "Licungan (Cullang)",
+      "slug": "licungan-cullang-012931004"
+    },
+    "code": {
+      "id": "012931004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012931",
+      "level": 3,
+      "name": {
+        "local": "Sugpon",
+        "en": "Sugpon",
+        "slug": "sugpon-012931"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012931",
+        "level": 3,
+        "name": {
+          "local": "Sugpon",
+          "en": "Sugpon",
+          "slug": "sugpon-012931"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2717"
+    ],
+    "geo": {
+      "lat": "16.85",
+      "lon": "120.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012931007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pangotan",
+      "en": "Pangotan",
+      "slug": "pangotan-012931007"
+    },
+    "code": {
+      "id": "012931007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012931",
+      "level": 3,
+      "name": {
+        "local": "Sugpon",
+        "en": "Sugpon",
+        "slug": "sugpon-012931"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012931",
+        "level": 3,
+        "name": {
+          "local": "Sugpon",
+          "en": "Sugpon",
+          "slug": "sugpon-012931"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2717"
+    ],
+    "geo": {
+      "lat": "16.85",
+      "lon": "120.517"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

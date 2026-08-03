@@ -1,0 +1,2407 @@
+[
+  {
+    "id": "013311001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aguioas",
+      "en": "Aguioas",
+      "slug": "aguioas-013311001"
+    },
+    "code": {
+      "id": "013311001",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5333",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Al-alinao Norte",
+      "en": "Al-alinao Norte",
+      "slug": "al-alinao-norte-013311002"
+    },
+    "code": {
+      "id": "013311002",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5167",
+      "lon": "120.4167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Al-alinao Sur",
+      "en": "Al-alinao Sur",
+      "slug": "al-alinao-sur-013311003"
+    },
+    "code": {
+      "id": "013311003",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.4965",
+      "lon": "120.4246"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ambaracao Norte",
+      "en": "Ambaracao Norte",
+      "slug": "ambaracao-norte-013311004"
+    },
+    "code": {
+      "id": "013311004",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5333",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ambaracao Sur",
+      "en": "Ambaracao Sur",
+      "slug": "ambaracao-sur-013311005"
+    },
+    "code": {
+      "id": "013311005",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5333",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Angin",
+      "en": "Angin",
+      "slug": "angin-013311006"
+    },
+    "code": {
+      "id": "013311006",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5114",
+      "lon": "120.4003"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balecbec",
+      "en": "Balecbec",
+      "slug": "balecbec-013311007"
+    },
+    "code": {
+      "id": "013311007",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.4841",
+      "lon": "120.422"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bancagan",
+      "en": "Bancagan",
+      "slug": "bancagan-013311008"
+    },
+    "code": {
+      "id": "013311008",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5333",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baraoas Norte",
+      "en": "Baraoas Norte",
+      "slug": "baraoas-norte-013311009"
+    },
+    "code": {
+      "id": "013311009",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.55",
+      "lon": "120.3833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baraoas Sur",
+      "en": "Baraoas Sur",
+      "slug": "baraoas-sur-013311010"
+    },
+    "code": {
+      "id": "013311010",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5333",
+      "lon": "120.3833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bariquir",
+      "en": "Bariquir",
+      "slug": "bariquir-013311011"
+    },
+    "code": {
+      "id": "013311011",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5333",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bato",
+      "en": "Bato",
+      "slug": "bato-013311012"
+    },
+    "code": {
+      "id": "013311012",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5167",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bimmotobot",
+      "en": "Bimmotobot",
+      "slug": "bimmotobot-013311013"
+    },
+    "code": {
+      "id": "013311013",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5731",
+      "lon": "120.4139"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabaritan Norte",
+      "en": "Cabaritan Norte",
+      "slug": "cabaritan-norte-013311014"
+    },
+    "code": {
+      "id": "013311014",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5333",
+      "lon": "120.3833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabaritan Sur",
+      "en": "Cabaritan Sur",
+      "slug": "cabaritan-sur-013311015"
+    },
+    "code": {
+      "id": "013311015",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5167",
+      "lon": "120.3833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Casilagan",
+      "en": "Casilagan",
+      "slug": "casilagan-013311016"
+    },
+    "code": {
+      "id": "013311016",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5333",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dal-lipaoen",
+      "en": "Dal-lipaoen",
+      "slug": "dal-lipaoen-013311017"
+    },
+    "code": {
+      "id": "013311017",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5333",
+      "lon": "120.3667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Daramuangan",
+      "en": "Daramuangan",
+      "slug": "daramuangan-013311018"
+    },
+    "code": {
+      "id": "013311018",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.55",
+      "lon": "120.3833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Guesset",
+      "en": "Guesset",
+      "slug": "guesset-013311019"
+    },
+    "code": {
+      "id": "013311019",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5167",
+      "lon": "120.4167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gusing Norte",
+      "en": "Gusing Norte",
+      "slug": "gusing-norte-013311020"
+    },
+    "code": {
+      "id": "013311020",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5667",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gusing Sur",
+      "en": "Gusing Sur",
+      "slug": "gusing-sur-013311021"
+    },
+    "code": {
+      "id": "013311021",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5667",
+      "lon": "120.3833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Imelda",
+      "en": "Imelda",
+      "slug": "imelda-013311022"
+    },
+    "code": {
+      "id": "013311022",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.4803",
+      "lon": "120.4575"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lioac Norte",
+      "en": "Lioac Norte",
+      "slug": "lioac-norte-013311023"
+    },
+    "code": {
+      "id": "013311023",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5333",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lioac Sur",
+      "en": "Lioac Sur",
+      "slug": "lioac-sur-013311024"
+    },
+    "code": {
+      "id": "013311024",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5333",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magungunay",
+      "en": "Magungunay",
+      "slug": "magungunay-013311025"
+    },
+    "code": {
+      "id": "013311025",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.4682",
+      "lon": "120.4082"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mamat-ing Norte",
+      "en": "Mamat-ing Norte",
+      "slug": "mamat-ing-norte-013311026"
+    },
+    "code": {
+      "id": "013311026",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5861",
+      "lon": "120.4117"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mamat-ing Sur",
+      "en": "Mamat-ing Sur",
+      "slug": "mamat-ing-sur-013311027"
+    },
+    "code": {
+      "id": "013311027",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5667",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nagsidorisan",
+      "en": "Nagsidorisan",
+      "slug": "nagsidorisan-013311028"
+    },
+    "code": {
+      "id": "013311028",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "17.02667",
+      "lon": "121.835"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Natividad (Pob.)",
+      "en": "Natividad (Pob.)",
+      "slug": "natividad-pob-013311029"
+    },
+    "code": {
+      "id": "013311029",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "15.603",
+      "lon": "121.051"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ortiz (Pob.)",
+      "en": "Ortiz (Pob.)",
+      "slug": "ortiz-pob-013311030"
+    },
+    "code": {
+      "id": "013311030",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "17.02667",
+      "lon": "121.835"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ribsuan",
+      "en": "Ribsuan",
+      "slug": "ribsuan-013311032"
+    },
+    "code": {
+      "id": "013311032",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5167",
+      "lon": "120.4333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio",
+      "en": "San Antonio",
+      "slug": "san-antonio-013311033"
+    },
+    "code": {
+      "id": "013311033",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.404",
+      "lon": "120.4052"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-013311034"
+    },
+    "code": {
+      "id": "013311034",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.4752",
+      "lon": "120.419"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sili",
+      "en": "Sili",
+      "slug": "sili-013311035"
+    },
+    "code": {
+      "id": "013311035",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5333",
+      "lon": "120.3833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311037",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Suguidan Norte",
+      "en": "Suguidan Norte",
+      "slug": "suguidan-norte-013311037"
+    },
+    "code": {
+      "id": "013311037",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5167",
+      "lon": "120.3833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311038",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Suguidan Sur",
+      "en": "Suguidan Sur",
+      "slug": "suguidan-sur-013311038"
+    },
+    "code": {
+      "id": "013311038",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.4944",
+      "lon": "120.3991"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311039",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tuddingan",
+      "en": "Tuddingan",
+      "slug": "tuddingan-013311039"
+    },
+    "code": {
+      "id": "013311039",
+      "iso": null
+    },
+    "parent": {
+      "id": "013311",
+      "level": 3,
+      "name": {
+        "local": "Naguilian",
+        "en": "Naguilian",
+        "slug": "naguilian-013311"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      },
+      {
+        "id": "013311",
+        "level": 3,
+        "name": {
+          "local": "Naguilian",
+          "en": "Naguilian",
+          "slug": "naguilian-013311"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2511"
+    ],
+    "geo": {
+      "lat": "16.5833",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

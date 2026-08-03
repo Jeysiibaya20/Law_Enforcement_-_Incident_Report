@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "015507001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Angayan Norte",
+      "en": "Angayan Norte",
+      "slug": "angayan-norte-015507001"
+    },
+    "code": {
+      "id": "015507001",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.9073",
+      "lon": "120.6927"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Angayan Sur",
+      "en": "Angayan Sur",
+      "slug": "angayan-sur-015507002"
+    },
+    "code": {
+      "id": "015507002",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.894",
+      "lon": "120.7033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Capulaan",
+      "en": "Capulaan",
+      "slug": "capulaan-015507003"
+    },
+    "code": {
+      "id": "015507003",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.905",
+      "lon": "120.5372"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Esmeralda",
+      "en": "Esmeralda",
+      "slug": "esmeralda-015507004"
+    },
+    "code": {
+      "id": "015507004",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.8672",
+      "lon": "120.715"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kita-kita",
+      "en": "Kita-kita",
+      "slug": "kita-kita-015507005"
+    },
+    "code": {
+      "id": "015507005",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.8927",
+      "lon": "120.6635"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabini",
+      "en": "Mabini",
+      "slug": "mabini-015507006"
+    },
+    "code": {
+      "id": "015507006",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "16.0697",
+      "lon": "119.94"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mauban",
+      "en": "Mauban",
+      "slug": "mauban-015507007"
+    },
+    "code": {
+      "id": "015507007",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.8995",
+      "lon": "120.7142"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-015507008"
+    },
+    "code": {
+      "id": "015507008",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.9747",
+      "lon": "120.5637"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pugaro",
+      "en": "Pugaro",
+      "slug": "pugaro-015507009"
+    },
+    "code": {
+      "id": "015507009",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.9049",
+      "lon": "120.6726"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rajal",
+      "en": "Rajal",
+      "slug": "rajal-015507010"
+    },
+    "code": {
+      "id": "015507010",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.9",
+      "lon": "120.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Andres",
+      "en": "San Andres",
+      "slug": "san-andres-015507011"
+    },
+    "code": {
+      "id": "015507011",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "16.0154",
+      "lon": "120.7089"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Aurelio 1st",
+      "en": "San Aurelio 1st",
+      "slug": "san-aurelio-1st-015507012"
+    },
+    "code": {
+      "id": "015507012",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.9",
+      "lon": "120.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Aurelio 2nd",
+      "en": "San Aurelio 2nd",
+      "slug": "san-aurelio-2nd-015507013"
+    },
+    "code": {
+      "id": "015507013",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.9",
+      "lon": "120.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Aurelio 3rd",
+      "en": "San Aurelio 3rd",
+      "slug": "san-aurelio-3rd-015507014"
+    },
+    "code": {
+      "id": "015507014",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.9",
+      "lon": "120.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Joaquin",
+      "en": "San Joaquin",
+      "slug": "san-joaquin-015507015"
+    },
+    "code": {
+      "id": "015507015",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.9391",
+      "lon": "120.6959"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Julian",
+      "en": "San Julian",
+      "slug": "san-julian-015507016"
+    },
+    "code": {
+      "id": "015507016",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.8727",
+      "lon": "120.4367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Leon",
+      "en": "San Leon",
+      "slug": "san-leon-015507017"
+    },
+    "code": {
+      "id": "015507017",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "16.0167",
+      "lon": "120.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Marcelino",
+      "en": "San Marcelino",
+      "slug": "san-marcelino-015507018"
+    },
+    "code": {
+      "id": "015507018",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.9306",
+      "lon": "120.6658"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-015507019"
+    },
+    "code": {
+      "id": "015507019",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "16.3381",
+      "lon": "119.9978"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Raymundo",
+      "en": "San Raymundo",
+      "slug": "san-raymundo-015507020"
+    },
+    "code": {
+      "id": "015507020",
+      "iso": null
+    },
+    "parent": {
+      "id": "015507",
+      "level": 3,
+      "name": {
+        "local": "Balungao",
+        "en": "Balungao",
+        "slug": "balungao-015507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015507",
+        "level": 3,
+        "name": {
+          "local": "Balungao",
+          "en": "Balungao",
+          "slug": "balungao-015507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2442"
+    ],
+    "geo": {
+      "lat": "15.9167",
+      "lon": "120.6666"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

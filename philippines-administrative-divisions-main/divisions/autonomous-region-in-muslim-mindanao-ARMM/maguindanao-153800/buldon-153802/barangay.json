@@ -1,0 +1,977 @@
+[
+  {
+    "id": "153802001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ampuan",
+      "en": "Ampuan",
+      "slug": "ampuan-153802001"
+    },
+    "code": {
+      "id": "153802001",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "6.8348",
+      "lon": "124.4581"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aratuc",
+      "en": "Aratuc",
+      "slug": "aratuc-153802002"
+    },
+    "code": {
+      "id": "153802002",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.517",
+      "lon": "124.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabayuan",
+      "en": "Cabayuan",
+      "slug": "cabayuan-153802005"
+    },
+    "code": {
+      "id": "153802005",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.4506",
+      "lon": "124.3719"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calaan (Pob.)",
+      "en": "Calaan (Pob.)",
+      "slug": "calaan-pob-153802007"
+    },
+    "code": {
+      "id": "153802007",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.52",
+      "lon": "124.37"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dinganen",
+      "en": "Dinganen",
+      "slug": "dinganen-153802009"
+    },
+    "code": {
+      "id": "153802009",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.3283",
+      "lon": "124.3783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Edcor (Gallego Edcor)",
+      "en": "Edcor (Gallego Edcor)",
+      "slug": "edcor-gallego-edcor-153802011"
+    },
+    "code": {
+      "id": "153802011",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.4406",
+      "lon": "124.3972"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Karim",
+      "en": "Karim",
+      "slug": "karim-153802008"
+    },
+    "code": {
+      "id": "153802008",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.517",
+      "lon": "124.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kulimpang",
+      "en": "Kulimpang",
+      "slug": "kulimpang-153802012"
+    },
+    "code": {
+      "id": "153802012",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.517",
+      "lon": "124.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mataya",
+      "en": "Mataya",
+      "slug": "mataya-153802017"
+    },
+    "code": {
+      "id": "153802017",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.4711",
+      "lon": "124.3719"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Minabay",
+      "en": "Minabay",
+      "slug": "minabay-153802018"
+    },
+    "code": {
+      "id": "153802018",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.55",
+      "lon": "124.4167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nuyo",
+      "en": "Nuyo",
+      "slug": "nuyo-153802020"
+    },
+    "code": {
+      "id": "153802020",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.4181",
+      "lon": "124.4108"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Oring",
+      "en": "Oring",
+      "slug": "oring-153802021"
+    },
+    "code": {
+      "id": "153802021",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.4267",
+      "lon": "124.3681"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pantawan",
+      "en": "Pantawan",
+      "slug": "pantawan-153802022"
+    },
+    "code": {
+      "id": "153802022",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.5411",
+      "lon": "124.3814"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Piers",
+      "en": "Piers",
+      "slug": "piers-153802023"
+    },
+    "code": {
+      "id": "153802023",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.517",
+      "lon": "124.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153802025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rumidas",
+      "en": "Rumidas",
+      "slug": "rumidas-153802025"
+    },
+    "code": {
+      "id": "153802025",
+      "iso": null
+    },
+    "parent": {
+      "id": "153802",
+      "level": 3,
+      "name": {
+        "local": "Buldon",
+        "en": "Buldon",
+        "slug": "buldon-153802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153802",
+        "level": 3,
+        "name": {
+          "local": "Buldon",
+          "en": "Buldon",
+          "slug": "buldon-153802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9615"
+    ],
+    "geo": {
+      "lat": "7.55",
+      "lon": "124.4167"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

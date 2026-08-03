@@ -1,0 +1,56 @@
+{
+  "id": "063037",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pototan",
+    "en": "Pototan",
+    "slug": "pototan-063037"
+  },
+  "code": {
+    "id": "063037",
+    "iso": null
+  },
+  "parent": {
+    "id": "063000",
+    "level": 2,
+    "name": {
+      "local": "Iloilo",
+      "en": "Iloilo",
+      "slug": "iloilo-063000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 50
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.95",
+    "lon": "122.633"
+  },
+  "metadata": {},
+  "source": {}
+}

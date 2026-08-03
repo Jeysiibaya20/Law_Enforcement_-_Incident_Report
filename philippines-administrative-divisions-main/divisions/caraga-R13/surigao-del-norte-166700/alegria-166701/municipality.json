@@ -1,0 +1,56 @@
+{
+  "id": "166701",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Alegria",
+    "en": "Alegria",
+    "slug": "alegria-166701"
+  },
+  "code": {
+    "id": "166701",
+    "iso": null
+  },
+  "parent": {
+    "id": "166700",
+    "level": 2,
+    "name": {
+      "local": "Surigao del Norte",
+      "en": "Surigao del Norte",
+      "slug": "surigao-del-norte-166700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 12
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.467",
+    "lon": "125.583"
+  },
+  "metadata": {},
+  "source": {}
+}

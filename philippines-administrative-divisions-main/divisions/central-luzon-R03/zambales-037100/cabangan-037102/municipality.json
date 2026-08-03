@@ -1,0 +1,56 @@
+{
+  "id": "037102",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Cabangan",
+    "en": "Cabangan",
+    "slug": "cabangan-037102"
+  },
+  "code": {
+    "id": "037102",
+    "iso": null
+  },
+  "parent": {
+    "id": "037100",
+    "level": 2,
+    "name": {
+      "local": "Zambales",
+      "en": "Zambales",
+      "slug": "zambales-037100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 22
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.133",
+    "lon": "120.15"
+  },
+  "metadata": {},
+  "source": {}
+}

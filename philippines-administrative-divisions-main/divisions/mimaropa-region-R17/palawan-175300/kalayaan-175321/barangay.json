@@ -1,0 +1,67 @@
+[
+  {
+    "id": "175321004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pag-Asa (Pob.)",
+      "en": "Pag-Asa (Pob.)",
+      "slug": "pag-asa-pob-175321004"
+    },
+    "code": {
+      "id": "175321004",
+      "iso": null
+    },
+    "parent": {
+      "id": "175321",
+      "level": 3,
+      "name": {
+        "local": "Kalayaan",
+        "en": "Kalayaan",
+        "slug": "kalayaan-175321"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      },
+      {
+        "id": "175321",
+        "level": 3,
+        "name": {
+          "local": "Kalayaan",
+          "en": "Kalayaan",
+          "slug": "kalayaan-175321"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5322"
+    ],
+    "geo": {
+      "lat": "14.6622",
+      "lon": "121.0331"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

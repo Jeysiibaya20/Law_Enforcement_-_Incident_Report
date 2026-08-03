@@ -1,0 +1,912 @@
+[
+  {
+    "id": "037104001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balaybay",
+      "en": "Balaybay",
+      "slug": "balaybay-037104001"
+    },
+    "code": {
+      "id": "037104001",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "17.9644",
+      "lon": "120.5163"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buenavista",
+      "en": "Buenavista",
+      "slug": "buenavista-037104002"
+    },
+    "code": {
+      "id": "037104002",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "8.97",
+      "lon": "125.41"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Del Pilar",
+      "en": "Del Pilar",
+      "slug": "del-pilar-037104003"
+    },
+    "code": {
+      "id": "037104003",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "10.3197",
+      "lon": "119.3408"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Looc",
+      "en": "Looc",
+      "slug": "looc-037104004"
+    },
+    "code": {
+      "id": "037104004",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "12.2605",
+      "lon": "121.9926"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magsaysay",
+      "en": "Magsaysay",
+      "slug": "magsaysay-037104005"
+    },
+    "code": {
+      "id": "037104005",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "6.77",
+      "lon": "125.18"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nagbayan",
+      "en": "Nagbayan",
+      "slug": "nagbayan-037104006"
+    },
+    "code": {
+      "id": "037104006",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "14.933",
+      "lon": "120.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nagbunga",
+      "en": "Nagbunga",
+      "slug": "nagbunga-037104007"
+    },
+    "code": {
+      "id": "037104007",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "14.9545",
+      "lon": "120.175"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Agustin",
+      "en": "San Agustin",
+      "slug": "san-agustin-037104008"
+    },
+    "code": {
+      "id": "037104008",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "12.5689",
+      "lon": "122.1314"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose (Pob.)",
+      "en": "San Jose (Pob.)",
+      "slug": "san-jose-pob-037104010"
+    },
+    "code": {
+      "id": "037104010",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "12.3528",
+      "lon": "121.0676"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan (Pob.)",
+      "en": "San Juan (Pob.)",
+      "slug": "san-juan-pob-037104011"
+    },
+    "code": {
+      "id": "037104011",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "14.604",
+      "lon": "121.03"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Nicolas",
+      "en": "San Nicolas",
+      "slug": "san-nicolas-037104012"
+    },
+    "code": {
+      "id": "037104012",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "16.07",
+      "lon": "120.7653"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pablo (Pob.)",
+      "en": "San Pablo (Pob.)",
+      "slug": "san-pablo-pob-037104013"
+    },
+    "code": {
+      "id": "037104013",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "14.07",
+      "lon": "121.325"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque",
+      "en": "San Roque",
+      "slug": "san-roque-037104014"
+    },
+    "code": {
+      "id": "037104014",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "12.533",
+      "lon": "124.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037104015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Maria",
+      "en": "Santa Maria",
+      "slug": "santa-maria-037104015"
+    },
+    "code": {
+      "id": "037104015",
+      "iso": null
+    },
+    "parent": {
+      "id": "037104",
+      "level": 3,
+      "name": {
+        "local": "Castillejos",
+        "en": "Castillejos",
+        "slug": "castillejos-037104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037100",
+        "level": 2,
+        "name": {
+          "local": "Zambales",
+          "en": "Zambales",
+          "slug": "zambales-037100"
+        }
+      },
+      {
+        "id": "037104",
+        "level": 3,
+        "name": {
+          "local": "Castillejos",
+          "en": "Castillejos",
+          "slug": "castillejos-037104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2208"
+    ],
+    "geo": {
+      "lat": "14.82",
+      "lon": "120.96"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

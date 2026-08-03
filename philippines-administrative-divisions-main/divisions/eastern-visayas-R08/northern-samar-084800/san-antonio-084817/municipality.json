@@ -1,0 +1,56 @@
+{
+  "id": "084817",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Antonio",
+    "en": "San Antonio",
+    "slug": "san-antonio-084817"
+  },
+  "code": {
+    "id": "084817",
+    "iso": null
+  },
+  "parent": {
+    "id": "084800",
+    "level": 2,
+    "name": {
+      "local": "Northern Samar",
+      "en": "Northern Samar",
+      "slug": "northern-samar-084800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "084800",
+      "level": 2,
+      "name": {
+        "local": "Northern Samar",
+        "en": "Northern Samar",
+        "slug": "northern-samar-084800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 10
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.417",
+    "lon": "124.267"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -4,6 +4,10 @@
  * Handles system-wide language switching and storage
  */
 
+if (class_exists('LanguageManager', false)) {
+    return;
+}
+
 // Avoid starting sessions or handling HTTP redirects when running in CLI (artisan/package discovery)
 if (php_sapi_name() !== 'cli') {
     if (session_status() === PHP_SESSION_NONE) {

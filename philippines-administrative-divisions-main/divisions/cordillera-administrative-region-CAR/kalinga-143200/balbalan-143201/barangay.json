@@ -1,0 +1,912 @@
+[
+  {
+    "id": "143201001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ababa-an",
+      "en": "Ababa-an",
+      "slug": "ababa-an-143201001"
+    },
+    "code": {
+      "id": "143201001",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.45",
+      "lon": "121.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balantoy",
+      "en": "Balantoy",
+      "slug": "balantoy-143201002"
+    },
+    "code": {
+      "id": "143201002",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.4803",
+      "lon": "121.2241"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balbalan Proper",
+      "en": "Balbalan Proper",
+      "slug": "balbalan-proper-143201003"
+    },
+    "code": {
+      "id": "143201003",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.4436",
+      "lon": "121.2008"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balbalasang",
+      "en": "Balbalasang",
+      "slug": "balbalasang-143201004"
+    },
+    "code": {
+      "id": "143201004",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.4826",
+      "lon": "121.058"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buaya",
+      "en": "Buaya",
+      "slug": "buaya-143201005"
+    },
+    "code": {
+      "id": "143201005",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.5667",
+      "lon": "121.2333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dao-angan",
+      "en": "Dao-angan",
+      "slug": "dao-angan-143201006"
+    },
+    "code": {
+      "id": "143201006",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.4867",
+      "lon": "121.2294"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gawa-an",
+      "en": "Gawa-an",
+      "slug": "gawa-an-143201007"
+    },
+    "code": {
+      "id": "143201007",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.513",
+      "lon": "121.2083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabaca",
+      "en": "Mabaca",
+      "slug": "mabaca-143201009"
+    },
+    "code": {
+      "id": "143201009",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.5667",
+      "lon": "121.1167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maling (Kabugao)",
+      "en": "Maling (Kabugao)",
+      "slug": "maling-kabugao-143201010"
+    },
+    "code": {
+      "id": "143201010",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.7947",
+      "lon": "120.4556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pantikian",
+      "en": "Pantikian",
+      "slug": "pantikian-143201011"
+    },
+    "code": {
+      "id": "143201011",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.4956",
+      "lon": "121.1605"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion (Salegseg)",
+      "en": "Poblacion (Salegseg)",
+      "slug": "poblacion-salegseg-143201013"
+    },
+    "code": {
+      "id": "143201013",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.4705",
+      "lon": "121.4695"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poswoy",
+      "en": "Poswoy",
+      "slug": "poswoy-143201012"
+    },
+    "code": {
+      "id": "143201012",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.5263",
+      "lon": "121.2991"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talalang",
+      "en": "Talalang",
+      "slug": "talalang-143201015"
+    },
+    "code": {
+      "id": "143201015",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.2577",
+      "lon": "121.1453"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143201016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tawang",
+      "en": "Tawang",
+      "slug": "tawang-143201016"
+    },
+    "code": {
+      "id": "143201016",
+      "iso": null
+    },
+    "parent": {
+      "id": "143201",
+      "level": 3,
+      "name": {
+        "local": "Balbalan",
+        "en": "Balbalan",
+        "slug": "balbalan-143201"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143201",
+        "level": 3,
+        "name": {
+          "local": "Balbalan",
+          "en": "Balbalan",
+          "slug": "balbalan-143201"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3801"
+    ],
+    "geo": {
+      "lat": "17.6007",
+      "lon": "121.2266"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

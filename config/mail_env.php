@@ -9,7 +9,11 @@ putenv('SMTP_USER=jeyceebaya@gmail.com');
 putenv('SMTP_PASS=qqaq vtkr juid dske');
 putenv('SMTP_FROM=jeyceebaya@gmail.com');
 putenv('SMTP_FROM_NAME=Alertara');
-putenv('OPENAI_API_KEY=sk-YOUR_KEY_HERE');
+
+$aiKey = getenv('OPENAI_API_KEY') ?: getenv('NLP_AI_API_KEY') ?: getenv('CLOUD_NLP_API_KEY') ?: '';
+putenv('OPENAI_API_KEY=' . $aiKey);
+putenv('NLP_AI_API_KEY=' . (getenv('NLP_AI_API_KEY') ?: $aiKey));
+putenv('CLOUD_NLP_API_KEY=' . (getenv('CLOUD_NLP_API_KEY') ?: $aiKey));
 
 // If you use a different provider, update accordingly, e.g.:
 // putenv('SMTP_HOST=smtp.mailgun.org');

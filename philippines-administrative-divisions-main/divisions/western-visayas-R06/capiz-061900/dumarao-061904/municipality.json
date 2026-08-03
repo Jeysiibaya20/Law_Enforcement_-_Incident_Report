@@ -1,0 +1,56 @@
+{
+  "id": "061904",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Dumarao",
+    "en": "Dumarao",
+    "slug": "dumarao-061904"
+  },
+  "code": {
+    "id": "061904",
+    "iso": null
+  },
+  "parent": {
+    "id": "061900",
+    "level": 2,
+    "name": {
+      "local": "Capiz",
+      "en": "Capiz",
+      "slug": "capiz-061900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 33
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.267",
+    "lon": "122.683"
+  },
+  "metadata": {},
+  "source": {}
+}

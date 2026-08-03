@@ -1,0 +1,56 @@
+{
+  "id": "160304",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "La Paz",
+    "en": "La Paz",
+    "slug": "la-paz-160304"
+  },
+  "code": {
+    "id": "160304",
+    "iso": null
+  },
+  "parent": {
+    "id": "160300",
+    "level": 2,
+    "name": {
+      "local": "Agusan del Sur",
+      "en": "Agusan del Sur",
+      "slug": "agusan-del-sur-160300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.267",
+    "lon": "125.8"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "037705",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Dingalan",
+    "en": "Dingalan",
+    "slug": "dingalan-037705"
+  },
+  "code": {
+    "id": "037705",
+    "iso": null
+  },
+  "parent": {
+    "id": "037700",
+    "level": 2,
+    "name": {
+      "local": "Aurora",
+      "en": "Aurora",
+      "slug": "aurora-037700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "037700",
+      "level": 2,
+      "name": {
+        "local": "Aurora",
+        "en": "Aurora",
+        "slug": "aurora-037700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.383",
+    "lon": "121.4"
+  },
+  "metadata": {},
+  "source": {}
+}

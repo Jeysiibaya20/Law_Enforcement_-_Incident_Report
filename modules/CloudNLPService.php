@@ -11,9 +11,9 @@ class CloudNLPService
 
     public function __construct(?string $apiKey = null, ?string $baseUrl = null, ?string $model = null)
     {
-        $this->apiKey = $apiKey ?? (getenv('OPENAI_API_KEY') ?: getenv('CLOUD_NLP_API_KEY') ?: '');
-        $this->baseUrl = rtrim($baseUrl ?? (getenv('CLOUD_NLP_BASE_URL') ?: 'https://api.openai.com/v1'), '/');
-        $this->model = $model ?? (getenv('CLOUD_NLP_MODEL') ?: 'gpt-4o-mini');
+        $this->apiKey = $apiKey ?? (getenv('OPENAI_API_KEY') ?: getenv('NLP_AI_API_KEY') ?: getenv('CLOUD_NLP_API_KEY') ?: '');
+        $this->baseUrl = rtrim($baseUrl ?? (getenv('CLOUD_NLP_BASE_URL') ?: getenv('NLP_AI_BASE_URL') ?: 'https://api.openai.com/v1'), '/');
+        $this->model = $model ?? (getenv('CLOUD_NLP_MODEL') ?: getenv('NLP_AI_MODEL') ?: 'gpt-4o-mini');
     }
 
     public function isConfigured(): bool

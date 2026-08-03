@@ -1,0 +1,35 @@
+{
+  "id": "R07",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "Central Visayas",
+    "en": "Central Visayas",
+    "slug": "central-visayas-R07"
+  },
+  "code": {
+    "id": "R07",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 4,
+    "barangay": 3003,
+    "municipality": 132
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.948",
+    "lon": "123.7963"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/central-visayas-R07/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

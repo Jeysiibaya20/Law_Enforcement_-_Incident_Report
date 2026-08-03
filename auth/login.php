@@ -20,7 +20,12 @@ require_once '../config/db_connect.php';
 
 // Redirect if already logged in
 if (isset($_SESSION['user_id'])) {
-    header('Location: ../index.php');
+    $current_role = strtolower(trim($_SESSION['role'] ?? 'user'));
+    if ($current_role === 'admin') {
+        header('Location: ../admin/reports.php');
+    } else {
+        header('Location: ../modules/my_reports.php');
+    }
     exit();
 }
 
@@ -38,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
 
         // Try to get user from signup table first
-        $sql = "SELECT user_id, fullname, emailadd, username, password, email_verified 
+        $sql = "SELECT user_id, fullname, emailadd, username, password, email_verified, role 
                 FROM signup 
                 WHERE username = ? LIMIT 1";
         $stmt = $pdo->prepare($sql);
@@ -47,8 +52,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         // If not found in signup, try the users table
         if (!$user) {
-            // Fallback when account lives in `users` table: join with `signup` if available to get emailadd
-            $sql_users = "SELECT u.user_id, COALESCE(s.fullname, u.username) AS fullname, s.emailadd, u.username, u.password_hash as password, u.email_verified 
+            // Fallback when account lives in `users` table: join with `signup` if available to get emailadd and role
+            $sql_users = "SELECT u.user_id, COALESCE(s.fullname, u.username) AS fullname, s.emailadd, u.username, u.password_hash as password, u.email_verified, COALESCE(s.role, 'User') AS role 
                           FROM users u LEFT JOIN signup s ON s.user_id = u.user_id 
                           WHERE u.username = ? LIMIT 1";
             $stmt_users = $pdo->prepare($sql_users);
@@ -75,7 +80,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_SESSION['user_id'] = $user['user_id'];
         $_SESSION['username'] = $user['username'];
         $_SESSION['email'] = $user['emailadd'] ?? $user['email'] ?? '';
-        header('Location: ../index.php');
+        $_SESSION['role'] = strtolower(trim($user['role'] ?? 'user'));
+        $_SESSION['first_name'] = trim(explode(' ', $user['fullname'] ?? $user['username'])[0]);
+
+        if ($_SESSION['role'] === 'admin') {
+            header('Location: ../admin/dashboard.php');
+        } else {
+            header('Location: ../modules/my_reports.php');
+        }
         exit();
 
     } catch (Exception $e) {

@@ -1,0 +1,48 @@
+{
+  "id": "148100",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Apayao",
+    "en": "Apayao",
+    "slug": "apayao-148100"
+  },
+  "code": {
+    "id": "148100",
+    "iso": null
+  },
+  "parent": {
+    "id": "CAR",
+    "level": 1,
+    "name": {
+      "local": "Cordillera Administrative Region",
+      "en": "Cordillera Administrative Region",
+      "slug": "cordillera-administrative-region-CAR"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 7,
+    "barangay": 133
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.1084",
+    "lon": "121.4886"
+  },
+  "metadata": {},
+  "source": {}
+}

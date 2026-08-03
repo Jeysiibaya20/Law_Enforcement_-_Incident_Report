@@ -1,0 +1,56 @@
+{
+  "id": "083747",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tacloban City",
+    "en": "Tacloban City",
+    "slug": "tacloban-city-083747"
+  },
+  "code": {
+    "id": "083747",
+    "iso": null
+  },
+  "parent": {
+    "id": "083700",
+    "level": 2,
+    "name": {
+      "local": "Leyte",
+      "en": "Leyte",
+      "slug": "leyte-083700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 138
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.1183",
+    "lon": "123.3465"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "043427",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Maria",
+    "en": "Santa Maria",
+    "slug": "santa-maria-043427"
+  },
+  "code": {
+    "id": "043427",
+    "iso": null
+  },
+  "parent": {
+    "id": "043400",
+    "level": 2,
+    "name": {
+      "local": "Laguna",
+      "en": "Laguna",
+      "slug": "laguna-043400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 25
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.47",
+    "lon": "121.42611"
+  },
+  "metadata": {},
+  "source": {}
+}

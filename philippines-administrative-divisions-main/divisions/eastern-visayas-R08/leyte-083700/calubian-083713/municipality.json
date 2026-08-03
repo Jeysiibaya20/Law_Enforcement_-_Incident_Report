@@ -1,0 +1,56 @@
+{
+  "id": "083713",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Calubian",
+    "en": "Calubian",
+    "slug": "calubian-083713"
+  },
+  "code": {
+    "id": "083713",
+    "iso": null
+  },
+  "parent": {
+    "id": "083700",
+    "level": 2,
+    "name": {
+      "local": "Leyte",
+      "en": "Leyte",
+      "slug": "leyte-083700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 53
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.45",
+    "lon": "124.417"
+  },
+  "metadata": {},
+  "source": {}
+}

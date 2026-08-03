@@ -1,0 +1,56 @@
+{
+  "id": "072253",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tudela",
+    "en": "Tudela",
+    "slug": "tudela-072253"
+  },
+  "code": {
+    "id": "072253",
+    "iso": null
+  },
+  "parent": {
+    "id": "072200",
+    "level": 2,
+    "name": {
+      "local": "Cebu",
+      "en": "Cebu",
+      "slug": "cebu-072200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.25",
+    "lon": "123.833"
+  },
+  "metadata": {},
+  "source": {}
+}

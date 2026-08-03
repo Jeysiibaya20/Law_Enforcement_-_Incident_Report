@@ -1,0 +1,522 @@
+[
+  {
+    "id": "156602001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alat",
+      "en": "Alat",
+      "slug": "alat-156602001"
+    },
+    "code": {
+      "id": "156602001",
+      "iso": null
+    },
+    "parent": {
+      "id": "156602",
+      "level": 3,
+      "name": {
+        "local": "Jolo",
+        "en": "Jolo",
+        "slug": "jolo-156602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156602",
+        "level": 3,
+        "name": {
+          "local": "Jolo",
+          "en": "Jolo",
+          "slug": "jolo-156602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7400"
+    ],
+    "geo": {
+      "lat": "6.05",
+      "lon": "121"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156602002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Asturias",
+      "en": "Asturias",
+      "slug": "asturias-156602002"
+    },
+    "code": {
+      "id": "156602002",
+      "iso": null
+    },
+    "parent": {
+      "id": "156602",
+      "level": 3,
+      "name": {
+        "local": "Jolo",
+        "en": "Jolo",
+        "slug": "jolo-156602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156602",
+        "level": 3,
+        "name": {
+          "local": "Jolo",
+          "en": "Jolo",
+          "slug": "jolo-156602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7400"
+    ],
+    "geo": {
+      "lat": "6.05",
+      "lon": "121"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156602003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bus-bus",
+      "en": "Bus-bus",
+      "slug": "bus-bus-156602003"
+    },
+    "code": {
+      "id": "156602003",
+      "iso": null
+    },
+    "parent": {
+      "id": "156602",
+      "level": 3,
+      "name": {
+        "local": "Jolo",
+        "en": "Jolo",
+        "slug": "jolo-156602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156602",
+        "level": 3,
+        "name": {
+          "local": "Jolo",
+          "en": "Jolo",
+          "slug": "jolo-156602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7400"
+    ],
+    "geo": {
+      "lat": "6.05",
+      "lon": "121"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156602004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Chinese Pier",
+      "en": "Chinese Pier",
+      "slug": "chinese-pier-156602004"
+    },
+    "code": {
+      "id": "156602004",
+      "iso": null
+    },
+    "parent": {
+      "id": "156602",
+      "level": 3,
+      "name": {
+        "local": "Jolo",
+        "en": "Jolo",
+        "slug": "jolo-156602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156602",
+        "level": 3,
+        "name": {
+          "local": "Jolo",
+          "en": "Jolo",
+          "slug": "jolo-156602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7400"
+    ],
+    "geo": {
+      "lat": "7.5258",
+      "lon": "124.3806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156602007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Raymundo",
+      "en": "San Raymundo",
+      "slug": "san-raymundo-156602007"
+    },
+    "code": {
+      "id": "156602007",
+      "iso": null
+    },
+    "parent": {
+      "id": "156602",
+      "level": 3,
+      "name": {
+        "local": "Jolo",
+        "en": "Jolo",
+        "slug": "jolo-156602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156602",
+        "level": 3,
+        "name": {
+          "local": "Jolo",
+          "en": "Jolo",
+          "slug": "jolo-156602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7400"
+    ],
+    "geo": {
+      "lat": "6.05",
+      "lon": "121"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156602008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Takut-takut",
+      "en": "Takut-takut",
+      "slug": "takut-takut-156602008"
+    },
+    "code": {
+      "id": "156602008",
+      "iso": null
+    },
+    "parent": {
+      "id": "156602",
+      "level": 3,
+      "name": {
+        "local": "Jolo",
+        "en": "Jolo",
+        "slug": "jolo-156602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156602",
+        "level": 3,
+        "name": {
+          "local": "Jolo",
+          "en": "Jolo",
+          "slug": "jolo-156602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7400"
+    ],
+    "geo": {
+      "lat": "6.05",
+      "lon": "121"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156602009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tulay",
+      "en": "Tulay",
+      "slug": "tulay-156602009"
+    },
+    "code": {
+      "id": "156602009",
+      "iso": null
+    },
+    "parent": {
+      "id": "156602",
+      "level": 3,
+      "name": {
+        "local": "Jolo",
+        "en": "Jolo",
+        "slug": "jolo-156602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156602",
+        "level": 3,
+        "name": {
+          "local": "Jolo",
+          "en": "Jolo",
+          "slug": "jolo-156602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7400"
+    ],
+    "geo": {
+      "lat": "14.9333",
+      "lon": "120.9167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156602010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Walled City (Pob.)",
+      "en": "Walled City (Pob.)",
+      "slug": "walled-city-pob-156602010"
+    },
+    "code": {
+      "id": "156602010",
+      "iso": null
+    },
+    "parent": {
+      "id": "156602",
+      "level": 3,
+      "name": {
+        "local": "Jolo",
+        "en": "Jolo",
+        "slug": "jolo-156602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156602",
+        "level": 3,
+        "name": {
+          "local": "Jolo",
+          "en": "Jolo",
+          "slug": "jolo-156602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7400"
+    ],
+    "geo": {
+      "lat": "6.05",
+      "lon": "121"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

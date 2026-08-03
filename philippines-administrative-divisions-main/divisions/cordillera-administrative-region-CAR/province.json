@@ -1,0 +1,290 @@
+[
+  {
+    "id": "140100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Abra",
+      "en": "Abra",
+      "slug": "abra-140100"
+    },
+    "code": {
+      "id": "140100",
+      "iso": null
+    },
+    "parent": {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 27,
+      "barangay": 303
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.0398",
+      "lon": "120.8684"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "148100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Apayao",
+      "en": "Apayao",
+      "slug": "apayao-148100"
+    },
+    "code": {
+      "id": "148100",
+      "iso": null
+    },
+    "parent": {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 7,
+      "barangay": 133
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.1084",
+      "lon": "121.4886"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "141100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Benguet",
+      "en": "Benguet",
+      "slug": "benguet-141100"
+    },
+    "code": {
+      "id": "141100",
+      "iso": null
+    },
+    "parent": {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 14,
+      "barangay": 269
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.4959",
+      "lon": "121.1235"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Ifugao",
+      "en": "Ifugao",
+      "slug": "ifugao-142700"
+    },
+    "code": {
+      "id": "142700",
+      "iso": null
+    },
+    "parent": {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 175
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.359",
+      "lon": "121.2742"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Kalinga",
+      "en": "Kalinga",
+      "slug": "kalinga-143200"
+    },
+    "code": {
+      "id": "143200",
+      "iso": null
+    },
+    "parent": {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 8,
+      "barangay": 152
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.8611",
+      "lon": "121.3605"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "144400",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Mountain Province",
+      "en": "Mountain Province",
+      "slug": "mountain-province-144400"
+    },
+    "code": {
+      "id": "144400",
+      "iso": null
+    },
+    "parent": {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 10,
+      "barangay": 144
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.0025",
+      "lon": "121.3451"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

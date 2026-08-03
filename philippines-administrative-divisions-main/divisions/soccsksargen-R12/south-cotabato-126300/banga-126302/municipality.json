@@ -1,0 +1,56 @@
+{
+  "id": "126302",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Banga",
+    "en": "Banga",
+    "slug": "banga-126302"
+  },
+  "code": {
+    "id": "126302",
+    "iso": null
+  },
+  "parent": {
+    "id": "126300",
+    "level": 2,
+    "name": {
+      "local": "South Cotabato",
+      "en": "South Cotabato",
+      "slug": "south-cotabato-126300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 22
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.6228",
+    "lon": "122.152"
+  },
+  "metadata": {},
+  "source": {}
+}

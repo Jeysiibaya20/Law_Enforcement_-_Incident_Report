@@ -1,0 +1,56 @@
+{
+  "id": "043412",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Luisiana",
+    "en": "Luisiana",
+    "slug": "luisiana-043412"
+  },
+  "code": {
+    "id": "043412",
+    "iso": null
+  },
+  "parent": {
+    "id": "043400",
+    "level": 2,
+    "name": {
+      "local": "Laguna",
+      "en": "Laguna",
+      "slug": "laguna-043400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 23
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.183",
+    "lon": "121.517"
+  },
+  "metadata": {},
+  "source": {}
+}

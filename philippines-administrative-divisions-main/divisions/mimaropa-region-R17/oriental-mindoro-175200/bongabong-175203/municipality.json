@@ -1,0 +1,56 @@
+{
+  "id": "175203",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Bongabong",
+    "en": "Bongabong",
+    "slug": "bongabong-175203"
+  },
+  "code": {
+    "id": "175203",
+    "iso": null
+  },
+  "parent": {
+    "id": "175200",
+    "level": 2,
+    "name": {
+      "local": "Oriental Mindoro",
+      "en": "Oriental Mindoro",
+      "slug": "oriental-mindoro-175200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175200",
+      "level": 2,
+      "name": {
+        "local": "Oriental Mindoro",
+        "en": "Oriental Mindoro",
+        "slug": "oriental-mindoro-175200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 36
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.717",
+    "lon": "121.367"
+  },
+  "metadata": {},
+  "source": {}
+}

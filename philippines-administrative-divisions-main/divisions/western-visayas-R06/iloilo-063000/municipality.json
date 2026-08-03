@@ -1,0 +1,2466 @@
+[
+  {
+    "id": "063001",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ajuy",
+      "en": "Ajuy",
+      "slug": "ajuy-063001"
+    },
+    "code": {
+      "id": "063001",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.167",
+      "lon": "123.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063002",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alimodian",
+      "en": "Alimodian",
+      "slug": "alimodian-063002"
+    },
+    "code": {
+      "id": "063002",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 51
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.817",
+      "lon": "122.433"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063003",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Anilao",
+      "en": "Anilao",
+      "slug": "anilao-063003"
+    },
+    "code": {
+      "id": "063003",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11",
+      "lon": "122.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063004",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Badiangan",
+      "en": "Badiangan",
+      "slug": "badiangan-063004"
+    },
+    "code": {
+      "id": "063004",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.5724",
+      "lon": "122.3118"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063005",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balasan",
+      "en": "Balasan",
+      "slug": "balasan-063005"
+    },
+    "code": {
+      "id": "063005",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.467",
+      "lon": "123.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063006",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Banate",
+      "en": "Banate",
+      "slug": "banate-063006"
+    },
+    "code": {
+      "id": "063006",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.05",
+      "lon": "122.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063007",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Barotac Nuevo",
+      "en": "Barotac Nuevo",
+      "slug": "barotac-nuevo-063007"
+    },
+    "code": {
+      "id": "063007",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.9",
+      "lon": "122.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063008",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Barotac Viejo",
+      "en": "Barotac Viejo",
+      "slug": "barotac-viejo-063008"
+    },
+    "code": {
+      "id": "063008",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.05",
+      "lon": "122.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063009",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Batad",
+      "en": "Batad",
+      "slug": "batad-063009"
+    },
+    "code": {
+      "id": "063009",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.417",
+      "lon": "123.117"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bingawan",
+      "en": "Bingawan",
+      "slug": "bingawan-063010"
+    },
+    "code": {
+      "id": "063010",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.233",
+      "lon": "122.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063012",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cabatuan",
+      "en": "Cabatuan",
+      "slug": "cabatuan-063012"
+    },
+    "code": {
+      "id": "063012",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 68
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.95889",
+      "lon": "121.66917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063013",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calinog",
+      "en": "Calinog",
+      "slug": "calinog-063013"
+    },
+    "code": {
+      "id": "063013",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 59
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.133",
+      "lon": "122.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063014",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Carles",
+      "en": "Carles",
+      "slug": "carles-063014"
+    },
+    "code": {
+      "id": "063014",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.567",
+      "lon": "123.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063015",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Concepcion",
+      "en": "Concepcion",
+      "slug": "concepcion-063015"
+    },
+    "code": {
+      "id": "063015",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.4541",
+      "lon": "124.8801"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063016",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dingle",
+      "en": "Dingle",
+      "slug": "dingle-063016"
+    },
+    "code": {
+      "id": "063016",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.05",
+      "lon": "122.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063017",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dueñas",
+      "en": "Dueñas",
+      "slug": "dueas-063017"
+    },
+    "code": {
+      "id": "063017",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 47
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.067",
+      "lon": "122.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063018",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dumangas",
+      "en": "Dumangas",
+      "slug": "dumangas-063018"
+    },
+    "code": {
+      "id": "063018",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 45
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.833",
+      "lon": "122.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063019",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Estancia",
+      "en": "Estancia",
+      "slug": "estancia-063019"
+    },
+    "code": {
+      "id": "063019",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.45",
+      "lon": "123.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063020",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Guimbal",
+      "en": "Guimbal",
+      "slug": "guimbal-063020"
+    },
+    "code": {
+      "id": "063020",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.667",
+      "lon": "122.317"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063021",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Igbaras",
+      "en": "Igbaras",
+      "slug": "igbaras-063021"
+    },
+    "code": {
+      "id": "063021",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 46
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.717",
+      "lon": "122.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063022",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Iloilo City",
+      "en": "Iloilo City",
+      "slug": "iloilo-city-063022"
+    },
+    "code": {
+      "id": "063022",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 180
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.6166",
+      "lon": "122.5413"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063023",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Janiuay",
+      "en": "Janiuay",
+      "slug": "janiuay-063023"
+    },
+    "code": {
+      "id": "063023",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 60
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.95",
+      "lon": "122.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063025",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lambunao",
+      "en": "Lambunao",
+      "slug": "lambunao-063025"
+    },
+    "code": {
+      "id": "063025",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 73
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.05",
+      "lon": "122.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063026",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Leganes",
+      "en": "Leganes",
+      "slug": "leganes-063026"
+    },
+    "code": {
+      "id": "063026",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.783",
+      "lon": "122.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063027",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lemery",
+      "en": "Lemery",
+      "slug": "lemery-063027"
+    },
+    "code": {
+      "id": "063027",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.233",
+      "lon": "122.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063028",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Leon",
+      "en": "Leon",
+      "slug": "leon-063028"
+    },
+    "code": {
+      "id": "063028",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 85
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.783",
+      "lon": "122.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063029",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maasin",
+      "en": "Maasin",
+      "slug": "maasin-063029"
+    },
+    "code": {
+      "id": "063029",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 50
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.883",
+      "lon": "122.433"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063030",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Miagao",
+      "en": "Miagao",
+      "slug": "miagao-063030"
+    },
+    "code": {
+      "id": "063030",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 119
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.65",
+      "lon": "122.233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063031",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mina",
+      "en": "Mina",
+      "slug": "mina-063031"
+    },
+    "code": {
+      "id": "063031",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.933",
+      "lon": "122.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063032",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "New Lucena",
+      "en": "New Lucena",
+      "slug": "new-lucena-063032"
+    },
+    "code": {
+      "id": "063032",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.883",
+      "lon": "122.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063034",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Oton",
+      "en": "Oton",
+      "slug": "oton-063034"
+    },
+    "code": {
+      "id": "063034",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.7",
+      "lon": "122.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063035",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Passi",
+      "en": "Passi",
+      "slug": "passi-063035"
+    },
+    "code": {
+      "id": "063035",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 51
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.7167",
+      "lon": "122.2667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063036",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pavia",
+      "en": "Pavia",
+      "slug": "pavia-063036"
+    },
+    "code": {
+      "id": "063036",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.775",
+      "lon": "122.54194"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063037",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pototan",
+      "en": "Pototan",
+      "slug": "pototan-063037"
+    },
+    "code": {
+      "id": "063037",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 50
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.95",
+      "lon": "122.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063038",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Dionisio",
+      "en": "San Dionisio",
+      "slug": "san-dionisio-063038"
+    },
+    "code": {
+      "id": "063038",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.267",
+      "lon": "123.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063039",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Enrique",
+      "en": "San Enrique",
+      "slug": "san-enrique-063039"
+    },
+    "code": {
+      "id": "063039",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.417",
+      "lon": "122.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063040",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Joaquin",
+      "en": "San Joaquin",
+      "slug": "san-joaquin-063040"
+    },
+    "code": {
+      "id": "063040",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 85
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.6",
+      "lon": "120.9167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063041",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-063041"
+    },
+    "code": {
+      "id": "063041",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.65",
+      "lon": "123.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063042",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Rafael",
+      "en": "San Rafael",
+      "slug": "san-rafael-063042"
+    },
+    "code": {
+      "id": "063042",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.167",
+      "lon": "122.833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063043",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Barbara",
+      "en": "Santa Barbara",
+      "slug": "santa-barbara-063043"
+    },
+    "code": {
+      "id": "063043",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 60
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.00306",
+      "lon": "120.40083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063044",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sara",
+      "en": "Sara",
+      "slug": "sara-063044"
+    },
+    "code": {
+      "id": "063044",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.25",
+      "lon": "123.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063045",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tigbauan",
+      "en": "Tigbauan",
+      "slug": "tigbauan-063045"
+    },
+    "code": {
+      "id": "063045",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 52
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.717",
+      "lon": "122.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063046",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tubungan",
+      "en": "Tubungan",
+      "slug": "tubungan-063046"
+    },
+    "code": {
+      "id": "063046",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 48
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.783",
+      "lon": "122.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063047",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Zarraga",
+      "en": "Zarraga",
+      "slug": "zarraga-063047"
+    },
+    "code": {
+      "id": "063047",
+      "iso": null
+    },
+    "parent": {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.817",
+      "lon": "122.6"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

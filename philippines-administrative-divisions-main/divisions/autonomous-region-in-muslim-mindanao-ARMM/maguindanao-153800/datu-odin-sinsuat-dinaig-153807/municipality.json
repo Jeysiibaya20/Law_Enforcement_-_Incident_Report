@@ -1,0 +1,56 @@
+{
+  "id": "153807",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Datu Odin Sinsuat (Dinaig)",
+    "en": "Datu Odin Sinsuat (Dinaig)",
+    "slug": "datu-odin-sinsuat-dinaig-153807"
+  },
+  "code": {
+    "id": "153807",
+    "iso": null
+  },
+  "parent": {
+    "id": "153800",
+    "level": 2,
+    "name": {
+      "local": "Maguindanao",
+      "en": "Maguindanao",
+      "slug": "maguindanao-153800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "153800",
+      "level": 2,
+      "name": {
+        "local": "Maguindanao",
+        "en": "Maguindanao",
+        "slug": "maguindanao-153800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 34
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.18889",
+    "lon": "124.18389"
+  },
+  "metadata": {},
+  "source": {}
+}

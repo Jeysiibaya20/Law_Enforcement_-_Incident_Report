@@ -1,0 +1,912 @@
+[
+  {
+    "id": "015516001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Anapao (Bur Anapac)",
+      "en": "Anapao (Bur Anapac)",
+      "slug": "anapao-bur-anapac-015516001"
+    },
+    "code": {
+      "id": "015516001",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "16.0947",
+      "lon": "119.8563"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cacayasen",
+      "en": "Cacayasen",
+      "slug": "cacayasen-015516003"
+    },
+    "code": {
+      "id": "015516003",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "16.0814",
+      "lon": "119.8401"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Concordia",
+      "en": "Concordia",
+      "slug": "concordia-015516004"
+    },
+    "code": {
+      "id": "015516004",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "16.3833",
+      "lon": "119.8865"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Don Matias",
+      "en": "Don Matias",
+      "slug": "don-matias-015516009"
+    },
+    "code": {
+      "id": "015516009",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "16.0604",
+      "lon": "119.8795"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ilio-ilio (Iliw-iliw)",
+      "en": "Ilio-ilio (Iliw-iliw)",
+      "slug": "ilio-ilio-iliw-iliw-015516005"
+    },
+    "code": {
+      "id": "015516005",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "15.9616",
+      "lon": "119.7658"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Papallasen",
+      "en": "Papallasen",
+      "slug": "papallasen-015516006"
+    },
+    "code": {
+      "id": "015516006",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "15.9259",
+      "lon": "120.7438"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-015516007"
+    },
+    "code": {
+      "id": "015516007",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "15.9747",
+      "lon": "120.5637"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pogoruac",
+      "en": "Pogoruac",
+      "slug": "pogoruac-015516008"
+    },
+    "code": {
+      "id": "015516008",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "10.017",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-015516010"
+    },
+    "code": {
+      "id": "015516010",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "16.3381",
+      "lon": "119.9978"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pascual",
+      "en": "San Pascual",
+      "slug": "san-pascual-015516011"
+    },
+    "code": {
+      "id": "015516011",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "16.0306",
+      "lon": "119.8721"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Vicente",
+      "en": "San Vicente",
+      "slug": "san-vicente-015516012"
+    },
+    "code": {
+      "id": "015516012",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "15.9866",
+      "lon": "120.5706"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapa Grande",
+      "en": "Sapa Grande",
+      "slug": "sapa-grande-015516013"
+    },
+    "code": {
+      "id": "015516013",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "16.0151",
+      "lon": "119.8321"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapa Pequeña",
+      "en": "Sapa Pequeña",
+      "slug": "sapa-pequea-015516014"
+    },
+    "code": {
+      "id": "015516014",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "16.0362",
+      "lon": "119.8315"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tambacan",
+      "en": "Tambacan",
+      "slug": "tambacan-015516015"
+    },
+    "code": {
+      "id": "015516015",
+      "iso": null
+    },
+    "parent": {
+      "id": "015516",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-015516"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015516",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-015516"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2410"
+    ],
+    "geo": {
+      "lat": "16.0776",
+      "lon": "119.8733"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

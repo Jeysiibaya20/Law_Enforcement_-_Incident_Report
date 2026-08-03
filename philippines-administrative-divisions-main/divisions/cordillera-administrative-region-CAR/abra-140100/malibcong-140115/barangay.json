@@ -1,0 +1,782 @@
+[
+  {
+    "id": "140115001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bayabas",
+      "en": "Bayabas",
+      "slug": "bayabas-140115001"
+    },
+    "code": {
+      "id": "140115001",
+      "iso": null
+    },
+    "parent": {
+      "id": "140115",
+      "level": 3,
+      "name": {
+        "local": "Malibcong",
+        "en": "Malibcong",
+        "slug": "malibcong-140115"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140115",
+        "level": 3,
+        "name": {
+          "local": "Malibcong",
+          "en": "Malibcong",
+          "slug": "malibcong-140115"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2820"
+    ],
+    "geo": {
+      "lat": "17.6167",
+      "lon": "120.9667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140115002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binasaran",
+      "en": "Binasaran",
+      "slug": "binasaran-140115002"
+    },
+    "code": {
+      "id": "140115002",
+      "iso": null
+    },
+    "parent": {
+      "id": "140115",
+      "level": 3,
+      "name": {
+        "local": "Malibcong",
+        "en": "Malibcong",
+        "slug": "malibcong-140115"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140115",
+        "level": 3,
+        "name": {
+          "local": "Malibcong",
+          "en": "Malibcong",
+          "slug": "malibcong-140115"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2820"
+    ],
+    "geo": {
+      "lat": "17.5935",
+      "lon": "120.9239"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140115003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buanao",
+      "en": "Buanao",
+      "slug": "buanao-140115003"
+    },
+    "code": {
+      "id": "140115003",
+      "iso": null
+    },
+    "parent": {
+      "id": "140115",
+      "level": 3,
+      "name": {
+        "local": "Malibcong",
+        "en": "Malibcong",
+        "slug": "malibcong-140115"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140115",
+        "level": 3,
+        "name": {
+          "local": "Malibcong",
+          "en": "Malibcong",
+          "slug": "malibcong-140115"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2820"
+    ],
+    "geo": {
+      "lat": "17.6",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140115004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dulao",
+      "en": "Dulao",
+      "slug": "dulao-140115004"
+    },
+    "code": {
+      "id": "140115004",
+      "iso": null
+    },
+    "parent": {
+      "id": "140115",
+      "level": 3,
+      "name": {
+        "local": "Malibcong",
+        "en": "Malibcong",
+        "slug": "malibcong-140115"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140115",
+        "level": 3,
+        "name": {
+          "local": "Malibcong",
+          "en": "Malibcong",
+          "slug": "malibcong-140115"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2820"
+    ],
+    "geo": {
+      "lat": "17.6333",
+      "lon": "120.9667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140115005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Duldulao",
+      "en": "Duldulao",
+      "slug": "duldulao-140115005"
+    },
+    "code": {
+      "id": "140115005",
+      "iso": null
+    },
+    "parent": {
+      "id": "140115",
+      "level": 3,
+      "name": {
+        "local": "Malibcong",
+        "en": "Malibcong",
+        "slug": "malibcong-140115"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140115",
+        "level": 3,
+        "name": {
+          "local": "Malibcong",
+          "en": "Malibcong",
+          "slug": "malibcong-140115"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2820"
+    ],
+    "geo": {
+      "lat": "17.5667",
+      "lon": "120.9667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140115006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gacab",
+      "en": "Gacab",
+      "slug": "gacab-140115006"
+    },
+    "code": {
+      "id": "140115006",
+      "iso": null
+    },
+    "parent": {
+      "id": "140115",
+      "level": 3,
+      "name": {
+        "local": "Malibcong",
+        "en": "Malibcong",
+        "slug": "malibcong-140115"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140115",
+        "level": 3,
+        "name": {
+          "local": "Malibcong",
+          "en": "Malibcong",
+          "slug": "malibcong-140115"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2820"
+    ],
+    "geo": {
+      "lat": "17.55",
+      "lon": "120.9667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140115007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lat-ey",
+      "en": "Lat-ey",
+      "slug": "lat-ey-140115007"
+    },
+    "code": {
+      "id": "140115007",
+      "iso": null
+    },
+    "parent": {
+      "id": "140115",
+      "level": 3,
+      "name": {
+        "local": "Malibcong",
+        "en": "Malibcong",
+        "slug": "malibcong-140115"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140115",
+        "level": 3,
+        "name": {
+          "local": "Malibcong",
+          "en": "Malibcong",
+          "slug": "malibcong-140115"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2820"
+    ],
+    "geo": {
+      "lat": "17.5833",
+      "lon": "121.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140115008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malibcong (Pob.)",
+      "en": "Malibcong (Pob.)",
+      "slug": "malibcong-pob-140115008"
+    },
+    "code": {
+      "id": "140115008",
+      "iso": null
+    },
+    "parent": {
+      "id": "140115",
+      "level": 3,
+      "name": {
+        "local": "Malibcong",
+        "en": "Malibcong",
+        "slug": "malibcong-140115"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140115",
+        "level": 3,
+        "name": {
+          "local": "Malibcong",
+          "en": "Malibcong",
+          "slug": "malibcong-140115"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2820"
+    ],
+    "geo": {
+      "lat": "17.56",
+      "lon": "120.99"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140115009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mataragan",
+      "en": "Mataragan",
+      "slug": "mataragan-140115009"
+    },
+    "code": {
+      "id": "140115009",
+      "iso": null
+    },
+    "parent": {
+      "id": "140115",
+      "level": 3,
+      "name": {
+        "local": "Malibcong",
+        "en": "Malibcong",
+        "slug": "malibcong-140115"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140115",
+        "level": 3,
+        "name": {
+          "local": "Malibcong",
+          "en": "Malibcong",
+          "slug": "malibcong-140115"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2820"
+    ],
+    "geo": {
+      "lat": "17.6421",
+      "lon": "120.9875"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140115010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pacgued",
+      "en": "Pacgued",
+      "slug": "pacgued-140115010"
+    },
+    "code": {
+      "id": "140115010",
+      "iso": null
+    },
+    "parent": {
+      "id": "140115",
+      "level": 3,
+      "name": {
+        "local": "Malibcong",
+        "en": "Malibcong",
+        "slug": "malibcong-140115"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140115",
+        "level": 3,
+        "name": {
+          "local": "Malibcong",
+          "en": "Malibcong",
+          "slug": "malibcong-140115"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2820"
+    ],
+    "geo": {
+      "lat": "17.567",
+      "lon": "120.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140115011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taripan",
+      "en": "Taripan",
+      "slug": "taripan-140115011"
+    },
+    "code": {
+      "id": "140115011",
+      "iso": null
+    },
+    "parent": {
+      "id": "140115",
+      "level": 3,
+      "name": {
+        "local": "Malibcong",
+        "en": "Malibcong",
+        "slug": "malibcong-140115"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140115",
+        "level": 3,
+        "name": {
+          "local": "Malibcong",
+          "en": "Malibcong",
+          "slug": "malibcong-140115"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2820"
+    ],
+    "geo": {
+      "lat": "17.5667",
+      "lon": "121.0167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140115012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Umnap",
+      "en": "Umnap",
+      "slug": "umnap-140115012"
+    },
+    "code": {
+      "id": "140115012",
+      "iso": null
+    },
+    "parent": {
+      "id": "140115",
+      "level": 3,
+      "name": {
+        "local": "Malibcong",
+        "en": "Malibcong",
+        "slug": "malibcong-140115"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140115",
+        "level": 3,
+        "name": {
+          "local": "Malibcong",
+          "en": "Malibcong",
+          "slug": "malibcong-140115"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2820"
+    ],
+    "geo": {
+      "lat": "17.5833",
+      "lon": "120.9833"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "060400",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Aklan",
+      "en": "Aklan",
+      "slug": "aklan-060400"
+    },
+    "code": {
+      "id": "060400",
+      "iso": null
+    },
+    "parent": {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 17,
+      "barangay": 327
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.7974",
+      "lon": "122.2374"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060600",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Antique",
+      "en": "Antique",
+      "slug": "antique-060600"
+    },
+    "code": {
+      "id": "060600",
+      "iso": null
+    },
+    "parent": {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 18,
+      "barangay": 590
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.2709",
+      "lon": "122.1031"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061900",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Capiz",
+      "en": "Capiz",
+      "slug": "capiz-061900"
+    },
+    "code": {
+      "id": "061900",
+      "iso": null
+    },
+    "parent": {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 17,
+      "barangay": 473
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.5026",
+      "lon": "122.707"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "067900",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Guimaras",
+      "en": "Guimaras",
+      "slug": "guimaras-067900"
+    },
+    "code": {
+      "id": "067900",
+      "iso": null
+    },
+    "parent": {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 5,
+      "barangay": 98
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.0238",
+      "lon": "122.5175"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Iloilo",
+      "en": "Iloilo",
+      "slug": "iloilo-063000"
+    },
+    "code": {
+      "id": "063000",
+      "iso": null
+    },
+    "parent": {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 44,
+      "barangay": 1901
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.5826",
+      "lon": "122.5502"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "064500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Negros Occidental",
+      "en": "Negros Occidental",
+      "slug": "negros-occidental-064500"
+    },
+    "code": {
+      "id": "064500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 32,
+      "barangay": 662
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.3647",
+      "lon": "122.4029"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

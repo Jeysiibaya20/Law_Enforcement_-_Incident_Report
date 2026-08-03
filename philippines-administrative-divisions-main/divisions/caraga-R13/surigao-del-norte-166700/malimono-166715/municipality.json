@@ -1,0 +1,56 @@
+{
+  "id": "166715",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Malimono",
+    "en": "Malimono",
+    "slug": "malimono-166715"
+  },
+  "code": {
+    "id": "166715",
+    "iso": null
+  },
+  "parent": {
+    "id": "166700",
+    "level": 2,
+    "name": {
+      "local": "Surigao del Norte",
+      "en": "Surigao del Norte",
+      "slug": "surigao-del-norte-166700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.617",
+    "lon": "125.4"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -4,6 +4,7 @@ require_once 'admin_auth.php';
 $base_url = '../';
 $page_title = 'Blotter Management';
 require_once '../includes/header.php';
+require_once '../includes/navbar.php';
 
 // Fetch all blotters with optional filtering
 $filter = $_GET['filter'] ?? 'all';
@@ -148,6 +149,19 @@ try {
         flex: 1;
         max-width: 400px;
     }
+
+    .header-action-btn {
+        background: #ffffff;
+        color: #000000 !important;
+        border-color: #ced4da;
+    }
+
+    .header-action-btn:hover,
+    .header-action-btn:focus {
+        background: #f8f9fa;
+        color: #000000 !important;
+    }
+
     @media (max-width: 768px) {
         .search-bar-container {
             flex-direction: column;
@@ -162,9 +176,14 @@ try {
     <div class="content-container">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h1 class="h2">Blotter Management</h1>
-            <a href="dashboard.php" class="btn btn-secondary">
-                <i class="bi bi-arrow-left"></i> Back
-            </a>
+            <div class="d-flex gap-2">
+                <a href="../modules/blotter_create.php" class="btn header-action-btn">
+                    <i class="bi bi-plus-circle"></i> Create New Blotter
+                </a>
+                <a href="dashboard.php" class="btn header-action-btn">
+                    <i class="bi bi-arrow-left"></i> Back
+                </a>
+            </div>
         </div>
 
         <!-- Search Bar -->
@@ -277,6 +296,9 @@ try {
                                     <button class="btn btn-sm btn-outline-primary" onclick="printBlotter(<?= (int)$b['id'] ?>, '<?= htmlspecialchars($b['blotter_no']) ?>')" title="Print Blotter">
                                         <i class="bi bi-printer"></i> Print
                                     </button>
+                                    <a href="Summons.php?blotter_id=<?= (int)$b['id'] ?>" class="btn btn-sm btn-outline-dark" title="Create summons from this blotter">
+                                        <i class="bi bi-file-earmark-text"></i> Summons
+                                    </a>
                                 </td>
                             </tr>
                             <?php endforeach; ?>

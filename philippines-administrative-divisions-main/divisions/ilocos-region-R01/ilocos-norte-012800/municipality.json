@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "012801",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Adams",
+      "en": "Adams",
+      "slug": "adams-012801"
+    },
+    "code": {
+      "id": "012801",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 1
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.467",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012802",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bacarra",
+      "en": "Bacarra",
+      "slug": "bacarra-012802"
+    },
+    "code": {
+      "id": "012802",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 43
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.25",
+      "lon": "120.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012803",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Badoc",
+      "en": "Badoc",
+      "slug": "badoc-012803"
+    },
+    "code": {
+      "id": "012803",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.933",
+      "lon": "120.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012804",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bangui",
+      "en": "Bangui",
+      "slug": "bangui-012804"
+    },
+    "code": {
+      "id": "012804",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.533",
+      "lon": "120.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012811",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Banna (Espiritu)",
+      "en": "Banna (Espiritu)",
+      "slug": "banna-espiritu-012811"
+    },
+    "code": {
+      "id": "012811",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.983",
+      "lon": "120.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012805",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Batac",
+      "en": "Batac",
+      "slug": "batac-012805"
+    },
+    "code": {
+      "id": "012805",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 43
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.05",
+      "lon": "120.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012806",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Burgos",
+      "en": "Burgos",
+      "slug": "burgos-012806"
+    },
+    "code": {
+      "id": "012806",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.51611",
+      "lon": "120.64611"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012807",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Carasi",
+      "en": "Carasi",
+      "slug": "carasi-012807"
+    },
+    "code": {
+      "id": "012807",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 3
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.2",
+      "lon": "120.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012808",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Currimao",
+      "en": "Currimao",
+      "slug": "currimao-012808"
+    },
+    "code": {
+      "id": "012808",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.017",
+      "lon": "120.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012809",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dingras",
+      "en": "Dingras",
+      "slug": "dingras-012809"
+    },
+    "code": {
+      "id": "012809",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.117",
+      "lon": "120.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012810",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dumalneg",
+      "en": "Dumalneg",
+      "slug": "dumalneg-012810"
+    },
+    "code": {
+      "id": "012810",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 2
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.5",
+      "lon": "120.817"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012812",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Laoag City",
+      "en": "Laoag City",
+      "slug": "laoag-city-012812"
+    },
+    "code": {
+      "id": "012812",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 80
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.183",
+      "lon": "120.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012813",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Marcos",
+      "en": "Marcos",
+      "slug": "marcos-012813"
+    },
+    "code": {
+      "id": "012813",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.05",
+      "lon": "120.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012814",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Nueva Era",
+      "en": "Nueva Era",
+      "slug": "nueva-era-012814"
+    },
+    "code": {
+      "id": "012814",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.917",
+      "lon": "120.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012815",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pagudpud",
+      "en": "Pagudpud",
+      "slug": "pagudpud-012815"
+    },
+    "code": {
+      "id": "012815",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.567",
+      "lon": "120.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012816",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Paoay",
+      "en": "Paoay",
+      "slug": "paoay-012816"
+    },
+    "code": {
+      "id": "012816",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.05",
+      "lon": "120.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012817",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pasuquin",
+      "en": "Pasuquin",
+      "slug": "pasuquin-012817"
+    },
+    "code": {
+      "id": "012817",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.333",
+      "lon": "120.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012818",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Piddig",
+      "en": "Piddig",
+      "slug": "piddig-012818"
+    },
+    "code": {
+      "id": "012818",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.167",
+      "lon": "120.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012819",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pinili",
+      "en": "Pinili",
+      "slug": "pinili-012819"
+    },
+    "code": {
+      "id": "012819",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.95389",
+      "lon": "120.52694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Nicolas",
+      "en": "San Nicolas",
+      "slug": "san-nicolas-012820"
+    },
+    "code": {
+      "id": "012820",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.1725",
+      "lon": "120.59583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012821",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sarrat",
+      "en": "Sarrat",
+      "slug": "sarrat-012821"
+    },
+    "code": {
+      "id": "012821",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.167",
+      "lon": "120.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012822",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Solsona",
+      "en": "Solsona",
+      "slug": "solsona-012822"
+    },
+    "code": {
+      "id": "012822",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.1",
+      "lon": "120.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012823",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Vintar",
+      "en": "Vintar",
+      "slug": "vintar-012823"
+    },
+    "code": {
+      "id": "012823",
+      "iso": null
+    },
+    "parent": {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.23",
+      "lon": "120.64194"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

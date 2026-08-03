@@ -1,0 +1,1458 @@
+[
+  {
+    "id": "104301",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alubijid",
+      "en": "Alubijid",
+      "slug": "alubijid-104301"
+    },
+    "code": {
+      "id": "104301",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.567",
+      "lon": "124.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104302",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balingasag",
+      "en": "Balingasag",
+      "slug": "balingasag-104302"
+    },
+    "code": {
+      "id": "104302",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.75",
+      "lon": "124.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104303",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balingoan",
+      "en": "Balingoan",
+      "slug": "balingoan-104303"
+    },
+    "code": {
+      "id": "104303",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9",
+      "lon": "124.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104304",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Binuangan",
+      "en": "Binuangan",
+      "slug": "binuangan-104304"
+    },
+    "code": {
+      "id": "104304",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.917",
+      "lon": "124.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104305",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cagayan de Oro City",
+      "en": "Cagayan de Oro City",
+      "slug": "cagayan-de-oro-city-104305"
+    },
+    "code": {
+      "id": "104305",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 80
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.393",
+      "lon": "123.1314"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104306",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Claveria",
+      "en": "Claveria",
+      "slug": "claveria-104306"
+    },
+    "code": {
+      "id": "104306",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.617",
+      "lon": "124.883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104307",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "El Salvador",
+      "en": "El Salvador",
+      "slug": "el-salvador-104307"
+    },
+    "code": {
+      "id": "104307",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.567",
+      "lon": "124.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104308",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Gingoog City",
+      "en": "Gingoog City",
+      "slug": "gingoog-city-104308"
+    },
+    "code": {
+      "id": "104308",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 79
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.817",
+      "lon": "125.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104309",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Gitagum",
+      "en": "Gitagum",
+      "slug": "gitagum-104309"
+    },
+    "code": {
+      "id": "104309",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.6",
+      "lon": "124.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104310",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Initao",
+      "en": "Initao",
+      "slug": "initao-104310"
+    },
+    "code": {
+      "id": "104310",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.5",
+      "lon": "124.317"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104311",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Jasaan",
+      "en": "Jasaan",
+      "slug": "jasaan-104311"
+    },
+    "code": {
+      "id": "104311",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.65",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104312",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kinoguitan",
+      "en": "Kinoguitan",
+      "slug": "kinoguitan-104312"
+    },
+    "code": {
+      "id": "104312",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.983",
+      "lon": "124.817"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104313",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lagonglong",
+      "en": "Lagonglong",
+      "slug": "lagonglong-104313"
+    },
+    "code": {
+      "id": "104313",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.8",
+      "lon": "124.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104314",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Laguindingan",
+      "en": "Laguindingan",
+      "slug": "laguindingan-104314"
+    },
+    "code": {
+      "id": "104314",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.583",
+      "lon": "124.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104315",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Libertad",
+      "en": "Libertad",
+      "slug": "libertad-104315"
+    },
+    "code": {
+      "id": "104315",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.4541",
+      "lon": "122.0083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104316",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lugait",
+      "en": "Lugait",
+      "slug": "lugait-104316"
+    },
+    "code": {
+      "id": "104316",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.333",
+      "lon": "124.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104317",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Magsaysay (Linugos)",
+      "en": "Magsaysay (Linugos)",
+      "slug": "magsaysay-linugos-104317"
+    },
+    "code": {
+      "id": "104317",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.867",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104318",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Manticao",
+      "en": "Manticao",
+      "slug": "manticao-104318"
+    },
+    "code": {
+      "id": "104318",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.383",
+      "lon": "124.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104319",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Medina",
+      "en": "Medina",
+      "slug": "medina-104319"
+    },
+    "code": {
+      "id": "104319",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.9833",
+      "lon": "122.7333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104320",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Naawan",
+      "en": "Naawan",
+      "slug": "naawan-104320"
+    },
+    "code": {
+      "id": "104320",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.433",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104321",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Opol",
+      "en": "Opol",
+      "slug": "opol-104321"
+    },
+    "code": {
+      "id": "104321",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.517",
+      "lon": "124.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104322",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Salay",
+      "en": "Salay",
+      "slug": "salay-104322"
+    },
+    "code": {
+      "id": "104322",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.867",
+      "lon": "124.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104323",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sugbongcogon",
+      "en": "Sugbongcogon",
+      "slug": "sugbongcogon-104323"
+    },
+    "code": {
+      "id": "104323",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.95",
+      "lon": "124.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104324",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tagoloan",
+      "en": "Tagoloan",
+      "slug": "tagoloan-104324"
+    },
+    "code": {
+      "id": "104324",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.533",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104325",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Talisayan",
+      "en": "Talisayan",
+      "slug": "talisayan-104325"
+    },
+    "code": {
+      "id": "104325",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.99167",
+      "lon": "124.88333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "104326",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Villanueva",
+      "en": "Villanueva",
+      "slug": "villanueva-104326"
+    },
+    "code": {
+      "id": "104326",
+      "iso": null
+    },
+    "parent": {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "104300",
+        "level": 2,
+        "name": {
+          "local": "Misamis Oriental",
+          "en": "Misamis Oriental",
+          "slug": "misamis-oriental-104300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.583",
+      "lon": "124.783"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

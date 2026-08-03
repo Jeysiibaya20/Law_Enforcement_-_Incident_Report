@@ -1,0 +1,56 @@
+{
+  "id": "156606",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Hadji Panglima Tahil (Marunggas)",
+    "en": "Hadji Panglima Tahil (Marunggas)",
+    "slug": "hadji-panglima-tahil-marunggas-156606"
+  },
+  "code": {
+    "id": "156606",
+    "iso": null
+  },
+  "parent": {
+    "id": "156600",
+    "level": 2,
+    "name": {
+      "local": "Sulu",
+      "en": "Sulu",
+      "slug": "sulu-156600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 5
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.167",
+    "lon": "120.917"
+  },
+  "metadata": {},
+  "source": {}
+}

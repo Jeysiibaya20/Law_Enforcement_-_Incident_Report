@@ -1,0 +1,457 @@
+[
+  {
+    "id": "153831001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Adaon",
+      "en": "Adaon",
+      "slug": "adaon-153831001"
+    },
+    "code": {
+      "id": "153831001",
+      "iso": null
+    },
+    "parent": {
+      "id": "153831",
+      "level": 3,
+      "name": {
+        "local": "Datu Anggal Midtimbang",
+        "en": "Datu Anggal Midtimbang",
+        "slug": "datu-anggal-midtimbang-153831"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153831",
+        "level": 3,
+        "name": {
+          "local": "Datu Anggal Midtimbang",
+          "en": "Datu Anggal Midtimbang",
+          "slug": "datu-anggal-midtimbang-153831"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9622"
+    ],
+    "geo": {
+      "lat": "6.93333",
+      "lon": "124.33333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153831002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Brar",
+      "en": "Brar",
+      "slug": "brar-153831002"
+    },
+    "code": {
+      "id": "153831002",
+      "iso": null
+    },
+    "parent": {
+      "id": "153831",
+      "level": 3,
+      "name": {
+        "local": "Datu Anggal Midtimbang",
+        "en": "Datu Anggal Midtimbang",
+        "slug": "datu-anggal-midtimbang-153831"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153831",
+        "level": 3,
+        "name": {
+          "local": "Datu Anggal Midtimbang",
+          "en": "Datu Anggal Midtimbang",
+          "slug": "datu-anggal-midtimbang-153831"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9622"
+    ],
+    "geo": {
+      "lat": "7.0172",
+      "lon": "124.325"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153831003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mapayag",
+      "en": "Mapayag",
+      "slug": "mapayag-153831003"
+    },
+    "code": {
+      "id": "153831003",
+      "iso": null
+    },
+    "parent": {
+      "id": "153831",
+      "level": 3,
+      "name": {
+        "local": "Datu Anggal Midtimbang",
+        "en": "Datu Anggal Midtimbang",
+        "slug": "datu-anggal-midtimbang-153831"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153831",
+        "level": 3,
+        "name": {
+          "local": "Datu Anggal Midtimbang",
+          "en": "Datu Anggal Midtimbang",
+          "slug": "datu-anggal-midtimbang-153831"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9622"
+    ],
+    "geo": {
+      "lat": "6.3795",
+      "lon": "124.5528"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153831004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Midtimbang (Pob.)",
+      "en": "Midtimbang (Pob.)",
+      "slug": "midtimbang-pob-153831004"
+    },
+    "code": {
+      "id": "153831004",
+      "iso": null
+    },
+    "parent": {
+      "id": "153831",
+      "level": 3,
+      "name": {
+        "local": "Datu Anggal Midtimbang",
+        "en": "Datu Anggal Midtimbang",
+        "slug": "datu-anggal-midtimbang-153831"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153831",
+        "level": 3,
+        "name": {
+          "local": "Datu Anggal Midtimbang",
+          "en": "Datu Anggal Midtimbang",
+          "slug": "datu-anggal-midtimbang-153831"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9622"
+    ],
+    "geo": {
+      "lat": "6.93333",
+      "lon": "124.33333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153831005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nunangan (Nunangen)",
+      "en": "Nunangan (Nunangen)",
+      "slug": "nunangan-nunangen-153831005"
+    },
+    "code": {
+      "id": "153831005",
+      "iso": null
+    },
+    "parent": {
+      "id": "153831",
+      "level": 3,
+      "name": {
+        "local": "Datu Anggal Midtimbang",
+        "en": "Datu Anggal Midtimbang",
+        "slug": "datu-anggal-midtimbang-153831"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153831",
+        "level": 3,
+        "name": {
+          "local": "Datu Anggal Midtimbang",
+          "en": "Datu Anggal Midtimbang",
+          "slug": "datu-anggal-midtimbang-153831"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9622"
+    ],
+    "geo": {
+      "lat": "6.93333",
+      "lon": "124.33333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153831006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tugal",
+      "en": "Tugal",
+      "slug": "tugal-153831006"
+    },
+    "code": {
+      "id": "153831006",
+      "iso": null
+    },
+    "parent": {
+      "id": "153831",
+      "level": 3,
+      "name": {
+        "local": "Datu Anggal Midtimbang",
+        "en": "Datu Anggal Midtimbang",
+        "slug": "datu-anggal-midtimbang-153831"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153831",
+        "level": 3,
+        "name": {
+          "local": "Datu Anggal Midtimbang",
+          "en": "Datu Anggal Midtimbang",
+          "slug": "datu-anggal-midtimbang-153831"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9622"
+    ],
+    "geo": {
+      "lat": "6.6078",
+      "lon": "124.8039"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153831007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tulunan",
+      "en": "Tulunan",
+      "slug": "tulunan-153831007"
+    },
+    "code": {
+      "id": "153831007",
+      "iso": null
+    },
+    "parent": {
+      "id": "153831",
+      "level": 3,
+      "name": {
+        "local": "Datu Anggal Midtimbang",
+        "en": "Datu Anggal Midtimbang",
+        "slug": "datu-anggal-midtimbang-153831"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153831",
+        "level": 3,
+        "name": {
+          "local": "Datu Anggal Midtimbang",
+          "en": "Datu Anggal Midtimbang",
+          "slug": "datu-anggal-midtimbang-153831"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9622"
+    ],
+    "geo": {
+      "lat": "6.83",
+      "lon": "124.88"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

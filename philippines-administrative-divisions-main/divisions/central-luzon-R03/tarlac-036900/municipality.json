@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "036901",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Anao",
+      "en": "Anao",
+      "slug": "anao-036901"
+    },
+    "code": {
+      "id": "036901",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.72889",
+      "lon": "120.62611"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036902",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bamban",
+      "en": "Bamban",
+      "slug": "bamban-036902"
+    },
+    "code": {
+      "id": "036902",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.283",
+      "lon": "120.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036903",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Camiling",
+      "en": "Camiling",
+      "slug": "camiling-036903"
+    },
+    "code": {
+      "id": "036903",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 61
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.7",
+      "lon": "120.417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036904",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Capas",
+      "en": "Capas",
+      "slug": "capas-036904"
+    },
+    "code": {
+      "id": "036904",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.3275",
+      "lon": "120.59083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036905",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Concepcion",
+      "en": "Concepcion",
+      "slug": "concepcion-036905"
+    },
+    "code": {
+      "id": "036905",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 45
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.317",
+      "lon": "120.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036906",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Gerona",
+      "en": "Gerona",
+      "slug": "gerona-036906"
+    },
+    "code": {
+      "id": "036906",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 44
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.6",
+      "lon": "120.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036907",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "La Paz",
+      "en": "La Paz",
+      "slug": "la-paz-036907"
+    },
+    "code": {
+      "id": "036907",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.44306",
+      "lon": "120.72889"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036908",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mayantoc",
+      "en": "Mayantoc",
+      "slug": "mayantoc-036908"
+    },
+    "code": {
+      "id": "036908",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.617",
+      "lon": "120.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036909",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Moncada",
+      "en": "Moncada",
+      "slug": "moncada-036909"
+    },
+    "code": {
+      "id": "036909",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.733",
+      "lon": "120.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036910",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Paniqui",
+      "en": "Paniqui",
+      "slug": "paniqui-036910"
+    },
+    "code": {
+      "id": "036910",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.667",
+      "lon": "120.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036911",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pura",
+      "en": "Pura",
+      "slug": "pura-036911"
+    },
+    "code": {
+      "id": "036911",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.625",
+      "lon": "120.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036912",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ramos",
+      "en": "Ramos",
+      "slug": "ramos-036912"
+    },
+    "code": {
+      "id": "036912",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.66667",
+      "lon": "120.64167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036913",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Clemente",
+      "en": "San Clemente",
+      "slug": "san-clemente-036913"
+    },
+    "code": {
+      "id": "036913",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.717",
+      "lon": "120.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036918",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-036918"
+    },
+    "code": {
+      "id": "036918",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.4",
+      "lon": "120.333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036914",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Manuel",
+      "en": "San Manuel",
+      "slug": "san-manuel-036914"
+    },
+    "code": {
+      "id": "036914",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.833",
+      "lon": "120.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036915",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Ignacia",
+      "en": "Santa Ignacia",
+      "slug": "santa-ignacia-036915"
+    },
+    "code": {
+      "id": "036915",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.617",
+      "lon": "120.433"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036916",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tarlac",
+      "en": "Tarlac",
+      "slug": "tarlac-036916"
+    },
+    "code": {
+      "id": "036916",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 76
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.467",
+      "lon": "120.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "036917",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Victoria",
+      "en": "Victoria",
+      "slug": "victoria-036917"
+    },
+    "code": {
+      "id": "036917",
+      "iso": null
+    },
+    "parent": {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "036900",
+        "level": 2,
+        "name": {
+          "local": "Tarlac",
+          "en": "Tarlac",
+          "slug": "tarlac-036900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.57806",
+      "lon": "120.68194"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

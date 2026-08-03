@@ -1,0 +1,56 @@
+{
+  "id": "054120",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Pascual",
+    "en": "San Pascual",
+    "slug": "san-pascual-054120"
+  },
+  "code": {
+    "id": "054120",
+    "iso": null
+  },
+  "parent": {
+    "id": "054100",
+    "level": 2,
+    "name": {
+      "local": "Masbate",
+      "en": "Masbate",
+      "slug": "masbate-054100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 22
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.133",
+    "lon": "122.983"
+  },
+  "metadata": {},
+  "source": {}
+}

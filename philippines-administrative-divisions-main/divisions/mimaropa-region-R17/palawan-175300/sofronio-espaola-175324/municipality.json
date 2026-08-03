@@ -1,0 +1,56 @@
+{
+  "id": "175324",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sofronio Española",
+    "en": "Sofronio Española",
+    "slug": "sofronio-espaola-175324"
+  },
+  "code": {
+    "id": "175324",
+    "iso": null
+  },
+  "parent": {
+    "id": "175300",
+    "level": 2,
+    "name": {
+      "local": "Palawan",
+      "en": "Palawan",
+      "slug": "palawan-175300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 9
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.05",
+    "lon": "118.033"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "104312",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Kinoguitan",
+    "en": "Kinoguitan",
+    "slug": "kinoguitan-104312"
+  },
+  "code": {
+    "id": "104312",
+    "iso": null
+  },
+  "parent": {
+    "id": "104300",
+    "level": 2,
+    "name": {
+      "local": "Misamis Oriental",
+      "en": "Misamis Oriental",
+      "slug": "misamis-oriental-104300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.983",
+    "lon": "124.817"
+  },
+  "metadata": {},
+  "source": {}
+}

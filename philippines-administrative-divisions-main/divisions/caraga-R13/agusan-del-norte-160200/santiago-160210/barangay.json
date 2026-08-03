@@ -1,0 +1,587 @@
+[
+  {
+    "id": "160210002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Curva",
+      "en": "Curva",
+      "slug": "curva-160210002"
+    },
+    "code": {
+      "id": "160210002",
+      "iso": null
+    },
+    "parent": {
+      "id": "160210",
+      "level": 3,
+      "name": {
+        "local": "Santiago",
+        "en": "Santiago",
+        "slug": "santiago-160210"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160210",
+        "level": 3,
+        "name": {
+          "local": "Santiago",
+          "en": "Santiago",
+          "slug": "santiago-160210"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3311"
+    ],
+    "geo": {
+      "lat": "18.3926",
+      "lon": "121.3933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160210010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Estanislao Morgado",
+      "en": "Estanislao Morgado",
+      "slug": "estanislao-morgado-160210010"
+    },
+    "code": {
+      "id": "160210010",
+      "iso": null
+    },
+    "parent": {
+      "id": "160210",
+      "level": 3,
+      "name": {
+        "local": "Santiago",
+        "en": "Santiago",
+        "slug": "santiago-160210"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160210",
+        "level": 3,
+        "name": {
+          "local": "Santiago",
+          "en": "Santiago",
+          "slug": "santiago-160210"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3311"
+    ],
+    "geo": {
+      "lat": "17.3",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160210003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Jagupit",
+      "en": "Jagupit",
+      "slug": "jagupit-160210003"
+    },
+    "code": {
+      "id": "160210003",
+      "iso": null
+    },
+    "parent": {
+      "id": "160210",
+      "level": 3,
+      "name": {
+        "local": "Santiago",
+        "en": "Santiago",
+        "slug": "santiago-160210"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160210",
+        "level": 3,
+        "name": {
+          "local": "Santiago",
+          "en": "Santiago",
+          "slug": "santiago-160210"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3311"
+    ],
+    "geo": {
+      "lat": "9.2422",
+      "lon": "125.5581"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160210005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "La Paz",
+      "en": "La Paz",
+      "slug": "la-paz-160210005"
+    },
+    "code": {
+      "id": "160210005",
+      "iso": null
+    },
+    "parent": {
+      "id": "160210",
+      "level": 3,
+      "name": {
+        "local": "Santiago",
+        "en": "Santiago",
+        "slug": "santiago-160210"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160210",
+        "level": 3,
+        "name": {
+          "local": "Santiago",
+          "en": "Santiago",
+          "slug": "santiago-160210"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3311"
+    ],
+    "geo": {
+      "lat": "15.4431",
+      "lon": "120.7289"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160210012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pangaylan-IP",
+      "en": "Pangaylan-IP",
+      "slug": "pangaylan-ip-160210012"
+    },
+    "code": {
+      "id": "160210012",
+      "iso": null
+    },
+    "parent": {
+      "id": "160210",
+      "level": 3,
+      "name": {
+        "local": "Santiago",
+        "en": "Santiago",
+        "slug": "santiago-160210"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160210",
+        "level": 3,
+        "name": {
+          "local": "Santiago",
+          "en": "Santiago",
+          "slug": "santiago-160210"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3311"
+    ],
+    "geo": {
+      "lat": "17.3",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160210007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion I",
+      "en": "Poblacion I",
+      "slug": "poblacion-i-160210007"
+    },
+    "code": {
+      "id": "160210007",
+      "iso": null
+    },
+    "parent": {
+      "id": "160210",
+      "level": 3,
+      "name": {
+        "local": "Santiago",
+        "en": "Santiago",
+        "slug": "santiago-160210"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160210",
+        "level": 3,
+        "name": {
+          "local": "Santiago",
+          "en": "Santiago",
+          "slug": "santiago-160210"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3311"
+    ],
+    "geo": {
+      "lat": "14.2983",
+      "lon": "121.0096"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160210011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion II",
+      "en": "Poblacion II",
+      "slug": "poblacion-ii-160210011"
+    },
+    "code": {
+      "id": "160210011",
+      "iso": null
+    },
+    "parent": {
+      "id": "160210",
+      "level": 3,
+      "name": {
+        "local": "Santiago",
+        "en": "Santiago",
+        "slug": "santiago-160210"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160210",
+        "level": 3,
+        "name": {
+          "local": "Santiago",
+          "en": "Santiago",
+          "slug": "santiago-160210"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3311"
+    ],
+    "geo": {
+      "lat": "14.2949",
+      "lon": "121.0091"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160210008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-160210008"
+    },
+    "code": {
+      "id": "160210008",
+      "iso": null
+    },
+    "parent": {
+      "id": "160210",
+      "level": 3,
+      "name": {
+        "local": "Santiago",
+        "en": "Santiago",
+        "slug": "santiago-160210"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160210",
+        "level": 3,
+        "name": {
+          "local": "Santiago",
+          "en": "Santiago",
+          "slug": "santiago-160210"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3311"
+    ],
+    "geo": {
+      "lat": "14.4685",
+      "lon": "121.0118"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160210009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tagbuyacan",
+      "en": "Tagbuyacan",
+      "slug": "tagbuyacan-160210009"
+    },
+    "code": {
+      "id": "160210009",
+      "iso": null
+    },
+    "parent": {
+      "id": "160210",
+      "level": 3,
+      "name": {
+        "local": "Santiago",
+        "en": "Santiago",
+        "slug": "santiago-160210"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160200",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Norte",
+          "en": "Agusan del Norte",
+          "slug": "agusan-del-norte-160200"
+        }
+      },
+      {
+        "id": "160210",
+        "level": 3,
+        "name": {
+          "local": "Santiago",
+          "en": "Santiago",
+          "slug": "santiago-160210"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3311"
+    ],
+    "geo": {
+      "lat": "17.3",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

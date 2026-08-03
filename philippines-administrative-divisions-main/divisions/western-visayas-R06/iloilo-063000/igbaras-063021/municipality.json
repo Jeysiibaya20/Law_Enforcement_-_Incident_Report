@@ -1,0 +1,56 @@
+{
+  "id": "063021",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Igbaras",
+    "en": "Igbaras",
+    "slug": "igbaras-063021"
+  },
+  "code": {
+    "id": "063021",
+    "iso": null
+  },
+  "parent": {
+    "id": "063000",
+    "level": 2,
+    "name": {
+      "local": "Iloilo",
+      "en": "Iloilo",
+      "slug": "iloilo-063000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 46
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.717",
+    "lon": "122.267"
+  },
+  "metadata": {},
+  "source": {}
+}

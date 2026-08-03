@@ -1,0 +1,56 @@
+{
+  "id": "056208",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Gubat",
+    "en": "Gubat",
+    "slug": "gubat-056208"
+  },
+  "code": {
+    "id": "056208",
+    "iso": null
+  },
+  "parent": {
+    "id": "056200",
+    "level": 2,
+    "name": {
+      "local": "Sorsogon",
+      "en": "Sorsogon",
+      "slug": "sorsogon-056200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "056200",
+      "level": 2,
+      "name": {
+        "local": "Sorsogon",
+        "en": "Sorsogon",
+        "slug": "sorsogon-056200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 42
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.917",
+    "lon": "124.117"
+  },
+  "metadata": {},
+  "source": {}
+}

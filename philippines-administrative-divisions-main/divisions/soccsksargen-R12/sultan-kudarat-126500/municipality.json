@@ -1,0 +1,674 @@
+[
+  {
+    "id": "126501",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bagumbayan",
+      "en": "Bagumbayan",
+      "slug": "bagumbayan-126501"
+    },
+    "code": {
+      "id": "126501",
+      "iso": null
+    },
+    "parent": {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126500",
+        "level": 2,
+        "name": {
+          "local": "Sultan Kudarat",
+          "en": "Sultan Kudarat",
+          "slug": "sultan-kudarat-126500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.533",
+      "lon": "124.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126502",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Columbio",
+      "en": "Columbio",
+      "slug": "columbio-126502"
+    },
+    "code": {
+      "id": "126502",
+      "iso": null
+    },
+    "parent": {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126500",
+        "level": 2,
+        "name": {
+          "local": "Sultan Kudarat",
+          "en": "Sultan Kudarat",
+          "slug": "sultan-kudarat-126500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.7",
+      "lon": "124.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126503",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Esperanza",
+      "en": "Esperanza",
+      "slug": "esperanza-126503"
+    },
+    "code": {
+      "id": "126503",
+      "iso": null
+    },
+    "parent": {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126500",
+        "level": 2,
+        "name": {
+          "local": "Sultan Kudarat",
+          "en": "Sultan Kudarat",
+          "slug": "sultan-kudarat-126500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.717",
+      "lon": "124.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126504",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Isulan",
+      "en": "Isulan",
+      "slug": "isulan-126504"
+    },
+    "code": {
+      "id": "126504",
+      "iso": null
+    },
+    "parent": {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126500",
+        "level": 2,
+        "name": {
+          "local": "Sultan Kudarat",
+          "en": "Sultan Kudarat",
+          "slug": "sultan-kudarat-126500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.633",
+      "lon": "124.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126505",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kalamansig",
+      "en": "Kalamansig",
+      "slug": "kalamansig-126505"
+    },
+    "code": {
+      "id": "126505",
+      "iso": null
+    },
+    "parent": {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126500",
+        "level": 2,
+        "name": {
+          "local": "Sultan Kudarat",
+          "en": "Sultan Kudarat",
+          "slug": "sultan-kudarat-126500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.567",
+      "lon": "124.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126508",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lambayong (Mariano Marcos)",
+      "en": "Lambayong (Mariano Marcos)",
+      "slug": "lambayong-mariano-marcos-126508"
+    },
+    "code": {
+      "id": "126508",
+      "iso": null
+    },
+    "parent": {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126500",
+        "level": 2,
+        "name": {
+          "local": "Sultan Kudarat",
+          "en": "Sultan Kudarat",
+          "slug": "sultan-kudarat-126500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.8",
+      "lon": "124.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126506",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lebak",
+      "en": "Lebak",
+      "slug": "lebak-126506"
+    },
+    "code": {
+      "id": "126506",
+      "iso": null
+    },
+    "parent": {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126500",
+        "level": 2,
+        "name": {
+          "local": "Sultan Kudarat",
+          "en": "Sultan Kudarat",
+          "slug": "sultan-kudarat-126500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.633",
+      "lon": "124.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126507",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lutayan",
+      "en": "Lutayan",
+      "slug": "lutayan-126507"
+    },
+    "code": {
+      "id": "126507",
+      "iso": null
+    },
+    "parent": {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126500",
+        "level": 2,
+        "name": {
+          "local": "Sultan Kudarat",
+          "en": "Sultan Kudarat",
+          "slug": "sultan-kudarat-126500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.6",
+      "lon": "124.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126509",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Palimbang",
+      "en": "Palimbang",
+      "slug": "palimbang-126509"
+    },
+    "code": {
+      "id": "126509",
+      "iso": null
+    },
+    "parent": {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126500",
+        "level": 2,
+        "name": {
+          "local": "Sultan Kudarat",
+          "en": "Sultan Kudarat",
+          "slug": "sultan-kudarat-126500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.217",
+      "lon": "124.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126510",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "President Quirino",
+      "en": "President Quirino",
+      "slug": "president-quirino-126510"
+    },
+    "code": {
+      "id": "126510",
+      "iso": null
+    },
+    "parent": {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126500",
+        "level": 2,
+        "name": {
+          "local": "Sultan Kudarat",
+          "en": "Sultan Kudarat",
+          "slug": "sultan-kudarat-126500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.7",
+      "lon": "124.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126512",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sen. Ninoy Aquino",
+      "en": "Sen. Ninoy Aquino",
+      "slug": "sen-ninoy-aquino-126512"
+    },
+    "code": {
+      "id": "126512",
+      "iso": null
+    },
+    "parent": {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126500",
+        "level": 2,
+        "name": {
+          "local": "Sultan Kudarat",
+          "en": "Sultan Kudarat",
+          "slug": "sultan-kudarat-126500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.4667",
+      "lon": "124.3167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "126511",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tacurong",
+      "en": "Tacurong",
+      "slug": "tacurong-126511"
+    },
+    "code": {
+      "id": "126511",
+      "iso": null
+    },
+    "parent": {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "126500",
+        "level": 2,
+        "name": {
+          "local": "Sultan Kudarat",
+          "en": "Sultan Kudarat",
+          "slug": "sultan-kudarat-126500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.683",
+      "lon": "124.667"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

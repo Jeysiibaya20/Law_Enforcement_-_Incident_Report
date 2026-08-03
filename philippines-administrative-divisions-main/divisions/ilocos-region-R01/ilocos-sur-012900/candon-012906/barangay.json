@@ -1,0 +1,2732 @@
+[
+  {
+    "id": "012906001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Allangigan Primero",
+      "en": "Allangigan Primero",
+      "slug": "allangigan-primero-012906001"
+    },
+    "code": {
+      "id": "012906001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.1739",
+      "lon": "120.4919"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Allangigan Segundo",
+      "en": "Allangigan Segundo",
+      "slug": "allangigan-segundo-012906002"
+    },
+    "code": {
+      "id": "012906002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.1709",
+      "lon": "120.4919"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Amguid",
+      "en": "Amguid",
+      "slug": "amguid-012906003"
+    },
+    "code": {
+      "id": "012906003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ayudante",
+      "en": "Ayudante",
+      "slug": "ayudante-012906004"
+    },
+    "code": {
+      "id": "012906004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.1685",
+      "lon": "120.4401"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagani Camposanto",
+      "en": "Bagani Camposanto",
+      "slug": "bagani-camposanto-012906005"
+    },
+    "code": {
+      "id": "012906005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2031",
+      "lon": "120.4553"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagani Gabor",
+      "en": "Bagani Gabor",
+      "slug": "bagani-gabor-012906006"
+    },
+    "code": {
+      "id": "012906006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2031",
+      "lon": "120.4553"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagani Tocgo",
+      "en": "Bagani Tocgo",
+      "slug": "bagani-tocgo-012906007"
+    },
+    "code": {
+      "id": "012906007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2031",
+      "lon": "120.4553"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagani Ubbog",
+      "en": "Bagani Ubbog",
+      "slug": "bagani-ubbog-012906008"
+    },
+    "code": {
+      "id": "012906008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2031",
+      "lon": "120.4553"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagar",
+      "en": "Bagar",
+      "slug": "bagar-012906009"
+    },
+    "code": {
+      "id": "012906009",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2123",
+      "lon": "120.4454"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balingaoan",
+      "en": "Balingaoan",
+      "slug": "balingaoan-012906010"
+    },
+    "code": {
+      "id": "012906010",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2191",
+      "lon": "120.4459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bugnay",
+      "en": "Bugnay",
+      "slug": "bugnay-012906015"
+    },
+    "code": {
+      "id": "012906015",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.8158",
+      "lon": "120.4389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calaoaan",
+      "en": "Calaoaan",
+      "slug": "calaoaan-012906016"
+    },
+    "code": {
+      "id": "012906016",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.0833",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calongbuyan",
+      "en": "Calongbuyan",
+      "slug": "calongbuyan-012906017"
+    },
+    "code": {
+      "id": "012906017",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.1648",
+      "lon": "120.4272"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caterman",
+      "en": "Caterman",
+      "slug": "caterman-012906018"
+    },
+    "code": {
+      "id": "012906018",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2174",
+      "lon": "120.4244"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cubcubboot",
+      "en": "Cubcubboot",
+      "slug": "cubcubboot-012906019"
+    },
+    "code": {
+      "id": "012906019",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Darapidap",
+      "en": "Darapidap",
+      "slug": "darapidap-012906020"
+    },
+    "code": {
+      "id": "012906020",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2001",
+      "lon": "120.418"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Langlangca Primero",
+      "en": "Langlangca Primero",
+      "slug": "langlangca-primero-012906022"
+    },
+    "code": {
+      "id": "012906022",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2329",
+      "lon": "120.4523"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Langlangca Segundo",
+      "en": "Langlangca Segundo",
+      "slug": "langlangca-segundo-012906023"
+    },
+    "code": {
+      "id": "012906023",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2232",
+      "lon": "120.4535"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Oaig-Daya",
+      "en": "Oaig-Daya",
+      "slug": "oaig-daya-012906024"
+    },
+    "code": {
+      "id": "012906024",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Palacapac",
+      "en": "Palacapac",
+      "slug": "palacapac-012906025"
+    },
+    "code": {
+      "id": "012906025",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.154",
+      "lon": "120.489"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Paras",
+      "en": "Paras",
+      "slug": "paras-012906026"
+    },
+    "code": {
+      "id": "012906026",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.1891",
+      "lon": "120.4377"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Parioc Primero",
+      "en": "Parioc Primero",
+      "slug": "parioc-primero-012906027"
+    },
+    "code": {
+      "id": "012906027",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.1695",
+      "lon": "120.4669"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Parioc Segundo",
+      "en": "Parioc Segundo",
+      "slug": "parioc-segundo-012906028"
+    },
+    "code": {
+      "id": "012906028",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.175",
+      "lon": "120.4658"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patpata Primero",
+      "en": "Patpata Primero",
+      "slug": "patpata-primero-012906029"
+    },
+    "code": {
+      "id": "012906029",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.1576",
+      "lon": "120.4316"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patpata Segundo",
+      "en": "Patpata Segundo",
+      "slug": "patpata-segundo-012906030"
+    },
+    "code": {
+      "id": "012906030",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.1833",
+      "lon": "120.4333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906031",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Paypayad",
+      "en": "Paypayad",
+      "slug": "paypayad-012906031"
+    },
+    "code": {
+      "id": "012906031",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.1806",
+      "lon": "120.4347"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salvador Primero",
+      "en": "Salvador Primero",
+      "slug": "salvador-primero-012906032"
+    },
+    "code": {
+      "id": "012906032",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2253",
+      "lon": "120.4758"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salvador Segundo",
+      "en": "Salvador Segundo",
+      "slug": "salvador-segundo-012906033"
+    },
+    "code": {
+      "id": "012906033",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2167",
+      "lon": "120.4833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Agustin",
+      "en": "San Agustin",
+      "slug": "san-agustin-012906034"
+    },
+    "code": {
+      "id": "012906034",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2034",
+      "lon": "120.4423"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Andres",
+      "en": "San Andres",
+      "slug": "san-andres-012906035"
+    },
+    "code": {
+      "id": "012906035",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.1679",
+      "lon": "120.4951"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906036",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio (Pob.)",
+      "en": "San Antonio (Pob.)",
+      "slug": "san-antonio-pob-012906036"
+    },
+    "code": {
+      "id": "012906036",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.4074",
+      "lon": "120.4777"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906037",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro (Pob.)",
+      "en": "San Isidro (Pob.)",
+      "slug": "san-isidro-pob-012906037"
+    },
+    "code": {
+      "id": "012906037",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.7333",
+      "lon": "120.4167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906038",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose (Pob.)",
+      "en": "San Jose (Pob.)",
+      "slug": "san-jose-pob-012906038"
+    },
+    "code": {
+      "id": "012906038",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.0983",
+      "lon": "120.4944"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906039",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan (Pob.)",
+      "en": "San Juan (Pob.)",
+      "slug": "san-juan-pob-012906039"
+    },
+    "code": {
+      "id": "012906039",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.7431",
+      "lon": "120.4583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906040",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Nicolas",
+      "en": "San Nicolas",
+      "slug": "san-nicolas-012906040"
+    },
+    "code": {
+      "id": "012906040",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.1853",
+      "lon": "120.4446"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906041",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro",
+      "en": "San Pedro",
+      "slug": "san-pedro-012906041"
+    },
+    "code": {
+      "id": "012906041",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "16.955",
+      "lon": "120.4407"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906042",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Tomas",
+      "en": "Santo Tomas",
+      "slug": "santo-tomas-012906042"
+    },
+    "code": {
+      "id": "012906042",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.1767",
+      "lon": "120.4928"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906043",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tablac",
+      "en": "Tablac",
+      "slug": "tablac-012906043"
+    },
+    "code": {
+      "id": "012906043",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2157",
+      "lon": "120.4543"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906044",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talogtog",
+      "en": "Talogtog",
+      "slug": "talogtog-012906044"
+    },
+    "code": {
+      "id": "012906044",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2097",
+      "lon": "120.4305"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906045",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tamurong Primero",
+      "en": "Tamurong Primero",
+      "slug": "tamurong-primero-012906045"
+    },
+    "code": {
+      "id": "012906045",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2148",
+      "lon": "120.4104"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906046",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tamurong Segundo",
+      "en": "Tamurong Segundo",
+      "slug": "tamurong-segundo-012906046"
+    },
+    "code": {
+      "id": "012906046",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2111",
+      "lon": "120.4159"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012906048",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Villarica",
+      "en": "Villarica",
+      "slug": "villarica-012906048"
+    },
+    "code": {
+      "id": "012906048",
+      "iso": null
+    },
+    "parent": {
+      "id": "012906",
+      "level": 3,
+      "name": {
+        "local": "Candon",
+        "en": "Candon",
+        "slug": "candon-012906"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012906",
+        "level": 3,
+        "name": {
+          "local": "Candon",
+          "en": "Candon",
+          "slug": "candon-012906"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2710"
+    ],
+    "geo": {
+      "lat": "17.2076",
+      "lon": "120.4444"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

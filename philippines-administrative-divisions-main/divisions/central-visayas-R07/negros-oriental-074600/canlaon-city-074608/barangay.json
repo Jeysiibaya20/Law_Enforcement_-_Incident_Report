@@ -1,0 +1,782 @@
+[
+  {
+    "id": "074608001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bayog",
+      "en": "Bayog",
+      "slug": "bayog-074608001"
+    },
+    "code": {
+      "id": "074608001",
+      "iso": null
+    },
+    "parent": {
+      "id": "074608",
+      "level": 3,
+      "name": {
+        "local": "Canlaon City",
+        "en": "Canlaon City",
+        "slug": "canlaon-city-074608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074608",
+        "level": 3,
+        "name": {
+          "local": "Canlaon City",
+          "en": "Canlaon City",
+          "slug": "canlaon-city-074608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6223"
+    ],
+    "geo": {
+      "lat": "10.3333",
+      "lon": "123.3167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074608002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binalbagan",
+      "en": "Binalbagan",
+      "slug": "binalbagan-074608002"
+    },
+    "code": {
+      "id": "074608002",
+      "iso": null
+    },
+    "parent": {
+      "id": "074608",
+      "level": 3,
+      "name": {
+        "local": "Canlaon City",
+        "en": "Canlaon City",
+        "slug": "canlaon-city-074608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074608",
+        "level": 3,
+        "name": {
+          "local": "Canlaon City",
+          "en": "Canlaon City",
+          "slug": "canlaon-city-074608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6223"
+    ],
+    "geo": {
+      "lat": "10.2",
+      "lon": "122.87"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074608003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bucalan (East Budsalan)",
+      "en": "Bucalan (East Budsalan)",
+      "slug": "bucalan-east-budsalan-074608003"
+    },
+    "code": {
+      "id": "074608003",
+      "iso": null
+    },
+    "parent": {
+      "id": "074608",
+      "level": 3,
+      "name": {
+        "local": "Canlaon City",
+        "en": "Canlaon City",
+        "slug": "canlaon-city-074608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074608",
+        "level": 3,
+        "name": {
+          "local": "Canlaon City",
+          "en": "Canlaon City",
+          "slug": "canlaon-city-074608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6223"
+    ],
+    "geo": {
+      "lat": "12.5804",
+      "lon": "124.3651"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074608011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Budlasan (West Budlasan)",
+      "en": "Budlasan (West Budlasan)",
+      "slug": "budlasan-west-budlasan-074608011"
+    },
+    "code": {
+      "id": "074608011",
+      "iso": null
+    },
+    "parent": {
+      "id": "074608",
+      "level": 3,
+      "name": {
+        "local": "Canlaon City",
+        "en": "Canlaon City",
+        "slug": "canlaon-city-074608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074608",
+        "level": 3,
+        "name": {
+          "local": "Canlaon City",
+          "en": "Canlaon City",
+          "slug": "canlaon-city-074608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6223"
+    ],
+    "geo": {
+      "lat": "10.2751",
+      "lon": "123.2101"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074608004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Linothangan",
+      "en": "Linothangan",
+      "slug": "linothangan-074608004"
+    },
+    "code": {
+      "id": "074608004",
+      "iso": null
+    },
+    "parent": {
+      "id": "074608",
+      "level": 3,
+      "name": {
+        "local": "Canlaon City",
+        "en": "Canlaon City",
+        "slug": "canlaon-city-074608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074608",
+        "level": 3,
+        "name": {
+          "local": "Canlaon City",
+          "en": "Canlaon City",
+          "slug": "canlaon-city-074608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6223"
+    ],
+    "geo": {
+      "lat": "10.3815",
+      "lon": "123.2095"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074608005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lumapao",
+      "en": "Lumapao",
+      "slug": "lumapao-074608005"
+    },
+    "code": {
+      "id": "074608005",
+      "iso": null
+    },
+    "parent": {
+      "id": "074608",
+      "level": 3,
+      "name": {
+        "local": "Canlaon City",
+        "en": "Canlaon City",
+        "slug": "canlaon-city-074608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074608",
+        "level": 3,
+        "name": {
+          "local": "Canlaon City",
+          "en": "Canlaon City",
+          "slug": "canlaon-city-074608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6223"
+    ],
+    "geo": {
+      "lat": "10.383",
+      "lon": "123.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074608009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabigo (Pob.)",
+      "en": "Mabigo (Pob.)",
+      "slug": "mabigo-pob-074608009"
+    },
+    "code": {
+      "id": "074608009",
+      "iso": null
+    },
+    "parent": {
+      "id": "074608",
+      "level": 3,
+      "name": {
+        "local": "Canlaon City",
+        "en": "Canlaon City",
+        "slug": "canlaon-city-074608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074608",
+        "level": 3,
+        "name": {
+          "local": "Canlaon City",
+          "en": "Canlaon City",
+          "slug": "canlaon-city-074608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6223"
+    ],
+    "geo": {
+      "lat": "12.4809",
+      "lon": "121.418"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074608006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malaiba",
+      "en": "Malaiba",
+      "slug": "malaiba-074608006"
+    },
+    "code": {
+      "id": "074608006",
+      "iso": null
+    },
+    "parent": {
+      "id": "074608",
+      "level": 3,
+      "name": {
+        "local": "Canlaon City",
+        "en": "Canlaon City",
+        "slug": "canlaon-city-074608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074608",
+        "level": 3,
+        "name": {
+          "local": "Canlaon City",
+          "en": "Canlaon City",
+          "slug": "canlaon-city-074608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6223"
+    ],
+    "geo": {
+      "lat": "10.3333",
+      "lon": "123.3167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074608007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Masulog",
+      "en": "Masulog",
+      "slug": "masulog-074608007"
+    },
+    "code": {
+      "id": "074608007",
+      "iso": null
+    },
+    "parent": {
+      "id": "074608",
+      "level": 3,
+      "name": {
+        "local": "Canlaon City",
+        "en": "Canlaon City",
+        "slug": "canlaon-city-074608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074608",
+        "level": 3,
+        "name": {
+          "local": "Canlaon City",
+          "en": "Canlaon City",
+          "slug": "canlaon-city-074608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6223"
+    ],
+    "geo": {
+      "lat": "10.3167",
+      "lon": "123.0167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074608012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ninoy Aquino",
+      "en": "Ninoy Aquino",
+      "slug": "ninoy-aquino-074608012"
+    },
+    "code": {
+      "id": "074608012",
+      "iso": null
+    },
+    "parent": {
+      "id": "074608",
+      "level": 3,
+      "name": {
+        "local": "Canlaon City",
+        "en": "Canlaon City",
+        "slug": "canlaon-city-074608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074608",
+        "level": 3,
+        "name": {
+          "local": "Canlaon City",
+          "en": "Canlaon City",
+          "slug": "canlaon-city-074608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6223"
+    ],
+    "geo": {
+      "lat": "15.1545",
+      "lon": "120.5968"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074608008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panubigan",
+      "en": "Panubigan",
+      "slug": "panubigan-074608008"
+    },
+    "code": {
+      "id": "074608008",
+      "iso": null
+    },
+    "parent": {
+      "id": "074608",
+      "level": 3,
+      "name": {
+        "local": "Canlaon City",
+        "en": "Canlaon City",
+        "slug": "canlaon-city-074608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074608",
+        "level": 3,
+        "name": {
+          "local": "Canlaon City",
+          "en": "Canlaon City",
+          "slug": "canlaon-city-074608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6223"
+    ],
+    "geo": {
+      "lat": "10.381",
+      "lon": "123.2367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074608010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pula",
+      "en": "Pula",
+      "slug": "pula-074608010"
+    },
+    "code": {
+      "id": "074608010",
+      "iso": null
+    },
+    "parent": {
+      "id": "074608",
+      "level": 3,
+      "name": {
+        "local": "Canlaon City",
+        "en": "Canlaon City",
+        "slug": "canlaon-city-074608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074608",
+        "level": 3,
+        "name": {
+          "local": "Canlaon City",
+          "en": "Canlaon City",
+          "slug": "canlaon-city-074608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6223"
+    ],
+    "geo": {
+      "lat": "10.3815",
+      "lon": "123.179"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

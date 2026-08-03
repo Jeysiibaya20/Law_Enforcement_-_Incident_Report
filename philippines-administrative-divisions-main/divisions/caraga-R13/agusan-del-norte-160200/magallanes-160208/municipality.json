@@ -1,0 +1,56 @@
+{
+  "id": "160208",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Magallanes",
+    "en": "Magallanes",
+    "slug": "magallanes-160208"
+  },
+  "code": {
+    "id": "160208",
+    "iso": null
+  },
+  "parent": {
+    "id": "160200",
+    "level": 2,
+    "name": {
+      "local": "Agusan del Norte",
+      "en": "Agusan del Norte",
+      "slug": "agusan-del-norte-160200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 8
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.833",
+    "lon": "123.85"
+  },
+  "metadata": {},
+  "source": {}
+}

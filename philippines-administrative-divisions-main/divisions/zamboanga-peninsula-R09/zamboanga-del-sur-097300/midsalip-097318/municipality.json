@@ -1,0 +1,56 @@
+{
+  "id": "097318",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Midsalip",
+    "en": "Midsalip",
+    "slug": "midsalip-097318"
+  },
+  "code": {
+    "id": "097318",
+    "iso": null
+  },
+  "parent": {
+    "id": "097300",
+    "level": 2,
+    "name": {
+      "local": "Zamboanga del Sur",
+      "en": "Zamboanga del Sur",
+      "slug": "zamboanga-del-sur-097300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    {
+      "id": "097300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Sur",
+        "en": "Zamboanga del Sur",
+        "slug": "zamboanga-del-sur-097300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 33
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8",
+    "lon": "123.267"
+  },
+  "metadata": {},
+  "source": {}
+}

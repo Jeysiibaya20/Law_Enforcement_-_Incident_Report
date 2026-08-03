@@ -1,0 +1,674 @@
+[
+  {
+    "id": "030801",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Abucay",
+      "en": "Abucay",
+      "slug": "abucay-030801"
+    },
+    "code": {
+      "id": "030801",
+      "iso": null
+    },
+    "parent": {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.733",
+      "lon": "120.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030802",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bagac",
+      "en": "Bagac",
+      "slug": "bagac-030802"
+    },
+    "code": {
+      "id": "030802",
+      "iso": null
+    },
+    "parent": {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.6",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030803",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balanga",
+      "en": "Balanga",
+      "slug": "balanga-030803"
+    },
+    "code": {
+      "id": "030803",
+      "iso": null
+    },
+    "parent": {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.6764",
+      "lon": "120.5364"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030804",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dinalupihan",
+      "en": "Dinalupihan",
+      "slug": "dinalupihan-030804"
+    },
+    "code": {
+      "id": "030804",
+      "iso": null
+    },
+    "parent": {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 46
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.883",
+      "lon": "120.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030805",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Hermosa",
+      "en": "Hermosa",
+      "slug": "hermosa-030805"
+    },
+    "code": {
+      "id": "030805",
+      "iso": null
+    },
+    "parent": {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.833",
+      "lon": "120.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030806",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Limay",
+      "en": "Limay",
+      "slug": "limay-030806"
+    },
+    "code": {
+      "id": "030806",
+      "iso": null
+    },
+    "parent": {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.567",
+      "lon": "120.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030807",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mariveles",
+      "en": "Mariveles",
+      "slug": "mariveles-030807"
+    },
+    "code": {
+      "id": "030807",
+      "iso": null
+    },
+    "parent": {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.433",
+      "lon": "120.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030808",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Morong",
+      "en": "Morong",
+      "slug": "morong-030808"
+    },
+    "code": {
+      "id": "030808",
+      "iso": null
+    },
+    "parent": {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 5
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.683",
+      "lon": "120.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030809",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Orani",
+      "en": "Orani",
+      "slug": "orani-030809"
+    },
+    "code": {
+      "id": "030809",
+      "iso": null
+    },
+    "parent": {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.8",
+      "lon": "120.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030810",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Orion",
+      "en": "Orion",
+      "slug": "orion-030810"
+    },
+    "code": {
+      "id": "030810",
+      "iso": null
+    },
+    "parent": {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.617",
+      "lon": "120.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030811",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pilar",
+      "en": "Pilar",
+      "slug": "pilar-030811"
+    },
+    "code": {
+      "id": "030811",
+      "iso": null
+    },
+    "parent": {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.667",
+      "lon": "120.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Samal",
+      "en": "Samal",
+      "slug": "samal-030812"
+    },
+    "code": {
+      "id": "030812",
+      "iso": null
+    },
+    "parent": {
+      "id": "030800",
+      "level": 2,
+      "name": {
+        "local": "Bataan",
+        "en": "Bataan",
+        "slug": "bataan-030800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.767",
+      "lon": "120.55"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

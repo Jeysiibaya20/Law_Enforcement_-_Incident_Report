@@ -1,0 +1,56 @@
+{
+  "id": "175212",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Roxas",
+    "en": "Roxas",
+    "slug": "roxas-175212"
+  },
+  "code": {
+    "id": "175212",
+    "iso": null
+  },
+  "parent": {
+    "id": "175200",
+    "level": 2,
+    "name": {
+      "local": "Oriental Mindoro",
+      "en": "Oriental Mindoro",
+      "slug": "oriental-mindoro-175200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175200",
+      "level": 2,
+      "name": {
+        "local": "Oriental Mindoro",
+        "en": "Oriental Mindoro",
+        "slug": "oriental-mindoro-175200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 20
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.583",
+    "lon": "121.5"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,48 @@
+{
+  "id": "160300",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Agusan del Sur",
+    "en": "Agusan del Sur",
+    "slug": "agusan-del-sur-160300"
+  },
+  "code": {
+    "id": "160300",
+    "iso": null
+  },
+  "parent": {
+    "id": "R13",
+    "level": 1,
+    "name": {
+      "local": "Caraga",
+      "en": "Caraga",
+      "slug": "caraga-R13"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 14,
+    "barangay": 314
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.0469",
+    "lon": "124.4362"
+  },
+  "metadata": {},
+  "source": {}
+}

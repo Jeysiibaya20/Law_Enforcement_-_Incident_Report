@@ -1,0 +1,56 @@
+{
+  "id": "072242",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Francisco",
+    "en": "San Francisco",
+    "slug": "san-francisco-072242"
+  },
+  "code": {
+    "id": "072242",
+    "iso": null
+  },
+  "parent": {
+    "id": "072200",
+    "level": 2,
+    "name": {
+      "local": "Cebu",
+      "en": "Cebu",
+      "slug": "cebu-072200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.733",
+    "lon": "125.417"
+  },
+  "metadata": {},
+  "source": {}
+}

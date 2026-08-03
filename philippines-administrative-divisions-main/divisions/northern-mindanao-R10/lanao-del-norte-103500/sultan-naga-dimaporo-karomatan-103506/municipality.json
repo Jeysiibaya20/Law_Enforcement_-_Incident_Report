@@ -1,0 +1,56 @@
+{
+  "id": "103506",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sultan Naga Dimaporo (Karomatan)",
+    "en": "Sultan Naga Dimaporo (Karomatan)",
+    "slug": "sultan-naga-dimaporo-karomatan-103506"
+  },
+  "code": {
+    "id": "103506",
+    "iso": null
+  },
+  "parent": {
+    "id": "103500",
+    "level": 2,
+    "name": {
+      "local": "Lanao del Norte",
+      "en": "Lanao del Norte",
+      "slug": "lanao-del-norte-103500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 37
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.783",
+    "lon": "123.75"
+  },
+  "metadata": {},
+  "source": {}
+}

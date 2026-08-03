@@ -1,0 +1,522 @@
+[
+  {
+    "id": "153823005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Campo",
+      "en": "Campo",
+      "slug": "campo-153823005"
+    },
+    "code": {
+      "id": "153823005",
+      "iso": null
+    },
+    "parent": {
+      "id": "153823",
+      "level": 3,
+      "name": {
+        "local": "Paglat",
+        "en": "Paglat",
+        "slug": "paglat-153823"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153823",
+        "level": 3,
+        "name": {
+          "local": "Paglat",
+          "en": "Paglat",
+          "slug": "paglat-153823"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9632"
+    ],
+    "geo": {
+      "lat": "9.6436",
+      "lon": "125.5686"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153823001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Damakling",
+      "en": "Damakling",
+      "slug": "damakling-153823001"
+    },
+    "code": {
+      "id": "153823001",
+      "iso": null
+    },
+    "parent": {
+      "id": "153823",
+      "level": 3,
+      "name": {
+        "local": "Paglat",
+        "en": "Paglat",
+        "slug": "paglat-153823"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153823",
+        "level": 3,
+        "name": {
+          "local": "Paglat",
+          "en": "Paglat",
+          "slug": "paglat-153823"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9632"
+    ],
+    "geo": {
+      "lat": "6.7881",
+      "lon": "124.8153"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153823002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Damalusay",
+      "en": "Damalusay",
+      "slug": "damalusay-153823002"
+    },
+    "code": {
+      "id": "153823002",
+      "iso": null
+    },
+    "parent": {
+      "id": "153823",
+      "level": 3,
+      "name": {
+        "local": "Paglat",
+        "en": "Paglat",
+        "slug": "paglat-153823"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153823",
+        "level": 3,
+        "name": {
+          "local": "Paglat",
+          "en": "Paglat",
+          "slug": "paglat-153823"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9632"
+    ],
+    "geo": {
+      "lat": "6.7",
+      "lon": "124.78333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153823006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kakal",
+      "en": "Kakal",
+      "slug": "kakal-153823006"
+    },
+    "code": {
+      "id": "153823006",
+      "iso": null
+    },
+    "parent": {
+      "id": "153823",
+      "level": 3,
+      "name": {
+        "local": "Paglat",
+        "en": "Paglat",
+        "slug": "paglat-153823"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153823",
+        "level": 3,
+        "name": {
+          "local": "Paglat",
+          "en": "Paglat",
+          "slug": "paglat-153823"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9632"
+    ],
+    "geo": {
+      "lat": "7.0036",
+      "lon": "124.5094"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153823003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Paglat",
+      "en": "Paglat",
+      "slug": "paglat-153823003"
+    },
+    "code": {
+      "id": "153823003",
+      "iso": null
+    },
+    "parent": {
+      "id": "153823",
+      "level": 3,
+      "name": {
+        "local": "Paglat",
+        "en": "Paglat",
+        "slug": "paglat-153823"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153823",
+        "level": 3,
+        "name": {
+          "local": "Paglat",
+          "en": "Paglat",
+          "slug": "paglat-153823"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9632"
+    ],
+    "geo": {
+      "lat": "6.7811",
+      "lon": "124.7849"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153823007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salam",
+      "en": "Salam",
+      "slug": "salam-153823007"
+    },
+    "code": {
+      "id": "153823007",
+      "iso": null
+    },
+    "parent": {
+      "id": "153823",
+      "level": 3,
+      "name": {
+        "local": "Paglat",
+        "en": "Paglat",
+        "slug": "paglat-153823"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153823",
+        "level": 3,
+        "name": {
+          "local": "Paglat",
+          "en": "Paglat",
+          "slug": "paglat-153823"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9632"
+    ],
+    "geo": {
+      "lat": "6.7",
+      "lon": "124.78333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153823008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tual",
+      "en": "Tual",
+      "slug": "tual-153823008"
+    },
+    "code": {
+      "id": "153823008",
+      "iso": null
+    },
+    "parent": {
+      "id": "153823",
+      "level": 3,
+      "name": {
+        "local": "Paglat",
+        "en": "Paglat",
+        "slug": "paglat-153823"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153823",
+        "level": 3,
+        "name": {
+          "local": "Paglat",
+          "en": "Paglat",
+          "slug": "paglat-153823"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9632"
+    ],
+    "geo": {
+      "lat": "7.15",
+      "lon": "124.8167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153823004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Upper Idtig",
+      "en": "Upper Idtig",
+      "slug": "upper-idtig-153823004"
+    },
+    "code": {
+      "id": "153823004",
+      "iso": null
+    },
+    "parent": {
+      "id": "153823",
+      "level": 3,
+      "name": {
+        "local": "Paglat",
+        "en": "Paglat",
+        "slug": "paglat-153823"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153823",
+        "level": 3,
+        "name": {
+          "local": "Paglat",
+          "en": "Paglat",
+          "slug": "paglat-153823"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9632"
+    ],
+    "geo": {
+      "lat": "6.7989",
+      "lon": "124.7728"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

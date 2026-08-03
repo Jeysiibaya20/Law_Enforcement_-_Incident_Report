@@ -1,0 +1,2690 @@
+[
+  {
+    "id": "015501",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Agno",
+      "en": "Agno",
+      "slug": "agno-015501"
+    },
+    "code": {
+      "id": "015501",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.117",
+      "lon": "119.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015502",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Aguilar",
+      "en": "Aguilar",
+      "slug": "aguilar-015502"
+    },
+    "code": {
+      "id": "015502",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.833",
+      "lon": "120.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015503",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alaminos",
+      "en": "Alaminos",
+      "slug": "alaminos-015503"
+    },
+    "code": {
+      "id": "015503",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 39
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.06306",
+      "lon": "121.24806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015504",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alcala",
+      "en": "Alcala",
+      "slug": "alcala-015504"
+    },
+    "code": {
+      "id": "015504",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.84722",
+      "lon": "120.52417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015505",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Anda",
+      "en": "Anda",
+      "slug": "anda-015505"
+    },
+    "code": {
+      "id": "015505",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.283",
+      "lon": "119.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015506",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Asingan",
+      "en": "Asingan",
+      "slug": "asingan-015506"
+    },
+    "code": {
+      "id": "015506",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16",
+      "lon": "120.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015507",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balungao",
+      "en": "Balungao",
+      "slug": "balungao-015507"
+    },
+    "code": {
+      "id": "015507",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.9",
+      "lon": "120.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015508",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bani",
+      "en": "Bani",
+      "slug": "bani-015508"
+    },
+    "code": {
+      "id": "015508",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.2",
+      "lon": "119.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015509",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Basista",
+      "en": "Basista",
+      "slug": "basista-015509"
+    },
+    "code": {
+      "id": "015509",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.85",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015510",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bautista",
+      "en": "Bautista",
+      "slug": "bautista-015510"
+    },
+    "code": {
+      "id": "015510",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.783",
+      "lon": "120.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015511",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bayambang",
+      "en": "Bayambang",
+      "slug": "bayambang-015511"
+    },
+    "code": {
+      "id": "015511",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 77
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.81056",
+      "lon": "120.45472"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015512",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Binalonan",
+      "en": "Binalonan",
+      "slug": "binalonan-015512"
+    },
+    "code": {
+      "id": "015512",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.05",
+      "lon": "120.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015513",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Binmaley",
+      "en": "Binmaley",
+      "slug": "binmaley-015513"
+    },
+    "code": {
+      "id": "015513",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.033",
+      "lon": "120.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015514",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bolinao",
+      "en": "Bolinao",
+      "slug": "bolinao-015514"
+    },
+    "code": {
+      "id": "015514",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.333",
+      "lon": "119.883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015515",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bugallon",
+      "en": "Bugallon",
+      "slug": "bugallon-015515"
+    },
+    "code": {
+      "id": "015515",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.917",
+      "lon": "120.183"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015516",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Burgos",
+      "en": "Burgos",
+      "slug": "burgos-015516"
+    },
+    "code": {
+      "id": "015516",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.04639",
+      "lon": "119.85667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015517",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calasiao",
+      "en": "Calasiao",
+      "slug": "calasiao-015517"
+    },
+    "code": {
+      "id": "015517",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.017",
+      "lon": "120.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015518",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dagupan City",
+      "en": "Dagupan City",
+      "slug": "dagupan-city-015518"
+    },
+    "code": {
+      "id": "015518",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.03",
+      "lon": "120.33"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015519",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dasol",
+      "en": "Dasol",
+      "slug": "dasol-015519"
+    },
+    "code": {
+      "id": "015519",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.98972",
+      "lon": "119.88056"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015520",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Infanta",
+      "en": "Infanta",
+      "slug": "infanta-015520"
+    },
+    "code": {
+      "id": "015520",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.817",
+      "lon": "119.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015521",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Labrador",
+      "en": "Labrador",
+      "slug": "labrador-015521"
+    },
+    "code": {
+      "id": "015521",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16",
+      "lon": "120.117"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015548",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Laoac",
+      "en": "Laoac",
+      "slug": "laoac-015548"
+    },
+    "code": {
+      "id": "015548",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.1167",
+      "lon": "120"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015522",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lingayen",
+      "en": "Lingayen",
+      "slug": "lingayen-015522"
+    },
+    "code": {
+      "id": "015522",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 32
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.02",
+      "lon": "120.23083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015523",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mabini",
+      "en": "Mabini",
+      "slug": "mabini-015523"
+    },
+    "code": {
+      "id": "015523",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.06972",
+      "lon": "119.94"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015524",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malasiqui",
+      "en": "Malasiqui",
+      "slug": "malasiqui-015524"
+    },
+    "code": {
+      "id": "015524",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 73
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.917",
+      "lon": "120.417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015525",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Manaoag",
+      "en": "Manaoag",
+      "slug": "manaoag-015525"
+    },
+    "code": {
+      "id": "015525",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.04389",
+      "lon": "120.48556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015526",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mangaldan",
+      "en": "Mangaldan",
+      "slug": "mangaldan-015526"
+    },
+    "code": {
+      "id": "015526",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.067",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015527",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mangatarem",
+      "en": "Mangatarem",
+      "slug": "mangatarem-015527"
+    },
+    "code": {
+      "id": "015527",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 82
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.783",
+      "lon": "120.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015528",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mapandan",
+      "en": "Mapandan",
+      "slug": "mapandan-015528"
+    },
+    "code": {
+      "id": "015528",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.017",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015529",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Natividad",
+      "en": "Natividad",
+      "slug": "natividad-015529"
+    },
+    "code": {
+      "id": "015529",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.05",
+      "lon": "120.817"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015530",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pozorrubio",
+      "en": "Pozorrubio",
+      "slug": "pozorrubio-015530"
+    },
+    "code": {
+      "id": "015530",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.1089",
+      "lon": "120.5456"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015531",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Rosales",
+      "en": "Rosales",
+      "slug": "rosales-015531"
+    },
+    "code": {
+      "id": "015531",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.883",
+      "lon": "120.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015532",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Carlos City",
+      "en": "San Carlos City",
+      "slug": "san-carlos-city-015532"
+    },
+    "code": {
+      "id": "015532",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 86
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.92806",
+      "lon": "120.34889"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015533",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Fabian",
+      "en": "San Fabian",
+      "slug": "san-fabian-015533"
+    },
+    "code": {
+      "id": "015533",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.15",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015534",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Jacinto",
+      "en": "San Jacinto",
+      "slug": "san-jacinto-015534"
+    },
+    "code": {
+      "id": "015534",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.0725",
+      "lon": "120.44111"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Manuel",
+      "en": "San Manuel",
+      "slug": "san-manuel-015535"
+    },
+    "code": {
+      "id": "015535",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.067",
+      "lon": "120.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015536",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Nicolas",
+      "en": "San Nicolas",
+      "slug": "san-nicolas-015536"
+    },
+    "code": {
+      "id": "015536",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.07",
+      "lon": "120.76528"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015537",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Quintin",
+      "en": "San Quintin",
+      "slug": "san-quintin-015537"
+    },
+    "code": {
+      "id": "015537",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.98444",
+      "lon": "120.815"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015538",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Barbara",
+      "en": "Santa Barbara",
+      "slug": "santa-barbara-015538"
+    },
+    "code": {
+      "id": "015538",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.00306",
+      "lon": "120.40083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015539",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Maria",
+      "en": "Santa Maria",
+      "slug": "santa-maria-015539"
+    },
+    "code": {
+      "id": "015539",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.98083",
+      "lon": "120.70028"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015540",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santo Tomas",
+      "en": "Santo Tomas",
+      "slug": "santo-tomas-015540"
+    },
+    "code": {
+      "id": "015540",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.71194",
+      "lon": "120.58472"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015541",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sison",
+      "en": "Sison",
+      "slug": "sison-015541"
+    },
+    "code": {
+      "id": "015541",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.15694",
+      "lon": "120.52222"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015542",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sual",
+      "en": "Sual",
+      "slug": "sual-015542"
+    },
+    "code": {
+      "id": "015542",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.067",
+      "lon": "120.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015543",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tayug",
+      "en": "Tayug",
+      "slug": "tayug-015543"
+    },
+    "code": {
+      "id": "015543",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.02361",
+      "lon": "120.74778"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015544",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Umingan",
+      "en": "Umingan",
+      "slug": "umingan-015544"
+    },
+    "code": {
+      "id": "015544",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 58
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.9",
+      "lon": "120.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015545",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Urbiztondo",
+      "en": "Urbiztondo",
+      "slug": "urbiztondo-015545"
+    },
+    "code": {
+      "id": "015545",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.817",
+      "lon": "120.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015546",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Urdaneta",
+      "en": "Urdaneta",
+      "slug": "urdaneta-015546"
+    },
+    "code": {
+      "id": "015546",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.97611",
+      "lon": "120.57111"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015547",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Villasis",
+      "en": "Villasis",
+      "slug": "villasis-015547"
+    },
+    "code": {
+      "id": "015547",
+      "iso": null
+    },
+    "parent": {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.9",
+      "lon": "120.583"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "R01",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "Ilocos Region",
+    "en": "Ilocos Region",
+    "slug": "ilocos-region-R01"
+  },
+  "code": {
+    "id": "R01",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 4,
+    "barangay": 3265,
+    "municipality": 125
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.7549",
+    "lon": "120.5139"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/ilocos-region-R01/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

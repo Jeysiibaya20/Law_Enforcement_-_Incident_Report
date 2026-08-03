@@ -1,0 +1,717 @@
+[
+  {
+    "id": "166804001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aras-Asan",
+      "en": "Aras-Asan",
+      "slug": "aras-asan-166804001"
+    },
+    "code": {
+      "id": "166804001",
+      "iso": null
+    },
+    "parent": {
+      "id": "166804",
+      "level": 3,
+      "name": {
+        "local": "Cagwait",
+        "en": "Cagwait",
+        "slug": "cagwait-166804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166804",
+        "level": 3,
+        "name": {
+          "local": "Cagwait",
+          "en": "Cagwait",
+          "slug": "cagwait-166804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8304"
+    ],
+    "geo": {
+      "lat": "8.8878",
+      "lon": "126.3112"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166804002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bacolod",
+      "en": "Bacolod",
+      "slug": "bacolod-166804002"
+    },
+    "code": {
+      "id": "166804002",
+      "iso": null
+    },
+    "parent": {
+      "id": "166804",
+      "level": 3,
+      "name": {
+        "local": "Cagwait",
+        "en": "Cagwait",
+        "slug": "cagwait-166804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166804",
+        "level": 3,
+        "name": {
+          "local": "Cagwait",
+          "en": "Cagwait",
+          "slug": "cagwait-166804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8304"
+    ],
+    "geo": {
+      "lat": "8.9317",
+      "lon": "126.2894"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166804003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bitaugan East",
+      "en": "Bitaugan East",
+      "slug": "bitaugan-east-166804003"
+    },
+    "code": {
+      "id": "166804003",
+      "iso": null
+    },
+    "parent": {
+      "id": "166804",
+      "level": 3,
+      "name": {
+        "local": "Cagwait",
+        "en": "Cagwait",
+        "slug": "cagwait-166804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166804",
+        "level": 3,
+        "name": {
+          "local": "Cagwait",
+          "en": "Cagwait",
+          "slug": "cagwait-166804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8304"
+    ],
+    "geo": {
+      "lat": "8.8669",
+      "lon": "126.3108"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166804004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bitaugan West",
+      "en": "Bitaugan West",
+      "slug": "bitaugan-west-166804004"
+    },
+    "code": {
+      "id": "166804004",
+      "iso": null
+    },
+    "parent": {
+      "id": "166804",
+      "level": 3,
+      "name": {
+        "local": "Cagwait",
+        "en": "Cagwait",
+        "slug": "cagwait-166804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166804",
+        "level": 3,
+        "name": {
+          "local": "Cagwait",
+          "en": "Cagwait",
+          "slug": "cagwait-166804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8304"
+    ],
+    "geo": {
+      "lat": "8.8669",
+      "lon": "126.3108"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166804008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "La Purisima (Palhe)",
+      "en": "La Purisima (Palhe)",
+      "slug": "la-purisima-palhe-166804008"
+    },
+    "code": {
+      "id": "166804008",
+      "iso": null
+    },
+    "parent": {
+      "id": "166804",
+      "level": 3,
+      "name": {
+        "local": "Cagwait",
+        "en": "Cagwait",
+        "slug": "cagwait-166804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166804",
+        "level": 3,
+        "name": {
+          "local": "Cagwait",
+          "en": "Cagwait",
+          "slug": "cagwait-166804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8304"
+    ],
+    "geo": {
+      "lat": "15.4856",
+      "lon": "120.7173"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166804006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lactudan",
+      "en": "Lactudan",
+      "slug": "lactudan-166804006"
+    },
+    "code": {
+      "id": "166804006",
+      "iso": null
+    },
+    "parent": {
+      "id": "166804",
+      "level": 3,
+      "name": {
+        "local": "Cagwait",
+        "en": "Cagwait",
+        "slug": "cagwait-166804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166804",
+        "level": 3,
+        "name": {
+          "local": "Cagwait",
+          "en": "Cagwait",
+          "slug": "cagwait-166804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8304"
+    ],
+    "geo": {
+      "lat": "8.917",
+      "lon": "126.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166804007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mat-e",
+      "en": "Mat-e",
+      "slug": "mat-e-166804007"
+    },
+    "code": {
+      "id": "166804007",
+      "iso": null
+    },
+    "parent": {
+      "id": "166804",
+      "level": 3,
+      "name": {
+        "local": "Cagwait",
+        "en": "Cagwait",
+        "slug": "cagwait-166804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166804",
+        "level": 3,
+        "name": {
+          "local": "Cagwait",
+          "en": "Cagwait",
+          "slug": "cagwait-166804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8304"
+    ],
+    "geo": {
+      "lat": "6.8056",
+      "lon": "124.0072"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166804009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-166804009"
+    },
+    "code": {
+      "id": "166804009",
+      "iso": null
+    },
+    "parent": {
+      "id": "166804",
+      "level": 3,
+      "name": {
+        "local": "Cagwait",
+        "en": "Cagwait",
+        "slug": "cagwait-166804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166804",
+        "level": 3,
+        "name": {
+          "local": "Cagwait",
+          "en": "Cagwait",
+          "slug": "cagwait-166804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8304"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166804005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tawagan",
+      "en": "Tawagan",
+      "slug": "tawagan-166804005"
+    },
+    "code": {
+      "id": "166804005",
+      "iso": null
+    },
+    "parent": {
+      "id": "166804",
+      "level": 3,
+      "name": {
+        "local": "Cagwait",
+        "en": "Cagwait",
+        "slug": "cagwait-166804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166804",
+        "level": 3,
+        "name": {
+          "local": "Cagwait",
+          "en": "Cagwait",
+          "slug": "cagwait-166804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8304"
+    ],
+    "geo": {
+      "lat": "10.2738",
+      "lon": "123.7563"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166804012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tubo-tubo",
+      "en": "Tubo-tubo",
+      "slug": "tubo-tubo-166804012"
+    },
+    "code": {
+      "id": "166804012",
+      "iso": null
+    },
+    "parent": {
+      "id": "166804",
+      "level": 3,
+      "name": {
+        "local": "Cagwait",
+        "en": "Cagwait",
+        "slug": "cagwait-166804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166804",
+        "level": 3,
+        "name": {
+          "local": "Cagwait",
+          "en": "Cagwait",
+          "slug": "cagwait-166804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8304"
+    ],
+    "geo": {
+      "lat": "15.7588",
+      "lon": "119.9205"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166804011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Unidad",
+      "en": "Unidad",
+      "slug": "unidad-166804011"
+    },
+    "code": {
+      "id": "166804011",
+      "iso": null
+    },
+    "parent": {
+      "id": "166804",
+      "level": 3,
+      "name": {
+        "local": "Cagwait",
+        "en": "Cagwait",
+        "slug": "cagwait-166804"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166804",
+        "level": 3,
+        "name": {
+          "local": "Cagwait",
+          "en": "Cagwait",
+          "slug": "cagwait-166804"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8304"
+    ],
+    "geo": {
+      "lat": "8.5356",
+      "lon": "126.2286"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

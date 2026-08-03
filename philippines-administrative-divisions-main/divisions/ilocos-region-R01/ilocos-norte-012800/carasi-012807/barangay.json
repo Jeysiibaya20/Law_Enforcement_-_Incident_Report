@@ -1,0 +1,197 @@
+[
+  {
+    "id": "012807001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Angset",
+      "en": "Angset",
+      "slug": "angset-012807001"
+    },
+    "code": {
+      "id": "012807001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012807",
+      "level": 3,
+      "name": {
+        "local": "Carasi",
+        "en": "Carasi",
+        "slug": "carasi-012807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012807",
+        "level": 3,
+        "name": {
+          "local": "Carasi",
+          "en": "Carasi",
+          "slug": "carasi-012807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2911"
+    ],
+    "geo": {
+      "lat": "18.2",
+      "lon": "120.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012807003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barbaqueso (Pob.)",
+      "en": "Barbaqueso (Pob.)",
+      "slug": "barbaqueso-pob-012807003"
+    },
+    "code": {
+      "id": "012807003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012807",
+      "level": 3,
+      "name": {
+        "local": "Carasi",
+        "en": "Carasi",
+        "slug": "carasi-012807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012807",
+        "level": 3,
+        "name": {
+          "local": "Carasi",
+          "en": "Carasi",
+          "slug": "carasi-012807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2911"
+    ],
+    "geo": {
+      "lat": "18.2",
+      "lon": "120.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012807004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Virbira",
+      "en": "Virbira",
+      "slug": "virbira-012807004"
+    },
+    "code": {
+      "id": "012807004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012807",
+      "level": 3,
+      "name": {
+        "local": "Carasi",
+        "en": "Carasi",
+        "slug": "carasi-012807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012807",
+        "level": 3,
+        "name": {
+          "local": "Carasi",
+          "en": "Carasi",
+          "slug": "carasi-012807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2911"
+    ],
+    "geo": {
+      "lat": "18.2",
+      "lon": "120.867"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

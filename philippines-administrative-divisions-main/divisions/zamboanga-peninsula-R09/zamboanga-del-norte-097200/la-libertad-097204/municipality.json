@@ -1,0 +1,56 @@
+{
+  "id": "097204",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "La Libertad",
+    "en": "La Libertad",
+    "slug": "la-libertad-097204"
+  },
+  "code": {
+    "id": "097204",
+    "iso": null
+  },
+  "parent": {
+    "id": "097200",
+    "level": 2,
+    "name": {
+      "local": "Zamboanga del Norte",
+      "en": "Zamboanga del Norte",
+      "slug": "zamboanga-del-norte-097200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    {
+      "id": "097200",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Norte",
+        "en": "Zamboanga del Norte",
+        "slug": "zamboanga-del-norte-097200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 13
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.45",
+    "lon": "123.5"
+  },
+  "metadata": {},
+  "source": {}
+}

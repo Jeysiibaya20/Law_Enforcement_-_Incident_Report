@@ -1,0 +1,56 @@
+{
+  "id": "150705",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sumisip",
+    "en": "Sumisip",
+    "slug": "sumisip-150705"
+  },
+  "code": {
+    "id": "150705",
+    "iso": null
+  },
+  "parent": {
+    "id": "150700",
+    "level": 2,
+    "name": {
+      "local": "Basilan",
+      "en": "Basilan",
+      "slug": "basilan-150700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 29
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.417",
+    "lon": "121.983"
+  },
+  "metadata": {},
+  "source": {}
+}

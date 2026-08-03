@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "050501",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bacacay",
+      "en": "Bacacay",
+      "slug": "bacacay-050501"
+    },
+    "code": {
+      "id": "050501",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 56
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.3",
+      "lon": "123.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050502",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Camalig",
+      "en": "Camalig",
+      "slug": "camalig-050502"
+    },
+    "code": {
+      "id": "050502",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 50
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.133",
+      "lon": "123.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050503",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Daraga (Locsin)",
+      "en": "Daraga (Locsin)",
+      "slug": "daraga-locsin-050503"
+    },
+    "code": {
+      "id": "050503",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 54
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.16194",
+      "lon": "123.69389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050504",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Guinobatan",
+      "en": "Guinobatan",
+      "slug": "guinobatan-050504"
+    },
+    "code": {
+      "id": "050504",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 44
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.183",
+      "lon": "123.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050505",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Jovellar",
+      "en": "Jovellar",
+      "slug": "jovellar-050505"
+    },
+    "code": {
+      "id": "050505",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.067",
+      "lon": "123.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050506",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Legazpi City",
+      "en": "Legazpi City",
+      "slug": "legazpi-city-050506"
+    },
+    "code": {
+      "id": "050506",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 70
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.13",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050507",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Libon",
+      "en": "Libon",
+      "slug": "libon-050507"
+    },
+    "code": {
+      "id": "050507",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 47
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.3",
+      "lon": "123.433"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050508",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ligao",
+      "en": "Ligao",
+      "slug": "ligao-050508"
+    },
+    "code": {
+      "id": "050508",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 55
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.217",
+      "lon": "123.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050509",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malilipot",
+      "en": "Malilipot",
+      "slug": "malilipot-050509"
+    },
+    "code": {
+      "id": "050509",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.317",
+      "lon": "123.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050510",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malinao",
+      "en": "Malinao",
+      "slug": "malinao-050510"
+    },
+    "code": {
+      "id": "050510",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.4",
+      "lon": "123.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050511",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Manito",
+      "en": "Manito",
+      "slug": "manito-050511"
+    },
+    "code": {
+      "id": "050511",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.117",
+      "lon": "123.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050512",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Oas",
+      "en": "Oas",
+      "slug": "oas-050512"
+    },
+    "code": {
+      "id": "050512",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 53
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.25889",
+      "lon": "123.49528"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050513",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pio Duran",
+      "en": "Pio Duran",
+      "slug": "pio-duran-050513"
+    },
+    "code": {
+      "id": "050513",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.033",
+      "lon": "123.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050514",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Polangui",
+      "en": "Polangui",
+      "slug": "polangui-050514"
+    },
+    "code": {
+      "id": "050514",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 44
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.29222",
+      "lon": "123.48556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050515",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Rapu-Rapu",
+      "en": "Rapu-Rapu",
+      "slug": "rapu-rapu-050515"
+    },
+    "code": {
+      "id": "050515",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.183",
+      "lon": "124.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050516",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santo Domingo (Libog)",
+      "en": "Santo Domingo (Libog)",
+      "slug": "santo-domingo-libog-050516"
+    },
+    "code": {
+      "id": "050516",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.2378",
+      "lon": "124.0271"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050517",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tabaco",
+      "en": "Tabaco",
+      "slug": "tabaco-050517"
+    },
+    "code": {
+      "id": "050517",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 47
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.35944",
+      "lon": "123.73028"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "050518",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tiwi",
+      "en": "Tiwi",
+      "slug": "tiwi-050518"
+    },
+    "code": {
+      "id": "050518",
+      "iso": null
+    },
+    "parent": {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "050500",
+        "level": 2,
+        "name": {
+          "local": "Albay",
+          "en": "Albay",
+          "slug": "albay-050500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.45",
+      "lon": "123.683"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

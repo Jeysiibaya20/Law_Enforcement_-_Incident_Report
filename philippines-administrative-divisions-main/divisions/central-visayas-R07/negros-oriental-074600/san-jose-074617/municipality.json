@@ -1,0 +1,56 @@
+{
+  "id": "074617",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Jose",
+    "en": "San Jose",
+    "slug": "san-jose-074617"
+  },
+  "code": {
+    "id": "074617",
+    "iso": null
+  },
+  "parent": {
+    "id": "074600",
+    "level": 2,
+    "name": {
+      "local": "Negros Oriental",
+      "en": "Negros Oriental",
+      "slug": "negros-oriental-074600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.417",
+    "lon": "123.233"
+  },
+  "metadata": {},
+  "source": {}
+}

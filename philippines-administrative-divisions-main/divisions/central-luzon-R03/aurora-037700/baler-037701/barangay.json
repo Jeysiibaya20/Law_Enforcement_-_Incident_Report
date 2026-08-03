@@ -1,0 +1,847 @@
+[
+  {
+    "id": "037701001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay I (Pob.)",
+      "en": "Barangay I (Pob.)",
+      "slug": "barangay-i-pob-037701001"
+    },
+    "code": {
+      "id": "037701001",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037701002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay II (Pob.)",
+      "en": "Barangay II (Pob.)",
+      "slug": "barangay-ii-pob-037701002"
+    },
+    "code": {
+      "id": "037701002",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037701003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay III (Pob.)",
+      "en": "Barangay III (Pob.)",
+      "slug": "barangay-iii-pob-037701003"
+    },
+    "code": {
+      "id": "037701003",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037701004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay IV (Pob.)",
+      "en": "Barangay IV (Pob.)",
+      "slug": "barangay-iv-pob-037701004"
+    },
+    "code": {
+      "id": "037701004",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037701005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay V (Pob.)",
+      "en": "Barangay V (Pob.)",
+      "slug": "barangay-v-pob-037701005"
+    },
+    "code": {
+      "id": "037701005",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037701006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buhangin",
+      "en": "Buhangin",
+      "slug": "buhangin-037701006"
+    },
+    "code": {
+      "id": "037701006",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "15.7694",
+      "lon": "121.5572"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037701007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calabuanan",
+      "en": "Calabuanan",
+      "slug": "calabuanan-037701007"
+    },
+    "code": {
+      "id": "037701007",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "15.7488",
+      "lon": "121.5091"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037701008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Obligacion",
+      "en": "Obligacion",
+      "slug": "obligacion-037701008"
+    },
+    "code": {
+      "id": "037701008",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "15.767",
+      "lon": "121.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037701009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pingit",
+      "en": "Pingit",
+      "slug": "pingit-037701009"
+    },
+    "code": {
+      "id": "037701009",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "15.7273",
+      "lon": "121.5492"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037701010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Reserva",
+      "en": "Reserva",
+      "slug": "reserva-037701010"
+    },
+    "code": {
+      "id": "037701010",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "15.803",
+      "lon": "121.5406"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037701011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sabang",
+      "en": "Sabang",
+      "slug": "sabang-037701011"
+    },
+    "code": {
+      "id": "037701011",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "11.8279",
+      "lon": "121.8846"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037701012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Suclayin",
+      "en": "Suclayin",
+      "slug": "suclayin-037701012"
+    },
+    "code": {
+      "id": "037701012",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "15.7574",
+      "lon": "121.5503"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "037701013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Zabali",
+      "en": "Zabali",
+      "slug": "zabali-037701013"
+    },
+    "code": {
+      "id": "037701013",
+      "iso": null
+    },
+    "parent": {
+      "id": "037701",
+      "level": 3,
+      "name": {
+        "local": "Baler",
+        "en": "Baler",
+        "slug": "baler-037701"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "037700",
+        "level": 2,
+        "name": {
+          "local": "Aurora",
+          "en": "Aurora",
+          "slug": "aurora-037700"
+        }
+      },
+      {
+        "id": "037701",
+        "level": 3,
+        "name": {
+          "local": "Baler",
+          "en": "Baler",
+          "slug": "baler-037701"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3200"
+    ],
+    "geo": {
+      "lat": "15.7455",
+      "lon": "121.5715"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

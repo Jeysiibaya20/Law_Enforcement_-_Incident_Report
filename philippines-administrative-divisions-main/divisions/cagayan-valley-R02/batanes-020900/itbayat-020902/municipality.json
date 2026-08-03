@@ -1,0 +1,56 @@
+{
+  "id": "020902",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Itbayat",
+    "en": "Itbayat",
+    "slug": "itbayat-020902"
+  },
+  "code": {
+    "id": "020902",
+    "iso": null
+  },
+  "parent": {
+    "id": "020900",
+    "level": 2,
+    "name": {
+      "local": "Batanes",
+      "en": "Batanes",
+      "slug": "batanes-020900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    {
+      "id": "020900",
+      "level": 2,
+      "name": {
+        "local": "Batanes",
+        "en": "Batanes",
+        "slug": "batanes-020900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 5
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "20.767",
+    "lon": "121.85"
+  },
+  "metadata": {},
+  "source": {}
+}

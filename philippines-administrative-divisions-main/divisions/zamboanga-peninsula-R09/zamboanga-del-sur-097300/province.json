@@ -1,0 +1,48 @@
+{
+  "id": "097300",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Zamboanga del Sur",
+    "en": "Zamboanga del Sur",
+    "slug": "zamboanga-del-sur-097300"
+  },
+  "code": {
+    "id": "097300",
+    "iso": null
+  },
+  "parent": {
+    "id": "R09",
+    "level": 1,
+    "name": {
+      "local": "Zamboanga Peninsula",
+      "en": "Zamboanga Peninsula",
+      "slug": "zamboanga-peninsula-R09"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 28,
+    "barangay": 779
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.3723",
+    "lon": "122.9306"
+  },
+  "metadata": {},
+  "source": {}
+}

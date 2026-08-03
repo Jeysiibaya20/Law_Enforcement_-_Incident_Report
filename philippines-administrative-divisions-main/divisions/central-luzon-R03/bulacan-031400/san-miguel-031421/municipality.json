@@ -1,0 +1,56 @@
+{
+  "id": "031421",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Miguel",
+    "en": "San Miguel",
+    "slug": "san-miguel-031421"
+  },
+  "code": {
+    "id": "031421",
+    "iso": null
+  },
+  "parent": {
+    "id": "031400",
+    "level": 2,
+    "name": {
+      "local": "Bulacan",
+      "en": "Bulacan",
+      "slug": "bulacan-031400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 49
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.14583",
+    "lon": "120.97833"
+  },
+  "metadata": {},
+  "source": {}
+}

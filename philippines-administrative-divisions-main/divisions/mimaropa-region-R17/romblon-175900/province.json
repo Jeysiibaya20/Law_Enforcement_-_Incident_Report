@@ -1,0 +1,48 @@
+{
+  "id": "175900",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Romblon",
+    "en": "Romblon",
+    "slug": "romblon-175900"
+  },
+  "code": {
+    "id": "175900",
+    "iso": null
+  },
+  "parent": {
+    "id": "R17",
+    "level": 1,
+    "name": {
+      "local": "MIMAROPA Region",
+      "en": "MIMAROPA Region",
+      "slug": "mimaropa-region-R17"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 17,
+    "barangay": 219
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.5928",
+    "lon": "122.0832"
+  },
+  "metadata": {},
+  "source": {}
+}

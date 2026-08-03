@@ -1,0 +1,717 @@
+[
+  {
+    "id": "160307001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bayugan 3",
+      "en": "Bayugan 3",
+      "slug": "bayugan-3-160307001"
+    },
+    "code": {
+      "id": "160307001",
+      "iso": null
+    },
+    "parent": {
+      "id": "160307",
+      "level": 3,
+      "name": {
+        "local": "Rosario",
+        "en": "Rosario",
+        "slug": "rosario-160307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160307",
+        "level": 3,
+        "name": {
+          "local": "Rosario",
+          "en": "Rosario",
+          "slug": "rosario-160307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8504"
+    ],
+    "geo": {
+      "lat": "8.71",
+      "lon": "125.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160307002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabantao",
+      "en": "Cabantao",
+      "slug": "cabantao-160307002"
+    },
+    "code": {
+      "id": "160307002",
+      "iso": null
+    },
+    "parent": {
+      "id": "160307",
+      "level": 3,
+      "name": {
+        "local": "Rosario",
+        "en": "Rosario",
+        "slug": "rosario-160307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160307",
+        "level": 3,
+        "name": {
+          "local": "Rosario",
+          "en": "Rosario",
+          "slug": "rosario-160307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8504"
+    ],
+    "geo": {
+      "lat": "8.4178",
+      "lon": "126.0261"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160307003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabawan",
+      "en": "Cabawan",
+      "slug": "cabawan-160307003"
+    },
+    "code": {
+      "id": "160307003",
+      "iso": null
+    },
+    "parent": {
+      "id": "160307",
+      "level": 3,
+      "name": {
+        "local": "Rosario",
+        "en": "Rosario",
+        "slug": "rosario-160307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160307",
+        "level": 3,
+        "name": {
+          "local": "Rosario",
+          "en": "Rosario",
+          "slug": "rosario-160307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8504"
+    ],
+    "geo": {
+      "lat": "9.976",
+      "lon": "124.1679"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160307010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Libuac",
+      "en": "Libuac",
+      "slug": "libuac-160307010"
+    },
+    "code": {
+      "id": "160307010",
+      "iso": null
+    },
+    "parent": {
+      "id": "160307",
+      "level": 3,
+      "name": {
+        "local": "Rosario",
+        "en": "Rosario",
+        "slug": "rosario-160307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160307",
+        "level": 3,
+        "name": {
+          "local": "Rosario",
+          "en": "Rosario",
+          "slug": "rosario-160307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8504"
+    ],
+    "geo": {
+      "lat": "8.383",
+      "lon": "126"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160307011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maligaya",
+      "en": "Maligaya",
+      "slug": "maligaya-160307011"
+    },
+    "code": {
+      "id": "160307011",
+      "iso": null
+    },
+    "parent": {
+      "id": "160307",
+      "level": 3,
+      "name": {
+        "local": "Rosario",
+        "en": "Rosario",
+        "slug": "rosario-160307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160307",
+        "level": 3,
+        "name": {
+          "local": "Rosario",
+          "en": "Rosario",
+          "slug": "rosario-160307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8504"
+    ],
+    "geo": {
+      "lat": "15.8113",
+      "lon": "121.4908"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160307004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Marfil",
+      "en": "Marfil",
+      "slug": "marfil-160307004"
+    },
+    "code": {
+      "id": "160307004",
+      "iso": null
+    },
+    "parent": {
+      "id": "160307",
+      "level": 3,
+      "name": {
+        "local": "Rosario",
+        "en": "Rosario",
+        "slug": "rosario-160307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160307",
+        "level": 3,
+        "name": {
+          "local": "Rosario",
+          "en": "Rosario",
+          "slug": "rosario-160307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8504"
+    ],
+    "geo": {
+      "lat": "8.383",
+      "lon": "126"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160307005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Novele",
+      "en": "Novele",
+      "slug": "novele-160307005"
+    },
+    "code": {
+      "id": "160307005",
+      "iso": null
+    },
+    "parent": {
+      "id": "160307",
+      "level": 3,
+      "name": {
+        "local": "Rosario",
+        "en": "Rosario",
+        "slug": "rosario-160307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160307",
+        "level": 3,
+        "name": {
+          "local": "Rosario",
+          "en": "Rosario",
+          "slug": "rosario-160307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8504"
+    ],
+    "geo": {
+      "lat": "8.3508",
+      "lon": "125.9783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160307006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-160307006"
+    },
+    "code": {
+      "id": "160307006",
+      "iso": null
+    },
+    "parent": {
+      "id": "160307",
+      "level": 3,
+      "name": {
+        "local": "Rosario",
+        "en": "Rosario",
+        "slug": "rosario-160307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160307",
+        "level": 3,
+        "name": {
+          "local": "Rosario",
+          "en": "Rosario",
+          "slug": "rosario-160307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8504"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160307007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-160307007"
+    },
+    "code": {
+      "id": "160307007",
+      "iso": null
+    },
+    "parent": {
+      "id": "160307",
+      "level": 3,
+      "name": {
+        "local": "Rosario",
+        "en": "Rosario",
+        "slug": "rosario-160307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160307",
+        "level": 3,
+        "name": {
+          "local": "Rosario",
+          "en": "Rosario",
+          "slug": "rosario-160307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8504"
+    ],
+    "geo": {
+      "lat": "14.5998",
+      "lon": "120.9802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160307008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tagbayagan",
+      "en": "Tagbayagan",
+      "slug": "tagbayagan-160307008"
+    },
+    "code": {
+      "id": "160307008",
+      "iso": null
+    },
+    "parent": {
+      "id": "160307",
+      "level": 3,
+      "name": {
+        "local": "Rosario",
+        "en": "Rosario",
+        "slug": "rosario-160307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160307",
+        "level": 3,
+        "name": {
+          "local": "Rosario",
+          "en": "Rosario",
+          "slug": "rosario-160307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8504"
+    ],
+    "geo": {
+      "lat": "8.383",
+      "lon": "126"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160307009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Wasi-an",
+      "en": "Wasi-an",
+      "slug": "wasi-an-160307009"
+    },
+    "code": {
+      "id": "160307009",
+      "iso": null
+    },
+    "parent": {
+      "id": "160307",
+      "level": 3,
+      "name": {
+        "local": "Rosario",
+        "en": "Rosario",
+        "slug": "rosario-160307"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160307",
+        "level": 3,
+        "name": {
+          "local": "Rosario",
+          "en": "Rosario",
+          "slug": "rosario-160307"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8504"
+    ],
+    "geo": {
+      "lat": "8.383",
+      "lon": "126"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

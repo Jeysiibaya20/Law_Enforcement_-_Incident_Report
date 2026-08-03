@@ -1,0 +1,338 @@
+[
+  {
+    "id": "020901",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Basco",
+      "en": "Basco",
+      "slug": "basco-020901"
+    },
+    "code": {
+      "id": "020901",
+      "iso": null
+    },
+    "parent": {
+      "id": "020900",
+      "level": 2,
+      "name": {
+        "local": "Batanes",
+        "en": "Batanes",
+        "slug": "batanes-020900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 6
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "20.4496778",
+      "lon": "121.9698694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020902",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Itbayat",
+      "en": "Itbayat",
+      "slug": "itbayat-020902"
+    },
+    "code": {
+      "id": "020902",
+      "iso": null
+    },
+    "parent": {
+      "id": "020900",
+      "level": 2,
+      "name": {
+        "local": "Batanes",
+        "en": "Batanes",
+        "slug": "batanes-020900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 5
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "20.767",
+      "lon": "121.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020903",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ivana",
+      "en": "Ivana",
+      "slug": "ivana-020903"
+    },
+    "code": {
+      "id": "020903",
+      "iso": null
+    },
+    "parent": {
+      "id": "020900",
+      "level": 2,
+      "name": {
+        "local": "Batanes",
+        "en": "Batanes",
+        "slug": "batanes-020900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 4
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "20.367",
+      "lon": "121.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020904",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mahatao",
+      "en": "Mahatao",
+      "slug": "mahatao-020904"
+    },
+    "code": {
+      "id": "020904",
+      "iso": null
+    },
+    "parent": {
+      "id": "020900",
+      "level": 2,
+      "name": {
+        "local": "Batanes",
+        "en": "Batanes",
+        "slug": "batanes-020900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 4
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "20.417",
+      "lon": "121.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020905",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sabtang",
+      "en": "Sabtang",
+      "slug": "sabtang-020905"
+    },
+    "code": {
+      "id": "020905",
+      "iso": null
+    },
+    "parent": {
+      "id": "020900",
+      "level": 2,
+      "name": {
+        "local": "Batanes",
+        "en": "Batanes",
+        "slug": "batanes-020900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 6
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "20.333",
+      "lon": "121.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020906",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Uyugan",
+      "en": "Uyugan",
+      "slug": "uyugan-020906"
+    },
+    "code": {
+      "id": "020906",
+      "iso": null
+    },
+    "parent": {
+      "id": "020900",
+      "level": 2,
+      "name": {
+        "local": "Batanes",
+        "en": "Batanes",
+        "slug": "batanes-020900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 4
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "20.35",
+      "lon": "121.933"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

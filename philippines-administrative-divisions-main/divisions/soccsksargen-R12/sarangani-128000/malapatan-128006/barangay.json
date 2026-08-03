@@ -1,0 +1,782 @@
+[
+  {
+    "id": "128006001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Daan Suyan",
+      "en": "Daan Suyan",
+      "slug": "daan-suyan-128006001"
+    },
+    "code": {
+      "id": "128006001",
+      "iso": null
+    },
+    "parent": {
+      "id": "128006",
+      "level": 3,
+      "name": {
+        "local": "Malapatan",
+        "en": "Malapatan",
+        "slug": "malapatan-128006"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128006",
+        "level": 3,
+        "name": {
+          "local": "Malapatan",
+          "en": "Malapatan",
+          "slug": "malapatan-128006"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9516"
+    ],
+    "geo": {
+      "lat": "6.0498",
+      "lon": "125.3844"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128006002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kihan",
+      "en": "Kihan",
+      "slug": "kihan-128006002"
+    },
+    "code": {
+      "id": "128006002",
+      "iso": null
+    },
+    "parent": {
+      "id": "128006",
+      "level": 3,
+      "name": {
+        "local": "Malapatan",
+        "en": "Malapatan",
+        "slug": "malapatan-128006"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128006",
+        "level": 3,
+        "name": {
+          "local": "Malapatan",
+          "en": "Malapatan",
+          "slug": "malapatan-128006"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9516"
+    ],
+    "geo": {
+      "lat": "5.967",
+      "lon": "125.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128006003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kinam",
+      "en": "Kinam",
+      "slug": "kinam-128006003"
+    },
+    "code": {
+      "id": "128006003",
+      "iso": null
+    },
+    "parent": {
+      "id": "128006",
+      "level": 3,
+      "name": {
+        "local": "Malapatan",
+        "en": "Malapatan",
+        "slug": "malapatan-128006"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128006",
+        "level": 3,
+        "name": {
+          "local": "Malapatan",
+          "en": "Malapatan",
+          "slug": "malapatan-128006"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9516"
+    ],
+    "geo": {
+      "lat": "5.967",
+      "lon": "125.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128006004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Libi",
+      "en": "Libi",
+      "slug": "libi-128006004"
+    },
+    "code": {
+      "id": "128006004",
+      "iso": null
+    },
+    "parent": {
+      "id": "128006",
+      "level": 3,
+      "name": {
+        "local": "Malapatan",
+        "en": "Malapatan",
+        "slug": "malapatan-128006"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128006",
+        "level": 3,
+        "name": {
+          "local": "Malapatan",
+          "en": "Malapatan",
+          "slug": "malapatan-128006"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9516"
+    ],
+    "geo": {
+      "lat": "6.009",
+      "lon": "125.325"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128006005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lun Masla",
+      "en": "Lun Masla",
+      "slug": "lun-masla-128006005"
+    },
+    "code": {
+      "id": "128006005",
+      "iso": null
+    },
+    "parent": {
+      "id": "128006",
+      "level": 3,
+      "name": {
+        "local": "Malapatan",
+        "en": "Malapatan",
+        "slug": "malapatan-128006"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128006",
+        "level": 3,
+        "name": {
+          "local": "Malapatan",
+          "en": "Malapatan",
+          "slug": "malapatan-128006"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9516"
+    ],
+    "geo": {
+      "lat": "6.0356",
+      "lon": "125.2981"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128006006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lun Padidu",
+      "en": "Lun Padidu",
+      "slug": "lun-padidu-128006006"
+    },
+    "code": {
+      "id": "128006006",
+      "iso": null
+    },
+    "parent": {
+      "id": "128006",
+      "level": 3,
+      "name": {
+        "local": "Malapatan",
+        "en": "Malapatan",
+        "slug": "malapatan-128006"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128006",
+        "level": 3,
+        "name": {
+          "local": "Malapatan",
+          "en": "Malapatan",
+          "slug": "malapatan-128006"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9516"
+    ],
+    "geo": {
+      "lat": "6.0378",
+      "lon": "125.2839"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128006007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patag",
+      "en": "Patag",
+      "slug": "patag-128006007"
+    },
+    "code": {
+      "id": "128006007",
+      "iso": null
+    },
+    "parent": {
+      "id": "128006",
+      "level": 3,
+      "name": {
+        "local": "Malapatan",
+        "en": "Malapatan",
+        "slug": "malapatan-128006"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128006",
+        "level": 3,
+        "name": {
+          "local": "Malapatan",
+          "en": "Malapatan",
+          "slug": "malapatan-128006"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9516"
+    ],
+    "geo": {
+      "lat": "16.8892",
+      "lon": "121.1677"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128006008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion (Malapatan)",
+      "en": "Poblacion (Malapatan)",
+      "slug": "poblacion-malapatan-128006008"
+    },
+    "code": {
+      "id": "128006008",
+      "iso": null
+    },
+    "parent": {
+      "id": "128006",
+      "level": 3,
+      "name": {
+        "local": "Malapatan",
+        "en": "Malapatan",
+        "slug": "malapatan-128006"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128006",
+        "level": 3,
+        "name": {
+          "local": "Malapatan",
+          "en": "Malapatan",
+          "slug": "malapatan-128006"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9516"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128006009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapu Masla",
+      "en": "Sapu Masla",
+      "slug": "sapu-masla-128006009"
+    },
+    "code": {
+      "id": "128006009",
+      "iso": null
+    },
+    "parent": {
+      "id": "128006",
+      "level": 3,
+      "name": {
+        "local": "Malapatan",
+        "en": "Malapatan",
+        "slug": "malapatan-128006"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128006",
+        "level": 3,
+        "name": {
+          "local": "Malapatan",
+          "en": "Malapatan",
+          "slug": "malapatan-128006"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9516"
+    ],
+    "geo": {
+      "lat": "5.92",
+      "lon": "125.2753"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128006010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapu Padidu",
+      "en": "Sapu Padidu",
+      "slug": "sapu-padidu-128006010"
+    },
+    "code": {
+      "id": "128006010",
+      "iso": null
+    },
+    "parent": {
+      "id": "128006",
+      "level": 3,
+      "name": {
+        "local": "Malapatan",
+        "en": "Malapatan",
+        "slug": "malapatan-128006"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128006",
+        "level": 3,
+        "name": {
+          "local": "Malapatan",
+          "en": "Malapatan",
+          "slug": "malapatan-128006"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9516"
+    ],
+    "geo": {
+      "lat": "5.9172",
+      "lon": "125.2669"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128006011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tuyan",
+      "en": "Tuyan",
+      "slug": "tuyan-128006011"
+    },
+    "code": {
+      "id": "128006011",
+      "iso": null
+    },
+    "parent": {
+      "id": "128006",
+      "level": 3,
+      "name": {
+        "local": "Malapatan",
+        "en": "Malapatan",
+        "slug": "malapatan-128006"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128006",
+        "level": 3,
+        "name": {
+          "local": "Malapatan",
+          "en": "Malapatan",
+          "slug": "malapatan-128006"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9516"
+    ],
+    "geo": {
+      "lat": "6",
+      "lon": "125.2833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128006012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Upper Suyan",
+      "en": "Upper Suyan",
+      "slug": "upper-suyan-128006012"
+    },
+    "code": {
+      "id": "128006012",
+      "iso": null
+    },
+    "parent": {
+      "id": "128006",
+      "level": 3,
+      "name": {
+        "local": "Malapatan",
+        "en": "Malapatan",
+        "slug": "malapatan-128006"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128006",
+        "level": 3,
+        "name": {
+          "local": "Malapatan",
+          "en": "Malapatan",
+          "slug": "malapatan-128006"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9516"
+    ],
+    "geo": {
+      "lat": "6.0603",
+      "lon": "125.3853"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

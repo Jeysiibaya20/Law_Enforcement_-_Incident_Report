@@ -1,0 +1,48 @@
+{
+  "id": "144400",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Mountain Province",
+    "en": "Mountain Province",
+    "slug": "mountain-province-144400"
+  },
+  "code": {
+    "id": "144400",
+    "iso": null
+  },
+  "parent": {
+    "id": "CAR",
+    "level": 1,
+    "name": {
+      "local": "Cordillera Administrative Region",
+      "en": "Cordillera Administrative Region",
+      "slug": "cordillera-administrative-region-CAR"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 10,
+    "barangay": 144
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.0025",
+    "lon": "121.3451"
+  },
+  "metadata": {},
+  "source": {}
+}

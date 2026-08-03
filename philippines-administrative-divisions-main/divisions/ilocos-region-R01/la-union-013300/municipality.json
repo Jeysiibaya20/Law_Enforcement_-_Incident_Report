@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "013301",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Agoo",
+      "en": "Agoo",
+      "slug": "agoo-013301"
+    },
+    "code": {
+      "id": "013301",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 49
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.325",
+      "lon": "120.36861"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013302",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Aringay",
+      "en": "Aringay",
+      "slug": "aringay-013302"
+    },
+    "code": {
+      "id": "013302",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.383",
+      "lon": "120.417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013303",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bacnotan",
+      "en": "Bacnotan",
+      "slug": "bacnotan-013303"
+    },
+    "code": {
+      "id": "013303",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 47
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.717",
+      "lon": "120.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013304",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bagulin",
+      "en": "Bagulin",
+      "slug": "bagulin-013304"
+    },
+    "code": {
+      "id": "013304",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.60833",
+      "lon": "120.43944"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013305",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balaoan",
+      "en": "Balaoan",
+      "slug": "balaoan-013305"
+    },
+    "code": {
+      "id": "013305",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 36
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.817",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013306",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bangar",
+      "en": "Bangar",
+      "slug": "bangar-013306"
+    },
+    "code": {
+      "id": "013306",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.89806",
+      "lon": "120.42306"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013307",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bauang",
+      "en": "Bauang",
+      "slug": "bauang-013307"
+    },
+    "code": {
+      "id": "013307",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 39
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.53083",
+      "lon": "120.33306"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013308",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Burgos",
+      "en": "Burgos",
+      "slug": "burgos-013308"
+    },
+    "code": {
+      "id": "013308",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.517",
+      "lon": "120.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013309",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Caba",
+      "en": "Caba",
+      "slug": "caba-013309"
+    },
+    "code": {
+      "id": "013309",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.433",
+      "lon": "120.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013310",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Luna",
+      "en": "Luna",
+      "slug": "luna-013310"
+    },
+    "code": {
+      "id": "013310",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.85389",
+      "lon": "120.38111"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013311",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Naguilian",
+      "en": "Naguilian",
+      "slug": "naguilian-013311"
+    },
+    "code": {
+      "id": "013311",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.533",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013312",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pugo",
+      "en": "Pugo",
+      "slug": "pugo-013312"
+    },
+    "code": {
+      "id": "013312",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.283",
+      "lon": "120.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013313",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Rosario",
+      "en": "Rosario",
+      "slug": "rosario-013313"
+    },
+    "code": {
+      "id": "013313",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.23194",
+      "lon": "120.48806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013314",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Fernando",
+      "en": "San Fernando",
+      "slug": "san-fernando-013314"
+    },
+    "code": {
+      "id": "013314",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 59
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.7847",
+      "lon": "121.7181"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013315",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Gabriel",
+      "en": "San Gabriel",
+      "slug": "san-gabriel-013315"
+    },
+    "code": {
+      "id": "013315",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.675",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013316",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Juan",
+      "en": "San Juan",
+      "slug": "san-juan-013316"
+    },
+    "code": {
+      "id": "013316",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 41
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.66889",
+      "lon": "120.34111"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013317",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santo Tomas",
+      "en": "Santo Tomas",
+      "slug": "santo-tomas-013317"
+    },
+    "code": {
+      "id": "013317",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.26361",
+      "lon": "120.39389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013318",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santol",
+      "en": "Santol",
+      "slug": "santol-013318"
+    },
+    "code": {
+      "id": "013318",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.767",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013319",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sudipen",
+      "en": "Sudipen",
+      "slug": "sudipen-013319"
+    },
+    "code": {
+      "id": "013319",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.9",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "013320",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tubao",
+      "en": "Tubao",
+      "slug": "tubao-013320"
+    },
+    "code": {
+      "id": "013320",
+      "iso": null
+    },
+    "parent": {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "013300",
+        "level": 2,
+        "name": {
+          "local": "La Union",
+          "en": "La Union",
+          "slug": "la-union-013300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.35",
+      "lon": "120.417"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

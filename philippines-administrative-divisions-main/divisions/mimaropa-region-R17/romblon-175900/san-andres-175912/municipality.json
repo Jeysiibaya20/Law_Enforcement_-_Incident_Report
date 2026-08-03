@@ -1,0 +1,56 @@
+{
+  "id": "175912",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Andres",
+    "en": "San Andres",
+    "slug": "san-andres-175912"
+  },
+  "code": {
+    "id": "175912",
+    "iso": null
+  },
+  "parent": {
+    "id": "175900",
+    "level": 2,
+    "name": {
+      "local": "Romblon",
+      "en": "Romblon",
+      "slug": "romblon-175900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175900",
+      "level": 2,
+      "name": {
+        "local": "Romblon",
+        "en": "Romblon",
+        "slug": "romblon-175900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 13
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.517",
+    "lon": "122.017"
+  },
+  "metadata": {},
+  "source": {}
+}

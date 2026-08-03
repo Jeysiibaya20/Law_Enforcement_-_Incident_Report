@@ -1,0 +1,56 @@
+{
+  "id": "174004",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Mogpog",
+    "en": "Mogpog",
+    "slug": "mogpog-174004"
+  },
+  "code": {
+    "id": "174004",
+    "iso": null
+  },
+  "parent": {
+    "id": "174000",
+    "level": 2,
+    "name": {
+      "local": "Marinduque",
+      "en": "Marinduque",
+      "slug": "marinduque-174000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "174000",
+      "level": 2,
+      "name": {
+        "local": "Marinduque",
+        "en": "Marinduque",
+        "slug": "marinduque-174000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 37
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.47444",
+    "lon": "121.86139"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "084823",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Victoria",
+    "en": "Victoria",
+    "slug": "victoria-084823"
+  },
+  "code": {
+    "id": "084823",
+    "iso": null
+  },
+  "parent": {
+    "id": "084800",
+    "level": 2,
+    "name": {
+      "local": "Northern Samar",
+      "en": "Northern Samar",
+      "slug": "northern-samar-084800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "084800",
+      "level": 2,
+      "name": {
+        "local": "Northern Samar",
+        "en": "Northern Samar",
+        "slug": "northern-samar-084800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 16
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.45",
+    "lon": "124.317"
+  },
+  "metadata": {},
+  "source": {}
+}

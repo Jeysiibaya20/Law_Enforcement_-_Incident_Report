@@ -1,0 +1,652 @@
+[
+  {
+    "id": "015540001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "La Luna",
+      "en": "La Luna",
+      "slug": "la-luna-015540001"
+    },
+    "code": {
+      "id": "015540001",
+      "iso": null
+    },
+    "parent": {
+      "id": "015540",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-015540"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015540",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-015540"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2426"
+    ],
+    "geo": {
+      "lat": "15.876",
+      "lon": "120.5769"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015540002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion East",
+      "en": "Poblacion East",
+      "slug": "poblacion-east-015540002"
+    },
+    "code": {
+      "id": "015540002",
+      "iso": null
+    },
+    "parent": {
+      "id": "015540",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-015540"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015540",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-015540"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2426"
+    ],
+    "geo": {
+      "lat": "15.8107",
+      "lon": "120.4752"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015540003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion West",
+      "en": "Poblacion West",
+      "slug": "poblacion-west-015540003"
+    },
+    "code": {
+      "id": "015540003",
+      "iso": null
+    },
+    "parent": {
+      "id": "015540",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-015540"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015540",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-015540"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2426"
+    ],
+    "geo": {
+      "lat": "15.8093",
+      "lon": "120.4685"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015540004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salvacion",
+      "en": "Salvacion",
+      "slug": "salvacion-015540004"
+    },
+    "code": {
+      "id": "015540004",
+      "iso": null
+    },
+    "parent": {
+      "id": "015540",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-015540"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015540",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-015540"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2426"
+    ],
+    "geo": {
+      "lat": "15.885",
+      "lon": "120.5912"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015540005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Agustin",
+      "en": "San Agustin",
+      "slug": "san-agustin-015540005"
+    },
+    "code": {
+      "id": "015540005",
+      "iso": null
+    },
+    "parent": {
+      "id": "015540",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-015540"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015540",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-015540"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2426"
+    ],
+    "geo": {
+      "lat": "16.0953",
+      "lon": "119.8325"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015540006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio",
+      "en": "San Antonio",
+      "slug": "san-antonio-015540006"
+    },
+    "code": {
+      "id": "015540006",
+      "iso": null
+    },
+    "parent": {
+      "id": "015540",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-015540"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015540",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-015540"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2426"
+    ],
+    "geo": {
+      "lat": "15.8625",
+      "lon": "120.565"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015540007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-015540007"
+    },
+    "code": {
+      "id": "015540007",
+      "iso": null
+    },
+    "parent": {
+      "id": "015540",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-015540"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015540",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-015540"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2426"
+    ],
+    "geo": {
+      "lat": "15.8719",
+      "lon": "120.5693"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015540008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Marcos",
+      "en": "San Marcos",
+      "slug": "san-marcos-015540008"
+    },
+    "code": {
+      "id": "015540008",
+      "iso": null
+    },
+    "parent": {
+      "id": "015540",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-015540"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015540",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-015540"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2426"
+    ],
+    "geo": {
+      "lat": "15.8846",
+      "lon": "120.5829"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015540009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Domingo",
+      "en": "Santo Domingo",
+      "slug": "santo-domingo-015540009"
+    },
+    "code": {
+      "id": "015540009",
+      "iso": null
+    },
+    "parent": {
+      "id": "015540",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-015540"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015540",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-015540"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2426"
+    ],
+    "geo": {
+      "lat": "15.9677",
+      "lon": "120.5672"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015540010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-015540010"
+    },
+    "code": {
+      "id": "015540010",
+      "iso": null
+    },
+    "parent": {
+      "id": "015540",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-015540"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015540",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-015540"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2426"
+    ],
+    "geo": {
+      "lat": "15.8825",
+      "lon": "120.5824"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

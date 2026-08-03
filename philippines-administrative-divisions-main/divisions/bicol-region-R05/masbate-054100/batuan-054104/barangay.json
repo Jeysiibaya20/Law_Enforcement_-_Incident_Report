@@ -1,0 +1,912 @@
+[
+  {
+    "id": "054104001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Burgos",
+      "en": "Burgos",
+      "slug": "burgos-054104001"
+    },
+    "code": {
+      "id": "054104001",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "12.55",
+      "lon": "123.7097"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cambañez",
+      "en": "Cambañez",
+      "slug": "cambaez-054104003"
+    },
+    "code": {
+      "id": "054104003",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "9.8",
+      "lon": "124.13"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Canares",
+      "en": "Canares",
+      "slug": "canares-054104002"
+    },
+    "code": {
+      "id": "054104002",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "9.8",
+      "lon": "124.13"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Costa Rica",
+      "en": "Costa Rica",
+      "slug": "costa-rica-054104004"
+    },
+    "code": {
+      "id": "054104004",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "12.4316",
+      "lon": "123.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Danao",
+      "en": "Danao",
+      "slug": "danao-054104005"
+    },
+    "code": {
+      "id": "054104005",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "11.9363",
+      "lon": "123.154"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gibraltar",
+      "en": "Gibraltar",
+      "slug": "gibraltar-054104006"
+    },
+    "code": {
+      "id": "054104006",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "12.3433",
+      "lon": "123.7902"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabuhay",
+      "en": "Mabuhay",
+      "slug": "mabuhay-054104007"
+    },
+    "code": {
+      "id": "054104007",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "7.4176",
+      "lon": "122.837"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Matabao",
+      "en": "Matabao",
+      "slug": "matabao-054104008"
+    },
+    "code": {
+      "id": "054104008",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "8.9572",
+      "lon": "125.3994"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nasandig",
+      "en": "Nasandig",
+      "slug": "nasandig-054104009"
+    },
+    "code": {
+      "id": "054104009",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "9.8",
+      "lon": "124.13"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panisihan",
+      "en": "Panisihan",
+      "slug": "panisihan-054104010"
+    },
+    "code": {
+      "id": "054104010",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "12.2021",
+      "lon": "123.7777"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-054104011"
+    },
+    "code": {
+      "id": "054104011",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rizal",
+      "en": "Rizal",
+      "slug": "rizal-054104013"
+    },
+    "code": {
+      "id": "054104013",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "12.2",
+      "lon": "123.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Royroy",
+      "en": "Royroy",
+      "slug": "royroy-054104014"
+    },
+    "code": {
+      "id": "054104014",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "9.8",
+      "lon": "124.13"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sawang",
+      "en": "Sawang",
+      "slug": "sawang-054104015"
+    },
+    "code": {
+      "id": "054104015",
+      "iso": null
+    },
+    "parent": {
+      "id": "054104",
+      "level": 3,
+      "name": {
+        "local": "Batuan",
+        "en": "Batuan",
+        "slug": "batuan-054104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      },
+      {
+        "id": "054104",
+        "level": 3,
+        "name": {
+          "local": "Batuan",
+          "en": "Batuan",
+          "slug": "batuan-054104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5415"
+    ],
+    "geo": {
+      "lat": "12.5706",
+      "lon": "123.2906"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

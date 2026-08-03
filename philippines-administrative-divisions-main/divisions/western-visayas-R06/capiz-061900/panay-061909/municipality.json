@@ -1,0 +1,56 @@
+{
+  "id": "061909",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Panay",
+    "en": "Panay",
+    "slug": "panay-061909"
+  },
+  "code": {
+    "id": "061909",
+    "iso": null
+  },
+  "parent": {
+    "id": "061900",
+    "level": 2,
+    "name": {
+      "local": "Capiz",
+      "en": "Capiz",
+      "slug": "capiz-061900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 42
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.55",
+    "lon": "122.8"
+  },
+  "metadata": {},
+  "source": {}
+}

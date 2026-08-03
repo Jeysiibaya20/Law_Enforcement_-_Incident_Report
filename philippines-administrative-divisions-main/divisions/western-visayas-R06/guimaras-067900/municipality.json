@@ -1,0 +1,282 @@
+[
+  {
+    "id": "067901",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Buenavista",
+      "en": "Buenavista",
+      "slug": "buenavista-067901"
+    },
+    "code": {
+      "id": "067901",
+      "iso": null
+    },
+    "parent": {
+      "id": "067900",
+      "level": 2,
+      "name": {
+        "local": "Guimaras",
+        "en": "Guimaras",
+        "slug": "guimaras-067900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "067900",
+        "level": 2,
+        "name": {
+          "local": "Guimaras",
+          "en": "Guimaras",
+          "slug": "guimaras-067900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 36
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.7",
+      "lon": "122.63"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "067902",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Jordan",
+      "en": "Jordan",
+      "slug": "jordan-067902"
+    },
+    "code": {
+      "id": "067902",
+      "iso": null
+    },
+    "parent": {
+      "id": "067900",
+      "level": 2,
+      "name": {
+        "local": "Guimaras",
+        "en": "Guimaras",
+        "slug": "guimaras-067900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "067900",
+        "level": 2,
+        "name": {
+          "local": "Guimaras",
+          "en": "Guimaras",
+          "slug": "guimaras-067900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.6",
+      "lon": "122.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "067903",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Nueva Valencia",
+      "en": "Nueva Valencia",
+      "slug": "nueva-valencia-067903"
+    },
+    "code": {
+      "id": "067903",
+      "iso": null
+    },
+    "parent": {
+      "id": "067900",
+      "level": 2,
+      "name": {
+        "local": "Guimaras",
+        "en": "Guimaras",
+        "slug": "guimaras-067900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "067900",
+        "level": 2,
+        "name": {
+          "local": "Guimaras",
+          "en": "Guimaras",
+          "slug": "guimaras-067900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.517",
+      "lon": "122.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "067904",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Lorenzo",
+      "en": "San Lorenzo",
+      "slug": "san-lorenzo-067904"
+    },
+    "code": {
+      "id": "067904",
+      "iso": null
+    },
+    "parent": {
+      "id": "067900",
+      "level": 2,
+      "name": {
+        "local": "Guimaras",
+        "en": "Guimaras",
+        "slug": "guimaras-067900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "067900",
+        "level": 2,
+        "name": {
+          "local": "Guimaras",
+          "en": "Guimaras",
+          "slug": "guimaras-067900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.65",
+      "lon": "122.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "067905",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sibunag",
+      "en": "Sibunag",
+      "slug": "sibunag-067905"
+    },
+    "code": {
+      "id": "067905",
+      "iso": null
+    },
+    "parent": {
+      "id": "067900",
+      "level": 2,
+      "name": {
+        "local": "Guimaras",
+        "en": "Guimaras",
+        "slug": "guimaras-067900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "067900",
+        "level": 2,
+        "name": {
+          "local": "Guimaras",
+          "en": "Guimaras",
+          "slug": "guimaras-067900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.5",
+      "lon": "122.667"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

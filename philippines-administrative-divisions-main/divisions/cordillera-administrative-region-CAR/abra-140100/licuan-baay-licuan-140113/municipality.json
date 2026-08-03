@@ -1,0 +1,56 @@
+{
+  "id": "140113",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Licuan-Baay (Licuan)",
+    "en": "Licuan-Baay (Licuan)",
+    "slug": "licuan-baay-licuan-140113"
+  },
+  "code": {
+    "id": "140113",
+    "iso": null
+  },
+  "parent": {
+    "id": "140100",
+    "level": 2,
+    "name": {
+      "local": "Abra",
+      "en": "Abra",
+      "slug": "abra-140100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "140100",
+      "level": 2,
+      "name": {
+        "local": "Abra",
+        "en": "Abra",
+        "slug": "abra-140100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.9",
+    "lon": "122.7"
+  },
+  "metadata": {},
+  "source": {}
+}

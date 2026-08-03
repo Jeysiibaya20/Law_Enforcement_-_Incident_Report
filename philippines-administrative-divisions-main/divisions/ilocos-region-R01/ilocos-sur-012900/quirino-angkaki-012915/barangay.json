@@ -1,0 +1,587 @@
+[
+  {
+    "id": "012915001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Banoen",
+      "en": "Banoen",
+      "slug": "banoen-012915001"
+    },
+    "code": {
+      "id": "012915001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012915",
+      "level": 3,
+      "name": {
+        "local": "Quirino (Angkaki)",
+        "en": "Quirino (Angkaki)",
+        "slug": "quirino-angkaki-012915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012915",
+        "level": 3,
+        "name": {
+          "local": "Quirino (Angkaki)",
+          "en": "Quirino (Angkaki)",
+          "slug": "quirino-angkaki-012915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2721"
+    ],
+    "geo": {
+      "lat": "17.15",
+      "lon": "120.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012915002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cayus",
+      "en": "Cayus",
+      "slug": "cayus-012915002"
+    },
+    "code": {
+      "id": "012915002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012915",
+      "level": 3,
+      "name": {
+        "local": "Quirino (Angkaki)",
+        "en": "Quirino (Angkaki)",
+        "slug": "quirino-angkaki-012915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012915",
+        "level": 3,
+        "name": {
+          "local": "Quirino (Angkaki)",
+          "en": "Quirino (Angkaki)",
+          "slug": "quirino-angkaki-012915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2721"
+    ],
+    "geo": {
+      "lat": "17.1667",
+      "lon": "120.6667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012915009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lamag (Tubtuba)",
+      "en": "Lamag (Tubtuba)",
+      "slug": "lamag-tubtuba-012915009"
+    },
+    "code": {
+      "id": "012915009",
+      "iso": null
+    },
+    "parent": {
+      "id": "012915",
+      "level": 3,
+      "name": {
+        "local": "Quirino (Angkaki)",
+        "en": "Quirino (Angkaki)",
+        "slug": "quirino-angkaki-012915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012915",
+        "level": 3,
+        "name": {
+          "local": "Quirino (Angkaki)",
+          "en": "Quirino (Angkaki)",
+          "slug": "quirino-angkaki-012915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2721"
+    ],
+    "geo": {
+      "lat": "17.1461",
+      "lon": "120.7278"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012915007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Legleg (Pob.)",
+      "en": "Legleg (Pob.)",
+      "slug": "legleg-pob-012915007"
+    },
+    "code": {
+      "id": "012915007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012915",
+      "level": 3,
+      "name": {
+        "local": "Quirino (Angkaki)",
+        "en": "Quirino (Angkaki)",
+        "slug": "quirino-angkaki-012915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012915",
+        "level": 3,
+        "name": {
+          "local": "Quirino (Angkaki)",
+          "en": "Quirino (Angkaki)",
+          "slug": "quirino-angkaki-012915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2721"
+    ],
+    "geo": {
+      "lat": "17.1367",
+      "lon": "120.6783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012915004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malideg",
+      "en": "Malideg",
+      "slug": "malideg-012915004"
+    },
+    "code": {
+      "id": "012915004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012915",
+      "level": 3,
+      "name": {
+        "local": "Quirino (Angkaki)",
+        "en": "Quirino (Angkaki)",
+        "slug": "quirino-angkaki-012915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012915",
+        "level": 3,
+        "name": {
+          "local": "Quirino (Angkaki)",
+          "en": "Quirino (Angkaki)",
+          "slug": "quirino-angkaki-012915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2721"
+    ],
+    "geo": {
+      "lat": "17.1586",
+      "lon": "120.68"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012915005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Namitpit",
+      "en": "Namitpit",
+      "slug": "namitpit-012915005"
+    },
+    "code": {
+      "id": "012915005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012915",
+      "level": 3,
+      "name": {
+        "local": "Quirino (Angkaki)",
+        "en": "Quirino (Angkaki)",
+        "slug": "quirino-angkaki-012915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012915",
+        "level": 3,
+        "name": {
+          "local": "Quirino (Angkaki)",
+          "en": "Quirino (Angkaki)",
+          "slug": "quirino-angkaki-012915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2721"
+    ],
+    "geo": {
+      "lat": "17.1092",
+      "lon": "120.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012915006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patiacan",
+      "en": "Patiacan",
+      "slug": "patiacan-012915006"
+    },
+    "code": {
+      "id": "012915006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012915",
+      "level": 3,
+      "name": {
+        "local": "Quirino (Angkaki)",
+        "en": "Quirino (Angkaki)",
+        "slug": "quirino-angkaki-012915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012915",
+        "level": 3,
+        "name": {
+          "local": "Quirino (Angkaki)",
+          "en": "Quirino (Angkaki)",
+          "slug": "quirino-angkaki-012915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2721"
+    ],
+    "geo": {
+      "lat": "17.1167",
+      "lon": "120.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012915003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patungcaleo (Lamag)",
+      "en": "Patungcaleo (Lamag)",
+      "slug": "patungcaleo-lamag-012915003"
+    },
+    "code": {
+      "id": "012915003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012915",
+      "level": 3,
+      "name": {
+        "local": "Quirino (Angkaki)",
+        "en": "Quirino (Angkaki)",
+        "slug": "quirino-angkaki-012915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012915",
+        "level": 3,
+        "name": {
+          "local": "Quirino (Angkaki)",
+          "en": "Quirino (Angkaki)",
+          "slug": "quirino-angkaki-012915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2721"
+    ],
+    "geo": {
+      "lat": "17.1461",
+      "lon": "120.7278"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012915008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Suagayan",
+      "en": "Suagayan",
+      "slug": "suagayan-012915008"
+    },
+    "code": {
+      "id": "012915008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012915",
+      "level": 3,
+      "name": {
+        "local": "Quirino (Angkaki)",
+        "en": "Quirino (Angkaki)",
+        "slug": "quirino-angkaki-012915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012915",
+        "level": 3,
+        "name": {
+          "local": "Quirino (Angkaki)",
+          "en": "Quirino (Angkaki)",
+          "slug": "quirino-angkaki-012915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2721"
+    ],
+    "geo": {
+      "lat": "17.1465",
+      "lon": "120.4572"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

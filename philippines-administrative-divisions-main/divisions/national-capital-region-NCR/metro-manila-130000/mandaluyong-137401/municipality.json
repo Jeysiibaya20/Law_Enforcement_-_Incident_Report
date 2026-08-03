@@ -1,0 +1,56 @@
+{
+  "id": "137401",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Mandaluyong",
+    "en": "Mandaluyong",
+    "slug": "mandaluyong-137401"
+  },
+  "code": {
+    "id": "137401",
+    "iso": null
+  },
+  "parent": {
+    "id": "130000",
+    "level": 2,
+    "name": {
+      "local": "Kalakhang Maynila",
+      "en": "Metro Manila",
+      "slug": "metro-manila-130000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "NCR",
+      "level": 1,
+      "name": {
+        "local": "National Capital Region",
+        "en": "National Capital Region",
+        "slug": "national-capital-region-NCR"
+      }
+    },
+    {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 27
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.5736",
+    "lon": "121.0303"
+  },
+  "metadata": {},
+  "source": {}
+}

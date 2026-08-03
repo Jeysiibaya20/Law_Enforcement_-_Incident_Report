@@ -1,0 +1,56 @@
+{
+  "id": "175312",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "El Nido (Bacuit)",
+    "en": "El Nido (Bacuit)",
+    "slug": "el-nido-bacuit-175312"
+  },
+  "code": {
+    "id": "175312",
+    "iso": null
+  },
+  "parent": {
+    "id": "175300",
+    "level": 2,
+    "name": {
+      "local": "Palawan",
+      "en": "Palawan",
+      "slug": "palawan-175300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 18
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.333",
+    "lon": "119.683"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,977 @@
+[
+  {
+    "id": "153816028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binangga North",
+      "en": "Binangga North",
+      "slug": "binangga-north-153816028"
+    },
+    "code": {
+      "id": "153816028",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.96667",
+      "lon": "124.41667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binangga South",
+      "en": "Binangga South",
+      "slug": "binangga-south-153816032"
+    },
+    "code": {
+      "id": "153816032",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.96667",
+      "lon": "124.41667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Boboguiron",
+      "en": "Boboguiron",
+      "slug": "boboguiron-153816005"
+    },
+    "code": {
+      "id": "153816005",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.8828",
+      "lon": "124.2853"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Damablac",
+      "en": "Damablac",
+      "slug": "damablac-153816007"
+    },
+    "code": {
+      "id": "153816007",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.96667",
+      "lon": "124.41667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Fugotan",
+      "en": "Fugotan",
+      "slug": "fugotan-153816008"
+    },
+    "code": {
+      "id": "153816008",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.8464",
+      "lon": "124.3028"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Fukol",
+      "en": "Fukol",
+      "slug": "fukol-153816009"
+    },
+    "code": {
+      "id": "153816009",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.96667",
+      "lon": "124.41667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Katibpuan",
+      "en": "Katibpuan",
+      "slug": "katibpuan-153816013"
+    },
+    "code": {
+      "id": "153816013",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "7.0028",
+      "lon": "124.4181"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kedati",
+      "en": "Kedati",
+      "slug": "kedati-153816014"
+    },
+    "code": {
+      "id": "153816014",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.96667",
+      "lon": "124.41667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lanting",
+      "en": "Lanting",
+      "slug": "lanting-153816018"
+    },
+    "code": {
+      "id": "153816018",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.9383",
+      "lon": "124.3258"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Linamunan",
+      "en": "Linamunan",
+      "slug": "linamunan-153816019"
+    },
+    "code": {
+      "id": "153816019",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.96667",
+      "lon": "124.41667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Marader",
+      "en": "Marader",
+      "slug": "marader-153816025"
+    },
+    "code": {
+      "id": "153816025",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.9107",
+      "lon": "124.2916"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talayan",
+      "en": "Talayan",
+      "slug": "talayan-153816033"
+    },
+    "code": {
+      "id": "153816033",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.9844",
+      "lon": "124.3564"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tamar",
+      "en": "Tamar",
+      "slug": "tamar-153816035"
+    },
+    "code": {
+      "id": "153816035",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.96667",
+      "lon": "124.41667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816036",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tambunan I",
+      "en": "Tambunan I",
+      "slug": "tambunan-i-153816036"
+    },
+    "code": {
+      "id": "153816036",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.5667",
+      "lon": "122.2067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153816038",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Timbaluan",
+      "en": "Timbaluan",
+      "slug": "timbaluan-153816038"
+    },
+    "code": {
+      "id": "153816038",
+      "iso": null
+    },
+    "parent": {
+      "id": "153816",
+      "level": 3,
+      "name": {
+        "local": "Talayan",
+        "en": "Talayan",
+        "slug": "talayan-153816"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153816",
+        "level": 3,
+        "name": {
+          "local": "Talayan",
+          "en": "Talayan",
+          "slug": "talayan-153816"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9612"
+    ],
+    "geo": {
+      "lat": "6.96667",
+      "lon": "124.41667"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

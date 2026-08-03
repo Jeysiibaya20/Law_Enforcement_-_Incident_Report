@@ -1,0 +1,56 @@
+{
+  "id": "045807",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Jala-Jala",
+    "en": "Jala-Jala",
+    "slug": "jala-jala-045807"
+  },
+  "code": {
+    "id": "045807",
+    "iso": null
+  },
+  "parent": {
+    "id": "045800",
+    "level": 2,
+    "name": {
+      "local": "Rizal",
+      "en": "Rizal",
+      "slug": "rizal-045800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045800",
+      "level": 2,
+      "name": {
+        "local": "Rizal",
+        "en": "Rizal",
+        "slug": "rizal-045800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.35306",
+    "lon": "121.32222"
+  },
+  "metadata": {},
+  "source": {}
+}

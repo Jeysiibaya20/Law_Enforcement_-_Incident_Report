@@ -1,0 +1,262 @@
+[
+  {
+    "id": "140104001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ducligan",
+      "en": "Ducligan",
+      "slug": "ducligan-140104001"
+    },
+    "code": {
+      "id": "140104001",
+      "iso": null
+    },
+    "parent": {
+      "id": "140104",
+      "level": 3,
+      "name": {
+        "local": "Bucloc",
+        "en": "Bucloc",
+        "slug": "bucloc-140104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140104",
+        "level": 3,
+        "name": {
+          "local": "Bucloc",
+          "en": "Bucloc",
+          "slug": "bucloc-140104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2817"
+    ],
+    "geo": {
+      "lat": "16.9113",
+      "lon": "121.1168"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140104002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Labaan",
+      "en": "Labaan",
+      "slug": "labaan-140104002"
+    },
+    "code": {
+      "id": "140104002",
+      "iso": null
+    },
+    "parent": {
+      "id": "140104",
+      "level": 3,
+      "name": {
+        "local": "Bucloc",
+        "en": "Bucloc",
+        "slug": "bucloc-140104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140104",
+        "level": 3,
+        "name": {
+          "local": "Bucloc",
+          "en": "Bucloc",
+          "slug": "bucloc-140104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2817"
+    ],
+    "geo": {
+      "lat": "17.5337",
+      "lon": "120.5225"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140104004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lamao (Pob.)",
+      "en": "Lamao (Pob.)",
+      "slug": "lamao-pob-140104004"
+    },
+    "code": {
+      "id": "140104004",
+      "iso": null
+    },
+    "parent": {
+      "id": "140104",
+      "level": 3,
+      "name": {
+        "local": "Bucloc",
+        "en": "Bucloc",
+        "slug": "bucloc-140104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140104",
+        "level": 3,
+        "name": {
+          "local": "Bucloc",
+          "en": "Bucloc",
+          "slug": "bucloc-140104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2817"
+    ],
+    "geo": {
+      "lat": "17.44",
+      "lon": "120.86"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140104003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lingay",
+      "en": "Lingay",
+      "slug": "lingay-140104003"
+    },
+    "code": {
+      "id": "140104003",
+      "iso": null
+    },
+    "parent": {
+      "id": "140104",
+      "level": 3,
+      "name": {
+        "local": "Bucloc",
+        "en": "Bucloc",
+        "slug": "bucloc-140104"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140104",
+        "level": 3,
+        "name": {
+          "local": "Bucloc",
+          "en": "Bucloc",
+          "slug": "bucloc-140104"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2817"
+    ],
+    "geo": {
+      "lat": "17.05",
+      "lon": "121.1"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "060611",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pandan",
+    "en": "Pandan",
+    "slug": "pandan-060611"
+  },
+  "code": {
+    "id": "060611",
+    "iso": null
+  },
+  "parent": {
+    "id": "060600",
+    "level": 2,
+    "name": {
+      "local": "Antique",
+      "en": "Antique",
+      "slug": "antique-060600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 34
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.717",
+    "lon": "122.1"
+  },
+  "metadata": {},
+  "source": {}
+}

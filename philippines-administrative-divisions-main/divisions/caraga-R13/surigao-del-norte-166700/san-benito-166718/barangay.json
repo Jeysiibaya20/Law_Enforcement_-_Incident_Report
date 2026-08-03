@@ -1,0 +1,392 @@
+[
+  {
+    "id": "166718001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bongdo",
+      "en": "Bongdo",
+      "slug": "bongdo-166718001"
+    },
+    "code": {
+      "id": "166718001",
+      "iso": null
+    },
+    "parent": {
+      "id": "166718",
+      "level": 3,
+      "name": {
+        "local": "San Benito",
+        "en": "San Benito",
+        "slug": "san-benito-166718"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166718",
+        "level": 3,
+        "name": {
+          "local": "San Benito",
+          "en": "San Benito",
+          "slug": "san-benito-166718"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8423"
+    ],
+    "geo": {
+      "lat": "11.935",
+      "lon": "125.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166718002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maribojoc",
+      "en": "Maribojoc",
+      "slug": "maribojoc-166718002"
+    },
+    "code": {
+      "id": "166718002",
+      "iso": null
+    },
+    "parent": {
+      "id": "166718",
+      "level": 3,
+      "name": {
+        "local": "San Benito",
+        "en": "San Benito",
+        "slug": "san-benito-166718"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166718",
+        "level": 3,
+        "name": {
+          "local": "San Benito",
+          "en": "San Benito",
+          "slug": "san-benito-166718"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8423"
+    ],
+    "geo": {
+      "lat": "9.75",
+      "lon": "123.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166718003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nuevo Campo",
+      "en": "Nuevo Campo",
+      "slug": "nuevo-campo-166718003"
+    },
+    "code": {
+      "id": "166718003",
+      "iso": null
+    },
+    "parent": {
+      "id": "166718",
+      "level": 3,
+      "name": {
+        "local": "San Benito",
+        "en": "San Benito",
+        "slug": "san-benito-166718"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166718",
+        "level": 3,
+        "name": {
+          "local": "San Benito",
+          "en": "San Benito",
+          "slug": "san-benito-166718"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8423"
+    ],
+    "geo": {
+      "lat": "9.5337",
+      "lon": "125.7308"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166718005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan",
+      "en": "San Juan",
+      "slug": "san-juan-166718005"
+    },
+    "code": {
+      "id": "166718005",
+      "iso": null
+    },
+    "parent": {
+      "id": "166718",
+      "level": 3,
+      "name": {
+        "local": "San Benito",
+        "en": "San Benito",
+        "slug": "san-benito-166718"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166718",
+        "level": 3,
+        "name": {
+          "local": "San Benito",
+          "en": "San Benito",
+          "slug": "san-benito-166718"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8423"
+    ],
+    "geo": {
+      "lat": "14.604",
+      "lon": "121.03"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166718006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Cruz (Pob.)",
+      "en": "Santa Cruz (Pob.)",
+      "slug": "santa-cruz-pob-166718006"
+    },
+    "code": {
+      "id": "166718006",
+      "iso": null
+    },
+    "parent": {
+      "id": "166718",
+      "level": 3,
+      "name": {
+        "local": "San Benito",
+        "en": "San Benito",
+        "slug": "san-benito-166718"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166718",
+        "level": 3,
+        "name": {
+          "local": "San Benito",
+          "en": "San Benito",
+          "slug": "san-benito-166718"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8423"
+    ],
+    "geo": {
+      "lat": "9.6467",
+      "lon": "125.9072"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166718007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talisay (Pob.)",
+      "en": "Talisay (Pob.)",
+      "slug": "talisay-pob-166718007"
+    },
+    "code": {
+      "id": "166718007",
+      "iso": null
+    },
+    "parent": {
+      "id": "166718",
+      "level": 3,
+      "name": {
+        "local": "San Benito",
+        "en": "San Benito",
+        "slug": "san-benito-166718"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166718",
+        "level": 3,
+        "name": {
+          "local": "San Benito",
+          "en": "San Benito",
+          "slug": "san-benito-166718"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8423"
+    ],
+    "geo": {
+      "lat": "9.8189",
+      "lon": "125.6156"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

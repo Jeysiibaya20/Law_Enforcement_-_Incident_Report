@@ -1,0 +1,912 @@
+[
+  {
+    "id": "166807001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Adlay",
+      "en": "Adlay",
+      "slug": "adlay-166807001"
+    },
+    "code": {
+      "id": "166807001",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "9.4097",
+      "lon": "125.8975"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Babuyan",
+      "en": "Babuyan",
+      "slug": "babuyan-166807002"
+    },
+    "code": {
+      "id": "166807002",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "9.3475",
+      "lon": "125.8983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bacolod",
+      "en": "Bacolod",
+      "slug": "bacolod-166807003"
+    },
+    "code": {
+      "id": "166807003",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "8.9317",
+      "lon": "126.2894"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baybay (Pob.)",
+      "en": "Baybay (Pob.)",
+      "slug": "baybay-pob-166807004"
+    },
+    "code": {
+      "id": "166807004",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "10.68",
+      "lon": "124.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bon-ot",
+      "en": "Bon-ot",
+      "slug": "bon-ot-166807005"
+    },
+    "code": {
+      "id": "166807005",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "9.3789",
+      "lon": "125.9297"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caglayag",
+      "en": "Caglayag",
+      "slug": "caglayag-166807006"
+    },
+    "code": {
+      "id": "166807006",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "9.3969",
+      "lon": "125.9797"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dahican",
+      "en": "Dahican",
+      "slug": "dahican-166807007"
+    },
+    "code": {
+      "id": "166807007",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "8.0891",
+      "lon": "126.4385"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Doyos (Pob.)",
+      "en": "Doyos (Pob.)",
+      "slug": "doyos-pob-166807008"
+    },
+    "code": {
+      "id": "166807008",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "9.367",
+      "lon": "125.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Embarcadero (Pob.)",
+      "en": "Embarcadero (Pob.)",
+      "slug": "embarcadero-pob-166807009"
+    },
+    "code": {
+      "id": "166807009",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "14.2791",
+      "lon": "120.9882"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gamuton",
+      "en": "Gamuton",
+      "slug": "gamuton-166807010"
+    },
+    "code": {
+      "id": "166807010",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "8.5315",
+      "lon": "126.2412"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panikian",
+      "en": "Panikian",
+      "slug": "panikian-166807011"
+    },
+    "code": {
+      "id": "166807011",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "9.3294",
+      "lon": "125.9338"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pantukan",
+      "en": "Pantukan",
+      "slug": "pantukan-166807012"
+    },
+    "code": {
+      "id": "166807012",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "7.1269",
+      "lon": "125.8975"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Saca (Pob.)",
+      "en": "Saca (Pob.)",
+      "slug": "saca-pob-166807013"
+    },
+    "code": {
+      "id": "166807013",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "9.367",
+      "lon": "125.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tag-Anito",
+      "en": "Tag-Anito",
+      "slug": "tag-anito-166807014"
+    },
+    "code": {
+      "id": "166807014",
+      "iso": null
+    },
+    "parent": {
+      "id": "166807",
+      "level": 3,
+      "name": {
+        "local": "Carrascal",
+        "en": "Carrascal",
+        "slug": "carrascal-166807"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166807",
+        "level": 3,
+        "name": {
+          "local": "Carrascal",
+          "en": "Carrascal",
+          "slug": "carrascal-166807"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8318"
+    ],
+    "geo": {
+      "lat": "9.3275",
+      "lon": "125.8908"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

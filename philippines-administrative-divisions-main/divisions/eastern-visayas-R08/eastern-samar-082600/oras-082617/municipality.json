@@ -1,0 +1,56 @@
+{
+  "id": "082617",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Oras",
+    "en": "Oras",
+    "slug": "oras-082617"
+  },
+  "code": {
+    "id": "082617",
+    "iso": null
+  },
+  "parent": {
+    "id": "082600",
+    "level": 2,
+    "name": {
+      "local": "Eastern Samar",
+      "en": "Eastern Samar",
+      "slug": "eastern-samar-082600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 42
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.133",
+    "lon": "125.433"
+  },
+  "metadata": {},
+  "source": {}
+}

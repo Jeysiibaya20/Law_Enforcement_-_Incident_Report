@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "156606",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Hadji Panglima Tahil (Marunggas)",
+      "en": "Hadji Panglima Tahil (Marunggas)",
+      "slug": "hadji-panglima-tahil-marunggas-156606"
+    },
+    "code": {
+      "id": "156606",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 5
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.167",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156601",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Indanan",
+      "en": "Indanan",
+      "slug": "indanan-156601"
+    },
+    "code": {
+      "id": "156601",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.067",
+      "lon": "121.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156602",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Jolo",
+      "en": "Jolo",
+      "slug": "jolo-156602"
+    },
+    "code": {
+      "id": "156602",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.05",
+      "lon": "121"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156603",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kalingalan Caluang",
+      "en": "Kalingalan Caluang",
+      "slug": "kalingalan-caluang-156603"
+    },
+    "code": {
+      "id": "156603",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.883",
+      "lon": "121.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156617",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lugus",
+      "en": "Lugus",
+      "slug": "lugus-156617"
+    },
+    "code": {
+      "id": "156617",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.7",
+      "lon": "120.817"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156604",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Luuk",
+      "en": "Luuk",
+      "slug": "luuk-156604"
+    },
+    "code": {
+      "id": "156604",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6",
+      "lon": "121.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156605",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maimbung",
+      "en": "Maimbung",
+      "slug": "maimbung-156605"
+    },
+    "code": {
+      "id": "156605",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.933",
+      "lon": "121.033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156607",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Old Panamao",
+      "en": "Old Panamao",
+      "slug": "old-panamao-156607"
+    },
+    "code": {
+      "id": "156607",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.983",
+      "lon": "121.25"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156619",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Omar",
+      "en": "Omar",
+      "slug": "omar-156619"
+    },
+    "code": {
+      "id": "156619",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.983",
+      "lon": "121.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156618",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pandami",
+      "en": "Pandami",
+      "slug": "pandami-156618"
+    },
+    "code": {
+      "id": "156618",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.533",
+      "lon": "120.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156616",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Panglima Estino (New Panamao)",
+      "en": "Panglima Estino (New Panamao)",
+      "slug": "panglima-estino-new-panamao-156616"
+    },
+    "code": {
+      "id": "156616",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.967",
+      "lon": "121.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156608",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pangutaran",
+      "en": "Pangutaran",
+      "slug": "pangutaran-156608"
+    },
+    "code": {
+      "id": "156608",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.3",
+      "lon": "120.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156609",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Parang",
+      "en": "Parang",
+      "slug": "parang-156609"
+    },
+    "code": {
+      "id": "156609",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.917",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156610",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pata",
+      "en": "Pata",
+      "slug": "pata-156610"
+    },
+    "code": {
+      "id": "156610",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.833",
+      "lon": "121.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156611",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Patikul",
+      "en": "Patikul",
+      "slug": "patikul-156611"
+    },
+    "code": {
+      "id": "156611",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.067",
+      "lon": "121.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156612",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Siasi",
+      "en": "Siasi",
+      "slug": "siasi-156612"
+    },
+    "code": {
+      "id": "156612",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 50
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.55",
+      "lon": "120.817"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156613",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Talipao",
+      "en": "Talipao",
+      "slug": "talipao-156613"
+    },
+    "code": {
+      "id": "156613",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 52
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.933",
+      "lon": "121.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tapul",
+      "en": "Tapul",
+      "slug": "tapul-156614"
+    },
+    "code": {
+      "id": "156614",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.717",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156615",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tongkil",
+      "en": "Tongkil",
+      "slug": "tongkil-156615"
+    },
+    "code": {
+      "id": "156615",
+      "iso": null
+    },
+    "parent": {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "5.9833",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

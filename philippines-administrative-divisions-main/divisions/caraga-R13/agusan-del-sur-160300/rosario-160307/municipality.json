@@ -1,0 +1,56 @@
+{
+  "id": "160307",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Rosario",
+    "en": "Rosario",
+    "slug": "rosario-160307"
+  },
+  "code": {
+    "id": "160307",
+    "iso": null
+  },
+  "parent": {
+    "id": "160300",
+    "level": 2,
+    "name": {
+      "local": "Agusan del Sur",
+      "en": "Agusan del Sur",
+      "slug": "agusan-del-sur-160300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.383",
+    "lon": "126"
+  },
+  "metadata": {},
+  "source": {}
+}

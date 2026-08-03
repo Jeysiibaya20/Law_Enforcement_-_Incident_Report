@@ -1,0 +1,56 @@
+{
+  "id": "175914",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Jose",
+    "en": "San Jose",
+    "slug": "san-jose-175914"
+  },
+  "code": {
+    "id": "175914",
+    "iso": null
+  },
+  "parent": {
+    "id": "175900",
+    "level": 2,
+    "name": {
+      "local": "Romblon",
+      "en": "Romblon",
+      "slug": "romblon-175900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175900",
+      "level": 2,
+      "name": {
+        "local": "Romblon",
+        "en": "Romblon",
+        "slug": "romblon-175900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 5
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.067",
+    "lon": "121.933"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "137404",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Quezon City",
+    "en": "Quezon City",
+    "slug": "quezon-city-137404"
+  },
+  "code": {
+    "id": "137404",
+    "iso": null
+  },
+  "parent": {
+    "id": "130000",
+    "level": 2,
+    "name": {
+      "local": "Kalakhang Maynila",
+      "en": "Metro Manila",
+      "slug": "metro-manila-130000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "NCR",
+      "level": 1,
+      "name": {
+        "local": "National Capital Region",
+        "en": "National Capital Region",
+        "slug": "national-capital-region-NCR"
+      }
+    },
+    {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 142
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.3697",
+    "lon": "121.5626"
+  },
+  "metadata": {},
+  "source": {}
+}

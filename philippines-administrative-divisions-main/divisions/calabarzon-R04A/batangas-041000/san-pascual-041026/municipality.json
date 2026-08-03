@@ -1,0 +1,56 @@
+{
+  "id": "041026",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Pascual",
+    "en": "San Pascual",
+    "slug": "san-pascual-041026"
+  },
+  "code": {
+    "id": "041026",
+    "iso": null
+  },
+  "parent": {
+    "id": "041000",
+    "level": 2,
+    "name": {
+      "local": "Batangas",
+      "en": "Batangas",
+      "slug": "batangas-041000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 29
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.8075",
+    "lon": "121.04194"
+  },
+  "metadata": {},
+  "source": {}
+}

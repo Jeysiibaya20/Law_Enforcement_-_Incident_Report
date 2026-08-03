@@ -1,0 +1,48 @@
+{
+  "id": "037100",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Zambales",
+    "en": "Zambales",
+    "slug": "zambales-037100"
+  },
+  "code": {
+    "id": "037100",
+    "iso": null
+  },
+  "parent": {
+    "id": "R03",
+    "level": 1,
+    "name": {
+      "local": "Central Luzon",
+      "en": "Central Luzon",
+      "slug": "central-luzon-R03"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 14,
+    "barangay": 247
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.5801",
+    "lon": "120.9012"
+  },
+  "metadata": {},
+  "source": {}
+}

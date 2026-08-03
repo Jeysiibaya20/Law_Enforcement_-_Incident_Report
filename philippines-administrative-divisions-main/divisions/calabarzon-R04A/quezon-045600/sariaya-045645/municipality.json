@@ -1,0 +1,56 @@
+{
+  "id": "045645",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sariaya",
+    "en": "Sariaya",
+    "slug": "sariaya-045645"
+  },
+  "code": {
+    "id": "045645",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 43
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.967",
+    "lon": "121.533"
+  },
+  "metadata": {},
+  "source": {}
+}

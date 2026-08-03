@@ -1,0 +1,457 @@
+[
+  {
+    "id": "175102001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Concepcion",
+      "en": "Concepcion",
+      "slug": "concepcion-175102001"
+    },
+    "code": {
+      "id": "175102001",
+      "iso": null
+    },
+    "parent": {
+      "id": "175102",
+      "level": 3,
+      "name": {
+        "local": "Calintaan",
+        "en": "Calintaan",
+        "slug": "calintaan-175102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175102",
+        "level": 3,
+        "name": {
+          "local": "Calintaan",
+          "en": "Calintaan",
+          "slug": "calintaan-175102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5102"
+    ],
+    "geo": {
+      "lat": "15.3249",
+      "lon": "120.6554"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175102002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Iriron",
+      "en": "Iriron",
+      "slug": "iriron-175102002"
+    },
+    "code": {
+      "id": "175102002",
+      "iso": null
+    },
+    "parent": {
+      "id": "175102",
+      "level": 3,
+      "name": {
+        "local": "Calintaan",
+        "en": "Calintaan",
+        "slug": "calintaan-175102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175102",
+        "level": 3,
+        "name": {
+          "local": "Calintaan",
+          "en": "Calintaan",
+          "slug": "calintaan-175102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5102"
+    ],
+    "geo": {
+      "lat": "12.616",
+      "lon": "120.9306"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175102003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malpalon",
+      "en": "Malpalon",
+      "slug": "malpalon-175102003"
+    },
+    "code": {
+      "id": "175102003",
+      "iso": null
+    },
+    "parent": {
+      "id": "175102",
+      "level": 3,
+      "name": {
+        "local": "Calintaan",
+        "en": "Calintaan",
+        "slug": "calintaan-175102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175102",
+        "level": 3,
+        "name": {
+          "local": "Calintaan",
+          "en": "Calintaan",
+          "slug": "calintaan-175102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5102"
+    ],
+    "geo": {
+      "lat": "12.57556",
+      "lon": "120.94278"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175102004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "New Dagupan",
+      "en": "New Dagupan",
+      "slug": "new-dagupan-175102004"
+    },
+    "code": {
+      "id": "175102004",
+      "iso": null
+    },
+    "parent": {
+      "id": "175102",
+      "level": 3,
+      "name": {
+        "local": "Calintaan",
+        "en": "Calintaan",
+        "slug": "calintaan-175102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175102",
+        "level": 3,
+        "name": {
+          "local": "Calintaan",
+          "en": "Calintaan",
+          "slug": "calintaan-175102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5102"
+    ],
+    "geo": {
+      "lat": "16.043",
+      "lon": "120.334"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175102005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-175102005"
+    },
+    "code": {
+      "id": "175102005",
+      "iso": null
+    },
+    "parent": {
+      "id": "175102",
+      "level": 3,
+      "name": {
+        "local": "Calintaan",
+        "en": "Calintaan",
+        "slug": "calintaan-175102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175102",
+        "level": 3,
+        "name": {
+          "local": "Calintaan",
+          "en": "Calintaan",
+          "slug": "calintaan-175102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5102"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175102006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poypoy",
+      "en": "Poypoy",
+      "slug": "poypoy-175102006"
+    },
+    "code": {
+      "id": "175102006",
+      "iso": null
+    },
+    "parent": {
+      "id": "175102",
+      "level": 3,
+      "name": {
+        "local": "Calintaan",
+        "en": "Calintaan",
+        "slug": "calintaan-175102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175102",
+        "level": 3,
+        "name": {
+          "local": "Calintaan",
+          "en": "Calintaan",
+          "slug": "calintaan-175102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5102"
+    ],
+    "geo": {
+      "lat": "12.57556",
+      "lon": "120.94278"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175102007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tanyag",
+      "en": "Tanyag",
+      "slug": "tanyag-175102007"
+    },
+    "code": {
+      "id": "175102007",
+      "iso": null
+    },
+    "parent": {
+      "id": "175102",
+      "level": 3,
+      "name": {
+        "local": "Calintaan",
+        "en": "Calintaan",
+        "slug": "calintaan-175102"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175102",
+        "level": 3,
+        "name": {
+          "local": "Calintaan",
+          "en": "Calintaan",
+          "slug": "calintaan-175102"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5102"
+    ],
+    "geo": {
+      "lat": "14.4827",
+      "lon": "121.0521"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "060618",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Valderrama",
+    "en": "Valderrama",
+    "slug": "valderrama-060618"
+  },
+  "code": {
+    "id": "060618",
+    "iso": null
+  },
+  "parent": {
+    "id": "060600",
+    "level": 2,
+    "name": {
+      "local": "Antique",
+      "en": "Antique",
+      "slug": "antique-060600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 22
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11",
+    "lon": "122.133"
+  },
+  "metadata": {},
+  "source": {}
+}

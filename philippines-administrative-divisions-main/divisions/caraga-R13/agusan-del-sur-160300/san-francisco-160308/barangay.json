@@ -1,0 +1,1757 @@
+[
+  {
+    "id": "160308001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alegria",
+      "en": "Alegria",
+      "slug": "alegria-160308001"
+    },
+    "code": {
+      "id": "160308001",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.5067",
+      "lon": "126.0119"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 1 (Pob.)",
+      "en": "Barangay 1 (Pob.)",
+      "slug": "barangay-1-pob-160308015"
+    },
+    "code": {
+      "id": "160308015",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 2 (Pob.)",
+      "en": "Barangay 2 (Pob.)",
+      "slug": "barangay-2-pob-160308016"
+    },
+    "code": {
+      "id": "160308016",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 3 (Pob.)",
+      "en": "Barangay 3 (Pob.)",
+      "slug": "barangay-3-pob-160308017"
+    },
+    "code": {
+      "id": "160308017",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 4 (Pob.)",
+      "en": "Barangay 4 (Pob.)",
+      "slug": "barangay-4-pob-160308018"
+    },
+    "code": {
+      "id": "160308018",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 5 (Pob.)",
+      "en": "Barangay 5 (Pob.)",
+      "slug": "barangay-5-pob-160308019"
+    },
+    "code": {
+      "id": "160308019",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bayugan 2",
+      "en": "Bayugan 2",
+      "slug": "bayugan-2-160308002"
+    },
+    "code": {
+      "id": "160308002",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.71",
+      "lon": "125.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bitan-agan",
+      "en": "Bitan-agan",
+      "slug": "bitan-agan-160308025"
+    },
+    "code": {
+      "id": "160308025",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "6.939",
+      "lon": "126.3026"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Borbon",
+      "en": "Borbon",
+      "slug": "borbon-160308003"
+    },
+    "code": {
+      "id": "160308003",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.4842",
+      "lon": "125.8931"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buenasuerte",
+      "en": "Buenasuerte",
+      "slug": "buenasuerte-160308026"
+    },
+    "code": {
+      "id": "160308026",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "9.871",
+      "lon": "124.3522"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caimpugan",
+      "en": "Caimpugan",
+      "slug": "caimpugan-160308005"
+    },
+    "code": {
+      "id": "160308005",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.4003",
+      "lon": "125.915"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Das-agan",
+      "en": "Das-agan",
+      "slug": "das-agan-160308027"
+    },
+    "code": {
+      "id": "160308027",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.5",
+      "lon": "125.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ebro",
+      "en": "Ebro",
+      "slug": "ebro-160308006"
+    },
+    "code": {
+      "id": "160308006",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.4372",
+      "lon": "125.9408"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hubang",
+      "en": "Hubang",
+      "slug": "hubang-160308007"
+    },
+    "code": {
+      "id": "160308007",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "11.2186",
+      "lon": "124.8497"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Karaus",
+      "en": "Karaus",
+      "slug": "karaus-160308028"
+    },
+    "code": {
+      "id": "160308028",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.5",
+      "lon": "125.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ladgadan",
+      "en": "Ladgadan",
+      "slug": "ladgadan-160308029"
+    },
+    "code": {
+      "id": "160308029",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.5",
+      "lon": "125.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lapinigan",
+      "en": "Lapinigan",
+      "slug": "lapinigan-160308008"
+    },
+    "code": {
+      "id": "160308008",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.4206",
+      "lon": "125.9825"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lucac",
+      "en": "Lucac",
+      "slug": "lucac-160308009"
+    },
+    "code": {
+      "id": "160308009",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.5",
+      "lon": "125.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mate",
+      "en": "Mate",
+      "slug": "mate-160308010"
+    },
+    "code": {
+      "id": "160308010",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "6.8056",
+      "lon": "124.0072"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "New Visayas",
+      "en": "New Visayas",
+      "slug": "new-visayas-160308011"
+    },
+    "code": {
+      "id": "160308011",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "7.5233",
+      "lon": "125.6233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ormaca",
+      "en": "Ormaca",
+      "slug": "ormaca-160308030"
+    },
+    "code": {
+      "id": "160308030",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.5",
+      "lon": "125.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pasta",
+      "en": "Pasta",
+      "slug": "pasta-160308012"
+    },
+    "code": {
+      "id": "160308012",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.5",
+      "lon": "125.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pisa-an",
+      "en": "Pisa-an",
+      "slug": "pisa-an-160308013"
+    },
+    "code": {
+      "id": "160308013",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.5264",
+      "lon": "125.9578"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rizal",
+      "en": "Rizal",
+      "slug": "rizal-160308020"
+    },
+    "code": {
+      "id": "160308020",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "15.71",
+      "lon": "121.1047"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-160308021"
+    },
+    "code": {
+      "id": "160308021",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.4864",
+      "lon": "125.9717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Ana",
+      "en": "Santa Ana",
+      "slug": "santa-ana-160308022"
+    },
+    "code": {
+      "id": "160308022",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.5061",
+      "lon": "125.9767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tagapua",
+      "en": "Tagapua",
+      "slug": "tagapua-160308024"
+    },
+    "code": {
+      "id": "160308024",
+      "iso": null
+    },
+    "parent": {
+      "id": "160308",
+      "level": 3,
+      "name": {
+        "local": "San Francisco",
+        "en": "San Francisco",
+        "slug": "san-francisco-160308"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160308",
+        "level": 3,
+        "name": {
+          "local": "San Francisco",
+          "en": "San Francisco",
+          "slug": "san-francisco-160308"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8501"
+    ],
+    "geo": {
+      "lat": "8.5",
+      "lon": "125.983"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

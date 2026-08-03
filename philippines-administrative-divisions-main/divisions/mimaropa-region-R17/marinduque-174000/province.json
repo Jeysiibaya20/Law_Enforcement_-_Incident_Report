@@ -1,0 +1,48 @@
+{
+  "id": "174000",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Marinduque",
+    "en": "Marinduque",
+    "slug": "marinduque-174000"
+  },
+  "code": {
+    "id": "174000",
+    "iso": null
+  },
+  "parent": {
+    "id": "R17",
+    "level": 1,
+    "name": {
+      "local": "MIMAROPA Region",
+      "en": "MIMAROPA Region",
+      "slug": "mimaropa-region-R17"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 6,
+    "barangay": 218
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.4346",
+    "lon": "121.9289"
+  },
+  "metadata": {},
+  "source": {}
+}

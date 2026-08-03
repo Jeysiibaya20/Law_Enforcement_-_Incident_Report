@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "103501",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bacolod",
+      "en": "Bacolod",
+      "slug": "bacolod-103501"
+    },
+    "code": {
+      "id": "103501",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.0636",
+      "lon": "125.1847"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103502",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Baloi",
+      "en": "Baloi",
+      "slug": "baloi-103502"
+    },
+    "code": {
+      "id": "103502",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.117",
+      "lon": "124.217"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103503",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Baroy",
+      "en": "Baroy",
+      "slug": "baroy-103503"
+    },
+    "code": {
+      "id": "103503",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.033",
+      "lon": "123.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103504",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Iligan City",
+      "en": "Iligan City",
+      "slug": "iligan-city-103504"
+    },
+    "code": {
+      "id": "103504",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 44
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.3037",
+      "lon": "123.643"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103505",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kapatagan",
+      "en": "Kapatagan",
+      "slug": "kapatagan-103505"
+    },
+    "code": {
+      "id": "103505",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.45",
+      "lon": "124.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103507",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kauswagan",
+      "en": "Kauswagan",
+      "slug": "kauswagan-103507"
+    },
+    "code": {
+      "id": "103507",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.183",
+      "lon": "124.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103508",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kolambugan",
+      "en": "Kolambugan",
+      "slug": "kolambugan-103508"
+    },
+    "code": {
+      "id": "103508",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.117",
+      "lon": "123.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103509",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lala",
+      "en": "Lala",
+      "slug": "lala-103509"
+    },
+    "code": {
+      "id": "103509",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.967",
+      "lon": "123.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103510",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Linamon",
+      "en": "Linamon",
+      "slug": "linamon-103510"
+    },
+    "code": {
+      "id": "103510",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.183",
+      "lon": "124.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103511",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Magsaysay",
+      "en": "Magsaysay",
+      "slug": "magsaysay-103511"
+    },
+    "code": {
+      "id": "103511",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.867",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maigo",
+      "en": "Maigo",
+      "slug": "maigo-103512"
+    },
+    "code": {
+      "id": "103512",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.15",
+      "lon": "123.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103513",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Matungao",
+      "en": "Matungao",
+      "slug": "matungao-103513"
+    },
+    "code": {
+      "id": "103513",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.133",
+      "lon": "124.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103514",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Munai",
+      "en": "Munai",
+      "slug": "munai-103514"
+    },
+    "code": {
+      "id": "103514",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.983",
+      "lon": "124.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103515",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Nunungan",
+      "en": "Nunungan",
+      "slug": "nunungan-103515"
+    },
+    "code": {
+      "id": "103515",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.817",
+      "lon": "123.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103516",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pantao Ragat",
+      "en": "Pantao Ragat",
+      "slug": "pantao-ragat-103516"
+    },
+    "code": {
+      "id": "103516",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.05",
+      "lon": "124.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103523",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pantar",
+      "en": "Pantar",
+      "slug": "pantar-103523"
+    },
+    "code": {
+      "id": "103523",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.067",
+      "lon": "124.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103517",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Poona Piagapo",
+      "en": "Poona Piagapo",
+      "slug": "poona-piagapo-103517"
+    },
+    "code": {
+      "id": "103517",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.083",
+      "lon": "124.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103518",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Salvador",
+      "en": "Salvador",
+      "slug": "salvador-103518"
+    },
+    "code": {
+      "id": "103518",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.5299",
+      "lon": "123.6244"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103519",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sapad",
+      "en": "Sapad",
+      "slug": "sapad-103519"
+    },
+    "code": {
+      "id": "103519",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.85",
+      "lon": "123.833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103506",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sultan Naga Dimaporo (Karomatan)",
+      "en": "Sultan Naga Dimaporo (Karomatan)",
+      "slug": "sultan-naga-dimaporo-karomatan-103506"
+    },
+    "code": {
+      "id": "103506",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.783",
+      "lon": "123.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103520",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tagoloan",
+      "en": "Tagoloan",
+      "slug": "tagoloan-103520"
+    },
+    "code": {
+      "id": "103520",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 7
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.533",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103521",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tangcal",
+      "en": "Tangcal",
+      "slug": "tangcal-103521"
+    },
+    "code": {
+      "id": "103521",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8",
+      "lon": "124"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103522",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tubod",
+      "en": "Tubod",
+      "slug": "tubod-103522"
+    },
+    "code": {
+      "id": "103522",
+      "iso": null
+    },
+    "parent": {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.567",
+      "lon": "125.567"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

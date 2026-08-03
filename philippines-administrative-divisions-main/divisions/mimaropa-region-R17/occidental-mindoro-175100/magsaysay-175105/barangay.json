@@ -1,0 +1,782 @@
+[
+  {
+    "id": "175105001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alibog",
+      "en": "Alibog",
+      "slug": "alibog-175105001"
+    },
+    "code": {
+      "id": "175105001",
+      "iso": null
+    },
+    "parent": {
+      "id": "175105",
+      "level": 3,
+      "name": {
+        "local": "Magsaysay",
+        "en": "Magsaysay",
+        "slug": "magsaysay-175105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175105",
+        "level": 3,
+        "name": {
+          "local": "Magsaysay",
+          "en": "Magsaysay",
+          "slug": "magsaysay-175105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5101"
+    ],
+    "geo": {
+      "lat": "12.2291",
+      "lon": "121.2281"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175105003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caguray",
+      "en": "Caguray",
+      "slug": "caguray-175105003"
+    },
+    "code": {
+      "id": "175105003",
+      "iso": null
+    },
+    "parent": {
+      "id": "175105",
+      "level": 3,
+      "name": {
+        "local": "Magsaysay",
+        "en": "Magsaysay",
+        "slug": "magsaysay-175105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175105",
+        "level": 3,
+        "name": {
+          "local": "Magsaysay",
+          "en": "Magsaysay",
+          "slug": "magsaysay-175105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5101"
+    ],
+    "geo": {
+      "lat": "12.2841",
+      "lon": "121.1152"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175105004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calawag",
+      "en": "Calawag",
+      "slug": "calawag-175105004"
+    },
+    "code": {
+      "id": "175105004",
+      "iso": null
+    },
+    "parent": {
+      "id": "175105",
+      "level": 3,
+      "name": {
+        "local": "Magsaysay",
+        "en": "Magsaysay",
+        "slug": "magsaysay-175105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175105",
+        "level": 3,
+        "name": {
+          "local": "Magsaysay",
+          "en": "Magsaysay",
+          "slug": "magsaysay-175105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5101"
+    ],
+    "geo": {
+      "lat": "10.6682",
+      "lon": "119.5705"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175105005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gapasan",
+      "en": "Gapasan",
+      "slug": "gapasan-175105005"
+    },
+    "code": {
+      "id": "175105005",
+      "iso": null
+    },
+    "parent": {
+      "id": "175105",
+      "level": 3,
+      "name": {
+        "local": "Magsaysay",
+        "en": "Magsaysay",
+        "slug": "magsaysay-175105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175105",
+        "level": 3,
+        "name": {
+          "local": "Magsaysay",
+          "en": "Magsaysay",
+          "slug": "magsaysay-175105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5101"
+    ],
+    "geo": {
+      "lat": "12.3368",
+      "lon": "121.1928"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175105006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Laste",
+      "en": "Laste",
+      "slug": "laste-175105006"
+    },
+    "code": {
+      "id": "175105006",
+      "iso": null
+    },
+    "parent": {
+      "id": "175105",
+      "level": 3,
+      "name": {
+        "local": "Magsaysay",
+        "en": "Magsaysay",
+        "slug": "magsaysay-175105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175105",
+        "level": 3,
+        "name": {
+          "local": "Magsaysay",
+          "en": "Magsaysay",
+          "slug": "magsaysay-175105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5101"
+    ],
+    "geo": {
+      "lat": "12.2451",
+      "lon": "121.1681"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175105007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lourdes",
+      "en": "Lourdes",
+      "slug": "lourdes-175105007"
+    },
+    "code": {
+      "id": "175105007",
+      "iso": null
+    },
+    "parent": {
+      "id": "175105",
+      "level": 3,
+      "name": {
+        "local": "Magsaysay",
+        "en": "Magsaysay",
+        "slug": "magsaysay-175105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175105",
+        "level": 3,
+        "name": {
+          "local": "Magsaysay",
+          "en": "Magsaysay",
+          "slug": "magsaysay-175105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5101"
+    ],
+    "geo": {
+      "lat": "8.525",
+      "lon": "124.4322"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175105008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nicolas (Bulo)",
+      "en": "Nicolas (Bulo)",
+      "slug": "nicolas-bulo-175105008"
+    },
+    "code": {
+      "id": "175105008",
+      "iso": null
+    },
+    "parent": {
+      "id": "175105",
+      "level": 3,
+      "name": {
+        "local": "Magsaysay",
+        "en": "Magsaysay",
+        "slug": "magsaysay-175105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175105",
+        "level": 3,
+        "name": {
+          "local": "Magsaysay",
+          "en": "Magsaysay",
+          "slug": "magsaysay-175105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5101"
+    ],
+    "geo": {
+      "lat": "17.3333",
+      "lon": "121.7667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175105009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Paclolo",
+      "en": "Paclolo",
+      "slug": "paclolo-175105009"
+    },
+    "code": {
+      "id": "175105009",
+      "iso": null
+    },
+    "parent": {
+      "id": "175105",
+      "level": 3,
+      "name": {
+        "local": "Magsaysay",
+        "en": "Magsaysay",
+        "slug": "magsaysay-175105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175105",
+        "level": 3,
+        "name": {
+          "local": "Magsaysay",
+          "en": "Magsaysay",
+          "slug": "magsaysay-175105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5101"
+    ],
+    "geo": {
+      "lat": "12.3767",
+      "lon": "121.1735"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175105010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-175105010"
+    },
+    "code": {
+      "id": "175105010",
+      "iso": null
+    },
+    "parent": {
+      "id": "175105",
+      "level": 3,
+      "name": {
+        "local": "Magsaysay",
+        "en": "Magsaysay",
+        "slug": "magsaysay-175105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175105",
+        "level": 3,
+        "name": {
+          "local": "Magsaysay",
+          "en": "Magsaysay",
+          "slug": "magsaysay-175105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5101"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175105011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Purnaga",
+      "en": "Purnaga",
+      "slug": "purnaga-175105011"
+    },
+    "code": {
+      "id": "175105011",
+      "iso": null
+    },
+    "parent": {
+      "id": "175105",
+      "level": 3,
+      "name": {
+        "local": "Magsaysay",
+        "en": "Magsaysay",
+        "slug": "magsaysay-175105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175105",
+        "level": 3,
+        "name": {
+          "local": "Magsaysay",
+          "en": "Magsaysay",
+          "slug": "magsaysay-175105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5101"
+    ],
+    "geo": {
+      "lat": "10.867",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175105012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Teresa",
+      "en": "Santa Teresa",
+      "slug": "santa-teresa-175105012"
+    },
+    "code": {
+      "id": "175105012",
+      "iso": null
+    },
+    "parent": {
+      "id": "175105",
+      "level": 3,
+      "name": {
+        "local": "Magsaysay",
+        "en": "Magsaysay",
+        "slug": "magsaysay-175105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175105",
+        "level": 3,
+        "name": {
+          "local": "Magsaysay",
+          "en": "Magsaysay",
+          "slug": "magsaysay-175105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5101"
+    ],
+    "geo": {
+      "lat": "12.2519",
+      "lon": "121.1125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175105013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sibalat",
+      "en": "Sibalat",
+      "slug": "sibalat-175105013"
+    },
+    "code": {
+      "id": "175105013",
+      "iso": null
+    },
+    "parent": {
+      "id": "175105",
+      "level": 3,
+      "name": {
+        "local": "Magsaysay",
+        "en": "Magsaysay",
+        "slug": "magsaysay-175105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175100",
+        "level": 2,
+        "name": {
+          "local": "Occidental Mindoro",
+          "en": "Occidental Mindoro",
+          "slug": "occidental-mindoro-175100"
+        }
+      },
+      {
+        "id": "175105",
+        "level": 3,
+        "name": {
+          "local": "Magsaysay",
+          "en": "Magsaysay",
+          "slug": "magsaysay-175105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5101"
+    ],
+    "geo": {
+      "lat": "12.2447",
+      "lon": "121.1902"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

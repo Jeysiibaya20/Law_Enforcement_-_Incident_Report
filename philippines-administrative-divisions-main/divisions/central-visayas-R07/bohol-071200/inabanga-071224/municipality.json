@@ -1,0 +1,56 @@
+{
+  "id": "071224",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Inabanga",
+    "en": "Inabanga",
+    "slug": "inabanga-071224"
+  },
+  "code": {
+    "id": "071224",
+    "iso": null
+  },
+  "parent": {
+    "id": "071200",
+    "level": 2,
+    "name": {
+      "local": "Bohol",
+      "en": "Bohol",
+      "slug": "bohol-071200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 50
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.03",
+    "lon": "124.07"
+  },
+  "metadata": {},
+  "source": {}
+}

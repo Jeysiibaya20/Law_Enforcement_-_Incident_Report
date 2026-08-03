@@ -1,0 +1,56 @@
+{
+  "id": "067904",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Lorenzo",
+    "en": "San Lorenzo",
+    "slug": "san-lorenzo-067904"
+  },
+  "code": {
+    "id": "067904",
+    "iso": null
+  },
+  "parent": {
+    "id": "067900",
+    "level": 2,
+    "name": {
+      "local": "Guimaras",
+      "en": "Guimaras",
+      "slug": "guimaras-067900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "067900",
+      "level": 2,
+      "name": {
+        "local": "Guimaras",
+        "en": "Guimaras",
+        "slug": "guimaras-067900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 12
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.65",
+    "lon": "122.717"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "036915",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Ignacia",
+    "en": "Santa Ignacia",
+    "slug": "santa-ignacia-036915"
+  },
+  "code": {
+    "id": "036915",
+    "iso": null
+  },
+  "parent": {
+    "id": "036900",
+    "level": 2,
+    "name": {
+      "local": "Tarlac",
+      "en": "Tarlac",
+      "slug": "tarlac-036900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "036900",
+      "level": 2,
+      "name": {
+        "local": "Tarlac",
+        "en": "Tarlac",
+        "slug": "tarlac-036900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 24
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.617",
+    "lon": "120.433"
+  },
+  "metadata": {},
+  "source": {}
+}

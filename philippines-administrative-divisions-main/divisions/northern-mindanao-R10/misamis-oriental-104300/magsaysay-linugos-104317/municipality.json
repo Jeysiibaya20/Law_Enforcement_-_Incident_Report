@@ -1,0 +1,56 @@
+{
+  "id": "104317",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Magsaysay (Linugos)",
+    "en": "Magsaysay (Linugos)",
+    "slug": "magsaysay-linugos-104317"
+  },
+  "code": {
+    "id": "104317",
+    "iso": null
+  },
+  "parent": {
+    "id": "104300",
+    "level": 2,
+    "name": {
+      "local": "Misamis Oriental",
+      "en": "Misamis Oriental",
+      "slug": "misamis-oriental-104300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "104300",
+      "level": 2,
+      "name": {
+        "local": "Misamis Oriental",
+        "en": "Misamis Oriental",
+        "slug": "misamis-oriental-104300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 25
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.867",
+    "lon": "121.05"
+  },
+  "metadata": {},
+  "source": {}
+}

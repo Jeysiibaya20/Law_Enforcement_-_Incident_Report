@@ -1,0 +1,2410 @@
+[
+  {
+    "id": "083701",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Abuyog",
+      "en": "Abuyog",
+      "slug": "abuyog-083701"
+    },
+    "code": {
+      "id": "083701",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 63
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.733",
+      "lon": "125.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083702",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alangalang",
+      "en": "Alangalang",
+      "slug": "alangalang-083702"
+    },
+    "code": {
+      "id": "083702",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 54
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.2",
+      "lon": "124.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083703",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Albuera",
+      "en": "Albuera",
+      "slug": "albuera-083703"
+    },
+    "code": {
+      "id": "083703",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.917",
+      "lon": "124.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083705",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Babatngon",
+      "en": "Babatngon",
+      "slug": "babatngon-083705"
+    },
+    "code": {
+      "id": "083705",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.417",
+      "lon": "124.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083706",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Barugo",
+      "en": "Barugo",
+      "slug": "barugo-083706"
+    },
+    "code": {
+      "id": "083706",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.317",
+      "lon": "124.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083707",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bato",
+      "en": "Bato",
+      "slug": "bato-083707"
+    },
+    "code": {
+      "id": "083707",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 32
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.5",
+      "lon": "124.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083708",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Baybay",
+      "en": "Baybay",
+      "slug": "baybay-083708"
+    },
+    "code": {
+      "id": "083708",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 92
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.683",
+      "lon": "124.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083710",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Burauen",
+      "en": "Burauen",
+      "slug": "burauen-083710"
+    },
+    "code": {
+      "id": "083710",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 77
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.983",
+      "lon": "124.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083713",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calubian",
+      "en": "Calubian",
+      "slug": "calubian-083713"
+    },
+    "code": {
+      "id": "083713",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 53
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.45",
+      "lon": "124.417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083714",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Capoocan",
+      "en": "Capoocan",
+      "slug": "capoocan-083714"
+    },
+    "code": {
+      "id": "083714",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.283",
+      "lon": "124.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083715",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Carigara",
+      "en": "Carigara",
+      "slug": "carigara-083715"
+    },
+    "code": {
+      "id": "083715",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 49
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.3",
+      "lon": "124.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083717",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dagami",
+      "en": "Dagami",
+      "slug": "dagami-083717"
+    },
+    "code": {
+      "id": "083717",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 65
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.06111",
+      "lon": "124.90306"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083718",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dulag",
+      "en": "Dulag",
+      "slug": "dulag-083718"
+    },
+    "code": {
+      "id": "083718",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 45
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.95",
+      "lon": "125.033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083719",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Hilongos",
+      "en": "Hilongos",
+      "slug": "hilongos-083719"
+    },
+    "code": {
+      "id": "083719",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 51
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.367",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083720",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Hindang",
+      "en": "Hindang",
+      "slug": "hindang-083720"
+    },
+    "code": {
+      "id": "083720",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.45",
+      "lon": "124.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083721",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Inopacan",
+      "en": "Inopacan",
+      "slug": "inopacan-083721"
+    },
+    "code": {
+      "id": "083721",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.5",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083722",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Isabel",
+      "en": "Isabel",
+      "slug": "isabel-083722"
+    },
+    "code": {
+      "id": "083722",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.933",
+      "lon": "124.433"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083723",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Jaro",
+      "en": "Jaro",
+      "slug": "jaro-083723"
+    },
+    "code": {
+      "id": "083723",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 46
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.183",
+      "lon": "124.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083724",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Javier (Bugho)",
+      "en": "Javier (Bugho)",
+      "slug": "javier-bugho-083724"
+    },
+    "code": {
+      "id": "083724",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.8",
+      "lon": "124.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083725",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Julita",
+      "en": "Julita",
+      "slug": "julita-083725"
+    },
+    "code": {
+      "id": "083725",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.4828",
+      "lon": "124.5047"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083726",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kananga",
+      "en": "Kananga",
+      "slug": "kananga-083726"
+    },
+    "code": {
+      "id": "083726",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.183",
+      "lon": "124.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083728",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "La Paz",
+      "en": "La Paz",
+      "slug": "la-paz-083728"
+    },
+    "code": {
+      "id": "083728",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.5833",
+      "lon": "123.1167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083729",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Leyte",
+      "en": "Leyte",
+      "slug": "leyte-083729"
+    },
+    "code": {
+      "id": "083729",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.367",
+      "lon": "124.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083730",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Macarthur",
+      "en": "Macarthur",
+      "slug": "macarthur-083730"
+    },
+    "code": {
+      "id": "083730",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.85",
+      "lon": "124.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083731",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mahaplag",
+      "en": "Mahaplag",
+      "slug": "mahaplag-083731"
+    },
+    "code": {
+      "id": "083731",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.583",
+      "lon": "124.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083733",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Matag-Ob",
+      "en": "Matag-Ob",
+      "slug": "matag-ob-083733"
+    },
+    "code": {
+      "id": "083733",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.117",
+      "lon": "124.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083734",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Matalom",
+      "en": "Matalom",
+      "slug": "matalom-083734"
+    },
+    "code": {
+      "id": "083734",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.283",
+      "lon": "124.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083735",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mayorga",
+      "en": "Mayorga",
+      "slug": "mayorga-083735"
+    },
+    "code": {
+      "id": "083735",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.9",
+      "lon": "125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083736",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Merida",
+      "en": "Merida",
+      "slug": "merida-083736"
+    },
+    "code": {
+      "id": "083736",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.917",
+      "lon": "124.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083738",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ormoc City",
+      "en": "Ormoc City",
+      "slug": "ormoc-city-083738"
+    },
+    "code": {
+      "id": "083738",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 110
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.02",
+      "lon": "124.62"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083739",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Palo",
+      "en": "Palo",
+      "slug": "palo-083739"
+    },
+    "code": {
+      "id": "083739",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.1575",
+      "lon": "124.99083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083740",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Palompon",
+      "en": "Palompon",
+      "slug": "palompon-083740"
+    },
+    "code": {
+      "id": "083740",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 50
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.05",
+      "lon": "124.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083741",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pastrana",
+      "en": "Pastrana",
+      "slug": "pastrana-083741"
+    },
+    "code": {
+      "id": "083741",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.133",
+      "lon": "124.883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083742",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-083742"
+    },
+    "code": {
+      "id": "083742",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.4593",
+      "lon": "123.2659"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083743",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-083743"
+    },
+    "code": {
+      "id": "083743",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.65",
+      "lon": "123.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083744",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Fe",
+      "en": "Santa Fe",
+      "slug": "santa-fe-083744"
+    },
+    "code": {
+      "id": "083744",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.3369",
+      "lon": "125.9433"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083745",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tabango",
+      "en": "Tabango",
+      "slug": "tabango-083745"
+    },
+    "code": {
+      "id": "083745",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.317",
+      "lon": "124.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083746",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tabontabon",
+      "en": "Tabontabon",
+      "slug": "tabontabon-083746"
+    },
+    "code": {
+      "id": "083746",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.03",
+      "lon": "124.97"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083747",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tacloban City",
+      "en": "Tacloban City",
+      "slug": "tacloban-city-083747"
+    },
+    "code": {
+      "id": "083747",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 138
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.1183",
+      "lon": "123.3465"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083748",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tanauan",
+      "en": "Tanauan",
+      "slug": "tanauan-083748"
+    },
+    "code": {
+      "id": "083748",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 54
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.12",
+      "lon": "125.02"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083749",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tolosa",
+      "en": "Tolosa",
+      "slug": "tolosa-083749"
+    },
+    "code": {
+      "id": "083749",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.033",
+      "lon": "125.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083750",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tunga",
+      "en": "Tunga",
+      "slug": "tunga-083750"
+    },
+    "code": {
+      "id": "083750",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.25",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "083751",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Villaba",
+      "en": "Villaba",
+      "slug": "villaba-083751"
+    },
+    "code": {
+      "id": "083751",
+      "iso": null
+    },
+    "parent": {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "083700",
+        "level": 2,
+        "name": {
+          "local": "Leyte",
+          "en": "Leyte",
+          "slug": "leyte-083700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.217",
+      "lon": "124.4"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

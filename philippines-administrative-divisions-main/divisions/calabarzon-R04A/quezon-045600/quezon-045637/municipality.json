@@ -1,0 +1,56 @@
+{
+  "id": "045637",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Quezon",
+    "en": "Quezon",
+    "slug": "quezon-045637"
+  },
+  "code": {
+    "id": "045637",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 24
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.697",
+    "lon": "121.6295"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,48 @@
+{
+  "id": "025000",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Nueva Vizcaya",
+    "en": "Nueva Vizcaya",
+    "slug": "nueva-vizcaya-025000"
+  },
+  "code": {
+    "id": "025000",
+    "iso": null
+  },
+  "parent": {
+    "id": "R02",
+    "level": 1,
+    "name": {
+      "local": "Cagayan Valley",
+      "en": "Cagayan Valley",
+      "slug": "cagayan-valley-R02"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 15,
+    "barangay": 275
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.825",
+    "lon": "121.3542"
+  },
+  "metadata": {},
+  "source": {}
+}

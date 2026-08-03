@@ -1,0 +1,242 @@
+[
+  {
+    "id": "118200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Compostela Valley",
+      "en": "Compostela Valley",
+      "slug": "compostela-valley-118200"
+    },
+    "code": {
+      "id": "118200",
+      "iso": null
+    },
+    "parent": {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 237
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.4534",
+      "lon": "123.9085"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Davao del Norte",
+      "en": "Davao del Norte",
+      "slug": "davao-del-norte-112300"
+    },
+    "code": {
+      "id": "112300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 223
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.4347",
+      "lon": "125.0699"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112400",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Davao del Sur",
+      "en": "Davao del Sur",
+      "slug": "davao-del-sur-112400"
+    },
+    "code": {
+      "id": "112400",
+      "iso": null
+    },
+    "parent": {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 414
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.7044",
+      "lon": "123.7491"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "118600",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Davao Occidental",
+      "en": "Davao Occidental",
+      "slug": "davao-occidental-118600"
+    },
+    "code": {
+      "id": "118600",
+      "iso": null
+    },
+    "parent": {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 5,
+      "barangay": 105
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.1233",
+      "lon": "124.5037"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Davao Oriental",
+      "en": "Davao Oriental",
+      "slug": "davao-oriental-112500"
+    },
+    "code": {
+      "id": "112500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 11,
+      "barangay": 183
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.3438",
+      "lon": "125.1929"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "126512",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sen. Ninoy Aquino",
+    "en": "Sen. Ninoy Aquino",
+    "slug": "sen-ninoy-aquino-126512"
+  },
+  "code": {
+    "id": "126512",
+    "iso": null
+  },
+  "parent": {
+    "id": "126500",
+    "level": 2,
+    "name": {
+      "local": "Sultan Kudarat",
+      "en": "Sultan Kudarat",
+      "slug": "sultan-kudarat-126500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 20
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.4667",
+    "lon": "124.3167"
+  },
+  "metadata": {},
+  "source": {}
+}

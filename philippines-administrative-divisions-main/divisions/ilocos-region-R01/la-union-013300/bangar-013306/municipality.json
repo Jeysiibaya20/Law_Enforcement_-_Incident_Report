@@ -1,0 +1,56 @@
+{
+  "id": "013306",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Bangar",
+    "en": "Bangar",
+    "slug": "bangar-013306"
+  },
+  "code": {
+    "id": "013306",
+    "iso": null
+  },
+  "parent": {
+    "id": "013300",
+    "level": 2,
+    "name": {
+      "local": "La Union",
+      "en": "La Union",
+      "slug": "la-union-013300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 33
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.89806",
+    "lon": "120.42306"
+  },
+  "metadata": {},
+  "source": {}
+}

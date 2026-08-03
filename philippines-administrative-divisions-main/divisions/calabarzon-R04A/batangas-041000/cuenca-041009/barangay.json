@@ -1,0 +1,1367 @@
+[
+  {
+    "id": "041009001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balagbag",
+      "en": "Balagbag",
+      "slug": "balagbag-041009001"
+    },
+    "code": {
+      "id": "041009001",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "13.8603",
+      "lon": "121.0224"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 1 (Pob.)",
+      "en": "Barangay 1 (Pob.)",
+      "slug": "barangay-1-pob-041009015"
+    },
+    "code": {
+      "id": "041009015",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 2 (Pob.)",
+      "en": "Barangay 2 (Pob.)",
+      "slug": "barangay-2-pob-041009016"
+    },
+    "code": {
+      "id": "041009016",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 3 (Pob.)",
+      "en": "Barangay 3 (Pob.)",
+      "slug": "barangay-3-pob-041009017"
+    },
+    "code": {
+      "id": "041009017",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 4 (Pob.)",
+      "en": "Barangay 4 (Pob.)",
+      "slug": "barangay-4-pob-041009018"
+    },
+    "code": {
+      "id": "041009018",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 5 (Pob.)",
+      "en": "Barangay 5 (Pob.)",
+      "slug": "barangay-5-pob-041009019"
+    },
+    "code": {
+      "id": "041009019",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 6 (Pob.)",
+      "en": "Barangay 6 (Pob.)",
+      "slug": "barangay-6-pob-041009020"
+    },
+    "code": {
+      "id": "041009020",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 7 (Pob.)",
+      "en": "Barangay 7 (Pob.)",
+      "slug": "barangay-7-pob-041009021"
+    },
+    "code": {
+      "id": "041009021",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 8 (Pob.)",
+      "en": "Barangay 8 (Pob.)",
+      "slug": "barangay-8-pob-041009022"
+    },
+    "code": {
+      "id": "041009022",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bungahan",
+      "en": "Bungahan",
+      "slug": "bungahan-041009002"
+    },
+    "code": {
+      "id": "041009002",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "13.8712",
+      "lon": "121.0541"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calumayin",
+      "en": "Calumayin",
+      "slug": "calumayin-041009003"
+    },
+    "code": {
+      "id": "041009003",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "13.91667",
+      "lon": "121.04472"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dalipit East",
+      "en": "Dalipit East",
+      "slug": "dalipit-east-041009005"
+    },
+    "code": {
+      "id": "041009005",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "13.8727",
+      "lon": "121.0258"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dalipit West",
+      "en": "Dalipit West",
+      "slug": "dalipit-west-041009006"
+    },
+    "code": {
+      "id": "041009006",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "13.8727",
+      "lon": "121.0258"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dita",
+      "en": "Dita",
+      "slug": "dita-041009007"
+    },
+    "code": {
+      "id": "041009007",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "13.9208",
+      "lon": "121.0728"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Don Juan",
+      "en": "Don Juan",
+      "slug": "don-juan-041009008"
+    },
+    "code": {
+      "id": "041009008",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "13.91667",
+      "lon": "121.04472"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Emmanuel",
+      "en": "Emmanuel",
+      "slug": "emmanuel-041009009"
+    },
+    "code": {
+      "id": "041009009",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "13.8866",
+      "lon": "121.0515"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ibabao",
+      "en": "Ibabao",
+      "slug": "ibabao-041009010"
+    },
+    "code": {
+      "id": "041009010",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "13.9085",
+      "lon": "121.0338"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Labac",
+      "en": "Labac",
+      "slug": "labac-041009011"
+    },
+    "code": {
+      "id": "041009011",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "13.8924",
+      "lon": "121.183"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pinagkaisahan",
+      "en": "Pinagkaisahan",
+      "slug": "pinagkaisahan-041009012"
+    },
+    "code": {
+      "id": "041009012",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "14.5229",
+      "lon": "121.0555"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Felipe",
+      "en": "San Felipe",
+      "slug": "san-felipe-041009013"
+    },
+    "code": {
+      "id": "041009013",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "13.8877",
+      "lon": "121.2035"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041009014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-041009014"
+    },
+    "code": {
+      "id": "041009014",
+      "iso": null
+    },
+    "parent": {
+      "id": "041009",
+      "level": 3,
+      "name": {
+        "local": "Cuenca",
+        "en": "Cuenca",
+        "slug": "cuenca-041009"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041009",
+        "level": 3,
+        "name": {
+          "local": "Cuenca",
+          "en": "Cuenca",
+          "slug": "cuenca-041009"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4222"
+    ],
+    "geo": {
+      "lat": "13.7327",
+      "lon": "121.0779"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

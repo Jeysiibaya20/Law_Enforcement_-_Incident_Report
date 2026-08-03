@@ -1,0 +1,48 @@
+{
+  "id": "045600",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Quezon",
+    "en": "Quezon",
+    "slug": "quezon-045600"
+  },
+  "code": {
+    "id": "045600",
+    "iso": null
+  },
+  "parent": {
+    "id": "R04A",
+    "level": 1,
+    "name": {
+      "local": "CALABARZON",
+      "en": "CALABARZON",
+      "slug": "calabarzon-R04A"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 41,
+    "barangay": 1242
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.7957",
+    "lon": "121.9207"
+  },
+  "metadata": {},
+  "source": {}
+}

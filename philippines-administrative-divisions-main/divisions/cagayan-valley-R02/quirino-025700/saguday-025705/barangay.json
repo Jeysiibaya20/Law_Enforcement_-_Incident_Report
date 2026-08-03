@@ -1,0 +1,587 @@
+[
+  {
+    "id": "025705008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cardenas",
+      "en": "Cardenas",
+      "slug": "cardenas-025705008"
+    },
+    "code": {
+      "id": "025705008",
+      "iso": null
+    },
+    "parent": {
+      "id": "025705",
+      "level": 3,
+      "name": {
+        "local": "Saguday",
+        "en": "Saguday",
+        "slug": "saguday-025705"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      },
+      {
+        "id": "025705",
+        "level": 3,
+        "name": {
+          "local": "Saguday",
+          "en": "Saguday",
+          "slug": "saguday-025705"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3402"
+    ],
+    "geo": {
+      "lat": "16.517",
+      "lon": "121.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025705001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dibul",
+      "en": "Dibul",
+      "slug": "dibul-025705001"
+    },
+    "code": {
+      "id": "025705001",
+      "iso": null
+    },
+    "parent": {
+      "id": "025705",
+      "level": 3,
+      "name": {
+        "local": "Saguday",
+        "en": "Saguday",
+        "slug": "saguday-025705"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      },
+      {
+        "id": "025705",
+        "level": 3,
+        "name": {
+          "local": "Saguday",
+          "en": "Saguday",
+          "slug": "saguday-025705"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3402"
+    ],
+    "geo": {
+      "lat": "16.6215",
+      "lon": "121.5485"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025705009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gamis",
+      "en": "Gamis",
+      "slug": "gamis-025705009"
+    },
+    "code": {
+      "id": "025705009",
+      "iso": null
+    },
+    "parent": {
+      "id": "025705",
+      "level": 3,
+      "name": {
+        "local": "Saguday",
+        "en": "Saguday",
+        "slug": "saguday-025705"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      },
+      {
+        "id": "025705",
+        "level": 3,
+        "name": {
+          "local": "Saguday",
+          "en": "Saguday",
+          "slug": "saguday-025705"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3402"
+    ],
+    "geo": {
+      "lat": "16.517",
+      "lon": "121.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025705002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "La Paz",
+      "en": "La Paz",
+      "slug": "la-paz-025705002"
+    },
+    "code": {
+      "id": "025705002",
+      "iso": null
+    },
+    "parent": {
+      "id": "025705",
+      "level": 3,
+      "name": {
+        "local": "Saguday",
+        "en": "Saguday",
+        "slug": "saguday-025705"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      },
+      {
+        "id": "025705",
+        "level": 3,
+        "name": {
+          "local": "Saguday",
+          "en": "Saguday",
+          "slug": "saguday-025705"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3402"
+    ],
+    "geo": {
+      "lat": "16.5793",
+      "lon": "121.5711"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025705003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magsaysay (Pob.)",
+      "en": "Magsaysay (Pob.)",
+      "slug": "magsaysay-pob-025705003"
+    },
+    "code": {
+      "id": "025705003",
+      "iso": null
+    },
+    "parent": {
+      "id": "025705",
+      "level": 3,
+      "name": {
+        "local": "Saguday",
+        "en": "Saguday",
+        "slug": "saguday-025705"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      },
+      {
+        "id": "025705",
+        "level": 3,
+        "name": {
+          "local": "Saguday",
+          "en": "Saguday",
+          "slug": "saguday-025705"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3402"
+    ],
+    "geo": {
+      "lat": "16.5378",
+      "lon": "121.5636"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025705004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rizal (Pob.)",
+      "en": "Rizal (Pob.)",
+      "slug": "rizal-pob-025705004"
+    },
+    "code": {
+      "id": "025705004",
+      "iso": null
+    },
+    "parent": {
+      "id": "025705",
+      "level": 3,
+      "name": {
+        "local": "Saguday",
+        "en": "Saguday",
+        "slug": "saguday-025705"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      },
+      {
+        "id": "025705",
+        "level": 3,
+        "name": {
+          "local": "Saguday",
+          "en": "Saguday",
+          "slug": "saguday-025705"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3402"
+    ],
+    "geo": {
+      "lat": "16.5449",
+      "lon": "121.5637"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025705005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salvacion",
+      "en": "Salvacion",
+      "slug": "salvacion-025705005"
+    },
+    "code": {
+      "id": "025705005",
+      "iso": null
+    },
+    "parent": {
+      "id": "025705",
+      "level": 3,
+      "name": {
+        "local": "Saguday",
+        "en": "Saguday",
+        "slug": "saguday-025705"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      },
+      {
+        "id": "025705",
+        "level": 3,
+        "name": {
+          "local": "Saguday",
+          "en": "Saguday",
+          "slug": "saguday-025705"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3402"
+    ],
+    "geo": {
+      "lat": "16.5686",
+      "lon": "121.5903"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025705006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Tomas",
+      "en": "Santo Tomas",
+      "slug": "santo-tomas-025705006"
+    },
+    "code": {
+      "id": "025705006",
+      "iso": null
+    },
+    "parent": {
+      "id": "025705",
+      "level": 3,
+      "name": {
+        "local": "Saguday",
+        "en": "Saguday",
+        "slug": "saguday-025705"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      },
+      {
+        "id": "025705",
+        "level": 3,
+        "name": {
+          "local": "Saguday",
+          "en": "Saguday",
+          "slug": "saguday-025705"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3402"
+    ],
+    "geo": {
+      "lat": "16.5575",
+      "lon": "121.607"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025705007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tres Reyes",
+      "en": "Tres Reyes",
+      "slug": "tres-reyes-025705007"
+    },
+    "code": {
+      "id": "025705007",
+      "iso": null
+    },
+    "parent": {
+      "id": "025705",
+      "level": 3,
+      "name": {
+        "local": "Saguday",
+        "en": "Saguday",
+        "slug": "saguday-025705"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025700",
+        "level": 2,
+        "name": {
+          "local": "Quirino",
+          "en": "Quirino",
+          "slug": "quirino-025700"
+        }
+      },
+      {
+        "id": "025705",
+        "level": 3,
+        "name": {
+          "local": "Saguday",
+          "en": "Saguday",
+          "slug": "saguday-025705"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3402"
+    ],
+    "geo": {
+      "lat": "16.5392",
+      "lon": "121.5996"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

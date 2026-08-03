@@ -1,0 +1,56 @@
+{
+  "id": "035409",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Mabalacat City",
+    "en": "Mabalacat City",
+    "slug": "mabalacat-city-035409"
+  },
+  "code": {
+    "id": "035409",
+    "iso": null
+  },
+  "parent": {
+    "id": "035400",
+    "level": 2,
+    "name": {
+      "local": "Pampanga",
+      "en": "Pampanga",
+      "slug": "pampanga-035400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 27
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.217",
+    "lon": "120.583"
+  },
+  "metadata": {},
+  "source": {}
+}

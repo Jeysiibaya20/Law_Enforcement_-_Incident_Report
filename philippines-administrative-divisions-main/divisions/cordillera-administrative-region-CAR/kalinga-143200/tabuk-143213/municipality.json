@@ -1,0 +1,56 @@
+{
+  "id": "143213",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tabuk",
+    "en": "Tabuk",
+    "slug": "tabuk-143213"
+  },
+  "code": {
+    "id": "143213",
+    "iso": null
+  },
+  "parent": {
+    "id": "143200",
+    "level": 2,
+    "name": {
+      "local": "Kalinga",
+      "en": "Kalinga",
+      "slug": "kalinga-143200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "143200",
+      "level": 2,
+      "name": {
+        "local": "Kalinga",
+        "en": "Kalinga",
+        "slug": "kalinga-143200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 42
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.45",
+    "lon": "121.45833"
+  },
+  "metadata": {},
+  "source": {}
+}

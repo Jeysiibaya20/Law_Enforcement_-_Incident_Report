@@ -1,0 +1,242 @@
+[
+  {
+    "id": "160200",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Agusan del Norte",
+      "en": "Agusan del Norte",
+      "slug": "agusan-del-norte-160200"
+    },
+    "code": {
+      "id": "160200",
+      "iso": null
+    },
+    "parent": {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 12,
+      "barangay": 253
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.0905",
+      "lon": "123.6882"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160300",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Agusan del Sur",
+      "en": "Agusan del Sur",
+      "slug": "agusan-del-sur-160300"
+    },
+    "code": {
+      "id": "160300",
+      "iso": null
+    },
+    "parent": {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 14,
+      "barangay": 314
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.0469",
+      "lon": "124.4362"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Dinagat Islands",
+      "en": "Dinagat Islands",
+      "slug": "dinagat-islands-168500"
+    },
+    "code": {
+      "id": "168500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 7,
+      "barangay": 100
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.8405",
+      "lon": "124.0229"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Surigao del Norte",
+      "en": "Surigao del Norte",
+      "slug": "surigao-del-norte-166700"
+    },
+    "code": {
+      "id": "166700",
+      "iso": null
+    },
+    "parent": {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 21,
+      "barangay": 335
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.5885",
+      "lon": "124.5472"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166800",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Surigao del Sur",
+      "en": "Surigao del Sur",
+      "slug": "surigao-del-sur-166800"
+    },
+    "code": {
+      "id": "166800",
+      "iso": null
+    },
+    "parent": {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 19,
+      "barangay": 309
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.8657",
+      "lon": "125.0553"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

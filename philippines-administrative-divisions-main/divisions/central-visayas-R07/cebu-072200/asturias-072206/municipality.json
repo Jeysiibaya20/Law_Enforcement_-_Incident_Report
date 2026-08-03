@@ -1,0 +1,56 @@
+{
+  "id": "072206",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Asturias",
+    "en": "Asturias",
+    "slug": "asturias-072206"
+  },
+  "code": {
+    "id": "072206",
+    "iso": null
+  },
+  "parent": {
+    "id": "072200",
+    "level": 2,
+    "name": {
+      "local": "Cebu",
+      "en": "Cebu",
+      "slug": "cebu-072200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 27
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.57",
+    "lon": "123.72"
+  },
+  "metadata": {},
+  "source": {}
+}

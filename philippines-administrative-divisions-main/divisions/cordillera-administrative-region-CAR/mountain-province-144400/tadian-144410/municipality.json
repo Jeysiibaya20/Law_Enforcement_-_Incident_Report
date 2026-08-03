@@ -1,0 +1,56 @@
+{
+  "id": "144410",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tadian",
+    "en": "Tadian",
+    "slug": "tadian-144410"
+  },
+  "code": {
+    "id": "144410",
+    "iso": null
+  },
+  "parent": {
+    "id": "144400",
+    "level": 2,
+    "name": {
+      "local": "Mountain Province",
+      "en": "Mountain Province",
+      "slug": "mountain-province-144400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "144400",
+      "level": 2,
+      "name": {
+        "local": "Mountain Province",
+        "en": "Mountain Province",
+        "slug": "mountain-province-144400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 19
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17",
+    "lon": "120.817"
+  },
+  "metadata": {},
+  "source": {}
+}

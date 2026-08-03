@@ -1,0 +1,48 @@
+{
+  "id": "098300",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Zamboanga Sibugay",
+    "en": "Zamboanga Sibugay",
+    "slug": "zamboanga-sibugay-098300"
+  },
+  "code": {
+    "id": "098300",
+    "iso": null
+  },
+  "parent": {
+    "id": "R09",
+    "level": 1,
+    "name": {
+      "local": "Zamboanga Peninsula",
+      "en": "Zamboanga Peninsula",
+      "slug": "zamboanga-peninsula-R09"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 16,
+    "barangay": 389
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.9491",
+    "lon": "122.6965"
+  },
+  "metadata": {},
+  "source": {}
+}

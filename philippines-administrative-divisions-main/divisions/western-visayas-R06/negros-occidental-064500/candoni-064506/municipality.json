@@ -1,0 +1,56 @@
+{
+  "id": "064506",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Candoni",
+    "en": "Candoni",
+    "slug": "candoni-064506"
+  },
+  "code": {
+    "id": "064506",
+    "iso": null
+  },
+  "parent": {
+    "id": "064500",
+    "level": 2,
+    "name": {
+      "local": "Negros Occidental",
+      "en": "Negros Occidental",
+      "slug": "negros-occidental-064500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "064500",
+      "level": 2,
+      "name": {
+        "local": "Negros Occidental",
+        "en": "Negros Occidental",
+        "slug": "negros-occidental-064500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 9
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.8310444",
+    "lon": "122.6429806"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "037708",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Luis",
+    "en": "San Luis",
+    "slug": "san-luis-037708"
+  },
+  "code": {
+    "id": "037708",
+    "iso": null
+  },
+  "parent": {
+    "id": "037700",
+    "level": 2,
+    "name": {
+      "local": "Aurora",
+      "en": "Aurora",
+      "slug": "aurora-037700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "037700",
+      "level": 2,
+      "name": {
+        "local": "Aurora",
+        "en": "Aurora",
+        "slug": "aurora-037700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 18
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.717",
+    "lon": "121.517"
+  },
+  "metadata": {},
+  "source": {}
+}

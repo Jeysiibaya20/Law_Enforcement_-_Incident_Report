@@ -1,0 +1,912 @@
+[
+  {
+    "id": "101801001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alga",
+      "en": "Alga",
+      "slug": "alga-101801001"
+    },
+    "code": {
+      "id": "101801001",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "9.1208",
+      "lon": "124.6825"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bonbon",
+      "en": "Bonbon",
+      "slug": "bonbon-101801002"
+    },
+    "code": {
+      "id": "101801002",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "9.1053",
+      "lon": "124.7339"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bura",
+      "en": "Bura",
+      "slug": "bura-101801003"
+    },
+    "code": {
+      "id": "101801003",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "9.1762",
+      "lon": "124.652"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Catibac",
+      "en": "Catibac",
+      "slug": "catibac-101801004"
+    },
+    "code": {
+      "id": "101801004",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "9.1776",
+      "lon": "124.6352"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Compol",
+      "en": "Compol",
+      "slug": "compol-101801005"
+    },
+    "code": {
+      "id": "101801005",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "9.1424",
+      "lon": "124.656"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lawigan",
+      "en": "Lawigan",
+      "slug": "lawigan-101801006"
+    },
+    "code": {
+      "id": "101801006",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "9.165",
+      "lon": "124.6412"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Liloan",
+      "en": "Liloan",
+      "slug": "liloan-101801007"
+    },
+    "code": {
+      "id": "101801007",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "9.1403",
+      "lon": "124.67"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Looc",
+      "en": "Looc",
+      "slug": "looc-101801008"
+    },
+    "code": {
+      "id": "101801008",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "9.1314",
+      "lon": "124.6669"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mainit",
+      "en": "Mainit",
+      "slug": "mainit-101801009"
+    },
+    "code": {
+      "id": "101801009",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "9.1588",
+      "lon": "124.6585"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Manduao",
+      "en": "Manduao",
+      "slug": "manduao-101801010"
+    },
+    "code": {
+      "id": "101801010",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "9.133",
+      "lon": "124.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panghiawan",
+      "en": "Panghiawan",
+      "slug": "panghiawan-101801011"
+    },
+    "code": {
+      "id": "101801011",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "9.1488",
+      "lon": "124.6494"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-101801012"
+    },
+    "code": {
+      "id": "101801012",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-101801013"
+    },
+    "code": {
+      "id": "101801013",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "6.43",
+      "lon": "124.68"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101801014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tangaro",
+      "en": "Tangaro",
+      "slug": "tangaro-101801014"
+    },
+    "code": {
+      "id": "101801014",
+      "iso": null
+    },
+    "parent": {
+      "id": "101801",
+      "level": 3,
+      "name": {
+        "local": "Catarman",
+        "en": "Catarman",
+        "slug": "catarman-101801"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101800",
+        "level": 2,
+        "name": {
+          "local": "Camiguin",
+          "en": "Camiguin",
+          "slug": "camiguin-101800"
+        }
+      },
+      {
+        "id": "101801",
+        "level": 3,
+        "name": {
+          "local": "Catarman",
+          "en": "Catarman",
+          "slug": "catarman-101801"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9104"
+    ],
+    "geo": {
+      "lat": "9.1128",
+      "lon": "124.6979"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,717 @@
+[
+  {
+    "id": "160310001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Angas",
+      "en": "Angas",
+      "slug": "angas-160310001"
+    },
+    "code": {
+      "id": "160310001",
+      "iso": null
+    },
+    "parent": {
+      "id": "160310",
+      "level": 3,
+      "name": {
+        "local": "Santa Josefa",
+        "en": "Santa Josefa",
+        "slug": "santa-josefa-160310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160310",
+        "level": 3,
+        "name": {
+          "local": "Santa Josefa",
+          "en": "Santa Josefa",
+          "slug": "santa-josefa-160310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8512"
+    ],
+    "geo": {
+      "lat": "10.3579",
+      "lon": "123.2298"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160310002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aurora",
+      "en": "Aurora",
+      "slug": "aurora-160310002"
+    },
+    "code": {
+      "id": "160310002",
+      "iso": null
+    },
+    "parent": {
+      "id": "160310",
+      "level": 3,
+      "name": {
+        "local": "Santa Josefa",
+        "en": "Santa Josefa",
+        "slug": "santa-josefa-160310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160310",
+        "level": 3,
+        "name": {
+          "local": "Santa Josefa",
+          "en": "Santa Josefa",
+          "slug": "santa-josefa-160310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8512"
+    ],
+    "geo": {
+      "lat": "8.5931",
+      "lon": "125.8375"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160310003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Awao",
+      "en": "Awao",
+      "slug": "awao-160310003"
+    },
+    "code": {
+      "id": "160310003",
+      "iso": null
+    },
+    "parent": {
+      "id": "160310",
+      "level": 3,
+      "name": {
+        "local": "Santa Josefa",
+        "en": "Santa Josefa",
+        "slug": "santa-josefa-160310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160310",
+        "level": 3,
+        "name": {
+          "local": "Santa Josefa",
+          "en": "Santa Josefa",
+          "slug": "santa-josefa-160310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8512"
+    ],
+    "geo": {
+      "lat": "7.9543",
+      "lon": "126.0005"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160310010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Concepcion",
+      "en": "Concepcion",
+      "slug": "concepcion-160310010"
+    },
+    "code": {
+      "id": "160310010",
+      "iso": null
+    },
+    "parent": {
+      "id": "160310",
+      "level": 3,
+      "name": {
+        "local": "Santa Josefa",
+        "en": "Santa Josefa",
+        "slug": "santa-josefa-160310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160310",
+        "level": 3,
+        "name": {
+          "local": "Santa Josefa",
+          "en": "Santa Josefa",
+          "slug": "santa-josefa-160310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8512"
+    ],
+    "geo": {
+      "lat": "15.3249",
+      "lon": "120.6554"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160310011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pag-asa",
+      "en": "Pag-asa",
+      "slug": "pag-asa-160310011"
+    },
+    "code": {
+      "id": "160310011",
+      "iso": null
+    },
+    "parent": {
+      "id": "160310",
+      "level": 3,
+      "name": {
+        "local": "Santa Josefa",
+        "en": "Santa Josefa",
+        "slug": "santa-josefa-160310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160310",
+        "level": 3,
+        "name": {
+          "local": "Santa Josefa",
+          "en": "Santa Josefa",
+          "slug": "santa-josefa-160310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8512"
+    ],
+    "geo": {
+      "lat": "14.6622",
+      "lon": "121.0331"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160310005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patrocinio",
+      "en": "Patrocinio",
+      "slug": "patrocinio-160310005"
+    },
+    "code": {
+      "id": "160310005",
+      "iso": null
+    },
+    "parent": {
+      "id": "160310",
+      "level": 3,
+      "name": {
+        "local": "Santa Josefa",
+        "en": "Santa Josefa",
+        "slug": "santa-josefa-160310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160310",
+        "level": 3,
+        "name": {
+          "local": "Santa Josefa",
+          "en": "Santa Josefa",
+          "slug": "santa-josefa-160310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8512"
+    ],
+    "geo": {
+      "lat": "7.9788",
+      "lon": "126.0496"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160310006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-160310006"
+    },
+    "code": {
+      "id": "160310006",
+      "iso": null
+    },
+    "parent": {
+      "id": "160310",
+      "level": 3,
+      "name": {
+        "local": "Santa Josefa",
+        "en": "Santa Josefa",
+        "slug": "santa-josefa-160310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160310",
+        "level": 3,
+        "name": {
+          "local": "Santa Josefa",
+          "en": "Santa Josefa",
+          "slug": "santa-josefa-160310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8512"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160310007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-160310007"
+    },
+    "code": {
+      "id": "160310007",
+      "iso": null
+    },
+    "parent": {
+      "id": "160310",
+      "level": 3,
+      "name": {
+        "local": "Santa Josefa",
+        "en": "Santa Josefa",
+        "slug": "santa-josefa-160310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160310",
+        "level": 3,
+        "name": {
+          "local": "Santa Josefa",
+          "en": "Santa Josefa",
+          "slug": "santa-josefa-160310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8512"
+    ],
+    "geo": {
+      "lat": "8.1833",
+      "lon": "125.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160310008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Isabel",
+      "en": "Santa Isabel",
+      "slug": "santa-isabel-160310008"
+    },
+    "code": {
+      "id": "160310008",
+      "iso": null
+    },
+    "parent": {
+      "id": "160310",
+      "level": 3,
+      "name": {
+        "local": "Santa Josefa",
+        "en": "Santa Josefa",
+        "slug": "santa-josefa-160310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160310",
+        "level": 3,
+        "name": {
+          "local": "Santa Josefa",
+          "en": "Santa Josefa",
+          "slug": "santa-josefa-160310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8512"
+    ],
+    "geo": {
+      "lat": "16.5425",
+      "lon": "121.849"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160310009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sayon",
+      "en": "Sayon",
+      "slug": "sayon-160310009"
+    },
+    "code": {
+      "id": "160310009",
+      "iso": null
+    },
+    "parent": {
+      "id": "160310",
+      "level": 3,
+      "name": {
+        "local": "Santa Josefa",
+        "en": "Santa Josefa",
+        "slug": "santa-josefa-160310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160310",
+        "level": 3,
+        "name": {
+          "local": "Santa Josefa",
+          "en": "Santa Josefa",
+          "slug": "santa-josefa-160310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8512"
+    ],
+    "geo": {
+      "lat": "7.983",
+      "lon": "126.033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160310004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tapaz",
+      "en": "Tapaz",
+      "slug": "tapaz-160310004"
+    },
+    "code": {
+      "id": "160310004",
+      "iso": null
+    },
+    "parent": {
+      "id": "160310",
+      "level": 3,
+      "name": {
+        "local": "Santa Josefa",
+        "en": "Santa Josefa",
+        "slug": "santa-josefa-160310"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      },
+      {
+        "id": "160310",
+        "level": 3,
+        "name": {
+          "local": "Santa Josefa",
+          "en": "Santa Josefa",
+          "slug": "santa-josefa-160310"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8512"
+    ],
+    "geo": {
+      "lat": "11.2622",
+      "lon": "122.5369"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

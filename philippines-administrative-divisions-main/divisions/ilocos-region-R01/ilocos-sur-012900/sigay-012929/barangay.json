@@ -1,0 +1,457 @@
+[
+  {
+    "id": "012929001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Abaccan",
+      "en": "Abaccan",
+      "slug": "abaccan-012929001"
+    },
+    "code": {
+      "id": "012929001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012929",
+      "level": 3,
+      "name": {
+        "local": "Sigay",
+        "en": "Sigay",
+        "slug": "sigay-012929"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012929",
+        "level": 3,
+        "name": {
+          "local": "Sigay",
+          "en": "Sigay",
+          "slug": "sigay-012929"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2719"
+    ],
+    "geo": {
+      "lat": "17.0333",
+      "lon": "120.5667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012929002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabileg",
+      "en": "Mabileg",
+      "slug": "mabileg-012929002"
+    },
+    "code": {
+      "id": "012929002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012929",
+      "level": 3,
+      "name": {
+        "local": "Sigay",
+        "en": "Sigay",
+        "slug": "sigay-012929"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012929",
+        "level": 3,
+        "name": {
+          "local": "Sigay",
+          "en": "Sigay",
+          "slug": "sigay-012929"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2719"
+    ],
+    "geo": {
+      "lat": "17.033",
+      "lon": "120.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012929003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Matallucod",
+      "en": "Matallucod",
+      "slug": "matallucod-012929003"
+    },
+    "code": {
+      "id": "012929003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012929",
+      "level": 3,
+      "name": {
+        "local": "Sigay",
+        "en": "Sigay",
+        "slug": "sigay-012929"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012929",
+        "level": 3,
+        "name": {
+          "local": "Sigay",
+          "en": "Sigay",
+          "slug": "sigay-012929"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2719"
+    ],
+    "geo": {
+      "lat": "17.033",
+      "lon": "120.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012929004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion (Madayaw)",
+      "en": "Poblacion (Madayaw)",
+      "slug": "poblacion-madayaw-012929004"
+    },
+    "code": {
+      "id": "012929004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012929",
+      "level": 3,
+      "name": {
+        "local": "Sigay",
+        "en": "Sigay",
+        "slug": "sigay-012929"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012929",
+        "level": 3,
+        "name": {
+          "local": "Sigay",
+          "en": "Sigay",
+          "slug": "sigay-012929"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2719"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012929005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Elias",
+      "en": "San Elias",
+      "slug": "san-elias-012929005"
+    },
+    "code": {
+      "id": "012929005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012929",
+      "level": 3,
+      "name": {
+        "local": "Sigay",
+        "en": "Sigay",
+        "slug": "sigay-012929"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012929",
+        "level": 3,
+        "name": {
+          "local": "Sigay",
+          "en": "Sigay",
+          "slug": "sigay-012929"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2719"
+    ],
+    "geo": {
+      "lat": "17.05",
+      "lon": "120.5667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012929006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Ramon",
+      "en": "San Ramon",
+      "slug": "san-ramon-012929006"
+    },
+    "code": {
+      "id": "012929006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012929",
+      "level": 3,
+      "name": {
+        "local": "Sigay",
+        "en": "Sigay",
+        "slug": "sigay-012929"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012929",
+        "level": 3,
+        "name": {
+          "local": "Sigay",
+          "en": "Sigay",
+          "slug": "sigay-012929"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2719"
+    ],
+    "geo": {
+      "lat": "17.0333",
+      "lon": "120.5833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012929007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Rosario",
+      "en": "Santo Rosario",
+      "slug": "santo-rosario-012929007"
+    },
+    "code": {
+      "id": "012929007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012929",
+      "level": 3,
+      "name": {
+        "local": "Sigay",
+        "en": "Sigay",
+        "slug": "sigay-012929"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012929",
+        "level": 3,
+        "name": {
+          "local": "Sigay",
+          "en": "Sigay",
+          "slug": "sigay-012929"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2719"
+    ],
+    "geo": {
+      "lat": "17.1",
+      "lon": "120.5667"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

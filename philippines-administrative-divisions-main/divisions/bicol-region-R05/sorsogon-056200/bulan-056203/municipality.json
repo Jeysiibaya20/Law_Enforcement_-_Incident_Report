@@ -1,0 +1,56 @@
+{
+  "id": "056203",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Bulan",
+    "en": "Bulan",
+    "slug": "bulan-056203"
+  },
+  "code": {
+    "id": "056203",
+    "iso": null
+  },
+  "parent": {
+    "id": "056200",
+    "level": 2,
+    "name": {
+      "local": "Sorsogon",
+      "en": "Sorsogon",
+      "slug": "sorsogon-056200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "056200",
+      "level": 2,
+      "name": {
+        "local": "Sorsogon",
+        "en": "Sorsogon",
+        "slug": "sorsogon-056200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 63
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.667",
+    "lon": "123.883"
+  },
+  "metadata": {},
+  "source": {}
+}

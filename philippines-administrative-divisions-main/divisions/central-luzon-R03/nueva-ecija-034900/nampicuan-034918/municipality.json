@@ -1,0 +1,56 @@
+{
+  "id": "034918",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Nampicuan",
+    "en": "Nampicuan",
+    "slug": "nampicuan-034918"
+  },
+  "code": {
+    "id": "034918",
+    "iso": null
+  },
+  "parent": {
+    "id": "034900",
+    "level": 2,
+    "name": {
+      "local": "Nueva Ecija",
+      "en": "Nueva Ecija",
+      "slug": "nueva-ecija-034900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "034900",
+      "level": 2,
+      "name": {
+        "local": "Nueva Ecija",
+        "en": "Nueva Ecija",
+        "slug": "nueva-ecija-034900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 21
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.733",
+    "lon": "120.633"
+  },
+  "metadata": {},
+  "source": {}
+}

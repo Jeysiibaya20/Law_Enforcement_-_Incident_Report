@@ -1,0 +1,847 @@
+[
+  {
+    "id": "153830001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kinimi",
+      "en": "Kinimi",
+      "slug": "kinimi-153830001"
+    },
+    "code": {
+      "id": "153830001",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "6.9254",
+      "lon": "123.9723"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153830002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Laguitan",
+      "en": "Laguitan",
+      "slug": "laguitan-153830002"
+    },
+    "code": {
+      "id": "153830002",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "7.15",
+      "lon": "124.2167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153830003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lapaken",
+      "en": "Lapaken",
+      "slug": "lapaken-153830003"
+    },
+    "code": {
+      "id": "153830003",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "6.8305",
+      "lon": "123.9655"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153830004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Matuber",
+      "en": "Matuber",
+      "slug": "matuber-153830004"
+    },
+    "code": {
+      "id": "153830004",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "6.92278",
+      "lon": "123.96833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153830005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Meti",
+      "en": "Meti",
+      "slug": "meti-153830005"
+    },
+    "code": {
+      "id": "153830005",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "6.8056",
+      "lon": "124.0072"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153830006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nalkan",
+      "en": "Nalkan",
+      "slug": "nalkan-153830006"
+    },
+    "code": {
+      "id": "153830006",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "6.9891",
+      "lon": "123.9904"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153830007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Penansaran",
+      "en": "Penansaran",
+      "slug": "penansaran-153830007"
+    },
+    "code": {
+      "id": "153830007",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "7.0517",
+      "lon": "124.0142"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153830013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pura",
+      "en": "Pura",
+      "slug": "pura-153830013"
+    },
+    "code": {
+      "id": "153830013",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "7.0628",
+      "lon": "124.0164"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153830008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Resa",
+      "en": "Resa",
+      "slug": "resa-153830008"
+    },
+    "code": {
+      "id": "153830008",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "6.8769",
+      "lon": "123.9737"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153830009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sedem",
+      "en": "Sedem",
+      "slug": "sedem-153830009"
+    },
+    "code": {
+      "id": "153830009",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "6.7789",
+      "lon": "123.985"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153830010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sinipak",
+      "en": "Sinipak",
+      "slug": "sinipak-153830010"
+    },
+    "code": {
+      "id": "153830010",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "6.7953",
+      "lon": "124.0258"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153830011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tambak",
+      "en": "Tambak",
+      "slug": "tambak-153830011"
+    },
+    "code": {
+      "id": "153830011",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "7.5383",
+      "lon": "124.3453"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153830012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tubuan",
+      "en": "Tubuan",
+      "slug": "tubuan-153830012"
+    },
+    "code": {
+      "id": "153830012",
+      "iso": null
+    },
+    "parent": {
+      "id": "153830",
+      "level": 3,
+      "name": {
+        "local": "Datu Blah T. Sinsuat",
+        "en": "Datu Blah T. Sinsuat",
+        "slug": "datu-blah-t-sinsuat-153830"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153830",
+        "level": 3,
+        "name": {
+          "local": "Datu Blah T. Sinsuat",
+          "en": "Datu Blah T. Sinsuat",
+          "slug": "datu-blah-t-sinsuat-153830"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9623"
+    ],
+    "geo": {
+      "lat": "7.0444",
+      "lon": "124.0033"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

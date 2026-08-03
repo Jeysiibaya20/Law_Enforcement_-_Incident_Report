@@ -1,0 +1,56 @@
+{
+  "id": "140107",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Dolores",
+    "en": "Dolores",
+    "slug": "dolores-140107"
+  },
+  "code": {
+    "id": "140107",
+    "iso": null
+  },
+  "parent": {
+    "id": "140100",
+    "level": 2,
+    "name": {
+      "local": "Abra",
+      "en": "Abra",
+      "slug": "abra-140100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "140100",
+      "level": 2,
+      "name": {
+        "local": "Abra",
+        "en": "Abra",
+        "slug": "abra-140100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.64667",
+    "lon": "120.71083"
+  },
+  "metadata": {},
+  "source": {}
+}

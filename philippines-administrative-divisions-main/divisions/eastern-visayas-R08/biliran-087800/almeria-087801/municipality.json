@@ -1,0 +1,56 @@
+{
+  "id": "087801",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Almeria",
+    "en": "Almeria",
+    "slug": "almeria-087801"
+  },
+  "code": {
+    "id": "087801",
+    "iso": null
+  },
+  "parent": {
+    "id": "087800",
+    "level": 2,
+    "name": {
+      "local": "Biliran",
+      "en": "Biliran",
+      "slug": "biliran-087800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "087800",
+      "level": 2,
+      "name": {
+        "local": "Biliran",
+        "en": "Biliran",
+        "slug": "biliran-087800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 13
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.617",
+    "lon": "124.383"
+  },
+  "metadata": {},
+  "source": {}
+}

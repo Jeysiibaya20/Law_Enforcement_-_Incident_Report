@@ -1,0 +1,912 @@
+[
+  {
+    "id": "143211001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Babalag East (Pob.)",
+      "en": "Babalag East (Pob.)",
+      "slug": "babalag-east-pob-143211001"
+    },
+    "code": {
+      "id": "143211001",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "17.5196",
+      "lon": "121.5802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Babalag West (Pob.)",
+      "en": "Babalag West (Pob.)",
+      "slug": "babalag-west-pob-143211015"
+    },
+    "code": {
+      "id": "143211015",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "17.5196",
+      "lon": "121.5802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulbol",
+      "en": "Bulbol",
+      "slug": "bulbol-143211016"
+    },
+    "code": {
+      "id": "143211016",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "17.5",
+      "lon": "121.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calaocan",
+      "en": "Calaocan",
+      "slug": "calaocan-143211002"
+    },
+    "code": {
+      "id": "143211002",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "17.5037",
+      "lon": "121.6021"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kinama",
+      "en": "Kinama",
+      "slug": "kinama-143211005"
+    },
+    "code": {
+      "id": "143211005",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "17.55",
+      "lon": "121.553"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Liwan East",
+      "en": "Liwan East",
+      "slug": "liwan-east-143211006"
+    },
+    "code": {
+      "id": "143211006",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "17.5178",
+      "lon": "121.6245"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Liwan West",
+      "en": "Liwan West",
+      "slug": "liwan-west-143211007"
+    },
+    "code": {
+      "id": "143211007",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "17.4987",
+      "lon": "121.5914"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Macutay",
+      "en": "Macutay",
+      "slug": "macutay-143211008"
+    },
+    "code": {
+      "id": "143211008",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "17.5526",
+      "lon": "121.5819"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Romualdez",
+      "en": "Romualdez",
+      "slug": "romualdez-143211017"
+    },
+    "code": {
+      "id": "143211017",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "17.5",
+      "lon": "121.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Francisco",
+      "en": "San Francisco",
+      "slug": "san-francisco-143211018"
+    },
+    "code": {
+      "id": "143211018",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "8.51",
+      "lon": "125.98"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pascual",
+      "en": "San Pascual",
+      "slug": "san-pascual-143211011"
+    },
+    "code": {
+      "id": "143211011",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "17.5292",
+      "lon": "121.5851"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro",
+      "en": "San Pedro",
+      "slug": "san-pedro-143211019"
+    },
+    "code": {
+      "id": "143211019",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "14.3583",
+      "lon": "121.0583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Quintin",
+      "en": "San Quintin",
+      "slug": "san-quintin-143211012"
+    },
+    "code": {
+      "id": "143211012",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "17.5496",
+      "lon": "121.6042"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "143211014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santor",
+      "en": "Santor",
+      "slug": "santor-143211014"
+    },
+    "code": {
+      "id": "143211014",
+      "iso": null
+    },
+    "parent": {
+      "id": "143211",
+      "level": 3,
+      "name": {
+        "local": "Rizal (Liwan)",
+        "en": "Rizal (Liwan)",
+        "slug": "rizal-liwan-143211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "143200",
+        "level": 2,
+        "name": {
+          "local": "Kalinga",
+          "en": "Kalinga",
+          "slug": "kalinga-143200"
+        }
+      },
+      {
+        "id": "143211",
+        "level": 3,
+        "name": {
+          "local": "Rizal (Liwan)",
+          "en": "Rizal (Liwan)",
+          "slug": "rizal-liwan-143211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3808"
+    ],
+    "geo": {
+      "lat": "17.4846",
+      "lon": "121.6238"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

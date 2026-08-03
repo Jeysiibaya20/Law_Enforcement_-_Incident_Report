@@ -1,0 +1,48 @@
+{
+  "id": "045800",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Rizal",
+    "en": "Rizal",
+    "slug": "rizal-045800"
+  },
+  "code": {
+    "id": "045800",
+    "iso": null
+  },
+  "parent": {
+    "id": "R04A",
+    "level": 1,
+    "name": {
+      "local": "CALABARZON",
+      "en": "CALABARZON",
+      "slug": "calabarzon-R04A"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 14,
+    "barangay": 188
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.5555",
+    "lon": "121.199"
+  },
+  "metadata": {},
+  "source": {}
+}

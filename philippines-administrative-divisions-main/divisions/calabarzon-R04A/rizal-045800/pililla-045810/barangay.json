@@ -1,0 +1,587 @@
+[
+  {
+    "id": "045810001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagumbayan (Pob.)",
+      "en": "Bagumbayan (Pob.)",
+      "slug": "bagumbayan-pob-045810001"
+    },
+    "code": {
+      "id": "045810001",
+      "iso": null
+    },
+    "parent": {
+      "id": "045810",
+      "level": 3,
+      "name": {
+        "local": "Pililla",
+        "en": "Pililla",
+        "slug": "pililla-045810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045810",
+        "level": 3,
+        "name": {
+          "local": "Pililla",
+          "en": "Pililla",
+          "slug": "pililla-045810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1910"
+    ],
+    "geo": {
+      "lat": "14.5211",
+      "lon": "121.1522"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045810003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Halayhayin",
+      "en": "Halayhayin",
+      "slug": "halayhayin-045810003"
+    },
+    "code": {
+      "id": "045810003",
+      "iso": null
+    },
+    "parent": {
+      "id": "045810",
+      "level": 3,
+      "name": {
+        "local": "Pililla",
+        "en": "Pililla",
+        "slug": "pililla-045810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045810",
+        "level": 3,
+        "name": {
+          "local": "Pililla",
+          "en": "Pililla",
+          "slug": "pililla-045810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1910"
+    ],
+    "geo": {
+      "lat": "14.468",
+      "lon": "121.3343"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045810004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hulo (Pob.)",
+      "en": "Hulo (Pob.)",
+      "slug": "hulo-pob-045810004"
+    },
+    "code": {
+      "id": "045810004",
+      "iso": null
+    },
+    "parent": {
+      "id": "045810",
+      "level": 3,
+      "name": {
+        "local": "Pililla",
+        "en": "Pililla",
+        "slug": "pililla-045810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045810",
+        "level": 3,
+        "name": {
+          "local": "Pililla",
+          "en": "Pililla",
+          "slug": "pililla-045810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1910"
+    ],
+    "geo": {
+      "lat": "15.5804",
+      "lon": "120.8842"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045810005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Imatong (Pob.)",
+      "en": "Imatong (Pob.)",
+      "slug": "imatong-pob-045810005"
+    },
+    "code": {
+      "id": "045810005",
+      "iso": null
+    },
+    "parent": {
+      "id": "045810",
+      "level": 3,
+      "name": {
+        "local": "Pililla",
+        "en": "Pililla",
+        "slug": "pililla-045810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045810",
+        "level": 3,
+        "name": {
+          "local": "Pililla",
+          "en": "Pililla",
+          "slug": "pililla-045810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1910"
+    ],
+    "geo": {
+      "lat": "14.481",
+      "lon": "121.3056"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045810006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malaya",
+      "en": "Malaya",
+      "slug": "malaya-045810006"
+    },
+    "code": {
+      "id": "045810006",
+      "iso": null
+    },
+    "parent": {
+      "id": "045810",
+      "level": 3,
+      "name": {
+        "local": "Pililla",
+        "en": "Pililla",
+        "slug": "pililla-045810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045810",
+        "level": 3,
+        "name": {
+          "local": "Pililla",
+          "en": "Pililla",
+          "slug": "pililla-045810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1910"
+    ],
+    "geo": {
+      "lat": "14.3971",
+      "lon": "121.3385"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045810007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Niogan",
+      "en": "Niogan",
+      "slug": "niogan-045810007"
+    },
+    "code": {
+      "id": "045810007",
+      "iso": null
+    },
+    "parent": {
+      "id": "045810",
+      "level": 3,
+      "name": {
+        "local": "Pililla",
+        "en": "Pililla",
+        "slug": "pililla-045810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045810",
+        "level": 3,
+        "name": {
+          "local": "Pililla",
+          "en": "Pililla",
+          "slug": "pililla-045810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1910"
+    ],
+    "geo": {
+      "lat": "14.404",
+      "lon": "121.34"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045810008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Quisao",
+      "en": "Quisao",
+      "slug": "quisao-045810008"
+    },
+    "code": {
+      "id": "045810008",
+      "iso": null
+    },
+    "parent": {
+      "id": "045810",
+      "level": 3,
+      "name": {
+        "local": "Pililla",
+        "en": "Pililla",
+        "slug": "pililla-045810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045810",
+        "level": 3,
+        "name": {
+          "local": "Pililla",
+          "en": "Pililla",
+          "slug": "pililla-045810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1910"
+    ],
+    "geo": {
+      "lat": "14.4347",
+      "lon": "121.3344"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045810010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Takungan (Pob.)",
+      "en": "Takungan (Pob.)",
+      "slug": "takungan-pob-045810010"
+    },
+    "code": {
+      "id": "045810010",
+      "iso": null
+    },
+    "parent": {
+      "id": "045810",
+      "level": 3,
+      "name": {
+        "local": "Pililla",
+        "en": "Pililla",
+        "slug": "pililla-045810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045810",
+        "level": 3,
+        "name": {
+          "local": "Pililla",
+          "en": "Pililla",
+          "slug": "pililla-045810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1910"
+    ],
+    "geo": {
+      "lat": "14.4837",
+      "lon": "121.3057"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045810009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Wawa (Pob.)",
+      "en": "Wawa (Pob.)",
+      "slug": "wawa-pob-045810009"
+    },
+    "code": {
+      "id": "045810009",
+      "iso": null
+    },
+    "parent": {
+      "id": "045810",
+      "level": 3,
+      "name": {
+        "local": "Pililla",
+        "en": "Pililla",
+        "slug": "pililla-045810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045800",
+        "level": 2,
+        "name": {
+          "local": "Rizal",
+          "en": "Rizal",
+          "slug": "rizal-045800"
+        }
+      },
+      {
+        "id": "045810",
+        "level": 3,
+        "name": {
+          "local": "Pililla",
+          "en": "Pililla",
+          "slug": "pililla-045810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1910"
+    ],
+    "geo": {
+      "lat": "14.4636",
+      "lon": "121.1919"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

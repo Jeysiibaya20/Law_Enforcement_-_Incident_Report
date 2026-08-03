@@ -1,0 +1,56 @@
+{
+  "id": "112509",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Mati",
+    "en": "Mati",
+    "slug": "mati-112509"
+  },
+  "code": {
+    "id": "112509",
+    "iso": null
+  },
+  "parent": {
+    "id": "112500",
+    "level": 2,
+    "name": {
+      "local": "Davao Oriental",
+      "en": "Davao Oriental",
+      "slug": "davao-oriental-112500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 26
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.7098",
+    "lon": "123.2953"
+  },
+  "metadata": {},
+  "source": {}
+}

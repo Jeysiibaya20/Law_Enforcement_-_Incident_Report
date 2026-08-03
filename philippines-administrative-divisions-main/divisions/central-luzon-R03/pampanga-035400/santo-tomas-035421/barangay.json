@@ -1,0 +1,457 @@
+[
+  {
+    "id": "035421002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Moras De La Paz",
+      "en": "Moras De La Paz",
+      "slug": "moras-de-la-paz-035421002"
+    },
+    "code": {
+      "id": "035421002",
+      "iso": null
+    },
+    "parent": {
+      "id": "035421",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-035421"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035421",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-035421"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2020"
+    ],
+    "geo": {
+      "lat": "15.0124",
+      "lon": "120.7126"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035421004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-035421004"
+    },
+    "code": {
+      "id": "035421004",
+      "iso": null
+    },
+    "parent": {
+      "id": "035421",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-035421"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035421",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-035421"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2020"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035421005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Bartolome",
+      "en": "San Bartolome",
+      "slug": "san-bartolome-035421005"
+    },
+    "code": {
+      "id": "035421005",
+      "iso": null
+    },
+    "parent": {
+      "id": "035421",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-035421"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035421",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-035421"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2020"
+    ],
+    "geo": {
+      "lat": "15.9161",
+      "lon": "120.6254"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035421006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Matias",
+      "en": "San Matias",
+      "slug": "san-matias-035421006"
+    },
+    "code": {
+      "id": "035421006",
+      "iso": null
+    },
+    "parent": {
+      "id": "035421",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-035421"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035421",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-035421"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2020"
+    ],
+    "geo": {
+      "lat": "15.95",
+      "lon": "120.6667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035421007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Vicente",
+      "en": "San Vicente",
+      "slug": "san-vicente-035421007"
+    },
+    "code": {
+      "id": "035421007",
+      "iso": null
+    },
+    "parent": {
+      "id": "035421",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-035421"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035421",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-035421"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2020"
+    ],
+    "geo": {
+      "lat": "10.5281",
+      "lon": "119.2542"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035421008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Rosario (Pau)",
+      "en": "Santo Rosario (Pau)",
+      "slug": "santo-rosario-pau-035421008"
+    },
+    "code": {
+      "id": "035421008",
+      "iso": null
+    },
+    "parent": {
+      "id": "035421",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-035421"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035421",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-035421"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2020"
+    ],
+    "geo": {
+      "lat": "15.03",
+      "lon": "120.68"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035421009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapa (Santo Niño)",
+      "en": "Sapa (Santo Niño)",
+      "slug": "sapa-santo-nio-035421009"
+    },
+    "code": {
+      "id": "035421009",
+      "iso": null
+    },
+    "parent": {
+      "id": "035421",
+      "level": 3,
+      "name": {
+        "local": "Santo Tomas",
+        "en": "Santo Tomas",
+        "slug": "santo-tomas-035421"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035421",
+        "level": 3,
+        "name": {
+          "local": "Santo Tomas",
+          "en": "Santo Tomas",
+          "slug": "santo-tomas-035421"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2020"
+    ],
+    "geo": {
+      "lat": "5.1544",
+      "lon": "120.3241"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

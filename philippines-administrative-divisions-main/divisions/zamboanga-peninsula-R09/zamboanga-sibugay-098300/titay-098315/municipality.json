@@ -1,0 +1,56 @@
+{
+  "id": "098315",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Titay",
+    "en": "Titay",
+    "slug": "titay-098315"
+  },
+  "code": {
+    "id": "098315",
+    "iso": null
+  },
+  "parent": {
+    "id": "098300",
+    "level": 2,
+    "name": {
+      "local": "Zamboanga Sibugay",
+      "en": "Zamboanga Sibugay",
+      "slug": "zamboanga-sibugay-098300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 30
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.85",
+    "lon": "122.55"
+  },
+  "metadata": {},
+  "source": {}
+}

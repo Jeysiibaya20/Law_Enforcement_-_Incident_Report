@@ -1,0 +1,847 @@
+[
+  {
+    "id": "012908001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aluling",
+      "en": "Aluling",
+      "slug": "aluling-012908001"
+    },
+    "code": {
+      "id": "012908001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "16.99167",
+      "lon": "120.73333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Comillas North",
+      "en": "Comillas North",
+      "slug": "comillas-north-012908002"
+    },
+    "code": {
+      "id": "012908002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "16.959",
+      "lon": "120.7469"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Comillas South",
+      "en": "Comillas South",
+      "slug": "comillas-south-012908003"
+    },
+    "code": {
+      "id": "012908003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "16.959",
+      "lon": "120.7469"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Concepcion (Pob.)",
+      "en": "Concepcion (Pob.)",
+      "slug": "concepcion-pob-012908004"
+    },
+    "code": {
+      "id": "012908004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "17.1483",
+      "lon": "120.6111"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dinwede East",
+      "en": "Dinwede East",
+      "slug": "dinwede-east-012908005"
+    },
+    "code": {
+      "id": "012908005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "16.99167",
+      "lon": "120.73333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dinwede West",
+      "en": "Dinwede West",
+      "slug": "dinwede-west-012908006"
+    },
+    "code": {
+      "id": "012908006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "17.6",
+      "lon": "120.6667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Libang",
+      "en": "Libang",
+      "slug": "libang-012908007"
+    },
+    "code": {
+      "id": "012908007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "17.05",
+      "lon": "120.6833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malaya",
+      "en": "Malaya",
+      "slug": "malaya-012908017"
+    },
+    "code": {
+      "id": "012908017",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "16.9823",
+      "lon": "120.7125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pilipil",
+      "en": "Pilipil",
+      "slug": "pilipil-012908010"
+    },
+    "code": {
+      "id": "012908010",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "16.95",
+      "lon": "120.7667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Remedios",
+      "en": "Remedios",
+      "slug": "remedios-012908013"
+    },
+    "code": {
+      "id": "012908013",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "8.6481",
+      "lon": "125.6472"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rosario (Pob.)",
+      "en": "Rosario (Pob.)",
+      "slug": "rosario-pob-012908014"
+    },
+    "code": {
+      "id": "012908014",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "13.846",
+      "lon": "121.206"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan",
+      "en": "San Juan",
+      "slug": "san-juan-012908015"
+    },
+    "code": {
+      "id": "012908015",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "17.7431",
+      "lon": "120.4583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012908016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Luis",
+      "en": "San Luis",
+      "slug": "san-luis-012908016"
+    },
+    "code": {
+      "id": "012908016",
+      "iso": null
+    },
+    "parent": {
+      "id": "012908",
+      "level": 3,
+      "name": {
+        "local": "Cervantes",
+        "en": "Cervantes",
+        "slug": "cervantes-012908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012908",
+        "level": 3,
+        "name": {
+          "local": "Cervantes",
+          "en": "Cervantes",
+          "slug": "cervantes-012908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2718"
+    ],
+    "geo": {
+      "lat": "15.04",
+      "lon": "120.7919"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

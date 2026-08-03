@@ -1,0 +1,56 @@
+{
+  "id": "050503",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Daraga (Locsin)",
+    "en": "Daraga (Locsin)",
+    "slug": "daraga-locsin-050503"
+  },
+  "code": {
+    "id": "050503",
+    "iso": null
+  },
+  "parent": {
+    "id": "050500",
+    "level": 2,
+    "name": {
+      "local": "Albay",
+      "en": "Albay",
+      "slug": "albay-050500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "050500",
+      "level": 2,
+      "name": {
+        "local": "Albay",
+        "en": "Albay",
+        "slug": "albay-050500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 54
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.16194",
+    "lon": "123.69389"
+  },
+  "metadata": {},
+  "source": {}
+}

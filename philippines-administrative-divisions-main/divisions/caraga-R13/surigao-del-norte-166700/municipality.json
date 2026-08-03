@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "166701",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alegria",
+      "en": "Alegria",
+      "slug": "alegria-166701"
+    },
+    "code": {
+      "id": "166701",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.467",
+      "lon": "125.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166702",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bacuag",
+      "en": "Bacuag",
+      "slug": "bacuag-166702"
+    },
+    "code": {
+      "id": "166702",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.6",
+      "lon": "125.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166704",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Burgos",
+      "en": "Burgos",
+      "slug": "burgos-166704"
+    },
+    "code": {
+      "id": "166704",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 6
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.017",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166706",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Claver",
+      "en": "Claver",
+      "slug": "claver-166706"
+    },
+    "code": {
+      "id": "166706",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.567",
+      "lon": "125.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166707",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dapa",
+      "en": "Dapa",
+      "slug": "dapa-166707"
+    },
+    "code": {
+      "id": "166707",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.767",
+      "lon": "126.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166708",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Del Carmen",
+      "en": "Del Carmen",
+      "slug": "del-carmen-166708"
+    },
+    "code": {
+      "id": "166708",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.867",
+      "lon": "125.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166710",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "General Luna",
+      "en": "General Luna",
+      "slug": "general-luna-166710"
+    },
+    "code": {
+      "id": "166710",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.8",
+      "lon": "126.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166711",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Gigaquit",
+      "en": "Gigaquit",
+      "slug": "gigaquit-166711"
+    },
+    "code": {
+      "id": "166711",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.583",
+      "lon": "125.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166714",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mainit",
+      "en": "Mainit",
+      "slug": "mainit-166714"
+    },
+    "code": {
+      "id": "166714",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.533",
+      "lon": "125.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166715",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malimono",
+      "en": "Malimono",
+      "slug": "malimono-166715"
+    },
+    "code": {
+      "id": "166715",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.617",
+      "lon": "125.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166716",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pilar",
+      "en": "Pilar",
+      "slug": "pilar-166716"
+    },
+    "code": {
+      "id": "166716",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.867",
+      "lon": "126.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166717",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Placer",
+      "en": "Placer",
+      "slug": "placer-166717"
+    },
+    "code": {
+      "id": "166717",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.65",
+      "lon": "125.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166718",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Benito",
+      "en": "San Benito",
+      "slug": "san-benito-166718"
+    },
+    "code": {
+      "id": "166718",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 6
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.95",
+      "lon": "126.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166719",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Francisco (Anao-Aon)",
+      "en": "San Francisco (Anao-Aon)",
+      "slug": "san-francisco-anao-aon-166719"
+    },
+    "code": {
+      "id": "166719",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.733",
+      "lon": "125.417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166720",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-166720"
+    },
+    "code": {
+      "id": "166720",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.933",
+      "lon": "126.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166721",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Monica (Sapao)",
+      "en": "Santa Monica (Sapao)",
+      "slug": "santa-monica-sapao-166721"
+    },
+    "code": {
+      "id": "166721",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.01944",
+      "lon": "126.03889"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166722",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sison",
+      "en": "Sison",
+      "slug": "sison-166722"
+    },
+    "code": {
+      "id": "166722",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.667",
+      "lon": "125.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Socorro",
+      "en": "Socorro",
+      "slug": "socorro-166723"
+    },
+    "code": {
+      "id": "166723",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.633",
+      "lon": "125.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166724",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Surigao City",
+      "en": "Surigao City",
+      "slug": "surigao-city-166724"
+    },
+    "code": {
+      "id": "166724",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 54
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.78",
+      "lon": "125.48"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tagana-An",
+      "en": "Tagana-An",
+      "slug": "tagana-an-166725"
+    },
+    "code": {
+      "id": "166725",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.7",
+      "lon": "125.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166727",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tubod",
+      "en": "Tubod",
+      "slug": "tubod-166727"
+    },
+    "code": {
+      "id": "166727",
+      "iso": null
+    },
+    "parent": {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.567",
+      "lon": "125.567"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

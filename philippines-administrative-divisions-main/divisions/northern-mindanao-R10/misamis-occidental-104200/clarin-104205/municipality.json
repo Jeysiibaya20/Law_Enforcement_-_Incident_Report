@@ -1,0 +1,56 @@
+{
+  "id": "104205",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Clarin",
+    "en": "Clarin",
+    "slug": "clarin-104205"
+  },
+  "code": {
+    "id": "104205",
+    "iso": null
+  },
+  "parent": {
+    "id": "104200",
+    "level": 2,
+    "name": {
+      "local": "Misamis Occidental",
+      "en": "Misamis Occidental",
+      "slug": "misamis-occidental-104200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "104200",
+      "level": 2,
+      "name": {
+        "local": "Misamis Occidental",
+        "en": "Misamis Occidental",
+        "slug": "misamis-occidental-104200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 29
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.2",
+    "lon": "123.85"
+  },
+  "metadata": {},
+  "source": {}
+}

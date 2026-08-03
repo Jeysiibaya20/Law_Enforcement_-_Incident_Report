@@ -1,0 +1,35 @@
+{
+  "id": "R17",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "MIMAROPA Region",
+    "en": "MIMAROPA Region",
+    "slug": "mimaropa-region-R17"
+  },
+  "code": {
+    "id": "R17",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 5,
+    "barangay": 1459,
+    "municipality": 73
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.3391",
+    "lon": "120.8897"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/mimaropa-region-R17/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

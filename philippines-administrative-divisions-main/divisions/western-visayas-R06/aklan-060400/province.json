@@ -1,0 +1,48 @@
+{
+  "id": "060400",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Aklan",
+    "en": "Aklan",
+    "slug": "aklan-060400"
+  },
+  "code": {
+    "id": "060400",
+    "iso": null
+  },
+  "parent": {
+    "id": "R06",
+    "level": 1,
+    "name": {
+      "local": "Western Visayas",
+      "en": "Western Visayas",
+      "slug": "western-visayas-R06"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 17,
+    "barangay": 327
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.7974",
+    "lon": "122.2374"
+  },
+  "metadata": {},
+  "source": {}
+}

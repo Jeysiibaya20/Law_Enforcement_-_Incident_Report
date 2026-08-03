@@ -1,0 +1,56 @@
+{
+  "id": "063043",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Barbara",
+    "en": "Santa Barbara",
+    "slug": "santa-barbara-063043"
+  },
+  "code": {
+    "id": "063043",
+    "iso": null
+  },
+  "parent": {
+    "id": "063000",
+    "level": 2,
+    "name": {
+      "local": "Iloilo",
+      "en": "Iloilo",
+      "slug": "iloilo-063000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 60
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.00306",
+    "lon": "120.40083"
+  },
+  "metadata": {},
+  "source": {}
+}

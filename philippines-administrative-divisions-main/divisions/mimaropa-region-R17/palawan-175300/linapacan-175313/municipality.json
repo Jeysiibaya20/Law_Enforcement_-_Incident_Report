@@ -1,0 +1,56 @@
+{
+  "id": "175313",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Linapacan",
+    "en": "Linapacan",
+    "slug": "linapacan-175313"
+  },
+  "code": {
+    "id": "175313",
+    "iso": null
+  },
+  "parent": {
+    "id": "175300",
+    "level": 2,
+    "name": {
+      "local": "Palawan",
+      "en": "Palawan",
+      "slug": "palawan-175300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 10
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.5",
+    "lon": "119.867"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,48 @@
+{
+  "id": "126300",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "South Cotabato",
+    "en": "South Cotabato",
+    "slug": "south-cotabato-126300"
+  },
+  "code": {
+    "id": "126300",
+    "iso": null
+  },
+  "parent": {
+    "id": "R12",
+    "level": 1,
+    "name": {
+      "local": "SOCCSKSARGEN",
+      "en": "SOCCSKSARGEN",
+      "slug": "soccsksargen-R12"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 12,
+    "barangay": 225
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.1993",
+    "lon": "124.0666"
+  },
+  "metadata": {},
+  "source": {}
+}

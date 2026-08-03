@@ -1,0 +1,782 @@
+[
+  {
+    "id": "023111006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bicobian",
+      "en": "Bicobian",
+      "slug": "bicobian-023111006"
+    },
+    "code": {
+      "id": "023111006",
+      "iso": null
+    },
+    "parent": {
+      "id": "023111",
+      "level": 3,
+      "name": {
+        "local": "Divilacan",
+        "en": "Divilacan",
+        "slug": "divilacan-023111"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023111",
+        "level": 3,
+        "name": {
+          "local": "Divilacan",
+          "en": "Divilacan",
+          "slug": "divilacan-023111"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3335"
+    ],
+    "geo": {
+      "lat": "17.2718",
+      "lon": "122.4173"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023111012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dibulos",
+      "en": "Dibulos",
+      "slug": "dibulos-023111012"
+    },
+    "code": {
+      "id": "023111012",
+      "iso": null
+    },
+    "parent": {
+      "id": "023111",
+      "level": 3,
+      "name": {
+        "local": "Divilacan",
+        "en": "Divilacan",
+        "slug": "divilacan-023111"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023111",
+        "level": 3,
+        "name": {
+          "local": "Divilacan",
+          "en": "Divilacan",
+          "slug": "divilacan-023111"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3335"
+    ],
+    "geo": {
+      "lat": "17.2952",
+      "lon": "122.3762"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023111003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dicambangan",
+      "en": "Dicambangan",
+      "slug": "dicambangan-023111003"
+    },
+    "code": {
+      "id": "023111003",
+      "iso": null
+    },
+    "parent": {
+      "id": "023111",
+      "level": 3,
+      "name": {
+        "local": "Divilacan",
+        "en": "Divilacan",
+        "slug": "divilacan-023111"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023111",
+        "level": 3,
+        "name": {
+          "local": "Divilacan",
+          "en": "Divilacan",
+          "slug": "divilacan-023111"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3335"
+    ],
+    "geo": {
+      "lat": "17.3064",
+      "lon": "122.2696"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023111004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dicaroyan",
+      "en": "Dicaroyan",
+      "slug": "dicaroyan-023111004"
+    },
+    "code": {
+      "id": "023111004",
+      "iso": null
+    },
+    "parent": {
+      "id": "023111",
+      "level": 3,
+      "name": {
+        "local": "Divilacan",
+        "en": "Divilacan",
+        "slug": "divilacan-023111"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023111",
+        "level": 3,
+        "name": {
+          "local": "Divilacan",
+          "en": "Divilacan",
+          "slug": "divilacan-023111"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3335"
+    ],
+    "geo": {
+      "lat": "17.333",
+      "lon": "122.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023111005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dicatian",
+      "en": "Dicatian",
+      "slug": "dicatian-023111005"
+    },
+    "code": {
+      "id": "023111005",
+      "iso": null
+    },
+    "parent": {
+      "id": "023111",
+      "level": 3,
+      "name": {
+        "local": "Divilacan",
+        "en": "Divilacan",
+        "slug": "divilacan-023111"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023111",
+        "level": 3,
+        "name": {
+          "local": "Divilacan",
+          "en": "Divilacan",
+          "slug": "divilacan-023111"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3335"
+    ],
+    "geo": {
+      "lat": "17.3547",
+      "lon": "122.2604"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023111007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dilakit",
+      "en": "Dilakit",
+      "slug": "dilakit-023111007"
+    },
+    "code": {
+      "id": "023111007",
+      "iso": null
+    },
+    "parent": {
+      "id": "023111",
+      "level": 3,
+      "name": {
+        "local": "Divilacan",
+        "en": "Divilacan",
+        "slug": "divilacan-023111"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023111",
+        "level": 3,
+        "name": {
+          "local": "Divilacan",
+          "en": "Divilacan",
+          "slug": "divilacan-023111"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3335"
+    ],
+    "geo": {
+      "lat": "17.3353",
+      "lon": "122.3168"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023111008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dimapnat",
+      "en": "Dimapnat",
+      "slug": "dimapnat-023111008"
+    },
+    "code": {
+      "id": "023111008",
+      "iso": null
+    },
+    "parent": {
+      "id": "023111",
+      "level": 3,
+      "name": {
+        "local": "Divilacan",
+        "en": "Divilacan",
+        "slug": "divilacan-023111"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023111",
+        "level": 3,
+        "name": {
+          "local": "Divilacan",
+          "en": "Divilacan",
+          "slug": "divilacan-023111"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3335"
+    ],
+    "geo": {
+      "lat": "17.333",
+      "lon": "122.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023111009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dimapula (Pob.)",
+      "en": "Dimapula (Pob.)",
+      "slug": "dimapula-pob-023111009"
+    },
+    "code": {
+      "id": "023111009",
+      "iso": null
+    },
+    "parent": {
+      "id": "023111",
+      "level": 3,
+      "name": {
+        "local": "Divilacan",
+        "en": "Divilacan",
+        "slug": "divilacan-023111"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023111",
+        "level": 3,
+        "name": {
+          "local": "Divilacan",
+          "en": "Divilacan",
+          "slug": "divilacan-023111"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3335"
+    ],
+    "geo": {
+      "lat": "17.335",
+      "lon": "122.2849"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023111010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dimasalansan",
+      "en": "Dimasalansan",
+      "slug": "dimasalansan-023111010"
+    },
+    "code": {
+      "id": "023111010",
+      "iso": null
+    },
+    "parent": {
+      "id": "023111",
+      "level": 3,
+      "name": {
+        "local": "Divilacan",
+        "en": "Divilacan",
+        "slug": "divilacan-023111"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023111",
+        "level": 3,
+        "name": {
+          "local": "Divilacan",
+          "en": "Divilacan",
+          "slug": "divilacan-023111"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3335"
+    ],
+    "geo": {
+      "lat": "17.333",
+      "lon": "122.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023111011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dipudo",
+      "en": "Dipudo",
+      "slug": "dipudo-023111011"
+    },
+    "code": {
+      "id": "023111011",
+      "iso": null
+    },
+    "parent": {
+      "id": "023111",
+      "level": 3,
+      "name": {
+        "local": "Divilacan",
+        "en": "Divilacan",
+        "slug": "divilacan-023111"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023111",
+        "level": 3,
+        "name": {
+          "local": "Divilacan",
+          "en": "Divilacan",
+          "slug": "divilacan-023111"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3335"
+    ],
+    "geo": {
+      "lat": "17.3479",
+      "lon": "122.3663"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023111013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ditarum",
+      "en": "Ditarum",
+      "slug": "ditarum-023111013"
+    },
+    "code": {
+      "id": "023111013",
+      "iso": null
+    },
+    "parent": {
+      "id": "023111",
+      "level": 3,
+      "name": {
+        "local": "Divilacan",
+        "en": "Divilacan",
+        "slug": "divilacan-023111"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023111",
+        "level": 3,
+        "name": {
+          "local": "Divilacan",
+          "en": "Divilacan",
+          "slug": "divilacan-023111"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3335"
+    ],
+    "geo": {
+      "lat": "17.2803",
+      "lon": "122.297"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023111016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapinit",
+      "en": "Sapinit",
+      "slug": "sapinit-023111016"
+    },
+    "code": {
+      "id": "023111016",
+      "iso": null
+    },
+    "parent": {
+      "id": "023111",
+      "level": 3,
+      "name": {
+        "local": "Divilacan",
+        "en": "Divilacan",
+        "slug": "divilacan-023111"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023111",
+        "level": 3,
+        "name": {
+          "local": "Divilacan",
+          "en": "Divilacan",
+          "slug": "divilacan-023111"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3335"
+    ],
+    "geo": {
+      "lat": "8.8167",
+      "lon": "125.1667"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

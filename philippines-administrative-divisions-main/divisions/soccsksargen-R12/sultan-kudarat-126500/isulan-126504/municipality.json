@@ -1,0 +1,56 @@
+{
+  "id": "126504",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Isulan",
+    "en": "Isulan",
+    "slug": "isulan-126504"
+  },
+  "code": {
+    "id": "126504",
+    "iso": null
+  },
+  "parent": {
+    "id": "126500",
+    "level": 2,
+    "name": {
+      "local": "Sultan Kudarat",
+      "en": "Sultan Kudarat",
+      "slug": "sultan-kudarat-126500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    {
+      "id": "126500",
+      "level": 2,
+      "name": {
+        "local": "Sultan Kudarat",
+        "en": "Sultan Kudarat",
+        "slug": "sultan-kudarat-126500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 17
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.633",
+    "lon": "124.6"
+  },
+  "metadata": {},
+  "source": {}
+}

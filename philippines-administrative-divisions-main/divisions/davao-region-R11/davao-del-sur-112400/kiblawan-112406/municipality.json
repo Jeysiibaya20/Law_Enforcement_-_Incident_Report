@@ -1,0 +1,56 @@
+{
+  "id": "112406",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Kiblawan",
+    "en": "Kiblawan",
+    "slug": "kiblawan-112406"
+  },
+  "code": {
+    "id": "112406",
+    "iso": null
+  },
+  "parent": {
+    "id": "112400",
+    "level": 2,
+    "name": {
+      "local": "Davao del Sur",
+      "en": "Davao del Sur",
+      "slug": "davao-del-sur-112400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    {
+      "id": "112400",
+      "level": 2,
+      "name": {
+        "local": "Davao del Sur",
+        "en": "Davao del Sur",
+        "slug": "davao-del-sur-112400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 30
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.617",
+    "lon": "125.217"
+  },
+  "metadata": {},
+  "source": {}
+}

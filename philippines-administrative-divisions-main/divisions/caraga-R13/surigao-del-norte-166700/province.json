@@ -1,0 +1,48 @@
+{
+  "id": "166700",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Surigao del Norte",
+    "en": "Surigao del Norte",
+    "slug": "surigao-del-norte-166700"
+  },
+  "code": {
+    "id": "166700",
+    "iso": null
+  },
+  "parent": {
+    "id": "R13",
+    "level": 1,
+    "name": {
+      "local": "Caraga",
+      "en": "Caraga",
+      "slug": "caraga-R13"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 21,
+    "barangay": 335
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.5885",
+    "lon": "124.5472"
+  },
+  "metadata": {},
+  "source": {}
+}

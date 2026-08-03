@@ -1,0 +1,587 @@
+[
+  {
+    "id": "168507005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Diaz (Romualdez)",
+      "en": "Diaz (Romualdez)",
+      "slug": "diaz-romualdez-168507005"
+    },
+    "code": {
+      "id": "168507005",
+      "iso": null
+    },
+    "parent": {
+      "id": "168507",
+      "level": 3,
+      "name": {
+        "local": "Tubajon",
+        "en": "Tubajon",
+        "slug": "tubajon-168507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168507",
+        "level": 3,
+        "name": {
+          "local": "Tubajon",
+          "en": "Tubajon",
+          "slug": "tubajon-168507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8426"
+    ],
+    "geo": {
+      "lat": "15.8038",
+      "lon": "120.4871"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168507001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Imelda",
+      "en": "Imelda",
+      "slug": "imelda-168507001"
+    },
+    "code": {
+      "id": "168507001",
+      "iso": null
+    },
+    "parent": {
+      "id": "168507",
+      "level": 3,
+      "name": {
+        "local": "Tubajon",
+        "en": "Tubajon",
+        "slug": "tubajon-168507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168507",
+        "level": 3,
+        "name": {
+          "local": "Tubajon",
+          "en": "Tubajon",
+          "slug": "tubajon-168507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8426"
+    ],
+    "geo": {
+      "lat": "15.333",
+      "lon": "120.9176"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168507002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabini",
+      "en": "Mabini",
+      "slug": "mabini-168507002"
+    },
+    "code": {
+      "id": "168507002",
+      "iso": null
+    },
+    "parent": {
+      "id": "168507",
+      "level": 3,
+      "name": {
+        "local": "Tubajon",
+        "en": "Tubajon",
+        "slug": "tubajon-168507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168507",
+        "level": 3,
+        "name": {
+          "local": "Tubajon",
+          "en": "Tubajon",
+          "slug": "tubajon-168507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8426"
+    ],
+    "geo": {
+      "lat": "10.3289",
+      "lon": "125.5925"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168507003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malinao",
+      "en": "Malinao",
+      "slug": "malinao-168507003"
+    },
+    "code": {
+      "id": "168507003",
+      "iso": null
+    },
+    "parent": {
+      "id": "168507",
+      "level": 3,
+      "name": {
+        "local": "Tubajon",
+        "en": "Tubajon",
+        "slug": "tubajon-168507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168507",
+        "level": 3,
+        "name": {
+          "local": "Tubajon",
+          "en": "Tubajon",
+          "slug": "tubajon-168507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8426"
+    ],
+    "geo": {
+      "lat": "10.2589",
+      "lon": "125.6214"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168507004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Navarro",
+      "en": "Navarro",
+      "slug": "navarro-168507004"
+    },
+    "code": {
+      "id": "168507004",
+      "iso": null
+    },
+    "parent": {
+      "id": "168507",
+      "level": 3,
+      "name": {
+        "local": "Tubajon",
+        "en": "Tubajon",
+        "slug": "tubajon-168507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168507",
+        "level": 3,
+        "name": {
+          "local": "Tubajon",
+          "en": "Tubajon",
+          "slug": "tubajon-168507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8426"
+    ],
+    "geo": {
+      "lat": "12.1031",
+      "lon": "124.565"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168507006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Roxas",
+      "en": "Roxas",
+      "slug": "roxas-168507006"
+    },
+    "code": {
+      "id": "168507006",
+      "iso": null
+    },
+    "parent": {
+      "id": "168507",
+      "level": 3,
+      "name": {
+        "local": "Tubajon",
+        "en": "Tubajon",
+        "slug": "tubajon-168507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168507",
+        "level": 3,
+        "name": {
+          "local": "Tubajon",
+          "en": "Tubajon",
+          "slug": "tubajon-168507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8426"
+    ],
+    "geo": {
+      "lat": "10.3473",
+      "lon": "125.5553"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168507007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque (Pob.)",
+      "en": "San Roque (Pob.)",
+      "slug": "san-roque-pob-168507007"
+    },
+    "code": {
+      "id": "168507007",
+      "iso": null
+    },
+    "parent": {
+      "id": "168507",
+      "level": 3,
+      "name": {
+        "local": "Tubajon",
+        "en": "Tubajon",
+        "slug": "tubajon-168507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168507",
+        "level": 3,
+        "name": {
+          "local": "Tubajon",
+          "en": "Tubajon",
+          "slug": "tubajon-168507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8426"
+    ],
+    "geo": {
+      "lat": "12.533",
+      "lon": "124.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168507008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Vicente (Pob.)",
+      "en": "San Vicente (Pob.)",
+      "slug": "san-vicente-pob-168507008"
+    },
+    "code": {
+      "id": "168507008",
+      "iso": null
+    },
+    "parent": {
+      "id": "168507",
+      "level": 3,
+      "name": {
+        "local": "Tubajon",
+        "en": "Tubajon",
+        "slug": "tubajon-168507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168507",
+        "level": 3,
+        "name": {
+          "local": "Tubajon",
+          "en": "Tubajon",
+          "slug": "tubajon-168507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8426"
+    ],
+    "geo": {
+      "lat": "10.5281",
+      "lon": "119.2542"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "168507009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Cruz (Pob.)",
+      "en": "Santa Cruz (Pob.)",
+      "slug": "santa-cruz-pob-168507009"
+    },
+    "code": {
+      "id": "168507009",
+      "iso": null
+    },
+    "parent": {
+      "id": "168507",
+      "level": 3,
+      "name": {
+        "local": "Tubajon",
+        "en": "Tubajon",
+        "slug": "tubajon-168507"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "168500",
+        "level": 2,
+        "name": {
+          "local": "Dinagat Islands",
+          "en": "Dinagat Islands",
+          "slug": "dinagat-islands-168500"
+        }
+      },
+      {
+        "id": "168507",
+        "level": 3,
+        "name": {
+          "local": "Tubajon",
+          "en": "Tubajon",
+          "slug": "tubajon-168507"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8426"
+    ],
+    "geo": {
+      "lat": "10.3217",
+      "lon": "125.5619"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "034926",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Jose City",
+    "en": "San Jose City",
+    "slug": "san-jose-city-034926"
+  },
+  "code": {
+    "id": "034926",
+    "iso": null
+  },
+  "parent": {
+    "id": "034900",
+    "level": 2,
+    "name": {
+      "local": "Nueva Ecija",
+      "en": "Nueva Ecija",
+      "slug": "nueva-ecija-034900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "034900",
+      "level": 2,
+      "name": {
+        "local": "Nueva Ecija",
+        "en": "Nueva Ecija",
+        "slug": "nueva-ecija-034900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 38
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.783",
+    "lon": "121"
+  },
+  "metadata": {},
+  "source": {}
+}

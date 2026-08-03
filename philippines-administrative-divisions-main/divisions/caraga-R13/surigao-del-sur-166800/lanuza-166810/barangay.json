@@ -1,0 +1,847 @@
+[
+  {
+    "id": "166810001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agsam",
+      "en": "Agsam",
+      "slug": "agsam-166810001"
+    },
+    "code": {
+      "id": "166810001",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "12.1716",
+      "lon": "125.3892"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bocawe",
+      "en": "Bocawe",
+      "slug": "bocawe-166810003"
+    },
+    "code": {
+      "id": "166810003",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "9.233",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bunga",
+      "en": "Bunga",
+      "slug": "bunga-166810004"
+    },
+    "code": {
+      "id": "166810004",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "16.0221",
+      "lon": "121.035"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gamuton",
+      "en": "Gamuton",
+      "slug": "gamuton-166810008"
+    },
+    "code": {
+      "id": "166810008",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "8.5315",
+      "lon": "126.2412"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Habag",
+      "en": "Habag",
+      "slug": "habag-166810009"
+    },
+    "code": {
+      "id": "166810009",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "10.8167",
+      "lon": "125.7045"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mampi",
+      "en": "Mampi",
+      "slug": "mampi-166810010"
+    },
+    "code": {
+      "id": "166810010",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "9.233",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nurcia",
+      "en": "Nurcia",
+      "slug": "nurcia-166810011"
+    },
+    "code": {
+      "id": "166810011",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "9.233",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pakwan",
+      "en": "Pakwan",
+      "slug": "pakwan-166810017"
+    },
+    "code": {
+      "id": "166810017",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "9.233",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sibahay",
+      "en": "Sibahay",
+      "slug": "sibahay-166810015"
+    },
+    "code": {
+      "id": "166810015",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "9.2431",
+      "lon": "126.0972"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Zone I (Pob.)",
+      "en": "Zone I (Pob.)",
+      "slug": "zone-i-pob-166810016"
+    },
+    "code": {
+      "id": "166810016",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "9.233",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Zone II (Pob.)",
+      "en": "Zone II (Pob.)",
+      "slug": "zone-ii-pob-166810018"
+    },
+    "code": {
+      "id": "166810018",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "9.233",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Zone III (Pob.)",
+      "en": "Zone III (Pob.)",
+      "slug": "zone-iii-pob-166810019"
+    },
+    "code": {
+      "id": "166810019",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "9.233",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Zone IV (Pob.)",
+      "en": "Zone IV (Pob.)",
+      "slug": "zone-iv-pob-166810020"
+    },
+    "code": {
+      "id": "166810020",
+      "iso": null
+    },
+    "parent": {
+      "id": "166810",
+      "level": 3,
+      "name": {
+        "local": "Lanuza",
+        "en": "Lanuza",
+        "slug": "lanuza-166810"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166810",
+        "level": 3,
+        "name": {
+          "local": "Lanuza",
+          "en": "Lanuza",
+          "slug": "lanuza-166810"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8314"
+    ],
+    "geo": {
+      "lat": "9.233",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

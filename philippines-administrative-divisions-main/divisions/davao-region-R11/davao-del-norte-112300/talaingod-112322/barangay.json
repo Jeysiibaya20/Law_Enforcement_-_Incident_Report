@@ -1,0 +1,197 @@
+[
+  {
+    "id": "112322001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dagohoy",
+      "en": "Dagohoy",
+      "slug": "dagohoy-112322001"
+    },
+    "code": {
+      "id": "112322001",
+      "iso": null
+    },
+    "parent": {
+      "id": "112322",
+      "level": 3,
+      "name": {
+        "local": "Talaingod",
+        "en": "Talaingod",
+        "slug": "talaingod-112322"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112322",
+        "level": 3,
+        "name": {
+          "local": "Talaingod",
+          "en": "Talaingod",
+          "slug": "talaingod-112322"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8107"
+    ],
+    "geo": {
+      "lat": "9.92",
+      "lon": "124.28"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112322002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Palma Gil",
+      "en": "Palma Gil",
+      "slug": "palma-gil-112322002"
+    },
+    "code": {
+      "id": "112322002",
+      "iso": null
+    },
+    "parent": {
+      "id": "112322",
+      "level": 3,
+      "name": {
+        "local": "Talaingod",
+        "en": "Talaingod",
+        "slug": "talaingod-112322"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112322",
+        "level": 3,
+        "name": {
+          "local": "Talaingod",
+          "en": "Talaingod",
+          "slug": "talaingod-112322"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8107"
+    ],
+    "geo": {
+      "lat": "7.6422",
+      "lon": "125.6292"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112322003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-112322003"
+    },
+    "code": {
+      "id": "112322003",
+      "iso": null
+    },
+    "parent": {
+      "id": "112322",
+      "level": 3,
+      "name": {
+        "local": "Talaingod",
+        "en": "Talaingod",
+        "slug": "talaingod-112322"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112322",
+        "level": 3,
+        "name": {
+          "local": "Talaingod",
+          "en": "Talaingod",
+          "slug": "talaingod-112322"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8107"
+    ],
+    "geo": {
+      "lat": "7.3278",
+      "lon": "125.7053"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "042110",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Indang",
+    "en": "Indang",
+    "slug": "indang-042110"
+  },
+  "code": {
+    "id": "042110",
+    "iso": null
+  },
+  "parent": {
+    "id": "042100",
+    "level": 2,
+    "name": {
+      "local": "Cavite",
+      "en": "Cavite",
+      "slug": "cavite-042100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 36
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.19528",
+    "lon": "120.87694"
+  },
+  "metadata": {},
+  "source": {}
+}

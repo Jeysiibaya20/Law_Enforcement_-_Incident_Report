@@ -1,0 +1,56 @@
+{
+  "id": "082618",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Quinapondan",
+    "en": "Quinapondan",
+    "slug": "quinapondan-082618"
+  },
+  "code": {
+    "id": "082618",
+    "iso": null
+  },
+  "parent": {
+    "id": "082600",
+    "level": 2,
+    "name": {
+      "local": "Eastern Samar",
+      "en": "Eastern Samar",
+      "slug": "eastern-samar-082600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "082600",
+      "level": 2,
+      "name": {
+        "local": "Eastern Samar",
+        "en": "Eastern Samar",
+        "slug": "eastern-samar-082600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 25
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.15",
+    "lon": "125.517"
+  },
+  "metadata": {},
+  "source": {}
+}

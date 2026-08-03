@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "054101",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Aroroy",
+      "en": "Aroroy",
+      "slug": "aroroy-054101"
+    },
+    "code": {
+      "id": "054101",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 41
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.5",
+      "lon": "123.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054102",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Baleno",
+      "en": "Baleno",
+      "slug": "baleno-054102"
+    },
+    "code": {
+      "id": "054102",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.467",
+      "lon": "123.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054103",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balud",
+      "en": "Balud",
+      "slug": "balud-054103"
+    },
+    "code": {
+      "id": "054103",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 32
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.033",
+      "lon": "123.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054104",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Batuan",
+      "en": "Batuan",
+      "slug": "batuan-054104"
+    },
+    "code": {
+      "id": "054104",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.417",
+      "lon": "123.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054105",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cataingan",
+      "en": "Cataingan",
+      "slug": "cataingan-054105"
+    },
+    "code": {
+      "id": "054105",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 36
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12",
+      "lon": "123.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054106",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cawayan",
+      "en": "Cawayan",
+      "slug": "cawayan-054106"
+    },
+    "code": {
+      "id": "054106",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.033",
+      "lon": "123.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054107",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Claveria",
+      "en": "Claveria",
+      "slug": "claveria-054107"
+    },
+    "code": {
+      "id": "054107",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.9",
+      "lon": "123.25"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054108",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dimasalang",
+      "en": "Dimasalang",
+      "slug": "dimasalang-054108"
+    },
+    "code": {
+      "id": "054108",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.183",
+      "lon": "123.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054109",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Esperanza",
+      "en": "Esperanza",
+      "slug": "esperanza-054109"
+    },
+    "code": {
+      "id": "054109",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.733",
+      "lon": "124.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054110",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mandaon",
+      "en": "Mandaon",
+      "slug": "mandaon-054110"
+    },
+    "code": {
+      "id": "054110",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.233",
+      "lon": "123.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054111",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Masbate",
+      "en": "Masbate",
+      "slug": "masbate-054111"
+    },
+    "code": {
+      "id": "054111",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.17",
+      "lon": "123.58"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054112",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Milagros",
+      "en": "Milagros",
+      "slug": "milagros-054112"
+    },
+    "code": {
+      "id": "054112",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.233",
+      "lon": "123.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054113",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mobo",
+      "en": "Mobo",
+      "slug": "mobo-054113"
+    },
+    "code": {
+      "id": "054113",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.333",
+      "lon": "123.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054114",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Monreal",
+      "en": "Monreal",
+      "slug": "monreal-054114"
+    },
+    "code": {
+      "id": "054114",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.633",
+      "lon": "123.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054115",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Palanas",
+      "en": "Palanas",
+      "slug": "palanas-054115"
+    },
+    "code": {
+      "id": "054115",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.15",
+      "lon": "123.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054116",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pio V. Corpuz (Limbuhan)",
+      "en": "Pio V. Corpuz (Limbuhan)",
+      "slug": "pio-v-corpuz-limbuhan-054116"
+    },
+    "code": {
+      "id": "054116",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.0667",
+      "lon": "125.0167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054117",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Placer",
+      "en": "Placer",
+      "slug": "placer-054117"
+    },
+    "code": {
+      "id": "054117",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.867",
+      "lon": "123.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054118",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Fernando",
+      "en": "San Fernando",
+      "slug": "san-fernando-054118"
+    },
+    "code": {
+      "id": "054118",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.483",
+      "lon": "123.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054119",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Jacinto",
+      "en": "San Jacinto",
+      "slug": "san-jacinto-054119"
+    },
+    "code": {
+      "id": "054119",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.567",
+      "lon": "123.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054120",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Pascual",
+      "en": "San Pascual",
+      "slug": "san-pascual-054120"
+    },
+    "code": {
+      "id": "054120",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.133",
+      "lon": "122.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "054121",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Uson",
+      "en": "Uson",
+      "slug": "uson-054121"
+    },
+    "code": {
+      "id": "054121",
+      "iso": null
+    },
+    "parent": {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "054100",
+        "level": 2,
+        "name": {
+          "local": "Masbate",
+          "en": "Masbate",
+          "slug": "masbate-054100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.217",
+      "lon": "123.783"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

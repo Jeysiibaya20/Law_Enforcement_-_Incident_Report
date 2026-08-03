@@ -1,0 +1,56 @@
+{
+  "id": "140109",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Lacub",
+    "en": "Lacub",
+    "slug": "lacub-140109"
+  },
+  "code": {
+    "id": "140109",
+    "iso": null
+  },
+  "parent": {
+    "id": "140100",
+    "level": 2,
+    "name": {
+      "local": "Abra",
+      "en": "Abra",
+      "slug": "abra-140100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "140100",
+      "level": 2,
+      "name": {
+        "local": "Abra",
+        "en": "Abra",
+        "slug": "abra-140100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 6
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.667",
+    "lon": "120.95"
+  },
+  "metadata": {},
+  "source": {}
+}

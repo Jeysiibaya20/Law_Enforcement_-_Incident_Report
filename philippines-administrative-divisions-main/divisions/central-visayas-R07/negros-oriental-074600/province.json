@@ -1,0 +1,48 @@
+{
+  "id": "074600",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Negros Oriental",
+    "en": "Negros Oriental",
+    "slug": "negros-oriental-074600"
+  },
+  "code": {
+    "id": "074600",
+    "iso": null
+  },
+  "parent": {
+    "id": "R07",
+    "level": 1,
+    "name": {
+      "local": "Central Visayas",
+      "en": "Central Visayas",
+      "slug": "central-visayas-R07"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 25,
+    "barangay": 557
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.2858",
+    "lon": "122.9494"
+  },
+  "metadata": {},
+  "source": {}
+}

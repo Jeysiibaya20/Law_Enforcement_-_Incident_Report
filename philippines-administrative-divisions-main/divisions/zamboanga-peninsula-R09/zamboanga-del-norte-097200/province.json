@@ -1,0 +1,48 @@
+{
+  "id": "097200",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Zamboanga del Norte",
+    "en": "Zamboanga del Norte",
+    "slug": "zamboanga-del-norte-097200"
+  },
+  "code": {
+    "id": "097200",
+    "iso": null
+  },
+  "parent": {
+    "id": "R09",
+    "level": 1,
+    "name": {
+      "local": "Zamboanga Peninsula",
+      "en": "Zamboanga Peninsula",
+      "slug": "zamboanga-peninsula-R09"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 27,
+    "barangay": 691
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.4852",
+    "lon": "122.8253"
+  },
+  "metadata": {},
+  "source": {}
+}

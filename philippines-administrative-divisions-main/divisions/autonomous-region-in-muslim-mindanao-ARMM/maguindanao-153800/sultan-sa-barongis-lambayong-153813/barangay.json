@@ -1,0 +1,782 @@
+[
+  {
+    "id": "153813001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Angkayamat",
+      "en": "Angkayamat",
+      "slug": "angkayamat-153813001"
+    },
+    "code": {
+      "id": "153813001",
+      "iso": null
+    },
+    "parent": {
+      "id": "153813",
+      "level": 3,
+      "name": {
+        "local": "Sultan Sa Barongis (Lambayong)",
+        "en": "Sultan Sa Barongis (Lambayong)",
+        "slug": "sultan-sa-barongis-lambayong-153813"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153813",
+        "level": 3,
+        "name": {
+          "local": "Sultan Sa Barongis (Lambayong)",
+          "en": "Sultan Sa Barongis (Lambayong)",
+          "slug": "sultan-sa-barongis-lambayong-153813"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9611"
+    ],
+    "geo": {
+      "lat": "6.8817",
+      "lon": "124.6808"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153813003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barurao",
+      "en": "Barurao",
+      "slug": "barurao-153813003"
+    },
+    "code": {
+      "id": "153813003",
+      "iso": null
+    },
+    "parent": {
+      "id": "153813",
+      "level": 3,
+      "name": {
+        "local": "Sultan Sa Barongis (Lambayong)",
+        "en": "Sultan Sa Barongis (Lambayong)",
+        "slug": "sultan-sa-barongis-lambayong-153813"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153813",
+        "level": 3,
+        "name": {
+          "local": "Sultan Sa Barongis (Lambayong)",
+          "en": "Sultan Sa Barongis (Lambayong)",
+          "slug": "sultan-sa-barongis-lambayong-153813"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9611"
+    ],
+    "geo": {
+      "lat": "7.0333",
+      "lon": "124.4833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153813004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulod",
+      "en": "Bulod",
+      "slug": "bulod-153813004"
+    },
+    "code": {
+      "id": "153813004",
+      "iso": null
+    },
+    "parent": {
+      "id": "153813",
+      "level": 3,
+      "name": {
+        "local": "Sultan Sa Barongis (Lambayong)",
+        "en": "Sultan Sa Barongis (Lambayong)",
+        "slug": "sultan-sa-barongis-lambayong-153813"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153813",
+        "level": 3,
+        "name": {
+          "local": "Sultan Sa Barongis (Lambayong)",
+          "en": "Sultan Sa Barongis (Lambayong)",
+          "slug": "sultan-sa-barongis-lambayong-153813"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9611"
+    ],
+    "geo": {
+      "lat": "6.8933",
+      "lon": "124.6833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153813006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Darampua",
+      "en": "Darampua",
+      "slug": "darampua-153813006"
+    },
+    "code": {
+      "id": "153813006",
+      "iso": null
+    },
+    "parent": {
+      "id": "153813",
+      "level": 3,
+      "name": {
+        "local": "Sultan Sa Barongis (Lambayong)",
+        "en": "Sultan Sa Barongis (Lambayong)",
+        "slug": "sultan-sa-barongis-lambayong-153813"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153813",
+        "level": 3,
+        "name": {
+          "local": "Sultan Sa Barongis (Lambayong)",
+          "en": "Sultan Sa Barongis (Lambayong)",
+          "slug": "sultan-sa-barongis-lambayong-153813"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9611"
+    ],
+    "geo": {
+      "lat": "6.9517",
+      "lon": "124.6147"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153813008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gadungan",
+      "en": "Gadungan",
+      "slug": "gadungan-153813008"
+    },
+    "code": {
+      "id": "153813008",
+      "iso": null
+    },
+    "parent": {
+      "id": "153813",
+      "level": 3,
+      "name": {
+        "local": "Sultan Sa Barongis (Lambayong)",
+        "en": "Sultan Sa Barongis (Lambayong)",
+        "slug": "sultan-sa-barongis-lambayong-153813"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153813",
+        "level": 3,
+        "name": {
+          "local": "Sultan Sa Barongis (Lambayong)",
+          "en": "Sultan Sa Barongis (Lambayong)",
+          "slug": "sultan-sa-barongis-lambayong-153813"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9611"
+    ],
+    "geo": {
+      "lat": "7.0394",
+      "lon": "124.4019"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153813013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kulambog",
+      "en": "Kulambog",
+      "slug": "kulambog-153813013"
+    },
+    "code": {
+      "id": "153813013",
+      "iso": null
+    },
+    "parent": {
+      "id": "153813",
+      "level": 3,
+      "name": {
+        "local": "Sultan Sa Barongis (Lambayong)",
+        "en": "Sultan Sa Barongis (Lambayong)",
+        "slug": "sultan-sa-barongis-lambayong-153813"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153813",
+        "level": 3,
+        "name": {
+          "local": "Sultan Sa Barongis (Lambayong)",
+          "en": "Sultan Sa Barongis (Lambayong)",
+          "slug": "sultan-sa-barongis-lambayong-153813"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9611"
+    ],
+    "geo": {
+      "lat": "6.5239",
+      "lon": "124.6083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153813015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Langgapanan",
+      "en": "Langgapanan",
+      "slug": "langgapanan-153813015"
+    },
+    "code": {
+      "id": "153813015",
+      "iso": null
+    },
+    "parent": {
+      "id": "153813",
+      "level": 3,
+      "name": {
+        "local": "Sultan Sa Barongis (Lambayong)",
+        "en": "Sultan Sa Barongis (Lambayong)",
+        "slug": "sultan-sa-barongis-lambayong-153813"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153813",
+        "level": 3,
+        "name": {
+          "local": "Sultan Sa Barongis (Lambayong)",
+          "en": "Sultan Sa Barongis (Lambayong)",
+          "slug": "sultan-sa-barongis-lambayong-153813"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9611"
+    ],
+    "geo": {
+      "lat": "6.8",
+      "lon": "124.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153813021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Masulot",
+      "en": "Masulot",
+      "slug": "masulot-153813021"
+    },
+    "code": {
+      "id": "153813021",
+      "iso": null
+    },
+    "parent": {
+      "id": "153813",
+      "level": 3,
+      "name": {
+        "local": "Sultan Sa Barongis (Lambayong)",
+        "en": "Sultan Sa Barongis (Lambayong)",
+        "slug": "sultan-sa-barongis-lambayong-153813"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153813",
+        "level": 3,
+        "name": {
+          "local": "Sultan Sa Barongis (Lambayong)",
+          "en": "Sultan Sa Barongis (Lambayong)",
+          "slug": "sultan-sa-barongis-lambayong-153813"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9611"
+    ],
+    "geo": {
+      "lat": "6.9247",
+      "lon": "124.5975"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153813050",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Paldong",
+      "en": "Paldong",
+      "slug": "paldong-153813050"
+    },
+    "code": {
+      "id": "153813050",
+      "iso": null
+    },
+    "parent": {
+      "id": "153813",
+      "level": 3,
+      "name": {
+        "local": "Sultan Sa Barongis (Lambayong)",
+        "en": "Sultan Sa Barongis (Lambayong)",
+        "slug": "sultan-sa-barongis-lambayong-153813"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153813",
+        "level": 3,
+        "name": {
+          "local": "Sultan Sa Barongis (Lambayong)",
+          "en": "Sultan Sa Barongis (Lambayong)",
+          "slug": "sultan-sa-barongis-lambayong-153813"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9611"
+    ],
+    "geo": {
+      "lat": "6.8",
+      "lon": "124.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153813028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Papakan",
+      "en": "Papakan",
+      "slug": "papakan-153813028"
+    },
+    "code": {
+      "id": "153813028",
+      "iso": null
+    },
+    "parent": {
+      "id": "153813",
+      "level": 3,
+      "name": {
+        "local": "Sultan Sa Barongis (Lambayong)",
+        "en": "Sultan Sa Barongis (Lambayong)",
+        "slug": "sultan-sa-barongis-lambayong-153813"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153813",
+        "level": 3,
+        "name": {
+          "local": "Sultan Sa Barongis (Lambayong)",
+          "en": "Sultan Sa Barongis (Lambayong)",
+          "slug": "sultan-sa-barongis-lambayong-153813"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9611"
+    ],
+    "geo": {
+      "lat": "6.8",
+      "lon": "124.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153813045",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tugal",
+      "en": "Tugal",
+      "slug": "tugal-153813045"
+    },
+    "code": {
+      "id": "153813045",
+      "iso": null
+    },
+    "parent": {
+      "id": "153813",
+      "level": 3,
+      "name": {
+        "local": "Sultan Sa Barongis (Lambayong)",
+        "en": "Sultan Sa Barongis (Lambayong)",
+        "slug": "sultan-sa-barongis-lambayong-153813"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153813",
+        "level": 3,
+        "name": {
+          "local": "Sultan Sa Barongis (Lambayong)",
+          "en": "Sultan Sa Barongis (Lambayong)",
+          "slug": "sultan-sa-barongis-lambayong-153813"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9611"
+    ],
+    "geo": {
+      "lat": "6.6078",
+      "lon": "124.8039"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153813046",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tukanakuden",
+      "en": "Tukanakuden",
+      "slug": "tukanakuden-153813046"
+    },
+    "code": {
+      "id": "153813046",
+      "iso": null
+    },
+    "parent": {
+      "id": "153813",
+      "level": 3,
+      "name": {
+        "local": "Sultan Sa Barongis (Lambayong)",
+        "en": "Sultan Sa Barongis (Lambayong)",
+        "slug": "sultan-sa-barongis-lambayong-153813"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153813",
+        "level": 3,
+        "name": {
+          "local": "Sultan Sa Barongis (Lambayong)",
+          "en": "Sultan Sa Barongis (Lambayong)",
+          "slug": "sultan-sa-barongis-lambayong-153813"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9611"
+    ],
+    "geo": {
+      "lat": "6.8",
+      "lon": "124.633"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

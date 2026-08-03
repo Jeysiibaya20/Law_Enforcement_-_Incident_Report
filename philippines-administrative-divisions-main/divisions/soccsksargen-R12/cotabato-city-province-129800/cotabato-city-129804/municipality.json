@@ -1,0 +1,56 @@
+{
+  "id": "129804",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Cotabato City",
+    "en": "Cotabato City",
+    "slug": "cotabato-city-129804"
+  },
+  "code": {
+    "id": "129804",
+    "iso": null
+  },
+  "parent": {
+    "id": "129800",
+    "level": 2,
+    "name": {
+      "local": "Cotabato City (Province)",
+      "en": "Cotabato City (Province)",
+      "slug": "cotabato-city-province-129800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    {
+      "id": "129800",
+      "level": 2,
+      "name": {
+        "local": "Cotabato City (Province)",
+        "en": "Cotabato City (Province)",
+        "slug": "cotabato-city-province-129800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 37
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.506",
+    "lon": "123.7835"
+  },
+  "metadata": {},
+  "source": {}
+}

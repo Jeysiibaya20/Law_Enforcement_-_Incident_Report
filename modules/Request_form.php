@@ -4,9 +4,26 @@ require_once '../config/db_connect.php';
 require_once '../config/LanguageManager.php';
 
 // Only allow authenticated admin users to submit CCTV requests
-if (!isset($_SESSION['user_id']) || strtolower($_SESSION['role'] ?? '') !== 'admin') {
+if (!isset($_SESSION['user_id'])) {
+    header('Location: ../auth/login.php');
+    exit();
+}
+
+$roleCheck = $pdo->prepare("SELECT role FROM signup WHERE user_id = ?");
+$roleCheck->execute([$_SESSION['user_id']]);
+$userRole = $roleCheck->fetch(PDO::FETCH_ASSOC);
+
+$sessionRole = strtolower($_SESSION['role'] ?? '');
+$dbRole = strtolower($userRole['role'] ?? '');
+$isAdmin = $sessionRole === 'admin' || $dbRole === 'admin' || strpos($sessionRole, 'admin') !== false || strpos($dbRole, 'admin') !== false;
+
+if (!$isAdmin) {
     header('Location: ../index.php');
     exit();
+}
+
+if ($dbRole === 'admin' && $sessionRole !== 'admin') {
+    $_SESSION['role'] = 'Admin';
 }
 
 $page_title = 'CCTV Request Form';
@@ -27,6 +44,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $priority = trim($_POST['priority'] ?? 'Normal');
     $reason = trim($_POST['reason'] ?? '');
     $additional_details = trim($_POST['additional_details'] ?? '');
+    $monitoring_office = trim($_POST['monitoring_office'] ?? '');
+    $delivery_method = trim($_POST['delivery_method'] ?? '');
+    $monitoring_notes = trim($_POST['monitoring_notes'] ?? '');
 
     if ($request_type === '' || $reason === '') {
         $message = 'Please select a request type and provide the reason for the request.';
@@ -52,9 +72,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;";
             $pdo->exec($create_sql);
 
+            $columnChecks = [
+                'monitoring_office' => "ALTER TABLE cctv_requests ADD COLUMN monitoring_office varchar(100) DEFAULT NULL",
+                'delivery_method' => "ALTER TABLE cctv_requests ADD COLUMN delivery_method varchar(100) DEFAULT NULL",
+                'monitoring_notes' => "ALTER TABLE cctv_requests ADD COLUMN monitoring_notes text DEFAULT NULL"
+            ];
+
+            foreach ($columnChecks as $column => $alterSql) {
+                $checkStmt = $pdo->query("SHOW COLUMNS FROM cctv_requests LIKE '$column'");
+                if (!$checkStmt->fetch()) {
+                    $pdo->exec($alterSql);
+                }
+            }
+
             $insert_stmt = $pdo->prepare("INSERT INTO cctv_requests
-                (requested_by, request_type, camera_location, incident_date, incident_time, priority, reason, additional_details)
-                VALUES (:requested_by, :request_type, :camera_location, :incident_date, :incident_time, :priority, :reason, :additional_details)");
+                (requested_by, request_type, camera_location, incident_date, incident_time, priority, reason, additional_details, monitoring_office, delivery_method, monitoring_notes)
+                VALUES (:requested_by, :request_type, :camera_location, :incident_date, :incident_time, :priority, :reason, :additional_details, :monitoring_office, :delivery_method, :monitoring_notes)");
 
             $insert_stmt->execute([
                 ':requested_by' => $_SESSION['user_id'],
@@ -65,38 +98,56 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ':priority' => in_array($priority, ['High', 'Normal', 'Low'], true) ? $priority : 'Normal',
                 ':reason' => $reason,
                 ':additional_details' => $additional_details !== '' ? $additional_details : null,
+                ':monitoring_office' => $monitoring_office !== '' ? $monitoring_office : null,
+                ':delivery_method' => $delivery_method !== '' ? $delivery_method : null,
+                ':monitoring_notes' => $monitoring_notes !== '' ? $monitoring_notes : null,
             ]);
 
             $message = 'Your CCTV request has been submitted successfully.';
             $message_type = 'success';
             $submitted = true;
+            $_POST = [];
         } catch (Exception $e) {
             $message = 'Could not submit CCTV request: ' . htmlspecialchars($e->getMessage());
             $message_type = 'danger';
         }
     }
 }
+
+try {
+    $records_stmt = $pdo->prepare("SELECT id, request_type, camera_location, incident_date, incident_time, priority, reason, additional_details, monitoring_office, delivery_method, monitoring_notes, status, requested_at FROM cctv_requests WHERE requested_by = ? ORDER BY requested_at DESC");
+    $records_stmt->execute([$_SESSION['user_id']]);
+    $request_records = $records_stmt->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) {
+    $request_records = [];
+}
 ?>
 
-<div class="container py-4">
-    <div class="row justify-content-center">
-        <div class="col-lg-8">
-            <div class="card shadow-sm">
-                <div class="card-header">
-                    <h4 class="card-title mb-0"><i class="bi bi-camera-reels me-2"></i>CCTV Request Form</h4>
-                </div>
-                <div class="card-body">
-                    <p class="text-secondary">Use this form to request video footage or a captured still image from the monitoring/CCTV system.</p>
+<div class="main-content">
+    <div class="content-container container py-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="h2"><i class="bi bi-camera-reels me-2"></i>CCTV Request</h1>
+            <div class="d-flex gap-2">
+                <input type="search" id="searchBox" class="form-control" placeholder="Search by request ID, agency, contact, or location..." style="min-width:320px;">
+                <input type="date" id="filterDate" class="form-control" placeholder="mm/dd/yyyy" style="max-width:170px;">
+            </div>
+        </div>
 
-                    <?php if ($message): ?>
-                        <div class="alert alert-<?php echo htmlspecialchars($message_type); ?>" role="alert">
-                            <?php echo htmlspecialchars($message); ?>
-                        </div>
-                    <?php endif; ?>
+        <div class="row">
+            <div class="col-12">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="text-secondary">Use this form to request CCTV footage or a captured still image from the monitoring system.</p>
 
-                    <form method="POST" class="row g-3">
+                        <?php if ($message): ?>
+                            <div class="alert alert-<?php echo htmlspecialchars($message_type); ?>" role="alert">
+                                <?php echo htmlspecialchars($message); ?>
+                            </div>
+                        <?php endif; ?>
+
+                        <form method="POST" class="row g-3">
                         <div class="col-md-6">
-                            <label for="request_type" class="form-label">Request Type *</label>
+                            <label for="request_type" class="form-label">Request Type <span class="text-danger">*</span></label>
                             <select id="request_type" name="request_type" class="form-select" required>
                                 <option value="" <?php echo empty($_POST['request_type']) ? 'selected' : ''; ?>>Select request type</option>
                                 <option value="Footage" <?php echo ($_POST['request_type'] ?? '') === 'Footage' ? 'selected' : ''; ?>>Footage</option>
@@ -124,12 +175,43 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <input type="time" id="incident_time" name="incident_time" class="form-control" value="<?php echo htmlspecialchars($_POST['incident_time'] ?? ''); ?>">
                         </div>
                         <div class="col-12">
-                            <label for="reason" class="form-label">Reason for Request *</label>
+                            <label for="reason" class="form-label">Reason for Request <span class="text-danger">*</span></label>
                             <textarea id="reason" name="reason" class="form-control" rows="4" required><?php echo htmlspecialchars($_POST['reason'] ?? ''); ?></textarea>
                         </div>
                         <div class="col-12">
                             <label for="additional_details" class="form-label">Additional Details</label>
                             <textarea id="additional_details" name="additional_details" class="form-control" rows="3"><?php echo htmlspecialchars($_POST['additional_details'] ?? ''); ?></textarea>
+                        </div>
+                        <div class="col-12">
+                            <div class="border rounded p-3 bg-light">
+                                <h6 class="fw-semibold mb-3"><i class="bi bi-broadcast-pin me-2"></i>Monitoring Intake Details</h6>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="monitoring_office" class="form-label">Receiving Office</label>
+                                        <select id="monitoring_office" name="monitoring_office" class="form-select">
+                                            <option value="" <?php echo empty($_POST['monitoring_office']) ? 'selected' : ''; ?>>Select receiving office</option>
+                                            <option value="Control Room" <?php echo ($_POST['monitoring_office'] ?? '') === 'Control Room' ? 'selected' : ''; ?>>Control Room</option>
+                                            <option value="Operations Center" <?php echo ($_POST['monitoring_office'] ?? '') === 'Operations Center' ? 'selected' : ''; ?>>Operations Center</option>
+                                            <option value="Records Unit" <?php echo ($_POST['monitoring_office'] ?? '') === 'Records Unit' ? 'selected' : ''; ?>>Records Unit</option>
+                                            <option value="Security Desk" <?php echo ($_POST['monitoring_office'] ?? '') === 'Security Desk' ? 'selected' : ''; ?>>Security Desk</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="delivery_method" class="form-label">Delivery Method</label>
+                                        <select id="delivery_method" name="delivery_method" class="form-select">
+                                            <option value="" <?php echo empty($_POST['delivery_method']) ? 'selected' : ''; ?>>Select delivery method</option>
+                                            <option value="Email" <?php echo ($_POST['delivery_method'] ?? '') === 'Email' ? 'selected' : ''; ?>>Email</option>
+                                            <option value="Portal" <?php echo ($_POST['delivery_method'] ?? '') === 'Portal' ? 'selected' : ''; ?>>Portal</option>
+                                            <option value="Physical Copy" <?php echo ($_POST['delivery_method'] ?? '') === 'Physical Copy' ? 'selected' : ''; ?>>Physical Copy</option>
+                                            <option value="Other" <?php echo ($_POST['delivery_method'] ?? '') === 'Other' ? 'selected' : ''; ?>>Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="monitoring_notes" class="form-label">Monitoring Notes</label>
+                                        <textarea id="monitoring_notes" name="monitoring_notes" class="form-control" rows="3" placeholder="Add any handling notes, reference numbers, or follow-up instructions for the monitoring team."><?php echo htmlspecialchars($_POST['monitoring_notes'] ?? ''); ?></textarea>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-12 d-flex justify-content-between align-items-center">
                             <a href="../index.php" class="btn btn-outline-secondary">
@@ -139,11 +221,122 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <i class="bi bi-send me-2"></i>Submit Request
                             </button>
                         </div>
-                    </form>
+                        </form>
 
-                    <div class="mt-4 alert alert-light border">
-                        <p class="mb-1"><strong>Note:</strong> CCTV requests are logged and routed to the monitoring team. Provide as much location and time detail as possible.</p>
-                        <p class="mb-0">If you require a captured photo, choose <strong>Capture Photo</strong>. For recorded video, choose <strong>Footage</strong>.</p>
+                        <?php if ($submitted): ?>
+                            <div class="mt-4 alert alert-info border">
+                            <h6 class="fw-semibold mb-2"><i class="bi bi-broadcast-pin me-2"></i>Monitoring Request Received</h6>
+                            <p class="mb-2">Your request for <strong><?php echo htmlspecialchars($request_type ?: 'CCTV media'); ?></strong> has been recorded and sent to the monitoring team.</p>
+                            <div class="row g-3 mt-1">
+                                <div class="col-md-6">
+                                    <div class="border rounded p-3 bg-white">
+                                        <h6 class="fw-semibold mb-2">Requested Media</h6>
+                                        <p class="mb-1"><strong>Type:</strong> <?php echo htmlspecialchars($request_type ?: 'Pending selection'); ?></p>
+                                        <p class="mb-1"><strong>Location:</strong> <?php echo htmlspecialchars($camera_location ?: 'Not specified'); ?></p>
+                                        <p class="mb-0"><strong>Incident:</strong> <?php echo htmlspecialchars(($incident_date ?: 'Not specified') . ($incident_time ? ' at ' . $incident_time : '')); ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="border rounded p-3 bg-white">
+                                        <h6 class="fw-semibold mb-2">Monitoring Delivery Area</h6>
+                                        <p class="mb-1"><strong>Status:</strong> Pending Review</p>
+                                        <p class="mb-1"><strong>Receiving Office:</strong> <?php echo htmlspecialchars($monitoring_office ?: 'Not assigned'); ?></p>
+                                        <p class="mb-0"><strong>Delivery Method:</strong> <?php echo htmlspecialchars($delivery_method ?: 'To be confirmed'); ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="border rounded p-3 bg-white">
+                                        <h6 class="fw-semibold mb-2">Footage / Capture Details</h6>
+                                        <p class="mb-2 text-muted">The monitoring team will add the footage, capture reference, or related evidence details here once the request is processed.</p>
+                                        <ul class="mb-0 ps-3">
+                                            <li><strong>Reason for request:</strong> <?php echo htmlspecialchars($reason ?: 'No reason provided'); ?></li>
+                                            <li><strong>Monitoring notes:</strong> <?php echo htmlspecialchars($monitoring_notes ?: 'No additional monitoring notes provided'); ?></li>
+                                            <li><strong>Additional details:</strong> <?php echo htmlspecialchars($additional_details ?: 'No additional details provided'); ?></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-dark text-white">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <strong>Request Records</strong>
+                            <span class="badge bg-primary"><?php echo count($request_records); ?> record(s)</span>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table mb-0">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>REQUEST ID</th>
+                                        <th>AGENCY</th>
+                                        <th>CONTACT</th>
+                                        <th>LOCATION / CAMERA</th>
+                                        <th>FOOTAGE WINDOW</th>
+                                        <th>STATUS</th>
+                                        <th>SUBMITTED</th>
+                                        <th>ACTIONS</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php if (!empty($request_records)): ?>
+                                        <?php foreach ($request_records as $record): ?>
+                                            <tr>
+                                                <td><?php echo 'REQ-' . str_pad((int)$record['id'], 3, '0', STR_PAD_LEFT); ?></td>
+                                                <td><?php echo htmlspecialchars('Digital Blotter System'); ?></td>
+                                                <td><?php echo htmlspecialchars($_SESSION['first_name'] ?? 'Juan'); ?></td>
+                                                <td><?php echo htmlspecialchars($record['camera_location'] ?: 'CAM-001'); ?></td>
+                                                <td><?php echo htmlspecialchars(($record['incident_date'] ?: '') . ($record['incident_time'] ? ' ' . date('H:i', strtotime($record['incident_time'])) : '')); ?></td>
+                                                <td><span class="badge bg-info text-dark"><?php echo htmlspecialchars($record['status'] ?? 'Pending'); ?></span></td>
+                                                <td><?php echo htmlspecialchars(date('M d, Y', strtotime($record['requested_at']))); ?></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-sm btn-success me-1 btn-view" 
+                                                        data-id="<?php echo (int)$record['id']; ?>"
+                                                        data-request-id="<?php echo 'CCTV-REQ-' . date('Y') . '-' . str_pad((int)$record['id'],3,'0',STR_PAD_LEFT); ?>"
+                                                        data-agency="<?php echo htmlspecialchars('Digital Blotter System'); ?>"
+                                                        data-contact="<?php echo htmlspecialchars($_SESSION['first_name'] ?? 'Juan'); ?>"
+                                                        data-email="<?php echo htmlspecialchars($_SESSION['user_email'] ?? ''); ?>"
+                                                        data-case-ref="<?php echo htmlspecialchars($record['additional_details'] ?: ''); ?>"
+                                                        data-purpose="<?php echo htmlspecialchars($record['reason'] ?: ''); ?>"
+                                                        data-legal="<?php echo htmlspecialchars('Blotter referral'); ?>"
+                                                        data-location="<?php echo htmlspecialchars($record['camera_location'] ?: ''); ?>"
+                                                        data-camera="<?php echo htmlspecialchars($record['camera_location'] ?: 'CAM-001'); ?>"
+                                                        data-footage-window="<?php echo htmlspecialchars(($record['incident_date'] ?: '') . ($record['incident_time'] ? ' ' . date('H:i', strtotime($record['incident_time'])) : '')); ?>"
+                                                        data-description="<?php echo htmlspecialchars($record['reason'] ?: ''); ?>"
+                                                        data-delivery="<?php echo htmlspecialchars($record['delivery_method'] ?: 'pickup'); ?>"
+                                                        data-supporting=""
+                                                        data-status="<?php echo htmlspecialchars($record['status'] ?? 'Under Review'); ?>"
+                                                        data-review-notes="<?php echo htmlspecialchars($record['monitoring_notes'] ?: ''); ?>"
+                                                        >View</button>
+
+                                                    <button type="button" class="btn btn-sm btn-warning btn-manage" 
+                                                        data-id="<?php echo (int)$record['id']; ?>"
+                                                        data-status-val="<?php echo htmlspecialchars($record['status'] ?? 'Under Review'); ?>"
+                                                        data-camera-val="<?php echo htmlspecialchars($record['camera_location'] ?: 'CAM-001'); ?>"
+                                                        data-start="<?php echo htmlspecialchars($record['incident_time'] ?: ''); ?>"
+                                                        data-end="<?php echo htmlspecialchars($record['incident_time'] ?: ''); ?>"
+                                                        data-review-notes-val="<?php echo htmlspecialchars($record['monitoring_notes'] ?: ''); ?>"
+                                                        >Manage</button>
+                                                </td>
+                                            </tr>
+                                        <?php endforeach; ?>
+                                    <?php else: ?>
+                                        <tr>
+                                            <td colspan="8" class="text-center text-muted">No request records yet. Submit a request to view it here.</td>
+                                        </tr>
+                                    <?php endif; ?>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -152,3 +345,154 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 
 <?php require_once '../includes/footer.php'; ?>
+
+    <!-- Details Modal -->
+    <div class="modal fade" id="detailsModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">CCTV Request Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <ul class="list-unstyled">
+                                <li class="py-2"><strong>Request ID</strong></li>
+                                <li class="py-2"><strong>Agency</strong></li>
+                                <li class="py-2"><strong>Contact</strong></li>
+                                <li class="py-2"><strong>Email</strong></li>
+                                <li class="py-2"><strong>Case Reference</strong></li>
+                                <li class="py-2"><strong>Purpose</strong></li>
+                                <li class="py-2"><strong>Legal Basis</strong></li>
+                                <li class="py-2"><strong>Incident Location</strong></li>
+                                <li class="py-2"><strong>Camera</strong></li>
+                                <li class="py-2"><strong>Footage Window</strong></li>
+                                <li class="py-2"><strong>Incident Description</strong></li>
+                                <li class="py-2"><strong>Delivery Method</strong></li>
+                                <li class="py-2"><strong>Supporting Document</strong></li>
+                                <li class="py-2"><strong>Status</strong></li>
+                                <li class="py-2"><strong>Review Notes</strong></li>
+                                <li class="py-2"><strong>Rejection Reason</strong></li>
+                                <li class="py-2"><strong>Fulfillment Notes</strong></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-7">
+                            <ul class="list-unstyled" id="detailsValues">
+                                <li class="py-2" data-key="request-id"></li>
+                                <li class="py-2" data-key="agency"></li>
+                                <li class="py-2" data-key="contact"></li>
+                                <li class="py-2" data-key="email"></li>
+                                <li class="py-2" data-key="case-ref"></li>
+                                <li class="py-2" data-key="purpose"></li>
+                                <li class="py-2" data-key="legal"></li>
+                                <li class="py-2" data-key="location"></li>
+                                <li class="py-2" data-key="camera"></li>
+                                <li class="py-2" data-key="footage-window"></li>
+                                <li class="py-2" data-key="description"></li>
+                                <li class="py-2" data-key="delivery"></li>
+                                <li class="py-2" data-key="supporting"></li>
+                                <li class="py-2" data-key="status"></li>
+                                <li class="py-2" data-key="review-notes"></li>
+                                <li class="py-2" data-key="rejection"></li>
+                                <li class="py-2" data-key="fulfillment"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Manage Modal -->
+    <div class="modal fade" id="manageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Manage CCTV Request</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="manageForm">
+                        <input type="hidden" name="request_id" id="manage_request_id">
+                        <div class="mb-3">
+                            <label class="form-label">Status *</label>
+                            <select id="manage_status" name="status" class="form-select">
+                                <option>Under Review</option>
+                                <option>Approved</option>
+                                <option>Rejected</option>
+                                <option>Completed</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Approved Camera</label>
+                            <select id="manage_camera" class="form-select">
+                                <option>CAM-001 - Main Entrance Camera</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Actual Footage Start</label>
+                                <input type="time" id="manage_start" class="form-control">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Actual Footage End</label>
+                                <input type="time" id="manage_end" class="form-control">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Review Notes (internal)</label>
+                            <textarea id="manage_notes" class="form-control" rows="4"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-end gap-2">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-success">Save Changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function(){
+        // details
+        document.querySelectorAll('.btn-view').forEach(btn=>{
+            btn.addEventListener('click', function(){
+                const keys = ['request-id','agency','contact','email','case-ref','purpose','legal','location','camera','footage-window','description','delivery','supporting','status','review-notes','rejection','fulfillment'];
+                // map data attributes to modal
+                document.querySelectorAll('#detailsValues [data-key]').forEach(li=>{
+                    const key = li.getAttribute('data-key');
+                    const dataAttr = key.replace(/-/g,'');
+                    const v = btn.getAttribute('data-' + key) || btn.getAttribute('data-' + key) || '';
+                    li.textContent = v || '—';
+                });
+                var detailsModal = new bootstrap.Modal(document.getElementById('detailsModal'));
+                detailsModal.show();
+            });
+        });
+
+        // manage
+        document.querySelectorAll('.btn-manage').forEach(btn=>{
+            btn.addEventListener('click', function(){
+                document.getElementById('manage_request_id').value = btn.getAttribute('data-id');
+                document.getElementById('manage_status').value = btn.getAttribute('data-status-val') || 'Under Review';
+                document.getElementById('manage_camera').value = btn.getAttribute('data-camera-val') || 'CAM-001 - Main Entrance Camera';
+                document.getElementById('manage_start').value = btn.getAttribute('data-start') || '';
+                document.getElementById('manage_end').value = btn.getAttribute('data-end') || '';
+                document.getElementById('manage_notes').value = btn.getAttribute('data-review-notes-val') || '';
+                var manageModal = new bootstrap.Modal(document.getElementById('manageModal'));
+                manageModal.show();
+            });
+        });
+
+        // submit handler (AJAX could be added; here we simply close the modal)
+        document.getElementById('manageForm').addEventListener('submit', function(e){
+            e.preventDefault();
+            // TODO: implement save via fetch/XHR to server endpoint
+            var manageModal = bootstrap.Modal.getInstance(document.getElementById('manageModal'));
+            manageModal.hide();
+            alert('Changes saved (not yet persisted).');
+        });
+    });
+    </script>

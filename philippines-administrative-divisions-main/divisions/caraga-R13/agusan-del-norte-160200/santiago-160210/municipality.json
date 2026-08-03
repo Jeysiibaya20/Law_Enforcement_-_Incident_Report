@@ -1,0 +1,56 @@
+{
+  "id": "160210",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santiago",
+    "en": "Santiago",
+    "slug": "santiago-160210"
+  },
+  "code": {
+    "id": "160210",
+    "iso": null
+  },
+  "parent": {
+    "id": "160200",
+    "level": 2,
+    "name": {
+      "local": "Agusan del Norte",
+      "en": "Agusan del Norte",
+      "slug": "agusan-del-norte-160200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "160200",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Norte",
+        "en": "Agusan del Norte",
+        "slug": "agusan-del-norte-160200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 9
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.3",
+    "lon": "120.45"
+  },
+  "metadata": {},
+  "source": {}
+}

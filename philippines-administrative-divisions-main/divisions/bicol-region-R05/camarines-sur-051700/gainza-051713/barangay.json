@@ -1,0 +1,522 @@
+[
+  {
+    "id": "051713001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cagbunga",
+      "en": "Cagbunga",
+      "slug": "cagbunga-051713001"
+    },
+    "code": {
+      "id": "051713001",
+      "iso": null
+    },
+    "parent": {
+      "id": "051713",
+      "level": 3,
+      "name": {
+        "local": "Gainza",
+        "en": "Gainza",
+        "slug": "gainza-051713"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051713",
+        "level": 3,
+        "name": {
+          "local": "Gainza",
+          "en": "Gainza",
+          "slug": "gainza-051713"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4412"
+    ],
+    "geo": {
+      "lat": "13.617",
+      "lon": "123.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051713002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dahilig",
+      "en": "Dahilig",
+      "slug": "dahilig-051713002"
+    },
+    "code": {
+      "id": "051713002",
+      "iso": null
+    },
+    "parent": {
+      "id": "051713",
+      "level": 3,
+      "name": {
+        "local": "Gainza",
+        "en": "Gainza",
+        "slug": "gainza-051713"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051713",
+        "level": 3,
+        "name": {
+          "local": "Gainza",
+          "en": "Gainza",
+          "slug": "gainza-051713"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4412"
+    ],
+    "geo": {
+      "lat": "13.6147",
+      "lon": "123.1621"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051713008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "District I (Pob.)",
+      "en": "District I (Pob.)",
+      "slug": "district-i-pob-051713008"
+    },
+    "code": {
+      "id": "051713008",
+      "iso": null
+    },
+    "parent": {
+      "id": "051713",
+      "level": 3,
+      "name": {
+        "local": "Gainza",
+        "en": "Gainza",
+        "slug": "gainza-051713"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051713",
+        "level": 3,
+        "name": {
+          "local": "Gainza",
+          "en": "Gainza",
+          "slug": "gainza-051713"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4412"
+    ],
+    "geo": {
+      "lat": "13.617",
+      "lon": "123.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051713009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "District II (Pob.)",
+      "en": "District II (Pob.)",
+      "slug": "district-ii-pob-051713009"
+    },
+    "code": {
+      "id": "051713009",
+      "iso": null
+    },
+    "parent": {
+      "id": "051713",
+      "level": 3,
+      "name": {
+        "local": "Gainza",
+        "en": "Gainza",
+        "slug": "gainza-051713"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051713",
+        "level": 3,
+        "name": {
+          "local": "Gainza",
+          "en": "Gainza",
+          "slug": "gainza-051713"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4412"
+    ],
+    "geo": {
+      "lat": "13.617",
+      "lon": "123.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051713004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Loob",
+      "en": "Loob",
+      "slug": "loob-051713004"
+    },
+    "code": {
+      "id": "051713004",
+      "iso": null
+    },
+    "parent": {
+      "id": "051713",
+      "level": 3,
+      "name": {
+        "local": "Gainza",
+        "en": "Gainza",
+        "slug": "gainza-051713"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051713",
+        "level": 3,
+        "name": {
+          "local": "Gainza",
+          "en": "Gainza",
+          "slug": "gainza-051713"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4412"
+    ],
+    "geo": {
+      "lat": "13.6086",
+      "lon": "123.1119"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051713005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malbong",
+      "en": "Malbong",
+      "slug": "malbong-051713005"
+    },
+    "code": {
+      "id": "051713005",
+      "iso": null
+    },
+    "parent": {
+      "id": "051713",
+      "level": 3,
+      "name": {
+        "local": "Gainza",
+        "en": "Gainza",
+        "slug": "gainza-051713"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051713",
+        "level": 3,
+        "name": {
+          "local": "Gainza",
+          "en": "Gainza",
+          "slug": "gainza-051713"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4412"
+    ],
+    "geo": {
+      "lat": "13.6149",
+      "lon": "123.1304"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051713006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Namuat",
+      "en": "Namuat",
+      "slug": "namuat-051713006"
+    },
+    "code": {
+      "id": "051713006",
+      "iso": null
+    },
+    "parent": {
+      "id": "051713",
+      "level": 3,
+      "name": {
+        "local": "Gainza",
+        "en": "Gainza",
+        "slug": "gainza-051713"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051713",
+        "level": 3,
+        "name": {
+          "local": "Gainza",
+          "en": "Gainza",
+          "slug": "gainza-051713"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4412"
+    ],
+    "geo": {
+      "lat": "13.617",
+      "lon": "123.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051713007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sampaloc",
+      "en": "Sampaloc",
+      "slug": "sampaloc-051713007"
+    },
+    "code": {
+      "id": "051713007",
+      "iso": null
+    },
+    "parent": {
+      "id": "051713",
+      "level": 3,
+      "name": {
+        "local": "Gainza",
+        "en": "Gainza",
+        "slug": "gainza-051713"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051713",
+        "level": 3,
+        "name": {
+          "local": "Gainza",
+          "en": "Gainza",
+          "slug": "gainza-051713"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4412"
+    ],
+    "geo": {
+      "lat": "13.5833",
+      "lon": "123.1333"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

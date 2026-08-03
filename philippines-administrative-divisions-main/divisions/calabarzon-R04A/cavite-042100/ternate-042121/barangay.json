@@ -1,0 +1,652 @@
+[
+  {
+    "id": "042121003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bucana",
+      "en": "Bucana",
+      "slug": "bucana-042121003"
+    },
+    "code": {
+      "id": "042121003",
+      "iso": null
+    },
+    "parent": {
+      "id": "042121",
+      "level": 3,
+      "name": {
+        "local": "Ternate",
+        "en": "Ternate",
+        "slug": "ternate-042121"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      },
+      {
+        "id": "042121",
+        "level": 3,
+        "name": {
+          "local": "Ternate",
+          "en": "Ternate",
+          "slug": "ternate-042121"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4111"
+    ],
+    "geo": {
+      "lat": "14.3222",
+      "lon": "120.7636"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042121001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion I (Barangay I)",
+      "en": "Poblacion I (Barangay I)",
+      "slug": "poblacion-i-barangay-i-042121001"
+    },
+    "code": {
+      "id": "042121001",
+      "iso": null
+    },
+    "parent": {
+      "id": "042121",
+      "level": 3,
+      "name": {
+        "local": "Ternate",
+        "en": "Ternate",
+        "slug": "ternate-042121"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      },
+      {
+        "id": "042121",
+        "level": 3,
+        "name": {
+          "local": "Ternate",
+          "en": "Ternate",
+          "slug": "ternate-042121"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4111"
+    ],
+    "geo": {
+      "lat": "14.2983",
+      "lon": "121.0096"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042121009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion I A",
+      "en": "Poblacion I A",
+      "slug": "poblacion-i-a-042121009"
+    },
+    "code": {
+      "id": "042121009",
+      "iso": null
+    },
+    "parent": {
+      "id": "042121",
+      "level": 3,
+      "name": {
+        "local": "Ternate",
+        "en": "Ternate",
+        "slug": "ternate-042121"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      },
+      {
+        "id": "042121",
+        "level": 3,
+        "name": {
+          "local": "Ternate",
+          "en": "Ternate",
+          "slug": "ternate-042121"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4111"
+    ],
+    "geo": {
+      "lat": "14.4297",
+      "lon": "120.8792"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042121002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion II (Barangay II)",
+      "en": "Poblacion II (Barangay II)",
+      "slug": "poblacion-ii-barangay-ii-042121002"
+    },
+    "code": {
+      "id": "042121002",
+      "iso": null
+    },
+    "parent": {
+      "id": "042121",
+      "level": 3,
+      "name": {
+        "local": "Ternate",
+        "en": "Ternate",
+        "slug": "ternate-042121"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      },
+      {
+        "id": "042121",
+        "level": 3,
+        "name": {
+          "local": "Ternate",
+          "en": "Ternate",
+          "slug": "ternate-042121"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4111"
+    ],
+    "geo": {
+      "lat": "14.2949",
+      "lon": "121.0091"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042121005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion III (Barangay III)",
+      "en": "Poblacion III (Barangay III)",
+      "slug": "poblacion-iii-barangay-iii-042121005"
+    },
+    "code": {
+      "id": "042121005",
+      "iso": null
+    },
+    "parent": {
+      "id": "042121",
+      "level": 3,
+      "name": {
+        "local": "Ternate",
+        "en": "Ternate",
+        "slug": "ternate-042121"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      },
+      {
+        "id": "042121",
+        "level": 3,
+        "name": {
+          "local": "Ternate",
+          "en": "Ternate",
+          "slug": "ternate-042121"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4111"
+    ],
+    "geo": {
+      "lat": "14.2923",
+      "lon": "121.007"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042121006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-042121006"
+    },
+    "code": {
+      "id": "042121006",
+      "iso": null
+    },
+    "parent": {
+      "id": "042121",
+      "level": 3,
+      "name": {
+        "local": "Ternate",
+        "en": "Ternate",
+        "slug": "ternate-042121"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      },
+      {
+        "id": "042121",
+        "level": 3,
+        "name": {
+          "local": "Ternate",
+          "en": "Ternate",
+          "slug": "ternate-042121"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4111"
+    ],
+    "geo": {
+      "lat": "14.323",
+      "lon": "121.0359"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042121007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan I",
+      "en": "San Juan I",
+      "slug": "san-juan-i-042121007"
+    },
+    "code": {
+      "id": "042121007",
+      "iso": null
+    },
+    "parent": {
+      "id": "042121",
+      "level": 3,
+      "name": {
+        "local": "Ternate",
+        "en": "Ternate",
+        "slug": "ternate-042121"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      },
+      {
+        "id": "042121",
+        "level": 3,
+        "name": {
+          "local": "Ternate",
+          "en": "Ternate",
+          "slug": "ternate-042121"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4111"
+    ],
+    "geo": {
+      "lat": "14.283",
+      "lon": "120.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042121010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan II",
+      "en": "San Juan II",
+      "slug": "san-juan-ii-042121010"
+    },
+    "code": {
+      "id": "042121010",
+      "iso": null
+    },
+    "parent": {
+      "id": "042121",
+      "level": 3,
+      "name": {
+        "local": "Ternate",
+        "en": "Ternate",
+        "slug": "ternate-042121"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      },
+      {
+        "id": "042121",
+        "level": 3,
+        "name": {
+          "local": "Ternate",
+          "en": "Ternate",
+          "slug": "ternate-042121"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4111"
+    ],
+    "geo": {
+      "lat": "14.283",
+      "lon": "120.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042121008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapang I",
+      "en": "Sapang I",
+      "slug": "sapang-i-042121008"
+    },
+    "code": {
+      "id": "042121008",
+      "iso": null
+    },
+    "parent": {
+      "id": "042121",
+      "level": 3,
+      "name": {
+        "local": "Ternate",
+        "en": "Ternate",
+        "slug": "ternate-042121"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      },
+      {
+        "id": "042121",
+        "level": 3,
+        "name": {
+          "local": "Ternate",
+          "en": "Ternate",
+          "slug": "ternate-042121"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4111"
+    ],
+    "geo": {
+      "lat": "15.8362",
+      "lon": "120.4386"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042121011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapang II",
+      "en": "Sapang II",
+      "slug": "sapang-ii-042121011"
+    },
+    "code": {
+      "id": "042121011",
+      "iso": null
+    },
+    "parent": {
+      "id": "042121",
+      "level": 3,
+      "name": {
+        "local": "Ternate",
+        "en": "Ternate",
+        "slug": "ternate-042121"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      },
+      {
+        "id": "042121",
+        "level": 3,
+        "name": {
+          "local": "Ternate",
+          "en": "Ternate",
+          "slug": "ternate-042121"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4111"
+    ],
+    "geo": {
+      "lat": "15.8362",
+      "lon": "120.4386"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

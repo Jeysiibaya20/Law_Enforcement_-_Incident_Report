@@ -1,0 +1,35 @@
+{
+  "id": "R12",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "SOCCSKSARGEN",
+    "en": "SOCCSKSARGEN",
+    "slug": "soccsksargen-R12"
+  },
+  "code": {
+    "id": "R12",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 5,
+    "barangay": 1195,
+    "municipality": 50
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.7977",
+    "lon": "124.7494"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/soccsksargen-R12/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

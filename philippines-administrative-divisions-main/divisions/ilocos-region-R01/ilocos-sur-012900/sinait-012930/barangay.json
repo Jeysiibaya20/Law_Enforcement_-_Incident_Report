@@ -1,0 +1,2862 @@
+[
+  {
+    "id": "012930001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aguing",
+      "en": "Aguing",
+      "slug": "aguing-012930001"
+    },
+    "code": {
+      "id": "012930001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8681",
+      "lon": "120.4859"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baliw",
+      "en": "Baliw",
+      "slug": "baliw-012930003"
+    },
+    "code": {
+      "id": "012930003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.7383",
+      "lon": "120.4522"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ballaigui (Pob.)",
+      "en": "Ballaigui (Pob.)",
+      "slug": "ballaigui-pob-012930002"
+    },
+    "code": {
+      "id": "012930002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.86611",
+      "lon": "120.45806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baracbac",
+      "en": "Baracbac",
+      "slug": "baracbac-012930004"
+    },
+    "code": {
+      "id": "012930004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "16.9743",
+      "lon": "120.4643"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barikir",
+      "en": "Barikir",
+      "slug": "barikir-012930005"
+    },
+    "code": {
+      "id": "012930005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8973",
+      "lon": "120.4456"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Battog",
+      "en": "Battog",
+      "slug": "battog-012930006"
+    },
+    "code": {
+      "id": "012930006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8995",
+      "lon": "120.4751"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binacud",
+      "en": "Binacud",
+      "slug": "binacud-012930007"
+    },
+    "code": {
+      "id": "012930007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8667",
+      "lon": "120.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabangtalan",
+      "en": "Cabangtalan",
+      "slug": "cabangtalan-012930008"
+    },
+    "code": {
+      "id": "012930008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8535",
+      "lon": "120.4481"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabarambanan",
+      "en": "Cabarambanan",
+      "slug": "cabarambanan-012930009"
+    },
+    "code": {
+      "id": "012930009",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.86611",
+      "lon": "120.45806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabulalaan",
+      "en": "Cabulalaan",
+      "slug": "cabulalaan-012930010"
+    },
+    "code": {
+      "id": "012930010",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.0691",
+      "lon": "120.4695"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cadanglaan",
+      "en": "Cadanglaan",
+      "slug": "cadanglaan-012930011"
+    },
+    "code": {
+      "id": "012930011",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.2386",
+      "lon": "120.464"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calanutian",
+      "en": "Calanutian",
+      "slug": "calanutian-012930018"
+    },
+    "code": {
+      "id": "012930018",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.86611",
+      "lon": "120.45806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calingayan",
+      "en": "Calingayan",
+      "slug": "calingayan-012930012"
+    },
+    "code": {
+      "id": "012930012",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8749",
+      "lon": "120.4715"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Curtin",
+      "en": "Curtin",
+      "slug": "curtin-012930013"
+    },
+    "code": {
+      "id": "012930013",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.856",
+      "lon": "120.4699"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dadalaquiten Norte",
+      "en": "Dadalaquiten Norte",
+      "slug": "dadalaquiten-norte-012930014"
+    },
+    "code": {
+      "id": "012930014",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8913",
+      "lon": "120.4473"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dadalaquiten Sur",
+      "en": "Dadalaquiten Sur",
+      "slug": "dadalaquiten-sur-012930015"
+    },
+    "code": {
+      "id": "012930015",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8913",
+      "lon": "120.4473"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dean Leopoldo Yabes (Pug-os)",
+      "en": "Dean Leopoldo Yabes (Pug-os)",
+      "slug": "dean-leopoldo-yabes-pug-os-012930030"
+    },
+    "code": {
+      "id": "012930030",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8287",
+      "lon": "120.4581"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Duyayyat",
+      "en": "Duyayyat",
+      "slug": "duyayyat-012930016"
+    },
+    "code": {
+      "id": "012930016",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8592",
+      "lon": "120.4864"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Jordan",
+      "en": "Jordan",
+      "slug": "jordan-012930017"
+    },
+    "code": {
+      "id": "012930017",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "10.6",
+      "lon": "122.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Katipunan",
+      "en": "Katipunan",
+      "slug": "katipunan-012930019"
+    },
+    "code": {
+      "id": "012930019",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "8.5134",
+      "lon": "123.2847"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Macabiag (Pob.)",
+      "en": "Macabiag (Pob.)",
+      "slug": "macabiag-pob-012930020"
+    },
+    "code": {
+      "id": "012930020",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.86611",
+      "lon": "120.45806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magsaysay",
+      "en": "Magsaysay",
+      "slug": "magsaysay-012930021"
+    },
+    "code": {
+      "id": "012930021",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "6.77",
+      "lon": "125.18"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Marnay",
+      "en": "Marnay",
+      "slug": "marnay-012930022"
+    },
+    "code": {
+      "id": "012930022",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.88",
+      "lon": "120.4978"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Masadag",
+      "en": "Masadag",
+      "slug": "masadag-012930023"
+    },
+    "code": {
+      "id": "012930023",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.859",
+      "lon": "120.4949"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nagbalioartian",
+      "en": "Nagbalioartian",
+      "slug": "nagbalioartian-012930025"
+    },
+    "code": {
+      "id": "012930025",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8654",
+      "lon": "120.4789"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nagcullooban",
+      "en": "Nagcullooban",
+      "slug": "nagcullooban-012930024"
+    },
+    "code": {
+      "id": "012930024",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.86611",
+      "lon": "120.45806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nagongburan",
+      "en": "Nagongburan",
+      "slug": "nagongburan-012930026"
+    },
+    "code": {
+      "id": "012930026",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.86611",
+      "lon": "120.45806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Namnama (Pob.)",
+      "en": "Namnama (Pob.)",
+      "slug": "namnama-pob-012930027"
+    },
+    "code": {
+      "id": "012930027",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "16.9148",
+      "lon": "121.6452"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pacis",
+      "en": "Pacis",
+      "slug": "pacis-012930028"
+    },
+    "code": {
+      "id": "012930028",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8766",
+      "lon": "120.4822"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Paratong",
+      "en": "Paratong",
+      "slug": "paratong-012930029"
+    },
+    "code": {
+      "id": "012930029",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.419",
+      "lon": "120.4685"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930031",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Purag",
+      "en": "Purag",
+      "slug": "purag-012930031"
+    },
+    "code": {
+      "id": "012930031",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8721",
+      "lon": "120.4706"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Quibit-quibit",
+      "en": "Quibit-quibit",
+      "slug": "quibit-quibit-012930032"
+    },
+    "code": {
+      "id": "012930032",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8555",
+      "lon": "120.4961"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Quimmallogong",
+      "en": "Quimmallogong",
+      "slug": "quimmallogong-012930033"
+    },
+    "code": {
+      "id": "012930033",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.86611",
+      "lon": "120.45806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rang-ay (Pob.)",
+      "en": "Rang-ay (Pob.)",
+      "slug": "rang-ay-pob-012930034"
+    },
+    "code": {
+      "id": "012930034",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "16.9236",
+      "lon": "121.6162"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ricudo",
+      "en": "Ricudo",
+      "slug": "ricudo-012930035"
+    },
+    "code": {
+      "id": "012930035",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.86611",
+      "lon": "120.45806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930036",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sabañgan (Marcos)",
+      "en": "Sabañgan (Marcos)",
+      "slug": "sabagan-marcos-012930036"
+    },
+    "code": {
+      "id": "012930036",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8575",
+      "lon": "120.4464"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930037",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sallacapo",
+      "en": "Sallacapo",
+      "slug": "sallacapo-012930037"
+    },
+    "code": {
+      "id": "012930037",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8398",
+      "lon": "120.4824"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930038",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-012930038"
+    },
+    "code": {
+      "id": "012930038",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.0853",
+      "lon": "120.4553"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930039",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapriana",
+      "en": "Sapriana",
+      "slug": "sapriana-012930039"
+    },
+    "code": {
+      "id": "012930039",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.87",
+      "lon": "120.4834"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930040",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tapao",
+      "en": "Tapao",
+      "slug": "tapao-012930040"
+    },
+    "code": {
+      "id": "012930040",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8872",
+      "lon": "120.4536"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930041",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Teppeng",
+      "en": "Teppeng",
+      "slug": "teppeng-012930041"
+    },
+    "code": {
+      "id": "012930041",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8418",
+      "lon": "120.4533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930042",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tubigay",
+      "en": "Tubigay",
+      "slug": "tubigay-012930042"
+    },
+    "code": {
+      "id": "012930042",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8345",
+      "lon": "120.4946"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930043",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ubbog",
+      "en": "Ubbog",
+      "slug": "ubbog-012930043"
+    },
+    "code": {
+      "id": "012930043",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.2479",
+      "lon": "120.4448"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012930044",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Zapat",
+      "en": "Zapat",
+      "slug": "zapat-012930044"
+    },
+    "code": {
+      "id": "012930044",
+      "iso": null
+    },
+    "parent": {
+      "id": "012930",
+      "level": 3,
+      "name": {
+        "local": "Sinait",
+        "en": "Sinait",
+        "slug": "sinait-012930"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012930",
+        "level": 3,
+        "name": {
+          "local": "Sinait",
+          "en": "Sinait",
+          "slug": "sinait-012930"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2733"
+    ],
+    "geo": {
+      "lat": "17.8318",
+      "lon": "120.4652"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

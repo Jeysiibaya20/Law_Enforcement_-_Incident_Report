@@ -1,0 +1,782 @@
+[
+  {
+    "id": "025011001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aurora",
+      "en": "Aurora",
+      "slug": "aurora-025011001"
+    },
+    "code": {
+      "id": "025011001",
+      "iso": null
+    },
+    "parent": {
+      "id": "025011",
+      "level": 3,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-025011"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025011",
+        "level": 3,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-025011"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3713"
+    ],
+    "geo": {
+      "lat": "13.35",
+      "lon": "122.52"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025011002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baresbes",
+      "en": "Baresbes",
+      "slug": "baresbes-025011002"
+    },
+    "code": {
+      "id": "025011002",
+      "iso": null
+    },
+    "parent": {
+      "id": "025011",
+      "level": 3,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-025011"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025011",
+        "level": 3,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-025011"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3713"
+    ],
+    "geo": {
+      "lat": "18.0644",
+      "lon": "120.7391"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025011004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bonifacio",
+      "en": "Bonifacio",
+      "slug": "bonifacio-025011004"
+    },
+    "code": {
+      "id": "025011004",
+      "iso": null
+    },
+    "parent": {
+      "id": "025011",
+      "level": 3,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-025011"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025011",
+        "level": 3,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-025011"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3713"
+    ],
+    "geo": {
+      "lat": "8.0527",
+      "lon": "123.6136"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025011003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buliwao",
+      "en": "Buliwao",
+      "slug": "buliwao-025011003"
+    },
+    "code": {
+      "id": "025011003",
+      "iso": null
+    },
+    "parent": {
+      "id": "025011",
+      "level": 3,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-025011"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025011",
+        "level": 3,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-025011"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3713"
+    ],
+    "geo": {
+      "lat": "16.4833",
+      "lon": "121.2333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025011005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calaocan",
+      "en": "Calaocan",
+      "slug": "calaocan-025011005"
+    },
+    "code": {
+      "id": "025011005",
+      "iso": null
+    },
+    "parent": {
+      "id": "025011",
+      "level": 3,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-025011"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025011",
+        "level": 3,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-025011"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3713"
+    ],
+    "geo": {
+      "lat": "17.5037",
+      "lon": "121.6021"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025011006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caliat (Pob.)",
+      "en": "Caliat (Pob.)",
+      "slug": "caliat-pob-025011006"
+    },
+    "code": {
+      "id": "025011006",
+      "iso": null
+    },
+    "parent": {
+      "id": "025011",
+      "level": 3,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-025011"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025011",
+        "level": 3,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-025011"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3713"
+    ],
+    "geo": {
+      "lat": "16.4972",
+      "lon": "121.2713"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025011012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dagupan",
+      "en": "Dagupan",
+      "slug": "dagupan-025011012"
+    },
+    "code": {
+      "id": "025011012",
+      "iso": null
+    },
+    "parent": {
+      "id": "025011",
+      "level": 3,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-025011"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025011",
+        "level": 3,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-025011"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3713"
+    ],
+    "geo": {
+      "lat": "16.043",
+      "lon": "120.334"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025011007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Darubba",
+      "en": "Darubba",
+      "slug": "darubba-025011007"
+    },
+    "code": {
+      "id": "025011007",
+      "iso": null
+    },
+    "parent": {
+      "id": "025011",
+      "level": 3,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-025011"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025011",
+        "level": 3,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-025011"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3713"
+    ],
+    "geo": {
+      "lat": "16.697",
+      "lon": "121.6295"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025011011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maasin",
+      "en": "Maasin",
+      "slug": "maasin-025011011"
+    },
+    "code": {
+      "id": "025011011",
+      "iso": null
+    },
+    "parent": {
+      "id": "025011",
+      "level": 3,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-025011"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025011",
+        "level": 3,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-025011"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3713"
+    ],
+    "geo": {
+      "lat": "10.13",
+      "lon": "124.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025011008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maddiangat",
+      "en": "Maddiangat",
+      "slug": "maddiangat-025011008"
+    },
+    "code": {
+      "id": "025011008",
+      "iso": null
+    },
+    "parent": {
+      "id": "025011",
+      "level": 3,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-025011"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025011",
+        "level": 3,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-025011"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3713"
+    ],
+    "geo": {
+      "lat": "16.4966",
+      "lon": "121.21"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025011009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nalubbunan",
+      "en": "Nalubbunan",
+      "slug": "nalubbunan-025011009"
+    },
+    "code": {
+      "id": "025011009",
+      "iso": null
+    },
+    "parent": {
+      "id": "025011",
+      "level": 3,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-025011"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025011",
+        "level": 3,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-025011"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3713"
+    ],
+    "geo": {
+      "lat": "16.5005",
+      "lon": "121.2304"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025011010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Runruno",
+      "en": "Runruno",
+      "slug": "runruno-025011010"
+    },
+    "code": {
+      "id": "025011010",
+      "iso": null
+    },
+    "parent": {
+      "id": "025011",
+      "level": 3,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-025011"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025011",
+        "level": 3,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-025011"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3713"
+    ],
+    "geo": {
+      "lat": "16.4927",
+      "lon": "121.2902"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

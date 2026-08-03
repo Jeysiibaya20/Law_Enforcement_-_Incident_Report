@@ -1,0 +1,56 @@
+{
+  "id": "160310",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Josefa",
+    "en": "Santa Josefa",
+    "slug": "santa-josefa-160310"
+  },
+  "code": {
+    "id": "160310",
+    "iso": null
+  },
+  "parent": {
+    "id": "160300",
+    "level": 2,
+    "name": {
+      "local": "Agusan del Sur",
+      "en": "Agusan del Sur",
+      "slug": "agusan-del-sur-160300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.983",
+    "lon": "126.033"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "168501",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Basilisa (Rizal)",
+    "en": "Basilisa (Rizal)",
+    "slug": "basilisa-rizal-168501"
+  },
+  "code": {
+    "id": "168501",
+    "iso": null
+  },
+  "parent": {
+    "id": "168500",
+    "level": 2,
+    "name": {
+      "local": "Dinagat Islands",
+      "en": "Dinagat Islands",
+      "slug": "dinagat-islands-168500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "168500",
+      "level": 2,
+      "name": {
+        "local": "Dinagat Islands",
+        "en": "Dinagat Islands",
+        "slug": "dinagat-islands-168500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 27
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.583",
+    "lon": "123.533"
+  },
+  "metadata": {},
+  "source": {}
+}

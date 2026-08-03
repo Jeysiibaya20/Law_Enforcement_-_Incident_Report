@@ -1,0 +1,847 @@
+[
+  {
+    "id": "101305001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bontongon",
+      "en": "Bontongon",
+      "slug": "bontongon-101305001"
+    },
+    "code": {
+      "id": "101305001",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "8.2983",
+      "lon": "125.1083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulonay",
+      "en": "Bulonay",
+      "slug": "bulonay-101305002"
+    },
+    "code": {
+      "id": "101305002",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "8.3",
+      "lon": "125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Capitan Bayong",
+      "en": "Capitan Bayong",
+      "slug": "capitan-bayong-101305003"
+    },
+    "code": {
+      "id": "101305003",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "8.2772",
+      "lon": "125.0228"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cawayan",
+      "en": "Cawayan",
+      "slug": "cawayan-101305004"
+    },
+    "code": {
+      "id": "101305004",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "8.0561",
+      "lon": "124.9289"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dumalaguing",
+      "en": "Dumalaguing",
+      "slug": "dumalaguing-101305005"
+    },
+    "code": {
+      "id": "101305005",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "8.3469",
+      "lon": "125.055"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Guihean",
+      "en": "Guihean",
+      "slug": "guihean-101305006"
+    },
+    "code": {
+      "id": "101305006",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "8.4069",
+      "lon": "124.9842"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hagpa",
+      "en": "Hagpa",
+      "slug": "hagpa-101305007"
+    },
+    "code": {
+      "id": "101305007",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "8.4419",
+      "lon": "125.2228"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Impalutao",
+      "en": "Impalutao",
+      "slug": "impalutao-101305008"
+    },
+    "code": {
+      "id": "101305008",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "8.2578",
+      "lon": "125.0275"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kalabugao",
+      "en": "Kalabugao",
+      "slug": "kalabugao-101305010"
+    },
+    "code": {
+      "id": "101305010",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "8.4564",
+      "lon": "125.1589"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kibenton",
+      "en": "Kibenton",
+      "slug": "kibenton-101305011"
+    },
+    "code": {
+      "id": "101305011",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "8.3",
+      "lon": "125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "La Fortuna",
+      "en": "La Fortuna",
+      "slug": "la-fortuna-101305012"
+    },
+    "code": {
+      "id": "101305012",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "8.2797",
+      "lon": "125.0014"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-101305013"
+    },
+    "code": {
+      "id": "101305013",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sayawan",
+      "en": "Sayawan",
+      "slug": "sayawan-101305015"
+    },
+    "code": {
+      "id": "101305015",
+      "iso": null
+    },
+    "parent": {
+      "id": "101305",
+      "level": 3,
+      "name": {
+        "local": "Impasug-Ong",
+        "en": "Impasug-Ong",
+        "slug": "impasug-ong-101305"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101305",
+        "level": 3,
+        "name": {
+          "local": "Impasug-Ong",
+          "en": "Impasug-Ong",
+          "slug": "impasug-ong-101305"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8702"
+    ],
+    "geo": {
+      "lat": "8.3794",
+      "lon": "125.0017"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

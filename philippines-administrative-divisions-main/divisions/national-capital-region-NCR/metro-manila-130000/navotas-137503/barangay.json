@@ -1,0 +1,912 @@
+[
+  {
+    "id": "137503002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagumbayan North",
+      "en": "Bagumbayan North",
+      "slug": "bagumbayan-north-137503002"
+    },
+    "code": {
+      "id": "137503002",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "14.6605",
+      "lon": "120.9438"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagumbayan South",
+      "en": "Bagumbayan South",
+      "slug": "bagumbayan-south-137503003"
+    },
+    "code": {
+      "id": "137503003",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "14.6549",
+      "lon": "120.9484"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bangculasi",
+      "en": "Bangculasi",
+      "slug": "bangculasi-137503004"
+    },
+    "code": {
+      "id": "137503004",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "14.6488",
+      "lon": "120.9525"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Daanghari",
+      "en": "Daanghari",
+      "slug": "daanghari-137503005"
+    },
+    "code": {
+      "id": "137503005",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "14.6667",
+      "lon": "120.9417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Navotas East",
+      "en": "Navotas East",
+      "slug": "navotas-east-137503006"
+    },
+    "code": {
+      "id": "137503006",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "14.6585",
+      "lon": "120.9468"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Navotas West",
+      "en": "Navotas West",
+      "slug": "navotas-west-137503007"
+    },
+    "code": {
+      "id": "137503007",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "14.663",
+      "lon": "120.9434"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "North Bay Blvd., North",
+      "en": "North Bay Blvd., North",
+      "slug": "north-bay-blvd-north-137503008"
+    },
+    "code": {
+      "id": "137503008",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "14.6667",
+      "lon": "120.9417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "North Bay Blvd., South",
+      "en": "North Bay Blvd., South",
+      "slug": "north-bay-blvd-south-137503009"
+    },
+    "code": {
+      "id": "137503009",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "14.6667",
+      "lon": "120.9417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose (Pob.)",
+      "en": "San Jose (Pob.)",
+      "slug": "san-jose-pob-137503010"
+    },
+    "code": {
+      "id": "137503010",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "12.3528",
+      "lon": "121.0676"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Rafael Village",
+      "en": "San Rafael Village",
+      "slug": "san-rafael-village-137503011"
+    },
+    "code": {
+      "id": "137503011",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "14.6372",
+      "lon": "120.9653"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque",
+      "en": "San Roque",
+      "slug": "san-roque-137503012"
+    },
+    "code": {
+      "id": "137503012",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "12.533",
+      "lon": "124.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sipac-Almacen",
+      "en": "Sipac-Almacen",
+      "slug": "sipac-almacen-137503001"
+    },
+    "code": {
+      "id": "137503001",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "14.6563",
+      "lon": "120.9461"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tangos",
+      "en": "Tangos",
+      "slug": "tangos-137503013"
+    },
+    "code": {
+      "id": "137503013",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "14.6735",
+      "lon": "120.9341"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "137503014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tanza",
+      "en": "Tanza",
+      "slug": "tanza-137503014"
+    },
+    "code": {
+      "id": "137503014",
+      "iso": null
+    },
+    "parent": {
+      "id": "137503",
+      "level": 3,
+      "name": {
+        "local": "Navotas",
+        "en": "Navotas",
+        "slug": "navotas-137503"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "NCR",
+        "level": 1,
+        "name": {
+          "local": "National Capital Region",
+          "en": "National Capital Region",
+          "slug": "national-capital-region-NCR"
+        }
+      },
+      {
+        "id": "130000",
+        "level": 2,
+        "name": {
+          "local": "Kalakhang Maynila",
+          "en": "Metro Manila",
+          "slug": "metro-manila-130000"
+        }
+      },
+      {
+        "id": "137503",
+        "level": 3,
+        "name": {
+          "local": "Navotas",
+          "en": "Navotas",
+          "slug": "navotas-137503"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "1440"
+    ],
+    "geo": {
+      "lat": "14.3944",
+      "lon": "120.8531"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

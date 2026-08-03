@@ -1,0 +1,898 @@
+[
+  {
+    "id": "098301",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alicia",
+      "en": "Alicia",
+      "slug": "alicia-098301"
+    },
+    "code": {
+      "id": "098301",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.50833",
+      "lon": "122.94167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098302",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Buug",
+      "en": "Buug",
+      "slug": "buug-098302"
+    },
+    "code": {
+      "id": "098302",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.733",
+      "lon": "123.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098303",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Diplahan",
+      "en": "Diplahan",
+      "slug": "diplahan-098303"
+    },
+    "code": {
+      "id": "098303",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.717",
+      "lon": "123.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098304",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Imelda",
+      "en": "Imelda",
+      "slug": "imelda-098304"
+    },
+    "code": {
+      "id": "098304",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.617",
+      "lon": "122.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098305",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ipil",
+      "en": "Ipil",
+      "slug": "ipil-098305"
+    },
+    "code": {
+      "id": "098305",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.783",
+      "lon": "122.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098306",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kabasalan",
+      "en": "Kabasalan",
+      "slug": "kabasalan-098306"
+    },
+    "code": {
+      "id": "098306",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.817",
+      "lon": "122.817"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098307",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mabuhay",
+      "en": "Mabuhay",
+      "slug": "mabuhay-098307"
+    },
+    "code": {
+      "id": "098307",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.417",
+      "lon": "122.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098308",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malangas",
+      "en": "Malangas",
+      "slug": "malangas-098308"
+    },
+    "code": {
+      "id": "098308",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.617",
+      "lon": "123"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098309",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Naga",
+      "en": "Naga",
+      "slug": "naga-098309"
+    },
+    "code": {
+      "id": "098309",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.833",
+      "lon": "122.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098310",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Olutanga",
+      "en": "Olutanga",
+      "slug": "olutanga-098310"
+    },
+    "code": {
+      "id": "098310",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.333",
+      "lon": "122.833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098311",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Payao",
+      "en": "Payao",
+      "slug": "payao-098311"
+    },
+    "code": {
+      "id": "098311",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.583",
+      "lon": "122.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098312",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Roseller Lim",
+      "en": "Roseller Lim",
+      "slug": "roseller-lim-098312"
+    },
+    "code": {
+      "id": "098312",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.7",
+      "lon": "122.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098313",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Siay",
+      "en": "Siay",
+      "slug": "siay-098313"
+    },
+    "code": {
+      "id": "098313",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.717",
+      "lon": "122.883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098314",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Talusan",
+      "en": "Talusan",
+      "slug": "talusan-098314"
+    },
+    "code": {
+      "id": "098314",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.333",
+      "lon": "122.883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098315",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Titay",
+      "en": "Titay",
+      "slug": "titay-098315"
+    },
+    "code": {
+      "id": "098315",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.85",
+      "lon": "122.55"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "098316",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tungawan",
+      "en": "Tungawan",
+      "slug": "tungawan-098316"
+    },
+    "code": {
+      "id": "098316",
+      "iso": null
+    },
+    "parent": {
+      "id": "098300",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga Sibugay",
+        "en": "Zamboanga Sibugay",
+        "slug": "zamboanga-sibugay-098300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R09",
+        "level": 1,
+        "name": {
+          "local": "Zamboanga Peninsula",
+          "en": "Zamboanga Peninsula",
+          "slug": "zamboanga-peninsula-R09"
+        }
+      },
+      {
+        "id": "098300",
+        "level": 2,
+        "name": {
+          "local": "Zamboanga Sibugay",
+          "en": "Zamboanga Sibugay",
+          "slug": "zamboanga-sibugay-098300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.5",
+      "lon": "122.367"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

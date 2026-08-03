@@ -1,0 +1,56 @@
+{
+  "id": "141107",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Kabayan",
+    "en": "Kabayan",
+    "slug": "kabayan-141107"
+  },
+  "code": {
+    "id": "141107",
+    "iso": null
+  },
+  "parent": {
+    "id": "141100",
+    "level": 2,
+    "name": {
+      "local": "Benguet",
+      "en": "Benguet",
+      "slug": "benguet-141100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "141100",
+      "level": 2,
+      "name": {
+        "local": "Benguet",
+        "en": "Benguet",
+        "slug": "benguet-141100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 13
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.617",
+    "lon": "120.85"
+  },
+  "metadata": {},
+  "source": {}
+}

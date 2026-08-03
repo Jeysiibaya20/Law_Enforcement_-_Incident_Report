@@ -1,0 +1,35 @@
+{
+  "id": "R03",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "Central Luzon",
+    "en": "Central Luzon",
+    "slug": "central-luzon-R03"
+  },
+  "code": {
+    "id": "R03",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 7,
+    "barangay": 3102,
+    "municipality": 130
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.217",
+    "lon": "120.8297"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/central-luzon-R03/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

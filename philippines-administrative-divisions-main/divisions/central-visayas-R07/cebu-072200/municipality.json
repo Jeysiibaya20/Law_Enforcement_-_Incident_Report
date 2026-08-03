@@ -1,0 +1,2970 @@
+[
+  {
+    "id": "072201",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alcantara",
+      "en": "Alcantara",
+      "slug": "alcantara-072201"
+    },
+    "code": {
+      "id": "072201",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.267",
+      "lon": "122.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072202",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alcoy",
+      "en": "Alcoy",
+      "slug": "alcoy-072202"
+    },
+    "code": {
+      "id": "072202",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.68",
+      "lon": "123.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072203",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alegria",
+      "en": "Alegria",
+      "slug": "alegria-072203"
+    },
+    "code": {
+      "id": "072203",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.467",
+      "lon": "125.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072204",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Aloguinsan",
+      "en": "Aloguinsan",
+      "slug": "aloguinsan-072204"
+    },
+    "code": {
+      "id": "072204",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.22",
+      "lon": "123.55"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072205",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Argao",
+      "en": "Argao",
+      "slug": "argao-072205"
+    },
+    "code": {
+      "id": "072205",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 45
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.88",
+      "lon": "123.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072206",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Asturias",
+      "en": "Asturias",
+      "slug": "asturias-072206"
+    },
+    "code": {
+      "id": "072206",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.57",
+      "lon": "123.72"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072207",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Badian",
+      "en": "Badian",
+      "slug": "badian-072207"
+    },
+    "code": {
+      "id": "072207",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.87",
+      "lon": "123.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072208",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balamban",
+      "en": "Balamban",
+      "slug": "balamban-072208"
+    },
+    "code": {
+      "id": "072208",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.5",
+      "lon": "123.72"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072209",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bantayan",
+      "en": "Bantayan",
+      "slug": "bantayan-072209"
+    },
+    "code": {
+      "id": "072209",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.17",
+      "lon": "123.72"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072210",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Barili",
+      "en": "Barili",
+      "slug": "barili-072210"
+    },
+    "code": {
+      "id": "072210",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.12",
+      "lon": "123.52"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072211",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bogo",
+      "en": "Bogo",
+      "slug": "bogo-072211"
+    },
+    "code": {
+      "id": "072211",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.03",
+      "lon": "124"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072212",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Boljoon",
+      "en": "Boljoon",
+      "slug": "boljoon-072212"
+    },
+    "code": {
+      "id": "072212",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.63",
+      "lon": "123.48"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072213",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Borbon",
+      "en": "Borbon",
+      "slug": "borbon-072213"
+    },
+    "code": {
+      "id": "072213",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.83",
+      "lon": "124.03"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072214",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Carcar",
+      "en": "Carcar",
+      "slug": "carcar-072214"
+    },
+    "code": {
+      "id": "072214",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.1",
+      "lon": "123.63"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072215",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Carmen",
+      "en": "Carmen",
+      "slug": "carmen-072215"
+    },
+    "code": {
+      "id": "072215",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.217",
+      "lon": "125.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072216",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Catmon",
+      "en": "Catmon",
+      "slug": "catmon-072216"
+    },
+    "code": {
+      "id": "072216",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.8271",
+      "lon": "120.9915"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072217",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cebu City",
+      "en": "Cebu City",
+      "slug": "cebu-city-072217"
+    },
+    "code": {
+      "id": "072217",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 80
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.1377",
+      "lon": "123.3847"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072218",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Compostela",
+      "en": "Compostela",
+      "slug": "compostela-072218"
+    },
+    "code": {
+      "id": "072218",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.667",
+      "lon": "126.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072219",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Consolacion",
+      "en": "Consolacion",
+      "slug": "consolacion-072219"
+    },
+    "code": {
+      "id": "072219",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.8761",
+      "lon": "126.0956"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072220",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cordova",
+      "en": "Cordova",
+      "slug": "cordova-072220"
+    },
+    "code": {
+      "id": "072220",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.25",
+      "lon": "123.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072221",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Daanbantayan",
+      "en": "Daanbantayan",
+      "slug": "daanbantayan-072221"
+    },
+    "code": {
+      "id": "072221",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.25",
+      "lon": "124"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072222",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dalaguete",
+      "en": "Dalaguete",
+      "slug": "dalaguete-072222"
+    },
+    "code": {
+      "id": "072222",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.77",
+      "lon": "123.53"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072223",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Danao City",
+      "en": "Danao City",
+      "slug": "danao-city-072223"
+    },
+    "code": {
+      "id": "072223",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.52",
+      "lon": "124.03"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072224",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dumanjug",
+      "en": "Dumanjug",
+      "slug": "dumanjug-072224"
+    },
+    "code": {
+      "id": "072224",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.05",
+      "lon": "123.43"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072225",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ginatilan",
+      "en": "Ginatilan",
+      "slug": "ginatilan-072225"
+    },
+    "code": {
+      "id": "072225",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.6",
+      "lon": "123.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072226",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lapu-lapu City (Opon)",
+      "en": "Lapu-lapu City (Opon)",
+      "slug": "lapu-lapu-city-opon-072226"
+    },
+    "code": {
+      "id": "072226",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.9645",
+      "lon": "123.4686"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072227",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Liloan",
+      "en": "Liloan",
+      "slug": "liloan-072227"
+    },
+    "code": {
+      "id": "072227",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.0533",
+      "lon": "123.5638"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072228",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Madridejos",
+      "en": "Madridejos",
+      "slug": "madridejos-072228"
+    },
+    "code": {
+      "id": "072228",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.27",
+      "lon": "123.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072229",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malabuyoc",
+      "en": "Malabuyoc",
+      "slug": "malabuyoc-072229"
+    },
+    "code": {
+      "id": "072229",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.65",
+      "lon": "123.33"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072230",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mandaue City",
+      "en": "Mandaue City",
+      "slug": "mandaue-city-072230"
+    },
+    "code": {
+      "id": "072230",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.1188",
+      "lon": "123.2764"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072231",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Medellin",
+      "en": "Medellin",
+      "slug": "medellin-072231"
+    },
+    "code": {
+      "id": "072231",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.13",
+      "lon": "123.97"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072232",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Minglanilla",
+      "en": "Minglanilla",
+      "slug": "minglanilla-072232"
+    },
+    "code": {
+      "id": "072232",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.25",
+      "lon": "123.78"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072233",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Moalboal",
+      "en": "Moalboal",
+      "slug": "moalboal-072233"
+    },
+    "code": {
+      "id": "072233",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.95",
+      "lon": "123.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072234",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Naga",
+      "en": "Naga",
+      "slug": "naga-072234"
+    },
+    "code": {
+      "id": "072234",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.833",
+      "lon": "122.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072235",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Oslob",
+      "en": "Oslob",
+      "slug": "oslob-072235"
+    },
+    "code": {
+      "id": "072235",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.55",
+      "lon": "123.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072236",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pilar",
+      "en": "Pilar",
+      "slug": "pilar-072236"
+    },
+    "code": {
+      "id": "072236",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.867",
+      "lon": "126.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072237",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pinamungahan",
+      "en": "Pinamungahan",
+      "slug": "pinamungahan-072237"
+    },
+    "code": {
+      "id": "072237",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.27",
+      "lon": "123.58"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072238",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Poro",
+      "en": "Poro",
+      "slug": "poro-072238"
+    },
+    "code": {
+      "id": "072238",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.63",
+      "lon": "124.42"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072239",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ronda",
+      "en": "Ronda",
+      "slug": "ronda-072239"
+    },
+    "code": {
+      "id": "072239",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10",
+      "lon": "123.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072240",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Samboan",
+      "en": "Samboan",
+      "slug": "samboan-072240"
+    },
+    "code": {
+      "id": "072240",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.53",
+      "lon": "123.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072241",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Fernando",
+      "en": "San Fernando",
+      "slug": "san-fernando-072241"
+    },
+    "code": {
+      "id": "072241",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.7847",
+      "lon": "121.7181"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072242",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Francisco",
+      "en": "San Francisco",
+      "slug": "san-francisco-072242"
+    },
+    "code": {
+      "id": "072242",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.733",
+      "lon": "125.417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072243",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Remigio",
+      "en": "San Remigio",
+      "slug": "san-remigio-072243"
+    },
+    "code": {
+      "id": "072243",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.05",
+      "lon": "123.98"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072244",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Fe",
+      "en": "Santa Fe",
+      "slug": "santa-fe-072244"
+    },
+    "code": {
+      "id": "072244",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.3369",
+      "lon": "125.9433"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072245",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santander",
+      "en": "Santander",
+      "slug": "santander-072245"
+    },
+    "code": {
+      "id": "072245",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.45",
+      "lon": "123.33"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072246",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sibonga",
+      "en": "Sibonga",
+      "slug": "sibonga-072246"
+    },
+    "code": {
+      "id": "072246",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.03",
+      "lon": "123.57"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072247",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sogod",
+      "en": "Sogod",
+      "slug": "sogod-072247"
+    },
+    "code": {
+      "id": "072247",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.383",
+      "lon": "124.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072248",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tabogon",
+      "en": "Tabogon",
+      "slug": "tabogon-072248"
+    },
+    "code": {
+      "id": "072248",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.93",
+      "lon": "124.03"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072249",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tabuelan",
+      "en": "Tabuelan",
+      "slug": "tabuelan-072249"
+    },
+    "code": {
+      "id": "072249",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.82",
+      "lon": "123.87"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072250",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Talisay",
+      "en": "Talisay",
+      "slug": "talisay-072250"
+    },
+    "code": {
+      "id": "072250",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.133",
+      "lon": "122.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072251",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Toledo City",
+      "en": "Toledo City",
+      "slug": "toledo-city-072251"
+    },
+    "code": {
+      "id": "072251",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 38
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.38",
+      "lon": "123.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072252",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tuburan",
+      "en": "Tuburan",
+      "slug": "tuburan-072252"
+    },
+    "code": {
+      "id": "072252",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 54
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.9667",
+      "lon": "122.4833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "072253",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tudela",
+      "en": "Tudela",
+      "slug": "tudela-072253"
+    },
+    "code": {
+      "id": "072253",
+      "iso": null
+    },
+    "parent": {
+      "id": "072200",
+      "level": 2,
+      "name": {
+        "local": "Cebu",
+        "en": "Cebu",
+        "slug": "cebu-072200"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "072200",
+        "level": 2,
+        "name": {
+          "local": "Cebu",
+          "en": "Cebu",
+          "slug": "cebu-072200"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.25",
+      "lon": "123.833"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

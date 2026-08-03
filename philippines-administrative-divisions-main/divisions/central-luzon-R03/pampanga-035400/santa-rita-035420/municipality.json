@@ -1,0 +1,56 @@
+{
+  "id": "035420",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Rita",
+    "en": "Santa Rita",
+    "slug": "santa-rita-035420"
+  },
+  "code": {
+    "id": "035420",
+    "iso": null
+  },
+  "parent": {
+    "id": "035400",
+    "level": 2,
+    "name": {
+      "local": "Pampanga",
+      "en": "Pampanga",
+      "slug": "pampanga-035400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 10
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.467",
+    "lon": "124.95"
+  },
+  "metadata": {},
+  "source": {}
+}

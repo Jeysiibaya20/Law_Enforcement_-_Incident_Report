@@ -1,0 +1,56 @@
+{
+  "id": "126318",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santo Niño",
+    "en": "Santo Niño",
+    "slug": "santo-nio-126318"
+  },
+  "code": {
+    "id": "126318",
+    "iso": null
+  },
+  "parent": {
+    "id": "126300",
+    "level": 2,
+    "name": {
+      "local": "South Cotabato",
+      "en": "South Cotabato",
+      "slug": "south-cotabato-126300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 10
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.433",
+    "lon": "124.683"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,847 @@
+[
+  {
+    "id": "103512001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balagatasa",
+      "en": "Balagatasa",
+      "slug": "balagatasa-103512001"
+    },
+    "code": {
+      "id": "103512001",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "8.1493",
+      "lon": "123.9391"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Camp 1",
+      "en": "Camp 1",
+      "slug": "camp-1-103512002"
+    },
+    "code": {
+      "id": "103512002",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "8.15",
+      "lon": "123.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Claro M. Recto",
+      "en": "Claro M. Recto",
+      "slug": "claro-m-recto-103512003"
+    },
+    "code": {
+      "id": "103512003",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "15.1467",
+      "lon": "120.5929"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Inoma",
+      "en": "Inoma",
+      "slug": "inoma-103512004"
+    },
+    "code": {
+      "id": "103512004",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "7.7113",
+      "lon": "124.07"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kulasihan (Villanueva)",
+      "en": "Kulasihan (Villanueva)",
+      "slug": "kulasihan-villanueva-103512013"
+    },
+    "code": {
+      "id": "103512013",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "8.1305",
+      "lon": "123.9271"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Labuay",
+      "en": "Labuay",
+      "slug": "labuay-103512005"
+    },
+    "code": {
+      "id": "103512005",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "8.15",
+      "lon": "123.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Liangan West",
+      "en": "Liangan West",
+      "slug": "liangan-west-103512006"
+    },
+    "code": {
+      "id": "103512006",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "7.6866",
+      "lon": "123.9375"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mahayahay",
+      "en": "Mahayahay",
+      "slug": "mahayahay-103512007"
+    },
+    "code": {
+      "id": "103512007",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "7.8569",
+      "lon": "123.8001"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maliwanag",
+      "en": "Maliwanag",
+      "slug": "maliwanag-103512008"
+    },
+    "code": {
+      "id": "103512008",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "8.15",
+      "lon": "123.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mentring",
+      "en": "Mentring",
+      "slug": "mentring-103512009"
+    },
+    "code": {
+      "id": "103512009",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "8.1301",
+      "lon": "123.9888"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-103512010"
+    },
+    "code": {
+      "id": "103512010",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-103512011"
+    },
+    "code": {
+      "id": "103512011",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "14.5998",
+      "lon": "120.9802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103512012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Segapod",
+      "en": "Segapod",
+      "slug": "segapod-103512012"
+    },
+    "code": {
+      "id": "103512012",
+      "iso": null
+    },
+    "parent": {
+      "id": "103512",
+      "level": 3,
+      "name": {
+        "local": "Maigo",
+        "en": "Maigo",
+        "slug": "maigo-103512"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103512",
+        "level": 3,
+        "name": {
+          "local": "Maigo",
+          "en": "Maigo",
+          "slug": "maigo-103512"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9206"
+    ],
+    "geo": {
+      "lat": "8.15",
+      "lon": "123.967"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

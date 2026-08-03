@@ -1,0 +1,262 @@
+[
+  {
+    "id": "020904001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hañib",
+      "en": "Hañib",
+      "slug": "haib-020904001"
+    },
+    "code": {
+      "id": "020904001",
+      "iso": null
+    },
+    "parent": {
+      "id": "020904",
+      "level": 3,
+      "name": {
+        "local": "Mahatao",
+        "en": "Mahatao",
+        "slug": "mahatao-020904"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020904",
+        "level": 3,
+        "name": {
+          "local": "Mahatao",
+          "en": "Mahatao",
+          "slug": "mahatao-020904"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3901"
+    ],
+    "geo": {
+      "lat": "20.4287",
+      "lon": "121.9552"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020904002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kaumbakan",
+      "en": "Kaumbakan",
+      "slug": "kaumbakan-020904002"
+    },
+    "code": {
+      "id": "020904002",
+      "iso": null
+    },
+    "parent": {
+      "id": "020904",
+      "level": 3,
+      "name": {
+        "local": "Mahatao",
+        "en": "Mahatao",
+        "slug": "mahatao-020904"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020904",
+        "level": 3,
+        "name": {
+          "local": "Mahatao",
+          "en": "Mahatao",
+          "slug": "mahatao-020904"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3901"
+    ],
+    "geo": {
+      "lat": "20.417",
+      "lon": "121.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020904003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panatayan",
+      "en": "Panatayan",
+      "slug": "panatayan-020904003"
+    },
+    "code": {
+      "id": "020904003",
+      "iso": null
+    },
+    "parent": {
+      "id": "020904",
+      "level": 3,
+      "name": {
+        "local": "Mahatao",
+        "en": "Mahatao",
+        "slug": "mahatao-020904"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020904",
+        "level": 3,
+        "name": {
+          "local": "Mahatao",
+          "en": "Mahatao",
+          "slug": "mahatao-020904"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3901"
+    ],
+    "geo": {
+      "lat": "20.4063",
+      "lon": "121.936"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020904004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Uvoy (Pob.)",
+      "en": "Uvoy (Pob.)",
+      "slug": "uvoy-pob-020904004"
+    },
+    "code": {
+      "id": "020904004",
+      "iso": null
+    },
+    "parent": {
+      "id": "020904",
+      "level": 3,
+      "name": {
+        "local": "Mahatao",
+        "en": "Mahatao",
+        "slug": "mahatao-020904"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020904",
+        "level": 3,
+        "name": {
+          "local": "Mahatao",
+          "en": "Mahatao",
+          "slug": "mahatao-020904"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3901"
+    ],
+    "geo": {
+      "lat": "20.4021",
+      "lon": "121.9616"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

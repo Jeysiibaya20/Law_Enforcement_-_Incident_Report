@@ -1,0 +1,912 @@
+[
+  {
+    "id": "175903001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alibagon",
+      "en": "Alibagon",
+      "slug": "alibagon-175903001"
+    },
+    "code": {
+      "id": "175903001",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.3549",
+      "lon": "122.6823"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cambajao",
+      "en": "Cambajao",
+      "slug": "cambajao-175903002"
+    },
+    "code": {
+      "id": "175903002",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.3596",
+      "lon": "122.6864"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cambalo",
+      "en": "Cambalo",
+      "slug": "cambalo-175903003"
+    },
+    "code": {
+      "id": "175903003",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.4574",
+      "lon": "122.6613"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cambijang",
+      "en": "Cambijang",
+      "slug": "cambijang-175903004"
+    },
+    "code": {
+      "id": "175903004",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.4232",
+      "lon": "122.6832"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cantagda",
+      "en": "Cantagda",
+      "slug": "cantagda-175903005"
+    },
+    "code": {
+      "id": "175903005",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.367",
+      "lon": "122.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Danao",
+      "en": "Danao",
+      "slug": "danao-175903006"
+    },
+    "code": {
+      "id": "175903006",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.4846",
+      "lon": "122.635"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gutivan",
+      "en": "Gutivan",
+      "slug": "gutivan-175903007"
+    },
+    "code": {
+      "id": "175903007",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.3909",
+      "lon": "122.6914"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lico",
+      "en": "Lico",
+      "slug": "lico-175903008"
+    },
+    "code": {
+      "id": "175903008",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.4097",
+      "lon": "122.6723"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lumbang Este",
+      "en": "Lumbang Este",
+      "slug": "lumbang-este-175903009"
+    },
+    "code": {
+      "id": "175903009",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.4184",
+      "lon": "122.6717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lumbang Weste",
+      "en": "Lumbang Weste",
+      "slug": "lumbang-weste-175903010"
+    },
+    "code": {
+      "id": "175903010",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.4184",
+      "lon": "122.6717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Marigondon",
+      "en": "Marigondon",
+      "slug": "marigondon-175903011"
+    },
+    "code": {
+      "id": "175903011",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.4376",
+      "lon": "122.6744"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-175903012"
+    },
+    "code": {
+      "id": "175903012",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sugod",
+      "en": "Sugod",
+      "slug": "sugod-175903013"
+    },
+    "code": {
+      "id": "175903013",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.3804",
+      "lon": "122.6843"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175903014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taguilos",
+      "en": "Taguilos",
+      "slug": "taguilos-175903014"
+    },
+    "code": {
+      "id": "175903014",
+      "iso": null
+    },
+    "parent": {
+      "id": "175903",
+      "level": 3,
+      "name": {
+        "local": "Cajidiocan",
+        "en": "Cajidiocan",
+        "slug": "cajidiocan-175903"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175903",
+        "level": 3,
+        "name": {
+          "local": "Cajidiocan",
+          "en": "Cajidiocan",
+          "slug": "cajidiocan-175903"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5512"
+    ],
+    "geo": {
+      "lat": "12.4057",
+      "lon": "122.6868"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "101301",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Baungon",
+      "en": "Baungon",
+      "slug": "baungon-101301"
+    },
+    "code": {
+      "id": "101301",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.25",
+      "lon": "124.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101322",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cabanglasan",
+      "en": "Cabanglasan",
+      "slug": "cabanglasan-101322"
+    },
+    "code": {
+      "id": "101322",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.067",
+      "lon": "125.317"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101302",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Damulog",
+      "en": "Damulog",
+      "slug": "damulog-101302"
+    },
+    "code": {
+      "id": "101302",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.483",
+      "lon": "124.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dangcagan",
+      "en": "Dangcagan",
+      "slug": "dangcagan-101303"
+    },
+    "code": {
+      "id": "101303",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.617",
+      "lon": "125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101304",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Don Carlos",
+      "en": "Don Carlos",
+      "slug": "don-carlos-101304"
+    },
+    "code": {
+      "id": "101304",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.683",
+      "lon": "125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101305",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Impasug-Ong",
+      "en": "Impasug-Ong",
+      "slug": "impasug-ong-101305"
+    },
+    "code": {
+      "id": "101305",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.3",
+      "lon": "125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101306",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kadingilan",
+      "en": "Kadingilan",
+      "slug": "kadingilan-101306"
+    },
+    "code": {
+      "id": "101306",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.6",
+      "lon": "124.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101307",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kalilangan",
+      "en": "Kalilangan",
+      "slug": "kalilangan-101307"
+    },
+    "code": {
+      "id": "101307",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.75",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101308",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kibawe",
+      "en": "Kibawe",
+      "slug": "kibawe-101308"
+    },
+    "code": {
+      "id": "101308",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.567",
+      "lon": "124.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101309",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kitaotao",
+      "en": "Kitaotao",
+      "slug": "kitaotao-101309"
+    },
+    "code": {
+      "id": "101309",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.633",
+      "lon": "125.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101310",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lantapan",
+      "en": "Lantapan",
+      "slug": "lantapan-101310"
+    },
+    "code": {
+      "id": "101310",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.05",
+      "lon": "124.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101311",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Libona",
+      "en": "Libona",
+      "slug": "libona-101311"
+    },
+    "code": {
+      "id": "101311",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.333",
+      "lon": "124.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101312",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malaybalay",
+      "en": "Malaybalay",
+      "slug": "malaybalay-101312"
+    },
+    "code": {
+      "id": "101312",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 46
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.15",
+      "lon": "125.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101313",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malitbog",
+      "en": "Malitbog",
+      "slug": "malitbog-101313"
+    },
+    "code": {
+      "id": "101313",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.533",
+      "lon": "124.883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101314",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Manolo Fortich",
+      "en": "Manolo Fortich",
+      "slug": "manolo-fortich-101314"
+    },
+    "code": {
+      "id": "101314",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.367",
+      "lon": "124.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101315",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maramag",
+      "en": "Maramag",
+      "slug": "maramag-101315"
+    },
+    "code": {
+      "id": "101315",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.767",
+      "lon": "125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101316",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pangantucan",
+      "en": "Pangantucan",
+      "slug": "pangantucan-101316"
+    },
+    "code": {
+      "id": "101316",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.833",
+      "lon": "124.833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101317",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-101317"
+    },
+    "code": {
+      "id": "101317",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.733",
+      "lon": "125.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101318",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Fernando",
+      "en": "San Fernando",
+      "slug": "san-fernando-101318"
+    },
+    "code": {
+      "id": "101318",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.917",
+      "lon": "125.333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101319",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sumilao",
+      "en": "Sumilao",
+      "slug": "sumilao-101319"
+    },
+    "code": {
+      "id": "101319",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.283",
+      "lon": "124.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101320",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Talakag",
+      "en": "Talakag",
+      "slug": "talakag-101320"
+    },
+    "code": {
+      "id": "101320",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.233",
+      "lon": "124.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101321",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Valencia",
+      "en": "Valencia",
+      "slug": "valencia-101321"
+    },
+    "code": {
+      "id": "101321",
+      "iso": null
+    },
+    "parent": {
+      "id": "101300",
+      "level": 2,
+      "name": {
+        "local": "Bukidnon",
+        "en": "Bukidnon",
+        "slug": "bukidnon-101300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.283",
+      "lon": "123.25"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "160314",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sibagat",
+    "en": "Sibagat",
+    "slug": "sibagat-160314"
+  },
+  "code": {
+    "id": "160314",
+    "iso": null
+  },
+  "parent": {
+    "id": "160300",
+    "level": 2,
+    "name": {
+      "local": "Agusan del Sur",
+      "en": "Agusan del Sur",
+      "slug": "agusan-del-sur-160300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 24
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.817",
+    "lon": "125.7"
+  },
+  "metadata": {},
+  "source": {}
+}

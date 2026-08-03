@@ -1,0 +1,56 @@
+{
+  "id": "076104",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Maria",
+    "en": "Maria",
+    "slug": "maria-076104"
+  },
+  "code": {
+    "id": "076104",
+    "iso": null
+  },
+  "parent": {
+    "id": "076100",
+    "level": 2,
+    "name": {
+      "local": "Siquijor",
+      "en": "Siquijor",
+      "slug": "siquijor-076100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "076100",
+      "level": 2,
+      "name": {
+        "local": "Siquijor",
+        "en": "Siquijor",
+        "slug": "siquijor-076100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 22
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.2",
+    "lon": "123.65"
+  },
+  "metadata": {},
+  "source": {}
+}

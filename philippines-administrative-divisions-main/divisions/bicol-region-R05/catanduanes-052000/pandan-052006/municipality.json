@@ -1,0 +1,56 @@
+{
+  "id": "052006",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pandan",
+    "en": "Pandan",
+    "slug": "pandan-052006"
+  },
+  "code": {
+    "id": "052006",
+    "iso": null
+  },
+  "parent": {
+    "id": "052000",
+    "level": 2,
+    "name": {
+      "local": "Catanduanes",
+      "en": "Catanduanes",
+      "slug": "catanduanes-052000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "052000",
+      "level": 2,
+      "name": {
+        "local": "Catanduanes",
+        "en": "Catanduanes",
+        "slug": "catanduanes-052000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 26
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.05",
+    "lon": "124.167"
+  },
+  "metadata": {},
+  "source": {}
+}

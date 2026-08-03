@@ -1,0 +1,652 @@
+[
+  {
+    "id": "061915001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agsilab",
+      "en": "Agsilab",
+      "slug": "agsilab-061915001"
+    },
+    "code": {
+      "id": "061915001",
+      "iso": null
+    },
+    "parent": {
+      "id": "061915",
+      "level": 3,
+      "name": {
+        "local": "Sapi-An",
+        "en": "Sapi-An",
+        "slug": "sapi-an-061915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      },
+      {
+        "id": "061915",
+        "level": 3,
+        "name": {
+          "local": "Sapi-An",
+          "en": "Sapi-An",
+          "slug": "sapi-an-061915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5806"
+    ],
+    "geo": {
+      "lat": "11.5",
+      "lon": "122.5833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061915002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agtatacay Norte",
+      "en": "Agtatacay Norte",
+      "slug": "agtatacay-norte-061915002"
+    },
+    "code": {
+      "id": "061915002",
+      "iso": null
+    },
+    "parent": {
+      "id": "061915",
+      "level": 3,
+      "name": {
+        "local": "Sapi-An",
+        "en": "Sapi-An",
+        "slug": "sapi-an-061915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      },
+      {
+        "id": "061915",
+        "level": 3,
+        "name": {
+          "local": "Sapi-An",
+          "en": "Sapi-An",
+          "slug": "sapi-an-061915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5806"
+    ],
+    "geo": {
+      "lat": "11.5183",
+      "lon": "122.5597"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061915003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agtatacay Sur",
+      "en": "Agtatacay Sur",
+      "slug": "agtatacay-sur-061915003"
+    },
+    "code": {
+      "id": "061915003",
+      "iso": null
+    },
+    "parent": {
+      "id": "061915",
+      "level": 3,
+      "name": {
+        "local": "Sapi-An",
+        "en": "Sapi-An",
+        "slug": "sapi-an-061915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      },
+      {
+        "id": "061915",
+        "level": 3,
+        "name": {
+          "local": "Sapi-An",
+          "en": "Sapi-An",
+          "slug": "sapi-an-061915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5806"
+    ],
+    "geo": {
+      "lat": "11.5097",
+      "lon": "122.5617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061915004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bilao",
+      "en": "Bilao",
+      "slug": "bilao-061915004"
+    },
+    "code": {
+      "id": "061915004",
+      "iso": null
+    },
+    "parent": {
+      "id": "061915",
+      "level": 3,
+      "name": {
+        "local": "Sapi-An",
+        "en": "Sapi-An",
+        "slug": "sapi-an-061915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      },
+      {
+        "id": "061915",
+        "level": 3,
+        "name": {
+          "local": "Sapi-An",
+          "en": "Sapi-An",
+          "slug": "sapi-an-061915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5806"
+    ],
+    "geo": {
+      "lat": "11.488",
+      "lon": "122.5599"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061915005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Damayan",
+      "en": "Damayan",
+      "slug": "damayan-061915005"
+    },
+    "code": {
+      "id": "061915005",
+      "iso": null
+    },
+    "parent": {
+      "id": "061915",
+      "level": 3,
+      "name": {
+        "local": "Sapi-An",
+        "en": "Sapi-An",
+        "slug": "sapi-an-061915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      },
+      {
+        "id": "061915",
+        "level": 3,
+        "name": {
+          "local": "Sapi-An",
+          "en": "Sapi-An",
+          "slug": "sapi-an-061915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5806"
+    ],
+    "geo": {
+      "lat": "11.4936",
+      "lon": "122.5531"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061915006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dapdapan",
+      "en": "Dapdapan",
+      "slug": "dapdapan-061915006"
+    },
+    "code": {
+      "id": "061915006",
+      "iso": null
+    },
+    "parent": {
+      "id": "061915",
+      "level": 3,
+      "name": {
+        "local": "Sapi-An",
+        "en": "Sapi-An",
+        "slug": "sapi-an-061915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      },
+      {
+        "id": "061915",
+        "level": 3,
+        "name": {
+          "local": "Sapi-An",
+          "en": "Sapi-An",
+          "slug": "sapi-an-061915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5806"
+    ],
+    "geo": {
+      "lat": "11.4943",
+      "lon": "122.6314"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061915007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lonoy",
+      "en": "Lonoy",
+      "slug": "lonoy-061915007"
+    },
+    "code": {
+      "id": "061915007",
+      "iso": null
+    },
+    "parent": {
+      "id": "061915",
+      "level": 3,
+      "name": {
+        "local": "Sapi-An",
+        "en": "Sapi-An",
+        "slug": "sapi-an-061915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      },
+      {
+        "id": "061915",
+        "level": 3,
+        "name": {
+          "local": "Sapi-An",
+          "en": "Sapi-An",
+          "slug": "sapi-an-061915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5806"
+    ],
+    "geo": {
+      "lat": "11.5136",
+      "lon": "122.7297"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061915008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Majanlud",
+      "en": "Majanlud",
+      "slug": "majanlud-061915008"
+    },
+    "code": {
+      "id": "061915008",
+      "iso": null
+    },
+    "parent": {
+      "id": "061915",
+      "level": 3,
+      "name": {
+        "local": "Sapi-An",
+        "en": "Sapi-An",
+        "slug": "sapi-an-061915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      },
+      {
+        "id": "061915",
+        "level": 3,
+        "name": {
+          "local": "Sapi-An",
+          "en": "Sapi-An",
+          "slug": "sapi-an-061915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5806"
+    ],
+    "geo": {
+      "lat": "11.5",
+      "lon": "122.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061915009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maninang",
+      "en": "Maninang",
+      "slug": "maninang-061915009"
+    },
+    "code": {
+      "id": "061915009",
+      "iso": null
+    },
+    "parent": {
+      "id": "061915",
+      "level": 3,
+      "name": {
+        "local": "Sapi-An",
+        "en": "Sapi-An",
+        "slug": "sapi-an-061915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      },
+      {
+        "id": "061915",
+        "level": 3,
+        "name": {
+          "local": "Sapi-An",
+          "en": "Sapi-An",
+          "slug": "sapi-an-061915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5806"
+    ],
+    "geo": {
+      "lat": "11.4833",
+      "lon": "122.5667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061915010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-061915010"
+    },
+    "code": {
+      "id": "061915010",
+      "iso": null
+    },
+    "parent": {
+      "id": "061915",
+      "level": 3,
+      "name": {
+        "local": "Sapi-An",
+        "en": "Sapi-An",
+        "slug": "sapi-an-061915"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      },
+      {
+        "id": "061915",
+        "level": 3,
+        "name": {
+          "local": "Sapi-An",
+          "en": "Sapi-An",
+          "slug": "sapi-an-061915"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5806"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

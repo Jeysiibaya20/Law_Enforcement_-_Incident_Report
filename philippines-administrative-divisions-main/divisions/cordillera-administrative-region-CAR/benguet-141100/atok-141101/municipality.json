@@ -1,0 +1,56 @@
+{
+  "id": "141101",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Atok",
+    "en": "Atok",
+    "slug": "atok-141101"
+  },
+  "code": {
+    "id": "141101",
+    "iso": null
+  },
+  "parent": {
+    "id": "141100",
+    "level": 2,
+    "name": {
+      "local": "Benguet",
+      "en": "Benguet",
+      "slug": "benguet-141100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "141100",
+      "level": 2,
+      "name": {
+        "local": "Benguet",
+        "en": "Benguet",
+        "slug": "benguet-141100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 8
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.58333",
+    "lon": "120.7"
+  },
+  "metadata": {},
+  "source": {}
+}

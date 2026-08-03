@@ -1,0 +1,56 @@
+{
+  "id": "153611",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Lumba-Bayabao (Maguing)",
+    "en": "Lumba-Bayabao (Maguing)",
+    "slug": "lumba-bayabao-maguing-153611"
+  },
+  "code": {
+    "id": "153611",
+    "iso": null
+  },
+  "parent": {
+    "id": "153600",
+    "level": 2,
+    "name": {
+      "local": "Lanao del Sur",
+      "en": "Lanao del Sur",
+      "slug": "lanao-del-sur-153600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 38
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.9",
+    "lon": "124.4"
+  },
+  "metadata": {},
+  "source": {}
+}

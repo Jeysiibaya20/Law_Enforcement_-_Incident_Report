@@ -1,0 +1,56 @@
+{
+  "id": "045619",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Gumaca",
+    "en": "Gumaca",
+    "slug": "gumaca-045619"
+  },
+  "code": {
+    "id": "045619",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 59
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.917",
+    "lon": "122.1"
+  },
+  "metadata": {},
+  "source": {}
+}

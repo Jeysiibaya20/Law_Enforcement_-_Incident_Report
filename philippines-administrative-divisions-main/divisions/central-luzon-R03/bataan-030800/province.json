@@ -1,0 +1,48 @@
+{
+  "id": "030800",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Bataan",
+    "en": "Bataan",
+    "slug": "bataan-030800"
+  },
+  "code": {
+    "id": "030800",
+    "iso": null
+  },
+  "parent": {
+    "id": "R03",
+    "level": 1,
+    "name": {
+      "local": "Central Luzon",
+      "en": "Central Luzon",
+      "slug": "central-luzon-R03"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 12,
+    "barangay": 237
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.3545",
+    "lon": "120.7754"
+  },
+  "metadata": {},
+  "source": {}
+}

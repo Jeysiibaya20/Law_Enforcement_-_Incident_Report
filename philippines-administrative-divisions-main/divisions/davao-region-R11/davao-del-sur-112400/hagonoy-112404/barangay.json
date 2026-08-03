@@ -1,0 +1,1367 @@
+[
+  {
+    "id": "112404002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balutakay",
+      "en": "Balutakay",
+      "slug": "balutakay-112404002"
+    },
+    "code": {
+      "id": "112404002",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "6.7211",
+      "lon": "125.3517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Clib",
+      "en": "Clib",
+      "slug": "clib-112404005"
+    },
+    "code": {
+      "id": "112404005",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "6.683",
+      "lon": "125.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Guihing",
+      "en": "Guihing",
+      "slug": "guihing-112404007"
+    },
+    "code": {
+      "id": "112404007",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "6.6844",
+      "lon": "125.3525"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Guihing Aplaya",
+      "en": "Guihing Aplaya",
+      "slug": "guihing-aplaya-112404006"
+    },
+    "code": {
+      "id": "112404006",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "6.6844",
+      "lon": "125.3525"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hagonoy Crossing",
+      "en": "Hagonoy Crossing",
+      "slug": "hagonoy-crossing-112404008"
+    },
+    "code": {
+      "id": "112404008",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "14.83",
+      "lon": "120.73"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kibuaya",
+      "en": "Kibuaya",
+      "slug": "kibuaya-112404009"
+    },
+    "code": {
+      "id": "112404009",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "6.683",
+      "lon": "125.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "La Union",
+      "en": "La Union",
+      "slug": "la-union-112404010"
+    },
+    "code": {
+      "id": "112404010",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "10.85",
+      "lon": "122.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lanuro",
+      "en": "Lanuro",
+      "slug": "lanuro-112404011"
+    },
+    "code": {
+      "id": "112404011",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "6.683",
+      "lon": "125.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lapulabao",
+      "en": "Lapulabao",
+      "slug": "lapulabao-112404012"
+    },
+    "code": {
+      "id": "112404012",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "6.683",
+      "lon": "125.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Leling",
+      "en": "Leling",
+      "slug": "leling-112404013"
+    },
+    "code": {
+      "id": "112404013",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "6.683",
+      "lon": "125.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mahayahay",
+      "en": "Mahayahay",
+      "slug": "mahayahay-112404014"
+    },
+    "code": {
+      "id": "112404014",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "7.8569",
+      "lon": "123.8001"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malabang Damsite",
+      "en": "Malabang Damsite",
+      "slug": "malabang-damsite-112404017"
+    },
+    "code": {
+      "id": "112404017",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "7.5903",
+      "lon": "124.0703"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maliit Digos",
+      "en": "Maliit Digos",
+      "slug": "maliit-digos-112404018"
+    },
+    "code": {
+      "id": "112404018",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "16.1543",
+      "lon": "120.8697"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "New Quezon",
+      "en": "New Quezon",
+      "slug": "new-quezon-112404019"
+    },
+    "code": {
+      "id": "112404019",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "14.65",
+      "lon": "121.0475"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Paligue",
+      "en": "Paligue",
+      "slug": "paligue-112404020"
+    },
+    "code": {
+      "id": "112404020",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "5.9586",
+      "lon": "120.9264"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-112404021"
+    },
+    "code": {
+      "id": "112404021",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sacub",
+      "en": "Sacub",
+      "slug": "sacub-112404022"
+    },
+    "code": {
+      "id": "112404022",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "6.683",
+      "lon": "125.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Guillermo",
+      "en": "San Guillermo",
+      "slug": "san-guillermo-112404023"
+    },
+    "code": {
+      "id": "112404023",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "16.7244",
+      "lon": "121.81"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-112404024"
+    },
+    "code": {
+      "id": "112404024",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "14.4685",
+      "lon": "121.0118"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sinayawan",
+      "en": "Sinayawan",
+      "slug": "sinayawan-112404025"
+    },
+    "code": {
+      "id": "112404025",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "6.7125",
+      "lon": "125.3094"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112404026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tologan",
+      "en": "Tologan",
+      "slug": "tologan-112404026"
+    },
+    "code": {
+      "id": "112404026",
+      "iso": null
+    },
+    "parent": {
+      "id": "112404",
+      "level": 3,
+      "name": {
+        "local": "Hagonoy",
+        "en": "Hagonoy",
+        "slug": "hagonoy-112404"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112400",
+        "level": 2,
+        "name": {
+          "local": "Davao del Sur",
+          "en": "Davao del Sur",
+          "slug": "davao-del-sur-112400"
+        }
+      },
+      {
+        "id": "112404",
+        "level": 3,
+        "name": {
+          "local": "Hagonoy",
+          "en": "Hagonoy",
+          "slug": "hagonoy-112404"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8006"
+    ],
+    "geo": {
+      "lat": "6.683",
+      "lon": "125.3"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

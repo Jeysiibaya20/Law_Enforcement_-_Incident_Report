@@ -6,12 +6,12 @@
     --secondary-color-1: #3a506b;
     --tertiary-color-1: #1c2541;
     --dark-color-1: #0b132b;
-    --text-color-1: #171717;
+    --text-color-1: #fcfcfc;
     --text-secondary-1: #575757;
     --bg-color-1: #ffffff;
     --header-bg-1: #ffffff;
     --footer-bg-1: #fafafa;
-    --nav-text-1: #171717;
+    --nav-text-1: #fafafa;
     --border-color-1: #e5e5e5;
     --card-bg-1: #ffffff;
     --shadow-1: rgba(0, 0, 0, 0.05);
@@ -225,7 +225,7 @@ html {
 }
 
 .nav-link {
-    color: var(--nav-text-1);
+    color: #ffffff;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 8px;
@@ -236,12 +236,12 @@ html {
 }
 
 .nav-link:hover {
-    color: var(--primary-color-1);
+    color: #ffffff;
     transform: translateY(-1px);
 }
 
 .nav-link.active {
-    color: var(--primary-color-1);
+    color: #ffffff;
 }
 
 .nav-link::after {

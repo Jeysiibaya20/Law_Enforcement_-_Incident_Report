@@ -1,0 +1,392 @@
+[
+  {
+    "id": "025015001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Abuyo",
+      "en": "Abuyo",
+      "slug": "abuyo-025015001"
+    },
+    "code": {
+      "id": "025015001",
+      "iso": null
+    },
+    "parent": {
+      "id": "025015",
+      "level": 3,
+      "name": {
+        "local": "Alfonso Castaneda",
+        "en": "Alfonso Castaneda",
+        "slug": "alfonso-castaneda-025015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025015",
+        "level": 3,
+        "name": {
+          "local": "Alfonso Castaneda",
+          "en": "Alfonso Castaneda",
+          "slug": "alfonso-castaneda-025015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3714"
+    ],
+    "geo": {
+      "lat": "15.8833",
+      "lon": "121.2333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025015003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cauayan",
+      "en": "Cauayan",
+      "slug": "cauayan-025015003"
+    },
+    "code": {
+      "id": "025015003",
+      "iso": null
+    },
+    "parent": {
+      "id": "025015",
+      "level": 3,
+      "name": {
+        "local": "Alfonso Castaneda",
+        "en": "Alfonso Castaneda",
+        "slug": "alfonso-castaneda-025015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025015",
+        "level": 3,
+        "name": {
+          "local": "Alfonso Castaneda",
+          "en": "Alfonso Castaneda",
+          "slug": "alfonso-castaneda-025015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3714"
+    ],
+    "geo": {
+      "lat": "15.9823",
+      "lon": "121.3503"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025015002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Galintuja",
+      "en": "Galintuja",
+      "slug": "galintuja-025015002"
+    },
+    "code": {
+      "id": "025015002",
+      "iso": null
+    },
+    "parent": {
+      "id": "025015",
+      "level": 3,
+      "name": {
+        "local": "Alfonso Castaneda",
+        "en": "Alfonso Castaneda",
+        "slug": "alfonso-castaneda-025015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025015",
+        "level": 3,
+        "name": {
+          "local": "Alfonso Castaneda",
+          "en": "Alfonso Castaneda",
+          "slug": "alfonso-castaneda-025015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3714"
+    ],
+    "geo": {
+      "lat": "15.8",
+      "lon": "121.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025015004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lipuga",
+      "en": "Lipuga",
+      "slug": "lipuga-025015004"
+    },
+    "code": {
+      "id": "025015004",
+      "iso": null
+    },
+    "parent": {
+      "id": "025015",
+      "level": 3,
+      "name": {
+        "local": "Alfonso Castaneda",
+        "en": "Alfonso Castaneda",
+        "slug": "alfonso-castaneda-025015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025015",
+        "level": 3,
+        "name": {
+          "local": "Alfonso Castaneda",
+          "en": "Alfonso Castaneda",
+          "slug": "alfonso-castaneda-025015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3714"
+    ],
+    "geo": {
+      "lat": "15.8",
+      "lon": "121.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025015005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lublub (Pob.)",
+      "en": "Lublub (Pob.)",
+      "slug": "lublub-pob-025015005"
+    },
+    "code": {
+      "id": "025015005",
+      "iso": null
+    },
+    "parent": {
+      "id": "025015",
+      "level": 3,
+      "name": {
+        "local": "Alfonso Castaneda",
+        "en": "Alfonso Castaneda",
+        "slug": "alfonso-castaneda-025015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025015",
+        "level": 3,
+        "name": {
+          "local": "Alfonso Castaneda",
+          "en": "Alfonso Castaneda",
+          "slug": "alfonso-castaneda-025015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3714"
+    ],
+    "geo": {
+      "lat": "10.865",
+      "lon": "122.7133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025015006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pelaway",
+      "en": "Pelaway",
+      "slug": "pelaway-025015006"
+    },
+    "code": {
+      "id": "025015006",
+      "iso": null
+    },
+    "parent": {
+      "id": "025015",
+      "level": 3,
+      "name": {
+        "local": "Alfonso Castaneda",
+        "en": "Alfonso Castaneda",
+        "slug": "alfonso-castaneda-025015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "025000",
+        "level": 2,
+        "name": {
+          "local": "Nueva Vizcaya",
+          "en": "Nueva Vizcaya",
+          "slug": "nueva-vizcaya-025000"
+        }
+      },
+      {
+        "id": "025015",
+        "level": 3,
+        "name": {
+          "local": "Alfonso Castaneda",
+          "en": "Alfonso Castaneda",
+          "slug": "alfonso-castaneda-025015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3714"
+    ],
+    "geo": {
+      "lat": "15.8",
+      "lon": "121.3"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

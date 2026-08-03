@@ -1,0 +1,912 @@
+[
+  {
+    "id": "153818001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barira (Pob.)",
+      "en": "Barira (Pob.)",
+      "slug": "barira-pob-153818001"
+    },
+    "code": {
+      "id": "153818001",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.4706",
+      "lon": "124.3561"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bualan",
+      "en": "Bualan",
+      "slug": "bualan-153818002"
+    },
+    "code": {
+      "id": "153818002",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.3958",
+      "lon": "124.3069"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gadung",
+      "en": "Gadung",
+      "slug": "gadung-153818003"
+    },
+    "code": {
+      "id": "153818003",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "6.8025",
+      "lon": "124.02"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Korosoyan",
+      "en": "Korosoyan",
+      "slug": "korosoyan-153818012"
+    },
+    "code": {
+      "id": "153818012",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.483",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lamin",
+      "en": "Lamin",
+      "slug": "lamin-153818013"
+    },
+    "code": {
+      "id": "153818013",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.5",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Liong",
+      "en": "Liong",
+      "slug": "liong-153818004"
+    },
+    "code": {
+      "id": "153818004",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.05",
+      "lon": "124.4667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lipa",
+      "en": "Lipa",
+      "slug": "lipa-153818005"
+    },
+    "code": {
+      "id": "153818005",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.415",
+      "lon": "124.3272"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lipawan",
+      "en": "Lipawan",
+      "slug": "lipawan-153818006"
+    },
+    "code": {
+      "id": "153818006",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.4447",
+      "lon": "124.3389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Marang",
+      "en": "Marang",
+      "slug": "marang-153818007"
+    },
+    "code": {
+      "id": "153818007",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.3968",
+      "lon": "124.2672"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Minabay",
+      "en": "Minabay",
+      "slug": "minabay-153818011"
+    },
+    "code": {
+      "id": "153818011",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.55",
+      "lon": "124.4167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nabalawag",
+      "en": "Nabalawag",
+      "slug": "nabalawag-153818008"
+    },
+    "code": {
+      "id": "153818008",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.483",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panggao",
+      "en": "Panggao",
+      "slug": "panggao-153818014"
+    },
+    "code": {
+      "id": "153818014",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.483",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rominimbang",
+      "en": "Rominimbang",
+      "slug": "rominimbang-153818009"
+    },
+    "code": {
+      "id": "153818009",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.5",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153818010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Togaig",
+      "en": "Togaig",
+      "slug": "togaig-153818010"
+    },
+    "code": {
+      "id": "153818010",
+      "iso": null
+    },
+    "parent": {
+      "id": "153818",
+      "level": 3,
+      "name": {
+        "local": "Barira",
+        "en": "Barira",
+        "slug": "barira-153818"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153800",
+        "level": 2,
+        "name": {
+          "local": "Maguindanao",
+          "en": "Maguindanao",
+          "slug": "maguindanao-153800"
+        }
+      },
+      {
+        "id": "153818",
+        "level": 3,
+        "name": {
+          "local": "Barira",
+          "en": "Barira",
+          "slug": "barira-153818"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9614"
+    ],
+    "geo": {
+      "lat": "7.483",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

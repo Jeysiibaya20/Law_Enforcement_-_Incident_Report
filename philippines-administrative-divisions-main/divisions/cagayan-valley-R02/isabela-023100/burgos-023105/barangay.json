@@ -1,0 +1,912 @@
+[
+  {
+    "id": "023105001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bacnor East",
+      "en": "Bacnor East",
+      "slug": "bacnor-east-023105001"
+    },
+    "code": {
+      "id": "023105001",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "17.0345",
+      "lon": "121.7037"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bacnor West",
+      "en": "Bacnor West",
+      "slug": "bacnor-west-023105002"
+    },
+    "code": {
+      "id": "023105002",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "17.0313",
+      "lon": "121.6989"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caliguian (Pob.)",
+      "en": "Caliguian (Pob.)",
+      "slug": "caliguian-pob-023105004"
+    },
+    "code": {
+      "id": "023105004",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "17.0698",
+      "lon": "121.6901"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Catabban",
+      "en": "Catabban",
+      "slug": "catabban-023105005"
+    },
+    "code": {
+      "id": "023105005",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "17.0326",
+      "lon": "121.7401"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cullalabo Del Norte",
+      "en": "Cullalabo Del Norte",
+      "slug": "cullalabo-del-norte-023105006"
+    },
+    "code": {
+      "id": "023105006",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "17.1059",
+      "lon": "121.6996"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cullalabo Del Sur",
+      "en": "Cullalabo Del Sur",
+      "slug": "cullalabo-del-sur-023105008"
+    },
+    "code": {
+      "id": "023105008",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "17.1027",
+      "lon": "121.7039"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cullalabo San Antonio",
+      "en": "Cullalabo San Antonio",
+      "slug": "cullalabo-san-antonio-023105007"
+    },
+    "code": {
+      "id": "023105007",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "17.0968",
+      "lon": "121.7065"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dalig",
+      "en": "Dalig",
+      "slug": "dalig-023105009"
+    },
+    "code": {
+      "id": "023105009",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "17.037",
+      "lon": "121.7179"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malasin",
+      "en": "Malasin",
+      "slug": "malasin-023105012"
+    },
+    "code": {
+      "id": "023105012",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "16.8751",
+      "lon": "121.5952"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Masigun",
+      "en": "Masigun",
+      "slug": "masigun-023105013"
+    },
+    "code": {
+      "id": "023105013",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "17.05",
+      "lon": "121.8333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Raniag",
+      "en": "Raniag",
+      "slug": "raniag-023105014"
+    },
+    "code": {
+      "id": "023105014",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "16.7627",
+      "lon": "121.54"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Bonifacio",
+      "en": "San Bonifacio",
+      "slug": "san-bonifacio-023105015"
+    },
+    "code": {
+      "id": "023105015",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "17.043",
+      "lon": "121.7744"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-023105016"
+    },
+    "code": {
+      "id": "023105016",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "16.9691",
+      "lon": "121.7276"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023105017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque",
+      "en": "San Roque",
+      "slug": "san-roque-023105017"
+    },
+    "code": {
+      "id": "023105017",
+      "iso": null
+    },
+    "parent": {
+      "id": "023105",
+      "level": 3,
+      "name": {
+        "local": "Burgos",
+        "en": "Burgos",
+        "slug": "burgos-023105"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023105",
+        "level": 3,
+        "name": {
+          "local": "Burgos",
+          "en": "Burgos",
+          "slug": "burgos-023105"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3322"
+    ],
+    "geo": {
+      "lat": "17.3888",
+      "lon": "121.7767"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "020900",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Batanes",
+      "en": "Batanes",
+      "slug": "batanes-020900"
+    },
+    "code": {
+      "id": "020900",
+      "iso": null
+    },
+    "parent": {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 6,
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "20.4421",
+      "lon": "121.9103"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021500",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Cagayan",
+      "en": "Cagayan",
+      "slug": "cagayan-021500"
+    },
+    "code": {
+      "id": "021500",
+      "iso": null
+    },
+    "parent": {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 29,
+      "barangay": 820
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.9308",
+      "lon": "121.6245"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023100",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Isabela",
+      "en": "Isabela",
+      "slug": "isabela-023100"
+    },
+    "code": {
+      "id": "023100",
+      "iso": null
+    },
+    "parent": {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 37,
+      "barangay": 1055
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.8104",
+      "lon": "121.7823"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025000",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Nueva Vizcaya",
+      "en": "Nueva Vizcaya",
+      "slug": "nueva-vizcaya-025000"
+    },
+    "code": {
+      "id": "025000",
+      "iso": null
+    },
+    "parent": {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 15,
+      "barangay": 275
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.825",
+      "lon": "121.3542"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "025700",
+    "level": 2,
+    "level_name": {
+      "local": "Lalawigan",
+      "en": "Province"
+    },
+    "name": {
+      "local": "Quirino",
+      "en": "Quirino",
+      "slug": "quirino-025700"
+    },
+    "code": {
+      "id": "025700",
+      "iso": null
+    },
+    "parent": {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      }
+    ],
+    "children_count": {
+      "municipality": 6,
+      "barangay": 132
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.186",
+      "lon": "121.5279"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

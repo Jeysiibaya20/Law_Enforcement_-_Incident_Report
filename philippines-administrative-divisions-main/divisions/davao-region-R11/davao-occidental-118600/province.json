@@ -1,0 +1,48 @@
+{
+  "id": "118600",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Davao Occidental",
+    "en": "Davao Occidental",
+    "slug": "davao-occidental-118600"
+  },
+  "code": {
+    "id": "118600",
+    "iso": null
+  },
+  "parent": {
+    "id": "R11",
+    "level": 1,
+    "name": {
+      "local": "Davao Region",
+      "en": "Davao Region",
+      "slug": "davao-region-R11"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 5,
+    "barangay": 105
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.1233",
+    "lon": "124.5037"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "060601",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Anini-Y",
+      "en": "Anini-Y",
+      "slug": "anini-y-060601"
+    },
+    "code": {
+      "id": "060601",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.433",
+      "lon": "121.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060602",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Barbaza",
+      "en": "Barbaza",
+      "slug": "barbaza-060602"
+    },
+    "code": {
+      "id": "060602",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 39
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.2",
+      "lon": "122.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060603",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Belison",
+      "en": "Belison",
+      "slug": "belison-060603"
+    },
+    "code": {
+      "id": "060603",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.717",
+      "lon": "122.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060604",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bugasong",
+      "en": "Bugasong",
+      "slug": "bugasong-060604"
+    },
+    "code": {
+      "id": "060604",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.05",
+      "lon": "122.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060605",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Caluya",
+      "en": "Caluya",
+      "slug": "caluya-060605"
+    },
+    "code": {
+      "id": "060605",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.9",
+      "lon": "121.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060606",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Culasi",
+      "en": "Culasi",
+      "slug": "culasi-060606"
+    },
+    "code": {
+      "id": "060606",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 44
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.417",
+      "lon": "122.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060608",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Hamtic",
+      "en": "Hamtic",
+      "slug": "hamtic-060608"
+    },
+    "code": {
+      "id": "060608",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 47
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.7",
+      "lon": "121.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060609",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Laua-An",
+      "en": "Laua-An",
+      "slug": "laua-an-060609"
+    },
+    "code": {
+      "id": "060609",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.15",
+      "lon": "122.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060610",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Libertad",
+      "en": "Libertad",
+      "slug": "libertad-060610"
+    },
+    "code": {
+      "id": "060610",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.783",
+      "lon": "121.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060611",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pandan",
+      "en": "Pandan",
+      "slug": "pandan-060611"
+    },
+    "code": {
+      "id": "060611",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.717",
+      "lon": "122.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060612",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Patnongon",
+      "en": "Patnongon",
+      "slug": "patnongon-060612"
+    },
+    "code": {
+      "id": "060612",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 36
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.917",
+      "lon": "121.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060613",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-060613"
+    },
+    "code": {
+      "id": "060613",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.75",
+      "lon": "121.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060614",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Remigio",
+      "en": "San Remigio",
+      "slug": "san-remigio-060614"
+    },
+    "code": {
+      "id": "060614",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 45
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.88",
+      "lon": "122.12"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060615",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sebaste",
+      "en": "Sebaste",
+      "slug": "sebaste-060615"
+    },
+    "code": {
+      "id": "060615",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.583",
+      "lon": "122.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060616",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sibalom",
+      "en": "Sibalom",
+      "slug": "sibalom-060616"
+    },
+    "code": {
+      "id": "060616",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 76
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.783",
+      "lon": "122.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060617",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tibiao",
+      "en": "Tibiao",
+      "slug": "tibiao-060617"
+    },
+    "code": {
+      "id": "060617",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.283",
+      "lon": "122.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060607",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tobias Fornier (Dao)",
+      "en": "Tobias Fornier (Dao)",
+      "slug": "tobias-fornier-dao-060607"
+    },
+    "code": {
+      "id": "060607",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 50
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.4",
+      "lon": "122.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060618",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Valderrama",
+      "en": "Valderrama",
+      "slug": "valderrama-060618"
+    },
+    "code": {
+      "id": "060618",
+      "iso": null
+    },
+    "parent": {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060600",
+        "level": 2,
+        "name": {
+          "local": "Antique",
+          "en": "Antique",
+          "slug": "antique-060600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11",
+      "lon": "122.133"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

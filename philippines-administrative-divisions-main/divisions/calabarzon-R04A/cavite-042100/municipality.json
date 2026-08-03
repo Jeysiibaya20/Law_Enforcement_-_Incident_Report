@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "042101",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alfonso",
+      "en": "Alfonso",
+      "slug": "alfonso-042101"
+    },
+    "code": {
+      "id": "042101",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 32
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.14083",
+      "lon": "120.85389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042102",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Amadeo",
+      "en": "Amadeo",
+      "slug": "amadeo-042102"
+    },
+    "code": {
+      "id": "042102",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.167",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042103",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bacoor City",
+      "en": "Bacoor City",
+      "slug": "bacoor-city-042103"
+    },
+    "code": {
+      "id": "042103",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 73
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.45",
+      "lon": "120.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042104",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Carmona",
+      "en": "Carmona",
+      "slug": "carmona-042104"
+    },
+    "code": {
+      "id": "042104",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.317",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042105",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cavite City",
+      "en": "Cavite City",
+      "slug": "cavite-city-042105"
+    },
+    "code": {
+      "id": "042105",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 84
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.483",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042106",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dasmariñas",
+      "en": "Dasmariñas",
+      "slug": "dasmarias-042106"
+    },
+    "code": {
+      "id": "042106",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 75
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.32639",
+      "lon": "120.93611"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042123",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Gen. Mariano Alvarez",
+      "en": "Gen. Mariano Alvarez",
+      "slug": "gen-mariano-alvarez-042123"
+    },
+    "code": {
+      "id": "042123",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.3028",
+      "lon": "120.9933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042107",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "General Emilio Aguinaldo",
+      "en": "General Emilio Aguinaldo",
+      "slug": "general-emilio-aguinaldo-042107"
+    },
+    "code": {
+      "id": "042107",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.183",
+      "lon": "120.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042108",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "General Trias",
+      "en": "General Trias",
+      "slug": "general-trias-042108"
+    },
+    "code": {
+      "id": "042108",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.383",
+      "lon": "120.883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042109",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Imus City",
+      "en": "Imus City",
+      "slug": "imus-city-042109"
+    },
+    "code": {
+      "id": "042109",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 97
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.4",
+      "lon": "120.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042110",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Indang",
+      "en": "Indang",
+      "slug": "indang-042110"
+    },
+    "code": {
+      "id": "042110",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 36
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.19528",
+      "lon": "120.87694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042111",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kawit",
+      "en": "Kawit",
+      "slug": "kawit-042111"
+    },
+    "code": {
+      "id": "042111",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.433",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042112",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Magallanes",
+      "en": "Magallanes",
+      "slug": "magallanes-042112"
+    },
+    "code": {
+      "id": "042112",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.18833",
+      "lon": "120.7575"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042113",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maragondon",
+      "en": "Maragondon",
+      "slug": "maragondon-042113"
+    },
+    "code": {
+      "id": "042113",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.27333",
+      "lon": "120.73833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042114",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mendez (Mendez-Nuñez)",
+      "en": "Mendez (Mendez-Nuñez)",
+      "slug": "mendez-mendez-nuez-042114"
+    },
+    "code": {
+      "id": "042114",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.12861",
+      "lon": "120.90583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042115",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Naic",
+      "en": "Naic",
+      "slug": "naic-042115"
+    },
+    "code": {
+      "id": "042115",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.317",
+      "lon": "120.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042116",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Noveleta",
+      "en": "Noveleta",
+      "slug": "noveleta-042116"
+    },
+    "code": {
+      "id": "042116",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.433",
+      "lon": "120.883"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042117",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Rosario",
+      "en": "Rosario",
+      "slug": "rosario-042117"
+    },
+    "code": {
+      "id": "042117",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.417",
+      "lon": "120.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042118",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Silang",
+      "en": "Silang",
+      "slug": "silang-042118"
+    },
+    "code": {
+      "id": "042118",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 64
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.233",
+      "lon": "120.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042119",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tagaytay City",
+      "en": "Tagaytay City",
+      "slug": "tagaytay-city-042119"
+    },
+    "code": {
+      "id": "042119",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.1",
+      "lon": "120.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042120",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tanza",
+      "en": "Tanza",
+      "slug": "tanza-042120"
+    },
+    "code": {
+      "id": "042120",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 41
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.4",
+      "lon": "120.833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042121",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ternate",
+      "en": "Ternate",
+      "slug": "ternate-042121"
+    },
+    "code": {
+      "id": "042121",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.283",
+      "lon": "120.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "042122",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Trece Martires City",
+      "en": "Trece Martires City",
+      "slug": "trece-martires-city-042122"
+    },
+    "code": {
+      "id": "042122",
+      "iso": null
+    },
+    "parent": {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "042100",
+        "level": 2,
+        "name": {
+          "local": "Cavite",
+          "en": "Cavite",
+          "slug": "cavite-042100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.283",
+      "lon": "120.85"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

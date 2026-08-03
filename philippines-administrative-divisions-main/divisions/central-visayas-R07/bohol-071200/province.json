@@ -1,0 +1,48 @@
+{
+  "id": "071200",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Bohol",
+    "en": "Bohol",
+    "slug": "bohol-071200"
+  },
+  "code": {
+    "id": "071200",
+    "iso": null
+  },
+  "parent": {
+    "id": "R07",
+    "level": 1,
+    "name": {
+      "local": "Central Visayas",
+      "en": "Central Visayas",
+      "slug": "central-visayas-R07"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 48,
+    "barangay": 1109
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.9594",
+    "lon": "124.0531"
+  },
+  "metadata": {},
+  "source": {}
+}

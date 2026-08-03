@@ -1,0 +1,56 @@
+{
+  "id": "101805",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sagay",
+    "en": "Sagay",
+    "slug": "sagay-101805"
+  },
+  "code": {
+    "id": "101805",
+    "iso": null
+  },
+  "parent": {
+    "id": "101800",
+    "level": 2,
+    "name": {
+      "local": "Camiguin",
+      "en": "Camiguin",
+      "slug": "camiguin-101800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "101800",
+      "level": 2,
+      "name": {
+        "local": "Camiguin",
+        "en": "Camiguin",
+        "slug": "camiguin-101800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 9
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.117",
+    "lon": "124.717"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "043401",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Alaminos",
+      "en": "Alaminos",
+      "slug": "alaminos-043401"
+    },
+    "code": {
+      "id": "043401",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.06306",
+      "lon": "121.24806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043402",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bay",
+      "en": "Bay",
+      "slug": "bay-043402"
+    },
+    "code": {
+      "id": "043402",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.183",
+      "lon": "121.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043403",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Biñan",
+      "en": "Biñan",
+      "slug": "bian-043403"
+    },
+    "code": {
+      "id": "043403",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043404",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cabuyao City",
+      "en": "Cabuyao City",
+      "slug": "cabuyao-city-043404"
+    },
+    "code": {
+      "id": "043404",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.1667",
+      "lon": "121.4167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043405",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calamba",
+      "en": "Calamba",
+      "slug": "calamba-043405"
+    },
+    "code": {
+      "id": "043405",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 54
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.55833",
+      "lon": "123.64167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043406",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calauan",
+      "en": "Calauan",
+      "slug": "calauan-043406"
+    },
+    "code": {
+      "id": "043406",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.15",
+      "lon": "121.317"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043407",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cavinti",
+      "en": "Cavinti",
+      "slug": "cavinti-043407"
+    },
+    "code": {
+      "id": "043407",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.25",
+      "lon": "121.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043408",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Famy",
+      "en": "Famy",
+      "slug": "famy-043408"
+    },
+    "code": {
+      "id": "043408",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.433",
+      "lon": "121.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043409",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kalayaan",
+      "en": "Kalayaan",
+      "slug": "kalayaan-043409"
+    },
+    "code": {
+      "id": "043409",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 3
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.35",
+      "lon": "121.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043410",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Liliw",
+      "en": "Liliw",
+      "slug": "liliw-043410"
+    },
+    "code": {
+      "id": "043410",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.133",
+      "lon": "121.433"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043411",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Los Baños",
+      "en": "Los Baños",
+      "slug": "los-baos-043411"
+    },
+    "code": {
+      "id": "043411",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.167",
+      "lon": "121.217"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043412",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Luisiana",
+      "en": "Luisiana",
+      "slug": "luisiana-043412"
+    },
+    "code": {
+      "id": "043412",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.183",
+      "lon": "121.517"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043413",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lumban",
+      "en": "Lumban",
+      "slug": "lumban-043413"
+    },
+    "code": {
+      "id": "043413",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.29806",
+      "lon": "121.46"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043414",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mabitac",
+      "en": "Mabitac",
+      "slug": "mabitac-043414"
+    },
+    "code": {
+      "id": "043414",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.4275",
+      "lon": "121.42667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043415",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Magdalena",
+      "en": "Magdalena",
+      "slug": "magdalena-043415"
+    },
+    "code": {
+      "id": "043415",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.2",
+      "lon": "121.433"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043416",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Majayjay",
+      "en": "Majayjay",
+      "slug": "majayjay-043416"
+    },
+    "code": {
+      "id": "043416",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.15",
+      "lon": "121.467"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043417",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Nagcarlan",
+      "en": "Nagcarlan",
+      "slug": "nagcarlan-043417"
+    },
+    "code": {
+      "id": "043417",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 52
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.133",
+      "lon": "121.417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043418",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Paete",
+      "en": "Paete",
+      "slug": "paete-043418"
+    },
+    "code": {
+      "id": "043418",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.367",
+      "lon": "121.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043419",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pagsanjan",
+      "en": "Pagsanjan",
+      "slug": "pagsanjan-043419"
+    },
+    "code": {
+      "id": "043419",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.27306",
+      "lon": "121.45389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043420",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pakil",
+      "en": "Pakil",
+      "slug": "pakil-043420"
+    },
+    "code": {
+      "id": "043420",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.383",
+      "lon": "121.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043421",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pangil",
+      "en": "Pangil",
+      "slug": "pangil-043421"
+    },
+    "code": {
+      "id": "043421",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.40306",
+      "lon": "121.46611"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043422",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pila",
+      "en": "Pila",
+      "slug": "pila-043422"
+    },
+    "code": {
+      "id": "043422",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.233",
+      "lon": "121.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043423",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Rizal",
+      "en": "Rizal",
+      "slug": "rizal-043423"
+    },
+    "code": {
+      "id": "043423",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.10917",
+      "lon": "121.39444"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043424",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Pablo City",
+      "en": "San Pablo City",
+      "slug": "san-pablo-city-043424"
+    },
+    "code": {
+      "id": "043424",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 80
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.07",
+      "lon": "121.32"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043425",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Pedro",
+      "en": "San Pedro",
+      "slug": "san-pedro-043425"
+    },
+    "code": {
+      "id": "043425",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.3583",
+      "lon": "121.0583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043426",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-043426"
+    },
+    "code": {
+      "id": "043426",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.27861",
+      "lon": "121.41556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043427",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Maria",
+      "en": "Santa Maria",
+      "slug": "santa-maria-043427"
+    },
+    "code": {
+      "id": "043427",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.47",
+      "lon": "121.42611"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043428",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Rosa",
+      "en": "Santa Rosa",
+      "slug": "santa-rosa-043428"
+    },
+    "code": {
+      "id": "043428",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.4993",
+      "lon": "124.9586"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043429",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Siniloan",
+      "en": "Siniloan",
+      "slug": "siniloan-043429"
+    },
+    "code": {
+      "id": "043429",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.417",
+      "lon": "121.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "043430",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Victoria",
+      "en": "Victoria",
+      "slug": "victoria-043430"
+    },
+    "code": {
+      "id": "043430",
+      "iso": null
+    },
+    "parent": {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "043400",
+        "level": 2,
+        "name": {
+          "local": "Laguna",
+          "en": "Laguna",
+          "slug": "laguna-043400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.22694",
+      "lon": "121.32806"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

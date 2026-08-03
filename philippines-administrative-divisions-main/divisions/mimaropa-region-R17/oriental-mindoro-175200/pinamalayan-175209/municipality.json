@@ -1,0 +1,56 @@
+{
+  "id": "175209",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pinamalayan",
+    "en": "Pinamalayan",
+    "slug": "pinamalayan-175209"
+  },
+  "code": {
+    "id": "175209",
+    "iso": null
+  },
+  "parent": {
+    "id": "175200",
+    "level": 2,
+    "name": {
+      "local": "Oriental Mindoro",
+      "en": "Oriental Mindoro",
+      "slug": "oriental-mindoro-175200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175200",
+      "level": 2,
+      "name": {
+        "local": "Oriental Mindoro",
+        "en": "Oriental Mindoro",
+        "slug": "oriental-mindoro-175200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 37
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13",
+    "lon": "121.417"
+  },
+  "metadata": {},
+  "source": {}
+}

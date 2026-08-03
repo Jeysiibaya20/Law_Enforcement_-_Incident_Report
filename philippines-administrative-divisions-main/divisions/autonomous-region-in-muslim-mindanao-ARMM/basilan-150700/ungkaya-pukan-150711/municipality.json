@@ -1,0 +1,56 @@
+{
+  "id": "150711",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Ungkaya Pukan",
+    "en": "Ungkaya Pukan",
+    "slug": "ungkaya-pukan-150711"
+  },
+  "code": {
+    "id": "150711",
+    "iso": null
+  },
+  "parent": {
+    "id": "150700",
+    "level": 2,
+    "name": {
+      "local": "Basilan",
+      "en": "Basilan",
+      "slug": "basilan-150700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 12
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.5",
+    "lon": "122.117"
+  },
+  "metadata": {},
+  "source": {}
+}

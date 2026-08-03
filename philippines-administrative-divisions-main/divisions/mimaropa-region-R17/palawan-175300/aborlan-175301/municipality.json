@@ -1,0 +1,56 @@
+{
+  "id": "175301",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Aborlan",
+    "en": "Aborlan",
+    "slug": "aborlan-175301"
+  },
+  "code": {
+    "id": "175301",
+    "iso": null
+  },
+  "parent": {
+    "id": "175300",
+    "level": 2,
+    "name": {
+      "local": "Palawan",
+      "en": "Palawan",
+      "slug": "palawan-175300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 19
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.433",
+    "lon": "118.55"
+  },
+  "metadata": {},
+  "source": {}
+}

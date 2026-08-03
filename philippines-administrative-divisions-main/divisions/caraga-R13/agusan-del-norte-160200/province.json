@@ -1,0 +1,48 @@
+{
+  "id": "160200",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Agusan del Norte",
+    "en": "Agusan del Norte",
+    "slug": "agusan-del-norte-160200"
+  },
+  "code": {
+    "id": "160200",
+    "iso": null
+  },
+  "parent": {
+    "id": "R13",
+    "level": 1,
+    "name": {
+      "local": "Caraga",
+      "en": "Caraga",
+      "slug": "caraga-R13"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 12,
+    "barangay": 253
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.0905",
+    "lon": "123.6882"
+  },
+  "metadata": {},
+  "source": {}
+}

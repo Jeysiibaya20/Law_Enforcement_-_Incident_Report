@@ -1,0 +1,2242 @@
+[
+  {
+    "id": "153601",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bacolod-Kalawi (Bacolod Grande)",
+      "en": "Bacolod-Kalawi (Bacolod Grande)",
+      "slug": "bacolod-kalawi-bacolod-grande-153601"
+    },
+    "code": {
+      "id": "153601",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.85",
+      "lon": "124.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153602",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balabagan",
+      "en": "Balabagan",
+      "slug": "balabagan-153602"
+    },
+    "code": {
+      "id": "153602",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.533",
+      "lon": "124.117"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153603",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balindong (Watu)",
+      "en": "Balindong (Watu)",
+      "slug": "balindong-watu-153603"
+    },
+    "code": {
+      "id": "153603",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 38
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.917",
+      "lon": "124.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153604",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bayang",
+      "en": "Bayang",
+      "slug": "bayang-153604"
+    },
+    "code": {
+      "id": "153604",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 49
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.79306",
+      "lon": "124.19194"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153605",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Binidayan",
+      "en": "Binidayan",
+      "slug": "binidayan-153605"
+    },
+    "code": {
+      "id": "153605",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.8",
+      "lon": "124.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153633",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Buadiposo-Buntong",
+      "en": "Buadiposo-Buntong",
+      "slug": "buadiposo-buntong-153633"
+    },
+    "code": {
+      "id": "153633",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.967",
+      "lon": "124.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153606",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bubong",
+      "en": "Bubong",
+      "slug": "bubong-153606"
+    },
+    "code": {
+      "id": "153606",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 36
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.017",
+      "lon": "124.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153637",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bumbaran",
+      "en": "Bumbaran",
+      "slug": "bumbaran-153637"
+    },
+    "code": {
+      "id": "153637",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.8",
+      "lon": "124.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153607",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Butig",
+      "en": "Butig",
+      "slug": "butig-153607"
+    },
+    "code": {
+      "id": "153607",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.717",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153632",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Calanogas",
+      "en": "Calanogas",
+      "slug": "calanogas-153632"
+    },
+    "code": {
+      "id": "153632",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.75",
+      "lon": "124.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153624",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ditsaan-Ramain",
+      "en": "Ditsaan-Ramain",
+      "slug": "ditsaan-ramain-153624"
+    },
+    "code": {
+      "id": "153624",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.967",
+      "lon": "124.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153609",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ganassi",
+      "en": "Ganassi",
+      "slug": "ganassi-153609"
+    },
+    "code": {
+      "id": "153609",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 32
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.833",
+      "lon": "124.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153610",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kapai",
+      "en": "Kapai",
+      "slug": "kapai-153610"
+    },
+    "code": {
+      "id": "153610",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.083",
+      "lon": "124.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153639",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kapatagan",
+      "en": "Kapatagan",
+      "slug": "kapatagan-153639"
+    },
+    "code": {
+      "id": "153639",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.45",
+      "lon": "124.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153611",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lumba-Bayabao (Maguing)",
+      "en": "Lumba-Bayabao (Maguing)",
+      "slug": "lumba-bayabao-maguing-153611"
+    },
+    "code": {
+      "id": "153611",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 38
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.9",
+      "lon": "124.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153641",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lumbaca-Unayan",
+      "en": "Lumbaca-Unayan",
+      "slug": "lumbaca-unayan-153641"
+    },
+    "code": {
+      "id": "153641",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.767",
+      "lon": "124.25"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153612",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lumbatan",
+      "en": "Lumbatan",
+      "slug": "lumbatan-153612"
+    },
+    "code": {
+      "id": "153612",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.783",
+      "lon": "124.25"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153636",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lumbayanague",
+      "en": "Lumbayanague",
+      "slug": "lumbayanague-153636"
+    },
+    "code": {
+      "id": "153636",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.783",
+      "lon": "124.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153613",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Madalum",
+      "en": "Madalum",
+      "slug": "madalum-153613"
+    },
+    "code": {
+      "id": "153613",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.85",
+      "lon": "124.117"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153614",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Madamba",
+      "en": "Madamba",
+      "slug": "madamba-153614"
+    },
+    "code": {
+      "id": "153614",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.883",
+      "lon": "124.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153634",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maguing",
+      "en": "Maguing",
+      "slug": "maguing-153634"
+    },
+    "code": {
+      "id": "153634",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.9",
+      "lon": "124.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153615",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malabang",
+      "en": "Malabang",
+      "slug": "malabang-153615"
+    },
+    "code": {
+      "id": "153615",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.583",
+      "lon": "124.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153616",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Marantao",
+      "en": "Marantao",
+      "slug": "marantao-153616"
+    },
+    "code": {
+      "id": "153616",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 34
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.95",
+      "lon": "124.233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153617",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Marawi City",
+      "en": "Marawi City",
+      "slug": "marawi-city-153617"
+    },
+    "code": {
+      "id": "153617",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 96
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8",
+      "lon": "124.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153631",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Marogong",
+      "en": "Marogong",
+      "slug": "marogong-153631"
+    },
+    "code": {
+      "id": "153631",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.667",
+      "lon": "124.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153618",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Masiu",
+      "en": "Masiu",
+      "slug": "masiu-153618"
+    },
+    "code": {
+      "id": "153618",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.817",
+      "lon": "124.317"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153619",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mulondo",
+      "en": "Mulondo",
+      "slug": "mulondo-153619"
+    },
+    "code": {
+      "id": "153619",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.933",
+      "lon": "124.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153620",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pagayawan (Tatarikan)",
+      "en": "Pagayawan (Tatarikan)",
+      "slug": "pagayawan-tatarikan-153620"
+    },
+    "code": {
+      "id": "153620",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.733",
+      "lon": "124.117"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153621",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Piagapo",
+      "en": "Piagapo",
+      "slug": "piagapo-153621"
+    },
+    "code": {
+      "id": "153621",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 37
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8",
+      "lon": "124.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153635",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Picong (Sultan Gumander)",
+      "en": "Picong (Sultan Gumander)",
+      "slug": "picong-sultan-gumander-153635"
+    },
+    "code": {
+      "id": "153635",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.683",
+      "lon": "123.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153622",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Poona Bayabao (Gata)",
+      "en": "Poona Bayabao (Gata)",
+      "slug": "poona-bayabao-gata-153622"
+    },
+    "code": {
+      "id": "153622",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.85",
+      "lon": "124.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153623",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pualas",
+      "en": "Pualas",
+      "slug": "pualas-153623"
+    },
+    "code": {
+      "id": "153623",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.817",
+      "lon": "124.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153625",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Saguiaran",
+      "en": "Saguiaran",
+      "slug": "saguiaran-153625"
+    },
+    "code": {
+      "id": "153625",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.033",
+      "lon": "124.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153640",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sultan Dumalondong",
+      "en": "Sultan Dumalondong",
+      "slug": "sultan-dumalondong-153640"
+    },
+    "code": {
+      "id": "153640",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 7
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.67778",
+      "lon": "124.26778"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153638",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tagoloan Ii",
+      "en": "Tagoloan Ii",
+      "slug": "tagoloan-ii-153638"
+    },
+    "code": {
+      "id": "153638",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.10917",
+      "lon": "124.43917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153626",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tamparan",
+      "en": "Tamparan",
+      "slug": "tamparan-153626"
+    },
+    "code": {
+      "id": "153626",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 44
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.883",
+      "lon": "124.333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153627",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Taraka",
+      "en": "Taraka",
+      "slug": "taraka-153627"
+    },
+    "code": {
+      "id": "153627",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 43
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.9",
+      "lon": "124.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153628",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tubaran",
+      "en": "Tubaran",
+      "slug": "tubaran-153628"
+    },
+    "code": {
+      "id": "153628",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.717",
+      "lon": "124.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153629",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tugaya",
+      "en": "Tugaya",
+      "slug": "tugaya-153629"
+    },
+    "code": {
+      "id": "153629",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.883",
+      "lon": "124.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "153630",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Wao",
+      "en": "Wao",
+      "slug": "wao-153630"
+    },
+    "code": {
+      "id": "153630",
+      "iso": null
+    },
+    "parent": {
+      "id": "153600",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Sur",
+        "en": "Lanao del Sur",
+        "slug": "lanao-del-sur-153600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "153600",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Sur",
+          "en": "Lanao del Sur",
+          "slug": "lanao-del-sur-153600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.683",
+      "lon": "124.683"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

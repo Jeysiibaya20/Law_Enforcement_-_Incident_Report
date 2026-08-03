@@ -1,0 +1,912 @@
+[
+  {
+    "id": "086015005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balogo",
+      "en": "Balogo",
+      "slug": "balogo-086015005"
+    },
+    "code": {
+      "id": "086015005",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "11.5242",
+      "lon": "123.066"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bontod",
+      "en": "Bontod",
+      "slug": "bontod-086015006"
+    },
+    "code": {
+      "id": "086015006",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "12.1963",
+      "lon": "123.8933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabaywa",
+      "en": "Cabaywa",
+      "slug": "cabaywa-086015013"
+    },
+    "code": {
+      "id": "086015013",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "12.5158",
+      "lon": "124.8862"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Camanhagay",
+      "en": "Camanhagay",
+      "slug": "camanhagay-086015007"
+    },
+    "code": {
+      "id": "086015007",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "11.69",
+      "lon": "125.0286"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Campiyak",
+      "en": "Campiyak",
+      "slug": "campiyak-086015008"
+    },
+    "code": {
+      "id": "086015008",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "15.4724",
+      "lon": "120.5893"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Canduyucan",
+      "en": "Canduyucan",
+      "slug": "canduyucan-086015014"
+    },
+    "code": {
+      "id": "086015014",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "15.4724",
+      "lon": "120.5893"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dolores",
+      "en": "Dolores",
+      "slug": "dolores-086015010"
+    },
+    "code": {
+      "id": "086015010",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "12.0378",
+      "lon": "125.4828"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hita-asan I",
+      "en": "Hita-asan I",
+      "slug": "hita-asan-i-086015011"
+    },
+    "code": {
+      "id": "086015011",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "11.6869",
+      "lon": "124.9958"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hita-asan II",
+      "en": "Hita-asan II",
+      "slug": "hita-asan-ii-086015015"
+    },
+    "code": {
+      "id": "086015015",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "11.6869",
+      "lon": "124.9958"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Inobongan",
+      "en": "Inobongan",
+      "slug": "inobongan-086015012"
+    },
+    "code": {
+      "id": "086015012",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "15.4724",
+      "lon": "120.5893"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 1",
+      "en": "Poblacion Barangay 1",
+      "slug": "poblacion-barangay-1-086015001"
+    },
+    "code": {
+      "id": "086015001",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 2",
+      "en": "Poblacion Barangay 2",
+      "slug": "poblacion-barangay-2-086015002"
+    },
+    "code": {
+      "id": "086015002",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 3",
+      "en": "Poblacion Barangay 3",
+      "slug": "poblacion-barangay-3-086015003"
+    },
+    "code": {
+      "id": "086015003",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "086015004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion Barangay 4",
+      "en": "Poblacion Barangay 4",
+      "slug": "poblacion-barangay-4-086015004"
+    },
+    "code": {
+      "id": "086015004",
+      "iso": null
+    },
+    "parent": {
+      "id": "086015",
+      "level": 3,
+      "name": {
+        "local": "San Sebastian",
+        "en": "San Sebastian",
+        "slug": "san-sebastian-086015"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "086000",
+        "level": 2,
+        "name": {
+          "local": "Samar (Western Samar)",
+          "en": "Samar (Western Samar)",
+          "slug": "samar-western-samar-086000"
+        }
+      },
+      {
+        "id": "086015",
+        "level": 3,
+        "name": {
+          "local": "San Sebastian",
+          "en": "San Sebastian",
+          "slug": "san-sebastian-086015"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6714"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

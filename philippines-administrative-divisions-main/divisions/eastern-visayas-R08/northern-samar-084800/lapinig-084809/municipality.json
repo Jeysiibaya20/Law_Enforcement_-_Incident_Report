@@ -1,0 +1,56 @@
+{
+  "id": "084809",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Lapinig",
+    "en": "Lapinig",
+    "slug": "lapinig-084809"
+  },
+  "code": {
+    "id": "084809",
+    "iso": null
+  },
+  "parent": {
+    "id": "084800",
+    "level": 2,
+    "name": {
+      "local": "Northern Samar",
+      "en": "Northern Samar",
+      "slug": "northern-samar-084800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "084800",
+      "level": 2,
+      "name": {
+        "local": "Northern Samar",
+        "en": "Northern Samar",
+        "slug": "northern-samar-084800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.0833",
+    "lon": "125.0167"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "174002",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Buenavista",
+    "en": "Buenavista",
+    "slug": "buenavista-174002"
+  },
+  "code": {
+    "id": "174002",
+    "iso": null
+  },
+  "parent": {
+    "id": "174000",
+    "level": 2,
+    "name": {
+      "local": "Marinduque",
+      "en": "Marinduque",
+      "slug": "marinduque-174000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "174000",
+      "level": 2,
+      "name": {
+        "local": "Marinduque",
+        "en": "Marinduque",
+        "slug": "marinduque-174000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.25389",
+    "lon": "121.94361"
+  },
+  "metadata": {},
+  "source": {}
+}

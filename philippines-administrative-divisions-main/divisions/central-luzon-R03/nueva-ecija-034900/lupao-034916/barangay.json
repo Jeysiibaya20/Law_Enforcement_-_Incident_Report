@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "034916002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agupalo Este",
+      "en": "Agupalo Este",
+      "slug": "agupalo-este-034916002"
+    },
+    "code": {
+      "id": "034916002",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.8245",
+      "lon": "120.8825"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agupalo Weste",
+      "en": "Agupalo Weste",
+      "slug": "agupalo-weste-034916003"
+    },
+    "code": {
+      "id": "034916003",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.8314",
+      "lon": "120.8848"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alalay Chica",
+      "en": "Alalay Chica",
+      "slug": "alalay-chica-034916004"
+    },
+    "code": {
+      "id": "034916004",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.8447",
+      "lon": "120.8858"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alalay Grande",
+      "en": "Alalay Grande",
+      "slug": "alalay-grande-034916005"
+    },
+    "code": {
+      "id": "034916005",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.8477",
+      "lon": "120.873"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagong Flores",
+      "en": "Bagong Flores",
+      "slug": "bagong-flores-034916007"
+    },
+    "code": {
+      "id": "034916007",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.885",
+      "lon": "120.8977"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balbalungao",
+      "en": "Balbalungao",
+      "slug": "balbalungao-034916008"
+    },
+    "code": {
+      "id": "034916008",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.8318",
+      "lon": "120.9462"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Burgos",
+      "en": "Burgos",
+      "slug": "burgos-034916010"
+    },
+    "code": {
+      "id": "034916010",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.4339",
+      "lon": "120.9408"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cordero",
+      "en": "Cordero",
+      "slug": "cordero-034916013"
+    },
+    "code": {
+      "id": "034916013",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.8554",
+      "lon": "120.9223"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "J. U. Tienzo (Arimal)",
+      "en": "J. U. Tienzo (Arimal)",
+      "slug": "j-u-tienzo-arimal-034916006"
+    },
+    "code": {
+      "id": "034916006",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.8652",
+      "lon": "120.9185"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mapangpang",
+      "en": "Mapangpang",
+      "slug": "mapangpang-034916016"
+    },
+    "code": {
+      "id": "034916016",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.7913",
+      "lon": "120.8813"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Namulandayan",
+      "en": "Namulandayan",
+      "slug": "namulandayan-034916017"
+    },
+    "code": {
+      "id": "034916017",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.8862",
+      "lon": "120.9078"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Parista",
+      "en": "Parista",
+      "slug": "parista-034916018"
+    },
+    "code": {
+      "id": "034916018",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.8536",
+      "lon": "120.9282"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion East",
+      "en": "Poblacion East",
+      "slug": "poblacion-east-034916020"
+    },
+    "code": {
+      "id": "034916020",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.346",
+      "lon": "121.0522"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion North",
+      "en": "Poblacion North",
+      "slug": "poblacion-north-034916021"
+    },
+    "code": {
+      "id": "034916021",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "10.1698",
+      "lon": "123.7043"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion South",
+      "en": "Poblacion South",
+      "slug": "poblacion-south-034916022"
+    },
+    "code": {
+      "id": "034916022",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "10.1585",
+      "lon": "123.702"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion West",
+      "en": "Poblacion West",
+      "slug": "poblacion-west-034916023"
+    },
+    "code": {
+      "id": "034916023",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.3437",
+      "lon": "121.0263"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salvacion I",
+      "en": "Salvacion I",
+      "slug": "salvacion-i-034916025"
+    },
+    "code": {
+      "id": "034916025",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.8396",
+      "lon": "120.9159"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salvacion II",
+      "en": "Salvacion II",
+      "slug": "salvacion-ii-034916026"
+    },
+    "code": {
+      "id": "034916026",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.821",
+      "lon": "120.9153"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio Este",
+      "en": "San Antonio Este",
+      "slug": "san-antonio-este-034916028"
+    },
+    "code": {
+      "id": "034916028",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.863",
+      "lon": "120.8946"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio Weste",
+      "en": "San Antonio Weste",
+      "slug": "san-antonio-weste-034916029"
+    },
+    "code": {
+      "id": "034916029",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.8754",
+      "lon": "120.893"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-034916030"
+    },
+    "code": {
+      "id": "034916030",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.3097",
+      "lon": "120.9069"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro",
+      "en": "San Pedro",
+      "slug": "san-pedro-034916032"
+    },
+    "code": {
+      "id": "034916032",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.4242",
+      "lon": "120.8937"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque",
+      "en": "San Roque",
+      "slug": "san-roque-034916033"
+    },
+    "code": {
+      "id": "034916033",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.25",
+      "lon": "120.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034916034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Domingo",
+      "en": "Santo Domingo",
+      "slug": "santo-domingo-034916034"
+    },
+    "code": {
+      "id": "034916034",
+      "iso": null
+    },
+    "parent": {
+      "id": "034916",
+      "level": 3,
+      "name": {
+        "local": "Lupao",
+        "en": "Lupao",
+        "slug": "lupao-034916"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034916",
+        "level": 3,
+        "name": {
+          "local": "Lupao",
+          "en": "Lupao",
+          "slug": "lupao-034916"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3122"
+    ],
+    "geo": {
+      "lat": "15.59",
+      "lon": "120.8786"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "103504",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Iligan City",
+    "en": "Iligan City",
+    "slug": "iligan-city-103504"
+  },
+  "code": {
+    "id": "103504",
+    "iso": null
+  },
+  "parent": {
+    "id": "103500",
+    "level": 2,
+    "name": {
+      "local": "Lanao del Norte",
+      "en": "Lanao del Norte",
+      "slug": "lanao-del-norte-103500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 44
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.3037",
+    "lon": "123.643"
+  },
+  "metadata": {},
+  "source": {}
+}

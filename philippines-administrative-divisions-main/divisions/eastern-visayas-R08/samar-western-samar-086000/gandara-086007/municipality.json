@@ -1,0 +1,56 @@
+{
+  "id": "086007",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Gandara",
+    "en": "Gandara",
+    "slug": "gandara-086007"
+  },
+  "code": {
+    "id": "086007",
+    "iso": null
+  },
+  "parent": {
+    "id": "086000",
+    "level": 2,
+    "name": {
+      "local": "Samar (Western Samar)",
+      "en": "Samar (Western Samar)",
+      "slug": "samar-western-samar-086000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "086000",
+      "level": 2,
+      "name": {
+        "local": "Samar (Western Samar)",
+        "en": "Samar (Western Samar)",
+        "slug": "samar-western-samar-086000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 69
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.017",
+    "lon": "124.817"
+  },
+  "metadata": {},
+  "source": {}
+}

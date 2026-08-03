@@ -1,0 +1,587 @@
+[
+  {
+    "id": "140117001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dumayco",
+      "en": "Dumayco",
+      "slug": "dumayco-140117001"
+    },
+    "code": {
+      "id": "140117001",
+      "iso": null
+    },
+    "parent": {
+      "id": "140117",
+      "level": 3,
+      "name": {
+        "local": "Peñarrubia",
+        "en": "Peñarrubia",
+        "slug": "pearrubia-140117"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140117",
+        "level": 3,
+        "name": {
+          "local": "Peñarrubia",
+          "en": "Peñarrubia",
+          "slug": "pearrubia-140117"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2804"
+    ],
+    "geo": {
+      "lat": "17.5652",
+      "lon": "120.6583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140117002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lusuac",
+      "en": "Lusuac",
+      "slug": "lusuac-140117002"
+    },
+    "code": {
+      "id": "140117002",
+      "iso": null
+    },
+    "parent": {
+      "id": "140117",
+      "level": 3,
+      "name": {
+        "local": "Peñarrubia",
+        "en": "Peñarrubia",
+        "slug": "pearrubia-140117"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140117",
+        "level": 3,
+        "name": {
+          "local": "Peñarrubia",
+          "en": "Peñarrubia",
+          "slug": "pearrubia-140117"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2804"
+    ],
+    "geo": {
+      "lat": "17.5452",
+      "lon": "120.6673"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140117005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malamsit (Pau-Malamsit)",
+      "en": "Malamsit (Pau-Malamsit)",
+      "slug": "malamsit-pau-malamsit-140117005"
+    },
+    "code": {
+      "id": "140117005",
+      "iso": null
+    },
+    "parent": {
+      "id": "140117",
+      "level": 3,
+      "name": {
+        "local": "Peñarrubia",
+        "en": "Peñarrubia",
+        "slug": "pearrubia-140117"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140117",
+        "level": 3,
+        "name": {
+          "local": "Peñarrubia",
+          "en": "Peñarrubia",
+          "slug": "pearrubia-140117"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2804"
+    ],
+    "geo": {
+      "lat": "17.547",
+      "lon": "120.6668"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140117003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Namarabar",
+      "en": "Namarabar",
+      "slug": "namarabar-140117003"
+    },
+    "code": {
+      "id": "140117003",
+      "iso": null
+    },
+    "parent": {
+      "id": "140117",
+      "level": 3,
+      "name": {
+        "local": "Peñarrubia",
+        "en": "Peñarrubia",
+        "slug": "pearrubia-140117"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140117",
+        "level": 3,
+        "name": {
+          "local": "Peñarrubia",
+          "en": "Peñarrubia",
+          "slug": "pearrubia-140117"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2804"
+    ],
+    "geo": {
+      "lat": "17.5542",
+      "lon": "120.6427"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140117004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patiao",
+      "en": "Patiao",
+      "slug": "patiao-140117004"
+    },
+    "code": {
+      "id": "140117004",
+      "iso": null
+    },
+    "parent": {
+      "id": "140117",
+      "level": 3,
+      "name": {
+        "local": "Peñarrubia",
+        "en": "Peñarrubia",
+        "slug": "pearrubia-140117"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140117",
+        "level": 3,
+        "name": {
+          "local": "Peñarrubia",
+          "en": "Peñarrubia",
+          "slug": "pearrubia-140117"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2804"
+    ],
+    "geo": {
+      "lat": "17.567",
+      "lon": "120.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140117006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-140117006"
+    },
+    "code": {
+      "id": "140117006",
+      "iso": null
+    },
+    "parent": {
+      "id": "140117",
+      "level": 3,
+      "name": {
+        "local": "Peñarrubia",
+        "en": "Peñarrubia",
+        "slug": "pearrubia-140117"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140117",
+        "level": 3,
+        "name": {
+          "local": "Peñarrubia",
+          "en": "Peñarrubia",
+          "slug": "pearrubia-140117"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2804"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140117007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Riang (Tiang)",
+      "en": "Riang (Tiang)",
+      "slug": "riang-tiang-140117007"
+    },
+    "code": {
+      "id": "140117007",
+      "iso": null
+    },
+    "parent": {
+      "id": "140117",
+      "level": 3,
+      "name": {
+        "local": "Peñarrubia",
+        "en": "Peñarrubia",
+        "slug": "pearrubia-140117"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140117",
+        "level": 3,
+        "name": {
+          "local": "Peñarrubia",
+          "en": "Peñarrubia",
+          "slug": "pearrubia-140117"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2804"
+    ],
+    "geo": {
+      "lat": "17.564",
+      "lon": "120.6469"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140117008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Rosa",
+      "en": "Santa Rosa",
+      "slug": "santa-rosa-140117008"
+    },
+    "code": {
+      "id": "140117008",
+      "iso": null
+    },
+    "parent": {
+      "id": "140117",
+      "level": 3,
+      "name": {
+        "local": "Peñarrubia",
+        "en": "Peñarrubia",
+        "slug": "pearrubia-140117"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140117",
+        "level": 3,
+        "name": {
+          "local": "Peñarrubia",
+          "en": "Peñarrubia",
+          "slug": "pearrubia-140117"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2804"
+    ],
+    "geo": {
+      "lat": "17.5859",
+      "lon": "120.608"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "140117009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tattawa",
+      "en": "Tattawa",
+      "slug": "tattawa-140117009"
+    },
+    "code": {
+      "id": "140117009",
+      "iso": null
+    },
+    "parent": {
+      "id": "140117",
+      "level": 3,
+      "name": {
+        "local": "Peñarrubia",
+        "en": "Peñarrubia",
+        "slug": "pearrubia-140117"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "140100",
+        "level": 2,
+        "name": {
+          "local": "Abra",
+          "en": "Abra",
+          "slug": "abra-140100"
+        }
+      },
+      {
+        "id": "140117",
+        "level": 3,
+        "name": {
+          "local": "Peñarrubia",
+          "en": "Peñarrubia",
+          "slug": "pearrubia-140117"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2804"
+    ],
+    "geo": {
+      "lat": "17.567",
+      "lon": "120.65"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

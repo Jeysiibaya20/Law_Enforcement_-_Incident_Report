@@ -1,0 +1,56 @@
+{
+  "id": "083748",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tanauan",
+    "en": "Tanauan",
+    "slug": "tanauan-083748"
+  },
+  "code": {
+    "id": "083748",
+    "iso": null
+  },
+  "parent": {
+    "id": "083700",
+    "level": 2,
+    "name": {
+      "local": "Leyte",
+      "en": "Leyte",
+      "slug": "leyte-083700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 54
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.12",
+    "lon": "125.02"
+  },
+  "metadata": {},
+  "source": {}
+}

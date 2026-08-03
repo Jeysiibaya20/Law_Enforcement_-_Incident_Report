@@ -1,0 +1,56 @@
+{
+  "id": "064515",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Kabankalan",
+    "en": "Kabankalan",
+    "slug": "kabankalan-064515"
+  },
+  "code": {
+    "id": "064515",
+    "iso": null
+  },
+  "parent": {
+    "id": "064500",
+    "level": 2,
+    "name": {
+      "local": "Negros Occidental",
+      "en": "Negros Occidental",
+      "slug": "negros-occidental-064500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "064500",
+      "level": 2,
+      "name": {
+        "local": "Negros Occidental",
+        "en": "Negros Occidental",
+        "slug": "negros-occidental-064500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 32
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.983",
+    "lon": "122.817"
+  },
+  "metadata": {},
+  "source": {}
+}

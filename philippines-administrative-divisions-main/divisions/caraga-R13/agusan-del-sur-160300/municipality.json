@@ -1,0 +1,786 @@
+[
+  {
+    "id": "160301",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bayugan",
+      "en": "Bayugan",
+      "slug": "bayugan-160301"
+    },
+    "code": {
+      "id": "160301",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 43
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.717",
+      "lon": "125.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160302",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bunawan",
+      "en": "Bunawan",
+      "slug": "bunawan-160302"
+    },
+    "code": {
+      "id": "160302",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.167",
+      "lon": "126"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160303",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Esperanza",
+      "en": "Esperanza",
+      "slug": "esperanza-160303"
+    },
+    "code": {
+      "id": "160303",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 47
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.683",
+      "lon": "125.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160304",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "La Paz",
+      "en": "La Paz",
+      "slug": "la-paz-160304"
+    },
+    "code": {
+      "id": "160304",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.267",
+      "lon": "125.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160305",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Loreto",
+      "en": "Loreto",
+      "slug": "loreto-160305"
+    },
+    "code": {
+      "id": "160305",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.183",
+      "lon": "125.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160306",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Prosperidad",
+      "en": "Prosperidad",
+      "slug": "prosperidad-160306"
+    },
+    "code": {
+      "id": "160306",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 32
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.6",
+      "lon": "125.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160307",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Rosario",
+      "en": "Rosario",
+      "slug": "rosario-160307"
+    },
+    "code": {
+      "id": "160307",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.383",
+      "lon": "126"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160308",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Francisco",
+      "en": "San Francisco",
+      "slug": "san-francisco-160308"
+    },
+    "code": {
+      "id": "160308",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.5",
+      "lon": "125.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160309",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Luis",
+      "en": "San Luis",
+      "slug": "san-luis-160309"
+    },
+    "code": {
+      "id": "160309",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.47806",
+      "lon": "125.74389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160310",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Josefa",
+      "en": "Santa Josefa",
+      "slug": "santa-josefa-160310"
+    },
+    "code": {
+      "id": "160310",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.983",
+      "lon": "126.033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160314",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sibagat",
+      "en": "Sibagat",
+      "slug": "sibagat-160314"
+    },
+    "code": {
+      "id": "160314",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.817",
+      "lon": "125.7"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160311",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Talacogon",
+      "en": "Talacogon",
+      "slug": "talacogon-160311"
+    },
+    "code": {
+      "id": "160311",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.45",
+      "lon": "125.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160312",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Trento",
+      "en": "Trento",
+      "slug": "trento-160312"
+    },
+    "code": {
+      "id": "160312",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.05",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "160313",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Veruela",
+      "en": "Veruela",
+      "slug": "veruela-160313"
+    },
+    "code": {
+      "id": "160313",
+      "iso": null
+    },
+    "parent": {
+      "id": "160300",
+      "level": 2,
+      "name": {
+        "local": "Agusan del Sur",
+        "en": "Agusan del Sur",
+        "slug": "agusan-del-sur-160300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "160300",
+        "level": 2,
+        "name": {
+          "local": "Agusan del Sur",
+          "en": "Agusan del Sur",
+          "slug": "agusan-del-sur-160300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.033",
+      "lon": "125.9"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "id": "037700",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Aurora",
+    "en": "Aurora",
+    "slug": "aurora-037700"
+  },
+  "code": {
+    "id": "037700",
+    "iso": null
+  },
+  "parent": {
+    "id": "R03",
+    "level": 1,
+    "name": {
+      "local": "Central Luzon",
+      "en": "Central Luzon",
+      "slug": "central-luzon-R03"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 8,
+    "barangay": 151
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.5856",
+    "lon": "121.6739"
+  },
+  "metadata": {},
+  "source": {}
+}

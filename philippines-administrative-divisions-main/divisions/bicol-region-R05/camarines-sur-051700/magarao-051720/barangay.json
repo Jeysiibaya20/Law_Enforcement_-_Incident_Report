@@ -1,0 +1,977 @@
+[
+  {
+    "id": "051720001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barobaybay",
+      "en": "Barobaybay",
+      "slug": "barobaybay-051720001"
+    },
+    "code": {
+      "id": "051720001",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.6667",
+      "lon": "123.1028"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bell (Pob.)",
+      "en": "Bell (Pob.)",
+      "slug": "bell-pob-051720002"
+    },
+    "code": {
+      "id": "051720002",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.6596",
+      "lon": "123.1809"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Carangcang",
+      "en": "Carangcang",
+      "slug": "carangcang-051720003"
+    },
+    "code": {
+      "id": "051720003",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.6636",
+      "lon": "123.2194"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Carigsa",
+      "en": "Carigsa",
+      "slug": "carigsa-051720004"
+    },
+    "code": {
+      "id": "051720004",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.667",
+      "lon": "123.183"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Casuray",
+      "en": "Casuray",
+      "slug": "casuray-051720005"
+    },
+    "code": {
+      "id": "051720005",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.6667",
+      "lon": "123.1667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Monserrat (Pob.)",
+      "en": "Monserrat (Pob.)",
+      "slug": "monserrat-pob-051720006"
+    },
+    "code": {
+      "id": "051720006",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.65",
+      "lon": "123.1667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ponong",
+      "en": "Ponong",
+      "slug": "ponong-051720007"
+    },
+    "code": {
+      "id": "051720007",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.6829",
+      "lon": "123.1183"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Francisco (Pob.)",
+      "en": "San Francisco (Pob.)",
+      "slug": "san-francisco-pob-051720008"
+    },
+    "code": {
+      "id": "051720008",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.6181",
+      "lon": "123.1631"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro (Pob.)",
+      "en": "San Isidro (Pob.)",
+      "slug": "san-isidro-pob-051720009"
+    },
+    "code": {
+      "id": "051720009",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.444",
+      "lon": "123.4064"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan (Pob.)",
+      "en": "San Juan (Pob.)",
+      "slug": "san-juan-pob-051720010"
+    },
+    "code": {
+      "id": "051720010",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.4237",
+      "lon": "123.4261"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-051720011"
+    },
+    "code": {
+      "id": "051720011",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.3476",
+      "lon": "123.3848"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pantaleon (Pob.)",
+      "en": "San Pantaleon (Pob.)",
+      "slug": "san-pantaleon-pob-051720012"
+    },
+    "code": {
+      "id": "051720012",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.65",
+      "lon": "123.1667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Lucia (Pob.)",
+      "en": "Santa Lucia (Pob.)",
+      "slug": "santa-lucia-pob-051720013"
+    },
+    "code": {
+      "id": "051720013",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.65",
+      "lon": "123.1667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Rosa",
+      "en": "Santa Rosa",
+      "slug": "santa-rosa-051720014"
+    },
+    "code": {
+      "id": "051720014",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.7333",
+      "lon": "123.25"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051720015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Tomas (Pob.)",
+      "en": "Santo Tomas (Pob.)",
+      "slug": "santo-tomas-pob-051720015"
+    },
+    "code": {
+      "id": "051720015",
+      "iso": null
+    },
+    "parent": {
+      "id": "051720",
+      "level": 3,
+      "name": {
+        "local": "Magarao",
+        "en": "Magarao",
+        "slug": "magarao-051720"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051700",
+        "level": 2,
+        "name": {
+          "local": "Camarines Sur",
+          "en": "Camarines Sur",
+          "slug": "camarines-sur-051700"
+        }
+      },
+      {
+        "id": "051720",
+        "level": 3,
+        "name": {
+          "local": "Magarao",
+          "en": "Magarao",
+          "slug": "magarao-051720"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4403"
+    ],
+    "geo": {
+      "lat": "13.65",
+      "lon": "123.1667"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

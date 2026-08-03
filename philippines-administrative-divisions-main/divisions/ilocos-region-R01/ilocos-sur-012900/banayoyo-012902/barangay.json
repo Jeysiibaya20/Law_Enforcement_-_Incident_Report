@@ -1,0 +1,912 @@
+[
+  {
+    "id": "012902001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagbagotot",
+      "en": "Bagbagotot",
+      "slug": "bagbagotot-012902001"
+    },
+    "code": {
+      "id": "012902001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2628",
+      "lon": "120.4659"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Banbanaal",
+      "en": "Banbanaal",
+      "slug": "banbanaal-012902002"
+    },
+    "code": {
+      "id": "012902002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2261",
+      "lon": "120.5097"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bisangol",
+      "en": "Bisangol",
+      "slug": "bisangol-012902004"
+    },
+    "code": {
+      "id": "012902004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2426",
+      "lon": "120.4785"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cadanglaan",
+      "en": "Cadanglaan",
+      "slug": "cadanglaan-012902005"
+    },
+    "code": {
+      "id": "012902005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2386",
+      "lon": "120.464"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Casilagan Norte",
+      "en": "Casilagan Norte",
+      "slug": "casilagan-norte-012902006"
+    },
+    "code": {
+      "id": "012902006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2391",
+      "lon": "120.4681"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Casilagan Sur",
+      "en": "Casilagan Sur",
+      "slug": "casilagan-sur-012902007"
+    },
+    "code": {
+      "id": "012902007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2351",
+      "lon": "120.4698"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Elefante",
+      "en": "Elefante",
+      "slug": "elefante-012902008"
+    },
+    "code": {
+      "id": "012902008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2422",
+      "lon": "120.4867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Guardia",
+      "en": "Guardia",
+      "slug": "guardia-012902009"
+    },
+    "code": {
+      "id": "012902009",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2465",
+      "lon": "120.4909"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lintic",
+      "en": "Lintic",
+      "slug": "lintic-012902010"
+    },
+    "code": {
+      "id": "012902010",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2144",
+      "lon": "120.4997"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lopez",
+      "en": "Lopez",
+      "slug": "lopez-012902011"
+    },
+    "code": {
+      "id": "012902011",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2167",
+      "lon": "120.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Montero",
+      "en": "Montero",
+      "slug": "montero-012902012"
+    },
+    "code": {
+      "id": "012902012",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2308",
+      "lon": "120.4803"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Naguimba",
+      "en": "Naguimba",
+      "slug": "naguimba-012902013"
+    },
+    "code": {
+      "id": "012902013",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2515",
+      "lon": "120.4921"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pila",
+      "en": "Pila",
+      "slug": "pila-012902014"
+    },
+    "code": {
+      "id": "012902014",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "17.2289",
+      "lon": "120.4934"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012902015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-012902015"
+    },
+    "code": {
+      "id": "012902015",
+      "iso": null
+    },
+    "parent": {
+      "id": "012902",
+      "level": 3,
+      "name": {
+        "local": "Banayoyo",
+        "en": "Banayoyo",
+        "slug": "banayoyo-012902"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012902",
+        "level": 3,
+        "name": {
+          "local": "Banayoyo",
+          "en": "Banayoyo",
+          "slug": "banayoyo-012902"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2708"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

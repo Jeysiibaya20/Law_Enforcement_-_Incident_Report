@@ -1,0 +1,954 @@
+[
+  {
+    "id": "060401",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Altavas",
+      "en": "Altavas",
+      "slug": "altavas-060401"
+    },
+    "code": {
+      "id": "060401",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.533",
+      "lon": "122.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060402",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balete",
+      "en": "Balete",
+      "slug": "balete-060402"
+    },
+    "code": {
+      "id": "060402",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.55",
+      "lon": "122.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060403",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Banga",
+      "en": "Banga",
+      "slug": "banga-060403"
+    },
+    "code": {
+      "id": "060403",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.633",
+      "lon": "122.333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060404",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Batan",
+      "en": "Batan",
+      "slug": "batan-060404"
+    },
+    "code": {
+      "id": "060404",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.583",
+      "lon": "122.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Buruanga",
+      "en": "Buruanga",
+      "slug": "buruanga-060405"
+    },
+    "code": {
+      "id": "060405",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.85",
+      "lon": "121.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060406",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ibajay",
+      "en": "Ibajay",
+      "slug": "ibajay-060406"
+    },
+    "code": {
+      "id": "060406",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.817",
+      "lon": "122.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060407",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kalibo",
+      "en": "Kalibo",
+      "slug": "kalibo-060407"
+    },
+    "code": {
+      "id": "060407",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.7",
+      "lon": "122.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060408",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lezo",
+      "en": "Lezo",
+      "slug": "lezo-060408"
+    },
+    "code": {
+      "id": "060408",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.667",
+      "lon": "122.333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060409",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Libacao",
+      "en": "Libacao",
+      "slug": "libacao-060409"
+    },
+    "code": {
+      "id": "060409",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.483",
+      "lon": "122.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060410",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Madalag",
+      "en": "Madalag",
+      "slug": "madalag-060410"
+    },
+    "code": {
+      "id": "060410",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.517",
+      "lon": "122.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060411",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Makato",
+      "en": "Makato",
+      "slug": "makato-060411"
+    },
+    "code": {
+      "id": "060411",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.7",
+      "lon": "122.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060412",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malay",
+      "en": "Malay",
+      "slug": "malay-060412"
+    },
+    "code": {
+      "id": "060412",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.9",
+      "lon": "121.9083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060413",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Malinao",
+      "en": "Malinao",
+      "slug": "malinao-060413"
+    },
+    "code": {
+      "id": "060413",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.65",
+      "lon": "122.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060414",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Nabas",
+      "en": "Nabas",
+      "slug": "nabas-060414"
+    },
+    "code": {
+      "id": "060414",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.833",
+      "lon": "122.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060415",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "New Washington",
+      "en": "New Washington",
+      "slug": "new-washington-060415"
+    },
+    "code": {
+      "id": "060415",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.65",
+      "lon": "122.433"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060416",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Numancia",
+      "en": "Numancia",
+      "slug": "numancia-060416"
+    },
+    "code": {
+      "id": "060416",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.7",
+      "lon": "122.333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060417",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tangalan",
+      "en": "Tangalan",
+      "slug": "tangalan-060417"
+    },
+    "code": {
+      "id": "060417",
+      "iso": null
+    },
+    "parent": {
+      "id": "060400",
+      "level": 2,
+      "name": {
+        "local": "Aklan",
+        "en": "Aklan",
+        "slug": "aklan-060400"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.767",
+      "lon": "122.25"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

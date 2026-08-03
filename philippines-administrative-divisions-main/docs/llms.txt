@@ -1,0 +1,88 @@
+# Philippines Administrative Divisions
+
+> Open dataset of Philippines's administrative hierarchy:
+> 17 regions, 84 provinces, 1,634 municipalitys, 42,036 barangays.
+> CC-BY-4.0 licensed.
+
+## Quick Reference
+
+- Total regions: 17
+- Total provinces: 84
+- Total municipalitys: 1,634
+- Total barangays: 42,036
+- Coordinates: included (all levels)
+- Last updated: 2026-06-01
+- License: CC-BY-4.0
+
+## Aggregate Data Files
+
+- [All regions (JSON)](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/data/all-region.json)
+- [All provinces (JSON)](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/data/all-province.json)
+- [All municipalitys (JSON)](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/data/all-municipality.json)
+- [All barangays (JSON)](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/data/all-barangay.json)
+- [Flat array (NDJSON)](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/data/all-flat.ndjson)
+- [Hierarchy tree (JSON)](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/data/hierarchy.json)
+- [JSON Schema](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/data/schema.json)
+
+## Browse by Region
+
+- [Ilocos Region](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/ilocos-region-R01/) — 4 provinces, 125 municipalitys, 3265 barangays
+- [Cagayan Valley](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/cagayan-valley-R02/) — 5 provinces, 93 municipalitys, 2311 barangays
+- [Central Luzon](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/central-luzon-R03/) — 7 provinces, 130 municipalitys, 3102 barangays
+- [CALABARZON](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/calabarzon-R04A/) — 5 provinces, 142 municipalitys, 4018 barangays
+- [Bicol Region](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/bicol-region-R05/) — 6 provinces, 114 municipalitys, 3471 barangays
+- [Western Visayas](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/western-visayas-R06/) — 6 provinces, 133 municipalitys, 4051 barangays
+- [Central Visayas](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/central-visayas-R07/) — 4 provinces, 132 municipalitys, 3003 barangays
+- [Eastern Visayas](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/eastern-visayas-R08/) — 6 provinces, 143 municipalitys, 4390 barangays
+- [Zamboanga Peninsula](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/zamboanga-peninsula-R09/) — 4 provinces, 72 municipalitys, 1904 barangays
+- [Northern Mindanao](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/northern-mindanao-R10/) — 5 provinces, 93 municipalitys, 2022 barangays
+- [Davao Region](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/davao-region-R11/) — 5 provinces, 49 municipalitys, 1162 barangays
+- [SOCCSKSARGEN](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/soccsksargen-R12/) — 5 provinces, 50 municipalitys, 1195 barangays
+- [National Capital Region](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/national-capital-region-NCR/) — 1 provinces, 17 municipalitys, 1706 barangays
+- [Cordillera Administrative Region](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/cordillera-administrative-region-CAR/) — 6 provinces, 77 municipalitys, 1176 barangays
+- [Autonomous Region in Muslim Mindanao](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/autonomous-region-in-muslim-mindanao-ARMM/) — 5 provinces, 118 municipalitys, 2490 barangays
+- [Caraga](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/caraga-R13/) — 5 provinces, 73 municipalitys, 1311 barangays
+- [MIMAROPA Region](https://github.com/open-admin-data/philippines-administrative-divisions/tree/main/divisions/mimaropa-region-R17/) — 5 provinces, 73 municipalitys, 1459 barangays
+
+## Per-Region Full Data
+
+- [Ilocos Region](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/ilocos-region-R01.txt)
+- [Cagayan Valley](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/cagayan-valley-R02.txt)
+- [Central Luzon](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/central-luzon-R03.txt)
+- [CALABARZON](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/calabarzon-R04A.txt)
+- [Bicol Region](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/bicol-region-R05.txt)
+- [Western Visayas](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/western-visayas-R06.txt)
+- [Central Visayas](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/central-visayas-R07.txt)
+- [Eastern Visayas](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/eastern-visayas-R08.txt)
+- [Zamboanga Peninsula](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/zamboanga-peninsula-R09.txt)
+- [Northern Mindanao](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/northern-mindanao-R10.txt)
+- [Davao Region](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/davao-region-R11.txt)
+- [SOCCSKSARGEN](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/soccsksargen-R12.txt)
+- [National Capital Region](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/national-capital-region-NCR.txt)
+- [Cordillera Administrative Region](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/cordillera-administrative-region-CAR.txt)
+- [Autonomous Region in Muslim Mindanao](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/autonomous-region-in-muslim-mindanao-ARMM.txt)
+- [Caraga](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/caraga-R13.txt)
+- [MIMAROPA Region](https://raw.githubusercontent.com/open-admin-data/philippines-administrative-divisions/main/docs/llms-full/mimaropa-region-R17.txt)
+
+## Schema Fields
+
+- id: Unique identifier
+- level: 1 (region), 2 (province), 3 (municipality), 4 (barangay)
+- name: Local and English names with URL slug
+- code: Government codes
+- parent: Reference to parent division
+- ancestors: Full chain to root
+- children_count: Count of children per level
+- zip_codes: Postal codes (where available)
+- geo: Geographic coordinates (lat/lon, WGS84, all levels)
+
+## Citation
+
+Philippines Administrative Divisions Dataset (CC-BY-4.0)
+URL: https://github.com/open-admin-data/philippines-administrative-divisions
+
+## Related
+
+- [ListBase](https://www.listbase.org) — Structured reference data for every country
+- [open-admin-data](https://github.com/open-admin-data) — Open admin data for ASEAN
+- [thailand-administrative-divisions](https://github.com/open-admin-data/thailand-administrative-divisions)

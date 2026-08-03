@@ -1,0 +1,56 @@
+{
+  "id": "128006",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Malapatan",
+    "en": "Malapatan",
+    "slug": "malapatan-128006"
+  },
+  "code": {
+    "id": "128006",
+    "iso": null
+  },
+  "parent": {
+    "id": "128000",
+    "level": 2,
+    "name": {
+      "local": "Sarangani",
+      "en": "Sarangani",
+      "slug": "sarangani-128000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    {
+      "id": "128000",
+      "level": 2,
+      "name": {
+        "local": "Sarangani",
+        "en": "Sarangani",
+        "slug": "sarangani-128000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 12
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "5.967",
+    "lon": "125.283"
+  },
+  "metadata": {},
+  "source": {}
+}

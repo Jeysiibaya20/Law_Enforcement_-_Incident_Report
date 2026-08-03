@@ -4,6 +4,7 @@ require_once 'admin_auth.php';
 $base_url = '../';
 $page_title = 'System Settings';
 require_once '../includes/header.php';
+require_once '../includes/navbar.php';
 
 // Handle settings update
 $message = '';

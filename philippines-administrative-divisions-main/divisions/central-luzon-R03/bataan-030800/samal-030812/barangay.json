@@ -1,0 +1,912 @@
+[
+  {
+    "id": "030812001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "East Calaguiman (Pob.)",
+      "en": "East Calaguiman (Pob.)",
+      "slug": "east-calaguiman-pob-030812001"
+    },
+    "code": {
+      "id": "030812001",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.7509",
+      "lon": "120.5428"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "East Daang Bago (Pob.)",
+      "en": "East Daang Bago (Pob.)",
+      "slug": "east-daang-bago-pob-030812002"
+    },
+    "code": {
+      "id": "030812002",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.7645",
+      "lon": "120.5423"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gugo",
+      "en": "Gugo",
+      "slug": "gugo-030812013"
+    },
+    "code": {
+      "id": "030812013",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.7581",
+      "lon": "120.4871"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ibaba (Pob.)",
+      "en": "Ibaba (Pob.)",
+      "slug": "ibaba-pob-030812003"
+    },
+    "code": {
+      "id": "030812003",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.5948",
+      "lon": "120.3911"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Imelda",
+      "en": "Imelda",
+      "slug": "imelda-030812004"
+    },
+    "code": {
+      "id": "030812004",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.7806",
+      "lon": "120.4932"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lalawigan",
+      "en": "Lalawigan",
+      "slug": "lalawigan-030812005"
+    },
+    "code": {
+      "id": "030812005",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.7857",
+      "lon": "120.5305"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Palili",
+      "en": "Palili",
+      "slug": "palili-030812006"
+    },
+    "code": {
+      "id": "030812006",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.7527",
+      "lon": "120.5263"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan (Pob.)",
+      "en": "San Juan (Pob.)",
+      "slug": "san-juan-pob-030812008"
+    },
+    "code": {
+      "id": "030812008",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.7762",
+      "lon": "120.5208"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque (Pob.)",
+      "en": "San Roque (Pob.)",
+      "slug": "san-roque-pob-030812009"
+    },
+    "code": {
+      "id": "030812009",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.7797",
+      "lon": "120.5425"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Lucia",
+      "en": "Santa Lucia",
+      "slug": "santa-lucia-030812010"
+    },
+    "code": {
+      "id": "030812010",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.7633",
+      "lon": "120.5378"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sapa",
+      "en": "Sapa",
+      "slug": "sapa-030812011"
+    },
+    "code": {
+      "id": "030812011",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.7595",
+      "lon": "120.542"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tabing Ilog",
+      "en": "Tabing Ilog",
+      "slug": "tabing-ilog-030812012"
+    },
+    "code": {
+      "id": "030812012",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.599",
+      "lon": "120.3935"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "West Calaguiman (Pob.)",
+      "en": "West Calaguiman (Pob.)",
+      "slug": "west-calaguiman-pob-030812014"
+    },
+    "code": {
+      "id": "030812014",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.7519",
+      "lon": "120.5397"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "030812015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "West Daang Bago (Pob.)",
+      "en": "West Daang Bago (Pob.)",
+      "slug": "west-daang-bago-pob-030812015"
+    },
+    "code": {
+      "id": "030812015",
+      "iso": null
+    },
+    "parent": {
+      "id": "030812",
+      "level": 3,
+      "name": {
+        "local": "Samal",
+        "en": "Samal",
+        "slug": "samal-030812"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "030800",
+        "level": 2,
+        "name": {
+          "local": "Bataan",
+          "en": "Bataan",
+          "slug": "bataan-030800"
+        }
+      },
+      {
+        "id": "030812",
+        "level": 3,
+        "name": {
+          "local": "Samal",
+          "en": "Samal",
+          "slug": "samal-030812"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2113"
+    ],
+    "geo": {
+      "lat": "14.7703",
+      "lon": "120.5356"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

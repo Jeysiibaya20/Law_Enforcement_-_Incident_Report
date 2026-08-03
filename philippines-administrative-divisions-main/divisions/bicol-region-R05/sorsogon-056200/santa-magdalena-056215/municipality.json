@@ -1,0 +1,56 @@
+{
+  "id": "056215",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Magdalena",
+    "en": "Santa Magdalena",
+    "slug": "santa-magdalena-056215"
+  },
+  "code": {
+    "id": "056215",
+    "iso": null
+  },
+  "parent": {
+    "id": "056200",
+    "level": 2,
+    "name": {
+      "local": "Sorsogon",
+      "en": "Sorsogon",
+      "slug": "sorsogon-056200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "056200",
+      "level": 2,
+      "name": {
+        "local": "Sorsogon",
+        "en": "Sorsogon",
+        "slug": "sorsogon-056200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.65",
+    "lon": "124.1"
+  },
+  "metadata": {},
+  "source": {}
+}

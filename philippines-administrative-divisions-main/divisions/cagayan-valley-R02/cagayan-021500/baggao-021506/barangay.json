@@ -1,0 +1,3122 @@
+[
+  {
+    "id": "021506001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Adaoag",
+      "en": "Adaoag",
+      "slug": "adaoag-021506001"
+    },
+    "code": {
+      "id": "021506001",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9024",
+      "lon": "121.7566"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agaman (Proper)",
+      "en": "Agaman (Proper)",
+      "slug": "agaman-proper-021506002"
+    },
+    "code": {
+      "id": "021506002",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.991",
+      "lon": "121.9214"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506047",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agaman Norte",
+      "en": "Agaman Norte",
+      "slug": "agaman-norte-021506047"
+    },
+    "code": {
+      "id": "021506047",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.991",
+      "lon": "121.9214"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506048",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agaman Sur",
+      "en": "Agaman Sur",
+      "slug": "agaman-sur-021506048"
+    },
+    "code": {
+      "id": "021506048",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.991",
+      "lon": "121.9214"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alba",
+      "en": "Alba",
+      "slug": "alba-021506003"
+    },
+    "code": {
+      "id": "021506003",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9702",
+      "lon": "121.8912"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Annayatan",
+      "en": "Annayatan",
+      "slug": "annayatan-021506004"
+    },
+    "code": {
+      "id": "021506004",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8994",
+      "lon": "121.8936"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Asassi",
+      "en": "Asassi",
+      "slug": "asassi-021506005"
+    },
+    "code": {
+      "id": "021506005",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9048",
+      "lon": "121.7689"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Asinga-Via",
+      "en": "Asinga-Via",
+      "slug": "asinga-via-021506006"
+    },
+    "code": {
+      "id": "021506006",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8772",
+      "lon": "121.8968"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Awallan",
+      "en": "Awallan",
+      "slug": "awallan-021506007"
+    },
+    "code": {
+      "id": "021506007",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9244",
+      "lon": "121.913"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bacagan",
+      "en": "Bacagan",
+      "slug": "bacagan-021506008"
+    },
+    "code": {
+      "id": "021506008",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9331",
+      "lon": "121.8997"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagunot",
+      "en": "Bagunot",
+      "slug": "bagunot-021506009"
+    },
+    "code": {
+      "id": "021506009",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9392",
+      "lon": "121.7811"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barsat East",
+      "en": "Barsat East",
+      "slug": "barsat-east-021506011"
+    },
+    "code": {
+      "id": "021506011",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.917",
+      "lon": "121.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barsat West",
+      "en": "Barsat West",
+      "slug": "barsat-west-021506012"
+    },
+    "code": {
+      "id": "021506012",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9416",
+      "lon": "121.873"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bitag Grande",
+      "en": "Bitag Grande",
+      "slug": "bitag-grande-021506013"
+    },
+    "code": {
+      "id": "021506013",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9024",
+      "lon": "121.8501"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bitag Pequeño",
+      "en": "Bitag Pequeño",
+      "slug": "bitag-pequeo-021506014"
+    },
+    "code": {
+      "id": "021506014",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8454",
+      "lon": "121.8696"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bunugan",
+      "en": "Bunugan",
+      "slug": "bunugan-021506015"
+    },
+    "code": {
+      "id": "021506015",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9558",
+      "lon": "121.7579"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506049",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "C. Verzosa ((Valley Cove*)",
+      "en": "C. Verzosa ((Valley Cove*)",
+      "slug": "c-verzosa-valley-cove-021506049"
+    },
+    "code": {
+      "id": "021506049",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.917",
+      "lon": "121.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Canagatan",
+      "en": "Canagatan",
+      "slug": "canagatan-021506016"
+    },
+    "code": {
+      "id": "021506016",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "18",
+      "lon": "121.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Carupian",
+      "en": "Carupian",
+      "slug": "carupian-021506017"
+    },
+    "code": {
+      "id": "021506017",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9594",
+      "lon": "121.7689"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Catugay",
+      "en": "Catugay",
+      "slug": "catugay-021506018"
+    },
+    "code": {
+      "id": "021506018",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9322",
+      "lon": "121.9002"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dabbac Grande",
+      "en": "Dabbac Grande",
+      "slug": "dabbac-grande-021506020"
+    },
+    "code": {
+      "id": "021506020",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8761",
+      "lon": "121.8885"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dalin",
+      "en": "Dalin",
+      "slug": "dalin-021506021"
+    },
+    "code": {
+      "id": "021506021",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9841",
+      "lon": "121.9169"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dalla",
+      "en": "Dalla",
+      "slug": "dalla-021506022"
+    },
+    "code": {
+      "id": "021506022",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9556",
+      "lon": "121.8914"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hacienda Intal",
+      "en": "Hacienda Intal",
+      "slug": "hacienda-intal-021506023"
+    },
+    "code": {
+      "id": "021506023",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8847",
+      "lon": "121.9063"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ibulo",
+      "en": "Ibulo",
+      "slug": "ibulo-021506024"
+    },
+    "code": {
+      "id": "021506024",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9479",
+      "lon": "121.7696"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Imurong",
+      "en": "Imurong",
+      "slug": "imurong-021506025"
+    },
+    "code": {
+      "id": "021506025",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8573",
+      "lon": "121.9023"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "J. Pallagao",
+      "en": "J. Pallagao",
+      "slug": "j-pallagao-021506026"
+    },
+    "code": {
+      "id": "021506026",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9838",
+      "lon": "121.9337"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lasilat",
+      "en": "Lasilat",
+      "slug": "lasilat-021506027"
+    },
+    "code": {
+      "id": "021506027",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9161",
+      "lon": "121.9046"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506046",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabini",
+      "en": "Mabini",
+      "slug": "mabini-021506046"
+    },
+    "code": {
+      "id": "021506046",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8655",
+      "lon": "121.8572"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Masical",
+      "en": "Masical",
+      "slug": "masical-021506028"
+    },
+    "code": {
+      "id": "021506028",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8251",
+      "lon": "121.6429"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mocag",
+      "en": "Mocag",
+      "slug": "mocag-021506029"
+    },
+    "code": {
+      "id": "021506029",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8799",
+      "lon": "121.8581"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nangalinan",
+      "en": "Nangalinan",
+      "slug": "nangalinan-021506030"
+    },
+    "code": {
+      "id": "021506030",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9096",
+      "lon": "121.8778"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion (Centro)",
+      "en": "Poblacion (Centro)",
+      "slug": "poblacion-centro-021506019"
+    },
+    "code": {
+      "id": "021506019",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "15.5006",
+      "lon": "120.8524"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506031",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Remus",
+      "en": "Remus",
+      "slug": "remus-021506031"
+    },
+    "code": {
+      "id": "021506031",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9749",
+      "lon": "121.9096"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio",
+      "en": "San Antonio",
+      "slug": "san-antonio-021506032"
+    },
+    "code": {
+      "id": "021506032",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "18.3582",
+      "lon": "121.6405"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Francisco",
+      "en": "San Francisco",
+      "slug": "san-francisco-021506033"
+    },
+    "code": {
+      "id": "021506033",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8653",
+      "lon": "121.8912"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-021506034"
+    },
+    "code": {
+      "id": "021506034",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.591",
+      "lon": "121.7334"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-021506035"
+    },
+    "code": {
+      "id": "021506035",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8927",
+      "lon": "121.8713"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506036",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-021506036"
+    },
+    "code": {
+      "id": "021506036",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8417",
+      "lon": "121.9192"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506037",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Vicente",
+      "en": "San Vicente",
+      "slug": "san-vicente-021506037"
+    },
+    "code": {
+      "id": "021506037",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.972",
+      "lon": "121.6138"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506038",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Margarita",
+      "en": "Santa Margarita",
+      "slug": "santa-margarita-021506038"
+    },
+    "code": {
+      "id": "021506038",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9677",
+      "lon": "121.931"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506039",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santor",
+      "en": "Santor",
+      "slug": "santor-021506039"
+    },
+    "code": {
+      "id": "021506039",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8886",
+      "lon": "121.8887"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506040",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taguing",
+      "en": "Taguing",
+      "slug": "taguing-021506040"
+    },
+    "code": {
+      "id": "021506040",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9464",
+      "lon": "121.7552"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506041",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taguntungan",
+      "en": "Taguntungan",
+      "slug": "taguntungan-021506041"
+    },
+    "code": {
+      "id": "021506041",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.917",
+      "lon": "121.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506042",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tallang",
+      "en": "Tallang",
+      "slug": "tallang-021506042"
+    },
+    "code": {
+      "id": "021506042",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.957",
+      "lon": "121.9074"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506044",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taytay",
+      "en": "Taytay",
+      "slug": "taytay-021506044"
+    },
+    "code": {
+      "id": "021506044",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9111",
+      "lon": "121.8731"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506043",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Temblique",
+      "en": "Temblique",
+      "slug": "temblique-021506043"
+    },
+    "code": {
+      "id": "021506043",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.9628",
+      "lon": "121.7706"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021506045",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tungel",
+      "en": "Tungel",
+      "slug": "tungel-021506045"
+    },
+    "code": {
+      "id": "021506045",
+      "iso": null
+    },
+    "parent": {
+      "id": "021506",
+      "level": 3,
+      "name": {
+        "local": "Baggao",
+        "en": "Baggao",
+        "slug": "baggao-021506"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021506",
+        "level": 3,
+        "name": {
+          "local": "Baggao",
+          "en": "Baggao",
+          "slug": "baggao-021506"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3506"
+    ],
+    "geo": {
+      "lat": "17.8865",
+      "lon": "121.8739"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

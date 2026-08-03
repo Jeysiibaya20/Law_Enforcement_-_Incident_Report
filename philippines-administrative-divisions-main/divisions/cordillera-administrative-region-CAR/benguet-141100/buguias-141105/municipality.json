@@ -1,0 +1,56 @@
+{
+  "id": "141105",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Buguias",
+    "en": "Buguias",
+    "slug": "buguias-141105"
+  },
+  "code": {
+    "id": "141105",
+    "iso": null
+  },
+  "parent": {
+    "id": "141100",
+    "level": 2,
+    "name": {
+      "local": "Benguet",
+      "en": "Benguet",
+      "slug": "benguet-141100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "141100",
+      "level": 2,
+      "name": {
+        "local": "Benguet",
+        "en": "Benguet",
+        "slug": "benguet-141100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.72306",
+    "lon": "120.82806"
+  },
+  "metadata": {},
+  "source": {}
+}

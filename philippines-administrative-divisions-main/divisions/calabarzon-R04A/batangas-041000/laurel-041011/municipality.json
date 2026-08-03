@@ -1,0 +1,56 @@
+{
+  "id": "041011",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Laurel",
+    "en": "Laurel",
+    "slug": "laurel-041011"
+  },
+  "code": {
+    "id": "041011",
+    "iso": null
+  },
+  "parent": {
+    "id": "041000",
+    "level": 2,
+    "name": {
+      "local": "Batangas",
+      "en": "Batangas",
+      "slug": "batangas-041000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "041000",
+      "level": 2,
+      "name": {
+        "local": "Batangas",
+        "en": "Batangas",
+        "slug": "batangas-041000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 21
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.05",
+    "lon": "120.9"
+  },
+  "metadata": {},
+  "source": {}
+}

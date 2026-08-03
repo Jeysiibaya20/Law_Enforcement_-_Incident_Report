@@ -1,0 +1,912 @@
+[
+  {
+    "id": "015535003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabacaraan",
+      "en": "Cabacaraan",
+      "slug": "cabacaraan-015535003"
+    },
+    "code": {
+      "id": "015535003",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "16.0526",
+      "lon": "120.6856"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabaritan",
+      "en": "Cabaritan",
+      "slug": "cabaritan-015535004"
+    },
+    "code": {
+      "id": "015535004",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "16.0481",
+      "lon": "120.6522"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Flores",
+      "en": "Flores",
+      "slug": "flores-015535005"
+    },
+    "code": {
+      "id": "015535005",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "16.0663",
+      "lon": "120.6885"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Guiset Norte (Pob.)",
+      "en": "Guiset Norte (Pob.)",
+      "slug": "guiset-norte-pob-015535007"
+    },
+    "code": {
+      "id": "015535007",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "16.0749",
+      "lon": "120.6779"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Guiset Sur (Pob.)",
+      "en": "Guiset Sur (Pob.)",
+      "slug": "guiset-sur-pob-015535008"
+    },
+    "code": {
+      "id": "015535008",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "16.0667",
+      "lon": "120.6833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lapalo",
+      "en": "Lapalo",
+      "slug": "lapalo-015535009"
+    },
+    "code": {
+      "id": "015535009",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "16.0702",
+      "lon": "120.6382"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nagsaag",
+      "en": "Nagsaag",
+      "slug": "nagsaag-015535010"
+    },
+    "code": {
+      "id": "015535010",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "16.0524",
+      "lon": "120.6456"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Narra",
+      "en": "Narra",
+      "slug": "narra-015535011"
+    },
+    "code": {
+      "id": "015535011",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "16.0934",
+      "lon": "120.6907"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio-Arzadon",
+      "en": "San Antonio-Arzadon",
+      "slug": "san-antonio-arzadon-015535001"
+    },
+    "code": {
+      "id": "015535001",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "16.0306",
+      "lon": "120.6909"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Bonifacio",
+      "en": "San Bonifacio",
+      "slug": "san-bonifacio-015535013"
+    },
+    "code": {
+      "id": "015535013",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "16.0988",
+      "lon": "120.6847"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan",
+      "en": "San Juan",
+      "slug": "san-juan-015535014"
+    },
+    "code": {
+      "id": "015535014",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "15.85",
+      "lon": "120.5167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque",
+      "en": "San Roque",
+      "slug": "san-roque-015535015"
+    },
+    "code": {
+      "id": "015535015",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "16.05",
+      "lon": "120.4333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Vicente",
+      "en": "San Vicente",
+      "slug": "san-vicente-015535016"
+    },
+    "code": {
+      "id": "015535016",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "15.9866",
+      "lon": "120.5706"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "015535018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Domingo",
+      "en": "Santo Domingo",
+      "slug": "santo-domingo-015535018"
+    },
+    "code": {
+      "id": "015535018",
+      "iso": null
+    },
+    "parent": {
+      "id": "015535",
+      "level": 3,
+      "name": {
+        "local": "San Manuel",
+        "en": "San Manuel",
+        "slug": "san-manuel-015535"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "015500",
+        "level": 2,
+        "name": {
+          "local": "Pangasinan",
+          "en": "Pangasinan",
+          "slug": "pangasinan-015500"
+        }
+      },
+      {
+        "id": "015535",
+        "level": 3,
+        "name": {
+          "local": "San Manuel",
+          "en": "San Manuel",
+          "slug": "san-manuel-015535"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2438"
+    ],
+    "geo": {
+      "lat": "15.9677",
+      "lon": "120.5672"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

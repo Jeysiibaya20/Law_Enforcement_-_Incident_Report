@@ -1,0 +1,56 @@
+{
+  "id": "150706",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tipo-Tipo",
+    "en": "Tipo-Tipo",
+    "slug": "tipo-tipo-150706"
+  },
+  "code": {
+    "id": "150706",
+    "iso": null
+  },
+  "parent": {
+    "id": "150700",
+    "level": 2,
+    "name": {
+      "local": "Basilan",
+      "en": "Basilan",
+      "slug": "basilan-150700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "150700",
+      "level": 2,
+      "name": {
+        "local": "Basilan",
+        "en": "Basilan",
+        "slug": "basilan-150700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.533",
+    "lon": "122.167"
+  },
+  "metadata": {},
+  "source": {}
+}

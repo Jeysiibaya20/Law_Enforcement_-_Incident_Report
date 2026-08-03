@@ -1,0 +1,56 @@
+{
+  "id": "124710",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "M'Lang",
+    "en": "M'Lang",
+    "slug": "mlang-124710"
+  },
+  "code": {
+    "id": "124710",
+    "iso": null
+  },
+  "parent": {
+    "id": "124700",
+    "level": 2,
+    "name": {
+      "local": "North Cotabato",
+      "en": "North Cotabato",
+      "slug": "north-cotabato-124700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    {
+      "id": "124700",
+      "level": 2,
+      "name": {
+        "local": "North Cotabato",
+        "en": "North Cotabato",
+        "slug": "north-cotabato-124700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 37
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.95",
+    "lon": "124.8833"
+  },
+  "metadata": {},
+  "source": {}
+}

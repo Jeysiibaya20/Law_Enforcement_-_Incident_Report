@@ -1,0 +1,977 @@
+[
+  {
+    "id": "074624001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagawines",
+      "en": "Bagawines",
+      "slug": "bagawines-074624001"
+    },
+    "code": {
+      "id": "074624001",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.333",
+      "lon": "123.317"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bairan",
+      "en": "Bairan",
+      "slug": "bairan-074624002"
+    },
+    "code": {
+      "id": "074624002",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.3667",
+      "lon": "123.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabulihan",
+      "en": "Cabulihan",
+      "slug": "cabulihan-074624005"
+    },
+    "code": {
+      "id": "074624005",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "9.95",
+      "lon": "123.9667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Don Espiridion Villegas",
+      "en": "Don Espiridion Villegas",
+      "slug": "don-espiridion-villegas-074624003"
+    },
+    "code": {
+      "id": "074624003",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.1575",
+      "lon": "123.2378"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Guba",
+      "en": "Guba",
+      "slug": "guba-074624004"
+    },
+    "code": {
+      "id": "074624004",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.3131",
+      "lon": "123.2667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Macapso",
+      "en": "Macapso",
+      "slug": "macapso-074624006"
+    },
+    "code": {
+      "id": "074624006",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.378",
+      "lon": "123.3315"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maglahos",
+      "en": "Maglahos",
+      "slug": "maglahos-074624009"
+    },
+    "code": {
+      "id": "074624009",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.4151",
+      "lon": "123.2826"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malangsa",
+      "en": "Malangsa",
+      "slug": "malangsa-074624007"
+    },
+    "code": {
+      "id": "074624007",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.3167",
+      "lon": "123.2833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Molobolo",
+      "en": "Molobolo",
+      "slug": "molobolo-074624008"
+    },
+    "code": {
+      "id": "074624008",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.2921",
+      "lon": "123.3214"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pinocawan",
+      "en": "Pinocawan",
+      "slug": "pinocawan-074624010"
+    },
+    "code": {
+      "id": "074624010",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.3412",
+      "lon": "123.2939"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-074624011"
+    },
+    "code": {
+      "id": "074624011",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Puan",
+      "en": "Puan",
+      "slug": "puan-074624012"
+    },
+    "code": {
+      "id": "074624012",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.325",
+      "lon": "123.3275"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tabon",
+      "en": "Tabon",
+      "slug": "tabon-074624013"
+    },
+    "code": {
+      "id": "074624013",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.3019",
+      "lon": "123.326"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tagbino",
+      "en": "Tagbino",
+      "slug": "tagbino-074624014"
+    },
+    "code": {
+      "id": "074624014",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.333",
+      "lon": "123.317"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ulay",
+      "en": "Ulay",
+      "slug": "ulay-074624015"
+    },
+    "code": {
+      "id": "074624015",
+      "iso": null
+    },
+    "parent": {
+      "id": "074624",
+      "level": 3,
+      "name": {
+        "local": "Vallehermoso",
+        "en": "Vallehermoso",
+        "slug": "vallehermoso-074624"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      },
+      {
+        "id": "074624",
+        "level": 3,
+        "name": {
+          "local": "Vallehermoso",
+          "en": "Vallehermoso",
+          "slug": "vallehermoso-074624"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6224"
+    ],
+    "geo": {
+      "lat": "10.3652",
+      "lon": "123.3015"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

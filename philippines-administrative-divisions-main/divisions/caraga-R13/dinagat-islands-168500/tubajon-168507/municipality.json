@@ -1,0 +1,56 @@
+{
+  "id": "168507",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tubajon",
+    "en": "Tubajon",
+    "slug": "tubajon-168507"
+  },
+  "code": {
+    "id": "168507",
+    "iso": null
+  },
+  "parent": {
+    "id": "168500",
+    "level": 2,
+    "name": {
+      "local": "Dinagat Islands",
+      "en": "Dinagat Islands",
+      "slug": "dinagat-islands-168500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "168500",
+      "level": 2,
+      "name": {
+        "local": "Dinagat Islands",
+        "en": "Dinagat Islands",
+        "slug": "dinagat-islands-168500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 9
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.3",
+    "lon": "125.567"
+  },
+  "metadata": {},
+  "source": {}
+}

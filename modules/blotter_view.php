@@ -236,8 +236,15 @@ $isPrintMode = isset($_GET['print']) && $_GET['print'] == 1;
             <h6>Description</h6>
             <div class="bg-light" style="margin-top: 8px;">
                 <p style="white-space: pre-wrap; word-wrap: break-word; line-height: 1.6;">
-                    <?= htmlspecialchars($blotter['description']) ?>
+                    <?= htmlspecialchars($blotter['description_english'] ?? $blotter['description']) ?>
                 </p>
+                <?php if (!empty($blotter['description_english']) && ($blotter['description_english'] !== $blotter['description'])): ?>
+                    <small class="text-muted">English translation (<?= htmlspecialchars($blotter['description_language'] ?? 'detected') ?>)</small>
+                    <details style="margin-top: 8px;">
+                        <summary>View original description</summary>
+                        <p style="white-space: pre-wrap; word-wrap: break-word; margin-top: 8px;"><?= htmlspecialchars($blotter['description']) ?></p>
+                    </details>
+                <?php endif; ?>
             </div>
         </div>
 

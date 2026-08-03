@@ -1,0 +1,56 @@
+{
+  "id": "175917",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Santa Maria (Imelda)",
+    "en": "Santa Maria (Imelda)",
+    "slug": "santa-maria-imelda-175917"
+  },
+  "code": {
+    "id": "175917",
+    "iso": null
+  },
+  "parent": {
+    "id": "175900",
+    "level": 2,
+    "name": {
+      "local": "Romblon",
+      "en": "Romblon",
+      "slug": "romblon-175900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175900",
+      "level": 2,
+      "name": {
+        "local": "Romblon",
+        "en": "Romblon",
+        "slug": "romblon-175900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 6
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.617",
+    "lon": "122.95"
+  },
+  "metadata": {},
+  "source": {}
+}

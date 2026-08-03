@@ -1,0 +1,56 @@
+{
+  "id": "045634",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Pitogo",
+    "en": "Pitogo",
+    "slug": "pitogo-045634"
+  },
+  "code": {
+    "id": "045634",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 39
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.45",
+    "lon": "123.317"
+  },
+  "metadata": {},
+  "source": {}
+}

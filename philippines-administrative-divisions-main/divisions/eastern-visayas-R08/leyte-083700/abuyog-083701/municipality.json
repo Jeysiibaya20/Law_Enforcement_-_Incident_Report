@@ -1,0 +1,56 @@
+{
+  "id": "083701",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Abuyog",
+    "en": "Abuyog",
+    "slug": "abuyog-083701"
+  },
+  "code": {
+    "id": "083701",
+    "iso": null
+  },
+  "parent": {
+    "id": "083700",
+    "level": 2,
+    "name": {
+      "local": "Leyte",
+      "en": "Leyte",
+      "slug": "leyte-083700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 63
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.733",
+    "lon": "125.017"
+  },
+  "metadata": {},
+  "source": {}
+}

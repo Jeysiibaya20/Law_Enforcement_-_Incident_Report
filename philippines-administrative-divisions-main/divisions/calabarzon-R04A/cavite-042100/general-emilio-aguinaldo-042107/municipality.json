@@ -1,0 +1,56 @@
+{
+  "id": "042107",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "General Emilio Aguinaldo",
+    "en": "General Emilio Aguinaldo",
+    "slug": "general-emilio-aguinaldo-042107"
+  },
+  "code": {
+    "id": "042107",
+    "iso": null
+  },
+  "parent": {
+    "id": "042100",
+    "level": 2,
+    "name": {
+      "local": "Cavite",
+      "en": "Cavite",
+      "slug": "cavite-042100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "042100",
+      "level": 2,
+      "name": {
+        "local": "Cavite",
+        "en": "Cavite",
+        "slug": "cavite-042100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.183",
+    "lon": "120.8"
+  },
+  "metadata": {},
+  "source": {}
+}

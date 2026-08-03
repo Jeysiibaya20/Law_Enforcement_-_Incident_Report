@@ -1,0 +1,977 @@
+[
+  {
+    "id": "156614013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alu-Kabingaan",
+      "en": "Alu-Kabingaan",
+      "slug": "alu-kabingaan-156614013"
+    },
+    "code": {
+      "id": "156614013",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.717",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Banting",
+      "en": "Banting",
+      "slug": "banting-156614003"
+    },
+    "code": {
+      "id": "156614003",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.5462",
+      "lon": "120.8145"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hawan",
+      "en": "Hawan",
+      "slug": "hawan-156614010"
+    },
+    "code": {
+      "id": "156614010",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "13.5572",
+      "lon": "124.1716"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kalang (Pob.)",
+      "en": "Kalang (Pob.)",
+      "slug": "kalang-pob-156614014"
+    },
+    "code": {
+      "id": "156614014",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.9197",
+      "lon": "121.3631"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kamaunggi",
+      "en": "Kamaunggi",
+      "slug": "kamaunggi-156614016"
+    },
+    "code": {
+      "id": "156614016",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.733",
+      "lon": "120.8846"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kanaway",
+      "en": "Kanaway",
+      "slug": "kanaway-156614018"
+    },
+    "code": {
+      "id": "156614018",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.7058",
+      "lon": "120.9168"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kanmangon",
+      "en": "Kanmangon",
+      "slug": "kanmangon-156614017"
+    },
+    "code": {
+      "id": "156614017",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.717",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kaumpang",
+      "en": "Kaumpang",
+      "slug": "kaumpang-156614019"
+    },
+    "code": {
+      "id": "156614019",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.7571",
+      "lon": "120.9105"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pagatpat",
+      "en": "Pagatpat",
+      "slug": "pagatpat-156614025"
+    },
+    "code": {
+      "id": "156614025",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.5754",
+      "lon": "120.8331"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pangdan",
+      "en": "Pangdan",
+      "slug": "pangdan-156614027"
+    },
+    "code": {
+      "id": "156614027",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "6.2282",
+      "lon": "120.5631"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Puok",
+      "en": "Puok",
+      "slug": "puok-156614028"
+    },
+    "code": {
+      "id": "156614028",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.717",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sayli",
+      "en": "Sayli",
+      "slug": "sayli-156614030"
+    },
+    "code": {
+      "id": "156614030",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.717",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sumambat",
+      "en": "Sumambat",
+      "slug": "sumambat-156614032"
+    },
+    "code": {
+      "id": "156614032",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.75",
+      "lon": "120.9167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tangkapaan",
+      "en": "Tangkapaan",
+      "slug": "tangkapaan-156614033"
+    },
+    "code": {
+      "id": "156614033",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.717",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156614035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tulakan",
+      "en": "Tulakan",
+      "slug": "tulakan-156614035"
+    },
+    "code": {
+      "id": "156614035",
+      "iso": null
+    },
+    "parent": {
+      "id": "156614",
+      "level": 3,
+      "name": {
+        "local": "Tapul",
+        "en": "Tapul",
+        "slug": "tapul-156614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156614",
+        "level": 3,
+        "name": {
+          "local": "Tapul",
+          "en": "Tapul",
+          "slug": "tapul-156614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7410"
+    ],
+    "geo": {
+      "lat": "5.7187",
+      "lon": "120.8838"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

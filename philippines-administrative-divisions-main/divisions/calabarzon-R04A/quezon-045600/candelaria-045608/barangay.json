@@ -1,0 +1,1627 @@
+[
+  {
+    "id": "045608002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buenavista East",
+      "en": "Buenavista East",
+      "slug": "buenavista-east-045608002"
+    },
+    "code": {
+      "id": "045608002",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9131",
+      "lon": "121.3864"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buenavista West",
+      "en": "Buenavista West",
+      "slug": "buenavista-west-045608003"
+    },
+    "code": {
+      "id": "045608003",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9226",
+      "lon": "121.3768"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bukal Norte",
+      "en": "Bukal Norte",
+      "slug": "bukal-norte-045608004"
+    },
+    "code": {
+      "id": "045608004",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9656",
+      "lon": "121.4122"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bukal Sur",
+      "en": "Bukal Sur",
+      "slug": "bukal-sur-045608005"
+    },
+    "code": {
+      "id": "045608005",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9381",
+      "lon": "121.3856"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kinatihan I",
+      "en": "Kinatihan I",
+      "slug": "kinatihan-i-045608006"
+    },
+    "code": {
+      "id": "045608006",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.8917",
+      "lon": "121.3975"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kinatihan II",
+      "en": "Kinatihan II",
+      "slug": "kinatihan-ii-045608007"
+    },
+    "code": {
+      "id": "045608007",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.8744",
+      "lon": "121.4107"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malabanban Norte",
+      "en": "Malabanban Norte",
+      "slug": "malabanban-norte-045608008"
+    },
+    "code": {
+      "id": "045608008",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9452",
+      "lon": "121.4306"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malabanban Sur",
+      "en": "Malabanban Sur",
+      "slug": "malabanban-sur-045608009"
+    },
+    "code": {
+      "id": "045608009",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9316",
+      "lon": "121.4386"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mangilag Norte",
+      "en": "Mangilag Norte",
+      "slug": "mangilag-norte-045608010"
+    },
+    "code": {
+      "id": "045608010",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9467",
+      "lon": "121.4559"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mangilag Sur",
+      "en": "Mangilag Sur",
+      "slug": "mangilag-sur-045608011"
+    },
+    "code": {
+      "id": "045608011",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9328",
+      "lon": "121.4492"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Masalukot I",
+      "en": "Masalukot I",
+      "slug": "masalukot-i-045608012"
+    },
+    "code": {
+      "id": "045608012",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9553",
+      "lon": "121.4189"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Masalukot II",
+      "en": "Masalukot II",
+      "slug": "masalukot-ii-045608013"
+    },
+    "code": {
+      "id": "045608013",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9553",
+      "lon": "121.4189"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Masalukot III",
+      "en": "Masalukot III",
+      "slug": "masalukot-iii-045608014"
+    },
+    "code": {
+      "id": "045608014",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.987",
+      "lon": "121.4325"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Masalukot IV",
+      "en": "Masalukot IV",
+      "slug": "masalukot-iv-045608015"
+    },
+    "code": {
+      "id": "045608015",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9553",
+      "lon": "121.4189"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Masalukot V",
+      "en": "Masalukot V",
+      "slug": "masalukot-v-045608026"
+    },
+    "code": {
+      "id": "045608026",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9897",
+      "lon": "121.4581"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Masin Norte",
+      "en": "Masin Norte",
+      "slug": "masin-norte-045608016"
+    },
+    "code": {
+      "id": "045608016",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9203",
+      "lon": "121.3972"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Masin Sur",
+      "en": "Masin Sur",
+      "slug": "masin-sur-045608017"
+    },
+    "code": {
+      "id": "045608017",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9203",
+      "lon": "121.3972"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mayabobo",
+      "en": "Mayabobo",
+      "slug": "mayabobo-045608018"
+    },
+    "code": {
+      "id": "045608018",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9578",
+      "lon": "121.4512"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pahinga Norte",
+      "en": "Pahinga Norte",
+      "slug": "pahinga-norte-045608019"
+    },
+    "code": {
+      "id": "045608019",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9179",
+      "lon": "121.4191"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pahinga Sur",
+      "en": "Pahinga Sur",
+      "slug": "pahinga-sur-045608020"
+    },
+    "code": {
+      "id": "045608020",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.9028",
+      "lon": "121.4063"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-045608001"
+    },
+    "code": {
+      "id": "045608001",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Andres",
+      "en": "San Andres",
+      "slug": "san-andres-045608022"
+    },
+    "code": {
+      "id": "045608022",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "14.5739",
+      "lon": "121.0039"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-045608023"
+    },
+    "code": {
+      "id": "045608023",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "14.4685",
+      "lon": "121.0118"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Catalina Norte",
+      "en": "Santa Catalina Norte",
+      "slug": "santa-catalina-norte-045608024"
+    },
+    "code": {
+      "id": "045608024",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.8975",
+      "lon": "121.4213"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045608025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Catalina Sur",
+      "en": "Santa Catalina Sur",
+      "slug": "santa-catalina-sur-045608025"
+    },
+    "code": {
+      "id": "045608025",
+      "iso": null
+    },
+    "parent": {
+      "id": "045608",
+      "level": 3,
+      "name": {
+        "local": "Candelaria",
+        "en": "Candelaria",
+        "slug": "candelaria-045608"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045608",
+        "level": 3,
+        "name": {
+          "local": "Candelaria",
+          "en": "Candelaria",
+          "slug": "candelaria-045608"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4323"
+    ],
+    "geo": {
+      "lat": "13.8738",
+      "lon": "121.431"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

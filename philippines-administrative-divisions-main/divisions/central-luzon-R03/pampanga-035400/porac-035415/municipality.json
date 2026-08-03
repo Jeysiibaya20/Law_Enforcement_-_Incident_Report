@@ -1,0 +1,56 @@
+{
+  "id": "035415",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Porac",
+    "en": "Porac",
+    "slug": "porac-035415"
+  },
+  "code": {
+    "id": "035415",
+    "iso": null
+  },
+  "parent": {
+    "id": "035400",
+    "level": 2,
+    "name": {
+      "local": "Pampanga",
+      "en": "Pampanga",
+      "slug": "pampanga-035400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "035400",
+      "level": 2,
+      "name": {
+        "local": "Pampanga",
+        "en": "Pampanga",
+        "slug": "pampanga-035400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 29
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.07194",
+    "lon": "120.54194"
+  },
+  "metadata": {},
+  "source": {}
+}

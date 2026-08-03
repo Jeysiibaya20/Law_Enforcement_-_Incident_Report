@@ -1,0 +1,56 @@
+{
+  "id": "137607",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Taguig City",
+    "en": "Taguig City",
+    "slug": "taguig-city-137607"
+  },
+  "code": {
+    "id": "137607",
+    "iso": null
+  },
+  "parent": {
+    "id": "130000",
+    "level": 2,
+    "name": {
+      "local": "Kalakhang Maynila",
+      "en": "Metro Manila",
+      "slug": "metro-manila-130000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "NCR",
+      "level": 1,
+      "name": {
+        "local": "National Capital Region",
+        "en": "National Capital Region",
+        "slug": "national-capital-region-NCR"
+      }
+    },
+    {
+      "id": "130000",
+      "level": 2,
+      "name": {
+        "local": "Kalakhang Maynila",
+        "en": "Metro Manila",
+        "slug": "metro-manila-130000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 28
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.3034",
+    "lon": "121.0067"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,847 @@
+[
+  {
+    "id": "175211001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aninuan",
+      "en": "Aninuan",
+      "slug": "aninuan-175211001"
+    },
+    "code": {
+      "id": "175211001",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "13.5",
+      "lon": "120.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175211013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baclayan",
+      "en": "Baclayan",
+      "slug": "baclayan-175211013"
+    },
+    "code": {
+      "id": "175211013",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "7.15",
+      "lon": "124.2167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175211002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balatero",
+      "en": "Balatero",
+      "slug": "balatero-175211002"
+    },
+    "code": {
+      "id": "175211002",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "13.5021",
+      "lon": "120.9244"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175211003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dulangan",
+      "en": "Dulangan",
+      "slug": "dulangan-175211003"
+    },
+    "code": {
+      "id": "175211003",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "13.4685",
+      "lon": "120.9803"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175211004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Palangan",
+      "en": "Palangan",
+      "slug": "palangan-175211004"
+    },
+    "code": {
+      "id": "175211004",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "13.5126",
+      "lon": "120.9712"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175211012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-175211012"
+    },
+    "code": {
+      "id": "175211012",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175211005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sabang",
+      "en": "Sabang",
+      "slug": "sabang-175211005"
+    },
+    "code": {
+      "id": "175211005",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "13.5212",
+      "lon": "120.9819"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175211006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio",
+      "en": "San Antonio",
+      "slug": "san-antonio-175211006"
+    },
+    "code": {
+      "id": "175211006",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "12.525",
+      "lon": "121.4662"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175211007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-175211007"
+    },
+    "code": {
+      "id": "175211007",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "12.5768",
+      "lon": "121.5022"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175211008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-175211008"
+    },
+    "code": {
+      "id": "175211008",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "6.43",
+      "lon": "124.68"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175211009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sinandigan",
+      "en": "Sinandigan",
+      "slug": "sinandigan-175211009"
+    },
+    "code": {
+      "id": "175211009",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "13.5174",
+      "lon": "120.9745"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175211010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tabinay",
+      "en": "Tabinay",
+      "slug": "tabinay-175211010"
+    },
+    "code": {
+      "id": "175211010",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "13.4871",
+      "lon": "120.9566"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175211011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Villaflor",
+      "en": "Villaflor",
+      "slug": "villaflor-175211011"
+    },
+    "code": {
+      "id": "175211011",
+      "iso": null
+    },
+    "parent": {
+      "id": "175211",
+      "level": 3,
+      "name": {
+        "local": "Puerto Galera",
+        "en": "Puerto Galera",
+        "slug": "puerto-galera-175211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175200",
+        "level": 2,
+        "name": {
+          "local": "Oriental Mindoro",
+          "en": "Oriental Mindoro",
+          "slug": "oriental-mindoro-175200"
+        }
+      },
+      {
+        "id": "175211",
+        "level": 3,
+        "name": {
+          "local": "Puerto Galera",
+          "en": "Puerto Galera",
+          "slug": "puerto-galera-175211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5203"
+    ],
+    "geo": {
+      "lat": "9.5673",
+      "lon": "125.7012"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

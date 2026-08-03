@@ -1,0 +1,65 @@
+{
+  "id": "012801001",
+  "level": 4,
+  "level_name": {
+    "local": "Barangay",
+    "en": "Barangay"
+  },
+  "name": {
+    "local": "Adams (Pob.)",
+    "en": "Adams (Pob.)",
+    "slug": "adams-pob-012801001"
+  },
+  "code": {
+    "id": "012801001",
+    "iso": null
+  },
+  "parent": {
+    "id": "012801",
+    "level": 3,
+    "name": {
+      "local": "Adams",
+      "en": "Adams",
+      "slug": "adams-012801"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    },
+    {
+      "id": "012801",
+      "level": 3,
+      "name": {
+        "local": "Adams",
+        "en": "Adams",
+        "slug": "adams-012801"
+      }
+    }
+  ],
+  "children_count": {},
+  "zip_codes": [
+    "2922"
+  ],
+  "geo": {
+    "lat": "18.4614",
+    "lon": "120.9021"
+  },
+  "metadata": {},
+  "source": {}
+}

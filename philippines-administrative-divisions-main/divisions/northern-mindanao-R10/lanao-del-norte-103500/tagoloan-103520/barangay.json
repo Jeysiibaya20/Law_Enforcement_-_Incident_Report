@@ -1,0 +1,457 @@
+[
+  {
+    "id": "103520001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dalamas",
+      "en": "Dalamas",
+      "slug": "dalamas-103520001"
+    },
+    "code": {
+      "id": "103520001",
+      "iso": null
+    },
+    "parent": {
+      "id": "103520",
+      "level": 3,
+      "name": {
+        "local": "Tagoloan",
+        "en": "Tagoloan",
+        "slug": "tagoloan-103520"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103520",
+        "level": 3,
+        "name": {
+          "local": "Tagoloan",
+          "en": "Tagoloan",
+          "slug": "tagoloan-103520"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9001"
+    ],
+    "geo": {
+      "lat": "8.533",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103520002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Darimbang",
+      "en": "Darimbang",
+      "slug": "darimbang-103520002"
+    },
+    "code": {
+      "id": "103520002",
+      "iso": null
+    },
+    "parent": {
+      "id": "103520",
+      "level": 3,
+      "name": {
+        "local": "Tagoloan",
+        "en": "Tagoloan",
+        "slug": "tagoloan-103520"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103520",
+        "level": 3,
+        "name": {
+          "local": "Tagoloan",
+          "en": "Tagoloan",
+          "slug": "tagoloan-103520"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9001"
+    ],
+    "geo": {
+      "lat": "7.8508",
+      "lon": "124.3608"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103520003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dimayon",
+      "en": "Dimayon",
+      "slug": "dimayon-103520003"
+    },
+    "code": {
+      "id": "103520003",
+      "iso": null
+    },
+    "parent": {
+      "id": "103520",
+      "level": 3,
+      "name": {
+        "local": "Tagoloan",
+        "en": "Tagoloan",
+        "slug": "tagoloan-103520"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103520",
+        "level": 3,
+        "name": {
+          "local": "Tagoloan",
+          "en": "Tagoloan",
+          "slug": "tagoloan-103520"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9001"
+    ],
+    "geo": {
+      "lat": "7.9333",
+      "lon": "124.4167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103520004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Inagongan",
+      "en": "Inagongan",
+      "slug": "inagongan-103520004"
+    },
+    "code": {
+      "id": "103520004",
+      "iso": null
+    },
+    "parent": {
+      "id": "103520",
+      "level": 3,
+      "name": {
+        "local": "Tagoloan",
+        "en": "Tagoloan",
+        "slug": "tagoloan-103520"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103520",
+        "level": 3,
+        "name": {
+          "local": "Tagoloan",
+          "en": "Tagoloan",
+          "slug": "tagoloan-103520"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9001"
+    ],
+    "geo": {
+      "lat": "8.533",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103520005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kiazar (Pob.)",
+      "en": "Kiazar (Pob.)",
+      "slug": "kiazar-pob-103520005"
+    },
+    "code": {
+      "id": "103520005",
+      "iso": null
+    },
+    "parent": {
+      "id": "103520",
+      "level": 3,
+      "name": {
+        "local": "Tagoloan",
+        "en": "Tagoloan",
+        "slug": "tagoloan-103520"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103520",
+        "level": 3,
+        "name": {
+          "local": "Tagoloan",
+          "en": "Tagoloan",
+          "slug": "tagoloan-103520"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9001"
+    ],
+    "geo": {
+      "lat": "8.125",
+      "lon": "124.2714"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103520006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malimbato",
+      "en": "Malimbato",
+      "slug": "malimbato-103520006"
+    },
+    "code": {
+      "id": "103520006",
+      "iso": null
+    },
+    "parent": {
+      "id": "103520",
+      "level": 3,
+      "name": {
+        "local": "Tagoloan",
+        "en": "Tagoloan",
+        "slug": "tagoloan-103520"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103520",
+        "level": 3,
+        "name": {
+          "local": "Tagoloan",
+          "en": "Tagoloan",
+          "slug": "tagoloan-103520"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9001"
+    ],
+    "geo": {
+      "lat": "8.533",
+      "lon": "124.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "103520007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panalawan",
+      "en": "Panalawan",
+      "slug": "panalawan-103520007"
+    },
+    "code": {
+      "id": "103520007",
+      "iso": null
+    },
+    "parent": {
+      "id": "103520",
+      "level": 3,
+      "name": {
+        "local": "Tagoloan",
+        "en": "Tagoloan",
+        "slug": "tagoloan-103520"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "103500",
+        "level": 2,
+        "name": {
+          "local": "Lanao del Norte",
+          "en": "Lanao del Norte",
+          "slug": "lanao-del-norte-103500"
+        }
+      },
+      {
+        "id": "103520",
+        "level": 3,
+        "name": {
+          "local": "Tagoloan",
+          "en": "Tagoloan",
+          "slug": "tagoloan-103520"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9001"
+    ],
+    "geo": {
+      "lat": "8.0167",
+      "lon": "124.3667"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

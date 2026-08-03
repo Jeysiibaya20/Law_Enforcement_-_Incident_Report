@@ -1,0 +1,48 @@
+{
+  "id": "012900",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Ilocos Sur",
+    "en": "Ilocos Sur",
+    "slug": "ilocos-sur-012900"
+  },
+  "code": {
+    "id": "012900",
+    "iso": null
+  },
+  "parent": {
+    "id": "R01",
+    "level": 1,
+    "name": {
+      "local": "Ilocos Region",
+      "en": "Ilocos Region",
+      "slug": "ilocos-region-R01"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 34,
+    "barangay": 768
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.945",
+    "lon": "120.604"
+  },
+  "metadata": {},
+  "source": {}
+}

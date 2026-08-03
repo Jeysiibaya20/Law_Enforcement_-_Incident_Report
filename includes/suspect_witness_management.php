@@ -404,8 +404,8 @@ function createWitness($data) {
             $data['witness_type'] ?? 'Direct',
             $data['statement'] ?? null,
             $data['reliability'] ?? 'Medium',
-            $data['available_for_court'] ?? true,
-            $data['protection_needed'] ?? false,
+            intval($data['available_for_court'] ?? 1),
+            intval($data['protection_needed'] ?? 0),
             $data['remarks'] ?? null,
             $data['created_by']
         ]);
@@ -502,8 +502,8 @@ function updateWitness($witness_id, $data, $updated_by) {
             $data['witness_type'] ?? 'Direct',
             $data['statement'] ?? null,
             $data['reliability'] ?? 'Medium',
-            $data['available_for_court'] ?? true,
-            $data['protection_needed'] ?? false,
+            intval($data['available_for_court'] ?? 1),
+            intval($data['protection_needed'] ?? 0),
             $data['remarks'] ?? null,
             $updated_by,
             $witness_id

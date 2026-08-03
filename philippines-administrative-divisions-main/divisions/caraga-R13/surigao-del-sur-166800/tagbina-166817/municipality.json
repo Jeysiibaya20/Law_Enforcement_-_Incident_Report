@@ -1,0 +1,56 @@
+{
+  "id": "166817",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tagbina",
+    "en": "Tagbina",
+    "slug": "tagbina-166817"
+  },
+  "code": {
+    "id": "166817",
+    "iso": null
+  },
+  "parent": {
+    "id": "166800",
+    "level": 2,
+    "name": {
+      "local": "Surigao del Sur",
+      "en": "Surigao del Sur",
+      "slug": "surigao-del-sur-166800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 25
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.45",
+    "lon": "126.167"
+  },
+  "metadata": {},
+  "source": {}
+}

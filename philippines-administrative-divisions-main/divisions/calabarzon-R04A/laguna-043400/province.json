@@ -1,0 +1,48 @@
+{
+  "id": "043400",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Laguna",
+    "en": "Laguna",
+    "slug": "laguna-043400"
+  },
+  "code": {
+    "id": "043400",
+    "iso": null
+  },
+  "parent": {
+    "id": "R04A",
+    "level": 1,
+    "name": {
+      "local": "CALABARZON",
+      "en": "CALABARZON",
+      "slug": "calabarzon-R04A"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 30,
+    "barangay": 681
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.364",
+    "lon": "121.302"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,48 @@
+{
+  "id": "153600",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Lanao del Sur",
+    "en": "Lanao del Sur",
+    "slug": "lanao-del-sur-153600"
+  },
+  "code": {
+    "id": "153600",
+    "iso": null
+  },
+  "parent": {
+    "id": "ARMM",
+    "level": 1,
+    "name": {
+      "local": "Autonomous Region in Muslim Mindanao",
+      "en": "Autonomous Region in Muslim Mindanao",
+      "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 40,
+    "barangay": 1159
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.505",
+    "lon": "123.9808"
+  },
+  "metadata": {},
+  "source": {}
+}

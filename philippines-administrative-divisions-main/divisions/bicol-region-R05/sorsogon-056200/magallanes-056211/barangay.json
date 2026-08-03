@@ -1,0 +1,2212 @@
+[
+  {
+    "id": "056211001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aguada Norte",
+      "en": "Aguada Norte",
+      "slug": "aguada-norte-056211001"
+    },
+    "code": {
+      "id": "056211001",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8167",
+      "lon": "123.8333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aguada Sur",
+      "en": "Aguada Sur",
+      "slug": "aguada-sur-056211002"
+    },
+    "code": {
+      "id": "056211002",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8167",
+      "lon": "123.8333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Anibong",
+      "en": "Anibong",
+      "slug": "anibong-056211003"
+    },
+    "code": {
+      "id": "056211003",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "14.2149",
+      "lon": "121.4662"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bacalon",
+      "en": "Bacalon",
+      "slug": "bacalon-056211004"
+    },
+    "code": {
+      "id": "056211004",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8336",
+      "lon": "123.8747"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bacolod",
+      "en": "Bacolod",
+      "slug": "bacolod-056211005"
+    },
+    "code": {
+      "id": "056211005",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.6931",
+      "lon": "124.0327"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Banacud",
+      "en": "Banacud",
+      "slug": "banacud-056211006"
+    },
+    "code": {
+      "id": "056211006",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.833",
+      "lon": "123.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Behia",
+      "en": "Behia",
+      "slug": "behia-056211008"
+    },
+    "code": {
+      "id": "056211008",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8333",
+      "lon": "123.8333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Biga",
+      "en": "Biga",
+      "slug": "biga-056211007"
+    },
+    "code": {
+      "id": "056211007",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "13.8515",
+      "lon": "121.2299"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binisitahan del Norte",
+      "en": "Binisitahan del Norte",
+      "slug": "binisitahan-del-norte-056211009"
+    },
+    "code": {
+      "id": "056211009",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "7.85",
+      "lon": "123.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binisitahan del Sur",
+      "en": "Binisitahan del Sur",
+      "slug": "binisitahan-del-sur-056211010"
+    },
+    "code": {
+      "id": "056211010",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.833",
+      "lon": "123.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Biton",
+      "en": "Biton",
+      "slug": "biton-056211011"
+    },
+    "code": {
+      "id": "056211011",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.7558",
+      "lon": "123.8478"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulala",
+      "en": "Bulala",
+      "slug": "bulala-056211012"
+    },
+    "code": {
+      "id": "056211012",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "15.4218",
+      "lon": "120.7438"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Busay",
+      "en": "Busay",
+      "slug": "busay-056211013"
+    },
+    "code": {
+      "id": "056211013",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.2189",
+      "lon": "123.811"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caditaan",
+      "en": "Caditaan",
+      "slug": "caditaan-056211014"
+    },
+    "code": {
+      "id": "056211014",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8053",
+      "lon": "123.8492"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cagbolo",
+      "en": "Cagbolo",
+      "slug": "cagbolo-056211015"
+    },
+    "code": {
+      "id": "056211015",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8583",
+      "lon": "123.8608"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cagtalaba",
+      "en": "Cagtalaba",
+      "slug": "cagtalaba-056211016"
+    },
+    "code": {
+      "id": "056211016",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8333",
+      "lon": "123.8333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cawit Extension",
+      "en": "Cawit Extension",
+      "slug": "cawit-extension-056211017"
+    },
+    "code": {
+      "id": "056211017",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.874",
+      "lon": "124.011"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cawit Proper",
+      "en": "Cawit Proper",
+      "slug": "cawit-proper-056211018"
+    },
+    "code": {
+      "id": "056211018",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.874",
+      "lon": "124.011"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ginangra",
+      "en": "Ginangra",
+      "slug": "ginangra-056211019"
+    },
+    "code": {
+      "id": "056211019",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.7758",
+      "lon": "123.86"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hubo",
+      "en": "Hubo",
+      "slug": "hubo-056211020"
+    },
+    "code": {
+      "id": "056211020",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.85",
+      "lon": "123.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Incarizan",
+      "en": "Incarizan",
+      "slug": "incarizan-056211021"
+    },
+    "code": {
+      "id": "056211021",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8425",
+      "lon": "123.8806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lapinig",
+      "en": "Lapinig",
+      "slug": "lapinig-056211022"
+    },
+    "code": {
+      "id": "056211022",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.75",
+      "lon": "123.8833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magsaysay",
+      "en": "Magsaysay",
+      "slug": "magsaysay-056211023"
+    },
+    "code": {
+      "id": "056211023",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.6675",
+      "lon": "123.9311"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malbog",
+      "en": "Malbog",
+      "slug": "malbog-056211024"
+    },
+    "code": {
+      "id": "056211024",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8333",
+      "lon": "123.8333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pantalan",
+      "en": "Pantalan",
+      "slug": "pantalan-056211025"
+    },
+    "code": {
+      "id": "056211025",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.0807",
+      "lon": "124.2227"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pawik",
+      "en": "Pawik",
+      "slug": "pawik-056211026"
+    },
+    "code": {
+      "id": "056211026",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.833",
+      "lon": "123.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pili",
+      "en": "Pili",
+      "slug": "pili-056211027"
+    },
+    "code": {
+      "id": "056211027",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8283",
+      "lon": "123.9111"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-056211028"
+    },
+    "code": {
+      "id": "056211028",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salvacion",
+      "en": "Salvacion",
+      "slug": "salvacion-056211029"
+    },
+    "code": {
+      "id": "056211029",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8333",
+      "lon": "123.8333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Elena",
+      "en": "Santa Elena",
+      "slug": "santa-elena-056211030"
+    },
+    "code": {
+      "id": "056211030",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "14.1797",
+      "lon": "122.3919"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211031",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Siuton",
+      "en": "Siuton",
+      "slug": "siuton-056211031"
+    },
+    "code": {
+      "id": "056211031",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.795",
+      "lon": "123.8733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tagas",
+      "en": "Tagas",
+      "slug": "tagas-056211032"
+    },
+    "code": {
+      "id": "056211032",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8333",
+      "lon": "123.8333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tulatula Norte",
+      "en": "Tulatula Norte",
+      "slug": "tulatula-norte-056211033"
+    },
+    "code": {
+      "id": "056211033",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8333",
+      "lon": "123.8333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "056211034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tulatula Sur",
+      "en": "Tulatula Sur",
+      "slug": "tulatula-sur-056211034"
+    },
+    "code": {
+      "id": "056211034",
+      "iso": null
+    },
+    "parent": {
+      "id": "056211",
+      "level": 3,
+      "name": {
+        "local": "Magallanes",
+        "en": "Magallanes",
+        "slug": "magallanes-056211"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "056200",
+        "level": 2,
+        "name": {
+          "local": "Sorsogon",
+          "en": "Sorsogon",
+          "slug": "sorsogon-056200"
+        }
+      },
+      {
+        "id": "056211",
+        "level": 3,
+        "name": {
+          "local": "Magallanes",
+          "en": "Magallanes",
+          "slug": "magallanes-056211"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4705"
+    ],
+    "geo": {
+      "lat": "12.8333",
+      "lon": "123.8333"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

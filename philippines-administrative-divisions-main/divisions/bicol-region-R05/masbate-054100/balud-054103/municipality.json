@@ -1,0 +1,56 @@
+{
+  "id": "054103",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Balud",
+    "en": "Balud",
+    "slug": "balud-054103"
+  },
+  "code": {
+    "id": "054103",
+    "iso": null
+  },
+  "parent": {
+    "id": "054100",
+    "level": 2,
+    "name": {
+      "local": "Masbate",
+      "en": "Masbate",
+      "slug": "masbate-054100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "054100",
+      "level": 2,
+      "name": {
+        "local": "Masbate",
+        "en": "Masbate",
+        "slug": "masbate-054100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 32
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.033",
+    "lon": "123.2"
+  },
+  "metadata": {},
+  "source": {}
+}

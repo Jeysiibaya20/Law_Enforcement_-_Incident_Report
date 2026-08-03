@@ -1,0 +1,912 @@
+[
+  {
+    "id": "063010001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agba-o",
+      "en": "Agba-o",
+      "slug": "agba-o-063010001"
+    },
+    "code": {
+      "id": "063010001",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "11.162",
+      "lon": "122.5891"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alabidhan",
+      "en": "Alabidhan",
+      "slug": "alabidhan-063010002"
+    },
+    "code": {
+      "id": "063010002",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "11.3354",
+      "lon": "123.0106"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulabog",
+      "en": "Bulabog",
+      "slug": "bulabog-063010003"
+    },
+    "code": {
+      "id": "063010003",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "12.9811",
+      "lon": "123.9067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cairohan",
+      "en": "Cairohan",
+      "slug": "cairohan-063010004"
+    },
+    "code": {
+      "id": "063010004",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "11.1298",
+      "lon": "122.5861"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Guinhulacan",
+      "en": "Guinhulacan",
+      "slug": "guinhulacan-063010005"
+    },
+    "code": {
+      "id": "063010005",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "11.1167",
+      "lon": "122.6167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Inamyungan",
+      "en": "Inamyungan",
+      "slug": "inamyungan-063010006"
+    },
+    "code": {
+      "id": "063010006",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "11.233",
+      "lon": "122.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malitbog Ilawod",
+      "en": "Malitbog Ilawod",
+      "slug": "malitbog-ilawod-063010007"
+    },
+    "code": {
+      "id": "063010007",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "8.5361",
+      "lon": "124.8808"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malitbog Ilaya",
+      "en": "Malitbog Ilaya",
+      "slug": "malitbog-ilaya-063010008"
+    },
+    "code": {
+      "id": "063010008",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "11.1667",
+      "lon": "122.4833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ngingi-an",
+      "en": "Ngingi-an",
+      "slug": "ngingi-an-063010009"
+    },
+    "code": {
+      "id": "063010009",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "11.1167",
+      "lon": "122.6167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-063010010"
+    },
+    "code": {
+      "id": "063010010",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Quinangyana",
+      "en": "Quinangyana",
+      "slug": "quinangyana-063010011"
+    },
+    "code": {
+      "id": "063010011",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "11.233",
+      "lon": "122.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Quinar-Upan",
+      "en": "Quinar-Upan",
+      "slug": "quinar-upan-063010012"
+    },
+    "code": {
+      "id": "063010012",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "11.1333",
+      "lon": "122.6167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tapacon",
+      "en": "Tapacon",
+      "slug": "tapacon-063010013"
+    },
+    "code": {
+      "id": "063010013",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "11.1333",
+      "lon": "122.6167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "063010014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tubod",
+      "en": "Tubod",
+      "slug": "tubod-063010014"
+    },
+    "code": {
+      "id": "063010014",
+      "iso": null
+    },
+    "parent": {
+      "id": "063010",
+      "level": 3,
+      "name": {
+        "local": "Bingawan",
+        "en": "Bingawan",
+        "slug": "bingawan-063010"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "063000",
+        "level": 2,
+        "name": {
+          "local": "Iloilo",
+          "en": "Iloilo",
+          "slug": "iloilo-063000"
+        }
+      },
+      {
+        "id": "063010",
+        "level": 3,
+        "name": {
+          "local": "Bingawan",
+          "en": "Bingawan",
+          "slug": "bingawan-063010"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5041"
+    ],
+    "geo": {
+      "lat": "8.05",
+      "lon": "123.8"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

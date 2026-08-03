@@ -1,0 +1,56 @@
+{
+  "id": "037112",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Narciso",
+    "en": "San Narciso",
+    "slug": "san-narciso-037112"
+  },
+  "code": {
+    "id": "037112",
+    "iso": null
+  },
+  "parent": {
+    "id": "037100",
+    "level": 2,
+    "name": {
+      "local": "Zambales",
+      "en": "Zambales",
+      "slug": "zambales-037100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 17
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.017",
+    "lon": "120.083"
+  },
+  "metadata": {},
+  "source": {}
+}

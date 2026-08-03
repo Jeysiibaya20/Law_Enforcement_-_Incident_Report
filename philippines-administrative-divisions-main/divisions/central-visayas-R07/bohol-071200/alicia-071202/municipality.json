@@ -1,0 +1,56 @@
+{
+  "id": "071202",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Alicia",
+    "en": "Alicia",
+    "slug": "alicia-071202"
+  },
+  "code": {
+    "id": "071202",
+    "iso": null
+  },
+  "parent": {
+    "id": "071200",
+    "level": 2,
+    "name": {
+      "local": "Bohol",
+      "en": "Bohol",
+      "slug": "bohol-071200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 15
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.9",
+    "lon": "124.45"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,48 @@
+{
+  "id": "061900",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Capiz",
+    "en": "Capiz",
+    "slug": "capiz-061900"
+  },
+  "code": {
+    "id": "061900",
+    "iso": null
+  },
+  "parent": {
+    "id": "R06",
+    "level": 1,
+    "name": {
+      "local": "Western Visayas",
+      "en": "Western Visayas",
+      "slug": "western-visayas-R06"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 17,
+    "barangay": 473
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.5026",
+    "lon": "122.707"
+  },
+  "metadata": {},
+  "source": {}
+}

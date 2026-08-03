@@ -1,0 +1,56 @@
+{
+  "id": "012818",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Piddig",
+    "en": "Piddig",
+    "slug": "piddig-012818"
+  },
+  "code": {
+    "id": "012818",
+    "iso": null
+  },
+  "parent": {
+    "id": "012800",
+    "level": 2,
+    "name": {
+      "local": "Ilocos Norte",
+      "en": "Ilocos Norte",
+      "slug": "ilocos-norte-012800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "012800",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Norte",
+        "en": "Ilocos Norte",
+        "slug": "ilocos-norte-012800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 23
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "18.167",
+    "lon": "120.733"
+  },
+  "metadata": {},
+  "source": {}
+}

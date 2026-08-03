@@ -1,0 +1,48 @@
+{
+  "id": "034900",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Nueva Ecija",
+    "en": "Nueva Ecija",
+    "slug": "nueva-ecija-034900"
+  },
+  "code": {
+    "id": "034900",
+    "iso": null
+  },
+  "parent": {
+    "id": "R03",
+    "level": 1,
+    "name": {
+      "local": "Central Luzon",
+      "en": "Central Luzon",
+      "slug": "central-luzon-R03"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 32,
+    "barangay": 849
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.3875",
+    "lon": "121.0165"
+  },
+  "metadata": {},
+  "source": {}
+}

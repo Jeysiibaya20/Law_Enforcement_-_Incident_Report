@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "175301",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Aborlan",
+      "en": "Aborlan",
+      "slug": "aborlan-175301"
+    },
+    "code": {
+      "id": "175301",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.433",
+      "lon": "118.55"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175302",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Agutaya",
+      "en": "Agutaya",
+      "slug": "agutaya-175302"
+    },
+    "code": {
+      "id": "175302",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.15",
+      "lon": "120.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175303",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Araceli",
+      "en": "Araceli",
+      "slug": "araceli-175303"
+    },
+    "code": {
+      "id": "175303",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.333",
+      "lon": "119.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175304",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Balabac",
+      "en": "Balabac",
+      "slug": "balabac-175304"
+    },
+    "code": {
+      "id": "175304",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.983",
+      "lon": "117.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175305",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bataraza",
+      "en": "Bataraza",
+      "slug": "bataraza-175305"
+    },
+    "code": {
+      "id": "175305",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.667",
+      "lon": "117.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175306",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Brooke'S Point",
+      "en": "Brooke'S Point",
+      "slug": "brookes-point-175306"
+    },
+    "code": {
+      "id": "175306",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.7833",
+      "lon": "117.8333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175307",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Busuanga",
+      "en": "Busuanga",
+      "slug": "busuanga-175307"
+    },
+    "code": {
+      "id": "175307",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.167",
+      "lon": "119.95"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175308",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cagayancillo",
+      "en": "Cagayancillo",
+      "slug": "cagayancillo-175308"
+    },
+    "code": {
+      "id": "175308",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.48194",
+      "lon": "121.03611"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175309",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Coron",
+      "en": "Coron",
+      "slug": "coron-175309"
+    },
+    "code": {
+      "id": "175309",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12",
+      "lon": "120.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175322",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Culion",
+      "en": "Culion",
+      "slug": "culion-175322"
+    },
+    "code": {
+      "id": "175322",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.83528",
+      "lon": "119.99333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175310",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cuyo",
+      "en": "Cuyo",
+      "slug": "cuyo-175310"
+    },
+    "code": {
+      "id": "175310",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.85",
+      "lon": "121.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175311",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dumaran",
+      "en": "Dumaran",
+      "slug": "dumaran-175311"
+    },
+    "code": {
+      "id": "175311",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.533",
+      "lon": "119.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175312",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "El Nido (Bacuit)",
+      "en": "El Nido (Bacuit)",
+      "slug": "el-nido-bacuit-175312"
+    },
+    "code": {
+      "id": "175312",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.333",
+      "lon": "119.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175321",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kalayaan",
+      "en": "Kalayaan",
+      "slug": "kalayaan-175321"
+    },
+    "code": {
+      "id": "175321",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 1
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.05",
+      "lon": "114.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175313",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Linapacan",
+      "en": "Linapacan",
+      "slug": "linapacan-175313"
+    },
+    "code": {
+      "id": "175313",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.5",
+      "lon": "119.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175314",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Magsaysay",
+      "en": "Magsaysay",
+      "slug": "magsaysay-175314"
+    },
+    "code": {
+      "id": "175314",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.867",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175315",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Narra",
+      "en": "Narra",
+      "slug": "narra-175315"
+    },
+    "code": {
+      "id": "175315",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.283",
+      "lon": "118.417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175316",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Puerto Princesa City",
+      "en": "Puerto Princesa City",
+      "slug": "puerto-princesa-city-175316"
+    },
+    "code": {
+      "id": "175316",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 66
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.4976",
+      "lon": "120.4556"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175317",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-175317"
+    },
+    "code": {
+      "id": "175317",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.697",
+      "lon": "121.6295"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175323",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Rizal (Marcos)",
+      "en": "Rizal (Marcos)",
+      "slug": "rizal-marcos-175323"
+    },
+    "code": {
+      "id": "175323",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "18.05",
+      "lon": "120.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175318",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Roxas",
+      "en": "Roxas",
+      "slug": "roxas-175318"
+    },
+    "code": {
+      "id": "175318",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.333",
+      "lon": "119.333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175319",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Vicente",
+      "en": "San Vicente",
+      "slug": "san-vicente-175319"
+    },
+    "code": {
+      "id": "175319",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.3315",
+      "lon": "121.0832"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175324",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sofronio Española",
+      "en": "Sofronio Española",
+      "slug": "sofronio-espaola-175324"
+    },
+    "code": {
+      "id": "175324",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 9
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.05",
+      "lon": "118.033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175320",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Taytay",
+      "en": "Taytay",
+      "slug": "taytay-175320"
+    },
+    "code": {
+      "id": "175320",
+      "iso": null
+    },
+    "parent": {
+      "id": "175300",
+      "level": 2,
+      "name": {
+        "local": "Palawan",
+        "en": "Palawan",
+        "slug": "palawan-175300"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175300",
+        "level": 2,
+        "name": {
+          "local": "Palawan",
+          "en": "Palawan",
+          "slug": "palawan-175300"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 31
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.567",
+      "lon": "121.133"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

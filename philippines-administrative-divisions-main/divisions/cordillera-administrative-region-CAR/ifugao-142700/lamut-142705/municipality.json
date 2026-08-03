@@ -1,0 +1,56 @@
+{
+  "id": "142705",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Lamut",
+    "en": "Lamut",
+    "slug": "lamut-142705"
+  },
+  "code": {
+    "id": "142705",
+    "iso": null
+  },
+  "parent": {
+    "id": "142700",
+    "level": 2,
+    "name": {
+      "local": "Ifugao",
+      "en": "Ifugao",
+      "slug": "ifugao-142700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "CAR",
+      "level": 1,
+      "name": {
+        "local": "Cordillera Administrative Region",
+        "en": "Cordillera Administrative Region",
+        "slug": "cordillera-administrative-region-CAR"
+      }
+    },
+    {
+      "id": "142700",
+      "level": 2,
+      "name": {
+        "local": "Ifugao",
+        "en": "Ifugao",
+        "slug": "ifugao-142700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 18
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.65",
+    "lon": "121.225"
+  },
+  "metadata": {},
+  "source": {}
+}

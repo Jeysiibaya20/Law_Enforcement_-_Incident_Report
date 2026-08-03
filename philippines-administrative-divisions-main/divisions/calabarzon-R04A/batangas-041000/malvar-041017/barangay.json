@@ -1,0 +1,977 @@
+[
+  {
+    "id": "041017001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagong Pook",
+      "en": "Bagong Pook",
+      "slug": "bagong-pook-041017001"
+    },
+    "code": {
+      "id": "041017001",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "14.0378",
+      "lon": "121.1789"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bilucao (San Isidro Western)",
+      "en": "Bilucao (San Isidro Western)",
+      "slug": "bilucao-san-isidro-western-041017002"
+    },
+    "code": {
+      "id": "041017002",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "13.8085",
+      "lon": "122.1029"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulihan",
+      "en": "Bulihan",
+      "slug": "bulihan-041017003"
+    },
+    "code": {
+      "id": "041017003",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "13.8981",
+      "lon": "121.2928"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Luta Del Norte",
+      "en": "Luta Del Norte",
+      "slug": "luta-del-norte-041017005"
+    },
+    "code": {
+      "id": "041017005",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "14.0377",
+      "lon": "121.1599"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Luta Del Sur",
+      "en": "Luta Del Sur",
+      "slug": "luta-del-sur-041017006"
+    },
+    "code": {
+      "id": "041017006",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "14.0339",
+      "lon": "121.1608"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-041017008"
+    },
+    "code": {
+      "id": "041017008",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "13.8315",
+      "lon": "121.3966"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Andres",
+      "en": "San Andres",
+      "slug": "san-andres-041017012"
+    },
+    "code": {
+      "id": "041017012",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "13.7828",
+      "lon": "120.9981"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Fernando",
+      "en": "San Fernando",
+      "slug": "san-fernando-041017013"
+    },
+    "code": {
+      "id": "041017013",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "14.0318",
+      "lon": "121.2084"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Gregorio",
+      "en": "San Gregorio",
+      "slug": "san-gregorio-041017004"
+    },
+    "code": {
+      "id": "041017004",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "14.0442",
+      "lon": "121.1241"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro East",
+      "en": "San Isidro East",
+      "slug": "san-isidro-east-041017015"
+    },
+    "code": {
+      "id": "041017015",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "14.04056",
+      "lon": "121.15444"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan",
+      "en": "San Juan",
+      "slug": "san-juan-041017016"
+    },
+    "code": {
+      "id": "041017016",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "13.826",
+      "lon": "121.396"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro I (Eastern)",
+      "en": "San Pedro I (Eastern)",
+      "slug": "san-pedro-i-eastern-041017018"
+    },
+    "code": {
+      "id": "041017018",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "14.04056",
+      "lon": "121.15444"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro II (Western)",
+      "en": "San Pedro II (Western)",
+      "slug": "san-pedro-ii-western-041017017"
+    },
+    "code": {
+      "id": "041017017",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "14.04056",
+      "lon": "121.15444"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pioquinto",
+      "en": "San Pioquinto",
+      "slug": "san-pioquinto-041017019"
+    },
+    "code": {
+      "id": "041017019",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "14.0667",
+      "lon": "121.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041017020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santiago",
+      "en": "Santiago",
+      "slug": "santiago-041017020"
+    },
+    "code": {
+      "id": "041017020",
+      "iso": null
+    },
+    "parent": {
+      "id": "041017",
+      "level": 3,
+      "name": {
+        "local": "Malvar",
+        "en": "Malvar",
+        "slug": "malvar-041017"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041017",
+        "level": 3,
+        "name": {
+          "local": "Malvar",
+          "en": "Malvar",
+          "slug": "malvar-041017"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4233"
+    ],
+    "geo": {
+      "lat": "14.0188",
+      "lon": "121.1653"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

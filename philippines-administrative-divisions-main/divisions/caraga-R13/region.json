@@ -1,0 +1,35 @@
+{
+  "id": "R13",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "Caraga",
+    "en": "Caraga",
+    "slug": "caraga-R13"
+  },
+  "code": {
+    "id": "R13",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 5,
+    "barangay": 1311,
+    "municipality": 73
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.4188",
+    "lon": "125.6235"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/caraga-R13/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "124707",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Makilala",
+    "en": "Makilala",
+    "slug": "makilala-124707"
+  },
+  "code": {
+    "id": "124707",
+    "iso": null
+  },
+  "parent": {
+    "id": "124700",
+    "level": 2,
+    "name": {
+      "local": "North Cotabato",
+      "en": "North Cotabato",
+      "slug": "north-cotabato-124700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    {
+      "id": "124700",
+      "level": 2,
+      "name": {
+        "local": "North Cotabato",
+        "en": "North Cotabato",
+        "slug": "north-cotabato-124700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 38
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.967",
+    "lon": "125.083"
+  },
+  "metadata": {},
+  "source": {}
+}

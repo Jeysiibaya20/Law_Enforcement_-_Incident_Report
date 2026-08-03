@@ -1,0 +1,847 @@
+[
+  {
+    "id": "023129001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Camarag",
+      "en": "Camarag",
+      "slug": "camarag-023129001"
+    },
+    "code": {
+      "id": "023129001",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "16.7345",
+      "lon": "121.6466"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cebu",
+      "en": "Cebu",
+      "slug": "cebu-023129002"
+    },
+    "code": {
+      "id": "023129002",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "16.7519",
+      "lon": "121.5961"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gomez",
+      "en": "Gomez",
+      "slug": "gomez-023129003"
+    },
+    "code": {
+      "id": "023129003",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "16.7359",
+      "lon": "121.6391"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gud",
+      "en": "Gud",
+      "slug": "gud-023129004"
+    },
+    "code": {
+      "id": "023129004",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "16.7641",
+      "lon": "121.6184"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nagbukel",
+      "en": "Nagbukel",
+      "slug": "nagbukel-023129005"
+    },
+    "code": {
+      "id": "023129005",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "16.7689",
+      "lon": "121.6376"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patanad",
+      "en": "Patanad",
+      "slug": "patanad-023129006"
+    },
+    "code": {
+      "id": "023129006",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "16.7404",
+      "lon": "121.6564"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-023129007"
+    },
+    "code": {
+      "id": "023129007",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "17.3119",
+      "lon": "121.605"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ramos East",
+      "en": "Ramos East",
+      "slug": "ramos-east-023129009"
+    },
+    "code": {
+      "id": "023129009",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "16.6965",
+      "lon": "121.6248"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ramos West",
+      "en": "Ramos West",
+      "slug": "ramos-west-023129010"
+    },
+    "code": {
+      "id": "023129010",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "16.6984",
+      "lon": "121.6136"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rizal East (Pob.)",
+      "en": "Rizal East (Pob.)",
+      "slug": "rizal-east-pob-023129012"
+    },
+    "code": {
+      "id": "023129012",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "16.7346",
+      "lon": "121.6267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rizal West (Pob.)",
+      "en": "Rizal West (Pob.)",
+      "slug": "rizal-west-pob-023129013"
+    },
+    "code": {
+      "id": "023129013",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "16.734",
+      "lon": "121.6222"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Victoria",
+      "en": "Victoria",
+      "slug": "victoria-023129014"
+    },
+    "code": {
+      "id": "023129014",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "16.8581",
+      "lon": "121.6115"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023129015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Villaflor",
+      "en": "Villaflor",
+      "slug": "villaflor-023129015"
+    },
+    "code": {
+      "id": "023129015",
+      "iso": null
+    },
+    "parent": {
+      "id": "023129",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-023129"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023129",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-023129"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3310"
+    ],
+    "geo": {
+      "lat": "16.7548",
+      "lon": "121.658"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

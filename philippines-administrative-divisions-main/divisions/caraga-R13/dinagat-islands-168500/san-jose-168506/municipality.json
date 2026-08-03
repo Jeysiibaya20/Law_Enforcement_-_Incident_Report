@@ -1,0 +1,56 @@
+{
+  "id": "168506",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Jose",
+    "en": "San Jose",
+    "slug": "san-jose-168506"
+  },
+  "code": {
+    "id": "168506",
+    "iso": null
+  },
+  "parent": {
+    "id": "168500",
+    "level": 2,
+    "name": {
+      "local": "Dinagat Islands",
+      "en": "Dinagat Islands",
+      "slug": "dinagat-islands-168500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "168500",
+      "level": 2,
+      "name": {
+        "local": "Dinagat Islands",
+        "en": "Dinagat Islands",
+        "slug": "dinagat-islands-168500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 12
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.2101",
+    "lon": "123.4706"
+  },
+  "metadata": {},
+  "source": {}
+}

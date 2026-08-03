@@ -20,7 +20,11 @@ try {
     $stmt->execute([$_SESSION['user_id']]);
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
     
-    if (!$user || strtolower($user['role']) !== 'admin') {
+    // Accept role values that contain the word 'admin' (e.g. 'Admin', 'Administrator')
+    $dbRole = strtolower(trim($user['role'] ?? ''));
+    $sessionRole = strtolower(trim($_SESSION['role'] ?? ''));
+
+    if (!$user || (stripos($dbRole, 'admin') === false && stripos($sessionRole, 'admin') === false)) {
         // Not an admin, redirect to regular dashboard
         $_SESSION['flash'] = ['type' => 'danger', 'message' => 'You do not have permission to access the admin panel.'];
         header('Location: ../landing.php');

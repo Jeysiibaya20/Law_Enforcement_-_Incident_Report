@@ -1,0 +1,56 @@
+{
+  "id": "012915",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Quirino (Angkaki)",
+    "en": "Quirino (Angkaki)",
+    "slug": "quirino-angkaki-012915"
+  },
+  "code": {
+    "id": "012915",
+    "iso": null
+  },
+  "parent": {
+    "id": "012900",
+    "level": 2,
+    "name": {
+      "local": "Ilocos Sur",
+      "en": "Ilocos Sur",
+      "slug": "ilocos-sur-012900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 9
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.15",
+    "lon": "120.667"
+  },
+  "metadata": {},
+  "source": {}
+}

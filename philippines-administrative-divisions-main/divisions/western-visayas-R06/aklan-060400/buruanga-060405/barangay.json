@@ -1,0 +1,977 @@
+[
+  {
+    "id": "060405001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alegria",
+      "en": "Alegria",
+      "slug": "alegria-060405001"
+    },
+    "code": {
+      "id": "060405001",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "11.8513",
+      "lon": "121.8886"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagongbayan",
+      "en": "Bagongbayan",
+      "slug": "bagongbayan-060405002"
+    },
+    "code": {
+      "id": "060405002",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "14.2694",
+      "lon": "121.3967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balusbos",
+      "en": "Balusbos",
+      "slug": "balusbos-060405003"
+    },
+    "code": {
+      "id": "060405003",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "11.85",
+      "lon": "121.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bel-is",
+      "en": "Bel-is",
+      "slug": "bel-is-060405004"
+    },
+    "code": {
+      "id": "060405004",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "11.85",
+      "lon": "121.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabugan",
+      "en": "Cabugan",
+      "slug": "cabugan-060405005"
+    },
+    "code": {
+      "id": "060405005",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "9.6833",
+      "lon": "123.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "El Progreso",
+      "en": "El Progreso",
+      "slug": "el-progreso-060405006"
+    },
+    "code": {
+      "id": "060405006",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "9.8745",
+      "lon": "124.2463"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Habana",
+      "en": "Habana",
+      "slug": "habana-060405007"
+    },
+    "code": {
+      "id": "060405007",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "11.876",
+      "lon": "122.0232"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Katipunan",
+      "en": "Katipunan",
+      "slug": "katipunan-060405008"
+    },
+    "code": {
+      "id": "060405008",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "8.5134",
+      "lon": "123.2847"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mayapay",
+      "en": "Mayapay",
+      "slug": "mayapay-060405009"
+    },
+    "code": {
+      "id": "060405009",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "11.85",
+      "lon": "121.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nazareth",
+      "en": "Nazareth",
+      "slug": "nazareth-060405010"
+    },
+    "code": {
+      "id": "060405010",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "15.3926",
+      "lon": "121.0879"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panilongan",
+      "en": "Panilongan",
+      "slug": "panilongan-060405011"
+    },
+    "code": {
+      "id": "060405011",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "11.85",
+      "lon": "121.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-060405012"
+    },
+    "code": {
+      "id": "060405012",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santander",
+      "en": "Santander",
+      "slug": "santander-060405013"
+    },
+    "code": {
+      "id": "060405013",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "11.7856",
+      "lon": "121.8655"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tag-osip",
+      "en": "Tag-osip",
+      "slug": "tag-osip-060405014"
+    },
+    "code": {
+      "id": "060405014",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "11.8453",
+      "lon": "121.912"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "060405015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tigum",
+      "en": "Tigum",
+      "slug": "tigum-060405015"
+    },
+    "code": {
+      "id": "060405015",
+      "iso": null
+    },
+    "parent": {
+      "id": "060405",
+      "level": 3,
+      "name": {
+        "local": "Buruanga",
+        "en": "Buruanga",
+        "slug": "buruanga-060405"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "060400",
+        "level": 2,
+        "name": {
+          "local": "Aklan",
+          "en": "Aklan",
+          "slug": "aklan-060400"
+        }
+      },
+      {
+        "id": "060405",
+        "level": 3,
+        "name": {
+          "local": "Buruanga",
+          "en": "Buruanga",
+          "slug": "buruanga-060405"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5609"
+    ],
+    "geo": {
+      "lat": "11.8169",
+      "lon": "121.8855"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

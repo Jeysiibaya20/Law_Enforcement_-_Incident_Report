@@ -33,6 +33,7 @@ if ($userId && strtolower($_SESSION['role'] ?? '') !== 'admin' && !$userApproved
 
 require_once __DIR__ . '/helpers.php';
 require_once __DIR__ . '/../includes/attachment_manager.php';
+require_once __DIR__ . '/DescriptionTranslationService.php';
 
 $page_title = 'Create Blotter';
 $base_url = '../';
@@ -98,6 +99,24 @@ $defaultComplainantName = '';
 $defaultComplainantContact = '';
 $defaultComplainantEmail = '';
 $defaultComplainantAddress = '';
+
+function ensureBlotterTranslationColumns(PDO $pdo): void
+{
+    $columns = [
+        'description_english' => 'TEXT NULL AFTER description',
+        'description_language' => 'VARCHAR(10) NULL AFTER description_english',
+        'description_translation_provider' => 'VARCHAR(30) NULL AFTER description_language',
+    ];
+
+    foreach ($columns as $column => $definition) {
+        $check = $pdo->prepare("SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'blotters' AND COLUMN_NAME = ?");
+        $check->execute([$column]);
+        if ((int)$check->fetchColumn() === 0) {
+            $pdo->exec("ALTER TABLE blotters ADD COLUMN {$column} {$definition}");
+        }
+    }
+}
+
 if ($userRole !== 'admin') {
     $defaultComplainantName = trim($_SESSION['fullname'] ?? '');
     $defaultComplainantEmail = trim($_SESSION['email'] ?? '');
@@ -150,6 +169,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $incident_time = $_POST['incident_time'] ?? null;
     $location = trim($_POST['location'] ?? '');
     $description = trim($_POST['description'] ?? '');
+    $descriptionEnglish = $description;
+    $descriptionLanguage = 'en';
+    $descriptionTranslationProvider = 'none';
     
     // Auto-determine priority based on incident type
     $priority = getPriorityByIncidentType($incident_type);
@@ -173,8 +195,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = 'Incident date and time are required.';
     } else {
         try {
+            ensureBlotterTranslationColumns($pdo);
+            $translation = (new DescriptionTranslationService($env ?? []))->translateToEnglish($description);
+            $descriptionEnglish = $translation['translation'];
+            $descriptionLanguage = $translation['language'];
+            $descriptionTranslationProvider = $translation['provider'];
+
             // Build SQL with created_by, status, and respondent contact fields
-            $sql = "INSERT INTO blotters (blotter_no, complainant_name, complainant_contact, complainant_email, complainant_address, respondent_name, respondent_contact, respondent_email, respondent_address, incident_type, incident_date, incident_time, location, description, priority, status, complainant_signature, created_by";
+            $sql = "INSERT INTO blotters (blotter_no, complainant_name, complainant_contact, complainant_email, complainant_address, respondent_name, respondent_contact, respondent_email, respondent_address, incident_type, incident_date, incident_time, location, description, description_english, description_language, description_translation_provider, priority, status, complainant_signature, created_by";
             $params = [
                 ':blotter_no' => $blotter_no,
                 ':complainant' => $complainant,
@@ -190,6 +218,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ':incident_time' => $incident_time,
                 ':location' => $location,
                 ':description' => $description,
+                ':description_english' => $descriptionEnglish,
+                ':description_language' => $descriptionLanguage,
+                ':description_translation_provider' => $descriptionTranslationProvider,
                 ':priority' => $priority,
                 ':status' => 'Pending',
                 ':complainant_signature' => $complainant_signature,
@@ -201,7 +232,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $params[':officer_id'] = $officer_id;
             }
             
-            $sql .= ") VALUES (:blotter_no, :complainant, :complainant_contact, :complainant_email, :complainant_address, :respondent, :respondent_contact, :respondent_email, :respondent_address, :incident_type, :incident_date, :incident_time, :location, :description, :priority, :status, :complainant_signature, :created_by";
+            $sql .= ") VALUES (:blotter_no, :complainant, :complainant_contact, :complainant_email, :complainant_address, :respondent, :respondent_contact, :respondent_email, :respondent_address, :incident_type, :incident_date, :incident_time, :location, :description, :description_english, :description_language, :description_translation_provider, :priority, :status, :complainant_signature, :created_by";
             if ($officer_id !== null) {
                 $sql .= ", :officer_id";
             }
@@ -397,8 +428,14 @@ require '../includes/navbar.php';
 
                 <div class="col-12">
                     <label class="form-label fw-bold">Description <span class="text-danger">*</span></label>
-                    <textarea name="description" class="form-control" rows="5" placeholder="Detailed account of the incident..." required><?= htmlspecialchars($_POST['description'] ?? '') ?></textarea>
+                    <textarea id="description" name="description" class="form-control" rows="5" placeholder="Detailed account of the incident..." required><?= htmlspecialchars($_POST['description'] ?? '') ?></textarea>
                     <small class="text-muted">Provide a comprehensive narrative of the incident</small>
+                    <small class="d-block text-muted mt-1">HanLP detects the language. English translation is generated online after you type a space or pause.</small>
+                    <div id="description-translation" class="mt-2 p-2 border rounded bg-light" hidden>
+                        <small class="text-muted d-block">English translation (HanLP detected language)</small>
+                        <div id="description-translation-text" style="white-space: pre-wrap;"></div>
+                        <small id="description-translation-status" class="text-muted"></small>
+                    </div>
                 </div>
 
                 <!-- Hidden priority field - automatically detected -->
@@ -476,7 +513,7 @@ require '../includes/navbar.php';
                 <button type="submit" class="btn btn-primary btn-lg">
                     <i class="bi bi-check-circle"></i> Create Blotter
                 </button>
-                <a href="Blotter.php" class="btn btn-secondary btn-lg">
+                <a href="<?= htmlspecialchars($base_url); ?>admin/dashboard.php" class="btn btn-secondary btn-lg">
                     <i class="bi bi-x-circle"></i> Cancel
                 </a>
             </div>
@@ -605,6 +642,61 @@ if (incidentEl) {
 const incidentOtherEl = document.getElementById('incident_type_other');
 if (incidentOtherEl) {
     incidentOtherEl.addEventListener('input', updatePriorityBadge);
+}
+
+const descriptionEl = document.getElementById('description');
+const translationPanel = document.getElementById('description-translation');
+const translationText = document.getElementById('description-translation-text');
+const translationStatus = document.getElementById('description-translation-status');
+let translationTimer = null;
+let translationRequest = 0;
+
+function translateDescription() {
+    if (!descriptionEl || !translationPanel) return;
+    const text = descriptionEl.value.trim();
+    if (!text || text.length < 2) {
+        translationPanel.hidden = true;
+        return;
+    }
+
+    const requestId = ++translationRequest;
+    translationPanel.hidden = false;
+    translationText.textContent = 'Translating online...';
+    translationStatus.textContent = '';
+
+    fetch('translate_description.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({ text })
+    })
+        .then(response => response.json())
+        .then(result => {
+            if (requestId !== translationRequest) return;
+            if (result.error) throw new Error(result.error);
+            translationText.textContent = result.translation || text;
+            translationStatus.textContent = result.translated
+                ? `Detected: ${result.language}. Online provider: ${result.provider}.`
+                : `Detected: ${result.language}.`;
+        })
+        .catch(error => {
+            if (requestId !== translationRequest) return;
+            translationText.textContent = '';
+            translationStatus.textContent = error.message || 'Online translation unavailable.';
+        });
+}
+
+if (descriptionEl) {
+    descriptionEl.addEventListener('input', function() {
+        clearTimeout(translationTimer);
+        translationTimer = setTimeout(translateDescription, 900);
+    });
+    descriptionEl.addEventListener('keyup', function(event) {
+        if (event.key === ' ' || /[.!?]/.test(event.key)) {
+            clearTimeout(translationTimer);
+            translationTimer = setTimeout(translateDescription, 300);
+        }
+    });
+    descriptionEl.addEventListener('blur', translateDescription);
 }
 
     const signatureCanvas = document.getElementById('signature-pad');

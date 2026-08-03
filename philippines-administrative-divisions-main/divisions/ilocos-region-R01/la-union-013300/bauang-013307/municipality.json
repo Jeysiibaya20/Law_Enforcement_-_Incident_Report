@@ -1,0 +1,56 @@
+{
+  "id": "013307",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Bauang",
+    "en": "Bauang",
+    "slug": "bauang-013307"
+  },
+  "code": {
+    "id": "013307",
+    "iso": null
+  },
+  "parent": {
+    "id": "013300",
+    "level": 2,
+    "name": {
+      "local": "La Union",
+      "en": "La Union",
+      "slug": "la-union-013300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "013300",
+      "level": 2,
+      "name": {
+        "local": "La Union",
+        "en": "La Union",
+        "slug": "la-union-013300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 39
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.53083",
+    "lon": "120.33306"
+  },
+  "metadata": {},
+  "source": {}
+}

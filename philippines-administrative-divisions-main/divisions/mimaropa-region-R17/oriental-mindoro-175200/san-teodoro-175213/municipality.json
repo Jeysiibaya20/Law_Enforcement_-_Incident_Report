@@ -1,0 +1,56 @@
+{
+  "id": "175213",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Teodoro",
+    "en": "San Teodoro",
+    "slug": "san-teodoro-175213"
+  },
+  "code": {
+    "id": "175213",
+    "iso": null
+  },
+  "parent": {
+    "id": "175200",
+    "level": 2,
+    "name": {
+      "local": "Oriental Mindoro",
+      "en": "Oriental Mindoro",
+      "slug": "oriental-mindoro-175200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    },
+    {
+      "id": "175200",
+      "level": 2,
+      "name": {
+        "local": "Oriental Mindoro",
+        "en": "Oriental Mindoro",
+        "slug": "oriental-mindoro-175200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 8
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.433",
+    "lon": "121.017"
+  },
+  "metadata": {},
+  "source": {}
+}

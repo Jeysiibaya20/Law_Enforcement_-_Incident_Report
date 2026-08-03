@@ -1,0 +1,56 @@
+{
+  "id": "045805",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Cainta",
+    "en": "Cainta",
+    "slug": "cainta-045805"
+  },
+  "code": {
+    "id": "045805",
+    "iso": null
+  },
+  "parent": {
+    "id": "045800",
+    "level": 2,
+    "name": {
+      "local": "Rizal",
+      "en": "Rizal",
+      "slug": "rizal-045800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045800",
+      "level": 2,
+      "name": {
+        "local": "Rizal",
+        "en": "Rizal",
+        "slug": "rizal-045800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 7
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.567",
+    "lon": "121.117"
+  },
+  "metadata": {},
+  "source": {}
+}

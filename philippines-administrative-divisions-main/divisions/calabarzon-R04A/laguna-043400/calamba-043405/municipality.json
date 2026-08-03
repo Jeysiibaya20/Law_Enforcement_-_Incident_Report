@@ -1,0 +1,56 @@
+{
+  "id": "043405",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Calamba",
+    "en": "Calamba",
+    "slug": "calamba-043405"
+  },
+  "code": {
+    "id": "043405",
+    "iso": null
+  },
+  "parent": {
+    "id": "043400",
+    "level": 2,
+    "name": {
+      "local": "Laguna",
+      "en": "Laguna",
+      "slug": "laguna-043400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "043400",
+      "level": 2,
+      "name": {
+        "local": "Laguna",
+        "en": "Laguna",
+        "slug": "laguna-043400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 54
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.55833",
+    "lon": "123.64167"
+  },
+  "metadata": {},
+  "source": {}
+}

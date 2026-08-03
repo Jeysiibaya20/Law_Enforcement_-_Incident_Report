@@ -1,0 +1,392 @@
+[
+  {
+    "id": "020901005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Chanarian",
+      "en": "Chanarian",
+      "slug": "chanarian-020901005"
+    },
+    "code": {
+      "id": "020901005",
+      "iso": null
+    },
+    "parent": {
+      "id": "020901",
+      "level": 3,
+      "name": {
+        "local": "Basco",
+        "en": "Basco",
+        "slug": "basco-020901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020901",
+        "level": 3,
+        "name": {
+          "local": "Basco",
+          "en": "Basco",
+          "slug": "basco-020901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3900"
+    ],
+    "geo": {
+      "lat": "20.4496778",
+      "lon": "121.9698694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020901002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ihubok I (Kaychanarianan)",
+      "en": "Ihubok I (Kaychanarianan)",
+      "slug": "ihubok-i-kaychanarianan-020901002"
+    },
+    "code": {
+      "id": "020901002",
+      "iso": null
+    },
+    "parent": {
+      "id": "020901",
+      "level": 3,
+      "name": {
+        "local": "Basco",
+        "en": "Basco",
+        "slug": "basco-020901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020901",
+        "level": 3,
+        "name": {
+          "local": "Basco",
+          "en": "Basco",
+          "slug": "basco-020901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3900"
+    ],
+    "geo": {
+      "lat": "20.4496778",
+      "lon": "121.9698694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020901001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ihubok II (Kayvaluganan)",
+      "en": "Ihubok II (Kayvaluganan)",
+      "slug": "ihubok-ii-kayvaluganan-020901001"
+    },
+    "code": {
+      "id": "020901001",
+      "iso": null
+    },
+    "parent": {
+      "id": "020901",
+      "level": 3,
+      "name": {
+        "local": "Basco",
+        "en": "Basco",
+        "slug": "basco-020901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020901",
+        "level": 3,
+        "name": {
+          "local": "Basco",
+          "en": "Basco",
+          "slug": "basco-020901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3900"
+    ],
+    "geo": {
+      "lat": "20.4496778",
+      "lon": "121.9698694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020901006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kayhuvokan",
+      "en": "Kayhuvokan",
+      "slug": "kayhuvokan-020901006"
+    },
+    "code": {
+      "id": "020901006",
+      "iso": null
+    },
+    "parent": {
+      "id": "020901",
+      "level": 3,
+      "name": {
+        "local": "Basco",
+        "en": "Basco",
+        "slug": "basco-020901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020901",
+        "level": 3,
+        "name": {
+          "local": "Basco",
+          "en": "Basco",
+          "slug": "basco-020901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3900"
+    ],
+    "geo": {
+      "lat": "20.4496778",
+      "lon": "121.9698694"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020901003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio",
+      "en": "San Antonio",
+      "slug": "san-antonio-020901003"
+    },
+    "code": {
+      "id": "020901003",
+      "iso": null
+    },
+    "parent": {
+      "id": "020901",
+      "level": 3,
+      "name": {
+        "local": "Basco",
+        "en": "Basco",
+        "slug": "basco-020901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020901",
+        "level": 3,
+        "name": {
+          "local": "Basco",
+          "en": "Basco",
+          "slug": "basco-020901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3900"
+    ],
+    "geo": {
+      "lat": "20.35",
+      "lon": "121.93"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "020901004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Joaquin",
+      "en": "San Joaquin",
+      "slug": "san-joaquin-020901004"
+    },
+    "code": {
+      "id": "020901004",
+      "iso": null
+    },
+    "parent": {
+      "id": "020901",
+      "level": 3,
+      "name": {
+        "local": "Basco",
+        "en": "Basco",
+        "slug": "basco-020901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "020900",
+        "level": 2,
+        "name": {
+          "local": "Batanes",
+          "en": "Batanes",
+          "slug": "batanes-020900"
+        }
+      },
+      {
+        "id": "020901",
+        "level": 3,
+        "name": {
+          "local": "Basco",
+          "en": "Basco",
+          "slug": "basco-020901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3900"
+    ],
+    "geo": {
+      "lat": "20.4425",
+      "lon": "121.9893"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "157008002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Likud Bakkao",
+      "en": "Likud Bakkao",
+      "slug": "likud-bakkao-157008002"
+    },
+    "code": {
+      "id": "157008002",
+      "iso": null
+    },
+    "parent": {
+      "id": "157008",
+      "level": 3,
+      "name": {
+        "local": "Turtle Islands",
+        "en": "Turtle Islands",
+        "slug": "turtle-islands-157008"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157008",
+        "level": 3,
+        "name": {
+          "local": "Turtle Islands",
+          "en": "Turtle Islands",
+          "slug": "turtle-islands-157008"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7507"
+    ],
+    "geo": {
+      "lat": "5.7906",
+      "lon": "121.1853"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "157008001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taganak Poblacion",
+      "en": "Taganak Poblacion",
+      "slug": "taganak-poblacion-157008001"
+    },
+    "code": {
+      "id": "157008001",
+      "iso": null
+    },
+    "parent": {
+      "id": "157008",
+      "level": 3,
+      "name": {
+        "local": "Turtle Islands",
+        "en": "Turtle Islands",
+        "slug": "turtle-islands-157008"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "157000",
+        "level": 2,
+        "name": {
+          "local": "Tawi-tawi",
+          "en": "Tawi-tawi",
+          "slug": "tawi-tawi-157000"
+        }
+      },
+      {
+        "id": "157008",
+        "level": 3,
+        "name": {
+          "local": "Turtle Islands",
+          "en": "Turtle Islands",
+          "slug": "turtle-islands-157008"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7507"
+    ],
+    "geo": {
+      "lat": "6.0833",
+      "lon": "118.3167"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

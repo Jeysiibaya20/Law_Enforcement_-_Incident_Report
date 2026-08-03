@@ -1,0 +1,56 @@
+{
+  "id": "015504",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Alcala",
+    "en": "Alcala",
+    "slug": "alcala-015504"
+  },
+  "code": {
+    "id": "015504",
+    "iso": null
+  },
+  "parent": {
+    "id": "015500",
+    "level": 2,
+    "name": {
+      "local": "Pangasinan",
+      "en": "Pangasinan",
+      "slug": "pangasinan-015500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 21
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.84722",
+    "lon": "120.52417"
+  },
+  "metadata": {},
+  "source": {}
+}

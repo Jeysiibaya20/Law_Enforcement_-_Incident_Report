@@ -1,0 +1,48 @@
+{
+  "id": "168500",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Dinagat Islands",
+    "en": "Dinagat Islands",
+    "slug": "dinagat-islands-168500"
+  },
+  "code": {
+    "id": "168500",
+    "iso": null
+  },
+  "parent": {
+    "id": "R13",
+    "level": 1,
+    "name": {
+      "local": "Caraga",
+      "en": "Caraga",
+      "slug": "caraga-R13"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 7,
+    "barangay": 100
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.8405",
+    "lon": "124.0229"
+  },
+  "metadata": {},
+  "source": {}
+}

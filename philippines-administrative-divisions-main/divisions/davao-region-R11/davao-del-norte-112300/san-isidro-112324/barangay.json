@@ -1,0 +1,847 @@
+[
+  {
+    "id": "112324001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dacudao",
+      "en": "Dacudao",
+      "slug": "dacudao-112324001"
+    },
+    "code": {
+      "id": "112324001",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "7.2153",
+      "lon": "125.4714"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112324002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Datu Balong",
+      "en": "Datu Balong",
+      "slug": "datu-balong-112324002"
+    },
+    "code": {
+      "id": "112324002",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "12.2228",
+      "lon": "121.0683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112324003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Igangon",
+      "en": "Igangon",
+      "slug": "igangon-112324003"
+    },
+    "code": {
+      "id": "112324003",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "9.933",
+      "lon": "126.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112324004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kipalili",
+      "en": "Kipalili",
+      "slug": "kipalili-112324004"
+    },
+    "code": {
+      "id": "112324004",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "9.933",
+      "lon": "126.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112324005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Libuton",
+      "en": "Libuton",
+      "slug": "libuton-112324005"
+    },
+    "code": {
+      "id": "112324005",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "8.5022",
+      "lon": "123.0859"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112324006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Linao",
+      "en": "Linao",
+      "slug": "linao-112324006"
+    },
+    "code": {
+      "id": "112324006",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "6.0294",
+      "lon": "124.5125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112324007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mamangan",
+      "en": "Mamangan",
+      "slug": "mamangan-112324007"
+    },
+    "code": {
+      "id": "112324007",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "9.933",
+      "lon": "126.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112324008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Monte Dujali",
+      "en": "Monte Dujali",
+      "slug": "monte-dujali-112324008"
+    },
+    "code": {
+      "id": "112324008",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "18.0312",
+      "lon": "120.5265"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112324009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pinamuno",
+      "en": "Pinamuno",
+      "slug": "pinamuno-112324009"
+    },
+    "code": {
+      "id": "112324009",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "9.933",
+      "lon": "126.083"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112324010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sabangan",
+      "en": "Sabangan",
+      "slug": "sabangan-112324010"
+    },
+    "code": {
+      "id": "112324010",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "17.0044",
+      "lon": "120.9233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112324011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-112324011"
+    },
+    "code": {
+      "id": "112324011",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "7.485",
+      "lon": "125.6764"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112324012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-112324012"
+    },
+    "code": {
+      "id": "112324012",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "7.3278",
+      "lon": "125.7053"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "112324013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sawata",
+      "en": "Sawata",
+      "slug": "sawata-112324013"
+    },
+    "code": {
+      "id": "112324013",
+      "iso": null
+    },
+    "parent": {
+      "id": "112324",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-112324"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R11",
+        "level": 1,
+        "name": {
+          "local": "Davao Region",
+          "en": "Davao Region",
+          "slug": "davao-region-R11"
+        }
+      },
+      {
+        "id": "112300",
+        "level": 2,
+        "name": {
+          "local": "Davao del Norte",
+          "en": "Davao del Norte",
+          "slug": "davao-del-norte-112300"
+        }
+      },
+      {
+        "id": "112324",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-112324"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8111"
+    ],
+    "geo": {
+      "lat": "9.933",
+      "lon": "126.083"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

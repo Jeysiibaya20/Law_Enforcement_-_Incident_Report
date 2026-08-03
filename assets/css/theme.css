@@ -1,0 +1,190 @@
+/* Theme variables for light and dark modes - loaded last to override other styles */
+:root {
+    --bg: #ffffff;
+    --panel: #ffffff; /* solid white for best contrast on light */
+    --text: #f7f8fa; /* very dark text */
+    --muted: #097cf0;
+    --primary: #f6f8f8;
+    --accent: #dae7e7;
+    --navbar-bg: #ffffff;
+    --navbar-text: #f5f6fa;
+    --link-hover: rgba(255, 255, 255, 0.918);
+    --card-border: rgba(11,17,34,0.06);
+}
+
+[data-theme="dark"] {
+    --bg: #f0f1f3; /* page background */
+    --panel: #e7eaec; /* panel/card background */
+    --text: #e6eef8; /* primary readable text */
+    --muted: #9aa6b2;
+    --primary: #feffff;
+    --accent: #ffffff;
+    --navbar-bg: #e8e9eb;
+    --navbar-text: #e6eef8;
+    --link-hover: rgba(243, 241, 241, 0.959);
+    --card-border: rgba(235, 227, 227, 0.911);
+}
+
+/* Apply core variables */
+html, body {
+    background: var(--bg) !important;
+    color: var(--text) !important;
+}
+
+.card, .login-card, .overview-card, .module-card, .alert, .main-content, .content-container {
+    background: var(--panel) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--card-border) !important;
+}
+
+/* Links and navbar */
+a, a:link, a:visited {
+    color: var(--primary) !important;
+}
+
+.alertara-navbar {
+    background: var(--navbar-bg) !important;
+    color: var(--navbar-text) !important;
+    border-right: 1px solid var(--card-border);
+}
+
+.alertara-link, .alertara-link .link-text, .alertara-link .link-icon {
+    color: #000000 !important;
+}
+
+.alertara-link:hover, .alertara-link.active {
+    background: #154977 !important;
+    color: #495057 !important;
+}
+/* Buttons and interactive controls */
+.btn, button, .login-btn {
+    color: #fff !important;
+}
+
+.btn-primary, .login-btn {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    color: #ffffff !important;
+}
+
+/* Inputs and form elements */
+input, textarea, select {
+    background: var(--panel) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--card-border) !important;
+}
+
+/* Alerts */
+.alert {
+    background: var(--panel) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--card-border) !important;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .35rem .5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--navbar-text) !important;
+    background: transparent !important;
+    border: 1px solid var(--card-border) !important;
+}
+
+.theme-toggle .icon {
+    font-size: 1.05rem;
+}
+
+/* Smooth transitions */
+html, body, .card, .navbar, .alertara-navbar, .alertara-menu, .alertara-footer {
+    transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+}
+
+/* Ensure high contrast for small text in lists and badges */
+.badge, .user-role, .user-name, .link-text { font-weight: 600; }
+
+/* Fallback helpers to override older styles that may set low-contrast colors */
+*[style*="color:"] {
+    color: inherit !important;
+}
+/* Theme variables for light and dark modes - loaded last to override other styles */
+:root {
+    --bg: #ffffff;
+    --panel: #f8fafc;
+    --text: #1c2541;
+    --muted: #6c757d;
+    --primary: #0f766e;
+    --accent: #2bae8d;
+    --navbar-bg: #ffffff;
+    --navbar-text: #1c2541;
+    --link-hover: rgba(0,0,0,0.06);
+}
+
+[data-theme="dark"] {
+    --bg: #0b1220;
+    --panel: #0f1724;
+    --text: #e6eef8;
+    --muted: #9aa6b2;
+    --primary: #2dd4bf;
+    --accent: #06b6d4;
+    --navbar-bg: #071022;
+    --navbar-text: #e6eef8;
+    --link-hover: rgba(255,255,255,0.03);
+}
+
+/* Apply core variables */
+body {
+    background: var(--bg) !important;
+    color: var(--text) !important;
+}
+
+.card, .login-card, .overview-card, .module-card, .alert, .main-content, .content-container {
+    background: var(--panel) !important;
+    color: var(--text) !important;
+}
+
+a, .link-text, .alertara-link .link-text {
+    color: var(--navbar-text) !important;
+}
+
+.alertara-navbar {
+    background: linear-gradient(180deg, var(--navbar-bg), var(--panel));
+    color: var(--navbar-text);
+}
+
+.alertara-link {
+    color: var(--navbar-text);
+}
+
+.alertara-link:hover, .alertara-link.active {
+    background: #ffffff !important;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .35rem .5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--navbar-text);
+    background: transparent;
+    border: 1px solid rgba(0,0,0,0.04);
+}
+
+[data-theme="dark"] .theme-toggle {
+    border-color: rgba(255,255,255,0.06);
+}
+
+.theme-toggle .icon {
+    font-size: 1.05rem;
+}
+
+/* High specificity helpers to override legacy CSS if needed */
+body, .card, .navbar, .alertara-navbar, .alertara-menu, .alertara-footer {
+    transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+}

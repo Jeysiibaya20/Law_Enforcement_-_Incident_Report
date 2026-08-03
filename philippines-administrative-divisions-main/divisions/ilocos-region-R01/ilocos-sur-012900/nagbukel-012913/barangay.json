@@ -1,0 +1,782 @@
+[
+  {
+    "id": "012913001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balaweg",
+      "en": "Balaweg",
+      "slug": "balaweg-012913001"
+    },
+    "code": {
+      "id": "012913001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012913",
+      "level": 3,
+      "name": {
+        "local": "Nagbukel",
+        "en": "Nagbukel",
+        "slug": "nagbukel-012913"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012913",
+        "level": 3,
+        "name": {
+          "local": "Nagbukel",
+          "en": "Nagbukel",
+          "slug": "nagbukel-012913"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2725"
+    ],
+    "geo": {
+      "lat": "17.45",
+      "lon": "120.5333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012913002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bandril",
+      "en": "Bandril",
+      "slug": "bandril-012913002"
+    },
+    "code": {
+      "id": "012913002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012913",
+      "level": 3,
+      "name": {
+        "local": "Nagbukel",
+        "en": "Nagbukel",
+        "slug": "nagbukel-012913"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012913",
+        "level": 3,
+        "name": {
+          "local": "Nagbukel",
+          "en": "Nagbukel",
+          "slug": "nagbukel-012913"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2725"
+    ],
+    "geo": {
+      "lat": "17.428",
+      "lon": "120.5623"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012913003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bantugo",
+      "en": "Bantugo",
+      "slug": "bantugo-012913003"
+    },
+    "code": {
+      "id": "012913003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012913",
+      "level": 3,
+      "name": {
+        "local": "Nagbukel",
+        "en": "Nagbukel",
+        "slug": "nagbukel-012913"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012913",
+        "level": 3,
+        "name": {
+          "local": "Nagbukel",
+          "en": "Nagbukel",
+          "slug": "nagbukel-012913"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2725"
+    ],
+    "geo": {
+      "lat": "17.4341",
+      "lon": "120.5141"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012913004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cadacad",
+      "en": "Cadacad",
+      "slug": "cadacad-012913004"
+    },
+    "code": {
+      "id": "012913004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012913",
+      "level": 3,
+      "name": {
+        "local": "Nagbukel",
+        "en": "Nagbukel",
+        "slug": "nagbukel-012913"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012913",
+        "level": 3,
+        "name": {
+          "local": "Nagbukel",
+          "en": "Nagbukel",
+          "slug": "nagbukel-012913"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2725"
+    ],
+    "geo": {
+      "lat": "17.4167",
+      "lon": "120.4833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012913005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Casilagan",
+      "en": "Casilagan",
+      "slug": "casilagan-012913005"
+    },
+    "code": {
+      "id": "012913005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012913",
+      "level": 3,
+      "name": {
+        "local": "Nagbukel",
+        "en": "Nagbukel",
+        "slug": "nagbukel-012913"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012913",
+        "level": 3,
+        "name": {
+          "local": "Nagbukel",
+          "en": "Nagbukel",
+          "slug": "nagbukel-012913"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2725"
+    ],
+    "geo": {
+      "lat": "17.2391",
+      "lon": "120.4681"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012913006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Casocos",
+      "en": "Casocos",
+      "slug": "casocos-012913006"
+    },
+    "code": {
+      "id": "012913006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012913",
+      "level": 3,
+      "name": {
+        "local": "Nagbukel",
+        "en": "Nagbukel",
+        "slug": "nagbukel-012913"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012913",
+        "level": 3,
+        "name": {
+          "local": "Nagbukel",
+          "en": "Nagbukel",
+          "slug": "nagbukel-012913"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2725"
+    ],
+    "geo": {
+      "lat": "17.45",
+      "lon": "120.55"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012913007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lapting",
+      "en": "Lapting",
+      "slug": "lapting-012913007"
+    },
+    "code": {
+      "id": "012913007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012913",
+      "level": 3,
+      "name": {
+        "local": "Nagbukel",
+        "en": "Nagbukel",
+        "slug": "nagbukel-012913"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012913",
+        "level": 3,
+        "name": {
+          "local": "Nagbukel",
+          "en": "Nagbukel",
+          "slug": "nagbukel-012913"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2725"
+    ],
+    "geo": {
+      "lat": "17.7603",
+      "lon": "120.4629"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012913008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mapisi",
+      "en": "Mapisi",
+      "slug": "mapisi-012913008"
+    },
+    "code": {
+      "id": "012913008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012913",
+      "level": 3,
+      "name": {
+        "local": "Nagbukel",
+        "en": "Nagbukel",
+        "slug": "nagbukel-012913"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012913",
+        "level": 3,
+        "name": {
+          "local": "Nagbukel",
+          "en": "Nagbukel",
+          "slug": "nagbukel-012913"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2725"
+    ],
+    "geo": {
+      "lat": "17.45",
+      "lon": "120.55"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012913009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mission",
+      "en": "Mission",
+      "slug": "mission-012913009"
+    },
+    "code": {
+      "id": "012913009",
+      "iso": null
+    },
+    "parent": {
+      "id": "012913",
+      "level": 3,
+      "name": {
+        "local": "Nagbukel",
+        "en": "Nagbukel",
+        "slug": "nagbukel-012913"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012913",
+        "level": 3,
+        "name": {
+          "local": "Nagbukel",
+          "en": "Nagbukel",
+          "slug": "nagbukel-012913"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2725"
+    ],
+    "geo": {
+      "lat": "17.4333",
+      "lon": "120.5167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012913010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion East",
+      "en": "Poblacion East",
+      "slug": "poblacion-east-012913010"
+    },
+    "code": {
+      "id": "012913010",
+      "iso": null
+    },
+    "parent": {
+      "id": "012913",
+      "level": 3,
+      "name": {
+        "local": "Nagbukel",
+        "en": "Nagbukel",
+        "slug": "nagbukel-012913"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012913",
+        "level": 3,
+        "name": {
+          "local": "Nagbukel",
+          "en": "Nagbukel",
+          "slug": "nagbukel-012913"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2725"
+    ],
+    "geo": {
+      "lat": "15.346",
+      "lon": "121.0522"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012913011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion West",
+      "en": "Poblacion West",
+      "slug": "poblacion-west-012913011"
+    },
+    "code": {
+      "id": "012913011",
+      "iso": null
+    },
+    "parent": {
+      "id": "012913",
+      "level": 3,
+      "name": {
+        "local": "Nagbukel",
+        "en": "Nagbukel",
+        "slug": "nagbukel-012913"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012913",
+        "level": 3,
+        "name": {
+          "local": "Nagbukel",
+          "en": "Nagbukel",
+          "slug": "nagbukel-012913"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2725"
+    ],
+    "geo": {
+      "lat": "9.9437",
+      "lon": "123.3885"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012913012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taleb",
+      "en": "Taleb",
+      "slug": "taleb-012913012"
+    },
+    "code": {
+      "id": "012913012",
+      "iso": null
+    },
+    "parent": {
+      "id": "012913",
+      "level": 3,
+      "name": {
+        "local": "Nagbukel",
+        "en": "Nagbukel",
+        "slug": "nagbukel-012913"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012913",
+        "level": 3,
+        "name": {
+          "local": "Nagbukel",
+          "en": "Nagbukel",
+          "slug": "nagbukel-012913"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2725"
+    ],
+    "geo": {
+      "lat": "17.58",
+      "lon": "120.4441"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

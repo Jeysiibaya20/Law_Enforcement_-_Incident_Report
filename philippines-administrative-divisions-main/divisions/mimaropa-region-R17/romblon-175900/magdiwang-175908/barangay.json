@@ -1,0 +1,587 @@
+[
+  {
+    "id": "175908001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agsao",
+      "en": "Agsao",
+      "slug": "agsao-175908001"
+    },
+    "code": {
+      "id": "175908001",
+      "iso": null
+    },
+    "parent": {
+      "id": "175908",
+      "level": 3,
+      "name": {
+        "local": "Magdiwang",
+        "en": "Magdiwang",
+        "slug": "magdiwang-175908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175908",
+        "level": 3,
+        "name": {
+          "local": "Magdiwang",
+          "en": "Magdiwang",
+          "slug": "magdiwang-175908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5511"
+    ],
+    "geo": {
+      "lat": "12.4805",
+      "lon": "122.4604"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175908002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agutay",
+      "en": "Agutay",
+      "slug": "agutay-175908002"
+    },
+    "code": {
+      "id": "175908002",
+      "iso": null
+    },
+    "parent": {
+      "id": "175908",
+      "level": 3,
+      "name": {
+        "local": "Magdiwang",
+        "en": "Magdiwang",
+        "slug": "magdiwang-175908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175908",
+        "level": 3,
+        "name": {
+          "local": "Magdiwang",
+          "en": "Magdiwang",
+          "slug": "magdiwang-175908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5511"
+    ],
+    "geo": {
+      "lat": "12.4614",
+      "lon": "122.4386"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175908003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ambulong",
+      "en": "Ambulong",
+      "slug": "ambulong-175908003"
+    },
+    "code": {
+      "id": "175908003",
+      "iso": null
+    },
+    "parent": {
+      "id": "175908",
+      "level": 3,
+      "name": {
+        "local": "Magdiwang",
+        "en": "Magdiwang",
+        "slug": "magdiwang-175908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175908",
+        "level": 3,
+        "name": {
+          "local": "Magdiwang",
+          "en": "Magdiwang",
+          "slug": "magdiwang-175908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5511"
+    ],
+    "geo": {
+      "lat": "12.7828",
+      "lon": "122.0557"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175908004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dulangan",
+      "en": "Dulangan",
+      "slug": "dulangan-175908004"
+    },
+    "code": {
+      "id": "175908004",
+      "iso": null
+    },
+    "parent": {
+      "id": "175908",
+      "level": 3,
+      "name": {
+        "local": "Magdiwang",
+        "en": "Magdiwang",
+        "slug": "magdiwang-175908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175908",
+        "level": 3,
+        "name": {
+          "local": "Magdiwang",
+          "en": "Magdiwang",
+          "slug": "magdiwang-175908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5511"
+    ],
+    "geo": {
+      "lat": "12.4572",
+      "lon": "122.4984"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175908005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ipil",
+      "en": "Ipil",
+      "slug": "ipil-175908005"
+    },
+    "code": {
+      "id": "175908005",
+      "iso": null
+    },
+    "parent": {
+      "id": "175908",
+      "level": 3,
+      "name": {
+        "local": "Magdiwang",
+        "en": "Magdiwang",
+        "slug": "magdiwang-175908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175908",
+        "level": 3,
+        "name": {
+          "local": "Magdiwang",
+          "en": "Magdiwang",
+          "slug": "magdiwang-175908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5511"
+    ],
+    "geo": {
+      "lat": "12.4851",
+      "lon": "122.472"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175908006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Jao-asan",
+      "en": "Jao-asan",
+      "slug": "jao-asan-175908006"
+    },
+    "code": {
+      "id": "175908006",
+      "iso": null
+    },
+    "parent": {
+      "id": "175908",
+      "level": 3,
+      "name": {
+        "local": "Magdiwang",
+        "en": "Magdiwang",
+        "slug": "magdiwang-175908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175908",
+        "level": 3,
+        "name": {
+          "local": "Magdiwang",
+          "en": "Magdiwang",
+          "slug": "magdiwang-175908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5511"
+    ],
+    "geo": {
+      "lat": "12.4742",
+      "lon": "122.5032"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175908007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-175908007"
+    },
+    "code": {
+      "id": "175908007",
+      "iso": null
+    },
+    "parent": {
+      "id": "175908",
+      "level": 3,
+      "name": {
+        "local": "Magdiwang",
+        "en": "Magdiwang",
+        "slug": "magdiwang-175908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175908",
+        "level": 3,
+        "name": {
+          "local": "Magdiwang",
+          "en": "Magdiwang",
+          "slug": "magdiwang-175908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5511"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175908008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Silum",
+      "en": "Silum",
+      "slug": "silum-175908008"
+    },
+    "code": {
+      "id": "175908008",
+      "iso": null
+    },
+    "parent": {
+      "id": "175908",
+      "level": 3,
+      "name": {
+        "local": "Magdiwang",
+        "en": "Magdiwang",
+        "slug": "magdiwang-175908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175908",
+        "level": 3,
+        "name": {
+          "local": "Magdiwang",
+          "en": "Magdiwang",
+          "slug": "magdiwang-175908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5511"
+    ],
+    "geo": {
+      "lat": "12.4874",
+      "lon": "122.5955"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175908009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tampayan",
+      "en": "Tampayan",
+      "slug": "tampayan-175908009"
+    },
+    "code": {
+      "id": "175908009",
+      "iso": null
+    },
+    "parent": {
+      "id": "175908",
+      "level": 3,
+      "name": {
+        "local": "Magdiwang",
+        "en": "Magdiwang",
+        "slug": "magdiwang-175908"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175908",
+        "level": 3,
+        "name": {
+          "local": "Magdiwang",
+          "en": "Magdiwang",
+          "slug": "magdiwang-175908"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5511"
+    ],
+    "geo": {
+      "lat": "12.4794",
+      "lon": "122.5231"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "id": "175300",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Palawan",
+    "en": "Palawan",
+    "slug": "palawan-175300"
+  },
+  "code": {
+    "id": "175300",
+    "iso": null
+  },
+  "parent": {
+    "id": "R17",
+    "level": 1,
+    "name": {
+      "local": "MIMAROPA Region",
+      "en": "MIMAROPA Region",
+      "slug": "mimaropa-region-R17"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R17",
+      "level": 1,
+      "name": {
+        "local": "MIMAROPA Region",
+        "en": "MIMAROPA Region",
+        "slug": "mimaropa-region-R17"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 24,
+    "barangay": 433
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.5038",
+    "lon": "120.4645"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "083728",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "La Paz",
+    "en": "La Paz",
+    "slug": "la-paz-083728"
+  },
+  "code": {
+    "id": "083728",
+    "iso": null
+  },
+  "parent": {
+    "id": "083700",
+    "level": 2,
+    "name": {
+      "local": "Leyte",
+      "en": "Leyte",
+      "slug": "leyte-083700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "083700",
+      "level": 2,
+      "name": {
+        "local": "Leyte",
+        "en": "Leyte",
+        "slug": "leyte-083700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 35
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.5833",
+    "lon": "123.1167"
+  },
+  "metadata": {},
+  "source": {}
+}

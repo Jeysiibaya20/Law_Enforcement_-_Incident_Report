@@ -1,0 +1,56 @@
+{
+  "id": "015534",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Jacinto",
+    "en": "San Jacinto",
+    "slug": "san-jacinto-015534"
+  },
+  "code": {
+    "id": "015534",
+    "iso": null
+  },
+  "parent": {
+    "id": "015500",
+    "level": 2,
+    "name": {
+      "local": "Pangasinan",
+      "en": "Pangasinan",
+      "slug": "pangasinan-015500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "015500",
+      "level": 2,
+      "name": {
+        "local": "Pangasinan",
+        "en": "Pangasinan",
+        "slug": "pangasinan-015500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 19
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.0725",
+    "lon": "120.44111"
+  },
+  "metadata": {},
+  "source": {}
+}

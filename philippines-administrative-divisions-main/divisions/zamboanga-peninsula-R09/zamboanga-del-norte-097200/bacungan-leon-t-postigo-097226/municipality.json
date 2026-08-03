@@ -1,0 +1,56 @@
+{
+  "id": "097226",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Bacungan (Leon T. Postigo)",
+    "en": "Bacungan (Leon T. Postigo)",
+    "slug": "bacungan-leon-t-postigo-097226"
+  },
+  "code": {
+    "id": "097226",
+    "iso": null
+  },
+  "parent": {
+    "id": "097200",
+    "level": 2,
+    "name": {
+      "local": "Zamboanga del Norte",
+      "en": "Zamboanga del Norte",
+      "slug": "zamboanga-del-norte-097200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    {
+      "id": "097200",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Norte",
+        "en": "Zamboanga del Norte",
+        "slug": "zamboanga-del-norte-097200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 18
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.083",
+    "lon": "122.933"
+  },
+  "metadata": {},
+  "source": {}
+}

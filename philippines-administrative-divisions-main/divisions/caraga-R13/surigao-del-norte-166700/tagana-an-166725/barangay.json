@@ -1,0 +1,912 @@
+[
+  {
+    "id": "166725001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Aurora (Pob.)",
+      "en": "Aurora (Pob.)",
+      "slug": "aurora-pob-166725001"
+    },
+    "code": {
+      "id": "166725001",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "13.35",
+      "lon": "122.52"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Azucena (Pob.)",
+      "en": "Azucena (Pob.)",
+      "slug": "azucena-pob-166725002"
+    },
+    "code": {
+      "id": "166725002",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "10.1236",
+      "lon": "123.5148"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Banban",
+      "en": "Banban",
+      "slug": "banban-166725003"
+    },
+    "code": {
+      "id": "166725003",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "9.6886",
+      "lon": "125.5931"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cawilan",
+      "en": "Cawilan",
+      "slug": "cawilan-166725004"
+    },
+    "code": {
+      "id": "166725004",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "9.7",
+      "lon": "125.5833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Fabio",
+      "en": "Fabio",
+      "slug": "fabio-166725005"
+    },
+    "code": {
+      "id": "166725005",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "9.7",
+      "lon": "125.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Himamaug",
+      "en": "Himamaug",
+      "slug": "himamaug-166725007"
+    },
+    "code": {
+      "id": "166725007",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "9.7",
+      "lon": "125.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Laurel",
+      "en": "Laurel",
+      "slug": "laurel-166725008"
+    },
+    "code": {
+      "id": "166725008",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "14.05",
+      "lon": "120.9"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lower Libas",
+      "en": "Lower Libas",
+      "slug": "lower-libas-166725009"
+    },
+    "code": {
+      "id": "166725009",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "12.8993",
+      "lon": "121.4572"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Opong",
+      "en": "Opong",
+      "slug": "opong-166725010"
+    },
+    "code": {
+      "id": "166725010",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "9.7097",
+      "lon": "125.6008"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patino",
+      "en": "Patino",
+      "slug": "patino-166725015"
+    },
+    "code": {
+      "id": "166725015",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "9.7",
+      "lon": "125.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sampaguita (Pob.)",
+      "en": "Sampaguita (Pob.)",
+      "slug": "sampaguita-pob-166725011"
+    },
+    "code": {
+      "id": "166725011",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "14.345",
+      "lon": "121.0377"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talavera",
+      "en": "Talavera",
+      "slug": "talavera-166725012"
+    },
+    "code": {
+      "id": "166725012",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "9.7506",
+      "lon": "125.6981"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Union",
+      "en": "Union",
+      "slug": "union-166725013"
+    },
+    "code": {
+      "id": "166725013",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "9.7567",
+      "lon": "126.1103"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166725014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Upper Libas",
+      "en": "Upper Libas",
+      "slug": "upper-libas-166725014"
+    },
+    "code": {
+      "id": "166725014",
+      "iso": null
+    },
+    "parent": {
+      "id": "166725",
+      "level": 3,
+      "name": {
+        "local": "Tagana-An",
+        "en": "Tagana-An",
+        "slug": "tagana-an-166725"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166725",
+        "level": 3,
+        "name": {
+          "local": "Tagana-An",
+          "en": "Tagana-An",
+          "slug": "tagana-an-166725"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8403"
+    ],
+    "geo": {
+      "lat": "9.655",
+      "lon": "125.5432"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

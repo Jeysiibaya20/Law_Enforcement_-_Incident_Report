@@ -1,0 +1,327 @@
+[
+  {
+    "id": "156606012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bangas (Pob.)",
+      "en": "Bangas (Pob.)",
+      "slug": "bangas-pob-156606012"
+    },
+    "code": {
+      "id": "156606012",
+      "iso": null
+    },
+    "parent": {
+      "id": "156606",
+      "level": 3,
+      "name": {
+        "local": "Hadji Panglima Tahil (Marunggas)",
+        "en": "Hadji Panglima Tahil (Marunggas)",
+        "slug": "hadji-panglima-tahil-marunggas-156606"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156606",
+        "level": 3,
+        "name": {
+          "local": "Hadji Panglima Tahil (Marunggas)",
+          "en": "Hadji Panglima Tahil (Marunggas)",
+          "slug": "hadji-panglima-tahil-marunggas-156606"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7413"
+    ],
+    "geo": {
+      "lat": "6.167",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156606002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bubuan",
+      "en": "Bubuan",
+      "slug": "bubuan-156606002"
+    },
+    "code": {
+      "id": "156606002",
+      "iso": null
+    },
+    "parent": {
+      "id": "156606",
+      "level": 3,
+      "name": {
+        "local": "Hadji Panglima Tahil (Marunggas)",
+        "en": "Hadji Panglima Tahil (Marunggas)",
+        "slug": "hadji-panglima-tahil-marunggas-156606"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156606",
+        "level": 3,
+        "name": {
+          "local": "Hadji Panglima Tahil (Marunggas)",
+          "en": "Hadji Panglima Tahil (Marunggas)",
+          "slug": "hadji-panglima-tahil-marunggas-156606"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7413"
+    ],
+    "geo": {
+      "lat": "6.1792",
+      "lon": "120.9699"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156606003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kabuukan",
+      "en": "Kabuukan",
+      "slug": "kabuukan-156606003"
+    },
+    "code": {
+      "id": "156606003",
+      "iso": null
+    },
+    "parent": {
+      "id": "156606",
+      "level": 3,
+      "name": {
+        "local": "Hadji Panglima Tahil (Marunggas)",
+        "en": "Hadji Panglima Tahil (Marunggas)",
+        "slug": "hadji-panglima-tahil-marunggas-156606"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156606",
+        "level": 3,
+        "name": {
+          "local": "Hadji Panglima Tahil (Marunggas)",
+          "en": "Hadji Panglima Tahil (Marunggas)",
+          "slug": "hadji-panglima-tahil-marunggas-156606"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7413"
+    ],
+    "geo": {
+      "lat": "6.167",
+      "lon": "120.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156606008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pag-asinan",
+      "en": "Pag-asinan",
+      "slug": "pag-asinan-156606008"
+    },
+    "code": {
+      "id": "156606008",
+      "iso": null
+    },
+    "parent": {
+      "id": "156606",
+      "level": 3,
+      "name": {
+        "local": "Hadji Panglima Tahil (Marunggas)",
+        "en": "Hadji Panglima Tahil (Marunggas)",
+        "slug": "hadji-panglima-tahil-marunggas-156606"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156606",
+        "level": 3,
+        "name": {
+          "local": "Hadji Panglima Tahil (Marunggas)",
+          "en": "Hadji Panglima Tahil (Marunggas)",
+          "slug": "hadji-panglima-tahil-marunggas-156606"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7413"
+    ],
+    "geo": {
+      "lat": "6.1333",
+      "lon": "120.9833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "156606015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Teomabal",
+      "en": "Teomabal",
+      "slug": "teomabal-156606015"
+    },
+    "code": {
+      "id": "156606015",
+      "iso": null
+    },
+    "parent": {
+      "id": "156606",
+      "level": 3,
+      "name": {
+        "local": "Hadji Panglima Tahil (Marunggas)",
+        "en": "Hadji Panglima Tahil (Marunggas)",
+        "slug": "hadji-panglima-tahil-marunggas-156606"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "ARMM",
+        "level": 1,
+        "name": {
+          "local": "Autonomous Region in Muslim Mindanao",
+          "en": "Autonomous Region in Muslim Mindanao",
+          "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+        }
+      },
+      {
+        "id": "156600",
+        "level": 2,
+        "name": {
+          "local": "Sulu",
+          "en": "Sulu",
+          "slug": "sulu-156600"
+        }
+      },
+      {
+        "id": "156606",
+        "level": 3,
+        "name": {
+          "local": "Hadji Panglima Tahil (Marunggas)",
+          "en": "Hadji Panglima Tahil (Marunggas)",
+          "slug": "hadji-panglima-tahil-marunggas-156606"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "7413"
+    ],
+    "geo": {
+      "lat": "6.3419",
+      "lon": "120.8564"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

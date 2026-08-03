@@ -1,6 +1,14 @@
 <?php
+// Redirect logged-in admins straight to admin area
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 $page_title = 'Alertara PH';
 $base_url = '';
+if (isset($_SESSION['user_id']) && isset($_SESSION['role']) && strtolower(trim($_SESSION['role'])) === 'admin') {
+    header('Location: admin/dashboard.php');
+    exit();
+}
 require_once 'includes/landing_header.php';
 ?>
 

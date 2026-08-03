@@ -1,0 +1,35 @@
+{
+  "id": "NCR",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "National Capital Region",
+    "en": "National Capital Region",
+    "slug": "national-capital-region-NCR"
+  },
+  "code": {
+    "id": "NCR",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 1,
+    "barangay": 1706,
+    "municipality": 17
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.3898",
+    "lon": "121.2427"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/national-capital-region-NCR/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

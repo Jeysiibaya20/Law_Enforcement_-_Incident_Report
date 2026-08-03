@@ -1,0 +1,587 @@
+[
+  {
+    "id": "142711001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Amduntog",
+      "en": "Amduntog",
+      "slug": "amduntog-142711001"
+    },
+    "code": {
+      "id": "142711001",
+      "iso": null
+    },
+    "parent": {
+      "id": "142711",
+      "level": 3,
+      "name": {
+        "local": "Asipulo",
+        "en": "Asipulo",
+        "slug": "asipulo-142711"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      },
+      {
+        "id": "142711",
+        "level": 3,
+        "name": {
+          "local": "Asipulo",
+          "en": "Asipulo",
+          "slug": "asipulo-142711"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3610"
+    ],
+    "geo": {
+      "lat": "16.7286",
+      "lon": "121.0846"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142711002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Antipolo",
+      "en": "Antipolo",
+      "slug": "antipolo-142711002"
+    },
+    "code": {
+      "id": "142711002",
+      "iso": null
+    },
+    "parent": {
+      "id": "142711",
+      "level": 3,
+      "name": {
+        "local": "Asipulo",
+        "en": "Asipulo",
+        "slug": "asipulo-142711"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      },
+      {
+        "id": "142711",
+        "level": 3,
+        "name": {
+          "local": "Asipulo",
+          "en": "Asipulo",
+          "slug": "asipulo-142711"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3610"
+    ],
+    "geo": {
+      "lat": "16.7577",
+      "lon": "121.0882"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142711003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Camandag",
+      "en": "Camandag",
+      "slug": "camandag-142711003"
+    },
+    "code": {
+      "id": "142711003",
+      "iso": null
+    },
+    "parent": {
+      "id": "142711",
+      "level": 3,
+      "name": {
+        "local": "Asipulo",
+        "en": "Asipulo",
+        "slug": "asipulo-142711"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      },
+      {
+        "id": "142711",
+        "level": 3,
+        "name": {
+          "local": "Asipulo",
+          "en": "Asipulo",
+          "slug": "asipulo-142711"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3610"
+    ],
+    "geo": {
+      "lat": "10.3333",
+      "lon": "123.0667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142711004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cawayan",
+      "en": "Cawayan",
+      "slug": "cawayan-142711004"
+    },
+    "code": {
+      "id": "142711004",
+      "iso": null
+    },
+    "parent": {
+      "id": "142711",
+      "level": 3,
+      "name": {
+        "local": "Asipulo",
+        "en": "Asipulo",
+        "slug": "asipulo-142711"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      },
+      {
+        "id": "142711",
+        "level": 3,
+        "name": {
+          "local": "Asipulo",
+          "en": "Asipulo",
+          "slug": "asipulo-142711"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3610"
+    ],
+    "geo": {
+      "lat": "16.6347",
+      "lon": "121.0845"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142711005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Hallap",
+      "en": "Hallap",
+      "slug": "hallap-142711005"
+    },
+    "code": {
+      "id": "142711005",
+      "iso": null
+    },
+    "parent": {
+      "id": "142711",
+      "level": 3,
+      "name": {
+        "local": "Asipulo",
+        "en": "Asipulo",
+        "slug": "asipulo-142711"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      },
+      {
+        "id": "142711",
+        "level": 3,
+        "name": {
+          "local": "Asipulo",
+          "en": "Asipulo",
+          "slug": "asipulo-142711"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3610"
+    ],
+    "geo": {
+      "lat": "16.6",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142711006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Namal",
+      "en": "Namal",
+      "slug": "namal-142711006"
+    },
+    "code": {
+      "id": "142711006",
+      "iso": null
+    },
+    "parent": {
+      "id": "142711",
+      "level": 3,
+      "name": {
+        "local": "Asipulo",
+        "en": "Asipulo",
+        "slug": "asipulo-142711"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      },
+      {
+        "id": "142711",
+        "level": 3,
+        "name": {
+          "local": "Asipulo",
+          "en": "Asipulo",
+          "slug": "asipulo-142711"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3610"
+    ],
+    "geo": {
+      "lat": "16.6",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142711007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nungawa",
+      "en": "Nungawa",
+      "slug": "nungawa-142711007"
+    },
+    "code": {
+      "id": "142711007",
+      "iso": null
+    },
+    "parent": {
+      "id": "142711",
+      "level": 3,
+      "name": {
+        "local": "Asipulo",
+        "en": "Asipulo",
+        "slug": "asipulo-142711"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      },
+      {
+        "id": "142711",
+        "level": 3,
+        "name": {
+          "local": "Asipulo",
+          "en": "Asipulo",
+          "slug": "asipulo-142711"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3610"
+    ],
+    "geo": {
+      "lat": "16.7333",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142711008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panubtuban",
+      "en": "Panubtuban",
+      "slug": "panubtuban-142711008"
+    },
+    "code": {
+      "id": "142711008",
+      "iso": null
+    },
+    "parent": {
+      "id": "142711",
+      "level": 3,
+      "name": {
+        "local": "Asipulo",
+        "en": "Asipulo",
+        "slug": "asipulo-142711"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      },
+      {
+        "id": "142711",
+        "level": 3,
+        "name": {
+          "local": "Asipulo",
+          "en": "Asipulo",
+          "slug": "asipulo-142711"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3610"
+    ],
+    "geo": {
+      "lat": "9.2",
+      "lon": "123.25"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "142711009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pula",
+      "en": "Pula",
+      "slug": "pula-142711009"
+    },
+    "code": {
+      "id": "142711009",
+      "iso": null
+    },
+    "parent": {
+      "id": "142711",
+      "level": 3,
+      "name": {
+        "local": "Asipulo",
+        "en": "Asipulo",
+        "slug": "asipulo-142711"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "CAR",
+        "level": 1,
+        "name": {
+          "local": "Cordillera Administrative Region",
+          "en": "Cordillera Administrative Region",
+          "slug": "cordillera-administrative-region-CAR"
+        }
+      },
+      {
+        "id": "142700",
+        "level": 2,
+        "name": {
+          "local": "Ifugao",
+          "en": "Ifugao",
+          "slug": "ifugao-142700"
+        }
+      },
+      {
+        "id": "142711",
+        "level": 3,
+        "name": {
+          "local": "Asipulo",
+          "en": "Asipulo",
+          "slug": "asipulo-142711"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3610"
+    ],
+    "geo": {
+      "lat": "16.7516",
+      "lon": "121.0911"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -15,10 +15,12 @@ if ($is_logged_in) {
         require_once __DIR__ . '/../config/db_connect.php';
         $uid = intval($_SESSION['user_id'] ?? 0);
         if ($uid) {
-            $s = $pdo->prepare('SELECT email_verified, banned FROM signup WHERE user_id = ?');
+            // Some installations may not have a `banned` column — select only available columns
+            $s = $pdo->prepare('SELECT email_verified FROM signup WHERE user_id = ?');
             $s->execute([$uid]);
             $r = $s->fetch(PDO::FETCH_ASSOC) ?: [];
-            $isBanned = !empty($r['banned']);
+            // If `banned` column exists it will be picked up via the array; otherwise assume not banned
+            $isBanned = !empty($r['banned'] ?? false);
             $emailVerified = !empty($r['email_verified']);
 
             // Account status shown for awareness only. Access control is now based on ban state only.

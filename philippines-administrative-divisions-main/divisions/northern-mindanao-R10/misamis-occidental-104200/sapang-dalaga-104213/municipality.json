@@ -1,0 +1,56 @@
+{
+  "id": "104213",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sapang Dalaga",
+    "en": "Sapang Dalaga",
+    "slug": "sapang-dalaga-104213"
+  },
+  "code": {
+    "id": "104213",
+    "iso": null
+  },
+  "parent": {
+    "id": "104200",
+    "level": 2,
+    "name": {
+      "local": "Misamis Occidental",
+      "en": "Misamis Occidental",
+      "slug": "misamis-occidental-104200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "104200",
+      "level": 2,
+      "name": {
+        "local": "Misamis Occidental",
+        "en": "Misamis Occidental",
+        "slug": "misamis-occidental-104200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 28
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.55",
+    "lon": "123.567"
+  },
+  "metadata": {},
+  "source": {}
+}

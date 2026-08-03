@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "074601",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Amlan (Ayuquitan)",
+      "en": "Amlan (Ayuquitan)",
+      "slug": "amlan-ayuquitan-074601"
+    },
+    "code": {
+      "id": "074601",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.45",
+      "lon": "123.233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074602",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ayungon",
+      "en": "Ayungon",
+      "slug": "ayungon-074602"
+    },
+    "code": {
+      "id": "074602",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.85",
+      "lon": "123.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074603",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bacong",
+      "en": "Bacong",
+      "slug": "bacong-074603"
+    },
+    "code": {
+      "id": "074603",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.25",
+      "lon": "123.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074604",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bais City",
+      "en": "Bais City",
+      "slug": "bais-city-074604"
+    },
+    "code": {
+      "id": "074604",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.583",
+      "lon": "123.117"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074605",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Basay",
+      "en": "Basay",
+      "slug": "basay-074605"
+    },
+    "code": {
+      "id": "074605",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.417",
+      "lon": "122.633"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074606",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bayawan (Tulong)",
+      "en": "Bayawan (Tulong)",
+      "slug": "bayawan-tulong-074606"
+    },
+    "code": {
+      "id": "074606",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.367",
+      "lon": "122.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074607",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bindoy (Payabon)",
+      "en": "Bindoy (Payabon)",
+      "slug": "bindoy-payabon-074607"
+    },
+    "code": {
+      "id": "074607",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.767",
+      "lon": "123.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074608",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Canlaon City",
+      "en": "Canlaon City",
+      "slug": "canlaon-city-074608"
+    },
+    "code": {
+      "id": "074608",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.383",
+      "lon": "123.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074609",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dauin",
+      "en": "Dauin",
+      "slug": "dauin-074609"
+    },
+    "code": {
+      "id": "074609",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.2",
+      "lon": "123.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074610",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dumaguete City",
+      "en": "Dumaguete City",
+      "slug": "dumaguete-city-074610"
+    },
+    "code": {
+      "id": "074610",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.317",
+      "lon": "123.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074611",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Guihulngan",
+      "en": "Guihulngan",
+      "slug": "guihulngan-074611"
+    },
+    "code": {
+      "id": "074611",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.117",
+      "lon": "123.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074612",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Jimalalud",
+      "en": "Jimalalud",
+      "slug": "jimalalud-074612"
+    },
+    "code": {
+      "id": "074612",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.983",
+      "lon": "123.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074613",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "La Libertad",
+      "en": "La Libertad",
+      "slug": "la-libertad-074613"
+    },
+    "code": {
+      "id": "074613",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 29
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.033",
+      "lon": "123.217"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074614",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mabinay",
+      "en": "Mabinay",
+      "slug": "mabinay-074614"
+    },
+    "code": {
+      "id": "074614",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 32
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.733",
+      "lon": "122.917"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074615",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Manjuyod",
+      "en": "Manjuyod",
+      "slug": "manjuyod-074615"
+    },
+    "code": {
+      "id": "074615",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 27
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.683",
+      "lon": "123.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074616",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pamplona",
+      "en": "Pamplona",
+      "slug": "pamplona-074616"
+    },
+    "code": {
+      "id": "074616",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 16
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.467",
+      "lon": "123.117"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074617",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Jose",
+      "en": "San Jose",
+      "slug": "san-jose-074617"
+    },
+    "code": {
+      "id": "074617",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.417",
+      "lon": "123.233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074618",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Santa Catalina",
+      "en": "Santa Catalina",
+      "slug": "santa-catalina-074618"
+    },
+    "code": {
+      "id": "074618",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.333",
+      "lon": "122.867"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074619",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Siaton",
+      "en": "Siaton",
+      "slug": "siaton-074619"
+    },
+    "code": {
+      "id": "074619",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.067",
+      "lon": "123.033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074620",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sibulan",
+      "en": "Sibulan",
+      "slug": "sibulan-074620"
+    },
+    "code": {
+      "id": "074620",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.35",
+      "lon": "123.283"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074621",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tanjay",
+      "en": "Tanjay",
+      "slug": "tanjay-074621"
+    },
+    "code": {
+      "id": "074621",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.517",
+      "lon": "123.1583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074622",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tayasan",
+      "en": "Tayasan",
+      "slug": "tayasan-074622"
+    },
+    "code": {
+      "id": "074622",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 28
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.917",
+      "lon": "123.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074623",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Valencia (Luzurriaga)",
+      "en": "Valencia (Luzurriaga)",
+      "slug": "valencia-luzurriaga-074623"
+    },
+    "code": {
+      "id": "074623",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.283",
+      "lon": "123.25"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074624",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Vallehermoso",
+      "en": "Vallehermoso",
+      "slug": "vallehermoso-074624"
+    },
+    "code": {
+      "id": "074624",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "10.333",
+      "lon": "123.317"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "074625",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Zamboanguita",
+      "en": "Zamboanguita",
+      "slug": "zamboanguita-074625"
+    },
+    "code": {
+      "id": "074625",
+      "iso": null
+    },
+    "parent": {
+      "id": "074600",
+      "level": 2,
+      "name": {
+        "local": "Negros Oriental",
+        "en": "Negros Oriental",
+        "slug": "negros-oriental-074600"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "074600",
+        "level": 2,
+        "name": {
+          "local": "Negros Oriental",
+          "en": "Negros Oriental",
+          "slug": "negros-oriental-074600"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.117",
+      "lon": "123.2"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

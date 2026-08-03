@@ -1,0 +1,56 @@
+{
+  "id": "063025",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Lambunao",
+    "en": "Lambunao",
+    "slug": "lambunao-063025"
+  },
+  "code": {
+    "id": "063025",
+    "iso": null
+  },
+  "parent": {
+    "id": "063000",
+    "level": 2,
+    "name": {
+      "local": "Iloilo",
+      "en": "Iloilo",
+      "slug": "iloilo-063000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "063000",
+      "level": 2,
+      "name": {
+        "local": "Iloilo",
+        "en": "Iloilo",
+        "slug": "iloilo-063000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 73
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.05",
+    "lon": "122.483"
+  },
+  "metadata": {},
+  "source": {}
+}

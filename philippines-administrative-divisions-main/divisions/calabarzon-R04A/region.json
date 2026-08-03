@@ -1,0 +1,35 @@
+{
+  "id": "R04A",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "CALABARZON",
+    "en": "CALABARZON",
+    "slug": "calabarzon-R04A"
+  },
+  "code": {
+    "id": "R04A",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 5,
+    "barangay": 4018,
+    "municipality": 142
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.015",
+    "lon": "121.4402"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/calabarzon-R04A/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

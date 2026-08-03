@@ -1,0 +1,56 @@
+{
+  "id": "128001",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Alabel",
+    "en": "Alabel",
+    "slug": "alabel-128001"
+  },
+  "code": {
+    "id": "128001",
+    "iso": null
+  },
+  "parent": {
+    "id": "128000",
+    "level": 2,
+    "name": {
+      "local": "Sarangani",
+      "en": "Sarangani",
+      "slug": "sarangani-128000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    {
+      "id": "128000",
+      "level": 2,
+      "name": {
+        "local": "Sarangani",
+        "en": "Sarangani",
+        "slug": "sarangani-128000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 13
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.083",
+    "lon": "125.283"
+  },
+  "metadata": {},
+  "source": {}
+}

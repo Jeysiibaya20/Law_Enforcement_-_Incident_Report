@@ -1,0 +1,56 @@
+{
+  "id": "045610",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Catanauan",
+    "en": "Catanauan",
+    "slug": "catanauan-045610"
+  },
+  "code": {
+    "id": "045610",
+    "iso": null
+  },
+  "parent": {
+    "id": "045600",
+    "level": 2,
+    "name": {
+      "local": "Quezon",
+      "en": "Quezon",
+      "slug": "quezon-045600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    },
+    {
+      "id": "045600",
+      "level": 2,
+      "name": {
+        "local": "Quezon",
+        "en": "Quezon",
+        "slug": "quezon-045600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 46
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.59167",
+    "lon": "122.325"
+  },
+  "metadata": {},
+  "source": {}
+}

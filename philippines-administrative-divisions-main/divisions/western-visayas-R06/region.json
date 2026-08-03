@@ -1,0 +1,35 @@
+{
+  "id": "R06",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "Western Visayas",
+    "en": "Western Visayas",
+    "slug": "western-visayas-R06"
+  },
+  "code": {
+    "id": "R06",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 6,
+    "barangay": 4051,
+    "municipality": 133
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "11.1529",
+    "lon": "122.6059"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/western-visayas-R06/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

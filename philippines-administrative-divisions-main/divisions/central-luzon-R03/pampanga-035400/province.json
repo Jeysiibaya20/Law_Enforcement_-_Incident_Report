@@ -1,0 +1,48 @@
+{
+  "id": "035400",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Pampanga",
+    "en": "Pampanga",
+    "slug": "pampanga-035400"
+  },
+  "code": {
+    "id": "035400",
+    "iso": null
+  },
+  "parent": {
+    "id": "R03",
+    "level": 1,
+    "name": {
+      "local": "Central Luzon",
+      "en": "Central Luzon",
+      "slug": "central-luzon-R03"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 22,
+    "barangay": 538
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.1481",
+    "lon": "121.3256"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,597 @@
+[
+  {
+    "id": "R01",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Ilocos Region",
+      "en": "Ilocos Region",
+      "slug": "ilocos-region-R01"
+    },
+    "code": {
+      "id": "R01",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 4,
+      "barangay": 3265,
+      "municipality": 125
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "16.7549",
+      "lon": "120.5139"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/ilocos-region-R01/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R02",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Cagayan Valley",
+      "en": "Cagayan Valley",
+      "slug": "cagayan-valley-R02"
+    },
+    "code": {
+      "id": "R02",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 5,
+      "barangay": 2311,
+      "municipality": 93
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.3403",
+      "lon": "121.6297"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/cagayan-valley-R02/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R03",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Central Luzon",
+      "en": "Central Luzon",
+      "slug": "central-luzon-R03"
+    },
+    "code": {
+      "id": "R03",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 7,
+      "barangay": 3102,
+      "municipality": 130
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "15.217",
+      "lon": "120.8297"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/central-luzon-R03/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R04A",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "CALABARZON",
+      "en": "CALABARZON",
+      "slug": "calabarzon-R04A"
+    },
+    "code": {
+      "id": "R04A",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 5,
+      "barangay": 4018,
+      "municipality": 142
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.015",
+      "lon": "121.4402"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/calabarzon-R04A/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R05",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Bicol Region",
+      "en": "Bicol Region",
+      "slug": "bicol-region-R05"
+    },
+    "code": {
+      "id": "R05",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 6,
+      "barangay": 3471,
+      "municipality": 114
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "13.2085",
+      "lon": "123.5496"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/bicol-region-R05/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R06",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Western Visayas",
+      "en": "Western Visayas",
+      "slug": "western-visayas-R06"
+    },
+    "code": {
+      "id": "R06",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 6,
+      "barangay": 4051,
+      "municipality": 133
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.1529",
+      "lon": "122.6059"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/western-visayas-R06/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R07",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Central Visayas",
+      "en": "Central Visayas",
+      "slug": "central-visayas-R07"
+    },
+    "code": {
+      "id": "R07",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 4,
+      "barangay": 3003,
+      "municipality": 132
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.948",
+      "lon": "123.7963"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/central-visayas-R07/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R08",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Eastern Visayas",
+      "en": "Eastern Visayas",
+      "slug": "eastern-visayas-R08"
+    },
+    "code": {
+      "id": "R08",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 6,
+      "barangay": 4390,
+      "municipality": 143
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.3799",
+      "lon": "124.8046"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/eastern-visayas-R08/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R09",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Zamboanga Peninsula",
+      "en": "Zamboanga Peninsula",
+      "slug": "zamboanga-peninsula-R09"
+    },
+    "code": {
+      "id": "R09",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 4,
+      "barangay": 1904,
+      "municipality": 72
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.9341",
+      "lon": "123.0537"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/zamboanga-peninsula-R09/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R10",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Northern Mindanao",
+      "en": "Northern Mindanao",
+      "slug": "northern-mindanao-R10"
+    },
+    "code": {
+      "id": "R10",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 5,
+      "barangay": 2022,
+      "municipality": 93
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.4836",
+      "lon": "124.2992"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/northern-mindanao-R10/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R11",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Davao Region",
+      "en": "Davao Region",
+      "slug": "davao-region-R11"
+    },
+    "code": {
+      "id": "R11",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 5,
+      "barangay": 1162,
+      "municipality": 49
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "7.9166",
+      "lon": "125.2928"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/davao-region-R11/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R12",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "SOCCSKSARGEN",
+      "en": "SOCCSKSARGEN",
+      "slug": "soccsksargen-R12"
+    },
+    "code": {
+      "id": "R12",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 5,
+      "barangay": 1195,
+      "municipality": 50
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.7977",
+      "lon": "124.7494"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/soccsksargen-R12/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "NCR",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "National Capital Region",
+      "en": "National Capital Region",
+      "slug": "national-capital-region-NCR"
+    },
+    "code": {
+      "id": "NCR",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 1,
+      "barangay": 1706,
+      "municipality": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "14.3898",
+      "lon": "121.2427"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/national-capital-region-NCR/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "CAR",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Cordillera Administrative Region",
+      "en": "Cordillera Administrative Region",
+      "slug": "cordillera-administrative-region-CAR"
+    },
+    "code": {
+      "id": "CAR",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 6,
+      "barangay": 1176,
+      "municipality": 77
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "17.0872",
+      "lon": "120.9798"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/cordillera-administrative-region-CAR/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "ARMM",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Autonomous Region in Muslim Mindanao",
+      "en": "Autonomous Region in Muslim Mindanao",
+      "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+    },
+    "code": {
+      "id": "ARMM",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 5,
+      "barangay": 2490,
+      "municipality": 118
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "6.9071",
+      "lon": "123.1515"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/autonomous-region-in-muslim-mindanao-ARMM/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R13",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "Caraga",
+      "en": "Caraga",
+      "slug": "caraga-R13"
+    },
+    "code": {
+      "id": "R13",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 5,
+      "barangay": 1311,
+      "municipality": 73
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.4188",
+      "lon": "125.6235"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/caraga-R13/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  },
+  {
+    "id": "R17",
+    "level": 1,
+    "level_name": {
+      "local": "Rehiyon",
+      "en": "Region"
+    },
+    "name": {
+      "local": "MIMAROPA Region",
+      "en": "MIMAROPA Region",
+      "slug": "mimaropa-region-R17"
+    },
+    "code": {
+      "id": "R17",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "province": 5,
+      "barangay": 1459,
+      "municipality": 73
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "12.3391",
+      "lon": "120.8897"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ph/regions/mimaropa-region-R17/",
+      "api": "https://openadmindata.org/api/ph/"
+    }
+  }
+]

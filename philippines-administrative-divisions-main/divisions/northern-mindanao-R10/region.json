@@ -1,0 +1,35 @@
+{
+  "id": "R10",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "Northern Mindanao",
+    "en": "Northern Mindanao",
+    "slug": "northern-mindanao-R10"
+  },
+  "code": {
+    "id": "R10",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 5,
+    "barangay": 2022,
+    "municipality": 93
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.4836",
+    "lon": "124.2992"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/northern-mindanao-R10/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

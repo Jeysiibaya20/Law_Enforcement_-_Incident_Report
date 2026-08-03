@@ -1,0 +1,522 @@
+[
+  {
+    "id": "084802004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kauswagan (Basud)",
+      "en": "Kauswagan (Basud)",
+      "slug": "kauswagan-basud-084802004"
+    },
+    "code": {
+      "id": "084802004",
+      "iso": null
+    },
+    "parent": {
+      "id": "084802",
+      "level": 3,
+      "name": {
+        "local": "Biri",
+        "en": "Biri",
+        "slug": "biri-084802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084802",
+        "level": 3,
+        "name": {
+          "local": "Biri",
+          "en": "Biri",
+          "slug": "biri-084802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6410"
+    ],
+    "geo": {
+      "lat": "12.6611",
+      "lon": "124.3892"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084802003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "MacArthur",
+      "en": "MacArthur",
+      "slug": "macarthur-084802003"
+    },
+    "code": {
+      "id": "084802003",
+      "iso": null
+    },
+    "parent": {
+      "id": "084802",
+      "level": 3,
+      "name": {
+        "local": "Biri",
+        "en": "Biri",
+        "slug": "biri-084802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084802",
+        "level": 3,
+        "name": {
+          "local": "Biri",
+          "en": "Biri",
+          "slug": "biri-084802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6410"
+    ],
+    "geo": {
+      "lat": "11.0106",
+      "lon": "124.6075"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084802005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pio Del Pilar",
+      "en": "Pio Del Pilar",
+      "slug": "pio-del-pilar-084802005"
+    },
+    "code": {
+      "id": "084802005",
+      "iso": null
+    },
+    "parent": {
+      "id": "084802",
+      "level": 3,
+      "name": {
+        "local": "Biri",
+        "en": "Biri",
+        "slug": "biri-084802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084802",
+        "level": 3,
+        "name": {
+          "local": "Biri",
+          "en": "Biri",
+          "slug": "biri-084802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6410"
+    ],
+    "geo": {
+      "lat": "12.5333",
+      "lon": "125.1167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084802002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion (Biri)",
+      "en": "Poblacion (Biri)",
+      "slug": "poblacion-biri-084802002"
+    },
+    "code": {
+      "id": "084802002",
+      "iso": null
+    },
+    "parent": {
+      "id": "084802",
+      "level": 3,
+      "name": {
+        "local": "Biri",
+        "en": "Biri",
+        "slug": "biri-084802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084802",
+        "level": 3,
+        "name": {
+          "local": "Biri",
+          "en": "Biri",
+          "slug": "biri-084802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6410"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084802007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Progresso",
+      "en": "Progresso",
+      "slug": "progresso-084802007"
+    },
+    "code": {
+      "id": "084802007",
+      "iso": null
+    },
+    "parent": {
+      "id": "084802",
+      "level": 3,
+      "name": {
+        "local": "Biri",
+        "en": "Biri",
+        "slug": "biri-084802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084802",
+        "level": 3,
+        "name": {
+          "local": "Biri",
+          "en": "Biri",
+          "slug": "biri-084802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6410"
+    ],
+    "geo": {
+      "lat": "12.667",
+      "lon": "124.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084802008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio",
+      "en": "San Antonio",
+      "slug": "san-antonio-084802008"
+    },
+    "code": {
+      "id": "084802008",
+      "iso": null
+    },
+    "parent": {
+      "id": "084802",
+      "level": 3,
+      "name": {
+        "local": "Biri",
+        "en": "Biri",
+        "slug": "biri-084802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084802",
+        "level": 3,
+        "name": {
+          "local": "Biri",
+          "en": "Biri",
+          "slug": "biri-084802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6410"
+    ],
+    "geo": {
+      "lat": "12.414",
+      "lon": "124.279"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084802009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro",
+      "en": "San Pedro",
+      "slug": "san-pedro-084802009"
+    },
+    "code": {
+      "id": "084802009",
+      "iso": null
+    },
+    "parent": {
+      "id": "084802",
+      "level": 3,
+      "name": {
+        "local": "Biri",
+        "en": "Biri",
+        "slug": "biri-084802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084802",
+        "level": 3,
+        "name": {
+          "local": "Biri",
+          "en": "Biri",
+          "slug": "biri-084802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6410"
+    ],
+    "geo": {
+      "lat": "14.3583",
+      "lon": "121.0583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "084802010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Niño",
+      "en": "Santo Niño",
+      "slug": "santo-nio-084802010"
+    },
+    "code": {
+      "id": "084802010",
+      "iso": null
+    },
+    "parent": {
+      "id": "084802",
+      "level": 3,
+      "name": {
+        "local": "Biri",
+        "en": "Biri",
+        "slug": "biri-084802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "084800",
+        "level": 2,
+        "name": {
+          "local": "Northern Samar",
+          "en": "Northern Samar",
+          "slug": "northern-samar-084800"
+        }
+      },
+      {
+        "id": "084802",
+        "level": 3,
+        "name": {
+          "local": "Biri",
+          "en": "Biri",
+          "slug": "biri-084802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6410"
+    ],
+    "geo": {
+      "lat": "6.43",
+      "lon": "124.68"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

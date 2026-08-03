@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "166801",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Barobo",
+      "en": "Barobo",
+      "slug": "barobo-166801"
+    },
+    "code": {
+      "id": "166801",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.55",
+      "lon": "126.2"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166802",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bayabas",
+      "en": "Bayabas",
+      "slug": "bayabas-166802"
+    },
+    "code": {
+      "id": "166802",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 7
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.967",
+      "lon": "126.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166803",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Bislig",
+      "en": "Bislig",
+      "slug": "bislig-166803"
+    },
+    "code": {
+      "id": "166803",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.183",
+      "lon": "126.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166804",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cagwait",
+      "en": "Cagwait",
+      "slug": "cagwait-166804"
+    },
+    "code": {
+      "id": "166804",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.917",
+      "lon": "126.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166805",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cantilan",
+      "en": "Cantilan",
+      "slug": "cantilan-166805"
+    },
+    "code": {
+      "id": "166805",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.333",
+      "lon": "125.983"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166806",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Carmen",
+      "en": "Carmen",
+      "slug": "carmen-166806"
+    },
+    "code": {
+      "id": "166806",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 8
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.217",
+      "lon": "125.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166807",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Carrascal",
+      "en": "Carrascal",
+      "slug": "carrascal-166807"
+    },
+    "code": {
+      "id": "166807",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.367",
+      "lon": "125.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166808",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cortes",
+      "en": "Cortes",
+      "slug": "cortes-166808"
+    },
+    "code": {
+      "id": "166808",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.233",
+      "lon": "126.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166809",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Hinatuan",
+      "en": "Hinatuan",
+      "slug": "hinatuan-166809"
+    },
+    "code": {
+      "id": "166809",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.367",
+      "lon": "126.333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166810",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lanuza",
+      "en": "Lanuza",
+      "slug": "lanuza-166810"
+    },
+    "code": {
+      "id": "166810",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.233",
+      "lon": "126.067"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166811",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lianga",
+      "en": "Lianga",
+      "slug": "lianga-166811"
+    },
+    "code": {
+      "id": "166811",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.633",
+      "lon": "126.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166812",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lingig",
+      "en": "Lingig",
+      "slug": "lingig-166812"
+    },
+    "code": {
+      "id": "166812",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.033",
+      "lon": "126.417"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166813",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Madrid",
+      "en": "Madrid",
+      "slug": "madrid-166813"
+    },
+    "code": {
+      "id": "166813",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.267",
+      "lon": "125.967"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166814",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Marihatag",
+      "en": "Marihatag",
+      "slug": "marihatag-166814"
+    },
+    "code": {
+      "id": "166814",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 12
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.8",
+      "lon": "126.3"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166815",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Agustin",
+      "en": "San Agustin",
+      "slug": "san-agustin-166815"
+    },
+    "code": {
+      "id": "166815",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.733",
+      "lon": "126.133"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166816",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-166816"
+    },
+    "code": {
+      "id": "166816",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.883",
+      "lon": "126"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166817",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tagbina",
+      "en": "Tagbina",
+      "slug": "tagbina-166817"
+    },
+    "code": {
+      "id": "166817",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.45",
+      "lon": "126.167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166818",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tago",
+      "en": "Tago",
+      "slug": "tago-166818"
+    },
+    "code": {
+      "id": "166818",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "8.967",
+      "lon": "126.15"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166819",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tandag",
+      "en": "Tandag",
+      "slug": "tandag-166819"
+    },
+    "code": {
+      "id": "166819",
+      "iso": null
+    },
+    "parent": {
+      "id": "166800",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Sur",
+        "en": "Surigao del Sur",
+        "slug": "surigao-del-sur-166800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.067",
+      "lon": "126.183"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

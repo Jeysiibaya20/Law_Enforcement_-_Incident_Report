@@ -1,0 +1,782 @@
+[
+  {
+    "id": "082614008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 1 (Pob.)",
+      "en": "Barangay 1 (Pob.)",
+      "slug": "barangay-1-pob-082614008"
+    },
+    "code": {
+      "id": "082614008",
+      "iso": null
+    },
+    "parent": {
+      "id": "082614",
+      "level": 3,
+      "name": {
+        "local": "Maslog",
+        "en": "Maslog",
+        "slug": "maslog-082614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082614",
+        "level": 3,
+        "name": {
+          "local": "Maslog",
+          "en": "Maslog",
+          "slug": "maslog-082614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6820"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082614009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 2 (Pob.)",
+      "en": "Barangay 2 (Pob.)",
+      "slug": "barangay-2-pob-082614009"
+    },
+    "code": {
+      "id": "082614009",
+      "iso": null
+    },
+    "parent": {
+      "id": "082614",
+      "level": 3,
+      "name": {
+        "local": "Maslog",
+        "en": "Maslog",
+        "slug": "maslog-082614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082614",
+        "level": 3,
+        "name": {
+          "local": "Maslog",
+          "en": "Maslog",
+          "slug": "maslog-082614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6820"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082614001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bulawan",
+      "en": "Bulawan",
+      "slug": "bulawan-082614001"
+    },
+    "code": {
+      "id": "082614001",
+      "iso": null
+    },
+    "parent": {
+      "id": "082614",
+      "level": 3,
+      "name": {
+        "local": "Maslog",
+        "en": "Maslog",
+        "slug": "maslog-082614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082614",
+        "level": 3,
+        "name": {
+          "local": "Maslog",
+          "en": "Maslog",
+          "slug": "maslog-082614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6820"
+    ],
+    "geo": {
+      "lat": "13.0333",
+      "lon": "124.1667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082614003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Carayacay",
+      "en": "Carayacay",
+      "slug": "carayacay-082614003"
+    },
+    "code": {
+      "id": "082614003",
+      "iso": null
+    },
+    "parent": {
+      "id": "082614",
+      "level": 3,
+      "name": {
+        "local": "Maslog",
+        "en": "Maslog",
+        "slug": "maslog-082614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082614",
+        "level": 3,
+        "name": {
+          "local": "Maslog",
+          "en": "Maslog",
+          "slug": "maslog-082614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6820"
+    ],
+    "geo": {
+      "lat": "12.1425",
+      "lon": "125.2106"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082614005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Libertad",
+      "en": "Libertad",
+      "slug": "libertad-082614005"
+    },
+    "code": {
+      "id": "082614005",
+      "iso": null
+    },
+    "parent": {
+      "id": "082614",
+      "level": 3,
+      "name": {
+        "local": "Maslog",
+        "en": "Maslog",
+        "slug": "maslog-082614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082614",
+        "level": 3,
+        "name": {
+          "local": "Maslog",
+          "en": "Maslog",
+          "slug": "maslog-082614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6820"
+    ],
+    "geo": {
+      "lat": "10.03",
+      "lon": "123.22"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082614006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malobago",
+      "en": "Malobago",
+      "slug": "malobago-082614006"
+    },
+    "code": {
+      "id": "082614006",
+      "iso": null
+    },
+    "parent": {
+      "id": "082614",
+      "level": 3,
+      "name": {
+        "local": "Maslog",
+        "en": "Maslog",
+        "slug": "maslog-082614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082614",
+        "level": 3,
+        "name": {
+          "local": "Maslog",
+          "en": "Maslog",
+          "slug": "maslog-082614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6820"
+    ],
+    "geo": {
+      "lat": "11.5014",
+      "lon": "125.4189"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082614007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maputi",
+      "en": "Maputi",
+      "slug": "maputi-082614007"
+    },
+    "code": {
+      "id": "082614007",
+      "iso": null
+    },
+    "parent": {
+      "id": "082614",
+      "level": 3,
+      "name": {
+        "local": "Maslog",
+        "en": "Maslog",
+        "slug": "maslog-082614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082614",
+        "level": 3,
+        "name": {
+          "local": "Maslog",
+          "en": "Maslog",
+          "slug": "maslog-082614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6820"
+    ],
+    "geo": {
+      "lat": "8.4497",
+      "lon": "124.2906"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082614010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miguel",
+      "en": "San Miguel",
+      "slug": "san-miguel-082614010"
+    },
+    "code": {
+      "id": "082614010",
+      "iso": null
+    },
+    "parent": {
+      "id": "082614",
+      "level": 3,
+      "name": {
+        "local": "Maslog",
+        "en": "Maslog",
+        "slug": "maslog-082614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082614",
+        "level": 3,
+        "name": {
+          "local": "Maslog",
+          "en": "Maslog",
+          "slug": "maslog-082614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6820"
+    ],
+    "geo": {
+      "lat": "11.4358",
+      "lon": "125.5311"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082614011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque",
+      "en": "San Roque",
+      "slug": "san-roque-082614011"
+    },
+    "code": {
+      "id": "082614011",
+      "iso": null
+    },
+    "parent": {
+      "id": "082614",
+      "level": 3,
+      "name": {
+        "local": "Maslog",
+        "en": "Maslog",
+        "slug": "maslog-082614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082614",
+        "level": 3,
+        "name": {
+          "local": "Maslog",
+          "en": "Maslog",
+          "slug": "maslog-082614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6820"
+    ],
+    "geo": {
+      "lat": "11.0442",
+      "lon": "125.7574"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082614012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tangbo",
+      "en": "Tangbo",
+      "slug": "tangbo-082614012"
+    },
+    "code": {
+      "id": "082614012",
+      "iso": null
+    },
+    "parent": {
+      "id": "082614",
+      "level": 3,
+      "name": {
+        "local": "Maslog",
+        "en": "Maslog",
+        "slug": "maslog-082614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082614",
+        "level": 3,
+        "name": {
+          "local": "Maslog",
+          "en": "Maslog",
+          "slug": "maslog-082614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6820"
+    ],
+    "geo": {
+      "lat": "12.15",
+      "lon": "125.4333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082614013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taytay",
+      "en": "Taytay",
+      "slug": "taytay-082614013"
+    },
+    "code": {
+      "id": "082614013",
+      "iso": null
+    },
+    "parent": {
+      "id": "082614",
+      "level": 3,
+      "name": {
+        "local": "Maslog",
+        "en": "Maslog",
+        "slug": "maslog-082614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082614",
+        "level": 3,
+        "name": {
+          "local": "Maslog",
+          "en": "Maslog",
+          "slug": "maslog-082614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6820"
+    ],
+    "geo": {
+      "lat": "11.0479",
+      "lon": "125.7497"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "082614014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tugas",
+      "en": "Tugas",
+      "slug": "tugas-082614014"
+    },
+    "code": {
+      "id": "082614014",
+      "iso": null
+    },
+    "parent": {
+      "id": "082614",
+      "level": 3,
+      "name": {
+        "local": "Maslog",
+        "en": "Maslog",
+        "slug": "maslog-082614"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "082600",
+        "level": 2,
+        "name": {
+          "local": "Eastern Samar",
+          "en": "Eastern Samar",
+          "slug": "eastern-samar-082600"
+        }
+      },
+      {
+        "id": "082614",
+        "level": 3,
+        "name": {
+          "local": "Maslog",
+          "en": "Maslog",
+          "slug": "maslog-082614"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "6820"
+    ],
+    "geo": {
+      "lat": "12.1667",
+      "lon": "125.2"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

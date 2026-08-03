@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "012820003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Agustin",
+      "en": "San Agustin",
+      "slug": "san-agustin-012820003"
+    },
+    "code": {
+      "id": "012820003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "18.1267",
+      "lon": "120.5871"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Baltazar (Pob.)",
+      "en": "San Baltazar (Pob.)",
+      "slug": "san-baltazar-pob-012820004"
+    },
+    "code": {
+      "id": "012820004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "16.07",
+      "lon": "120.76528"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Bartolome (Pob.)",
+      "en": "San Bartolome (Pob.)",
+      "slug": "san-bartolome-pob-012820005"
+    },
+    "code": {
+      "id": "012820005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "15.9161",
+      "lon": "120.6254"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Cayetano (Pob.)",
+      "en": "San Cayetano (Pob.)",
+      "slug": "san-cayetano-pob-012820006"
+    },
+    "code": {
+      "id": "012820006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "16.07",
+      "lon": "120.76528"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Eugenio (Pob.)",
+      "en": "San Eugenio (Pob.)",
+      "slug": "san-eugenio-pob-012820007"
+    },
+    "code": {
+      "id": "012820007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "16.3598",
+      "lon": "120.357"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Fernando (Pob.)",
+      "en": "San Fernando (Pob.)",
+      "slug": "san-fernando-pob-012820008"
+    },
+    "code": {
+      "id": "012820008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "15.03",
+      "lon": "120.68"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Francisco (Pob.)",
+      "en": "San Francisco (Pob.)",
+      "slug": "san-francisco-pob-012820001"
+    },
+    "code": {
+      "id": "012820001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "18.25",
+      "lon": "120.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Gregorio (Pob.)",
+      "en": "San Gregorio (Pob.)",
+      "slug": "san-gregorio-pob-012820009"
+    },
+    "code": {
+      "id": "012820009",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "17.9833",
+      "lon": "120.685"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Guillermo",
+      "en": "San Guillermo",
+      "slug": "san-guillermo-012820010"
+    },
+    "code": {
+      "id": "012820010",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "18.1533",
+      "lon": "120.597"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Ildefonso (Pob.)",
+      "en": "San Ildefonso (Pob.)",
+      "slug": "san-ildefonso-pob-012820002"
+    },
+    "code": {
+      "id": "012820002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "15.0789",
+      "lon": "120.9419"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Jose (Pob.)",
+      "en": "San Jose (Pob.)",
+      "slug": "san-jose-pob-012820011"
+    },
+    "code": {
+      "id": "012820011",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "18.0261",
+      "lon": "120.7516"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan Bautista (Pob.)",
+      "en": "San Juan Bautista (Pob.)",
+      "slug": "san-juan-bautista-pob-012820012"
+    },
+    "code": {
+      "id": "012820012",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "15.4878",
+      "lon": "120.6182"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Lorenzo",
+      "en": "San Lorenzo",
+      "slug": "san-lorenzo-012820013"
+    },
+    "code": {
+      "id": "012820013",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "18.1323",
+      "lon": "120.6305"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Lucas (Pob.)",
+      "en": "San Lucas (Pob.)",
+      "slug": "san-lucas-pob-012820014"
+    },
+    "code": {
+      "id": "012820014",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "13.7062",
+      "lon": "123.2032"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Marcos (Payas)",
+      "en": "San Marcos (Payas)",
+      "slug": "san-marcos-payas-012820015"
+    },
+    "code": {
+      "id": "012820015",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "18.1599",
+      "lon": "120.5778"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Miguel (Pob.)",
+      "en": "San Miguel (Pob.)",
+      "slug": "san-miguel-pob-012820016"
+    },
+    "code": {
+      "id": "012820016",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "18.25",
+      "lon": "120.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pablo",
+      "en": "San Pablo",
+      "slug": "san-pablo-012820017"
+    },
+    "code": {
+      "id": "012820017",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "18.1297",
+      "lon": "120.5956"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Paulo (Pob.)",
+      "en": "San Paulo (Pob.)",
+      "slug": "san-paulo-pob-012820018"
+    },
+    "code": {
+      "id": "012820018",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "16.07",
+      "lon": "120.76528"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro (Bingao)",
+      "en": "San Pedro (Bingao)",
+      "slug": "san-pedro-bingao-012820019"
+    },
+    "code": {
+      "id": "012820019",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "17.9806",
+      "lon": "120.7115"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Rufino (Pob.)",
+      "en": "San Rufino (Pob.)",
+      "slug": "san-rufino-pob-012820020"
+    },
+    "code": {
+      "id": "012820020",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "12.2268",
+      "lon": "124.5676"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Silvestre (Pob.)",
+      "en": "San Silvestre (Pob.)",
+      "slug": "san-silvestre-pob-012820021"
+    },
+    "code": {
+      "id": "012820021",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "11.4833",
+      "lon": "123"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Asuncion (Samac)",
+      "en": "Santa Asuncion (Samac)",
+      "slug": "santa-asuncion-samac-012820022"
+    },
+    "code": {
+      "id": "012820022",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "18.1649",
+      "lon": "120.5754"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Cecilia (Barabar)",
+      "en": "Santa Cecilia (Barabar)",
+      "slug": "santa-cecilia-barabar-012820023"
+    },
+    "code": {
+      "id": "012820023",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "18.1512",
+      "lon": "120.6181"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012820024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Monica (Nagrebcan)",
+      "en": "Santa Monica (Nagrebcan)",
+      "slug": "santa-monica-nagrebcan-012820024"
+    },
+    "code": {
+      "id": "012820024",
+      "iso": null
+    },
+    "parent": {
+      "id": "012820",
+      "level": 3,
+      "name": {
+        "local": "San Nicolas",
+        "en": "San Nicolas",
+        "slug": "san-nicolas-012820"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012800",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Norte",
+          "en": "Ilocos Norte",
+          "slug": "ilocos-norte-012800"
+        }
+      },
+      {
+        "id": "012820",
+        "level": 3,
+        "name": {
+          "local": "San Nicolas",
+          "en": "San Nicolas",
+          "slug": "san-nicolas-012820"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2901"
+    ],
+    "geo": {
+      "lat": "18.1602",
+      "lon": "120.6206"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

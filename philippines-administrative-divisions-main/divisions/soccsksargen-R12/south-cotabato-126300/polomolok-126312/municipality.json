@@ -1,0 +1,56 @@
+{
+  "id": "126312",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Polomolok",
+    "en": "Polomolok",
+    "slug": "polomolok-126312"
+  },
+  "code": {
+    "id": "126312",
+    "iso": null
+  },
+  "parent": {
+    "id": "126300",
+    "level": 2,
+    "name": {
+      "local": "South Cotabato",
+      "en": "South Cotabato",
+      "slug": "south-cotabato-126300"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R12",
+      "level": 1,
+      "name": {
+        "local": "SOCCSKSARGEN",
+        "en": "SOCCSKSARGEN",
+        "slug": "soccsksargen-R12"
+      }
+    },
+    {
+      "id": "126300",
+      "level": 2,
+      "name": {
+        "local": "South Cotabato",
+        "en": "South Cotabato",
+        "slug": "south-cotabato-126300"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 23
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "6.217",
+    "lon": "125.067"
+  },
+  "metadata": {},
+  "source": {}
+}

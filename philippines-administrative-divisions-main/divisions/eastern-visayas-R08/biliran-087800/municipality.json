@@ -1,0 +1,450 @@
+[
+  {
+    "id": "087801",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Almeria",
+      "en": "Almeria",
+      "slug": "almeria-087801"
+    },
+    "code": {
+      "id": "087801",
+      "iso": null
+    },
+    "parent": {
+      "id": "087800",
+      "level": 2,
+      "name": {
+        "local": "Biliran",
+        "en": "Biliran",
+        "slug": "biliran-087800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "087800",
+        "level": 2,
+        "name": {
+          "local": "Biliran",
+          "en": "Biliran",
+          "slug": "biliran-087800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.617",
+      "lon": "124.383"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "087802",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Biliran",
+      "en": "Biliran",
+      "slug": "biliran-087802"
+    },
+    "code": {
+      "id": "087802",
+      "iso": null
+    },
+    "parent": {
+      "id": "087800",
+      "level": 2,
+      "name": {
+        "local": "Biliran",
+        "en": "Biliran",
+        "slug": "biliran-087800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "087800",
+        "level": 2,
+        "name": {
+          "local": "Biliran",
+          "en": "Biliran",
+          "slug": "biliran-087800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 11
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.467",
+      "lon": "124.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "087803",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cabucgayan",
+      "en": "Cabucgayan",
+      "slug": "cabucgayan-087803"
+    },
+    "code": {
+      "id": "087803",
+      "iso": null
+    },
+    "parent": {
+      "id": "087800",
+      "level": 2,
+      "name": {
+        "local": "Biliran",
+        "en": "Biliran",
+        "slug": "biliran-087800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "087800",
+        "level": 2,
+        "name": {
+          "local": "Biliran",
+          "en": "Biliran",
+          "slug": "biliran-087800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 13
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.483",
+      "lon": "124.567"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "087804",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Caibiran",
+      "en": "Caibiran",
+      "slug": "caibiran-087804"
+    },
+    "code": {
+      "id": "087804",
+      "iso": null
+    },
+    "parent": {
+      "id": "087800",
+      "level": 2,
+      "name": {
+        "local": "Biliran",
+        "en": "Biliran",
+        "slug": "biliran-087800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "087800",
+        "level": 2,
+        "name": {
+          "local": "Biliran",
+          "en": "Biliran",
+          "slug": "biliran-087800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.567",
+      "lon": "124.583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "087805",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Culaba",
+      "en": "Culaba",
+      "slug": "culaba-087805"
+    },
+    "code": {
+      "id": "087805",
+      "iso": null
+    },
+    "parent": {
+      "id": "087800",
+      "level": 2,
+      "name": {
+        "local": "Biliran",
+        "en": "Biliran",
+        "slug": "biliran-087800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "087800",
+        "level": 2,
+        "name": {
+          "local": "Biliran",
+          "en": "Biliran",
+          "slug": "biliran-087800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 17
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.65",
+      "lon": "124.533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "087806",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Kawayan",
+      "en": "Kawayan",
+      "slug": "kawayan-087806"
+    },
+    "code": {
+      "id": "087806",
+      "iso": null
+    },
+    "parent": {
+      "id": "087800",
+      "level": 2,
+      "name": {
+        "local": "Biliran",
+        "en": "Biliran",
+        "slug": "biliran-087800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "087800",
+        "level": 2,
+        "name": {
+          "local": "Biliran",
+          "en": "Biliran",
+          "slug": "biliran-087800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.683",
+      "lon": "124.367"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "087807",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maripipi",
+      "en": "Maripipi",
+      "slug": "maripipi-087807"
+    },
+    "code": {
+      "id": "087807",
+      "iso": null
+    },
+    "parent": {
+      "id": "087800",
+      "level": 2,
+      "name": {
+        "local": "Biliran",
+        "en": "Biliran",
+        "slug": "biliran-087800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "087800",
+        "level": 2,
+        "name": {
+          "local": "Biliran",
+          "en": "Biliran",
+          "slug": "biliran-087800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.783",
+      "lon": "124.333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "087808",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Naval",
+      "en": "Naval",
+      "slug": "naval-087808"
+    },
+    "code": {
+      "id": "087808",
+      "iso": null
+    },
+    "parent": {
+      "id": "087800",
+      "level": 2,
+      "name": {
+        "local": "Biliran",
+        "en": "Biliran",
+        "slug": "biliran-087800"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R08",
+        "level": 1,
+        "name": {
+          "local": "Eastern Visayas",
+          "en": "Eastern Visayas",
+          "slug": "eastern-visayas-R08"
+        }
+      },
+      {
+        "id": "087800",
+        "level": 2,
+        "name": {
+          "local": "Biliran",
+          "en": "Biliran",
+          "slug": "biliran-087800"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.583",
+      "lon": "124.45"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

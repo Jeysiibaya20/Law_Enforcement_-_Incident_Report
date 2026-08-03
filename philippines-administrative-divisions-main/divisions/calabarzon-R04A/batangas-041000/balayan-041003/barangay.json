@@ -1,0 +1,3122 @@
+[
+  {
+    "id": "041003001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Baclaran",
+      "en": "Baclaran",
+      "slug": "baclaran-041003001"
+    },
+    "code": {
+      "id": "041003001",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "14.5319",
+      "lon": "120.9942"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 1 (Pob.)",
+      "en": "Barangay 1 (Pob.)",
+      "slug": "barangay-1-pob-041003003"
+    },
+    "code": {
+      "id": "041003003",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 10 (Pob.)",
+      "en": "Barangay 10 (Pob.)",
+      "slug": "barangay-10-pob-041003004"
+    },
+    "code": {
+      "id": "041003004",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 11 (Pob.)",
+      "en": "Barangay 11 (Pob.)",
+      "slug": "barangay-11-pob-041003005"
+    },
+    "code": {
+      "id": "041003005",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 12 (Pob.)",
+      "en": "Barangay 12 (Pob.)",
+      "slug": "barangay-12-pob-041003006"
+    },
+    "code": {
+      "id": "041003006",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 2 (Pob.)",
+      "en": "Barangay 2 (Pob.)",
+      "slug": "barangay-2-pob-041003007"
+    },
+    "code": {
+      "id": "041003007",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 3 (Pob.)",
+      "en": "Barangay 3 (Pob.)",
+      "slug": "barangay-3-pob-041003008"
+    },
+    "code": {
+      "id": "041003008",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 4 (Pob.)",
+      "en": "Barangay 4 (Pob.)",
+      "slug": "barangay-4-pob-041003009"
+    },
+    "code": {
+      "id": "041003009",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 5 (Pob.)",
+      "en": "Barangay 5 (Pob.)",
+      "slug": "barangay-5-pob-041003010"
+    },
+    "code": {
+      "id": "041003010",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 6 (Pob.)",
+      "en": "Barangay 6 (Pob.)",
+      "slug": "barangay-6-pob-041003011"
+    },
+    "code": {
+      "id": "041003011",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 7 (Pob.)",
+      "en": "Barangay 7 (Pob.)",
+      "slug": "barangay-7-pob-041003012"
+    },
+    "code": {
+      "id": "041003012",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 8 (Pob.)",
+      "en": "Barangay 8 (Pob.)",
+      "slug": "barangay-8-pob-041003013"
+    },
+    "code": {
+      "id": "041003013",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barangay 9 (Pob.)",
+      "en": "Barangay 9 (Pob.)",
+      "slug": "barangay-9-pob-041003014"
+    },
+    "code": {
+      "id": "041003014",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.7802"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calan",
+      "en": "Calan",
+      "slug": "calan-041003016"
+    },
+    "code": {
+      "id": "041003016",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9976",
+      "lon": "120.7684"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caloocan",
+      "en": "Caloocan",
+      "slug": "caloocan-041003017"
+    },
+    "code": {
+      "id": "041003017",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "14.0914",
+      "lon": "120.9769"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calzada",
+      "en": "Calzada",
+      "slug": "calzada-041003018"
+    },
+    "code": {
+      "id": "041003018",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9438",
+      "lon": "120.729"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Canda",
+      "en": "Canda",
+      "slug": "canda-041003019"
+    },
+    "code": {
+      "id": "041003019",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9508",
+      "lon": "120.7081"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Carenahan",
+      "en": "Carenahan",
+      "slug": "carenahan-041003020"
+    },
+    "code": {
+      "id": "041003020",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.933",
+      "lon": "120.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caybunga",
+      "en": "Caybunga",
+      "slug": "caybunga-041003021"
+    },
+    "code": {
+      "id": "041003021",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9448",
+      "lon": "120.7623"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cayponce",
+      "en": "Cayponce",
+      "slug": "cayponce-041003022"
+    },
+    "code": {
+      "id": "041003022",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9448",
+      "lon": "120.7389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dalig",
+      "en": "Dalig",
+      "slug": "dalig-041003023"
+    },
+    "code": {
+      "id": "041003023",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.75",
+      "lon": "121.05"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dao",
+      "en": "Dao",
+      "slug": "dao-041003024"
+    },
+    "code": {
+      "id": "041003024",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.966",
+      "lon": "120.7448"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dilao",
+      "en": "Dilao",
+      "slug": "dilao-041003025"
+    },
+    "code": {
+      "id": "041003025",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.7724",
+      "lon": "121.0878"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Duhatan",
+      "en": "Duhatan",
+      "slug": "duhatan-041003026"
+    },
+    "code": {
+      "id": "041003026",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9366",
+      "lon": "121.0884"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Durungao",
+      "en": "Durungao",
+      "slug": "durungao-041003027"
+    },
+    "code": {
+      "id": "041003027",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9434",
+      "lon": "120.7659"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003028",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gimalas",
+      "en": "Gimalas",
+      "slug": "gimalas-041003028"
+    },
+    "code": {
+      "id": "041003028",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9489",
+      "lon": "120.7498"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gumamela",
+      "en": "Gumamela",
+      "slug": "gumamela-041003029"
+    },
+    "code": {
+      "id": "041003029",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9456",
+      "lon": "120.7432"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lagnas",
+      "en": "Lagnas",
+      "slug": "lagnas-041003030"
+    },
+    "code": {
+      "id": "041003030",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.7885",
+      "lon": "121.0232"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003031",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lanatan",
+      "en": "Lanatan",
+      "slug": "lanatan-041003031"
+    },
+    "code": {
+      "id": "041003031",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9605",
+      "lon": "120.7279"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Langgangan",
+      "en": "Langgangan",
+      "slug": "langgangan-041003032"
+    },
+    "code": {
+      "id": "041003032",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9455",
+      "lon": "120.755"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lucban Pook",
+      "en": "Lucban Pook",
+      "slug": "lucban-pook-041003034"
+    },
+    "code": {
+      "id": "041003034",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9565",
+      "lon": "120.7514"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lucban Putol",
+      "en": "Lucban Putol",
+      "slug": "lucban-putol-041003033"
+    },
+    "code": {
+      "id": "041003033",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9565",
+      "lon": "120.7514"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magabe",
+      "en": "Magabe",
+      "slug": "magabe-041003035"
+    },
+    "code": {
+      "id": "041003035",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9587",
+      "lon": "120.7001"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003036",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malalay",
+      "en": "Malalay",
+      "slug": "malalay-041003036"
+    },
+    "code": {
+      "id": "041003036",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9625",
+      "lon": "120.6765"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003037",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Munting Tubig",
+      "en": "Munting Tubig",
+      "slug": "munting-tubig-041003037"
+    },
+    "code": {
+      "id": "041003037",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9665",
+      "lon": "120.7268"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003038",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Navotas",
+      "en": "Navotas",
+      "slug": "navotas-041003038"
+    },
+    "code": {
+      "id": "041003038",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9316",
+      "lon": "120.7197"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003040",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Palikpikan",
+      "en": "Palikpikan",
+      "slug": "palikpikan-041003040"
+    },
+    "code": {
+      "id": "041003040",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9116",
+      "lon": "120.7009"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003039",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patugo",
+      "en": "Patugo",
+      "slug": "patugo-041003039"
+    },
+    "code": {
+      "id": "041003039",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.933",
+      "lon": "120.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003042",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pooc",
+      "en": "Pooc",
+      "slug": "pooc-041003042"
+    },
+    "code": {
+      "id": "041003042",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9612",
+      "lon": "120.7577"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003043",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sambat",
+      "en": "Sambat",
+      "slug": "sambat-041003043"
+    },
+    "code": {
+      "id": "041003043",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.7494",
+      "lon": "121.0503"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003044",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sampaga",
+      "en": "Sampaga",
+      "slug": "sampaga-041003044"
+    },
+    "code": {
+      "id": "041003044",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.7565",
+      "lon": "121.0998"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003045",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Juan",
+      "en": "San Juan",
+      "slug": "san-juan-041003045"
+    },
+    "code": {
+      "id": "041003045",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.826",
+      "lon": "121.396"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003046",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Piro",
+      "en": "San Piro",
+      "slug": "san-piro-041003046"
+    },
+    "code": {
+      "id": "041003046",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9213",
+      "lon": "120.7066"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003048",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santol",
+      "en": "Santol",
+      "slug": "santol-041003048"
+    },
+    "code": {
+      "id": "041003048",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "14.0955",
+      "lon": "121.1087"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003049",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sukol",
+      "en": "Sukol",
+      "slug": "sukol-041003049"
+    },
+    "code": {
+      "id": "041003049",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9905",
+      "lon": "120.7782"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003050",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tactac",
+      "en": "Tactac",
+      "slug": "tactac-041003050"
+    },
+    "code": {
+      "id": "041003050",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.933",
+      "lon": "120.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003051",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Taludtud",
+      "en": "Taludtud",
+      "slug": "taludtud-041003051"
+    },
+    "code": {
+      "id": "041003051",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.933",
+      "lon": "120.733"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "041003052",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tanggoy",
+      "en": "Tanggoy",
+      "slug": "tanggoy-041003052"
+    },
+    "code": {
+      "id": "041003052",
+      "iso": null
+    },
+    "parent": {
+      "id": "041003",
+      "level": 3,
+      "name": {
+        "local": "Balayan",
+        "en": "Balayan",
+        "slug": "balayan-041003"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "041000",
+        "level": 2,
+        "name": {
+          "local": "Batangas",
+          "en": "Batangas",
+          "slug": "batangas-041000"
+        }
+      },
+      {
+        "id": "041003",
+        "level": 3,
+        "name": {
+          "local": "Balayan",
+          "en": "Balayan",
+          "slug": "balayan-041003"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4213"
+    ],
+    "geo": {
+      "lat": "13.9495",
+      "lon": "120.6763"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

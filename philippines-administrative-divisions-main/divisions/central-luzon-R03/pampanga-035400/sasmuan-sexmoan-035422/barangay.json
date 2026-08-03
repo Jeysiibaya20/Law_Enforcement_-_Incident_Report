@@ -1,0 +1,782 @@
+[
+  {
+    "id": "035422001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Batang 1st",
+      "en": "Batang 1st",
+      "slug": "batang-1st-035422001"
+    },
+    "code": {
+      "id": "035422001",
+      "iso": null
+    },
+    "parent": {
+      "id": "035422",
+      "level": 3,
+      "name": {
+        "local": "Sasmuan (Sexmoan)",
+        "en": "Sasmuan (Sexmoan)",
+        "slug": "sasmuan-sexmoan-035422"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035422",
+        "level": 3,
+        "name": {
+          "local": "Sasmuan (Sexmoan)",
+          "en": "Sasmuan (Sexmoan)",
+          "slug": "sasmuan-sexmoan-035422"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2004"
+    ],
+    "geo": {
+      "lat": "14.8305",
+      "lon": "120.6209"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035422002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Batang 2nd",
+      "en": "Batang 2nd",
+      "slug": "batang-2nd-035422002"
+    },
+    "code": {
+      "id": "035422002",
+      "iso": null
+    },
+    "parent": {
+      "id": "035422",
+      "level": 3,
+      "name": {
+        "local": "Sasmuan (Sexmoan)",
+        "en": "Sasmuan (Sexmoan)",
+        "slug": "sasmuan-sexmoan-035422"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035422",
+        "level": 3,
+        "name": {
+          "local": "Sasmuan (Sexmoan)",
+          "en": "Sasmuan (Sexmoan)",
+          "slug": "sasmuan-sexmoan-035422"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2004"
+    ],
+    "geo": {
+      "lat": "14.8184",
+      "lon": "120.618"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035422004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabuanbuan",
+      "en": "Mabuanbuan",
+      "slug": "mabuanbuan-035422004"
+    },
+    "code": {
+      "id": "035422004",
+      "iso": null
+    },
+    "parent": {
+      "id": "035422",
+      "level": 3,
+      "name": {
+        "local": "Sasmuan (Sexmoan)",
+        "en": "Sasmuan (Sexmoan)",
+        "slug": "sasmuan-sexmoan-035422"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035422",
+        "level": 3,
+        "name": {
+          "local": "Sasmuan (Sexmoan)",
+          "en": "Sasmuan (Sexmoan)",
+          "slug": "sasmuan-sexmoan-035422"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2004"
+    ],
+    "geo": {
+      "lat": "14.8297",
+      "lon": "120.6013"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035422005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malusac",
+      "en": "Malusac",
+      "slug": "malusac-035422005"
+    },
+    "code": {
+      "id": "035422005",
+      "iso": null
+    },
+    "parent": {
+      "id": "035422",
+      "level": 3,
+      "name": {
+        "local": "Sasmuan (Sexmoan)",
+        "en": "Sasmuan (Sexmoan)",
+        "slug": "sasmuan-sexmoan-035422"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035422",
+        "level": 3,
+        "name": {
+          "local": "Sasmuan (Sexmoan)",
+          "en": "Sasmuan (Sexmoan)",
+          "slug": "sasmuan-sexmoan-035422"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2004"
+    ],
+    "geo": {
+      "lat": "12.9574",
+      "lon": "121.4777"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035422013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sabitanan",
+      "en": "Sabitanan",
+      "slug": "sabitanan-035422013"
+    },
+    "code": {
+      "id": "035422013",
+      "iso": null
+    },
+    "parent": {
+      "id": "035422",
+      "level": 3,
+      "name": {
+        "local": "Sasmuan (Sexmoan)",
+        "en": "Sasmuan (Sexmoan)",
+        "slug": "sasmuan-sexmoan-035422"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035422",
+        "level": 3,
+        "name": {
+          "local": "Sasmuan (Sexmoan)",
+          "en": "Sasmuan (Sexmoan)",
+          "slug": "sasmuan-sexmoan-035422"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2004"
+    ],
+    "geo": {
+      "lat": "14.8448",
+      "lon": "120.6174"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035422007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio",
+      "en": "San Antonio",
+      "slug": "san-antonio-035422007"
+    },
+    "code": {
+      "id": "035422007",
+      "iso": null
+    },
+    "parent": {
+      "id": "035422",
+      "level": 3,
+      "name": {
+        "local": "Sasmuan (Sexmoan)",
+        "en": "Sasmuan (Sexmoan)",
+        "slug": "sasmuan-sexmoan-035422"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035422",
+        "level": 3,
+        "name": {
+          "local": "Sasmuan (Sexmoan)",
+          "en": "Sasmuan (Sexmoan)",
+          "slug": "sasmuan-sexmoan-035422"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2004"
+    ],
+    "geo": {
+      "lat": "15.3078",
+      "lon": "120.8533"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035422008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Nicolas 1st",
+      "en": "San Nicolas 1st",
+      "slug": "san-nicolas-1st-035422008"
+    },
+    "code": {
+      "id": "035422008",
+      "iso": null
+    },
+    "parent": {
+      "id": "035422",
+      "level": 3,
+      "name": {
+        "local": "Sasmuan (Sexmoan)",
+        "en": "Sasmuan (Sexmoan)",
+        "slug": "sasmuan-sexmoan-035422"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035422",
+        "level": 3,
+        "name": {
+          "local": "Sasmuan (Sexmoan)",
+          "en": "Sasmuan (Sexmoan)",
+          "slug": "sasmuan-sexmoan-035422"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2004"
+    ],
+    "geo": {
+      "lat": "14.933",
+      "lon": "120.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035422009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Nicolas 2nd",
+      "en": "San Nicolas 2nd",
+      "slug": "san-nicolas-2nd-035422009"
+    },
+    "code": {
+      "id": "035422009",
+      "iso": null
+    },
+    "parent": {
+      "id": "035422",
+      "level": 3,
+      "name": {
+        "local": "Sasmuan (Sexmoan)",
+        "en": "Sasmuan (Sexmoan)",
+        "slug": "sasmuan-sexmoan-035422"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035422",
+        "level": 3,
+        "name": {
+          "local": "Sasmuan (Sexmoan)",
+          "en": "Sasmuan (Sexmoan)",
+          "slug": "sasmuan-sexmoan-035422"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2004"
+    ],
+    "geo": {
+      "lat": "14.933",
+      "lon": "120.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035422010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro",
+      "en": "San Pedro",
+      "slug": "san-pedro-035422010"
+    },
+    "code": {
+      "id": "035422010",
+      "iso": null
+    },
+    "parent": {
+      "id": "035422",
+      "level": 3,
+      "name": {
+        "local": "Sasmuan (Sexmoan)",
+        "en": "Sasmuan (Sexmoan)",
+        "slug": "sasmuan-sexmoan-035422"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035422",
+        "level": 3,
+        "name": {
+          "local": "Sasmuan (Sexmoan)",
+          "en": "Sasmuan (Sexmoan)",
+          "slug": "sasmuan-sexmoan-035422"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2004"
+    ],
+    "geo": {
+      "lat": "14.3583",
+      "lon": "121.0583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035422006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Lucia (Pob.)",
+      "en": "Santa Lucia (Pob.)",
+      "slug": "santa-lucia-pob-035422006"
+    },
+    "code": {
+      "id": "035422006",
+      "iso": null
+    },
+    "parent": {
+      "id": "035422",
+      "level": 3,
+      "name": {
+        "local": "Sasmuan (Sexmoan)",
+        "en": "Sasmuan (Sexmoan)",
+        "slug": "sasmuan-sexmoan-035422"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035422",
+        "level": 3,
+        "name": {
+          "local": "Sasmuan (Sexmoan)",
+          "en": "Sasmuan (Sexmoan)",
+          "slug": "sasmuan-sexmoan-035422"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2004"
+    ],
+    "geo": {
+      "lat": "17.1222",
+      "lon": "120.4494"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035422011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Monica",
+      "en": "Santa Monica",
+      "slug": "santa-monica-035422011"
+    },
+    "code": {
+      "id": "035422011",
+      "iso": null
+    },
+    "parent": {
+      "id": "035422",
+      "level": 3,
+      "name": {
+        "local": "Sasmuan (Sexmoan)",
+        "en": "Sasmuan (Sexmoan)",
+        "slug": "sasmuan-sexmoan-035422"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035422",
+        "level": 3,
+        "name": {
+          "local": "Sasmuan (Sexmoan)",
+          "en": "Sasmuan (Sexmoan)",
+          "slug": "sasmuan-sexmoan-035422"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2004"
+    ],
+    "geo": {
+      "lat": "10.02",
+      "lon": "126.038"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "035422012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Tomas",
+      "en": "Santo Tomas",
+      "slug": "santo-tomas-035422012"
+    },
+    "code": {
+      "id": "035422012",
+      "iso": null
+    },
+    "parent": {
+      "id": "035422",
+      "level": 3,
+      "name": {
+        "local": "Sasmuan (Sexmoan)",
+        "en": "Sasmuan (Sexmoan)",
+        "slug": "sasmuan-sexmoan-035422"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "035400",
+        "level": 2,
+        "name": {
+          "local": "Pampanga",
+          "en": "Pampanga",
+          "slug": "pampanga-035400"
+        }
+      },
+      {
+        "id": "035422",
+        "level": 3,
+        "name": {
+          "local": "Sasmuan (Sexmoan)",
+          "en": "Sasmuan (Sexmoan)",
+          "slug": "sasmuan-sexmoan-035422"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2004"
+    ],
+    "geo": {
+      "lat": "14.08",
+      "lon": "121.18"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

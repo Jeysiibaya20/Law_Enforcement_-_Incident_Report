@@ -1,0 +1,56 @@
+{
+  "id": "112504",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Caraga",
+    "en": "Caraga",
+    "slug": "caraga-112504"
+  },
+  "code": {
+    "id": "112504",
+    "iso": null
+  },
+  "parent": {
+    "id": "112500",
+    "level": 2,
+    "name": {
+      "local": "Davao Oriental",
+      "en": "Davao Oriental",
+      "slug": "davao-oriental-112500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R11",
+      "level": 1,
+      "name": {
+        "local": "Davao Region",
+        "en": "Davao Region",
+        "slug": "davao-region-R11"
+      }
+    },
+    {
+      "id": "112500",
+      "level": 2,
+      "name": {
+        "local": "Davao Oriental",
+        "en": "Davao Oriental",
+        "slug": "davao-oriental-112500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 17
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.333",
+    "lon": "126.567"
+  },
+  "metadata": {},
+  "source": {}
+}

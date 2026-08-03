@@ -1,0 +1,912 @@
+[
+  {
+    "id": "101303001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Barongcot",
+      "en": "Barongcot",
+      "slug": "barongcot-101303001"
+    },
+    "code": {
+      "id": "101303001",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "7.59",
+      "lon": "125.0003"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bugwak",
+      "en": "Bugwak",
+      "slug": "bugwak-101303002"
+    },
+    "code": {
+      "id": "101303002",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "7.617",
+      "lon": "125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dolorosa",
+      "en": "Dolorosa",
+      "slug": "dolorosa-101303003"
+    },
+    "code": {
+      "id": "101303003",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "13.3822",
+      "lon": "123.3108"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kapalaran",
+      "en": "Kapalaran",
+      "slug": "kapalaran-101303004"
+    },
+    "code": {
+      "id": "101303004",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "8.107",
+      "lon": "123.7413"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kianggat",
+      "en": "Kianggat",
+      "slug": "kianggat-101303005"
+    },
+    "code": {
+      "id": "101303005",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "7.617",
+      "lon": "125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lourdes",
+      "en": "Lourdes",
+      "slug": "lourdes-101303006"
+    },
+    "code": {
+      "id": "101303006",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "8.525",
+      "lon": "124.4322"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Macarthur",
+      "en": "Macarthur",
+      "slug": "macarthur-101303007"
+    },
+    "code": {
+      "id": "101303007",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "11.0106",
+      "lon": "124.6075"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Miaray",
+      "en": "Miaray",
+      "slug": "miaray-101303008"
+    },
+    "code": {
+      "id": "101303008",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "7.5747",
+      "lon": "125.0444"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Migcuya",
+      "en": "Migcuya",
+      "slug": "migcuya-101303009"
+    },
+    "code": {
+      "id": "101303009",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "7.617",
+      "lon": "125"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "New Visayas",
+      "en": "New Visayas",
+      "slug": "new-visayas-101303010"
+    },
+    "code": {
+      "id": "101303010",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "7.5233",
+      "lon": "125.6233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Osmeña",
+      "en": "Osmeña",
+      "slug": "osmea-101303011"
+    },
+    "code": {
+      "id": "101303011",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "16.5273",
+      "lon": "121.1774"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-101303012"
+    },
+    "code": {
+      "id": "101303012",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sagbayan",
+      "en": "Sagbayan",
+      "slug": "sagbayan-101303013"
+    },
+    "code": {
+      "id": "101303013",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "9.92",
+      "lon": "124.1"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "101303014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Vicente",
+      "en": "San Vicente",
+      "slug": "san-vicente-101303014"
+    },
+    "code": {
+      "id": "101303014",
+      "iso": null
+    },
+    "parent": {
+      "id": "101303",
+      "level": 3,
+      "name": {
+        "local": "Dangcagan",
+        "en": "Dangcagan",
+        "slug": "dangcagan-101303"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R10",
+        "level": 1,
+        "name": {
+          "local": "Northern Mindanao",
+          "en": "Northern Mindanao",
+          "slug": "northern-mindanao-R10"
+        }
+      },
+      {
+        "id": "101300",
+        "level": 2,
+        "name": {
+          "local": "Bukidnon",
+          "en": "Bukidnon",
+          "slug": "bukidnon-101300"
+        }
+      },
+      {
+        "id": "101303",
+        "level": 3,
+        "name": {
+          "local": "Dangcagan",
+          "en": "Dangcagan",
+          "slug": "dangcagan-101303"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8719"
+    ],
+    "geo": {
+      "lat": "8.3511",
+      "lon": "124.9806"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "103511",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Magsaysay",
+    "en": "Magsaysay",
+    "slug": "magsaysay-103511"
+  },
+  "code": {
+    "id": "103511",
+    "iso": null
+  },
+  "parent": {
+    "id": "103500",
+    "level": 2,
+    "name": {
+      "local": "Lanao del Norte",
+      "en": "Lanao del Norte",
+      "slug": "lanao-del-norte-103500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    },
+    {
+      "id": "103500",
+      "level": 2,
+      "name": {
+        "local": "Lanao del Norte",
+        "en": "Lanao del Norte",
+        "slug": "lanao-del-norte-103500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 24
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.867",
+    "lon": "121.05"
+  },
+  "metadata": {},
+  "source": {}
+}

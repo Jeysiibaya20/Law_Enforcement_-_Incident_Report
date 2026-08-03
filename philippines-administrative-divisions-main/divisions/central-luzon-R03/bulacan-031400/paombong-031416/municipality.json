@@ -1,0 +1,56 @@
+{
+  "id": "031416",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Paombong",
+    "en": "Paombong",
+    "slug": "paombong-031416"
+  },
+  "code": {
+    "id": "031416",
+    "iso": null
+  },
+  "parent": {
+    "id": "031400",
+    "level": 2,
+    "name": {
+      "local": "Bulacan",
+      "en": "Bulacan",
+      "slug": "bulacan-031400"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "031400",
+      "level": 2,
+      "name": {
+        "local": "Bulacan",
+        "en": "Bulacan",
+        "slug": "bulacan-031400"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.83111",
+    "lon": "120.78917"
+  },
+  "metadata": {},
+  "source": {}
+}

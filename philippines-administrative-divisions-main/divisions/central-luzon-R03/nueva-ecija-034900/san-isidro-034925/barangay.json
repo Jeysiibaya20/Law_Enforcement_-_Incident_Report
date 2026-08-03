@@ -1,0 +1,587 @@
+[
+  {
+    "id": "034925001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alua",
+      "en": "Alua",
+      "slug": "alua-034925001"
+    },
+    "code": {
+      "id": "034925001",
+      "iso": null
+    },
+    "parent": {
+      "id": "034925",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-034925"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034925",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-034925"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3106"
+    ],
+    "geo": {
+      "lat": "15.3115",
+      "lon": "120.8943"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034925002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calaba",
+      "en": "Calaba",
+      "slug": "calaba-034925002"
+    },
+    "code": {
+      "id": "034925002",
+      "iso": null
+    },
+    "parent": {
+      "id": "034925",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-034925"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034925",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-034925"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3106"
+    ],
+    "geo": {
+      "lat": "15.3005",
+      "lon": "120.8742"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034925004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malapit",
+      "en": "Malapit",
+      "slug": "malapit-034925004"
+    },
+    "code": {
+      "id": "034925004",
+      "iso": null
+    },
+    "parent": {
+      "id": "034925",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-034925"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034925",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-034925"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3106"
+    ],
+    "geo": {
+      "lat": "15.3058",
+      "lon": "120.9209"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034925005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mangga",
+      "en": "Mangga",
+      "slug": "mangga-034925005"
+    },
+    "code": {
+      "id": "034925005",
+      "iso": null
+    },
+    "parent": {
+      "id": "034925",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-034925"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034925",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-034925"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3106"
+    ],
+    "geo": {
+      "lat": "15.2504",
+      "lon": "120.9088"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034925006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-034925006"
+    },
+    "code": {
+      "id": "034925006",
+      "iso": null
+    },
+    "parent": {
+      "id": "034925",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-034925"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034925",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-034925"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3106"
+    ],
+    "geo": {
+      "lat": "15.3051",
+      "lon": "120.8597"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034925008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pulo",
+      "en": "Pulo",
+      "slug": "pulo-034925008"
+    },
+    "code": {
+      "id": "034925008",
+      "iso": null
+    },
+    "parent": {
+      "id": "034925",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-034925"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034925",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-034925"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3106"
+    ],
+    "geo": {
+      "lat": "15.3352",
+      "lon": "121.0493"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034925010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque",
+      "en": "San Roque",
+      "slug": "san-roque-034925010"
+    },
+    "code": {
+      "id": "034925010",
+      "iso": null
+    },
+    "parent": {
+      "id": "034925",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-034925"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034925",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-034925"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3106"
+    ],
+    "geo": {
+      "lat": "15.25",
+      "lon": "120.85"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034925011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santo Cristo",
+      "en": "Santo Cristo",
+      "slug": "santo-cristo-034925011"
+    },
+    "code": {
+      "id": "034925011",
+      "iso": null
+    },
+    "parent": {
+      "id": "034925",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-034925"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034925",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-034925"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3106"
+    ],
+    "geo": {
+      "lat": "15.298",
+      "lon": "120.8514"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "034925012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tabon",
+      "en": "Tabon",
+      "slug": "tabon-034925012"
+    },
+    "code": {
+      "id": "034925012",
+      "iso": null
+    },
+    "parent": {
+      "id": "034925",
+      "level": 3,
+      "name": {
+        "local": "San Isidro",
+        "en": "San Isidro",
+        "slug": "san-isidro-034925"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "034900",
+        "level": 2,
+        "name": {
+          "local": "Nueva Ecija",
+          "en": "Nueva Ecija",
+          "slug": "nueva-ecija-034900"
+        }
+      },
+      {
+        "id": "034925",
+        "level": 3,
+        "name": {
+          "local": "San Isidro",
+          "en": "San Isidro",
+          "slug": "san-isidro-034925"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3106"
+    ],
+    "geo": {
+      "lat": "15.271",
+      "lon": "120.9127"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

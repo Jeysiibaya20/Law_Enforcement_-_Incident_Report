@@ -1,0 +1,847 @@
+[
+  {
+    "id": "175912001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Agpudlos",
+      "en": "Agpudlos",
+      "slug": "agpudlos-175912001"
+    },
+    "code": {
+      "id": "175912001",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "12.5584",
+      "lon": "122.0033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175912002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calunacon",
+      "en": "Calunacon",
+      "slug": "calunacon-175912002"
+    },
+    "code": {
+      "id": "175912002",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "12.5398",
+      "lon": "122.0101"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175912003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Doña Trinidad",
+      "en": "Doña Trinidad",
+      "slug": "doa-trinidad-175912003"
+    },
+    "code": {
+      "id": "175912003",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "14.7973",
+      "lon": "120.4871"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175912013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Juncarlo",
+      "en": "Juncarlo",
+      "slug": "juncarlo-175912013"
+    },
+    "code": {
+      "id": "175912013",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "12.517",
+      "lon": "122.017"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175912004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Linawan",
+      "en": "Linawan",
+      "slug": "linawan-175912004"
+    },
+    "code": {
+      "id": "175912004",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "12.5455",
+      "lon": "122.0123"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175912005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabini",
+      "en": "Mabini",
+      "slug": "mabini-175912005"
+    },
+    "code": {
+      "id": "175912005",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "12.7962",
+      "lon": "122.0351"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175912006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Marigondon Norte",
+      "en": "Marigondon Norte",
+      "slug": "marigondon-norte-175912006"
+    },
+    "code": {
+      "id": "175912006",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "12.532",
+      "lon": "122.0553"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175912007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Marigondon Sur",
+      "en": "Marigondon Sur",
+      "slug": "marigondon-sur-175912007"
+    },
+    "code": {
+      "id": "175912007",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "12.5229",
+      "lon": "122.0413"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175912008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Matutuna",
+      "en": "Matutuna",
+      "slug": "matutuna-175912008"
+    },
+    "code": {
+      "id": "175912008",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "12.4908",
+      "lon": "122.0166"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175912009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pag-Alad",
+      "en": "Pag-Alad",
+      "slug": "pag-alad-175912009"
+    },
+    "code": {
+      "id": "175912009",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "12.5281",
+      "lon": "122.0374"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175912010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-175912010"
+    },
+    "code": {
+      "id": "175912010",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175912011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tan-Agan",
+      "en": "Tan-Agan",
+      "slug": "tan-agan-175912011"
+    },
+    "code": {
+      "id": "175912011",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "12.5072",
+      "lon": "122.0122"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "175912012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Victoria",
+      "en": "Victoria",
+      "slug": "victoria-175912012"
+    },
+    "code": {
+      "id": "175912012",
+      "iso": null
+    },
+    "parent": {
+      "id": "175912",
+      "level": 3,
+      "name": {
+        "local": "San Andres",
+        "en": "San Andres",
+        "slug": "san-andres-175912"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R17",
+        "level": 1,
+        "name": {
+          "local": "MIMAROPA Region",
+          "en": "MIMAROPA Region",
+          "slug": "mimaropa-region-R17"
+        }
+      },
+      {
+        "id": "175900",
+        "level": 2,
+        "name": {
+          "local": "Romblon",
+          "en": "Romblon",
+          "slug": "romblon-175900"
+        }
+      },
+      {
+        "id": "175912",
+        "level": 3,
+        "name": {
+          "local": "San Andres",
+          "en": "San Andres",
+          "slug": "san-andres-175912"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "5504"
+    ],
+    "geo": {
+      "lat": "12.4904",
+      "lon": "122.0607"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

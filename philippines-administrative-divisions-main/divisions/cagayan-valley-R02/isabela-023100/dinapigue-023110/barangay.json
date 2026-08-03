@@ -1,0 +1,392 @@
+[
+  {
+    "id": "023110001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ayod",
+      "en": "Ayod",
+      "slug": "ayod-023110001"
+    },
+    "code": {
+      "id": "023110001",
+      "iso": null
+    },
+    "parent": {
+      "id": "023110",
+      "level": 3,
+      "name": {
+        "local": "Dinapigue",
+        "en": "Dinapigue",
+        "slug": "dinapigue-023110"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023110",
+        "level": 3,
+        "name": {
+          "local": "Dinapigue",
+          "en": "Dinapigue",
+          "slug": "dinapigue-023110"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3336"
+    ],
+    "geo": {
+      "lat": "16.667",
+      "lon": "122.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023110003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bucal Norte",
+      "en": "Bucal Norte",
+      "slug": "bucal-norte-023110003"
+    },
+    "code": {
+      "id": "023110003",
+      "iso": null
+    },
+    "parent": {
+      "id": "023110",
+      "level": 3,
+      "name": {
+        "local": "Dinapigue",
+        "en": "Dinapigue",
+        "slug": "dinapigue-023110"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023110",
+        "level": 3,
+        "name": {
+          "local": "Dinapigue",
+          "en": "Dinapigue",
+          "slug": "dinapigue-023110"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3336"
+    ],
+    "geo": {
+      "lat": "16.5452",
+      "lon": "122.2654"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023110002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bucal Sur",
+      "en": "Bucal Sur",
+      "slug": "bucal-sur-023110002"
+    },
+    "code": {
+      "id": "023110002",
+      "iso": null
+    },
+    "parent": {
+      "id": "023110",
+      "level": 3,
+      "name": {
+        "local": "Dinapigue",
+        "en": "Dinapigue",
+        "slug": "dinapigue-023110"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023110",
+        "level": 3,
+        "name": {
+          "local": "Dinapigue",
+          "en": "Dinapigue",
+          "slug": "dinapigue-023110"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3336"
+    ],
+    "geo": {
+      "lat": "16.5407",
+      "lon": "122.2653"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023110004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dibulo",
+      "en": "Dibulo",
+      "slug": "dibulo-023110004"
+    },
+    "code": {
+      "id": "023110004",
+      "iso": null
+    },
+    "parent": {
+      "id": "023110",
+      "level": 3,
+      "name": {
+        "local": "Dinapigue",
+        "en": "Dinapigue",
+        "slug": "dinapigue-023110"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023110",
+        "level": 3,
+        "name": {
+          "local": "Dinapigue",
+          "en": "Dinapigue",
+          "slug": "dinapigue-023110"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3336"
+    ],
+    "geo": {
+      "lat": "16.5239",
+      "lon": "122.259"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023110005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Digumased (Pob.)",
+      "en": "Digumased (Pob.)",
+      "slug": "digumased-pob-023110005"
+    },
+    "code": {
+      "id": "023110005",
+      "iso": null
+    },
+    "parent": {
+      "id": "023110",
+      "level": 3,
+      "name": {
+        "local": "Dinapigue",
+        "en": "Dinapigue",
+        "slug": "dinapigue-023110"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023110",
+        "level": 3,
+        "name": {
+          "local": "Dinapigue",
+          "en": "Dinapigue",
+          "slug": "dinapigue-023110"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3336"
+    ],
+    "geo": {
+      "lat": "16.667",
+      "lon": "122.35"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "023110006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dimaluade",
+      "en": "Dimaluade",
+      "slug": "dimaluade-023110006"
+    },
+    "code": {
+      "id": "023110006",
+      "iso": null
+    },
+    "parent": {
+      "id": "023110",
+      "level": 3,
+      "name": {
+        "local": "Dinapigue",
+        "en": "Dinapigue",
+        "slug": "dinapigue-023110"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "023100",
+        "level": 2,
+        "name": {
+          "local": "Isabela",
+          "en": "Isabela",
+          "slug": "isabela-023100"
+        }
+      },
+      {
+        "id": "023110",
+        "level": 3,
+        "name": {
+          "local": "Dinapigue",
+          "en": "Dinapigue",
+          "slug": "dinapigue-023110"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3336"
+    ],
+    "geo": {
+      "lat": "16.667",
+      "lon": "122.35"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

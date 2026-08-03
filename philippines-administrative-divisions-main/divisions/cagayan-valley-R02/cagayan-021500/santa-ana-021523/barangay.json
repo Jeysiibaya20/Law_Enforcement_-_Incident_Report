@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "021523009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Batu-Parada",
+      "en": "Batu-Parada",
+      "slug": "batu-parada-021523009"
+    },
+    "code": {
+      "id": "021523009",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "15.09389",
+      "lon": "120.76806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Casagan",
+      "en": "Casagan",
+      "slug": "casagan-021523001"
+    },
+    "code": {
+      "id": "021523001",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "18.4705",
+      "lon": "122.1717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Casambalangan (Port Irene)",
+      "en": "Casambalangan (Port Irene)",
+      "slug": "casambalangan-port-irene-021523002"
+    },
+    "code": {
+      "id": "021523002",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "18.3765",
+      "lon": "122.1275"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro (Pob.)",
+      "en": "Centro (Pob.)",
+      "slug": "centro-pob-021523003"
+    },
+    "code": {
+      "id": "021523003",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Diora-Zinungan",
+      "en": "Diora-Zinungan",
+      "slug": "diora-zinungan-021523004"
+    },
+    "code": {
+      "id": "021523004",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "15.09389",
+      "lon": "120.76806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dungeg",
+      "en": "Dungeg",
+      "slug": "dungeg-021523005"
+    },
+    "code": {
+      "id": "021523005",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "18.2108",
+      "lon": "121.9362"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kapanikian",
+      "en": "Kapanikian",
+      "slug": "kapanikian-021523006"
+    },
+    "code": {
+      "id": "021523006",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "18.25",
+      "lon": "121.5667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Marede",
+      "en": "Marede",
+      "slug": "marede-021523007"
+    },
+    "code": {
+      "id": "021523007",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "18.4577",
+      "lon": "122.1742"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Palawig",
+      "en": "Palawig",
+      "slug": "palawig-021523008"
+    },
+    "code": {
+      "id": "021523008",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "18.4694",
+      "lon": "122.1449"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Patunungan",
+      "en": "Patunungan",
+      "slug": "patunungan-021523010"
+    },
+    "code": {
+      "id": "021523010",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "15.09389",
+      "lon": "120.76806"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rapuli (Punti)",
+      "en": "Rapuli (Punti)",
+      "slug": "rapuli-punti-021523011"
+    },
+    "code": {
+      "id": "021523011",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "18.3962",
+      "lon": "122.1311"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Vicente (Fort)",
+      "en": "San Vicente (Fort)",
+      "slug": "san-vicente-fort-021523012"
+    },
+    "code": {
+      "id": "021523012",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "17.972",
+      "lon": "121.6138"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Clara",
+      "en": "Santa Clara",
+      "slug": "santa-clara-021523013"
+    },
+    "code": {
+      "id": "021523013",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "18.275",
+      "lon": "122.075"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-021523014"
+    },
+    "code": {
+      "id": "021523014",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "18.3994",
+      "lon": "121.53"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tangatan",
+      "en": "Tangatan",
+      "slug": "tangatan-021523016"
+    },
+    "code": {
+      "id": "021523016",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "18.4987",
+      "lon": "122.1515"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021523015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Visitacion (Pob.)",
+      "en": "Visitacion (Pob.)",
+      "slug": "visitacion-pob-021523015"
+    },
+    "code": {
+      "id": "021523015",
+      "iso": null
+    },
+    "parent": {
+      "id": "021523",
+      "level": 3,
+      "name": {
+        "local": "Santa Ana",
+        "en": "Santa Ana",
+        "slug": "santa-ana-021523"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021523",
+        "level": 3,
+        "name": {
+          "local": "Santa Ana",
+          "en": "Santa Ana",
+          "slug": "santa-ana-021523"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3514"
+    ],
+    "geo": {
+      "lat": "17.3443",
+      "lon": "121.7543"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

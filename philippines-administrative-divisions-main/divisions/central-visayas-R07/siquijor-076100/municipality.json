@@ -1,0 +1,338 @@
+[
+  {
+    "id": "076101",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Enrique Villanueva",
+      "en": "Enrique Villanueva",
+      "slug": "enrique-villanueva-076101"
+    },
+    "code": {
+      "id": "076101",
+      "iso": null
+    },
+    "parent": {
+      "id": "076100",
+      "level": 2,
+      "name": {
+        "local": "Siquijor",
+        "en": "Siquijor",
+        "slug": "siquijor-076100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "076100",
+        "level": 2,
+        "name": {
+          "local": "Siquijor",
+          "en": "Siquijor",
+          "slug": "siquijor-076100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 14
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.25",
+      "lon": "123.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "076102",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Larena",
+      "en": "Larena",
+      "slug": "larena-076102"
+    },
+    "code": {
+      "id": "076102",
+      "iso": null
+    },
+    "parent": {
+      "id": "076100",
+      "level": 2,
+      "name": {
+        "local": "Siquijor",
+        "en": "Siquijor",
+        "slug": "siquijor-076100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "076100",
+        "level": 2,
+        "name": {
+          "local": "Siquijor",
+          "en": "Siquijor",
+          "slug": "siquijor-076100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 23
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.25",
+      "lon": "123.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "076103",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Lazi",
+      "en": "Lazi",
+      "slug": "lazi-076103"
+    },
+    "code": {
+      "id": "076103",
+      "iso": null
+    },
+    "parent": {
+      "id": "076100",
+      "level": 2,
+      "name": {
+        "local": "Siquijor",
+        "en": "Siquijor",
+        "slug": "siquijor-076100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "076100",
+        "level": 2,
+        "name": {
+          "local": "Siquijor",
+          "en": "Siquijor",
+          "slug": "siquijor-076100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 18
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.13",
+      "lon": "123.63"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "076104",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Maria",
+      "en": "Maria",
+      "slug": "maria-076104"
+    },
+    "code": {
+      "id": "076104",
+      "iso": null
+    },
+    "parent": {
+      "id": "076100",
+      "level": 2,
+      "name": {
+        "local": "Siquijor",
+        "en": "Siquijor",
+        "slug": "siquijor-076100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "076100",
+        "level": 2,
+        "name": {
+          "local": "Siquijor",
+          "en": "Siquijor",
+          "slug": "siquijor-076100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.2",
+      "lon": "123.65"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "076105",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "San Juan",
+      "en": "San Juan",
+      "slug": "san-juan-076105"
+    },
+    "code": {
+      "id": "076105",
+      "iso": null
+    },
+    "parent": {
+      "id": "076100",
+      "level": 2,
+      "name": {
+        "local": "Siquijor",
+        "en": "Siquijor",
+        "slug": "siquijor-076100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "076100",
+        "level": 2,
+        "name": {
+          "local": "Siquijor",
+          "en": "Siquijor",
+          "slug": "siquijor-076100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.17",
+      "lon": "123.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "076106",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Siquijor",
+      "en": "Siquijor",
+      "slug": "siquijor-076106"
+    },
+    "code": {
+      "id": "076106",
+      "iso": null
+    },
+    "parent": {
+      "id": "076100",
+      "level": 2,
+      "name": {
+        "local": "Siquijor",
+        "en": "Siquijor",
+        "slug": "siquijor-076100"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R07",
+        "level": 1,
+        "name": {
+          "local": "Central Visayas",
+          "en": "Central Visayas",
+          "slug": "central-visayas-R07"
+        }
+      },
+      {
+        "id": "076100",
+        "level": 2,
+        "name": {
+          "local": "Siquijor",
+          "en": "Siquijor",
+          "slug": "siquijor-076100"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "9.22",
+      "lon": "123.52"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

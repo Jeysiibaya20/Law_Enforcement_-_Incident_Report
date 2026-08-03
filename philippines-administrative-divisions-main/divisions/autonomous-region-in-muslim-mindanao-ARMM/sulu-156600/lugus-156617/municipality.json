@@ -1,0 +1,56 @@
+{
+  "id": "156617",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Lugus",
+    "en": "Lugus",
+    "slug": "lugus-156617"
+  },
+  "code": {
+    "id": "156617",
+    "iso": null
+  },
+  "parent": {
+    "id": "156600",
+    "level": 2,
+    "name": {
+      "local": "Sulu",
+      "en": "Sulu",
+      "slug": "sulu-156600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "ARMM",
+      "level": 1,
+      "name": {
+        "local": "Autonomous Region in Muslim Mindanao",
+        "en": "Autonomous Region in Muslim Mindanao",
+        "slug": "autonomous-region-in-muslim-mindanao-ARMM"
+      }
+    },
+    {
+      "id": "156600",
+      "level": 2,
+      "name": {
+        "local": "Sulu",
+        "en": "Sulu",
+        "slug": "sulu-156600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 17
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "5.7",
+    "lon": "120.817"
+  },
+  "metadata": {},
+  "source": {}
+}

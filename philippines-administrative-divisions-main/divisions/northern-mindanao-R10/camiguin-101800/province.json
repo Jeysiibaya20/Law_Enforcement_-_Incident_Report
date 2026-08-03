@@ -1,0 +1,48 @@
+{
+  "id": "101800",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Camiguin",
+    "en": "Camiguin",
+    "slug": "camiguin-101800"
+  },
+  "code": {
+    "id": "101800",
+    "iso": null
+  },
+  "parent": {
+    "id": "R10",
+    "level": 1,
+    "name": {
+      "local": "Northern Mindanao",
+      "en": "Northern Mindanao",
+      "slug": "northern-mindanao-R10"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R10",
+      "level": 1,
+      "name": {
+        "local": "Northern Mindanao",
+        "en": "Northern Mindanao",
+        "slug": "northern-mindanao-R10"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 5,
+    "barangay": 58
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.7314",
+    "lon": "124.328"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,912 @@
+[
+  {
+    "id": "166723014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Albino Taruc",
+      "en": "Albino Taruc",
+      "slug": "albino-taruc-166723014"
+    },
+    "code": {
+      "id": "166723014",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "13.067",
+      "lon": "121.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Del Pilar",
+      "en": "Del Pilar",
+      "slug": "del-pilar-166723001"
+    },
+    "code": {
+      "id": "166723001",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "10.3197",
+      "lon": "119.3408"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Helene",
+      "en": "Helene",
+      "slug": "helene-166723002"
+    },
+    "code": {
+      "id": "166723002",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "13.067",
+      "lon": "121.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Honrado",
+      "en": "Honrado",
+      "slug": "honrado-166723003"
+    },
+    "code": {
+      "id": "166723003",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "13.067",
+      "lon": "121.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Navarro (Pob.)",
+      "en": "Navarro (Pob.)",
+      "slug": "navarro-pob-166723004"
+    },
+    "code": {
+      "id": "166723004",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "12.1031",
+      "lon": "124.565"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nueva Estrella",
+      "en": "Nueva Estrella",
+      "slug": "nueva-estrella-166723005"
+    },
+    "code": {
+      "id": "166723005",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "9.6283",
+      "lon": "125.9389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pamosaingan",
+      "en": "Pamosaingan",
+      "slug": "pamosaingan-166723006"
+    },
+    "code": {
+      "id": "166723006",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "9.6494",
+      "lon": "125.9242"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rizal (Pob.)",
+      "en": "Rizal (Pob.)",
+      "slug": "rizal-pob-166723007"
+    },
+    "code": {
+      "id": "166723007",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "9.7804",
+      "lon": "125.4643"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Salog",
+      "en": "Salog",
+      "slug": "salog-166723008"
+    },
+    "code": {
+      "id": "166723008",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "8.1075",
+      "lon": "122.7575"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque",
+      "en": "San Roque",
+      "slug": "san-roque-166723009"
+    },
+    "code": {
+      "id": "166723009",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "9.8036",
+      "lon": "126.0644"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Santa Cruz",
+      "en": "Santa Cruz",
+      "slug": "santa-cruz-166723010"
+    },
+    "code": {
+      "id": "166723010",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "9.6467",
+      "lon": "125.9072"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sering",
+      "en": "Sering",
+      "slug": "sering-166723011"
+    },
+    "code": {
+      "id": "166723011",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "13.067",
+      "lon": "121.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Songkoy",
+      "en": "Songkoy",
+      "slug": "songkoy-166723012"
+    },
+    "code": {
+      "id": "166723012",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "15.9665",
+      "lon": "120.3782"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166723013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sudlon",
+      "en": "Sudlon",
+      "slug": "sudlon-166723013"
+    },
+    "code": {
+      "id": "166723013",
+      "iso": null
+    },
+    "parent": {
+      "id": "166723",
+      "level": 3,
+      "name": {
+        "local": "Socorro",
+        "en": "Socorro",
+        "slug": "socorro-166723"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166700",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Norte",
+          "en": "Surigao del Norte",
+          "slug": "surigao-del-norte-166700"
+        }
+      },
+      {
+        "id": "166723",
+        "level": 3,
+        "name": {
+          "local": "Socorro",
+          "en": "Socorro",
+          "slug": "socorro-166723"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8416"
+    ],
+    "geo": {
+      "lat": "9.8739",
+      "lon": "124.4092"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

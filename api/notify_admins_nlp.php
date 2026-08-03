@@ -13,6 +13,23 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+function getAppUrl(): string {
+    $url = trim(getenv('APP_URL') ?: '');
+    if ($url !== '') {
+        return rtrim($url, '/');
+    }
+
+    $scheme = 'http';
+    if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') {
+        $scheme = 'https';
+    } elseif (!empty($_SERVER['REQUEST_SCHEME']) && $_SERVER['REQUEST_SCHEME'] === 'https') {
+        $scheme = 'https';
+    }
+
+    $host = $_SERVER['HTTP_HOST'] ?? ($_SERVER['SERVER_NAME'] ?? '');
+    return rtrim($scheme . '://' . $host, '/');
+}
+
 class IncidentNLPNotifier {
     
     /**
@@ -145,6 +162,8 @@ class IncidentNLPNotifier {
             $mail->isHTML(true);
             $mail->Subject = "🚨 HIGH-PRIORITY INCIDENT - {$case_no}";
 
+            $appUrl = getAppUrl();
+
             // Create professional HTML email
             $html_body = "
                 <html>
@@ -224,8 +243,8 @@ class IncidentNLPNotifier {
                         </div>
 
                         <div class='section'>
-                            <a href='http://localhost/Law_Enforcement_-_Incident_Report/admin/dashboard.php' class='button'>
-                                View in Admin Dashboard
+                            <a href='{$appUrl}/admin/dashboard.php' class='button'>
+                                View the Admin Dashboard
                             </a>
                         </div>
 

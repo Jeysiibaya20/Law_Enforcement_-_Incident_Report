@@ -1,0 +1,56 @@
+{
+  "id": "012920",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Juan (Lapog)",
+    "en": "San Juan (Lapog)",
+    "slug": "san-juan-lapog-012920"
+  },
+  "code": {
+    "id": "012920",
+    "iso": null
+  },
+  "parent": {
+    "id": "012900",
+    "level": 2,
+    "name": {
+      "local": "Ilocos Sur",
+      "en": "Ilocos Sur",
+      "slug": "ilocos-sur-012900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R01",
+      "level": 1,
+      "name": {
+        "local": "Ilocos Region",
+        "en": "Ilocos Region",
+        "slug": "ilocos-region-R01"
+      }
+    },
+    {
+      "id": "012900",
+      "level": 2,
+      "name": {
+        "local": "Ilocos Sur",
+        "en": "Ilocos Sur",
+        "slug": "ilocos-sur-012900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 32
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "17.72917",
+    "lon": "120.46083"
+  },
+  "metadata": {},
+  "source": {}
+}

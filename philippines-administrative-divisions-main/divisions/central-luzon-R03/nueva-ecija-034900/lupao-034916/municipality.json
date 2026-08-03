@@ -1,0 +1,56 @@
+{
+  "id": "034916",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Lupao",
+    "en": "Lupao",
+    "slug": "lupao-034916"
+  },
+  "code": {
+    "id": "034916",
+    "iso": null
+  },
+  "parent": {
+    "id": "034900",
+    "level": 2,
+    "name": {
+      "local": "Nueva Ecija",
+      "en": "Nueva Ecija",
+      "slug": "nueva-ecija-034900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "034900",
+      "level": 2,
+      "name": {
+        "local": "Nueva Ecija",
+        "en": "Nueva Ecija",
+        "slug": "nueva-ecija-034900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 24
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.883",
+    "lon": "120.9"
+  },
+  "metadata": {},
+  "source": {}
+}

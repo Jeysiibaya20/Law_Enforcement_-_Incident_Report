@@ -1,0 +1,912 @@
+[
+  {
+    "id": "031406001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bonga Mayor",
+      "en": "Bonga Mayor",
+      "slug": "bonga-mayor-031406001"
+    },
+    "code": {
+      "id": "031406001",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.9588",
+      "lon": "120.9407"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bonga Menor",
+      "en": "Bonga Menor",
+      "slug": "bonga-menor-031406002"
+    },
+    "code": {
+      "id": "031406002",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.9494",
+      "lon": "120.9306"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buisan",
+      "en": "Buisan",
+      "slug": "buisan-031406003"
+    },
+    "code": {
+      "id": "031406003",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.9024",
+      "lon": "120.9235"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Camachilihan",
+      "en": "Camachilihan",
+      "slug": "camachilihan-031406004"
+    },
+    "code": {
+      "id": "031406004",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.9045",
+      "lon": "120.9117"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cambaog",
+      "en": "Cambaog",
+      "slug": "cambaog-031406005"
+    },
+    "code": {
+      "id": "031406005",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.9292",
+      "lon": "120.8947"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Catacte",
+      "en": "Catacte",
+      "slug": "catacte-031406006"
+    },
+    "code": {
+      "id": "031406006",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.9256",
+      "lon": "120.9434"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Liciada",
+      "en": "Liciada",
+      "slug": "liciada-031406007"
+    },
+    "code": {
+      "id": "031406007",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.9148",
+      "lon": "120.9318"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malamig",
+      "en": "Malamig",
+      "slug": "malamig-031406008"
+    },
+    "code": {
+      "id": "031406008",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.94",
+      "lon": "120.9297"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malawak",
+      "en": "Malawak",
+      "slug": "malawak-031406009"
+    },
+    "code": {
+      "id": "031406009",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.9146",
+      "lon": "120.9437"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-031406010"
+    },
+    "code": {
+      "id": "031406010",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.8296",
+      "lon": "120.8755"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro",
+      "en": "San Pedro",
+      "slug": "san-pedro-031406011"
+    },
+    "code": {
+      "id": "031406011",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.8496",
+      "lon": "121.0598"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Talampas",
+      "en": "Talampas",
+      "slug": "talampas-031406012"
+    },
+    "code": {
+      "id": "031406012",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.9345",
+      "lon": "120.9094"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tanawan",
+      "en": "Tanawan",
+      "slug": "tanawan-031406013"
+    },
+    "code": {
+      "id": "031406013",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.9549",
+      "lon": "120.9204"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "031406014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tibagan",
+      "en": "Tibagan",
+      "slug": "tibagan-031406014"
+    },
+    "code": {
+      "id": "031406014",
+      "iso": null
+    },
+    "parent": {
+      "id": "031406",
+      "level": 3,
+      "name": {
+        "local": "Bustos",
+        "en": "Bustos",
+        "slug": "bustos-031406"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R03",
+        "level": 1,
+        "name": {
+          "local": "Central Luzon",
+          "en": "Central Luzon",
+          "slug": "central-luzon-R03"
+        }
+      },
+      {
+        "id": "031400",
+        "level": 2,
+        "name": {
+          "local": "Bulacan",
+          "en": "Bulacan",
+          "slug": "bulacan-031400"
+        }
+      },
+      {
+        "id": "031406",
+        "level": 3,
+        "name": {
+          "local": "Bustos",
+          "en": "Bustos",
+          "slug": "bustos-031406"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3007"
+    ],
+    "geo": {
+      "lat": "14.7789",
+      "lon": "120.7111"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

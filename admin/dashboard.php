@@ -200,7 +200,7 @@ try {
                 </a>
             </div>
             <div class="col-md-6 col-lg-3">
-                <a href="reports.php" class="text-decoration-none">
+                <a href="dashboard.php" class="text-decoration-none">
                     <div class="card h-100 admin-menu-card">
                         <div class="card-body text-center">
                             <i class="bi bi-graph-up" style="font-size: 2.5rem; color: #ffc107;"></i>

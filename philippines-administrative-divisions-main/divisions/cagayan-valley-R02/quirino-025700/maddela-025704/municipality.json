@@ -1,0 +1,56 @@
+{
+  "id": "025704",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Maddela",
+    "en": "Maddela",
+    "slug": "maddela-025704"
+  },
+  "code": {
+    "id": "025704",
+    "iso": null
+  },
+  "parent": {
+    "id": "025700",
+    "level": 2,
+    "name": {
+      "local": "Quirino",
+      "en": "Quirino",
+      "slug": "quirino-025700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    {
+      "id": "025700",
+      "level": 2,
+      "name": {
+        "local": "Quirino",
+        "en": "Quirino",
+        "slug": "quirino-025700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 32
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.35",
+    "lon": "121.7"
+  },
+  "metadata": {},
+  "source": {}
+}

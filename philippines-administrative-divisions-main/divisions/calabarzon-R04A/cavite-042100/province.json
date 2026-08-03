@@ -1,0 +1,48 @@
+{
+  "id": "042100",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Cavite",
+    "en": "Cavite",
+    "slug": "cavite-042100"
+  },
+  "code": {
+    "id": "042100",
+    "iso": null
+  },
+  "parent": {
+    "id": "R04A",
+    "level": 1,
+    "name": {
+      "local": "CALABARZON",
+      "en": "CALABARZON",
+      "slug": "calabarzon-R04A"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R04A",
+      "level": 1,
+      "name": {
+        "local": "CALABARZON",
+        "en": "CALABARZON",
+        "slug": "calabarzon-R04A"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 23,
+    "barangay": 829
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "14.5343",
+    "lon": "120.9567"
+  },
+  "metadata": {},
+  "source": {}
+}

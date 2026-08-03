@@ -1,0 +1,1432 @@
+[
+  {
+    "id": "051602001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alayao",
+      "en": "Alayao",
+      "slug": "alayao-051602001"
+    },
+    "code": {
+      "id": "051602001",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.2818",
+      "lon": "122.5524"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Binawangan",
+      "en": "Binawangan",
+      "slug": "binawangan-051602002"
+    },
+    "code": {
+      "id": "051602002",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.2796",
+      "lon": "122.4032"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Calabaca",
+      "en": "Calabaca",
+      "slug": "calabaca-051602003"
+    },
+    "code": {
+      "id": "051602003",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.3001",
+      "lon": "122.4336"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Camagsaan",
+      "en": "Camagsaan",
+      "slug": "camagsaan-051602004"
+    },
+    "code": {
+      "id": "051602004",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.3167",
+      "lon": "122.4667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Catabaguangan",
+      "en": "Catabaguangan",
+      "slug": "catabaguangan-051602005"
+    },
+    "code": {
+      "id": "051602005",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.333",
+      "lon": "122.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Catioan",
+      "en": "Catioan",
+      "slug": "catioan-051602006"
+    },
+    "code": {
+      "id": "051602006",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.333",
+      "lon": "122.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Del Pilar",
+      "en": "Del Pilar",
+      "slug": "del-pilar-051602007"
+    },
+    "code": {
+      "id": "051602007",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.2807",
+      "lon": "122.3828"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Itok",
+      "en": "Itok",
+      "slug": "itok-051602008"
+    },
+    "code": {
+      "id": "051602008",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.333",
+      "lon": "122.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Lucbanan",
+      "en": "Lucbanan",
+      "slug": "lucbanan-051602009"
+    },
+    "code": {
+      "id": "051602009",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.333",
+      "lon": "122.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabini",
+      "en": "Mabini",
+      "slug": "mabini-051602010"
+    },
+    "code": {
+      "id": "051602010",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.2667",
+      "lon": "122.4333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mactang",
+      "en": "Mactang",
+      "slug": "mactang-051602011"
+    },
+    "code": {
+      "id": "051602011",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.3069",
+      "lon": "122.4411"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magsaysay",
+      "en": "Magsaysay",
+      "slug": "magsaysay-051602015"
+    },
+    "code": {
+      "id": "051602015",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "6.77",
+      "lon": "125.18"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mataque",
+      "en": "Mataque",
+      "slug": "mataque-051602012"
+    },
+    "code": {
+      "id": "051602012",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.3019",
+      "lon": "122.5175"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Old Camp",
+      "en": "Old Camp",
+      "slug": "old-camp-051602013"
+    },
+    "code": {
+      "id": "051602013",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.333",
+      "lon": "122.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-051602014"
+    },
+    "code": {
+      "id": "051602014",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Antonio",
+      "en": "San Antonio",
+      "slug": "san-antonio-051602016"
+    },
+    "code": {
+      "id": "051602016",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.15",
+      "lon": "122.8333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Isidro",
+      "en": "San Isidro",
+      "slug": "san-isidro-051602017"
+    },
+    "code": {
+      "id": "051602017",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.1333",
+      "lon": "122.9167"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Roque",
+      "en": "San Roque",
+      "slug": "san-roque-051602018"
+    },
+    "code": {
+      "id": "051602018",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.3219",
+      "lon": "122.5459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tanawan",
+      "en": "Tanawan",
+      "slug": "tanawan-051602019"
+    },
+    "code": {
+      "id": "051602019",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.9549",
+      "lon": "120.9204"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ubang",
+      "en": "Ubang",
+      "slug": "ubang-051602020"
+    },
+    "code": {
+      "id": "051602020",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.3223",
+      "lon": "122.4921"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Villa Aurora",
+      "en": "Villa Aurora",
+      "slug": "villa-aurora-051602021"
+    },
+    "code": {
+      "id": "051602021",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "9.8881",
+      "lon": "124.1275"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "051602022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Villa Belen",
+      "en": "Villa Belen",
+      "slug": "villa-belen-051602022"
+    },
+    "code": {
+      "id": "051602022",
+      "iso": null
+    },
+    "parent": {
+      "id": "051602",
+      "level": 3,
+      "name": {
+        "local": "Capalonga",
+        "en": "Capalonga",
+        "slug": "capalonga-051602"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "051600",
+        "level": 2,
+        "name": {
+          "local": "Camarines Norte",
+          "en": "Camarines Norte",
+          "slug": "camarines-norte-051600"
+        }
+      },
+      {
+        "id": "051602",
+        "level": 3,
+        "name": {
+          "local": "Capalonga",
+          "en": "Capalonga",
+          "slug": "capalonga-051602"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4607"
+    ],
+    "geo": {
+      "lat": "14.1128",
+      "lon": "122.0205"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

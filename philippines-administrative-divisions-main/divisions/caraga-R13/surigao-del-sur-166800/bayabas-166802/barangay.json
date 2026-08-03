@@ -1,0 +1,457 @@
+[
+  {
+    "id": "166802001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Amag",
+      "en": "Amag",
+      "slug": "amag-166802001"
+    },
+    "code": {
+      "id": "166802001",
+      "iso": null
+    },
+    "parent": {
+      "id": "166802",
+      "level": 3,
+      "name": {
+        "local": "Bayabas",
+        "en": "Bayabas",
+        "slug": "bayabas-166802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166802",
+        "level": 3,
+        "name": {
+          "local": "Bayabas",
+          "en": "Bayabas",
+          "slug": "bayabas-166802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8303"
+    ],
+    "geo": {
+      "lat": "8.967",
+      "lon": "126.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166802002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Balete (Pob.)",
+      "en": "Balete (Pob.)",
+      "slug": "balete-pob-166802002"
+    },
+    "code": {
+      "id": "166802002",
+      "iso": null
+    },
+    "parent": {
+      "id": "166802",
+      "level": 3,
+      "name": {
+        "local": "Bayabas",
+        "en": "Bayabas",
+        "slug": "bayabas-166802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166802",
+        "level": 3,
+        "name": {
+          "local": "Bayabas",
+          "en": "Bayabas",
+          "slug": "bayabas-166802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8303"
+    ],
+    "geo": {
+      "lat": "11.5553",
+      "lon": "122.3792"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166802003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabugo",
+      "en": "Cabugo",
+      "slug": "cabugo-166802003"
+    },
+    "code": {
+      "id": "166802003",
+      "iso": null
+    },
+    "parent": {
+      "id": "166802",
+      "level": 3,
+      "name": {
+        "local": "Bayabas",
+        "en": "Bayabas",
+        "slug": "bayabas-166802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166802",
+        "level": 3,
+        "name": {
+          "local": "Bayabas",
+          "en": "Bayabas",
+          "slug": "bayabas-166802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8303"
+    ],
+    "geo": {
+      "lat": "9.3033",
+      "lon": "126.1669"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166802004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cagbaoto",
+      "en": "Cagbaoto",
+      "slug": "cagbaoto-166802004"
+    },
+    "code": {
+      "id": "166802004",
+      "iso": null
+    },
+    "parent": {
+      "id": "166802",
+      "level": 3,
+      "name": {
+        "local": "Bayabas",
+        "en": "Bayabas",
+        "slug": "bayabas-166802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166802",
+        "level": 3,
+        "name": {
+          "local": "Bayabas",
+          "en": "Bayabas",
+          "slug": "bayabas-166802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8303"
+    ],
+    "geo": {
+      "lat": "8.967",
+      "lon": "126.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166802005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "La Paz",
+      "en": "La Paz",
+      "slug": "la-paz-166802005"
+    },
+    "code": {
+      "id": "166802005",
+      "iso": null
+    },
+    "parent": {
+      "id": "166802",
+      "level": 3,
+      "name": {
+        "local": "Bayabas",
+        "en": "Bayabas",
+        "slug": "bayabas-166802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166802",
+        "level": 3,
+        "name": {
+          "local": "Bayabas",
+          "en": "Bayabas",
+          "slug": "bayabas-166802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8303"
+    ],
+    "geo": {
+      "lat": "8.9847",
+      "lon": "126.263"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166802006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Magobawok",
+      "en": "Magobawok",
+      "slug": "magobawok-166802006"
+    },
+    "code": {
+      "id": "166802006",
+      "iso": null
+    },
+    "parent": {
+      "id": "166802",
+      "level": 3,
+      "name": {
+        "local": "Bayabas",
+        "en": "Bayabas",
+        "slug": "bayabas-166802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166802",
+        "level": 3,
+        "name": {
+          "local": "Bayabas",
+          "en": "Bayabas",
+          "slug": "bayabas-166802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8303"
+    ],
+    "geo": {
+      "lat": "8.967",
+      "lon": "126.267"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "166802007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Panaosawon",
+      "en": "Panaosawon",
+      "slug": "panaosawon-166802007"
+    },
+    "code": {
+      "id": "166802007",
+      "iso": null
+    },
+    "parent": {
+      "id": "166802",
+      "level": 3,
+      "name": {
+        "local": "Bayabas",
+        "en": "Bayabas",
+        "slug": "bayabas-166802"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R13",
+        "level": 1,
+        "name": {
+          "local": "Caraga",
+          "en": "Caraga",
+          "slug": "caraga-R13"
+        }
+      },
+      {
+        "id": "166800",
+        "level": 2,
+        "name": {
+          "local": "Surigao del Sur",
+          "en": "Surigao del Sur",
+          "slug": "surigao-del-sur-166800"
+        }
+      },
+      {
+        "id": "166802",
+        "level": 3,
+        "name": {
+          "local": "Bayabas",
+          "en": "Bayabas",
+          "slug": "bayabas-166802"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "8303"
+    ],
+    "geo": {
+      "lat": "8.967",
+      "lon": "126.267"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "052001",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Bagamanoc",
+    "en": "Bagamanoc",
+    "slug": "bagamanoc-052001"
+  },
+  "code": {
+    "id": "052001",
+    "iso": null
+  },
+  "parent": {
+    "id": "052000",
+    "level": 2,
+    "name": {
+      "local": "Catanduanes",
+      "en": "Catanduanes",
+      "slug": "catanduanes-052000"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "052000",
+      "level": 2,
+      "name": {
+        "local": "Catanduanes",
+        "en": "Catanduanes",
+        "slug": "catanduanes-052000"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 18
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.933",
+    "lon": "124.283"
+  },
+  "metadata": {},
+  "source": {}
+}

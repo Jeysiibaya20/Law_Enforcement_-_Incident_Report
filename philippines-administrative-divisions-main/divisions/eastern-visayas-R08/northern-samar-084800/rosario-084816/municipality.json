@@ -1,0 +1,56 @@
+{
+  "id": "084816",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Rosario",
+    "en": "Rosario",
+    "slug": "rosario-084816"
+  },
+  "code": {
+    "id": "084816",
+    "iso": null
+  },
+  "parent": {
+    "id": "084800",
+    "level": 2,
+    "name": {
+      "local": "Northern Samar",
+      "en": "Northern Samar",
+      "slug": "northern-samar-084800"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R08",
+      "level": 1,
+      "name": {
+        "local": "Eastern Visayas",
+        "en": "Eastern Visayas",
+        "slug": "eastern-visayas-R08"
+      }
+    },
+    {
+      "id": "084800",
+      "level": 2,
+      "name": {
+        "local": "Northern Samar",
+        "en": "Northern Samar",
+        "slug": "northern-samar-084800"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 11
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "12.517",
+    "lon": "124.417"
+  },
+  "metadata": {},
+  "source": {}
+}

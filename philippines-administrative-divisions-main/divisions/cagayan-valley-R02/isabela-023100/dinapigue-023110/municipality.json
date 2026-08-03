@@ -1,0 +1,56 @@
+{
+  "id": "023110",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Dinapigue",
+    "en": "Dinapigue",
+    "slug": "dinapigue-023110"
+  },
+  "code": {
+    "id": "023110",
+    "iso": null
+  },
+  "parent": {
+    "id": "023100",
+    "level": 2,
+    "name": {
+      "local": "Isabela",
+      "en": "Isabela",
+      "slug": "isabela-023100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R02",
+      "level": 1,
+      "name": {
+        "local": "Cagayan Valley",
+        "en": "Cagayan Valley",
+        "slug": "cagayan-valley-R02"
+      }
+    },
+    {
+      "id": "023100",
+      "level": 2,
+      "name": {
+        "local": "Isabela",
+        "en": "Isabela",
+        "slug": "isabela-023100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 6
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "16.667",
+    "lon": "122.35"
+  },
+  "metadata": {},
+  "source": {}
+}

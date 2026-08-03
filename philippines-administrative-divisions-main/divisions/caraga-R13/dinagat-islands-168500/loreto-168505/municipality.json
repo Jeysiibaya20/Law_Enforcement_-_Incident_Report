@@ -1,0 +1,56 @@
+{
+  "id": "168505",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Loreto",
+    "en": "Loreto",
+    "slug": "loreto-168505"
+  },
+  "code": {
+    "id": "168505",
+    "iso": null
+  },
+  "parent": {
+    "id": "168500",
+    "level": 2,
+    "name": {
+      "local": "Dinagat Islands",
+      "en": "Dinagat Islands",
+      "slug": "dinagat-islands-168500"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "168500",
+      "level": 2,
+      "name": {
+        "local": "Dinagat Islands",
+        "en": "Dinagat Islands",
+        "slug": "dinagat-islands-168500"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 10
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.35",
+    "lon": "125.617"
+  },
+  "metadata": {},
+  "source": {}
+}

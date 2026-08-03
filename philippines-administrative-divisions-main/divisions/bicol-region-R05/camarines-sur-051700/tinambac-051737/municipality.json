@@ -1,0 +1,56 @@
+{
+  "id": "051737",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Tinambac",
+    "en": "Tinambac",
+    "slug": "tinambac-051737"
+  },
+  "code": {
+    "id": "051737",
+    "iso": null
+  },
+  "parent": {
+    "id": "051700",
+    "level": 2,
+    "name": {
+      "local": "Camarines Sur",
+      "en": "Camarines Sur",
+      "slug": "camarines-sur-051700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    },
+    {
+      "id": "051700",
+      "level": 2,
+      "name": {
+        "local": "Camarines Sur",
+        "en": "Camarines Sur",
+        "slug": "camarines-sur-051700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 44
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.817",
+    "lon": "123.333"
+  },
+  "metadata": {},
+  "source": {}
+}

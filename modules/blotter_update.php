@@ -3,6 +3,7 @@ session_start();
 require '../config/db_connect.php';
 require 'helpers.php';
 require '../includes/attachment_manager.php';
+require 'DescriptionTranslationService.php';
 
 // Check if user is logged in
 if (!isset($_SESSION['user_id'])) {
@@ -87,6 +88,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'updat
     $incident_time = $_POST['incident_time'] ?? null;
     $location = $_POST['location'] ?? '';
     $description = $_POST['description'] ?? '';
+    $description = trim($description);
     $priority = $_POST['priority'] ?? 'Medium';
     $status = $_POST['status'] ?? 'Pending';
     $officer_id = !empty($_POST['officer_id']) ? intval($_POST['officer_id']) : null;
@@ -103,11 +105,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'updat
     $hearing_location = trim($_POST['hearing_location'] ?? '');
 
     try {
+        $translationColumns = [
+            'description_english' => 'TEXT NULL AFTER description',
+            'description_language' => 'VARCHAR(10) NULL AFTER description_english',
+            'description_translation_provider' => 'VARCHAR(30) NULL AFTER description_language',
+        ];
+        foreach ($translationColumns as $column => $definition) {
+            $columnCheck = $pdo->prepare("SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'blotters' AND COLUMN_NAME = ?");
+            $columnCheck->execute([$column]);
+            if ((int)$columnCheck->fetchColumn() === 0) {
+                $pdo->exec("ALTER TABLE blotters ADD COLUMN {$column} {$definition}");
+            }
+        }
+        $translation = (new DescriptionTranslationService($env ?? []))->translateToEnglish($description);
+
         // Keep old values for change detection
         $old_hearing_date = $blotter['hearing_date'] ?? null;
         $old_hearing_time = $blotter['hearing_time'] ?? null;
 
-        $sql = "UPDATE blotters SET complainant_name = :complainant, respondent_name = :respondent, respondent_contact = :respondent_contact, respondent_email = :respondent_email, respondent_address = :respondent_address, incident_type = :incident_type, incident_date = :incident_date, incident_time = :incident_time, location = :location, description = :description, priority = :priority, status = :status, officer_id = :officer_id, hearing_date = :hearing_date, hearing_time = :hearing_time, hearing_location = :hearing_location, updated_at = NOW() WHERE id = :id";
+        $sql = "UPDATE blotters SET complainant_name = :complainant, respondent_name = :respondent, respondent_contact = :respondent_contact, respondent_email = :respondent_email, respondent_address = :respondent_address, incident_type = :incident_type, incident_date = :incident_date, incident_time = :incident_time, location = :location, description = :description, description_english = :description_english, description_language = :description_language, description_translation_provider = :description_translation_provider, priority = :priority, status = :status, officer_id = :officer_id, hearing_date = :hearing_date, hearing_time = :hearing_time, hearing_location = :hearing_location, updated_at = NOW() WHERE id = :id";
 
         $stmt = $pdo->prepare($sql);
         $stmt->execute([
@@ -121,6 +137,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'updat
             ':incident_time' => $incident_time,
             ':location' => $location,
             ':description' => $description,
+            ':description_english' => $translation['translation'],
+            ':description_language' => $translation['language'],
+            ':description_translation_provider' => $translation['provider'],
             ':priority' => $priority,
             ':status' => $status,
             ':officer_id' => $officer_id,

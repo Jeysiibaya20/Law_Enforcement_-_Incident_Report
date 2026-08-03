@@ -1,0 +1,56 @@
+{
+  "id": "037103",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Candelaria",
+    "en": "Candelaria",
+    "slug": "candelaria-037103"
+  },
+  "code": {
+    "id": "037103",
+    "iso": null
+  },
+  "parent": {
+    "id": "037100",
+    "level": 2,
+    "name": {
+      "local": "Zambales",
+      "en": "Zambales",
+      "slug": "zambales-037100"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R03",
+      "level": 1,
+      "name": {
+        "local": "Central Luzon",
+        "en": "Central Luzon",
+        "slug": "central-luzon-R03"
+      }
+    },
+    {
+      "id": "037100",
+      "level": 2,
+      "name": {
+        "local": "Zambales",
+        "en": "Zambales",
+        "slug": "zambales-037100"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 16
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "15.633",
+    "lon": "119.933"
+  },
+  "metadata": {},
+  "source": {}
+}

@@ -1,0 +1,48 @@
+{
+  "id": "052000",
+  "level": 2,
+  "level_name": {
+    "local": "Lalawigan",
+    "en": "Province"
+  },
+  "name": {
+    "local": "Catanduanes",
+    "en": "Catanduanes",
+    "slug": "catanduanes-052000"
+  },
+  "code": {
+    "id": "052000",
+    "iso": null
+  },
+  "parent": {
+    "id": "R05",
+    "level": 1,
+    "name": {
+      "local": "Bicol Region",
+      "en": "Bicol Region",
+      "slug": "bicol-region-R05"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R05",
+      "level": 1,
+      "name": {
+        "local": "Bicol Region",
+        "en": "Bicol Region",
+        "slug": "bicol-region-R05"
+      }
+    }
+  ],
+  "children_count": {
+    "municipality": 11,
+    "barangay": 315
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "13.2818",
+    "lon": "123.7451"
+  },
+  "metadata": {},
+  "source": {}
+}

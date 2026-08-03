@@ -1,0 +1,56 @@
+{
+  "id": "067905",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sibunag",
+    "en": "Sibunag",
+    "slug": "sibunag-067905"
+  },
+  "code": {
+    "id": "067905",
+    "iso": null
+  },
+  "parent": {
+    "id": "067900",
+    "level": 2,
+    "name": {
+      "local": "Guimaras",
+      "en": "Guimaras",
+      "slug": "guimaras-067900"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "067900",
+      "level": 2,
+      "name": {
+        "local": "Guimaras",
+        "en": "Guimaras",
+        "slug": "guimaras-067900"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 14
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.5",
+    "lon": "122.667"
+  },
+  "metadata": {},
+  "source": {}
+}

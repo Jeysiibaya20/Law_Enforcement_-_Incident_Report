@@ -1,0 +1,587 @@
+[
+  {
+    "id": "052005001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Biong",
+      "en": "Biong",
+      "slug": "biong-052005001"
+    },
+    "code": {
+      "id": "052005001",
+      "iso": null
+    },
+    "parent": {
+      "id": "052005",
+      "level": 3,
+      "name": {
+        "local": "Gigmoto",
+        "en": "Gigmoto",
+        "slug": "gigmoto-052005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "052000",
+        "level": 2,
+        "name": {
+          "local": "Catanduanes",
+          "en": "Catanduanes",
+          "slug": "catanduanes-052000"
+        }
+      },
+      {
+        "id": "052005",
+        "level": 3,
+        "name": {
+          "local": "Gigmoto",
+          "en": "Gigmoto",
+          "slug": "gigmoto-052005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4804"
+    ],
+    "geo": {
+      "lat": "13.7695",
+      "lon": "124.3991"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "052005002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dororian",
+      "en": "Dororian",
+      "slug": "dororian-052005002"
+    },
+    "code": {
+      "id": "052005002",
+      "iso": null
+    },
+    "parent": {
+      "id": "052005",
+      "level": 3,
+      "name": {
+        "local": "Gigmoto",
+        "en": "Gigmoto",
+        "slug": "gigmoto-052005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "052000",
+        "level": 2,
+        "name": {
+          "local": "Catanduanes",
+          "en": "Catanduanes",
+          "slug": "catanduanes-052000"
+        }
+      },
+      {
+        "id": "052005",
+        "level": 3,
+        "name": {
+          "local": "Gigmoto",
+          "en": "Gigmoto",
+          "slug": "gigmoto-052005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4804"
+    ],
+    "geo": {
+      "lat": "13.7507",
+      "lon": "124.3946"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "052005003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion District I",
+      "en": "Poblacion District I",
+      "slug": "poblacion-district-i-052005003"
+    },
+    "code": {
+      "id": "052005003",
+      "iso": null
+    },
+    "parent": {
+      "id": "052005",
+      "level": 3,
+      "name": {
+        "local": "Gigmoto",
+        "en": "Gigmoto",
+        "slug": "gigmoto-052005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "052000",
+        "level": 2,
+        "name": {
+          "local": "Catanduanes",
+          "en": "Catanduanes",
+          "slug": "catanduanes-052000"
+        }
+      },
+      {
+        "id": "052005",
+        "level": 3,
+        "name": {
+          "local": "Gigmoto",
+          "en": "Gigmoto",
+          "slug": "gigmoto-052005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4804"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "052005004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion District II",
+      "en": "Poblacion District II",
+      "slug": "poblacion-district-ii-052005004"
+    },
+    "code": {
+      "id": "052005004",
+      "iso": null
+    },
+    "parent": {
+      "id": "052005",
+      "level": 3,
+      "name": {
+        "local": "Gigmoto",
+        "en": "Gigmoto",
+        "slug": "gigmoto-052005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "052000",
+        "level": 2,
+        "name": {
+          "local": "Catanduanes",
+          "en": "Catanduanes",
+          "slug": "catanduanes-052000"
+        }
+      },
+      {
+        "id": "052005",
+        "level": 3,
+        "name": {
+          "local": "Gigmoto",
+          "en": "Gigmoto",
+          "slug": "gigmoto-052005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4804"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "052005005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion District III",
+      "en": "Poblacion District III",
+      "slug": "poblacion-district-iii-052005005"
+    },
+    "code": {
+      "id": "052005005",
+      "iso": null
+    },
+    "parent": {
+      "id": "052005",
+      "level": 3,
+      "name": {
+        "local": "Gigmoto",
+        "en": "Gigmoto",
+        "slug": "gigmoto-052005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "052000",
+        "level": 2,
+        "name": {
+          "local": "Catanduanes",
+          "en": "Catanduanes",
+          "slug": "catanduanes-052000"
+        }
+      },
+      {
+        "id": "052005",
+        "level": 3,
+        "name": {
+          "local": "Gigmoto",
+          "en": "Gigmoto",
+          "slug": "gigmoto-052005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4804"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "052005006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Pedro",
+      "en": "San Pedro",
+      "slug": "san-pedro-052005006"
+    },
+    "code": {
+      "id": "052005006",
+      "iso": null
+    },
+    "parent": {
+      "id": "052005",
+      "level": 3,
+      "name": {
+        "local": "Gigmoto",
+        "en": "Gigmoto",
+        "slug": "gigmoto-052005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "052000",
+        "level": 2,
+        "name": {
+          "local": "Catanduanes",
+          "en": "Catanduanes",
+          "slug": "catanduanes-052000"
+        }
+      },
+      {
+        "id": "052005",
+        "level": 3,
+        "name": {
+          "local": "Gigmoto",
+          "en": "Gigmoto",
+          "slug": "gigmoto-052005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4804"
+    ],
+    "geo": {
+      "lat": "14.3583",
+      "lon": "121.0583"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "052005007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Vicente",
+      "en": "San Vicente",
+      "slug": "san-vicente-052005007"
+    },
+    "code": {
+      "id": "052005007",
+      "iso": null
+    },
+    "parent": {
+      "id": "052005",
+      "level": 3,
+      "name": {
+        "local": "Gigmoto",
+        "en": "Gigmoto",
+        "slug": "gigmoto-052005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "052000",
+        "level": 2,
+        "name": {
+          "local": "Catanduanes",
+          "en": "Catanduanes",
+          "slug": "catanduanes-052000"
+        }
+      },
+      {
+        "id": "052005",
+        "level": 3,
+        "name": {
+          "local": "Gigmoto",
+          "en": "Gigmoto",
+          "slug": "gigmoto-052005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4804"
+    ],
+    "geo": {
+      "lat": "13.6833",
+      "lon": "124.3833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "052005008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sicmil",
+      "en": "Sicmil",
+      "slug": "sicmil-052005008"
+    },
+    "code": {
+      "id": "052005008",
+      "iso": null
+    },
+    "parent": {
+      "id": "052005",
+      "level": 3,
+      "name": {
+        "local": "Gigmoto",
+        "en": "Gigmoto",
+        "slug": "gigmoto-052005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "052000",
+        "level": 2,
+        "name": {
+          "local": "Catanduanes",
+          "en": "Catanduanes",
+          "slug": "catanduanes-052000"
+        }
+      },
+      {
+        "id": "052005",
+        "level": 3,
+        "name": {
+          "local": "Gigmoto",
+          "en": "Gigmoto",
+          "slug": "gigmoto-052005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4804"
+    ],
+    "geo": {
+      "lat": "13.833",
+      "lon": "124.4002"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "052005009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sioron",
+      "en": "Sioron",
+      "slug": "sioron-052005009"
+    },
+    "code": {
+      "id": "052005009",
+      "iso": null
+    },
+    "parent": {
+      "id": "052005",
+      "level": 3,
+      "name": {
+        "local": "Gigmoto",
+        "en": "Gigmoto",
+        "slug": "gigmoto-052005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R05",
+        "level": 1,
+        "name": {
+          "local": "Bicol Region",
+          "en": "Bicol Region",
+          "slug": "bicol-region-R05"
+        }
+      },
+      {
+        "id": "052000",
+        "level": 2,
+        "name": {
+          "local": "Catanduanes",
+          "en": "Catanduanes",
+          "slug": "catanduanes-052000"
+        }
+      },
+      {
+        "id": "052005",
+        "level": 3,
+        "name": {
+          "local": "Gigmoto",
+          "en": "Gigmoto",
+          "slug": "gigmoto-052005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4804"
+    ],
+    "geo": {
+      "lat": "13.8031",
+      "lon": "124.4146"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

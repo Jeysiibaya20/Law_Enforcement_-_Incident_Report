@@ -1,0 +1,954 @@
+[
+  {
+    "id": "061901",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Cuartero",
+      "en": "Cuartero",
+      "slug": "cuartero-061901"
+    },
+    "code": {
+      "id": "061901",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.35",
+      "lon": "122.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061902",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dao",
+      "en": "Dao",
+      "slug": "dao-061902"
+    },
+    "code": {
+      "id": "061902",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.4",
+      "lon": "122.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061903",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dumalag",
+      "en": "Dumalag",
+      "slug": "dumalag-061903"
+    },
+    "code": {
+      "id": "061903",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 19
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.3",
+      "lon": "122.617"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061904",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Dumarao",
+      "en": "Dumarao",
+      "slug": "dumarao-061904"
+    },
+    "code": {
+      "id": "061904",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 33
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.267",
+      "lon": "122.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061905",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ivisan",
+      "en": "Ivisan",
+      "slug": "ivisan-061905"
+    },
+    "code": {
+      "id": "061905",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.517",
+      "lon": "122.683"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061906",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Jamindan",
+      "en": "Jamindan",
+      "slug": "jamindan-061906"
+    },
+    "code": {
+      "id": "061906",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.4",
+      "lon": "122.5"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061907",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Ma-Ayon",
+      "en": "Ma-Ayon",
+      "slug": "ma-ayon-061907"
+    },
+    "code": {
+      "id": "061907",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 32
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.383",
+      "lon": "122.783"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061908",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Mambusao",
+      "en": "Mambusao",
+      "slug": "mambusao-061908"
+    },
+    "code": {
+      "id": "061908",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.433",
+      "lon": "122.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061909",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Panay",
+      "en": "Panay",
+      "slug": "panay-061909"
+    },
+    "code": {
+      "id": "061909",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 42
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.55",
+      "lon": "122.8"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061910",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Panitan",
+      "en": "Panitan",
+      "slug": "panitan-061910"
+    },
+    "code": {
+      "id": "061910",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.467",
+      "lon": "122.767"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061911",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pilar",
+      "en": "Pilar",
+      "slug": "pilar-061911"
+    },
+    "code": {
+      "id": "061911",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 24
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.483",
+      "lon": "123"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061912",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Pontevedra",
+      "en": "Pontevedra",
+      "slug": "pontevedra-061912"
+    },
+    "code": {
+      "id": "061912",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 26
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.483",
+      "lon": "122.833"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061913",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "President Roxas",
+      "en": "President Roxas",
+      "slug": "president-roxas-061913"
+    },
+    "code": {
+      "id": "061913",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 22
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.433",
+      "lon": "122.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061914",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Roxas City",
+      "en": "Roxas City",
+      "slug": "roxas-city-061914"
+    },
+    "code": {
+      "id": "061914",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 47
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.583",
+      "lon": "122.75"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061915",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sapi-An",
+      "en": "Sapi-An",
+      "slug": "sapi-an-061915"
+    },
+    "code": {
+      "id": "061915",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.5",
+      "lon": "122.6"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061916",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Sigma",
+      "en": "Sigma",
+      "slug": "sigma-061916"
+    },
+    "code": {
+      "id": "061916",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 21
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.417",
+      "lon": "122.667"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "061917",
+    "level": 3,
+    "level_name": {
+      "local": "Bayan",
+      "en": "Municipality"
+    },
+    "name": {
+      "local": "Tapaz",
+      "en": "Tapaz",
+      "slug": "tapaz-061917"
+    },
+    "code": {
+      "id": "061917",
+      "iso": null
+    },
+    "parent": {
+      "id": "061900",
+      "level": 2,
+      "name": {
+        "local": "Capiz",
+        "en": "Capiz",
+        "slug": "capiz-061900"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R06",
+        "level": 1,
+        "name": {
+          "local": "Western Visayas",
+          "en": "Western Visayas",
+          "slug": "western-visayas-R06"
+        }
+      },
+      {
+        "id": "061900",
+        "level": 2,
+        "name": {
+          "local": "Capiz",
+          "en": "Capiz",
+          "slug": "capiz-061900"
+        }
+      }
+    ],
+    "children_count": {
+      "barangay": 58
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "11.267",
+      "lon": "122.533"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

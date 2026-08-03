@@ -1,0 +1,35 @@
+{
+  "id": "R09",
+  "level": 1,
+  "level_name": {
+    "local": "Rehiyon",
+    "en": "Region"
+  },
+  "name": {
+    "local": "Zamboanga Peninsula",
+    "en": "Zamboanga Peninsula",
+    "slug": "zamboanga-peninsula-R09"
+  },
+  "code": {
+    "id": "R09",
+    "iso": null
+  },
+  "parent": null,
+  "ancestors": [],
+  "children_count": {
+    "province": 4,
+    "barangay": 1904,
+    "municipality": 72
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "7.9341",
+    "lon": "123.0537"
+  },
+  "metadata": {},
+  "source": {
+    "name": "Open Admin Data",
+    "url": "https://openadmindata.org/ph/regions/zamboanga-peninsula-R09/",
+    "api": "https://openadmindata.org/api/ph/"
+  }
+}

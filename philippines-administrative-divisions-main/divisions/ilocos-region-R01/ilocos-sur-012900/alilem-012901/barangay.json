@@ -1,0 +1,587 @@
+[
+  {
+    "id": "012901001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Alilem Daya (Pob.)",
+      "en": "Alilem Daya (Pob.)",
+      "slug": "alilem-daya-pob-012901001"
+    },
+    "code": {
+      "id": "012901001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012901",
+      "level": 3,
+      "name": {
+        "local": "Alilem",
+        "en": "Alilem",
+        "slug": "alilem-012901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012901",
+        "level": 3,
+        "name": {
+          "local": "Alilem",
+          "en": "Alilem",
+          "slug": "alilem-012901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2716"
+    ],
+    "geo": {
+      "lat": "16.8869",
+      "lon": "120.531"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012901002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Amilongan",
+      "en": "Amilongan",
+      "slug": "amilongan-012901002"
+    },
+    "code": {
+      "id": "012901002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012901",
+      "level": 3,
+      "name": {
+        "local": "Alilem",
+        "en": "Alilem",
+        "slug": "alilem-012901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012901",
+        "level": 3,
+        "name": {
+          "local": "Alilem",
+          "en": "Alilem",
+          "slug": "alilem-012901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2716"
+    ],
+    "geo": {
+      "lat": "16.8579",
+      "lon": "120.5792"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012901003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Anaao",
+      "en": "Anaao",
+      "slug": "anaao-012901003"
+    },
+    "code": {
+      "id": "012901003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012901",
+      "level": 3,
+      "name": {
+        "local": "Alilem",
+        "en": "Alilem",
+        "slug": "alilem-012901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012901",
+        "level": 3,
+        "name": {
+          "local": "Alilem",
+          "en": "Alilem",
+          "slug": "alilem-012901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2716"
+    ],
+    "geo": {
+      "lat": "16.8858",
+      "lon": "120.5487"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012901004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Apang",
+      "en": "Apang",
+      "slug": "apang-012901004"
+    },
+    "code": {
+      "id": "012901004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012901",
+      "level": 3,
+      "name": {
+        "local": "Alilem",
+        "en": "Alilem",
+        "slug": "alilem-012901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012901",
+        "level": 3,
+        "name": {
+          "local": "Alilem",
+          "en": "Alilem",
+          "slug": "alilem-012901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2716"
+    ],
+    "geo": {
+      "lat": "16.8683",
+      "lon": "120.5862"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012901005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Apaya",
+      "en": "Apaya",
+      "slug": "apaya-012901005"
+    },
+    "code": {
+      "id": "012901005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012901",
+      "level": 3,
+      "name": {
+        "local": "Alilem",
+        "en": "Alilem",
+        "slug": "alilem-012901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012901",
+        "level": 3,
+        "name": {
+          "local": "Alilem",
+          "en": "Alilem",
+          "slug": "alilem-012901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2716"
+    ],
+    "geo": {
+      "lat": "17.9021",
+      "lon": "120.4483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012901006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Batbato",
+      "en": "Batbato",
+      "slug": "batbato-012901006"
+    },
+    "code": {
+      "id": "012901006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012901",
+      "level": 3,
+      "name": {
+        "local": "Alilem",
+        "en": "Alilem",
+        "slug": "alilem-012901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012901",
+        "level": 3,
+        "name": {
+          "local": "Alilem",
+          "en": "Alilem",
+          "slug": "alilem-012901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2716"
+    ],
+    "geo": {
+      "lat": "16.9109",
+      "lon": "120.5611"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012901010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Daddaay",
+      "en": "Daddaay",
+      "slug": "daddaay-012901010"
+    },
+    "code": {
+      "id": "012901010",
+      "iso": null
+    },
+    "parent": {
+      "id": "012901",
+      "level": 3,
+      "name": {
+        "local": "Alilem",
+        "en": "Alilem",
+        "slug": "alilem-012901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012901",
+        "level": 3,
+        "name": {
+          "local": "Alilem",
+          "en": "Alilem",
+          "slug": "alilem-012901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2716"
+    ],
+    "geo": {
+      "lat": "16.8833",
+      "lon": "120.5333"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012901011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dalawa",
+      "en": "Dalawa",
+      "slug": "dalawa-012901011"
+    },
+    "code": {
+      "id": "012901011",
+      "iso": null
+    },
+    "parent": {
+      "id": "012901",
+      "level": 3,
+      "name": {
+        "local": "Alilem",
+        "en": "Alilem",
+        "slug": "alilem-012901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012901",
+        "level": 3,
+        "name": {
+          "local": "Alilem",
+          "en": "Alilem",
+          "slug": "alilem-012901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2716"
+    ],
+    "geo": {
+      "lat": "16.899",
+      "lon": "120.5198"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012901013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kiat",
+      "en": "Kiat",
+      "slug": "kiat-012901013"
+    },
+    "code": {
+      "id": "012901013",
+      "iso": null
+    },
+    "parent": {
+      "id": "012901",
+      "level": 3,
+      "name": {
+        "local": "Alilem",
+        "en": "Alilem",
+        "slug": "alilem-012901"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012901",
+        "level": 3,
+        "name": {
+          "local": "Alilem",
+          "en": "Alilem",
+          "slug": "alilem-012901"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2716"
+    ],
+    "geo": {
+      "lat": "16.873",
+      "lon": "120.5229"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

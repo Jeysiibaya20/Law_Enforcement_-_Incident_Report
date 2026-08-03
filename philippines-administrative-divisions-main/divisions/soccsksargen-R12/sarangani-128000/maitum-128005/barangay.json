@@ -1,0 +1,1237 @@
+[
+  {
+    "id": "128005001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bati-an",
+      "en": "Bati-an",
+      "slug": "bati-an-128005001"
+    },
+    "code": {
+      "id": "128005001",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.033",
+      "lon": "124.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kalaneg",
+      "en": "Kalaneg",
+      "slug": "kalaneg-128005002"
+    },
+    "code": {
+      "id": "128005002",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.033",
+      "lon": "124.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kalaong",
+      "en": "Kalaong",
+      "slug": "kalaong-128005003"
+    },
+    "code": {
+      "id": "128005003",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.0717",
+      "lon": "124.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kiambing",
+      "en": "Kiambing",
+      "slug": "kiambing-128005004"
+    },
+    "code": {
+      "id": "128005004",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.0319",
+      "lon": "124.5075"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Kiayap",
+      "en": "Kiayap",
+      "slug": "kiayap-128005005"
+    },
+    "code": {
+      "id": "128005005",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.033",
+      "lon": "124.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mabay",
+      "en": "Mabay",
+      "slug": "mabay-128005006"
+    },
+    "code": {
+      "id": "128005006",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.0577",
+      "lon": "124.4666"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maguling",
+      "en": "Maguling",
+      "slug": "maguling-128005007"
+    },
+    "code": {
+      "id": "128005007",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.095",
+      "lon": "124.4033"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Malalag (Pob.)",
+      "en": "Malalag (Pob.)",
+      "slug": "malalag-pob-128005008"
+    },
+    "code": {
+      "id": "128005008",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.0906",
+      "lon": "125.2889"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mindupok",
+      "en": "Mindupok",
+      "slug": "mindupok-128005009"
+    },
+    "code": {
+      "id": "128005009",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.0906",
+      "lon": "124.4233"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "New La Union",
+      "en": "New La Union",
+      "slug": "new-la-union-128005010"
+    },
+    "code": {
+      "id": "128005010",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "11.7612",
+      "lon": "121.8963"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Old Poblacion (Maitum)",
+      "en": "Old Poblacion (Maitum)",
+      "slug": "old-poblacion-maitum-128005011"
+    },
+    "code": {
+      "id": "128005011",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.03",
+      "lon": "124.48"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pangi (Linao)",
+      "en": "Pangi (Linao)",
+      "slug": "pangi-linao-128005012"
+    },
+    "code": {
+      "id": "128005012",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.0261",
+      "lon": "124.5197"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pinol",
+      "en": "Pinol",
+      "slug": "pinol-128005013"
+    },
+    "code": {
+      "id": "128005013",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.1033",
+      "lon": "124.3808"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sison (Edenton)",
+      "en": "Sison (Edenton)",
+      "slug": "sison-edenton-128005014"
+    },
+    "code": {
+      "id": "128005014",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "16.17",
+      "lon": "120.52"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ticulab",
+      "en": "Ticulab",
+      "slug": "ticulab-128005015"
+    },
+    "code": {
+      "id": "128005015",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.1233",
+      "lon": "124.4275"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tuanadatu",
+      "en": "Tuanadatu",
+      "slug": "tuanadatu-128005016"
+    },
+    "code": {
+      "id": "128005016",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.033",
+      "lon": "124.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Upo (Lanao)",
+      "en": "Upo (Lanao)",
+      "slug": "upo-lanao-128005017"
+    },
+    "code": {
+      "id": "128005017",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.0881",
+      "lon": "124.4303"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Wali (Kambuhan)",
+      "en": "Wali (Kambuhan)",
+      "slug": "wali-kambuhan-128005018"
+    },
+    "code": {
+      "id": "128005018",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.033",
+      "lon": "124.483"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "128005019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Zion",
+      "en": "Zion",
+      "slug": "zion-128005019"
+    },
+    "code": {
+      "id": "128005019",
+      "iso": null
+    },
+    "parent": {
+      "id": "128005",
+      "level": 3,
+      "name": {
+        "local": "Maitum",
+        "en": "Maitum",
+        "slug": "maitum-128005"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R12",
+        "level": 1,
+        "name": {
+          "local": "SOCCSKSARGEN",
+          "en": "SOCCSKSARGEN",
+          "slug": "soccsksargen-R12"
+        }
+      },
+      {
+        "id": "128000",
+        "level": 2,
+        "name": {
+          "local": "Sarangani",
+          "en": "Sarangani",
+          "slug": "sarangani-128000"
+        }
+      },
+      {
+        "id": "128005",
+        "level": 3,
+        "name": {
+          "local": "Maitum",
+          "en": "Maitum",
+          "slug": "maitum-128005"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "9515"
+    ],
+    "geo": {
+      "lat": "6.033",
+      "lon": "124.483"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "097214",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Sergio Osmeña Sr.",
+    "en": "Sergio Osmeña Sr.",
+    "slug": "sergio-osmea-sr-097214"
+  },
+  "code": {
+    "id": "097214",
+    "iso": null
+  },
+  "parent": {
+    "id": "097200",
+    "level": 2,
+    "name": {
+      "local": "Zamboanga del Norte",
+      "en": "Zamboanga del Norte",
+      "slug": "zamboanga-del-norte-097200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R09",
+      "level": 1,
+      "name": {
+        "local": "Zamboanga Peninsula",
+        "en": "Zamboanga Peninsula",
+        "slug": "zamboanga-peninsula-R09"
+      }
+    },
+    {
+      "id": "097200",
+      "level": 2,
+      "name": {
+        "local": "Zamboanga del Norte",
+        "en": "Zamboanga del Norte",
+        "slug": "zamboanga-del-norte-097200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 39
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "8.267",
+    "lon": "123.383"
+  },
+  "metadata": {},
+  "source": {}
+}

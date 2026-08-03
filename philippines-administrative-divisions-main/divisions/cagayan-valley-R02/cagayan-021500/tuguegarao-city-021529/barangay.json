@@ -1,0 +1,3187 @@
+[
+  {
+    "id": "021529001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Annafunan East",
+      "en": "Annafunan East",
+      "slug": "annafunan-east-021529001"
+    },
+    "code": {
+      "id": "021529001",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6498",
+      "lon": "121.7208"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529038",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Annafunan West",
+      "en": "Annafunan West",
+      "slug": "annafunan-west-021529038"
+    },
+    "code": {
+      "id": "021529038",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6498",
+      "lon": "121.7208"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Atulayan Norte",
+      "en": "Atulayan Norte",
+      "slug": "atulayan-norte-021529002"
+    },
+    "code": {
+      "id": "021529002",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6373",
+      "lon": "121.7194"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529039",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Atulayan Sur",
+      "en": "Atulayan Sur",
+      "slug": "atulayan-sur-021529039"
+    },
+    "code": {
+      "id": "021529039",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6373",
+      "lon": "121.7194"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagay",
+      "en": "Bagay",
+      "slug": "bagay-021529003"
+    },
+    "code": {
+      "id": "021529003",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6334",
+      "lon": "121.7084"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529015",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Buntun",
+      "en": "Buntun",
+      "slug": "buntun-021529015"
+    },
+    "code": {
+      "id": "021529015",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6159",
+      "lon": "121.6932"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529016",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caggay",
+      "en": "Caggay",
+      "slug": "caggay-021529016"
+    },
+    "code": {
+      "id": "021529016",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6358",
+      "lon": "121.7421"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529017",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Capatan",
+      "en": "Capatan",
+      "slug": "capatan-021529017"
+    },
+    "code": {
+      "id": "021529017",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6165",
+      "lon": "121.7451"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529018",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Carig",
+      "en": "Carig",
+      "slug": "carig-021529018"
+    },
+    "code": {
+      "id": "021529018",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6593",
+      "lon": "121.7436"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529040",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caritan Centro",
+      "en": "Caritan Centro",
+      "slug": "caritan-centro-021529040"
+    },
+    "code": {
+      "id": "021529040",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6268",
+      "lon": "121.7238"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529019",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caritan Norte",
+      "en": "Caritan Norte",
+      "slug": "caritan-norte-021529019"
+    },
+    "code": {
+      "id": "021529019",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6268",
+      "lon": "121.7238"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529020",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Caritan Sur",
+      "en": "Caritan Sur",
+      "slug": "caritan-sur-021529020"
+    },
+    "code": {
+      "id": "021529020",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6212",
+      "lon": "121.7265"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529021",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cataggaman Nuevo",
+      "en": "Cataggaman Nuevo",
+      "slug": "cataggaman-nuevo-021529021"
+    },
+    "code": {
+      "id": "021529021",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6015",
+      "lon": "121.7104"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529041",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cataggaman Pardo",
+      "en": "Cataggaman Pardo",
+      "slug": "cataggaman-pardo-021529041"
+    },
+    "code": {
+      "id": "021529041",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6015",
+      "lon": "121.7104"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529022",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cataggaman Viejo",
+      "en": "Cataggaman Viejo",
+      "slug": "cataggaman-viejo-021529022"
+    },
+    "code": {
+      "id": "021529022",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.5962",
+      "lon": "121.7066"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro 1 (Pob.)",
+      "en": "Centro 1 (Pob.)",
+      "slug": "centro-1-pob-021529005"
+    },
+    "code": {
+      "id": "021529005",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro 10 (Pob.)",
+      "en": "Centro 10 (Pob.)",
+      "slug": "centro-10-pob-021529013"
+    },
+    "code": {
+      "id": "021529013",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro 11 (Pob.)",
+      "en": "Centro 11 (Pob.)",
+      "slug": "centro-11-pob-021529014"
+    },
+    "code": {
+      "id": "021529014",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529037",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro 12 (Pob.)",
+      "en": "Centro 12 (Pob.)",
+      "slug": "centro-12-pob-021529037"
+    },
+    "code": {
+      "id": "021529037",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529035",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro 2 (Pob.)",
+      "en": "Centro 2 (Pob.)",
+      "slug": "centro-2-pob-021529035"
+    },
+    "code": {
+      "id": "021529035",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529036",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro 3 (Pob.)",
+      "en": "Centro 3 (Pob.)",
+      "slug": "centro-3-pob-021529036"
+    },
+    "code": {
+      "id": "021529036",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro 4 (Pob.)",
+      "en": "Centro 4 (Pob.)",
+      "slug": "centro-4-pob-021529006"
+    },
+    "code": {
+      "id": "021529006",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro 5 (Pob.)",
+      "en": "Centro 5 (Pob.)",
+      "slug": "centro-5-pob-021529007"
+    },
+    "code": {
+      "id": "021529007",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro 6 (Pob.)",
+      "en": "Centro 6 (Pob.)",
+      "slug": "centro-6-pob-021529008"
+    },
+    "code": {
+      "id": "021529008",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro 7 (Pob.)",
+      "en": "Centro 7 (Pob.)",
+      "slug": "centro-7-pob-021529009"
+    },
+    "code": {
+      "id": "021529009",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro 8 (Pob.)",
+      "en": "Centro 8 (Pob.)",
+      "slug": "centro-8-pob-021529010"
+    },
+    "code": {
+      "id": "021529010",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Centro 9 (Pob.)",
+      "en": "Centro 9 (Pob.)",
+      "slug": "centro-9-pob-021529011"
+    },
+    "code": {
+      "id": "021529011",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "18.4673",
+      "lon": "121.3459"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529042",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Dadda",
+      "en": "Dadda",
+      "slug": "dadda-021529042"
+    },
+    "code": {
+      "id": "021529042",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.8617",
+      "lon": "121.7389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529023",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gosi Norte",
+      "en": "Gosi Norte",
+      "slug": "gosi-norte-021529023"
+    },
+    "code": {
+      "id": "021529023",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.59",
+      "lon": "121.7591"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529043",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Gosi Sur",
+      "en": "Gosi Sur",
+      "slug": "gosi-sur-021529043"
+    },
+    "code": {
+      "id": "021529043",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.59",
+      "lon": "121.7591"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529024",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Larion Alto",
+      "en": "Larion Alto",
+      "slug": "larion-alto-021529024"
+    },
+    "code": {
+      "id": "021529024",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6308",
+      "lon": "121.7606"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529025",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Larion Bajo",
+      "en": "Larion Bajo",
+      "slug": "larion-bajo-021529025"
+    },
+    "code": {
+      "id": "021529025",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6261",
+      "lon": "121.7529"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529044",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Leonarda",
+      "en": "Leonarda",
+      "slug": "leonarda-021529044"
+    },
+    "code": {
+      "id": "021529044",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.617",
+      "lon": "121.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529026",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Libag Norte",
+      "en": "Libag Norte",
+      "slug": "libag-norte-021529026"
+    },
+    "code": {
+      "id": "021529026",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6069",
+      "lon": "121.7524"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529045",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Libag Sur",
+      "en": "Libag Sur",
+      "slug": "libag-sur-021529045"
+    },
+    "code": {
+      "id": "021529045",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6069",
+      "lon": "121.7524"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529027",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Linao East",
+      "en": "Linao East",
+      "slug": "linao-east-021529027"
+    },
+    "code": {
+      "id": "021529027",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6568",
+      "lon": "121.7261"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529046",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Linao Norte",
+      "en": "Linao Norte",
+      "slug": "linao-norte-021529046"
+    },
+    "code": {
+      "id": "021529046",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6568",
+      "lon": "121.7261"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529047",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Linao West",
+      "en": "Linao West",
+      "slug": "linao-west-021529047"
+    },
+    "code": {
+      "id": "021529047",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6568",
+      "lon": "121.7261"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529029",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nambbalan Norte",
+      "en": "Nambbalan Norte",
+      "slug": "nambbalan-norte-021529029"
+    },
+    "code": {
+      "id": "021529029",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "7.85",
+      "lon": "123.45"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529048",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Nambbalan Sur",
+      "en": "Nambbalan Sur",
+      "slug": "nambbalan-sur-021529048"
+    },
+    "code": {
+      "id": "021529048",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.617",
+      "lon": "121.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529030",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pallua Norte",
+      "en": "Pallua Norte",
+      "slug": "pallua-norte-021529030"
+    },
+    "code": {
+      "id": "021529030",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6275",
+      "lon": "121.7004"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529049",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pallua Sur",
+      "en": "Pallua Sur",
+      "slug": "pallua-sur-021529049"
+    },
+    "code": {
+      "id": "021529049",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6275",
+      "lon": "121.7004"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529031",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pengue (Pengue-Ruyu)",
+      "en": "Pengue (Pengue-Ruyu)",
+      "slug": "pengue-pengue-ruyu-021529031"
+    },
+    "code": {
+      "id": "021529031",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6429",
+      "lon": "121.7368"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529050",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Reyes",
+      "en": "Reyes",
+      "slug": "reyes-021529050"
+    },
+    "code": {
+      "id": "021529050",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.617",
+      "lon": "121.717"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529051",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "San Gabriel",
+      "en": "San Gabriel",
+      "slug": "san-gabriel-021529051"
+    },
+    "code": {
+      "id": "021529051",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "16.67",
+      "lon": "120.4"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529032",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tagga",
+      "en": "Tagga",
+      "slug": "tagga-021529032"
+    },
+    "code": {
+      "id": "021529032",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.576",
+      "lon": "121.77"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529033",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tanza",
+      "en": "Tanza",
+      "slug": "tanza-021529033"
+    },
+    "code": {
+      "id": "021529033",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6297",
+      "lon": "121.7362"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529034",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ugac Norte",
+      "en": "Ugac Norte",
+      "slug": "ugac-norte-021529034"
+    },
+    "code": {
+      "id": "021529034",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6167",
+      "lon": "121.7159"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "021529052",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Ugac Sur",
+      "en": "Ugac Sur",
+      "slug": "ugac-sur-021529052"
+    },
+    "code": {
+      "id": "021529052",
+      "iso": null
+    },
+    "parent": {
+      "id": "021529",
+      "level": 3,
+      "name": {
+        "local": "Tuguegarao City",
+        "en": "Tuguegarao City",
+        "slug": "tuguegarao-city-021529"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R02",
+        "level": 1,
+        "name": {
+          "local": "Cagayan Valley",
+          "en": "Cagayan Valley",
+          "slug": "cagayan-valley-R02"
+        }
+      },
+      {
+        "id": "021500",
+        "level": 2,
+        "name": {
+          "local": "Cagayan",
+          "en": "Cagayan",
+          "slug": "cagayan-021500"
+        }
+      },
+      {
+        "id": "021529",
+        "level": 3,
+        "name": {
+          "local": "Tuguegarao City",
+          "en": "Tuguegarao City",
+          "slug": "tuguegarao-city-021529"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "3500"
+    ],
+    "geo": {
+      "lat": "17.6133",
+      "lon": "121.7158"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

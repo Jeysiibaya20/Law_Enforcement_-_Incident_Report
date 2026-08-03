@@ -1,0 +1,912 @@
+[
+  {
+    "id": "045633009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagong Pag-Asa Pob. (Barangay 3)",
+      "en": "Bagong Pag-Asa Pob. (Barangay 3)",
+      "slug": "bagong-pag-asa-pob-barangay-3-045633009"
+    },
+    "code": {
+      "id": "045633009",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "16.9827",
+      "lon": "121.6111"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633010",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Bagong Silang Pob. (Barangay 4)",
+      "en": "Bagong Silang Pob. (Barangay 4)",
+      "slug": "bagong-silang-pob-barangay-4-045633010"
+    },
+    "code": {
+      "id": "045633010",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "16.9827",
+      "lon": "121.6111"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Maabot",
+      "en": "Maabot",
+      "slug": "maabot-045633001"
+    },
+    "code": {
+      "id": "045633001",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "14.1397",
+      "lon": "121.9787"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mainit Norte",
+      "en": "Mainit Norte",
+      "slug": "mainit-norte-045633002"
+    },
+    "code": {
+      "id": "045633002",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "14.1655",
+      "lon": "121.985"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mainit Sur",
+      "en": "Mainit Sur",
+      "slug": "mainit-sur-045633003"
+    },
+    "code": {
+      "id": "045633003",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "14.1494",
+      "lon": "121.9569"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Mapagmahal Pob. (Barangay 2)",
+      "en": "Mapagmahal Pob. (Barangay 2)",
+      "slug": "mapagmahal-pob-barangay-2-045633008"
+    },
+    "code": {
+      "id": "045633008",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "14.183",
+      "lon": "121.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pagkakaisa Pob. (Barangay 1)",
+      "en": "Pagkakaisa Pob. (Barangay 1)",
+      "slug": "pagkakaisa-pob-barangay-1-045633007"
+    },
+    "code": {
+      "id": "045633007",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "14.183",
+      "lon": "121.933"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pambuhan",
+      "en": "Pambuhan",
+      "slug": "pambuhan-045633004"
+    },
+    "code": {
+      "id": "045633004",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "12.57",
+      "lon": "124.93"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pinagtubigan Este",
+      "en": "Pinagtubigan Este",
+      "slug": "pinagtubigan-este-045633005"
+    },
+    "code": {
+      "id": "045633005",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "14.1805",
+      "lon": "121.9352"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pinagtubigan Weste",
+      "en": "Pinagtubigan Weste",
+      "slug": "pinagtubigan-weste-045633006"
+    },
+    "code": {
+      "id": "045633006",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "14.1819",
+      "lon": "121.9339"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633011",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Rizal",
+      "en": "Rizal",
+      "slug": "rizal-045633011"
+    },
+    "code": {
+      "id": "045633011",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "15.71",
+      "lon": "121.1047"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633012",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sangirin",
+      "en": "Sangirin",
+      "slug": "sangirin-045633012"
+    },
+    "code": {
+      "id": "045633012",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "14.2009",
+      "lon": "121.9288"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633013",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Villamanzano Norte",
+      "en": "Villamanzano Norte",
+      "slug": "villamanzano-norte-045633013"
+    },
+    "code": {
+      "id": "045633013",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "14.2225",
+      "lon": "121.9425"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "045633014",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Villamanzano Sur",
+      "en": "Villamanzano Sur",
+      "slug": "villamanzano-sur-045633014"
+    },
+    "code": {
+      "id": "045633014",
+      "iso": null
+    },
+    "parent": {
+      "id": "045633",
+      "level": 3,
+      "name": {
+        "local": "Perez",
+        "en": "Perez",
+        "slug": "perez-045633"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R04A",
+        "level": 1,
+        "name": {
+          "local": "CALABARZON",
+          "en": "CALABARZON",
+          "slug": "calabarzon-R04A"
+        }
+      },
+      {
+        "id": "045600",
+        "level": 2,
+        "name": {
+          "local": "Quezon",
+          "en": "Quezon",
+          "slug": "quezon-045600"
+        }
+      },
+      {
+        "id": "045633",
+        "level": 3,
+        "name": {
+          "local": "Perez",
+          "en": "Perez",
+          "slug": "perez-045633"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "4334"
+    ],
+    "geo": {
+      "lat": "14.2128",
+      "lon": "121.9193"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

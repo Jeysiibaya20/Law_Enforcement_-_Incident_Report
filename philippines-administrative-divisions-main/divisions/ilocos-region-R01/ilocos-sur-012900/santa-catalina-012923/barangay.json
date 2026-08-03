@@ -1,0 +1,587 @@
+[
+  {
+    "id": "012923001",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabaroan",
+      "en": "Cabaroan",
+      "slug": "cabaroan-012923001"
+    },
+    "code": {
+      "id": "012923001",
+      "iso": null
+    },
+    "parent": {
+      "id": "012923",
+      "level": 3,
+      "name": {
+        "local": "Santa Catalina",
+        "en": "Santa Catalina",
+        "slug": "santa-catalina-012923"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012923",
+        "level": 3,
+        "name": {
+          "local": "Santa Catalina",
+          "en": "Santa Catalina",
+          "slug": "santa-catalina-012923"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2701"
+    ],
+    "geo": {
+      "lat": "17.5862",
+      "lon": "120.3711"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012923002",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabittaogan",
+      "en": "Cabittaogan",
+      "slug": "cabittaogan-012923002"
+    },
+    "code": {
+      "id": "012923002",
+      "iso": null
+    },
+    "parent": {
+      "id": "012923",
+      "level": 3,
+      "name": {
+        "local": "Santa Catalina",
+        "en": "Santa Catalina",
+        "slug": "santa-catalina-012923"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012923",
+        "level": 3,
+        "name": {
+          "local": "Santa Catalina",
+          "en": "Santa Catalina",
+          "slug": "santa-catalina-012923"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2701"
+    ],
+    "geo": {
+      "lat": "17.5779",
+      "lon": "120.3591"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012923003",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Cabuloan",
+      "en": "Cabuloan",
+      "slug": "cabuloan-012923003"
+    },
+    "code": {
+      "id": "012923003",
+      "iso": null
+    },
+    "parent": {
+      "id": "012923",
+      "level": 3,
+      "name": {
+        "local": "Santa Catalina",
+        "en": "Santa Catalina",
+        "slug": "santa-catalina-012923"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012923",
+        "level": 3,
+        "name": {
+          "local": "Santa Catalina",
+          "en": "Santa Catalina",
+          "slug": "santa-catalina-012923"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2701"
+    ],
+    "geo": {
+      "lat": "17.5808",
+      "lon": "120.3562"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012923004",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Pangada",
+      "en": "Pangada",
+      "slug": "pangada-012923004"
+    },
+    "code": {
+      "id": "012923004",
+      "iso": null
+    },
+    "parent": {
+      "id": "012923",
+      "level": 3,
+      "name": {
+        "local": "Santa Catalina",
+        "en": "Santa Catalina",
+        "slug": "santa-catalina-012923"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012923",
+        "level": 3,
+        "name": {
+          "local": "Santa Catalina",
+          "en": "Santa Catalina",
+          "slug": "santa-catalina-012923"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2701"
+    ],
+    "geo": {
+      "lat": "17.5845",
+      "lon": "120.359"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012923005",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Paratong",
+      "en": "Paratong",
+      "slug": "paratong-012923005"
+    },
+    "code": {
+      "id": "012923005",
+      "iso": null
+    },
+    "parent": {
+      "id": "012923",
+      "level": 3,
+      "name": {
+        "local": "Santa Catalina",
+        "en": "Santa Catalina",
+        "slug": "santa-catalina-012923"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012923",
+        "level": 3,
+        "name": {
+          "local": "Santa Catalina",
+          "en": "Santa Catalina",
+          "slug": "santa-catalina-012923"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2701"
+    ],
+    "geo": {
+      "lat": "17.419",
+      "lon": "120.4685"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012923006",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Poblacion",
+      "en": "Poblacion",
+      "slug": "poblacion-012923006"
+    },
+    "code": {
+      "id": "012923006",
+      "iso": null
+    },
+    "parent": {
+      "id": "012923",
+      "level": 3,
+      "name": {
+        "local": "Santa Catalina",
+        "en": "Santa Catalina",
+        "slug": "santa-catalina-012923"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012923",
+        "level": 3,
+        "name": {
+          "local": "Santa Catalina",
+          "en": "Santa Catalina",
+          "slug": "santa-catalina-012923"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2701"
+    ],
+    "geo": {
+      "lat": "14.33",
+      "lon": "121.08"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012923007",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Sinabaan",
+      "en": "Sinabaan",
+      "slug": "sinabaan-012923007"
+    },
+    "code": {
+      "id": "012923007",
+      "iso": null
+    },
+    "parent": {
+      "id": "012923",
+      "level": 3,
+      "name": {
+        "local": "Santa Catalina",
+        "en": "Santa Catalina",
+        "slug": "santa-catalina-012923"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012923",
+        "level": 3,
+        "name": {
+          "local": "Santa Catalina",
+          "en": "Santa Catalina",
+          "slug": "santa-catalina-012923"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2701"
+    ],
+    "geo": {
+      "lat": "17.5871",
+      "lon": "120.3604"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012923008",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Subec",
+      "en": "Subec",
+      "slug": "subec-012923008"
+    },
+    "code": {
+      "id": "012923008",
+      "iso": null
+    },
+    "parent": {
+      "id": "012923",
+      "level": 3,
+      "name": {
+        "local": "Santa Catalina",
+        "en": "Santa Catalina",
+        "slug": "santa-catalina-012923"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012923",
+        "level": 3,
+        "name": {
+          "local": "Santa Catalina",
+          "en": "Santa Catalina",
+          "slug": "santa-catalina-012923"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2701"
+    ],
+    "geo": {
+      "lat": "17.5843",
+      "lon": "120.3499"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "012923009",
+    "level": 4,
+    "level_name": {
+      "local": "Barangay",
+      "en": "Barangay"
+    },
+    "name": {
+      "local": "Tamorong",
+      "en": "Tamorong",
+      "slug": "tamorong-012923009"
+    },
+    "code": {
+      "id": "012923009",
+      "iso": null
+    },
+    "parent": {
+      "id": "012923",
+      "level": 3,
+      "name": {
+        "local": "Santa Catalina",
+        "en": "Santa Catalina",
+        "slug": "santa-catalina-012923"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "R01",
+        "level": 1,
+        "name": {
+          "local": "Ilocos Region",
+          "en": "Ilocos Region",
+          "slug": "ilocos-region-R01"
+        }
+      },
+      {
+        "id": "012900",
+        "level": 2,
+        "name": {
+          "local": "Ilocos Sur",
+          "en": "Ilocos Sur",
+          "slug": "ilocos-sur-012900"
+        }
+      },
+      {
+        "id": "012923",
+        "level": 3,
+        "name": {
+          "local": "Santa Catalina",
+          "en": "Santa Catalina",
+          "slug": "santa-catalina-012923"
+        }
+      }
+    ],
+    "children_count": {},
+    "zip_codes": [
+      "2701"
+    ],
+    "geo": {
+      "lat": "17.595",
+      "lon": "120.359"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]

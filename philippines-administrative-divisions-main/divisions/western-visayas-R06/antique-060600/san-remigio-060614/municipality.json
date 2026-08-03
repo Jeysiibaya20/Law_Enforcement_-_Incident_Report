@@ -1,0 +1,56 @@
+{
+  "id": "060614",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "San Remigio",
+    "en": "San Remigio",
+    "slug": "san-remigio-060614"
+  },
+  "code": {
+    "id": "060614",
+    "iso": null
+  },
+  "parent": {
+    "id": "060600",
+    "level": 2,
+    "name": {
+      "local": "Antique",
+      "en": "Antique",
+      "slug": "antique-060600"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R06",
+      "level": 1,
+      "name": {
+        "local": "Western Visayas",
+        "en": "Western Visayas",
+        "slug": "western-visayas-R06"
+      }
+    },
+    {
+      "id": "060600",
+      "level": 2,
+      "name": {
+        "local": "Antique",
+        "en": "Antique",
+        "slug": "antique-060600"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 45
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "10.88",
+    "lon": "122.12"
+  },
+  "metadata": {},
+  "source": {}
+}

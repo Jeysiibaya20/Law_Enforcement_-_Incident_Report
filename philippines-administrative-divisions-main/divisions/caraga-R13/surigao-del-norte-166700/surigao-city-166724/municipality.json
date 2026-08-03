@@ -1,0 +1,56 @@
+{
+  "id": "166724",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Surigao City",
+    "en": "Surigao City",
+    "slug": "surigao-city-166724"
+  },
+  "code": {
+    "id": "166724",
+    "iso": null
+  },
+  "parent": {
+    "id": "166700",
+    "level": 2,
+    "name": {
+      "local": "Surigao del Norte",
+      "en": "Surigao del Norte",
+      "slug": "surigao-del-norte-166700"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R13",
+      "level": 1,
+      "name": {
+        "local": "Caraga",
+        "en": "Caraga",
+        "slug": "caraga-R13"
+      }
+    },
+    {
+      "id": "166700",
+      "level": 2,
+      "name": {
+        "local": "Surigao del Norte",
+        "en": "Surigao del Norte",
+        "slug": "surigao-del-norte-166700"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 54
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.78",
+    "lon": "125.48"
+  },
+  "metadata": {},
+  "source": {}
+}

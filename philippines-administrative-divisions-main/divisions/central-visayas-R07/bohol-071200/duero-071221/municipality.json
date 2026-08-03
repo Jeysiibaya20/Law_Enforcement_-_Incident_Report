@@ -1,0 +1,56 @@
+{
+  "id": "071221",
+  "level": 3,
+  "level_name": {
+    "local": "Bayan",
+    "en": "Municipality"
+  },
+  "name": {
+    "local": "Duero",
+    "en": "Duero",
+    "slug": "duero-071221"
+  },
+  "code": {
+    "id": "071221",
+    "iso": null
+  },
+  "parent": {
+    "id": "071200",
+    "level": 2,
+    "name": {
+      "local": "Bohol",
+      "en": "Bohol",
+      "slug": "bohol-071200"
+    }
+  },
+  "ancestors": [
+    {
+      "id": "R07",
+      "level": 1,
+      "name": {
+        "local": "Central Visayas",
+        "en": "Central Visayas",
+        "slug": "central-visayas-R07"
+      }
+    },
+    {
+      "id": "071200",
+      "level": 2,
+      "name": {
+        "local": "Bohol",
+        "en": "Bohol",
+        "slug": "bohol-071200"
+      }
+    }
+  ],
+  "children_count": {
+    "barangay": 21
+  },
+  "zip_codes": [],
+  "geo": {
+    "lat": "9.72",
+    "lon": "124.4"
+  },
+  "metadata": {},
+  "source": {}
+}
