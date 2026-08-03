@@ -1,6 +1,6 @@
 # Binangonan
 
-[Home](../../../../) &gt; [CALABARZON](../../) &gt; [Rizal](../) > **Binangonan**
+[Home.. &gt; [CALABARZON](../../) &gt; [Rizal](../) > **Binangonan**
 
 Binangonan is a municipality in Philippines, under Rizal.
 
