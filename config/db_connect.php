@@ -66,7 +66,7 @@ foreach ($env as $k => $v) {
     }
 }
 
-// Database configuration (from .env, server env, or defaults)
+// Database configuration from the root .env file only.
 define('DB_HOST', getEnvValue(['DB_HOST', 'MYSQL_HOST', 'DATABASE_HOST'], $env, '127.0.0.1'));
 define('DB_PORT', getEnvValue(['DB_PORT'], $env, '3306'));
 define('DB_NAME', getEnvValue(['DB_DATABASE', 'DB_NAME', 'MYSQL_DATABASE', 'DATABASE_NAME'], $env, 'law&inci'));
