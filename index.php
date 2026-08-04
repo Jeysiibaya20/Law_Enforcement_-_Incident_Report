@@ -251,7 +251,7 @@ html, body {
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
-    animation: floatCard 6s ease-in-out infinite;
+    animation: floatCard;
     width: 150px;
     height: 145px;
 }
@@ -270,27 +270,19 @@ html, body {
 }
 
 .card-1 { 
-    top: 10%; 
-    left: 10%; 
-    animation-delay: 0s;
+
 }
 
 .card-2 { 
-    top: 20%; 
-    right: 15%; 
-    animation-delay: 1.5s;
+
 }
 
 .card-3 { 
-    bottom: 30%; 
-    left: 10%; 
-    animation-delay: 3s;
+
 }
 
 .card-4 { 
-    bottom: 10%; 
-    right: 10%; 
-    animation-delay: 4.5s;
+
 }
 
 .overview-section, .modules-section, .features-section { 

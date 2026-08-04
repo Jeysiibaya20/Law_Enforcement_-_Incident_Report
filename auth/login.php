@@ -152,10 +152,12 @@ require_once '../includes/header.php';
                     </button>
                     
 <div class="signup-container">
-  <a href="signup_multistep.php" class="login-btn">
+  <a href="signup_multistep.php" class="login-scd">
     <i class="bi bi-box-arrow-in-right"></i>
     <span>Sign up</span>
   </a>
+</div>
+
   <p></p>
    <p></p>
   <p>Don't have an account?</p>
@@ -294,7 +296,7 @@ require_once '../includes/header.php';
     margin: 0 auto 1.5rem;
     font-size: 2.5rem;
     color: var(--text-white);
-    animation: float 6s ease-in-out infinite;
+    animation: float;
     box-shadow: var(--shadow-lg);
     overflow: hidden;
 }

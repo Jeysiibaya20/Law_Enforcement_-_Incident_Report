@@ -271,7 +271,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     overflow: hidden;
     animation: slideInUp 0.8s ease-out;
     width: 100%;
-    max-width: 550px;
+    max-width: 800px;
 }
 
 .login-header {
@@ -306,7 +306,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     margin: 0 auto 1.5rem;
     font-size: 2.5rem;
     color: var(--text-white);
-    animation: float 6s ease-in-out infinite;
+    animation: float;
     box-shadow: var(--shadow-lg);
     overflow: hidden;
 }
