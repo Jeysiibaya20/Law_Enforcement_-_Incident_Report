@@ -227,13 +227,13 @@ include '../includes/header.php';
                                 <div class="col-md-6">
                                     <label class="form-label">Province</label>
                                     <select name="province" id="provinceSelect" class="form-select">
-                                        <option value="">-- Select Province --</option>
+                                        <option value="Metro Manila">Metro Manila</option>
                                     </select>
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label">City</label>
                                     <select name="city" id="citySelect" class="form-select">
-                                        <option value="">-- Select City --</option>
+                                        <option value="Quezon City">Quezon City</option>
                                     </select>
                                 </div>
                                 <div class="col-md-6">
@@ -372,105 +372,40 @@ include '../includes/header.php';
     const brgySelect = document.getElementById('brgySelect');
     const zipCode = document.getElementById('zipCode');
 
-    if (!provinceSelect) return;
+    if (!provinceSelect || !citySelect || !brgySelect) return;
 
-    fetch('../philippines-administrative-divisions-main/data/all-flat.json').then(r => r.json()).then(json => {
-        const allItems = json.data || [];
-        const provinces = allItems.filter(item => item.level === 2).sort((a, b) => a.name.en.localeCompare(b.name.en, 'en', { numeric: true }));
-        const cities = allItems.filter(item => item.level === 3);
-        const barangays = allItems.filter(item => item.level === 4);
+    const existingProvince = <?= json_encode($witness['province'] ?? '') ?>;
+    const existingCity = <?= json_encode($witness['city'] ?? '') ?>;
+    const existingBrgy = <?= json_encode($witness['barangay'] ?? '') ?>;
 
-        provinces.forEach(province => {
-            const opt = document.createElement('option');
-            opt.value = province.name.en;
-            opt.textContent = province.name.en;
-            opt.dataset.provinceId = province.id;
-            provinceSelect.appendChild(opt);
-        });
+    provinceSelect.value = existingProvince || 'Metro Manila';
+    citySelect.value = existingCity || 'Quezon City';
 
-        try {
-            $(provinceSelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'Search and select province...' });
-            $(citySelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'Select city first...' });
-            $(brgySelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'Select barangay...' });
-        } catch (e) {
-            console.warn('Select2 not loaded, using native select');
-        }
+    const barangays = [
+        'Alicia','Amihan','Bagbag','Bagong Pag-asa','Bagong Silangan','Bahay Toro','Balingasa','Batasan Hills','Blue Ridge A','Blue Ridge B','Botocan','Burnham Park','Camp Aguinaldo','Capri','Central','Claro','Commonwealth','Culiat','Damar','Damon','Don Manuel','Don Sergio','East Kamias','Fairview','Greater Lagro','Gulod','Holy Spirit','Immaculate Concepcion','Kaligayahan','Kalusugan','Kamias','Kamagong','Kapiligan','Katipunan','Laging Handa','Libis','Lourdes','Malaya','Malayong Sangley','Mariana','Mauway','Nagkaisang Nayon','Nayon Kaunlaran','New Era','North Fairview','Novaliches Proper','Ocampo','Old Capitol Site','Paltok','Parang','Pasong Putik Proper','Payatas','Phil-Am','Pinagkaisahan','Pinyahan','Project 6','Quirino 2-A','Quirino 2-B','Quirino 3-A','R. I. P. (Resty I. P.)','Sagrado','Saint Ignatius','Saint Peter','Salawag','San Agustin','San Antonio','San Isidro','San Isidro Labrador','San Jose','San Martin De Porres','San Roque','Santo Cristo','Santo Domingo','Santo Niño','Sauyo','Sienna','South Triangle','Tagumpay','Talayan','Tandang Sora','Tatalon','Teachers Village East','Teachers Village West','U.P. Campus','Unang Sigaw','Villa Maria Clara','West Kamias','White Plains','Wigan'
+    ].sort();
 
-        const existingProvince = <?= json_encode($witness['province'] ?? '') ?>;
-        const existingCity = <?= json_encode($witness['city'] ?? '') ?>;
-        const existingBrgy = <?= json_encode($witness['barangay'] ?? '') ?>;
-
-        if (existingProvince) {
-            provinceSelect.value = existingProvince;
-            try { $(provinceSelect).trigger('change.select2'); } catch (e) {}
-            provinceSelect.dispatchEvent(new Event('change'));
-        }
-
-        provinceSelect.addEventListener('change', function() {
-            citySelect.innerHTML = '<option value="">-- Select City / Municipality --</option>';
-            brgySelect.innerHTML = '<option value="">-- Select Barangay --</option>';
-            zipCode.value = '';
-
-            const selectedProvinceId = provinceSelect.selectedOptions[0]?.dataset.provinceId || '';
-            if (!selectedProvinceId) return;
-
-            const citiesInProvince = cities
-                .filter(city => city.parent && city.parent.id === selectedProvinceId)
-                .sort((a, b) => a.name.en.localeCompare(b.name.en, 'en', { numeric: true }));
-
-            citiesInProvince.forEach(city => {
-                const opt = document.createElement('option');
-                opt.value = city.name.en;
-                opt.textContent = city.name.en;
-                opt.dataset.cityId = city.id;
-                opt.dataset.zip = Array.isArray(city.zip_codes) ? city.zip_codes[0] || '' : '';
-                citySelect.appendChild(opt);
-            });
-
-            try { $(citySelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'Select city...' }); } catch (e) {}
-
-            if (existingCity) {
-                citySelect.value = existingCity;
-                try { $(citySelect).trigger('change.select2'); } catch (e) {}
-                citySelect.dispatchEvent(new Event('change'));
-            }
-        });
-
-        citySelect.addEventListener('change', function() {
-            brgySelect.innerHTML = '<option value="">-- Select Barangay --</option>';
-            zipCode.value = '';
-
-            const selectedCityId = citySelect.selectedOptions[0]?.dataset.cityId || '';
-            if (!selectedCityId) {
-                zipCode.value = '';
-                return;
-            }
-
-            const barangaysInCity = barangays
-                .filter(brgy => brgy.parent && brgy.parent.id === selectedCityId)
-                .sort((a, b) => a.name.en.localeCompare(b.name.en, 'en', { numeric: true }));
-
-            barangaysInCity.forEach(brgy => {
-                const opt = document.createElement('option');
-                opt.value = brgy.name.en;
-                opt.textContent = brgy.name.en;
-                brgySelect.appendChild(opt);
-            });
-
-            try { $(brgySelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'Select barangay...' }); } catch (e) {}
-
-            const selectedCityOption = citySelect.selectedOptions[0];
-            zipCode.value = selectedCityOption?.dataset.zip || '';
-
-            if (existingBrgy) {
-                brgySelect.value = existingBrgy;
-                try { $(brgySelect).trigger('change.select2'); } catch (e) {}
-            }
-        });
-
-    }).catch(err => {
-        console.error('Failed to load geodata:', err);
+    barangays.forEach(brgy => {
+        const opt = document.createElement('option');
+        opt.value = brgy;
+        opt.textContent = brgy;
+        brgySelect.appendChild(opt);
     });
+
+    try {
+        $(provinceSelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'Province' });
+        $(citySelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'City' });
+        $(brgySelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'Select barangay...' });
+    } catch (e) {
+        console.warn('Select2 not loaded, using native select');
+    }
+
+    if (existingBrgy) {
+        brgySelect.value = existingBrgy;
+        try { $(brgySelect).trigger('change.select2'); } catch (e) {}
+    }
+
+    zipCode.value = '1110';
 })();
 </script>
 

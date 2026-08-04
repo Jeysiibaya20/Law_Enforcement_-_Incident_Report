@@ -403,14 +403,14 @@ include '../includes/navbar.php';
                                 <div class="col-md-6">
                                     <label class="form-label">Province</label>
                                     <select name="province" id="provinceSelect" class="form-select">
-                                        <option value="">-- Select Province --</option>
+                                        <option value="Metro Manila">Metro Manila</option>
                                     </select>
                                 </div>
 
                                 <div class="col-md-6">
                                     <label class="form-label">City / Municipality</label>
                                     <select name="city" id="citySelect" class="form-select">
-                                        <option value="">-- Select City --</option>
+                                        <option value="Quezon City">Quezon City</option>
                                     </select>
                                 </div>
 
@@ -744,145 +744,46 @@ if (idInput) {
 <link href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" rel="stylesheet" />
 
 <script>
-// Load city/barangay data and populate selects with reversed cascade
-// Province -> City -> Barangay
 (function(){
     const provinceSelect = document.getElementById('provinceSelect');
     const citySelect = document.getElementById('citySelect');
     const brgySelect = document.getElementById('brgySelect');
     const zipCode = document.getElementById('zipCode');
 
-    if (!provinceSelect) return;
+    if (!provinceSelect || !citySelect || !brgySelect) return;
 
-    // Fetch the full geodata JSON
-    fetch('../assets/data/ph_geodata_full.json').then(r=>r.json()).then(data=>{
-        const cities = data.cities || [];
-        
-        // Get unique provinces and sort
-        const provinces = Array.from(new Set(cities.map(c=>c.province).filter(Boolean))).sort();
-        
-        // Populate province select
-        provinces.forEach(p=>{
-            const opt = document.createElement('option');
-            opt.value = p;
-            opt.textContent = p;
-            provinceSelect.appendChild(opt);
-        });
+    const existingProvince = <?= json_encode($suspect['province'] ?? '') ?>;
+    const existingCity = <?= json_encode($suspect['city'] ?? '') ?>;
+    const existingBrgy = <?= json_encode($suspect['barangay'] ?? '') ?>;
 
-        // Initialize Select2 for better UX with large lists
-        try {
-            $(provinceSelect).select2({
-                theme: 'bootstrap-5',
-                width: '100%',
-                placeholder: 'Search and select province...'
-            });
-            $(citySelect).select2({
-                theme: 'bootstrap-5',
-                width: '100%',
-                placeholder: 'Select city first...'
-            });
-            $(brgySelect).select2({
-                theme: 'bootstrap-5',
-                width: '100%',
-                placeholder: 'Select barangay...'
-            });
-        } catch (e) {
-            console.warn('Select2 not loaded, using native select');
-        }
+    provinceSelect.value = existingProvince || 'Metro Manila';
+    citySelect.value = existingCity || 'Quezon City';
 
-        // If editing existing suspect, pre-select values from server-rendered values
-        const existingProvince = <?= json_encode($suspect['province'] ?? '') ?>;
-        const existingCity = <?= json_encode($suspect['city'] ?? '') ?>;
-        const existingBrgy = <?= json_encode($suspect['barangay'] ?? '') ?>;
-        const existingZip = <?= json_encode($suspect['zip_code'] ?? '') ?>;
+    const barangays = [
+        'Alicia','Amihan','Bagbag','Bagong Pag-asa','Bagong Silangan','Bahay Toro','Balingasa','Batasan Hills','Blue Ridge A','Blue Ridge B','Botocan','Burnham Park','Camp Aguinaldo','Capri','Central','Claro','Commonwealth','Culiat','Damar','Damon','Don Manuel','Don Sergio','East Kamias','Fairview','Greater Lagro','Gulod','Holy Spirit','Immaculate Concepcion','Kaligayahan','Kalusugan','Kamias','Kamagong','Kapiligan','Katipunan','Laging Handa','Libis','Lourdes','Malaya','Malayong Sangley','Mariana','Mauway','Nagkaisang Nayon','Nayon Kaunlaran','New Era','North Fairview','Novaliches Proper','Ocampo','Old Capitol Site','Paltok','Parang','Pasong Putik Proper','Payatas','Phil-Am','Pinagkaisahan','Pinyahan','Project 6','Quirino 2-A','Quirino 2-B','Quirino 3-A','R. I. P. (Resty I. P.)','Sagrado','Saint Ignatius','Saint Peter','Salawag','San Agustin','San Antonio','San Isidro','San Isidro Labrador','San Jose','San Martin De Porres','San Roque','Santo Cristo','Santo Domingo','Santo Niño','Sauyo','Sienna','South Triangle','Tagumpay','Talayan','Tandang Sora','Tatalon','Teachers Village East','Teachers Village West','U.P. Campus','Unang Sigaw','Villa Maria Clara','West Kamias','White Plains','Wigan'
+    ].sort();
 
-        if (existingProvince) {
-            provinceSelect.value = existingProvince;
-            try { $(provinceSelect).trigger('change.select2'); } catch(e) {}
-            provinceSelect.dispatchEvent(new Event('change'));
-        }
-
-        // When province changes, populate cities
-        provinceSelect.addEventListener('change', function(){
-            // Clear cities and barangays
-            citySelect.innerHTML = '<option value="">-- Select City --</option>';
-            brgySelect.innerHTML = '<option value="">-- Select Barangay --</option>';
-            zipCode.value = '';
-            
-            const selectedProvince = provinceSelect.value;
-            if (!selectedProvince) return;
-
-            // Filter cities by province
-            const citiesInProvince = cities.filter(c => c.province === selectedProvince);
-            
-            citiesInProvince.forEach(c=>{
-                const opt = document.createElement('option');
-                opt.value = c.city;
-                opt.dataset.zip = c.zip || '';
-                opt.textContent = c.city;
-                citySelect.appendChild(opt);
-            });
-
-            // Reinitialize Select2
-            try { 
-                $(citySelect).select2({ 
-                    theme: 'bootstrap-5', 
-                    width: '100%', 
-                    placeholder: 'Select city...' 
-                }); 
-            } catch(e) {}
-
-            // Pre-select city if editing
-            if (existingCity) {
-                citySelect.value = existingCity;
-                try { $(citySelect).trigger('change.select2'); } catch(e) {}
-                citySelect.dispatchEvent(new Event('change'));
-            }
-        });
-
-        // When city changes, populate barangays and set ZIP
-        citySelect.addEventListener('change', function(){
-            brgySelect.innerHTML = '<option value="">-- Select Barangay --</option>';
-            const selectedCity = citySelect.value;
-            if (!selectedCity) {
-                zipCode.value = '';
-                return;
-            }
-
-            const cityObj = cities.find(c => c.city === selectedCity);
-            if (cityObj) {
-                // Populate barangays
-                (cityObj.barangays || []).forEach(b=>{
-                    const o = document.createElement('option');
-                    o.value = b;
-                    o.textContent = b;
-                    brgySelect.appendChild(o);
-                });
-
-                // Reinitialize Select2
-                try { 
-                    $(brgySelect).select2({ 
-                        theme: 'bootstrap-5', 
-                        width: '100%', 
-                        placeholder: 'Select barangay...' 
-                    }); 
-                } catch(e) {}
-
-                // Set ZIP code
-                zipCode.value = cityObj.zip || '';
-
-                // Pre-select barangay if editing
-                if (existingBrgy) {
-                    brgySelect.value = existingBrgy;
-                    try { $(brgySelect).trigger('change.select2'); } catch(e) {}
-                }
-            }
-        });
-
-    }).catch(err=>{
-        console.error('Failed to load geodata:', err);
+    barangays.forEach(brgy => {
+        const opt = document.createElement('option');
+        opt.value = brgy;
+        opt.textContent = brgy;
+        brgySelect.appendChild(opt);
     });
 
+    try {
+        $(provinceSelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'Province' });
+        $(citySelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'City' });
+        $(brgySelect).select2({ theme: 'bootstrap-5', width: '100%', placeholder: 'Select barangay...' });
+    } catch (e) {
+        console.warn('Select2 not loaded, using native select');
+    }
+
+    if (existingBrgy) {
+        brgySelect.value = existingBrgy;
+        try { $(brgySelect).trigger('change.select2'); } catch (e) {}
+    }
+
+    zipCode.value = '1110';
 })();
 </script>
 
