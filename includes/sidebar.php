@@ -68,6 +68,12 @@ $current_page = strtolower(basename($_SERVER['PHP_SELF']));
                             </a>
                         </li>
                         <li class="sidebar-menu-item">
+                            <a href="<?php echo $base_url; ?>admin/add_admin.php" class="sidebar-link sidebar-accent-profile <?php echo $current_page === 'add_admin.php' ? 'active' : ''; ?>">
+                                <i class="fas fa-user-shield sidebar-icon" aria-hidden="true"></i>
+                                <span>Create Admin</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-menu-item">
                             <a href="<?php echo $base_url; ?>admin/settings.php" class="sidebar-link sidebar-accent-profile <?php echo ($current_page === 'settings.php' && isset($_GET['tab']) && $_GET['tab'] === 'profile') ? 'active' : ''; ?>">
                                 <i class="fas fa-user-circle sidebar-icon" aria-hidden="true"></i>
                                 <span>My Profile</span>
