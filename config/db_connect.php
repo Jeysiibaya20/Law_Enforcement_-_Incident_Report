@@ -103,7 +103,7 @@ function getDBConnection() {
                             PDO::ATTR_EMULATE_PREPARES => false
                         ];
 
-                        $pdo = new PDO($dsn, username: $user, password: $pass, options: $options);
+                        $pdo = new PDO($dsn, $user, $pass, $options);
                         return $pdo;
                     } catch (PDOException $e) {
                         $lastError = $e->getMessage();
@@ -122,7 +122,7 @@ function getDBConnection() {
                             PDO::ATTR_EMULATE_PREPARES => false
                         ];
 
-                        $pdo = new PDO($dsn, username: $user, password: $pass, options: $options);
+                        $pdo = new PDO($dsn, $user, $pass, $options);
                         return $pdo;
                     } catch (PDOException $e) {
                         $lastError = $e->getMessage();

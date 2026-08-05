@@ -1,96 +1,70 @@
 <?php
+/**
+ * Unified Main Header Include Component
+ * Synced with EMERGENCY-COM standard design tokens & asset links
+ */
 
-// Start session if not already started
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// Load language manager
-require_once __DIR__ . '/../config/LanguageManager.php';
+$script_dir = str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'] ?? ''));
+$in_subfolder = (strpos($script_dir, '/modules') !== false) || (strpos($script_dir, '/admin') !== false) || (strpos($script_dir, '/officer') !== false);
+$base_url = isset($base_url) ? $base_url : ($in_subfolder ? '../' : '');
 
-// Check if user is logged in (basic check)
-$is_logged_in = isset($_SESSION['user_id']);
+$is_logged_in = isset($_SESSION['user_id']) || isset($_SESSION['user_logged_in']);
 $current_user = $is_logged_in ? $_SESSION : null;
-$current_lang = LanguageManager::getCurrentLanguage();
-$supported_langs = LanguageManager::getSupportedLanguages();
+
+// Require LanguageManager if exists
+$lang_manager_file = __DIR__ . '/../config/LanguageManager.php';
+if (file_exists($lang_manager_file)) {
+    require_once $lang_manager_file;
+    $current_lang = class_exists('LanguageManager') ? LanguageManager::getCurrentLanguage() : 'en';
+} else {
+    $current_lang = 'en';
+}
 ?>
 <!DOCTYPE html>
-<html lang="<?php echo $current_lang; ?>">
+<html lang="<?php echo htmlspecialchars($current_lang); ?>" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Alertara">
-    <meta name="author" content="Alertara">
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Alertara - Law Enforcement & Incident Report System">
+    <meta name="author" content="Alertara Team">
     
-    <title><?php echo isset($page_title) ? $page_title . ' - ' : ''; ?>Alertara</title>
+    <title><?php echo isset($page_title) ? htmlspecialchars($page_title) . ' - ' : ''; ?>Alertara Incident System</title>
     
+    <!-- Instant Theme Loader (Prevents FOUC) -->
     <script>
         (function() {
-            const savedTheme = localStorage.getItem('alertaraTheme');
-            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            const theme = savedTheme || (prefersDark ? 'dark' : 'light');
-            const root = document.documentElement;
-
-            root.setAttribute('data-theme', theme);
-            root.classList.remove('light-mode', 'dark-mode');
-            root.classList.add(theme + '-mode');
-
-            function applyBodyTheme() {
-                if (!document.body) return;
-                document.body.classList.remove('light-mode', 'dark-mode');
-                document.body.classList.add(theme + '-mode');
-            }
-
-            applyBodyTheme();
-            document.addEventListener('DOMContentLoaded', applyBodyTheme);
+            const savedTheme = localStorage.getItem('theme') || localStorage.getItem('alertaraTheme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
         })();
     </script>
 
-    <!-- Bootstrap 5.3.8 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: '#0f766e'
-                    }
-                }
-            }
-        };
-    </script>
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- SweetAlert2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
     
-    <!-- Custom CSS -->
-    <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/global.css" rel="stylesheet">
-    <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/auth.css" rel="stylesheet">
-    <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/style.css" rel="stylesheet">
-    <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/navbar.css" rel="stylesheet">
-    <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/theme.css" rel="stylesheet">
-    <link href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/css/theme-dark-overrides.css" rel="stylesheet">
+    <!-- Centralized CSS -->
+    <link href="<?php echo $base_url; ?>assets/css/global.css" rel="stylesheet">
+    <link href="<?php echo $base_url; ?>assets/css/style.css" rel="stylesheet">
+    <link href="<?php echo $base_url; ?>assets/css/theme.css" rel="stylesheet">
 
-    <!-- Favicon -->
-    <!-- <link rel="icon" type="image/x-icon" href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/images/favicon.ico"> -->
-    
-    <!-- Additional Head Content -->
     <?php if (isset($additional_head)) echo $additional_head; ?>
 </head>
-<body<?php if (!empty($body_class)) { echo ' class="' . htmlspecialchars($body_class) . '"'; } ?>>
+<body class="has-sidebar <?php echo !empty($body_class) ? htmlspecialchars($body_class) : ''; ?>">
 
-<?php $hdr_base = isset($base_url) ? $base_url : ''; ?>
-<?php if (isset($_SESSION['role']) && strtolower($_SESSION['role']) === 'admin'): ?>
-
-<?php endif; ?>
-
-<?php
-// Chat widget removed per request (site disables AI Assistant widget)
+<?php 
+// Include Top Header Bar and Sidebar Navigation Drawer
+include __DIR__ . '/navbar.php';
+include __DIR__ . '/sidebar.php';
 ?>

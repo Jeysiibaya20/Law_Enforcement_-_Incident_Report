@@ -1,4 +1,6 @@
-Options -Indexes
+<IfModule mod_autoindex.c>
+    Options -Indexes
+</IfModule>
 
 DirectoryIndex index.php landing.php
 

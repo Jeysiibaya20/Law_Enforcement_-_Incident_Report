@@ -1,154 +1,127 @@
 <?php
-
+/**
+ * Unified Footer & Global Script Include Component
+ * Synced with EMERGENCY-COM standard design and interactive behavior
+ */
 ?>
 
-    </div> <!-- End main-wrapper -->
-    
-    <!-- Bootstrap 5.3.8 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <!-- Custom JavaScript -->
-    <script>
-        // Mobile sidebar toggle
-        function toggleSidebar() {
-            const sidebar = document.getElementById('sidebar');
-            sidebar.classList.toggle('show');
+<!-- Shared Footer Info (if non-admin/public view) -->
+<footer class="footer py-3 mt-auto border-top bg-card text-secondary" style="font-size: 0.85rem;">
+    <div class="container-fluid px-4 d-flex flex-column flex-sm-row justify-content-between align-items-center">
+        <div>
+            <span>&copy; <?php echo date('Y'); ?> <strong>Alertara Incident & Law Enforcement System</strong>. All rights reserved.</span>
+        </div>
+        <div class="mt-2 mt-sm-0">
+            <span class="badge bg-secondary">System Uniform Template v2.0</span>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap 5.3 JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- SweetAlert2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- Header & Sidebar Dynamic Behavior Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.getElementById('menuToggle');
+    const appSidebar = document.getElementById('appSidebar');
+    const sidebarOverlay = document.getElementById('sidebarOverlay');
+    const lightModeBtn = document.getElementById('lightModeBtn');
+    const darkModeBtn = document.getElementById('darkModeBtn');
+    const searchInput = document.getElementById('headerSearchInput');
+    const searchDropdown = document.getElementById('searchDropdown');
+
+    // 1. Sidebar Toggle Handler
+    function toggleSidebar() {
+        if (!appSidebar) return;
+        if (window.innerWidth <= 992) {
+            appSidebar.classList.toggle('active');
+            if (sidebarOverlay) sidebarOverlay.classList.toggle('active');
+        } else {
+            document.body.classList.toggle('sidebar-collapsed');
         }
-        
-        // Close sidebar when clicking outside on mobile
-        document.addEventListener('click', function(event) {
-            const sidebar = document.getElementById('sidebar');
-            const toggleButton = document.querySelector('.mobile-menu-toggle');
-            
-            if (window.innerWidth <= 768) {
-                if (!sidebar.contains(event.target) && !toggleButton.contains(event.target)) {
-                    sidebar.classList.remove('show');
-                }
+    }
+
+    if (menuToggle) menuToggle.addEventListener('click', toggleSidebar);
+    if (sidebarOverlay) sidebarOverlay.addEventListener('click', toggleSidebar);
+
+    // 2. Realtime Theme Mode Handler
+    function setTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (lightModeBtn && darkModeBtn) {
+            lightModeBtn.classList.toggle('active', theme !== 'dark');
+            darkModeBtn.classList.toggle('active', theme === 'dark');
+        }
+    }
+
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    setTheme(savedTheme);
+
+    if (lightModeBtn) lightModeBtn.addEventListener('click', () => setTheme('light'));
+    if (darkModeBtn) darkModeBtn.addEventListener('click', () => setTheme('dark'));
+
+    // 3. Realtime Clock Handler
+    function updateClock() {
+        const dateEl = document.querySelector('#headerDateTime .date-part');
+        const timeEl = document.querySelector('#headerDateTime .time-part');
+        if (!dateEl || !timeEl) return;
+
+        const now = new Date();
+        dateEl.textContent = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+        timeEl.textContent = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+
+    // 4. Header Quick Search Filter
+    if (searchInput && searchDropdown) {
+        const pages = [
+            { name: 'Dashboard', url: '<?php echo $base_url; ?>admin/dashboard.php', category: 'Admin' },
+            { name: 'Case Tracking', url: '<?php echo $base_url; ?>admin/cases.php', category: 'Cases' },
+            { name: 'Blotter Records', url: '<?php echo $base_url; ?>admin/blotters.php', category: 'Incident' },
+            { name: 'Account Approvals', url: '<?php echo $base_url; ?>admin/account_approvals.php', category: 'Users' },
+            { name: 'Reports & Analytics', url: '<?php echo $base_url; ?>admin/reports.php', category: 'Reports' },
+            { name: 'Hearing Schedule', url: '<?php echo $base_url; ?>admin/Hearing_schedule.php', category: 'Hearings' },
+            { name: 'Crime Mapping', url: '<?php echo $base_url; ?>modules/crime_mapping.php', category: 'Map' },
+            { name: 'File Incident Report', url: '<?php echo $base_url; ?>modules/Incident_report.php', category: 'Public' },
+            { name: 'My Reports', url: '<?php echo $base_url; ?>modules/my_reports.php', category: 'Public' }
+        ];
+
+        searchInput.addEventListener('input', function() {
+            const query = this.value.trim().toLowerCase();
+            if (!query) {
+                searchDropdown.style.display = 'none';
+                return;
             }
-        });
-        
-        // Auto-hide alerts after 5 seconds
-        document.addEventListener('DOMContentLoaded', function() {
-            const alerts = document.querySelectorAll('.alert');
-            alerts.forEach(function(alert) {
-                setTimeout(function() {
-                    alert.style.opacity = '0';
-                    setTimeout(function() {
-                        alert.remove();
-                    }, 300);
-                }, 5000);
-            });
-        });
-        
-        // Form validation helper
-        function validateForm(formId) {
-            const form = document.getElementById(formId);
-            if (!form) return false;
-            
-            const requiredFields = form.querySelectorAll('[required]');
-            let isValid = true;
-            
-            requiredFields.forEach(function(field) {
-                if (!field.value.trim()) {
-                    field.classList.add('is-invalid');
-                    isValid = false;
-                } else {
-                    field.classList.remove('is-invalid');
-                }
-            });
-            
-            return isValid;
-        }
-        
-        // Table search functionality
-        function searchTable(inputId, tableId) {
-            const input = document.getElementById(inputId);
-            const table = document.getElementById(tableId);
-            
-            if (!input || !table) return;
-            
-            input.addEventListener('keyup', function() {
-                const filter = this.value.toLowerCase();
-                const rows = table.querySelectorAll('tbody tr');
-                
-                rows.forEach(function(row) {
-                    const text = row.textContent.toLowerCase();
-                    row.style.display = text.includes(filter) ? '' : 'none';
-                });
-            });
-        }
-        
-        // Confirm delete actions
-        function confirmDelete(message = 'Are you sure you want to delete this item?') {
-            return confirm(message);
-        }
-        
-        // Show loading state
-        function showLoading(element) {
-            if (element) {
-                element.classList.add('loading');
-                element.disabled = true;
+
+            const matches = pages.filter(p => p.name.toLowerCase().includes(query) || p.category.toLowerCase().includes(query));
+            if (matches.length > 0) {
+                searchDropdown.innerHTML = matches.map(m => `
+                    <div class="search-result-item" onclick="window.location.href='${m.url}'">
+                        <i class="fas fa-search me-2 text-primary"></i>
+                        <span>${m.name}</span>
+                        <span class="badge bg-secondary ms-auto" style="font-size:0.7rem;">${m.category}</span>
+                    </div>
+                `).join('');
+            } else {
+                searchDropdown.innerHTML = `<div class="search-result-item text-muted"><i class="fas fa-times-circle me-2"></i>No pages found</div>`;
             }
-        }
-        
-        // Hide loading state
-        function hideLoading(element) {
-            if (element) {
-                element.classList.remove('loading');
-                element.disabled = false;
-            }
-        }
-        
-        // Format currency
-        function formatCurrency(amount) {
-            return new Intl.NumberFormat('en-PH', {
-                style: 'currency',
-                currency: 'PHP'
-            }).format(amount);
-        }
-        
-        // Format date
-        function formatDate(dateString) {
-            const date = new Date(dateString);
-            return date.toLocaleDateString('en-PH', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-            });
-        }
-        
-        // Initialize tooltips
-        document.addEventListener('DOMContentLoaded', function() {
-            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-            tooltipTriggerList.map(function(tooltipTriggerEl) {
-                return new bootstrap.Tooltip(tooltipTriggerEl);
-            });
-        });
-        
-        // Initialize popovers
-        document.addEventListener('DOMContentLoaded', function() {
-            const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
-            popoverTriggerList.map(function(popoverTriggerEl) {
-                return new bootstrap.Popover(popoverTriggerEl);
-            });
+            searchDropdown.style.display = 'block';
         });
 
-        // Chat widget handlers removed per request
-    </script>
-    
-    <!-- Additional Footer Content -->
-    <?php if (isset($additional_footer)) echo $additional_footer; ?>
-    
-    <!-- Debug Information (only in development) -->
-    <?php if (getenv('DEBUG')): ?>
-    <div class="debug-info" style="position: fixed; bottom: 10px; right: 10px; background: rgba(0,0,0,0.8); color: white; padding: 10px; border-radius: 5px; font-size: 12px; z-index: 900;">
-        <strong>Debug Info:</strong><br>
-        Page: <?php echo basename($_SERVER['PHP_SELF']); ?><br>
-        User: <?php echo $_SESSION['username'] ?? 'Not logged in'; ?><br>
-        Role: <?php echo $_SESSION['role'] ?? 'None'; ?><br>
-        Time: <?php echo date('Y-m-d H:i:s'); ?>
-    </div>
-    <?php endif; ?>
-    
+        document.addEventListener('click', function(e) {
+            if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) {
+                searchDropdown.style.display = 'none';
+            }
+        });
+    }
+});
+</script>
+
+<?php if (isset($additional_footer)) echo $additional_footer; ?>
 </body>
 </html>
