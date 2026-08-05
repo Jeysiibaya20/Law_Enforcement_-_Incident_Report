@@ -205,20 +205,20 @@ require_once '../includes/header.php';
                             <strong>Case Tracking</strong>
                             <small>Assign & track cases</small>
                         </a>
-                        <a href="reports.php" class="quick-action-btn">
-                            <i class="fas fa-chart-line"></i>
-                            <strong>Reports</strong>
-                            <small>Analytics & statistics</small>
+                        <a href="hearing_result.php" class="quick-action-btn">
+                            <i class="fas fa-poll-h"></i>
+                            <strong>Hearing Result</strong>
+                            <small>Record hearing outcomes</small>
                         </a>
-                        <a href="add_admin.php" class="quick-action-btn">
-                            <i class="fas fa-user-shield"></i>
-                            <strong>Create Admin</strong>
-                            <small>Provision admin accounts</small>
+                        <a href="../modules/Request_form.php" class="quick-action-btn">
+                            <i class="fas fa-video"></i>
+                            <strong>CCTV Request</strong>
+                            <small>Request footage & form</small>
                         </a>
-                        <a href="settings.php" class="quick-action-btn">
-                            <i class="fas fa-cog"></i>
-                            <strong>Settings</strong>
-                            <small>System configuration</small>
+                        <a href="../modules/evidence_collection.php" class="quick-action-btn">
+                            <i class="fas fa-box-open"></i>
+                            <strong>Evidence Logs</strong>
+                            <small>Track collected evidence</small>
                         </a>
                     </div>
                 </div>

@@ -111,6 +111,24 @@ $current_page = strtolower(basename($_SERVER['PHP_SELF']));
                             </a>
                         </li>
                         <li class="sidebar-menu-item">
+                            <a href="<?php echo $base_url; ?>admin/hearing_result.php" class="sidebar-link sidebar-accent-overview <?php echo $current_page === 'hearing_result.php' ? 'active' : ''; ?>">
+                                <i class="fas fa-poll-h sidebar-icon" aria-hidden="true"></i>
+                                <span>Hearing Result</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-menu-item">
+                            <a href="<?php echo $base_url; ?>modules/Request_form.php" class="sidebar-link sidebar-accent-weather <?php echo ($current_page === 'request_form.php' || $current_page === 'cctv_request.php') ? 'active' : ''; ?>">
+                                <i class="fas fa-video sidebar-icon" aria-hidden="true"></i>
+                                <span>CCTV / Request Form</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-menu-item">
+                            <a href="<?php echo $base_url; ?>modules/evidence_collection.php" class="sidebar-link sidebar-accent-language <?php echo $current_page === 'evidence_collection.php' ? 'active' : ''; ?>">
+                                <i class="fas fa-box-open sidebar-icon" aria-hidden="true"></i>
+                                <span>Evidence Collection</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-menu-item">
                             <a href="<?php echo $base_url; ?>admin/Summons.php" class="sidebar-link sidebar-accent-multilang <?php echo $current_page === 'summons.php' ? 'active' : ''; ?>">
                                 <i class="fas fa-envelope-open-text sidebar-icon" aria-hidden="true"></i>
                                 <span>Summons Notices</span>
@@ -145,18 +163,6 @@ $current_page = strtolower(basename($_SERVER['PHP_SELF']));
                             <a href="<?php echo $base_url; ?>admin/setup_automated_reports.php" class="sidebar-link sidebar-accent-auto <?php echo $current_page === 'setup_automated_reports.php' ? 'active' : ''; ?>">
                                 <i class="fas fa-robot sidebar-icon" aria-hidden="true"></i>
                                 <span>Automated Reports</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>modules/crime_mapping.php" class="sidebar-link sidebar-accent-weather <?php echo $current_page === 'crime_mapping.php' ? 'active' : ''; ?>">
-                                <i class="fas fa-map-marked-alt sidebar-icon" aria-hidden="true"></i>
-                                <span>Crime Mapping</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>modules/learning.php" class="sidebar-link sidebar-accent-language <?php echo $current_page === 'learning.php' ? 'active' : ''; ?>">
-                                <i class="fas fa-book-open sidebar-icon" aria-hidden="true"></i>
-                                <span>Awareness & Guide</span>
                             </a>
                         </li>
                     </ul>

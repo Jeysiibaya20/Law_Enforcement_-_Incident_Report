@@ -123,8 +123,8 @@ switch ($action) {
             // 7. System Modules
             $modules = [
                 'admin' => ['dashboard', 'users', 'account_approvals', 'create_admin', 'settings'],
-                'incident_management' => ['cases', 'blotters', 'suspects_witnesses', 'hearing_schedule', 'summons', 'certificates', 'settlements'],
-                'intelligence_reports' => ['reports_analytics', 'automated_reports', 'crime_mapping', 'learning_guide'],
+                'incident_management' => ['cases', 'blotters', 'suspects_witnesses', 'hearing_schedule', 'hearing_result', 'cctv_request', 'evidence_collection', 'summons', 'certificates', 'settlements'],
+                'intelligence_reports' => ['reports_analytics', 'automated_reports'],
                 'services' => ['health', 'notifications', 'chatbot']
             ];
 
@@ -159,8 +159,8 @@ switch ($action) {
     case 'modules':
         sendJsonResponse('success', 'Available System Modules', [
             'admin' => ['dashboard', 'users', 'account_approvals', 'create_admin', 'settings'],
-            'incident_management' => ['cases', 'blotters', 'suspects_witnesses', 'hearing_schedule', 'summons', 'certificates', 'settlements'],
-            'intelligence_reports' => ['reports_analytics', 'automated_reports', 'crime_mapping', 'learning_guide'],
+            'incident_management' => ['cases', 'blotters', 'suspects_witnesses', 'hearing_schedule', 'hearing_result', 'cctv_request', 'evidence_collection', 'summons', 'certificates', 'settlements'],
+            'intelligence_reports' => ['reports_analytics', 'automated_reports'],
             'services' => ['health', 'notifications', 'chatbot']
         ]);
         break;

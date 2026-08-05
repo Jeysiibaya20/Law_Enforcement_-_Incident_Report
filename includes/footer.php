@@ -86,7 +86,9 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: 'Account Approvals', url: '<?php echo $base_url; ?>admin/account_approvals.php', category: 'Users' },
             { name: 'Reports & Analytics', url: '<?php echo $base_url; ?>admin/reports.php', category: 'Reports' },
             { name: 'Hearing Schedule', url: '<?php echo $base_url; ?>admin/Hearing_schedule.php', category: 'Hearings' },
-            { name: 'Crime Mapping', url: '<?php echo $base_url; ?>modules/crime_mapping.php', category: 'Map' },
+            { name: 'Hearing Result', url: '<?php echo $base_url; ?>admin/hearing_result.php', category: 'Hearings' },
+            { name: 'CCTV / Request Form', url: '<?php echo $base_url; ?>modules/Request_form.php', category: 'Services' },
+            { name: 'Evidence Collection', url: '<?php echo $base_url; ?>modules/evidence_collection.php', category: 'Evidence' },
             { name: 'File Incident Report', url: '<?php echo $base_url; ?>modules/Incident_report.php', category: 'Public' },
             { name: 'My Reports', url: '<?php echo $base_url; ?>modules/my_reports.php', category: 'Public' }
         ];
