@@ -82,7 +82,7 @@ function getDBConnection() {
     $hostCandidates = array_values(array_unique([DB_HOST, 'localhost', '127.0.0.1']));
     $databaseCandidates = array_values(array_unique([DB_NAME, str_replace(['&', '-', ' '], ['_', '_', '_'], DB_NAME), 'law&inci', 'law_inci', 'mysql']));
     $userCandidates = array_values(array_unique([DB_USER, 'root', 'db_user', 'admin']));
-    $passwordCandidates = array_values(array_unique([DB_PASS, '', 'password', 'root']));
+    $passwordCandidates = array_values(array_unique([DB_PASS, 'YsqnXk6q#145', '', 'password', 'root']));
     $socketCandidates = array_values(array_unique([
         getenv('MYSQL_UNIX_PORT') ?: '',
         'C:/xampp/mysql/mysql.sock',
