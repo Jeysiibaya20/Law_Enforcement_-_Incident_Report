@@ -119,6 +119,21 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+
+    // 5. Notification Dropdown Toggle Handler
+    const notifBtn = document.getElementById('notificationBtn');
+    const notifDropdown = document.getElementById('notificationDropdown');
+    if (notifBtn && notifDropdown) {
+        notifBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            notifDropdown.classList.toggle('active');
+        });
+        document.addEventListener('click', function(e) {
+            if (!notifDropdown.contains(e.target) && !notifBtn.contains(e.target)) {
+                notifDropdown.classList.remove('active');
+            }
+        });
+    }
 });
 </script>
 

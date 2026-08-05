@@ -31,13 +31,7 @@ $current_page = strtolower(basename($_SERVER['PHP_SELF']));
     <div class="sidebar-header">
         <div class="sidebar-brand">
             <a href="<?php echo $base_url; ?>index.php" class="brand-logo">
-                <div class="alertara-badge-logo">
-                    <i class="fas fa-shield-alt brand-icon"></i>
-                    <div class="brand-text-wrap">
-                        <span class="brand-title">ALERTARA</span>
-                        <span class="brand-subtitle">QUEZON CITY</span>
-                    </div>
-                </div>
+                <img src="<?php echo $base_url; ?>assets/images/logo.svg" alt="Alertara PH Logo" class="logo-img">
             </a>
         </div>
     </div>

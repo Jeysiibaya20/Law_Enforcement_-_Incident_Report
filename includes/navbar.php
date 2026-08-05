@@ -1,7 +1,7 @@
 <?php
 /**
  * Unified Top Navigation Header Component
- * Synced with EMERGENCY-COM standard admin header bar
+ * Synced with EMERGENCY-COM standard admin header bar + Real Notifications Dropdown
  */
 
 if (session_status() === PHP_SESSION_NONE) {
@@ -25,6 +25,50 @@ $avatar_url = !empty($_SESSION['user_picture'])
 
 $login_href = $base_url . 'auth/login.php';
 $profile_href = $base_url . ($role === 'admin' ? 'admin/settings.php' : 'modules/my_reports.php');
+
+// Fetch real notifications from database
+$unread_count = 0;
+$notifications = [];
+
+try {
+    if (!isset($pdo) || !($pdo instanceof PDO)) {
+        require_once __DIR__ . '/../config/db_connect.php';
+        $pdo = getDBConnection();
+    }
+
+    if ($pdo instanceof PDO) {
+        // Pending blotters
+        $stmt_b = $pdo->query("SELECT id, blotter_no, complainant_name, created_at FROM blotters WHERE status = 'Pending' ORDER BY created_at DESC LIMIT 4");
+        $pending_blotters = $stmt_b->fetchAll(PDO::FETCH_ASSOC);
+        foreach ($pending_blotters as $b) {
+            $notifications[] = [
+                'type' => 'blotter',
+                'title' => 'Pending Blotter #' . htmlspecialchars($b['blotter_no']),
+                'desc' => 'Filed by ' . htmlspecialchars($b['complainant_name']),
+                'time' => date('M d, g:i a', strtotime($b['created_at'])),
+                'link' => $base_url . 'admin/blotters.php'
+            ];
+        }
+
+        // Pending user approvals
+        $stmt_unv = $pdo->query("SELECT user_id, fullname, emailadd, created_at FROM signup WHERE email_verified = 0 AND role != 'Admin' ORDER BY created_at DESC LIMIT 3");
+        $unverified = $stmt_unv->fetchAll(PDO::FETCH_ASSOC);
+        foreach ($unverified as $u) {
+            $notifications[] = [
+                'type' => 'user',
+                'title' => 'Unverified User Signup',
+                'desc' => htmlspecialchars($u['fullname'] ?: $u['emailadd']),
+                'time' => date('M d, g:i a', strtotime($u['created_at'])),
+                'link' => $base_url . 'admin/account_approvals.php'
+            ];
+        }
+
+        $unread_count = count($notifications);
+    }
+} catch (Exception $e) {
+    $unread_count = 0;
+    $notifications = [];
+}
 ?>
 
 <header class="admin-header">
@@ -48,6 +92,7 @@ $profile_href = $base_url . ($role === 'admin' ? 'admin/settings.php' : 'modules
         </div>
 
         <div class="header-actions">
+            <!-- Theme Mode Toggle -->
             <div class="theme-toggle-container">
                 <button class="theme-mode-btn" id="lightModeBtn" aria-label="Light Mode" title="Light Theme">
                     <i class="fas fa-sun"></i>
@@ -59,7 +104,48 @@ $profile_href = $base_url . ($role === 'admin' ? 'admin/settings.php' : 'modules
                 </button>
             </div>
 
-            <button class="menu-toggle" id="headerLanguageBtn" aria-label="Language Selector" title="Switch Language">
+            <!-- Real Notification Dropdown -->
+            <div class="notification-dropdown-wrap position-relative ms-1">
+                <button class="header-action-btn" id="notificationBtn" aria-label="Notifications" title="Real Notifications">
+                    <i class="fas fa-bell"></i>
+                    <?php if ($unread_count > 0): ?>
+                        <span class="notification-badge-count"><?php echo $unread_count; ?></span>
+                    <?php endif; ?>
+                </button>
+                <div class="notification-dropdown-menu" id="notificationDropdown">
+                    <div class="notification-header">
+                        <h6><i class="fas fa-bell me-2"></i>Notifications</h6>
+                        <span class="badge bg-danger rounded-pill"><?php echo $unread_count; ?> New</span>
+                    </div>
+                    <div class="notification-body">
+                        <?php if (!empty($notifications)): ?>
+                            <?php foreach ($notifications as $n): ?>
+                                <a href="<?php echo $n['link']; ?>" class="notification-item">
+                                    <div class="notification-icon <?php echo $n['type'] === 'blotter' ? 'icon-blotter' : 'icon-user'; ?>">
+                                        <i class="fas <?php echo $n['type'] === 'blotter' ? 'fa-clipboard-list' : 'fa-user-clock'; ?>"></i>
+                                    </div>
+                                    <div class="notification-content">
+                                        <strong class="notification-title"><?php echo $n['title']; ?></strong>
+                                        <span class="notification-desc"><?php echo $n['desc']; ?></span>
+                                        <small class="notification-time"><?php echo $n['time']; ?></small>
+                                    </div>
+                                </a>
+                            <?php endforeach; ?>
+                        <?php else: ?>
+                            <div class="text-center py-4 text-muted small">
+                                <i class="fas fa-check-circle fa-2x mb-2 text-success opacity-50"></i>
+                                <div>No new notifications</div>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                    <div class="notification-footer">
+                        <a href="<?php echo $base_url; ?>admin/blotters.php">View All Activity <i class="fas fa-chevron-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Language Toggle Button -->
+            <button class="header-action-btn" id="headerLanguageBtn" aria-label="Language Selector" title="Switch Language">
                 <i class="fas fa-globe"></i>
             </button>
         </div>
