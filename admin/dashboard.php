@@ -132,7 +132,9 @@ require_once '../includes/header.php';
                                 <span class="tooltip-text">Daily blotter filing volume for the past week.</span>
                             </span>
                         </div>
-                        <canvas id="blotterTrendChart"></canvas>
+                        <div class="chart-canvas-wrapper">
+                            <canvas id="blotterTrendChart"></canvas>
+                        </div>
                     </div>
 
                     <!-- Blotter Status Distribution -->
@@ -144,7 +146,9 @@ require_once '../includes/header.php';
                                 <span class="tooltip-text">Distribution of blotter statuses across all records.</span>
                             </span>
                         </div>
-                        <canvas id="statusChart"></canvas>
+                        <div class="chart-canvas-wrapper">
+                            <canvas id="statusChart"></canvas>
+                        </div>
                     </div>
 
                     <!-- User Verification -->
@@ -156,7 +160,9 @@ require_once '../includes/header.php';
                                 <span class="tooltip-text">Breakdown of verified vs unverified user accounts.</span>
                             </span>
                         </div>
-                        <canvas id="verificationChart"></canvas>
+                        <div class="chart-canvas-wrapper">
+                            <canvas id="verificationChart"></canvas>
+                        </div>
                     </div>
 
                     <!-- Monthly Cases -->
@@ -168,7 +174,9 @@ require_once '../includes/header.php';
                                 <span class="tooltip-text">Active case tracking and incident trend overview.</span>
                             </span>
                         </div>
-                        <canvas id="caseActivityChart"></canvas>
+                        <div class="chart-canvas-wrapper">
+                            <canvas id="caseActivityChart"></canvas>
+                        </div>
                     </div>
                 </section>
 

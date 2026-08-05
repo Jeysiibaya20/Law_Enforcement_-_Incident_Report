@@ -124,15 +124,23 @@
     padding: 1rem 1.15rem;
     border: 1px solid var(--border-color, #dfe7e6);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-    min-height: 320px;
     display: flex;
     flex-direction: column;
 }
 
-.chart-container canvas {
+.chart-canvas-wrapper {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    max-height: 260px;
+    overflow: hidden;
+}
+
+.chart-canvas-wrapper canvas {
     width: 100% !important;
-    height: 250px !important;
-    flex: 1;
+    height: 260px !important;
+    max-height: 260px !important;
+}
 }
 
 .chart-container-actions {

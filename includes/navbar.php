@@ -29,14 +29,9 @@ $profile_href = $base_url . ($role === 'admin' ? 'admin/settings.php' : 'modules
 
 <header class="admin-header">
     <div class="admin-header-left">
-        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu" title="Toggle Sidebar">
+        <button class="menu-toggle d-lg-none" id="menuToggle" aria-label="Toggle Navigation Menu" title="Toggle Sidebar">
             <i class="fas fa-bars"></i>
         </button>
-
-        <a href="<?php echo $base_url; ?>index.php" class="header-brand-title d-none d-sm-flex">
-            <i class="fas fa-shield-alt"></i>
-            <span>Alertara Incident System</span>
-        </a>
 
         <div class="search-container">
             <i class="fas fa-search search-icon"></i>
