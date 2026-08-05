@@ -52,10 +52,95 @@ try {
 $inputJSON = json_decode(file_get_contents('php://input'), true) ?: [];
 $inputData = array_merge($_REQUEST, $inputJSON);
 
-$action = strtolower(trim($inputData['action'] ?? $inputData['module'] ?? $inputData['endpoint'] ?? 'health'));
+$action = strtolower(trim($inputData['action'] ?? $inputData['module'] ?? $inputData['endpoint'] ?? 'all'));
 
 // Dispatch Action Handlers
 switch ($action) {
+
+    // ===========================================
+    // ALL-IN-ONE API (RETURNS ALL MODULES IN ONE RESPONSE)
+    // ===========================================
+    case 'all':
+    case 'all_in_one':
+        try {
+            // 1. System Info
+            $system = [
+                'api_name'    => 'Alertara Incident & Law Enforcement All-In-One Unified API',
+                'version'     => '2.5.0',
+                'environment' => getenv('APP_ENV') ?: 'production',
+                'db_status'   => ($pdo instanceof PDO) ? 'connected' : 'disconnected',
+                'server_time' => date('Y-m-d H:i:s T')
+            ];
+
+            // 2. Dashboard KPI Statistics
+            $totalUsers      = (int)$pdo->query("SELECT COUNT(*) FROM signup WHERE role != 'Admin'")->fetchColumn();
+            $verifiedUsers   = (int)$pdo->query("SELECT COUNT(*) FROM signup WHERE email_verified = 1 AND role != 'Admin'")->fetchColumn();
+            $unverifiedUsers = (int)$pdo->query("SELECT COUNT(*) FROM signup WHERE email_verified = 0 AND role != 'Admin'")->fetchColumn();
+            $totalBlotters   = (int)$pdo->query("SELECT COUNT(*) FROM blotters")->fetchColumn();
+            $pendingBlotters = (int)$pdo->query("SELECT COUNT(*) FROM blotters WHERE status = 'Pending'")->fetchColumn();
+            $resolvedBlotters= (int)$pdo->query("SELECT COUNT(*) FROM blotters WHERE status IN ('Resolved', 'Settled')")->fetchColumn();
+            $totalCases      = 0;
+            try { $totalCases = (int)$pdo->query("SELECT COUNT(*) FROM incidents")->fetchColumn(); } catch (Exception $e) {}
+
+            $dashboard = [
+                'total_users'       => $totalUsers,
+                'verified_users'    => $verifiedUsers,
+                'unverified_users'  => $unverifiedUsers,
+                'total_blotters'    => $totalBlotters,
+                'pending_blotters'  => $pendingBlotters,
+                'resolved_blotters' => $resolvedBlotters,
+                'total_cases'       => $totalCases
+            ];
+
+            // 3. Blotters Records List
+            $stmt = $pdo->query("SELECT id, blotter_no, complainant_name, incident_type, status, location, created_at FROM blotters ORDER BY created_at DESC LIMIT 10");
+            $blotters = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+            // 4. Cases List
+            $cases = [];
+            try {
+                $stmt = $pdo->query("SELECT * FROM incidents ORDER BY created_at DESC LIMIT 10");
+                $cases = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            } catch (Exception $e) {}
+
+            // 5. System Users List
+            $stmt = $pdo->query("SELECT user_id, fullname, emailadd, username, role, email_verified, created_at FROM signup ORDER BY created_at DESC LIMIT 10");
+            $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+            // 6. Header Unread Notifications
+            $notifications = [];
+            $stmt_b = $pdo->query("SELECT id, blotter_no, complainant_name, created_at FROM blotters WHERE status = 'Pending' ORDER BY created_at DESC LIMIT 5");
+            $pending_b = $stmt_b->fetchAll(PDO::FETCH_ASSOC);
+            foreach ($pending_b as $b) {
+                $notifications[] = [
+                    'type'  => 'blotter',
+                    'title' => 'Pending Blotter #' . $b['blotter_no'],
+                    'desc'  => 'Complainant: ' . $b['complainant_name'],
+                    'time'  => date('M d, g:i a', strtotime($b['created_at']))
+                ];
+            }
+
+            // 7. System Modules
+            $modules = [
+                'admin' => ['dashboard', 'users', 'account_approvals', 'create_admin', 'settings'],
+                'incident_management' => ['cases', 'blotters', 'suspects_witnesses', 'hearing_schedule', 'summons', 'certificates', 'settlements'],
+                'intelligence_reports' => ['reports_analytics', 'automated_reports', 'crime_mapping', 'learning_guide'],
+                'services' => ['health', 'notifications', 'chatbot']
+            ];
+
+            sendJsonResponse('success', 'All-In-One Unified API Data for All Modules', [
+                'system'        => $system,
+                'modules'       => $modules,
+                'dashboard'     => $dashboard,
+                'blotters'      => $blotters,
+                'cases'         => $cases,
+                'users'         => $users,
+                'notifications' => $notifications
+            ]);
+        } catch (Exception $e) {
+            sendJsonResponse('error', 'Error compiling All-In-One API data: ' . $e->getMessage(), null, 500);
+        }
+        break;
 
     // ===========================================
     // 1. HEALTH & SYSTEM MODULE STATUS

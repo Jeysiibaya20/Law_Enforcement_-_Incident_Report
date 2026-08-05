@@ -40,6 +40,14 @@ require_once '../includes/header.php';
                     </div>
                     <div class="card-body p-3">
                         <div class="list-group list-group-flush">
+                            <button class="list-group-item list-group-item-action py-3 px-3 border-bottom rounded-3 mb-2 api-test-btn bg-light border-primary" data-action="all" data-method="GET">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <strong><span class="badge bg-primary me-2">GET</span>⭐ All-In-One API (All Modules)</strong>
+                                    <i class="fas fa-play text-primary"></i>
+                                </div>
+                                <small class="text-primary d-block mt-1 fw-bold">action=all — Returns complete data for ALL modules in one JSON response!</small>
+                            </button>
+
                             <button class="list-group-item list-group-item-action py-3 px-3 border-bottom rounded-3 mb-2 api-test-btn" data-action="health" data-method="GET">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <strong><span class="badge bg-success me-2">GET</span>System Health & Ping</strong>
