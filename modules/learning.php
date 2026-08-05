@@ -1,12 +1,11 @@
 <?php
-$page_title = 'Learning & Training';
-$base_url = '';
-// Start session for mock data persistence
-if (session_status() == PHP_SESSION_NONE) {
+$page_title = 'Learning & Awareness Guide';
+$base_url = '../';
+
+if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 require_once '../includes/header.php';
-require_once '../includes/navbar.php';
 
 // --- MOCK PROGRESS STATE (SIMULATING DB FETCH) ---
 // This array simulates the initial default state.
@@ -474,10 +473,11 @@ if ($view === 'review' && $course_id && isset($course_map[$course_id])) {
 } else {
     // RENDER DASHBOARD VIEW
     ?>
-    <div class="container-fluid py-4">
-        <div class="container">
-            <h1 class="mb-4 text-primary"><i class="bi bi-mortarboard-fill me-3"></i>Learning & Development Dashboard</h1>
-            <p class="lead text-muted">Personalized training paths designed to close your skill gaps and advance your career.</p>
+    <div class="main-content">
+        <div class="container-fluid py-4">
+            <div class="container-fluid px-md-4">
+                <h1 class="mb-2 text-primary font-weight-bold"><i class="fas fa-book-open me-3"></i>Awareness & Learning Guide</h1>
+                <p class="lead text-muted mb-4">Community safety awareness guides, emergency procedures, and law enforcement training paths.</p>
             
             <!-- ROW 1: Competency Gaps & Overall Progress -->
             <div class="row mb-5">
@@ -601,6 +601,7 @@ if ($view === 'review' && $course_id && isset($course_map[$course_id])) {
             <?php if (empty($all_courses)): ?>
                 <div class="alert alert-warning">No courses are available at this time.</div>
             <?php endif; ?>
+            </div>
         </div>
     </div>
     <?php
