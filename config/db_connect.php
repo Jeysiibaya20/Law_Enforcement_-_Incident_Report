@@ -179,6 +179,10 @@ $skipCliAutoConnect = PHP_SAPI === 'cli' && in_array($scriptName, ['artisan', 'c
 if (!$skipCliAutoConnect) {
     $pdo = getDBConnection();
 }
+
+if (!isset($pdo) || !($pdo instanceof PDO)) {
+    $pdo = getDBConnection();
+}
 }
 ?>
 

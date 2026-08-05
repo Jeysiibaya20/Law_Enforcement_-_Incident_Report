@@ -1,6 +1,9 @@
 <?php
 session_start();
 require_once '../config/db_connect.php';
+if (!isset($pdo) || !($pdo instanceof PDO)) {
+    $pdo = getDBConnection();
+}
 
 if (!isset($_SESSION['user_id'])) {
     exit('Unauthorized');
@@ -62,10 +65,14 @@ if ($action === 'view' && $id) {
                 <tr><th>Case:</th><td><?php echo htmlspecialchars($evidence['case_number'] ?: 'N/A'); ?></td></tr>
                 <tr><th>Description:</th><td><?php echo nl2br(htmlspecialchars($evidence['item_description'])); ?></td></tr>
                 <tr><th>Location Found:</th><td><?php echo htmlspecialchars($evidence['location_found'] ?: 'N/A'); ?></td></tr>
+                <tr><th>Source Department:</th><td><?php echo htmlspecialchars($evidence['source_department'] ?: 'N/A'); ?></td></tr>
+                <tr><th>Received From:</th><td><?php echo htmlspecialchars($evidence['received_from'] ?: 'N/A'); ?></td></tr>
+                <tr><th>Source Reference:</th><td><?php echo htmlspecialchars($evidence['source_reference'] ?: 'N/A'); ?></td></tr>
                 <tr><th>Collection Date:</th><td><?php echo date('M d, Y H:i', strtotime($evidence['collection_date'])); ?></td></tr>
                 <tr><th>Collected By:</th><td><?php echo htmlspecialchars($evidence['collector_name']); ?></td></tr>
                 <tr><th>Condition:</th><td><?php echo htmlspecialchars($evidence['condition']); ?></td></tr>
                 <tr><th>Storage Location:</th><td><?php echo htmlspecialchars($evidence['storage_location']); ?></td></tr>
+                <tr><th>Stored File Folder:</th><td>uploads/evidence/</td></tr>
                 <tr><th>Security Level:</th><td><?php echo htmlspecialchars($evidence['security_level']); ?></td></tr>
                 <tr><th>Status:</th><td>
                     <span class="badge bg-<?php
@@ -213,34 +220,51 @@ if ($action === 'view' && $id) {
     }
 
     ?>
-    <div class="timeline">
-        <?php foreach ($chain as $entry): ?>
-            <div class="timeline-item">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <h6><?php echo htmlspecialchars($entry['action_type']); ?></h6>
-                    <p class="mb-1">
-                        <strong>Date:</strong> <?php echo date('M d, Y H:i', strtotime($entry['action_date'])); ?><br>
-                        <strong>Performed By:</strong> <?php echo htmlspecialchars($entry['fullname']); ?><br>
-                        <?php if ($entry['from_person_name']): ?>
-                        <strong>From:</strong> <?php echo htmlspecialchars($entry['from_person_name']); ?><br>
-                        <?php endif; ?>
-                        <?php if ($entry['to_person_name']): ?>
-                        <strong>To:</strong> <?php echo htmlspecialchars($entry['to_person_name']); ?><br>
-                        <?php endif; ?>
-                        <?php if ($entry['location']): ?>
-                        <strong>Location:</strong> <?php echo htmlspecialchars($entry['location']); ?><br>
-                        <?php endif; ?>
-                        <?php if ($entry['purpose']): ?>
-                        <strong>Purpose:</strong> <?php echo htmlspecialchars($entry['purpose']); ?><br>
-                        <?php endif; ?>
-                        <?php if ($entry['notes']): ?>
-                        <strong>Notes:</strong> <?php echo nl2br(htmlspecialchars($entry['notes'])); ?><br>
-                        <?php endif; ?>
-                    </p>
-                </div>
-            </div>
-        <?php endforeach; ?>
+    <div class="border rounded p-3 bg-white">
+        <h6 class="fw-bold mb-2">4. Chain of Custody Log</h6>
+        <p class="text-muted mb-3">Instead of police-style forensic tracking, your system simply records who handled the evidence.</p>
+
+        <div class="table-responsive">
+            <table class="table table-bordered table-sm align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th style="width: 18%;">Date</th>
+                        <th style="width: 24%;">Action</th>
+                        <th style="width: 24%;">Handled By</th>
+                        <th style="width: 34%;">Remarks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($chain as $entry): ?>
+                        <tr>
+                            <td><?php echo date('M. j', strtotime($entry['action_date'])); ?></td>
+                            <td><?php echo htmlspecialchars($entry['action_type']); ?></td>
+                            <td><?php echo htmlspecialchars($entry['fullname'] ?: 'Unknown'); ?></td>
+                            <td>
+                                <?php
+                                $remarks = trim($entry['notes'] ?: $entry['purpose'] ?: $entry['location'] ?: '');
+                                if ($entry['from_person_name'] || $entry['to_person_name']) {
+                                    $personFlow = [];
+                                    if ($entry['from_person_name']) {
+                                        $personFlow[] = 'From ' . $entry['from_person_name'];
+                                    }
+                                    if ($entry['to_person_name']) {
+                                        $personFlow[] = 'To ' . $entry['to_person_name'];
+                                    }
+                                    if ($remarks !== '') {
+                                        $remarks .= ' | ' . implode(' | ', $personFlow);
+                                    } else {
+                                        $remarks = implode(' | ', $personFlow);
+                                    }
+                                }
+                                echo nl2br(htmlspecialchars($remarks ?: 'No remarks provided.'));
+                                ?>
+                            </td>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
     </div>
     <?php
 }

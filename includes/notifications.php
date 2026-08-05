@@ -10,6 +10,13 @@ require_once __DIR__ . '/../config/mail_env.php';
  */
 function createNotification(PDO $pdo, int $userId, ?int $blotterId, string $notificationType, string $title, string $message)
 {
+    $userCheck = $pdo->prepare("SELECT 1 FROM signup WHERE user_id = :user_id LIMIT 1");
+    $userCheck->execute([':user_id' => $userId]);
+    if (!$userCheck->fetch(PDO::FETCH_ASSOC)) {
+        error_log("Skipping notification insert for missing signup user_id={$userId}.");
+        return null;
+    }
+
     $sql = "INSERT INTO notifications (user_id, blotter_id, notification_type, title, message, created_at) VALUES (:user_id, :blotter_id, :notification_type, :title, :message, NOW())";
     $stmt = $pdo->prepare($sql);
     $stmt->execute([

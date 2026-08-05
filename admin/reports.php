@@ -1,9 +1,7 @@
 <?php
 require_once 'admin_auth.php';
-
-if (empty($embed_in_dashboard)) {
-    header('Location: dashboard.php');
-    exit();
+if (!isset($pdo) || !($pdo instanceof PDO)) {
+    $pdo = getDBConnection();
 }
 
 $base_url = '../';
@@ -14,10 +12,24 @@ if (empty($embed_in_dashboard)) {
     require_once '../includes/navbar.php';
 }
 
+// Initialize report variables to avoid analyzer warnings when the dashboard embed path is used.
+$blottersByStatus = [];
+$blottersByPriority = [];
+$incidentTypeLabels = [];
+$incidentTypeCounts = [];
+$evidenceTypeLabels = [];
+$evidenceTypeCounts = [];
+$officerLabels = [];
+$officerCounts = [];
+$months = [];
+$counts = [];
+$verifiedUsers = 0;
+$unverifiedUsers = 0;
+$termsAcceptedUsers = 0;
+
 // Get statistics
 try {
     // Blotter statistics by status
-    $blottersByStatus = [];
     $statuses = ['Pending', 'Under Investigation', 'Resolved', 'Archived'];
     foreach ($statuses as $status) {
         $count = $pdo->query("SELECT COUNT(*) FROM blotters WHERE status = '$status'")->fetchColumn();
@@ -34,9 +46,9 @@ try {
 
     // User statistics
     $totalUsers = $pdo->query("SELECT COUNT(*) FROM signup WHERE role != 'Admin'")->fetchColumn();
-    $verifiedUsers = $pdo->query("SELECT COUNT(*) FROM signup WHERE email_verified = 1 AND role != 'Admin'")->fetchColumn();
-    $unverifiedUsers = $pdo->query("SELECT COUNT(*) FROM signup WHERE email_verified = 0 AND role != 'Admin'")->fetchColumn();
-    $termsAcceptedUsers = $pdo->query("SELECT COUNT(*) FROM signup WHERE terms_accepted = 1 AND role != 'Admin'")->fetchColumn();
+    $verifiedUsers = (int) $pdo->query("SELECT COUNT(*) FROM signup WHERE email_verified = 1 AND role != 'Admin'")->fetchColumn();
+    $unverifiedUsers = (int) $pdo->query("SELECT COUNT(*) FROM signup WHERE email_verified = 0 AND role != 'Admin'")->fetchColumn();
+    $termsAcceptedUsers = (int) $pdo->query("SELECT COUNT(*) FROM signup WHERE terms_accepted = 1 AND role != 'Admin'")->fetchColumn();
 
     // Monthly blotter creation trend (last 12 months)
     $monthlyData = $pdo->query("
@@ -105,6 +117,14 @@ try {
         $userCounts[] = $data['count'];
     }
 
+    $totalBlotters = array_sum($blottersByStatus);
+    $resolutionRate = $totalBlotters > 0 ? round(($blottersByStatus['Resolved'] / $totalBlotters) * 100, 2) : 0;
+    $pendingRate = $totalBlotters > 0 ? round(($blottersByStatus['Pending'] / $totalBlotters) * 100, 2) : 0;
+    $mostCommonIncident = count($incidentTypeLabels) ? $incidentTypeLabels[0] : 'No data';
+    $mostCommonCount = count($incidentTypeCounts) ? $incidentTypeCounts[0] : 0;
+    $incidentCategoryCount = count($incidentTypeLabels);
+    $monthlyIncidentCount = count($counts) ? end($counts) : 0;
+    $resolvedCount = $blottersByStatus['Resolved'];
 } catch (Exception $e) {
     error_log("Report error: " . $e->getMessage());
 }
@@ -297,6 +317,53 @@ try {
             </div>
         </div>
 
+        <div class="row mb-4">
+            <div class="col-md-3 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div class="stat-box">
+                            <div class="stat-value text-danger"><?= htmlspecialchars($mostCommonIncident) ?></div>
+                            <div class="stat-label">Most Common Incident</div>
+                            <small class="text-muted"><?= $mostCommonCount ?> cases</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div class="stat-box">
+                            <div class="stat-value text-primary"><?= $incidentCategoryCount ?></div>
+                            <div class="stat-label">Incident Categories</div>
+                            <small class="text-muted">Tracked categories</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div class="stat-box">
+                            <div class="stat-value text-success"><?= $monthlyIncidentCount ?></div>
+                            <div class="stat-label">Monthly Incident</div>
+                            <small class="text-muted">Latest month</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div class="stat-box">
+                            <div class="stat-value text-info"><?= $resolvedCount ?></div>
+                            <div class="stat-label">Resolve</div>
+                            <small class="text-muted">Resolved blotters</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Charts Section -->
         <div class="row mb-4">
             <!-- User Verification Status Pie Chart -->
@@ -327,24 +394,37 @@ try {
                 </div>
             </div>
 
-            <!-- Incident Types Distribution Pie Chart -->
+            <!-- Top Incident Bar Chart -->
             <div class="col-lg-4 mb-4">
                 <div class="card h-100">
                     <div class="card-header">
-                        <h5><i class="bi bi-pie-chart"></i> Top Incident Types</h5>
+                        <h5><i class="bi bi-bar-chart"></i> Top Incident Types</h5>
                     </div>
                     <div class="card-body">
                         <div class="chart-container">
-                            <canvas id="incidentTypesChart"></canvas>
+                            <canvas id="topIncidentChart"></canvas>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Additional Analytics (Admin-only) -->
         <div class="row mb-4">
-            <div class="col-lg-6 mb-4">
+            <!-- Incident by Category Pie Chart -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h5><i class="bi bi-pie-chart"></i> Incident by Category</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-container">
+                            <canvas id="incidentCategoryChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
                 <div class="card h-100">
                     <div class="card-header">
                         <h5><i class="bi bi-pie-chart"></i> Evidence Types Distribution</h5>
@@ -357,7 +437,7 @@ try {
                 </div>
             </div>
 
-            <div class="col-lg-6 mb-4">
+            <div class="col-lg-4 mb-4">
                 <div class="card h-100">
                     <div class="card-header">
                         <h5><i class="bi bi-bar-chart"></i> Top Officers by Assigned Cases</h5>
@@ -423,9 +503,7 @@ try {
     </div>
 </div>
 
-<?php if (empty($embed_in_dashboard)): ?>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<?php endif; ?>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         .chart-container {
             position: relative;
@@ -556,54 +634,31 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Blotter Priority Distribution Pie Chart
-    const blotterPriorityCtx = document.getElementById('blotterPriorityChart').getContext('2d');
-    new Chart(blotterPriorityCtx, {
-        type: 'pie',
+    // Top Incident Bar Chart
+    const topIncidentCtx = document.getElementById('topIncidentChart').getContext('2d');
+    new Chart(topIncidentCtx, {
+        type: 'bar',
         data: {
-            labels: ['High Priority', 'Medium Priority', 'Low Priority'],
+            labels: <?= json_encode($incidentTypeLabels) ?>,
             datasets: [{
-                data: [<?= $blottersByPriority['High'] ?>, <?= $blottersByPriority['Medium'] ?>, <?= $blottersByPriority['Low'] ?>],
-                backgroundColor: [
-                    'rgba(220, 53, 69, 0.8)',   // Danger red
-                    'rgba(255, 193, 7, 0.8)',   // Warning yellow
-                    'rgba(23, 162, 184, 0.8)'   // Info blue
-                ],
-                borderColor: [
-                    'rgba(220, 53, 69, 1)',
-                    'rgba(255, 193, 7, 1)',
-                    'rgba(23, 162, 184, 1)'
-                ],
-                borderWidth: 2
+                label: 'Cases',
+                data: <?= json_encode($incidentTypeCounts) ?>,
+                backgroundColor: 'rgba(13, 110, 253, 0.8)'
             }]
         },
         options: {
             responsive: true,
             maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    position: 'bottom',
-                    labels: {
-                        padding: 20,
-                        usePointStyle: true
-                    }
-                },
-                tooltip: {
-                    callbacks: {
-                        label: function(context) {
-                            const total = context.dataset.data.reduce((a, b) => a + b, 0);
-                            const percentage = total > 0 ? ((context.parsed / total) * 100).toFixed(1) : 0;
-                            return context.label + ': ' + context.parsed + ' (' + percentage + '%)';
-                        }
-                    }
-                }
+            scales: {
+                x: { ticks: { autoSkip: false }, grid: { display: false } },
+                y: { beginAtZero: true, title: { display: true, text: 'Cases' }, grid: { color: 'rgba(0,0,0,0.08)' } }
             }
         }
     });
 
-    // Incident Types Pie Chart
-    const incidentTypesCtx = document.getElementById('incidentTypesChart').getContext('2d');
-    new Chart(incidentTypesCtx, {
+    // Incident by Category Pie Chart
+    const incidentCategoryCtx = document.getElementById('incidentCategoryChart').getContext('2d');
+    new Chart(incidentCategoryCtx, {
         type: 'pie',
         data: {
             labels: <?= json_encode($incidentTypeLabels) ?>,
@@ -617,13 +672,27 @@ document.addEventListener('DOMContentLoaded', function() {
                     'rgba(153, 102, 255, 0.8)',
                     'rgba(255, 159, 64, 0.8)'
                 ],
-                borderWidth: 1
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 2
             }]
         },
-        options: { responsive: true, maintainAspectRatio: false }
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'bottom', labels: { padding: 20, usePointStyle: true } }
+            }
+        }
     });
 
-    // Evidence Types Pie Chart
+    // Evidence Types Distribution Pie Chart
     const evidenceTypesCtx = document.getElementById('evidenceTypesChart').getContext('2d');
     new Chart(evidenceTypesCtx, {
         type: 'pie',
@@ -638,10 +707,23 @@ document.addEventListener('DOMContentLoaded', function() {
                     'rgba(153, 102, 255, 0.8)',
                     'rgba(255, 159, 64, 0.8)'
                 ],
-                borderWidth: 1
+                borderColor: [
+                    'rgba(99, 255, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 2
             }]
         },
-        options: { responsive: true, maintainAspectRatio: false }
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'bottom', labels: { padding: 20, usePointStyle: true } }
+            }
+        }
     });
 
     // Top Officers Bar Chart
@@ -735,10 +817,123 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     });
+
+    // User Registration Trend Line Chart
+    const userRegistrationCtx = document.getElementById('userRegistrationChart').getContext('2d');
+    new Chart(userRegistrationCtx, {
+        type: 'line',
+        data: {
+            labels: <?= json_encode($userMonths) ?>,
+            datasets: [{
+                label: 'User Registrations',
+                data: <?= json_encode($userCounts) ?>,
+                borderColor: 'rgba(40, 167, 69, 1)',
+                backgroundColor: 'rgba(40, 167, 69, 0.1)',
+                fill: true,
+                tension: 0.35,
+                pointRadius: 4,
+                pointHoverRadius: 6,
+                borderWidth: 3
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                x: {
+                    grid: { display: false }
+                },
+                y: {
+                    beginAtZero: true,
+                    grid: { color: 'rgba(0,0,0,0.08)' }
+                }
+            },
+            interaction: { intersect: false, mode: 'index' }
+        }
+    });
+
+    window.reportData = {
+        summary: [
+            ['Metric', 'Value'],
+            ['Total Blotters', <?= json_encode(array_sum($blottersByStatus)) ?>],
+            ['Resolved', <?= json_encode($blottersByStatus['Resolved']) ?>],
+            ['Pending', <?= json_encode($blottersByStatus['Pending']) ?>],
+            ['Under Investigation', <?= json_encode($blottersByStatus['Under Investigation']) ?>],
+            ['Archived', <?= json_encode($blottersByStatus['Archived']) ?>],
+            ['Total Users', <?= json_encode($totalUsers) ?>],
+            ['Verified Users', <?= json_encode($verifiedUsers) ?>],
+            ['Unverified Users', <?= json_encode($unverifiedUsers) ?>],
+            ['Terms Accepted', <?= json_encode($termsAcceptedUsers) ?>]
+        ],
+        topIncidentTypes: {
+            header: ['Incident Type', 'Cases'],
+            rows: <?= json_encode(array_map(null, $incidentTypeLabels, $incidentTypeCounts)) ?>
+        },
+        incidentCategory: {
+            header: ['Incident Category', 'Cases'],
+            rows: <?= json_encode(array_map(null, $incidentTypeLabels, $incidentTypeCounts)) ?>
+        },
+        evidenceTypes: {
+            header: ['Evidence Type', 'Count'],
+            rows: <?= json_encode(array_map(null, $evidenceTypeLabels, $evidenceTypeCounts)) ?>
+        },
+        monthlyTrend: {
+            header: ['Month', 'Blotters Created'],
+            rows: <?= json_encode(array_map(null, $months, $counts)) ?>
+        },
+        userRegistrationTrend: {
+            header: ['Month', 'Registrations'],
+            rows: <?= json_encode(array_map(null, $userMonths, $userCounts)) ?>
+        }
+    };
 });
 
+function createCSVContent(sections) {
+    const lines = [];
+    sections.forEach((section, index) => {
+        if (index > 0) {
+            lines.push('');
+        }
+        if (section.title) {
+            lines.push(section.title);
+        }
+        lines.push(section.header.join(','));
+        section.rows.forEach(row => {
+            const safeRow = row.map(value => {
+                const text = value === null || value === undefined ? '' : String(value);
+                return '"' + text.replace(/"/g, '""') + '"';
+            });
+            lines.push(safeRow.join(','));
+        });
+    });
+    return lines.join('\r\n');
+}
+
+function downloadCSV(filename, content) {
+    const blob = new Blob([content], { type: 'text/csv;charset=utf-8;' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.setAttribute('download', filename);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
 function exportToCSV() {
-    alert('Export functionality will be implemented soon!');
+    const content = createCSVContent([
+        { title: 'Reports & Analytics Summary', header: ['Metric', 'Value'], rows: window.reportData.summary },
+        { title: 'Top Incident Types', header: window.reportData.topIncidentTypes.header, rows: window.reportData.topIncidentTypes.rows },
+        { title: 'Incident by Category', header: window.reportData.incidentCategory.header, rows: window.reportData.incidentCategory.rows },
+        { title: 'Evidence Types', header: window.reportData.evidenceTypes.header, rows: window.reportData.evidenceTypes.rows },
+        { title: 'Monthly Blotter Trend', header: window.reportData.monthlyTrend.header, rows: window.reportData.monthlyTrend.rows },
+        { title: 'User Registration Trend', header: window.reportData.userRegistrationTrend.header, rows: window.reportData.userRegistrationTrend.rows }
+    ]);
+    downloadCSV('reports-analytics.csv', content);
 }
 </script>
 

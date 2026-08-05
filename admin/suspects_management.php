@@ -5,6 +5,9 @@
  */
 
 require_once dirname(__DIR__) . '/config/db_connect.php';
+if (!isset($pdo) || !($pdo instanceof PDO)) {
+    $pdo = getDBConnection();
+}
 require_once dirname(__DIR__) . '/includes/case_management.php';
 require_once dirname(__DIR__) . '/includes/suspect_witness_management.php';
 

@@ -1,6 +1,9 @@
 <?php
 session_start();
 require '../config/db_connect.php';
+if (!isset($pdo) || !($pdo instanceof PDO)) {
+    $pdo = getDBConnection();
+}
 require 'helpers.php';
 require '../includes/attachment_manager.php';
 require 'DescriptionTranslationService.php';
@@ -553,4 +556,3 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
-

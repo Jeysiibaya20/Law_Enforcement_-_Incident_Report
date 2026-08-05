@@ -14,6 +14,9 @@ if (!isset($_SESSION['user_id'])) {
 
 // Check if user has admin role (from signup table)
 require_once '../config/db_connect.php';
+if (!isset($pdo) || !($pdo instanceof PDO)) {
+    $pdo = getDBConnection();
+}
 
 try {
     $stmt = $pdo->prepare("SELECT role FROM signup WHERE user_id = ?");

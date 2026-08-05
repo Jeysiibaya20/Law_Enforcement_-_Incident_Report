@@ -35,6 +35,12 @@ $dashboard_data = $analytics->getDashboardAnalytics();
 $insights = $analytics->getInsights();
 $forecast = $analytics->getForecast();
 
+$incidentTypeLabels = array_column($dashboard_data['case_types'], 'incident_type');
+$incidentTypeCounts = array_column($dashboard_data['case_types'], 'count');
+$threatLabels = array_column($dashboard_data['threat_analysis'], 'threat_level');
+$threatCounts = array_column($dashboard_data['threat_analysis'], 'count');
+$trendMonths = array_column($dashboard_data['trends'], 'month');
+$trendCounts = array_column($dashboard_data['trends'], 'incident_count');
 ?>
 
     <div class="main-content">
@@ -179,7 +185,47 @@ $forecast = $analytics->getForecast();
         </div>
             </div>
         </div>
-        
+
+        <!-- Analytics charts -->
+        <div class="row mb-4">
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h5 class="mb-0"><i class="bi bi-pie-chart-fill me-2"></i> Incident Type Distribution</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-container">
+                            <canvas id="incidentTypeChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h5 class="mb-0"><i class="bi bi-pie-chart-fill me-2"></i> Threat Level Distribution</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-container">
+                            <canvas id="threatLevelChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h5 class="mb-0"><i class="bi bi-graph-up me-2"></i> Monthly Incidents Trend</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-container">
+                            <canvas id="monthlyIncidentTrendChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Insights & Recommendations -->
         <div class="card">
             <div class="card-header">
@@ -462,5 +508,92 @@ $forecast = $analytics->getForecast();
                 }
             });
         });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const incidentTypeCtx = document.getElementById('incidentTypeChart').getContext('2d');
+        new Chart(incidentTypeCtx, {
+            type: 'pie',
+            data: {
+                labels: <?= json_encode($incidentTypeLabels) ?>,
+                datasets: [{
+                    data: <?= json_encode($incidentTypeCounts) ?>,
+                    backgroundColor: [
+                        'rgba(54, 162, 235, 0.8)',
+                        'rgba(255, 99, 132, 0.8)',
+                        'rgba(255, 205, 86, 0.8)',
+                        'rgba(75, 192, 192, 0.8)',
+                        'rgba(153, 102, 255, 0.8)',
+                        'rgba(255, 159, 64, 0.8)'
+                    ],
+                    borderColor: '#fff',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'bottom', labels: { usePointStyle: true, padding: 16 } }
+                }
+            }
+        });
+
+        const threatLevelCtx = document.getElementById('threatLevelChart').getContext('2d');
+        new Chart(threatLevelCtx, {
+            type: 'pie',
+            data: {
+                labels: <?= json_encode($threatLabels) ?>,
+                datasets: [{
+                    data: <?= json_encode($threatCounts) ?>,
+                    backgroundColor: [
+                        'rgba(220, 53, 69, 0.8)',
+                        'rgba(40, 167, 69, 0.8)'
+                    ],
+                    borderColor: '#fff',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'bottom', labels: { usePointStyle: true, padding: 16 } }
+                }
+            }
+        });
+
+        const monthlyTrendCtx = document.getElementById('monthlyIncidentTrendChart').getContext('2d');
+        new Chart(monthlyTrendCtx, {
+            type: 'line',
+            data: {
+                labels: <?= json_encode($trendMonths) ?>,
+                datasets: [{
+                    label: 'Incidents',
+                    data: <?= json_encode($trendCounts) ?>,
+                    borderColor: 'rgba(13, 110, 253, 1)',
+                    backgroundColor: 'rgba(13, 110, 253, 0.1)',
+                    fill: true,
+                    tension: 0.35,
+                    pointRadius: 4,
+                    pointHoverRadius: 6,
+                    borderWidth: 3
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    x: { grid: { display: false } },
+                    y: { beginAtZero: true, grid: { color: 'rgba(0,0,0,0.08)' } }
+                },
+                interaction: { intersect: false, mode: 'index' }
+            }
+        });
+    });
     </script>
     <?php include __DIR__ . '/../includes/footer.php'; ?>

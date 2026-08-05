@@ -1,5 +1,8 @@
 <?php
 require_once 'admin_auth.php';
+if (!isset($pdo) || !($pdo instanceof PDO)) {
+    $pdo = getDBConnection();
+}
 
 $base_url = '../';
 $page_title = 'Admin Dashboard';

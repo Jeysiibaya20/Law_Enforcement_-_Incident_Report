@@ -1,9 +1,10 @@
 <?php
 session_start();
 require_once '../config/db_connect.php';
+if (!isset($pdo) || !($pdo instanceof PDO)) {
+    $pdo = getDBConnection();
+}
 require_once '../config/LanguageManager.php';
-require_once '../includes/header.php';
-require_once '../includes/navbar.php';
 // Check if user is logged in and is admin
 if (!isset($_SESSION['user_id'])) {
     header('Location: ../auth/login.php');
@@ -22,6 +23,29 @@ if (!$userRole || strtolower($userRole['role']) !== 'admin') {
 
 $current_lang = LanguageManager::getCurrentLanguage();
 
+function ensureEvidenceRecordColumns(PDO $pdo): void
+{
+    $columns = [
+        'source_department' => 'VARCHAR(150) NULL AFTER location_found',
+        'received_from' => 'VARCHAR(150) NULL AFTER source_department',
+        'source_reference' => 'VARCHAR(100) NULL AFTER received_from',
+    ];
+
+    foreach ($columns as $column => $definition) {
+        $stmt = $pdo->prepare("SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'evidence_records' AND COLUMN_NAME = ?");
+        $stmt->execute([$column]);
+        if ((int) $stmt->fetchColumn() === 0) {
+            $pdo->exec("ALTER TABLE evidence_records ADD COLUMN {$column} {$definition}");
+        }
+    }
+}
+require_once '../includes/navbar.php';
+try {
+    ensureEvidenceRecordColumns($pdo);
+} catch (Exception $e) {
+    error_log('Evidence record columns check failed: ' . $e->getMessage());
+}
+
 // Handle form submission
 $message = '';
 $message_type = '';
@@ -39,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $collector_name = $collector ? $collector['fullname'] : 'Unknown';
 
             // Insert evidence record
-            $insert_stmt = $pdo->prepare("\n                INSERT INTO evidence_records\n                (evidence_number, evidence_type, case_id, case_number, item_description,\n                 location_found, collection_date, `condition`, storage_location,\n                 security_level, witness_name, witness_description, notes, collected_by, collector_name, status)\n                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Collected')\n            ");
+            $insert_stmt = $pdo->prepare("\n                INSERT INTO evidence_records\n                (evidence_number, evidence_type, case_id, case_number, item_description,\n                 location_found, source_department, received_from, source_reference, collection_date, `condition`, storage_location,\n                 security_level, witness_name, witness_description, notes, collected_by, collector_name, status)\n                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Collected')\n            ");
             // Combine date and time for collection_date
             $collection_datetime = $_POST['collection_date'];
             if (!empty($_POST['collection_time'])) {
@@ -55,6 +79,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_POST['case_number'] ?: null,
                 $_POST['item_description'],
                 $_POST['location_found'] ?: null,
+                $_POST['source_department'] ?: null,
+                $_POST['received_from'] ?: null,
+                $_POST['source_reference'] ?: null,
                 $collection_datetime,
                 $_POST['condition'],
                 $_POST['storage_location'],
@@ -193,12 +220,6 @@ $page_title = "Evidence Collection & Chain of Custody";
 include '../includes/header.php';
 ?>
 
-<div class="container-fluid">
-    <div class="row">
-        <!-- Sidebar -->
-        <div class="col-md-2">
-            <?php include '../includes/navbar.php'; ?>
-        </div>
 
         <!-- Main Content -->
         <div class="col-md-10 main-content">
@@ -233,6 +254,7 @@ include '../includes/header.php';
                                     <th>Type</th>
                                     <th>Case</th>
                                     <th>Description</th>
+                                    <th>Source Dept.</th>
                                     <th>Status</th>
                                     <th>Collected By</th>
                                     <th>Date</th>
@@ -247,6 +269,7 @@ include '../includes/header.php';
                                         <td><?php echo htmlspecialchars($evidence['evidence_type']); ?></td>
                                         <td><?php echo htmlspecialchars($evidence['case_number'] ?: 'N/A'); ?></td>
                                         <td><?php echo htmlspecialchars(substr($evidence['item_description'], 0, 50)) . (strlen($evidence['item_description']) > 50 ? '...' : ''); ?></td>
+                                        <td><?php echo htmlspecialchars($evidence['source_department'] ?: 'N/A'); ?></td>
                                         <td>
                                             <span class="badge bg-<?php
                                                 echo match($evidence['status']) {
@@ -362,6 +385,27 @@ include '../includes/header.php';
                         </div>
                         <div class="col-md-3">
                             <div class="mb-3">
+                                <label class="form-label">Source Department</label>
+                                <input type="text" name="source_department" class="form-control" placeholder="e.g., CCTV Department">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <label class="form-label">Received From</label>
+                                <input type="text" name="received_from" class="form-control" placeholder="e.g., Officer / Desk / Unit">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label class="form-label">Source Reference / Control No.</label>
+                                <input type="text" name="source_reference" class="form-control" placeholder="e.g., CCTV Ticket No. / Request Slip">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mb-3">
                                 <label class="form-label">Collection Date *</label>
                                 <input type="date" name="collection_date" class="form-control" required value="<?php echo date('Y-m-d'); ?>">
                             </div>
@@ -390,7 +434,16 @@ include '../includes/header.php';
                         <div class="col-md-4">
                             <div class="mb-3">
                                 <label class="form-label">Storage Location *</label>
-                                <input type="text" name="storage_location" class="form-control" required placeholder="e.g., Evidence Room A-1">
+                                <input type="text" name="storage_location" class="form-control" list="storageLocationOptions" required placeholder="e.g., Evidence Room A-1">
+                                <datalist id="storageLocationOptions">
+                                    <option value="Evidence Room A-1"></option>
+                                    <option value="Evidence Room B-2"></option>
+                                    <option value="Evidence Locker C-1"></option>
+                                    <option value="Digital Evidence Vault"></option>
+                                    <option value="Office Archive Cabinet"></option>
+                                    <option value="Temporary Holding Area"></option>
+                                </datalist>
+                                <small class="text-muted">Files are stored in the evidence upload folder: uploads/evidence/</small>
                             </div>
                         </div>
                         <div class="col-md-4">

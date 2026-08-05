@@ -11,6 +11,9 @@
 
 session_start();
 require_once '../config/db_connect.php';
+if (!isset($pdo) || !($pdo instanceof PDO)) {
+    $pdo = getDBConnection();
+}
 
 // Quezon City Barangays and Streets (comprehensive list)
 $qc_barangays = [
@@ -532,7 +535,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <div class="alert alert-danger"><?php echo htmlspecialchars($error_message); ?></div>
                 <?php endif; ?>
 
-                <form method="POST" id="signupForm" enctype="multipart/form-data">
+                <form method="POST" id="signupForm" enctype="multipart/form-data" novalidate>
                     <!-- Step 1: Personal Information -->
                     <div class="signup-step" data-step="1">
                         <h3>1. Personal Information</h3>
@@ -677,19 +680,41 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     // Step navigation
-    document.getElementById('toStep2').addEventListener('click', () => showStep(2));
+    document.getElementById('toStep2').addEventListener('click', () => { if (validateStep(1)) showStep(2); });
     document.getElementById('backTo1').addEventListener('click', () => showStep(1));
-    document.getElementById('toStep3').addEventListener('click', () => showStep(3));
+    document.getElementById('toStep3').addEventListener('click', () => { if (validateStep(2)) showStep(3); });
     document.getElementById('backTo2').addEventListener('click', () => showStep(2));
-    document.getElementById('toStep4').addEventListener('click', () => showStep(4));
+    document.getElementById('toStep4').addEventListener('click', () => { if (validateStep(3)) showStep(4); });
     document.getElementById('backTo3').addEventListener('click', () => showStep(3));
-    document.getElementById('toStep5').addEventListener('click', () => { generateReview(); showStep(5); });
+    document.getElementById('toStep5').addEventListener('click', () => { if (validateStep(4)) { generateReview(); showStep(5); } });
     document.getElementById('backTo4').addEventListener('click', () => showStep(4));
+    document.getElementById('signupForm').addEventListener('submit', function(e) {
+        if (!validateStep(5)) {
+            e.preventDefault();
+            return false;
+        }
+    });
 
     function showStep(step) {
         document.querySelectorAll('.signup-step').forEach(el => el.style.display = 'none');
         document.querySelector('[data-step="' + step + '"]').style.display = 'block';
         window.scrollTo(0, 0);
+    }
+
+    function validateStep(step) {
+        const stepElement = document.querySelector('[data-step="' + step + '"]');
+        if (!stepElement) return true;
+
+        const requiredFields = stepElement.querySelectorAll('input[required], select[required]');
+        for (const field of requiredFields) {
+            if (!field.checkValidity()) {
+                field.reportValidity();
+                field.focus();
+                return false;
+            }
+        }
+
+        return true;
     }
 
     function generateReview() {

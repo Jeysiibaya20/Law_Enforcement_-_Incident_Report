@@ -841,15 +841,6 @@ require_once '../includes/navbar.php'; ?>
                         <label class="form-label">Location *</label>
                         <input type="text" name="location" class="form-control" required placeholder="Street address, landmark, or area">
                     </div>
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label class="form-label">Latitude (Optional)</label>
-                            <input type="number" step="0.00001" name="latitude" class="form-control" placeholder="e.g., 14.5995">
-                        </div>
-                        <div class="col-md-6">
-                            <label class="form-label">Longitude (Optional)</label>
-                            <input type="number" step="0.00001" name="longitude" class="form-control" placeholder="e.g., 120.9842">
-                        </div>
                     </div>
 
                     <!-- Incident Narrative -->

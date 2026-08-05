@@ -6,6 +6,63 @@ require_once '../includes/suspect_witness_management.php';
 $base_url = '../';
 $page_title = 'Suspects & Witnesses';
 
+$privacyDescription = '';
+$privacyFilePath = dirname(__DIR__) . '/data_privacy/suspect_witness_policy.md';
+if (file_exists($privacyFilePath)) {
+    $privacyDescription = file_get_contents($privacyFilePath);
+}
+
+function renderMarkdownToHtml($markdown) {
+    $lines = preg_split('/\r\n|\r|\n/', $markdown);
+    $html = '';
+    $listOpen = false;
+
+    foreach ($lines as $line) {
+        $trim = trim($line);
+
+        if ($trim === '') {
+            if ($listOpen) {
+                $html .= "</ul>\n";
+                $listOpen = false;
+            }
+            $html .= "\n";
+            continue;
+        }
+
+        if (preg_match('/^######\s+(.+)$/', $trim, $m)) {
+            $html .= "<h6>" . htmlspecialchars($m[1]) . "</h6>\n";
+        } elseif (preg_match('/^#####\s+(.+)$/', $trim, $m)) {
+            $html .= "<h5>" . htmlspecialchars($m[1]) . "</h5>\n";
+        } elseif (preg_match('/^####\s+(.+)$/', $trim, $m)) {
+            $html .= "<h4>" . htmlspecialchars($m[1]) . "</h4>\n";
+        } elseif (preg_match('/^###\s+(.+)$/', $trim, $m)) {
+            $html .= "<h3>" . htmlspecialchars($m[1]) . "</h3>\n";
+        } elseif (preg_match('/^##\s+(.+)$/', $trim, $m)) {
+            $html .= "<h4>" . htmlspecialchars($m[1]) . "</h4>\n";
+        } elseif (preg_match('/^#\s+(.+)$/', $trim, $m)) {
+            $html .= "<h3>" . htmlspecialchars($m[1]) . "</h3>\n";
+        } elseif (preg_match('/^[\-\*\+]\s+(.+)$/', $trim, $m)) {
+            if (! $listOpen) {
+                $html .= "<ul class=\"mb-3\">\n";
+                $listOpen = true;
+            }
+            $html .= "<li>" . htmlspecialchars($m[1]) . "</li>\n";
+        } else {
+            if ($listOpen) {
+                $html .= "</ul>\n";
+                $listOpen = false;
+            }
+            $html .= "<p>" . htmlspecialchars($trim) . "</p>\n";
+        }
+    }
+
+    if ($listOpen) {
+        $html .= "</ul>\n";
+    }
+
+    return $html;
+}
+
 try {
     $stmt = $pdo->prepare("SELECT ca.id AS case_id,
                                   ca.case_number,
@@ -83,6 +140,37 @@ include '../includes/navbar.php';
         background-color: #e0e0e0 !important;
         color: #000000 !important;
     }
+
+    .privacy-float-card {
+        position: sticky;
+        top: 1rem;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+        background: linear-gradient(180deg, #fffdf7 0%, #ffffff 100%);
+        max-width: 100%;
+    }
+
+    .privacy-card-content {
+        max-height: 520px;
+        overflow-y: auto;
+        padding-right: 0.75rem;
+    }
+
+    .privacy-card-content h3,
+    .privacy-card-content h4,
+    .privacy-card-content h5,
+    .privacy-card-content h6 {
+        margin-top: 1rem;
+    }
+
+    .privacy-card-content p {
+        margin-bottom: 0.75rem;
+        line-height: 1.6;
+    }
+
+    .privacy-card-content ul {
+        margin-bottom: 1rem;
+        padding-left: 1.25rem;
+    }
 </style>
 
 <div class="main-content suspects-witnesses-page">
@@ -117,6 +205,29 @@ include '../includes/navbar.php';
                         <h5 class="card-title">Total Witnesses</h5>
                         <div class="display-5 mb-2"><?= intval($totals['total_witnesses']) ?></div>
                         <p class="text-muted mb-0">Witness records across all cases.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4 justify-content-center">
+            <div class="col-lg-6">
+                <div class="card privacy-float-card border-start border-warning border-4 h-100 mx-auto">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-start mb-3">
+                            <div>
+                                <h5 class="card-title">High Privacy Overview</h5>
+                                <p class="text-muted mb-0">Review how suspect and witness data privacy is protected in the system.</p>
+                            </div>
+                            <span class="badge bg-warning text-dark">High Data Privacy</span>
+                        </div>
+                        <div class="privacy-card-content">
+                            <?php if (!empty($privacyDescription)): ?>
+                                <?= renderMarkdownToHtml($privacyDescription) ?>
+                            <?php else: ?>
+                                <p class="text-muted">Privacy details are not available. Please check the data_privacy/suspect_witness_policy.md file.</p>
+                            <?php endif; ?>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,8 @@
 ﻿<?php
 require_once 'admin_auth.php';
+if (!isset($pdo) || !($pdo instanceof PDO)) {
+    $pdo = getDBConnection();
+}
 $base_url = '../';
 $page_title = 'Hearing Schedule';
 require_once '../includes/header.php';
@@ -10,7 +13,7 @@ $date_from = trim($_GET['date_from'] ?? '');
 $date_to = trim($_GET['date_to'] ?? '');
 $status_filter = trim($_GET['status'] ?? '');
 
-$where = ['(hearing_date IS NOT NULL OR hearing_time IS NOT NULL OR hearing_location IS NOT NULL)'];
+$where = [];
 $params = [];
 
 if ($search !== '') {
@@ -165,7 +168,7 @@ try {
                         </thead>
                         <tbody>
                             <?php if (empty($hearings)): ?>
-                                <tr><td colspan="9" class="text-center" style="color:#000;">No hearings found for the selected filters.</td></tr>
+                                <tr><td colspan="9" class="text-center" style="color:#000;">No blotter records found for the selected filters.</td></tr>
                             <?php else: ?>
                                 <?php foreach ($hearings as $row): ?>
                                     <?php

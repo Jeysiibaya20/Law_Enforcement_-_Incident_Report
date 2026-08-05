@@ -17,6 +17,9 @@ $base_url = '../';
 
 // Include required files
 require_once '../config/db_connect.php';
+if (!isset($pdo) || !($pdo instanceof PDO)) {
+    $pdo = getDBConnection();
+}
 
 // Redirect if already logged in
 if (isset($_SESSION['user_id'])) {

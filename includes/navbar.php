@@ -129,14 +129,20 @@ $display_role = htmlspecialchars($role === 'admin' ? 'Admin' : ($role === 'offic
             </a>
 
             <?php if ($is_user): ?>
+
+               <a href="<?php echo $base_url; ?>admin/dashboard.php" class="alertara-link<?php echo $current_page === 'settings' ? ' active' : ''; ?>">
+                    <span class="link-icon"><i class="bi bi-gear-fill"></i></span>
+                    <span class="link-text">Dashboard</span>
+                </a>
+                
                 <a href="<?php echo $watch_path; ?>" class="alertara-link<?php echo in_array($current_page, ['blotter','blotter_create','blotter_update','blotter_view']) ? ' active' : ''; ?>">
                     <span class="link-icon"><i class="bi bi-journal-text"></i></span>
-                    <span class="link-text">Neighborhood Watch</span>
+                    <span class="link-text">Blotter</span>
                 </a>
             <?php elseif ($is_officer): ?>
                 <a href="<?php echo $watch_path; ?>" class="alertara-link<?php echo in_array($current_page, ['blotter','blotter_create','blotter_update','blotter_view']) ? ' active' : ''; ?>">
                     <span class="link-icon"><i class="bi bi-journal-text"></i></span>
-                    <span class="link-text">Neighborhood Watch</span>
+                    <span class="link-text">Blotter</span>
                 </a>
 
                 <a href="<?php echo $cctv_path; ?>" class="alertara-link<?php echo in_array($current_page, ['crime_mapping']) ? ' active' : ''; ?>">
@@ -213,26 +219,30 @@ $display_role = htmlspecialchars($role === 'admin' ? 'Admin' : ($role === 'offic
             <span class="link-icon"><i class="bi bi-clipboard-check"></i></span>
             <span class="link-text">Hearing Result</span>
         </a>
-        <a href="<?php echo $base_url; ?>admin/cases.php" class="alertara-link<?php echo $current_page === 'settlement' ? ' active' : ''; ?>">
+        <a href="<?php echo $base_url; ?>admin/settle.php" class="alertara-link<?php echo $current_page === 'settlement' ? ' active' : ''; ?>">
             <span class="link-icon"><i class="bi bi-hand-thumbs-up"></i></span>
             <span class="link-text">Settlement</span>
         </a>
-        <a href="<?php echo $base_url; ?>admin/suspects&witnesses.php" class="alertara-link<?php echo $current_page === 'suspects&witnesses' ? ' active' : ''; ?>">
-            <span class="link-icon"><i class="bi bi-person-lines-fill"></i></span>
-            <span class="link-text">Suspects & Witnesses</span>
-         </a>
         <a href="<?php echo $base_url; ?>admin/cases.php" class="alertara-link<?php echo $current_page === 'close_cases' ? ' active' : ''; ?>">
             <span class="link-icon"><i class="bi bi-x-circle"></i></span>
             <span class="link-text">Close Cases</span>
         </a>
     </div>
-</div>
+            </div>
+                        <a href="<?php echo $base_url; ?>admin/suspects&witnesses.php" class="alertara-link<?php echo $current_page === 'suspects&witnesses' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-person-lines-fill"></i></span>
+            <span class="link-text">Suspects & Witnesses</span>
+             </a>
 
-                <?php endif; ?>
+                </a>
+                 <a href="<?php echo $base_url; ?>modules/evidence_collection.php" class="alertara-link<?php echo $current_page === 'suspects&witnesses' ? ' active' : ''; ?>">
+            <span class="link-icon"><i class="bi bi-person-lines-fill"></i></span>
+            <span class="link-text">Evidence Collection</span>
+                </a>
 
                 <a href="<?php echo $base_url; ?>modules/incident_report.php" class="alertara-link<?php echo $current_page === 'incident_report' ? ' active' : ''; ?>">
                     <span class="link-icon"><i class="bi bi-file-earmark-bar-graph"></i></span>
-                    <span class="link-text">Generate Report</span>
+                    <span class="link-text">Incident Report</span>
                 </a>
 
                 <!-- User Management moved into Digital Blotter dropdown -->
@@ -241,11 +251,12 @@ $display_role = htmlspecialchars($role === 'admin' ? 'Admin' : ($role === 'offic
                     <span class="link-icon"><i class="bi bi-envelope"></i></span>
                     <span class="link-text">Request Form</span>
                 </a>
-
                 <a href="<?php echo $base_url; ?>admin/settings.php" class="alertara-link<?php echo $current_page === 'settings' ? ' active' : ''; ?>">
                     <span class="link-icon"><i class="bi bi-gear-fill"></i></span>
                     <span class="link-text">Settings</span>
                 </a>
+<?php endif; ?>
+
 
         </div>
 

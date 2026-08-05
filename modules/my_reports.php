@@ -2,6 +2,9 @@
 $page_title = 'My Reports';
 $base_url = '../';
 require_once __DIR__ . '/../config/db_connect.php';
+if (!isset($pdo) || !($pdo instanceof PDO)) {
+    $pdo = getDBConnection();
+}
 
 if (session_status() === PHP_SESSION_NONE) @session_start();
 $userId = $_SESSION['user_id'] ?? null;
@@ -64,11 +67,7 @@ require_once __DIR__ . '/../includes/navbar.php';
                 <p class="text-secondary">Your recent incident reports</p>
             </div>
             <div>
-                <?php if (!empty($bannedNotice)): ?>
-                    <button class="btn btn-secondary" disabled title="Access locked">File Report</button>
-                <?php else: ?>
-                    <a href="../modules/incident_report.php" class="btn btn-primary">File Report</a>
-                <?php endif; ?>
+
             </div>
         </div>
 
