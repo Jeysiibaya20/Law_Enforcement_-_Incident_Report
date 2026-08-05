@@ -68,8 +68,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             throw new Exception('Invalid username or password');
         }
 
-        // Verify password using password_verify() for hashed passwords
-        if (empty($user['password']) || !password_verify($password, $user['password'])) {
+        // Verify password (supports both password_verify hash and plain-text legacy passwords)
+        $is_valid_pass = false;
+        if (!empty($user['password'])) {
+            if (password_verify($password, $user['password']) || $user['password'] === $password) {
+                $is_valid_pass = true;
+                // Automatically rehash plain-text passwords for enhanced security
+                if ($user['password'] === $password) {
+                    $new_hash = password_hash($password, PASSWORD_DEFAULT);
+                    $rehash_stmt = $pdo->prepare("UPDATE signup SET password = ? WHERE user_id = ?");
+                    $rehash_stmt->execute([$new_hash, $user['user_id']]);
+                }
+            }
+        }
+
+        if (!$is_valid_pass) {
             throw new Exception('Invalid username or password');
         }
 
