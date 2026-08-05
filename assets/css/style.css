@@ -577,7 +577,7 @@ p {
 .sidebar-logo:hover {
     transform: scale(1.05);
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
-    animation: float 1.5s ease-in-out infinite;
+    animation: float 6s ease-in-out infinite;
 }
 
 .sidebar-logo-image {
@@ -1146,7 +1146,7 @@ p {
         transform: translateY(0px); 
     }
     50% { 
-        transform: translateY(-8px); 
+        transform: translateY(-5px); 
     }
 }
 
@@ -2428,18 +2428,19 @@ p {
 
 .card-float {
     position: absolute;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.92);
     border-radius: 16px;
     padding: 1.5rem;
-    box-shadow: 0 8px 32px rgba(139, 111, 71, 0.15);
+    box-shadow: 0 8px 32px rgba(15, 118, 110, 0.12);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(139, 111, 71, 0.1);
+    border: 1px solid rgba(15, 118, 110, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    transition: all 0.3s ease;
-    animation: float 4s ease-in-out infinite;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+    animation: float 9s ease-in-out infinite;
+    will-change: transform;
 }
 
 .card-float:hover {
@@ -2687,7 +2688,7 @@ p {
 }
 
 .float {
-    animation: float 3s ease-in-out infinite;
+    animation: float 8s ease-in-out infinite;
 }
 
 /* Enhanced Animation Keyframes */
