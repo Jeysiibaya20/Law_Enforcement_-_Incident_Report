@@ -45,12 +45,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             throw new Exception('Please enter both username and password');
         }
 
-        // Try to get user from signup table first
+        // Try to get user from signup table first (by username or email)
         $sql = "SELECT user_id, fullname, emailadd, username, password, email_verified, role 
                 FROM signup 
-                WHERE username = ? LIMIT 1";
+                WHERE username = ? OR emailadd = ? LIMIT 1";
         $stmt = $pdo->prepare($sql);
-        $stmt->execute([$username]);
+        $stmt->execute([$username, $username]);
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
         // If not found in signup, try the users table
@@ -58,9 +58,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // Fallback when account lives in `users` table: join with `signup` if available to get emailadd and role
             $sql_users = "SELECT u.user_id, COALESCE(s.fullname, u.username) AS fullname, s.emailadd, u.username, u.password_hash as password, u.email_verified, COALESCE(s.role, 'User') AS role 
                           FROM users u LEFT JOIN signup s ON s.user_id = u.user_id 
-                          WHERE u.username = ? LIMIT 1";
+                          WHERE u.username = ? OR s.emailadd = ? LIMIT 1";
             $stmt_users = $pdo->prepare($sql_users);
-            $stmt_users->execute([$username]);
+            $stmt_users->execute([$username, $username]);
             $user = $stmt_users->fetch(PDO::FETCH_ASSOC);
         }
 
