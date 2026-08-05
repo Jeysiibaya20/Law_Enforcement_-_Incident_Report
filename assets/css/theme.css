@@ -106,10 +106,7 @@ html, body, .card, .navbar, .alertara-navbar, .alertara-menu, .alertara-footer {
 /* Ensure high contrast for small text in lists and badges */
 .badge, .user-role, .user-name, .link-text { font-weight: 600; }
 
-/* Fallback helpers to override older styles that may set low-contrast colors */
-*[style*="color:"] {
-    color: inherit !important;
-}
+/* Fallback helpers to override older styles if needed */
 /* Theme variables for light and dark modes - loaded last to override other styles */
 :root {
     --bg: #ffffff;
