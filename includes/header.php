@@ -9,8 +9,11 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 $script_dir = str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'] ?? ''));
-$in_subfolder = (strpos($script_dir, '/modules') !== false) || (strpos($script_dir, '/admin') !== false) || (strpos($script_dir, '/officer') !== false);
+$in_subfolder = (strpos($script_dir, '/modules') !== false) || (strpos($script_dir, '/admin') !== false) || (strpos($script_dir, '/officer') !== false) || (strpos($script_dir, '/auth') !== false);
 $base_url = isset($base_url) ? $base_url : ($in_subfolder ? '../' : '');
+
+$script_name = strtolower(str_replace('\\', '/', $_SERVER['PHP_SELF'] ?? ''));
+$is_auth_page = (strpos($script_name, '/auth/') !== false) || in_array(basename($script_name), ['login.php', 'signup.php', 'forgot_password.php', 'reset_password.php']);
 
 $is_logged_in = isset($_SESSION['user_id']) || isset($_SESSION['user_logged_in']);
 $current_user = $is_logged_in ? $_SESSION : null;
@@ -42,8 +45,9 @@ if (file_exists($lang_manager_file)) {
         })();
     </script>
 
-    <!-- FontAwesome 6 -->
+    <!-- FontAwesome 6 & Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     
     <!-- Bootstrap 5.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -57,14 +61,15 @@ if (file_exists($lang_manager_file)) {
     <!-- Centralized CSS -->
     <link href="<?php echo $base_url; ?>assets/css/global.css" rel="stylesheet">
     <link href="<?php echo $base_url; ?>assets/css/style.css" rel="stylesheet">
-    <link href="<?php echo $base_url; ?>assets/css/theme.css" rel="stylesheet">
 
     <?php if (isset($additional_head)) echo $additional_head; ?>
 </head>
-<body class="has-sidebar <?php echo !empty($body_class) ? htmlspecialchars($body_class) : ''; ?>">
+<body class="<?php echo !$is_auth_page ? 'has-sidebar' : 'auth-page-body'; ?> <?php echo !empty($body_class) ? htmlspecialchars($body_class) : ''; ?>">
 
 <?php 
-// Include Top Header Bar and Sidebar Navigation Drawer
-include __DIR__ . '/navbar.php';
-include __DIR__ . '/sidebar.php';
+// Include Top Header Bar and Sidebar Navigation Drawer ONLY for app pages, NOT auth pages
+if (!$is_auth_page) {
+    include __DIR__ . '/navbar.php';
+    include __DIR__ . '/sidebar.php';
+}
 ?>

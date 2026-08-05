@@ -1483,6 +1483,13 @@ body.has-sidebar.sidebar-collapsed {
     background: rgba(239, 68, 68, 0.1);
 }
 
+/* Desktop Sidebar Always Visible */
+@media (min-width: 993px) {
+    .sidebar {
+        transform: translateX(0) !important;
+    }
+}
+
 /* Sidebar Responsive & Mobile Drawer */
 @media (max-width: 992px) {
     .sidebar {
@@ -1512,7 +1519,147 @@ body.has-sidebar.sidebar-collapsed {
     transition: all 0.3s ease;
 }
 
-.sidebar-overlay.active {
-    opacity: 1;
-    visibility: visible;
-}
+/* EMERGENCY-COM Sidebar Per-Module Accent Icon Colors */
+.sidebar-accent-dashboard i { color: #2563eb !important; }
+.sidebar-accent-users i { color: #16a34a !important; }
+.sidebar-accent-approvals i { color: #9333ea !important; }
+.sidebar-accent-profile i { color: #f97316 !important; }
+.sidebar-accent-settings i { color: #64748b !important; }
+.sidebar-accent-mass i { color: #dc2626 !important; }
+.sidebar-accent-categorization i { color: #0d9488 !important; }
+.sidebar-accent-2way i { color: #4f46e5 !important; }
+.sidebar-accent-auto i { color: #d97706 !important; }
+.sidebar-accent-multilang i { color: #db2777 !important; }
+.sidebar-accent-citizen i { color: #64748b !important; }
+.sidebar-accent-audit i { color: #06b6d4 !important; }
+.sidebar-accent-overview i { color: #06b6d4 !important; }
+.sidebar-accent-weather i { color: #0ea5e9 !important; }
+.sidebar-accent-language i { color: #8b5cf6 !important; }
+
+/* Light Mode Sidebar Pill Styling matching EMERGENCY-COM */
+.sidebar-section-title {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #6a7f7d;
+    padding: 0.85rem 0.85rem 0.35rem;
+    margin: 0;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    padding: 0.65rem 0.85rem;
+    color: #1f2e2d;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.sidebar-link:hover {
+    background-color: #d7eeea;
+    color: #1b5a56;
+}
+
+.sidebar-link.active {
+    background-color: #e6f4f2;
+    color: #1b5a56;
+    font-weight: 600;
+}
+
+.sidebar-link.active i {
+    color: #1b5a56 !important;
+}
+
+/* Sidebar Header Brand Logo Badge */
+.alertara-badge-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.35rem 0.65rem;
+    border-radius: 0.5rem;
+    background: rgba(76, 138, 137, 0.08);
+    border: 1px solid rgba(76, 138, 137, 0.2);
+    text-decoration: none;
+}
+
+.brand-icon {
+    font-size: 1.5rem;
+    color: #4c8a89;
+}
+
+.brand-text-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-title {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #1f2e2d;
+    line-height: 1;
+    letter-spacing: 0.04em;
+}
+
+.brand-subtitle {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: #6a7f7d;
+    letter-spacing: 0.1em;
+}
+
+/* Sidebar Footer User Info */
+.sidebar-footer {
+    padding: 0.85rem 1rem;
+    border-top: 1px solid #dfe7e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    margin-top: auto;
+}
+
+.sidebar-user-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.sidebar-user-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #4c8a89;
+}
+
+.sidebar-user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-user-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1f2e2d;
+    line-height: 1.2;
+}
+
+.sidebar-user-role {
+    font-size: 0.75rem;
+    color: #6a7f7d;
+}
+
