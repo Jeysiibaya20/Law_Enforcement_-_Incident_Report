@@ -137,8 +137,15 @@
     updateClock();
     setInterval(updateClock, 1000);
 
-    // 4. Header Quick Search Filter
+    // 4. Header Quick Search Filter (role-scoped)
     if (searchInput && searchDropdown) {
+        <?php
+        $searchRole = strtolower(trim($_SESSION['role'] ?? 'user'));
+        $currentSearchPage = strtolower(basename($_SERVER['PHP_SELF']));
+        $isUserSidePage = in_array($currentSearchPage, ['landing.php', 'index.php', 'my_reports.php', 'incident_report.php', 'request_form.php', 'learning.php']) || !empty($force_public_sidebar);
+        $isAdminRole = (strpos($searchRole, 'admin') !== false || strpos($searchRole, 'officer') !== false || strpos($searchRole, 'official') !== false);
+        ?>
+        <?php if (!$isUserSidePage && $isAdminRole): ?>
         const pages = [
             { name: 'Dashboard', url: '<?php echo $base_url; ?>admin/dashboard.php', category: 'Admin' },
             { name: 'Blotter (Digital Blotter)', url: '<?php echo $base_url; ?>admin/blotters.php', category: 'Digital Blotter' },
@@ -149,14 +156,21 @@
             { name: 'Settlement', url: '<?php echo $base_url; ?>admin/settle.php', category: 'Cases Mgmt' },
             { name: 'Close Cases', url: '<?php echo $base_url; ?>admin/cases.php?status=Closed', category: 'Cases Mgmt' },
             { name: 'Suspects & Witnesses', url: '<?php echo $base_url; ?>admin/suspects_management.php', category: 'Management' },
-            { name: 'Incident Report', url: '<?php echo $base_url; ?>modules/Incident_report.php', category: 'Incident' },
-            { name: 'Request Form', url: '<?php echo $base_url; ?>modules/Request_form.php', category: 'Services' },
             { name: 'All Cases', url: '<?php echo $base_url; ?>admin/cases.php', category: 'Cases' },
             { name: 'Account Approvals', url: '<?php echo $base_url; ?>admin/account_approvals.php', category: 'Users' },
             { name: 'Reports & Analytics', url: '<?php echo $base_url; ?>admin/reports.php', category: 'Reports' },
             { name: 'Evidence Collection', url: '<?php echo $base_url; ?>modules/evidence_collection.php', category: 'Evidence' },
-            { name: 'My Reports', url: '<?php echo $base_url; ?>modules/my_reports.php', category: 'Public' }
+            { name: 'Settings', url: '<?php echo $base_url; ?>admin/settings.php', category: 'Admin' }
         ];
+        <?php else: ?>
+        const pages = [
+            { name: 'My Reports', url: '<?php echo $base_url; ?>modules/my_reports.php', category: 'Reports' },
+            { name: 'File Incident Report', url: '<?php echo $base_url; ?>modules/Incident_report.php', category: 'Incident' },
+            { name: 'Request Form', url: '<?php echo $base_url; ?>modules/Request_form.php', category: 'Services' },
+            { name: 'Awareness & Guide', url: '<?php echo $base_url; ?>modules/learning.php', category: 'Learning' },
+            { name: 'Resident Portal', url: '<?php echo $base_url; ?>landing.php', category: 'Home' }
+        ];
+        <?php endif; ?>
 
         searchInput.addEventListener('input', function() {
             const query = this.value.trim().toLowerCase();

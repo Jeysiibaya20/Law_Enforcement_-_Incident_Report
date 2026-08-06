@@ -29,7 +29,7 @@ $is_user_page = in_array($current_page, ['landing.php', 'index.php', 'my_reports
 $login_href = $base_url . 'auth/login.php';
 $profile_href = $base_url . ($is_user_page ? 'modules/my_reports.php' : ($role === 'admin' ? 'admin/settings.php' : 'modules/my_reports.php'));
 
-// Fetch real notifications from database
+// Fetch notifications — scope by role to prevent data leakage
 $unread_count = 0;
 $notifications = [];
 
@@ -40,30 +40,51 @@ try {
     }
 
     if ($pdo instanceof PDO) {
-        // Pending blotters
-        $stmt_b = $pdo->query("SELECT id, blotter_no, complainant_name, created_at FROM blotters WHERE status = 'Pending' ORDER BY created_at DESC LIMIT 4");
-        $pending_blotters = $stmt_b->fetchAll(PDO::FETCH_ASSOC);
-        foreach ($pending_blotters as $b) {
-            $notifications[] = [
-                'type' => 'blotter',
-                'title' => 'Pending Blotter #' . htmlspecialchars($b['blotter_no']),
-                'desc' => 'Filed by ' . htmlspecialchars($b['complainant_name']),
-                'time' => date('M d, g:i a', strtotime($b['created_at'])),
-                'link' => $base_url . 'admin/blotters.php'
-            ];
-        }
+        $isAdminView = !$is_user_page && ($role === 'admin' || strpos($role, 'officer') !== false || strpos($role, 'official') !== false);
 
-        // Pending user approvals
-        $stmt_unv = $pdo->query("SELECT user_id, fullname, emailadd, created_at FROM signup WHERE email_verified = 0 AND role != 'Admin' ORDER BY created_at DESC LIMIT 3");
-        $unverified = $stmt_unv->fetchAll(PDO::FETCH_ASSOC);
-        foreach ($unverified as $u) {
-            $notifications[] = [
-                'type' => 'user',
-                'title' => 'Unverified User Signup',
-                'desc' => htmlspecialchars($u['fullname'] ?: $u['emailadd']),
-                'time' => date('M d, g:i a', strtotime($u['created_at'])),
-                'link' => $base_url . 'admin/account_approvals.php'
-            ];
+        if ($isAdminView) {
+            // ADMIN ONLY: Pending blotters
+            $stmt_b = $pdo->query("SELECT id, blotter_no, complainant_name, created_at FROM blotters WHERE status = 'Pending' ORDER BY created_at DESC LIMIT 4");
+            $pending_blotters = $stmt_b->fetchAll(PDO::FETCH_ASSOC);
+            foreach ($pending_blotters as $b) {
+                $notifications[] = [
+                    'type' => 'blotter',
+                    'title' => 'Pending Blotter #' . htmlspecialchars($b['blotter_no']),
+                    'desc' => 'Filed by ' . htmlspecialchars($b['complainant_name']),
+                    'time' => date('M d, g:i a', strtotime($b['created_at'])),
+                    'link' => $base_url . 'admin/blotters.php'
+                ];
+            }
+
+            // ADMIN ONLY: Pending user approvals
+            $stmt_unv = $pdo->query("SELECT user_id, fullname, emailadd, created_at FROM signup WHERE email_verified = 0 AND role != 'Admin' ORDER BY created_at DESC LIMIT 3");
+            $unverified = $stmt_unv->fetchAll(PDO::FETCH_ASSOC);
+            foreach ($unverified as $u) {
+                $notifications[] = [
+                    'type' => 'user',
+                    'title' => 'Unverified User Signup',
+                    'desc' => htmlspecialchars($u['fullname'] ?: $u['emailadd']),
+                    'time' => date('M d, g:i a', strtotime($u['created_at'])),
+                    'link' => $base_url . 'admin/account_approvals.php'
+                ];
+            }
+        } else {
+            // USER SIDE: Show only their own report status updates
+            $userId = $_SESSION['user_id'] ?? null;
+            if ($userId) {
+                $stmt_r = $pdo->prepare("SELECT case_no, status, updated_at FROM incidents WHERE created_by = ? AND status != 'Pending' ORDER BY updated_at DESC LIMIT 5");
+                $stmt_r->execute([$userId]);
+                $userUpdates = $stmt_r->fetchAll(PDO::FETCH_ASSOC);
+                foreach ($userUpdates as $ur) {
+                    $notifications[] = [
+                        'type' => 'report',
+                        'title' => 'Case ' . htmlspecialchars($ur['case_no']),
+                        'desc' => 'Status: ' . htmlspecialchars($ur['status']),
+                        'time' => date('M d, g:i a', strtotime($ur['updated_at'])),
+                        'link' => $base_url . 'modules/my_reports.php'
+                    ];
+                }
+            }
         }
 
         $unread_count = count($notifications);
@@ -124,8 +145,8 @@ try {
                         <?php if (!empty($notifications)): ?>
                             <?php foreach ($notifications as $n): ?>
                                 <a href="<?php echo $n['link']; ?>" class="notification-item">
-                                    <div class="notification-icon <?php echo $n['type'] === 'blotter' ? 'icon-blotter' : 'icon-user'; ?>">
-                                        <i class="fas <?php echo $n['type'] === 'blotter' ? 'fa-clipboard-list' : 'fa-user-clock'; ?>"></i>
+                                    <div class="notification-icon <?php echo $n['type'] === 'blotter' ? 'icon-blotter' : ($n['type'] === 'report' ? 'icon-report' : 'icon-user'); ?>">
+                                        <i class="fas <?php echo $n['type'] === 'blotter' ? 'fa-clipboard-list' : ($n['type'] === 'report' ? 'fa-file-alt' : 'fa-user-clock'); ?>"></i>
                                     </div>
                                     <div class="notification-content">
                                         <strong class="notification-title"><?php echo $n['title']; ?></strong>
@@ -142,7 +163,11 @@ try {
                         <?php endif; ?>
                     </div>
                     <div class="notification-footer">
-                        <a href="<?php echo $base_url; ?>admin/blotters.php">View All Activity <i class="fas fa-chevron-right ms-1"></i></a>
+                        <?php if (!$is_user_page && ($role === 'admin' || strpos($role, 'officer') !== false)): ?>
+                            <a href="<?php echo $base_url; ?>admin/blotters.php">View All Activity <i class="fas fa-chevron-right ms-1"></i></a>
+                        <?php else: ?>
+                            <a href="<?php echo $base_url; ?>modules/my_reports.php">View My Reports <i class="fas fa-chevron-right ms-1"></i></a>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
