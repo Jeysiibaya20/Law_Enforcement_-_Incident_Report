@@ -3196,3 +3196,29 @@ aside.sidebar .sidebar-submenu-link.active i {
     opacity: 1 !important;
     visibility: visible !important;
 }
+
+/* Sidebar Collapse Rules for Desktop (min-width: 993px) */
+@media (min-width: 993px) {
+    .sidebar {
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), left 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    }
+
+    body.sidebar-collapsed .sidebar,
+    .sidebar.collapsed {
+        transform: translateX(-100%) !important;
+    }
+
+    body.sidebar-collapsed .admin-header {
+        left: 0 !important;
+        width: 100% !important;
+    }
+
+    body.sidebar-collapsed,
+    body.has-sidebar.sidebar-collapsed {
+        padding-left: 0 !important;
+    }
+
+    body.sidebar-collapsed .main-content {
+        margin-left: 0 !important;
+    }
+}

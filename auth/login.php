@@ -92,18 +92,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         //     throw new Exception('Please verify your email address before logging in.');
         // }
 
-        // Login successful: create session and redirect to the app home
+        // Strictly enforce login isolation: block Admin/Officer/Official accounts on User login
+        $userRole = strtolower(trim($user['role'] ?? 'user'));
+        if (strpos($userRole, 'admin') !== false || strpos($userRole, 'officer') !== false || strpos($userRole, 'official') !== false) {
+            throw new Exception('Access Denied: Administrative and Officer accounts must sign in via the <a href="../admin/login.php" class="fw-bold text-decoration-underline">Admin Portal Login</a>.');
+        }
+
+        // Login successful: create session and redirect to resident portal
         $_SESSION['user_id'] = $user['user_id'];
         $_SESSION['username'] = $user['username'];
         $_SESSION['email'] = $user['emailadd'] ?? $user['email'] ?? '';
-        $_SESSION['role'] = strtolower(trim($user['role'] ?? 'user'));
+        $_SESSION['role'] = $userRole;
         $_SESSION['first_name'] = trim(explode(' ', $user['fullname'] ?? $user['username'])[0]);
+        $_SESSION['fullname'] = $user['fullname'] ?? $user['username'];
 
-        if ($_SESSION['role'] === 'admin') {
-            header('Location: ../admin/dashboard.php');
-        } else {
-            header('Location: ../modules/my_reports.php');
-        }
+        header('Location: ../modules/my_reports.php');
         exit();
 
     } catch (Exception $e) {

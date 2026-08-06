@@ -10,8 +10,8 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // 1. Check if user is logged in
 if (empty($_SESSION['user_id'])) {
-    $_SESSION['flash'] = ['type' => 'danger', 'message' => 'Please sign in to access the administration system.'];
-    header('Location: ../auth/login.php');
+    $_SESSION['flash'] = ['type' => 'danger', 'message' => 'Please sign in with your administrator credentials to access the administration portal.'];
+    header('Location: login.php');
     exit();
 }
 
