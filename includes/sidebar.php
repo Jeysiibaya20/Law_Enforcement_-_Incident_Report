@@ -24,6 +24,8 @@ $display_role = ucfirst($role);
 $avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'https://ui-avatars.com/api/?name=' . urlencode($full_name ?: 'User') . '&background=4c8a89&color=fff&size=128';
 
 $current_page = strtolower(basename($_SERVER['PHP_SELF']));
+$is_user_page = in_array($current_page, ['landing.php', 'index.php', 'my_reports.php', 'incident_report.php', 'request_form.php', 'crime_mapping.php', 'learning.php']) || !empty($force_public_sidebar);
+$show_admin_menu = ($is_admin || $is_officer) && !$is_user_page;
 ?>
 
 <!-- Sidebar Component -->
@@ -38,7 +40,7 @@ $current_page = strtolower(basename($_SERVER['PHP_SELF']));
     
     <div class="sidebar-content">
         <nav class="sidebar-nav">
-            <?php if ($is_admin || $is_officer): ?>
+            <?php if ($show_admin_menu): ?>
                 <!-- Admin / Officer Primary Section -->
                 <div class="sidebar-section">
                     <h3 class="sidebar-section-title">ADMIN</h3>
@@ -237,6 +239,12 @@ $current_page = strtolower(basename($_SERVER['PHP_SELF']));
                             <a href="<?php echo $base_url; ?>modules/Incident_report.php" class="sidebar-link sidebar-accent-mass <?php echo $current_page === 'incident_report.php' ? 'active' : ''; ?>">
                                 <i class="fas fa-exclamation-triangle sidebar-icon" aria-hidden="true"></i>
                                 <span>File Incident Report</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-menu-item">
+                            <a href="<?php echo $base_url; ?>modules/Request_form.php" class="sidebar-link sidebar-accent-profile <?php echo (in_array($current_page, ['request_form.php', 'cctv_request.php'])) ? 'active' : ''; ?>">
+                                <i class="fas fa-file-signature sidebar-icon" aria-hidden="true"></i>
+                                <span>Request Form</span>
                             </a>
                         </li>
                         <li class="sidebar-menu-item">

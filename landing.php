@@ -1,6 +1,8 @@
- <?php
-$page_title = 'Law & Incident Report';
+<?php
+$page_title = 'Resident Portal - Alertara';
 $base_url = '';
+$force_public_sidebar = true;
+
 require_once "includes/header.php";
 require_once "includes/navbar.php";
 require_once __DIR__ . '/config/db_connect.php';
@@ -44,14 +46,12 @@ if ($userId) {
     } catch (Throwable $e) { $myReports = 0; }
 
     try {
-        // Active cases: count case assignments assigned to or created by user and not closed
         $stmt = $pdo->prepare("SELECT COUNT(*) FROM case_assignments WHERE (assigned_to = ? OR assigned_by = ?) AND status NOT IN ('Closed','Resolved','Archived')");
         $stmt->execute([$userId, $userId]);
         $activeCases = (int)($stmt->fetchColumn() ?? 0);
     } catch (Throwable $e) { $activeCases = 0; }
 
     try {
-        // My clearances - try table 'clearances' if exists
         $stmt = $pdo->prepare("SELECT COUNT(*) FROM clearances WHERE user_id = ?");
         $stmt->execute([$userId]);
         $myClearances = (int)($stmt->fetchColumn() ?? 0);
@@ -59,115 +59,116 @@ if ($userId) {
 }
 ?>
 
-<!-- Floating AI Assistant (landing page only) -->
-<div id="ai-assistant" aria-hidden="false">
-    <div class="ai-inner">
-        <span class="ai-icon">💬</span>
-        <span class="ai-label">AI Assistant</span>
-        <select id="ai-lang" class="ai-lang" aria-label="Assistant language">
-            <option value="us">US</option>
-            <option value="ph">PH</option>
-        </select>
-        <button id="ai-open" class="ai-open" title="Open assistant">+</button>
-    </div>
-</div>
-
-<style>
-    #ai-assistant{position:fixed;right:24px;top:24px;z-index:1200}
-    #ai-assistant .ai-inner{display:flex;align-items:center;gap:8px;background:linear-gradient(90deg,#6c5ce7,#a29bfe);color:#fff;padding:8px 12px;border-radius:18px;box-shadow:0 8px 30px rgba(0,0,0,0.15);font-weight:600;font-size:13px}
-    #ai-assistant .ai-icon{display:inline-block;width:24px;height:24px;line-height:24px;text-align:center;background:rgba(255,255,255,0.08);border-radius:6px}
-    #ai-assistant .ai-label{white-space:nowrap}
-    #ai-assistant .ai-lang{background:rgba(255,255,255,0.12);border:none;color:#fff;padding:2px 6px;border-radius:6px;font-weight:600}
-    #ai-assistant .ai-open{background:rgba(255,255,255,0.12);border:none;color:#fff;width:28px;height:28px;border-radius:6px;font-size:18px;line-height:1}
-    #ai-assistant .ai-lang:focus,#ai-assistant .ai-open:focus{outline:2px solid rgba(255,255,255,0.2)}
-</style>
-
-<script>
-    // Simple handler for assistant button on landing page
-    document.addEventListener('DOMContentLoaded', function(){
-        var btn = document.getElementById('ai-open');
-        var lang = document.getElementById('ai-lang');
-        btn.addEventListener('click', function(e){
-            e.preventDefault();
-            // Open a small help modal or redirect to assistant page (placeholder)
-            alert('AI Assistant: language ' + (lang.value || 'us'));
-        });
-    });
-</script>
-
 <div class="main-content">
     <div class="content-container">
+        <!-- Header Title Section -->
         <div class="d-flex justify-content-between align-items-center mb-4">
             <div>
-                <h1>My Dashboard</h1>
-                <p class="text-secondary">Welcome back, <?php echo htmlspecialchars($_SESSION['fullname'] ?? ''); ?></p>
+                <h1 class="h2 fw-bold mb-1" style="font-family: 'Quicksand', 'Inter', sans-serif;">Resident Portal Overview</h1>
+                <p class="text-secondary small mb-0">Track your reported incidents, service requests, and community safety updates</p>
+            </div>
+            <div>
+                <a href="modules/Incident_report.php" class="btn btn-primary btn-sm">
+                    <i class="fas fa-plus-circle me-1"></i> File Incident Report
+                </a>
             </div>
         </div>
 
         <?php if (!empty($isBanned)): ?>
-            <div class="alert alert-danger mb-4">
-                <strong>Account Suspended</strong>
-                <p>Your account has been banned by an administrator. Reporting and blotter access are disabled until your account is reinstated.</p>
+            <div class="alert alert-danger mb-4 rounded-3 shadow-sm">
+                <i class="fas fa-exclamation-triangle me-2"></i><strong>Account Suspended:</strong> Your account has been suspended by an administrator. Incident reporting and blotter access are currently locked.
             </div>
         <?php elseif (!empty($userNeedsApproval)): ?>
-            <div class="alert alert-warning mb-4">
-                <strong>Account Not Verified</strong>
-                <p>Your account is pending administrator approval. The system modules are temporarily unavailable until verification is complete.</p>
+            <div class="alert alert-warning mb-4 rounded-3 shadow-sm">
+                <i class="fas fa-user-clock me-2"></i><strong>Account Pending Verification:</strong> Your account is pending administrator approval. Module services will become fully available upon verification.
             </div>
         <?php endif; ?>
 
-        <div class="card mb-4" style="background:#2f6f4f;color:#fff;padding:1rem;border-radius:8px;">
-            <h4 style="margin:0">Welcome back, <?php echo htmlspecialchars($_SESSION['fullname'] ?? ''); ?>!</h4>
-            <p style="opacity:0.9;margin:0.3rem 0 0;">Track your reports, clearances, and stay updated on your barangay services.</p>
+        <!-- Welcome Banner -->
+        <div class="card border-0 text-white mb-4 shadow-sm" style="background: linear-gradient(135deg, #1b5a56 0%, #4c8a89 100%); border-radius: 12px; padding: 1.5rem;">
+            <h4 class="fw-bold mb-1 text-white" style="font-family: 'Quicksand', sans-serif;">Welcome back, <?php echo htmlspecialchars($_SESSION['fullname'] ?? 'Resident'); ?>!</h4>
+            <p class="mb-0 text-white-50 small">Track your filed reports, clearance requests, and stay updated on your local barangay public safety services.</p>
         </div>
 
-        <div class="row g-3 mb-3">
+        <!-- Stat Cards -->
+        <div class="row g-3 mb-4">
             <div class="col-12 col-md-4">
-                <div class="card p-3" style="position:relative;">
-                    <h6>My Reports <?php if (!empty($isBanned)) echo '<i class="bi bi-lock-fill text-muted" title="Account suspended"></i>'; ?></h6>
-                    <div style="font-size:2rem;font-weight:700"><?php echo $myReports; ?></div>
-                    <div class="text-muted">Total filed</div>
+                <div class="card h-100 border-start border-primary border-4 shadow-sm p-3 position-relative">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="text-muted small text-uppercase fw-bold">My Reports</span>
+                            <div class="h2 fw-bold text-primary my-1" style="font-family: 'Quicksand', sans-serif;"><?php echo $myReports; ?></div>
+                            <small class="text-muted">Total filed incidents</small>
+                        </div>
+                        <div class="text-primary opacity-50">
+                            <i class="fas fa-folder-open fa-2x"></i>
+                        </div>
+                    </div>
                     <?php if (!empty($isBanned)): ?>
-                        <div style="position:absolute;inset:0;background:rgba(255,255,255,0.6);display:flex;align-items:center;justify-content:center;border-radius:6px;">
+                        <div style="position:absolute;inset:0;background:rgba(255,255,255,0.75);display:flex;align-items:center;justify-content:center;border-radius:6px;">
                             <div class="text-center text-muted">
-                                <i class="bi bi-lock-fill" style="font-size:24px"></i>
-                                <div style="font-size:0.9rem">Account suspended</div>
+                                <i class="fas fa-lock text-danger" style="font-size:24px"></i>
+                                <div class="small fw-semibold mt-1">Account Suspended</div>
                             </div>
                         </div>
                     <?php endif; ?>
                 </div>
             </div>
+
             <div class="col-12 col-md-4">
-                <div class="card p-3">
-                    <h6>Active Cases</h6>
-                    <div style="font-size:2rem;font-weight:700"><?php echo $activeCases; ?></div>
-                    <div class="text-muted">In progress</div>
+                <div class="card h-100 border-start border-warning border-4 shadow-sm p-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="text-muted small text-uppercase fw-bold">Active Cases</span>
+                            <div class="h2 fw-bold text-warning my-1" style="font-family: 'Quicksand', sans-serif;"><?php echo $activeCases; ?></div>
+                            <small class="text-muted">Currently in progress</small>
+                        </div>
+                        <div class="text-warning opacity-50">
+                            <i class="fas fa-spinner fa-2x"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
+
             <div class="col-12 col-md-4">
-                <div class="card p-3">
-                    <h6>My Clearances</h6>
-                    <div style="font-size:2rem;font-weight:700"><?php echo $myClearances; ?></div>
-                    <div class="text-muted">Requested</div>
+                <div class="card h-100 border-start border-success border-4 shadow-sm p-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="text-muted small text-uppercase fw-bold">My Clearances</span>
+                            <div class="h2 fw-bold text-success my-1" style="font-family: 'Quicksand', sans-serif;"><?php echo $myClearances; ?></div>
+                            <small class="text-muted">Requested certificates</small>
+                        </div>
+                        <div class="text-success opacity-50">
+                            <i class="fas fa-file-contract fa-2x"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="card">
-                <div class="card-body">
-                <h5 class="card-title">My Recent Reports <?php if (!empty($isBanned)) echo '<i class="bi bi-lock-fill text-muted" title="Account suspended"></i>'; ?></h5>
-                <p class="text-muted">Your recent incident reports</p>
+        <!-- Recent Reports Table Card -->
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-card fw-bold d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-history me-2 text-primary"></i>My Recent Reports</span>
+                <a href="modules/my_reports.php" class="btn btn-sm btn-outline-primary">View All</a>
+            </div>
+            <div class="card-body p-0">
                 <div class="table-responsive">
-                    <table class="table table-sm">
-                        <thead>
-                            <tr><th>Case No</th><th>Type</th><th>Date</th><th>Status</th></tr>
+                    <table class="table table-hover align-middle mb-0" style="font-size: 0.875rem;">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Case No</th>
+                                <th>Incident Type</th>
+                                <th>Date Reported</th>
+                                <th>Status</th>
+                            </tr>
                         </thead>
                         <tbody>
                             <?php
                             if (!empty($isBanned)) {
-                                echo '<tr><td colspan="4" class="text-center text-danger">Your account has been suspended. Reports are unavailable until your account is reinstated.</td></tr>';
+                                echo '<tr><td colspan="4" class="text-center text-danger py-4">Your account has been suspended. Reports are unavailable until your account is reinstated.</td></tr>';
                             } elseif (!empty($userNeedsApproval)) {
-                                echo '<tr><td colspan="4" class="text-center text-warning">Your account is pending verification. Reporting and module access are locked until an administrator approves your account.</td></tr>';
+                                echo '<tr><td colspan="4" class="text-center text-warning py-4">Your account is pending verification. Reporting and module access are locked until an administrator approves your account.</td></tr>';
                             } else {
                                 try {
                                     if ($userId) {
@@ -180,14 +181,20 @@ if ($userId) {
                                 } catch (Exception $e) { $rows = []; }
 
                                 if (empty($rows)) {
-                                    echo '<tr><td colspan="4" class="text-center text-secondary">You have not filed any incident reports yet.</td></tr>';
+                                    echo '<tr><td colspan="4" class="text-center text-muted py-4"><i class="fas fa-info-circle me-2"></i>You have not filed any incident reports yet.</td></tr>';
                                 } else {
                                     foreach ($rows as $r) {
+                                        $status = htmlspecialchars($r['status'] ?? 'Pending');
+                                        $badgeClass = 'bg-secondary';
+                                        if (strcasecmp($status, 'Resolved') === 0) $badgeClass = 'bg-success';
+                                        elseif (strcasecmp($status, 'Ongoing') === 0) $badgeClass = 'bg-info';
+                                        elseif (strcasecmp($status, 'New') === 0 || strcasecmp($status, 'Pending') === 0) $badgeClass = 'bg-warning text-dark';
+
                                         echo '<tr>';
-                                        echo '<td>'.htmlspecialchars($r['case_no'] ?? '—').'</td>';
+                                        echo '<td class="fw-semibold">'.htmlspecialchars($r['case_no'] ?? '—').'</td>';
                                         echo '<td>'.htmlspecialchars($r['incident_type'] ?? '—').'</td>';
-                                        echo '<td>'.htmlspecialchars($r['incident_date'] ?? '—').'</td>';
-                                        echo '<td>'.htmlspecialchars($r['status'] ?? '—').'</td>';
+                                        echo '<td>'.htmlspecialchars($r['incident_date'] ? date('M d, Y', strtotime($r['incident_date'])) : '—').'</td>';
+                                        echo '<td><span class="badge '.$badgeClass.'">'.$status.'</span></td>';
                                         echo '</tr>';
                                     }
                                 }
@@ -200,4 +207,5 @@ if ($userId) {
         </div>
     </div>
 </div>
+
 <?php require_once 'includes/footer.php'; ?>
