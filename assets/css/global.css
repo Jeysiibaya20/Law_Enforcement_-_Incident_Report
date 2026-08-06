@@ -1547,6 +1547,31 @@ body.has-sidebar.sidebar-collapsed {
     border-bottom: 1px solid var(--sidebar-border);
 }
 
+.sidebar-close-btn {
+    background: transparent;
+    border: none;
+    color: #64748b;
+    font-size: 1.15rem;
+    cursor: pointer !important;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    transition: all 0.2s ease;
+}
+
+.sidebar-close-btn:hover {
+    background-color: rgba(239, 68, 68, 0.12);
+    color: #ef4444;
+}
+
+.sidebar-close-btn i {
+    pointer-events: none;
+}
+
 .sidebar-brand {
     display: flex;
     align-items: center;

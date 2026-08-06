@@ -44,6 +44,9 @@ $avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'h
                 <img src="<?php echo $base_url; ?>assets/images/logo.svg" alt="Alertara PH Logo" class="logo-img">
             </a>
         </div>
+        <button type="button" class="sidebar-close-btn" onclick="toggleAlertaraSidebar(event)" aria-label="Close Sidebar" title="Close Sidebar">
+            <i class="fas fa-times"></i>
+        </button>
     </div>
     
     <div class="sidebar-content">
