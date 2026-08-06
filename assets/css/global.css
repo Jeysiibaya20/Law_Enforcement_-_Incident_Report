@@ -1168,7 +1168,10 @@ body.has-sidebar.sidebar-collapsed {
     border: none;
     color: var(--text-color);
     font-size: 1.25rem;
-    cursor: pointer;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    position: relative;
+    z-index: 1055 !important;
     padding: 0.5rem;
     border-radius: 0.5rem;
     transition: all 0.2s ease;
@@ -1177,6 +1180,10 @@ body.has-sidebar.sidebar-collapsed {
     justify-content: center;
     width: 40px;
     height: 40px;
+}
+
+.menu-toggle i {
+    pointer-events: none !important;
 }
 
 .menu-toggle:hover {

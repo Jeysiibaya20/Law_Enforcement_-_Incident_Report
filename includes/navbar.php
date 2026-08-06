@@ -106,10 +106,37 @@ try {
 }
 ?>
 
+<script>
+function toggleAlertaraSidebar(e) {
+    if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+    }
+    var sidebar = document.getElementById('sidebar') || document.getElementById('appSidebar') || document.querySelector('.sidebar');
+    var overlay = document.getElementById('sidebarOverlay') || document.querySelector('.sidebar-overlay');
+    var isMobile = window.innerWidth <= 992;
+    
+    if (sidebar) {
+        if (isMobile) {
+            sidebar.classList.toggle('active');
+            sidebar.classList.toggle('show');
+            if (overlay) {
+                overlay.classList.toggle('active');
+                overlay.classList.toggle('show');
+            }
+            document.body.classList.toggle('sidebar-mobile-open');
+        } else {
+            sidebar.classList.toggle('collapsed');
+            document.body.classList.toggle('sidebar-collapsed');
+        }
+    }
+}
+</script>
+
 <header class="admin-header">
     <div class="admin-header-left">
-        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu" title="Toggle Sidebar">
-            <i class="fas fa-bars"></i>
+        <button class="menu-toggle" id="menuToggle" onclick="toggleAlertaraSidebar(event)" aria-label="Toggle Navigation Menu" title="Toggle Sidebar" style="cursor: pointer; position: relative; z-index: 1055; pointer-events: auto;">
+            <i class="fas fa-bars" style="pointer-events: none;"></i>
         </button>
 
         <div class="search-container">
