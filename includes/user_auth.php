@@ -1,8 +1,8 @@
 <?php
 /**
- * User & Resident Authentication Guard
- * Ensures user is authenticated. Admin/Officer accounts are redirected
- * to the Admin Portal — they cannot access user-side pages.
+ * User & Resident Authentication Guard (Optimized)
+ * Uses session-cached role check with periodic DB re-validation (every 5 min)
+ * to avoid hitting the database on every single page load.
  */
 
 if (session_status() === PHP_SESSION_NONE) {
@@ -17,24 +17,36 @@ if (empty($_SESSION['user_id'])) {
     exit();
 }
 
-// 2. Validate role from DB to prevent session tampering
-require_once __DIR__ . '/../config/db_connect.php';
-if (!isset($pdo) || !($pdo instanceof PDO)) {
-    $pdo = getDBConnection();
-}
+// 2. Role check — use cached session role, re-validate from DB every 5 minutes
+$sessionRole = strtolower(trim($_SESSION['role'] ?? ''));
+$roleLastChecked = $_SESSION['_role_checked_at'] ?? 0;
 
-try {
-    $stmt = $pdo->prepare("SELECT role FROM signup WHERE user_id = ? LIMIT 1");
-    $stmt->execute([$_SESSION['user_id']]);
-    $dbUser = $stmt->fetch(PDO::FETCH_ASSOC);
-    $dbRole = strtolower(trim($dbUser['role'] ?? ''));
-} catch (Exception $e) {
-    $dbRole = strtolower(trim($_SESSION['role'] ?? ''));
+if ((time() - $roleLastChecked) > 300) {
+    // Re-validate from DB every 5 minutes
+    require_once __DIR__ . '/../config/db_connect.php';
+    if (!isset($pdo) || !($pdo instanceof PDO)) {
+        $pdo = getDBConnection();
+    }
+    try {
+        $stmt = $pdo->prepare("SELECT role FROM signup WHERE user_id = ? LIMIT 1");
+        $stmt->execute([$_SESSION['user_id']]);
+        $dbUser = $stmt->fetch(PDO::FETCH_ASSOC);
+        if ($dbUser) {
+            $sessionRole = strtolower(trim($dbUser['role']));
+            $_SESSION['role'] = $dbUser['role'];
+        }
+        $_SESSION['_role_checked_at'] = time();
+    } catch (Exception $e) {
+        // Keep cached role on DB error
+    }
 }
 
 // 3. Admin/Officer/Official accounts belong in Admin Portal ONLY
-if (strpos($dbRole, 'admin') !== false || strpos($dbRole, 'officer') !== false || strpos($dbRole, 'official') !== false) {
+if (strpos($sessionRole, 'admin') !== false || strpos($sessionRole, 'officer') !== false || strpos($sessionRole, 'official') !== false) {
     header('Location: ' . $base_url . 'admin/dashboard.php');
     exit();
 }
+
+// 4. Set force_public_sidebar flag for sidebar rendering
+$force_public_sidebar = true;
 ?>
