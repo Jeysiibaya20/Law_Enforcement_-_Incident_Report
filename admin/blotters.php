@@ -57,6 +57,61 @@ function ensureBlotterStatusEnum(PDO $pdo, array $requiredStatuses)
     }
 }
 
+// Handle external module payload dispatch
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'dispatch_external_module') {
+    $blotter_id = (int)($_POST['blotter_id'] ?? 0);
+    $target_module = $_POST['target_module'] ?? 'all';
+
+    if ($blotter_id > 0) {
+        try {
+            $stmtB = $pdo->prepare("SELECT * FROM blotters WHERE id = ?");
+            $stmtB->execute([$blotter_id]);
+            $b = $stmtB->fetch(PDO::FETCH_ASSOC);
+
+            if ($b) {
+                require_once '../modules/OperationalModuleIntegrator.php';
+                $integrator = new OperationalModuleIntegrator($pdo);
+
+                $payload = [
+                    'source' => 'blotter_management',
+                    'incident_id' => $b['blotter_no'] ?? ('BLOTTER-' . $b['id']),
+                    'location' => $b['incident_location'] ?? $b['location'] ?? 'Barangay Central, Quezon City',
+                    'description' => $b['incident_narrative'] ?? $b['incident_type'] ?? 'Law Enforcement Blotter Record',
+                    'emergency_level' => $b['priority'] ?? 'High',
+                    'complainant_name' => $b['complainant_name'] ?? 'Complainant',
+                    'timestamp' => $b['created_at'] ?? date('Y-m-d H:i:s')
+                ];
+
+                $processed = $integrator->processInbound($payload, false);
+                $modPayloads = $processed['module_specific_payloads'];
+
+                if ($target_module === 'cctv') {
+                    $res = $integrator->dispatchToPartnerCctvApi($modPayloads['cctv_partner_surveillance_api']);
+                    $msgText = "Dispatched CCTV query to Partner API (" . htmlspecialchars($res['endpoint']) . ")";
+                } elseif ($target_module === 'inspection') {
+                    $res = $integrator->dispatchToGroup7InspectionApi($modPayloads['group_7_inspection_scheduling']);
+                    $msgText = "Dispatched case referral to Group 7 Inspection API (" . htmlspecialchars($res['endpoint']) . ")";
+                } elseif ($target_module === 'crimemap') {
+                    $res = $integrator->dispatchToGroup5CrimeMapApi($modPayloads['group_5_crime_mapping']);
+                    $msgText = "Synced spatial data to Group 5 Crime Mapping API (" . htmlspecialchars($res['endpoint']) . ")";
+                } elseif ($target_module === 'resource') {
+                    $res = $integrator->dispatchToGroup3ResourceApi($modPayloads['group_3_resource_allocation']);
+                    $msgText = "Dispatched unit request to Group 3 Resource Dispatch API (" . htmlspecialchars($res['endpoint']) . ")";
+                } else {
+                    $allRes = $integrator->dispatchToAllConnectedModules($modPayloads);
+                    $msgText = "Dispatched blotter payload to ALL 4 connected external modules!";
+                }
+
+                $_SESSION['flash'] = ['type' => 'success', 'message' => "🚀 {$msgText} for Blotter #{$b['blotter_no']}!"];
+            }
+        } catch (Exception $e) {
+            $_SESSION['flash'] = ['type' => 'danger', 'message' => 'Error dispatching payload: ' . $e->getMessage()];
+        }
+    }
+    header("Location: blotters.php");
+    exit;
+}
+
 // Handle status update from admin
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'update_status') {
     $blotter_id = (int)($_POST['blotter_id'] ?? 0);
@@ -295,9 +350,59 @@ try {
                                     <button class="btn btn-sm btn-outline-primary" onclick="printBlotter(<?= (int)$b['id'] ?>, '<?= htmlspecialchars($b['blotter_no']) ?>')" title="Print Blotter">
                                         <i class="bi bi-printer"></i> Print
                                     </button>
-                                    <a href="Summons.php?blotter_id=<?= (int)$b['id'] ?>" class="btn btn-sm btn-outline-dark" title="Create summons from this blotter">
+                                    <a href="Summons.php?blotter_id=<?= (int)$b['id'] ?>" class="btn btn-sm btn-outline-dark me-1" title="Create summons from this blotter">
                                         <i class="bi bi-file-earmark-text"></i> Summons
                                     </a>
+
+                                    <div class="dropdown d-inline-block">
+                                        <button class="btn btn-sm btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" title="External Module Integration Dispatch">
+                                            <i class="fas fa-network-wired me-1"></i>Integrations
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end shadow">
+                                            <li><h6 class="dropdown-header">Dispatch to External Module</h6></li>
+                                            <li>
+                                                <form method="POST" class="d-inline">
+                                                    <input type="hidden" name="action" value="dispatch_external_module">
+                                                    <input type="hidden" name="blotter_id" value="<?= (int)$b['id'] ?>">
+                                                    <input type="hidden" name="target_module" value="cctv">
+                                                    <button type="submit" class="dropdown-item py-1"><i class="fas fa-video text-success me-2"></i>Request CCTV Footage</button>
+                                                </form>
+                                            </li>
+                                            <li>
+                                                <form method="POST" class="d-inline">
+                                                    <input type="hidden" name="action" value="dispatch_external_module">
+                                                    <input type="hidden" name="blotter_id" value="<?= (int)$b['id'] ?>">
+                                                    <input type="hidden" name="target_module" value="inspection">
+                                                    <button type="submit" class="dropdown-item py-1"><i class="fas fa-calendar-check text-primary me-2"></i>Send to Group 7 Inspection</button>
+                                                </form>
+                                            </li>
+                                            <li>
+                                                <form method="POST" class="d-inline">
+                                                    <input type="hidden" name="action" value="dispatch_external_module">
+                                                    <input type="hidden" name="blotter_id" value="<?= (int)$b['id'] ?>">
+                                                    <input type="hidden" name="target_module" value="crimemap">
+                                                    <button type="submit" class="dropdown-item py-1"><i class="fas fa-map-marked-alt text-info me-2"></i>Sync to Group 5 Crime Map</button>
+                                                </form>
+                                            </li>
+                                            <li>
+                                                <form method="POST" class="d-inline">
+                                                    <input type="hidden" name="action" value="dispatch_external_module">
+                                                    <input type="hidden" name="blotter_id" value="<?= (int)$b['id'] ?>">
+                                                    <input type="hidden" name="target_module" value="resource">
+                                                    <button type="submit" class="dropdown-item py-1"><i class="fas fa-ambulance text-warning me-2"></i>Dispatch Group 3 EMS/Police</button>
+                                                </form>
+                                            </li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li>
+                                                <form method="POST" class="d-inline">
+                                                    <input type="hidden" name="action" value="dispatch_external_module">
+                                                    <input type="hidden" name="blotter_id" value="<?= (int)$b['id'] ?>">
+                                                    <input type="hidden" name="target_module" value="all">
+                                                    <button type="submit" class="dropdown-item py-1 fw-bold text-success"><i class="fas fa-paper-plane me-2"></i>Dispatch ALL 4 Modules</button>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </td>
                             </tr>
                             <?php endforeach; ?>

@@ -118,14 +118,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 $integrationSettings = getAllIntegrationSettings();
 
-// Fetch recent integration logs
+// Fetch recent integration logs & received records
 $logs = [];
+$receivedFootage = [];
+$receivedTips = [];
+
 try {
     $stmt = $pdo->query("SELECT * FROM external_integration_log ORDER BY id DESC LIMIT 20");
     $logs = $stmt->fetchAll(PDO::FETCH_ASSOC);
-} catch (Exception $e) {
-    $logs = [];
-}
+} catch (Exception $e) { $logs = []; }
+
+try {
+    $stmtF = $pdo->query("SELECT * FROM cctv_footage_received ORDER BY id DESC LIMIT 15");
+    $receivedFootage = $stmtF->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) { $receivedFootage = []; }
+
+try {
+    $stmtT = $pdo->query("SELECT * FROM received_resolved_tips ORDER BY id DESC LIMIT 15");
+    $receivedTips = $stmtT->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) { $receivedTips = []; }
 ?>
 
 <div class="main-content">
@@ -423,6 +434,87 @@ try {
                                 <p class="small">Use the form on the left to simulate inbound data from Group 3 or Group 4 modules.</p>
                             </div>
                         <?php endif; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Received Partner Data Records (Inbound CCTV Footage & Resolved Tips) -->
+        <div class="row g-3 mb-4">
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-success">
+                    <div class="card-header bg-success text-white fw-bold d-flex justify-content-between align-items-center">
+                        <span><i class="fas fa-video me-2"></i>Received CCTV Footage (`cctv_footage_received`)</span>
+                        <span class="badge bg-white text-success"><?= count($receivedFootage) ?> record(s)</span>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive" style="max-height: 300px;">
+                            <table class="table table-sm table-hover align-middle mb-0" style="font-size: 0.82rem;">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>REQ ID</th>
+                                        <th>LOCATION / CAM</th>
+                                        <th>FOOTAGE LINK</th>
+                                        <th>RECEIVED</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php if (!empty($receivedFootage)): ?>
+                                        <?php foreach ($receivedFootage as $rf): ?>
+                                            <tr>
+                                                <td class="fw-bold"><?= htmlspecialchars($rf['request_id'] ?: 'N/A') ?></td>
+                                                <td><?= htmlspecialchars(($rf['location'] ?: '') . ' (' . ($rf['camera_id'] ?: 'CAM') . ')') ?></td>
+                                                <td>
+                                                    <a href="<?= htmlspecialchars($rf['cctv_url']) ?>" target="_blank" class="btn btn-xs btn-outline-success py-0 px-2">
+                                                        <i class="fas fa-play me-1"></i>View Video
+                                                    </a>
+                                                </td>
+                                                <td><?= date('M d H:i', strtotime($rf['received_at'])) ?></td>
+                                            </tr>
+                                        <?php endforeach; ?>
+                                    <?php else: ?>
+                                        <tr><td colspan="4" class="text-center text-muted py-3">No CCTV footage received yet.</td></tr>
+                                    <?php endif; ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-info">
+                    <div class="card-header bg-info text-dark fw-bold d-flex justify-content-between align-items-center">
+                        <span><i class="fas fa-lightbulb me-2"></i>Received Resolved Tips (`received_resolved_tips`)</span>
+                        <span class="badge bg-dark text-white"><?= count($receivedTips) ?> record(s)</span>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive" style="max-height: 300px;">
+                            <table class="table table-sm table-hover align-middle mb-0" style="font-size: 0.82rem;">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>TIP ID</th>
+                                        <th>TITLE / TYPE</th>
+                                        <th>RESOLVED BY</th>
+                                        <th>LOGGED</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php if (!empty($receivedTips)): ?>
+                                        <?php foreach ($receivedTips as $rt): ?>
+                                            <tr>
+                                                <td class="fw-bold"><?= htmlspecialchars($rt['tip_id'] ?: 'N/A') ?></td>
+                                                <td><?= htmlspecialchars($rt['title'] ?: $rt['incident_type']) ?></td>
+                                                <td><?= htmlspecialchars($rt['resolved_by'] ?: 'Partner Operator') ?></td>
+                                                <td><?= date('M d H:i', strtotime($rt['created_at'])) ?></td>
+                                            </tr>
+                                        <?php endforeach; ?>
+                                    <?php else: ?>
+                                        <tr><td colspan="4" class="text-center text-muted py-3">No resolved tips received yet.</td></tr>
+                                    <?php endif; ?>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -221,11 +221,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_incident'])) {
                 handleFileUpload('incident', $incident_id, $created_by);
             }
             
+            try {
+                require_once __DIR__ . '/OperationalModuleIntegrator.php';
+                $integrator = new OperationalModuleIntegrator($pdo);
+                $autoIntegrateRes = $integrator->processInbound([
+                    'source' => 'incident_module',
+                    'incident_id' => $case_no,
+                    'location' => $location,
+                    'description' => $narrative,
+                    'emergency_level' => (in_array($incident_type, ['Violence', 'Assault', 'Theft']) || !empty($workflow_result['urgency_score']) && $workflow_result['urgency_score'] > 70) ? 'High' : 'Medium',
+                    'complainant_name' => $reporter_name,
+                    'timestamp' => ($incident_date ?: date('Y-m-d')) . ' ' . ($incident_time ?: date('H:i:s'))
+                ], true);
+            } catch (Exception $ex) {
+                error_log("OperationalModuleIntegrator notice: " . $ex->getMessage());
+            }
+
             $_SESSION['message'] = [
                 'type' => 'success',
                 'text' => "🎉 Incident report submitted successfully!<br>
                           Case #: <strong>{$case_no}</strong><br>
-                          <small>System has automatically classified and processed your report through AI analysis.</small>"
+                          <small>System has automatically classified and formatted data for connected integration modules (Group 3, Group 5, Group 7, and CCTV Partner API).</small>"
             ];
         } else {
             throw new Exception($workflow_result['error'] ?? 'Failed to process incident');

@@ -17,7 +17,38 @@ $submitted = false;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $form_action = $_POST['action'] ?? 'create_request';
 
-    if ($form_action === 'update_status') {
+    if ($form_action === 'dispatch_record_cctv') {
+        $req_id = (int)($_POST['request_id'] ?? 0);
+        if ($req_id > 0) {
+            try {
+                $stmt_r = $pdo->prepare("SELECT * FROM cctv_requests WHERE id = ?");
+                $stmt_r->execute([$req_id]);
+                $rec = $stmt_r->fetch(PDO::FETCH_ASSOC);
+                if ($rec) {
+                    require_once __DIR__ . '/OperationalModuleIntegrator.php';
+                    $integrator = new OperationalModuleIntegrator($pdo);
+                    $res = $integrator->dispatchToPartnerCctvApi([
+                        'request_id' => 'REQ-CCTV-' . str_pad($rec['id'], 3, '0', STR_PAD_LEFT),
+                        'incident_id' => 'INC-CCTV-' . $rec['id'],
+                        'location' => $rec['camera_location'] ?: 'Unspecified Location',
+                        'timestamp_range' => [
+                            'start_time' => ($rec['incident_date'] ?: date('Y-m-d')) . ' ' . ($rec['incident_time'] ?: date('H:i:s')),
+                            'end_time' => date('Y-m-d H:i:s')
+                        ],
+                        'reason' => $rec['reason'],
+                        'monitoring_office' => $rec['monitoring_office'],
+                        'delivery_method' => $rec['delivery_method'],
+                        'notes' => $rec['monitoring_notes']
+                    ]);
+                    $message = "Dispatched Request #REQ-" . str_pad($rec['id'], 3, '0', STR_PAD_LEFT) . " to Partner Surveillance API (" . htmlspecialchars($res['endpoint']) . "). Result: " . ($res['success'] ? 'Success (200 OK)' : 'Target Endpoint Saved');
+                    $message_type = $res['success'] ? 'success' : 'info';
+                }
+            } catch (Exception $e) {
+                $message = "Could not dispatch request: " . htmlspecialchars($e->getMessage());
+                $message_type = "danger";
+            }
+        }
+    } elseif ($form_action === 'update_status') {
         $req_id = (int)($_POST['request_id'] ?? 0);
         $status_val = trim($_POST['status'] ?? 'Pending');
         $camera_val = trim($_POST['camera_location'] ?? '');
@@ -103,8 +134,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     ':delivery_method' => $delivery_method !== '' ? $delivery_method : null,
                     ':monitoring_notes' => $monitoring_notes !== '' ? $monitoring_notes : null,
                 ]);
+                $newRequestId = $pdo->lastInsertId();
 
-                $message = 'CCTV request has been recorded successfully.';
+                require_once __DIR__ . '/OperationalModuleIntegrator.php';
+                $integrator = new OperationalModuleIntegrator($pdo);
+                $cctvDispatch = $integrator->dispatchToPartnerCctvApi([
+                    'request_id' => 'REQ-CCTV-' . str_pad($newRequestId, 3, '0', STR_PAD_LEFT),
+                    'incident_id' => 'INC-CCTV-' . $newRequestId,
+                    'location' => $camera_location ?: 'Unspecified Location',
+                    'timestamp_range' => [
+                        'start_time' => ($incident_date ?: date('Y-m-d')) . ' ' . ($incident_time ?: date('H:i:s')),
+                        'end_time' => date('Y-m-d H:i:s')
+                    ],
+                    'reason' => $reason,
+                    'media_type' => $request_type === 'Capture Photo' ? 'image/jpeg' : 'video/mp4',
+                    'action' => 'fetch_surveillance_feed'
+                ]);
+
+                $message = 'CCTV request recorded and dispatched to Partner Surveillance API (' . htmlspecialchars($cctvDispatch['endpoint']) . '). Status: ' . ($cctvDispatch['success'] ? 'HTTP 200 Sent' : 'Target Configured');
                 $message_type = 'success';
                 $submitted = true;
                 $_POST = [];
@@ -320,7 +367,7 @@ try {
                                                         data-review-notes="<?php echo htmlspecialchars($record['monitoring_notes'] ?: ''); ?>"
                                                         >View</button>
 
-                                                    <button type="button" class="btn btn-sm btn-warning btn-manage" 
+                                                    <button type="button" class="btn btn-sm btn-warning me-1 btn-manage" 
                                                         data-id="<?php echo (int)$record['id']; ?>"
                                                         data-status-val="<?php echo htmlspecialchars($record['status'] ?? 'Under Review'); ?>"
                                                         data-camera-val="<?php echo htmlspecialchars($record['camera_location'] ?: 'CAM-001'); ?>"
@@ -328,6 +375,14 @@ try {
                                                         data-end="<?php echo htmlspecialchars($record['incident_time'] ?: ''); ?>"
                                                         data-review-notes-val="<?php echo htmlspecialchars($record['monitoring_notes'] ?: ''); ?>"
                                                         >Manage</button>
+
+                                                    <form method="POST" class="d-inline" onsubmit="return confirm('Dispatch request #REQ-<?php echo str_pad((int)$record['id'], 3, '0', STR_PAD_LEFT); ?> directly to Partner CCTV API?');">
+                                                        <input type="hidden" name="action" value="dispatch_record_cctv">
+                                                        <input type="hidden" name="request_id" value="<?php echo (int)$record['id']; ?>">
+                                                        <button type="submit" class="btn btn-sm btn-primary" title="Dispatch CCTV request to partner API">
+                                                            <i class="fas fa-paper-plane me-1"></i>Dispatch API
+                                                        </button>
+                                                    </form>
                                                 </td>
                                             </tr>
                                         <?php endforeach; ?>
