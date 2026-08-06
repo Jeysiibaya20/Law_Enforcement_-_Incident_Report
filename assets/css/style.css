@@ -3006,3 +3006,149 @@ p {
     border-radius: 5px;
     border-left: 3px solid #007bff;
 }
+
+/* Sidebar Dropdown Accordion Styles - Premium & Polished */
+.sidebar-section-title {
+    font-family: 'Quicksand', 'Inter', system-ui, -apple-system, sans-serif !important;
+    font-size: 0.72rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+    color: #6a7f7d !important;
+    padding: 0.85rem 0.85rem 0.35rem !important;
+    margin: 0 !important;
+}
+
+.sidebar-menu,
+.sidebar-submenu {
+    list-style: none !important;
+    list-style-type: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.sidebar-menu-item,
+.sidebar-submenu-item {
+    list-style: none !important;
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Remove default bullet markers pseudo elements */
+.sidebar-submenu-item::before,
+.sidebar-submenu-item::after {
+    content: none !important;
+    display: none !important;
+}
+
+.sidebar-menu-item.has-dropdown {
+    position: relative !important;
+}
+
+.sidebar-dropdown-toggle {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    text-decoration: none !important;
+}
+
+.dropdown-arrow {
+    font-size: 0.75rem !important;
+    margin-left: auto !important;
+    transition: transform 0.25s ease !important;
+    opacity: 0.7 !important;
+}
+
+.sidebar-menu-item.has-dropdown.open .dropdown-arrow {
+    transform: rotate(180deg) !important;
+}
+
+.sidebar-link.active-parent {
+    background-color: rgba(76, 138, 137, 0.12) !important;
+    color: #1b5a56 !important;
+    font-weight: 600 !important;
+}
+
+/* Submenu container */
+.sidebar-submenu {
+    display: none;
+    flex-direction: column;
+    gap: 0.25rem !important;
+    padding: 0.35rem 0 0.35rem 0.85rem !important;
+    margin-left: 0.85rem !important;
+    border-left: 2px solid rgba(76, 138, 137, 0.2) !important;
+}
+
+.sidebar-submenu.show {
+    display: flex !important;
+}
+
+/* Submenu Link Styling - Clean, bullet-free, no underlines */
+aside.sidebar .sidebar-submenu-link,
+a.sidebar-submenu-link,
+.sidebar-submenu-link {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.65rem !important;
+    padding: 0.5rem 0.75rem !important;
+    color: #334155 !important;
+    text-decoration: none !important;
+    border-radius: 8px !important;
+    font-size: 0.85rem !important;
+    font-weight: 500 !important;
+    font-family: 'Quicksand', 'Inter', system-ui, -apple-system, sans-serif !important;
+    transition: all 0.2s ease !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+aside.sidebar .sidebar-submenu-link:focus,
+aside.sidebar .sidebar-submenu-link:hover,
+aside.sidebar .sidebar-submenu-link:visited,
+aside.sidebar .sidebar-submenu-link:active,
+a.sidebar-submenu-link:focus,
+a.sidebar-submenu-link:hover,
+a.sidebar-submenu-link:visited,
+a.sidebar-submenu-link:active {
+    text-decoration: none !important;
+}
+
+.sidebar-submenu-link .sidebar-subicon,
+.sidebar-submenu-link i {
+    font-size: 0.85rem !important;
+    width: 18px !important;
+    text-align: center !important;
+    color: #0284c7 !important;
+    transition: transform 0.2s ease, color 0.2s ease !important;
+}
+
+aside.sidebar .sidebar-submenu-link:hover,
+a.sidebar-submenu-link:hover {
+    background-color: #e6f4f2 !important;
+    color: #1b5a56 !important;
+    transform: translateX(3px) !important;
+    text-decoration: none !important;
+}
+
+aside.sidebar .sidebar-submenu-link:hover .sidebar-subicon,
+aside.sidebar .sidebar-submenu-link:hover i {
+    color: #1b5a56 !important;
+    transform: scale(1.1) !important;
+}
+
+aside.sidebar .sidebar-submenu-link.active,
+a.sidebar-submenu-link.active {
+    background-color: #4c8a89 !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    box-shadow: 0 2px 8px rgba(76, 138, 137, 0.35) !important;
+    text-decoration: none !important;
+}
+
+aside.sidebar .sidebar-submenu-link.active .sidebar-subicon,
+aside.sidebar .sidebar-submenu-link.active i {
+    color: #ffffff !important;
+}
