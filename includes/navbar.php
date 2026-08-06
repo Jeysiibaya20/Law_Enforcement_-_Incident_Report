@@ -127,6 +127,7 @@ function toggleAlertaraSidebar(e) {
             document.body.classList.toggle('sidebar-mobile-open');
         } else {
             sidebar.classList.toggle('collapsed');
+            sidebar.classList.remove('active', 'show');
             document.body.classList.toggle('sidebar-collapsed');
         }
     }

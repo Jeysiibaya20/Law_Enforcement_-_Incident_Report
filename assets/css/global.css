@@ -1143,6 +1143,11 @@ iframe[src*="assistant"],
         left: 280px;
         width: calc(100% - 280px);
     }
+
+    body.has-sidebar.sidebar-collapsed .admin-header {
+        left: 0 !important;
+        width: 100% !important;
+    }
 }
 
 body.has-sidebar {
@@ -1152,7 +1157,7 @@ body.has-sidebar {
 }
 
 body.has-sidebar.sidebar-collapsed {
-    padding-left: var(--sidebar-collapsed-width);
+    padding-left: 0 !important;
 }
 
 /* Header Left */
