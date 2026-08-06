@@ -184,6 +184,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $officer_id = null;
     }
 
+    // Convert Base64 signature data URL to PNG file if present
+    if (!empty($complainant_signature) && strpos($complainant_signature, 'data:image') === 0) {
+        try {
+            $sigDir = __DIR__ . '/../uploads/signatures/';
+            if (!is_dir($sigDir)) {
+                @mkdir($sigDir, 0777, true);
+            }
+            $parts = explode(',', $complainant_signature);
+            if (count($parts) > 1) {
+                $sigData = base64_decode($parts[1]);
+                if ($sigData !== false) {
+                    $sigFilename = 'sig_' . time() . '_' . rand(1000, 9999) . '.png';
+                    $sigPath = $sigDir . $sigFilename;
+                    if (@file_put_contents($sigPath, $sigData)) {
+                        $complainant_signature = 'uploads/signatures/' . $sigFilename;
+                    }
+                }
+            }
+        } catch (Exception $e) {
+            error_log('Error saving signature file: ' . $e->getMessage());
+        }
+    }
+
     // Validation
     if (empty($complainant)) {
         $error = 'Complainant name is required.';
@@ -195,6 +218,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = 'Incident date and time are required.';
     } else {
         try {
+            // Ensure complainant_signature column is LONGTEXT to prevent data truncation errors
+            try {
+                $pdo->exec("ALTER TABLE blotters MODIFY complainant_signature LONGTEXT NULL");
+            } catch (Exception $e) {}
+
             ensureBlotterTranslationColumns($pdo);
             $translation = (new DescriptionTranslationService($env ?? []))->translateToEnglish($description);
             $descriptionEnglish = $translation['translation'];
