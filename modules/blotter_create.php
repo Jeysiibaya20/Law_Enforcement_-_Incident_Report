@@ -247,7 +247,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             handleFileUpload('blotter', $blotter_id, $_SESSION['user_id'] ?? null);
             
             $_SESSION['flash'] = ['type' => 'success', 'message' => "Blotter #{$blotter_no} created successfully."];
-            header('Location: Blotter.php');
+            $isAdminUser = !empty($_SESSION['admin_user_id']) || (strtolower($_SESSION['role'] ?? '') === 'admin');
+            if ($isAdminUser) {
+                header('Location: Blotter.php');
+            } else {
+                header('Location: my_reports.php');
+            }
             exit;
         } catch (Exception $e) {
             $msg = $e->getMessage();
@@ -297,7 +302,11 @@ require '../includes/header.php';
         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     </div>
     <div class="mt-3">
-        <a href="Blotter.php" class="btn btn-primary">← Back to Blotter List</a>
+        <?php if (!empty($_SESSION['admin_user_id']) || (strtolower($_SESSION['role'] ?? '') === 'admin')): ?>
+            <a href="Blotter.php" class="btn btn-primary">← Back to Blotter List</a>
+        <?php else: ?>
+            <a href="my_reports.php" class="btn btn-primary"><i class="fas fa-home me-1"></i> Back to Dashboard</a>
+        <?php endif; ?>
     </div>
 <?php else: ?>
 
