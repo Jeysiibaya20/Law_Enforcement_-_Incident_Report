@@ -95,7 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Strictly enforce login isolation: block Admin/Officer/Official accounts on User login
         $userRole = strtolower(trim($user['role'] ?? 'user'));
         if (strpos($userRole, 'admin') !== false || strpos($userRole, 'officer') !== false || strpos($userRole, 'official') !== false) {
-            throw new Exception('Access Denied: Administrative and Officer accounts must sign in via the <a href="../admin/login.php" class="fw-bold text-decoration-underline">Admin Portal Login</a>.');
+            throw new Exception('Access Denied: Administrative and Officer accounts must sign in via the Admin Portal.');
         }
 
         // Login successful: create session and redirect to resident portal
@@ -139,9 +139,18 @@ require_once '../includes/header.php';
             <!-- Login Form -->
             <div class="login-form-container">
                 <?php if ($error_message): ?>
-                    <div class="login-alert">
-                        <i class="bi bi-exclamation-triangle"></i>
-                        <span><?php echo htmlspecialchars($error_message); ?></span>
+                    <div class="login-alert" style="flex-direction: column; align-items: flex-start; text-align: left;">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="bi bi-exclamation-triangle-fill"></i>
+                            <span><?php echo htmlspecialchars($error_message); ?></span>
+                        </div>
+                        <?php if (strpos($error_message, 'Admin Portal') !== false): ?>
+                            <div class="mt-2 text-center w-100">
+                                <a href="../admin/login.php" class="btn btn-sm btn-light text-danger fw-bold shadow-sm" style="font-size: 0.8rem; border-radius: 6px;">
+                                    <i class="bi bi-shield-lock me-1"></i> Go to Admin Portal Login
+                                </a>
+                            </div>
+                        <?php endif; ?>
                     </div>
                 <?php endif; ?>
                 

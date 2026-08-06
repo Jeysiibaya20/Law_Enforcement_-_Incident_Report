@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $isAdminRole = (strpos($userRole, 'admin') !== false || strpos($userRole, 'officer') !== false || strpos($userRole, 'official') !== false);
 
         if (!$isAdminRole) {
-            throw new Exception('Access Denied: Resident accounts cannot sign in through the Admin Portal. Please use the <a href="../auth/login.php" class="fw-bold text-decoration-underline">Resident Portal Sign In</a>.');
+            throw new Exception('Access Denied: Resident accounts cannot sign in through the Admin Portal.');
         }
 
         // Session setup for Admin
@@ -117,7 +117,17 @@ require_once __DIR__ . '/../includes/header.php';
         <div class="card-body p-4 p-md-5">
             <?php if (!empty($error_message)): ?>
                 <div class="alert alert-danger rounded-3 p-3 small mb-4">
-                    <i class="fas fa-exclamation-triangle me-2"></i><?php echo $error_message; ?>
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span><?php echo htmlspecialchars($error_message); ?></span>
+                    </div>
+                    <?php if (strpos($error_message, 'Resident accounts') !== false): ?>
+                        <div class="mt-2 text-center">
+                            <a href="../auth/login.php" class="btn btn-sm btn-light fw-bold text-dark text-decoration-none shadow-sm" style="font-size: 0.8rem;">
+                                <i class="fas fa-user me-1"></i> Go to Resident Sign In
+                            </a>
+                        </div>
+                    <?php endif; ?>
                 </div>
             <?php endif; ?>
 
