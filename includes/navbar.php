@@ -23,8 +23,11 @@ $avatar_url = !empty($_SESSION['user_picture'])
     ? $_SESSION['user_picture'] 
     : 'https://ui-avatars.com/api/?name=' . urlencode($full_name ?: 'User') . '&background=4c8a89&color=fff&size=128';
 
+$current_page = strtolower(basename($_SERVER['PHP_SELF']));
+$is_user_page = in_array($current_page, ['landing.php', 'index.php', 'my_reports.php', 'incident_report.php', 'request_form.php', 'crime_mapping.php', 'learning.php']) || !empty($force_public_sidebar);
+
 $login_href = $base_url . 'auth/login.php';
-$profile_href = $base_url . ($role === 'admin' ? 'admin/settings.php' : 'modules/my_reports.php');
+$profile_href = $base_url . ($is_user_page ? 'modules/my_reports.php' : ($role === 'admin' ? 'admin/settings.php' : 'modules/my_reports.php'));
 
 // Fetch real notifications from database
 $unread_count = 0;
