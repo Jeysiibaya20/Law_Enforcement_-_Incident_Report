@@ -1,6 +1,7 @@
 <?php
-$page_title = 'My Reports';
 $base_url = '../';
+require_once __DIR__ . '/../includes/user_auth.php';
+$page_title = 'My Reports';
 require_once __DIR__ . '/../config/db_connect.php';
 if (!isset($pdo) || !($pdo instanceof PDO)) {
     $pdo = getDBConnection();

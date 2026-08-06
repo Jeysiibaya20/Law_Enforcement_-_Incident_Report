@@ -248,12 +248,6 @@ $show_admin_menu = ($is_admin || $is_officer) && !$is_user_page;
                             </a>
                         </li>
                         <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>modules/crime_mapping.php" class="sidebar-link sidebar-accent-weather <?php echo $current_page === 'crime_mapping.php' ? 'active' : ''; ?>">
-                                <i class="fas fa-map-marked-alt sidebar-icon" aria-hidden="true"></i>
-                                <span>Crime Mapping</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
                             <a href="<?php echo $base_url; ?>modules/learning.php" class="sidebar-link sidebar-accent-language <?php echo $current_page === 'learning.php' ? 'active' : ''; ?>">
                                 <i class="fas fa-book-open sidebar-icon" aria-hidden="true"></i>
                                 <span>Awareness & Guide</span>

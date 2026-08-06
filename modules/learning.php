@@ -1,6 +1,7 @@
 <?php
-$page_title = 'Learning & Awareness Guide';
 $base_url = '../';
+require_once __DIR__ . '/../includes/user_auth.php';
+$page_title = 'Learning & Awareness Guide';
 
 if (session_status() === PHP_SESSION_NONE) {
     session_start();

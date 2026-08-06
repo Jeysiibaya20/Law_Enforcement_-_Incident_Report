@@ -1,6 +1,7 @@
 <?php
-$page_title = 'Resident Portal - Alertara';
 $base_url = '';
+require_once "includes/user_auth.php";
+$page_title = 'Resident Portal - Alertara';
 $force_public_sidebar = true;
 
 require_once "includes/header.php";

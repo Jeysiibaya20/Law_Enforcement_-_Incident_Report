@@ -1,6 +1,7 @@
 <?php
-$page_title = 'Incident Logging & Classification';
 $base_url = '../';
+require_once __DIR__ . '/../includes/user_auth.php';
+$page_title = 'Incident Logging & Classification';
 
 // Start session
 if (session_status() == PHP_SESSION_NONE) {

@@ -1,5 +1,6 @@
 <?php
-session_start();
+$base_url = '../';
+require_once __DIR__ . '/../includes/user_auth.php';
 require_once '../config/db_connect.php';
 require_once '../config/LanguageManager.php';
 

@@ -1,5 +1,7 @@
 <?php
 session_start();
+header('Location: my_reports.php');
+exit();
 require_once __DIR__ . '/../config/db_connect.php';
 require_once __DIR__ . '/../includes/attachment_manager.php';
 require_once __DIR__ . '/CrimeMappingManager.php';
