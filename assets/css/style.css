@@ -3161,6 +3161,8 @@ aside.sidebar .sidebar-submenu-link.active i {
         left: 0 !important;
         height: 100vh !important;
         width: 280px !important;
+        background: #ffffff !important;
+        background-color: #ffffff !important;
         z-index: 1060 !important;
         transform: translateX(-100%) !important;
         transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;

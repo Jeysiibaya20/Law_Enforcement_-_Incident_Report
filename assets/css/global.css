@@ -1529,13 +1529,21 @@ body.has-sidebar.sidebar-collapsed {
     left: 0;
     width: var(--sidebar-width);
     height: 100vh;
-    background-color: var(--sidebar-surface);
-    border-right: 1px solid var(--sidebar-border);
-    z-index: 1010;
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    border-right: 1px solid #e2e8f0 !important;
+    z-index: 1060;
     display: flex;
     flex-direction: column;
     transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    color: var(--sidebar-text);
+    color: #1e293b;
+    box-shadow: 4px 0 25px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-header,
+.sidebar-content,
+.sidebar-footer {
+    background-color: #ffffff !important;
 }
 
 .sidebar-header {
