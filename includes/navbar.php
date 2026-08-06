@@ -169,18 +169,16 @@ function toggleAlertaraSidebar(e) {
 
             <!-- Real Notification Dropdown -->
             <div class="notification-dropdown-wrap position-relative ms-1">
-                <button class="header-action-btn" id="notificationBtn" aria-label="Notifications" title="Real Notifications">
+                <button class="header-action-btn" id="notificationBtn" onclick="toggleNotificationDropdown(event)" aria-label="Notifications" title="Real Notifications" style="cursor: pointer; position: relative;">
                     <i class="fas fa-bell"></i>
-                    <?php if ($unread_count > 0): ?>
-                        <span class="notification-badge-count"><?php echo $unread_count; ?></span>
-                    <?php endif; ?>
+                    <span class="notification-badge-count" id="notificationBadgeCount" style="<?php echo $unread_count > 0 ? '' : 'display: none;'; ?>"><?php echo $unread_count; ?></span>
                 </button>
-                <div class="notification-dropdown-menu" id="notificationDropdown">
+                <div class="notification-dropdown-menu" id="notificationDropdown" style="z-index: 1060;">
                     <div class="notification-header">
                         <h6><i class="fas fa-bell me-2"></i>Notifications</h6>
-                        <span class="badge bg-danger rounded-pill"><?php echo $unread_count; ?> New</span>
+                        <span class="badge bg-danger rounded-pill" id="notificationHeaderBadge"><?php echo $unread_count; ?> New</span>
                     </div>
-                    <div class="notification-body">
+                    <div class="notification-body" id="notificationListBody">
                         <?php if (!empty($notifications)): ?>
                             <?php foreach ($notifications as $n): ?>
                                 <a href="<?php echo $n['link']; ?>" class="notification-item">
@@ -210,6 +208,83 @@ function toggleAlertaraSidebar(e) {
                     </div>
                 </div>
             </div>
+
+            <script>
+            function toggleNotificationDropdown(e) {
+                if (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                }
+                var notifDropdown = document.getElementById('notificationDropdown');
+                if (notifDropdown) {
+                    notifDropdown.classList.toggle('active');
+                }
+            }
+
+            document.addEventListener('click', function(e) {
+                var notifDropdown = document.getElementById('notificationDropdown');
+                var notifBtn = document.getElementById('notificationBtn');
+                if (notifDropdown && notifBtn && !notifDropdown.contains(e.target) && !notifBtn.contains(e.target)) {
+                    notifDropdown.classList.remove('active');
+                }
+            });
+
+            // Real-time AJAX notification poller
+            function fetchRealtimeNotifications() {
+                var apiUrl = '<?php echo $base_url; ?>api/get_notifications.php';
+                fetch(apiUrl)
+                    .then(function(res) { return res.json(); })
+                    .then(function(data) {
+                        if (!data || !data.success) return;
+
+                        var badgeCountEl = document.getElementById('notificationBadgeCount');
+                        var headerBadgeEl = document.getElementById('notificationHeaderBadge');
+                        var bodyEl = document.getElementById('notificationListBody');
+
+                        if (badgeCountEl) {
+                            if (data.unread_count > 0) {
+                                badgeCountEl.textContent = data.unread_count;
+                                badgeCountEl.style.display = 'inline-block';
+                            } else {
+                                badgeCountEl.style.display = 'none';
+                            }
+                        }
+
+                        if (headerBadgeEl) {
+                            headerBadgeEl.textContent = data.unread_count + ' New';
+                        }
+
+                        if (bodyEl && Array.isArray(data.notifications)) {
+                            if (data.notifications.length > 0) {
+                                var html = '';
+                                data.notifications.forEach(function(n) {
+                                    var iconClass = n.type === 'blotter' ? 'icon-blotter' : (n.type === 'report' ? 'icon-report' : 'icon-user');
+                                    var iconFa = n.type === 'blotter' ? 'fa-clipboard-list' : (n.type === 'report' ? 'fa-file-alt' : 'fa-user-clock');
+                                    html += '<a href="' + n.link + '" class="notification-item">' +
+                                                '<div class="notification-icon ' + iconClass + '">' +
+                                                    '<i class="fas ' + iconFa + '"></i>' +
+                                                '</div>' +
+                                                '<div class="notification-content">' +
+                                                    '<strong class="notification-title">' + n.title + '</strong>' +
+                                                    '<span class="notification-desc">' + n.desc + '</span>' +
+                                                    '<small class="notification-time">' + n.time + '</small>' +
+                                                '</div>' +
+                                            '</a>';
+                                });
+                                bodyEl.innerHTML = html;
+                            } else {
+                                bodyEl.innerHTML = '<div class="text-center py-4 text-muted small"><i class="fas fa-check-circle fa-2x mb-2 text-success opacity-50"></i><div>No new notifications</div></div>';
+                            }
+                        }
+                    })
+                    .catch(function(err) {
+                        console.log('Realtime notification poller exception:', err);
+                    });
+            }
+
+            // Poll every 10 seconds for real-time updates
+            setInterval(fetchRealtimeNotifications, 10000);
+            </script>
 
             <!-- Language Toggle Button -->
             <button class="header-action-btn" id="headerLanguageBtn" aria-label="Language Selector" title="Switch Language">

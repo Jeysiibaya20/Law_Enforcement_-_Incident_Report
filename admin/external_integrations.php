@@ -154,6 +154,15 @@ try {
 try {
     $stmtC = $pdo->query("SELECT * FROM received_campaigns ORDER BY id DESC LIMIT 15");
     $receivedCampaigns = $stmtC->fetchAll(PDO::FETCH_ASSOC);
+
+    if (empty($receivedCampaigns)) {
+        // Auto sync live campaigns from campaign.alertaraqc.com on page load
+        $cRes = $integrator->fetchPublicCampaigns();
+        if (!empty($cRes['success'])) {
+            $stmtC = $pdo->query("SELECT * FROM received_campaigns ORDER BY id DESC LIMIT 15");
+            $receivedCampaigns = $stmtC->fetchAll(PDO::FETCH_ASSOC);
+        }
+    }
 } catch (Exception $e) { $receivedCampaigns = []; }
 ?>
 
@@ -552,7 +561,7 @@ try {
                 <span><i class="fas fa-bullhorn me-2"></i>Live Public Safety Campaigns (`campaign.alertaraqc.com`)</span>
                 <form method="POST" class="d-inline mb-0">
                     <input type="hidden" name="action" value="fetch_campaigns">
-                    <button type="submit" class="btn btn-sm btn-dark fw-bold">
+                    <button type="submit" class="btn btn-sm btn-dark text-warning border-dark fw-bold px-3">
                         <i class="fas fa-sync-alt me-1"></i>Fetch Live Campaigns
                     </button>
                 </form>
