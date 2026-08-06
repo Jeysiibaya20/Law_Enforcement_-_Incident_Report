@@ -159,23 +159,34 @@ function getSuspectById($suspect_id) {
 }
 
 /**
- * Get all suspects for a case
+ * Get all suspects for a case (or all suspects if case_id is null/empty)
  */
-function getSuspectsByCase($case_id) {
+function getSuspectsByCase($case_id = null) {
     global $pdo;
     
     try {
-        $stmt = $pdo->prepare("
-            SELECT s.*, 
-                   u.username as created_by_name,
-                   u2.username as updated_by_name
-            FROM suspects s
-            LEFT JOIN users u ON s.created_by = u.user_id
-            LEFT JOIN users u2 ON s.updated_by = u2.user_id
-            WHERE s.case_id = ? AND s.deleted_at IS NULL
-            ORDER BY s.created_at DESC
-        ");
-        $stmt->execute([$case_id]);
+        if (!empty($case_id)) {
+            $stmt = $pdo->prepare("
+                SELECT s.*, 
+                       COALESCE(s2.fullname, s2.emailadd, u.username, 'Admin') as created_by_name
+                FROM suspects s
+                LEFT JOIN signup s2 ON s.created_by = s2.user_id
+                LEFT JOIN users u ON s.created_by = u.user_id
+                WHERE s.case_id = ? AND s.deleted_at IS NULL
+                ORDER BY s.created_at DESC
+            ");
+            $stmt->execute([$case_id]);
+        } else {
+            $stmt = $pdo->query("
+                SELECT s.*, 
+                       COALESCE(s2.fullname, s2.emailadd, u.username, 'Admin') as created_by_name
+                FROM suspects s
+                LEFT JOIN signup s2 ON s.created_by = s2.user_id
+                LEFT JOIN users u ON s.created_by = u.user_id
+                WHERE s.deleted_at IS NULL
+                ORDER BY s.created_at DESC
+            ");
+        }
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     } catch (PDOException $e) {
         error_log("Error getting suspects for case: " . $e->getMessage());
@@ -184,23 +195,34 @@ function getSuspectsByCase($case_id) {
 }
 
 /**
- * Get deleted (soft-deleted) suspects for a case
+ * Get deleted (soft-deleted) suspects for a case (or all deleted suspects if case_id is null/empty)
  */
-function getDeletedSuspectsByCase($case_id) {
+function getDeletedSuspectsByCase($case_id = null) {
     global $pdo;
     
     try {
-        $stmt = $pdo->prepare("
-            SELECT s.*, 
-                   u.username as created_by_name,
-                   u2.username as updated_by_name
-            FROM suspects s
-            LEFT JOIN users u ON s.created_by = u.user_id
-            LEFT JOIN users u2 ON s.updated_by = u2.user_id
-            WHERE s.case_id = ? AND s.deleted_at IS NOT NULL
-            ORDER BY s.deleted_at DESC
-        ");
-        $stmt->execute([$case_id]);
+        if (!empty($case_id)) {
+            $stmt = $pdo->prepare("
+                SELECT s.*, 
+                       COALESCE(s2.fullname, s2.emailadd, u.username, 'Admin') as created_by_name
+                FROM suspects s
+                LEFT JOIN signup s2 ON s.created_by = s2.user_id
+                LEFT JOIN users u ON s.created_by = u.user_id
+                WHERE s.case_id = ? AND s.deleted_at IS NOT NULL
+                ORDER BY s.deleted_at DESC
+            ");
+            $stmt->execute([$case_id]);
+        } else {
+            $stmt = $pdo->query("
+                SELECT s.*, 
+                       COALESCE(s2.fullname, s2.emailadd, u.username, 'Admin') as created_by_name
+                FROM suspects s
+                LEFT JOIN signup s2 ON s.created_by = s2.user_id
+                LEFT JOIN users u ON s.created_by = u.user_id
+                WHERE s.deleted_at IS NOT NULL
+                ORDER BY s.deleted_at DESC
+            ");
+        }
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     } catch (PDOException $e) {
         error_log("Error getting deleted suspects for case: " . $e->getMessage());

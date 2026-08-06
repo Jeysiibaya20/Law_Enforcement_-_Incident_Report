@@ -13,66 +13,58 @@ if (!isset($pdo) || !($pdo instanceof PDO)) {
 require_once dirname(__DIR__) . '/includes/case_management.php';
 require_once dirname(__DIR__) . '/includes/suspect_witness_management.php';
 
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-
-// Safely read session role and user id to avoid undefined index warnings
-$userId = $_SESSION['user_id'] ?? null;
-$role = strtolower($_SESSION['role'] ?? '');
-
-if (!$userId) {
-    http_response_code(403);
-    echo "Access Denied";
-    exit;
-}
-
-// Allow access if session role is admin, otherwise fallback to DB check
-if ($role !== 'admin') {
-    try {
-        $rstmt = $pdo->prepare("SELECT role FROM signup WHERE user_id = ? LIMIT 1");
-        $rstmt->execute([$userId]);
-        $rrow = $rstmt->fetch(PDO::FETCH_ASSOC);
-        if (!($rrow && strtolower($rrow['role'] ?? '') === 'admin')) {
-            http_response_code(403);
-            echo "Access Denied";
-            exit;
-        }
-    } catch (Exception $e) {
-        http_response_code(403);
-        echo "Access Denied";
-        exit;
-    }
-}
+// Admin authentication is handled by require_once 'admin_auth.php'; above.
+$userId = $_SESSION['admin_user_id'] ?? $_SESSION['user_id'] ?? 1;
 
 $case_id = $_GET['case_id'] ?? $_POST['case_id'] ?? null;
 $edit_id = $_GET['edit'] ?? null;
+
 $cases = [];
 try {
+    // Try case_assignments table first
     $stmt = $pdo->query("SELECT id, case_number, incident_type, complainant_name FROM case_assignments ORDER BY created_at DESC");
     $cases = $stmt->fetchAll(PDO::FETCH_ASSOC);
-} catch (PDOException $e) {
-    error_log("Error fetching cases for suspect management: " . $e->getMessage());
+} catch (PDOException $e) {}
+
+if (empty($cases)) {
+    try {
+        // Fallback to blotters table
+        $stmt = $pdo->query("SELECT id, blotter_no AS case_number, incident_type, complainant_name FROM blotters ORDER BY created_at DESC");
+        $cases = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } catch (PDOException $e) {}
 }
 
-if ($case_id) {
-    // Get case details
+if (empty($cases)) {
     try {
-        $stmt = $pdo->prepare("SELECT * FROM case_assignments WHERE id = ?");
+        // Fallback to incidents table
+        $stmt = $pdo->query("SELECT id, case_no AS case_number, incident_type, reporter_name AS complainant_name FROM incidents ORDER BY created_at DESC");
+        $cases = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } catch (PDOException $e) {}
+}
+
+$case = null;
+if ($case_id) {
+    try {
+        $stmt = $pdo->prepare("SELECT id, case_number, incident_type, complainant_name FROM case_assignments WHERE id = ?");
         $stmt->execute([$case_id]);
         $case = $stmt->fetch(PDO::FETCH_ASSOC);
-        if (!$case) {
-            http_response_code(404);
-            echo "Case not found";
-            exit;
-        }
-    } catch (PDOException $e) {
-        http_response_code(500);
-        echo "Error: " . $e->getMessage();
-        exit;
+    } catch (PDOException $e) {}
+
+    if (!$case) {
+        try {
+            $stmt = $pdo->prepare("SELECT id, blotter_no AS case_number, incident_type, complainant_name FROM blotters WHERE id = ?");
+            $stmt->execute([$case_id]);
+            $case = $stmt->fetch(PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {}
     }
-} else {
-    $case = null;
+
+    if (!$case) {
+        try {
+            $stmt = $pdo->prepare("SELECT id, case_no AS case_number, incident_type, reporter_name AS complainant_name FROM incidents WHERE id = ?");
+            $stmt->execute([$case_id]);
+            $case = $stmt->fetch(PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {}
+    }
 }
 
 $message = '';
