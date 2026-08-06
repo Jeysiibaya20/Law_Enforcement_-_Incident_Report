@@ -5,7 +5,7 @@
  * Interactive dashboard showing incident analytics, trends, and decision-making insights
  */
 
-session_start();
+require_once 'admin_auth.php';
 $base_url = '../';
 $page_title = 'Analytics Dashboard';
 $body_class = 'analytics-page';

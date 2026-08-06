@@ -4,6 +4,8 @@
  * Allows admin to add, view, and update suspect information for cases
  */
 
+require_once 'admin_auth.php';
+
 require_once dirname(__DIR__) . '/config/db_connect.php';
 if (!isset($pdo) || !($pdo instanceof PDO)) {
     $pdo = getDBConnection();

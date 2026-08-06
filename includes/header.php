@@ -37,6 +37,11 @@ if (file_exists($lang_manager_file)) {
     
     <title><?php echo isset($page_title) ? htmlspecialchars($page_title) . ' - ' : ''; ?>Alertara Incident System</title>
     
+    <!-- Website Favicon & App Icons -->
+    <link rel="icon" type="image/svg+xml" href="<?php echo $base_url; ?>assets/images/logo.svg">
+    <link rel="shortcut icon" type="image/svg+xml" href="<?php echo $base_url; ?>assets/images/logo.svg">
+    <link rel="apple-touch-icon" href="<?php echo $base_url; ?>assets/images/logo.svg">
+    
     <!-- Instant Theme Loader (Prevents FOUC) -->
     <script>
         (function() {

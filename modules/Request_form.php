@@ -1,32 +1,15 @@
-﻿<?php
+<?php
 session_start();
 require_once '../config/db_connect.php';
 require_once '../config/LanguageManager.php';
 
-// Only allow authenticated admin users to submit CCTV requests
+// Allow authenticated users to submit request forms
 if (!isset($_SESSION['user_id'])) {
     header('Location: ../auth/login.php');
     exit();
 }
 
-$roleCheck = $pdo->prepare("SELECT role FROM signup WHERE user_id = ?");
-$roleCheck->execute([$_SESSION['user_id']]);
-$userRole = $roleCheck->fetch(PDO::FETCH_ASSOC);
-
-$sessionRole = strtolower($_SESSION['role'] ?? '');
-$dbRole = strtolower($userRole['role'] ?? '');
-$isAdmin = $sessionRole === 'admin' || $dbRole === 'admin' || strpos($sessionRole, 'admin') !== false || strpos($dbRole, 'admin') !== false;
-
-if (!$isAdmin) {
-    header('Location: ../index.php');
-    exit();
-}
-
-if ($dbRole === 'admin' && $sessionRole !== 'admin') {
-    $_SESSION['role'] = 'Admin';
-}
-
-$page_title = 'CCTV Request Form';
+$page_title = 'CCTV / Service Request Form';
 $base_url = '../';
 $current_page = 'request_form';
 require_once '../includes/header.php';

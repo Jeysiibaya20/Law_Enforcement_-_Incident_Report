@@ -53,6 +53,10 @@ if ($is_logged_in) {
     <meta name="description" content="Alertara">
     <meta name="author" content="Alertara">
     <title><?php echo isset($page_title) ? $page_title . ' - ' : ''; ?>Alertara</title>
+    <!-- Website Favicon & App Icons -->
+    <link rel="icon" type="image/svg+xml" href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/images/logo.svg">
+    <link rel="shortcut icon" type="image/svg+xml" href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/images/logo.svg">
+    <link rel="apple-touch-icon" href="<?php echo isset($base_url) ? $base_url : ''; ?>assets/images/logo.svg">
     <!-- Bootstrap 5.3 & Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">

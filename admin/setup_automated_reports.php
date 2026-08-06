@@ -5,7 +5,7 @@
  * Initializes the automated report generation system
  */
 
-session_start();
+require_once 'admin_auth.php';
 require_once '../config/db_connect.php';
 
 // Check authentication

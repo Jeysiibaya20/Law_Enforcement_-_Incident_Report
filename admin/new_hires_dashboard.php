@@ -1,5 +1,5 @@
 <?php
-session_start();
+require_once 'admin_auth.php';
 require_once '../config/db_connect.php';
 require_once '../includes/navbar.php';
 

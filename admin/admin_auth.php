@@ -1,42 +1,52 @@
 <?php
 /**
- * Admin Authentication Helper
- * Check if user is admin before allowing access to admin pages
+ * Admin & Officer Authentication Guard Helper
+ * Protects all administrative and officer-restricted routes.
  */
 
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
-// Check if user is logged in
-if (!isset($_SESSION['user_id'])) {
+// 1. Check if user is logged in
+if (empty($_SESSION['user_id'])) {
+    $_SESSION['flash'] = ['type' => 'danger', 'message' => 'Please sign in to access the administration system.'];
     header('Location: ../auth/login.php');
     exit();
 }
 
-// Check if user has admin role (from signup table)
-require_once '../config/db_connect.php';
+// 2. Fetch role from DB to guarantee session role hasn't been tampered with
+require_once __DIR__ . '/../config/db_connect.php';
 if (!isset($pdo) || !($pdo instanceof PDO)) {
     $pdo = getDBConnection();
 }
 
+$userId = $_SESSION['user_id'];
+$isAuthorized = false;
+
 try {
-    $stmt = $pdo->prepare("SELECT role FROM signup WHERE user_id = ?");
-    $stmt->execute([$_SESSION['user_id']]);
+    $stmt = $pdo->prepare("SELECT role FROM signup WHERE user_id = ? LIMIT 1");
+    $stmt->execute([$userId]);
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
-    
-    // Accept role values that contain the word 'admin' (e.g. 'Admin', 'Administrator')
+
     $dbRole = strtolower(trim($user['role'] ?? ''));
     $sessionRole = strtolower(trim($_SESSION['role'] ?? ''));
+    $effectiveRole = !empty($dbRole) ? $dbRole : $sessionRole;
 
-    if (!$user || (stripos($dbRole, 'admin') === false && stripos($sessionRole, 'admin') === false)) {
-        // Not an admin, redirect to regular dashboard
-        $_SESSION['flash'] = ['type' => 'danger', 'message' => 'You do not have permission to access the admin panel.'];
-        header('Location: ../landing.php');
-        exit();
+    // Only allow Admin, Administrator, Officer, or Barangay Official roles
+    if ($user && (strpos($effectiveRole, 'admin') !== false || strpos($effectiveRole, 'officer') !== false || strpos($effectiveRole, 'official') !== false)) {
+        $isAuthorized = true;
     }
 } catch (Exception $e) {
-    header('Location: ../auth/login.php');
-    exit();
+    $isAuthorized = false;
 }
 
-// User is admin, continue
+if (!$isAuthorized) {
+    $_SESSION['flash'] = [
+        'type' => 'danger',
+        'message' => 'Access Denied: You do not have administrative privileges to view this section.'
+    ];
+    header('Location: ../modules/my_reports.php');
+    exit();
+}
 ?>
