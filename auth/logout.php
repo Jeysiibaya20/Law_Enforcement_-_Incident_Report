@@ -1,41 +1,29 @@
 <?php
 /**
- * Logout Page
- * 
- * @author System
- * @version 1.0.0
+ * Resident Portal Logout
+ * Clears resident session data and redirects to Resident Login.
  */
 
-// Set page variables BEFORE including header
-$page_title = 'Logout';
-$base_url = '../';
-
-// Start session
-session_start();
-
-// Include header for loading screen
-require_once '../includes/header.php';
-
-// Destroy session
-session_destroy();
-
-// Clear session cookie
-if (ini_get("session.use_cookies")) {
-    $params = session_get_cookie_params();
-    setcookie(session_name(), '', time() - 42000,
-        $params["path"], $params["domain"],
-        $params["secure"], $params["httponly"]
-    );
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
 }
 
+// Clear resident session variables
+unset(
+    $_SESSION['resident_user_id'],
+    $_SESSION['user_id'],
+    $_SESSION['username'],
+    $_SESSION['email'],
+    $_SESSION['role'],
+    $_SESSION['fullname'],
+    $_SESSION['first_name']
+);
+
+// If no admin session is active, destroy session completely
+if (empty($_SESSION['admin_user_id'])) {
+    session_destroy();
+}
+
+header('Location: login.php');
+exit();
 ?>
-
-<script>
-    // Redirect to login
-    window.location.href = 'login.php';
-</script>
-
-<?php
-require_once '../includes/footer.php';
-?>
-

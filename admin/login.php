@@ -17,15 +17,10 @@ if (!isset($pdo) || !($pdo instanceof PDO)) {
 }
 
 // Redirect if already logged in as Admin
-if (isset($_SESSION['user_id'])) {
-    $current_role = strtolower(trim($_SESSION['role'] ?? 'user'));
-    if (strpos($current_role, 'admin') !== false || strpos($current_role, 'officer') !== false || strpos($current_role, 'official') !== false) {
-        header('Location: dashboard.php');
-        exit();
-    } else {
-        header('Location: ../modules/my_reports.php');
-        exit();
-    }
+// Redirect if already logged in as Admin
+if (!empty($_SESSION['admin_user_id'])) {
+    header('Location: dashboard.php');
+    exit();
 }
 
 $error_message = '';
@@ -83,13 +78,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             throw new Exception('Access Denied: Resident accounts cannot sign in through the Admin Portal.');
         }
 
-        // Session setup for Admin
-        $_SESSION['user_id'] = $user['user_id'];
-        $_SESSION['username'] = $user['username'];
-        $_SESSION['email'] = $user['emailadd'] ?? '';
-        $_SESSION['role'] = $userRole;
-        $_SESSION['first_name'] = trim(explode(' ', $user['fullname'] ?? $user['username'])[0]);
-        $_SESSION['fullname'] = $user['fullname'] ?? $user['username'];
+        // Session setup for Admin (completely isolated from resident sessions)
+        $_SESSION['admin_user_id'] = $user['user_id'];
+        $_SESSION['admin_username'] = $user['username'];
+        $_SESSION['admin_email'] = $user['emailadd'] ?? '';
+        $_SESSION['admin_role'] = $userRole;
+        $_SESSION['admin_first_name'] = trim(explode(' ', $user['fullname'] ?? $user['username'])[0]);
+        $_SESSION['admin_fullname'] = $user['fullname'] ?? $user['username'];
 
         header('Location: dashboard.php');
         exit();

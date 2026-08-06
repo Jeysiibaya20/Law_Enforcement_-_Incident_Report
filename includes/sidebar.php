@@ -12,20 +12,23 @@ $script_dir = str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'] ?? ''));
 $in_subfolder = (strpos($script_dir, '/modules') !== false) || (strpos($script_dir, '/admin') !== false) || (strpos($script_dir, '/officer') !== false);
 $base_url = isset($base_url) ? $base_url : ($in_subfolder ? '../' : '');
 
-$role = strtolower(trim($_SESSION['role'] ?? 'user'));
-$is_admin = $role === 'admin';
-$is_officer = $role === 'officer';
-
-$first_name = $_SESSION['first_name'] ?? $_SESSION['user_name'] ?? ($is_admin ? 'Admin' : ($is_officer ? 'Officer' : 'User'));
-$last_name = $_SESSION['last_name'] ?? '';
-$full_name = trim($first_name . ' ' . $last_name);
-$display_role = ucfirst($role);
-
-$avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'https://ui-avatars.com/api/?name=' . urlencode($full_name ?: 'User') . '&background=4c8a89&color=fff&size=128';
-
 $current_page = strtolower(basename($_SERVER['PHP_SELF']));
 $is_user_page = in_array($current_page, ['landing.php', 'index.php', 'my_reports.php', 'blotter_create.php', 'user_profile.php', 'incident_report.php', 'request_form.php', 'learning.php']) || !empty($force_public_sidebar);
-$show_admin_menu = ($is_admin || $is_officer) && !$is_user_page;
+
+if ($is_user_page) {
+    $full_name = $_SESSION['fullname'] ?? $_SESSION['first_name'] ?? 'Resident';
+    $display_role = 'Resident';
+    $show_admin_menu = false;
+} else {
+    $role = strtolower(trim($_SESSION['admin_role'] ?? 'admin'));
+    $is_admin = strpos($role, 'admin') !== false;
+    $is_officer = strpos($role, 'officer') !== false;
+    $full_name = $_SESSION['admin_fullname'] ?? $_SESSION['admin_first_name'] ?? 'Admin';
+    $display_role = ucfirst($role);
+    $show_admin_menu = true;
+}
+
+$avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'https://ui-avatars.com/api/?name=' . urlencode($full_name ?: 'User') . '&background=4c8a89&color=fff&size=128';
 ?>
 
 <!-- Sidebar Component -->
@@ -262,7 +265,8 @@ $show_admin_menu = ($is_admin || $is_officer) && !$is_user_page;
                 <span class="sidebar-user-role"><?php echo htmlspecialchars($display_role); ?></span>
             </div>
         </div>
-        <a href="<?php echo $base_url; ?>auth/logout.php" class="sidebar-logout-btn" title="Sign Out">
+        <?php $logout_href = $base_url . ($is_user_page ? 'auth/logout.php' : 'admin/logout.php'); ?>
+        <a href="<?php echo $logout_href; ?>" class="sidebar-logout-btn" title="Sign Out">
             <i class="fas fa-sign-out-alt"></i>
         </a>
     </div>

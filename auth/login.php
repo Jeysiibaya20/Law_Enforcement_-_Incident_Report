@@ -21,14 +21,9 @@ if (!isset($pdo) || !($pdo instanceof PDO)) {
     $pdo = getDBConnection();
 }
 
-// Redirect if already logged in
-if (isset($_SESSION['user_id'])) {
-    $current_role = strtolower(trim($_SESSION['role'] ?? 'user'));
-    if ($current_role === 'admin') {
-        header('Location: ../admin/reports.php');
-    } else {
-        header('Location: ../modules/my_reports.php');
-    }
+// Redirect if already logged in as Resident
+if (!empty($_SESSION['resident_user_id'])) {
+    header('Location: ../modules/my_reports.php');
     exit();
 }
 
@@ -98,7 +93,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             throw new Exception('Access Denied: Administrative and Officer accounts must sign in via the Admin Portal.');
         }
 
-        // Login successful: create session and redirect to resident portal
+        // Login successful: create isolated resident session
+        $_SESSION['resident_user_id'] = $user['user_id'];
         $_SESSION['user_id'] = $user['user_id'];
         $_SESSION['username'] = $user['username'];
         $_SESSION['email'] = $user['emailadd'] ?? $user['email'] ?? '';
