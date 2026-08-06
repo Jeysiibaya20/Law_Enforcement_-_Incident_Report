@@ -277,7 +277,6 @@ try {
 $userRole = strtolower($_SESSION['role'] ?? '');
 
 require '../includes/header.php';
-require '../includes/navbar.php';
 ?>
 
 <div class="main-content">
@@ -794,4 +793,6 @@ if (descriptionEl) {
     }
 
 </script>
+
+<?php require '../includes/footer.php'; ?>
 

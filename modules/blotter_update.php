@@ -276,7 +276,6 @@ $attachments = $attachment_manager->getAttachments('blotter', $blotter_id);
 $base_url = '../';
 $page_title = 'Edit Blotter';
 require '../includes/header.php';
-require '../includes/navbar.php';
 ?>
 
 <div class="main-content">
@@ -556,3 +555,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
+
+<?php require '../includes/footer.php'; ?>
