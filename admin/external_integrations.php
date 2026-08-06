@@ -553,22 +553,22 @@ try {
                                     <tr>
                                         <th>REQ ID</th>
                                         <th>LOCATION / CAM</th>
-                                        <th>FOOTAGE LINK</th>
                                         <th>RECEIVED</th>
+                                        <th class="text-center">ACTION</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <?php if (!empty($receivedFootage)): ?>
                                         <?php foreach ($receivedFootage as $rf): ?>
                                             <tr>
-                                                <td class="fw-bold"><?= htmlspecialchars($rf['request_id'] ?: 'N/A') ?></td>
-                                                <td><?= htmlspecialchars(($rf['location'] ?: '') . ' (' . ($rf['camera_id'] ?: 'CAM') . ')') ?></td>
-                                                <td>
-                                                    <a href="<?= htmlspecialchars($rf['cctv_url']) ?>" target="_blank" class="btn btn-xs btn-outline-success py-0 px-2">
-                                                        <i class="fas fa-play me-1"></i>View Video
-                                                    </a>
+                                                <td class="fw-bold">#<?= htmlspecialchars($rf['request_id'] ?: $rf['id']) ?></td>
+                                                <td><?= htmlspecialchars(($rf['location'] ?: 'QC') . ' (' . ($rf['camera_id'] ?: 'CAM') . ')') ?></td>
+                                                <td><?= date('M d H:i', strtotime($rf['created_at'])) ?></td>
+                                                <td class="text-center">
+                                                    <button type="button" class="btn btn-xs btn-outline-success py-0 px-2 fw-bold" onclick="showCctvDetails(<?= htmlspecialchars(json_encode($rf), ENT_QUOTES, 'UTF-8') ?>)">
+                                                        <i class="fas fa-eye me-1"></i>View Details
+                                                    </button>
                                                 </td>
-                                                <td><?= date('M d H:i', strtotime($rf['received_at'])) ?></td>
                                             </tr>
                                         <?php endforeach; ?>
                                     <?php else: ?>
@@ -596,20 +596,26 @@ try {
                                         <th>TITLE / TYPE</th>
                                         <th>RESOLVED BY</th>
                                         <th>LOGGED</th>
+                                        <th class="text-center">ACTION</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <?php if (!empty($receivedTips)): ?>
                                         <?php foreach ($receivedTips as $rt): ?>
                                             <tr>
-                                                <td class="fw-bold"><?= htmlspecialchars($rt['tip_id'] ?: 'N/A') ?></td>
+                                                <td class="fw-bold">#<?= htmlspecialchars($rt['tip_id'] ?: $rt['id']) ?></td>
                                                 <td><?= htmlspecialchars($rt['title'] ?: $rt['incident_type']) ?></td>
-                                                <td><?= htmlspecialchars($rt['resolved_by'] ?: 'Partner Operator') ?></td>
+                                                <td><?= htmlspecialchars($rt['resolved_by'] ?: 'Operator') ?></td>
                                                 <td><?= date('M d H:i', strtotime($rt['created_at'])) ?></td>
+                                                <td class="text-center">
+                                                    <button type="button" class="btn btn-xs btn-outline-info text-dark py-0 px-2 fw-bold" onclick="showTipDetails(<?= htmlspecialchars(json_encode($rt), ENT_QUOTES, 'UTF-8') ?>)">
+                                                        <i class="fas fa-eye me-1"></i>View Details
+                                                    </button>
+                                                </td>
                                             </tr>
                                         <?php endforeach; ?>
                                     <?php else: ?>
-                                        <tr><td colspan="4" class="text-center text-muted py-3">No resolved tips received yet.</td></tr>
+                                        <tr><td colspan="5" class="text-center text-muted py-3">No resolved tips received yet.</td></tr>
                                     <?php endif; ?>
                                 </tbody>
                             </table>
@@ -732,8 +738,8 @@ document.addEventListener('DOMContentLoaded', function() {
                                         </td>
                                         <td><?= date('M d, Y g:i a', strtotime($l['created_at'])) ?></td>
                                         <td>
-                                            <button type="button" class="btn btn-outline-secondary btn-sm" onclick="alert(<?= htmlspecialchars(json_encode($l['payload'])) ?>)">
-                                                <i class="fas fa-code"></i> Payload
+                                            <button type="button" class="btn btn-outline-primary btn-sm fw-bold" onclick="showLogDetails(<?= htmlspecialchars(json_encode($l), ENT_QUOTES, 'UTF-8') ?>)">
+                                                <i class="fas fa-code me-1"></i>Payload & Logs
                                             </button>
                                         </td>
                                     </tr>
@@ -750,5 +756,192 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     </div>
 </div>
+
+<!-- Integration Log Payload & Details Modal -->
+<div class="modal fade" id="logDetailModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title" id="mLogTitle"><i class="fas fa-network-wired text-primary me-2"></i>Integration Log Details</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <strong>Log Entry ID:</strong> <span id="mLogId" class="badge bg-dark"></span>
+                    </div>
+                    <div class="col-md-4">
+                        <strong>Direction / Action:</strong> <span id="mLogDirection" class="badge bg-primary"></span>
+                    </div>
+                    <div class="col-md-4">
+                        <strong>Status:</strong> <span id="mLogStatus" class="badge bg-success"></span>
+                    </div>
+                    <div class="col-12">
+                        <strong>Target Endpoint / Destination URL:</strong>
+                        <div class="input-group input-group-sm mt-1">
+                            <input type="text" id="mLogTargetUrl" class="form-control font-monospace" readonly>
+                            <button type="button" class="btn btn-outline-secondary" onclick="navigator.clipboard.writeText(document.getElementById('mLogTargetUrl').value); alert('Target URL copied!');">
+                                <i class="fas fa-copy me-1"></i>Copy
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <strong>Transmitted Payload (Request Body JSON):</strong>
+                        <pre id="mLogPayload" class="bg-dark text-warning p-3 rounded mt-1 font-monospace" style="max-height: 250px; overflow-y: auto; font-size: 0.82rem; white-space: pre-wrap;"></pre>
+                    </div>
+                    <div class="col-12">
+                        <strong>API Endpoint Response (Response Body JSON):</strong>
+                        <pre id="mLogResponse" class="bg-dark text-info p-3 rounded mt-1 font-monospace" style="max-height: 200px; overflow-y: auto; font-size: 0.82rem; white-space: pre-wrap;"></pre>
+                    </div>
+                    <div class="col-12 text-end text-muted small">
+                        Logged At: <span id="mLogTimestamp"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CCTV Footage Detail Modal -->
+<div class="modal fade" id="cctvDetailModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title" id="mCctvTitle"><i class="fas fa-video me-2"></i>Received CCTV Footage Record</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <strong>Request Reference ID:</strong> <span id="mCctvReqId" class="badge bg-dark"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Incident Case ID:</strong> <span id="mCctvIncidentId" class="badge bg-primary"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Location / Barangay:</strong> <span id="mCctvLocation"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Camera Reference:</strong> <span id="mCctvCamera"></span>
+                    </div>
+                    <div class="col-12">
+                        <strong>Footage Stream / Video URL:</strong>
+                        <div class="input-group input-group-sm mt-1">
+                            <input type="text" id="mCctvUrl" class="form-control font-monospace" readonly>
+                            <a id="mCctvOpenBtn" href="#" target="_blank" class="btn btn-success fw-bold">
+                                <i class="fas fa-external-link-alt me-1"></i>Open Video Stream
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <strong>Operator Notes / Verification:</strong>
+                        <div id="mCctvNotes" class="p-3 bg-light rounded mt-1 border text-dark" style="font-size: 0.9rem;"></div>
+                    </div>
+                    <div class="col-12 text-end text-muted small">
+                        Received At: <span id="mCctvTimestamp"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Resolved Tip Detail Modal -->
+<div class="modal fade" id="tipDetailModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-dark">
+                <h5 class="modal-title" id="mTipTitle"><i class="fas fa-lightbulb me-2"></i>Received Resolved Tip Record</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <strong>Tip Reference ID:</strong> <span id="mTipId" class="badge bg-dark"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Incident Type:</strong> <span id="mTipType" class="badge bg-secondary"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Resolved By:</strong> <span id="mTipResolvedBy" class="fw-semibold"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Resolution Status:</strong> <span id="mTipStatus" class="badge bg-success"></span>
+                    </div>
+                    <div class="col-12">
+                        <strong>Resolution Summary & Narrative:</strong>
+                        <div id="mTipSummary" class="p-3 bg-light rounded mt-1 border text-dark" style="font-size: 0.9rem; line-height: 1.5; white-space: pre-line;"></div>
+                    </div>
+                    <div class="col-12">
+                        <small class="text-muted"><i class="fas fa-info-circle me-1"></i>Ingested from Group 4 Anonymous Tip Line System</small>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function parseJsonPretty(data) {
+    if (!data) return 'N/A (Empty)';
+    if (typeof data === 'object') return JSON.stringify(data, null, 2);
+    try {
+        var parsed = JSON.parse(data);
+        return JSON.stringify(parsed, null, 2);
+    } catch(e) {
+        return data;
+    }
+}
+
+function showLogDetails(log) {
+    document.getElementById('mLogTitle').innerHTML = '<i class="fas fa-network-wired text-primary me-2"></i>Log #' + (log.id || '') + ' Details';
+    document.getElementById('mLogId').textContent = '#' + (log.id || '');
+    document.getElementById('mLogDirection').textContent = (log.direction || 'SYSTEM').toUpperCase();
+    document.getElementById('mLogStatus').textContent = (log.status || 'UNKNOWN').toUpperCase();
+    document.getElementById('mLogTargetUrl').value = log.target_url || 'Internal Ingestion Engine';
+    document.getElementById('mLogPayload').textContent = parseJsonPretty(log.payload);
+    document.getElementById('mLogResponse').textContent = parseJsonPretty(log.response_body);
+    document.getElementById('mLogTimestamp').textContent = log.created_at || '';
+
+    var modal = new bootstrap.Modal(document.getElementById('logDetailModal'));
+    modal.show();
+}
+
+function showCctvDetails(rf) {
+    document.getElementById('mCctvTitle').innerHTML = '<i class="fas fa-video me-2"></i>CCTV Record #' + (rf.request_id || rf.id || '');
+    document.getElementById('mCctvReqId').textContent = '#' + (rf.request_id || rf.id || 'N/A');
+    document.getElementById('mCctvIncidentId').textContent = '#' + (rf.incident_id || 'N/A');
+    document.getElementById('mCctvLocation').textContent = rf.location || 'Quezon City';
+    document.getElementById('mCctvCamera').textContent = rf.camera_id || 'CAM-01';
+    document.getElementById('mCctvUrl').value = rf.cctv_url || 'https://surveillance.alertaraqc.com/streams/cctv_sample.mp4';
+    document.getElementById('mCctvOpenBtn').href = rf.cctv_url || '#';
+    document.getElementById('mCctvNotes').textContent = rf.notes || rf.description || 'Footage request fulfilled by partner surveillance team.';
+    document.getElementById('mCctvTimestamp').textContent = rf.created_at || '';
+
+    var modal = new bootstrap.Modal(document.getElementById('cctvDetailModal'));
+    modal.show();
+}
+
+function showTipDetails(rt) {
+    document.getElementById('mTipTitle').innerHTML = '<i class="fas fa-lightbulb me-2"></i>Resolved Tip #' + (rt.tip_id || rt.id || '');
+    document.getElementById('mTipId').textContent = '#' + (rt.tip_id || rt.id || 'N/A');
+    document.getElementById('mTipType').textContent = rt.incident_type || rt.title || 'General Tip';
+    document.getElementById('mTipResolvedBy').textContent = rt.resolved_by || 'Partner Operator';
+    document.getElementById('mTipStatus').textContent = rt.status || 'Resolved';
+    document.getElementById('mTipSummary').textContent = rt.resolution_summary || rt.title || rt.description || 'Tip resolved and verified by Group 4 team.';
+
+    var modal = new bootstrap.Modal(document.getElementById('tipDetailModal'));
+    modal.show();
+}
+</script>
 
 <?php require_once '../includes/footer.php'; ?>
