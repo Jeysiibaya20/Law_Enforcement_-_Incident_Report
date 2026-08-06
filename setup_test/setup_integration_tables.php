@@ -62,6 +62,26 @@ try {
         INDEX idx_incident_id (incident_id)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
 
+    // 4. CCTV Requests Table
+    $pdo->exec("CREATE TABLE IF NOT EXISTS cctv_requests (
+        id INT(11) NOT NULL AUTO_INCREMENT,
+        requested_by INT(11) DEFAULT NULL,
+        request_type VARCHAR(50) NOT NULL DEFAULT 'Footage',
+        camera_location VARCHAR(255) DEFAULT NULL,
+        incident_date DATE DEFAULT NULL,
+        incident_time TIME DEFAULT NULL,
+        priority VARCHAR(50) NOT NULL DEFAULT 'Normal',
+        reason TEXT NOT NULL,
+        additional_details TEXT DEFAULT NULL,
+        monitoring_office VARCHAR(100) DEFAULT NULL,
+        delivery_method VARCHAR(100) DEFAULT NULL,
+        monitoring_notes TEXT DEFAULT NULL,
+        status VARCHAR(50) NOT NULL DEFAULT 'Pending',
+        requested_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        updated_at DATETIME DEFAULT NULL,
+        PRIMARY KEY (id)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
     echo "Integration database tables created/verified successfully.\n";
 } catch (Exception $e) {
     echo "Error setting up integration tables: " . $e->getMessage() . "\n";

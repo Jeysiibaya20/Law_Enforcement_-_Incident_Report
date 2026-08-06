@@ -15,87 +15,109 @@ $message_type = 'info';
 $submitted = false;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $request_type = trim($_POST['request_type'] ?? '');
-    $camera_location = trim($_POST['camera_location'] ?? '');
-    $incident_date = trim($_POST['incident_date'] ?? '');
-    $incident_time = trim($_POST['incident_time'] ?? '');
-    $priority = trim($_POST['priority'] ?? 'Normal');
-    $reason = trim($_POST['reason'] ?? '');
-    $additional_details = trim($_POST['additional_details'] ?? '');
-    $monitoring_office = trim($_POST['monitoring_office'] ?? '');
-    $delivery_method = trim($_POST['delivery_method'] ?? '');
-    $monitoring_notes = trim($_POST['monitoring_notes'] ?? '');
+    $form_action = $_POST['action'] ?? 'create_request';
 
-    if ($request_type === '' || $reason === '') {
-        $message = 'Please select a request type and provide the reason for the request.';
-        $message_type = 'danger';
-    } else {
-        try {
-            $create_sql = "CREATE TABLE IF NOT EXISTS cctv_requests (
-                id int(11) NOT NULL AUTO_INCREMENT,
-                requested_by int(11) NOT NULL,
-                request_type enum('Footage','Capture Photo') NOT NULL,
-                camera_location varchar(255) DEFAULT NULL,
-                incident_date date DEFAULT NULL,
-                incident_time time DEFAULT NULL,
-                priority enum('High','Normal','Low') NOT NULL DEFAULT 'Normal',
-                reason text NOT NULL,
-                additional_details text DEFAULT NULL,
-                status enum('Pending','Approved','Rejected','Completed') NOT NULL DEFAULT 'Pending',
-                requested_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-                updated_at datetime DEFAULT NULL,
-                PRIMARY KEY (id),
-                KEY requested_by (requested_by),
-                CONSTRAINT cctv_requests_ibfk_1 FOREIGN KEY (requested_by) REFERENCES signup (user_id)
-            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;";
-            $pdo->exec($create_sql);
+    if ($form_action === 'update_status') {
+        $req_id = (int)($_POST['request_id'] ?? 0);
+        $status_val = trim($_POST['status'] ?? 'Pending');
+        $camera_val = trim($_POST['camera_location'] ?? '');
+        $notes_val = trim($_POST['monitoring_notes'] ?? '');
 
-            $columnChecks = [
-                'monitoring_office' => "ALTER TABLE cctv_requests ADD COLUMN monitoring_office varchar(100) DEFAULT NULL",
-                'delivery_method' => "ALTER TABLE cctv_requests ADD COLUMN delivery_method varchar(100) DEFAULT NULL",
-                'monitoring_notes' => "ALTER TABLE cctv_requests ADD COLUMN monitoring_notes text DEFAULT NULL"
-            ];
-
-            foreach ($columnChecks as $column => $alterSql) {
-                $checkStmt = $pdo->query("SHOW COLUMNS FROM cctv_requests LIKE '$column'");
-                if (!$checkStmt->fetch()) {
-                    $pdo->exec($alterSql);
-                }
+        if ($req_id > 0) {
+            try {
+                $up_stmt = $pdo->prepare("UPDATE cctv_requests SET status = ?, camera_location = ?, monitoring_notes = ?, updated_at = NOW() WHERE id = ?");
+                $up_stmt->execute([$status_val, $camera_val, $notes_val, $req_id]);
+                $message = "CCTV Request #REQ-" . str_pad($req_id, 3, '0', STR_PAD_LEFT) . " updated successfully!";
+                $message_type = "success";
+            } catch (Exception $e) {
+                $message = "Could not update request: " . htmlspecialchars($e->getMessage());
+                $message_type = "danger";
             }
+        }
+    } else {
+        $request_type = trim($_POST['request_type'] ?? '');
+        $camera_location = trim($_POST['camera_location'] ?? '');
+        $incident_date = trim($_POST['incident_date'] ?? '');
+        $incident_time = trim($_POST['incident_time'] ?? '');
+        $priority = trim($_POST['priority'] ?? 'Normal');
+        $reason = trim($_POST['reason'] ?? '');
+        $additional_details = trim($_POST['additional_details'] ?? '');
+        $monitoring_office = trim($_POST['monitoring_office'] ?? '');
+        $delivery_method = trim($_POST['delivery_method'] ?? '');
+        $monitoring_notes = trim($_POST['monitoring_notes'] ?? '');
 
-            $insert_stmt = $pdo->prepare("INSERT INTO cctv_requests
-                (requested_by, request_type, camera_location, incident_date, incident_time, priority, reason, additional_details, monitoring_office, delivery_method, monitoring_notes)
-                VALUES (:requested_by, :request_type, :camera_location, :incident_date, :incident_time, :priority, :reason, :additional_details, :monitoring_office, :delivery_method, :monitoring_notes)");
-
-            $activeUserId = $_SESSION['admin_user_id'] ?? $_SESSION['user_id'] ?? 1;
-
-            $insert_stmt->execute([
-                ':requested_by' => $activeUserId,
-                ':request_type' => $request_type,
-                ':camera_location' => $camera_location !== '' ? $camera_location : null,
-                ':incident_date' => $incident_date !== '' ? $incident_date : null,
-                ':incident_time' => $incident_time !== '' ? $incident_time : null,
-                ':priority' => in_array($priority, ['High', 'Normal', 'Low'], true) ? $priority : 'Normal',
-                ':reason' => $reason,
-                ':additional_details' => $additional_details !== '' ? $additional_details : null,
-                ':monitoring_office' => $monitoring_office !== '' ? $monitoring_office : null,
-                ':delivery_method' => $delivery_method !== '' ? $delivery_method : null,
-                ':monitoring_notes' => $monitoring_notes !== '' ? $monitoring_notes : null,
-            ]);
-
-            $message = 'CCTV request has been recorded successfully.';
-            $message_type = 'success';
-            $submitted = true;
-            $_POST = [];
-        } catch (Exception $e) {
-            $message = 'Could not submit CCTV request: ' . htmlspecialchars($e->getMessage());
+        if ($request_type === '' || $reason === '') {
+            $message = 'Please select a request type and provide the reason for the request.';
             $message_type = 'danger';
+        } else {
+            try {
+                $create_sql = "CREATE TABLE IF NOT EXISTS cctv_requests (
+                    id int(11) NOT NULL AUTO_INCREMENT,
+                    requested_by int(11) DEFAULT NULL,
+                    request_type varchar(50) NOT NULL DEFAULT 'Footage',
+                    camera_location varchar(255) DEFAULT NULL,
+                    incident_date date DEFAULT NULL,
+                    incident_time time DEFAULT NULL,
+                    priority varchar(50) NOT NULL DEFAULT 'Normal',
+                    reason text NOT NULL,
+                    additional_details text DEFAULT NULL,
+                    monitoring_office varchar(100) DEFAULT NULL,
+                    delivery_method varchar(100) DEFAULT NULL,
+                    monitoring_notes text DEFAULT NULL,
+                    status varchar(50) NOT NULL DEFAULT 'Pending',
+                    requested_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                    updated_at datetime DEFAULT NULL,
+                    PRIMARY KEY (id)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;";
+                $pdo->exec($create_sql);
+
+                $columnChecks = [
+                    'monitoring_office' => "ALTER TABLE cctv_requests ADD COLUMN monitoring_office varchar(100) DEFAULT NULL",
+                    'delivery_method' => "ALTER TABLE cctv_requests ADD COLUMN delivery_method varchar(100) DEFAULT NULL",
+                    'monitoring_notes' => "ALTER TABLE cctv_requests ADD COLUMN monitoring_notes text DEFAULT NULL"
+                ];
+
+                foreach ($columnChecks as $column => $alterSql) {
+                    $checkStmt = $pdo->query("SHOW COLUMNS FROM cctv_requests LIKE '$column'");
+                    if (!$checkStmt->fetch()) {
+                        $pdo->exec($alterSql);
+                    }
+                }
+
+                $insert_stmt = $pdo->prepare("INSERT INTO cctv_requests
+                    (requested_by, request_type, camera_location, incident_date, incident_time, priority, reason, additional_details, monitoring_office, delivery_method, monitoring_notes)
+                    VALUES (:requested_by, :request_type, :camera_location, :incident_date, :incident_time, :priority, :reason, :additional_details, :monitoring_office, :delivery_method, :monitoring_notes)");
+
+                $activeUserId = $_SESSION['admin_user_id'] ?? $_SESSION['user_id'] ?? 1;
+
+                $insert_stmt->execute([
+                    ':requested_by' => $activeUserId,
+                    ':request_type' => $request_type,
+                    ':camera_location' => $camera_location !== '' ? $camera_location : null,
+                    ':incident_date' => $incident_date !== '' ? $incident_date : null,
+                    ':incident_time' => $incident_time !== '' ? $incident_time : null,
+                    ':priority' => in_array($priority, ['High', 'Normal', 'Low'], true) ? $priority : 'Normal',
+                    ':reason' => $reason,
+                    ':additional_details' => $additional_details !== '' ? $additional_details : null,
+                    ':monitoring_office' => $monitoring_office !== '' ? $monitoring_office : null,
+                    ':delivery_method' => $delivery_method !== '' ? $delivery_method : null,
+                    ':monitoring_notes' => $monitoring_notes !== '' ? $monitoring_notes : null,
+                ]);
+
+                $message = 'CCTV request has been recorded successfully.';
+                $message_type = 'success';
+                $submitted = true;
+                $_POST = [];
+            } catch (Exception $e) {
+                $message = 'Could not submit CCTV request: ' . htmlspecialchars($e->getMessage());
+                $message_type = 'danger';
+            }
         }
     }
 }
 
 try {
-    $records_stmt = $pdo->prepare("SELECT r.id, r.request_type, r.camera_location, r.incident_date, r.incident_time, r.priority, r.reason, r.additional_details, r.monitoring_office, r.delivery_method, r.monitoring_notes, r.status, r.requested_at, COALESCE(s.fullname, s.first_name, 'Admin') as requester_name FROM cctv_requests r LEFT JOIN signup s ON r.requested_by = s.user_id ORDER BY r.requested_at DESC");
+    $records_stmt = $pdo->prepare("SELECT r.id, r.request_type, r.camera_location, r.incident_date, r.incident_time, r.priority, r.reason, r.additional_details, r.monitoring_office, r.delivery_method, r.monitoring_notes, r.status, r.requested_at, COALESCE(s.fullname, s.emailadd, 'Admin') as requester_name FROM cctv_requests r LEFT JOIN signup s ON r.requested_by = s.user_id ORDER BY r.requested_at DESC");
     $records_stmt->execute();
     $request_records = $records_stmt->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) {
@@ -270,10 +292,10 @@ try {
                                 <tbody>
                                     <?php if (!empty($request_records)): ?>
                                         <?php foreach ($request_records as $record): ?>
-                                            <tr>
+                                            <tr class="cctv-record-row" data-date="<?php echo htmlspecialchars($record['incident_date'] ?? ''); ?>">
                                                 <td><?php echo 'REQ-' . str_pad((int)$record['id'], 3, '0', STR_PAD_LEFT); ?></td>
                                                 <td><?php echo htmlspecialchars('Digital Blotter System'); ?></td>
-                                                <td><?php echo htmlspecialchars($_SESSION['first_name'] ?? 'Juan'); ?></td>
+                                                <td><?php echo htmlspecialchars($record['requester_name'] ?? 'Admin'); ?></td>
                                                 <td><?php echo htmlspecialchars($record['camera_location'] ?: 'CAM-001'); ?></td>
                                                 <td><?php echo htmlspecialchars(($record['incident_date'] ?: '') . ($record['incident_time'] ? ' ' . date('H:i', strtotime($record['incident_time'])) : '')); ?></td>
                                                 <td><span class="badge bg-info text-dark"><?php echo htmlspecialchars($record['status'] ?? 'Pending'); ?></span></td>
@@ -283,7 +305,7 @@ try {
                                                         data-id="<?php echo (int)$record['id']; ?>"
                                                         data-request-id="<?php echo 'CCTV-REQ-' . date('Y') . '-' . str_pad((int)$record['id'],3,'0',STR_PAD_LEFT); ?>"
                                                         data-agency="<?php echo htmlspecialchars('Digital Blotter System'); ?>"
-                                                        data-contact="<?php echo htmlspecialchars($_SESSION['first_name'] ?? 'Juan'); ?>"
+                                                        data-contact="<?php echo htmlspecialchars($record['requester_name'] ?? 'Admin'); ?>"
                                                         data-email="<?php echo htmlspecialchars($_SESSION['user_email'] ?? ''); ?>"
                                                         data-case-ref="<?php echo htmlspecialchars($record['additional_details'] ?: ''); ?>"
                                                         data-purpose="<?php echo htmlspecialchars($record['reason'] ?: ''); ?>"
@@ -393,22 +415,22 @@ try {
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="manageForm">
+                    <form id="manageForm" method="POST">
+                        <input type="hidden" name="action" value="update_status">
                         <input type="hidden" name="request_id" id="manage_request_id">
                         <div class="mb-3">
                             <label class="form-label">Status *</label>
                             <select id="manage_status" name="status" class="form-select">
-                                <option>Under Review</option>
-                                <option>Approved</option>
-                                <option>Rejected</option>
-                                <option>Completed</option>
+                                <option value="Pending">Pending</option>
+                                <option value="Under Review">Under Review</option>
+                                <option value="Approved">Approved</option>
+                                <option value="Rejected">Rejected</option>
+                                <option value="Completed">Completed</option>
                             </select>
                         </div>
                         <div class="mb-3">
-                            <label class="form-label">Approved Camera</label>
-                            <select id="manage_camera" class="form-select">
-                                <option>CAM-001 - Main Entrance Camera</option>
-                            </select>
+                            <label class="form-label">Approved Camera / Location</label>
+                            <input type="text" id="manage_camera" name="camera_location" class="form-control" placeholder="e.g. CAM-001 - Main Entrance Camera">
                         </div>
                         <div class="row">
                             <div class="col-md-6 mb-3">
@@ -422,7 +444,7 @@ try {
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Review Notes (internal)</label>
-                            <textarea id="manage_notes" class="form-control" rows="4"></textarea>
+                            <textarea id="manage_notes" name="monitoring_notes" class="form-control" rows="4"></textarea>
                         </div>
                         <div class="d-flex justify-content-end gap-2">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
@@ -443,8 +465,7 @@ try {
                 // map data attributes to modal
                 document.querySelectorAll('#detailsValues [data-key]').forEach(li=>{
                     const key = li.getAttribute('data-key');
-                    const dataAttr = key.replace(/-/g,'');
-                    const v = btn.getAttribute('data-' + key) || btn.getAttribute('data-' + key) || '';
+                    const v = btn.getAttribute('data-' + key) || '';
                     li.textContent = v || '—';
                 });
                 var detailsModal = new bootstrap.Modal(document.getElementById('detailsModal'));
@@ -456,7 +477,7 @@ try {
         document.querySelectorAll('.btn-manage').forEach(btn=>{
             btn.addEventListener('click', function(){
                 document.getElementById('manage_request_id').value = btn.getAttribute('data-id');
-                document.getElementById('manage_status').value = btn.getAttribute('data-status-val') || 'Under Review';
+                document.getElementById('manage_status').value = btn.getAttribute('data-status-val') || 'Pending';
                 document.getElementById('manage_camera').value = btn.getAttribute('data-camera-val') || 'CAM-001 - Main Entrance Camera';
                 document.getElementById('manage_start').value = btn.getAttribute('data-start') || '';
                 document.getElementById('manage_end').value = btn.getAttribute('data-end') || '';
@@ -466,13 +487,21 @@ try {
             });
         });
 
-        // submit handler (AJAX could be added; here we simply close the modal)
-        document.getElementById('manageForm').addEventListener('submit', function(e){
-            e.preventDefault();
-            // TODO: implement save via fetch/XHR to server endpoint
-            var manageModal = bootstrap.Modal.getInstance(document.getElementById('manageModal'));
-            manageModal.hide();
-            alert('Changes saved (not yet persisted).');
-        });
+        // search & date filter
+        const searchBox = document.getElementById('searchBox');
+        const filterDate = document.getElementById('filterDate');
+        function filterRows() {
+            const query = (searchBox ? searchBox.value : '').toLowerCase().trim();
+            const dateVal = (filterDate ? filterDate.value : '').trim();
+            document.querySelectorAll('.cctv-record-row').forEach(row => {
+                const text = row.innerText.toLowerCase();
+                const rowDate = row.getAttribute('data-date') || '';
+                const matchesQuery = !query || text.includes(query);
+                const matchesDate = !dateVal || rowDate.includes(dateVal);
+                row.style.display = (matchesQuery && matchesDate) ? '' : 'none';
+            });
+        }
+        if (searchBox) searchBox.addEventListener('input', filterRows);
+        if (filterDate) filterDate.addEventListener('change', filterRows);
     });
     </script>
