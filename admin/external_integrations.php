@@ -53,6 +53,46 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $messageType = $dispatchStatus['success'] ? 'success' : 'info';
         }
     }
+
+    if ($action === 'simulate_incoming_cctv') {
+        $cctvSample = [
+            'request_id' => trim($_POST['request_id'] ?? ('REQ-CCTV-' . date('Ymd') . '-' . rand(100, 999))),
+            'incident_id' => trim($_POST['incident_id'] ?? ('INC-' . date('Ymd') . '-001')),
+            'cctv_url' => trim($_POST['cctv_url'] ?? 'https://surveillance.alertaraqc.com/media/feeds/sample_footage_001.mp4'),
+            'camera_id' => trim($_POST['camera_id'] ?? 'CAM-QC-D1-042'),
+            'location' => trim($_POST['location'] ?? 'Barangay Central, District 1, Quezon City'),
+            'notes' => trim($_POST['notes'] ?? 'Footage captured during time window showing street commotion.')
+        ];
+        try {
+            $res = $integrator->processIncomingCctvFootage($cctvSample);
+            $message = "Successfully processed and logged incoming CCTV footage! Record ID: #" . $res['record_id'];
+            $messageType = "success";
+        } catch (Exception $e) {
+            $message = "Error receiving CCTV footage: " . $e->getMessage();
+            $messageType = "danger";
+        }
+    }
+
+    if ($action === 'simulate_incoming_tip') {
+        $tipSample = [
+            'tip_id' => trim($_POST['tip_id'] ?? ('TIP-' . date('Ymd') . '-' . rand(1000, 9999))),
+            'incident_id' => trim($_POST['incident_id'] ?? ('INC-' . date('Ymd') . '-002')),
+            'incident_type' => trim($_POST['incident_type'] ?? 'Physical Violence / Assault'),
+            'title' => trim($_POST['title'] ?? 'Resolved Public Disturbance Tip'),
+            'description' => trim($_POST['description'] ?? 'Tipster reported noise and argument. Surveillance team verified via live feed.'),
+            'location' => trim($_POST['location'] ?? 'Barangay East Kamias, District 3, Quezon City'),
+            'resolved_by' => trim($_POST['resolved_by'] ?? 'Surveillance Operator #12'),
+            'resolution_notes' => trim($_POST['resolution_notes'] ?? 'Camera feed monitored; patrol team arrived and resolved disturbance.')
+        ];
+        try {
+            $res = $integrator->processIncomingResolvedTip($tipSample);
+            $message = "Successfully received resolved tip and classified into Incident Logging module! Record ID: #" . $res['record_id'];
+            $messageType = "success";
+        } catch (Exception $e) {
+            $message = "Error receiving resolved tip: " . $e->getMessage();
+            $messageType = "danger";
+        }
+    }
 }
 
 // Fetch recent integration logs
@@ -83,6 +123,41 @@ try {
                 <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
             </div>
         <?php endif; ?>
+
+        <!-- Partner Integration API Specifications Banner -->
+        <div class="card mb-4 bg-light border-primary shadow-sm">
+            <div class="card-header bg-primary text-white fw-bold d-flex align-items-center">
+                <i class="fas fa-network-wired me-2"></i> Partner Surveillance API Specifications (surveillance.alertaraqc.com)
+            </div>
+            <div class="card-body">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="p-3 bg-white border rounded h-100">
+                            <span class="badge bg-danger mb-2">OUTGOING POST</span>
+                            <h6 class="fw-bold text-dark mb-1">Send CCTV Request</h6>
+                            <code class="small text-break">https://surveillance.alertaraqc.com/api/cctv_requests_receive.php</code>
+                            <p class="small text-muted mt-2 mb-0">Dispatches automated CCTV footage requests to surveillance partner team.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3 bg-white border rounded h-100">
+                            <span class="badge bg-success mb-2">INCOMING RECEIVER</span>
+                            <h6 class="fw-bold text-dark mb-1">Receive CCTV Footage</h6>
+                            <code class="small text-break">/api/cctv_footage_receive.php</code>
+                            <p class="small text-muted mt-2 mb-0">Partner POSTs fulfilled CCTV footage & video links directly to this system.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3 bg-white border rounded h-100">
+                            <span class="badge bg-success mb-2">INCOMING RECEIVER</span>
+                            <h6 class="fw-bold text-dark mb-1">Receive Resolved Tips</h6>
+                            <code class="small text-break">/api/receive_resolved_tips.php</code>
+                            <p class="small text-muted mt-2 mb-0">Partner POSTs resolved tips to log & classify into Incident module.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Active Integration Status Cards -->
         <div class="row g-3 mb-4">
@@ -117,8 +192,8 @@ try {
                 <div class="card border-start border-success border-4 h-100">
                     <div class="card-body">
                         <small class="text-muted text-uppercase fw-bold">Partner CCTV API</small>
-                        <div class="h5 mt-2 text-success"><i class="fas fa-video me-2"></i>surveillance.alertaraqc.com</div>
-                        <small class="text-muted">Partner API endpoint online</small>
+                        <div class="h5 mt-2 text-success"><i class="fas fa-video me-2"></i>cctv_requests_receive.php</div>
+                        <small class="text-muted">surveillance.alertaraqc.com</small>
                     </div>
                 </div>
             </div>

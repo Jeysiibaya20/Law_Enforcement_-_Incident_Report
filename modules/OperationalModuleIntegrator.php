@@ -8,7 +8,7 @@
 
 class OperationalModuleIntegrator {
     private $pdo;
-    private $partnerCctvEndpoint = 'https://surveillance.alertaraqc.com/api/partner-api.php';
+    private $partnerCctvEndpoint = 'https://surveillance.alertaraqc.com/api/cctv_requests_receive.php';
     private $timeout = 15;
 
     public function __construct($pdo = null) {
@@ -19,18 +19,56 @@ class OperationalModuleIntegrator {
     }
 
     /**
-     * Ensure database table for external integration logs exists
+     * Ensure database tables for external integration logs, received CCTV footage, and resolved tips exist
      */
     private function ensureSchema(): void {
         try {
             $this->pdo->exec("CREATE TABLE IF NOT EXISTS external_integration_log (
                 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-                direction VARCHAR(20) NOT NULL,
+                direction VARCHAR(50) NOT NULL,
                 target_url TEXT NULL,
                 payload LONGTEXT NULL,
                 response_body LONGTEXT NULL,
-                status VARCHAR(20) NOT NULL,
+                status VARCHAR(50) NOT NULL,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+            try {
+                $this->pdo->exec("ALTER TABLE external_integration_log MODIFY COLUMN direction VARCHAR(50) NOT NULL");
+            } catch (Exception $ex) {}
+
+            $this->pdo->exec("CREATE TABLE IF NOT EXISTS cctv_footage_received (
+                id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                request_id VARCHAR(100) NULL,
+                incident_id VARCHAR(100) NULL,
+                cctv_url TEXT NULL,
+                camera_id VARCHAR(100) NULL,
+                location VARCHAR(255) NULL,
+                video_format VARCHAR(50) DEFAULT 'video/mp4',
+                duration VARCHAR(50) NULL,
+                notes TEXT NULL,
+                status VARCHAR(50) DEFAULT 'Received',
+                received_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                INDEX idx_incident_id (incident_id),
+                INDEX idx_request_id (request_id)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+            $this->pdo->exec("CREATE TABLE IF NOT EXISTS received_resolved_tips (
+                id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                tip_id VARCHAR(100) NULL,
+                incident_id VARCHAR(100) NULL,
+                incident_type VARCHAR(100) NULL,
+                title VARCHAR(255) NULL,
+                description TEXT NULL,
+                location VARCHAR(255) NULL,
+                district VARCHAR(100) NULL,
+                resolved_by VARCHAR(150) NULL,
+                resolution_notes TEXT NULL,
+                evidence_url TEXT NULL,
+                resolved_at VARCHAR(100) NULL,
+                status VARCHAR(50) DEFAULT 'Logged',
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                INDEX idx_tip_id (tip_id),
+                INDEX idx_incident_id (incident_id)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
         } catch (Exception $e) {
             error_log("Schema initialization notice: " . $e->getMessage());
@@ -286,6 +324,108 @@ class OperationalModuleIntegrator {
             "2. Inspection Scheduling: Transmit case " . $std['id'] . " to Group 7 for field inspection.",
             "3. Heatmap Sync: Log Incident ID " . $std['id'] . " into Group 5 GIS spatial database.",
             "4. Evidence Retrieval: Submit automated query to Partner CCTV API (" . $this->partnerCctvEndpoint . ") for camera footage around " . $std['location'] . "."
+        ];
+    }
+
+    /**
+     * Process incoming CCTV footage payload from surveillance partner
+     */
+    public function processIncomingCctvFootage(array $data): array {
+        $requestId = trim($data['request_id'] ?? $data['cctv_request_id'] ?? '');
+        $incidentId = trim($data['incident_id'] ?? $data['case_id'] ?? '');
+        $cctvUrl = trim($data['cctv_url'] ?? $data['video_url'] ?? $data['media_url'] ?? $data['file_path'] ?? '');
+        $cameraId = trim($data['camera_id'] ?? $data['camera_code'] ?? 'CAM-SURV-QC');
+        $location = trim($data['location'] ?? $data['camera_location'] ?? '');
+        $notes = trim($data['notes'] ?? $data['remarks'] ?? $data['description'] ?? '');
+        $videoFormat = trim($data['video_format'] ?? 'video/mp4');
+        $duration = trim($data['duration'] ?? '');
+
+        if (empty($cctvUrl)) {
+            throw new Exception('Missing required cctv_url or video_url field in CCTV footage payload.');
+        }
+
+        $recordId = null;
+        if ($this->pdo instanceof PDO) {
+            $stmt = $this->pdo->prepare("INSERT INTO cctv_footage_received (request_id, incident_id, cctv_url, camera_id, location, video_format, duration, notes, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'Received')");
+            $stmt->execute([$requestId, $incidentId, $cctvUrl, $cameraId, $location, $videoFormat, $duration, $notes]);
+            $recordId = $this->pdo->lastInsertId();
+
+            $this->saveLog('incoming_cctv_footage', 'https://surveillance.alertaraqc.com', $data, [
+                'status' => 'success',
+                'record_id' => $recordId,
+                'message' => 'CCTV footage logged successfully'
+            ], 'received');
+        }
+
+        return [
+            'success' => true,
+            'message' => 'CCTV footage payload received and stored successfully.',
+            'record_id' => $recordId,
+            'request_id' => $requestId,
+            'incident_id' => $incidentId,
+            'cctv_url' => $cctvUrl,
+            'camera_id' => $cameraId,
+            'received_at' => date('Y-m-d H:i:s')
+        ];
+    }
+
+    /**
+     * Process incoming resolved tips payload from surveillance partner
+     */
+    public function processIncomingResolvedTip(array $data): array {
+        $tipId = trim($data['tip_id'] ?? $data['id'] ?? ('TIP-' . date('Ymd') . '-' . rand(1000, 9999)));
+        $incidentId = trim($data['incident_id'] ?? $data['case_number'] ?? '');
+        $incidentType = trim($data['incident_type'] ?? $data['category'] ?? 'Surveillance Tip');
+        $title = trim($data['title'] ?? $data['subject'] ?? ('Resolved Tip: ' . $incidentType));
+        $description = trim($data['description'] ?? $data['tip_details'] ?? '');
+        $location = trim($data['location'] ?? $data['address'] ?? '');
+        $district = trim($data['district'] ?? $this->extractDistrict($location));
+        $resolvedBy = trim($data['resolved_by'] ?? $data['officer_name'] ?? 'Surveillance Unit');
+        $resolutionNotes = trim($data['resolution_notes'] ?? $data['action_taken'] ?? '');
+        $evidenceUrl = trim($data['evidence_url'] ?? $data['media_url'] ?? '');
+        $resolvedAt = trim($data['resolved_at'] ?? date('Y-m-d H:i:s'));
+
+        if (empty($description) && empty($title)) {
+            throw new Exception('Missing tip description or title in resolved tip payload.');
+        }
+
+        $recordId = null;
+        if ($this->pdo instanceof PDO) {
+            $stmt = $this->pdo->prepare("INSERT INTO received_resolved_tips (tip_id, incident_id, incident_type, title, description, location, district, resolved_by, resolution_notes, evidence_url, resolved_at, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Logged')");
+            $stmt->execute([$tipId, $incidentId, $incidentType, $title, $description, $location, $district, $resolvedBy, $resolutionNotes, $evidenceUrl, $resolvedAt]);
+            $recordId = $this->pdo->lastInsertId();
+
+            // Also check if incidents table exists and insert as an incident record for Incident Logging & Classification module
+            try {
+                $checkIncidents = $this->pdo->query("SHOW TABLES LIKE 'incidents'");
+                if ($checkIncidents && $checkIncidents->rowCount() > 0) {
+                    $incStmt = $this->pdo->prepare("INSERT INTO incidents (title, description, incident_type, location, status, reporter_name, created_at) VALUES (?, ?, ?, ?, 'Resolved', ?, NOW())");
+                    $incStmt->execute([
+                        '[Resolved Tip] ' . $title,
+                        "Tip ID: {$tipId}\nResolution Notes: {$resolutionNotes}\n" . $description,
+                        $incidentType,
+                        $location,
+                        $resolvedBy
+                    ]);
+                }
+            } catch (Exception $e) {
+                error_log("Notice: Could not mirror resolved tip to main incidents table: " . $e->getMessage());
+            }
+
+            $this->saveLog('incoming_resolved_tip', 'https://surveillance.alertaraqc.com', $data, [
+                'status' => 'success',
+                'record_id' => $recordId,
+                'tip_id' => $tipId
+            ], 'logged');
+        }
+
+        return [
+            'success' => true,
+            'message' => 'Resolved tip received and classified into Incident Logging module successfully.',
+            'record_id' => $recordId,
+            'tip_id' => $tipId,
+            'incident_id' => $incidentId,
+            'received_at' => date('Y-m-d H:i:s')
         ];
     }
 
