@@ -1811,4 +1811,121 @@ body.has-sidebar.sidebar-collapsed {
     font-size: 0.75rem;
     color: #6a7f7d;
 }
+
+/* Sidebar Dropdown Accordion Styles */
+.sidebar-menu-item.has-dropdown {
+    position: relative;
+}
+
+.sidebar-dropdown-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+
+.dropdown-arrow {
+    font-size: 0.75rem;
+    margin-left: auto;
+    transition: transform 0.25s ease;
+    opacity: 0.7;
+}
+
+.sidebar-menu-item.has-dropdown.open .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+.sidebar-link.active-parent {
+    background-color: rgba(76, 138, 137, 0.12);
+    color: #1b5a56;
+    font-weight: 600;
+}
+
+.sidebar-submenu {
+    list-style: none;
+    padding: 0.25rem 0 0.25rem 1.25rem;
+    margin: 0;
+    display: none;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.sidebar-submenu.show {
+    display: flex;
+}
+
+.sidebar-submenu-item {
+    position: relative;
+}
+
+.sidebar-submenu-link {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.45rem 0.75rem;
+    color: #4a5568;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.825rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.sidebar-submenu-link .sidebar-subicon {
+    font-size: 0.8rem;
+    width: 16px;
+    text-align: center;
+    color: #718096;
+}
+
+.sidebar-submenu-link:hover {
+    background-color: #e6f4f2;
+    color: #1b5a56;
+}
+
+.sidebar-submenu-link:hover .sidebar-subicon {
+    color: #1b5a56;
+}
+
+.sidebar-submenu-link.active {
+    background-color: #4c8a89;
+    color: #ffffff !important;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(76, 138, 137, 0.3);
+}
+
+.sidebar-submenu-link.active .sidebar-subicon {
+    color: #ffffff !important;
+}
+
+/* Dark Theme Support for Submenus */
+[data-theme="dark"] .sidebar-link:hover,
+body.dark-mode .sidebar-link:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #64ffda;
+}
+
+[data-theme="dark"] .sidebar-link.active-parent,
+body.dark-mode .sidebar-link.active-parent {
+    background-color: rgba(100, 255, 218, 0.15);
+    color: #64ffda;
+}
+
+[data-theme="dark"] .sidebar-submenu-link,
+body.dark-mode .sidebar-submenu-link {
+    color: #a0aec0;
+}
+
+[data-theme="dark"] .sidebar-submenu-link:hover,
+body.dark-mode .sidebar-submenu-link:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #64ffda;
+}
+
+[data-theme="dark"] .sidebar-submenu-link.active,
+body.dark-mode .sidebar-submenu-link.active {
+    background-color: #4c8a89;
+    color: #ffffff !important;
+}
 

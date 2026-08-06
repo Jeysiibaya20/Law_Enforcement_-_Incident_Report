@@ -62,10 +62,15 @@ $stats = getCaseStatistics();
 <div class="main-content">
     <div class="content-container">
         <div class="d-flex justify-content-between align-items-center mb-4">
-            <h1 class="h2">Case Management</h1>
             <div>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createCaseModal">
-                    <i class="bi bi-plus-circle"></i> Create New Case
+                <h1 class="h2 mb-1"><?= (isset($_GET['status']) && strtolower($_GET['status']) === 'closed') ? 'Closed Cases' : 'Case Management' ?></h1>
+                <p class="text-muted small mb-0"><?= (isset($_GET['status']) && strtolower($_GET['status']) === 'closed') ? 'Archived and settled cases' : 'Track and manage law enforcement & barangay cases' ?></p>
+            </div>
+            <div class="d-flex gap-2">
+                <a href="cases.php" class="btn btn-outline-secondary btn-sm <?= (!isset($_GET['status']) || $_GET['status'] === '') ? 'active' : '' ?>">All Cases</a>
+                <a href="cases.php?status=Closed" class="btn btn-outline-danger btn-sm <?= (isset($_GET['status']) && strtolower($_GET['status']) === 'closed') ? 'active' : '' ?>"><i class="fas fa-folder-minus me-1"></i> Closed Cases</a>
+                <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#createCaseModal">
+                    <i class="bi bi-plus-circle me-1"></i> Create New Case
                 </button>
             </div>
         </div>

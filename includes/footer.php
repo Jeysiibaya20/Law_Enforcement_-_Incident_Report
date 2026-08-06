@@ -48,6 +48,36 @@ document.addEventListener('DOMContentLoaded', function() {
     if (menuToggle) menuToggle.addEventListener('click', toggleSidebar);
     if (sidebarOverlay) sidebarOverlay.addEventListener('click', toggleSidebar);
 
+    // 1.5 Sidebar Submenu Accordion Handler
+    const dropdownToggles = document.querySelectorAll('.sidebar-dropdown-toggle');
+    dropdownToggles.forEach(toggle => {
+        toggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            const parentItem = this.closest('.sidebar-menu-item');
+            if (!parentItem) return;
+            const submenu = parentItem.querySelector('.sidebar-submenu');
+            if (!submenu) return;
+
+            const isOpen = parentItem.classList.contains('open');
+
+            document.querySelectorAll('.sidebar-menu-item.has-dropdown').forEach(item => {
+                if (item !== parentItem) {
+                    item.classList.remove('open');
+                    const sub = item.querySelector('.sidebar-submenu');
+                    if (sub) sub.classList.remove('show');
+                }
+            });
+
+            if (isOpen) {
+                parentItem.classList.remove('open');
+                submenu.classList.remove('show');
+            } else {
+                parentItem.classList.add('open');
+                submenu.classList.add('show');
+            }
+        });
+    });
+
     // 2. Realtime Theme Mode Handler
     function setTheme(theme) {
         document.documentElement.setAttribute('data-theme', theme);
@@ -81,15 +111,20 @@ document.addEventListener('DOMContentLoaded', function() {
     if (searchInput && searchDropdown) {
         const pages = [
             { name: 'Dashboard', url: '<?php echo $base_url; ?>admin/dashboard.php', category: 'Admin' },
-            { name: 'Case Tracking', url: '<?php echo $base_url; ?>admin/cases.php', category: 'Cases' },
-            { name: 'Blotter Records', url: '<?php echo $base_url; ?>admin/blotters.php', category: 'Incident' },
+            { name: 'Blotter (Digital Blotter)', url: '<?php echo $base_url; ?>admin/blotters.php', category: 'Digital Blotter' },
+            { name: 'Certificate of File Action', url: '<?php echo $base_url; ?>admin/certificate_of_file_action.php', category: 'Digital Blotter' },
+            { name: 'Summons', url: '<?php echo $base_url; ?>admin/Summons.php', category: 'Cases Mgmt' },
+            { name: 'Hearing Schedule', url: '<?php echo $base_url; ?>admin/Hearing_schedule.php', category: 'Cases Mgmt' },
+            { name: 'Hearing Result', url: '<?php echo $base_url; ?>admin/hearing_result.php', category: 'Cases Mgmt' },
+            { name: 'Settlement', url: '<?php echo $base_url; ?>admin/settle.php', category: 'Cases Mgmt' },
+            { name: 'Close Cases', url: '<?php echo $base_url; ?>admin/cases.php?status=Closed', category: 'Cases Mgmt' },
+            { name: 'Suspects & Witnesses', url: '<?php echo $base_url; ?>admin/suspects_management.php', category: 'Management' },
+            { name: 'Incident Report', url: '<?php echo $base_url; ?>modules/Incident_report.php', category: 'Incident' },
+            { name: 'Request Form', url: '<?php echo $base_url; ?>modules/Request_form.php', category: 'Services' },
+            { name: 'All Cases', url: '<?php echo $base_url; ?>admin/cases.php', category: 'Cases' },
             { name: 'Account Approvals', url: '<?php echo $base_url; ?>admin/account_approvals.php', category: 'Users' },
             { name: 'Reports & Analytics', url: '<?php echo $base_url; ?>admin/reports.php', category: 'Reports' },
-            { name: 'Hearing Schedule', url: '<?php echo $base_url; ?>admin/Hearing_schedule.php', category: 'Hearings' },
-            { name: 'Hearing Result', url: '<?php echo $base_url; ?>admin/hearing_result.php', category: 'Hearings' },
-            { name: 'CCTV / Request Form', url: '<?php echo $base_url; ?>modules/Request_form.php', category: 'Services' },
             { name: 'Evidence Collection', url: '<?php echo $base_url; ?>modules/evidence_collection.php', category: 'Evidence' },
-            { name: 'File Incident Report', url: '<?php echo $base_url; ?>modules/Incident_report.php', category: 'Public' },
             { name: 'My Reports', url: '<?php echo $base_url; ?>modules/my_reports.php', category: 'Public' }
         ];
 

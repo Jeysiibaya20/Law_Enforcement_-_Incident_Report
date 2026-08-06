@@ -83,67 +83,115 @@ $current_page = strtolower(basename($_SERVER['PHP_SELF']));
                 </div>
                 
                 <!-- Incident & Case Management Section -->
+                <?php
+                    $status_param = strtolower($_GET['status'] ?? '');
+                    $is_blotter_active = in_array($current_page, ['blotters.php', 'blotter.php', 'blotter_create.php', 'blotter_update.php', 'blotter_view.php', 'certificate_of_file_action.php']);
+                    $is_cases_mgmt_active = in_array($current_page, ['summons.php', 'hearing_schedule.php', 'hearing_result.php', 'settle.php']) || ($current_page === 'cases.php' && $status_param === 'closed');
+                ?>
                 <div class="sidebar-section">
                     <h3 class="sidebar-section-title">INCIDENT MANAGEMENT</h3>
                     <ul class="sidebar-menu">
-                        <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>admin/cases.php" class="sidebar-link sidebar-accent-2way <?php echo $current_page === 'cases.php' ? 'active' : ''; ?>">
-                                <i class="fas fa-briefcase sidebar-icon" aria-hidden="true"></i>
-                                <span>Case Tracking</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>admin/blotters.php" class="sidebar-link sidebar-accent-mass <?php echo $current_page === 'blotters.php' ? 'active' : ''; ?>">
+                        <!-- Digital Blotter Dropdown -->
+                        <li class="sidebar-menu-item has-dropdown <?php echo $is_blotter_active ? 'open' : ''; ?>">
+                            <a href="javascript:void(0);" class="sidebar-link sidebar-dropdown-toggle <?php echo $is_blotter_active ? 'active-parent' : ''; ?>">
                                 <i class="fas fa-clipboard-list sidebar-icon" aria-hidden="true"></i>
-                                <span>Blotter Registry</span>
+                                <span>Digital Blotter</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
                             </a>
+                            <ul class="sidebar-submenu <?php echo $is_blotter_active ? 'show' : ''; ?>">
+                                <li class="sidebar-submenu-item">
+                                    <a href="<?php echo $base_url; ?>admin/blotters.php" class="sidebar-submenu-link <?php echo (in_array($current_page, ['blotters.php', 'blotter.php', 'blotter_create.php', 'blotter_update.php', 'blotter_view.php'])) ? 'active' : ''; ?>">
+                                        <i class="fas fa-file-alt sidebar-subicon"></i>
+                                        <span>Blotter</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-submenu-item">
+                                    <a href="<?php echo $base_url; ?>admin/certificate_of_file_action.php" class="sidebar-submenu-link <?php echo $current_page === 'certificate_of_file_action.php' ? 'active' : ''; ?>">
+                                        <i class="fas fa-file-contract sidebar-subicon"></i>
+                                        <span>Certificate of File Action</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
+
+                        <!-- Cases Management Dropdown -->
+                        <li class="sidebar-menu-item has-dropdown <?php echo $is_cases_mgmt_active ? 'open' : ''; ?>">
+                            <a href="javascript:void(0);" class="sidebar-link sidebar-dropdown-toggle <?php echo $is_cases_mgmt_active ? 'active-parent' : ''; ?>">
+                                <i class="fas fa-gavel sidebar-icon" aria-hidden="true"></i>
+                                <span>Cases Management</span>
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </a>
+                            <ul class="sidebar-submenu <?php echo $is_cases_mgmt_active ? 'show' : ''; ?>">
+                                <li class="sidebar-submenu-item">
+                                    <a href="<?php echo $base_url; ?>admin/Summons.php" class="sidebar-submenu-link <?php echo $current_page === 'summons.php' ? 'active' : ''; ?>">
+                                        <i class="fas fa-envelope-open-text sidebar-subicon"></i>
+                                        <span>Summons</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-submenu-item">
+                                    <a href="<?php echo $base_url; ?>admin/Hearing_schedule.php" class="sidebar-submenu-link <?php echo $current_page === 'hearing_schedule.php' ? 'active' : ''; ?>">
+                                        <i class="fas fa-calendar-alt sidebar-subicon"></i>
+                                        <span>Hearing Schedule</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-submenu-item">
+                                    <a href="<?php echo $base_url; ?>admin/hearing_result.php" class="sidebar-submenu-link <?php echo $current_page === 'hearing_result.php' ? 'active' : ''; ?>">
+                                        <i class="fas fa-poll-h sidebar-subicon"></i>
+                                        <span>Hearing Result</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-submenu-item">
+                                    <a href="<?php echo $base_url; ?>admin/settle.php" class="sidebar-submenu-link <?php echo $current_page === 'settle.php' ? 'active' : ''; ?>">
+                                        <i class="fas fa-handshake sidebar-subicon"></i>
+                                        <span>Settlement</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-submenu-item">
+                                    <a href="<?php echo $base_url; ?>admin/cases.php?status=Closed" class="sidebar-submenu-link <?php echo ($current_page === 'cases.php' && $status_param === 'closed') ? 'active' : ''; ?>">
+                                        <i class="fas fa-folder-minus sidebar-subicon"></i>
+                                        <span>Close Cases</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Suspects & Witnesses Direct Link -->
                         <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>admin/suspects_management.php" class="sidebar-link sidebar-accent-categorization <?php echo ($current_page === 'suspects_management.php' || $current_page === 'suspects&witnesses.php') ? 'active' : ''; ?>">
+                            <a href="<?php echo $base_url; ?>admin/suspects_management.php" class="sidebar-link sidebar-accent-categorization <?php echo (in_array($current_page, ['suspects_management.php', 'suspects&witnesses.php', 'witnesses_management.php'])) ? 'active' : ''; ?>">
                                 <i class="fas fa-user-secret sidebar-icon" aria-hidden="true"></i>
                                 <span>Suspects & Witnesses</span>
                             </a>
                         </li>
+
+                        <!-- Incident Report Direct Link -->
                         <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>admin/Hearing_schedule.php" class="sidebar-link sidebar-accent-auto <?php echo $current_page === 'hearing_schedule.php' ? 'active' : ''; ?>">
-                                <i class="fas fa-gavel sidebar-icon" aria-hidden="true"></i>
-                                <span>Hearing Schedule</span>
+                            <a href="<?php echo $base_url; ?>modules/Incident_report.php" class="sidebar-link sidebar-accent-mass <?php echo $current_page === 'incident_report.php' ? 'active' : ''; ?>">
+                                <i class="fas fa-exclamation-triangle sidebar-icon" aria-hidden="true"></i>
+                                <span>Incident Report</span>
                             </a>
                         </li>
+
+                        <!-- Request Form Direct Link -->
                         <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>admin/hearing_result.php" class="sidebar-link sidebar-accent-overview <?php echo $current_page === 'hearing_result.php' ? 'active' : ''; ?>">
-                                <i class="fas fa-poll-h sidebar-icon" aria-hidden="true"></i>
-                                <span>Hearing Result</span>
+                            <a href="<?php echo $base_url; ?>modules/Request_form.php" class="sidebar-link sidebar-accent-weather <?php echo (in_array($current_page, ['request_form.php', 'cctv_request.php'])) ? 'active' : ''; ?>">
+                                <i class="fas fa-file-signature sidebar-icon" aria-hidden="true"></i>
+                                <span>Request Form</span>
                             </a>
                         </li>
+
+                        <!-- Case Tracking Direct Link -->
                         <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>modules/Request_form.php" class="sidebar-link sidebar-accent-weather <?php echo ($current_page === 'request_form.php' || $current_page === 'cctv_request.php') ? 'active' : ''; ?>">
-                                <i class="fas fa-video sidebar-icon" aria-hidden="true"></i>
-                                <span>CCTV / Request Form</span>
+                            <a href="<?php echo $base_url; ?>admin/cases.php" class="sidebar-link sidebar-accent-2way <?php echo ($current_page === 'cases.php' && $status_param !== 'closed') ? 'active' : ''; ?>">
+                                <i class="fas fa-briefcase sidebar-icon" aria-hidden="true"></i>
+                                <span>All Cases</span>
                             </a>
                         </li>
+
+                        <!-- Evidence Collection -->
                         <li class="sidebar-menu-item">
                             <a href="<?php echo $base_url; ?>modules/evidence_collection.php" class="sidebar-link sidebar-accent-language <?php echo $current_page === 'evidence_collection.php' ? 'active' : ''; ?>">
                                 <i class="fas fa-box-open sidebar-icon" aria-hidden="true"></i>
                                 <span>Evidence Collection</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>admin/Summons.php" class="sidebar-link sidebar-accent-multilang <?php echo $current_page === 'summons.php' ? 'active' : ''; ?>">
-                                <i class="fas fa-envelope-open-text sidebar-icon" aria-hidden="true"></i>
-                                <span>Summons Notices</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>admin/certificate_of_file_action.php" class="sidebar-link sidebar-accent-citizen <?php echo $current_page === 'certificate_of_file_action.php' ? 'active' : ''; ?>">
-                                <i class="fas fa-file-contract sidebar-icon" aria-hidden="true"></i>
-                                <span>Certificates of Action</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>admin/settle.php" class="sidebar-link sidebar-accent-audit <?php echo $current_page === 'settle.php' ? 'active' : ''; ?>">
-                                <i class="fas fa-handshake sidebar-icon" aria-hidden="true"></i>
-                                <span>Settlement Records</span>
                             </a>
                         </li>
                     </ul>
