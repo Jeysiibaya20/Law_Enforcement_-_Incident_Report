@@ -183,4 +183,18 @@ if ($action === 'receive') {
     jsonResponse(['success' => true, 'message' => 'Data received successfully', 'received' => $payload]);
 }
 
+if ($action === 'process_module') {
+    require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+    $integrator = new OperationalModuleIntegrator($pdo);
+    $output = $integrator->processInbound($payload);
+    logExternalIntegration('process_module', $output);
+    ensureIntegrationTable($pdo);
+    saveIntegrationRecord($pdo, 'process_module', [
+        'payload' => $payload,
+        'response' => $output,
+        'status' => 'processed'
+    ]);
+    jsonResponse(['success' => true, 'processed_output' => $output]);
+}
+
 jsonResponse(['success' => false, 'error' => 'Invalid action'], 400);

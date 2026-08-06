@@ -74,6 +74,12 @@ $current_page = strtolower(basename($_SERVER['PHP_SELF']));
                             </a>
                         </li>
                         <li class="sidebar-menu-item">
+                            <a href="<?php echo $base_url; ?>admin/external_integrations.php" class="sidebar-link sidebar-accent-auto <?php echo $current_page === 'external_integrations.php' ? 'active' : ''; ?>">
+                                <i class="fas fa-network-wired sidebar-icon" aria-hidden="true"></i>
+                                <span>External Integrations</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-menu-item">
                             <a href="<?php echo $base_url; ?>admin/settings.php" class="sidebar-link sidebar-accent-settings <?php echo ($current_page === 'settings.php' && !isset($_GET['tab'])) ? 'active' : ''; ?>">
                                 <i class="fas fa-cog sidebar-icon" aria-hidden="true"></i>
                                 <span>Settings</span>
