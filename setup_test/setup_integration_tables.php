@@ -3,9 +3,11 @@
  * Setup script for External Integration & CCTV / Resolved Tips tables
  */
 require_once __DIR__ . '/../config/db_connect.php';
+require_once __DIR__ . '/../config/integration_config.php';
 
 try {
     $pdo = getDBConnection();
+    ensureIntegrationSettingsSchema($pdo);
 
     // 1. External Integration Log
     $pdo->exec("CREATE TABLE IF NOT EXISTS external_integration_log (

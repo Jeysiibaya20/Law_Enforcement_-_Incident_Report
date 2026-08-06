@@ -1,18 +1,17 @@
 <?php
 /**
- * Operational Module Integrator & Assistant Engine - Polished Integration Layer
- * Standardizes raw inbound data from external input modules (Group 3, Group 4),
- * generates structured outputs for downstream modules (Group 3, Group 5, Group 7),
- * and handles live bi-directional integration with Partner Surveillance API endpoints.
+ * Operational Module Integrator & Assistant Engine - Integration Ready Layer
  */
+require_once __DIR__ . '/../config/integration_config.php';
 
 class OperationalModuleIntegrator {
     private $pdo;
-    private $partnerCctvEndpoint = 'https://surveillance.alertaraqc.com/api/cctv_requests_receive.php';
+    private $partnerCctvEndpoint;
     private $timeout = 15;
 
     public function __construct($pdo = null) {
         $this->pdo = $pdo;
+        $this->partnerCctvEndpoint = getIntegrationSetting('cctv_request_api_url', 'https://surveillance.alertaraqc.com/api/cctv_requests_receive.php');
         if ($this->pdo instanceof PDO) {
             $this->ensureSchema();
         }
@@ -132,55 +131,74 @@ class OperationalModuleIntegrator {
      * Dispatch Payload Directly to Partner Surveillance API
      */
     public function dispatchToPartnerCctvApi(array $cctvPayload): array {
-        $endpoint = $cctvPayload['endpoint'] ?? $this->partnerCctvEndpoint;
+        $endpoint = getIntegrationSetting('cctv_request_api_url', $this->partnerCctvEndpoint);
         $params = $cctvPayload['request_parameters'] ?? $cctvPayload;
 
-        if (!function_exists('curl_init')) {
-            $mockResponse = [
-                'status' => 'simulated',
-                'message' => 'cURL not available in current PHP CLI runtime; payload prepared for POST to ' . $endpoint,
-                'payload_sent' => $params
-            ];
-            if ($this->pdo instanceof PDO) {
-                $this->saveLog('outgoing_cctv', $endpoint, $params, $mockResponse, 'simulated');
-            }
-            return $mockResponse;
-        }
-
-        $ch = curl_init($endpoint);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, [
-            'Content-Type: application/json',
-            'Accept: application/json',
-            'X-Partner-Client: AlertaraQC-Incident-System/2.0'
-        ]);
-        curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($params, JSON_UNESCAPED_UNICODE));
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
-        curl_setopt($ch, CURLOPT_TIMEOUT, $this->timeout);
-
-        $responseRaw = curl_exec($ch);
-        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        $curlErr = curl_error($ch);
-        curl_close($ch);
-
-        $responseDecoded = json_decode($responseRaw, true) ?: ['raw_response' => $responseRaw];
-
-        $status = ($httpCode >= 200 && $httpCode < 300) ? 'success' : 'partner_api_offline_or_failed';
-
-        $dispatchResult = [
-            'http_code' => $httpCode,
-            'endpoint' => $endpoint,
-            'success' => ($httpCode >= 200 && $httpCode < 300),
-            'response' => $responseDecoded,
-            'curl_error' => $curlErr ?: null
-        ];
+        $result = dispatchPayloadToEndpoint($endpoint, $params, [], $this->timeout);
+        $status = $result['success'] ? 'success' : 'partner_api_offline_or_failed';
 
         if ($this->pdo instanceof PDO) {
-            $this->saveLog('outgoing_cctv', $endpoint, $params, $dispatchResult, $status);
+            $this->saveLog('outgoing_cctv', $endpoint, $params, $result, $status);
         }
 
-        return $dispatchResult;
+        return $result;
+    }
+
+    /**
+     * Dispatch Payload to Group 7 Inspection Scheduling API
+     */
+    public function dispatchToGroup7InspectionApi(array $g7Payload): array {
+        $endpoint = getIntegrationSetting('group7_inspection_api_url', 'https://inspection.alertaraqc.com/api/schedule_inspection.php');
+        $result = dispatchPayloadToEndpoint($endpoint, $g7Payload, [], $this->timeout);
+        $status = $result['success'] ? 'success' : 'failed';
+
+        if ($this->pdo instanceof PDO) {
+            $this->saveLog('outgoing_group7_inspection', $endpoint, $g7Payload, $result, $status);
+        }
+
+        return $result;
+    }
+
+    /**
+     * Dispatch Payload to Group 5 Crime Mapping & GIS API
+     */
+    public function dispatchToGroup5CrimeMapApi(array $g5Payload): array {
+        $endpoint = getIntegrationSetting('group5_crime_map_api_url', 'https://crimemap.alertaraqc.com/api/update_heatmap.php');
+        $result = dispatchPayloadToEndpoint($endpoint, $g5Payload, [], $this->timeout);
+        $status = $result['success'] ? 'success' : 'failed';
+
+        if ($this->pdo instanceof PDO) {
+            $this->saveLog('outgoing_group5_crimemap', $endpoint, $g5Payload, $result, $status);
+        }
+
+        return $result;
+    }
+
+    /**
+     * Dispatch Payload to Group 3 Emergency EMS & Resource Allocation API
+     */
+    public function dispatchToGroup3ResourceApi(array $g3Payload): array {
+        $endpoint = getIntegrationSetting('group3_resource_api_url', 'https://dispatch.alertaraqc.com/api/assign_officer.php');
+        $result = dispatchPayloadToEndpoint($endpoint, $g3Payload, [], $this->timeout);
+        $status = $result['success'] ? 'success' : 'failed';
+
+        if ($this->pdo instanceof PDO) {
+            $this->saveLog('outgoing_group3_resource', $endpoint, $g3Payload, $result, $status);
+        }
+
+        return $result;
+    }
+
+    /**
+     * Dispatch payloads to all connected external modules at once
+     */
+    public function dispatchToAllConnectedModules(array $modulePayloads): array {
+        return [
+            'cctv_partner' => $this->dispatchToPartnerCctvApi($modulePayloads['cctv_partner_surveillance_api'] ?? []),
+            'group7_inspection' => $this->dispatchToGroup7InspectionApi($modulePayloads['group_7_inspection_scheduling'] ?? []),
+            'group5_crime_map' => $this->dispatchToGroup5CrimeMapApi($modulePayloads['group_5_crime_mapping'] ?? []),
+            'group3_resource' => $this->dispatchToGroup3ResourceApi($modulePayloads['group_3_resource_allocation'] ?? [])
+        ];
     }
 
     /**

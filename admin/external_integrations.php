@@ -93,7 +93,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $messageType = "danger";
         }
     }
+
+    if ($action === 'save_integration_settings') {
+        setIntegrationSetting('cctv_request_api_url', $_POST['cctv_request_api_url'] ?? '');
+        setIntegrationSetting('group7_inspection_api_url', $_POST['group7_inspection_api_url'] ?? '');
+        setIntegrationSetting('group5_crime_map_api_url', $_POST['group5_crime_map_api_url'] ?? '');
+        setIntegrationSetting('group3_resource_api_url', $_POST['group3_resource_api_url'] ?? '');
+        setIntegrationSetting('external_api_secret', $_POST['external_api_secret'] ?? '');
+        setIntegrationSetting('auto_dispatch_cctv', !empty($_POST['auto_dispatch_cctv']) ? '1' : '0');
+        $message = "Integration API settings updated successfully! Target endpoints are saved and ready.";
+        $messageType = "success";
+    }
+
+    if ($action === 'ping_endpoint') {
+        $targetUrl = trim($_POST['target_url'] ?? '');
+        $moduleName = trim($_POST['module_name'] ?? 'Target Endpoint');
+        if (!empty($targetUrl)) {
+            $pingRes = dispatchPayloadToEndpoint($targetUrl, ['action' => 'ping', 'system' => 'AlertaraQC', 'timestamp' => date('c')]);
+            $message = "Ping test for " . htmlspecialchars($moduleName) . " (" . htmlspecialchars($targetUrl) . "). HTTP Status: " . ($pingRes['http_code'] ?: 'Offline/Simulated');
+            $messageType = $pingRes['success'] ? 'success' : 'warning';
+        }
+    }
 }
+
+$integrationSettings = getAllIntegrationSettings();
 
 // Fetch recent integration logs
 $logs = [];
@@ -127,21 +150,21 @@ try {
         <!-- Partner Integration API Specifications Banner -->
         <div class="card mb-4 bg-light border-primary shadow-sm">
             <div class="card-header bg-primary text-white fw-bold d-flex align-items-center">
-                <i class="fas fa-network-wired me-2"></i> Partner Surveillance API Specifications (surveillance.alertaraqc.com)
+                <i class="fas fa-network-wired me-2"></i> Partner Integration Specifications & Inbound Webhook URLs
             </div>
             <div class="card-body">
                 <div class="row g-3">
                     <div class="col-md-4">
                         <div class="p-3 bg-white border rounded h-100">
-                            <span class="badge bg-danger mb-2">OUTGOING POST</span>
-                            <h6 class="fw-bold text-dark mb-1">Send CCTV Request</h6>
-                            <code class="small text-break">https://surveillance.alertaraqc.com/api/cctv_requests_receive.php</code>
+                            <span class="badge bg-danger mb-2">OUTGOING DISPATCH</span>
+                            <h6 class="fw-bold text-dark mb-1">CCTV Request Target</h6>
+                            <code class="small text-break"><?= htmlspecialchars($integrationSettings['cctv_request_api_url'] ?? '') ?></code>
                             <p class="small text-muted mt-2 mb-0">Dispatches automated CCTV footage requests to surveillance partner team.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="p-3 bg-white border rounded h-100">
-                            <span class="badge bg-success mb-2">INCOMING RECEIVER</span>
+                            <span class="badge bg-success mb-2">INCOMING WEBHOOK</span>
                             <h6 class="fw-bold text-dark mb-1">Receive CCTV Footage</h6>
                             <code class="small text-break">/api/cctv_footage_receive.php</code>
                             <p class="small text-muted mt-2 mb-0">Partner POSTs fulfilled CCTV footage & video links directly to this system.</p>
@@ -149,13 +172,84 @@ try {
                     </div>
                     <div class="col-md-4">
                         <div class="p-3 bg-white border rounded h-100">
-                            <span class="badge bg-success mb-2">INCOMING RECEIVER</span>
+                            <span class="badge bg-success mb-2">INCOMING WEBHOOK</span>
                             <h6 class="fw-bold text-dark mb-1">Receive Resolved Tips</h6>
                             <code class="small text-break">/api/receive_resolved_tips.php</code>
                             <p class="small text-muted mt-2 mb-0">Partner POSTs resolved tips to log & classify into Incident module.</p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Integration Ready Endpoint Manager Form -->
+        <div class="card mb-4 border-dark shadow-sm">
+            <div class="card-header bg-dark text-white fw-bold d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-sliders-h me-2 text-warning"></i>Integration Ready Endpoint Manager (Configure API Target URLs)</span>
+                <span class="badge bg-warning text-dark"><i class="fas fa-plug me-1"></i>Integration Ready</span>
+            </div>
+            <div class="card-body">
+                <p class="small text-muted mb-4">Input or update the destination API URLs for external partner systems. All modules are pre-configured to route payloads to these target endpoints as soon as external APIs go live.</p>
+
+                <form method="POST">
+                    <input type="hidden" name="action" value="save_integration_settings">
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-video text-success me-2"></i>1. Partner CCTV Request API URL</label>
+                            <div class="input-group">
+                                <input type="url" name="cctv_request_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['cctv_request_api_url'] ?? '') ?>" placeholder="https://surveillance.alertaraqc.com/api/cctv_requests_receive.php" required>
+                            </div>
+                            <small class="text-muted">Target endpoint for CCTV footage & still photo requests.</small>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-calendar-check text-primary me-2"></i>2. Group 7 Inspection Scheduling API URL</label>
+                            <div class="input-group">
+                                <input type="url" name="group7_inspection_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['group7_inspection_api_url'] ?? '') ?>" placeholder="https://inspection.alertaraqc.com/api/schedule_inspection.php">
+                            </div>
+                            <small class="text-muted">Target endpoint for inspection scheduling and case referral.</small>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-map-marked-alt text-info me-2"></i>3. Group 5 Crime Mapping GIS API URL</label>
+                            <div class="input-group">
+                                <input type="url" name="group5_crime_map_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['group5_crime_map_api_url'] ?? '') ?>" placeholder="https://crimemap.alertaraqc.com/api/update_heatmap.php">
+                            </div>
+                            <small class="text-muted">Target endpoint for real-time GIS spatial heatmap updates.</small>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-ambulance text-warning me-2"></i>4. Group 3 EMS & Resource Allocation API URL</label>
+                            <div class="input-group">
+                                <input type="url" name="group3_resource_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['group3_resource_api_url'] ?? '') ?>" placeholder="https://dispatch.alertaraqc.com/api/assign_officer.php">
+                            </div>
+                            <small class="text-muted">Target endpoint for officer dispatch and emergency unit tracking.</small>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-key text-danger me-2"></i>Shared Secret Token / API Key (Optional)</label>
+                            <input type="text" name="external_api_secret" class="form-control" value="<?= htmlspecialchars($integrationSettings['external_api_secret'] ?? '') ?>" placeholder="Enter shared secret token for header verification">
+                            <small class="text-muted">Transmitted in <code>X-External-Secret</code> header for secure API authentication.</small>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-cogs me-2"></i>Automation Rules</label>
+                            <div class="form-check mt-2">
+                                <input class="form-check-input" type="checkbox" name="auto_dispatch_cctv" id="autoDispatchCheckGlobal" value="1" <?= !empty($integrationSettings['auto_dispatch_cctv']) ? 'checked' : '' ?>>
+                                <label class="form-check-label fw-semibold" for="autoDispatchCheckGlobal">
+                                    Automatically dispatch CCTV query whenever a high-urgency incident is logged
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-end mt-4">
+                        <button type="submit" class="btn btn-primary px-4 fw-bold">
+                            <i class="fas fa-save me-2"></i>Save Integration Settings
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
 
