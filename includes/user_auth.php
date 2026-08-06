@@ -1,8 +1,8 @@
 <?php
 /**
  * User & Resident Authentication Guard
- * Ensures user-side pages are accessible ONLY to regular resident users.
- * Redirects Admin & Officer accounts strictly to the Admin Portal (admin/dashboard.php).
+ * Ensures user is authenticated to view resident modules.
+ * Allows both residents and admins to view user-side pages with the Public Services layout.
  */
 
 if (session_status() === PHP_SESSION_NONE) {
@@ -14,13 +14,6 @@ $base_url = isset($base_url) ? $base_url : (strpos(str_replace('\\', '/', $_SERV
 // 1. Unauthenticated users must log in
 if (empty($_SESSION['user_id'])) {
     header('Location: ' . $base_url . 'auth/login.php');
-    exit();
-}
-
-// 2. Strict Role Check: Admin accounts belong in the Admin Portal ONLY
-$sessionRole = strtolower(trim($_SESSION['role'] ?? ''));
-if (strpos($sessionRole, 'admin') !== false || strpos($sessionRole, 'officer') !== false || strpos($sessionRole, 'official') !== false) {
-    header('Location: ' . $base_url . 'admin/dashboard.php');
     exit();
 }
 ?>
