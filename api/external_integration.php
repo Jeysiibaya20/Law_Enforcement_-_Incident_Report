@@ -219,4 +219,48 @@ if ($action === 'receive_resolved_tip') {
     }
 }
 
+if ($action === 'fetch_campaigns') {
+    require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+    $integrator = new OperationalModuleIntegrator($pdo);
+    try {
+        $result = $integrator->fetchPublicCampaigns();
+        jsonResponse($result, 200);
+    } catch (Exception $e) {
+        jsonResponse(['success' => false, 'error' => $e->getMessage()], 400);
+    }
+}
+
+if ($action === 'receive_community_complaint') {
+    require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+    $integrator = new OperationalModuleIntegrator($pdo);
+    try {
+        $result = $integrator->processIncomingCommunityComplaint($payload);
+        jsonResponse($result, 200);
+    } catch (Exception $e) {
+        jsonResponse(['success' => false, 'error' => $e->getMessage()], 400);
+    }
+}
+
+if ($action === 'receive_emergency_call') {
+    require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+    $integrator = new OperationalModuleIntegrator($pdo);
+    try {
+        $result = $integrator->processIncomingEmergencyCall($payload);
+        jsonResponse($result, 200);
+    } catch (Exception $e) {
+        jsonResponse(['success' => false, 'error' => $e->getMessage()], 400);
+    }
+}
+
+if ($action === 'receive_anonymous_tip') {
+    require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+    $integrator = new OperationalModuleIntegrator($pdo);
+    try {
+        $result = $integrator->processIncomingAnonymousTip($payload);
+        jsonResponse($result, 200);
+    } catch (Exception $e) {
+        jsonResponse(['success' => false, 'error' => $e->getMessage()], 400);
+    }
+}
+
 jsonResponse(['success' => false, 'error' => 'Invalid action'], 400);

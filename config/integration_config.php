@@ -18,6 +18,7 @@ if (!defined('ALERTARA_INTEGRATION_CONFIG_LOADED')) {
             'group7_inspection_api_url' => 'https://inspection.alertaraqc.com/api/schedule_inspection.php',
             'group5_crime_map_api_url' => 'https://crimemap.alertaraqc.com/api/update_heatmap.php',
             'group3_resource_api_url' => 'https://dispatch.alertaraqc.com/api/assign_officer.php',
+            'campaign_api_url' => 'https://campaign.alertaraqc.com/api/v1/campaigns/public',
             'external_api_secret' => getenv('EXTERNAL_API_SECRET') ?: '',
             'auto_dispatch_cctv' => '0',
             'auto_dispatch_all_modules' => '0'

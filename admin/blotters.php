@@ -97,9 +97,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'dispa
                 } elseif ($target_module === 'resource') {
                     $res = $integrator->dispatchToGroup3ResourceApi($modPayloads['group_3_resource_allocation']);
                     $msgText = "Dispatched unit request to Group 3 Resource Dispatch API (" . htmlspecialchars($res['endpoint']) . ")";
+                } elseif ($target_module === 'campaign') {
+                    $cPayload = [
+                        'title' => 'Public Advisory: ' . ($b['incident_type'] ?? 'Law Enforcement Notice'),
+                        'description' => 'Safety alert notice regarding ' . strtolower($b['incident_type'] ?? 'blotter incident') . ' at ' . ($b['location'] ?? 'Quezon City'),
+                        'category' => 'Public Safety',
+                        'geographical_scope' => 'Barangay',
+                        'status' => 'Active'
+                    ];
+                    $res = $integrator->dispatchToCampaignApi($cPayload);
+                    $msgText = "Dispatched Public Safety Campaign Advisory to Campaign API (" . htmlspecialchars($res['endpoint']) . ")";
                 } else {
                     $allRes = $integrator->dispatchToAllConnectedModules($modPayloads);
-                    $msgText = "Dispatched blotter payload to ALL 4 connected external modules!";
+                    $msgText = "Dispatched blotter payload to ALL connected external modules!";
                 }
 
                 $_SESSION['flash'] = ['type' => 'success', 'message' => "🚀 {$msgText} for Blotter #{$b['blotter_no']}!"];
@@ -390,6 +400,14 @@ try {
                                                     <input type="hidden" name="blotter_id" value="<?= (int)$b['id'] ?>">
                                                     <input type="hidden" name="target_module" value="resource">
                                                     <button type="submit" class="dropdown-item py-1"><i class="fas fa-ambulance text-warning me-2"></i>Dispatch Group 3 EMS/Police</button>
+                                                </form>
+                                            </li>
+                                            <li>
+                                                <form method="POST" class="d-inline">
+                                                    <input type="hidden" name="action" value="dispatch_external_module">
+                                                    <input type="hidden" name="blotter_id" value="<?= (int)$b['id'] ?>">
+                                                    <input type="hidden" name="target_module" value="campaign">
+                                                    <button type="submit" class="dropdown-item py-1"><i class="fas fa-bullhorn text-danger me-2"></i>Publish Public Safety Campaign</button>
                                                 </form>
                                             </li>
                                             <li><hr class="dropdown-divider"></li>

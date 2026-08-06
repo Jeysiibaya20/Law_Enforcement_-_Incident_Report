@@ -447,6 +447,169 @@ class OperationalModuleIntegrator {
         ];
     }
 
+    /**
+     * Dispatch Payload to Public Safety Campaign API (Group 1)
+     */
+    public function dispatchToCampaignApi(array $campaignPayload): array {
+        $endpoint = getIntegrationSetting('campaign_api_url', 'https://campaign.alertaraqc.com/api/v1/campaigns/public');
+        $result = dispatchPayloadToEndpoint($endpoint, $campaignPayload, [], $this->timeout);
+        $status = $result['success'] ? 'success' : 'failed';
+
+        if ($this->pdo instanceof PDO) {
+            $this->saveLog('outgoing_campaign', $endpoint, $campaignPayload, $result, $status);
+        }
+
+        return $result;
+    }
+
+    /**
+     * Fetch Live Campaigns from https://campaign.alertaraqc.com/api/v1/campaigns/public
+     */
+    public function fetchPublicCampaigns(): array {
+        $endpoint = getIntegrationSetting('campaign_api_url', 'https://campaign.alertaraqc.com/api/v1/campaigns/public');
+
+        if (!function_exists('curl_init')) {
+            return ['success' => false, 'message' => 'cURL PHP extension required'];
+        }
+
+        $ch = curl_init($endpoint);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_TIMEOUT, $this->timeout);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Accept: application/json',
+            'X-Partner-Client: AlertaraQC-Incident-System/2.0'
+        ]);
+
+        $responseRaw = curl_exec($ch);
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        $curlErr = curl_error($ch);
+        curl_close($ch);
+
+        $decoded = json_decode($responseRaw, true);
+        $campaigns = $decoded['campaigns'] ?? (is_array($decoded) && isset($decoded[0]) ? $decoded : []);
+
+        if ($this->pdo instanceof PDO && !empty($campaigns)) {
+            try {
+                $stmt = $this->pdo->prepare("INSERT INTO received_campaigns (campaign_id, title, description, category, geographical_scope, start_date, end_date, status, image_url, raw_json) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ON DUPLICATE KEY UPDATE title=VALUES(title), description=VALUES(description), status=VALUES(status)");
+                foreach ($campaigns as $c) {
+                    $stmt->execute([
+                        $c['id'] ?? null,
+                        $c['title'] ?? 'Public Safety Campaign',
+                        $c['description'] ?? '',
+                        $c['category'] ?? 'General',
+                        $c['geographical_scope'] ?? 'Barangay',
+                        $c['start_date'] ?? null,
+                        $c['end_date'] ?? null,
+                        $c['status'] ?? 'Active',
+                        $c['image_url'] ?? null,
+                        json_encode($c, JSON_UNESCAPED_UNICODE)
+                    ]);
+                }
+            } catch (Exception $e) {
+                error_log("Campaign sync error: " . $e->getMessage());
+            }
+
+            $this->saveLog('incoming_campaigns_fetch', $endpoint, ['method' => 'GET'], ['count' => count($campaigns)], 'success');
+        }
+
+        return [
+            'success' => ($httpCode >= 200 && $httpCode < 300),
+            'http_code' => $httpCode,
+            'campaign_count' => count($campaigns),
+            'campaigns' => $campaigns,
+            'curl_error' => $curlErr ?: null
+        ];
+    }
+
+    /**
+     * Process incoming Community Complaint from Group 4 (Community Complaint Logging & Resolution)
+     */
+    public function processIncomingCommunityComplaint(array $data): array {
+        $complaintId = trim($data['complaint_id'] ?? $data['id'] ?? ('COMP-' . date('Ymd') . '-' . rand(1000, 9999)));
+        $name = trim($data['complainant_name'] ?? $data['reporter_name'] ?? 'Resident Complainant');
+        $type = trim($data['incident_type'] ?? $data['category'] ?? 'Community Dispute');
+        $dateTime = trim($data['date_time'] ?? $data['timestamp'] ?? date('Y-m-d H:i:s'));
+        $location = trim($data['location'] ?? $data['address'] ?? 'Quezon City');
+        $description = trim($data['description'] ?? $data['complaint_details'] ?? '');
+        $status = trim($data['status'] ?? 'Pending');
+
+        $recordId = null;
+        if ($this->pdo instanceof PDO) {
+            $stmt = $this->pdo->prepare("INSERT INTO received_community_complaints (complaint_id, complainant_name, incident_type, date_time, location, description, status) VALUES (?, ?, ?, ?, ?, ?, ?)");
+            $stmt->execute([$complaintId, $name, $type, $dateTime, $location, $description, $status]);
+            $recordId = $this->pdo->lastInsertId();
+
+            // Also mirror to Digital Blotter module table if existing
+            try {
+                $checkBlotter = $this->pdo->query("SHOW TABLES LIKE 'blotters'");
+                if ($checkBlotter && $checkBlotter->rowCount() > 0) {
+                    $bStmt = $this->pdo->prepare("INSERT INTO blotters (blotter_no, complainant_name, incident_type, location, incident_narrative, status, created_at) VALUES (?, ?, ?, ?, ?, ?, NOW())");
+                    $bStmt->execute([
+                        'BLOTTER-' . date('Y') . '-' . rand(1000, 9999),
+                        $name,
+                        $type,
+                        $location,
+                        "[Group 4 Complaint #{$complaintId}] " . $description,
+                        'Pending'
+                    ]);
+                }
+            } catch (Exception $e) {
+                error_log("Notice: Could not mirror community complaint to blotters table: " . $e->getMessage());
+            }
+
+            $this->saveLog('incoming_community_complaint', 'Group 4 System', $data, ['record_id' => $recordId], 'received');
+        }
+
+        return [
+            'success' => true,
+            'message' => 'Community complaint received and logged into Digital Blotter module.',
+            'record_id' => $recordId,
+            'complaint_id' => $complaintId
+        ];
+    }
+
+    /**
+     * Process incoming Emergency Call from Group 3 (Emergency Call Receiving and Logging)
+     */
+    public function processIncomingEmergencyCall(array $data): array {
+        $callId = trim($data['call_id'] ?? $data['id'] ?? ('CALL-' . date('Ymd') . '-' . rand(1000, 9999)));
+        $timestamp = trim($data['timestamp'] ?? $data['date_time'] ?? date('Y-m-d H:i:s'));
+        $location = trim($data['caller_location'] ?? $data['location'] ?? 'Quezon City');
+        $emergencyLevel = trim($data['emergency_level'] ?? 'High');
+        $description = trim($data['incident_description'] ?? $data['description'] ?? '');
+
+        return $this->processInbound([
+            'source' => 'group_3_emergency_call',
+            'call_id' => $callId,
+            'timestamp' => $timestamp,
+            'location' => $location,
+            'emergency_level' => $emergencyLevel,
+            'description' => $description
+        ], true);
+    }
+
+    /**
+     * Process incoming Anonymous Tip from Group 4 (Anonymous Tip Line System)
+     */
+    public function processIncomingAnonymousTip(array $data): array {
+        $tipId = trim($data['tip_id'] ?? $data['id'] ?? ('TIP-' . date('Ymd') . '-' . rand(1000, 9999)));
+        $dateTime = trim($data['date_time'] ?? $data['timestamp'] ?? date('Y-m-d H:i:s'));
+        $location = trim($data['location'] ?? 'Quezon City');
+        $description = trim($data['tip_description'] ?? $data['description'] ?? '');
+        $evidence = trim($data['attached_evidence'] ?? $data['evidence'] ?? '');
+
+        return $this->processInbound([
+            'source' => 'group_4_anonymous_tip',
+            'tip_id' => $tipId,
+            'timestamp' => $dateTime,
+            'location' => $location,
+            'description' => $description,
+            'attached_evidence' => $evidence,
+            'emergency_level' => 'Medium'
+        ], true);
+    }
+
     private function saveLog(string $direction, string $targetUrl, array $payload, array $response, string $status): void {
         try {
             $stmt = $this->pdo->prepare("INSERT INTO external_integration_log (direction, target_url, payload, response_body, status) VALUES (?, ?, ?, ?, ?)");

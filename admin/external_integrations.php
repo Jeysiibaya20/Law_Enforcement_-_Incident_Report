@@ -99,10 +99,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         setIntegrationSetting('group7_inspection_api_url', $_POST['group7_inspection_api_url'] ?? '');
         setIntegrationSetting('group5_crime_map_api_url', $_POST['group5_crime_map_api_url'] ?? '');
         setIntegrationSetting('group3_resource_api_url', $_POST['group3_resource_api_url'] ?? '');
+        setIntegrationSetting('campaign_api_url', $_POST['campaign_api_url'] ?? '');
         setIntegrationSetting('external_api_secret', $_POST['external_api_secret'] ?? '');
         setIntegrationSetting('auto_dispatch_cctv', !empty($_POST['auto_dispatch_cctv']) ? '1' : '0');
         $message = "Integration API settings updated successfully! Target endpoints are saved and ready.";
         $messageType = "success";
+    }
+
+    if ($action === 'fetch_campaigns') {
+        $cRes = $integrator->fetchPublicCampaigns();
+        if ($cRes['success']) {
+            $message = "Successfully synced " . $cRes['campaign_count'] . " public safety campaign(s) from campaign.alertaraqc.com (HTTP 200 OK)!";
+            $messageType = "success";
+        } else {
+            $message = "Campaign API response code: " . ($cRes['http_code'] ?: 'Offline') . ". Error: " . ($cRes['curl_error'] ?: 'Check endpoint URL');
+            $messageType = "warning";
+        }
     }
 
     if ($action === 'ping_endpoint') {
@@ -122,6 +134,7 @@ $integrationSettings = getAllIntegrationSettings();
 $logs = [];
 $receivedFootage = [];
 $receivedTips = [];
+$receivedCampaigns = [];
 
 try {
     $stmt = $pdo->query("SELECT * FROM external_integration_log ORDER BY id DESC LIMIT 20");
@@ -137,6 +150,11 @@ try {
     $stmtT = $pdo->query("SELECT * FROM received_resolved_tips ORDER BY id DESC LIMIT 15");
     $receivedTips = $stmtT->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) { $receivedTips = []; }
+
+try {
+    $stmtC = $pdo->query("SELECT * FROM received_campaigns ORDER BY id DESC LIMIT 15");
+    $receivedCampaigns = $stmtC->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) { $receivedCampaigns = []; }
 ?>
 
 <div class="main-content">
@@ -236,6 +254,14 @@ try {
                                 <input type="url" name="group3_resource_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['group3_resource_api_url'] ?? '') ?>" placeholder="https://dispatch.alertaraqc.com/api/assign_officer.php">
                             </div>
                             <small class="text-muted">Target endpoint for officer dispatch and emergency unit tracking.</small>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-bullhorn text-danger me-2"></i>5. Public Safety Campaign API URL (Group 1)</label>
+                            <div class="input-group">
+                                <input type="url" name="campaign_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['campaign_api_url'] ?? '') ?>" placeholder="https://campaign.alertaraqc.com/api/v1/campaigns/public" required>
+                            </div>
+                            <small class="text-muted">Public safety campaigns & awareness advisories endpoint.</small>
                         </div>
 
                         <div class="col-md-6">
@@ -516,6 +542,58 @@ try {
                             </table>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Live Public Safety Campaigns Card (campaign.alertaraqc.com) -->
+        <div class="card mb-4 border-warning shadow-sm">
+            <div class="card-header bg-warning text-dark fw-bold d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-bullhorn me-2"></i>Live Public Safety Campaigns (`campaign.alertaraqc.com`)</span>
+                <form method="POST" class="d-inline mb-0">
+                    <input type="hidden" name="action" value="fetch_campaigns">
+                    <button type="submit" class="btn btn-sm btn-dark fw-bold">
+                        <i class="fas fa-sync-alt me-1"></i>Fetch Live Campaigns
+                    </button>
+                </form>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0" style="font-size: 0.85rem;">
+                        <thead class="table-light">
+                            <tr>
+                                <th>ID</th>
+                                <th>CAMPAIGN TITLE</th>
+                                <th>CATEGORY</th>
+                                <th>SCOPE</th>
+                                <th>STATUS</th>
+                                <th>FETCHED</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php if (!empty($receivedCampaigns)): ?>
+                                <?php foreach ($receivedCampaigns as $c): ?>
+                                    <tr>
+                                        <td class="fw-bold">#<?= htmlspecialchars($c['campaign_id'] ?: $c['id']) ?></td>
+                                        <td>
+                                            <strong><?= htmlspecialchars($c['title']) ?></strong>
+                                            <div class="small text-muted text-truncate" style="max-width: 350px;"><?= htmlspecialchars($c['description']) ?></div>
+                                        </td>
+                                        <td><span class="badge bg-secondary"><?= htmlspecialchars(ucfirst($c['category'])) ?></span></td>
+                                        <td><?= htmlspecialchars($c['geographical_scope'] ?: 'Barangay') ?></td>
+                                        <td><span class="badge bg-success"><?= htmlspecialchars($c['status']) ?></span></td>
+                                        <td><?= date('M d, Y g:i a', strtotime($c['fetched_at'])) ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php else: ?>
+                                <tr>
+                                    <td colspan="6" class="text-center text-muted py-4">
+                                        No campaigns synced yet. Click <strong>"Fetch Live Campaigns"</strong> above to sync from <code>https://campaign.alertaraqc.com/api/v1/campaigns/public</code>.
+                                    </td>
+                                </tr>
+                            <?php endif; ?>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

@@ -84,6 +84,37 @@ try {
         PRIMARY KEY (id)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
 
+    // 5. Received Campaigns Table (from campaign.alertaraqc.com)
+    $pdo->exec("CREATE TABLE IF NOT EXISTS received_campaigns (
+        id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+        campaign_id INT UNSIGNED NULL,
+        title VARCHAR(255) NOT NULL,
+        description TEXT NULL,
+        category VARCHAR(100) NULL,
+        geographical_scope VARCHAR(100) NULL,
+        start_date VARCHAR(100) NULL,
+        end_date VARCHAR(100) NULL,
+        status VARCHAR(50) DEFAULT 'Active',
+        image_url TEXT NULL,
+        raw_json LONGTEXT NULL,
+        fetched_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        INDEX idx_campaign_id (campaign_id)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+    // 6. Received Community Complaints (from Group 4)
+    $pdo->exec("CREATE TABLE IF NOT EXISTS received_community_complaints (
+        id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+        complaint_id VARCHAR(100) NULL,
+        complainant_name VARCHAR(150) NULL,
+        incident_type VARCHAR(100) NULL,
+        date_time VARCHAR(100) NULL,
+        location VARCHAR(255) NULL,
+        description TEXT NULL,
+        status VARCHAR(50) DEFAULT 'Pending',
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        INDEX idx_complaint_id (complaint_id)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
     echo "Integration database tables created/verified successfully.\n";
 } catch (Exception $e) {
     echo "Error setting up integration tables: " . $e->getMessage() . "\n";

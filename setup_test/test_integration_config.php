@@ -57,8 +57,14 @@ echo "PASS: Group 7 Dispatch Endpoint: " . $multiResults['group7_inspection']['e
 echo "PASS: Group 5 Dispatch Endpoint: " . $multiResults['group5_crime_map']['endpoint'] . "\n";
 echo "PASS: Group 3 Dispatch Endpoint: " . $multiResults['group3_resource']['endpoint'] . "\n\n";
 
-// 4. Verify log records
-echo "[4/4] Verifying `external_integration_log` entries...\n";
+// 4. Test fetchPublicCampaigns from campaign.alertaraqc.com
+echo "[4/5] Testing fetchPublicCampaigns() from campaign.alertaraqc.com...\n";
+$campaignRes = $integrator->fetchPublicCampaigns();
+assert($campaignRes['success'] === true, "Live campaign fetch should return success HTTP 200");
+echo "PASS: Live campaigns fetched: " . $campaignRes['campaign_count'] . " records\n\n";
+
+// 5. Verify log records
+echo "[5/5] Verifying `external_integration_log` entries...\n";
 $stmt = $pdo->query("SELECT COUNT(*) FROM external_integration_log");
 $logCount = $stmt->fetchColumn();
 echo "PASS: Total integration log entries recorded: " . $logCount . "\n";
