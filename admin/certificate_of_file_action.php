@@ -7,7 +7,6 @@ if (!isset($pdo) || !($pdo instanceof PDO)) {
 $base_url = '../';
 $page_title = 'Certificate of File Action';
 require_once '../includes/header.php';
-require_once '../includes/navbar.php';
 
 // Fetch blotters for selection
 try {

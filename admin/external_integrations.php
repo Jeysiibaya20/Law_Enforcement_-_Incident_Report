@@ -9,7 +9,6 @@ if (!isset($pdo) || !($pdo instanceof PDO)) {
 $base_url = '../';
 $page_title = 'External Systems Integration';
 require_once '../includes/header.php';
-require_once '../includes/navbar.php';
 
 $integrator = new OperationalModuleIntegrator($pdo);
 

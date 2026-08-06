@@ -9,7 +9,6 @@ $page_title = 'Reports & Analytics';
 // When embedded in dashboard, the parent will include header/navbar.
 if (empty($embed_in_dashboard)) {
     require_once '../includes/header.php';
-    require_once '../includes/navbar.php';
 }
 
 // Initialize report variables to avoid analyzer warnings when the dashboard embed path is used.

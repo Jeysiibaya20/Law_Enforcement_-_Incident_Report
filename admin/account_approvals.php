@@ -2,7 +2,6 @@
 require_once 'admin_auth.php';
 $page_title = 'Account Approvals';
 require_once __DIR__ . '/../includes/header.php';
-require_once __DIR__ . '/../includes/navbar.php';
 require_once __DIR__ . '/../config/db_connect.php';
 
 if (session_status() === PHP_SESSION_NONE) @session_start();

@@ -1,9 +1,8 @@
-﻿<?php
+<?php
 require_once 'admin_auth.php';
 $base_url = '../';
 $page_title = 'Hearing Result';
 require_once '../includes/header.php';
-require_once '../includes/navbar.php';
 
 $blotter_id = filter_input(INPUT_GET, 'blotter_id', FILTER_VALIDATE_INT) ?: 0;
 $message = '';

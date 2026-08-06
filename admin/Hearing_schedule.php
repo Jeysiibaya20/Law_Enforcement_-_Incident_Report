@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once 'admin_auth.php';
 if (!isset($pdo) || !($pdo instanceof PDO)) {
     $pdo = getDBConnection();
@@ -6,7 +6,6 @@ if (!isset($pdo) || !($pdo instanceof PDO)) {
 $base_url = '../';
 $page_title = 'Hearing Schedule';
 require_once '../includes/header.php';
-require_once '../includes/navbar.php';
 
 $search = trim($_GET['search'] ?? '');
 $date_from = trim($_GET['date_from'] ?? '');

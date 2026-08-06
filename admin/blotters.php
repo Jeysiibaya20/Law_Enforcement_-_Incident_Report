@@ -4,7 +4,6 @@ require_once 'admin_auth.php';
 $base_url = '../';
 $page_title = 'Blotter Management';
 require_once '../includes/header.php';
-require_once '../includes/navbar.php';
 
 // Fetch all blotters with optional filtering
 $filter = $_GET['filter'] ?? 'all';

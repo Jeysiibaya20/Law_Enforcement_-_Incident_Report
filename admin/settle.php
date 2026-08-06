@@ -8,7 +8,6 @@ $base_url = '../';
 $page_title = 'Settlement Aggregation';
 $current_page = 'settlement';
 require_once '../includes/header.php';
-require_once '../includes/navbar.php';
 
 function ensureSettlementColumns(PDO $pdo): void
 {

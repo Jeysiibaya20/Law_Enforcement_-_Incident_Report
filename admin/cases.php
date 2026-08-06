@@ -5,7 +5,6 @@ require_once '../modules/CaseAssign.php';
 $base_url = '../';
 $page_title = 'Case Management';
 require_once '../includes/header.php';
-require_once '../includes/navbar.php';
 
 // All create/update/delete actions are handled via the API endpoint at ../api/cases.php
 // Admin page will submit forms to that API so that all data I/O is centralized.

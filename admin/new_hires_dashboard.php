@@ -1,7 +1,7 @@
 <?php
 require_once 'admin_auth.php';
 require_once '../config/db_connect.php';
-require_once '../includes/navbar.php';
+require_once '../includes/header.php';
 
 // Check if user is logged in and has admin/HR permissions
 if (!isset($_SESSION['user_id']) || !in_array($_SESSION['role'], ['Admin', 'HR Manager', 'HR Staff'])) {
@@ -110,9 +110,7 @@ try {
         .status-on-hold { background-color: #6c757d; color: #fff; }
         .status-cancelled { background-color: #dc3545; color: #fff; }
     </style>
-</head>
 <body>
-    <?php include '../includes/navbar.php'; ?>
     
     <div class="main-content">
         <div class="content-container">
