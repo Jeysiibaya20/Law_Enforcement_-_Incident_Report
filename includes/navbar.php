@@ -4,6 +4,11 @@
  * Synced with EMERGENCY-COM standard admin header bar + Real Notifications Dropdown
  */
 
+if (defined('ALERTARA_NAVBAR_LOADED')) {
+    return;
+}
+define('ALERTARA_NAVBAR_LOADED', true);
+
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }

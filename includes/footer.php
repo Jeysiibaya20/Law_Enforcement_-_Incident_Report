@@ -35,18 +35,24 @@
             const appSidebar = document.getElementById('sidebar') || document.getElementById('appSidebar') || document.querySelector('.sidebar');
             const sidebarOverlay = document.getElementById('sidebarOverlay') || document.querySelector('.sidebar-overlay');
             
-            if (appSidebar) {
-                appSidebar.classList.toggle('collapsed');
-                appSidebar.classList.toggle('active');
-                appSidebar.classList.toggle('show');
-            }
+            const isMobile = window.innerWidth <= 992;
             
-            document.body.classList.toggle('sidebar-collapsed');
-            
-            if (window.innerWidth <= 992 && sidebarOverlay) {
-                sidebarOverlay.classList.toggle('active');
-                sidebarOverlay.classList.toggle('show');
+            if (isMobile) {
+                if (appSidebar) {
+                    appSidebar.classList.toggle('active');
+                    appSidebar.classList.toggle('show');
+                }
+                if (sidebarOverlay) {
+                    sidebarOverlay.classList.toggle('active');
+                    sidebarOverlay.classList.toggle('show');
+                }
                 document.body.classList.toggle('sidebar-mobile-open');
+            } else {
+                if (appSidebar) {
+                    appSidebar.classList.toggle('collapsed');
+                    appSidebar.classList.remove('active', 'show');
+                }
+                document.body.classList.toggle('sidebar-collapsed');
             }
         }
     });

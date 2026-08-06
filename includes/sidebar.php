@@ -4,6 +4,11 @@
  * Synced 1:1 with EMERGENCY-COM standard admin sidebar layout and icon accents
  */
 
+if (defined('ALERTARA_SIDEBAR_LOADED')) {
+    return;
+}
+define('ALERTARA_SIDEBAR_LOADED', true);
+
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }

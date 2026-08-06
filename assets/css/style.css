@@ -3199,16 +3199,20 @@ aside.sidebar .sidebar-submenu-link.active i {
 
 /* Sidebar Collapse Rules for Desktop (min-width: 993px) */
 @media (min-width: 993px) {
+    aside.sidebar,
     .sidebar {
         transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), left 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
     }
 
+    body.sidebar-collapsed aside.sidebar,
     body.sidebar-collapsed .sidebar,
+    aside.sidebar.collapsed,
     .sidebar.collapsed {
         transform: translateX(-100%) !important;
     }
 
-    body.sidebar-collapsed .admin-header {
+    body.sidebar-collapsed .admin-header,
+    body.sidebar-collapsed header.admin-header {
         left: 0 !important;
         width: 100% !important;
     }
