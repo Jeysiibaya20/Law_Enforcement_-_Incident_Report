@@ -102,28 +102,181 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
-<div class="d-flex align-items-center justify-content-center min-vh-100 bg-dark bg-gradient p-3">
-    <div class="card border-0 shadow-lg rounded-4 overflow-hidden" style="max-width: 440px; width: 100%; background: #1e293b; color: #f8fafc;">
-        <!-- Card Header Banner -->
-        <div class="p-4 text-center border-bottom border-secondary" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);">
-            <div class="mb-3">
-                <img src="../assets/images/logo.svg" alt="Alertara Emblem" style="height: 60px;">
-            </div>
-            <h4 class="fw-bold text-white mb-1" style="font-family: 'Quicksand', sans-serif;">ADMIN PORTAL</h4>
-            <span class="badge bg-danger text-uppercase px-3 py-1" style="font-size: 0.7rem; letter-spacing: 1px;">Authorized Personnel Only</span>
+<style>
+.admin-login-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.admin-login-card {
+    width: 100%;
+    max-width: 440px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.admin-login-header {
+    background: linear-gradient(135deg, #1b5a56 0%, #113d3a 100%);
+    padding: 2.25rem 2rem 1.75rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.admin-login-header img {
+    height: 58px;
+    margin-bottom: 0.75rem;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.2));
+}
+
+.admin-login-header h4 {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.25rem;
+    font-size: 1.35rem;
+}
+
+.admin-badge {
+    background: rgba(239, 68, 68, 0.2);
+    border: 1px solid rgba(239, 68, 68, 0.4);
+    color: #fca5a5;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0.25rem 0.85rem;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.admin-login-body {
+    padding: 2rem;
+    background: #ffffff;
+}
+
+.admin-input-group {
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+
+.admin-input-group label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #475569;
+    margin-bottom: 0.4rem;
+}
+
+.admin-field-wrap {
+    position: relative;
+
+}
+
+.admin-field-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #64748b;
+    font-size: 1rem;
+    z-index: 10;
+}
+
+.admin-field-input {
+    width: 100%;
+    padding: 0.75rem 1rem 0.75rem 2.6rem;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #0f172a !important;
+    transition: all 0.2s ease;
+}
+
+.admin-field-input:focus {
+    outline: none;
+    background: #ffffff;
+    border-color: #1b5a56;
+    box-shadow: 0 0 0 3px rgba(27, 90, 86, 0.15);
+}
+
+.admin-submit-btn {
+    width: 100%;
+    padding: 0.85rem;
+    background: linear-gradient(135deg, #1b5a56 0%, #113d3a 100%);
+    color: #ffffff !important;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(27, 90, 86, 0.3);
+    transition: all 0.2s ease;
+    margin-top: 0.5rem;
+}
+
+.admin-submit-btn:hover {
+    background: linear-gradient(135deg, #23746f 0%, #185551 100%);
+    box-shadow: 0 6px 16px rgba(27, 90, 86, 0.4);
+    transform: translateY(-1px);
+}
+
+.admin-login-footer {
+    background: #f1f5f9;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+    font-size: 0.85rem;
+    color: #64748b;
+}
+
+.admin-login-footer a {
+    color: #1b5a56;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.admin-login-footer a:hover {
+    text-decoration: underline;
+}
+
+.admin-alert {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    color: #991b1b;
+    padding: 0.85rem 1rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    margin-bottom: 1.25rem;
+}
+</style>
+
+<div class="admin-login-wrapper">
+    <div class="admin-login-card">
+        <!-- Header -->
+        <div class="admin-login-header">
+            <img src="../assets/images/logo.svg" alt="Alertara PH Logo">
+            <h4 style="font-family: 'Quicksand', sans-serif;">ADMIN PORTAL</h4>
+            <span class="admin-badge"><i class="fas fa-lock me-1"></i> AUTHORIZED PERSONNEL ONLY</span>
         </div>
 
         <!-- Form Body -->
-        <div class="card-body p-4 p-md-5">
+        <div class="admin-login-body">
             <?php if (!empty($error_message)): ?>
-                <div class="alert alert-danger rounded-3 p-3 small mb-4">
+                <div class="admin-alert">
                     <div class="d-flex align-items-center gap-2">
-                        <i class="fas fa-exclamation-triangle"></i>
+                        <i class="fas fa-exclamation-circle text-danger"></i>
                         <span><?php echo htmlspecialchars($error_message); ?></span>
                     </div>
                     <?php if (strpos($error_message, 'Resident accounts') !== false): ?>
                         <div class="mt-2 text-center">
-                            <a href="../auth/login.php" class="btn btn-sm btn-light fw-bold text-dark text-decoration-none shadow-sm" style="font-size: 0.8rem;">
+                            <a href="../auth/login.php" class="btn btn-sm btn-outline-danger fw-bold text-decoration-none mt-1">
                                 <i class="fas fa-user me-1"></i> Go to Resident Sign In
                             </a>
                         </div>
@@ -132,31 +285,31 @@ require_once __DIR__ . '/../includes/header.php';
             <?php endif; ?>
 
             <form method="POST" action="login.php" autocomplete="off">
-                <div class="mb-3">
-                    <label class="form-label small text-uppercase text-secondary fw-bold">Username or Email</label>
-                    <div class="input-group">
-                        <span class="input-group-text bg-secondary text-light border-secondary"><i class="fas fa-user-shield"></i></span>
-                        <input type="text" name="username" class="form-control bg-dark text-white border-secondary" placeholder="Enter admin username" required autofocus>
+                <div class="admin-input-group">
+                    <label>Username or Email</label>
+                    <div class="admin-field-wrap">
+                        <i class="fas fa-user-shield admin-field-icon"></i>
+                        <input type="text" name="username" class="admin-field-input" placeholder="Enter admin username" required autofocus>
                     </div>
                 </div>
 
-                <div class="mb-4">
-                    <label class="form-label small text-uppercase text-secondary fw-bold">Password</label>
-                    <div class="input-group">
-                        <span class="input-group-text bg-secondary text-light border-secondary"><i class="fas fa-lock"></i></span>
-                        <input type="password" name="password" class="form-control bg-dark text-white border-secondary" placeholder="Enter password" required>
+                <div class="admin-input-group">
+                    <label>Password</label>
+                    <div class="admin-field-wrap">
+                        <i class="fas fa-key admin-field-icon"></i>
+                        <input type="password" name="password" class="admin-field-input" placeholder="Enter password" required>
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-primary w-100 py-2.5 fw-bold shadow-sm rounded-3">
+                <button type="submit" class="admin-submit-btn">
                     <i class="fas fa-sign-in-alt me-2"></i> Sign In to Admin Portal
                 </button>
             </form>
         </div>
 
         <!-- Footer -->
-        <div class="card-footer bg-dark border-top border-secondary text-center py-3">
-            <small class="text-secondary">Resident / Citizen user? <a href="../auth/login.php" class="text-primary fw-semibold text-decoration-none">Go to Resident Sign In</a></small>
+        <div class="admin-login-footer">
+            Resident / Citizen user? <a href="../auth/login.php">Go to Resident Sign In</a>
         </div>
     </div>
 </div>
