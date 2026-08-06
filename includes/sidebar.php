@@ -112,12 +112,12 @@ $avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'h
                     <ul class="sidebar-menu">
                         <!-- Digital Blotter Dropdown -->
                         <li class="sidebar-menu-item has-dropdown <?php echo $is_blotter_active ? 'open' : ''; ?>">
-                            <a href="javascript:void(0);" class="sidebar-link sidebar-dropdown-toggle <?php echo $is_blotter_active ? 'active-parent' : ''; ?>">
+                            <a href="javascript:void(0);" onclick="toggleSidebarDropdown(this, event)" class="sidebar-link sidebar-dropdown-toggle <?php echo $is_blotter_active ? 'active-parent' : ''; ?>" style="cursor: pointer;">
                                 <i class="fas fa-clipboard-list sidebar-icon" aria-hidden="true"></i>
                                 <span>Digital Blotter</span>
                                 <i class="fas fa-chevron-down dropdown-arrow"></i>
                             </a>
-                            <ul class="sidebar-submenu <?php echo $is_blotter_active ? 'show' : ''; ?>">
+                            <ul class="sidebar-submenu <?php echo $is_blotter_active ? 'show' : ''; ?>" style="<?php echo $is_blotter_active ? 'display: flex;' : ''; ?>">
                                 <li class="sidebar-submenu-item">
                                     <a href="<?php echo $base_url; ?>admin/blotters.php" class="sidebar-submenu-link <?php echo (in_array($current_page, ['blotters.php', 'blotter.php', 'blotter_create.php', 'blotter_update.php', 'blotter_view.php'])) ? 'active' : ''; ?>">
                                         <i class="fas fa-file-alt sidebar-subicon"></i>
@@ -135,12 +135,12 @@ $avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'h
 
                         <!-- Cases Management Dropdown -->
                         <li class="sidebar-menu-item has-dropdown <?php echo $is_cases_mgmt_active ? 'open' : ''; ?>">
-                            <a href="javascript:void(0);" class="sidebar-link sidebar-dropdown-toggle <?php echo $is_cases_mgmt_active ? 'active-parent' : ''; ?>">
+                            <a href="javascript:void(0);" onclick="toggleSidebarDropdown(this, event)" class="sidebar-link sidebar-dropdown-toggle <?php echo $is_cases_mgmt_active ? 'active-parent' : ''; ?>" style="cursor: pointer;">
                                 <i class="fas fa-gavel sidebar-icon" aria-hidden="true"></i>
                                 <span>Cases Management</span>
                                 <i class="fas fa-chevron-down dropdown-arrow"></i>
                             </a>
-                            <ul class="sidebar-submenu <?php echo $is_cases_mgmt_active ? 'show' : ''; ?>">
+                            <ul class="sidebar-submenu <?php echo $is_cases_mgmt_active ? 'show' : ''; ?>" style="<?php echo $is_cases_mgmt_active ? 'display: flex;' : ''; ?>">
                                 <li class="sidebar-submenu-item">
                                     <a href="<?php echo $base_url; ?>admin/Summons.php" class="sidebar-submenu-link <?php echo $current_page === 'summons.php' ? 'active' : ''; ?>">
                                         <i class="fas fa-envelope-open-text sidebar-subicon"></i>
@@ -294,3 +294,45 @@ $avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'h
 
 <!-- Mobile Sidebar Backdrop Overlay -->
 <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<script>
+if (typeof toggleSidebarDropdown !== 'function') {
+    function toggleSidebarDropdown(element, event) {
+        if (event) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        var toggle = (element && element.classList && element.classList.contains('sidebar-dropdown-toggle')) ? element : (element ? element.closest('.sidebar-dropdown-toggle') : null);
+        if (!toggle) return;
+        
+        var parentItem = toggle.closest('.sidebar-menu-item');
+        if (!parentItem) return;
+        
+        var submenu = parentItem.querySelector('.sidebar-submenu');
+        if (!submenu) return;
+        
+        var isOpen = parentItem.classList.contains('open');
+        
+        document.querySelectorAll('.sidebar-menu-item.has-dropdown').forEach(function(item) {
+            if (item !== parentItem) {
+                item.classList.remove('open');
+                var sub = item.querySelector('.sidebar-submenu');
+                if (sub) {
+                    sub.classList.remove('show');
+                    sub.style.display = 'none';
+                }
+            }
+        });
+        
+        if (isOpen) {
+            parentItem.classList.remove('open');
+            submenu.classList.remove('show');
+            submenu.style.display = 'none';
+        } else {
+            parentItem.classList.add('open');
+            submenu.classList.add('show');
+            submenu.style.display = 'flex';
+        }
+    }
+}
+</script>
