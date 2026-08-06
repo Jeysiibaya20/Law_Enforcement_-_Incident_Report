@@ -510,7 +510,18 @@ class OperationalModuleIntegrator {
                 error_log("Campaign sync error: " . $e->getMessage());
             }
 
-            $this->saveLog('incoming_campaigns_fetch', $endpoint, ['method' => 'GET'], ['count' => count($campaigns)], 'success');
+            $this->saveLog(
+                'incoming_campaigns_fetch', 
+                $endpoint, 
+                ['method' => 'GET', 'client' => 'AlertaraQC-Incident-System/2.0'], 
+                [
+                    'status' => 'success', 
+                    'http_code' => $httpCode, 
+                    'count' => count($campaigns), 
+                    'campaigns' => $campaigns
+                ], 
+                'success'
+            );
         }
 
         return [

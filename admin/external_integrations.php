@@ -152,17 +152,8 @@ try {
 } catch (Exception $e) { $receivedTips = []; }
 
 try {
-    $stmtC = $pdo->query("SELECT * FROM received_campaigns ORDER BY id DESC LIMIT 15");
+    $stmtC = $pdo->query("SELECT * FROM received_campaigns ORDER BY id DESC LIMIT 25");
     $receivedCampaigns = $stmtC->fetchAll(PDO::FETCH_ASSOC);
-
-    if (empty($receivedCampaigns)) {
-        // Auto sync live campaigns from campaign.alertaraqc.com on page load
-        $cRes = $integrator->fetchPublicCampaigns();
-        if (!empty($cRes['success'])) {
-            $stmtC = $pdo->query("SELECT * FROM received_campaigns ORDER BY id DESC LIMIT 15");
-            $receivedCampaigns = $stmtC->fetchAll(PDO::FETCH_ASSOC);
-        }
-    }
 } catch (Exception $e) { $receivedCampaigns = []; }
 ?>
 
