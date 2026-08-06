@@ -549,7 +549,12 @@ require '../includes/header.php';
                 <button type="submit" class="btn btn-primary btn-lg">
                     <i class="bi bi-check-circle"></i> Create Blotter
                 </button>
-                <a href="<?= htmlspecialchars($base_url); ?>admin/dashboard.php" class="btn btn-secondary btn-lg">
+                <?php
+                $cancelUrl = (!empty($_SESSION['admin_user_id']) || (strtolower($_SESSION['role'] ?? '') === 'admin'))
+                    ? ($base_url . 'admin/dashboard.php')
+                    : ($base_url . 'modules/my_reports.php');
+                ?>
+                <a href="<?= htmlspecialchars($cancelUrl); ?>" class="btn btn-secondary btn-lg">
                     <i class="bi bi-x-circle"></i> Cancel
                 </a>
             </div>

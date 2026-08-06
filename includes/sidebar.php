@@ -232,6 +232,12 @@ $avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'h
                                 <span>Automated Reports</span>
                             </a>
                         </li>
+                        <li class="sidebar-menu-item">
+                            <a href="<?php echo $base_url; ?>admin/logout.php" class="sidebar-link text-danger">
+                                <i class="fas fa-sign-out-alt sidebar-icon text-danger" aria-hidden="true"></i>
+                                <span class="text-danger fw-bold">Logout</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
@@ -258,6 +264,12 @@ $avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'h
                                 <span>User Profile</span>
                             </a>
                         </li>
+                        <li class="sidebar-menu-item">
+                            <a href="<?php echo $base_url; ?>auth/logout.php" class="sidebar-link text-danger">
+                                <i class="fas fa-sign-out-alt sidebar-icon text-danger" aria-hidden="true"></i>
+                                <span class="text-danger fw-bold">Logout</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             <?php endif; ?>
@@ -275,7 +287,7 @@ $avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'h
         </div>
         <?php $logout_href = $base_url . ($is_user_page ? 'auth/logout.php' : 'admin/logout.php'); ?>
         <a href="<?php echo $logout_href; ?>" class="sidebar-logout-btn" title="Sign Out">
-            <i class="fas fa-sign-out-alt"></i>
+            <i class="fas fa-sign-out-alt"></i> Logout
         </a>
     </div>
 </aside>
