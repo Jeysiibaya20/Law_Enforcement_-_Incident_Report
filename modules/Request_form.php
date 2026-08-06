@@ -1,14 +1,8 @@
 <?php
 $base_url = '../';
-require_once __DIR__ . '/../includes/user_auth.php';
+require_once __DIR__ . '/../admin/admin_auth.php';
 require_once '../config/db_connect.php';
 require_once '../config/LanguageManager.php';
-
-// Allow authenticated users to submit request forms
-if (!isset($_SESSION['user_id'])) {
-    header('Location: ../auth/login.php');
-    exit();
-}
 
 $page_title = 'CCTV / Service Request Form';
 $base_url = '../';
@@ -73,8 +67,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 (requested_by, request_type, camera_location, incident_date, incident_time, priority, reason, additional_details, monitoring_office, delivery_method, monitoring_notes)
                 VALUES (:requested_by, :request_type, :camera_location, :incident_date, :incident_time, :priority, :reason, :additional_details, :monitoring_office, :delivery_method, :monitoring_notes)");
 
+            $activeUserId = $_SESSION['admin_user_id'] ?? $_SESSION['user_id'] ?? 1;
+
             $insert_stmt->execute([
-                ':requested_by' => $_SESSION['user_id'],
+                ':requested_by' => $activeUserId,
                 ':request_type' => $request_type,
                 ':camera_location' => $camera_location !== '' ? $camera_location : null,
                 ':incident_date' => $incident_date !== '' ? $incident_date : null,
@@ -87,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ':monitoring_notes' => $monitoring_notes !== '' ? $monitoring_notes : null,
             ]);
 
-            $message = 'Your CCTV request has been submitted successfully.';
+            $message = 'CCTV request has been recorded successfully.';
             $message_type = 'success';
             $submitted = true;
             $_POST = [];
@@ -99,8 +95,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 try {
-    $records_stmt = $pdo->prepare("SELECT id, request_type, camera_location, incident_date, incident_time, priority, reason, additional_details, monitoring_office, delivery_method, monitoring_notes, status, requested_at FROM cctv_requests WHERE requested_by = ? ORDER BY requested_at DESC");
-    $records_stmt->execute([$_SESSION['user_id']]);
+    $records_stmt = $pdo->prepare("SELECT r.id, r.request_type, r.camera_location, r.incident_date, r.incident_time, r.priority, r.reason, r.additional_details, r.monitoring_office, r.delivery_method, r.monitoring_notes, r.status, r.requested_at, COALESCE(s.fullname, s.first_name, 'Admin') as requester_name FROM cctv_requests r LEFT JOIN signup s ON r.requested_by = s.user_id ORDER BY r.requested_at DESC");
+    $records_stmt->execute();
     $request_records = $records_stmt->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) {
     $request_records = [];
@@ -198,8 +194,8 @@ try {
                             </div>
                         </div>
                         <div class="col-12 d-flex justify-content-between align-items-center">
-                            <a href="../index.php" class="btn btn-outline-secondary">
-                                <i class="bi bi-arrow-left me-2"></i>Back
+                            <a href="../admin/dashboard.php" class="btn btn-outline-secondary">
+                                <i class="bi bi-arrow-left me-2"></i>Back to Dashboard
                             </a>
                             <button type="submit" class="btn btn-primary">
                                 <i class="bi bi-send me-2"></i>Submit Request

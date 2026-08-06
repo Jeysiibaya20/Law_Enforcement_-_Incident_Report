@@ -18,7 +18,7 @@ $in_subfolder = (strpos($script_dir, '/modules') !== false) || (strpos($script_d
 $base_url = isset($base_url) ? $base_url : ($in_subfolder ? '../' : '');
 
 $current_page = strtolower(basename($_SERVER['PHP_SELF']));
-$is_user_page = in_array($current_page, ['landing.php', 'index.php', 'my_reports.php', 'blotter_create.php', 'user_profile.php', 'incident_report.php', 'request_form.php', 'learning.php']) || !empty($force_public_sidebar);
+$is_user_page = (in_array($current_page, ['landing.php', 'index.php', 'my_reports.php', 'blotter_create.php', 'user_profile.php', 'learning.php']) || !empty($force_public_sidebar)) && strpos($_SERVER['PHP_SELF'] ?? '', '/admin/') === false && !in_array($current_page, ['request_form.php', 'incident_report.php']);
 
 if ($is_user_page) {
     $is_logged_in = !empty($_SESSION['resident_user_id']);
