@@ -25,28 +25,58 @@
 
 <!-- Header & Sidebar Dynamic Behavior Script -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    const menuToggle = document.getElementById('menuToggle');
-    const appSidebar = document.getElementById('appSidebar');
-    const sidebarOverlay = document.getElementById('sidebarOverlay');
-    const lightModeBtn = document.getElementById('lightModeBtn');
-    const darkModeBtn = document.getElementById('darkModeBtn');
-    const searchInput = document.getElementById('headerSearchInput');
-    const searchDropdown = document.getElementById('searchDropdown');
+    // 1. Mobile & Desktop Sidebar Toggle Handler
+    const menuToggles = document.querySelectorAll('#menuToggle, .menu-toggle, .mobile-menu-toggle');
+    const appSidebar = document.getElementById('sidebar') || document.getElementById('appSidebar') || document.querySelector('.sidebar');
+    const sidebarOverlay = document.getElementById('sidebarOverlay') || document.querySelector('.sidebar-overlay');
 
-    // 1. Sidebar Toggle Handler
-    function toggleSidebar() {
+    function toggleSidebar(e) {
+        if (e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
         if (!appSidebar) return;
+
         if (window.innerWidth <= 992) {
             appSidebar.classList.toggle('active');
-            if (sidebarOverlay) sidebarOverlay.classList.toggle('active');
+            appSidebar.classList.toggle('show');
+            if (sidebarOverlay) {
+                sidebarOverlay.classList.toggle('active');
+                sidebarOverlay.classList.toggle('show');
+            }
+            document.body.classList.toggle('sidebar-mobile-open');
         } else {
             document.body.classList.toggle('sidebar-collapsed');
+            appSidebar.classList.toggle('active');
         }
     }
 
-    if (menuToggle) menuToggle.addEventListener('click', toggleSidebar);
-    if (sidebarOverlay) sidebarOverlay.addEventListener('click', toggleSidebar);
+    menuToggles.forEach(btn => {
+        btn.addEventListener('click', toggleSidebar);
+    });
+
+    if (sidebarOverlay) {
+        sidebarOverlay.addEventListener('click', function(e) {
+            e.preventDefault();
+            if (appSidebar) {
+                appSidebar.classList.remove('active', 'show');
+            }
+            sidebarOverlay.classList.remove('active', 'show');
+            document.body.classList.remove('sidebar-mobile-open');
+        });
+    }
+
+    // Auto-close sidebar on mobile when clicking non-dropdown sidebar links
+    const sidebarNavLinks = document.querySelectorAll('.sidebar-link:not(.sidebar-dropdown-toggle), .sidebar-submenu-link');
+    sidebarNavLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (window.innerWidth <= 992 && appSidebar) {
+                appSidebar.classList.remove('active', 'show');
+                if (sidebarOverlay) sidebarOverlay.classList.remove('active', 'show');
+                document.body.classList.remove('sidebar-mobile-open');
+            }
+        });
+    });
 
     // 1.5 Sidebar Submenu Accordion Handler
     const dropdownToggles = document.querySelectorAll('.sidebar-dropdown-toggle');

@@ -73,7 +73,7 @@ try {
 
 <header class="admin-header">
     <div class="admin-header-left">
-        <button class="menu-toggle d-lg-none" id="menuToggle" aria-label="Toggle Navigation Menu" title="Toggle Sidebar">
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu" title="Toggle Sidebar">
             <i class="fas fa-bars"></i>
         </button>
 
