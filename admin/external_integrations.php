@@ -299,6 +299,70 @@ try {
             </div>
         </div>
 
+        <!-- Live Public Safety Campaigns Card (campaign.alertaraqc.com) -->
+        <div class="card mb-4 border-warning shadow-sm" id="campaignsSection">
+            <div class="card-header bg-warning text-dark fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2">
+                <div>
+                    <i class="fas fa-bullhorn me-2"></i>Live Public Safety Campaigns (`campaign.alertaraqc.com`)
+                    <span class="badge bg-dark text-warning ms-2"><?= count($receivedCampaigns) ?> Synced Campaign(s)</span>
+                </div>
+                <div class="d-flex gap-2 align-items-center">
+                    <input type="text" id="campaignSearchInput" class="form-control form-control-sm" placeholder="Filter campaigns..." style="width: 220px;">
+                    <form method="POST" class="d-inline mb-0">
+                        <input type="hidden" name="action" value="fetch_campaigns">
+                        <button type="submit" class="btn btn-sm btn-dark text-warning border-dark fw-bold px-3">
+                            <i class="fas fa-sync-alt me-1"></i>Fetch Live Campaigns
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive" style="max-height: 450px;">
+                    <table class="table table-hover align-middle mb-0" id="campaignsTable" style="font-size: 0.85rem;">
+                        <thead class="table-light sticky-top">
+                            <tr>
+                                <th>ID</th>
+                                <th>CAMPAIGN TITLE</th>
+                                <th>CATEGORY</th>
+                                <th>SCOPE</th>
+                                <th>STATUS</th>
+                                <th>FETCHED</th>
+                                <th class="text-center">ACTION</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php if (!empty($receivedCampaigns)): ?>
+                                <?php foreach ($receivedCampaigns as $c): ?>
+                                    <tr class="campaign-row">
+                                        <td class="fw-bold">#<?= htmlspecialchars($c['campaign_id'] ?: $c['id']) ?></td>
+                                        <td>
+                                            <strong><?= htmlspecialchars($c['title']) ?></strong>
+                                            <div class="small text-muted text-truncate" style="max-width: 380px;"><?= htmlspecialchars($c['description']) ?></div>
+                                        </td>
+                                        <td><span class="badge bg-secondary"><?= htmlspecialchars(ucfirst($c['category'])) ?></span></td>
+                                        <td><?= htmlspecialchars($c['geographical_scope'] ?: 'Barangay') ?></td>
+                                        <td><span class="badge bg-success"><?= htmlspecialchars($c['status']) ?></span></td>
+                                        <td><?= date('M d, Y g:i a', strtotime($c['fetched_at'])) ?></td>
+                                        <td class="text-center">
+                                            <button type="button" class="btn btn-sm btn-outline-primary fw-bold py-0 px-2" onclick="showCampaignDetails(<?= htmlspecialchars(json_encode($c), ENT_QUOTES, 'UTF-8') ?>)">
+                                                <i class="fas fa-eye me-1"></i>View Details
+                                            </button>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php else: ?>
+                                <tr>
+                                    <td colspan="7" class="text-center text-muted py-4">
+                                        No campaigns synced yet. Click <strong>"Fetch Live Campaigns"</strong> above to sync from <code>https://campaign.alertaraqc.com/api/v1/campaigns/public</code>.
+                                    </td>
+                                </tr>
+                            <?php endif; ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
         <!-- Active Integration Status Cards -->
         <div class="row g-3 mb-4">
             <div class="col-md-3">
@@ -555,57 +619,84 @@ try {
             </div>
         </div>
 
-        <!-- Live Public Safety Campaigns Card (campaign.alertaraqc.com) -->
-        <div class="card mb-4 border-warning shadow-sm">
-            <div class="card-header bg-warning text-dark fw-bold d-flex justify-content-between align-items-center">
-                <span><i class="fas fa-bullhorn me-2"></i>Live Public Safety Campaigns (`campaign.alertaraqc.com`)</span>
-                <form method="POST" class="d-inline mb-0">
-                    <input type="hidden" name="action" value="fetch_campaigns">
-                    <button type="submit" class="btn btn-sm btn-dark text-warning border-dark fw-bold px-3">
-                        <i class="fas fa-sync-alt me-1"></i>Fetch Live Campaigns
-                    </button>
-                </form>
+<!-- Campaign Details Modal -->
+<div class="modal fade" id="campaignDetailModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title" id="mCampaignTitle"><i class="fas fa-bullhorn text-warning me-2"></i>Campaign Details</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="card-body p-0">
-                <div class="table-responsive">
-                    <table class="table table-hover align-middle mb-0" style="font-size: 0.85rem;">
-                        <thead class="table-light">
-                            <tr>
-                                <th>ID</th>
-                                <th>CAMPAIGN TITLE</th>
-                                <th>CATEGORY</th>
-                                <th>SCOPE</th>
-                                <th>STATUS</th>
-                                <th>FETCHED</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php if (!empty($receivedCampaigns)): ?>
-                                <?php foreach ($receivedCampaigns as $c): ?>
-                                    <tr>
-                                        <td class="fw-bold">#<?= htmlspecialchars($c['campaign_id'] ?: $c['id']) ?></td>
-                                        <td>
-                                            <strong><?= htmlspecialchars($c['title']) ?></strong>
-                                            <div class="small text-muted text-truncate" style="max-width: 350px;"><?= htmlspecialchars($c['description']) ?></div>
-                                        </td>
-                                        <td><span class="badge bg-secondary"><?= htmlspecialchars(ucfirst($c['category'])) ?></span></td>
-                                        <td><?= htmlspecialchars($c['geographical_scope'] ?: 'Barangay') ?></td>
-                                        <td><span class="badge bg-success"><?= htmlspecialchars($c['status']) ?></span></td>
-                                        <td><?= date('M d, Y g:i a', strtotime($c['fetched_at'])) ?></td>
-                                    </tr>
-                                <?php endforeach; ?>
-                            <?php else: ?>
-                                <tr>
-                                    <td colspan="6" class="text-center text-muted py-4">
-                                        No campaigns synced yet. Click <strong>"Fetch Live Campaigns"</strong> above to sync from <code>https://campaign.alertaraqc.com/api/v1/campaigns/public</code>.
-                                    </td>
-                                </tr>
-                            <?php endif; ?>
-                        </tbody>
-                    </table>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <strong>Campaign ID:</strong> <span id="mCampaignId" class="badge bg-dark"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Category:</strong> <span id="mCampaignCategory" class="badge bg-secondary"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Geographical Scope:</strong> <span id="mCampaignScope" class="fw-semibold"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Status:</strong> <span id="mCampaignStatus" class="badge bg-success"></span>
+                    </div>
+                    <div class="col-12">
+                        <strong>Full Description:</strong>
+                        <div id="mCampaignDesc" class="p-3 bg-light rounded mt-1 border text-dark" style="white-space: pre-line; max-height: 220px; overflow-y: auto; font-size: 0.9rem; line-height: 1.5;"></div>
+                    </div>
+                    <div class="col-12" id="mCampaignImageWrap" style="display: none;">
+                        <strong>Campaign Cover Image:</strong><br>
+                        <img id="mCampaignImage" src="" alt="Campaign Cover" class="img-fluid rounded border mt-1" style="max-height: 260px;">
+                    </div>
+                    <div class="col-12">
+                        <small class="text-muted"><i class="fas fa-link me-1"></i>Endpoint: <code>https://campaign.alertaraqc.com/api/v1/campaigns/public</code></small>
+                    </div>
                 </div>
             </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
         </div>
+    </div>
+</div>
+
+<script>
+function showCampaignDetails(campaign) {
+    document.getElementById('mCampaignTitle').innerHTML = '<i class="fas fa-bullhorn text-warning me-2"></i>' + (campaign.title || 'Campaign Details');
+    document.getElementById('mCampaignId').textContent = '#' + (campaign.campaign_id || campaign.id);
+    document.getElementById('mCampaignCategory').textContent = (campaign.category || 'General').toUpperCase();
+    document.getElementById('mCampaignScope').textContent = campaign.geographical_scope || 'Barangay';
+    document.getElementById('mCampaignStatus').textContent = campaign.status || 'Active';
+    document.getElementById('mCampaignDesc').textContent = campaign.description || 'No description provided.';
+    
+    var imgWrap = document.getElementById('mCampaignImageWrap');
+    var imgEl = document.getElementById('mCampaignImage');
+    if (campaign.image_url) {
+        imgEl.src = campaign.image_url;
+        imgWrap.style.display = 'block';
+    } else {
+        imgWrap.style.display = 'none';
+    }
+
+    var modal = new bootstrap.Modal(document.getElementById('campaignDetailModal'));
+    modal.show();
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    var searchInput = document.getElementById('campaignSearchInput');
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            var q = this.value.toLowerCase().trim();
+            var rows = document.querySelectorAll('#campaignsTable tbody tr.campaign-row');
+            rows.forEach(function(row) {
+                var text = row.textContent.toLowerCase();
+                row.style.display = text.indexOf(q) !== -1 ? '' : 'none';
+            });
+        });
+    }
+});
+</script>
 
         <!-- External Integration Log Table -->
         <div class="card">
