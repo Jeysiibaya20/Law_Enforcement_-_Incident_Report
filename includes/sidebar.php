@@ -24,7 +24,7 @@ $display_role = ucfirst($role);
 $avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'https://ui-avatars.com/api/?name=' . urlencode($full_name ?: 'User') . '&background=4c8a89&color=fff&size=128';
 
 $current_page = strtolower(basename($_SERVER['PHP_SELF']));
-$is_user_page = in_array($current_page, ['landing.php', 'index.php', 'my_reports.php', 'incident_report.php', 'request_form.php', 'crime_mapping.php', 'learning.php']) || !empty($force_public_sidebar);
+$is_user_page = in_array($current_page, ['landing.php', 'index.php', 'my_reports.php', 'blotter_create.php', 'user_profile.php', 'incident_report.php', 'request_form.php', 'learning.php']) || !empty($force_public_sidebar);
 $show_admin_menu = ($is_admin || $is_officer) && !$is_user_page;
 ?>
 
@@ -227,30 +227,24 @@ $show_admin_menu = ($is_admin || $is_officer) && !$is_user_page;
             <?php else: ?>
                 <!-- Public Resident Section -->
                 <div class="sidebar-section">
-                    <h3 class="sidebar-section-title">PUBLIC SERVICES</h3>
+                    <h3 class="sidebar-section-title">RESIDENT PORTAL</h3>
                     <ul class="sidebar-menu">
                         <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>modules/my_reports.php" class="sidebar-link sidebar-accent-dashboard <?php echo $current_page === 'my_reports.php' ? 'active' : ''; ?>">
-                                <i class="fas fa-folder-open sidebar-icon" aria-hidden="true"></i>
-                                <span>My Reports</span>
+                            <a href="<?php echo $base_url; ?>modules/my_reports.php" class="sidebar-link sidebar-accent-dashboard <?php echo (in_array($current_page, ['my_reports.php', 'landing.php', 'index.php'])) ? 'active' : ''; ?>">
+                                <i class="fas fa-home sidebar-icon" aria-hidden="true"></i>
+                                <span>Dashboard</span>
                             </a>
                         </li>
                         <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>modules/Incident_report.php" class="sidebar-link sidebar-accent-mass <?php echo $current_page === 'incident_report.php' ? 'active' : ''; ?>">
-                                <i class="fas fa-exclamation-triangle sidebar-icon" aria-hidden="true"></i>
-                                <span>File Incident Report</span>
+                            <a href="<?php echo $base_url; ?>modules/blotter_create.php" class="sidebar-link sidebar-accent-mass <?php echo $current_page === 'blotter_create.php' ? 'active' : ''; ?>">
+                                <i class="fas fa-pen-nib sidebar-icon" aria-hidden="true"></i>
+                                <span>Create Blotter</span>
                             </a>
                         </li>
                         <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>modules/Request_form.php" class="sidebar-link sidebar-accent-profile <?php echo (in_array($current_page, ['request_form.php', 'cctv_request.php'])) ? 'active' : ''; ?>">
-                                <i class="fas fa-file-signature sidebar-icon" aria-hidden="true"></i>
-                                <span>Request Form</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a href="<?php echo $base_url; ?>modules/learning.php" class="sidebar-link sidebar-accent-language <?php echo $current_page === 'learning.php' ? 'active' : ''; ?>">
-                                <i class="fas fa-book-open sidebar-icon" aria-hidden="true"></i>
-                                <span>Awareness & Guide</span>
+                            <a href="<?php echo $base_url; ?>modules/user_profile.php" class="sidebar-link sidebar-accent-profile <?php echo $current_page === 'user_profile.php' ? 'active' : ''; ?>">
+                                <i class="fas fa-user-circle sidebar-icon" aria-hidden="true"></i>
+                                <span>User Profile</span>
                             </a>
                         </li>
                     </ul>

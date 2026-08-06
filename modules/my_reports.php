@@ -72,11 +72,11 @@ require_once __DIR__ . '/../includes/navbar.php';
                 <p class="text-secondary small mb-0">Track all your filed incident reports and blotter complaints</p>
             </div>
             <div class="d-flex gap-2">
-                <a href="Incident_report.php" class="btn btn-primary btn-sm shadow-sm">
-                    <i class="fas fa-plus-circle me-1"></i> File Incident
+                <a href="blotter_create.php" class="btn btn-primary btn-sm shadow-sm">
+                    <i class="fas fa-pen-nib me-1"></i> Create Blotter
                 </a>
-                <a href="Request_form.php" class="btn btn-outline-primary btn-sm">
-                    <i class="fas fa-file-signature me-1"></i> Request Form
+                <a href="user_profile.php" class="btn btn-outline-primary btn-sm">
+                    <i class="fas fa-user-circle me-1"></i> My Profile
                 </a>
             </div>
         </div>
@@ -157,8 +157,8 @@ require_once __DIR__ . '/../includes/navbar.php';
                                 <tbody>
                                     <?php if (empty($myIncidents)): ?>
                                         <tr><td colspan="6" class="text-center text-muted py-4">
-                                            <i class="fas fa-info-circle me-2"></i>You have not filed any incident reports yet.
-                                            <br><a href="Incident_report.php" class="btn btn-sm btn-primary mt-2">File Your First Report</a>
+                                            <i class="fas fa-info-circle me-2"></i>You have not filed any reports yet.
+                                            <br><a href="blotter_create.php" class="btn btn-sm btn-primary mt-2"><i class="fas fa-pen-nib me-1"></i>Create Blotter</a>
                                         </td></tr>
                                     <?php else: ?>
                                         <?php foreach ($myIncidents as $r):

@@ -61,8 +61,8 @@ require_once "includes/navbar.php";
                 <h1 class="h2 fw-bold mb-1" style="font-family: 'Quicksand', 'Inter', sans-serif;">Resident Portal</h1>
                 <p class="text-secondary small mb-0">Track your reported incidents, service requests, and community safety updates</p>
             </div>
-            <a href="modules/Incident_report.php" class="btn btn-primary btn-sm shadow-sm">
-                <i class="fas fa-plus-circle me-1"></i> File Incident Report
+            <a href="modules/blotter_create.php" class="btn btn-primary btn-sm shadow-sm">
+                <i class="fas fa-pen-nib me-1"></i> Create Blotter
             </a>
         </div>
 

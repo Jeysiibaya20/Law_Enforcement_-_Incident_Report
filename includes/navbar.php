@@ -24,10 +24,10 @@ $avatar_url = !empty($_SESSION['user_picture'])
     : 'https://ui-avatars.com/api/?name=' . urlencode($full_name ?: 'User') . '&background=4c8a89&color=fff&size=128';
 
 $current_page = strtolower(basename($_SERVER['PHP_SELF']));
-$is_user_page = in_array($current_page, ['landing.php', 'index.php', 'my_reports.php', 'incident_report.php', 'request_form.php', 'crime_mapping.php', 'learning.php']) || !empty($force_public_sidebar);
+$is_user_page = in_array($current_page, ['landing.php', 'index.php', 'my_reports.php', 'blotter_create.php', 'user_profile.php', 'incident_report.php', 'request_form.php', 'learning.php']) || !empty($force_public_sidebar);
 
 $login_href = $base_url . 'auth/login.php';
-$profile_href = $base_url . ($is_user_page ? 'modules/my_reports.php' : ($role === 'admin' ? 'admin/settings.php' : 'modules/my_reports.php'));
+$profile_href = $base_url . ($is_user_page ? 'modules/user_profile.php' : ($role === 'admin' ? 'admin/settings.php' : 'modules/user_profile.php'));
 
 // Fetch notifications — scope by role to prevent data leakage
 $unread_count = 0;
