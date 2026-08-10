@@ -330,11 +330,11 @@ include '../includes/header.php';
                                 </div>
                             </div>
                             <div class="d-flex gap-2 mt-4">
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="bi bi-save"></i> <?= $edit_id ? 'Update' : 'Add' ?> Witness
+                                <button type="submit" class="btn btn-success text-white shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">
+                                    <i class="bi bi-save me-1"></i> <?= $edit_id ? 'Update' : 'Add' ?> Witness
                                 </button>
                                 <?php if ($edit_id): ?>
-                                    <a href="witnesses_management.php?case_id=<?= $case_id ?>" class="btn btn-secondary">Cancel</a>
+                                    <a href="witnesses_management.php?case_id=<?= $case_id ?>" class="btn btn-outline-secondary">Cancel</a>
                                 <?php endif; ?>
                             </div>
                         </form>
@@ -345,7 +345,7 @@ include '../includes/header.php';
             <!-- Witnesses List -->
             <div class="col-lg-6">
                 <div class="card">
-                    <div class="card-header bg-secondary text-white">
+                    <div class="card-header bg-success text-white">
                         <h5 class="mb-0">Recorded Witnesses (<?= count($witnesses) ?>)</h5>
                     </div>
                     <div class="card-body" style="max-height: 600px; overflow-y: auto;">

@@ -162,7 +162,7 @@ require_once '../includes/header.php';
                                             <input type="hidden" name="action" value="toggle_verify">
                                             <input type="hidden" name="user_id" value="<?= $u['user_id'] ?>">
                                             <input type="hidden" name="new_status" value="1">
-                                            <button type="submit" class="btn btn-success btn-sm"  title="Verify Email" style="background-color: #ffffff; border-color: #28a745;">
+                                            <button type="submit" class="btn btn-outline-success btn-sm" title="Verify Email">
                                                 <i class="bi bi-check-circle"></i>
                                             </button>
                                         </form>
@@ -172,15 +172,15 @@ require_once '../includes/header.php';
                                         <form method="POST" class="d-inline">
                                             <input type="hidden" name="action" value="approve_account">
                                             <input type="hidden" name="user_id" value="<?= $u['user_id'] ?>">
-                                            <button type="submit" class="btn btn-success btn-sm" style="background-color: #ffffff; border-color: #28a745;" title="Approve Account">
-                                                <i class="bi bi-person-check"></i>
+                                            <button type="submit" class="btn btn-success btn-sm text-white" title="Approve Account">
+                                                <i class="bi bi-person-check me-1"></i>Approve
                                             </button>
                                         </form>
                                         <form method="POST" class="d-inline">
                                             <input type="hidden" name="action" value="reject_account">
                                             <input type="hidden" name="user_id" value="<?= $u['user_id'] ?>">
-                                            <button type="submit" class="btn btn-danger btn-sm" style="background-color: #ffffff; border-color: #28a745;" title="Reject Account">
-                                                <i class="bi bi-person-x"></i>
+                                            <button type="submit" class="btn btn-outline-danger btn-sm" title="Reject Account">
+                                                <i class="bi bi-person-x me-1"></i>Reject
                                             </button>
                                         </form>
                                         <?php elseif ((int)$u['admin_approved'] === -1): ?>

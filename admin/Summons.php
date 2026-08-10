@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once 'admin_auth.php';
 
 $blotterId = filter_input(INPUT_GET, 'blotter_id', FILTER_VALIDATE_INT) ?: 0;
@@ -64,13 +64,13 @@ $fieldValue = static function (string $key) use ($blotter): string {
             border: 0;
             border-radius: 4px;
             padding: 9px 16px;
-            background: #1f4e79;
+            background: #2e856e;
             color: #fff;
             font-size: 14px;
             cursor: pointer;
         }
 
-        .actions button:hover { background: #173b5c; }
+        .actions button:hover { background: #246a58; }
 
         .record-status {
             width: 8.5in;

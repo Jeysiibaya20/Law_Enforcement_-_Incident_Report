@@ -52,14 +52,14 @@ $trendCounts = array_column($dashboard_data['trends'], 'incident_count');
                 <input type="date" id="dateFrom" class="form-control" value="<?php echo $from; ?>">
                 <span class="fw-bold text-muted">to</span>
                 <input type="date" id="dateTo" class="form-control" value="<?php echo $to; ?>">
-                <button onclick="applyFilter()" class="btn btn-primary">
-                    <i class="bi bi-search"></i> Apply Filter
+                <button onclick="applyFilter()" class="btn btn-success text-white shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">
+                    <i class="bi bi-search me-1"></i> Apply Filter
                 </button>
-                <button onclick="exportReport()" class="btn btn-success">
-                    <i class="bi bi-download"></i> Export Report
+                <button onclick="exportReport()" class="btn btn-success text-white shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">
+                    <i class="bi bi-download me-1"></i> Export Report
                 </button>
-                <button onclick="window.print()" class="btn btn-secondary">
-                    <i class="bi bi-printer"></i> Print
+                <button onclick="window.print()" class="btn btn-outline-secondary">
+                    <i class="bi bi-printer me-1"></i> Print
                 </button>
             </div>
         </div>
@@ -92,8 +92,8 @@ $trendCounts = array_column($dashboard_data['trends'], 'incident_count');
                         <textarea id="qi_narrative" name="narrative" class="form-control" rows="3" placeholder="Brief description of incident (required)"></textarea>
                     </div>
                     <div class="col-md-12 mt-2 d-flex gap-2">
-                        <button type="button" id="qi_submit" class="btn btn-primary">Submit Quick Log</button>
-                        <button type="reset" class="btn btn-secondary">Reset</button>
+                        <button type="button" id="qi_submit" class="btn btn-success text-white shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">Submit Quick Log</button>
+                        <button type="reset" class="btn btn-outline-secondary">Reset</button>
                         <div id="qi_status" class="ms-3 align-self-center"></div>
                     </div>
                 </div>

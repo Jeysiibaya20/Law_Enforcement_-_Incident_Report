@@ -88,8 +88,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 </a>
                             </div>
                             
-                            <button type="submit" class="btn btn-primary w-100">
-                                <i class="bi bi-save"></i> Save Email Settings
+                            <button type="submit" class="btn btn-success w-100 shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important; color: #ffffff !important;">
+                                <i class="bi bi-save me-1"></i> Save Email Settings
                             </button>
                         </form>
                     </div>
@@ -146,8 +146,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <small class="text-muted">How long verification tokens remain valid</small>
                             </div>
                             
-                            <button type="submit" class="btn btn-primary w-100">
-                                <i class="bi bi-save"></i> Save System Settings
+                            <button type="submit" class="btn btn-success w-100 shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important; color: #ffffff !important;">
+                                <i class="bi bi-save me-1"></i> Save System Settings
                             </button>
                         </form>
                     </div>

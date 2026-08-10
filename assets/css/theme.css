@@ -3,9 +3,8 @@
     --bg: #ffffff;
     --panel: #ffffff; /* solid white for best contrast on light */
     --text: #f7f8fa; /* very dark text */
-    --muted: #097cf0;
-    --primary: #f6f8f8;
-    --accent: #dae7e7;
+    --primary: #2e856e;
+    --accent: #4c8a89;
     --navbar-bg: #ffffff;
     --navbar-text: #f5f6fa;
     --link-hover: rgba(255, 255, 255, 0.918);
@@ -16,9 +15,8 @@
     --bg: #f0f1f3; /* page background */
     --panel: #e7eaec; /* panel/card background */
     --text: #e6eef8; /* primary readable text */
-    --muted: #9aa6b2;
-    --primary: #feffff;
-    --accent: #ffffff;
+    --primary: #2e856e;
+    --accent: #4c8a89;
     --navbar-bg: #e8e9eb;
     --navbar-text: #e6eef8;
     --link-hover: rgba(243, 241, 241, 0.959);
@@ -61,9 +59,9 @@ a, a:link, a:visited {
     color: #fff !important;
 }
 
-.btn-primary, .login-btn {
-    background-color: var(--primary) !important;
-    border-color: var(--primary) !important;
+.btn-primary, .btn-success, .login-btn {
+    background-color: #2e856e !important;
+    border-color: #2e856e !important;
     color: #ffffff !important;
 }
 

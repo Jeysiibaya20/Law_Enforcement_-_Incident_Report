@@ -52,14 +52,12 @@
 [data-theme="dark"] ::placeholder { color: rgba(230,238,248,0.6) !important; }
 
 /* Buttons and badges */
-[data-theme="dark"] .btn,
 [data-theme="dark"] .btn-primary,
+[data-theme="dark"] .btn-success,
 [data-theme="dark"] .login-btn {
-    color: #031018 !important;
-}
-[data-theme="dark"] .btn-primary {
-    background: var(--primary) !important;
-    border-color: var(--primary) !important;
+    background: #2e856e !important;
+    border-color: #2e856e !important;
+    color: #ffffff !important;
 }
 [data-theme="dark"] .badge {
     background: rgba(255,255,255,0.06) !important;

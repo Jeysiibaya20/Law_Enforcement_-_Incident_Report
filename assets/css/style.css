@@ -1472,36 +1472,43 @@ p {
 
 /* Enhanced Buttons */
 .btn {
-    border-radius: var(--border-radius);
-    font-weight: 500;
-    padding: 0.625rem 1.25rem;
+    border-radius: var(--border-radius-sm);
+    font-weight: 600;
+    padding: 0.5rem 1.15rem;
     transition: all 0.2s ease;
-    border: none;
 }
 
-.btn-primary {
-    background: rgba(6, 12, 12, 0.712);
-    color: var(--text-white);
+.btn-primary, .btn-success {
+    background-color: #2e856e !important;
+    border: 1px solid #2e856e !important;
+    color: #ffffff !important;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-success:hover {
+    background-color: #246a58 !important;
+    border-color: #246a58 !important;
+    color: #ffffff !important;
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(139, 111, 71, 0.3);
-}
-
-.btn-success {  
-    background: rgba(247, 247, 247, 0.712);
-    color: var(--text-white);
+    box-shadow: 0 4px 12px rgba(46, 133, 110, 0.3);
 }
 
 .btn-warning {
-    background: rgba(255, 255, 255, 0.712);
-    color: var(--text-white);
+    background-color: #f59e0b !important;
+    border: 1px solid #d97706 !important;
+    color: #ffffff !important;
+}
+
+.btn-warning:hover {
+    background-color: #d97706 !important;
+    border-color: #b45309 !important;
+    color: #ffffff !important;
+    transform: translateY(-1px);
 }
 
 .btn-info {
-    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-    color: var(--text-white);
+    background-color: #0284c7 !important;
+    border: 1px solid #0369a1 !important;
+    color: #ffffff !important;
 }
 
 /* Enhanced Progress Bars */
@@ -2929,15 +2936,15 @@ p {
 }
 
 .modal-footer .btn-primary {
-  background-color: var(--accent-blue);
-  border-color: #1d4ed8;
-  color: #fff;
+  background-color: #2e856e !important;
+  border-color: #2e856e !important;
+  color: #fff !important;
 }
 
 .modal-footer .btn-secondary {
-  background-color: #1f2937;
-  border-color: var(--border);
-  color: #fff;
+  background-color: #e2e8f0 !important;
+  border-color: #cbd5e1 !important;
+  color: #334155 !important;
 }
 
 /* ========================================

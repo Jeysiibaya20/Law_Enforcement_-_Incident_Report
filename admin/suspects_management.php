@@ -300,20 +300,31 @@ $additional_head = <<<CSS
         border-color: #dcdcdc !important;
     }
     .suspect-management-page .btn-primary,
-    .suspect-management-page .btn-secondary,
-    .suspect-management-page .btn-outline-secondary,
-    .suspect-management-page .btn-info {
-        color: #000000 !important;
+    .suspect-management-page .btn-success {
+        background-color: #2e856e !important;
+        border-color: #2e856e !important;
+        color: #ffffff !important;
     }
-    .suspect-management-page .btn-primary {
-        background-color: #e9ecef !important;
-        border-color: #ced4da !important;
+    .suspect-management-page .btn-primary:hover,
+    .suspect-management-page .btn-success:hover {
+        background-color: #246a58 !important;
+        border-color: #246a58 !important;
+        color: #ffffff !important;
+    }
+    .suspect-management-page .btn-outline-primary {
+        color: #2e856e !important;
+        border-color: #2e856e !important;
+        background-color: transparent !important;
+    }
+    .suspect-management-page .btn-outline-primary:hover {
+        background-color: #2e856e !important;
+        color: #ffffff !important;
     }
     .suspect-management-page .btn-secondary,
-    .suspect-management-page .btn-outline-secondary,
-    .suspect-management-page .btn-info {
+    .suspect-management-page .btn-outline-secondary {
         background-color: #f8f9fa !important;
         border-color: #ced4da !important;
+        color: #334155 !important;
     }
     .suspect-management-page .text-muted {
         color: #444 !important;

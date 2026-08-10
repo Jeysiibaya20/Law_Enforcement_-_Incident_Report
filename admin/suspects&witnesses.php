@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once 'admin_auth.php';
 require_once '../config/db_connect.php';
 require_once '../includes/suspect_witness_management.php';
@@ -128,17 +128,16 @@ include '../includes/navbar.php';
         background-color: #ffffff !important;
     }
     .suspects-witnesses-page .btn-primary,
-    .suspects-witnesses-page .btn-secondary,
-    .suspects-witnesses-page .btn-info {
-        background-color: #f0f0f0 !important;
-        border-color: #dcdcdc !important;
-        color: #000000 !important;
+    .suspects-witnesses-page .btn-success {
+        background-color: #2e856e !important;
+        border-color: #2e856e !important;
+        color: #ffffff !important;
     }
     .suspects-witnesses-page .btn-primary:hover,
-    .suspects-witnesses-page .btn-secondary:hover,
-    .suspects-witnesses-page .btn-info:hover {
-        background-color: #e0e0e0 !important;
-        color: #000000 !important;
+    .suspects-witnesses-page .btn-success:hover {
+        background-color: #246a58 !important;
+        border-color: #246a58 !important;
+        color: #ffffff !important;
     }
 
     .privacy-float-card {

@@ -32,7 +32,7 @@ if (!empty($_GET['blotter_id'])) {
     <div class="content-container">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h1 class="h2">Certificate of File Action</h1>
-            <a href="blotters.php" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Back</a>
+            <a href="blotters.php" class="btn btn-outline-secondary"><i class="bi bi-arrow-left me-1"></i> Back</a>
         </div>
 
         <div class="card mb-4">
@@ -50,9 +50,9 @@ if (!empty($_GET['blotter_id'])) {
                         </select>
                     </div>
                     <div class="col-md-4">
-                        <button type="submit" class="btn btn-primary">Load Certificate</button>
+                        <button type="submit" class="btn btn-success me-2 shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important; color: #ffffff !important;"><i class="bi bi-file-earmark-check me-1"></i>Load Certificate</button>
                         <?php if ($selected): ?>
-                        <button type="button" class="btn btn-outline-secondary" onclick="printCertificatePaper()">Print</button>
+                        <button type="button" class="btn btn-outline-primary" onclick="printCertificatePaper()"><i class="bi bi-printer me-1"></i>Print</button>
                         <?php endif; ?>
                     </div>
                 </form>

@@ -165,7 +165,7 @@ try {
                 <p class="text-muted small mb-0">Bi-directional payload standardization and external Partner Surveillance API dashboard</p>
             </div>
             <div>
-                <a href="dashboard.php" class="btn btn-secondary btn-sm"><i class="bi bi-arrow-left"></i> Dashboard</a>
+                <a href="dashboard.php" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left me-1"></i> Dashboard</a>
             </div>
         </div>
 
@@ -282,7 +282,7 @@ try {
                     </div>
 
                     <div class="d-flex justify-content-end mt-4">
-                        <button type="submit" class="btn btn-primary px-4 fw-bold">
+                        <button type="submit" class="btn btn-success px-4 fw-bold shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important; color: #ffffff !important;">
                             <i class="fas fa-save me-2"></i>Save Integration Settings
                         </button>
                     </div>
@@ -295,13 +295,13 @@ try {
             <div class="card-header bg-warning text-dark fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2">
                 <div>
                     <i class="fas fa-bullhorn me-2"></i>Live Public Safety Campaigns (`campaign.alertaraqc.com`)
-                    <span class="badge bg-dark text-warning ms-2"><?= count($receivedCampaigns) ?> Synced Campaign(s)</span>
+                    <span class="badge bg-success text-white ms-2"><?= count($receivedCampaigns) ?> Synced Campaign(s)</span>
                 </div>
                 <div class="d-flex gap-2 align-items-center">
                     <input type="text" id="campaignSearchInput" class="form-control form-control-sm" placeholder="Filter campaigns..." style="width: 220px;">
                     <form method="POST" class="d-inline mb-0">
                         <input type="hidden" name="action" value="fetch_campaigns">
-                        <button type="submit" class="btn btn-sm btn-primary fw-bold px-3">
+                        <button type="submit" class="btn btn-sm btn-success fw-bold px-3 shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important; color: #ffffff !important;">
                             <i class="fas fa-sync-alt me-1"></i>Fetch Live Campaigns
                         </button>
                     </form>
@@ -451,8 +451,8 @@ try {
                                 </label>
                             </div>
 
-                            <button type="submit" class="btn btn-primary w-100">
-                                <i class="fas fa-cogs me-2"></i>Process & Standardize Payload
+                            <button type="submit" class="btn btn-success w-100 text-white fw-bold shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">
+                                <i class="fas fa-play me-2"></i>Simulate Inbound & Generate Module Dispatches
                             </button>
                         </form>
                     </div>

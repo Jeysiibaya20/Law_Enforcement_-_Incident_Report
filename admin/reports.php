@@ -133,8 +133,8 @@ try {
     <div class="content-container">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h1 class="h2">Reports & Analytics</h1>
-            <a href="dashboard.php" class="btn btn-secondary">
-                <i class="bi bi-arrow-left"></i> Back
+            <a href="dashboard.php" class="btn btn-outline-secondary">
+                <i class="bi bi-arrow-left me-1"></i> Dashboard
             </a>
         </div>
 

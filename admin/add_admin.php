@@ -93,7 +93,7 @@ require_once '../includes/header.php';
                 <a href="users.php" class="btn btn-outline-secondary btn-sm me-2">
                     <i class="fas fa-users me-1"></i> View All Users
                 </a>
-                <a href="dashboard.php" class="btn btn-primary btn-sm">
+                <a href="dashboard.php" class="btn btn-outline-success btn-sm">
                     <i class="fas fa-chart-line me-1"></i> Dashboard
                 </a>
             </div>
@@ -158,7 +158,7 @@ require_once '../includes/header.php';
                                 </select>
                             </div>
 
-                            <button type="submit" class="btn btn-primary w-100 py-2 font-weight-semibold shadow-sm">
+                            <button type="submit" class="btn btn-success w-100 py-2 font-weight-semibold shadow-sm text-white" style="background-color: #2e856e !important; border-color: #2e856e !important;">
                                 <i class="fas fa-user-shield me-2"></i>Create Administrative Account
                             </button>
                         </form>
