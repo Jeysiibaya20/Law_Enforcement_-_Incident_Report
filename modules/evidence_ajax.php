@@ -5,18 +5,21 @@ if (!isset($pdo) || !($pdo instanceof PDO)) {
     $pdo = getDBConnection();
 }
 
-if (!isset($_SESSION['user_id'])) {
+$adminId = $_SESSION['admin_user_id'] ?? $_SESSION['user_id'] ?? null;
+if (empty($adminId)) {
     exit('Unauthorized');
 }
 
-// Check admin role
+// Check admin/officer role
 $adminCheck = $pdo->prepare("SELECT role FROM signup WHERE user_id = ?");
-$adminCheck->execute([$_SESSION['user_id']]);
+$adminCheck->execute([$adminId]);
 $userRole = $adminCheck->fetch(PDO::FETCH_ASSOC);
 
-if (!$userRole || strtolower($userRole['role']) !== 'admin') {
+$roleStr = strtolower(trim($userRole['role'] ?? $_SESSION['admin_role'] ?? $_SESSION['role'] ?? ''));
+if (strpos($roleStr, 'admin') === false && strpos($roleStr, 'officer') === false && strpos($roleStr, 'official') === false) {
     exit('Unauthorized');
 }
+$_SESSION['user_id'] = $adminId;
 
 $action = $_GET['action'] ?? '';
 $id = $_GET['id'] ?? 0;

@@ -360,7 +360,7 @@ try {
                                     <button class="btn btn-sm btn-outline-primary" onclick="printBlotter(<?= (int)$b['id'] ?>, '<?= htmlspecialchars($b['blotter_no']) ?>')" title="Print Blotter">
                                         <i class="bi bi-printer"></i> Print
                                     </button>
-                                    <a href="Summons.php?blotter_id=<?= (int)$b['id'] ?>" class="btn btn-sm btn-outline-dark me-1" title="Create summons from this blotter">
+                                    <a href="Summons.php?blotter_id=<?= (int)$b['id'] ?>" class="btn btn-sm btn-outline-primary me-1" title="Create summons from this blotter">
                                         <i class="bi bi-file-earmark-text"></i> Summons
                                     </a>
 

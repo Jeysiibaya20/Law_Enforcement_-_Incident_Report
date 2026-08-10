@@ -60,23 +60,6 @@ if ($userId && strtolower($_SESSION['role'] ?? '') !== 'admin' && !$userApproved
 function getPriorityByIncidentType($incident_type) {
     $incident_type = strtolower(trim($incident_type));
     
-    // High Priority Incidents
-    $high_priority = [
-        'murder', 'homicide', 'rape', 'sexual assault', 'kidnapping', 'robbery',
-        'armed robbery', 'assault with weapon', 'shooting', 'stabbing', 'bombing',
-        'terrorism', 'hostage', 'serious injury', 'critical incident', 'arson',
-        'human trafficking', 'drug trafficking', 'grave threat', 'death threat',
-        'violent crime', 'aggravated assault', 'attempted murder', 'gang violence'
-    ];
-    
-    // Medium Priority Incidents
-    $medium_priority = [
-        'theft', 'burglary', 'robbery attempt', 'vehicle theft', 'shoplifting',
-        'fraud', 'scam', 'identity theft', 'vandalism', 'property damage',
-        'trespassing', 'harassment', 'cybercrime', 'extortion', 'intimidation',
-        'simple assault', 'battery', 'accident', 'hit and run', 'dui', 'drunken driving'
-    ];
-    
     // Low Priority Incidents
     $low_priority = [
         'lost and found', 'noise complaint', 'parking violation', 'minor dispute',
@@ -84,27 +67,14 @@ function getPriorityByIncidentType($incident_type) {
         'speeding', 'jaywalking', 'loitering', 'minor trespass', 'complaint'
     ];
     
-    // Check which category the incident type falls into
-    foreach ($high_priority as $type) {
-        if (strpos($incident_type, $type) !== false) {
-            return 'High';
-        }
-    }
-    
-    foreach ($medium_priority as $type) {
-        if (strpos($incident_type, $type) !== false) {
-            return 'Medium';
-        }
-    }
-    
     foreach ($low_priority as $type) {
         if (strpos($incident_type, $type) !== false) {
             return 'Low';
         }
     }
     
-    // Default to Medium if no match found
-    return 'Medium';
+    // Default to Low
+    return 'Low';
 }
 
 // Handle POST actions: create, update, archive
@@ -939,49 +909,17 @@ require '../includes/navbar.php';
         const prioritySelect = document.getElementById('priority');
         const priorityDisplay = document.getElementById('priority_display');
         
-        let detectedPriority = 'Medium'; // Default
-        
-        // High Priority Incidents
-        const highPriority = ['murder', 'homicide', 'rape', 'sexual assault', 'kidnapping', 'robbery',
-            'armed robbery', 'assault with weapon', 'shooting', 'stabbing', 'bombing',
-            'terrorism', 'hostage', 'serious injury', 'critical incident', 'arson',
-            'human trafficking', 'drug trafficking', 'grave threat', 'death threat',
-            'violent crime', 'aggravated assault', 'attempted murder', 'gang violence'];
-        
-        // Medium Priority Incidents
-        const mediumPriority = ['theft', 'burglary', 'robbery attempt', 'vehicle theft', 'shoplifting',
-            'fraud', 'scam', 'identity theft', 'vandalism', 'property damage',
-            'trespassing', 'harassment', 'cybercrime', 'extortion', 'intimidation',
-            'simple assault', 'battery', 'accident', 'hit and run', 'dui', 'drunken driving'];
+        let detectedPriority = 'Low'; // Default to Low
         
         // Low Priority Incidents
         const lowPriority = ['lost and found', 'noise complaint', 'parking violation', 'minor dispute',
             'civil matter', 'lost property', 'found property', 'traffic violation',
             'speeding', 'jaywalking', 'loitering', 'minor trespass', 'complaint'];
         
-        // Detect priority
-        for (let type of highPriority) {
+        for (let type of lowPriority) {
             if (incidentType.includes(type)) {
-                detectedPriority = 'High';
+                detectedPriority = 'Low';
                 break;
-            }
-        }
-        
-        if (detectedPriority === 'Medium') {
-            for (let type of mediumPriority) {
-                if (incidentType.includes(type)) {
-                    detectedPriority = 'Medium';
-                    break;
-                }
-            }
-        }
-        
-        if (detectedPriority === 'Medium') {
-            for (let type of lowPriority) {
-                if (incidentType.includes(type)) {
-                    detectedPriority = 'Low';
-                    break;
-                }
             }
         }
         

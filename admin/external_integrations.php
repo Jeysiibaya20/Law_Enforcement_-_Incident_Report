@@ -301,7 +301,7 @@ try {
                     <input type="text" id="campaignSearchInput" class="form-control form-control-sm" placeholder="Filter campaigns..." style="width: 220px;">
                     <form method="POST" class="d-inline mb-0">
                         <input type="hidden" name="action" value="fetch_campaigns">
-                        <button type="submit" class="btn btn-sm btn-dark text-warning border-dark fw-bold px-3">
+                        <button type="submit" class="btn btn-sm btn-primary fw-bold px-3">
                             <i class="fas fa-sync-alt me-1"></i>Fetch Live Campaigns
                         </button>
                     </form>

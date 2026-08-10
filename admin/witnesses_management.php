@@ -82,11 +82,31 @@ $message_type = '';
 $witness = null;
 
 
+// Handle delete witness request
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_witness_id'])) {
+    $delete_id = intval($_POST['delete_witness_id']);
+    try {
+        try {
+            $pdo->prepare("DELETE FROM witness_updates WHERE witness_id = ?")->execute([$delete_id]);
+        } catch (Exception $ex) {}
+
+        $stmt = $pdo->prepare("DELETE FROM witnesses WHERE id = ?");
+        $stmt->execute([$delete_id]);
+
+        $message = "Witness record deleted successfully.";
+        $message_type = 'success';
+        $edit_id = null;
+    } catch (Exception $e) {
+        $message = "Error deleting witness: " . $e->getMessage();
+        $message_type = 'danger';
+    }
+}
+
 // Handle form submission
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($_POST['delete_witness_id'])) {
     $witness_data = [
         'case_id' => $case_id,
-        'case_number' => $case['case_number'],
+        'case_number' => $case['case_number'] ?? '',
         'first_name' => $_POST['first_name'] ?? '',
         'middle_name' => $_POST['middle_name'] ?? '',
         'last_name' => $_POST['last_name'] ?? '',
@@ -109,12 +129,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'available_for_court' => isset($_POST['available_for_court']) ? 1 : 0,
         'protection_needed' => isset($_POST['protection_needed']) ? 1 : 0,
         'remarks' => $_POST['remarks'] ?? '',
-        'created_by' => $_SESSION['user_id']
+        'created_by' => $_SESSION['user_id'] ?? $_SESSION['admin_user_id'] ?? 1
     ];
     
     if ($edit_id) {
         // Update witness
-        $result = updateWitness($edit_id, $witness_data, $_SESSION['user_id']);
+        $result = updateWitness($edit_id, $witness_data, $_SESSION['user_id'] ?? $_SESSION['admin_user_id'] ?? 1);
         if ($result['success']) {
             $message = "Witness information updated successfully";
             $message_type = 'success';
@@ -353,7 +373,10 @@ include '../includes/header.php';
                                                 <?php endif; ?>
                                             </small>
                                         </div>
-                                        <a href="?case_id=<?= $case_id ?>&edit=<?= $w['id'] ?>" class="btn btn-sm btn-outline-primary">Edit</a>
+                                        <div class="d-flex gap-2">
+                                            <a href="?case_id=<?= $case_id ?>&edit=<?= $w['id'] ?>" class="btn btn-sm btn-outline-primary">Edit</a>
+                                            <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#deleteWitnessModal" onclick="prepareDeleteWitness(<?= $w['id'] ?>, '<?= htmlspecialchars($w['first_name'] . ' ' . $w['last_name'], ENT_QUOTES) ?>')"><i class="bi bi-trash"></i> Delete</button>
+                                        </div>
                                     </div>
                                 </div>
                             <?php endforeach; ?>
@@ -366,11 +389,40 @@ include '../includes/header.php';
         </div>
     </div>
 
+<!-- Delete Witness Confirmation Modal -->
+<div class="modal fade" id="deleteWitnessModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content bg-white text-dark border border-2">
+            <div class="modal-header bg-danger text-white border-bottom border-2">
+                <h5 class="modal-title"><i class="bi bi-exclamation-triangle me-1"></i>Delete Witness</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-dark">
+                <p>Are you sure you want to delete witness <strong id="deleteWitnessName"></strong>?</p>
+                <p class="text-muted small mb-0">This will permanently remove the witness record from the system.</p>
+            </div>
+            <div class="modal-footer border-top">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <form method="POST" style="display:inline;">
+                    <input type="hidden" name="case_id" value="<?= htmlspecialchars($case_id ?? '') ?>">
+                    <input type="hidden" name="delete_witness_id" id="deleteWitnessId" value="">
+                    <button type="submit" class="btn btn-danger">Delete Witness</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 <link href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" rel="stylesheet" />
 
 <script>
+function prepareDeleteWitness(id, name) {
+    document.getElementById('deleteWitnessId').value = id;
+    document.getElementById('deleteWitnessName').textContent = name;
+}
+
 (function(){
     const provinceSelect = document.getElementById('provinceSelect');
     const citySelect = document.getElementById('citySelect');

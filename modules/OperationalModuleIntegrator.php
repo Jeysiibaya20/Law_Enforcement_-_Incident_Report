@@ -417,11 +417,12 @@ class OperationalModuleIntegrator {
             try {
                 $checkIncidents = $this->pdo->query("SHOW TABLES LIKE 'incidents'");
                 if ($checkIncidents && $checkIncidents->rowCount() > 0) {
-                    $incStmt = $this->pdo->prepare("INSERT INTO incidents (title, description, incident_type, location, status, reporter_name, created_at) VALUES (?, ?, ?, ?, 'Resolved', ?, NOW())");
+                    $caseNo = 'TIP-' . date('Ymd') . '-' . substr(strtoupper(bin2hex(random_bytes(2))), 0, 4);
+                    $narrative = "[Resolved Tip: {$title}]\nTip ID: {$tipId}\nResolution Notes: {$resolutionNotes}\n" . $description;
+                    $incStmt = $this->pdo->prepare("INSERT INTO incidents (case_no, narrative, incident_type, location, status, reporter_name, incident_date, created_at) VALUES (?, ?, 'Other', ?, 'Resolved', ?, CURDATE(), NOW())");
                     $incStmt->execute([
-                        '[Resolved Tip] ' . $title,
-                        "Tip ID: {$tipId}\nResolution Notes: {$resolutionNotes}\n" . $description,
-                        $incidentType,
+                        $caseNo,
+                        $narrative,
                         $location,
                         $resolvedBy
                     ]);

@@ -23,20 +23,23 @@ require_once 'includes/landing_header.php';
                 <div class="row align-items-center min-vh-100">
                     <div class="col-lg-6">
                         <div class="hero-text">
-                         <h1 class="hero-title"><img src="assets/css/tara.png" alt="TaraQC Logo" style="height:90px;"><span style="color: #f7f6f6; font-weight: bold;">ler</span><span style="color: #ffffff;">TaraQC</span></h1>
+                            <h1 class="hero-title d-flex align-items-center flex-wrap gap-2">
+                                <img src="assets/css/tara.png" alt="TaraQC Logo" style="height:70px; object-fit: contain;">
+                                <span><span style="color: #1c2541; font-weight: 800;">Aler</span><span style="color: #4c8a89; font-weight: 800;">TaraQC</span></span>
+                            </h1>
                             <p class="hero-subtitle">Law enforcement and Incident Report</p>
                             <p class="hero-description">Easy access to Update and Reports.</p>
-                        <div class="hero-actions">
-                            <a href="./auth/login.php" class="btn btn-primary btn-lg me-3" style="text-decoration: none; display: inline-block;"><i class="bi bi-box-arrow-in-right"></i> Sign In</a>
-                            <a href="#modules" class="btn btn-outline-light btn-lg" style="text-decoration: none; display: inline-block;"><i class="bi bi-grid-3x3-gap"></i> Explore Modules</a>
+                            <div class="hero-actions">
+                                <a href="./auth/login.php" class="btn btn-primary btn-lg shadow-sm" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;"><i class="bi bi-box-arrow-in-right"></i> Sign In</a>
+                                <a href="#modules" class="btn btn-outline-primary btn-lg shadow-sm" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;"><i class="bi bi-grid-3x3-gap"></i> Explore Modules</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="hero-visual">
                             <div class="floating-cards">
-                                <div class="card-float card-1"><i class="bi bi-journal"></i><span>Blotter System</span></div>
-                                <div class="card-float card-2"><i class="bi bi-person-slash"></i><span>Suspect and Witness Management</span></div>
+                                <div class="card-float card-1"><i class="bi bi-journal-text"></i><span>Blotter System</span></div>
+                                <div class="card-float card-2"><i class="bi bi-people"></i><span>Suspect & Witness Management</span></div>
                                 <div class="card-float card-3"><i class="bi bi-graph-up"></i><span>Analytics & Reports</span></div>
                             </div>
                         </div>
@@ -237,52 +240,63 @@ html, body {
     position: relative; 
     width: 100%; 
     height: 100%;
+    min-height: 420px;
 }
 
 .card-float { 
     position: absolute; 
     background: rgba(255, 255, 255, 0.96); 
     border-radius: var(--border-radius-lg); 
-    padding: 1rem; 
-    box-shadow: var(--shadow-xl); 
+    padding: 1.25rem 1rem; 
+    box-shadow: 0 12px 30px rgba(76, 138, 137, 0.18); 
     backdrop-filter: blur(10px); 
-    border: 1px solid rgba(255, 255, 255, 0.9); 
+    border: 1px solid rgba(76, 138, 137, 0.2); 
     display: flex; 
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
-    animation: floatCard;
-    width: 150px;
-    height: 145px;
+    animation: floatCard 4s ease-in-out infinite;
+    width: 165px;
+    height: 155px;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-float:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 18px 36px rgba(76, 138, 137, 0.25);
 }
 
 .card-float i { 
-    font-size: 2rem; 
+    font-size: 2.2rem; 
     color: var(--main-color); 
-    margin-bottom: .5rem;
+    margin-bottom: .6rem;
 }
 
 .card-float span { 
-    font-weight: 600; 
+    font-weight: 700; 
     color: var(--text-primary); 
-    font-size: .85rem;
+    font-size: .88rem;
+    line-height: 1.3;
     word-break: break-word;
 }
 
 .card-1 { 
-
+    top: 10%; 
+    left: 8%; 
+    animation-delay: 0s;
 }
 
 .card-2 { 
-
+    top: 35%; 
+    right: 8%; 
+    animation-delay: 1.3s;
 }
 
 .card-3 { 
-
-}
-
-.card-4 { 
-
+    bottom: 10%; 
+    left: 22%; 
+    animation-delay: 2.6s;
 }
 
 .overview-section, .modules-section, .features-section { 
@@ -643,29 +657,38 @@ html, body {
     }
 
     .hero-visual {
-        height: 300px;
+        height: auto;
         margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .floating-cards {
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+        min-height: auto;
     }
 
     .card-float {
-        width: 120px;
-        height: 100px;
-        padding: 1rem;
-        font-size: 0.75rem;
+        position: static;
+        width: 140px;
+        height: 120px;
+        padding: 0.9rem;
+        animation: none;
     }
 
     .card-float i {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        margin-bottom: 0.35rem;
     }
 
     .card-float span {
-        font-size: 0.7rem;
+        font-size: 0.78rem;
     }
-
-    .card-1 { top: 5%; left: 5%; }
-    .card-2 { top: 15%; right: 5%; }
-    .card-3 { bottom: 40%; left: 5%; }
-    .card-4 { bottom: 5%; right: 5%; }
 
     .section-title {
         font-size: 1.5rem;
@@ -732,21 +755,23 @@ html, body {
     }
 
     .hero-visual {
-        height: 250px;
+        height: auto;
+        margin-top: 1.5rem;
     }
 
     .card-float {
-        width: 100px;
-        height: 80px;
-        padding: 0.8rem;
+        width: 130px;
+        height: 110px;
+        padding: 0.75rem 0.5rem;
     }
 
     .card-float i {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        margin-bottom: 0.25rem;
     }
 
     .card-float span {
-        font-size: 0.65rem;
+        font-size: 0.72rem;
     }
 
     .section-title {

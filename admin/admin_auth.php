@@ -50,6 +50,9 @@ try {
         $isAuthorized = true;
         $_SESSION['admin_role'] = $user['role'];
         $_SESSION['admin_fullname'] = $user['fullname'] ?? $_SESSION['admin_fullname'] ?? 'Admin';
+        $_SESSION['user_id'] = $adminUserId;
+        $_SESSION['role'] = $user['role'];
+        $_SESSION['fullname'] = $_SESSION['admin_fullname'];
     }
 } catch (Exception $e) {
     $isAuthorized = false;

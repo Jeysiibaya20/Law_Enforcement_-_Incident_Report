@@ -1,14 +1,14 @@
 <?php
 $base_url = '../';
 require_once __DIR__ . '/../includes/user_auth.php';
-$page_title = 'My Reports & Blotters';
+$page_title = 'My Blotter Reports';
 
 require_once __DIR__ . '/../config/db_connect.php';
 if (!isset($pdo) || !($pdo instanceof PDO)) {
     $pdo = getDBConnection();
 }
 
-$userId = $_SESSION['user_id'];
+$userId = $_SESSION['user_id'] ?? $_SESSION['resident_user_id'] ?? 0;
 $fullname = $_SESSION['fullname'] ?? $_SESSION['first_name'] ?? 'Resident';
 
 // ── Single optimized query for account status ──
@@ -24,37 +24,28 @@ try {
     $bannedNotice = $isBanned || !$userApproved;
 } catch (Exception $e) {}
 
-// ── Fetch data only if account is active ──
-$myIncidents = [];
+// ── Fetch Blotters where user is complainant or creator ──
 $myBlotters = [];
-$incidentCount = 0;
 $blotterCount = 0;
 $resolvedCount = 0;
 $pendingCount = 0;
 
 if (!$bannedNotice) {
     try {
-        // Incidents filed by user
-        $stmt = $pdo->prepare("SELECT id, case_no, incident_type, incident_date, status, location, created_at FROM incidents WHERE created_by = ? ORDER BY id DESC LIMIT 50");
-        $stmt->execute([$userId]);
-        $myIncidents = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        $incidentCount = count($myIncidents);
-
-        // Count by status
-        foreach ($myIncidents as $inc) {
-            $s = strtolower($inc['status'] ?? '');
-            if (in_array($s, ['resolved', 'closed'])) $resolvedCount++;
-            elseif (in_array($s, ['pending', 'new', 'open'])) $pendingCount++;
-        }
-    } catch (Exception $e) {}
-
-    try {
-        // Blotters where user is complainant
-        $stmt2 = $pdo->prepare("SELECT id, blotter_no, respondent_name, incident_type, status, created_at FROM blotters WHERE complainant_name LIKE ? OR created_by = ? ORDER BY id DESC LIMIT 50");
+        $stmt = $pdo->prepare("SELECT id, blotter_no, complainant_name, respondent_name, incident_type, incident_date, incident_time, location, hearing_date, hearing_time, hearing_location, status, created_at FROM blotters WHERE complainant_name LIKE ? OR created_by = ? ORDER BY id DESC LIMIT 50");
         $searchName = '%' . ($fullname) . '%';
-        $stmt2->execute([$searchName, $userId]);
-        $myBlotters = $stmt2->fetchAll(PDO::FETCH_ASSOC);
+        $stmt->execute([$searchName, $userId]);
+        $myBlotters = $stmt->fetchAll(PDO::FETCH_ASSOC);
         $blotterCount = count($myBlotters);
+
+        foreach ($myBlotters as $b) {
+            $s = strtolower($b['status'] ?? '');
+            if (in_array($s, ['resolved', 'settled', 'closed'])) {
+                $resolvedCount++;
+            } else {
+                $pendingCount++;
+            }
+        }
     } catch (Exception $e) {}
 }
 
@@ -68,8 +59,8 @@ require_once __DIR__ . '/../includes/navbar.php';
         <!-- Page Header -->
         <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
             <div>
-                <h1 class="h3 fw-bold mb-1" style="font-family: 'Quicksand', sans-serif;">My Reports & Blotters</h1>
-                <p class="text-secondary small mb-0">Track all your filed incident reports and blotter complaints</p>
+                <h1 class="h3 fw-bold mb-1" style="font-family: 'Quicksand', sans-serif;">My Blotter Reports</h1>
+                <p class="text-secondary small mb-0">Track all your filed blotter complaints and dispute proceedings</p>
             </div>
             <div class="d-flex gap-2">
                 <a href="blotter_create.php" class="btn btn-primary btn-sm shadow-sm">
@@ -93,142 +84,114 @@ require_once __DIR__ . '/../includes/navbar.php';
 
         <!-- Stat Cards Row -->
         <div class="row g-3 mb-4">
-            <div class="col-6 col-md-3">
+            <div class="col-12 col-md-4">
                 <div class="card h-100 border-start border-primary border-4 shadow-sm p-3">
-                    <span class="text-muted small text-uppercase fw-bold">Incidents</span>
-                    <div class="h3 fw-bold text-primary my-1"><?php echo $incidentCount; ?></div>
-                    <small class="text-muted">Total filed</small>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="text-muted small text-uppercase fw-bold">Total Blotters</span>
+                            <div class="h2 fw-bold text-primary my-1"><?php echo $blotterCount; ?></div>
+                            <small class="text-muted">Complaints recorded</small>
+                        </div>
+                        <div class="text-primary opacity-50"><i class="fas fa-clipboard-list fa-2x"></i></div>
+                    </div>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
-                <div class="card h-100 border-start border-info border-4 shadow-sm p-3">
-                    <span class="text-muted small text-uppercase fw-bold">Blotters</span>
-                    <div class="h3 fw-bold text-info my-1"><?php echo $blotterCount; ?></div>
-                    <small class="text-muted">Complaints filed</small>
-                </div>
-            </div>
-            <div class="col-6 col-md-3">
+            <div class="col-12 col-md-4">
                 <div class="card h-100 border-start border-warning border-4 shadow-sm p-3">
-                    <span class="text-muted small text-uppercase fw-bold">Pending</span>
-                    <div class="h3 fw-bold text-warning my-1"><?php echo $pendingCount; ?></div>
-                    <small class="text-muted">Awaiting action</small>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="text-muted small text-uppercase fw-bold">Pending / In Progress</span>
+                            <div class="h2 fw-bold text-warning my-1"><?php echo $pendingCount; ?></div>
+                            <small class="text-muted">Awaiting action or hearing</small>
+                        </div>
+                        <div class="text-warning opacity-50"><i class="fas fa-clock fa-2x"></i></div>
+                    </div>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-12 col-md-4">
                 <div class="card h-100 border-start border-success border-4 shadow-sm p-3">
-                    <span class="text-muted small text-uppercase fw-bold">Resolved</span>
-                    <div class="h3 fw-bold text-success my-1"><?php echo $resolvedCount; ?></div>
-                    <small class="text-muted">Completed cases</small>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="text-muted small text-uppercase fw-bold">Resolved / Settled</span>
+                            <div class="h2 fw-bold text-success my-1"><?php echo $resolvedCount; ?></div>
+                            <small class="text-muted">Completed cases</small>
+                        </div>
+                        <div class="text-success opacity-50"><i class="fas fa-check-circle fa-2x"></i></div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Tab Navigation -->
-        <ul class="nav nav-tabs mb-0" id="reportTabs" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active fw-semibold" id="incidents-tab" data-bs-toggle="tab" data-bs-target="#incidents" type="button" role="tab">
-                    <i class="fas fa-exclamation-triangle me-1"></i> Incident Reports <span class="badge bg-primary ms-1"><?php echo $incidentCount; ?></span>
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link fw-semibold" id="blotters-tab" data-bs-toggle="tab" data-bs-target="#blotters" type="button" role="tab">
-                    <i class="fas fa-clipboard-list me-1"></i> Blotter Complaints <span class="badge bg-info ms-1"><?php echo $blotterCount; ?></span>
-                </button>
-            </li>
-        </ul>
-
-        <div class="tab-content">
-            <!-- Incidents Tab -->
-            <div class="tab-pane fade show active" id="incidents" role="tabpanel">
-                <div class="card border-top-0 rounded-top-0 shadow-sm">
-                    <div class="card-body p-0">
-                        <div class="table-responsive">
-                            <table class="table table-hover align-middle mb-0" style="font-size: 0.875rem;">
-                                <thead class="table-light">
-                                    <tr>
-                                        <th>Case No</th>
-                                        <th>Incident Type</th>
-                                        <th>Location</th>
-                                        <th>Date</th>
-                                        <th>Status</th>
-                                        <th>Filed</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <?php if (empty($myIncidents)): ?>
-                                        <tr><td colspan="6" class="text-center text-muted py-4">
-                                            <i class="fas fa-info-circle me-2"></i>You have not filed any reports yet.
-                                            <br><a href="blotter_create.php" class="btn btn-sm btn-primary mt-2"><i class="fas fa-pen-nib me-1"></i>Create Blotter</a>
-                                        </td></tr>
-                                    <?php else: ?>
-                                        <?php foreach ($myIncidents as $r):
-                                            $status = htmlspecialchars($r['status'] ?? 'Pending');
-                                            $sl = strtolower($status);
-                                            $badgeClass = 'bg-secondary';
-                                            if (in_array($sl, ['resolved', 'closed'])) $badgeClass = 'bg-success';
-                                            elseif (in_array($sl, ['ongoing', 'in progress', 'investigating'])) $badgeClass = 'bg-info';
-                                            elseif (in_array($sl, ['new', 'pending', 'open'])) $badgeClass = 'bg-warning text-dark';
-                                            elseif ($sl === 'rejected') $badgeClass = 'bg-danger';
-                                        ?>
-                                        <tr>
-                                            <td class="fw-semibold"><?php echo htmlspecialchars($r['case_no'] ?? '—'); ?></td>
-                                            <td><?php echo htmlspecialchars($r['incident_type'] ?? '—'); ?></td>
-                                            <td class="text-muted small"><?php echo htmlspecialchars(mb_strimwidth($r['location'] ?? '—', 0, 30, '...')); ?></td>
-                                            <td><?php echo $r['incident_date'] ? date('M d, Y', strtotime($r['incident_date'])) : '—'; ?></td>
-                                            <td><span class="badge <?php echo $badgeClass; ?>"><?php echo $status; ?></span></td>
-                                            <td class="text-muted small"><?php echo $r['created_at'] ? date('M d, g:i a', strtotime($r['created_at'])) : '—'; ?></td>
-                                        </tr>
-                                        <?php endforeach; ?>
-                                    <?php endif; ?>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
+        <!-- Blotters Table Card -->
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-card fw-bold d-flex justify-content-between align-items-center py-3">
+                <span><i class="fas fa-list-alt me-2 text-primary"></i>Filed Blotter Complaints (<?php echo $blotterCount; ?>)</span>
+                <a href="blotter_create.php" class="btn btn-sm btn-primary"><i class="fas fa-plus me-1"></i>New Blotter</a>
             </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0" style="font-size: 0.875rem;">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="ps-3">Blotter No</th>
+                                <th>Respondent</th>
+                                <th>Incident Type</th>
+                                <th>Incident Date</th>
+                                <th>Hearing / Status</th>
+                                <th>Status</th>
+                                <th class="pe-3 text-end">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php if (empty($myBlotters)): ?>
+                                <tr>
+                                    <td colspan="7" class="text-center text-muted py-5">
+                                        <i class="fas fa-clipboard-check fa-2x mb-3 text-secondary d-block"></i>
+                                        <p class="mb-1 fw-semibold">No blotter complaints filed yet</p>
+                                        <small class="text-muted">When you file a complaint, it will appear here for tracking.</small>
+                                        <br>
+                                        <a href="blotter_create.php" class="btn btn-sm btn-primary mt-3">
+                                            <i class="fas fa-pen-nib me-1"></i>File New Blotter
+                                        </a>
+                                    </td>
+                                </tr>
+                            <?php else: ?>
+                                <?php foreach ($myBlotters as $b):
+                                    $bStatus = htmlspecialchars($b['status'] ?? 'Pending');
+                                    $bsl = strtolower($bStatus);
+                                    $bBadge = 'bg-secondary';
+                                    if (in_array($bsl, ['resolved', 'settled', 'closed'])) $bBadge = 'bg-success';
+                                    elseif (in_array($bsl, ['pending', 'new'])) $bBadge = 'bg-warning text-dark';
+                                    elseif (in_array($bsl, ['hearing', 'scheduled', 'under investigation'])) $bBadge = 'bg-info text-dark';
 
-            <!-- Blotters Tab -->
-            <div class="tab-pane fade" id="blotters" role="tabpanel">
-                <div class="card border-top-0 rounded-top-0 shadow-sm">
-                    <div class="card-body p-0">
-                        <div class="table-responsive">
-                            <table class="table table-hover align-middle mb-0" style="font-size: 0.875rem;">
-                                <thead class="table-light">
-                                    <tr>
-                                        <th>Blotter No</th>
-                                        <th>Respondent</th>
-                                        <th>Type</th>
-                                        <th>Status</th>
-                                        <th>Filed</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <?php if (empty($myBlotters)): ?>
-                                        <tr><td colspan="5" class="text-center text-muted py-4">
-                                            <i class="fas fa-info-circle me-2"></i>No blotter complaints found under your name.
-                                        </td></tr>
-                                    <?php else: ?>
-                                        <?php foreach ($myBlotters as $b):
-                                            $bStatus = htmlspecialchars($b['status'] ?? 'Pending');
-                                            $bsl = strtolower($bStatus);
-                                            $bBadge = 'bg-secondary';
-                                            if (in_array($bsl, ['resolved', 'settled', 'closed'])) $bBadge = 'bg-success';
-                                            elseif (in_array($bsl, ['pending', 'new'])) $bBadge = 'bg-warning text-dark';
-                                            elseif (in_array($bsl, ['hearing', 'scheduled'])) $bBadge = 'bg-info';
-                                        ?>
-                                        <tr>
-                                            <td class="fw-semibold"><?php echo htmlspecialchars($b['blotter_no'] ?? '—'); ?></td>
-                                            <td><?php echo htmlspecialchars($b['respondent_name'] ?? '—'); ?></td>
-                                            <td><?php echo htmlspecialchars($b['incident_type'] ?? '—'); ?></td>
-                                            <td><span class="badge <?php echo $bBadge; ?>"><?php echo $bStatus; ?></span></td>
-                                            <td class="text-muted small"><?php echo $b['created_at'] ? date('M d, Y g:i a', strtotime($b['created_at'])) : '—'; ?></td>
-                                        </tr>
-                                        <?php endforeach; ?>
-                                    <?php endif; ?>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+                                    $hasHearing = !empty($b['hearing_date']);
+                                ?>
+                                <tr>
+                                    <td class="ps-3 fw-bold text-primary"><?php echo htmlspecialchars($b['blotter_no'] ?? '—'); ?></td>
+                                    <td>
+                                        <div class="fw-semibold text-dark"><?php echo htmlspecialchars($b['respondent_name'] ?: 'Not Specified'); ?></div>
+                                        <small class="text-muted"><?php echo htmlspecialchars(mb_strimwidth($b['location'] ?? '', 0, 25, '...')); ?></small>
+                                    </td>
+                                    <td><span class="badge bg-light text-dark border"><?php echo htmlspecialchars($b['incident_type'] ?? 'Complaint'); ?></span></td>
+                                    <td><?php echo $b['incident_date'] ? date('M d, Y', strtotime($b['incident_date'])) : '—'; ?></td>
+                                    <td>
+                                        <?php if ($hasHearing): ?>
+                                            <span class="badge bg-info text-dark"><i class="fas fa-calendar-alt me-1"></i><?php echo date('M d', strtotime($b['hearing_date'])); ?> <?php echo $b['hearing_time'] ? date('g:i A', strtotime($b['hearing_time'])) : ''; ?></span>
+                                        <?php else: ?>
+                                            <span class="text-muted small">No hearing set</span>
+                                        <?php endif; ?>
+                                    </td>
+                                    <td><span class="badge <?php echo $bBadge; ?>"><?php echo $bStatus; ?></span></td>
+                                    <td class="pe-3 text-end">
+                                        <a href="blotter_view.php?id=<?php echo intval($b['id']); ?>" class="btn btn-sm btn-outline-primary py-0 px-2" style="font-size: 0.8rem;">
+                                            <i class="fas fa-eye me-1"></i>View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
@@ -238,3 +201,4 @@ require_once __DIR__ . '/../includes/navbar.php';
 </div>
 
 <?php require_once __DIR__ . '/../includes/footer.php'; ?>
+

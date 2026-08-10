@@ -183,7 +183,7 @@ try {
                 <h1 class="h2" style="color:#000;">Settlement Aggregation</h1>
                 <p class="text-muted mb-0" style="color:#000;">Review blotter-linked settlement outcomes and keep the agreement summary connected to each case record.</p>
             </div>
-            <a href="blotters.php" class="btn btn-dark">Back to Blotters</a>
+            <a href="blotters.php" class="btn btn-outline-secondary"><i class="bi bi-arrow-left me-1"></i>Back to Blotters</a>
         </div>
 
         <?php if ($message): ?>
@@ -283,8 +283,8 @@ try {
                             <textarea name="settlement_agreement" class="form-control" rows="5"><?= htmlspecialchars($selectedBlotter['settlement_agreement'] ?? '') ?></textarea>
                         </div>
                         <div class="mt-3 d-flex gap-2 flex-wrap print-hide">
-                            <button type="submit" name="save_settlement" class="btn btn-dark">Save Settlement Agreement</button>
-                            <button type="button" class="btn btn-outline-dark" onclick="printSettlementPaper()">Print Settlement Paper</button>
+                            <button type="submit" name="save_settlement" class="btn btn-primary"><i class="bi bi-save me-1"></i>Save Settlement Agreement</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="printSettlementPaper()"><i class="bi bi-printer me-1"></i>Print Settlement Paper</button>
                         </div>
                     </form>
 
@@ -429,8 +429,8 @@ try {
                                         <td><?= $row['settlement_date'] ? date('M d, Y', strtotime($row['settlement_date'])) : 'N/A' ?></td>
                                         <td>
                                             <div class="d-flex gap-2">
-                                                <a href="settle.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-dark">View</a>
-                                                <a href="settle.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-secondary">Print</a>
+                                                <a href="settle.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-primary"><i class="bi bi-eye me-1"></i>View</a>
+                                                <a href="settle.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-secondary"><i class="bi bi-printer me-1"></i>Print</a>
                                             </div>
                                         </td>
                                     </tr>

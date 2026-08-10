@@ -74,11 +74,11 @@ $old_photo_path = null;
 
 // Handle soft delete request
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_suspect_id'])) {
-    $delete_id = $_POST['delete_suspect_id'];
+    $delete_id = intval($_POST['delete_suspect_id']);
     try {
         // Soft delete: set deleted_at timestamp instead of removing data
-        $stmt = $pdo->prepare("UPDATE suspects SET deleted_at = NOW() WHERE id = ? AND case_id = ?");
-        $stmt->execute([$delete_id, $case_id]);
+        $stmt = $pdo->prepare("UPDATE suspects SET deleted_at = NOW() WHERE id = ?");
+        $stmt->execute([$delete_id]);
         
         $message = "Suspect moved to stash successfully. You can retrieve it from the Deleted tab.";
         $message_type = 'success';
@@ -90,16 +90,47 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_suspect_id']))
 
 // Handle restore request
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['restore_suspect_id'])) {
-    $restore_id = $_POST['restore_suspect_id'];
+    $restore_id = intval($_POST['restore_suspect_id']);
     try {
         // Restore: clear deleted_at timestamp
-        $stmt = $pdo->prepare("UPDATE suspects SET deleted_at = NULL WHERE id = ? AND case_id = ?");
-        $stmt->execute([$restore_id, $case_id]);
+        $stmt = $pdo->prepare("UPDATE suspects SET deleted_at = NULL WHERE id = ?");
+        $stmt->execute([$restore_id]);
         
-        $message = "Suspect restored successfully";
+        $message = "Suspect restored successfully.";
         $message_type = 'success';
     } catch (Exception $e) {
         $message = "Error restoring suspect: " . $e->getMessage();
+        $message_type = 'danger';
+    }
+}
+
+// Handle permanent delete request ("mabura")
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['permanent_delete_suspect_id'])) {
+    $perm_id = intval($_POST['permanent_delete_suspect_id']);
+    try {
+        $fStmt = $pdo->prepare("SELECT photo_path, id_attachment FROM suspects WHERE id = ?");
+        $fStmt->execute([$perm_id]);
+        $sFiles = $fStmt->fetch(PDO::FETCH_ASSOC);
+        if ($sFiles) {
+            if (!empty($sFiles['photo_path']) && file_exists(dirname(__DIR__) . '/' . $sFiles['photo_path'])) {
+                @unlink(dirname(__DIR__) . '/' . $sFiles['photo_path']);
+            }
+            if (!empty($sFiles['id_attachment']) && file_exists(dirname(__DIR__) . '/' . $sFiles['id_attachment'])) {
+                @unlink(dirname(__DIR__) . '/' . $sFiles['id_attachment']);
+            }
+        }
+        try {
+            $pdo->prepare("DELETE FROM suspect_updates WHERE suspect_id = ?")->execute([$perm_id]);
+            $pdo->prepare("DELETE FROM suspect_photos WHERE suspect_id = ?")->execute([$perm_id]);
+        } catch (Exception $ex) {}
+
+        $stmt = $pdo->prepare("DELETE FROM suspects WHERE id = ?");
+        $stmt->execute([$perm_id]);
+
+        $message = "Suspect record permanently deleted.";
+        $message_type = 'success';
+    } catch (Exception $e) {
+        $message = "Error permanently deleting suspect: " . $e->getMessage();
         $message_type = 'danger';
     }
 }
@@ -616,8 +647,9 @@ include '../includes/navbar.php';
                                                         Deleted: <span class="badge bg-secondary"><?= date('M d, Y', strtotime($ds['deleted_at'])) ?></span>
                                                     </small>
                                                 </div>
-                                                <div class="flex-shrink-0">
-                                                    <button type="button" class="btn btn-sm btn-success text-white restore-btn" style="background-color: #ffffff; border-color: #28a745;" data-bs-toggle="modal" data-bs-target="#restoreModal" onclick="prepareRestoreModal(<?= $ds['id'] ?>, '<?= htmlspecialchars($ds['first_name'] . ' ' . $ds['last_name']) ?>')"><i class="bi bi-arrow-counterclockwise"></i> Restore</button>
+                                                <div class="flex-shrink-0 d-flex gap-2">
+                                                    <button type="button" class="btn btn-sm btn-success text-white" data-bs-toggle="modal" data-bs-target="#restoreModal" onclick="prepareRestoreModal(<?= $ds['id'] ?>, '<?= htmlspecialchars($ds['first_name'] . ' ' . $ds['last_name'], ENT_QUOTES) ?>')"><i class="bi bi-arrow-counterclockwise"></i> Restore</button>
+                                                    <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#permDeleteModal" onclick="preparePermDeleteModal(<?= $ds['id'] ?>, '<?= htmlspecialchars($ds['first_name'] . ' ' . $ds['last_name'], ENT_QUOTES) ?>')"><i class="bi bi-trash"></i> Delete Permanently</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -663,7 +695,7 @@ include '../includes/navbar.php';
     <div class="modal-dialog">
         <div class="modal-content bg-white text-dark border border-2">
             <div class="modal-header bg-success text-white border-bottom border-2">
-                <h5 class="modal-title">Restore Suspect</h5>
+                <h5 class="modal-title"><i class="bi bi-arrow-counterclockwise me-1"></i>Restore Suspect</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body text-dark border-bottom border-2">
@@ -673,9 +705,35 @@ include '../includes/navbar.php';
             <div class="modal-footer border-top border-2">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                 <form method="POST" style="display:inline;">
-                    <input type="hidden" name="case_id" value="<?= htmlspecialchars($case_id) ?>">
+                    <input type="hidden" name="case_id" value="<?= htmlspecialchars($case_id ?? '') ?>">
                     <input type="hidden" name="restore_suspect_id" id="restoreSuspectId" value="">
                     <button type="submit" class="btn btn-success">Restore Suspect</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Permanent Delete Confirmation Modal -->
+<div class="modal fade" id="permDeleteModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content bg-white text-dark border border-2">
+            <div class="modal-header bg-danger text-white border-bottom border-2">
+                <h5 class="modal-title"><i class="bi bi-exclamation-triangle me-1"></i>Permanent Delete Suspect</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-dark">
+                <p>Are you sure you want to <strong>permanently delete</strong> <strong id="permDeleteSuspectName"></strong>?</p>
+                <div class="alert alert-danger mb-0 small">
+                    <i class="bi bi-exclamation-octagon me-1"></i><strong>Warning:</strong> This action cannot be undone. All suspect records, attachments, and photos will be erased.
+                </div>
+            </div>
+            <div class="modal-footer border-top">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <form method="POST" style="display:inline;">
+                    <input type="hidden" name="case_id" value="<?= htmlspecialchars($case_id ?? '') ?>">
+                    <input type="hidden" name="permanent_delete_suspect_id" id="permDeleteSuspectId" value="">
+                    <button type="submit" class="btn btn-danger">Delete Permanently</button>
                 </form>
             </div>
         </div>
@@ -693,6 +751,12 @@ function prepareDeleteModal(suspectId, suspectName) {
 function prepareRestoreModal(suspectId, suspectName) {
     document.getElementById('restoreSuspectId').value = suspectId;
     document.getElementById('restoreSuspectName').textContent = suspectName;
+}
+
+// Prepare permanent delete modal
+function preparePermDeleteModal(suspectId, suspectName) {
+    document.getElementById('permDeleteSuspectId').value = suspectId;
+    document.getElementById('permDeleteSuspectName').textContent = suspectName;
 }
 
 // Photo preview functionality

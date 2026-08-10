@@ -33,17 +33,31 @@ try {
 } catch (Exception $e) {}
 
 if (!$isBanned && !$userNeedsApproval) {
-    try { $s = $pdo->prepare("SELECT COUNT(*) FROM incidents WHERE created_by = ?"); $s->execute([$userId]); $myReports = (int)$s->fetchColumn(); } catch (Throwable $e) { $myReports = 0; }
-    try { $s = $pdo->prepare("SELECT COUNT(*) FROM case_assignments WHERE (assigned_to = ? OR assigned_by = ?) AND status NOT IN ('Closed','Resolved','Archived')"); $s->execute([$userId, $userId]); $activeCases = (int)$s->fetchColumn(); } catch (Throwable $e) { $activeCases = 0; }
-    try { $s = $pdo->prepare("SELECT COUNT(*) FROM clearances WHERE user_id = ?"); $s->execute([$userId]); $myClearances = (int)$s->fetchColumn(); } catch (Throwable $e) { $myClearances = 0; }
+    try { 
+        $s = $pdo->prepare("SELECT COUNT(*) FROM blotters WHERE complainant_name LIKE ? OR created_by = ?");
+        $s->execute(['%' . $fullname . '%', $userId]);
+        $myReports = (int)$s->fetchColumn(); 
+    } catch (Throwable $e) { $myReports = 0; }
+
+    try { 
+        $s = $pdo->prepare("SELECT COUNT(*) FROM case_assignments WHERE (assigned_to = ? OR assigned_by = ?) AND status NOT IN ('Closed','Resolved','Archived')"); 
+        $s->execute([$userId, $userId]); 
+        $activeCases = (int)$s->fetchColumn(); 
+    } catch (Throwable $e) { $activeCases = 0; }
+
+    try { 
+        $s = $pdo->prepare("SELECT COUNT(*) FROM clearances WHERE user_id = ?"); 
+        $s->execute([$userId]); 
+        $myClearances = (int)$s->fetchColumn(); 
+    } catch (Throwable $e) { $myClearances = 0; }
 }
 
 // Recent reports for table
 $recentReports = [];
 if (!$isBanned && !$userNeedsApproval) {
     try {
-        $s = $pdo->prepare("SELECT case_no, incident_type, incident_date, status FROM incidents WHERE created_by = ? ORDER BY id DESC LIMIT 5");
-        $s->execute([$userId]);
+        $s = $pdo->prepare("SELECT id, blotter_no, incident_type, incident_date, status, respondent_name FROM blotters WHERE complainant_name LIKE ? OR created_by = ? ORDER BY id DESC LIMIT 5");
+        $s->execute(['%' . $fullname . '%', $userId]);
         $recentReports = $s->fetchAll(PDO::FETCH_ASSOC);
     } catch (Exception $e) {}
 }
@@ -59,7 +73,7 @@ require_once "includes/navbar.php";
         <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
             <div>
                 <h1 class="h2 fw-bold mb-1" style="font-family: 'Quicksand', 'Inter', sans-serif;">Resident Portal</h1>
-                <p class="text-secondary small mb-0">Track your reported incidents, service requests, and community safety updates</p>
+                <p class="text-secondary small mb-0">Track your filed blotter complaints, hearing schedules, and barangay services</p>
             </div>
             <a href="modules/blotter_create.php" class="btn btn-primary btn-sm shadow-sm">
                 <i class="fas fa-pen-nib me-1"></i> Create Blotter
@@ -68,7 +82,7 @@ require_once "includes/navbar.php";
 
         <?php if ($isBanned): ?>
             <div class="alert alert-danger mb-4 rounded-3 shadow-sm">
-                <i class="fas fa-ban me-2"></i><strong>Account Suspended:</strong> Incident reporting and services are locked until reinstatement.
+                <i class="fas fa-ban me-2"></i><strong>Account Suspended:</strong> Blotter filing and services are locked until reinstatement.
             </div>
         <?php elseif ($userNeedsApproval): ?>
             <div class="alert alert-warning mb-4 rounded-3 shadow-sm">
@@ -79,7 +93,7 @@ require_once "includes/navbar.php";
         <!-- Welcome Banner -->
         <div class="card border-0 text-white mb-4 shadow-sm" style="background: linear-gradient(135deg, #1b5a56 0%, #4c8a89 100%); border-radius: 12px; padding: 1.5rem;">
             <h4 class="fw-bold mb-1 text-white" style="font-family: 'Quicksand', sans-serif;">Welcome back, <?php echo htmlspecialchars($fullname); ?>!</h4>
-            <p class="mb-0 text-white-50 small">Track your filed reports, clearance requests, and stay updated on your local barangay services.</p>
+            <p class="mb-0 text-white-50 small">Track your filed blotter complaints, clearance requests, and stay updated on your local barangay services.</p>
         </div>
 
         <!-- Stat Cards -->
@@ -89,9 +103,9 @@ require_once "includes/navbar.php";
                     <div class="card h-100 border-start border-primary border-4 shadow-sm p-3">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
-                                <span class="text-muted small text-uppercase fw-bold">My Reports</span>
+                                <span class="text-muted small text-uppercase fw-bold">My Blotters</span>
                                 <div class="h2 fw-bold text-primary my-1"><?php echo $myReports; ?></div>
-                                <small class="text-muted">Total filed incidents</small>
+                                <small class="text-muted">Total filed complaints</small>
                             </div>
                             <div class="text-primary opacity-50"><i class="fas fa-folder-open fa-2x"></i></div>
                         </div>
@@ -127,31 +141,32 @@ require_once "includes/navbar.php";
         <!-- Recent Reports -->
         <div class="card shadow-sm border-0">
             <div class="card-header bg-card fw-bold d-flex justify-content-between align-items-center">
-                <span><i class="fas fa-history me-2 text-primary"></i>My Recent Reports</span>
+                <span><i class="fas fa-history me-2 text-primary"></i>My Recent Blotter Complaints</span>
                 <a href="modules/my_reports.php" class="btn btn-sm btn-outline-primary">View All</a>
             </div>
             <div class="card-body p-0">
                 <div class="table-responsive">
                     <table class="table table-hover align-middle mb-0" style="font-size: 0.875rem;">
                         <thead class="table-light">
-                            <tr><th>Case No</th><th>Incident Type</th><th>Date</th><th>Status</th></tr>
+                            <tr><th>Blotter No</th><th>Respondent</th><th>Incident Type</th><th>Date</th><th>Status</th></tr>
                         </thead>
                         <tbody>
                             <?php if ($isBanned || $userNeedsApproval): ?>
-                                <tr><td colspan="4" class="text-center text-muted py-4"><i class="fas fa-lock me-2"></i>Access locked</td></tr>
+                                <tr><td colspan="5" class="text-center text-muted py-4"><i class="fas fa-lock me-2"></i>Access locked</td></tr>
                             <?php elseif (empty($recentReports)): ?>
-                                <tr><td colspan="4" class="text-center text-muted py-4"><i class="fas fa-info-circle me-2"></i>No incident reports filed yet.</td></tr>
+                                <tr><td colspan="5" class="text-center text-muted py-4"><i class="fas fa-info-circle me-2"></i>No blotter complaints filed yet.</td></tr>
                             <?php else: ?>
                                 <?php foreach ($recentReports as $r):
                                     $status = htmlspecialchars($r['status'] ?? 'Pending');
                                     $sl = strtolower($status);
                                     $bc = 'bg-secondary';
-                                    if (in_array($sl, ['resolved','closed'])) $bc = 'bg-success';
-                                    elseif (in_array($sl, ['ongoing','in progress'])) $bc = 'bg-info';
+                                    if (in_array($sl, ['resolved','closed','settled'])) $bc = 'bg-success';
+                                    elseif (in_array($sl, ['ongoing','in progress','hearing','scheduled'])) $bc = 'bg-info text-dark';
                                     elseif (in_array($sl, ['new','pending'])) $bc = 'bg-warning text-dark';
                                 ?>
                                 <tr>
-                                    <td class="fw-semibold"><?php echo htmlspecialchars($r['case_no'] ?? '—'); ?></td>
+                                    <td class="fw-semibold text-primary"><?php echo htmlspecialchars($r['blotter_no'] ?? '—'); ?></td>
+                                    <td><?php echo htmlspecialchars($r['respondent_name'] ?: 'Not Specified'); ?></td>
                                     <td><?php echo htmlspecialchars($r['incident_type'] ?? '—'); ?></td>
                                     <td><?php echo $r['incident_date'] ? date('M d, Y', strtotime($r['incident_date'])) : '—'; ?></td>
                                     <td><span class="badge <?php echo $bc; ?>"><?php echo $status; ?></span></td>

@@ -44,42 +44,12 @@ $base_url = '../';
 function getPriorityByIncidentType($incident_type) {
     $incident_type = strtolower(trim($incident_type));
     
-    // High Priority Incidents
-    $high_priority = [
-        'murder', 'homicide', 'rape', 'sexual assault', 'kidnapping', 'robbery',
-        'armed robbery', 'assault with weapon', 'shooting', 'stabbing', 'bombing',
-        'terrorism', 'hostage', 'serious injury', 'critical incident', 'arson',
-        'human trafficking', 'drug trafficking', 'grave threat', 'death threat',
-        'violent crime', 'aggravated assault', 'attempted murder', 'gang violence'
-    ];
-    
-    // Medium Priority Incidents
-    $medium_priority = [
-        'theft', 'burglary', 'robbery attempt', 'vehicle theft', 'shoplifting',
-        'fraud', 'scam', 'identity theft', 'vandalism', 'property damage',
-        'trespassing', 'harassment', 'cybercrime', 'extortion', 'intimidation',
-        'simple assault', 'battery', 'accident', 'hit and run', 'dui', 'drunken driving'
-    ];
-    
     // Low Priority Incidents
     $low_priority = [
         'lost and found', 'noise complaint', 'parking violation', 'minor dispute',
         'civil matter', 'lost property', 'found property', 'traffic violation',
-        'speeding', 'jaywalking', 'loitering', 'minor trespass', 'complaint'
+        'speeding', 'jaywalking', 'loitering', 'minor trespass', 'complaint', 'other'
     ];
-    
-    // Check which category the incident type falls into
-    foreach ($high_priority as $type) {
-        if (strpos($incident_type, $type) !== false) {
-            return 'High';
-        }
-    }
-    
-    foreach ($medium_priority as $type) {
-        if (strpos($incident_type, $type) !== false) {
-            return 'Medium';
-        }
-    }
     
     foreach ($low_priority as $type) {
         if (strpos($incident_type, $type) !== false) {
@@ -87,8 +57,8 @@ function getPriorityByIncidentType($incident_type) {
         }
     }
     
-    // Default to Medium if no match found
-    return 'Medium';
+    // Default to Low priority
+    return 'Low';
 }
 
 // Handle form submission
@@ -413,27 +383,25 @@ require '../includes/header.php';
                     <select id="incident_type" name="incident_type" class="form-select">
                         <option value="">-- Select incident type --</option>
                         <?php
-                        $incident_high = ['Murder','Homicide','Rape','Sexual Assault','Kidnapping','Robbery','Armed Robbery','Assault with Weapon','Shooting','Stabbing','Bombing','Terrorism','Hostage','Serious Injury','Critical Incident','Arson','Human Trafficking','Drug Trafficking','Grave Threat','Death Threat','Violent Crime','Aggravated Assault','Attempted Murder','Gang Violence'];
-                        $incident_medium = ['Theft','Burglary','Robbery Attempt','Vehicle Theft','Shoplifting','Fraud','Scam','Identity Theft','Vandalism','Property Damage','Trespassing','Harassment','Cybercrime','Extortion','Intimidation','Simple Assault','Battery','Accident','Hit and Run','DUI','Drunken Driving'];
-                        $incident_low = ['Lost and Found','Noise Complaint','Parking Violation','Minor Dispute','Civil Matter','Lost Property','Found Property','Traffic Violation','Speeding','Jaywalking','Loitering','Minor Trespass','Complaint'];
+                        $incident_low = [
+                            'Lost and Found',
+                            'Noise Complaint',
+                            'Parking Violation',
+                            'Minor Dispute',
+                            'Civil Matter',
+                            'Lost Property',
+                            'Found Property',
+                            'Traffic Violation',
+                            'Speeding',
+                            'Jaywalking',
+                            'Loitering',
+                            'Minor Trespass',
+                            'Complaint'
+                        ];
 
                         $selected = $_POST['incident_type'] ?? '';
 
-                        echo '<optgroup label="High Priority">';
-                        foreach ($incident_high as $opt) {
-                            $sel = ($selected === $opt) ? 'selected' : '';
-                            echo '<option value="'.htmlspecialchars($opt).'" '.$sel.'>'.htmlspecialchars($opt).'</option>';
-                        }
-                        echo '</optgroup>';
-
-                        echo '<optgroup label="Medium Priority">';
-                        foreach ($incident_medium as $opt) {
-                            $sel = ($selected === $opt) ? 'selected' : '';
-                            echo '<option value="'.htmlspecialchars($opt).'" '.$sel.'>'.htmlspecialchars($opt).'</option>';
-                        }
-                        echo '</optgroup>';
-
-                        echo '<optgroup label="Low Priority">';
+                        echo '<optgroup label="Low Priority Incidents">';
                         foreach ($incident_low as $opt) {
                             $sel = ($selected === $opt) ? 'selected' : '';
                             echo '<option value="'.htmlspecialchars($opt).'" '.$sel.'>'.htmlspecialchars($opt).'</option>';
@@ -598,7 +566,6 @@ function removeAttachment(button) {
 }
 
 // Auto-detect priority based on incident type
-// Auto-detect priority based on incident type
 function updatePriorityBadge() {
     const incidentEl = document.getElementById('incident_type');
     const otherEl = document.getElementById('incident_type_other');
@@ -611,49 +578,17 @@ function updatePriorityBadge() {
     const prioritySelect = document.getElementById('priority');
     const priorityDisplay = document.getElementById('priority_display');
     
-    let detectedPriority = 'Medium'; // Default
-    
-    // High Priority Incidents
-    const highPriority = ['murder', 'homicide', 'rape', 'sexual assault', 'kidnapping', 'robbery',
-        'armed robbery', 'assault with weapon', 'shooting', 'stabbing', 'bombing',
-        'terrorism', 'hostage', 'serious injury', 'critical incident', 'arson',
-        'human trafficking', 'drug trafficking', 'grave threat', 'death threat',
-        'violent crime', 'aggravated assault', 'attempted murder', 'gang violence'];
-    
-    // Medium Priority Incidents
-    const mediumPriority = ['theft', 'burglary', 'robbery attempt', 'vehicle theft', 'shoplifting',
-        'fraud', 'scam', 'identity theft', 'vandalism', 'property damage',
-        'trespassing', 'harassment', 'cybercrime', 'extortion', 'intimidation',
-        'simple assault', 'battery', 'accident', 'hit and run', 'dui', 'drunken driving'];
+    let detectedPriority = 'Low'; // Default to Low priority
     
     // Low Priority Incidents
     const lowPriority = ['lost and found', 'noise complaint', 'parking violation', 'minor dispute',
         'civil matter', 'lost property', 'found property', 'traffic violation',
         'speeding', 'jaywalking', 'loitering', 'minor trespass', 'complaint'];
     
-    // Detect priority
-    for (let type of highPriority) {
+    for (let type of lowPriority) {
         if (incidentType.includes(type)) {
-            detectedPriority = 'High';
+            detectedPriority = 'Low';
             break;
-        }
-    }
-    
-    if (detectedPriority === 'Medium') {
-        for (let type of mediumPriority) {
-            if (incidentType.includes(type)) {
-                detectedPriority = 'Medium';
-                break;
-            }
-        }
-    }
-    
-    if (detectedPriority === 'Medium') {
-        for (let type of lowPriority) {
-            if (incidentType.includes(type)) {
-                detectedPriority = 'Low';
-                break;
-            }
         }
     }
     

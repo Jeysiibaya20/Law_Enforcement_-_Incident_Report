@@ -69,7 +69,7 @@ try {
                 <h1 class="h2" style="color:#000;">Hearing Schedule</h1>
                 <p class="text-muted mb-0" style="color:#000;">Manage upcoming hearings, review schedule details, and connect each hearing to its recorded result.</p>
             </div>
-            <a href="hearing_result.php" class="btn btn-dark">View Hearing Results</a>
+            <a href="hearing_result.php" class="btn btn-primary"><i class="bi bi-card-checklist me-1"></i>View Hearing Results</a>
         </div>
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3 mb-4">
@@ -138,7 +138,7 @@ try {
                         </select>
                     </div>
                     <div class="col-md-2 d-grid">
-                        <button type="submit" class="btn btn-dark">Filter Schedule</button>
+                        <button type="submit" class="btn btn-primary"><i class="bi bi-filter me-1"></i>Filter Schedule</button>
                     </div>
                 </form>
             </div>
@@ -186,8 +186,8 @@ try {
                                         <td><?= htmlspecialchars($row['status'] ?: 'N/A') ?></td>
                                         <td>
                                             <div class="btn-group" role="group">
-                                                <a href="../modules/blotter_update.php?id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-dark">Edit</a>
-                                                <a href="hearing_result.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-dark">Result</a>
+                                                <a href="../modules/blotter_update.php?id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-primary"><i class="bi bi-pencil-square me-1"></i>Edit</a>
+                                                <a href="hearing_result.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-primary"><i class="bi bi-file-earmark-text me-1"></i>Result</a>
                                             </div>
                                         </td>
                                     </tr>

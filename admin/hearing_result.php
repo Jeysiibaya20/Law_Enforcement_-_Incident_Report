@@ -71,7 +71,7 @@ try {
                 <h1 class="h2" style="color:#000;">Hearing Result</h1>
                 <p class="text-muted mb-0" style="color:#000;">Record outcome details and keep hearing results connected to the schedule.</p>
             </div>
-            <a href="Hearing_schedule.php" class="btn btn-dark">Back to Schedule</a>
+            <a href="Hearing_schedule.php" class="btn btn-outline-secondary"><i class="bi bi-arrow-left me-1"></i>Back to Schedule</a>
         </div>
 
         <?php if ($message): ?>
@@ -123,7 +123,7 @@ try {
                             <label class="form-label" style="color:#000;">Summary of Result</label>
                             <textarea name="result_summary" class="form-control" rows="5"><?= htmlspecialchars($selectedBlotter['hearing_result_summary'] ?? '') ?></textarea>
                         </div>
-                        <button type="submit" name="save_result" class="btn btn-dark">Save Hearing Result</button>
+                        <button type="submit" name="save_result" class="btn btn-primary"><i class="bi bi-save me-1"></i>Save Hearing Result</button>
                     </form>
                 </div>
             </div>
@@ -164,7 +164,7 @@ try {
                                         <td><?= nl2br(htmlspecialchars(substr($result['hearing_result_summary'] ?? '', 0, 120))) ?></td>
                                         <td><?= $result['updated_at'] ? date('M d, Y H:i', strtotime($result['updated_at'])) : 'N/A' ?></td>
                                         <td>
-                                            <a href="Hearing_result.php?blotter_id=<?= intval($result['id']) ?>" class="btn btn-sm btn-outline-dark">Edit</a>
+                                            <a href="Hearing_result.php?blotter_id=<?= intval($result['id']) ?>" class="btn btn-sm btn-outline-primary"><i class="bi bi-pencil-square me-1"></i>Edit</a>
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>

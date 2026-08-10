@@ -34,6 +34,20 @@ $cases = getCaseAssignments($filters);
 $available_officers = getAvailableBCPCOfficers();
 $all_officers = getAllBCPCOfficers();
 
+// Get active emergency dispatchers and law enforcement officers from signup
+$dispatchers = [];
+try {
+    $dispatchers = $pdo->query("
+        SELECT user_id, fullname, role, emailadd 
+        FROM signup 
+        WHERE role IN ('Dispatcher', 'Dispatch Officer', 'Officer', 'Police Officer', 'Law Enforcement Officer', 'Admin') 
+          AND (banned IS NULL OR banned = 0)
+        ORDER BY role, fullname
+    ")->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) {
+    $dispatchers = [];
+}
+
 // Get available barangay officials
 $barangay_check = $pdo->query("SHOW TABLES LIKE 'barangay_officials'");
 $barangay_officials = [];
@@ -151,12 +165,25 @@ $stats = getCaseStatistics();
                     <div class="col-md-2">
                         <label class="form-label">Assigned To</label>
                         <select name="assigned_to" class="form-select">
-                            <option value="">All Officers</option>
-                            <?php foreach ($all_officers as $officer): ?>
-                                <option value="<?= $officer['user_id'] ?>" <?= (isset($_GET['assigned_to']) && $_GET['assigned_to'] == $officer['user_id']) ? 'selected' : '' ?>>
-                                    <?= htmlspecialchars($officer['fullname']) ?>
-                                </option>
-                            <?php endforeach; ?>
+                            <option value="">All Officers / Dispatchers</option>
+                            <?php if (!empty($dispatchers)): ?>
+                            <optgroup label="Dispatchers & Officers">
+                                <?php foreach ($dispatchers as $d): ?>
+                                    <option value="<?= $d['user_id'] ?>" <?= (isset($_GET['assigned_to']) && $_GET['assigned_to'] == $d['user_id']) ? 'selected' : '' ?>>
+                                        <?= htmlspecialchars($d['fullname']) ?> (<?= htmlspecialchars($d['role']) ?>)
+                                    </option>
+                                <?php endforeach; ?>
+                            </optgroup>
+                            <?php endif; ?>
+                            <?php if (!empty($all_officers)): ?>
+                            <optgroup label="BCPC Officers">
+                                <?php foreach ($all_officers as $officer): ?>
+                                    <option value="<?= $officer['user_id'] ?>" <?= (isset($_GET['assigned_to']) && $_GET['assigned_to'] == $officer['user_id']) ? 'selected' : '' ?>>
+                                        <?= htmlspecialchars($officer['fullname']) ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </optgroup>
+                            <?php endif; ?>
                         </select>
                     </div>
                     <div class="col-md-2">
@@ -313,9 +340,19 @@ $stats = getCaseStatistics();
                             <textarea name="description" class="form-control" rows="3" required></textarea>
                         </div>
                         <div class="col-md-6">
-                            <label class="form-label">Assign to Officer</label>
+                            <label class="form-label">Assign to Officer / Dispatcher</label>
                             <select name="assigned_to" class="form-select">
-                                <option value="">Select Officer</option>
+                                <option value="">Select Officer / Dispatcher</option>
+                                <?php if (!empty($dispatchers)): ?>
+                                <optgroup label="Emergency Dispatchers & Law Enforcement">
+                                    <?php foreach ($dispatchers as $disp): ?>
+                                        <option value="<?= $disp['user_id'] ?>">
+                                            <?= htmlspecialchars($disp['fullname']) ?> - <?= htmlspecialchars($disp['role']) ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                </optgroup>
+                                <?php endif; ?>
+                                <?php if (!empty($available_officers)): ?>
                                 <optgroup label="BCPC Officers">
                                     <?php foreach ($available_officers as $officer): ?>
                                         <option value="<?= $officer['user_id'] ?>">
@@ -323,6 +360,7 @@ $stats = getCaseStatistics();
                                         </option>
                                     <?php endforeach; ?>
                                 </optgroup>
+                                <?php endif; ?>
                                 <?php if (!empty($barangay_officials)): ?>
                                 <optgroup label="Barangay Officials">
                                     <?php foreach ($barangay_officials as $official): ?>
@@ -442,9 +480,19 @@ $stats = getCaseStatistics();
                 <div class="modal-body">
                     <input type="hidden" name="case_id" id="reassign_case_id">
                     <div class="mb-3">
-                        <label class="form-label">New Officer *</label>
+                        <label class="form-label">New Officer / Dispatcher *</label>
                         <select name="new_officer" class="form-select" required>
-                            <option value="">Select Officer</option>
+                            <option value="">Select Officer / Dispatcher</option>
+                            <?php if (!empty($dispatchers)): ?>
+                            <optgroup label="Emergency Dispatchers & Law Enforcement">
+                                <?php foreach ($dispatchers as $disp): ?>
+                                    <option value="<?= $disp['user_id'] ?>">
+                                        <?= htmlspecialchars($disp['fullname']) ?> - <?= htmlspecialchars($disp['role']) ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </optgroup>
+                            <?php endif; ?>
+                            <?php if (!empty($all_officers)): ?>
                             <optgroup label="BCPC Officers">
                                 <?php foreach ($all_officers as $officer): ?>
                                     <option value="<?= $officer['user_id'] ?>">
@@ -452,6 +500,7 @@ $stats = getCaseStatistics();
                                     </option>
                                 <?php endforeach; ?>
                             </optgroup>
+                            <?php endif; ?>
                             <?php if (!empty($barangay_officials)): ?>
                             <optgroup label="Barangay Officials">
                                 <?php foreach ($barangay_officials as $official): ?>

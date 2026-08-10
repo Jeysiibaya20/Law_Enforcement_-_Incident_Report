@@ -5,21 +5,26 @@ if (!isset($pdo) || !($pdo instanceof PDO)) {
     $pdo = getDBConnection();
 }
 require_once '../config/LanguageManager.php';
-// Check if user is logged in and is admin
-if (!isset($_SESSION['user_id'])) {
-    header('Location: ../auth/login.php');
+// Check if user is logged in and is admin/officer
+$adminId = $_SESSION['admin_user_id'] ?? $_SESSION['user_id'] ?? null;
+if (empty($adminId)) {
+    header('Location: ../admin/login.php');
     exit();
 }
 
-// Check admin role
-$adminCheck = $pdo->prepare("SELECT role FROM signup WHERE user_id = ?");
-$adminCheck->execute([$_SESSION['user_id']]);
+// Check admin/officer role
+$adminCheck = $pdo->prepare("SELECT role, fullname FROM signup WHERE user_id = ?");
+$adminCheck->execute([$adminId]);
 $userRole = $adminCheck->fetch(PDO::FETCH_ASSOC);
 
-if (!$userRole || strtolower($userRole['role']) !== 'admin') {
-    header('Location: ../index.php');
+$roleStr = strtolower(trim($userRole['role'] ?? $_SESSION['admin_role'] ?? $_SESSION['role'] ?? ''));
+if (strpos($roleStr, 'admin') === false && strpos($roleStr, 'officer') === false && strpos($roleStr, 'official') === false) {
+    header('Location: ../admin/login.php');
     exit();
 }
+
+$_SESSION['user_id'] = $adminId;
+$_SESSION['admin_user_id'] = $adminId;
 
 $current_lang = LanguageManager::getCurrentLanguage();
 

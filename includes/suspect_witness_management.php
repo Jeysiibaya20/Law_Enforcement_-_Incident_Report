@@ -541,21 +541,20 @@ function updateWitness($witness_id, $data, $updated_by) {
 }
 
 /**
- * Delete witness record (soft delete)
+ * Delete witness record
  */
 function deleteWitness($witness_id, $deleted_by) {
     global $pdo;
     
     try {
-        $stmt = $pdo->prepare("
-            DELETE FROM witnesses 
-            WHERE id = ?
-        ");
+        try {
+            $pdo->prepare("DELETE FROM witness_updates WHERE witness_id = ?")->execute([$witness_id]);
+        } catch (Exception $ex) {}
+
+        $stmt = $pdo->prepare("DELETE FROM witnesses WHERE id = ?");
         $stmt->execute([$witness_id]);
         
-        addWitnessUpdate($witness_id, 'Record Deleted', 'Witness record deleted', $deleted_by);
         return ['success' => true];
-        
     } catch (PDOException $e) {
         error_log("Error deleting witness: " . $e->getMessage());
         return ['success' => false, 'error' => $e->getMessage()];
