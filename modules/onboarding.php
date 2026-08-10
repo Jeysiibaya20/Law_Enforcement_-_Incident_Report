@@ -1,13 +1,6 @@
 <?php
-session_start();
-require_once '../config/db_connect.php';
-require_once '../includes/navbar.php';
-
-// Check if user is logged in
-if (!isset($_SESSION['user_id'])) {
-    header('Location: ../auth/login.php');
-    exit();
-}
+require_once __DIR__ . '/../includes/user_auth.php';
+require_once __DIR__ . '/../config/db_connect.php';
 
 // Redirect to appropriate dashboard based on role
 if (in_array($_SESSION['role'], ['Admin', 'HR Manager', 'HR Staff'])) {

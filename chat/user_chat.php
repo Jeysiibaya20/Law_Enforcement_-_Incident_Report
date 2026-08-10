@@ -1,10 +1,5 @@
 <?php
-session_start();
-// Only allow logged-in non-admin/non-officer users
-if (!isset($_SESSION['user_id'])) {
-    header('Location: ../auth/login.php');
-    exit;
-}
+require_once __DIR__ . '/../includes/user_auth.php';
 $role = isset($_SESSION['role']) ? strtolower($_SESSION['role']) : 'user';
 if ($role === 'admin' || $role === 'officer') {
     echo "Access denied.";

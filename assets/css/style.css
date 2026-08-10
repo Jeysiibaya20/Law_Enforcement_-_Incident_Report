@@ -23,21 +23,24 @@
     --text-inverse: #ffffff;
     --border: rgba(0,0,0,0.12);
     --border-strong: rgba(0,0,0,0.18);
-    --border-soft: rgba(0,0,0,0.06);
-    --button-bg: #050505;
+    --button-bg: #2e856e;
     --button-text: #ffffff;
-    --button-muted-bg: rgba(0,0,0,0.06);
-    --button-muted-text: #050505;
+    --button-muted-bg: rgba(46, 133, 110, 0.08);
+    --button-muted-text: #1b5a56;
     --table-header-bg: #f3f4f6;
     --input-bg: #ffffff;
     --input-border: rgba(0,0,0,0.12);
-    --link-color: #050505;
-    --link-hover: #000000;
-    --main-color: #4c8a89;
+    --link-color: #2e856e;
+    --link-hover: #1b5a56;
+    --main-color: #2e856e;
+    --primary-color: #2e856e;
     --accent-color: #4c8a89;
+    --gradient-primary: linear-gradient(135deg, #1b5a56 0%, #2e856e 100%);
+    --gradient-success: linear-gradient(135deg, #166534 0%, #22c55e 100%);
+    --gradient-warning: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
     --danger-color: #dc3545;
-    --warning-color: #f0ad4e;
-    --success-color: #28a745;
+    --warning-color: #f59e0b;
+    --success-color: #2e856e;
     --info-color: #0d6efd;
     --muted: #6c757d;
     --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
@@ -894,41 +897,54 @@ p {
 }
 
 .btn-primary {
-    background: var(--gradient-primary);
-    color: var(--text-white);
+    background: #2e856e;
+    border: 1px solid #2e856e;
+    color: var(--text-white) !important;
 }
 
 .btn-primary:hover {
+    background: #246a58;
+    border-color: #246a58;
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
+    color: var(--text-white) !important;
 }
 
 .btn-secondary {
-    background: rgba(0, 0, 0, 0.692)  ;
-    color: var(--text-white);
+    background: #e2e8f0;
+    border: 1px solid #cbd5e1;
+    color: #334155 !important;
+}
+
+.btn-secondary:hover {
+    background: #cbd5e1;
+    color: #1e293b !important;
 }
 
 .btn-success {
-    background: var(--gradient-success);
-    color: var(--text-white);
+    background: #2e856e !important;
+    border: 1px solid #2e856e !important;
+    color: #ffffff !important;
+}
+
+.btn-success:hover {
+    background: #246a58 !important;
+    border-color: #246a58 !important;
+    color: #ffffff !important;
+    transform: translateY(-1px);
 }
 
 .btn-warning {
-    background: var(--gradient-warning);
-    color: var(--text-primary);
+    background: #f59e0b !important;
+    border: 1px solid #d97706 !important;
+    color: #ffffff !important;
 }
 
-/* Make action buttons in request tables readable when their default theme is too dark */
-.content-container .table tbody td .btn-warning,
-.content-container .table tbody td .btn-success {
-    background: var(--surface-alt) !important;
-    color: var(--text-white) !important;
-    border: 1px solid var(--border) !important;
-}
-
-.content-container .table tbody td .btn-warning:hover,
-.content-container .table tbody td .btn-success:hover {
-    background: #f5f5f5 !important;
+.btn-warning:hover {
+    background: #d97706 !important;
+    border-color: #b45309 !important;
+    color: #ffffff !important;
+    transform: translateY(-1px);
 }
 
 .btn-danger {

@@ -30,8 +30,8 @@ require_once 'includes/landing_header.php';
                             <p class="hero-subtitle">Law enforcement and Incident Report</p>
                             <p class="hero-description">Easy access to Update and Reports.</p>
                             <div class="hero-actions">
-                                <a href="./auth/login.php" class="btn btn-primary btn-lg shadow-sm" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;"><i class="bi bi-box-arrow-in-right"></i> Sign In</a>
-                                <a href="#modules" class="btn btn-outline-primary btn-lg shadow-sm" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;"><i class="bi bi-grid-3x3-gap"></i> Explore Modules</a>
+                                <a href="./auth/login.php" class="btn btn-primary btn-lg shadow-sm" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; background-color: #2e856e !important; border: 1px solid #2e856e !important; color: #ffffff !important; font-weight: 700;"><i class="bi bi-box-arrow-in-right"></i> Sign In</a>
+                                <a href="#modules" class="btn btn-outline-primary btn-lg shadow-sm" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; color: #166534 !important; border: 2px solid #2e856e !important; background-color: #f0fdf4 !important; font-weight: 700 !important;"><i class="bi bi-grid-3x3-gap"></i> Explore Modules</a>
                             </div>
                         </div>
                     </div>
@@ -569,14 +569,15 @@ html, body {
 }
 
 .btn-outline-primary { 
-    border: 2px solid var(--main-color); 
-    color: var(--main-color); 
-    background: transparent;
+    border: 2px solid #2e856e !important; 
+    color: #166534 !important; 
+    background: #f0fdf4 !important;
+    font-weight: 700 !important;
 }
 
 .btn-outline-primary:hover { 
-    background: var(--main-color); 
-    color: var(--text-white);
+    background: #2e856e !important; 
+    color: #ffffff !important;
 }
 
 .btn-outline-secondary { 

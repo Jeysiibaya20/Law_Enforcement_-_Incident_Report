@@ -348,7 +348,8 @@ try {
                                                 <td><span class="badge bg-info text-dark"><?php echo htmlspecialchars($record['status'] ?? 'Pending'); ?></span></td>
                                                 <td><?php echo htmlspecialchars(date('M d, Y', strtotime($record['requested_at']))); ?></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-sm btn-success me-1 btn-view" 
+                                                    <button type="button" class="btn btn-sm btn-outline-success me-1 btn-view" 
+                                                        style="color: #1b5a56 !important; border: 1.5px solid #2e856e !important; background: #ecfdf5 !important; font-weight: 600;"
                                                         data-id="<?php echo (int)$record['id']; ?>"
                                                         data-request-id="<?php echo 'CCTV-REQ-' . date('Y') . '-' . str_pad((int)$record['id'],3,'0',STR_PAD_LEFT); ?>"
                                                         data-agency="<?php echo htmlspecialchars('Digital Blotter System'); ?>"
@@ -365,21 +366,22 @@ try {
                                                         data-supporting=""
                                                         data-status="<?php echo htmlspecialchars($record['status'] ?? 'Under Review'); ?>"
                                                         data-review-notes="<?php echo htmlspecialchars($record['monitoring_notes'] ?: ''); ?>"
-                                                        >View</button>
+                                                        ><i class="bi bi-eye me-1"></i>View</button>
 
-                                                    <button type="button" class="btn btn-sm btn-warning me-1 btn-manage" 
+                                                    <button type="button" class="btn btn-sm btn-outline-warning me-1 btn-manage" 
+                                                        style="color: #9a3412 !important; border: 1.5px solid #f59e0b !important; background: #fffbeb !important; font-weight: 600;"
                                                         data-id="<?php echo (int)$record['id']; ?>"
                                                         data-status-val="<?php echo htmlspecialchars($record['status'] ?? 'Under Review'); ?>"
                                                         data-camera-val="<?php echo htmlspecialchars($record['camera_location'] ?: 'CAM-001'); ?>"
                                                         data-start="<?php echo htmlspecialchars($record['incident_time'] ?: ''); ?>"
                                                         data-end="<?php echo htmlspecialchars($record['incident_time'] ?: ''); ?>"
                                                         data-review-notes-val="<?php echo htmlspecialchars($record['monitoring_notes'] ?: ''); ?>"
-                                                        >Manage</button>
+                                                        ><i class="bi bi-sliders me-1"></i>Manage</button>
 
                                                     <form method="POST" class="d-inline" onsubmit="return confirm('Dispatch request #REQ-<?php echo str_pad((int)$record['id'], 3, '0', STR_PAD_LEFT); ?> directly to Partner CCTV API?');">
                                                         <input type="hidden" name="action" value="dispatch_record_cctv">
                                                         <input type="hidden" name="request_id" value="<?php echo (int)$record['id']; ?>">
-                                                        <button type="submit" class="btn btn-sm btn-primary" title="Dispatch CCTV request to partner API">
+                                                        <button type="submit" class="btn btn-sm btn-success text-white shadow-sm" style="background-color: #2e856e !important; border: 1px solid #2e856e !important; color: #ffffff !important; font-weight: 600;" title="Dispatch CCTV request to partner API">
                                                             <i class="fas fa-paper-plane me-1"></i>Dispatch API
                                                         </button>
                                                     </form>

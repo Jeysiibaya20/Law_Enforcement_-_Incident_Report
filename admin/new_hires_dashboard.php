@@ -3,11 +3,7 @@ require_once 'admin_auth.php';
 require_once '../config/db_connect.php';
 require_once '../includes/header.php';
 
-// Check if user is logged in and has admin/HR permissions
-if (!isset($_SESSION['user_id']) || !in_array($_SESSION['role'], ['Admin', 'HR Manager', 'HR Staff'])) {
-    header('Location: ../auth/login.php');
-    exit();
-}
+
 
 // Get dashboard statistics
 try {

@@ -8,11 +8,7 @@
 require_once 'admin_auth.php';
 require_once '../config/db_connect.php';
 
-// Check authentication
-if (!isset($_SESSION['user_id']) || !in_array($_SESSION['role'], ['Admin', 'Investigator'])) {
-    header('Location: ../auth/login.php');
-    exit;
-}
+
 
 $message = '';
 $success = false;

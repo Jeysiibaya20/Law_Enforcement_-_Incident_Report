@@ -1,18 +1,12 @@
 <?php
-session_start();
-require '../config/db_connect.php';
+require_once __DIR__ . '/../includes/user_auth.php';
+require_once __DIR__ . '/../config/db_connect.php';
 if (!isset($pdo) || !($pdo instanceof PDO)) {
     $pdo = getDBConnection();
 }
-require 'helpers.php';
-require '../includes/attachment_manager.php';
-require 'DescriptionTranslationService.php';
-
-// Check if user is logged in
-if (!isset($_SESSION['user_id'])) {
-    header('Location: ../auth/login.php');
-    exit;
-}
+require_once __DIR__ . '/helpers.php';
+require_once __DIR__ . '/../includes/attachment_manager.php';
+require_once __DIR__ . '/DescriptionTranslationService.php';
 
 // Get blotter ID from URL
 $blotter_id = isset($_GET['id']) ? intval($_GET['id']) : 0;

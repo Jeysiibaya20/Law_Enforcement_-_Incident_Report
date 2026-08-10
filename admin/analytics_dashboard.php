@@ -17,11 +17,7 @@ require_once __DIR__ . '/../config/db_connect.php';
 require_once __DIR__ . '/../modules/AnalyticsEngine.php';
 require_once __DIR__ . '/../modules/IncidentReportTemplate.php';
 
-// Check authentication
-if (!isset($_SESSION['user_id']) || !in_array($_SESSION['role'], ['Admin', 'Investigator', 'Barangay Official'])) {
-    header('Location: ../auth/login.php');
-    exit;
-}
+
 
 $analytics = new AnalyticsEngine($pdo);
 

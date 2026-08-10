@@ -5,19 +5,12 @@
  * Generates and displays reports in HTML, PDF, or CSV format
  */
 
-session_start();
-
+require_once __DIR__ . '/admin_auth.php';
 require_once __DIR__ . '/../config/db_connect.php';
 require_once __DIR__ . '/../modules/ReportGenerator.php';
 require_once __DIR__ . '/../modules/IncidentReportTemplate.php';
 require_once __DIR__ . '/../modules/CaseReportGenerator.php';
 require_once __DIR__ . '/../modules/BCPCReportGenerator.php';
-
-// Check authentication
-if (!isset($_SESSION['user_id']) || !in_array($_SESSION['role'], ['Admin', 'Investigator', 'Barangay Official'])) {
-    header('Location: ../auth/login.php');
-    exit;
-}
 
 $report_type = $_GET['type'] ?? 'incident';
 $from = $_GET['from'] ?? date('Y-01-01');

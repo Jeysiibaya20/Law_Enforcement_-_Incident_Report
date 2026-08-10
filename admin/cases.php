@@ -80,9 +80,9 @@ $stats = getCaseStatistics();
                 <p class="text-muted small mb-0"><?= (isset($_GET['status']) && strtolower($_GET['status']) === 'closed') ? 'Archived and settled cases' : 'Track and manage law enforcement & barangay cases' ?></p>
             </div>
             <div class="d-flex gap-2">
-                <a href="cases.php" class="btn btn-outline-secondary btn-sm <?= (!isset($_GET['status']) || $_GET['status'] === '') ? 'active' : '' ?>">All Cases</a>
-                <a href="cases.php?status=Closed" class="btn btn-outline-danger btn-sm <?= (isset($_GET['status']) && strtolower($_GET['status']) === 'closed') ? 'active' : '' ?>"><i class="fas fa-folder-minus me-1"></i> Closed Cases</a>
-                <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#createCaseModal">
+                <a href="cases.php" class="btn <?= (!isset($_GET['status']) || $_GET['status'] === '') ? 'btn-success text-white' : 'btn-outline-success' ?> btn-sm"><i class="fas fa-folder-open me-1"></i> All Cases</a>
+                <a href="cases.php?status=Closed" class="btn <?= (isset($_GET['status']) && strtolower($_GET['status']) === 'closed') ? 'btn-danger text-white' : 'btn-outline-danger' ?> btn-sm"><i class="fas fa-folder-minus me-1"></i> Closed Cases</a>
+                <button type="button" class="btn btn-success btn-sm text-white shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;" data-bs-toggle="modal" data-bs-target="#createCaseModal">
                     <i class="bi bi-plus-circle me-1"></i> Create New Case
                 </button>
             </div>
@@ -195,8 +195,8 @@ $stats = getCaseStatistics();
                         <input type="date" name="date_to" class="form-control" value="<?= $_GET['date_to'] ?? '' ?>">
                     </div>
                     <div class="col-md-2 d-flex align-items-end">
-                        <button type="submit" class="btn btn-primary me-2">Filter</button>
-                        <a href="cases.php" class="btn btn-secondary">Clear</a>
+                        <button type="submit" class="btn btn-success me-2 text-white px-3" style="background-color: #2e856e !important; border-color: #2e856e !important;"><i class="bi bi-filter me-1"></i> Filter</button>
+                        <a href="cases.php" class="btn btn-outline-secondary px-3"><i class="bi bi-x-circle me-1"></i> Clear</a>
                     </div>
                 </form>
             </div>
