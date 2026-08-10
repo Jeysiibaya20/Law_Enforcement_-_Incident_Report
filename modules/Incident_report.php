@@ -574,7 +574,7 @@ require_once '../includes/navbar.php'; ?>
         <?php display_message(); ?>
 
         <!-- Quick Stats -->
-        <div class="row mb-4">
+        <div class="row g-3 mb-4">
             <?php
             // Calculate statistics
             $total = count($incidents);
@@ -582,57 +582,45 @@ require_once '../includes/navbar.php'; ?>
             $high_risk = count(array_filter($incidents, fn($i) => $i['is_high_risk'] === 1));
             $pending = count(array_filter($incidents, fn($i) => in_array($i['status'], ['Submitted', 'Pending'], true)));
             ?>
-            <div class="col-md-3 mb-3">
-                <div class="card enhanced-card shadow-sm border-start border-primary border-5">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <div class="text-muted small">Total Reports</div>
-                                <div class="h4"><?php echo $total; ?></div>
-                            </div>
-                            <i class="bi bi-file-earmark-check display-6 text-primary-subtle"></i>
-                        </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-notif h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Total Reports</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-file-earmark-check"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $total; ?></div>
+                    <div class="dashboard-analytics-sub">All incident records</div>
+                </article>
             </div>
-            <div class="col-md-3 mb-3">
-                <div class="card enhanced-card shadow-sm border-start border-danger border-5">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <div class="text-muted small">Critical Cases</div>
-                                <div class="h4"><?php echo $critical; ?></div>
-                            </div>
-                            <i class="bi bi-exclamation-triangle-fill display-6 text-danger-subtle"></i>
-                        </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-danger h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Critical Cases</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-exclamation-triangle-fill"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $critical; ?></div>
+                    <div class="dashboard-analytics-sub">Immediate response</div>
+                </article>
             </div>
-            <div class="col-md-3 mb-3">
-                <div class="card enhanced-card shadow-sm border-start border-warning border-5">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <div class="text-muted small">High-Risk Cases</div>
-                                <div class="h4"><?php echo $high_risk; ?></div>
-                            </div>
-                            <i class="bi bi-shield-exclamation display-6 text-warning-subtle"></i>
-                        </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-pending h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">High-Risk Cases</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-shield-exclamation"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $high_risk; ?></div>
+                    <div class="dashboard-analytics-sub">Requires monitoring</div>
+                </article>
             </div>
-            <div class="col-md-3 mb-3">
-                <div class="card enhanced-card shadow-sm border-start border-info border-5">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <div class="text-muted small">Pending Review</div>
-                                <div class="h4"><?php echo $pending; ?></div>
-                            </div>
-                            <i class="bi bi-clock-history display-6 text-info-subtle"></i>
-                        </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-info h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Pending Review</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-clock-history"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $pending; ?></div>
+                    <div class="dashboard-analytics-sub">Awaiting verification</div>
+                </article>
             </div>
         </div>
 

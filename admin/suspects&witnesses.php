@@ -188,24 +188,26 @@ include '../includes/navbar.php';
             </div>
         <?php endif; ?>
 
-        <div class="row row-cols-1 row-cols-md-2 g-3 mb-4">
-            <div class="col">
-                <div class="card border-start border-danger border-4 h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Total Suspects</h5>
-                        <div class="display-5 mb-2"><?= intval($totals['total_suspects']) ?></div>
-                        <p class="text-muted mb-0">Active suspect records across all cases.</p>
+        <div class="row g-3 mb-4">
+            <div class="col-12 col-md-6">
+                <article class="dashboard-analytics-card analytics-tone-danger h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Total Suspects</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-user-ninja"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?= intval($totals['total_suspects']) ?></div>
+                    <div class="dashboard-analytics-sub">Active suspect records across all cases</div>
+                </article>
             </div>
-            <div class="col">
-                <div class="card border-start border-info border-4 h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Total Witnesses</h5>
-                        <div class="display-5 mb-2"><?= intval($totals['total_witnesses']) ?></div>
-                        <p class="text-muted mb-0">Witness records across all cases.</p>
+            <div class="col-12 col-md-6">
+                <article class="dashboard-analytics-card analytics-tone-info h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Total Witnesses</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-eye"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?= intval($totals['total_witnesses']) ?></div>
+                    <div class="dashboard-analytics-sub">Witness records across all cases</div>
+                </article>
             </div>
         </div>
 

@@ -197,42 +197,46 @@ try {
             </div>
         <?php endif; ?>
 
-        <div class="row row-cols-1 row-cols-md-4 g-3 mb-4">
-            <div class="col">
-                <div class="card border-start border-primary border-4 h-100">
-                    <div class="card-body">
-                        <h6 class="text-muted mb-2" style="color:#000;">Total Blotters</h6>
-                        <div class="h3 text-primary"><?= $totalBlotters ?></div>
-                        <small class="text-muted">All connected records</small>
+        <div class="row g-3 mb-4">
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-notif h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Total Blotters</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-clipboard-list"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?= $totalBlotters ?></div>
+                    <div class="dashboard-analytics-sub">All connected records</div>
+                </article>
             </div>
-            <div class="col">
-                <div class="card border-start border-success border-4 h-100">
-                    <div class="card-body">
-                        <h6 class="text-muted mb-2" style="color:#000;">Resolved / Settled</h6>
-                        <div class="h3 text-success"><?= $resolvedBlotters ?></div>
-                        <small class="text-muted">Records with completed outcomes</small>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-subs h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Resolved / Settled</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-check-circle"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?= $resolvedBlotters ?></div>
+                    <div class="dashboard-analytics-sub">Records with completed outcomes</div>
+                </article>
             </div>
-            <div class="col">
-                <div class="card border-start border-warning border-4 h-100">
-                    <div class="card-body">
-                        <h6 class="text-muted mb-2" style="color:#000;">Awaiting Settlement</h6>
-                        <div class="h3 text-warning"><?= $pendingSettlement ?></div>
-                        <small class="text-muted">Need hearing result or agreement</small>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-pending h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Awaiting Settlement</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-clock"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?= $pendingSettlement ?></div>
+                    <div class="dashboard-analytics-sub">Need hearing result or agreement</div>
+                </article>
             </div>
-            <div class="col">
-                <div class="card border-start border-info border-4 h-100">
-                    <div class="card-body">
-                        <h6 class="text-muted mb-2" style="color:#000;">Settlement Agreements</h6>
-                        <div class="h3 text-info"><?= $agreementCount ?></div>
-                        <small class="text-muted">Saved agreement summaries</small>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-purple h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Settlement Agreements</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-file-signature"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?= $agreementCount ?></div>
+                    <div class="dashboard-analytics-sub">Saved agreement summaries</div>
+                </article>
             </div>
         </div>
 

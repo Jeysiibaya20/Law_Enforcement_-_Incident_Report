@@ -494,31 +494,37 @@ require '../includes/navbar.php';
 </div>
 
 <!-- KPI CARDS -->
-<div class="row row-cols-1 row-cols-md-4 g-4 mb-4">
-        <div class="col">
-                <div class="card border-start border-primary border-4">
-                        <div class="card-body">
-                                <h6>Total Blotters</h6>
-                                <div class="h3"><?= $total ?></div>
-                        </div>
-                </div>
-        </div>
-        <div class="col">
-                <div class="card border-start border-warning border-4">
-                        <div class="card-body">
-                                <h6>Pending</h6>
-                                <div class="h3"><?= $pending ?></div>
-                        </div>
-                </div>
-        </div>
-        <div class="col">
-                <div class="card border-start border-success border-4">
-                        <div class="card-body">
-                                <h6>Resolved</h6>
-                                <div class="h3"><?= $resolved ?></div>
-                        </div>
-                </div>
-        </div>
+<div class="row g-3 mb-4">
+    <div class="col-12 col-sm-6 col-md-4">
+        <article class="dashboard-analytics-card analytics-tone-notif h-100">
+            <div class="dashboard-analytics-head">
+                <span class="dashboard-analytics-label">Total Blotters</span>
+                <span class="dashboard-analytics-icon"><i class="fas fa-clipboard-list"></i></span>
+            </div>
+            <div class="dashboard-analytics-value"><?= $total ?></div>
+            <div class="dashboard-analytics-sub">All recorded blotters</div>
+        </article>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4">
+        <article class="dashboard-analytics-card analytics-tone-pending h-100">
+            <div class="dashboard-analytics-head">
+                <span class="dashboard-analytics-label">Pending</span>
+                <span class="dashboard-analytics-icon"><i class="fas fa-clock"></i></span>
+            </div>
+            <div class="dashboard-analytics-value"><?= $pending ?></div>
+            <div class="dashboard-analytics-sub">Awaiting investigation / hearing</div>
+        </article>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4">
+        <article class="dashboard-analytics-card analytics-tone-subs h-100">
+            <div class="dashboard-analytics-head">
+                <span class="dashboard-analytics-label">Resolved</span>
+                <span class="dashboard-analytics-icon"><i class="fas fa-check-circle"></i></span>
+            </div>
+            <div class="dashboard-analytics-value"><?= $resolved ?></div>
+            <div class="dashboard-analytics-sub">Settled & concluded cases</div>
+        </article>
+    </div>
 </div>
 
 <!-- TABLE -->

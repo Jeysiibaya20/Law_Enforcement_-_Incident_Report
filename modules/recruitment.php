@@ -214,31 +214,22 @@ try {
         <div class="row mb-5">
             <?php 
             $kpi_cards = [
-                ['title' => 'Open Jobs', 'value' => $recruitment_stats['open_jobs'], 'icon' => 'bi-briefcase-fill', 'color' => 'primary', 'unit' => 'jobs'],
-                ['title' => 'New Applicants (Mo.)', 'value' => $recruitment_stats['new_applicants_this_month'], 'icon' => 'bi-person-badge-fill', 'color' => 'success', 'unit' => 'applicants'],
-                ['title' => 'Avg. Time to Hire', 'value' => $recruitment_stats['avg_time_to_hire_days'], 'icon' => 'bi-hourglass-split', 'color' => 'warning', 'unit' => 'days'],
-                ['title' => 'Offer Acceptance Rate', 'value' => $recruitment_stats['offer_acceptance_rate'], 'icon' => 'bi-hand-thumbs-up-fill', 'color' => 'info', 'unit' => ''],
+                ['title' => 'Open Jobs', 'value' => $recruitment_stats['open_jobs'], 'icon' => 'bi-briefcase-fill', 'tone' => 'analytics-tone-notif', 'sub' => 'Active job openings'],
+                ['title' => 'New Applicants (Mo.)', 'value' => $recruitment_stats['new_applicants_this_month'], 'icon' => 'bi-person-badge-fill', 'tone' => 'analytics-tone-subs', 'sub' => 'Candidates registered'],
+                ['title' => 'Avg. Time to Hire', 'value' => $recruitment_stats['avg_time_to_hire_days'] . ' days', 'icon' => 'bi-hourglass-split', 'tone' => 'analytics-tone-pending', 'sub' => 'Recruitment velocity'],
+                ['title' => 'Offer Acceptance Rate', 'value' => $recruitment_stats['offer_acceptance_rate'], 'icon' => 'bi-hand-thumbs-up-fill', 'tone' => 'analytics-tone-purple', 'sub' => 'Acceptance average'],
             ];
             foreach ($kpi_cards as $kpi):
             ?>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card enhanced-card shadow-sm border-start border-<?php echo $kpi['color']; ?> border-5 h-100">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col me-2">
-                                <div class="text-xs font-weight-bold text-<?php echo $kpi['color']; ?> text-uppercase mb-1">
-                                    <?php echo $kpi['title']; ?>
-                                </div>
-                                <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                    <?php echo htmlspecialchars($kpi['value']); ?> <?php echo $kpi['unit']; ?>
-                                </div>
-                            </div>
-                            <div class="col-auto">
-                                <i class="bi <?php echo $kpi['icon']; ?> display-6 text-<?php echo $kpi['color']; ?>-subtle"></i>
-                            </div>
-                        </div>
+            <div class="col-12 col-sm-6 col-xl-3 mb-3">
+                <article class="dashboard-analytics-card <?php echo $kpi['tone']; ?> h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label"><?php echo $kpi['title']; ?></span>
+                        <span class="dashboard-analytics-icon"><i class="bi <?php echo $kpi['icon']; ?>"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo htmlspecialchars((string)$kpi['value']); ?></div>
+                    <div class="dashboard-analytics-sub"><?php echo $kpi['sub']; ?></div>
+                </article>
             </div>
             <?php endforeach; ?>
         </div>

@@ -138,6 +138,50 @@ try {
             </a>
         </div>
 
+        <!-- Main KPI Strip -->
+        <div class="row g-3 mb-4">
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-notif h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Total Users</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-users"></i></span>
+                    </div>
+                    <div class="dashboard-analytics-value"><?= $totalUsers ?></div>
+                    <div class="dashboard-analytics-sub">Registered user accounts</div>
+                </article>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-subs h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Total Blotters</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-clipboard-list"></i></span>
+                    </div>
+                    <div class="dashboard-analytics-value"><?= $totalBlotters ?></div>
+                    <div class="dashboard-analytics-sub">All logged incidents</div>
+                </article>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-pending h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Pending Blotters</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="dashboard-analytics-value"><?= $blottersByStatus['Pending'] ?></div>
+                    <div class="dashboard-analytics-sub">Awaiting action or hearing</div>
+                </article>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-purple h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Resolved Blotters</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-check-circle"></i></span>
+                    </div>
+                    <div class="dashboard-analytics-value"><?= $blottersByStatus['Resolved'] ?></div>
+                    <div class="dashboard-analytics-sub">Concluded & settled cases</div>
+                </article>
+            </div>
+        </div>
+
         <!-- Statistics Overview -->
         <div class="row mb-4">
             <div class="col-md-6 mb-3">

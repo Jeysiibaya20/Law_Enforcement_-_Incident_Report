@@ -356,41 +356,45 @@ try {
 
         <!-- Active Integration Status Cards -->
         <div class="row g-3 mb-4">
-            <div class="col-md-3">
-                <div class="card border-start border-primary border-4 h-100">
-                    <div class="card-body">
-                        <small class="text-muted text-uppercase fw-bold">Group 7 Inspection</small>
-                        <div class="h5 mt-2 text-primary"><i class="fas fa-calendar-check me-2"></i>Active Endpoint</div>
-                        <small class="text-muted">Standardized case scheduling</small>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-notif h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Group 7 Inspection</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-calendar-check"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value" style="font-size: 1.35rem; margin: 0.4rem 0;">Active Endpoint</div>
+                    <div class="dashboard-analytics-sub">Standardized case scheduling</div>
+                </article>
             </div>
-            <div class="col-md-3">
-                <div class="card border-start border-info border-4 h-100">
-                    <div class="card-body">
-                        <small class="text-muted text-uppercase fw-bold">Group 5 Crime Mapping</small>
-                        <div class="h5 mt-2 text-info"><i class="fas fa-map-marked-alt me-2"></i>GIS Connected</div>
-                        <small class="text-muted">Realtime spatial geocoding</small>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-info h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Group 5 Mapping</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-map-marked-alt"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value" style="font-size: 1.35rem; margin: 0.4rem 0;">GIS Connected</div>
+                    <div class="dashboard-analytics-sub">Realtime spatial geocoding</div>
+                </article>
             </div>
-            <div class="col-md-3">
-                <div class="card border-start border-warning border-4 h-100">
-                    <div class="card-body">
-                        <small class="text-muted text-uppercase fw-bold">Group 3 EMS / Police</small>
-                        <div class="h5 mt-2 text-warning"><i class="fas fa-ambulance me-2"></i>Resource Dispatch</div>
-                        <small class="text-muted">District officer tracking</small>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-pending h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Group 3 EMS / Police</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-ambulance"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value" style="font-size: 1.35rem; margin: 0.4rem 0;">Resource Dispatch</div>
+                    <div class="dashboard-analytics-sub">District officer tracking</div>
+                </article>
             </div>
-            <div class="col-md-3">
-                <div class="card border-start border-success border-4 h-100">
-                    <div class="card-body">
-                        <small class="text-muted text-uppercase fw-bold">Partner CCTV API</small>
-                        <div class="h5 mt-2 text-success"><i class="fas fa-video me-2"></i>cctv_requests_receive.php</div>
-                        <small class="text-muted">surveillance.alertaraqc.com</small>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-subs h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Partner CCTV API</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-video"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value" style="font-size: 1.35rem; margin: 0.4rem 0;">CCTV Connected</div>
+                    <div class="dashboard-analytics-sub">surveillance.alertaraqc.com</div>
+                </article>
             </div>
         </div>
 

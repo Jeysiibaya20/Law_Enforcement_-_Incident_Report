@@ -85,40 +85,34 @@ require_once __DIR__ . '/../includes/navbar.php';
         <!-- Stat Cards Row -->
         <div class="row g-3 mb-4">
             <div class="col-12 col-md-4">
-                <div class="card h-100 border-start border-primary border-4 shadow-sm p-3">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div>
-                            <span class="text-muted small text-uppercase fw-bold">Total Blotters</span>
-                            <div class="h2 fw-bold text-primary my-1"><?php echo $blotterCount; ?></div>
-                            <small class="text-muted">Complaints recorded</small>
-                        </div>
-                        <div class="text-primary opacity-50"><i class="fas fa-clipboard-list fa-2x"></i></div>
+                <article class="dashboard-analytics-card analytics-tone-notif h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Total Blotters</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-clipboard-list"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $blotterCount; ?></div>
+                    <div class="dashboard-analytics-sub">Complaints recorded</div>
+                </article>
             </div>
             <div class="col-12 col-md-4">
-                <div class="card h-100 border-start border-warning border-4 shadow-sm p-3">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div>
-                            <span class="text-muted small text-uppercase fw-bold">Pending / In Progress</span>
-                            <div class="h2 fw-bold text-warning my-1"><?php echo $pendingCount; ?></div>
-                            <small class="text-muted">Awaiting action or hearing</small>
-                        </div>
-                        <div class="text-warning opacity-50"><i class="fas fa-clock fa-2x"></i></div>
+                <article class="dashboard-analytics-card analytics-tone-pending h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Pending / In Progress</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-clock"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $pendingCount; ?></div>
+                    <div class="dashboard-analytics-sub">Awaiting action or hearing</div>
+                </article>
             </div>
             <div class="col-12 col-md-4">
-                <div class="card h-100 border-start border-success border-4 shadow-sm p-3">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div>
-                            <span class="text-muted small text-uppercase fw-bold">Resolved / Settled</span>
-                            <div class="h2 fw-bold text-success my-1"><?php echo $resolvedCount; ?></div>
-                            <small class="text-muted">Completed cases</small>
-                        </div>
-                        <div class="text-success opacity-50"><i class="fas fa-check-circle fa-2x"></i></div>
+                <article class="dashboard-analytics-card analytics-tone-subs h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Resolved / Settled</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-check-circle"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $resolvedCount; ?></div>
+                    <div class="dashboard-analytics-sub">Completed cases</div>
+                </article>
             </div>
         </div>
 

@@ -100,41 +100,35 @@ require_once "includes/navbar.php";
         <div class="row g-3 mb-4">
             <div class="col-12 col-md-4">
                 <a href="modules/my_reports.php" class="text-decoration-none">
-                    <div class="card h-100 border-start border-primary border-4 shadow-sm p-3">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <span class="text-muted small text-uppercase fw-bold">My Blotters</span>
-                                <div class="h2 fw-bold text-primary my-1"><?php echo $myReports; ?></div>
-                                <small class="text-muted">Total filed complaints</small>
-                            </div>
-                            <div class="text-primary opacity-50"><i class="fas fa-folder-open fa-2x"></i></div>
+                    <article class="dashboard-analytics-card analytics-tone-notif h-100">
+                        <div class="dashboard-analytics-head">
+                            <span class="dashboard-analytics-label">My Blotters</span>
+                            <span class="dashboard-analytics-icon"><i class="fas fa-folder-open"></i></span>
                         </div>
-                    </div>
+                        <div class="dashboard-analytics-value"><?php echo $myReports; ?></div>
+                        <div class="dashboard-analytics-sub">Total filed complaints</div>
+                    </article>
                 </a>
             </div>
             <div class="col-12 col-md-4">
-                <div class="card h-100 border-start border-warning border-4 shadow-sm p-3">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div>
-                            <span class="text-muted small text-uppercase fw-bold">Active Cases</span>
-                            <div class="h2 fw-bold text-warning my-1"><?php echo $activeCases; ?></div>
-                            <small class="text-muted">Currently in progress</small>
-                        </div>
-                        <div class="text-warning opacity-50"><i class="fas fa-spinner fa-2x"></i></div>
+                <article class="dashboard-analytics-card analytics-tone-pending h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Active Cases</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-spinner"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $activeCases; ?></div>
+                    <div class="dashboard-analytics-sub">Currently in progress</div>
+                </article>
             </div>
             <div class="col-12 col-md-4">
-                <div class="card h-100 border-start border-success border-4 shadow-sm p-3">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div>
-                            <span class="text-muted small text-uppercase fw-bold">My Clearances</span>
-                            <div class="h2 fw-bold text-success my-1"><?php echo $myClearances; ?></div>
-                            <small class="text-muted">Requested certificates</small>
-                        </div>
-                        <div class="text-success opacity-50"><i class="fas fa-file-contract fa-2x"></i></div>
+                <article class="dashboard-analytics-card analytics-tone-subs h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">My Clearances</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-file-contract"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $myClearances; ?></div>
+                    <div class="dashboard-analytics-sub">Requested certificates</div>
+                </article>
             </div>
         </div>
 

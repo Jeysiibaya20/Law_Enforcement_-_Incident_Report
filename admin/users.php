@@ -112,6 +112,56 @@ require_once '../includes/header.php';
             </div>
             <?php unset($_SESSION['flash']); endif; ?>
 
+        <?php
+        $userTotalCount = count($users);
+        $approvedUsers = count(array_filter($users, fn($u) => !empty($u['admin_approved']) && (int)$u['admin_approved'] === 1));
+        $pendingUsers = count(array_filter($users, fn($u) => empty($u['admin_approved']) || (int)$u['admin_approved'] === 0));
+        $verifiedEmailUsers = count(array_filter($users, fn($u) => !empty($u['email_verified'])));
+        ?>
+        <!-- KPI Strip -->
+        <div class="row g-3 mb-4">
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-notif h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Total Users</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-users"></i></span>
+                    </div>
+                    <div class="dashboard-analytics-value"><?= $userTotalCount ?></div>
+                    <div class="dashboard-analytics-sub">Registered accounts</div>
+                </article>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-subs h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Approved Accounts</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-user-check"></i></span>
+                    </div>
+                    <div class="dashboard-analytics-value"><?= $approvedUsers ?></div>
+                    <div class="dashboard-analytics-sub">Active & granted access</div>
+                </article>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-pending h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Pending Approval</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-user-clock"></i></span>
+                    </div>
+                    <div class="dashboard-analytics-value"><?= $pendingUsers ?></div>
+                    <div class="dashboard-analytics-sub">Awaiting admin review</div>
+                </article>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-purple h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Verified Email</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-envelope-circle-check"></i></span>
+                    </div>
+                    <div class="dashboard-analytics-value"><?= $verifiedEmailUsers ?></div>
+                    <div class="dashboard-analytics-sub">Confirmed email addresses</div>
+                </article>
+            </div>
+        </div>
+
         <div class="card">
             <div class="card-header">
                 <h5>All Users (<?= count($users) ?>)</h5>

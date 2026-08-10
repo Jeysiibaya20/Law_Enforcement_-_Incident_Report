@@ -98,43 +98,47 @@ function calculate_gap_status($required, $current) {
                 </div>
             </div>
             
-            <!-- KPI Cards Row (Matching index.php layout) -->
+            <!-- KPI Cards Row -->
             <div class="row g-3">
-                <div class="col-md-3">
-                    <div class="stats-card enhanced-card" style="background: var(--gradient-primary-dark);">
-                        <div class="card-header-icon"><i class="bi bi-layers"></i></div>
-                        <div class="stats-content">
-                            <div class="stats-number"><?php echo htmlspecialchars((string)$comp_kpis['total_competencies']); ?></div>
-                            <div class="stats-label">Total Competencies</div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <article class="dashboard-analytics-card analytics-tone-notif h-100">
+                        <div class="dashboard-analytics-head">
+                            <span class="dashboard-analytics-label">Total Competencies</span>
+                            <span class="dashboard-analytics-icon"><i class="bi bi-layers"></i></span>
                         </div>
-                    </div>
+                        <div class="dashboard-analytics-value"><?php echo htmlspecialchars((string)$comp_kpis['total_competencies']); ?></div>
+                        <div class="dashboard-analytics-sub">Assessed capability areas</div>
+                    </article>
                 </div>
-                <div class="col-md-3">
-                    <div class="stats-card enhanced-card" style="background: var(--gradient-success);">
-                        <div class="card-header-icon"><i class="bi bi-check2-square"></i></div>
-                        <div class="stats-content">
-                            <div class="stats-number"><?php echo htmlspecialchars((string)$comp_kpis['competencies_met']); ?></div>
-                            <div class="stats-label">Competencies Met</div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <article class="dashboard-analytics-card analytics-tone-subs h-100">
+                        <div class="dashboard-analytics-head">
+                            <span class="dashboard-analytics-label">Competencies Met</span>
+                            <span class="dashboard-analytics-icon"><i class="bi bi-check2-square"></i></span>
                         </div>
-                    </div>
+                        <div class="dashboard-analytics-value"><?php echo htmlspecialchars((string)$comp_kpis['competencies_met']); ?></div>
+                        <div class="dashboard-analytics-sub">Proficiency standards met</div>
+                    </article>
                 </div>
-                <div class="col-md-3">
-                    <div class="stats-card enhanced-card" style="background: var(--gradient-warning);">
-                        <div class="card-header-icon"><i class="bi bi-trending-down"></i></div>
-                        <div class="stats-content">
-                            <div class="stats-number"><?php echo htmlspecialchars((string)$comp_kpis['skill_gaps']); ?></div>
-                            <div class="stats-label">Skill Gaps Identified</div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <article class="dashboard-analytics-card analytics-tone-pending h-100">
+                        <div class="dashboard-analytics-head">
+                            <span class="dashboard-analytics-label">Skill Gaps</span>
+                            <span class="dashboard-analytics-icon"><i class="bi bi-trending-down"></i></span>
                         </div>
-                    </div>
+                        <div class="dashboard-analytics-value"><?php echo htmlspecialchars((string)$comp_kpis['skill_gaps']); ?></div>
+                        <div class="dashboard-analytics-sub">Identified growth targets</div>
+                    </article>
                 </div>
-                <div class="col-md-3">
-                    <div class="stats-card enhanced-card" style="background: var(--gradient-danger);">
-                        <div class="card-header-icon"><i class="bi bi-lightning-charge"></i></div>
-                        <div class="stats-content">
-                            <div class="stats-number"><?php echo htmlspecialchars((string)$comp_kpis['high_priority_gaps']); ?></div>
-                            <div class="stats-label">High Priority Gaps</div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <article class="dashboard-analytics-card analytics-tone-danger h-100">
+                        <div class="dashboard-analytics-head">
+                            <span class="dashboard-analytics-label">High Priority Gaps</span>
+                            <span class="dashboard-analytics-icon"><i class="bi bi-lightning-charge"></i></span>
                         </div>
-                    </div>
+                        <div class="dashboard-analytics-value"><?php echo htmlspecialchars((string)$comp_kpis['high_priority_gaps']); ?></div>
+                        <div class="dashboard-analytics-sub">Urgent development needs</div>
+                    </article>
                 </div>
             </div>
 

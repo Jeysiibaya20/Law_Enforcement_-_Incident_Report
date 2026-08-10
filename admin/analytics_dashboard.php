@@ -102,83 +102,71 @@ $trendCounts = array_column($dashboard_data['trends'], 'incident_count');
         </div>
         
         <!-- Key Metrics -->
-        <div class="card">
-            <div class="card-header">
-                <h3 class="mb-0">📊 Key Metrics</h3>
-            </div>
-            <div class="card-body">
-        <div class="metrics-grid">
-            <div class="metric-card">
-                <div class="metric-header">
-                    <div class="metric-icon">
-                        <i class="bi bi-file-earmark-text"></i>
+        <div class="row g-3 mb-4">
+            <div class="col-12 col-sm-6 col-xl-4">
+                <article class="dashboard-analytics-card analytics-tone-notif h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Total Incidents</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-file-earmark-text"></i></span>
                     </div>
-                    <div class="metric-value"><?php echo $dashboard_data['summary']['total_incidents']; ?></div>
-                    <div class="metric-label">Total Incidents</div>
-                    <div class="metric-subtext">Period: <?php echo $from; ?> to <?php echo $to; ?></div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $dashboard_data['summary']['total_incidents']; ?></div>
+                    <div class="dashboard-analytics-sub">Period: <?php echo $from; ?> to <?php echo $to; ?></div>
+                </article>
             </div>
-
-            <div class="metric-card critical">
-                <div class="metric-header">
-                    <div class="metric-icon">
-                        <i class="bi bi-exclamation-triangle"></i>
+            <div class="col-12 col-sm-6 col-xl-4">
+                <article class="dashboard-analytics-card analytics-tone-danger h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Critical Cases</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-exclamation-triangle"></i></span>
                     </div>
-                    <div class="metric-value"><?php echo $dashboard_data['summary']['critical_cases']; ?></div>
-                    <div class="metric-label">Critical Cases (HIGH)</div>
-                    <div class="metric-subtext"><?php
+                    <div class="dashboard-analytics-value"><?php echo $dashboard_data['summary']['critical_cases']; ?></div>
+                    <div class="dashboard-analytics-sub"><?php
                         $percent = $dashboard_data['summary']['total_incidents'] > 0
                             ? round(($dashboard_data['summary']['critical_cases'] / $dashboard_data['summary']['total_incidents']) * 100, 1)
                             : 0;
                         echo $percent . '% of total';
                     ?></div>
-                </div>
+                </article>
             </div>
-
-            <div class="metric-card">
-                <div class="metric-header">
-                    <div class="metric-icon">
-                        <i class="bi bi-person-check"></i>
+            <div class="col-12 col-sm-6 col-xl-4">
+                <article class="dashboard-analytics-card analytics-tone-pending h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Case Assignment Rate</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-person-check"></i></span>
                     </div>
-                    <div class="metric-value"><?php echo $dashboard_data['summary']['assignment_rate']; ?>%</div>
-                    <div class="metric-label">Case Assignment Rate</div>
-                    <div class="metric-subtext"><?php echo $dashboard_data['summary']['total_cases']; ?> cases assigned</div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $dashboard_data['summary']['assignment_rate']; ?>%</div>
+                    <div class="dashboard-analytics-sub"><?php echo $dashboard_data['summary']['total_cases']; ?> cases assigned</div>
+                </article>
             </div>
-
-            <div class="metric-card success">
-                <div class="metric-header">
-                    <div class="metric-icon">
-                        <i class="bi bi-check-circle"></i>
+            <div class="col-12 col-sm-6 col-xl-4">
+                <article class="dashboard-analytics-card analytics-tone-subs h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Closed Cases</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-check-circle"></i></span>
                     </div>
-                    <div class="metric-value"><?php echo $dashboard_data['summary']['closed_cases']; ?></div>
-                    <div class="metric-label">Closed Cases</div>
-                    <div class="metric-subtext">Complete and resolved</div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $dashboard_data['summary']['closed_cases']; ?></div>
+                    <div class="dashboard-analytics-sub">Complete and resolved</div>
+                </article>
             </div>
-
-            <div class="metric-card">
-                <div class="metric-header">
-                    <div class="metric-icon">
-                        <i class="bi bi-speedometer2"></i>
+            <div class="col-12 col-sm-6 col-xl-4">
+                <article class="dashboard-analytics-card analytics-tone-purple h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Average Severity Score</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-speedometer2"></i></span>
                     </div>
-                    <div class="metric-value"><?php echo round($dashboard_data['summary']['average_severity'], 1); ?>/100</div>
-                    <div class="metric-label">Average Severity Score</div>
-                    <div class="metric-subtext">AI-powered NLP analysis</div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo round($dashboard_data['summary']['average_severity'], 1); ?>/100</div>
+                    <div class="dashboard-analytics-sub">AI-powered NLP analysis</div>
+                </article>
             </div>
-
-            <div class="metric-card">
-                <div class="metric-header">
-                    <div class="metric-icon">
-                        <i class="bi bi-people"></i>
+            <div class="col-12 col-sm-6 col-xl-4">
+                <article class="dashboard-analytics-card analytics-tone-info h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Active Officers</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-people"></i></span>
                     </div>
-                    <div class="metric-value"><?php echo $dashboard_data['summary']['active_officers']; ?></div>
-                    <div class="metric-label">Active Officers</div>
-                    <div class="metric-subtext">Currently assigned</div>
-                </div>
-            </div>
-        </div>
+                    <div class="dashboard-analytics-value"><?php echo $dashboard_data['summary']['active_officers']; ?></div>
+                    <div class="dashboard-analytics-sub">Currently assigned</div>
+                </article>
             </div>
         </div>
 

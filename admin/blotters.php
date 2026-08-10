@@ -267,6 +267,50 @@ try {
             </button>
         </div>
 
+        <!-- KPI Cards Strip -->
+        <div class="row g-3 mb-4">
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-notif h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Total Blotters</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-clipboard-list"></i></span>
+                    </div>
+                    <div class="dashboard-analytics-value"><?= array_sum($statusCounts) ?></div>
+                    <div class="dashboard-analytics-sub">All recorded blotter files</div>
+                </article>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-pending h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Pending Blotters</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="dashboard-analytics-value"><?= $statusCounts['Pending'] ?? 0 ?></div>
+                    <div class="dashboard-analytics-sub">Awaiting action / review</div>
+                </article>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-info h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Under Investigation</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-magnifying-glass"></i></span>
+                    </div>
+                    <div class="dashboard-analytics-value"><?= $statusCounts['Under Investigation'] ?? 0 ?></div>
+                    <div class="dashboard-analytics-sub">Active officer inquiry</div>
+                </article>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-subs h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Resolved Blotters</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-check-circle"></i></span>
+                    </div>
+                    <div class="dashboard-analytics-value"><?= $statusCounts['Resolved'] ?? 0 ?></div>
+                    <div class="dashboard-analytics-sub">Settled & completed</div>
+                </article>
+            </div>
+        </div>
+
         <!-- Filter Tabs -->
         <div class="mb-4">
             <div class="btn-group" role="group">

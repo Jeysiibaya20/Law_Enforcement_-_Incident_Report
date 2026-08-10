@@ -98,57 +98,53 @@ $key_positions = [
         </div>
 
         <!-- SUCCESSION METRICS (KPI CARDS) -->
-        <div class="row mb-4">
+        <div class="row g-3 mb-4">
             <!-- Critical Roles -->
-            <div class="col-md-3 mb-3">
-                <div class="card enhanced-card p-3 h-100 border-start border-danger border-5">
-                    <div class="d-flex align-items-center">
-                        <i class="bi bi-exclamation-octagon-fill text-danger display-6 me-3"></i>
-                        <div>
-                            <p class="text-uppercase text-secondary fw-bold mb-0">Critical Roles</p>
-                            <h4 class="mb-0 fw-bold"><?php echo $succession_stats['critical_roles']; ?></h4>
-                        </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-danger h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Critical Roles</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-exclamation-octagon-fill"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $succession_stats['critical_roles']; ?></div>
+                    <div class="dashboard-analytics-sub">Key leadership positions</div>
+                </article>
             </div>
 
             <!-- High Potential Employees -->
-            <div class="col-md-3 mb-3">
-                <div class="card enhanced-card p-3 h-100 border-start border-warning border-5">
-                    <div class="d-flex align-items-center">
-                        <i class="bi bi-star-fill text-warning display-6 me-3"></i>
-                        <div>
-                            <p class="text-uppercase text-secondary fw-bold mb-0">High-Potential Employees</p>
-                            <h4 class="mb-0 fw-bold"><?php echo $succession_stats['high_potential_employees']; ?></h4>
-                        </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-pending h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">High-Potential Employees</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-star-fill"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $succession_stats['high_potential_employees']; ?></div>
+                    <div class="dashboard-analytics-sub">Identified top talent</div>
+                </article>
             </div>
 
             <!-- Ready Now Candidates -->
-            <div class="col-md-3 mb-3">
-                <div class="card enhanced-card p-3 h-100 border-start border-success border-5">
-                    <div class="d-flex align-items-center">
-                        <i class="bi bi-check-circle-fill text-success display-6 me-3"></i>
-                        <div>
-                            <p class="text-uppercase text-secondary fw-bold mb-0">Ready Now Candidates</p>
-                            <h4 class="mb-0 fw-bold"><?php echo $succession_stats['ready_now_candidates']; ?></h4>
-                        </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-subs h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Ready Now Candidates</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-check-circle-fill"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $succession_stats['ready_now_candidates']; ?></div>
+                    <div class="dashboard-analytics-sub">Immediate succession readiness</div>
+                </article>
             </div>
 
             <!-- Total Candidates in Pipeline -->
-            <div class="col-md-3 mb-3">
-                <div class="card enhanced-card p-3 h-100 border-start border-primary border-5">
-                    <div class="d-flex align-items-center">
-                        <i class="bi bi-diagram-3-fill text-primary display-6 me-3"></i>
-                        <div>
-                            <p class="text-uppercase text-secondary fw-bold mb-0">Total Pipeline Candidates</p>
-                            <h4 class="mb-0 fw-bold"><?php echo $succession_stats['total_candidates_in_pipeline']; ?></h4>
-                        </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-notif h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Pipeline Candidates</span>
+                        <span class="dashboard-analytics-icon"><i class="bi bi-diagram-3-fill"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?php echo $succession_stats['total_candidates_in_pipeline']; ?></div>
+                    <div class="dashboard-analytics-sub">Total leadership pool</div>
+                </article>
             </div>
         </div>
 

@@ -97,42 +97,46 @@ $stats = getCaseStatistics();
         <?php endif; ?>
 
         <!-- Statistics Cards -->
-        <div class="row row-cols-1 row-cols-md-4 g-3 mb-4">
-            <div class="col">
-                <div class="card border-start border-primary border-4 h-100">
-                    <div class="card-body">
-                        <h6 class="text-muted mb-2">Total Cases</h6>
-                        <div class="h3 text-primary"><?= $stats['total_cases'] ?? 0 ?></div>
-                        <small class="text-muted">All cases</small>
+        <div class="row g-3 mb-4">
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-notif h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Total Cases</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-briefcase"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?= $stats['total_cases'] ?? 0 ?></div>
+                    <div class="dashboard-analytics-sub">All recorded cases</div>
+                </article>
             </div>
-            <div class="col">
-                <div class="card border-start border-warning border-4 h-100">
-                    <div class="card-body">
-                        <h6 class="text-muted mb-2">New Cases</h6>
-                        <div class="h3 text-warning"><?= $stats['by_status']['New'] ?? 0 ?></div>
-                        <small class="text-muted">Awaiting assignment</small>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-pending h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">New Cases</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-folder-plus"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?= $stats['by_status']['New'] ?? 0 ?></div>
+                    <div class="dashboard-analytics-sub">Awaiting assignment</div>
+                </article>
             </div>
-            <div class="col">
-                <div class="card border-start border-info border-4 h-100">
-                    <div class="card-body">
-                        <h6 class="text-muted mb-2">Ongoing Cases</h6>
-                        <div class="h3 text-info"><?= $stats['by_status']['Ongoing'] ?? 0 ?></div>
-                        <small class="text-muted">In progress</small>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-info h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Ongoing Cases</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-spinner"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?= $stats['by_status']['Ongoing'] ?? 0 ?></div>
+                    <div class="dashboard-analytics-sub">Currently in progress</div>
+                </article>
             </div>
-            <div class="col">
-                <div class="card border-start border-success border-4 h-100">
-                    <div class="card-body">
-                        <h6 class="text-muted mb-2">Active Officers</h6>
-                        <div class="h3 text-success"><?= $stats['active_officers'] ?? 0 ?></div>
-                        <small class="text-muted">Available for assignment</small>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <article class="dashboard-analytics-card analytics-tone-subs h-100">
+                    <div class="dashboard-analytics-head">
+                        <span class="dashboard-analytics-label">Active Officers</span>
+                        <span class="dashboard-analytics-icon"><i class="fas fa-user-shield"></i></span>
                     </div>
-                </div>
+                    <div class="dashboard-analytics-value"><?= $stats['active_officers'] ?? 0 ?></div>
+                    <div class="dashboard-analytics-sub">Available for assignment</div>
+                </article>
             </div>
         </div>
 
