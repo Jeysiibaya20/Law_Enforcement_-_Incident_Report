@@ -213,6 +213,14 @@ $avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'h
                                 <span>Evidence Collection</span>
                             </a>
                         </li>
+
+                        <!-- Department Integrations Child Module -->
+                        <li class="sidebar-menu-item">
+                            <a href="<?php echo $base_url; ?>modules/department_integrations.php" class="sidebar-link sidebar-accent-auto <?php echo $current_page === 'department_integrations.php' ? 'active' : ''; ?>">
+                                <i class="fas fa-network-wired sidebar-icon" aria-hidden="true"></i>
+                                <span>Dept Integrations</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
 

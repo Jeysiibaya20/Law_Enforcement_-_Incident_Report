@@ -257,12 +257,13 @@ try {
 
 <div class="main-content">
     <div class="content-container">
-        <div class="d-flex justify-content-between align-items-center mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
             <div>
-                <h1 class="h2 mb-1">External Systems Integration</h1>
+                <h1 class="h2 mb-1 fw-bold text-dark"><i class="fas fa-network-wired text-success me-2"></i>External Systems Integration</h1>
                 <p class="text-muted small mb-0">Bi-directional payload standardization and external Partner Surveillance API dashboard</p>
             </div>
-            <div>
+            <div class="d-flex gap-2">
+                <a href="../modules/department_integrations.php" class="btn btn-success fw-bold shadow-sm" style="background-color: #2e856e; border-color: #2e856e;"><i class="fas fa-cubes me-1"></i> Department Hub</a>
                 <a href="dashboard.php" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left me-1"></i> Dashboard</a>
             </div>
         </div>
