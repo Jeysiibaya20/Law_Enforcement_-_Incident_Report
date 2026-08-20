@@ -397,51 +397,234 @@ try {
             </div>
         </div>
 
-        <div class="card" style="background:#fff; color:#000; border:1px solid #e9ecef;">
-            <div class="card-header" style="background:#fff; color:#000; border-bottom:1px solid #e9ecef;">
-                <h5 class="mb-0">Connected Blotter Settlement Records</h5>
+        <!-- Connected Blotter Settlement Records Card with Dual View: Table (10 per page) & Carousel (10 per slide) -->
+        <div class="card shadow-sm mb-4" style="background:#fff; color:#000; border:1px solid #e9ecef;">
+            <div class="card-header d-flex justify-content-between align-items-center flex-wrap gap-2 py-3" style="background:#f8f9fa; color:#000; border-bottom:1px solid #e9ecef;">
+                <div class="d-flex align-items-center gap-2">
+                    <h5 class="mb-0 fw-bold"><i class="bi bi-file-earmark-check text-primary me-1"></i> Connected Blotter Settlement Records</h5>
+                    <span class="badge bg-primary text-white fw-bold" id="settleTotalBadge"><?= count($settlementRows) ?> records</span>
+                </div>
+                
+                <div class="d-flex align-items-center gap-2 flex-wrap">
+                    <!-- Search Filter -->
+                    <div class="input-group input-group-sm" style="width: 220px;">
+                        <span class="input-group-text bg-white text-dark border"><i class="bi bi-search"></i></span>
+                        <input type="text" id="settleSearchInput" class="form-control border" placeholder="Search settlement records..." onkeyup="filterSettleRecords()">
+                    </div>
+
+                    <!-- Page Size Selector -->
+                    <select id="settlePageSizeSelect" class="form-select form-select-sm" style="width: auto;" onchange="changeSettlePageSize(this.value)">
+                        <option value="10" selected>10 per page</option>
+                        <option value="25">25 per page</option>
+                        <option value="50">50 per page</option>
+                        <option value="1000">Show All</option>
+                    </select>
+
+                    <!-- View Switcher -->
+                    <div class="btn-group btn-group-sm" role="group">
+                        <button type="button" class="btn btn-outline-primary active" id="btnSettleTableView" onclick="switchSettleView('table')">
+                            <i class="bi bi-table me-1"></i> Table View
+                        </button>
+                        <button type="button" class="btn btn-outline-primary" id="btnSettleCarouselView" onclick="switchSettleView('carousel')">
+                            <i class="bi bi-view-stacked me-1"></i> Carousel View (10/Slide)
+                        </button>
+                    </div>
+                </div>
             </div>
+
             <div class="card-body p-0">
-                <div class="table-responsive">
-                    <table class="table table-hover mb-0" style="color:#000;">
-                        <thead style="background:#f8f9fa; color:#000;">
-                            <tr>
-                                <th>Blotter No</th>
-                                <th>Complainant</th>
-                                <th>Respondent</th>
-                                <th>Incident Type</th>
-                                <th>Location</th>
-                                <th>Hearing Result</th>
-                                <th>Settlement Status</th>
-                                <th>Settlement Date</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php if (empty($settlementRows)): ?>
-                                <tr><td colspan="9" class="text-center" style="color:#000;">No blotter records available yet.</td></tr>
+                <!-- ================= TABLE VIEW ================= -->
+                <div id="settleTableView" class="p-3">
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle mb-0" id="settleTable" style="color:#000;">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Blotter No</th>
+                                    <th>Complainant</th>
+                                    <th>Respondent</th>
+                                    <th>Incident Type</th>
+                                    <th>Location</th>
+                                    <th>Hearing Result</th>
+                                    <th>Settlement Status</th>
+                                    <th>Settlement Date</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="settleTableBody">
+                                <?php if (empty($settlementRows)): ?>
+                                    <tr class="no-settle-records"><td colspan="10" class="text-center py-5 text-muted"><i class="bi bi-inbox fs-2 d-block mb-2 text-secondary"></i> No blotter settlement records available yet.</td></tr>
+                                <?php else: ?>
+                                    <?php foreach ($settlementRows as $idx => $row): ?>
+                                        <tr class="settle-row" 
+                                            data-index="<?= $idx ?>"
+                                            data-blotter="<?= htmlspecialchars(strtolower($row['blotter_no'])) ?>"
+                                            data-complainant="<?= htmlspecialchars(strtolower($row['complainant_name'] ?? '')) ?>"
+                                            data-respondent="<?= htmlspecialchars(strtolower($row['respondent_name'] ?? '')) ?>"
+                                            data-type="<?= htmlspecialchars(strtolower($row['incident_type'] ?? '')) ?>"
+                                            data-location="<?= htmlspecialchars(strtolower($row['location'] ?? '')) ?>"
+                                            data-hearing="<?= htmlspecialchars(strtolower($row['hearing_result_status'] ?? '')) ?>"
+                                            data-settlement="<?= htmlspecialchars(strtolower($row['settlement_status'] ?? '')) ?>">
+                                            <td class="text-muted small fw-bold"><?= $idx + 1 ?></td>
+                                            <td class="fw-bold text-primary"><?= htmlspecialchars($row['blotter_no']) ?></td>
+                                            <td><?= htmlspecialchars($row['complainant_name'] ?: 'N/A') ?></td>
+                                            <td><?= htmlspecialchars($row['respondent_name'] ?: 'N/A') ?></td>
+                                            <td><span class="badge bg-light text-dark border"><?= htmlspecialchars($row['incident_type'] ?: 'N/A') ?></span></td>
+                                            <td><small class="text-muted"><i class="bi bi-geo-alt me-1 text-danger"></i><?= htmlspecialchars($row['location'] ?: 'N/A') ?></small></td>
+                                            <td>
+                                                <span class="badge bg-<?= match($row['hearing_result_status'] ?? 'Pending') {
+                                                    'Settled', 'Resolved' => 'success',
+                                                    'Ongoing', 'In Progress' => 'info',
+                                                    'Repudiated', 'Failed' => 'danger',
+                                                    default => 'warning text-dark'
+                                                } ?>"><?= htmlspecialchars($row['hearing_result_status'] ?: 'Pending') ?></span>
+                                            </td>
+                                            <td>
+                                                <span class="badge bg-<?= match($row['settlement_status'] ?? 'Pending') {
+                                                    'Settled', 'Signed', 'Completed' => 'success',
+                                                    'Ongoing', 'Drafted' => 'info',
+                                                    'Repudiated', 'Cancelled' => 'danger',
+                                                    default => 'warning text-dark'
+                                                } ?>"><?= htmlspecialchars($row['settlement_status'] ?: 'Pending') ?></span>
+                                            </td>
+                                            <td><?= $row['settlement_date'] ? date('M d, Y', strtotime($row['settlement_date'])) : '<span class="text-muted">N/A</span>' ?></td>
+                                            <td>
+                                                <div class="d-flex gap-1">
+                                                    <a href="settle.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-primary" title="View Settlement"><i class="bi bi-eye me-1"></i>View</a>
+                                                    <a href="settle.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-secondary" title="Print Agreement"><i class="bi bi-printer me-1"></i>Print</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Table Pagination Bar -->
+                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mt-3 pt-2 border-top">
+                        <div class="text-muted small" id="settlePaginationInfo">
+                            Showing 1 to 10 of <?= count($settlementRows) ?> entries
+                        </div>
+                        <nav aria-label="Settlement table pagination">
+                            <ul class="pagination pagination-sm mb-0" id="settlePaginationControls">
+                                <!-- Populated dynamically via JS -->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- ================= CAROUSEL VIEW (10 Items per Slide) ================= -->
+                <div id="settleCarouselView" class="p-3" style="display: none;">
+                    <?php 
+                        $settleBatches = array_chunk($settlementRows, 10);
+                        $totalSettleSlides = count($settleBatches);
+                    ?>
+
+                    <!-- Carousel Controls Bar -->
+                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3 p-2 bg-light rounded border">
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="badge bg-primary px-3 py-2 fs-6">
+                                <i class="bi bi-view-stacked me-1"></i> <span id="settleCarouselSlideLabel">Slide 1 of <?= max(1, $totalSettleSlides) ?></span>
+                            </span>
+                            <small class="text-muted" id="settleCarouselRangeLabel">
+                                Showing <?= count($settlementRows) > 0 ? '1 - ' . min(10, count($settlementRows)) : '0' ?> of <?= count($settlementRows) ?> records
+                            </small>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-2">
+                            <button class="btn btn-sm btn-primary rounded-circle" type="button" data-bs-target="#settlementCarousel" data-bs-slide="prev" style="width:34px; height:34px;">
+                                <i class="bi bi-chevron-left"></i>
+                            </button>
+                            
+                            <div class="d-flex gap-1" id="settleCarouselIndicators">
+                                <?php for ($s = 0; $s < $totalSettleSlides; $s++): ?>
+                                    <button class="btn btn-sm <?= $s === 0 ? 'btn-primary' : 'btn-outline-secondary' ?> fw-bold py-1 px-2" type="button" data-bs-target="#settlementCarousel" data-bs-slide-to="<?= $s ?>" style="font-size: 0.75rem;">
+                                        <?= $s + 1 ?>
+                                    </button>
+                                <?php endfor; ?>
+                            </div>
+
+                            <button class="btn btn-sm btn-primary rounded-circle" type="button" data-bs-target="#settlementCarousel" data-bs-slide="next" style="width:34px; height:34px;">
+                                <i class="bi bi-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Bootstrap Carousel -->
+                    <div id="settlementCarousel" class="carousel slide" data-bs-interval="false">
+                        <div class="carousel-inner">
+                            <?php if (empty($settleBatches)): ?>
+                                <div class="carousel-item active">
+                                    <div class="text-center py-5 text-muted">
+                                        <i class="bi bi-inbox fs-1 d-block mb-2"></i>
+                                        <h5>No Settlement Records</h5>
+                                    </div>
+                                </div>
                             <?php else: ?>
-                                <?php foreach ($settlementRows as $row): ?>
-                                    <tr>
-                                        <td class="fw-bold"><?= htmlspecialchars($row['blotter_no']) ?></td>
-                                        <td><?= htmlspecialchars($row['complainant_name'] ?: 'N/A') ?></td>
-                                        <td><?= htmlspecialchars($row['respondent_name'] ?: 'N/A') ?></td>
-                                        <td><?= htmlspecialchars($row['incident_type'] ?: 'N/A') ?></td>
-                                        <td><?= htmlspecialchars($row['location'] ?: 'N/A') ?></td>
-                                        <td><?= htmlspecialchars($row['hearing_result_status'] ?: 'Pending') ?></td>
-                                        <td><?= htmlspecialchars($row['settlement_status'] ?: 'Pending') ?></td>
-                                        <td><?= $row['settlement_date'] ? date('M d, Y', strtotime($row['settlement_date'])) : 'N/A' ?></td>
-                                        <td>
-                                            <div class="d-flex gap-2">
-                                                <a href="settle.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-primary"><i class="bi bi-eye me-1"></i>View</a>
-                                                <a href="settle.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-secondary"><i class="bi bi-printer me-1"></i>Print</a>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                <?php foreach ($settleBatches as $slideIdx => $batch): ?>
+                                    <div class="carousel-item <?= $slideIdx === 0 ? 'active' : '' ?>" data-slide-index="<?= $slideIdx ?>">
+                                        <div class="row g-3">
+                                            <?php foreach ($batch as $cardIdx => $item): ?>
+                                                <div class="col-md-6 col-lg-6 settle-carousel-card-col">
+                                                    <div class="card h-100 border shadow-sm">
+                                                        <div class="card-header bg-light d-flex justify-content-between align-items-center py-2 px-3">
+                                                            <strong class="text-primary"><?= htmlspecialchars($item['blotter_no']) ?></strong>
+                                                            <div class="d-flex gap-1">
+                                                                <span class="badge bg-<?= match($item['settlement_status'] ?? 'Pending') {
+                                                                    'Settled', 'Signed', 'Completed' => 'success',
+                                                                    'Ongoing', 'Drafted' => 'info',
+                                                                    'Repudiated', 'Cancelled' => 'danger',
+                                                                    default => 'warning text-dark'
+                                                                } ?>"><?= htmlspecialchars($item['settlement_status'] ?: 'Pending') ?></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-body p-3">
+                                                            <div class="row g-2 small">
+                                                                <div class="col-6">
+                                                                    <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Complainant</span>
+                                                                    <strong class="text-dark"><?= htmlspecialchars($item['complainant_name'] ?: 'N/A') ?></strong>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Respondent</span>
+                                                                    <strong class="text-dark"><?= htmlspecialchars($item['respondent_name'] ?: 'N/A') ?></strong>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Incident Type</span>
+                                                                    <span class="badge bg-light text-dark border"><?= htmlspecialchars($item['incident_type'] ?: 'N/A') ?></span>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Location</span>
+                                                                    <span><i class="bi bi-geo-alt text-danger me-1"></i><?= htmlspecialchars($item['location'] ?: 'N/A') ?></span>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Hearing Result</span>
+                                                                    <span class="badge bg-<?= match($item['hearing_result_status'] ?? 'Pending') {
+                                                                        'Settled', 'Resolved' => 'success',
+                                                                        'Ongoing', 'In Progress' => 'info',
+                                                                        'Repudiated', 'Failed' => 'danger',
+                                                                        default => 'warning text-dark'
+                                                                    } ?>"><?= htmlspecialchars($item['hearing_result_status'] ?: 'Pending') ?></span>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Settlement Date</span>
+                                                                    <span><?= $item['settlement_date'] ? date('M d, Y', strtotime($item['settlement_date'])) : 'N/A' ?></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer bg-light d-flex justify-content-end gap-2 py-2 px-3">
+                                                            <a href="settle.php?blotter_id=<?= intval($item['id']) ?>" class="btn btn-sm btn-outline-primary"><i class="bi bi-eye me-1"></i>View</a>
+                                                            <a href="settle.php?blotter_id=<?= intval($item['id']) ?>" class="btn btn-sm btn-outline-secondary"><i class="bi bi-printer me-1"></i>Print</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            <?php endforeach; ?>
+                                        </div>
+                                    </div>
                                 <?php endforeach; ?>
                             <?php endif; ?>
-                        </tbody>
-                    </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -483,4 +666,166 @@ function printSettlementPaper() {
         printWindow.print();
     }, 250);
 }
+
+// ================= SETTLEMENT RECORDS VIEW ENGINE =================
+let currentSettlePage = 1;
+let settleRowsPerPage = 10;
+let filteredSettleRows = [];
+
+function initSettleCatalog() {
+    const rows = document.querySelectorAll('#settleTableBody tr.settle-row');
+    filteredSettleRows = Array.from(rows);
+    renderSettlePagination();
+    
+    const carouselEl = document.getElementById('settlementCarousel');
+    if (carouselEl) {
+        carouselEl.addEventListener('slide.bs.carousel', function(event) {
+            const nextSlideIdx = event.to;
+            const totalSlides = document.querySelectorAll('#settlementCarousel .carousel-item').length;
+            const totalRecs = parseInt('<?= count($settlementRows) ?>') || 0;
+            
+            const label = document.getElementById('settleCarouselSlideLabel');
+            if (label) label.textContent = `Slide ${nextSlideIdx + 1} of ${totalSlides}`;
+            
+            const rangeLabel = document.getElementById('settleCarouselRangeLabel');
+            if (rangeLabel) {
+                const startRec = (nextSlideIdx * 10) + 1;
+                const endRec = Math.min((nextSlideIdx + 1) * 10, totalRecs);
+                rangeLabel.textContent = `Showing ${startRec} - ${endRec} of ${totalRecs} records`;
+            }
+            
+            const indicators = document.querySelectorAll('#settleCarouselIndicators button');
+            indicators.forEach((b, idx) => {
+                if (idx === nextSlideIdx) {
+                    b.classList.replace('btn-outline-secondary', 'btn-primary');
+                } else {
+                    b.classList.replace('btn-primary', 'btn-outline-secondary');
+                }
+            });
+        });
+    }
+}
+
+function switchSettleView(viewType) {
+    const tableView = document.getElementById('settleTableView');
+    const carouselView = document.getElementById('settleCarouselView');
+    const btnTable = document.getElementById('btnSettleTableView');
+    const btnCarousel = document.getElementById('btnSettleCarouselView');
+    
+    if (viewType === 'carousel') {
+        tableView.style.display = 'none';
+        carouselView.style.display = 'block';
+        btnTable.classList.remove('active');
+        btnCarousel.classList.add('active');
+    } else {
+        carouselView.style.display = 'none';
+        tableView.style.display = 'block';
+        btnCarousel.classList.remove('active');
+        btnTable.classList.add('active');
+    }
+}
+
+function changeSettlePageSize(size) {
+    settleRowsPerPage = parseInt(size) || 10;
+    currentSettlePage = 1;
+    renderSettlePagination();
+}
+
+function filterSettleRecords() {
+    const query = (document.getElementById('settleSearchInput')?.value || '').toLowerCase().trim();
+    const allRows = document.querySelectorAll('#settleTableBody tr.settle-row');
+    const allCards = document.querySelectorAll('.settle-carousel-card-col');
+    
+    filteredSettleRows = [];
+    allRows.forEach(row => {
+        const text = (
+            (row.getAttribute('data-blotter') || '') + ' ' +
+            (row.getAttribute('data-complainant') || '') + ' ' +
+            (row.getAttribute('data-respondent') || '') + ' ' +
+            (row.getAttribute('data-type') || '') + ' ' +
+            (row.getAttribute('data-location') || '') + ' ' +
+            (row.getAttribute('data-hearing') || '') + ' ' +
+            (row.getAttribute('data-settlement') || '')
+        ).toLowerCase();
+        
+        if (!query || text.includes(query)) {
+            filteredSettleRows.push(row);
+        } else {
+            row.style.display = 'none';
+        }
+    });
+    
+    allCards.forEach(card => {
+        const cardText = card.textContent.toLowerCase();
+        if (!query || cardText.includes(query)) {
+            card.style.display = '';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+    
+    currentSettlePage = 1;
+    renderSettlePagination();
+}
+
+function renderSettlePagination() {
+    const total = filteredSettleRows.length;
+    const totalPages = Math.ceil(total / settleRowsPerPage) || 1;
+    if (currentSettlePage > totalPages) currentSettlePage = totalPages;
+    if (currentSettlePage < 1) currentSettlePage = 1;
+    
+    const startIdx = (currentSettlePage - 1) * settleRowsPerPage;
+    const endIdx = Math.min(startIdx + settleRowsPerPage, total);
+    
+    const allRows = document.querySelectorAll('#settleTableBody tr.settle-row');
+    allRows.forEach(r => r.style.display = 'none');
+    
+    for (let i = startIdx; i < endIdx; i++) {
+        if (filteredSettleRows[i]) filteredSettleRows[i].style.display = '';
+    }
+    
+    const infoEl = document.getElementById('settlePaginationInfo');
+    if (infoEl) {
+        if (total === 0) {
+            infoEl.textContent = 'Showing 0 to 0 of 0 entries';
+        } else {
+            infoEl.textContent = `Showing ${startIdx + 1} to ${endIdx} of ${total} entries`;
+        }
+    }
+    
+    const controls = document.getElementById('settlePaginationControls');
+    if (!controls) return;
+    
+    let html = '';
+    html += `<li class="page-item ${currentSettlePage === 1 ? 'disabled' : ''}">
+        <a class="page-link" href="javascript:void(0)" onclick="goToSettlePage(${currentSettlePage - 1})"><i class="bi bi-chevron-left"></i></a>
+    </li>`;
+    
+    for (let p = 1; p <= totalPages; p++) {
+        if (totalPages > 7 && Math.abs(p - currentSettlePage) > 2 && p !== 1 && p !== totalPages) {
+            if (p === 2 || p === totalPages - 1) {
+                html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
+            }
+            continue;
+        }
+        html += `<li class="page-item ${p === currentSettlePage ? 'active' : ''}">
+            <a class="page-link" href="javascript:void(0)" onclick="goToSettlePage(${p})">${p}</a>
+        </li>`;
+    }
+    
+    html += `<li class="page-item ${currentSettlePage >= totalPages ? 'disabled' : ''}">
+        <a class="page-link" href="javascript:void(0)" onclick="goToSettlePage(${currentSettlePage + 1})"><i class="bi bi-chevron-right"></i></a>
+    </li>`;
+    
+    controls.innerHTML = html;
+}
+
+function goToSettlePage(page) {
+    currentSettlePage = page;
+    renderSettlePagination();
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    initSettleCatalog();
+});
 </script>

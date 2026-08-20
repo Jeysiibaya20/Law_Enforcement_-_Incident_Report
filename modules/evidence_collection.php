@@ -411,6 +411,113 @@ include '../includes/header.php';
     padding: 6px 0;
 }
 .flow-arrow i { font-size: 1.1rem; color: #0d6efd; }
+
+/* Carousel & Table View Enhancements */
+.view-btn-group .btn {
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 5px 14px;
+}
+.view-btn-group .btn.active {
+    background-color: #0d6efd;
+    color: #fff;
+    border-color: #0d6efd;
+}
+.evidence-card-item {
+    border: 1px solid rgba(0,0,0,0.09);
+    border-radius: 12px;
+    transition: all 0.25s ease;
+    background: #fff;
+}
+.evidence-card-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    border-color: #0d6efd;
+}
+.evidence-card-header {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    padding: 10px 14px;
+    background: #f8fafc;
+    border-bottom: 1px solid #eef2f6;
+}
+.evidence-card-body {
+    padding: 12px 14px;
+}
+.evidence-field-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 8px;
+    font-size: 0.82rem;
+}
+.evidence-field-item {
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #f1f5f9;
+}
+.evidence-field-item .field-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #64748b;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 2px;
+}
+.evidence-field-item .field-value {
+    color: #1e293b;
+    font-weight: 500;
+}
+.carousel-control-prev-custom,
+.carousel-control-next-custom {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #0d6efd;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: all 0.2s ease;
+}
+.carousel-control-prev-custom:hover,
+.carousel-control-next-custom:hover {
+    background: #0b5ed7;
+    transform: scale(1.08);
+}
+.carousel-indicators-custom {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.carousel-indicator-chip {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    background: #fff;
+    color: #334155;
+    font-size: 0.78rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.carousel-indicator-chip.active {
+    background: #0d6efd;
+    color: #fff;
+    border-color: #0d6efd;
+}
+.pagination-custom .page-link {
+    font-size: 0.84rem;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin: 0 2px;
+}
 </style>
 
         <!-- Main Content -->
@@ -500,76 +607,307 @@ include '../includes/header.php';
                 </div>
             </div>
 
-            <!-- Evidence Records Table -->
-            <div class="card shadow-sm">
-                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-                    <h5 class="mb-0"><i class="bi bi-file-earmark-lock me-1"></i> Evidence Records</h5>
-                    <span class="badge bg-white text-primary"><?= count($evidence_records) ?> total records</span>
+            <!-- Evidence Records Card with Dual View: Table (10 per page) & Carousel (10 per slide) -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center flex-wrap gap-2 py-3">
+                    <div class="d-flex align-items-center gap-2">
+                        <h5 class="mb-0 fw-bold"><i class="bi bi-file-earmark-lock me-1"></i> Evidence Catalog</h5>
+                        <span class="badge bg-white text-primary fw-bold" id="totalRecordsBadge"><?= count($evidence_records) ?> records</span>
+                    </div>
+                    
+                    <div class="d-flex align-items-center gap-2 flex-wrap">
+                        <!-- Search Box -->
+                        <div class="input-group input-group-sm" style="width: 220px;">
+                            <span class="input-group-text bg-light text-dark border-0"><i class="bi bi-search"></i></span>
+                            <input type="text" id="evidenceSearchInput" class="form-control border-0" placeholder="Search all columns..." onkeyup="filterEvidenceRecords()">
+                        </div>
+
+                        <!-- Rows per page selector -->
+                        <select id="pageSizeSelect" class="form-select form-select-sm" style="width: auto;" onchange="changePageSize(this.value)">
+                            <option value="10" selected>10 per page</option>
+                            <option value="25">25 per page</option>
+                            <option value="50">50 per page</option>
+                            <option value="1000">Show All</option>
+                        </select>
+
+                        <!-- View Switcher -->
+                        <div class="btn-group btn-group-sm view-btn-group" role="group">
+                            <button type="button" class="btn btn-light active" id="btnTableView" onclick="switchEvidenceView('table')">
+                                <i class="bi bi-table me-1"></i> Table View
+                            </button>
+                            <button type="button" class="btn btn-light" id="btnCarouselView" onclick="switchEvidenceView('carousel')">
+                                <i class="bi bi-view-stacked me-1"></i> Carousel View (10/Slide)
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <div class="table-responsive">
-                        <table class="table table-striped table-hover align-middle">
-                            <thead>
-                                <tr>
-                                    <th>Evidence #</th>
-                                    <th>Type</th>
-                                    <th>Case</th>
-                                    <th>Description</th>
-                                    <th>Source Dept.</th>
-                                    <th>Status</th>
-                                    <th>Collected By</th>
-                                    <th>Date</th>
-                                    <th>Files</th>
-                                    <th style="min-width: 220px;">Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php if (empty($evidence_records)): ?>
-                                    <tr><td colspan="10" class="text-center text-muted py-4"><i class="bi bi-inbox me-1"></i> No evidence records found. Create one to get started.</td></tr>
-                                <?php else: ?>
-                                <?php foreach ($evidence_records as $evidence): ?>
+
+                <div class="card-body p-0">
+                    <!-- ================= TABLE VIEW ================= -->
+                    <div id="evidenceTableView" class="p-3">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover align-middle mb-0" id="evidenceTable">
+                                <thead class="table-light">
                                     <tr>
-                                        <td><strong><?php echo htmlspecialchars($evidence['evidence_number']); ?></strong></td>
-                                        <td><span class="badge bg-light text-dark border"><?php echo htmlspecialchars($evidence['evidence_type']); ?></span></td>
-                                        <td><?php echo htmlspecialchars($evidence['case_number'] ?: 'N/A'); ?></td>
-                                        <td style="max-width: 200px;"><span class="text-truncate d-block" style="max-width: 200px;"><?php echo htmlspecialchars($evidence['item_description']); ?></span></td>
-                                        <td><small><?php echo htmlspecialchars($evidence['source_department'] ?: 'N/A'); ?></small></td>
-                                        <td>
-                                            <span class="badge bg-<?php
-                                                echo match($evidence['status']) {
+                                        <th>#</th>
+                                        <th>Evidence #</th>
+                                        <th>Type & Security</th>
+                                        <th>Case #</th>
+                                        <th>Description</th>
+                                        <th>Source Dept & Ref</th>
+                                        <th>Location & Storage</th>
+                                        <th>Witness</th>
+                                        <th>Status</th>
+                                        <th>Collector & Date</th>
+                                        <th>Files</th>
+                                        <th style="min-width: 170px;">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="evidenceTableBody">
+                                    <?php if (empty($evidence_records)): ?>
+                                        <tr class="no-records-row"><td colspan="12" class="text-center text-muted py-5"><i class="bi bi-inbox fs-2 d-block mb-2 text-secondary"></i> No evidence records found. Create one to get started.</td></tr>
+                                    <?php else: ?>
+                                    <?php foreach ($evidence_records as $idx => $evidence): ?>
+                                        <tr class="evidence-row" 
+                                            data-index="<?= $idx ?>"
+                                            data-evidence-no="<?= htmlspecialchars(strtolower($evidence['evidence_number'])) ?>"
+                                            data-case="<?= htmlspecialchars(strtolower($evidence['case_number'] ?: '')) ?>"
+                                            data-type="<?= htmlspecialchars(strtolower($evidence['evidence_type'])) ?>"
+                                            data-desc="<?= htmlspecialchars(strtolower($evidence['item_description'])) ?>"
+                                            data-source="<?= htmlspecialchars(strtolower(($evidence['source_department'] ?? '') . ' ' . ($evidence['source_reference'] ?? ''))) ?>"
+                                            data-witness="<?= htmlspecialchars(strtolower($evidence['witness_name'] ?? '')) ?>"
+                                            data-status="<?= htmlspecialchars(strtolower($evidence['status'])) ?>">
+                                            <td class="text-muted small fw-bold"><?= $idx + 1 ?></td>
+                                            <td>
+                                                <span class="fw-bold text-primary"><?= htmlspecialchars($evidence['evidence_number']) ?></span>
+                                            </td>
+                                            <td>
+                                                <span class="badge bg-light text-dark border d-block mb-1"><?= htmlspecialchars($evidence['evidence_type']) ?></span>
+                                                <small class="badge bg-<?= match($evidence['security_level'] ?? 'Medium') { 'High', 'Confidential' => 'danger', 'Medium' => 'warning text-dark', default => 'secondary' } ?>">
+                                                    <?= htmlspecialchars($evidence['security_level'] ?? 'Medium') ?>
+                                                </small>
+                                            </td>
+                                            <td>
+                                                <strong><?= htmlspecialchars($evidence['case_number'] ?: 'N/A') ?></strong>
+                                            </td>
+                                            <td style="max-width: 220px;">
+                                                <span class="d-block text-truncate fw-semibold" style="max-width: 220px;" title="<?= htmlspecialchars($evidence['item_description']) ?>">
+                                                    <?= htmlspecialchars($evidence['item_description']) ?>
+                                                </span>
+                                                <small class="text-muted">Cond: <span class="badge bg-secondary"><?= htmlspecialchars($evidence['condition'] ?? 'Good') ?></span></small>
+                                            </td>
+                                            <td>
+                                                <span class="d-block fw-semibold small text-info"><?= htmlspecialchars($evidence['source_department'] ?: 'Internal Unit') ?></span>
+                                                <?php if (!empty($evidence['source_reference'])): ?>
+                                                    <small class="text-muted d-block">Ref: <code><?= htmlspecialchars($evidence['source_reference']) ?></code></small>
+                                                <?php endif; ?>
+                                                <?php if (!empty($evidence['received_from'])): ?>
+                                                    <small class="text-muted d-block">From: <?= htmlspecialchars($evidence['received_from']) ?></small>
+                                                <?php endif; ?>
+                                            </td>
+                                            <td>
+                                                <small class="d-block text-truncate" style="max-width: 160px;"><i class="bi bi-geo-alt text-danger me-1"></i><?= htmlspecialchars($evidence['location_found'] ?: 'Not recorded') ?></small>
+                                                <small class="d-block text-truncate text-muted" style="max-width: 160px;"><i class="bi bi-box text-warning me-1"></i><?= htmlspecialchars($evidence['storage_location'] ?: 'Vault A-1') ?></small>
+                                            </td>
+                                            <td>
+                                                <?php if (!empty($evidence['witness_name'])): ?>
+                                                    <span class="badge bg-primary text-white d-block mb-1 text-truncate" style="max-width: 140px;" title="<?= htmlspecialchars($evidence['witness_name']) ?>">
+                                                        <i class="bi bi-person me-1"></i><?= htmlspecialchars($evidence['witness_name']) ?>
+                                                    </span>
+                                                <?php else: ?>
+                                                    <span class="text-muted small">None</span>
+                                                <?php endif; ?>
+                                            </td>
+                                            <td>
+                                                <span class="badge bg-<?= match($evidence['status']) {
                                                     'Collected' => 'primary',
                                                     'In Storage' => 'info',
-                                                    'In Transit' => 'warning',
+                                                    'In Transit' => 'warning text-dark',
                                                     'Released' => 'success',
                                                     'Destroyed' => 'danger',
                                                     'Lost' => 'dark',
                                                     default => 'secondary'
-                                                };
-                                            ?>"><?php echo htmlspecialchars($evidence['status']); ?></span>
-                                        </td>
-                                        <td><small><?php echo htmlspecialchars($evidence['collector_name']); ?></small></td>
-                                        <td><small><?php echo date('M d, Y', strtotime($evidence['collection_date'])); ?></small></td>
-                                        <td><span class="badge bg-secondary"><?php echo $evidence['attachment_count']; ?> files</span></td>
-                                        <td>
-                                            <div class="action-btn-group d-flex gap-1 flex-wrap">
-                                                <button class="btn btn-sm btn-outline-primary" onclick="viewEvidence(<?php echo $evidence['id']; ?>)" title="View Details">
-                                                    <i class="bi bi-eye"></i> View
-                                                </button>
-                                                <button class="btn btn-sm btn-outline-secondary" onclick="viewChainOfCustody(<?php echo $evidence['id']; ?>)" title="Chain of Custody">
-                                                    <i class="bi bi-link-45deg"></i> Chain
-                                                </button>
-                                                <?php if ($evidence['attachment_count'] > 0): ?>
-                                                <button class="btn btn-sm btn-outline-success" onclick="openSendToGroup7Modal(<?= $evidence['id'] ?>, '<?= htmlspecialchars(addslashes($evidence['evidence_number'])) ?>', '<?= htmlspecialchars(addslashes($evidence['case_number'] ?: 'N/A')) ?>', <?= intval($evidence['attachment_count']) ?>)" title="Send Photos & Videos to Group 7">
-                                                    <i class="bi bi-cloud-upload"></i> Group 7
-                                                </button>
-                                                <?php endif; ?>
+                                                } ?>"><?= htmlspecialchars($evidence['status']) ?></span>
+                                            </td>
+                                            <td>
+                                                <small class="fw-semibold d-block"><?= htmlspecialchars($evidence['collector_name'] ?: 'Officer') ?></small>
+                                                <small class="text-muted"><?= date('M d, Y', strtotime($evidence['collection_date'])) ?></small>
+                                            </td>
+                                            <td>
+                                                <span class="badge bg-secondary"><i class="bi bi-paperclip me-1"></i><?= $evidence['attachment_count'] ?></span>
+                                            </td>
+                                            <td>
+                                                <div class="action-btn-group d-flex gap-1 flex-wrap">
+                                                    <button class="btn btn-sm btn-outline-primary" onclick="viewEvidence(<?= $evidence['id'] ?>)" title="View Details">
+                                                        <i class="bi bi-eye"></i> View
+                                                    </button>
+                                                    <button class="btn btn-sm btn-outline-secondary" onclick="viewChainOfCustody(<?= $evidence['id'] ?>)" title="Chain of Custody">
+                                                        <i class="bi bi-link-45deg"></i> Chain
+                                                    </button>
+                                                    <?php if ($evidence['attachment_count'] > 0): ?>
+                                                    <button class="btn btn-sm btn-outline-success" onclick="openSendToGroup7Modal(<?= $evidence['id'] ?>, '<?= htmlspecialchars(addslashes($evidence['evidence_number'])) ?>', '<?= htmlspecialchars(addslashes($evidence['case_number'] ?: 'N/A')) ?>', <?= intval($evidence['attachment_count']) ?>)" title="Send Photos & Videos to Group 7">
+                                                        <i class="bi bi-cloud-upload"></i> Group 7
+                                                    </button>
+                                                    <?php endif; ?>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+                                    <?php endif; ?>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Table Pagination Bar -->
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mt-3 pt-2 border-top">
+                            <div class="text-muted small" id="tablePaginationInfo">
+                                Showing 1 to 10 of <?= count($evidence_records) ?> entries
+                            </div>
+                            <nav aria-label="Evidence table pagination">
+                                <ul class="pagination pagination-sm pagination-custom mb-0" id="tablePaginationControls">
+                                    <!-- Populated dynamically via JS -->
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- ================= CAROUSEL VIEW (10 Items per Slide) ================= -->
+                    <div id="evidenceCarouselView" class="p-3" style="display: none;">
+                        <?php 
+                            $evidenceBatches = array_chunk($evidence_records, 10);
+                            $totalSlides = count($evidenceBatches);
+                        ?>
+
+                        <!-- Carousel Header & Navigation Controls -->
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3 p-2 bg-light rounded border">
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="badge bg-primary px-3 py-2 fs-6">
+                                    <i class="bi bi-view-stacked me-1"></i> <span id="carouselSlideLabel">Slide 1 of <?= max(1, $totalSlides) ?></span>
+                                </span>
+                                <small class="text-muted" id="carouselItemRangeLabel">
+                                    Showing <?= count($evidence_records) > 0 ? '1 - ' . min(10, count($evidence_records)) : '0' ?> of <?= count($evidence_records) ?> total records
+                                </small>
+                            </div>
+
+                            <div class="d-flex align-items-center gap-2">
+                                <button class="carousel-control-prev-custom" type="button" data-bs-target="#evidenceCatalogCarousel" data-bs-slide="prev" title="Previous Slide">
+                                    <i class="bi bi-chevron-left"></i>
+                                </button>
+                                
+                                <div class="carousel-indicators-custom" id="carouselCustomIndicators">
+                                    <?php for ($s = 0; $s < $totalSlides; $s++): ?>
+                                        <button class="carousel-indicator-chip <?= $s === 0 ? 'active' : '' ?>" type="button" data-bs-target="#evidenceCatalogCarousel" data-bs-slide-to="<?= $s ?>">
+                                            <?= $s + 1 ?>
+                                        </button>
+                                    <?php endfor; ?>
+                                </div>
+
+                                <button class="carousel-control-next-custom" type="button" data-bs-target="#evidenceCatalogCarousel" data-bs-slide="next" title="Next Slide">
+                                    <i class="bi bi-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Bootstrap Carousel -->
+                        <div id="evidenceCatalogCarousel" class="carousel slide" data-bs-interval="false">
+                            <div class="carousel-inner">
+                                <?php if (empty($evidenceBatches)): ?>
+                                    <div class="carousel-item active">
+                                        <div class="text-center py-5 text-muted">
+                                            <i class="bi bi-inbox fs-1 d-block mb-2"></i>
+                                            <h5>No Evidence Records in Catalog</h5>
+                                            <p>Create an evidence record to see it in the carousel view.</p>
+                                        </div>
+                                    </div>
+                                <?php else: ?>
+                                    <?php foreach ($evidenceBatches as $slideIdx => $batch): ?>
+                                        <div class="carousel-item <?= $slideIdx === 0 ? 'active' : '' ?>" data-slide-index="<?= $slideIdx ?>">
+                                            <div class="row g-3">
+                                                <?php foreach ($batch as $cardIdx => $item): ?>
+                                                    <div class="col-md-6 col-lg-6 evidence-carousel-card-col">
+                                                        <div class="evidence-card-item h-100 d-flex flex-column">
+                                                            <div class="evidence-card-header d-flex justify-content-between align-items-center">
+                                                                <div>
+                                                                    <strong class="text-primary fs-6"><?= htmlspecialchars($item['evidence_number']) ?></strong>
+                                                                    <span class="badge bg-light text-dark border ms-1"><?= htmlspecialchars($item['evidence_type']) ?></span>
+                                                                </div>
+                                                                <span class="badge bg-<?= match($item['status']) {
+                                                                    'Collected' => 'primary',
+                                                                    'In Storage' => 'info',
+                                                                    'In Transit' => 'warning text-dark',
+                                                                    'Released' => 'success',
+                                                                    'Destroyed' => 'danger',
+                                                                    'Lost' => 'dark',
+                                                                    default => 'secondary'
+                                                                } ?>"><?= htmlspecialchars($item['status']) ?></span>
+                                                            </div>
+                                                            <div class="evidence-card-body flex-grow-1">
+                                                                <h6 class="fw-bold mb-1 text-truncate" title="<?= htmlspecialchars($item['item_description']) ?>">
+                                                                    <?= htmlspecialchars($item['item_description']) ?>
+                                                                </h6>
+                                                                <p class="text-muted small mb-2"><i class="bi bi-tag me-1"></i>Condition: <strong><?= htmlspecialchars($item['condition'] ?? 'Good') ?></strong> | Security: <span class="badge bg-<?= match($item['security_level'] ?? 'Medium') { 'High', 'Confidential' => 'danger', 'Medium' => 'warning text-dark', default => 'secondary' } ?>"><?= htmlspecialchars($item['security_level'] ?? 'Medium') ?></span></p>
+
+                                                                <!-- All Columns Field Grid -->
+                                                                <div class="evidence-field-grid">
+                                                                    <div class="evidence-field-item">
+                                                                        <span class="field-label"><i class="bi bi-folder me-1"></i>Case Number</span>
+                                                                        <span class="field-value"><?= htmlspecialchars($item['case_number'] ?: 'N/A') ?></span>
+                                                                    </div>
+                                                                    <div class="evidence-field-item">
+                                                                        <span class="field-label"><i class="bi bi-building me-1"></i>Source Dept</span>
+                                                                        <span class="field-value text-info"><?= htmlspecialchars($item['source_department'] ?: 'N/A') ?></span>
+                                                                    </div>
+                                                                    <div class="evidence-field-item">
+                                                                        <span class="field-label"><i class="bi bi-file-earmark-text me-1"></i>Source Ref</span>
+                                                                        <span class="field-value"><code><?= htmlspecialchars($item['source_reference'] ?: 'None') ?></code></span>
+                                                                    </div>
+                                                                    <div class="evidence-field-item">
+                                                                        <span class="field-label"><i class="bi bi-geo-alt me-1"></i>Location Found</span>
+                                                                        <span class="field-value"><?= htmlspecialchars($item['location_found'] ?: 'Not specified') ?></span>
+                                                                    </div>
+                                                                    <div class="evidence-field-item">
+                                                                        <span class="field-label"><i class="bi bi-box-seam me-1"></i>Storage Location</span>
+                                                                        <span class="field-value"><?= htmlspecialchars($item['storage_location'] ?: 'Vault A-1') ?></span>
+                                                                    </div>
+                                                                    <div class="evidence-field-item">
+                                                                        <span class="field-label"><i class="bi bi-person-check me-1"></i>Witness</span>
+                                                                        <span class="field-value"><?= htmlspecialchars($item['witness_name'] ?: 'None') ?></span>
+                                                                    </div>
+                                                                    <div class="evidence-field-item">
+                                                                        <span class="field-label"><i class="bi bi-person-badge me-1"></i>Collector</span>
+                                                                        <span class="field-value"><?= htmlspecialchars($item['collector_name'] ?: 'Officer') ?></span>
+                                                                    </div>
+                                                                    <div class="evidence-field-item">
+                                                                        <span class="field-label"><i class="bi bi-calendar me-1"></i>Collected Date</span>
+                                                                        <span class="field-value"><?= date('M d, Y', strtotime($item['collection_date'])) ?></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="p-2 px-3 bg-light border-top d-flex justify-content-between align-items-center">
+                                                                <span class="badge bg-secondary"><i class="bi bi-paperclip me-1"></i><?= $item['attachment_count'] ?> files</span>
+                                                                <div class="action-btn-group d-flex gap-1">
+                                                                    <button class="btn btn-sm btn-outline-primary" onclick="viewEvidence(<?= $item['id'] ?>)">
+                                                                        <i class="bi bi-eye"></i> View
+                                                                    </button>
+                                                                    <button class="btn btn-sm btn-outline-secondary" onclick="viewChainOfCustody(<?= $item['id'] ?>)">
+                                                                        <i class="bi bi-link-45deg"></i> Chain
+                                                                    </button>
+                                                                    <?php if ($item['attachment_count'] > 0): ?>
+                                                                    <button class="btn btn-sm btn-outline-success" onclick="openSendToGroup7Modal(<?= $item['id'] ?>, '<?= htmlspecialchars(addslashes($item['evidence_number'])) ?>', '<?= htmlspecialchars(addslashes($item['case_number'] ?: 'N/A')) ?>', <?= intval($item['attachment_count']) ?>)">
+                                                                        <i class="bi bi-cloud-upload"></i> Group 7
+                                                                    </button>
+                                                                    <?php endif; ?>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                <?php endforeach; ?>
                                             </div>
-                                        </td>
-                                    </tr>
-                                <?php endforeach; ?>
+                                        </div>
+                                    <?php endforeach; ?>
                                 <?php endif; ?>
-                            </tbody>
-                        </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1525,6 +1863,175 @@ function handleSourceReferenceSelect(select) {
         }
     }
 }
+
+// ================= EVIDENCE VIEW ENGINE (PAGINATION, CAROUSEL, SEARCH) =================
+let currentTablePage = 1;
+let rowsPerPage = 10;
+let filteredRows = [];
+
+function initEvidenceCatalog() {
+    const rows = document.querySelectorAll('#evidenceTableBody tr.evidence-row');
+    filteredRows = Array.from(rows);
+    renderTablePagination();
+    
+    // Set up Carousel slide change listener
+    const carouselEl = document.getElementById('evidenceCatalogCarousel');
+    if (carouselEl) {
+        carouselEl.addEventListener('slide.bs.carousel', function(event) {
+            const nextSlideIdx = event.to;
+            const totalSlides = document.querySelectorAll('#evidenceCatalogCarousel .carousel-item').length;
+            const totalRecs = parseInt('<?= count($evidence_records) ?>') || 0;
+            
+            // Update slide indicator badge
+            const label = document.getElementById('carouselSlideLabel');
+            if (label) label.textContent = `Slide ${nextSlideIdx + 1} of ${totalSlides}`;
+            
+            // Update range label
+            const rangeLabel = document.getElementById('carouselItemRangeLabel');
+            if (rangeLabel) {
+                const startRec = (nextSlideIdx * 10) + 1;
+                const endRec = Math.min((nextSlideIdx + 1) * 10, totalRecs);
+                rangeLabel.textContent = `Showing ${startRec} - ${endRec} of ${totalRecs} total records`;
+            }
+            
+            // Update indicator chips
+            const chips = document.querySelectorAll('#carouselCustomIndicators .carousel-indicator-chip');
+            chips.forEach((c, idx) => {
+                if (idx === nextSlideIdx) c.classList.add('active');
+                else c.classList.remove('active');
+            });
+        });
+    }
+}
+
+function switchEvidenceView(viewType) {
+    const tableView = document.getElementById('evidenceTableView');
+    const carouselView = document.getElementById('evidenceCarouselView');
+    const btnTable = document.getElementById('btnTableView');
+    const btnCarousel = document.getElementById('btnCarouselView');
+    
+    if (viewType === 'carousel') {
+        tableView.style.display = 'none';
+        carouselView.style.display = 'block';
+        btnTable.classList.remove('active');
+        btnCarousel.classList.add('active');
+    } else {
+        carouselView.style.display = 'none';
+        tableView.style.display = 'block';
+        btnCarousel.classList.remove('active');
+        btnTable.classList.add('active');
+    }
+}
+
+function changePageSize(size) {
+    rowsPerPage = parseInt(size) || 10;
+    currentTablePage = 1;
+    renderTablePagination();
+}
+
+function filterEvidenceRecords() {
+    const query = (document.getElementById('evidenceSearchInput')?.value || '').toLowerCase().trim();
+    const allRows = document.querySelectorAll('#evidenceTableBody tr.evidence-row');
+    const allCards = document.querySelectorAll('.evidence-carousel-card-col');
+    
+    filteredRows = [];
+    allRows.forEach(row => {
+        const text = (
+            (row.getAttribute('data-evidence-no') || '') + ' ' +
+            (row.getAttribute('data-case') || '') + ' ' +
+            (row.getAttribute('data-type') || '') + ' ' +
+            (row.getAttribute('data-desc') || '') + ' ' +
+            (row.getAttribute('data-source') || '') + ' ' +
+            (row.getAttribute('data-witness') || '') + ' ' +
+            (row.getAttribute('data-status') || '')
+        ).toLowerCase();
+        
+        if (!query || text.includes(query)) {
+            filteredRows.push(row);
+        } else {
+            row.style.display = 'none';
+        }
+    });
+    
+    // Filter carousel cards as well
+    allCards.forEach(card => {
+        const cardText = card.textContent.toLowerCase();
+        if (!query || cardText.includes(query)) {
+            card.style.display = '';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+    
+    currentTablePage = 1;
+    renderTablePagination();
+}
+
+function renderTablePagination() {
+    const total = filteredRows.length;
+    const totalPages = Math.ceil(total / rowsPerPage) || 1;
+    if (currentTablePage > totalPages) currentTablePage = totalPages;
+    if (currentTablePage < 1) currentTablePage = 1;
+    
+    const startIdx = (currentTablePage - 1) * rowsPerPage;
+    const endIdx = Math.min(startIdx + rowsPerPage, total);
+    
+    // Hide all rows first, show only current page slice
+    const allRows = document.querySelectorAll('#evidenceTableBody tr.evidence-row');
+    allRows.forEach(r => r.style.display = 'none');
+    
+    for (let i = startIdx; i < endIdx; i++) {
+        if (filteredRows[i]) filteredRows[i].style.display = '';
+    }
+    
+    // Update pagination info label
+    const infoEl = document.getElementById('tablePaginationInfo');
+    if (infoEl) {
+        if (total === 0) {
+            infoEl.textContent = 'Showing 0 to 0 of 0 entries';
+        } else {
+            infoEl.textContent = `Showing ${startIdx + 1} to ${endIdx} of ${total} entries`;
+        }
+    }
+    
+    // Render pagination buttons
+    const controls = document.getElementById('tablePaginationControls');
+    if (!controls) return;
+    
+    let html = '';
+    // Previous button
+    html += `<li class="page-item ${currentTablePage === 1 ? 'disabled' : ''}">
+        <a class="page-link" href="javascript:void(0)" onclick="goToTablePage(${currentTablePage - 1})"><i class="bi bi-chevron-left"></i></a>
+    </li>`;
+    
+    for (let p = 1; p <= totalPages; p++) {
+        if (totalPages > 7 && Math.abs(p - currentTablePage) > 2 && p !== 1 && p !== totalPages) {
+            if (p === 2 || p === totalPages - 1) {
+                html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
+            }
+            continue;
+        }
+        html += `<li class="page-item ${p === currentTablePage ? 'active' : ''}">
+            <a class="page-link" href="javascript:void(0)" onclick="goToTablePage(${p})">${p}</a>
+        </li>`;
+    }
+    
+    // Next button
+    html += `<li class="page-item ${currentTablePage >= totalPages ? 'disabled' : ''}">
+        <a class="page-link" href="javascript:void(0)" onclick="goToTablePage(${currentTablePage + 1})"><i class="bi bi-chevron-right"></i></a>
+    </li>`;
+    
+    controls.innerHTML = html;
+}
+
+function goToTablePage(page) {
+    currentTablePage = page;
+    renderTablePagination();
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    initEvidenceCatalog();
+});
 </script>
 
 <?php include '../includes/footer.php'; ?>

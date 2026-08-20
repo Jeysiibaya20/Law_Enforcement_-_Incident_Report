@@ -314,87 +314,275 @@ try {
 
         <div class="row mt-4">
             <div class="col-12">
-                <div class="card">
-                    <div class="card-header bg-dark text-white">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <strong>Request Records</strong>
-                            <span class="badge bg-primary"><?php echo count($request_records); ?> record(s)</span>
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center flex-wrap gap-2 py-3">
+                        <div class="d-flex align-items-center gap-2">
+                            <h5 class="mb-0 fw-bold text-white"><i class="bi bi-camera-video text-warning me-2"></i>Request Records</h5>
+                            <span class="badge bg-primary fw-bold" id="reqTotalBadge"><?php echo count($request_records); ?> record(s)</span>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <!-- Search Filter -->
+                            <div class="input-group input-group-sm" style="width: 220px;">
+                                <span class="input-group-text bg-light text-dark border-0"><i class="bi bi-search"></i></span>
+                                <input type="text" id="reqSearchInput" class="form-control border-0" placeholder="Search requests..." onkeyup="filterRequestRecords()">
+                            </div>
+
+                            <!-- Page Size Selector -->
+                            <select id="reqPageSizeSelect" class="form-select form-select-sm" style="width: auto;" onchange="changeReqPageSize(this.value)">
+                                <option value="10" selected>10 per page</option>
+                                <option value="25">25 per page</option>
+                                <option value="50">50 per page</option>
+                                <option value="1000">Show All</option>
+                            </select>
+
+                            <!-- View Switcher -->
+                            <div class="btn-group btn-group-sm" role="group">
+                                <button type="button" class="btn btn-light active" id="btnReqTableView" onclick="switchReqView('table')">
+                                    <i class="bi bi-table me-1"></i> Table View
+                                </button>
+                                <button type="button" class="btn btn-light" id="btnReqCarouselView" onclick="switchReqView('carousel')">
+                                    <i class="bi bi-view-stacked me-1"></i> Carousel View (10/Slide)
+                                </button>
+                            </div>
                         </div>
                     </div>
+
                     <div class="card-body p-0">
-                        <div class="table-responsive">
-                            <table class="table mb-0">
-                                <thead class="table-dark">
-                                    <tr>
-                                        <th>REQUEST ID</th>
-                                        <th>AGENCY</th>
-                                        <th>CONTACT</th>
-                                        <th>LOCATION / CAMERA</th>
-                                        <th>FOOTAGE WINDOW</th>
-                                        <th>STATUS</th>
-                                        <th>SUBMITTED</th>
-                                        <th>ACTIONS</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <?php if (!empty($request_records)): ?>
-                                        <?php foreach ($request_records as $record): ?>
-                                            <tr class="cctv-record-row" data-date="<?php echo htmlspecialchars($record['incident_date'] ?? ''); ?>">
-                                                <td><?php echo 'REQ-' . str_pad((int)$record['id'], 3, '0', STR_PAD_LEFT); ?></td>
-                                                <td><?php echo htmlspecialchars('Digital Blotter System'); ?></td>
-                                                <td><?php echo htmlspecialchars($record['requester_name'] ?? 'Admin'); ?></td>
-                                                <td><?php echo htmlspecialchars($record['camera_location'] ?: 'CAM-001'); ?></td>
-                                                <td><?php echo htmlspecialchars(($record['incident_date'] ?: '') . ($record['incident_time'] ? ' ' . date('H:i', strtotime($record['incident_time'])) : '')); ?></td>
-                                                <td><span class="badge bg-info text-dark"><?php echo htmlspecialchars($record['status'] ?? 'Pending'); ?></span></td>
-                                                <td><?php echo htmlspecialchars(date('M d, Y', strtotime($record['requested_at']))); ?></td>
-                                                <td>
-                                                    <button type="button" class="btn btn-sm btn-outline-success me-1 btn-view" 
-                                                        style="color: #1b5a56 !important; border: 1.5px solid #2e856e !important; background: #ecfdf5 !important; font-weight: 600;"
-                                                        data-id="<?php echo (int)$record['id']; ?>"
-                                                        data-request-id="<?php echo 'CCTV-REQ-' . date('Y') . '-' . str_pad((int)$record['id'],3,'0',STR_PAD_LEFT); ?>"
-                                                        data-agency="<?php echo htmlspecialchars('Digital Blotter System'); ?>"
-                                                        data-contact="<?php echo htmlspecialchars($record['requester_name'] ?? 'Admin'); ?>"
-                                                        data-email="<?php echo htmlspecialchars($_SESSION['user_email'] ?? ''); ?>"
-                                                        data-case-ref="<?php echo htmlspecialchars($record['additional_details'] ?: ''); ?>"
-                                                        data-purpose="<?php echo htmlspecialchars($record['reason'] ?: ''); ?>"
-                                                        data-legal="<?php echo htmlspecialchars('Blotter referral'); ?>"
-                                                        data-location="<?php echo htmlspecialchars($record['camera_location'] ?: ''); ?>"
-                                                        data-camera="<?php echo htmlspecialchars($record['camera_location'] ?: 'CAM-001'); ?>"
-                                                        data-footage-window="<?php echo htmlspecialchars(($record['incident_date'] ?: '') . ($record['incident_time'] ? ' ' . date('H:i', strtotime($record['incident_time'])) : '')); ?>"
-                                                        data-description="<?php echo htmlspecialchars($record['reason'] ?: ''); ?>"
-                                                        data-delivery="<?php echo htmlspecialchars($record['delivery_method'] ?: 'pickup'); ?>"
-                                                        data-supporting=""
-                                                        data-status="<?php echo htmlspecialchars($record['status'] ?? 'Under Review'); ?>"
-                                                        data-review-notes="<?php echo htmlspecialchars($record['monitoring_notes'] ?: ''); ?>"
-                                                        ><i class="bi bi-eye me-1"></i>View</button>
-
-                                                    <button type="button" class="btn btn-sm btn-outline-warning me-1 btn-manage" 
-                                                        style="color: #9a3412 !important; border: 1.5px solid #f59e0b !important; background: #fffbeb !important; font-weight: 600;"
-                                                        data-id="<?php echo (int)$record['id']; ?>"
-                                                        data-status-val="<?php echo htmlspecialchars($record['status'] ?? 'Under Review'); ?>"
-                                                        data-camera-val="<?php echo htmlspecialchars($record['camera_location'] ?: 'CAM-001'); ?>"
-                                                        data-start="<?php echo htmlspecialchars($record['incident_time'] ?: ''); ?>"
-                                                        data-end="<?php echo htmlspecialchars($record['incident_time'] ?: ''); ?>"
-                                                        data-review-notes-val="<?php echo htmlspecialchars($record['monitoring_notes'] ?: ''); ?>"
-                                                        ><i class="bi bi-sliders me-1"></i>Manage</button>
-
-                                                    <form method="POST" class="d-inline" onsubmit="return confirm('Dispatch request #REQ-<?php echo str_pad((int)$record['id'], 3, '0', STR_PAD_LEFT); ?> directly to Partner CCTV API?');">
-                                                        <input type="hidden" name="action" value="dispatch_record_cctv">
-                                                        <input type="hidden" name="request_id" value="<?php echo (int)$record['id']; ?>">
-                                                        <button type="submit" class="btn btn-sm btn-success text-white shadow-sm" style="background-color: #2e856e !important; border: 1px solid #2e856e !important; color: #ffffff !important; font-weight: 600;" title="Dispatch CCTV request to partner API">
-                                                            <i class="fas fa-paper-plane me-1"></i>Dispatch API
-                                                        </button>
-                                                    </form>
-                                                </td>
-                                            </tr>
-                                        <?php endforeach; ?>
-                                    <?php else: ?>
+                        <!-- ================= TABLE VIEW ================= -->
+                        <div id="reqTableView" class="p-3">
+                            <div class="table-responsive">
+                                <table class="table table-hover align-middle mb-0" id="reqTable">
+                                    <thead class="table-light">
                                         <tr>
-                                            <td colspan="8" class="text-center text-muted">No request records yet. Submit a request to view it here.</td>
+                                            <th>#</th>
+                                            <th>REQUEST ID</th>
+                                            <th>AGENCY</th>
+                                            <th>CONTACT</th>
+                                            <th>LOCATION / CAMERA</th>
+                                            <th>FOOTAGE WINDOW</th>
+                                            <th>STATUS</th>
+                                            <th>SUBMITTED</th>
+                                            <th>ACTIONS</th>
                                         </tr>
+                                    </thead>
+                                    <tbody id="reqTableBody">
+                                        <?php if (!empty($request_records)): ?>
+                                            <?php foreach ($request_records as $idx => $record): ?>
+                                                <tr class="req-record-row" 
+                                                    data-index="<?php echo $idx; ?>"
+                                                    data-req-id="<?php echo strtolower('REQ-' . str_pad((int)$record['id'], 3, '0', STR_PAD_LEFT)); ?>"
+                                                    data-contact="<?php echo strtolower(htmlspecialchars($record['requester_name'] ?? 'Admin')); ?>"
+                                                    data-location="<?php echo strtolower(htmlspecialchars($record['camera_location'] ?: '')); ?>"
+                                                    data-status="<?php echo strtolower(htmlspecialchars($record['status'] ?? 'Pending')); ?>"
+                                                    data-date="<?php echo htmlspecialchars($record['incident_date'] ?? ''); ?>">
+                                                    <td class="text-muted small fw-bold"><?php echo $idx + 1; ?></td>
+                                                    <td><strong class="text-primary"><?php echo 'REQ-' . str_pad((int)$record['id'], 3, '0', STR_PAD_LEFT); ?></strong></td>
+                                                    <td><span class="badge bg-light text-dark border"><?php echo htmlspecialchars('Digital Blotter System'); ?></span></td>
+                                                    <td><?php echo htmlspecialchars($record['requester_name'] ?? 'Admin'); ?></td>
+                                                    <td><i class="bi bi-camera-video text-secondary me-1"></i><?php echo htmlspecialchars($record['camera_location'] ?: 'CAM-001'); ?></td>
+                                                    <td><small><?php echo htmlspecialchars(($record['incident_date'] ?: '') . ($record['incident_time'] ? ' ' . date('H:i', strtotime($record['incident_time'])) : '')); ?></small></td>
+                                                    <td>
+                                                        <span class="badge bg-<?php echo match($record['status'] ?? 'Pending') {
+                                                            'Approved', 'Completed', 'Dispatched' => 'success',
+                                                            'Under Review', 'Processing' => 'info',
+                                                            'Rejected', 'Cancelled' => 'danger',
+                                                            default => 'warning text-dark'
+                                                        }; ?>"><?php echo htmlspecialchars($record['status'] ?? 'Pending'); ?></span>
+                                                    </td>
+                                                    <td><small class="text-muted"><?php echo htmlspecialchars(date('M d, Y', strtotime($record['requested_at']))); ?></small></td>
+                                                    <td>
+                                                        <div class="d-flex gap-1 flex-wrap">
+                                                            <button type="button" class="btn btn-sm btn-outline-success btn-view" 
+                                                                style="font-weight: 600;"
+                                                                data-id="<?php echo (int)$record['id']; ?>"
+                                                                data-request-id="<?php echo 'CCTV-REQ-' . date('Y') . '-' . str_pad((int)$record['id'],3,'0',STR_PAD_LEFT); ?>"
+                                                                data-agency="<?php echo htmlspecialchars('Digital Blotter System'); ?>"
+                                                                data-contact="<?php echo htmlspecialchars($record['requester_name'] ?? 'Admin'); ?>"
+                                                                data-email="<?php echo htmlspecialchars($_SESSION['user_email'] ?? ''); ?>"
+                                                                data-case-ref="<?php echo htmlspecialchars($record['additional_details'] ?: ''); ?>"
+                                                                data-purpose="<?php echo htmlspecialchars($record['reason'] ?: ''); ?>"
+                                                                data-legal="<?php echo htmlspecialchars('Blotter referral'); ?>"
+                                                                data-location="<?php echo htmlspecialchars($record['camera_location'] ?: ''); ?>"
+                                                                data-camera="<?php echo htmlspecialchars($record['camera_location'] ?: 'CAM-001'); ?>"
+                                                                data-footage-window="<?php echo htmlspecialchars(($record['incident_date'] ?: '') . ($record['incident_time'] ? ' ' . date('H:i', strtotime($record['incident_time'])) : '')); ?>"
+                                                                data-description="<?php echo htmlspecialchars($record['reason'] ?: ''); ?>"
+                                                                data-delivery="<?php echo htmlspecialchars($record['delivery_method'] ?: 'pickup'); ?>"
+                                                                data-supporting=""
+                                                                data-status="<?php echo htmlspecialchars($record['status'] ?? 'Under Review'); ?>"
+                                                                data-review-notes="<?php echo htmlspecialchars($record['monitoring_notes'] ?: ''); ?>"
+                                                                ><i class="bi bi-eye me-1"></i>View</button>
+
+                                                            <button type="button" class="btn btn-sm btn-outline-warning btn-manage" 
+                                                                style="font-weight: 600;"
+                                                                data-id="<?php echo (int)$record['id']; ?>"
+                                                                data-status-val="<?php echo htmlspecialchars($record['status'] ?? 'Under Review'); ?>"
+                                                                data-camera-val="<?php echo htmlspecialchars($record['camera_location'] ?: 'CAM-001'); ?>"
+                                                                data-start="<?php echo htmlspecialchars($record['incident_time'] ?: ''); ?>"
+                                                                data-end="<?php echo htmlspecialchars($record['incident_time'] ?: ''); ?>"
+                                                                data-review-notes-val="<?php echo htmlspecialchars($record['monitoring_notes'] ?: ''); ?>"
+                                                                ><i class="bi bi-sliders me-1"></i>Manage</button>
+
+                                                            <form method="POST" class="d-inline" onsubmit="return confirm('Dispatch request #REQ-<?php echo str_pad((int)$record['id'], 3, '0', STR_PAD_LEFT); ?> directly to Partner CCTV API?');">
+                                                                <input type="hidden" name="action" value="dispatch_record_cctv">
+                                                                <input type="hidden" name="request_id" value="<?php echo (int)$record['id']; ?>">
+                                                                <button type="submit" class="btn btn-sm btn-success text-white shadow-sm" title="Dispatch CCTV request to partner API">
+                                                                    <i class="fas fa-paper-plane me-1"></i>Dispatch
+                                                                </button>
+                                                            </form>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            <?php endforeach; ?>
+                                        <?php else: ?>
+                                            <tr>
+                                                <td colspan="9" class="text-center text-muted py-4">No request records yet. Submit a request to view it here.</td>
+                                            </tr>
+                                        <?php endif; ?>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!-- Table Pagination Bar -->
+                            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mt-3 pt-2 border-top">
+                                <div class="text-muted small" id="reqPaginationInfo">
+                                    Showing 1 to 10 of <?php echo count($request_records); ?> entries
+                                </div>
+                                <nav aria-label="Request table pagination">
+                                    <ul class="pagination pagination-sm mb-0" id="reqPaginationControls">
+                                        <!-- Populated dynamically via JS -->
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                        <!-- ================= CAROUSEL VIEW (10 Items per Slide) ================= -->
+                        <div id="reqCarouselView" class="p-3" style="display: none;">
+                            <?php 
+                                $reqBatches = array_chunk($request_records, 10);
+                                $totalReqSlides = count($reqBatches);
+                            ?>
+
+                            <!-- Carousel Header & Navigation Controls -->
+                            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3 p-2 bg-light rounded border">
+                                <div class="d-flex align-items-center gap-2">
+                                    <span class="badge bg-primary px-3 py-2 fs-6">
+                                        <i class="bi bi-view-stacked me-1"></i> <span id="reqCarouselSlideLabel">Slide 1 of <?php echo max(1, $totalReqSlides); ?></span>
+                                    </span>
+                                    <small class="text-muted" id="reqCarouselRangeLabel">
+                                        Showing <?php echo count($request_records) > 0 ? '1 - ' . min(10, count($request_records)) : '0'; ?> of <?php echo count($request_records); ?> requests
+                                    </small>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-2">
+                                    <button class="btn btn-sm btn-primary rounded-circle" type="button" data-bs-target="#requestRecordsCarousel" data-bs-slide="prev" style="width:34px; height:34px;">
+                                        <i class="bi bi-chevron-left"></i>
+                                    </button>
+                                    
+                                    <div class="d-flex gap-1" id="reqCarouselIndicators">
+                                        <?php for ($s = 0; $s < $totalReqSlides; $s++): ?>
+                                            <button class="btn btn-sm <?php echo $s === 0 ? 'btn-primary' : 'btn-outline-secondary'; ?> fw-bold py-1 px-2" type="button" data-bs-target="#requestRecordsCarousel" data-bs-slide-to="<?php echo $s; ?>" style="font-size: 0.75rem;">
+                                                <?php echo $s + 1; ?>
+                                            </button>
+                                        <?php endfor; ?>
+                                    </div>
+
+                                    <button class="btn btn-sm btn-primary rounded-circle" type="button" data-bs-target="#requestRecordsCarousel" data-bs-slide="next" style="width:34px; height:34px;">
+                                        <i class="bi bi-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Bootstrap Carousel -->
+                            <div id="requestRecordsCarousel" class="carousel slide" data-bs-interval="false">
+                                <div class="carousel-inner">
+                                    <?php if (empty($reqBatches)): ?>
+                                        <div class="carousel-item active">
+                                            <div class="text-center py-5 text-muted">
+                                                <i class="bi bi-inbox fs-1 d-block mb-2"></i>
+                                                <h5>No Request Records</h5>
+                                            </div>
+                                        </div>
+                                    <?php else: ?>
+                                        <?php foreach ($reqBatches as $slideIdx => $batch): ?>
+                                            <div class="carousel-item <?php echo $slideIdx === 0 ? 'active' : ''; ?>" data-slide-index="<?php echo $slideIdx; ?>">
+                                                <div class="row g-3">
+                                                    <?php foreach ($batch as $cardIdx => $rec): ?>
+                                                        <div class="col-md-6 col-lg-6 req-carousel-card-col">
+                                                            <div class="card h-100 border shadow-sm">
+                                                                <div class="card-header bg-light d-flex justify-content-between align-items-center py-2 px-3">
+                                                                    <div>
+                                                                        <strong class="text-primary"><?php echo 'REQ-' . str_pad((int)$rec['id'], 3, '0', STR_PAD_LEFT); ?></strong>
+                                                                        <span class="badge bg-light text-dark border ms-1"><?php echo htmlspecialchars('Digital Blotter'); ?></span>
+                                                                    </div>
+                                                                    <span class="badge bg-<?php echo match($rec['status'] ?? 'Pending') {
+                                                                        'Approved', 'Completed', 'Dispatched' => 'success',
+                                                                        'Under Review', 'Processing' => 'info',
+                                                                        'Rejected', 'Cancelled' => 'danger',
+                                                                        default => 'warning text-dark'
+                                                                    }; ?>"><?php echo htmlspecialchars($rec['status'] ?? 'Pending'); ?></span>
+                                                                </div>
+                                                                <div class="card-body p-3">
+                                                                    <div class="row g-2 small">
+                                                                        <div class="col-6">
+                                                                            <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Requester</span>
+                                                                            <strong class="text-dark"><?php echo htmlspecialchars($rec['requester_name'] ?? 'Admin'); ?></strong>
+                                                                        </div>
+                                                                        <div class="col-6">
+                                                                            <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Location / Camera</span>
+                                                                            <span><i class="bi bi-camera-video me-1 text-secondary"></i><?php echo htmlspecialchars($rec['camera_location'] ?: 'CAM-001'); ?></span>
+                                                                        </div>
+                                                                        <div class="col-6">
+                                                                            <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Footage Window</span>
+                                                                            <span><?php echo htmlspecialchars(($rec['incident_date'] ?: '') . ($rec['incident_time'] ? ' ' . date('H:i', strtotime($rec['incident_time'])) : '')); ?></span>
+                                                                        </div>
+                                                                        <div class="col-6">
+                                                                            <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Submitted Date</span>
+                                                                            <span><?php echo htmlspecialchars(date('M d, Y', strtotime($rec['requested_at']))); ?></span>
+                                                                        </div>
+                                                                        <div class="col-12">
+                                                                            <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Reason</span>
+                                                                            <span class="text-truncate d-block" style="max-width: 100%;"><?php echo htmlspecialchars($rec['reason'] ?: 'No reason provided'); ?></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-footer bg-light d-flex justify-content-end gap-1 py-2 px-3">
+                                                                    <button type="button" class="btn btn-sm btn-outline-success btn-view"
+                                                                        data-id="<?php echo (int)$rec['id']; ?>"
+                                                                        data-request-id="<?php echo 'CCTV-REQ-' . date('Y') . '-' . str_pad((int)$rec['id'],3,'0',STR_PAD_LEFT); ?>"
+                                                                        data-agency="<?php echo htmlspecialchars('Digital Blotter System'); ?>"
+                                                                        data-contact="<?php echo htmlspecialchars($rec['requester_name'] ?? 'Admin'); ?>"
+                                                                        data-email="<?php echo htmlspecialchars($_SESSION['user_email'] ?? ''); ?>"
+                                                                        data-case-ref="<?php echo htmlspecialchars($rec['additional_details'] ?: ''); ?>"
+                                                                        data-purpose="<?php echo htmlspecialchars($rec['reason'] ?: ''); ?>"
+                                                                        data-legal="<?php echo htmlspecialchars('Blotter referral'); ?>"
+                                                                        data-location="<?php echo htmlspecialchars($rec['camera_location'] ?: ''); ?>"
+                                                                        data-camera="<?php echo htmlspecialchars($rec['camera_location'] ?: 'CAM-001'); ?>"
+                                                                        data-footage-window="<?php echo htmlspecialchars(($rec['incident_date'] ?: '') . ($rec['incident_time'] ? ' ' . date('H:i', strtotime($rec['incident_time'])) : '')); ?>"
+                                                                        data-description="<?php echo htmlspecialchars($rec['reason'] ?: ''); ?>"
+                                                                        data-delivery="<?php echo htmlspecialchars($rec['delivery_method'] ?: 'pickup'); ?>"
+                                                                        data-supporting=""
+                                                                        data-status="<?php echo htmlspecialchars($rec['status'] ?? 'Under Review'); ?>"
+                                                                        data-review-notes="<?php echo htmlspecialchars($rec['monitoring_notes'] ?: ''); ?>"
+                                                                        ><i class="bi bi-eye me-1"></i>View</button>
+                                                                    <button type="button" class="btn btn-sm btn-outline-warning btn-manage"
+                                                                        data-id="<?php echo (int)$rec['id']; ?>"
+                                                                        data-status-val="<?php echo htmlspecialchars($rec['status'] ?? 'Under Review'); ?>"
+                                                                        data-camera-val="<?php echo htmlspecialchars($rec['camera_location'] ?: 'CAM-001'); ?>"
+                                                                        data-start="<?php echo htmlspecialchars($rec['incident_time'] ?: ''); ?>"
+                                                                        data-end="<?php echo htmlspecialchars($rec['incident_time'] ?: ''); ?>"
+                                                                        data-review-notes-val="<?php echo htmlspecialchars($rec['monitoring_notes'] ?: ''); ?>"
+                                                                        ><i class="bi bi-sliders me-1"></i>Manage</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    <?php endforeach; ?>
+                                                </div>
+                                            </div>
+                                        <?php endforeach; ?>
                                     <?php endif; ?>
-                                </tbody>
-                            </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -517,12 +705,169 @@ try {
 </div>
 
 <script>
+// ================= REQUEST RECORDS VIEW ENGINE =================
+let currentReqPage = 1;
+let reqRowsPerPage = 10;
+let filteredReqRows = [];
+
+function initReqCatalog() {
+    const rows = document.querySelectorAll('#reqTableBody tr.req-record-row');
+    filteredReqRows = Array.from(rows);
+    renderReqPagination();
+
+    const carouselEl = document.getElementById('requestRecordsCarousel');
+    if (carouselEl) {
+        carouselEl.addEventListener('slide.bs.carousel', function(event) {
+            const nextSlideIdx = event.to;
+            const totalSlides = document.querySelectorAll('#requestRecordsCarousel .carousel-item').length;
+            const totalRecs = parseInt('<?php echo count($request_records); ?>') || 0;
+
+            const label = document.getElementById('reqCarouselSlideLabel');
+            if (label) label.textContent = `Slide ${nextSlideIdx + 1} of ${totalSlides}`;
+
+            const rangeLabel = document.getElementById('reqCarouselRangeLabel');
+            if (rangeLabel) {
+                const startRec = (nextSlideIdx * 10) + 1;
+                const endRec = Math.min((nextSlideIdx + 1) * 10, totalRecs);
+                rangeLabel.textContent = `Showing ${startRec} - ${endRec} of ${totalRecs} requests`;
+            }
+
+            const indicators = document.querySelectorAll('#reqCarouselIndicators button');
+            indicators.forEach((b, idx) => {
+                if (idx === nextSlideIdx) {
+                    b.classList.replace('btn-outline-secondary', 'btn-primary');
+                } else {
+                    b.classList.replace('btn-primary', 'btn-outline-secondary');
+                }
+            });
+        });
+    }
+}
+
+function switchReqView(viewType) {
+    const tableView = document.getElementById('reqTableView');
+    const carouselView = document.getElementById('reqCarouselView');
+    const btnTable = document.getElementById('btnReqTableView');
+    const btnCarousel = document.getElementById('btnReqCarouselView');
+
+    if (viewType === 'carousel') {
+        tableView.style.display = 'none';
+        carouselView.style.display = 'block';
+        btnTable.classList.remove('active');
+        btnCarousel.classList.add('active');
+    } else {
+        carouselView.style.display = 'none';
+        tableView.style.display = 'block';
+        btnCarousel.classList.remove('active');
+        btnTable.classList.add('active');
+    }
+}
+
+function changeReqPageSize(size) {
+    reqRowsPerPage = parseInt(size) || 10;
+    currentReqPage = 1;
+    renderReqPagination();
+}
+
+function filterRequestRecords() {
+    const query = (document.getElementById('reqSearchInput')?.value || '').toLowerCase().trim();
+    const allRows = document.querySelectorAll('#reqTableBody tr.req-record-row');
+    const allCards = document.querySelectorAll('.req-carousel-card-col');
+
+    filteredReqRows = [];
+    allRows.forEach(row => {
+        const text = (
+            (row.getAttribute('data-req-id') || '') + ' ' +
+            (row.getAttribute('data-contact') || '') + ' ' +
+            (row.getAttribute('data-location') || '') + ' ' +
+            (row.getAttribute('data-status') || '') + ' ' +
+            (row.getAttribute('data-date') || '')
+        ).toLowerCase();
+
+        if (!query || text.includes(query)) {
+            filteredReqRows.push(row);
+        } else {
+            row.style.display = 'none';
+        }
+    });
+
+    allCards.forEach(card => {
+        const cardText = card.textContent.toLowerCase();
+        if (!query || cardText.includes(query)) {
+            card.style.display = '';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+
+    currentReqPage = 1;
+    renderReqPagination();
+}
+
+function renderReqPagination() {
+    const total = filteredReqRows.length;
+    const totalPages = Math.ceil(total / reqRowsPerPage) || 1;
+    if (currentReqPage > totalPages) currentReqPage = totalPages;
+    if (currentReqPage < 1) currentReqPage = 1;
+
+    const startIdx = (currentReqPage - 1) * reqRowsPerPage;
+    const endIdx = Math.min(startIdx + reqRowsPerPage, total);
+
+    const allRows = document.querySelectorAll('#reqTableBody tr.req-record-row');
+    allRows.forEach(r => r.style.display = 'none');
+
+    for (let i = startIdx; i < endIdx; i++) {
+        if (filteredReqRows[i]) filteredReqRows[i].style.display = '';
+    }
+
+    const infoEl = document.getElementById('reqPaginationInfo');
+    if (infoEl) {
+        if (total === 0) {
+            infoEl.textContent = 'Showing 0 to 0 of 0 entries';
+        } else {
+            infoEl.textContent = `Showing ${startIdx + 1} to ${endIdx} of ${total} entries`;
+        }
+    }
+
+    const controls = document.getElementById('reqPaginationControls');
+    if (!controls) return;
+
+    let html = '';
+    html += `<li class="page-item ${currentReqPage === 1 ? 'disabled' : ''}">
+        <a class="page-link" href="javascript:void(0)" onclick="goToReqPage(${currentReqPage - 1})"><i class="bi bi-chevron-left"></i></a>
+    </li>`;
+
+    for (let p = 1; p <= totalPages; p++) {
+        if (totalPages > 7 && Math.abs(p - currentReqPage) > 2 && p !== 1 && p !== totalPages) {
+            if (p === 2 || p === totalPages - 1) {
+                html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
+            }
+            continue;
+        }
+        html += `<li class="page-item ${p === currentReqPage ? 'active' : ''}">
+            <a class="page-link" href="javascript:void(0)" onclick="goToReqPage(${p})">${p}</a>
+        </li>`;
+    }
+
+    html += `<li class="page-item ${currentReqPage >= totalPages ? 'disabled' : ''}">
+        <a class="page-link" href="javascript:void(0)" onclick="goToReqPage(${currentReqPage + 1})"><i class="bi bi-chevron-right"></i></a>
+    </li>`;
+
+    controls.innerHTML = html;
+}
+
+function goToReqPage(page) {
+    currentReqPage = page;
+    renderReqPagination();
+}
+
 document.addEventListener('DOMContentLoaded', function(){
+    initReqCatalog();
+
     // details modal handler
     document.querySelectorAll('.btn-view').forEach(btn=>{
         btn.addEventListener('click', function(){
             const keys = ['request-id','agency','contact','email','case-ref','purpose','legal','location','camera','footage-window','description','delivery','supporting','status','review-notes','rejection','fulfillment'];
-            // map data attributes to modal
             document.querySelectorAll('#detailsValues [data-key]').forEach(li=>{
                 const key = li.getAttribute('data-key');
                 const v = btn.getAttribute('data-' + key) || '';
@@ -548,23 +893,6 @@ document.addEventListener('DOMContentLoaded', function(){
             manageModal.show();
         });
     });
-
-    // search & date filter
-    const searchBox = document.getElementById('searchBox');
-    const filterDate = document.getElementById('filterDate');
-    function filterRows() {
-        const query = (searchBox ? searchBox.value : '').toLowerCase().trim();
-        const dateVal = (filterDate ? filterDate.value : '').trim();
-        document.querySelectorAll('.cctv-record-row').forEach(row => {
-            const text = row.innerText.toLowerCase();
-            const rowDate = row.getAttribute('data-date') || '';
-            const matchesQuery = !query || text.includes(query);
-            const matchesDate = !dateVal || rowDate.includes(dateVal);
-            row.style.display = (matchesQuery && matchesDate) ? '' : 'none';
-        });
-    }
-    if (searchBox) searchBox.addEventListener('input', filterRows);
-    if (filterDate) filterDate.addEventListener('change', filterRows);
 });
 </script>
 

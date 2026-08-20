@@ -206,90 +206,245 @@ $stats = getCaseStatistics();
             </div>
         </div>
 
-        <!-- Cases Table -->
-        <div class="card">
-            <div class="card-header">
-                <h5 class="mb-0">Case Assignments</h5>
+        <!-- Cases Card with Dual View: Table (10/page) & Carousel (10/slide) -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center flex-wrap gap-2 py-3">
+                <div class="d-flex align-items-center gap-2">
+                    <h5 class="mb-0 fw-bold"><i class="bi bi-folder2-open me-2"></i>Case Assignments</h5>
+                    <span class="badge bg-white text-primary fw-bold" id="caseTotalBadge"><?= count($cases) ?> cases</span>
+                </div>
+
+                <div class="d-flex align-items-center gap-2 flex-wrap">
+                    <!-- Search -->
+                    <div class="input-group input-group-sm" style="width: 220px;">
+                        <span class="input-group-text bg-light text-dark border-0"><i class="bi bi-search"></i></span>
+                        <input type="text" id="caseSearchInput" class="form-control border-0" placeholder="Search cases..." onkeyup="filterCaseRecords()">
+                    </div>
+
+                    <!-- Page Size -->
+                    <select id="casePageSizeSelect" class="form-select form-select-sm" style="width: auto;" onchange="changeCasePageSize(this.value)">
+                        <option value="10" selected>10 per page</option>
+                        <option value="25">25 per page</option>
+                        <option value="50">50 per page</option>
+                        <option value="1000">Show All</option>
+                    </select>
+
+                    <!-- View Switcher -->
+                    <div class="btn-group btn-group-sm" role="group">
+                        <button type="button" class="btn btn-light active" id="btnCaseTableView" onclick="switchCaseView('table')">
+                            <i class="bi bi-table me-1"></i> Table View
+                        </button>
+                        <button type="button" class="btn btn-light" id="btnCaseCarouselView" onclick="switchCaseView('carousel')">
+                            <i class="bi bi-view-stacked me-1"></i> Carousel (10/Slide)
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="card-body">
-                <div class="table-responsive">
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th>Case Number</th>
-                                <th>Incident Type</th>
-                                <th>Complainant</th>
-                                <th>Priority</th>
-                                <th>Status</th>
-                                <th>Assigned To</th>
-                                <th>Assigned By</th>
-                                <th>Created</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php if (empty($cases)): ?>
+
+            <div class="card-body p-0">
+                <!-- ================= TABLE VIEW ================= -->
+                <div id="caseTableView" class="p-3">
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle mb-0" id="casesTable">
+                            <thead class="table-light">
                                 <tr>
-                                    <td colspan="9" class="text-center text-muted">No cases found</td>
+                                    <th>#</th>
+                                    <th>Case Number</th>
+                                    <th>Incident Type</th>
+                                    <th>Complainant</th>
+                                    <th>Priority</th>
+                                    <th>Status</th>
+                                    <th>Assigned To</th>
+                                    <th>Assigned By</th>
+                                    <th>Created</th>
+                                    <th>Actions</th>
                                 </tr>
-                            <?php else: ?>
-                                <?php foreach ($cases as $case): ?>
+                            </thead>
+                            <tbody id="casesTableBody">
+                                <?php if (empty($cases)): ?>
                                     <tr>
-                                        <td><strong><?= htmlspecialchars($case['case_number']) ?></strong></td>
-                                        <td><?= htmlspecialchars($case['incident_type']) ?></td>
-                                        <td><?= htmlspecialchars($case['complainant_name']) ?></td>
-                                        <td>
-                                            <?php
-                                            $priority_class = match($case['priority']) {
-                                                'High' => 'danger',
-                                                'Medium' => 'warning',
-                                                'Low' => 'success',
-                                                default => 'secondary'
-                                            };
-                                            ?>
-                                            <span class="badge bg-<?= $priority_class ?>"><?= htmlspecialchars($case['priority']) ?></span>
-                                        </td>
-                                        <td>
-                                            <?php
-                                            $status_class = match($case['status']) {
-                                                'New' => 'info',
-                                                'Ongoing' => 'primary',
-                                                'Resolved' => 'success',
-                                                'Closed' => 'secondary',
-                                                default => 'secondary'
-                                            };
-                                            ?>
-                                            <span class="badge bg-<?= $status_class ?>"><?= htmlspecialchars($case['status']) ?></span>
-                                        </td>
-                                        <td><?= htmlspecialchars($case['assigned_to_name'] ?? 'Unassigned') ?></td>
-                                        <td><?= htmlspecialchars($case['assigned_by_name']) ?></td>
-                                        <td><?= date('M d, Y', strtotime($case['created_at'])) ?></td>
-                                        <td>
-                                            <div class="btn-group" role="group">
-                                                <button type="button" class="btn btn-sm btn-outline-primary" onclick="viewCaseDetails(<?= $case['id'] ?>)">
-                                                    <i class="bi bi-eye"></i>
-                                                </button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="updateCaseStatus(<?= $case['id'] ?>, '<?= $case['status'] ?>')">
-                                                    <i class="bi bi-pencil"></i>
-                                                </button>
-                                                <button type="button" class="btn btn-sm btn-outline-info" onclick="addFollowUp(<?= $case['id'] ?>)">
-                                                    <i class="bi bi-plus-circle"></i>
-                                                </button>
-                                                <?php if ($case['assigned_to']): ?>
-                                                    <button type="button" class="btn btn-sm btn-outline-warning" onclick="reassignCase(<?= $case['id'] ?>)">
-                                                        <i class="bi bi-arrow-left-right"></i>
-                                                    </button>
-                                                <?php endif; ?>
-                                                <button type="button" class="btn btn-sm btn-outline-danger" onclick="deleteCase(<?= $case['id'] ?>, '<?= htmlspecialchars($case['case_number']) ?>')">
-                                                    <i class="bi bi-trash"></i>
-                                                </button>
-                                            </div>
-                                        </td>
+                                        <td colspan="10" class="text-center text-muted py-4">No cases found</td>
                                     </tr>
+                                <?php else: ?>
+                                    <?php foreach ($cases as $idx => $case): 
+                                        $priority_class = match($case['priority']) {
+                                            'High' => 'danger',
+                                            'Medium' => 'warning text-dark',
+                                            'Low' => 'success',
+                                            default => 'secondary'
+                                        };
+                                        $status_class = match($case['status']) {
+                                            'New' => 'info',
+                                            'Ongoing' => 'primary',
+                                            'Resolved' => 'success',
+                                            'Closed' => 'secondary',
+                                            default => 'secondary'
+                                        };
+                                    ?>
+                                        <tr class="case-row"
+                                            data-index="<?= $idx ?>"
+                                            data-case-no="<?= htmlspecialchars(strtolower($case['case_number'])) ?>"
+                                            data-type="<?= htmlspecialchars(strtolower($case['incident_type'])) ?>"
+                                            data-complainant="<?= htmlspecialchars(strtolower($case['complainant_name'])) ?>"
+                                            data-assigned-to="<?= htmlspecialchars(strtolower($case['assigned_to_name'] ?? '')) ?>"
+                                            data-status="<?= htmlspecialchars(strtolower($case['status'])) ?>"
+                                            data-priority="<?= htmlspecialchars(strtolower($case['priority'])) ?>">
+                                            <td class="text-muted small fw-bold"><?= $idx + 1 ?></td>
+                                            <td><strong class="text-primary"><?= htmlspecialchars($case['case_number']) ?></strong></td>
+                                            <td><span class="badge bg-light text-dark border"><?= htmlspecialchars($case['incident_type']) ?></span></td>
+                                            <td><?= htmlspecialchars($case['complainant_name']) ?></td>
+                                            <td><span class="badge bg-<?= $priority_class ?>"><?= htmlspecialchars($case['priority']) ?></span></td>
+                                            <td><span class="badge bg-<?= $status_class ?>"><?= htmlspecialchars($case['status']) ?></span></td>
+                                            <td><small class="fw-semibold"><?= htmlspecialchars($case['assigned_to_name'] ?? 'Unassigned') ?></small></td>
+                                            <td><small class="text-muted"><?= htmlspecialchars($case['assigned_by_name']) ?></small></td>
+                                            <td><small class="text-muted"><?= date('M d, Y', strtotime($case['created_at'])) ?></small></td>
+                                            <td>
+                                                <div class="btn-group btn-group-sm" role="group">
+                                                    <button type="button" class="btn btn-outline-primary" onclick="viewCaseDetails(<?= $case['id'] ?>)" title="View Details">
+                                                        <i class="bi bi-eye"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-outline-secondary" onclick="updateCaseStatus(<?= $case['id'] ?>, '<?= $case['status'] ?>')" title="Update Status">
+                                                        <i class="bi bi-pencil"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-outline-info" onclick="addFollowUp(<?= $case['id'] ?>)" title="Add Follow-up">
+                                                        <i class="bi bi-plus-circle"></i>
+                                                    </button>
+                                                    <?php if ($case['assigned_to']): ?>
+                                                        <button type="button" class="btn btn-outline-warning" onclick="reassignCase(<?= $case['id'] ?>)" title="Reassign">
+                                                            <i class="bi bi-arrow-left-right"></i>
+                                                        </button>
+                                                    <?php endif; ?>
+                                                    <button type="button" class="btn btn-outline-danger" onclick="deleteCase(<?= $case['id'] ?>, '<?= htmlspecialchars($case['case_number']) ?>')" title="Delete">
+                                                        <i class="bi bi-trash"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Cases Table Pagination Bar -->
+                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mt-3 pt-2 border-top">
+                        <div class="text-muted small" id="casePaginationInfo">
+                            Showing 1 to 10 of <?= count($cases) ?> entries
+                        </div>
+                        <nav aria-label="Cases table pagination">
+                            <ul class="pagination pagination-sm mb-0" id="casePaginationControls">
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- ================= CAROUSEL VIEW (10 Items per Slide) ================= -->
+                <div id="caseCarouselView" class="p-3" style="display: none;">
+                    <?php 
+                        $caseBatches = array_chunk($cases, 10);
+                        $totalCaseSlides = count($caseBatches);
+                    ?>
+
+                    <!-- Carousel Controls -->
+                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3 p-2 bg-light rounded border">
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="badge bg-primary px-3 py-2 fs-6">
+                                <i class="bi bi-view-stacked me-1"></i> <span id="caseCarouselSlideLabel">Slide 1 of <?= max(1, $totalCaseSlides) ?></span>
+                            </span>
+                            <small class="text-muted" id="caseCarouselRangeLabel">
+                                Showing <?= count($cases) > 0 ? '1 - ' . min(10, count($cases)) : '0' ?> of <?= count($cases) ?> cases
+                            </small>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-2">
+                            <button class="btn btn-sm btn-primary rounded-circle" type="button" data-bs-target="#casesCarousel" data-bs-slide="prev" style="width:34px; height:34px;">
+                                <i class="bi bi-chevron-left"></i>
+                            </button>
+                            
+                            <div class="d-flex gap-1" id="caseCarouselIndicators">
+                                <?php for ($s = 0; $s < $totalCaseSlides; $s++): ?>
+                                    <button class="btn btn-sm <?= $s === 0 ? 'btn-primary' : 'btn-outline-secondary' ?> fw-bold py-1 px-2" type="button" data-bs-target="#casesCarousel" data-bs-slide-to="<?= $s ?>" style="font-size: 0.75rem;">
+                                        <?= $s + 1 ?>
+                                    </button>
+                                <?php endfor; ?>
+                            </div>
+
+                            <button class="btn btn-sm btn-primary rounded-circle" type="button" data-bs-target="#casesCarousel" data-bs-slide="next" style="width:34px; height:34px;">
+                                <i class="bi bi-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Bootstrap Carousel -->
+                    <div id="casesCarousel" class="carousel slide" data-bs-interval="false">
+                        <div class="carousel-inner">
+                            <?php if (empty($caseBatches)): ?>
+                                <div class="carousel-item active">
+                                    <div class="text-center py-5 text-muted">
+                                        <i class="bi bi-inbox fs-1 d-block mb-2"></i>
+                                        <h5>No Cases Found</h5>
+                                    </div>
+                                </div>
+                            <?php else: ?>
+                                <?php foreach ($caseBatches as $slideIdx => $batch): ?>
+                                    <div class="carousel-item <?= $slideIdx === 0 ? 'active' : '' ?>" data-slide-index="<?= $slideIdx ?>">
+                                        <div class="row g-3">
+                                            <?php foreach ($batch as $cardIdx => $item): 
+                                                $pClass = match($item['priority']) { 'High' => 'danger', 'Medium' => 'warning text-dark', 'Low' => 'success', default => 'secondary' };
+                                                $sClass = match($item['status']) { 'New' => 'info', 'Ongoing' => 'primary', 'Resolved' => 'success', 'Closed' => 'secondary', default => 'secondary' };
+                                            ?>
+                                                <div class="col-md-6 col-lg-6 case-carousel-card-col">
+                                                    <div class="card h-100 border shadow-sm">
+                                                        <div class="card-header bg-light d-flex justify-content-between align-items-center py-2 px-3">
+                                                            <div>
+                                                                <strong class="text-primary"><?= htmlspecialchars($item['case_number']) ?></strong>
+                                                                <span class="badge bg-light text-dark border ms-1"><?= htmlspecialchars($item['incident_type']) ?></span>
+                                                            </div>
+                                                            <div class="d-flex gap-1">
+                                                                <span class="badge bg-<?= $pClass ?>"><?= htmlspecialchars($item['priority']) ?></span>
+                                                                <span class="badge bg-<?= $sClass ?>"><?= htmlspecialchars($item['status']) ?></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-body p-3">
+                                                            <div class="row g-2 small">
+                                                                <div class="col-6">
+                                                                    <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Complainant</span>
+                                                                    <strong class="text-dark"><?= htmlspecialchars($item['complainant_name']) ?></strong>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Assigned Officer</span>
+                                                                    <strong class="text-dark"><?= htmlspecialchars($item['assigned_to_name'] ?? 'Unassigned') ?></strong>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Assigned By</span>
+                                                                    <span><?= htmlspecialchars($item['assigned_by_name']) ?></span>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span class="text-muted d-block text-uppercase" style="font-size:0.7rem; font-weight:700;">Created Date</span>
+                                                                    <span><?= date('M d, Y', strtotime($item['created_at'])) ?></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer bg-light d-flex justify-content-end gap-1 py-2 px-3">
+                                                            <button type="button" class="btn btn-sm btn-outline-primary" onclick="viewCaseDetails(<?= $item['id'] ?>)">
+                                                                <i class="bi bi-eye me-1"></i>View
+                                                            </button>
+                                                            <button type="button" class="btn btn-sm btn-outline-secondary" onclick="updateCaseStatus(<?= $item['id'] ?>, '<?= $item['status'] ?>')">
+                                                                <i class="bi bi-pencil me-1"></i>Status
+                                                            </button>
+                                                            <button type="button" class="btn btn-sm btn-outline-info" onclick="addFollowUp(<?= $item['id'] ?>)">
+                                                                <i class="bi bi-plus-circle me-1"></i>Follow-up
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            <?php endforeach; ?>
+                                        </div>
+                                    </div>
                                 <?php endforeach; ?>
                             <?php endif; ?>
-                        </tbody>
-                    </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -581,6 +736,167 @@ function deleteCase(caseId, caseNumber) {
         form.submit();
     }
 }
+
+// ================= CASES VIEW ENGINE =================
+let currentCasePage = 1;
+let caseRowsPerPage = 10;
+let filteredCaseRows = [];
+
+function initCaseCatalog() {
+    const rows = document.querySelectorAll('#casesTableBody tr.case-row');
+    filteredCaseRows = Array.from(rows);
+    renderCasePagination();
+
+    const carouselEl = document.getElementById('casesCarousel');
+    if (carouselEl) {
+        carouselEl.addEventListener('slide.bs.carousel', function(event) {
+            const nextSlideIdx = event.to;
+            const totalSlides = document.querySelectorAll('#casesCarousel .carousel-item').length;
+            const totalRecs = parseInt('<?= count($cases) ?>') || 0;
+
+            const label = document.getElementById('caseCarouselSlideLabel');
+            if (label) label.textContent = `Slide ${nextSlideIdx + 1} of ${totalSlides}`;
+
+            const rangeLabel = document.getElementById('caseCarouselRangeLabel');
+            if (rangeLabel) {
+                const startRec = (nextSlideIdx * 10) + 1;
+                const endRec = Math.min((nextSlideIdx + 1) * 10, totalRecs);
+                rangeLabel.textContent = `Showing ${startRec} - ${endRec} of ${totalRecs} cases`;
+            }
+
+            const indicators = document.querySelectorAll('#caseCarouselIndicators button');
+            indicators.forEach((b, idx) => {
+                if (idx === nextSlideIdx) {
+                    b.classList.replace('btn-outline-secondary', 'btn-primary');
+                } else {
+                    b.classList.replace('btn-primary', 'btn-outline-secondary');
+                }
+            });
+        });
+    }
+}
+
+function switchCaseView(viewType) {
+    const tableView = document.getElementById('caseTableView');
+    const carouselView = document.getElementById('caseCarouselView');
+    const btnTable = document.getElementById('btnCaseTableView');
+    const btnCarousel = document.getElementById('btnCaseCarouselView');
+
+    if (viewType === 'carousel') {
+        tableView.style.display = 'none';
+        carouselView.style.display = 'block';
+        btnTable.classList.remove('active');
+        btnCarousel.classList.add('active');
+    } else {
+        carouselView.style.display = 'none';
+        tableView.style.display = 'block';
+        btnCarousel.classList.remove('active');
+        btnTable.classList.add('active');
+    }
+}
+
+function changeCasePageSize(size) {
+    caseRowsPerPage = parseInt(size) || 10;
+    currentCasePage = 1;
+    renderCasePagination();
+}
+
+function filterCaseRecords() {
+    const query = (document.getElementById('caseSearchInput')?.value || '').toLowerCase().trim();
+    const allRows = document.querySelectorAll('#casesTableBody tr.case-row');
+    const allCards = document.querySelectorAll('.case-carousel-card-col');
+
+    filteredCaseRows = [];
+    allRows.forEach(row => {
+        const text = (
+            (row.getAttribute('data-case-no') || '') + ' ' +
+            (row.getAttribute('data-type') || '') + ' ' +
+            (row.getAttribute('data-complainant') || '') + ' ' +
+            (row.getAttribute('data-assigned-to') || '') + ' ' +
+            (row.getAttribute('data-status') || '') + ' ' +
+            (row.getAttribute('data-priority') || '')
+        ).toLowerCase();
+
+        if (!query || text.includes(query)) {
+            filteredCaseRows.push(row);
+        } else {
+            row.style.display = 'none';
+        }
+    });
+
+    allCards.forEach(card => {
+        const cardText = card.textContent.toLowerCase();
+        if (!query || cardText.includes(query)) {
+            card.style.display = '';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+
+    currentCasePage = 1;
+    renderCasePagination();
+}
+
+function renderCasePagination() {
+    const total = filteredCaseRows.length;
+    const totalPages = Math.ceil(total / caseRowsPerPage) || 1;
+    if (currentCasePage > totalPages) currentCasePage = totalPages;
+    if (currentCasePage < 1) currentCasePage = 1;
+
+    const startIdx = (currentCasePage - 1) * caseRowsPerPage;
+    const endIdx = Math.min(startIdx + caseRowsPerPage, total);
+
+    const allRows = document.querySelectorAll('#casesTableBody tr.case-row');
+    allRows.forEach(r => r.style.display = 'none');
+
+    for (let i = startIdx; i < endIdx; i++) {
+        if (filteredCaseRows[i]) filteredCaseRows[i].style.display = '';
+    }
+
+    const infoEl = document.getElementById('casePaginationInfo');
+    if (infoEl) {
+        if (total === 0) {
+            infoEl.textContent = 'Showing 0 to 0 of 0 entries';
+        } else {
+            infoEl.textContent = `Showing ${startIdx + 1} to ${endIdx} of ${total} entries`;
+        }
+    }
+
+    const controls = document.getElementById('casePaginationControls');
+    if (!controls) return;
+
+    let html = '';
+    html += `<li class="page-item ${currentCasePage === 1 ? 'disabled' : ''}">
+        <a class="page-link" href="javascript:void(0)" onclick="goToCasePage(${currentCasePage - 1})"><i class="bi bi-chevron-left"></i></a>
+    </li>`;
+
+    for (let p = 1; p <= totalPages; p++) {
+        if (totalPages > 7 && Math.abs(p - currentCasePage) > 2 && p !== 1 && p !== totalPages) {
+            if (p === 2 || p === totalPages - 1) {
+                html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
+            }
+            continue;
+        }
+        html += `<li class="page-item ${p === currentCasePage ? 'active' : ''}">
+            <a class="page-link" href="javascript:void(0)" onclick="goToCasePage(${p})">${p}</a>
+        </li>`;
+    }
+
+    html += `<li class="page-item ${currentCasePage >= totalPages ? 'disabled' : ''}">
+        <a class="page-link" href="javascript:void(0)" onclick="goToCasePage(${currentCasePage + 1})"><i class="bi bi-chevron-right"></i></a>
+    </li>`;
+
+    controls.innerHTML = html;
+}
+
+function goToCasePage(page) {
+    currentCasePage = page;
+    renderCasePagination();
+}
+
+document.addEventListener('DOMContentLoaded', function(){
+    initCaseCatalog();
+});
 </script>
 
 <?php require_once '../includes/footer.php'; ?>
