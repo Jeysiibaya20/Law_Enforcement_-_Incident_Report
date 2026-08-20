@@ -78,6 +78,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             throw new Exception('Access Denied: Resident accounts cannot sign in through the Admin Portal.');
         }
 
+        // Check if admin has 2FA enabled
+        require_once __DIR__ . '/../includes/two_factor_auth.php';
+        $tfa = new TwoFactorAuth($pdo);
+        if ($tfa->is2FAEnabled($user['user_id'])) {
+            $_SESSION['pending_2fa_user'] = $user['user_id'];
+            $_SESSION['pending_2fa_username'] = $user['username'];
+            $_SESSION['pending_2fa_email'] = $user['emailadd'] ?? '';
+            $_SESSION['pending_2fa_method'] = 'TOTP';
+            $_SESSION['pending_2fa_role'] = $userRole;
+            header('Location: ../auth/verify_2fa.php');
+            exit();
+        }
+
         // Session setup for Admin (completely isolated from resident sessions)
         $_SESSION['admin_user_id'] = $user['user_id'];
         $_SESSION['admin_username'] = $user['username'];

@@ -605,7 +605,7 @@ class TwoFactorAuth {
         
         for ($i = 0; $i < strlen($input); $i++) {
             $v <<= 5;
-            $v += $map[$input[$i]];
+            $v += $map[$input[$i]] ?? 0;
             $vbits += 5;
             
             if ($vbits >= 8) {
@@ -615,6 +615,29 @@ class TwoFactorAuth {
         }
         
         return $output;
+    }
+
+    /**
+     * Generate a random 16-character Base32 Secret Key for TOTP (Google Authenticator)
+     */
+    public function generateSecret($length = 16) {
+        $validChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
+        $secret = '';
+        for ($i = 0; $i < $length; $i++) {
+            $secret .= $validChars[random_int(0, strlen($validChars) - 1)];
+        }
+        return $secret;
+    }
+
+    /**
+     * Generate otpauth:// URI and QR code image URL for Google/Microsoft Authenticator
+     */
+    public function getQRCodeUrl($name, $secret, $issuer = 'Alertara Law Enforcement') {
+        $encodedIssuer = rawurlencode($issuer);
+        $encodedName = rawurlencode($name);
+        $otpauth = "otpauth://totp/{$encodedIssuer}:{$encodedName}?secret={$secret}&issuer={$encodedIssuer}";
+        // Use standard QR code API
+        return "https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=" . urlencode($otpauth);
     }
 }
 ?>

@@ -93,6 +93,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             throw new Exception('Access Denied: Administrative and Officer accounts must sign in via the Admin Portal.');
         }
 
+        // Check if user has TOTP 2FA enabled
+        require_once '../includes/two_factor_auth.php';
+        $tfa = new TwoFactorAuth($pdo);
+        if ($tfa->is2FAEnabled($user['user_id'])) {
+            $_SESSION['pending_2fa_user'] = $user['user_id'];
+            $_SESSION['pending_2fa_username'] = $user['username'];
+            $_SESSION['pending_2fa_email'] = $user['emailadd'] ?? $user['email'] ?? '';
+            $_SESSION['pending_2fa_method'] = 'TOTP';
+            $_SESSION['pending_2fa_role'] = $userRole;
+            header('Location: verify_2fa.php');
+            exit();
+        }
+
         // Login successful: create isolated resident session
         $_SESSION['resident_user_id'] = $user['user_id'];
         $_SESSION['user_id'] = $user['user_id'];

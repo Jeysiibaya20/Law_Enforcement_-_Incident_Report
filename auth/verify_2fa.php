@@ -22,7 +22,7 @@ $message = '';
 // Helper: check if we can offer one-time setup access (admins without an existing TOTP secret)
 $pendingRole = $_SESSION['pending_2fa_role'] ?? null;
 $canOneTimeSetup = false;
-if ($method === 'TOTP' && in_array(strtolower($pendingRole ?? ''), ['admin', 'administrator'], true)) {
+if ($method === 'TOTP') {
     $existingSecret = $tfa->getUserSecret($pendingUser);
     if (empty($existingSecret)) {
         $canOneTimeSetup = true;
@@ -31,11 +31,9 @@ if ($method === 'TOTP' && in_array(strtolower($pendingRole ?? ''), ['admin', 'ad
 
 // Handle form submissions
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // One-time access request for admins without TOTP configured
+    // One-time access request for users without TOTP configured
     if (isset($_POST['one_time_setup']) && $canOneTimeSetup) {
-        // Allow access to setup_totp.php without full login only for this pending user
         $_SESSION['one_time_setup_user'] = $pendingUser;
-        // Keep the pending vars so user may be redirected back after setup if needed
         header('Location: setup_totp.php');
         exit();
     }
@@ -64,19 +62,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         } else {
             $ok = $tfa->verify2FACode($pendingUser, $code, $method);
             if ($ok) {
-                // Mark user as logged in
+                $role = strtolower($_SESSION['pending_2fa_role'] ?? 'user');
                 $_SESSION['user_id'] = $pendingUser;
-                // Optionally copy username/email into session for convenience
                 if (!empty($_SESSION['pending_2fa_username'])) $_SESSION['username'] = $_SESSION['pending_2fa_username'];
                 if (!empty($_SESSION['pending_2fa_email'])) $_SESSION['email'] = $_SESSION['pending_2fa_email'];
+
+                if (strpos($role, 'admin') !== false || strpos($role, 'officer') !== false) {
+                    $_SESSION['admin_user_id'] = $pendingUser;
+                    $_SESSION['admin_fullname'] = $_SESSION['pending_2fa_username'] ?? 'Admin';
+                    $_SESSION['admin_role'] = ucfirst($role);
+                    $redirectUrl = '../admin/dashboard.php';
+                } else {
+                    $_SESSION['resident_user_id'] = $pendingUser;
+                    $_SESSION['fullname'] = $_SESSION['pending_2fa_username'] ?? 'Resident';
+                    $redirectUrl = '../modules/my_reports.php';
+                }
+
                 // Clean up pending vars
-                unset($_SESSION['pending_2fa_user'], $_SESSION['pending_2fa_method'], $_SESSION['pending_2fa_email'], $_SESSION['pending_2fa_phone'], $_SESSION['pending_2fa_username']);
-                // Redirect to dashboard or home
-                header('Location: ../index.php');
+                unset($_SESSION['pending_2fa_user'], $_SESSION['pending_2fa_method'], $_SESSION['pending_2fa_email'], $_SESSION['pending_2fa_phone'], $_SESSION['pending_2fa_username'], $_SESSION['pending_2fa_role']);
+
+                header("Location: {$redirectUrl}");
                 exit();
             } else {
                 if ($method === 'TOTP') {
-                    $message = 'Invalid or expired TOTP code. Ensure your device time is correct.';
+                    $message = 'Invalid or expired Authenticator code. Ensure your device time is synchronized.';
                 } else {
                     $message = 'Invalid or expired code. Please try again or resend the code.';
                 }
@@ -402,11 +411,16 @@ body { font-family: 'Quicksand', 'Segoe UI', sans-serif; background: var(--prima
                 <?php endif; ?>
 
                 <?php if ($canOneTimeSetup): ?>
-                    <div class="login-alert" style="background:#fff3cd;border-color:#ffeeba;color:#856404;">
-                        Admin account does not have Authenticator App configured. You may use a one-time access to set it up now.
-                        <form method="post" style="display:inline-block;margin-left:1rem;">
-                            <button type="submit" name="one_time_setup" class="login-btn" style="background:#17a2b8;">One-time Setup Access</button>
-                        </form>
+                    <div class="login-alert text-center" style="background:#e6f4f1;border: 1px solid #2e856e;color:#1b5a56;">
+                        <i class="fas fa-qrcode me-1 text-success"></i> <strong>First time using 2FA?</strong><br>
+                        <span class="small">Scan the QR code with Google Authenticator or Microsoft Authenticator.</span>
+                        <div class="mt-2">
+                            <form method="post">
+                                <button type="submit" name="one_time_setup" class="btn btn-sm btn-success fw-bold px-3" style="background-color: #2e856e; border-color: #2e856e;">
+                                    <i class="fas fa-camera me-1"></i> Scan QR Code / Set Up Now
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 <?php endif; ?>
 
