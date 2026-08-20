@@ -203,52 +203,48 @@ try {
 }
 ?>
 
-<style>
-    .search-bar-container {
-        display: flex;
-        gap: 10px;
-        margin-bottom: 20px;
-    }
-    .search-bar-container input {
-        flex: 1;
-        max-width: 400px;
-    }
-
-    .header-action-btn {
-        background: #ffffff;
-        color: #000000 !important;
-        border-color: #ced4da;
-    }
-
-    .header-action-btn:hover,
-    .header-action-btn:focus {
-        background: #f8f9fa;
-        color: #000000 !important;
-    }
-
-    @media (max-width: 768px) {
+    <style>
         .search-bar-container {
-            flex-direction: column;
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
         }
         .search-bar-container input {
-            max-width: 100%;
+            flex: 1;
+            max-width: 400px;
         }
-    }
-</style>
 
-<div class="main-content">
-    <div class="content-container">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h1 class="h2">Blotter Management</h1>
-            <div class="d-flex gap-2">
-                <a href="../modules/blotter_create.php" class="btn header-action-btn">
-                    <i class="bi bi-plus-circle"></i> Create New Blotter
-                </a>
-                <a href="dashboard.php" class="btn header-action-btn">
-                    <i class="bi bi-arrow-left"></i> Back
-                </a>
+        #blottersTableBody tr.blotter-item-row {
+            display: table-row !important;
+        }
+        #blottersTableBody tr.blotter-item-row td {
+            display: table-cell !important;
+            vertical-align: middle;
+        }
+
+        @media (max-width: 768px) {
+            .search-bar-container {
+                flex-direction: column;
+            }
+            .search-bar-container input {
+                max-width: 100%;
+            }
+        }
+    </style>
+
+    <div class="main-content">
+        <div class="content-container">
+            <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+                <h1 class="h2 fw-bold text-dark mb-0"><i class="fas fa-clipboard-list text-success me-2"></i>Blotter Management</h1>
+                <div class="d-flex gap-2">
+                    <a href="../modules/blotter_create.php" class="btn btn-success fw-bold px-3 shadow-sm" style="background-color: #2e856e; border-color: #2e856e;">
+                        <i class="bi bi-plus-circle me-1"></i> Create New Blotter
+                    </a>
+                    <a href="dashboard.php" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left me-1"></i> Back
+                    </a>
+                </div>
             </div>
-        </div>
 
         <!-- Search Bar -->
         <div class="search-bar-container">
@@ -336,22 +332,22 @@ try {
         </div>
 
         <!-- Blotter Records Card with Dual View: Table (10/page) & Carousel (10/slide) -->
-        <div class="card shadow-sm mb-4">
-            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center flex-wrap gap-2 py-3">
+        <div class="card shadow-sm border-0 mb-4" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(46,133,110,0.2) !important;">
+            <div class="card-header d-flex justify-content-between align-items-center flex-wrap gap-2 py-3 text-white" style="background: linear-gradient(135deg, #1b5a56, #2e856e) !important;">
                 <div class="d-flex align-items-center gap-2">
-                    <h5 class="mb-0 fw-bold"><i class="bi bi-journal-text me-2"></i>Blotter Records</h5>
-                    <span class="badge bg-white text-primary fw-bold" id="blotterTotalBadge"><?= count($blotters) ?> records</span>
+                    <h5 class="mb-0 fw-bold text-white"><i class="fas fa-clipboard-list me-2"></i>Blotter Records</h5>
+                    <span class="badge bg-white text-dark fw-bold px-2 py-1" id="blotterTotalBadge"><?= count($blotters) ?> records</span>
                 </div>
 
                 <div class="d-flex align-items-center gap-2 flex-wrap">
                     <!-- Search -->
                     <div class="input-group input-group-sm" style="width: 220px;">
-                        <span class="input-group-text bg-light text-dark border-0"><i class="bi bi-search"></i></span>
+                        <span class="input-group-text bg-white text-dark border-0"><i class="bi bi-search"></i></span>
                         <input type="text" id="blotterSearchInput" class="form-control border-0" placeholder="Search blotters..." onkeyup="filterBlotterRecords()">
                     </div>
 
                     <!-- Page Size -->
-                    <select id="blotterPageSizeSelect" class="form-select form-select-sm" style="width: auto;" onchange="changeBlotterPageSize(this.value)">
+                    <select id="blotterPageSizeSelect" class="form-select form-select-sm border-0" style="width: auto;" onchange="changeBlotterPageSize(this.value)">
                         <option value="10" selected>10 per page</option>
                         <option value="25">25 per page</option>
                         <option value="50">50 per page</option>
@@ -360,10 +356,10 @@ try {
 
                     <!-- View Switcher -->
                     <div class="btn-group btn-group-sm" role="group">
-                        <button type="button" class="btn btn-light active" id="btnBlotterTableView" onclick="switchBlotterView('table')">
+                        <button type="button" class="btn btn-light active fw-semibold" id="btnBlotterTableView" onclick="switchBlotterView('table')">
                             <i class="bi bi-table me-1"></i> Table View
                         </button>
-                        <button type="button" class="btn btn-light" id="btnBlotterCarouselView" onclick="switchBlotterView('carousel')">
+                        <button type="button" class="btn btn-light fw-semibold" id="btnBlotterCarouselView" onclick="switchBlotterView('carousel')">
                             <i class="bi bi-view-stacked me-1"></i> Carousel (10/Slide)
                         </button>
                     </div>
@@ -396,21 +392,21 @@ try {
                                 <?php else: ?>
                                     <?php foreach ($blotters as $idx => $b): 
                                         $statusClass = match($b['status']) {
-                                            'Pending' => 'warning',
-                                            'Under Investigation' => 'info',
-                                            'Resolved' => 'success',
-                                            'Rejected' => 'danger',
-                                            'Archived' => 'secondary',
-                                            default => 'light'
+                                            'Pending' => 'warning text-dark',
+                                            'Under Investigation' => 'info text-white',
+                                            'Resolved' => 'success text-white',
+                                            'Rejected' => 'danger text-white',
+                                            'Archived' => 'secondary text-white',
+                                            default => 'light text-dark'
                                         };
                                         $priorityClass = match($b['priority']) {
-                                            'High' => 'danger',
-                                            'Medium' => 'warning',
-                                            'Low' => 'info',
-                                            default => 'light'
+                                            'High' => 'danger text-white',
+                                            'Medium' => 'warning text-dark',
+                                            'Low' => 'info text-white',
+                                            default => 'light text-dark'
                                         };
                                     ?>
-                                        <tr class="blotter-row"
+                                        <tr class="blotter-item-row"
                                             data-index="<?= $idx ?>"
                                             data-blotter-no="<?= htmlspecialchars(strtolower($b['blotter_no'])) ?>"
                                             data-complainant="<?= htmlspecialchars(strtolower($b['complainant_name'])) ?>"
@@ -419,7 +415,7 @@ try {
                                             data-status="<?= htmlspecialchars(strtolower($b['status'])) ?>"
                                             data-priority="<?= htmlspecialchars(strtolower($b['priority'])) ?>">
                                             <td class="text-muted small fw-bold"><?= $idx + 1 ?></td>
-                                            <td class="fw-bold text-primary"><?= htmlspecialchars($b['blotter_no']) ?></td>
+                                            <td class="fw-bold text-success"><?= htmlspecialchars($b['blotter_no']) ?></td>
                                             <td><?= htmlspecialchars($b['complainant_name']) ?></td>
                                             <td><span class="badge bg-light text-dark border"><?= htmlspecialchars($b['incident_type'] ?? 'N/A') ?></span></td>
                                             <td><small class="text-muted"><i class="bi bi-geo-alt me-1 text-danger"></i><?= htmlspecialchars(substr($b['location'] ?? 'N/A', 0, 25)) ?></small></td>
@@ -707,7 +703,7 @@ try {
     let filteredBlotterRows = [];
 
     function initBlotterCatalog() {
-        const rows = document.querySelectorAll('#blottersTableBody tr.blotter-row');
+        const rows = document.querySelectorAll('#blottersTableBody tr.blotter-item-row');
         filteredBlotterRows = Array.from(rows);
         renderBlotterPagination();
 
@@ -731,9 +727,13 @@ try {
                 const indicators = document.querySelectorAll('#blotterCarouselIndicators button');
                 indicators.forEach((b, idx) => {
                     if (idx === nextSlideIdx) {
-                        b.classList.replace('btn-outline-secondary', 'btn-primary');
+                        b.className = 'btn btn-sm btn-success text-white py-0 px-2 rounded-pill fw-bold';
+                        b.style.backgroundColor = '#2e856e';
+                        b.style.borderColor = '#2e856e';
                     } else {
-                        b.classList.replace('btn-primary', 'btn-outline-secondary');
+                        b.className = 'btn btn-sm btn-outline-secondary py-0 px-2 rounded-pill fw-bold';
+                        b.style.backgroundColor = '';
+                        b.style.borderColor = '';
                     }
                 });
             });
@@ -767,7 +767,7 @@ try {
 
     function filterBlotterRecords() {
         const query = (document.getElementById('blotterSearchInput')?.value || '').toLowerCase().trim();
-        const allRows = document.querySelectorAll('#blottersTableBody tr.blotter-row');
+        const allRows = document.querySelectorAll('#blottersTableBody tr.blotter-item-row');
         const allCards = document.querySelectorAll('.blotter-carousel-card-col');
 
         filteredBlotterRows = [];
@@ -810,7 +810,7 @@ try {
         const startIdx = (currentBlotterPage - 1) * blotterRowsPerPage;
         const endIdx = Math.min(startIdx + blotterRowsPerPage, total);
 
-        const allRows = document.querySelectorAll('#blottersTableBody tr.blotter-row');
+        const allRows = document.querySelectorAll('#blottersTableBody tr.blotter-item-row');
         allRows.forEach(r => r.style.display = 'none');
 
         for (let i = startIdx; i < endIdx; i++) {
@@ -842,7 +842,7 @@ try {
                 continue;
             }
             html += `<li class="page-item ${p === currentBlotterPage ? 'active' : ''}">
-                <a class="page-link" href="javascript:void(0)" onclick="goToBlotterPage(${p})">${p}</a>
+                <a class="page-link" href="javascript:void(0)" onclick="goToBlotterPage(${p})" style="${p === currentBlotterPage ? 'background-color:#2e856e;border-color:#2e856e;color:#fff;' : ''}">${p}</a>
             </li>`;
         }
 

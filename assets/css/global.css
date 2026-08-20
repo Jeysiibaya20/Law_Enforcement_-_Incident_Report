@@ -962,7 +962,7 @@ iframe[src*="assistant"],
     text-align: center;
 }
 
-.blotter-row {
+div.blotter-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -970,7 +970,7 @@ iframe[src*="assistant"],
     padding-bottom: 12px;
 }
 
-.blotter-row-4col {
+div.blotter-row-4col {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 15px;
@@ -1051,8 +1051,8 @@ iframe[src*="assistant"],
         padding: 20px !important;
     }
 
-    .blotter-row,
-    .blotter-row-4col {
+    div.blotter-row,
+    div.blotter-row-4col {
         border-bottom: 1px solid #ddd;
         page-break-inside: avoid;
     }
