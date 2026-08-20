@@ -130,6 +130,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $storage_loc = 'Evidence Room A-1 (High Security)';
             }
 
+            $source_ref = trim($_POST['source_reference_select'] ?? '');
+            if ($source_ref === '__custom__') {
+                $source_ref = trim($_POST['custom_source_reference'] ?? '');
+            } elseif (empty($source_ref) && !empty($_POST['source_reference'])) {
+                $source_ref = trim($_POST['source_reference']);
+            }
+
             $insert_stmt->execute([
                 $evidence_number,
                 $_POST['evidence_type'],
@@ -139,7 +146,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_POST['location_found'] ?: null,
                 $source_dept ?: null,
                 $received_from ?: null,
-                $_POST['source_reference'] ?: null,
+                $source_ref ?: null,
                 $collection_datetime,
                 $_POST['condition'],
                 $storage_loc,
@@ -319,6 +326,25 @@ try {
     $witStmt = $pdo->query("SELECT id, case_id, case_number, first_name, middle_name, last_name, witness_type, statement FROM witnesses ORDER BY created_at DESC");
     $witnessesList = $witStmt->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) { $witnessesList = []; }
+
+// Fetch available existing sources for Source Reference dropdown
+$refAccidents = [];
+try {
+    $stmt = $pdo->query("SELECT id, ticket_number, report_id, violator_name, violation_type, location FROM received_accident_reports ORDER BY id DESC LIMIT 30");
+    $refAccidents = $stmt->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) { $refAccidents = []; }
+
+$refCctvRequests = [];
+try {
+    $stmt = $pdo->query("SELECT id, request_id, case_number, incident_type, camera_location, vehicle_plate, status FROM cctv_requests ORDER BY id DESC LIMIT 30");
+    $refCctvRequests = $stmt->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) { $refCctvRequests = []; }
+
+$refBlotters = [];
+try {
+    $stmt = $pdo->query("SELECT id, blotter_no, incident_type, complainant_name, location FROM blotters WHERE status != 'Archived' ORDER BY id DESC LIMIT 30");
+    $refBlotters = $stmt->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) { $refBlotters = []; }
 
 $page_title = "Evidence Collection & Chain of Custody";
 include '../includes/header.php';
@@ -694,7 +720,71 @@ include '../includes/header.php';
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label class="form-label fw-bold"><i class="bi bi-file-earmark-text text-secondary me-1"></i>Source Reference / Control No.</label>
-                            <input type="text" name="source_reference" class="form-control" placeholder="e.g., CCTV Ticket No. / Request Slip #REQ-2026-001">
+                            <select name="source_reference_select" id="sourceReferenceSelect" class="form-select" onchange="handleSourceReferenceSelect(this)">
+                                <option value="">-- Select Existing Source Reference --</option>
+                                
+                                <?php if (!empty($refAccidents)): ?>
+                                    <optgroup label="Group 2: Accident Tickets & Reports">
+                                        <?php foreach ($refAccidents as $acc): ?>
+                                            <?php 
+                                                $refCode = $acc['ticket_number'] ?: $acc['report_id'];
+                                                $label = $acc['ticket_number'] . ($acc['report_id'] ? ' (' . $acc['report_id'] . ')' : '') . ' - ' . ($acc['violation_type'] ?: 'Traffic Incident') . ($acc['violator_name'] ? ' [' . $acc['violator_name'] . ']' : '');
+                                            ?>
+                                            <option value="<?= htmlspecialchars($refCode) ?>" 
+                                                    data-source-dept="Group 2 - Accident & Violation Reporting"
+                                                    data-location="<?= htmlspecialchars($acc['location'] ?? '') ?>">
+                                                <?= htmlspecialchars($label) ?>
+                                            </option>
+                                        <?php endforeach; ?>
+                                    </optgroup>
+                                <?php endif; ?>
+
+                                <?php if (!empty($refCctvRequests)): ?>
+                                    <optgroup label="Group 2: CCTV Requests & Footage">
+                                        <?php foreach ($refCctvRequests as $cctv): ?>
+                                            <?php 
+                                                $label = $cctv['request_id'] . ' - CCTV ' . ($cctv['camera_location'] ?: 'Surveillance') . ($cctv['case_number'] ? ' [' . $cctv['case_number'] . ']' : '');
+                                            ?>
+                                            <option value="<?= htmlspecialchars($cctv['request_id']) ?>"
+                                                    data-source-dept="Group 2 - Accident & Violation Reporting"
+                                                    data-case-no="<?= htmlspecialchars($cctv['case_number'] ?? '') ?>"
+                                                    data-location="<?= htmlspecialchars($cctv['camera_location'] ?? '') ?>">
+                                                <?= htmlspecialchars($label) ?>
+                                            </option>
+                                        <?php endforeach; ?>
+                                    </optgroup>
+                                <?php endif; ?>
+
+                                <?php if (!empty($cases)): ?>
+                                    <optgroup label="Assigned Investigation Cases">
+                                        <?php foreach ($cases as $c): ?>
+                                            <option value="<?= htmlspecialchars($c['case_number']) ?>"
+                                                    data-case-no="<?= htmlspecialchars($c['case_number']) ?>"
+                                                    data-source-dept="Digital Blotter Unit">
+                                                <?= htmlspecialchars($c['case_number'] . ' - ' . $c['incident_type'] . ($c['complainant_name'] ? ' (' . $c['complainant_name'] . ')' : '')) ?>
+                                            </option>
+                                        <?php endforeach; ?>
+                                    </optgroup>
+                                <?php endif; ?>
+
+                                <?php if (!empty($refBlotters)): ?>
+                                    <optgroup label="Digital Blotter Entries">
+                                        <?php foreach ($refBlotters as $b): ?>
+                                            <option value="<?= htmlspecialchars($b['blotter_no']) ?>"
+                                                    data-source-dept="Digital Blotter Unit"
+                                                    data-location="<?= htmlspecialchars($b['location'] ?? '') ?>">
+                                                <?= htmlspecialchars($b['blotter_no'] . ' - ' . ($b['incident_type'] ?? 'Blotter') . ($b['complainant_name'] ? ' (' . $b['complainant_name'] . ')' : '')) ?>
+                                            </option>
+                                        <?php endforeach; ?>
+                                    </optgroup>
+                                <?php endif; ?>
+
+                                <option value="__custom__">➕ Other / Custom Control No. (Specify manually)</option>
+                            </select>
+                            <div id="customSourceRefWrap" class="mt-2" style="display: none;">
+                                <input type="text" name="custom_source_reference" id="customSourceRefInput" class="form-control form-control-sm" placeholder="Enter custom control / reference number...">
+                            </div>
+                            <small class="text-muted">Select an existing ticket, CCTV request, case, or specify custom reference</small>
                         </div>
                         <div class="col-md-3 mb-3">
                             <label class="form-label fw-bold"><i class="bi bi-calendar-event me-1"></i>Collection Date *</label>
@@ -1377,6 +1467,62 @@ function handleStorageLocSelect(select) {
         wrap.style.display = 'block';
     } else {
         wrap.style.display = 'none';
+    }
+}
+
+function handleSourceReferenceSelect(select) {
+    const customWrap = document.getElementById('customSourceRefWrap');
+    const customInput = document.getElementById('customSourceRefInput');
+    
+    if (select.value === '__custom__') {
+        customWrap.style.display = 'block';
+        customInput.required = true;
+        customInput.focus();
+    } else {
+        customWrap.style.display = 'none';
+        customInput.required = false;
+        customInput.value = '';
+        
+        if (!select.value) return;
+        
+        const selectedOpt = select.options[select.selectedIndex];
+        const sourceDept = selectedOpt.getAttribute('data-source-dept');
+        const caseNo = selectedOpt.getAttribute('data-case-no');
+        const location = selectedOpt.getAttribute('data-location');
+        
+        // Auto-select source department if available and department is not yet selected
+        if (sourceDept) {
+            const deptSelect = document.getElementById('sourceDeptSelect');
+            if (deptSelect && (!deptSelect.value || deptSelect.value === '')) {
+                for (let i = 0; i < deptSelect.options.length; i++) {
+                    if (deptSelect.options[i].value.indexOf(sourceDept) !== -1 || sourceDept.indexOf(deptSelect.options[i].value) !== -1) {
+                        deptSelect.selectedIndex = i;
+                        break;
+                    }
+                }
+            }
+        }
+        
+        // Auto-fill location found if empty
+        const locInput = document.querySelector('input[name="location_found"]');
+        if (locInput && location && (!locInput.value || locInput.value.trim() === '')) {
+            locInput.value = location;
+        }
+        
+        // Auto-select related case if matching
+        if (caseNo) {
+            const caseSelect = document.querySelector('select[name="case_id"]');
+            if (caseSelect) {
+                for (let i = 0; i < caseSelect.options.length; i++) {
+                    const optCase = caseSelect.options[i].getAttribute('data-case-number');
+                    if (optCase === caseNo) {
+                        caseSelect.selectedIndex = i;
+                        updateCaseNumber(caseSelect);
+                        break;
+                    }
+                }
+            }
+        }
     }
 }
 </script>
