@@ -8,7 +8,12 @@ require_once 'config/db_connect.php';
 try {
     echo "Setting up automated reports database tables...\n\n";
 
-    $sql = file_get_contents('../setup_automated_reports.sql');
+    $sqlFile = dirname(__DIR__) . '/setup_automated_reports.sql';
+    if (file_exists($sqlFile)) {
+        $sql = file_get_contents($sqlFile);
+    } else {
+        $sql = file_get_contents(dirname(__DIR__) . '/wag/setup_automated_reports.sql');
+    }
 
     // Split into individual statements
     $statements = array_filter(array_map('trim', explode(';', $sql)));
