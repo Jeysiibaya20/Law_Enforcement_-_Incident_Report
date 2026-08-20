@@ -241,23 +241,23 @@ try {
         </div>
 
         <?php if ($selectedBlotter): ?>
-            <div class="card mb-4" style="background:#fff; color:#000; border:1px solid #e9ecef;">
-                <div class="card-header" style="background:#fff; color:#000; border-bottom:1px solid #e9ecef;">
-                    <h5 class="mb-0">Settlement Agreement for <?= htmlspecialchars($selectedBlotter['blotter_no']) ?></h5>
+            <div class="card shadow-sm border-0 mb-4" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(46,133,110,0.2) !important;">
+                <div class="card-header text-white d-flex justify-content-between align-items-center py-3" style="background: linear-gradient(135deg, #1b5a56, #2e856e) !important;">
+                    <h5 class="mb-0 fw-bold text-white"><i class="bi bi-file-earmark-text-fill me-2"></i>Settlement Agreement for <?= htmlspecialchars($selectedBlotter['blotter_no']) ?></h5>
                 </div>
-                <div class="card-body">
-                    <div class="row gy-3 mb-4">
+                <div class="card-body p-4">
+                    <div class="row gy-3 mb-4 p-3 bg-light rounded border">
                         <div class="col-md-4">
-                            <h6 class="text-muted" style="color:#000;">Complainant</h6>
-                            <p class="mb-0"><?= htmlspecialchars($selectedBlotter['complainant_name'] ?: 'N/A') ?></p>
+                            <h6 class="text-muted small text-uppercase fw-bold mb-1">Complainant</h6>
+                            <p class="mb-0 fw-semibold text-dark"><?= htmlspecialchars($selectedBlotter['complainant_name'] ?: 'N/A') ?></p>
                         </div>
                         <div class="col-md-4">
-                            <h6 class="text-muted" style="color:#000;">Respondent</h6>
-                            <p class="mb-0"><?= htmlspecialchars($selectedBlotter['respondent_name'] ?: 'N/A') ?></p>
+                            <h6 class="text-muted small text-uppercase fw-bold mb-1">Respondent</h6>
+                            <p class="mb-0 fw-semibold text-dark"><?= htmlspecialchars($selectedBlotter['respondent_name'] ?: 'N/A') ?></p>
                         </div>
                         <div class="col-md-4">
-                            <h6 class="text-muted" style="color:#000;">Incident Type</h6>
-                            <p class="mb-0"><?= htmlspecialchars($selectedBlotter['incident_type'] ?: 'N/A') ?></p>
+                            <h6 class="text-muted small text-uppercase fw-bold mb-1">Incident Type</h6>
+                            <p class="mb-0 fw-semibold text-dark"><span class="badge bg-light text-dark border"><?= htmlspecialchars($selectedBlotter['incident_type'] ?: 'N/A') ?></span></p>
                         </div>
                     </div>
 
@@ -265,7 +265,7 @@ try {
                         <input type="hidden" name="blotter_id" value="<?= intval($selectedBlotter['id']) ?>">
                         <div class="row g-3">
                             <div class="col-md-4">
-                                <label class="form-label" style="color:#000;">Settlement Status</label>
+                                <label class="form-label fw-semibold text-dark">Settlement Status</label>
                                 <select name="settlement_status" class="form-select">
                                     <option value="">Select status</option>
                                     <option value="Settled"<?= ($selectedBlotter['settlement_status'] ?? '') === 'Settled' ? ' selected' : '' ?>>Settled</option>
@@ -274,21 +274,21 @@ try {
                                 </select>
                             </div>
                             <div class="col-md-4">
-                                <label class="form-label" style="color:#000;">Settlement Date</label>
+                                <label class="form-label fw-semibold text-dark">Settlement Date</label>
                                 <input type="date" name="settlement_date" class="form-control" value="<?= htmlspecialchars($selectedBlotter['settlement_date'] ?? '') ?>">
                             </div>
                             <div class="col-md-4">
-                                <label class="form-label" style="color:#000;">Related Hearing Result</label>
-                                <input type="text" class="form-control" value="<?= htmlspecialchars($selectedBlotter['hearing_result_status'] ?: 'Not recorded yet') ?>" readonly>
+                                <label class="form-label fw-semibold text-dark">Related Hearing Result</label>
+                                <input type="text" class="form-control bg-light" value="<?= htmlspecialchars($selectedBlotter['hearing_result_status'] ?: 'Not recorded yet') ?>" readonly>
                             </div>
                         </div>
                         <div class="mt-3">
-                            <label class="form-label" style="color:#000;">Settlement Agreement Summary</label>
-                            <textarea name="settlement_agreement" class="form-control" rows="5"><?= htmlspecialchars($selectedBlotter['settlement_agreement'] ?? '') ?></textarea>
+                            <label class="form-label fw-semibold text-dark">Settlement Agreement Summary</label>
+                            <textarea name="settlement_agreement" class="form-control" rows="5" placeholder="Enter terms and conditions of amicable settlement..."><?= htmlspecialchars($selectedBlotter['settlement_agreement'] ?? '') ?></textarea>
                         </div>
                         <div class="mt-3 d-flex gap-2 flex-wrap print-hide">
-                            <button type="submit" name="save_settlement" class="btn btn-primary"><i class="bi bi-save me-1"></i>Save Settlement Agreement</button>
-                            <button type="button" class="btn btn-outline-primary" onclick="printSettlementPaper()"><i class="bi bi-printer me-1"></i>Print Settlement Paper</button>
+                            <button type="submit" name="save_settlement" class="btn btn-success px-4 shadow-sm" style="background-color: #2e856e; border-color: #2e856e;"><i class="bi bi-save me-1"></i>Save Settlement Agreement</button>
+                            <button type="button" class="btn btn-outline-success shadow-sm" onclick="printSettlementPaper()"><i class="bi bi-printer me-1"></i>Print Settlement Paper</button>
                         </div>
                     </form>
 
@@ -354,19 +354,19 @@ try {
 
         <div class="row g-4 mb-4">
             <div class="col-lg-6">
-                <div class="card" style="background:#fff; color:#000; border:1px solid #e9ecef;">
-                    <div class="card-header" style="background:#fff; color:#000; border-bottom:1px solid #e9ecef;">
-                        <h5 class="mb-0">Settlement Status Breakdown</h5>
+                <div class="card shadow-sm border-0 h-100" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(46,133,110,0.2) !important;">
+                    <div class="card-header text-white d-flex justify-content-between align-items-center py-3" style="background: linear-gradient(135deg, #1b5a56, #2e856e) !important;">
+                        <h5 class="mb-0 fw-bold text-white"><i class="bi bi-bar-chart-fill me-2"></i>Settlement Status Breakdown</h5>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body p-3">
                         <?php if (empty($statusBreakdown)): ?>
-                            <p class="text-muted mb-0">No settlement statuses recorded yet.</p>
+                            <p class="text-muted mb-0 py-3 text-center"><i class="bi bi-info-circle me-1"></i>No settlement statuses recorded yet.</p>
                         <?php else: ?>
                             <ul class="list-group list-group-flush">
                                 <?php foreach ($statusBreakdown as $row): ?>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                                        <span><?= htmlspecialchars($row['settlement_status']) ?></span>
-                                        <span class="badge bg-dark rounded-pill"><?= (int) $row['total'] ?></span>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center px-2 py-2 border-bottom">
+                                        <span class="fw-semibold text-dark"><?= htmlspecialchars($row['settlement_status']) ?></span>
+                                        <span class="badge rounded-pill fw-bold text-white px-3 py-2 shadow-sm" style="background-color: #2e856e !important; font-size: 0.85rem;"><?= (int) $row['total'] ?></span>
                                     </li>
                                 <?php endforeach; ?>
                             </ul>
@@ -375,19 +375,19 @@ try {
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="card" style="background:#fff; color:#000; border:1px solid #e9ecef;">
-                    <div class="card-header" style="background:#fff; color:#000; border-bottom:1px solid #e9ecef;">
-                        <h5 class="mb-0">Top Blotter Locations</h5>
+                <div class="card shadow-sm border-0 h-100" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(46,133,110,0.2) !important;">
+                    <div class="card-header text-white d-flex justify-content-between align-items-center py-3" style="background: linear-gradient(135deg, #1b5a56, #2e856e) !important;">
+                        <h5 class="mb-0 fw-bold text-white"><i class="bi bi-geo-alt-fill me-2"></i>Top Blotter Locations</h5>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body p-3">
                         <?php if (empty($locationBreakdown)): ?>
-                            <p class="text-muted mb-0">No location aggregation available yet.</p>
+                            <p class="text-muted mb-0 py-3 text-center"><i class="bi bi-info-circle me-1"></i>No location aggregation available yet.</p>
                         <?php else: ?>
                             <ul class="list-group list-group-flush">
                                 <?php foreach ($locationBreakdown as $row): ?>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                                        <span><?= htmlspecialchars($row['location']) ?></span>
-                                        <span class="badge bg-dark rounded-pill"><?= (int) $row['total'] ?></span>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center px-2 py-2 border-bottom">
+                                        <span class="fw-semibold text-dark"><i class="bi bi-geo-alt text-success me-2"></i><?= htmlspecialchars($row['location']) ?></span>
+                                        <span class="badge rounded-pill fw-bold text-white px-3 py-2 shadow-sm" style="background-color: #2e856e !important; font-size: 0.85rem;"><?= (int) $row['total'] ?></span>
                                     </li>
                                 <?php endforeach; ?>
                             </ul>
@@ -398,22 +398,22 @@ try {
         </div>
 
         <!-- Connected Blotter Settlement Records Card with Dual View: Table (10 per page) & Carousel (10 per slide) -->
-        <div class="card shadow-sm mb-4" style="background:#fff; color:#000; border:1px solid #e9ecef;">
-            <div class="card-header d-flex justify-content-between align-items-center flex-wrap gap-2 py-3" style="background:#f8f9fa; color:#000; border-bottom:1px solid #e9ecef;">
+        <div class="card shadow-sm mb-4 border-0" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(46,133,110,0.2) !important;">
+            <div class="card-header d-flex justify-content-between align-items-center flex-wrap gap-2 py-3 text-white" style="background: linear-gradient(135deg, #1b5a56, #2e856e) !important;">
                 <div class="d-flex align-items-center gap-2">
-                    <h5 class="mb-0 fw-bold"><i class="bi bi-file-earmark-check text-primary me-1"></i> Connected Blotter Settlement Records</h5>
-                    <span class="badge bg-primary text-white fw-bold" id="settleTotalBadge"><?= count($settlementRows) ?> records</span>
+                    <h5 class="mb-0 fw-bold text-white"><i class="bi bi-file-earmark-check-fill me-2"></i>Connected Blotter Settlement Records</h5>
+                    <span class="badge bg-white fw-bold shadow-sm" style="color: #1b5a56 !important;" id="settleTotalBadge"><?= count($settlementRows) ?> records</span>
                 </div>
                 
                 <div class="d-flex align-items-center gap-2 flex-wrap">
                     <!-- Search Filter -->
                     <div class="input-group input-group-sm" style="width: 220px;">
-                        <span class="input-group-text bg-white text-dark border"><i class="bi bi-search"></i></span>
-                        <input type="text" id="settleSearchInput" class="form-control border" placeholder="Search settlement records..." onkeyup="filterSettleRecords()">
+                        <span class="input-group-text bg-white text-dark border-0"><i class="bi bi-search"></i></span>
+                        <input type="text" id="settleSearchInput" class="form-control border-0" placeholder="Search settlement records..." onkeyup="filterSettleRecords()">
                     </div>
 
                     <!-- Page Size Selector -->
-                    <select id="settlePageSizeSelect" class="form-select form-select-sm" style="width: auto;" onchange="changeSettlePageSize(this.value)">
+                    <select id="settlePageSizeSelect" class="form-select form-select-sm border-0" style="width: auto;" onchange="changeSettlePageSize(this.value)">
                         <option value="10" selected>10 per page</option>
                         <option value="25">25 per page</option>
                         <option value="50">50 per page</option>
@@ -422,11 +422,11 @@ try {
 
                     <!-- View Switcher -->
                     <div class="btn-group btn-group-sm" role="group">
-                        <button type="button" class="btn btn-outline-primary active" id="btnSettleTableView" onclick="switchSettleView('table')">
+                        <button type="button" class="btn btn-light active fw-semibold" id="btnSettleTableView" onclick="switchSettleView('table')">
                             <i class="bi bi-table me-1"></i> Table View
                         </button>
-                        <button type="button" class="btn btn-outline-primary" id="btnSettleCarouselView" onclick="switchSettleView('carousel')">
-                            <i class="bi bi-view-stacked me-1"></i> Carousel View (10/Slide)
+                        <button type="button" class="btn btn-light fw-semibold" id="btnSettleCarouselView" onclick="switchSettleView('carousel')">
+                            <i class="bi bi-view-stacked me-1"></i> Carousel (10/Slide)
                         </button>
                     </div>
                 </div>
@@ -490,7 +490,7 @@ try {
                                             <td><?= $row['settlement_date'] ? date('M d, Y', strtotime($row['settlement_date'])) : '<span class="text-muted">N/A</span>' ?></td>
                                             <td>
                                                 <div class="d-flex gap-1">
-                                                    <a href="settle.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-primary" title="View Settlement"><i class="bi bi-eye me-1"></i>View</a>
+                                                    <a href="settle.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-success" title="View Settlement"><i class="bi bi-eye me-1"></i>View</a>
                                                     <a href="settle.php?blotter_id=<?= intval($row['id']) ?>" class="btn btn-sm btn-outline-secondary" title="Print Agreement"><i class="bi bi-printer me-1"></i>Print</a>
                                                 </div>
                                             </td>
@@ -524,7 +524,7 @@ try {
                     <!-- Carousel Controls Bar -->
                     <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3 p-2 bg-light rounded border">
                         <div class="d-flex align-items-center gap-2">
-                            <span class="badge bg-primary px-3 py-2 fs-6">
+                            <span class="badge text-white px-3 py-2 fs-6 shadow-sm" style="background: #2e856e !important;">
                                 <i class="bi bi-view-stacked me-1"></i> <span id="settleCarouselSlideLabel">Slide 1 of <?= max(1, $totalSettleSlides) ?></span>
                             </span>
                             <small class="text-muted" id="settleCarouselRangeLabel">
@@ -533,19 +533,19 @@ try {
                         </div>
 
                         <div class="d-flex align-items-center gap-2">
-                            <button class="btn btn-sm btn-primary rounded-circle" type="button" data-bs-target="#settlementCarousel" data-bs-slide="prev" style="width:34px; height:34px;">
+                            <button class="btn btn-sm btn-success rounded-circle shadow-sm" type="button" data-bs-target="#settlementCarousel" data-bs-slide="prev" style="width:34px; height:34px; background-color: #2e856e; border-color: #2e856e;">
                                 <i class="bi bi-chevron-left"></i>
                             </button>
                             
                             <div class="d-flex gap-1" id="settleCarouselIndicators">
                                 <?php for ($s = 0; $s < $totalSettleSlides; $s++): ?>
-                                    <button class="btn btn-sm <?= $s === 0 ? 'btn-primary' : 'btn-outline-secondary' ?> fw-bold py-1 px-2" type="button" data-bs-target="#settlementCarousel" data-bs-slide-to="<?= $s ?>" style="font-size: 0.75rem;">
+                                    <button class="btn btn-sm <?= $s === 0 ? 'btn-success text-white' : 'btn-outline-secondary' ?> fw-bold py-1 px-2" type="button" data-bs-target="#settlementCarousel" data-bs-slide-to="<?= $s ?>" style="font-size: 0.75rem; <?= $s === 0 ? 'background-color: #2e856e; border-color: #2e856e;' : '' ?>">
                                         <?= $s + 1 ?>
                                     </button>
                                 <?php endfor; ?>
                             </div>
 
-                            <button class="btn btn-sm btn-primary rounded-circle" type="button" data-bs-target="#settlementCarousel" data-bs-slide="next" style="width:34px; height:34px;">
+                            <button class="btn btn-sm btn-success rounded-circle shadow-sm" type="button" data-bs-target="#settlementCarousel" data-bs-slide="next" style="width:34px; height:34px; background-color: #2e856e; border-color: #2e856e;">
                                 <i class="bi bi-chevron-right"></i>
                             </button>
                         </div>
@@ -557,7 +557,7 @@ try {
                             <?php if (empty($settleBatches)): ?>
                                 <div class="carousel-item active">
                                     <div class="text-center py-5 text-muted">
-                                        <i class="bi bi-inbox fs-1 d-block mb-2"></i>
+                                        <i class="bi bi-inbox fs-1 d-block mb-2 text-success"></i>
                                         <h5>No Settlement Records</h5>
                                     </div>
                                 </div>
@@ -567,9 +567,9 @@ try {
                                         <div class="row g-3">
                                             <?php foreach ($batch as $cardIdx => $item): ?>
                                                 <div class="col-md-6 col-lg-6 settle-carousel-card-col">
-                                                    <div class="card h-100 border shadow-sm">
-                                                        <div class="card-header bg-light d-flex justify-content-between align-items-center py-2 px-3">
-                                                            <strong class="text-primary"><?= htmlspecialchars($item['blotter_no']) ?></strong>
+                                                    <div class="card h-100 border shadow-sm" style="border-radius: 8px; overflow: hidden;">
+                                                        <div class="card-header d-flex justify-content-between align-items-center py-2 px-3" style="background: #f0fdf4; border-bottom: 1px solid #bbf7d0;">
+                                                            <strong class="text-success fw-bold"><?= htmlspecialchars($item['blotter_no']) ?></strong>
                                                             <div class="d-flex gap-1">
                                                                 <span class="badge bg-<?= match($item['settlement_status'] ?? 'Pending') {
                                                                     'Settled', 'Signed', 'Completed' => 'success',
@@ -613,7 +613,7 @@ try {
                                                             </div>
                                                         </div>
                                                         <div class="card-footer bg-light d-flex justify-content-end gap-2 py-2 px-3">
-                                                            <a href="settle.php?blotter_id=<?= intval($item['id']) ?>" class="btn btn-sm btn-outline-primary"><i class="bi bi-eye me-1"></i>View</a>
+                                                            <a href="settle.php?blotter_id=<?= intval($item['id']) ?>" class="btn btn-sm btn-outline-success"><i class="bi bi-eye me-1"></i>View</a>
                                                             <a href="settle.php?blotter_id=<?= intval($item['id']) ?>" class="btn btn-sm btn-outline-secondary"><i class="bi bi-printer me-1"></i>Print</a>
                                                         </div>
                                                     </div>
@@ -697,9 +697,15 @@ function initSettleCatalog() {
             const indicators = document.querySelectorAll('#settleCarouselIndicators button');
             indicators.forEach((b, idx) => {
                 if (idx === nextSlideIdx) {
-                    b.classList.replace('btn-outline-secondary', 'btn-primary');
+                    b.classList.replace('btn-outline-secondary', 'btn-success');
+                    b.classList.add('text-white');
+                    b.style.backgroundColor = '#2e856e';
+                    b.style.borderColor = '#2e856e';
                 } else {
-                    b.classList.replace('btn-primary', 'btn-outline-secondary');
+                    b.classList.replace('btn-success', 'btn-outline-secondary');
+                    b.classList.remove('text-white');
+                    b.style.backgroundColor = '';
+                    b.style.borderColor = '';
                 }
             });
         });

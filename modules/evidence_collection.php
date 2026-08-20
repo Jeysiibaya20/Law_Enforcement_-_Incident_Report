@@ -600,7 +600,7 @@ include '../includes/header.php';
                     <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap">
                         <span class="badge bg-warning text-dark px-3 py-2"><i class="bi bi-building me-1"></i> Group 2<br><small>Accident & Violation</small></span>
                         <div class="flow-arrow"><i class="bi bi-arrow-right-circle-fill"></i> Accident Ticket + Report</div>
-                        <span class="badge bg-dark text-white px-3 py-2"><i class="bi bi-shield-check me-1"></i> Group 1<br><small>Law Enforcement (You)</small></span>
+                        <span class="badge text-white px-3 py-2 shadow-sm" style="background-color: #2e856e !important;"><i class="bi bi-shield-check me-1"></i> Group 1<br><small>Law Enforcement (You)</small></span>
                         <div class="flow-arrow"><i class="bi bi-arrow-right-circle-fill"></i> Photo + Video</div>
                         <span class="badge bg-primary px-3 py-2"><i class="bi bi-cloud-upload me-1"></i> Group 7<br><small>Photo & Videos Upload</small></span>
                     </div>
@@ -1326,7 +1326,7 @@ include '../includes/header.php';
                     </div>
                 </div>
                 <div class="flow-arrow border rounded p-2 bg-white">
-                    <span class="badge bg-dark"><i class="bi bi-shield-check me-1"></i>Group 1 (You)</span>
+                    <span class="badge text-white" style="background-color: #2e856e;"><i class="bi bi-shield-check me-1"></i>Group 1 (You)</span>
                     <i class="bi bi-arrow-right-circle-fill text-primary" style="font-size: 1.3rem;"></i>
                     <span class="badge bg-primary"><i class="bi bi-cloud-upload me-1"></i>Group 7 (Photo/Video)</span>
                 </div>
@@ -1471,7 +1471,7 @@ include '../includes/header.php';
                                     <td><strong>#<?= $acc['id'] ?></strong></td>
                                     <td><code><?= htmlspecialchars($acc['ticket_number'] ?: 'N/A') ?></code></td>
                                     <td><?= htmlspecialchars($acc['violator_name'] ?: 'Unknown') ?></td>
-                                    <td><span class="badge bg-dark"><?= htmlspecialchars($acc['plate_number'] ?: 'N/A') ?></span></td>
+                                    <td><span class="badge bg-secondary"><?= htmlspecialchars($acc['plate_number'] ?: 'N/A') ?></span></td>
                                     <td><small><?= htmlspecialchars(substr($acc['violation_type'] ?: '', 0, 40)) ?></small></td>
                                     <td><span class="badge bg-<?= ($acc['severity_level'] ?? '') === 'Critical' ? 'danger' : (($acc['severity_level'] ?? '') === 'High' ? 'warning text-dark' : 'secondary') ?>"><?= htmlspecialchars($acc['severity_level'] ?? 'Medium') ?></span></td>
                                     <td><small><?= htmlspecialchars(substr($acc['location'] ?: '', 0, 40)) ?></small></td>
@@ -1723,7 +1723,7 @@ function viewAccidentDetail(accId) {
         html += '<div class="bg-light rounded p-3 mb-3">';
         html += '<h6 class="fw-bold text-danger mb-2"><i class="bi bi-person me-1"></i>Violator Info</h6>';
         html += '<div class="detail-row d-flex justify-content-between"><span class="detail-label">Name:</span><span class="detail-value">' + (record.violator_name || 'Unknown') + '</span></div>';
-        html += '<div class="detail-row d-flex justify-content-between"><span class="detail-label">Plate:</span><span class="detail-value"><span class="badge bg-dark">' + (record.plate_number || 'N/A') + '</span></span></div>';
+        html += '<div class="detail-row d-flex justify-content-between"><span class="detail-label">Plate:</span><span class="detail-value"><span class="badge bg-secondary">' + (record.plate_number || 'N/A') + '</span></span></div>';
         html += '<div class="detail-row d-flex justify-content-between"><span class="detail-label">Vehicle:</span><span class="detail-value">' + (record.vehicle_details || 'N/A') + '</span></div>';
         html += '<div class="detail-row d-flex justify-content-between"><span class="detail-label">Fine:</span><span class="detail-value"><strong>₱' + parseFloat(record.fine_amount || 0).toLocaleString('en-PH', {minimumFractionDigits: 2}) + '</strong></span></div>';
         html += '</div></div></div>';
