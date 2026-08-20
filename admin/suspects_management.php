@@ -267,67 +267,36 @@ $page_title = "Suspect Management" . ($case ? " - " . htmlspecialchars($case['ca
 $body_class = 'blotter-page';
 $additional_head = <<<CSS
 <style>
-    body.blotter-page {
-        background-color: #ffffff !important;
-        color: #000000 !important;
+    .suspect-card-item {
+        transition: all 0.2s ease-in-out;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        background: #ffffff;
     }
-    .suspect-management-page .content-container,
-    .suspect-management-page .card,
-    .suspect-management-page .card-header,
-    .suspect-management-page .card-body,
-    .suspect-management-page .table,
-    .suspect-management-page .table th,
-    .suspect-management-page .table td,
-    .suspect-management-page .nav-tabs .nav-link,
-    .suspect-management-page .alert,
-    .suspect-management-page .form-control,
-    .suspect-management-page .form-select,
-    .suspect-management-page .btn,
-    .suspect-management-page .badge {
-        color: #000000 !important;
+    .suspect-card-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+        border-color: #2e856e;
     }
-    .suspect-management-page .content-container,
-    .suspect-management-page .card,
-    .suspect-management-page .card-header,
-    .suspect-management-page .card-body,
-    .suspect-management-page .table,
-    .suspect-management-page .alert {
-        background-color: #ffffff !important;
-        border-color: #dcdcdc !important;
+    .nav-pills-emerald .nav-link {
+        color: #475569;
+        font-weight: 600;
+        border-radius: 8px;
+        padding: 8px 16px;
     }
-    .suspect-management-page .nav-tabs .nav-link.active {
-        background-color: #f7f7f7 !important;
-        border-color: #dcdcdc !important;
-    }
-    .suspect-management-page .btn-primary,
-    .suspect-management-page .btn-success {
-        background-color: #2e856e !important;
-        border-color: #2e856e !important;
+    .nav-pills-emerald .nav-link.active {
+        background: linear-gradient(135deg, #1b5a56, #2e856e) !important;
         color: #ffffff !important;
     }
-    .suspect-management-page .btn-primary:hover,
-    .suspect-management-page .btn-success:hover {
-        background-color: #246a58 !important;
-        border-color: #246a58 !important;
-        color: #ffffff !important;
-    }
-    .suspect-management-page .btn-outline-primary {
-        color: #2e856e !important;
-        border-color: #2e856e !important;
-        background-color: transparent !important;
-    }
-    .suspect-management-page .btn-outline-primary:hover {
-        background-color: #2e856e !important;
-        color: #ffffff !important;
-    }
-    .suspect-management-page .btn-secondary,
-    .suspect-management-page .btn-outline-secondary {
-        background-color: #f8f9fa !important;
-        border-color: #ced4da !important;
-        color: #334155 !important;
-    }
-    .suspect-management-page .text-muted {
-        color: #444 !important;
+    .form-section-title {
+        font-size: 0.85rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #1b5a56;
+        border-bottom: 2px solid rgba(46,133,110,0.15);
+        padding-bottom: 6px;
+        margin-bottom: 14px;
     }
 </style>
 CSS;
@@ -336,224 +305,223 @@ include '../includes/header.php';
 include '../includes/navbar.php';
 ?>
 
-<div class="main-content suspect-management-page">
+<div class="main-content">
     <div class="content-container">
-        <div class="d-flex justify-content-between align-items-start mb-4">
+        <!-- Header Strip -->
+        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-3">
             <div>
-                <h1 class="h2 mb-2"><i class="bi bi-person-fill"></i> Suspect Management</h1>
-                <p class="text-muted">Case: <strong><?= htmlspecialchars($case['case_number'] ?? 'Not selected') ?></strong></p>
+                <h1 class="h2 fw-bold text-dark mb-1"><i class="fas fa-user-ninja text-success me-2"></i>Suspect & POI Management</h1>
+                <div class="d-flex align-items-center gap-2">
+                    <span class="badge text-white px-3 py-1 fw-semibold" style="background: #2e856e;">
+                        <i class="bi bi-folder2-open me-1"></i> Case: <?= htmlspecialchars($case['case_number'] ?? 'All Cases') ?>
+                    </span>
+                    <?php if ($case && !empty($case['incident_type'])): ?>
+                        <span class="badge bg-light text-dark border"><?= htmlspecialchars($case['incident_type']) ?></span>
+                    <?php endif; ?>
+                </div>
             </div>
-            <?php if ($case_id && $case): ?>
-                <a href="../admin/suspects&witnesses.php?case_id=<?= htmlspecialchars($case_id) ?>" class="btn btn-outline-secondary">
-                    <i class="bi bi-arrow-left"></i> Back to Case
+            <div class="d-flex gap-2">
+                <?php if ($case_id && $case): ?>
+                    <a href="../admin/suspects&witnesses.php?case_id=<?= htmlspecialchars($case_id) ?>" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left me-1"></i> Back to Case
+                    </a>
+                <?php endif; ?>
+                <a href="dashboard.php" class="btn btn-outline-secondary">
+                    <i class="bi bi-speedometer2 me-1"></i> Dashboard
                 </a>
-            <?php endif; ?>
+            </div>
         </div>
 
         <?php if ($message): ?>
-            <div class="alert alert-<?= $message_type ?> alert-dismissible">
+            <div class="alert alert-<?= $message_type ?> alert-dismissible fade show shadow-sm border-0 mb-4" role="alert" style="border-radius: 10px;">
+                <i class="bi <?= $message_type === 'success' ? 'bi-check-circle-fill text-success' : 'bi-exclamation-triangle-fill text-danger' ?> me-2"></i>
                 <?= htmlspecialchars($message) ?>
-                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         <?php endif; ?>
 
         <div class="row g-4">
+            <!-- ================= LEFT COLUMN: ADD / EDIT SUSPECT FORM ================= -->
             <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-header bg-primary text-white">
-                        <h5 class="mb-0"><?= $edit_id ? 'Update' : 'Add New' ?> Suspect</h5>
+                <div class="card shadow-sm border-0" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(46,133,110,0.2) !important;">
+                    <div class="card-header py-3 text-white d-flex justify-content-between align-items-center" style="background: linear-gradient(135deg, #1b5a56, #2e856e) !important;">
+                        <h5 class="mb-0 fw-bold text-white">
+                            <i class="fas <?= $edit_id ? 'fa-user-edit' : 'fa-user-plus' ?> me-2"></i><?= $edit_id ? 'Update Suspect Dossier' : 'Register New Suspect / POI' ?>
+                        </h5>
+                        <?php if ($edit_id): ?>
+                            <span class="badge bg-warning text-dark fw-bold">Editing ID #<?= htmlspecialchars($edit_id) ?></span>
+                        <?php endif; ?>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body p-4">
                         <form method="POST" enctype="multipart/form-data">
-                            <div class="row g-3 mb-4 p-3 bg-light rounded">
-                                <div class="col-12">
-                                    <label class="form-label">Select Case *</label>
-                                    <select name="case_id" class="form-select" required>
-                                        <option value="">Select case</option>
-                                        <?php foreach ($cases as $caseOption): ?>
-                                            <option value="<?= htmlspecialchars($caseOption['id']) ?>" <?= $case_id == $caseOption['id'] ? 'selected' : '' ?>>
-                                                <?= htmlspecialchars($caseOption['case_number'] . ' — ' . $caseOption['incident_type'] . ' (' . $caseOption['complainant_name'] . ')') ?>
-                                            </option>
-                                        <?php endforeach; ?>
-                                    </select>
-                                </div>
+                            <!-- Section 1: Case Assignment -->
+                            <div class="form-section-title"><i class="bi bi-briefcase me-1"></i> Case Assignment</div>
+                            <div class="mb-4">
+                                <label class="form-label fw-semibold small text-muted">Linked Case Record <span class="text-danger">*</span></label>
+                                <select name="case_id" class="form-select border shadow-none" required>
+                                    <option value="">-- Choose Case / Blotter --</option>
+                                    <?php foreach ($cases as $caseOption): ?>
+                                        <option value="<?= htmlspecialchars($caseOption['id']) ?>" <?= $case_id == $caseOption['id'] ? 'selected' : '' ?>>
+                                            <?= htmlspecialchars($caseOption['case_number'] . ' — ' . $caseOption['incident_type'] . ' (' . ($caseOption['complainant_name'] ?? 'N/A') . ')') ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                </select>
                             </div>
-                            <div class="row g-3 mb-4 p-3 bg-light rounded">
-                                <div class="col-12">
-                                    <label class="form-label"><strong>Suspect Photo</strong></label>
-                                    <div class="d-flex gap-3 align-items-start">
-                                        <div>
-                                            <?php if ($suspect && isset($suspect['photo_path']) && $suspect['photo_path']): ?>
-                                                <img id="photoPreview" src="<?= htmlspecialchars('../' . $suspect['photo_path']) ?>?t=<?= time() ?>" alt="Suspect Photo" class="img-thumbnail" style="max-width: 150px; max-height: 200px;">
-                                            <?php else: ?>
-                                                <div id="photoPreview" class="border rounded p-3 text-center bg-white" style="width: 150px; height: 200px; display: flex; align-items: center; justify-content: center;">
-                                                    <div>
-                                                        <i class="bi bi-image" style="font-size: 2rem; color: #ccc;"></i>
-                                                        <p class="text-muted mt-2 mb-0" style="font-size: 0.8rem;">No photo</p>
-                                                    </div>
-                                                </div>
-                                            <?php endif; ?>
-                                        </div>
-                                        <div class="flex-grow-1">
-                                            <input type="file" name="photo" id="photo" class="form-control" accept="image/*">
-                                            <small class="text-muted d-block mt-2">
-                                                <i class="bi bi-info-circle"></i>
-                                                Accepted: JPG, PNG, GIF, WebP<br>
-                                                Max size: 5MB recommended
-                                            </small>
-                                        </div>
+
+                            <!-- Section 2: Photo Uploader Widget -->
+                            <div class="form-section-title"><i class="bi bi-camera me-1"></i> Suspect Facial Photo / Mugshot</div>
+                            <div class="p-3 mb-4 rounded border bg-light">
+                                <div class="d-flex gap-3 align-items-center flex-wrap">
+                                    <div class="position-relative">
+                                        <?php if ($suspect && isset($suspect['photo_path']) && $suspect['photo_path']): ?>
+                                            <img id="photoPreviewImg" src="<?= htmlspecialchars('../' . $suspect['photo_path']) ?>?t=<?= time() ?>" alt="Suspect Photo" class="img-thumbnail shadow-sm" style="width: 110px; height: 130px; object-fit: cover; border-radius: 8px;">
+                                        <?php else: ?>
+                                            <div id="photoPreviewContainer" class="border rounded bg-white shadow-sm d-flex flex-column align-items-center justify-content-center text-muted" style="width: 110px; height: 130px;">
+                                                <i class="bi bi-person-bounding-box fs-1 text-secondary"></i>
+                                                <span style="font-size: 0.7rem;">No Photo</span>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <label class="form-label small fw-bold text-dark mb-1">Upload Photo File</label>
+                                        <input type="file" name="photo" id="photo" class="form-control form-control-sm" accept="image/*">
+                                        <small class="text-muted d-block mt-1" style="font-size: 0.75rem;">
+                                            <i class="bi bi-info-circle me-1"></i>JPG, PNG, GIF, WebP up to 5MB.
+                                        </small>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <label class="form-label">First Name *</label>
-                                    <input type="text" name="first_name" class="form-control" value="<?= htmlspecialchars($suspect['first_name'] ?? '') ?>" required>
+                            <!-- Section 3: Personal Information -->
+                            <div class="form-section-title"><i class="bi bi-person-lines-fill me-1"></i> Personal Information</div>
+                            <div class="row g-3 mb-4">
+                                <div class="col-md-4">
+                                    <label class="form-label small fw-semibold">First Name <span class="text-danger">*</span></label>
+                                    <input type="text" name="first_name" class="form-control form-control-sm" value="<?= htmlspecialchars($suspect['first_name'] ?? '') ?>" placeholder="First name" required>
                                 </div>
-                                <div class="col-md-6">
-                                    <label class="form-label">Middle Name</label>
-                                    <input type="text" name="middle_name" class="form-control" value="<?= htmlspecialchars($suspect['middle_name'] ?? '') ?>">
+                                <div class="col-md-4">
+                                    <label class="form-label small fw-semibold">Middle Name</label>
+                                    <input type="text" name="middle_name" class="form-control form-control-sm" value="<?= htmlspecialchars($suspect['middle_name'] ?? '') ?>" placeholder="Middle name">
                                 </div>
-                                <div class="col-md-6">
-                                    <label class="form-label">Last Name *</label>
-                                    <input type="text" name="last_name" class="form-control" value="<?= htmlspecialchars($suspect['last_name'] ?? '') ?>" required>
+                                <div class="col-md-4">
+                                    <label class="form-label small fw-semibold">Last Name <span class="text-danger">*</span></label>
+                                    <input type="text" name="last_name" class="form-control form-control-sm" value="<?= htmlspecialchars($suspect['last_name'] ?? '') ?>" placeholder="Last name" required>
                                 </div>
-                                <div class="col-md-6">
-                                    <label class="form-label">Gender</label>
-                                    <select name="gender" class="form-select">
+                                <div class="col-md-4">
+                                    <label class="form-label small fw-semibold">Gender</label>
+                                    <select name="gender" class="form-select form-select-sm">
                                         <option value="Male" <?= ($suspect['gender'] ?? 'Male') === 'Male' ? 'selected' : '' ?>>Male</option>
                                         <option value="Female" <?= ($suspect['gender'] ?? '') === 'Female' ? 'selected' : '' ?>>Female</option>
                                         <option value="Other" <?= ($suspect['gender'] ?? '') === 'Other' ? 'selected' : '' ?>>Other</option>
                                     </select>
                                 </div>
-                                <div class="col-md-6">
-                                    <label class="form-label">Age</label>
-                                    <input type="number" name="age" class="form-control" value="<?= htmlspecialchars($suspect['age'] ?? '') ?>">
+                                <div class="col-md-4">
+                                    <label class="form-label small fw-semibold">Age</label>
+                                    <input type="number" name="age" class="form-control form-control-sm" value="<?= htmlspecialchars($suspect['age'] ?? '') ?>" placeholder="Age">
                                 </div>
-                                <div class="col-md-6">
-                                    <label class="form-label">Date of Birth</label>
-                                    <input type="date" name="date_of_birth" class="form-control" value="<?= htmlspecialchars($suspect['date_of_birth'] ?? '') ?>">
+                                <div class="col-md-4">
+                                    <label class="form-label small fw-semibold">Date of Birth</label>
+                                    <input type="date" name="date_of_birth" class="form-control form-control-sm" value="<?= htmlspecialchars($suspect['date_of_birth'] ?? '') ?>">
                                 </div>
+                            </div>
+
+                            <!-- Section 4: Address & Jurisdiction -->
+                            <div class="form-section-title"><i class="bi bi-geo-alt me-1"></i> Address & Jurisdiction</div>
+                            <div class="row g-3 mb-4">
                                 <div class="col-12">
-                                    <label class="form-label">Address</label>
-                                    <input type="text" name="address" class="form-control" value="<?= htmlspecialchars($suspect['address'] ?? '') ?>">
+                                    <label class="form-label small fw-semibold">House No. / Street / Subd</label>
+                                    <input type="text" name="address" class="form-control form-control-sm" value="<?= htmlspecialchars($suspect['address'] ?? '') ?>" placeholder="e.g. #123 Maharlika St.">
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label">Province</label>
-                                    <select name="province" id="provinceSelect" class="form-select">
-                                        <option value="Metro Manila">Metro Manila</option>
+                                    <label class="form-label small fw-semibold">Province</label>
+                                    <select name="province" id="provinceSelect" class="form-select form-select-sm">
+                                        <option value="Metro Manila" selected>Metro Manila</option>
                                     </select>
                                 </div>
-
                                 <div class="col-md-6">
-                                    <label class="form-label">City / Municipality</label>
-                                    <select name="city" id="citySelect" class="form-select">
-                                        <option value="Quezon City">Quezon City</option>
+                                    <label class="form-label small fw-semibold">City / Municipality</label>
+                                    <select name="city" id="citySelect" class="form-select form-select-sm">
+                                        <option value="Quezon City" selected>Quezon City</option>
                                     </select>
                                 </div>
-
-                                <div class="col-md-6">
-                                    <label class="form-label">Barangay</label>
-                                    <select name="barangay" id="brgySelect" class="form-select">
+                                <div class="col-md-8">
+                                    <label class="form-label small fw-semibold">Barangay</label>
+                                    <select name="barangay" id="brgySelect" class="form-select form-select-sm">
                                         <option value="">-- Select Barangay --</option>
                                     </select>
                                 </div>
+                                <div class="col-md-4">
+                                    <label class="form-label small fw-semibold">ZIP Code</label>
+                                    <input type="text" name="zip_code" id="zipCode" class="form-control form-control-sm bg-light" value="<?= htmlspecialchars($suspect['zip_code'] ?? '1110') ?>" readonly>
+                                </div>
+                            </div>
 
+                            <!-- Section 5: Contact & Identification -->
+                            <div class="form-section-title"><i class="bi bi-card-heading me-1"></i> Contact & Government ID</div>
+                            <div class="row g-3 mb-4">
                                 <div class="col-md-6">
-                                    <label class="form-label">ZIP Code</label>
-                                    <input type="text" name="zip_code" id="zipCode" class="form-control" value="<?= htmlspecialchars($suspect['zip_code'] ?? '') ?>" readonly>
+                                    <label class="form-label small fw-semibold">Contact Number</label>
+                                    <input type="tel" name="contact_number" class="form-control form-control-sm" value="<?= htmlspecialchars($suspect['contact_number'] ?? '') ?>" placeholder="09XX-XXX-XXXX">
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label">Contact Number</label>
-                                    <input type="tel" name="contact_number" class="form-control" value="<?= htmlspecialchars($suspect['contact_number'] ?? '') ?>">
+                                    <label class="form-label small fw-semibold">Email Address</label>
+                                    <input type="email" name="email" class="form-control form-control-sm" value="<?= htmlspecialchars($suspect['email'] ?? '') ?>" placeholder="email@example.com">
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label">Email</label>
-                                    <input type="email" name="email" class="form-control" value="<?= htmlspecialchars($suspect['email'] ?? '') ?>">
-                                </div>
-                                <div class="col-md-6">
-                                    <label class="form-label">ID Type</label>
-                                    <select name="id_type" class="form-select">
+                                    <label class="form-label small fw-semibold">ID Type</label>
+                                    <select name="id_type" class="form-select form-select-sm">
                                         <option value="">-- Select ID Type --</option>
                                         <option value="Philippine Passport" <?= ($suspect['id_type'] ?? '') === 'Philippine Passport' ? 'selected' : '' ?>>Philippine Passport</option>
                                         <option value="Driver's License" <?= ($suspect['id_type'] ?? '') === "Driver's License" ? 'selected' : '' ?>>Driver's License</option>
-                                        <option value="National ID (ID)" <?= ($suspect['id_type'] ?? '') === 'National ID (ID)' ? 'selected' : '' ?>>National ID (ID)</option>
+                                        <option value="National ID" <?= ($suspect['id_type'] ?? '') === 'National ID' ? 'selected' : '' ?>>National ID (PhilSys)</option>
                                         <option value="Postal ID" <?= ($suspect['id_type'] ?? '') === 'Postal ID' ? 'selected' : '' ?>>Postal ID</option>
-                                        <option value="UMID" <?= ($suspect['id_type'] ?? '') === 'UMID' ? 'selected' : '' ?>>UMID (Union Card)</option>
+                                        <option value="UMID" <?= ($suspect['id_type'] ?? '') === 'UMID' ? 'selected' : '' ?>>UMID</option>
                                         <option value="PNP Clearance" <?= ($suspect['id_type'] ?? '') === 'PNP Clearance' ? 'selected' : '' ?>>PNP Clearance</option>
-                                        <option value="TIN ID" <?= ($suspect['id_type'] ?? '') === 'TIN ID' ? 'selected' : '' ?>>TIN ID</option>
-                                        <option value="Senior Citizen ID" <?= ($suspect['id_type'] ?? '') === 'Senior Citizen ID' ? 'selected' : '' ?>>Senior Citizen ID</option>
-                                        <option value="PWD ID" <?= ($suspect['id_type'] ?? '') === 'PWD ID' ? 'selected' : '' ?>>PWD ID</option>
                                         <option value="Barangay ID" <?= ($suspect['id_type'] ?? '') === 'Barangay ID' ? 'selected' : '' ?>>Barangay ID</option>
-                                        <option value="School ID" <?= ($suspect['id_type'] ?? '') === 'School ID' ? 'selected' : '' ?>>School ID</option>
-                                        <option value="Company ID" <?= ($suspect['id_type'] ?? '') === 'Company ID' ? 'selected' : '' ?>>Company ID</option>
                                         <option value="Other" <?= ($suspect['id_type'] ?? '') === 'Other' ? 'selected' : '' ?>>Other</option>
                                     </select>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label">ID Number</label>
-                                    <input type="text" name="id_number" class="form-control" value="<?= htmlspecialchars($suspect['id_number'] ?? '') ?>" placeholder="Auto-generated or enter manually">
+                                    <label class="form-label small fw-semibold">ID Number</label>
+                                    <input type="text" name="id_number" class="form-control form-control-sm" value="<?= htmlspecialchars($suspect['id_number'] ?? '') ?>" placeholder="ID Number">
                                 </div>
                                 <div class="col-12">
-                                    <label class="form-label">ID Attachment (Document Photo)</label>
-                                    <div class="d-flex gap-3 align-items-start">
-                                        <div>
-                                            <?php if ($suspect && isset($suspect['id_attachment']) && $suspect['id_attachment']): ?>
-                                                <img id="idPreview" src="<?= htmlspecialchars('../' . $suspect['id_attachment']) ?>?t=<?= time() ?>" alt="ID Document" class="img-thumbnail" style="max-width: 150px; max-height: 150px;">
-                                            <?php else: ?>
-                                                <div id="idPreview" class="border rounded p-3 text-center bg-light" style="width: 150px; height: 150px; display: flex; align-items: center; justify-content: center;">
-                                                    <div>
-                                                        <i class="bi bi-card-text" style="font-size: 2rem; color: #ccc;"></i>
-                                                        <p class="text-muted mt-2 mb-0" style="font-size: 0.8rem;">No ID</p>
-                                                    </div>
-                                                </div>
-                                            <?php endif; ?>
-                                        </div>
-                                        <div class="flex-grow-1">
-                                            <input type="file" name="id_attachment" id="idAttachment" class="form-control" accept="image/*">
-                                            <small class="text-muted d-block mt-2">
-                                                <i class="bi bi-info-circle"></i>
-                                                Upload a photo of the ID/document<br>
-                                                Accepted: JPG, PNG, GIF, WebP<br>
-                                                Max size: 5MB recommended
-                                            </small>
-                                        </div>
-                                    </div>
+                                    <label class="form-label small fw-semibold">ID Document Attachment</label>
+                                    <input type="file" name="id_attachment" id="idAttachment" class="form-control form-control-sm" accept="image/*,.pdf">
+                                    <?php if ($suspect && !empty($suspect['id_attachment'])): ?>
+                                        <small class="text-success mt-1 d-block"><i class="bi bi-paperclip"></i> Current file: <?= htmlspecialchars(basename($suspect['id_attachment'])) ?></small>
+                                    <?php endif; ?>
                                 </div>
-                                <div class="col-12">
-                                    <label class="form-label">Physical Description</label>
-                                    <textarea name="physical_description" class="form-control" rows="2"><?= htmlspecialchars($suspect['physical_description'] ?? '') ?></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <label class="form-label">Known Aliases</label>
-                                    <input type="text" name="known_aliases" class="form-control" value="<?= htmlspecialchars($suspect['known_aliases'] ?? '') ?>">
-                                </div>
-                                <div class="col-12">
-                                    <label class="form-label">Criminal History</label>
-                                    <textarea name="criminal_history" class="form-control" rows="2"><?= htmlspecialchars($suspect['criminal_history'] ?? '') ?></textarea>
-                                </div>
+                            </div>
+
+                            <!-- Section 6: Legal Status & Remarks -->
+                            <div class="form-section-title"><i class="bi bi-shield-shaded me-1"></i> Legal Status & Dossier Notes</div>
+                            <div class="row g-3 mb-4">
                                 <div class="col-md-6">
-                                    <label class="form-label">Status</label>
-                                    <select name="status" class="form-select">
-                                        <option value="Active" <?= ($suspect['status'] ?? 'Active') === 'Active' ? 'selected' : '' ?>>Active</option>
-                                        <option value="Arrested" <?= ($suspect['status'] ?? '') === 'Arrested' ? 'selected' : '' ?>>Arrested</option>
-                                        <option value="Released" <?= ($suspect['status'] ?? '') === 'Released' ? 'selected' : '' ?>>Released</option>
+                                    <label class="form-label small fw-semibold">Operational Status <span class="text-danger">*</span></label>
+                                    <select name="status" class="form-select form-select-sm" required>
+                                        <option value="Active" <?= ($suspect['status'] ?? 'Active') === 'Active' ? 'selected' : '' ?>>Active / At Large</option>
+                                        <option value="Under Surveillance" <?= ($suspect['status'] ?? '') === 'Under Surveillance' ? 'selected' : '' ?>>Under Surveillance</option>
+                                        <option value="Arrested" <?= ($suspect['status'] ?? '') === 'Arrested' ? 'selected' : '' ?>>Arrested / In Custody</option>
+                                        <option value="Released" <?= ($suspect['status'] ?? '') === 'Released' ? 'selected' : '' ?>>Released on Bail</option>
                                         <option value="Deceased" <?= ($suspect['status'] ?? '') === 'Deceased' ? 'selected' : '' ?>>Deceased</option>
                                         <option value="Unknown" <?= ($suspect['status'] ?? '') === 'Unknown' ? 'selected' : '' ?>>Unknown</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <label class="form-label">Remarks</label>
-                                    <textarea name="remarks" class="form-control" rows="2"><?= htmlspecialchars($suspect['remarks'] ?? '') ?></textarea>
+                                    <label class="form-label small fw-semibold">Remarks & Modus Operandi Notes</label>
+                                    <textarea name="remarks" class="form-control form-control-sm" rows="3" placeholder="Enter physical descriptors, scars, tattoos, known aliases, or case notes..."><?= htmlspecialchars($suspect['remarks'] ?? '') ?></textarea>
                                 </div>
                             </div>
-                            <div class="d-flex gap-2 mt-4">
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="bi bi-save"></i> <?= $edit_id ? 'Update' : 'Add' ?> Suspect
+
+                            <div class="d-flex gap-2 pt-2 border-top">
+                                <button type="submit" class="btn btn-success fw-bold px-4 shadow-sm" style="background-color: #2e856e; border-color: #2e856e;">
+                                    <i class="bi bi-check2-circle me-1"></i> <?= $edit_id ? 'Save Updates' : 'Register Suspect' ?>
                                 </button>
                                 <?php if ($edit_id): ?>
-                                    <a href="suspects_management.php?case_id=<?= $case_id ?>" class="btn btn-secondary">Cancel</a>
+                                    <a href="suspects_management.php?case_id=<?= htmlspecialchars($case_id) ?>" class="btn btn-outline-secondary">
+                                        Cancel Edit
+                                    </a>
                                 <?php endif; ?>
                             </div>
                         </form>
@@ -561,113 +529,157 @@ include '../includes/navbar.php';
                 </div>
             </div>
 
-            <!-- Suspects List -->
+            <!-- ================= RIGHT COLUMN: SUSPECTS & STASH CATALOG ================= -->
             <div class="col-lg-6">
-                <div class="card">
-                    <!-- Tabs -->
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="active-tab" data-bs-toggle="tab" data-bs-target="#activeTab" type="button" role="tab">
-                                <i class="bi bi-person-check"></i> Active Suspects (<?= count($suspects) ?>)
-                            </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="deleted-tab" data-bs-toggle="tab" data-bs-target="#deletedTab" type="button" role="tab">
-                                <i class="bi bi-trash"></i> Stash (<?= count($deleted_suspects) ?>)
-                            </button>
-                        </li>
-                    </ul>
+                <div class="card shadow-sm border-0 mb-4" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(46,133,110,0.2) !important;">
+                    <div class="card-header bg-light p-3 border-bottom d-flex justify-content-between align-items-center flex-wrap gap-2">
+                        <!-- Tab Pills Navigation -->
+                        <ul class="nav nav-pills nav-pills-emerald mb-0" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="active-tab" data-bs-toggle="tab" data-bs-target="#activeTab" type="button" role="tab">
+                                    <i class="bi bi-person-check me-1"></i> Active Suspects <span class="badge bg-white text-dark ms-1"><?= count($suspects) ?></span>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="deleted-tab" data-bs-toggle="tab" data-bs-target="#deletedTab" type="button" role="tab">
+                                    <i class="bi bi-archive me-1"></i> Stash / Trash <span class="badge bg-secondary ms-1"><?= count($deleted_suspects) ?></span>
+                                </button>
+                            </li>
+                        </ul>
 
-                    <!-- Tab Content -->
-                    <div class="tab-content">
-                        <!-- Active Suspects Tab -->
-                        <div class="tab-pane fade show active" id="activeTab" role="tabpanel">
-                            <div class="card-body" style="max-height: 600px; overflow-y: auto;">
-                                <?php if (!empty($suspects)): ?>
-                                    <?php foreach ($suspects as $s): ?>
-                                        <div class="border-bottom pb-3 mb-3">
-                                            <div class="d-flex justify-content-between align-items-start gap-3">
-                                                <?php if (isset($s['photo_path']) && $s['photo_path']): ?>
-                                            <img src="<?= htmlspecialchars('../' . $s['photo_path']) ?>" alt="Suspect Photo" class="img-thumbnail" style="width: 80px; height: 100px; object-fit: cover; flex-shrink: 0;" onerror="this.style.display='none'">
-                                        <?php else: ?>
-                                            <div class="border rounded p-2 text-center bg-light" style="width: 80px; height: 100px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                                <i class="bi bi-person-fill" style="font-size: 2rem; color: #ccc;"></i>
-                                            </div>
-                                        <?php endif; ?>
-                                        <div class="flex-grow-1">
-                                            <h6 class="mb-1">
-                                                <strong><?= htmlspecialchars($s['first_name'] . ' ' . $s['last_name']) ?></strong>
-                                                <?php if ($s['age']): ?>
-                                                    <span class="text-muted">(<?= $s['age'] ?> years)</span>
-                                                <?php endif; ?>
-                                            </h6>
-                                            <small class="text-muted d-block">
-                                                <?php if ($s['address']): ?>
-                                                    <?= htmlspecialchars($s['address']) ?><br>
-                                                <?php endif; ?>
-                                                <?php if ($s['contact_number']): ?>
-                                                    <i class="bi bi-telephone"></i> <?= htmlspecialchars($s['contact_number']) ?><br>
-                                                <?php endif; ?>
-                                                Status: 
-                                                <span class="badge bg-<?= ($s['status'] === 'Arrested') ? 'danger' : (($s['status'] === 'Released') ? 'success' : 'warning') ?>">
-                                                    <?= htmlspecialchars($s['status']) ?>
-                                                </span>
-                                            </small>
-                                        </div>
-                                        <div class="flex-shrink-0 d-flex gap-2">
-                                            <a href="?case_id=<?= $case_id ?>&edit=<?= $s['id'] ?>" class="btn btn-sm btn-outline-primary">Edit</a>
-                                            <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal" onclick="prepareDeleteModal(<?= $s['id'] ?>, '<?= htmlspecialchars($s['first_name'] . ' ' . $s['last_name']) ?>')">Delete</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php endforeach; ?>
-                                <?php else: ?>
-                                    <p class="text-muted text-center py-5">No suspects recorded yet</p>
-                                <?php endif; ?>
-                            </div>
+                        <!-- Live Search Bar -->
+                        <div class="input-group input-group-sm" style="width: 200px;">
+                            <span class="input-group-text bg-white border-end-0 text-muted"><i class="bi bi-search"></i></span>
+                            <input type="text" id="suspectSearchInput" class="form-control border-start-0 shadow-none" placeholder="Search suspects..." onkeyup="filterSuspectList()">
                         </div>
+                    </div>
 
-                        <!-- Deleted Suspects Tab (Stash) -->
-                        <div class="tab-pane fade" id="deletedTab" role="tabpanel">
-                            <div class="card-body" style="max-height: 600px; overflow-y: auto;">
-                                <?php if (!empty($deleted_suspects)): ?>
-                                    <?php foreach ($deleted_suspects as $ds): ?>
-                                        <div class="border-bottom pb-3 mb-3">
-                                            <div class="d-flex justify-content-between align-items-start gap-3">
-                                                <?php if (isset($ds['photo_path']) && $ds['photo_path']): ?>
-                                                    <img src="<?= htmlspecialchars('../' . $ds['photo_path']) ?>" alt="Suspect Photo" class="img-thumbnail" style="width: 80px; height: 100px; object-fit: cover; flex-shrink: 0;" onerror="this.style.display='none'">
-                                                <?php else: ?>
-                                                    <div class="border rounded p-2 text-center bg-light" style="width: 80px; height: 100px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                                        <i class="bi bi-person-fill" style="font-size: 2rem; color: #ccc;"></i>
+                    <div class="card-body p-3">
+                        <div class="tab-content">
+                            <!-- TAB 1: ACTIVE SUSPECTS -->
+                            <div class="tab-pane fade show active" id="activeTab" role="tabpanel">
+                                <div style="max-height: 700px; overflow-y: auto;" class="pe-1" id="activeSuspectsContainer">
+                                    <?php if (!empty($suspects)): ?>
+                                        <div class="d-flex flex-column gap-3">
+                                            <?php foreach ($suspects as $s): 
+                                                $fullName = trim($s['first_name'] . ' ' . ($s['middle_name'] ? $s['middle_name'] . ' ' : '') . $s['last_name']);
+                                                $statusBadge = match($s['status']) {
+                                                    'Arrested' => 'bg-danger text-white',
+                                                    'Under Surveillance' => 'bg-warning text-dark',
+                                                    'Released' => 'bg-success text-white',
+                                                    default => 'bg-info text-white'
+                                                };
+                                                $suspectJson = htmlspecialchars(json_encode($s), ENT_QUOTES, 'UTF-8');
+                                            ?>
+                                                <div class="suspect-card-item p-3 suspect-item-row"
+                                                     data-name="<?= htmlspecialchars(strtolower($fullName)) ?>"
+                                                     data-address="<?= htmlspecialchars(strtolower($s['address'] . ' ' . ($s['barangay'] ?? ''))) ?>"
+                                                     data-status="<?= htmlspecialchars(strtolower($s['status'])) ?>">
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <!-- Avatar Thumbnail -->
+                                                        <div class="flex-shrink-0">
+                                                            <?php if (!empty($s['photo_path']) && file_exists(dirname(__DIR__) . '/' . $s['photo_path'])): ?>
+                                                                <img src="<?= htmlspecialchars('../' . $s['photo_path']) ?>" alt="Suspect" class="rounded shadow-sm" style="width: 65px; height: 75px; object-fit: cover; border: 1px solid #cbd5e1;">
+                                                            <?php else: ?>
+                                                                <div class="rounded bg-light text-secondary d-flex flex-column align-items-center justify-content-center shadow-sm" style="width: 65px; height: 75px; border: 1px solid #e2e8f0;">
+                                                                    <i class="bi bi-person-fill fs-3 text-muted"></i>
+                                                                </div>
+                                                            <?php endif; ?>
+                                                        </div>
+
+                                                        <!-- Main Dossier Info -->
+                                                        <div class="flex-grow-1">
+                                                            <div class="d-flex justify-content-between align-items-start flex-wrap gap-1">
+                                                                <h6 class="mb-1 fw-bold text-dark">
+                                                                    <?= htmlspecialchars($fullName) ?>
+                                                                    <?php if (!empty($s['age'])): ?>
+                                                                        <span class="text-muted fw-normal small">(<?= (int)$s['age'] ?> yrs)</span>
+                                                                    <?php endif; ?>
+                                                                </h6>
+                                                                <span class="badge <?= $statusBadge ?> px-2 py-1 small"><?= htmlspecialchars($s['status']) ?></span>
+                                                            </div>
+
+                                                            <div class="text-muted small mb-2">
+                                                                <?php if (!empty($s['address'])): ?>
+                                                                    <div><i class="bi bi-geo-alt text-danger me-1"></i><?= htmlspecialchars($s['address']) ?><?= !empty($s['barangay']) ? ', Brgy. ' . htmlspecialchars($s['barangay']) : '' ?></div>
+                                                                <?php endif; ?>
+                                                                <?php if (!empty($s['contact_number'])): ?>
+                                                                    <div><i class="bi bi-telephone text-primary me-1"></i><?= htmlspecialchars($s['contact_number']) ?></div>
+                                                                <?php endif; ?>
+                                                            </div>
+
+                                                            <!-- Quick Action Buttons -->
+                                                            <div class="d-flex gap-2">
+                                                                <button type="button" class="btn btn-sm btn-outline-info" onclick="openSuspectDossier(<?= $suspectJson ?>)">
+                                                                    <i class="bi bi-eye me-1"></i> Dossier
+                                                                </button>
+                                                                <a href="?case_id=<?= htmlspecialchars($case_id) ?>&edit=<?= $s['id'] ?>" class="btn btn-sm btn-outline-primary">
+                                                                    <i class="bi bi-pencil me-1"></i> Edit
+                                                                </a>
+                                                                <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#deleteModal" onclick="prepareDeleteModal(<?= $s['id'] ?>, '<?= htmlspecialchars($fullName, ENT_QUOTES) ?>')">
+                                                                    <i class="bi bi-trash me-1"></i> Stash
+                                                                </button>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                <?php endif; ?>
-                                                <div class="flex-grow-1">
-                                                    <h6 class="mb-1">
-                                                        <strong><?= htmlspecialchars($ds['first_name'] . ' ' . $ds['last_name']) ?></strong>
-                                                        <?php if ($ds['age']): ?>
-                                                            <span class="text-muted">(<?= $ds['age'] ?> years)</span>
-                                                        <?php endif; ?>
-                                                    </h6>
-                                                    <small class="text-muted d-block">
-                                                        <?php if ($ds['address']): ?>
-                                                            <?= htmlspecialchars($ds['address']) ?><br>
-                                                        <?php endif; ?>
-                                                        <?php if ($ds['contact_number']): ?>
-                                                            <i class="bi bi-telephone"></i> <?= htmlspecialchars($ds['contact_number']) ?><br>
-                                                        <?php endif; ?>
-                                                        Deleted: <span class="badge bg-secondary"><?= date('M d, Y', strtotime($ds['deleted_at'])) ?></span>
-                                                    </small>
                                                 </div>
-                                                <div class="flex-shrink-0 d-flex gap-2">
-                                                    <button type="button" class="btn btn-sm btn-success text-white" data-bs-toggle="modal" data-bs-target="#restoreModal" onclick="prepareRestoreModal(<?= $ds['id'] ?>, '<?= htmlspecialchars($ds['first_name'] . ' ' . $ds['last_name'], ENT_QUOTES) ?>')"><i class="bi bi-arrow-counterclockwise"></i> Restore</button>
-                                                    <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#permDeleteModal" onclick="preparePermDeleteModal(<?= $ds['id'] ?>, '<?= htmlspecialchars($ds['first_name'] . ' ' . $ds['last_name'], ENT_QUOTES) ?>')"><i class="bi bi-trash"></i> Delete Permanently</button>
-                                                </div>
-                                            </div>
+                                            <?php endforeach; ?>
                                         </div>
-                                    <?php endforeach; ?>
-                                <?php else: ?>
-                                    <p class="text-muted text-center py-5">No deleted suspects</p>
-                                <?php endif; ?>
+                                    <?php else: ?>
+                                        <div class="text-center py-5 text-muted">
+                                            <i class="bi bi-person-x fs-1 d-block mb-2 text-secondary"></i>
+                                            <p class="mb-0 fw-semibold">No active suspects recorded for this case.</p>
+                                            <small>Fill out the form on the left to add a suspect.</small>
+                                        </div>
+                                    <?php endif; ?>
+                                </div>
+                            </div>
+
+                            <!-- TAB 2: STASH / TRASH -->
+                            <div class="tab-pane fade" id="deletedTab" role="tabpanel">
+                                <div style="max-height: 700px; overflow-y: auto;" class="pe-1">
+                                    <?php if (!empty($deleted_suspects)): ?>
+                                        <div class="d-flex flex-column gap-3">
+                                            <?php foreach ($deleted_suspects as $ds): 
+                                                $dsFullName = trim($ds['first_name'] . ' ' . ($ds['middle_name'] ? $ds['middle_name'] . ' ' : '') . $ds['last_name']);
+                                            ?>
+                                                <div class="suspect-card-item p-3 border-warning" style="background: #fffdf5;">
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div class="flex-shrink-0">
+                                                            <?php if (!empty($ds['photo_path']) && file_exists(dirname(__DIR__) . '/' . $ds['photo_path'])): ?>
+                                                                <img src="<?= htmlspecialchars('../' . $ds['photo_path']) ?>" alt="Suspect" class="rounded opacity-75" style="width: 55px; height: 65px; object-fit: cover;">
+                                                            <?php else: ?>
+                                                                <div class="rounded bg-light text-secondary d-flex align-items-center justify-content-center" style="width: 55px; height: 65px;">
+                                                                    <i class="bi bi-person-x fs-4"></i>
+                                                                </div>
+                                                            <?php endif; ?>
+                                                        </div>
+
+                                                        <div class="flex-grow-1">
+                                                            <h6 class="mb-1 fw-bold text-dark"><?= htmlspecialchars($dsFullName) ?></h6>
+                                                            <small class="text-muted d-block mb-2">
+                                                                <i class="bi bi-clock-history me-1"></i> Stashed on <?= date('M d, Y', strtotime($ds['deleted_at'])) ?>
+                                                            </small>
+                                                            <div class="d-flex gap-2">
+                                                                <button type="button" class="btn btn-sm btn-success text-white" data-bs-toggle="modal" data-bs-target="#restoreModal" onclick="prepareRestoreModal(<?= $ds['id'] ?>, '<?= htmlspecialchars($dsFullName, ENT_QUOTES) ?>')">
+                                                                    <i class="bi bi-arrow-counterclockwise me-1"></i> Restore
+                                                                </button>
+                                                                <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#permDeleteModal" onclick="preparePermDeleteModal(<?= $ds['id'] ?>, '<?= htmlspecialchars($dsFullName, ENT_QUOTES) ?>')">
+                                                                    <i class="bi bi-trash3 me-1"></i> Delete Permanently
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            <?php endforeach; ?>
+                                        </div>
+                                    <?php else: ?>
+                                        <div class="text-center py-5 text-muted">
+                                            <i class="bi bi-archive fs-1 d-block mb-2 text-secondary"></i>
+                                            <p class="mb-0">Stash is empty. No deleted suspects.</p>
+                                        </div>
+                                    <?php endif; ?>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -677,24 +689,69 @@ include '../includes/navbar.php';
     </div>
 </div>
 
+<!-- ================= INTERACTIVE SUSPECT DOSSIER SUB-MODAL ================= -->
+<div class="modal fade" id="suspectDossierModal" tabindex="-1" aria-labelledby="suspectDossierModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 12px; overflow: hidden;">
+            <div class="modal-header text-white" style="background: linear-gradient(135deg, #1b5a56, #2e856e);">
+                <h5 class="modal-title fw-bold" id="suspectDossierModalLabel"><i class="fas fa-id-card me-2"></i>Suspect Dossier & Profile</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4 bg-light">
+                <div class="row g-4">
+                    <!-- Photo & Quick Stats -->
+                    <div class="col-md-4 text-center">
+                        <div class="card p-3 shadow-sm border-0 bg-white" style="border-radius: 10px;">
+                            <img id="dossierPhoto" src="" alt="Suspect" class="img-fluid rounded mb-3 shadow-sm" style="max-height: 220px; object-fit: cover; width: 100%;">
+                            <h5 id="dossierName" class="fw-bold mb-1 text-dark"></h5>
+                            <span id="dossierStatusBadge" class="badge px-3 py-2 mb-2"></span>
+                            <div class="small text-muted" id="dossierGenderAge"></div>
+                        </div>
+                    </div>
+
+                    <!-- Detailed Info Fields -->
+                    <div class="col-md-8">
+                        <div class="card p-3 shadow-sm border-0 bg-white" style="border-radius: 10px;">
+                            <h6 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-info-circle text-success me-2"></i>Demographics & Identification</h6>
+                            <dl class="row mb-0 small">
+                                <dt class="col-sm-4 text-muted text-uppercase">Date of Birth</dt><dd class="col-sm-8 fw-semibold" id="dossierDob">N/A</dd>
+                                <dt class="col-sm-4 text-muted text-uppercase">Full Address</dt><dd class="col-sm-8" id="dossierAddress">N/A</dd>
+                                <dt class="col-sm-4 text-muted text-uppercase">Contact Phone</dt><dd class="col-sm-8" id="dossierContact">N/A</dd>
+                                <dt class="col-sm-4 text-muted text-uppercase">Email</dt><dd class="col-sm-8" id="dossierEmail">N/A</dd>
+                                <dt class="col-sm-4 text-muted text-uppercase">ID Presented</dt><dd class="col-sm-8" id="dossierIdInfo">N/A</dd>
+                            </dl>
+                            <hr class="my-3">
+                            <h6 class="fw-bold text-dark border-bottom pb-2 mb-2"><i class="bi bi-card-text text-success me-2"></i>Modus & Case Remarks</h6>
+                            <p class="text-secondary small mb-0 p-2 rounded bg-light border" id="dossierRemarks" style="min-height: 60px; white-space: pre-wrap;"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer bg-white border-top">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close Dossier</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Delete Confirmation Modal -->
 <div class="modal fade" id="deleteModal" tabindex="-1">
-    <div class="modal-dialog">
-        <div class="modal-content bg-white text-dark border border-2">
-            <div class="modal-header bg-danger text-white border-bottom border-2">
-                <h5 class="modal-title">Move to Stash</h5>
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 12px; overflow: hidden;">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title fw-bold"><i class="bi bi-archive me-2"></i>Move to Stash</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body text-dark border-bottom border-2">
-                <p>Move <strong id="deleteSuspectName"></strong> to stash?</p>
-                <p class="text-muted small mb-0">The suspect record will be moved to the stash and hidden from the active list. You can restore it later from the Stash tab.</p>
+            <div class="modal-body p-4 text-dark">
+                <p class="mb-2">Move <strong id="deleteSuspectName"></strong> to stash?</p>
+                <p class="text-muted small mb-0">The record will be archived in the Stash / Trash tab and hidden from active case operations.</p>
             </div>
-            <div class="modal-footer border-top border-2">
+            <div class="modal-footer bg-light">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                 <form method="POST" style="display:inline;">
                     <input type="hidden" name="case_id" value="<?= htmlspecialchars($case_id) ?>">
                     <input type="hidden" name="delete_suspect_id" id="deleteSuspectId" value="">
-                    <button type="submit" class="btn btn-danger">Move to Stash</button>
+                    <button type="submit" class="btn btn-danger"><i class="bi bi-archive me-1"></i> Move to Stash</button>
                 </form>
             </div>
         </div>
@@ -703,22 +760,22 @@ include '../includes/navbar.php';
 
 <!-- Restore Confirmation Modal -->
 <div class="modal fade" id="restoreModal" tabindex="-1">
-    <div class="modal-dialog">
-        <div class="modal-content bg-white text-dark border border-2">
-            <div class="modal-header bg-success text-white border-bottom border-2">
-                <h5 class="modal-title"><i class="bi bi-arrow-counterclockwise me-1"></i>Restore Suspect</h5>
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 12px; overflow: hidden;">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title fw-bold"><i class="bi bi-arrow-counterclockwise me-2"></i>Restore Suspect</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body text-dark border-bottom border-2">
-                <p>Restore <strong id="restoreSuspectName"></strong> to active suspects?</p>
-                <p class="text-muted small mb-0">The suspect record will be moved back to the active list.</p>
+            <div class="modal-body p-4 text-dark">
+                <p class="mb-2">Restore <strong id="restoreSuspectName"></strong> back to active suspects?</p>
+                <p class="text-muted small mb-0">The suspect record will be immediately available in the active directory.</p>
             </div>
-            <div class="modal-footer border-top border-2">
+            <div class="modal-footer bg-light">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                 <form method="POST" style="display:inline;">
                     <input type="hidden" name="case_id" value="<?= htmlspecialchars($case_id ?? '') ?>">
                     <input type="hidden" name="restore_suspect_id" id="restoreSuspectId" value="">
-                    <button type="submit" class="btn btn-success">Restore Suspect</button>
+                    <button type="submit" class="btn btn-success text-white"><i class="bi bi-arrow-counterclockwise me-1"></i> Restore Record</button>
                 </form>
             </div>
         </div>
@@ -727,24 +784,24 @@ include '../includes/navbar.php';
 
 <!-- Permanent Delete Confirmation Modal -->
 <div class="modal fade" id="permDeleteModal" tabindex="-1">
-    <div class="modal-dialog">
-        <div class="modal-content bg-white text-dark border border-2">
-            <div class="modal-header bg-danger text-white border-bottom border-2">
-                <h5 class="modal-title"><i class="bi bi-exclamation-triangle me-1"></i>Permanent Delete Suspect</h5>
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 12px; overflow: hidden;">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title fw-bold"><i class="bi bi-exclamation-triangle-fill me-2"></i>Permanent Deletion</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body text-dark">
-                <p>Are you sure you want to <strong>permanently delete</strong> <strong id="permDeleteSuspectName"></strong>?</p>
+            <div class="modal-body p-4 text-dark">
+                <p class="mb-2">Permanently erase <strong id="permDeleteSuspectName"></strong> from the database?</p>
                 <div class="alert alert-danger mb-0 small">
-                    <i class="bi bi-exclamation-octagon me-1"></i><strong>Warning:</strong> This action cannot be undone. All suspect records, attachments, and photos will be erased.
+                    <i class="bi bi-exclamation-octagon me-1"></i><strong>Irreversible Action:</strong> All attached mugshots, ID proofs, and historical links will be purged permanently.
                 </div>
             </div>
-            <div class="modal-footer border-top">
+            <div class="modal-footer bg-light">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                 <form method="POST" style="display:inline;">
                     <input type="hidden" name="case_id" value="<?= htmlspecialchars($case_id ?? '') ?>">
                     <input type="hidden" name="permanent_delete_suspect_id" id="permDeleteSuspectId" value="">
-                    <button type="submit" class="btn btn-danger">Delete Permanently</button>
+                    <button type="submit" class="btn btn-danger"><i class="bi bi-trash3 me-1"></i> Delete Permanently</button>
                 </form>
             </div>
         </div>
@@ -752,6 +809,59 @@ include '../includes/navbar.php';
 </div>
 
 <script>
+// Open Dossier Sub-Modal
+function openSuspectDossier(s) {
+    const fullName = (s.first_name || '') + ' ' + (s.middle_name ? s.middle_name + ' ' : '') + (s.last_name || '');
+    document.getElementById('dossierName').textContent = fullName || 'Suspect Details';
+
+    const photoEl = document.getElementById('dossierPhoto');
+    if (s.photo_path) {
+        photoEl.src = '../' + s.photo_path;
+        photoEl.style.display = 'block';
+    } else {
+        photoEl.src = 'https://ui-avatars.com/api/?name=' + encodeURIComponent(fullName) + '&background=2e856e&color=fff&size=200';
+    }
+
+    const statusBadge = document.getElementById('dossierStatusBadge');
+    statusBadge.textContent = s.status || 'Active';
+    statusBadge.className = 'badge px-3 py-2 mb-2 ' + (
+        s.status === 'Arrested' ? 'bg-danger' :
+        s.status === 'Under Surveillance' ? 'bg-warning text-dark' :
+        s.status === 'Released' ? 'bg-success' : 'bg-info'
+    );
+
+    document.getElementById('dossierGenderAge').textContent = (s.gender || 'Unknown') + (s.age ? ' • ' + s.age + ' years old' : '');
+    document.getElementById('dossierDob').textContent = s.date_of_birth || 'Not recorded';
+    
+    let addr = s.address || '';
+    if (s.barangay) addr += (addr ? ', ' : '') + 'Brgy. ' + s.barangay;
+    if (s.city) addr += (addr ? ', ' : '') + s.city;
+    if (s.province) addr += (addr ? ', ' : '') + s.province;
+    document.getElementById('dossierAddress').textContent = addr || 'N/A';
+
+    document.getElementById('dossierContact').textContent = s.contact_number || 'N/A';
+    document.getElementById('dossierEmail').textContent = s.email || 'N/A';
+    document.getElementById('dossierIdInfo').textContent = (s.id_type || 'N/A') + (s.id_number ? ' (' + s.id_number + ')' : '');
+    document.getElementById('dossierRemarks').textContent = s.remarks || 'No specific remarks or modus operandi notes on record.';
+
+    const modal = new bootstrap.Modal(document.getElementById('suspectDossierModal'));
+    modal.show();
+}
+
+// Live Filter Suspect List
+function filterSuspectList() {
+    const q = (document.getElementById('suspectSearchInput')?.value || '').toLowerCase().trim();
+    const rows = document.querySelectorAll('#activeSuspectsContainer .suspect-item-row');
+    rows.forEach(r => {
+        const text = (
+            (r.getAttribute('data-name') || '') + ' ' +
+            (r.getAttribute('data-address') || '') + ' ' +
+            (r.getAttribute('data-status') || '')
+        ).toLowerCase();
+        r.style.display = (!q || text.includes(q)) ? '' : 'none';
+    });
+}
+
 // Prepare delete modal
 function prepareDeleteModal(suspectId, suspectName) {
     document.getElementById('deleteSuspectId').value = suspectId;
@@ -772,7 +882,6 @@ function preparePermDeleteModal(suspectId, suspectName) {
 
 // Photo preview functionality
 const photoInput = document.getElementById('photo');
-const photoPreview = document.getElementById('photoPreview');
 if (photoInput) {
     photoInput.addEventListener('change', function(e) {
         const file = e.target.files[0];
@@ -780,30 +889,19 @@ if (photoInput) {
             if (file.size > 5 * 1024 * 1024) { alert('File size exceeds 5MB limit'); this.value = ''; return; }
             const reader = new FileReader();
             reader.onload = function(event) {
-                if (photoPreview.classList.contains('border')) {
-                    photoPreview.innerHTML = ''; photoPreview.classList.remove('border','rounded','p-3','text-center','bg-white');
+                let previewImg = document.getElementById('photoPreviewImg');
+                const container = document.getElementById('photoPreviewContainer');
+                if (!previewImg && container) {
+                    container.innerHTML = '';
+                    previewImg = document.createElement('img');
+                    previewImg.id = 'photoPreviewImg';
+                    previewImg.className = 'img-thumbnail shadow-sm';
+                    previewImg.style.width = '110px';
+                    previewImg.style.height = '130px';
+                    previewImg.style.objectFit = 'cover';
+                    container.parentNode.replaceChild(previewImg, container);
                 }
-                const img = document.createElement('img'); img.src = event.target.result; img.className = 'img-thumbnail'; img.style.maxWidth = '150px'; img.style.maxHeight = '200px'; photoPreview.innerHTML = ''; photoPreview.appendChild(img);
-            };
-            reader.readAsDataURL(file);
-        }
-    });
-}
-
-// ID attachment preview functionality
-const idInput = document.getElementById('idAttachment');
-const idPreview = document.getElementById('idPreview');
-if (idInput) {
-    idInput.addEventListener('change', function(e) {
-        const file = e.target.files[0];
-        if (file) {
-            if (file.size > 5 * 1024 * 1024) { alert('File size exceeds 5MB limit'); this.value = ''; return; }
-            const reader = new FileReader();
-            reader.onload = function(event) {
-                if (idPreview.classList.contains('border')) {
-                    idPreview.innerHTML = ''; idPreview.classList.remove('border','rounded','p-3','text-center','bg-light');
-                }
-                const img = document.createElement('img'); img.src = event.target.result; img.className = 'img-thumbnail'; img.style.maxWidth = '150px'; img.style.maxHeight = '150px'; idPreview.innerHTML = ''; idPreview.appendChild(img);
+                if (previewImg) previewImg.src = event.target.result;
             };
             reader.readAsDataURL(file);
         }
@@ -855,7 +953,7 @@ if (idInput) {
         try { $(brgySelect).trigger('change.select2'); } catch (e) {}
     }
 
-    zipCode.value = '1110';
+    if (zipCode) zipCode.value = '1110';
 })();
 </script>
 
