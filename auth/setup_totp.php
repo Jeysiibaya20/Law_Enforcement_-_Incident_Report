@@ -48,11 +48,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $tfa->enable2FA($userId, $secret, 'TOTP');
             
             // If user was in pending login state, complete login
-            if (!empty($_SESSION['pending_2fa_user'])) {
-                $_SESSION['resident_user_id'] = $userId;
+            if (!empty($_SESSION['pending_2fa_user']) || !empty($_SESSION['one_time_setup_user'])) {
+                $role = strtolower($_SESSION['pending_2fa_role'] ?? 'user');
                 $_SESSION['user_id'] = $userId;
-                unset($_SESSION['pending_2fa_user'], $_SESSION['pending_2fa_method'], $_SESSION['setup_totp_secret']);
-                header('Location: ../modules/my_reports.php');
+                
+                if (strpos($role, 'admin') !== false || strpos($role, 'officer') !== false) {
+                    $_SESSION['admin_user_id'] = $userId;
+                    $_SESSION['admin_fullname'] = $_SESSION['pending_2fa_username'] ?? 'Admin';
+                    $_SESSION['admin_username'] = $_SESSION['pending_2fa_username'] ?? 'Admin';
+                    $_SESSION['admin_role'] = ucfirst($role);
+                    $redirectUrl = '../admin/dashboard.php';
+                } else {
+                    $_SESSION['resident_user_id'] = $userId;
+                    $_SESSION['fullname'] = $_SESSION['pending_2fa_username'] ?? 'Resident';
+                    $_SESSION['username'] = $_SESSION['pending_2fa_username'] ?? 'Resident';
+                    $redirectUrl = '../modules/my_reports.php';
+                }
+                
+                unset($_SESSION['pending_2fa_user'], $_SESSION['pending_2fa_method'], $_SESSION['setup_totp_secret'], $_SESSION['one_time_setup_user'], $_SESSION['pending_2fa_role'], $_SESSION['pending_2fa_username'], $_SESSION['pending_2fa_email']);
+                header("Location: {$redirectUrl}");
                 exit();
             }
             
