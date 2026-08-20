@@ -403,162 +403,169 @@ try {
     </div>
 </div>
 
-<?php require_once '../includes/footer.php'; ?>
-
-    <!-- Details Modal -->
-    <div class="modal fade" id="detailsModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">CCTV Request Details</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <ul class="list-unstyled">
-                                <li class="py-2"><strong>Request ID</strong></li>
-                                <li class="py-2"><strong>Agency</strong></li>
-                                <li class="py-2"><strong>Contact</strong></li>
-                                <li class="py-2"><strong>Email</strong></li>
-                                <li class="py-2"><strong>Case Reference</strong></li>
-                                <li class="py-2"><strong>Purpose</strong></li>
-                                <li class="py-2"><strong>Legal Basis</strong></li>
-                                <li class="py-2"><strong>Incident Location</strong></li>
-                                <li class="py-2"><strong>Camera</strong></li>
-                                <li class="py-2"><strong>Footage Window</strong></li>
-                                <li class="py-2"><strong>Incident Description</strong></li>
-                                <li class="py-2"><strong>Delivery Method</strong></li>
-                                <li class="py-2"><strong>Supporting Document</strong></li>
-                                <li class="py-2"><strong>Status</strong></li>
-                                <li class="py-2"><strong>Review Notes</strong></li>
-                                <li class="py-2"><strong>Rejection Reason</strong></li>
-                                <li class="py-2"><strong>Fulfillment Notes</strong></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-7">
-                            <ul class="list-unstyled" id="detailsValues">
-                                <li class="py-2" data-key="request-id"></li>
-                                <li class="py-2" data-key="agency"></li>
-                                <li class="py-2" data-key="contact"></li>
-                                <li class="py-2" data-key="email"></li>
-                                <li class="py-2" data-key="case-ref"></li>
-                                <li class="py-2" data-key="purpose"></li>
-                                <li class="py-2" data-key="legal"></li>
-                                <li class="py-2" data-key="location"></li>
-                                <li class="py-2" data-key="camera"></li>
-                                <li class="py-2" data-key="footage-window"></li>
-                                <li class="py-2" data-key="description"></li>
-                                <li class="py-2" data-key="delivery"></li>
-                                <li class="py-2" data-key="supporting"></li>
-                                <li class="py-2" data-key="status"></li>
-                                <li class="py-2" data-key="review-notes"></li>
-                                <li class="py-2" data-key="rejection"></li>
-                                <li class="py-2" data-key="fulfillment"></li>
-                            </ul>
-                        </div>
+<!-- Details Modal -->
+<div class="modal fade" id="detailsModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title text-white"><i class="fas fa-video me-2 text-warning"></i>CCTV Request Details</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <div class="row g-3">
+                    <div class="col-md-5">
+                        <ul class="list-unstyled mb-0">
+                            <li class="py-2 border-bottom"><strong>Request ID</strong></li>
+                            <li class="py-2 border-bottom"><strong>Agency</strong></li>
+                            <li class="py-2 border-bottom"><strong>Contact</strong></li>
+                            <li class="py-2 border-bottom"><strong>Email</strong></li>
+                            <li class="py-2 border-bottom"><strong>Case Reference</strong></li>
+                            <li class="py-2 border-bottom"><strong>Purpose</strong></li>
+                            <li class="py-2 border-bottom"><strong>Legal Basis</strong></li>
+                            <li class="py-2 border-bottom"><strong>Incident Location</strong></li>
+                            <li class="py-2 border-bottom"><strong>Camera</strong></li>
+                            <li class="py-2 border-bottom"><strong>Footage Window</strong></li>
+                            <li class="py-2 border-bottom"><strong>Incident Description</strong></li>
+                            <li class="py-2 border-bottom"><strong>Delivery Method</strong></li>
+                            <li class="py-2 border-bottom"><strong>Supporting Document</strong></li>
+                            <li class="py-2 border-bottom"><strong>Status</strong></li>
+                            <li class="py-2 border-bottom"><strong>Review Notes</strong></li>
+                            <li class="py-2 border-bottom"><strong>Rejection Reason</strong></li>
+                            <li class="py-2"><strong>Fulfillment Notes</strong></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-7">
+                        <ul class="list-unstyled mb-0" id="detailsValues">
+                            <li class="py-2 border-bottom text-muted" data-key="request-id"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="agency"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="contact"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="email"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="case-ref"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="purpose"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="legal"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="location"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="camera"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="footage-window"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="description"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="delivery"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="supporting"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="status"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="review-notes"></li>
+                            <li class="py-2 border-bottom text-muted" data-key="rejection"></li>
+                            <li class="py-2 text-muted" data-key="fulfillment"></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Manage Modal -->
-    <div class="modal fade" id="manageModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Manage CCTV Request</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form id="manageForm" method="POST">
-                        <input type="hidden" name="action" value="update_status">
-                        <input type="hidden" name="request_id" id="manage_request_id">
-                        <div class="mb-3">
-                            <label class="form-label">Status *</label>
-                            <select id="manage_status" name="status" class="form-select">
-                                <option value="Pending">Pending</option>
-                                <option value="Under Review">Under Review</option>
-                                <option value="Approved">Approved</option>
-                                <option value="Rejected">Rejected</option>
-                                <option value="Completed">Completed</option>
-                            </select>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Approved Camera / Location</label>
-                            <input type="text" id="manage_camera" name="camera_location" class="form-control" placeholder="e.g. CAM-001 - Main Entrance Camera">
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 mb-3">
-                                <label class="form-label">Actual Footage Start</label>
-                                <input type="time" id="manage_start" class="form-control">
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <label class="form-label">Actual Footage End</label>
-                                <input type="time" id="manage_end" class="form-control">
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Review Notes (internal)</label>
-                            <textarea id="manage_notes" name="monitoring_notes" class="form-control" rows="4"></textarea>
-                        </div>
-                        <div class="d-flex justify-content-end gap-2">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-success">Save Changes</button>
-                        </div>
-                    </form>
-                </div>
+            <div class="modal-footer bg-light">
+                <button type="button" class="btn btn-secondary px-4 fw-semibold" data-bs-dismiss="modal">
+                    <i class="fas fa-times me-1"></i> Close
+                </button>
             </div>
         </div>
     </div>
+</div>
 
-    <script>
-    document.addEventListener('DOMContentLoaded', function(){
-        // details
-        document.querySelectorAll('.btn-view').forEach(btn=>{
-            btn.addEventListener('click', function(){
-                const keys = ['request-id','agency','contact','email','case-ref','purpose','legal','location','camera','footage-window','description','delivery','supporting','status','review-notes','rejection','fulfillment'];
-                // map data attributes to modal
-                document.querySelectorAll('#detailsValues [data-key]').forEach(li=>{
-                    const key = li.getAttribute('data-key');
-                    const v = btn.getAttribute('data-' + key) || '';
-                    li.textContent = v || '—';
-                });
-                var detailsModal = new bootstrap.Modal(document.getElementById('detailsModal'));
-                detailsModal.show();
+<!-- Manage Modal -->
+<div class="modal fade" id="manageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title text-white"><i class="fas fa-tasks me-2"></i>Manage CCTV Request</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <form id="manageForm" method="POST">
+                    <input type="hidden" name="action" value="update_status">
+                    <input type="hidden" name="request_id" id="manage_request_id">
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Status *</label>
+                        <select id="manage_status" name="status" class="form-select">
+                            <option value="Pending">Pending</option>
+                            <option value="Under Review">Under Review</option>
+                            <option value="Approved">Approved</option>
+                            <option value="Rejected">Rejected</option>
+                            <option value="Completed">Completed</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Approved Camera / Location</label>
+                        <input type="text" id="manage_camera" name="camera_location" class="form-control" placeholder="e.g. CAM-001 - Main Entrance Camera">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label fw-bold">Actual Footage Start</label>
+                            <input type="time" id="manage_start" class="form-control">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label fw-bold">Actual Footage End</label>
+                            <input type="time" id="manage_end" class="form-control">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Review Notes (internal)</label>
+                        <textarea id="manage_notes" name="monitoring_notes" class="form-control" rows="4"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-end gap-2 pt-2 border-top">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-success fw-bold"><i class="fas fa-save me-1"></i> Save Changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+    // details modal handler
+    document.querySelectorAll('.btn-view').forEach(btn=>{
+        btn.addEventListener('click', function(){
+            const keys = ['request-id','agency','contact','email','case-ref','purpose','legal','location','camera','footage-window','description','delivery','supporting','status','review-notes','rejection','fulfillment'];
+            // map data attributes to modal
+            document.querySelectorAll('#detailsValues [data-key]').forEach(li=>{
+                const key = li.getAttribute('data-key');
+                const v = btn.getAttribute('data-' + key) || '';
+                li.textContent = v || '—';
             });
+            var modalEl = document.getElementById('detailsModal');
+            var detailsModal = bootstrap.Modal.getOrCreateInstance(modalEl);
+            detailsModal.show();
         });
-
-        // manage
-        document.querySelectorAll('.btn-manage').forEach(btn=>{
-            btn.addEventListener('click', function(){
-                document.getElementById('manage_request_id').value = btn.getAttribute('data-id');
-                document.getElementById('manage_status').value = btn.getAttribute('data-status-val') || 'Pending';
-                document.getElementById('manage_camera').value = btn.getAttribute('data-camera-val') || 'CAM-001 - Main Entrance Camera';
-                document.getElementById('manage_start').value = btn.getAttribute('data-start') || '';
-                document.getElementById('manage_end').value = btn.getAttribute('data-end') || '';
-                document.getElementById('manage_notes').value = btn.getAttribute('data-review-notes-val') || '';
-                var manageModal = new bootstrap.Modal(document.getElementById('manageModal'));
-                manageModal.show();
-            });
-        });
-
-        // search & date filter
-        const searchBox = document.getElementById('searchBox');
-        const filterDate = document.getElementById('filterDate');
-        function filterRows() {
-            const query = (searchBox ? searchBox.value : '').toLowerCase().trim();
-            const dateVal = (filterDate ? filterDate.value : '').trim();
-            document.querySelectorAll('.cctv-record-row').forEach(row => {
-                const text = row.innerText.toLowerCase();
-                const rowDate = row.getAttribute('data-date') || '';
-                const matchesQuery = !query || text.includes(query);
-                const matchesDate = !dateVal || rowDate.includes(dateVal);
-                row.style.display = (matchesQuery && matchesDate) ? '' : 'none';
-            });
-        }
-        if (searchBox) searchBox.addEventListener('input', filterRows);
-        if (filterDate) filterDate.addEventListener('change', filterRows);
     });
-    </script>
+
+    // manage modal handler
+    document.querySelectorAll('.btn-manage').forEach(btn=>{
+        btn.addEventListener('click', function(){
+            document.getElementById('manage_request_id').value = btn.getAttribute('data-id');
+            document.getElementById('manage_status').value = btn.getAttribute('data-status-val') || 'Pending';
+            document.getElementById('manage_camera').value = btn.getAttribute('data-camera-val') || 'CAM-001 - Main Entrance Camera';
+            document.getElementById('manage_start').value = btn.getAttribute('data-start') || '';
+            document.getElementById('manage_end').value = btn.getAttribute('data-end') || '';
+            document.getElementById('manage_notes').value = btn.getAttribute('data-review-notes-val') || '';
+            var modalEl = document.getElementById('manageModal');
+            var manageModal = bootstrap.Modal.getOrCreateInstance(modalEl);
+            manageModal.show();
+        });
+    });
+
+    // search & date filter
+    const searchBox = document.getElementById('searchBox');
+    const filterDate = document.getElementById('filterDate');
+    function filterRows() {
+        const query = (searchBox ? searchBox.value : '').toLowerCase().trim();
+        const dateVal = (filterDate ? filterDate.value : '').trim();
+        document.querySelectorAll('.cctv-record-row').forEach(row => {
+            const text = row.innerText.toLowerCase();
+            const rowDate = row.getAttribute('data-date') || '';
+            const matchesQuery = !query || text.includes(query);
+            const matchesDate = !dateVal || rowDate.includes(dateVal);
+            row.style.display = (matchesQuery && matchesDate) ? '' : 'none';
+        });
+    }
+    if (searchBox) searchBox.addEventListener('input', filterRows);
+    if (filterDate) filterDate.addEventListener('change', filterRows);
+});
+</script>
+
+<?php require_once '../includes/footer.php'; ?>

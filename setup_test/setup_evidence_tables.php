@@ -23,6 +23,11 @@ try {
               `evidence_type` ENUM('Physical', 'Digital', 'Document', 'Photo', 'Video', 'Audio', 'Other') NOT NULL,
               `item_description` TEXT NOT NULL,
               `location_found` VARCHAR(255),
+              `source_department` VARCHAR(150),
+              `received_from` VARCHAR(150),
+              `source_reference` VARCHAR(100),
+              `witness_name` VARCHAR(150),
+              `witness_description` TEXT,
               `collection_date` DATETIME NOT NULL,
               `collected_by` INT NOT NULL,
               `collector_name` VARCHAR(150),
@@ -36,6 +41,22 @@ try {
             )
         ");
         echo "[OK] evidence_records table created successfully<br>";
+    }
+
+    // Also auto-migrate existing tables if missing columns
+    $evidenceCols = [
+        'source_department' => 'VARCHAR(150) NULL',
+        'received_from' => 'VARCHAR(150) NULL',
+        'source_reference' => 'VARCHAR(100) NULL',
+        'witness_name' => 'VARCHAR(150) NULL',
+        'witness_description' => 'TEXT NULL'
+    ];
+    foreach ($evidenceCols as $col => $def) {
+        $check = $pdo->query("SHOW COLUMNS FROM `evidence_records` LIKE '{$col}'");
+        if ($check->rowCount() === 0) {
+            $pdo->exec("ALTER TABLE `evidence_records` ADD COLUMN `{$col}` {$def}");
+            echo "[MIGRATED] Added column {$col} to evidence_records<br>";
+        }
     }
 
     // Create evidence_attachments table

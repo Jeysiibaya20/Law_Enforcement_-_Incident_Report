@@ -30,17 +30,44 @@ $current_lang = LanguageManager::getCurrentLanguage();
 
 function ensureEvidenceRecordColumns(PDO $pdo): void
 {
-    $columns = [
-        'source_department' => 'VARCHAR(150) NULL AFTER location_found',
-        'received_from' => 'VARCHAR(150) NULL AFTER source_department',
-        'source_reference' => 'VARCHAR(100) NULL AFTER received_from',
+    // 1. Ensure evidence_records columns
+    $evidenceColumns = [
+        'source_department' => 'VARCHAR(150) NULL',
+        'received_from' => 'VARCHAR(150) NULL',
+        'source_reference' => 'VARCHAR(100) NULL',
+        'witness_name' => 'VARCHAR(150) NULL',
+        'witness_description' => 'TEXT NULL',
+        'collector_name' => 'VARCHAR(150) NULL',
+        'location_found' => 'VARCHAR(255) NULL',
+        'storage_location' => 'VARCHAR(255) NULL',
+        'security_level' => "ENUM('Low', 'Medium', 'High', 'Confidential') DEFAULT 'Medium'",
+        'status' => "ENUM('Collected', 'In Storage', 'In Transit', 'Released', 'Destroyed', 'Lost') DEFAULT 'Collected'"
     ];
 
-    foreach ($columns as $column => $definition) {
+    foreach ($evidenceColumns as $column => $definition) {
         $stmt = $pdo->prepare("SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'evidence_records' AND COLUMN_NAME = ?");
         $stmt->execute([$column]);
         if ((int) $stmt->fetchColumn() === 0) {
-            $pdo->exec("ALTER TABLE evidence_records ADD COLUMN {$column} {$definition}");
+            $pdo->exec("ALTER TABLE evidence_records ADD COLUMN `{$column}` {$definition}");
+        }
+    }
+
+    // 2. Ensure chain_of_custody columns
+    $custodyColumns = [
+        'from_person_name' => 'VARCHAR(150) NULL',
+        'to_person_name' => 'VARCHAR(150) NULL',
+        'witness_name' => 'VARCHAR(150) NULL',
+        'witness_signature' => 'TEXT NULL',
+        'purpose' => 'VARCHAR(255) NULL',
+        'location' => 'VARCHAR(255) NULL',
+        'notes' => 'TEXT NULL'
+    ];
+
+    foreach ($custodyColumns as $column => $definition) {
+        $stmt = $pdo->prepare("SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'chain_of_custody' AND COLUMN_NAME = ?");
+        $stmt->execute([$column]);
+        if ((int) $stmt->fetchColumn() === 0) {
+            $pdo->exec("ALTER TABLE chain_of_custody ADD COLUMN `{$column}` {$definition}");
         }
     }
 }
@@ -77,6 +104,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $collection_datetime .= ' 00:00:00';
             }
 
+            // Extract values with support for dropdowns and custom entries
+            $witness_name = trim($_POST['witness_name_select'] ?? '');
+            if ($witness_name === '__custom__') {
+                $witness_name = trim($_POST['custom_witness_name'] ?? '');
+            } elseif (empty($witness_name) && !empty($_POST['witness_name'])) {
+                $witness_name = trim($_POST['witness_name']);
+            }
+
+            $source_dept = trim($_POST['source_department'] ?? '');
+            if ($source_dept === 'Other' && !empty($_POST['custom_source_department'])) {
+                $source_dept = trim($_POST['custom_source_department']);
+            }
+
+            $received_from = trim($_POST['received_from'] ?? '');
+            if ($received_from === 'Other' && !empty($_POST['custom_received_from'])) {
+                $received_from = trim($_POST['custom_received_from']);
+            }
+
+            $storage_loc = trim($_POST['storage_location'] ?? '');
+            if ($storage_loc === 'Other' && !empty($_POST['custom_storage_location'])) {
+                $storage_loc = trim($_POST['custom_storage_location']);
+            }
+            if (empty($storage_loc)) {
+                $storage_loc = 'Evidence Room A-1 (High Security)';
+            }
+
             $insert_stmt->execute([
                 $evidence_number,
                 $_POST['evidence_type'],
@@ -84,14 +137,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_POST['case_number'] ?: null,
                 $_POST['item_description'],
                 $_POST['location_found'] ?: null,
-                $_POST['source_department'] ?: null,
-                $_POST['received_from'] ?: null,
+                $source_dept ?: null,
+                $received_from ?: null,
                 $_POST['source_reference'] ?: null,
                 $collection_datetime,
                 $_POST['condition'],
-                $_POST['storage_location'],
+                $storage_loc,
                 $_POST['security_level'],
-                $_POST['witness_name'] ?: null,
+                $witness_name ?: null,
                 $_POST['witness_description'] ?: null,
                 $_POST['notes'] ?: null,
                 $_SESSION['user_id'],
@@ -259,6 +312,13 @@ try {
     $g7Stmt = $pdo->query("SELECT * FROM external_integration_log WHERE direction LIKE '%group7%' ORDER BY id DESC LIMIT 10");
     $group7DispatchLogs = $g7Stmt->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) { $group7DispatchLogs = []; }
+
+// Fetch registered witnesses for dropdown selection
+$witnessesList = [];
+try {
+    $witStmt = $pdo->query("SELECT id, case_id, case_number, first_name, middle_name, last_name, witness_type, statement FROM witnesses ORDER BY created_at DESC");
+    $witnessesList = $witStmt->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) { $witnessesList = []; }
 
 $page_title = "Evidence Collection & Chain of Custody";
 include '../includes/header.php';
@@ -550,104 +610,147 @@ include '../includes/header.php';
                         <textarea name="item_description" class="form-control" rows="3" required></textarea>
                     </div>
 
-                    <div class="mb-3">
-                        <label class="form-label">Witness Name (if any)</label>
-                        <input type="text" name="witness_name" class="form-control" placeholder="Name of witness who described the evidence">
-                        <small class="text-muted">Provide the witness who described the evidence (optional)</small>
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label">Witness Description</label>
-                        <textarea name="witness_description" class="form-control" rows="3" placeholder="Description as given by the witness"></textarea>
-                        <small class="text-muted">Record the witness's account describing the evidence (optional)</small>
-                    </div>
-
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <label class="form-label">Location Found</label>
-                                <input type="text" name="location_found" class="form-control">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label fw-bold"><i class="bi bi-person-check text-primary me-1"></i>Witness Name (if any)</label>
+                            <select name="witness_name_select" id="witnessSelect" class="form-select" onchange="handleWitnessSelect(this)">
+                                <option value="">-- No Witness / Not Applicable --</option>
+                                <?php if (!empty($witnessesList)): ?>
+                                    <optgroup label="Registered Case Witnesses">
+                                        <?php foreach ($witnessesList as $wit): ?>
+                                            <?php 
+                                                $witFull = trim(($wit['first_name'] ?? '') . ' ' . ($wit['middle_name'] ? $wit['middle_name'] . ' ' : '') . ($wit['last_name'] ?? ''));
+                                                $witCase = $wit['case_number'] ? ' (' . $wit['case_number'] . ')' : '';
+                                                $witType = $wit['witness_type'] ? ' - ' . $wit['witness_type'] : '';
+                                            ?>
+                                            <option value="<?= htmlspecialchars($witFull) ?>" data-statement="<?= htmlspecialchars($wit['statement'] ?? '') ?>" data-case-number="<?= htmlspecialchars($wit['case_number'] ?? '') ?>">
+                                                <?= htmlspecialchars($witFull . $witCase . $witType) ?>
+                                            </option>
+                                        <?php endforeach; ?>
+                                    </optgroup>
+                                <?php endif; ?>
+                                <option value="__custom__">➕ Other / Non-registered Witness (Specify manually)</option>
+                            </select>
+                            <div id="customWitnessWrap" class="mt-2" style="display: none;">
+                                <input type="text" name="custom_witness_name" id="customWitnessInput" class="form-control form-control-sm" placeholder="Enter witness full name...">
                             </div>
+                            <small class="text-muted">Select registered case witness or specify a new witness</small>
                         </div>
-                        <div class="col-md-3">
-                            <div class="mb-3">
-                                <label class="form-label">Source Department</label>
-                                <input type="text" name="source_department" class="form-control" placeholder="e.g., CCTV Department">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="mb-3">
-                                <label class="form-label">Received From</label>
-                                <input type="text" name="received_from" class="form-control" placeholder="e.g., Officer / Desk / Unit">
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <label class="form-label">Source Reference / Control No.</label>
-                                <input type="text" name="source_reference" class="form-control" placeholder="e.g., CCTV Ticket No. / Request Slip">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="mb-3">
-                                <label class="form-label">Collection Date *</label>
-                                <input type="date" name="collection_date" class="form-control" required value="<?php echo date('Y-m-d'); ?>">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="mb-3">
-                                <label class="form-label">Collection Time</label>
-                                <input type="time" name="collection_time" class="form-control">
-                            </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label fw-bold"><i class="bi bi-chat-quote text-secondary me-1"></i>Witness Description / Account</label>
+                            <textarea name="witness_description" id="witnessDescriptionInput" class="form-control" rows="3" placeholder="Description or statement as given by the witness..."></textarea>
+                            <small class="text-muted">Auto-populates when choosing a registered witness (optional)</small>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="mb-3">
-                                <label class="form-label">Condition</label>
-                                <select name="condition" class="form-select">
-                                    <option value="Excellent">Excellent</option>
-                                    <option value="Good" selected>Good</option>
-                                    <option value="Fair">Fair</option>
-                                    <option value="Poor">Poor</option>
-                                    <option value="Damaged">Damaged</option>
-                                </select>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label fw-bold"><i class="bi bi-geo-alt text-danger me-1"></i>Location Found</label>
+                            <input type="text" name="location_found" class="form-control" placeholder="e.g., Corner Main St. & 5th Ave / Crime Scene Room 2">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label fw-bold"><i class="bi bi-building text-info me-1"></i>Source Department</label>
+                            <select name="source_department" id="sourceDeptSelect" class="form-select" onchange="handleSourceDeptSelect(this)">
+                                <option value="">-- Select Department --</option>
+                                <option value="Group 2 - Accident & Violation Reporting">Group 2 (Accident & Violation Reporting)</option>
+                                <option value="Group 4 - Citizen Complaints & Tips">Group 4 (Citizen Complaints & Tips)</option>
+                                <option value="Group 5 - Crime Mapping & Surveillance">Group 5 (Crime Mapping & Surveillance)</option>
+                                <option value="Group 7 - Photo & Video Upload Unit">Group 7 (Photo & Video Upload Unit)</option>
+                                <option value="Digital Blotter Unit">Digital Blotter Unit / Records</option>
+                                <option value="Patrol & Field Operations">Patrol & Field Operations</option>
+                                <option value="CCTV Operations Room">CCTV Operations Room</option>
+                                <option value="Barangay Public Safety (BPAT)">Barangay Public Safety (BPAT)</option>
+                                <option value="Traffic Management Office">Traffic Management Office</option>
+                                <option value="SOCO / Forensic Investigation">SOCO / Forensic Investigation</option>
+                                <option value="External Law Enforcement">External Law Enforcement</option>
+                                <option value="Other">Other (Specify Department)</option>
+                            </select>
+                            <div id="customSourceDeptWrap" class="mt-2" style="display: none;">
+                                <input type="text" name="custom_source_department" class="form-control form-control-sm" placeholder="Specify department name...">
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="mb-3">
-                                <label class="form-label">Storage Location *</label>
-                                <input type="text" name="storage_location" class="form-control" list="storageLocationOptions" required placeholder="e.g., Evidence Room A-1">
-                                <datalist id="storageLocationOptions">
-                                    <option value="Evidence Room A-1"></option>
-                                    <option value="Evidence Room B-2"></option>
-                                    <option value="Evidence Locker C-1"></option>
-                                    <option value="Digital Evidence Vault"></option>
-                                    <option value="Office Archive Cabinet"></option>
-                                    <option value="Temporary Holding Area"></option>
-                                </datalist>
-                                <small class="text-muted">Files are stored in the evidence upload folder: uploads/evidence/</small>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="mb-3">
-                                <label class="form-label">Security Level</label>
-                                <select name="security_level" class="form-select">
-                                    <option value="Low">Low</option>
-                                    <option value="Medium" selected>Medium</option>
-                                    <option value="High">High</option>
-                                    <option value="Confidential">Confidential</option>
-                                </select>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label fw-bold"><i class="bi bi-person-badge text-primary me-1"></i>Received From</label>
+                            <select name="received_from" id="receivedFromSelect" class="form-select" onchange="handleReceivedFromSelect(this)">
+                                <option value="">-- Select Source / Role --</option>
+                                <option value="Field Responding Officer">Field Responding Officer</option>
+                                <option value="Duty Investigator / Desk Officer">Duty Investigator / Desk Officer</option>
+                                <option value="CCTV Camera Operator">CCTV Camera Operator</option>
+                                <option value="Traffic Enforcer / Unit">Traffic Enforcer / Unit</option>
+                                <option value="Complainant / Citizen">Complainant / Citizen</option>
+                                <option value="Witness / Informant">Witness / Informant</option>
+                                <option value="Barangay Tanod / BPAT Official">Barangay Tanod / BPAT Official</option>
+                                <option value="Hospital / Paramedic Staff">Hospital / Paramedic Staff</option>
+                                <option value="Evidence Custodian">Evidence Custodian</option>
+                                <option value="Other">Other (Specify Person)</option>
+                            </select>
+                            <div id="customReceivedFromWrap" class="mt-2" style="display: none;">
+                                <input type="text" name="custom_received_from" class="form-control form-control-sm" placeholder="Specify person or role...">
                             </div>
                         </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label fw-bold"><i class="bi bi-file-earmark-text text-secondary me-1"></i>Source Reference / Control No.</label>
+                            <input type="text" name="source_reference" class="form-control" placeholder="e.g., CCTV Ticket No. / Request Slip #REQ-2026-001">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label fw-bold"><i class="bi bi-calendar-event me-1"></i>Collection Date *</label>
+                            <input type="date" name="collection_date" class="form-control" required value="<?php echo date('Y-m-d'); ?>">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label fw-bold"><i class="bi bi-clock me-1"></i>Collection Time</label>
+                            <input type="time" name="collection_time" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label fw-bold"><i class="bi bi-shield-check text-success me-1"></i>Condition</label>
+                            <select name="condition" class="form-select">
+                                <option value="Excellent">Excellent</option>
+                                <option value="Good" selected>Good</option>
+                                <option value="Fair">Fair</option>
+                                <option value="Poor">Poor</option>
+                                <option value="Damaged">Damaged</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label fw-bold"><i class="bi bi-box-seam text-warning me-1"></i>Storage Location *</label>
+                            <select name="storage_location" id="storageLocSelect" class="form-select" required onchange="handleStorageLocSelect(this)">
+                                <option value="">-- Select Storage Location --</option>
+                                <option value="Evidence Room A-1 (High Security)" selected>Evidence Room A-1 (High Security)</option>
+                                <option value="Evidence Room B-2 (General Storage)">Evidence Room B-2 (General Storage)</option>
+                                <option value="Secure Locker C-1 (Narcotics & Firearms)">Secure Locker C-1 (Narcotics & Firearms)</option>
+                                <option value="Secure Locker C-2 (Valuables & Currency)">Secure Locker C-2 (Valuables & Currency)</option>
+                                <option value="Digital Evidence Vault (Server/Cloud)">Digital Evidence Vault (Server/Cloud)</option>
+                                <option value="Forensic Refrigeration Unit">Forensic Refrigeration Unit</option>
+                                <option value="Office Archive Cabinet">Office Archive Cabinet</option>
+                                <option value="Temporary Holding Area">Temporary Holding Area</option>
+                                <option value="Vehicle Impound Facility">Vehicle Impound Facility</option>
+                                <option value="Other">Other (Specify Location)</option>
+                            </select>
+                            <div id="customStorageLocWrap" class="mt-2" style="display: none;">
+                                <input type="text" name="custom_storage_location" class="form-control form-control-sm" placeholder="Enter custom storage location...">
+                            </div>
+                            <small class="text-muted">Files saved in: <code>uploads/evidence/</code></small>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label fw-bold"><i class="bi bi-lock text-danger me-1"></i>Security Level</label>
+                            <select name="security_level" class="form-select">
+                                <option value="Low">Low</option>
+                                <option value="Medium" selected>Medium</option>
+                                <option value="High">High</option>
+                                <option value="Confidential">Confidential</option>
+                            </select>
+                        </div>
+                    </div>
+
                     <div class="mb-3">
-                        <label class="form-label">Notes</label>
-                        <textarea name="notes" class="form-control" rows="2"></textarea>
+                        <label class="form-label fw-bold"><i class="bi bi-sticky me-1"></i>Operational Notes</label>
+                        <textarea name="notes" class="form-control" rows="2" placeholder="Additional notes or handling instructions..."></textarea>
                     </div>
 
                     <div class="mb-3">
@@ -875,6 +978,9 @@ include '../includes/header.php';
                     </div>
                 <?php endif; ?>
             </div>
+            <div class="modal-footer bg-light">
+                <button type="button" class="btn btn-secondary px-4 fw-semibold" data-bs-dismiss="modal"><i class="bi bi-x-lg me-1"></i> Close</button>
+            </div>
         </div>
     </div>
 </div>
@@ -890,6 +996,9 @@ include '../includes/header.php';
             <div class="modal-body" id="cctvDetailBody">
                 <div class="text-center py-4"><div class="spinner-border text-primary" role="status"></div></div>
             </div>
+            <div class="modal-footer bg-light">
+                <button type="button" class="btn btn-secondary px-4 fw-semibold" data-bs-dismiss="modal"><i class="bi bi-x-lg me-1"></i> Close</button>
+            </div>
         </div>
     </div>
 </div>
@@ -898,8 +1007,8 @@ include '../includes/header.php';
 <div class="modal fade" id="receivedAccidentModal" tabindex="-1">
     <div class="modal-dialog modal-xl">
         <div class="modal-content border-0 shadow">
-            <div class="modal-header" style="background: linear-gradient(135deg, #ffc107 0%, #e0a800 100%); color: #212529;">
-                <h5 class="modal-title"><i class="bi bi-exclamation-triangle me-2"></i>Received Accident Tickets & Reports from Group 2</h5>
+            <div class="modal-header bg-warning text-dark">
+                <h5 class="modal-title fw-bold"><i class="bi bi-exclamation-triangle me-2"></i>Received Accident Tickets & Reports from Group 2</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
@@ -942,7 +1051,7 @@ include '../includes/header.php';
                                     <td><span class="badge bg-success"><?= htmlspecialchars($acc['status'] ?? 'Logged') ?></span></td>
                                     <td>
                                         <button class="btn btn-sm btn-outline-warning" onclick="viewAccidentDetail(<?= $acc['id'] ?>)">
-                                            <i class="bi bi-eye"></i>
+                                            <i class="bi bi-eye"></i> View
                                         </button>
                                     </td>
                                 </tr>
@@ -951,6 +1060,9 @@ include '../includes/header.php';
                         </table>
                     </div>
                 <?php endif; ?>
+            </div>
+            <div class="modal-footer bg-light">
+                <button type="button" class="btn btn-secondary px-4 fw-semibold" data-bs-dismiss="modal"><i class="bi bi-x-lg me-1"></i> Close</button>
             </div>
         </div>
     </div>
@@ -961,11 +1073,14 @@ include '../includes/header.php';
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content border-0 shadow">
             <div class="modal-header bg-warning text-dark">
-                <h5 class="modal-title"><i class="bi bi-exclamation-triangle me-2"></i>Accident Report Detail</h5>
+                <h5 class="modal-title fw-bold"><i class="bi bi-exclamation-triangle me-2"></i>Accident Report Detail</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body" id="accidentDetailBody">
                 <div class="text-center py-4"><div class="spinner-border text-warning" role="status"></div></div>
+            </div>
+            <div class="modal-footer bg-light">
+                <button type="button" class="btn btn-secondary px-4 fw-semibold" data-bs-dismiss="modal"><i class="bi bi-x-lg me-1"></i> Close</button>
             </div>
         </div>
     </div>
@@ -975,7 +1090,7 @@ include '../includes/header.php';
 <div class="modal fade" id="group7DispatchLogModal" tabindex="-1">
     <div class="modal-dialog modal-lg">
         <div class="modal-content border-0 shadow">
-            <div class="modal-header" style="background: linear-gradient(135deg, #0d6efd 0%, #0b5ed7 100%); color: white;">
+            <div class="modal-header bg-primary text-white">
                 <h5 class="modal-title"><i class="bi bi-cloud-upload me-2"></i>Group 7 Photo & Video Dispatch History</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
@@ -1015,6 +1130,9 @@ include '../includes/header.php';
                     </div>
                 <?php endif; ?>
             </div>
+            <div class="modal-footer bg-light">
+                <button type="button" class="btn btn-secondary px-4 fw-semibold" data-bs-dismiss="modal"><i class="bi bi-x-lg me-1"></i> Close</button>
+            </div>
         </div>
     </div>
 </div>
@@ -1030,7 +1148,8 @@ function updateCaseNumber(select) {
 
 function viewEvidence(evidenceId) {
     document.getElementById('evidenceDetails').innerHTML = '<div class="text-center py-4"><div class="spinner-border text-primary" role="status"></div><p class="mt-2 text-muted">Loading evidence details...</p></div>';
-    new bootstrap.Modal(document.getElementById('viewEvidenceModal')).show();
+    var modal = bootstrap.Modal.getOrCreateInstance(document.getElementById('viewEvidenceModal'));
+    modal.show();
     fetch(`evidence_ajax.php?action=view&id=${evidenceId}`)
         .then(response => response.text())
         .then(data => {
@@ -1046,7 +1165,8 @@ function openSendToGroup7Modal(evidenceId, evidenceNo, caseNo, attachCount) {
     document.getElementById('g7DispatchResult').style.display = 'none';
     document.getElementById('g7ConfirmSendBtn').disabled = false;
     document.getElementById('g7ConfirmSendBtn').innerHTML = '<i class="bi bi-send me-1"></i> Dispatch to Group 7';
-    new bootstrap.Modal(document.getElementById('sendToGroup7ConfirmModal')).show();
+    var modal = bootstrap.Modal.getOrCreateInstance(document.getElementById('sendToGroup7ConfirmModal'));
+    modal.show();
 }
 
 function confirmSendToGroup7() {
@@ -1115,7 +1235,8 @@ function forwardToGroup7(evidenceId) {
 
 function viewChainOfCustody(evidenceId) {
     document.getElementById('chainOfCustodyDetails').innerHTML = '<div class="text-center py-4"><div class="spinner-border text-primary" role="status"></div><p class="mt-2 text-muted">Loading chain of custody...</p></div>';
-    new bootstrap.Modal(document.getElementById('chainOfCustodyModal')).show();
+    var modal = bootstrap.Modal.getOrCreateInstance(document.getElementById('chainOfCustodyModal'));
+    modal.show();
     fetch(`evidence_ajax.php?action=chain&id=${evidenceId}`)
         .then(response => response.text())
         .then(data => {
@@ -1126,7 +1247,8 @@ function viewChainOfCustody(evidenceId) {
 function viewCctvDetail(cctvId) {
     var body = document.getElementById('cctvDetailBody');
     body.innerHTML = '<div class="text-center py-4"><div class="spinner-border text-success" role="status"></div></div>';
-    new bootstrap.Modal(document.getElementById('cctvDetailModal')).show();
+    var modal = bootstrap.Modal.getOrCreateInstance(document.getElementById('cctvDetailModal'));
+    modal.show();
     
     // Build detail from existing PHP data
     <?php echo "var cctvData = " . json_encode($receivedCctvEvidence) . ";"; ?>
@@ -1154,7 +1276,8 @@ function viewCctvDetail(cctvId) {
 function viewAccidentDetail(accId) {
     var body = document.getElementById('accidentDetailBody');
     body.innerHTML = '<div class="text-center py-4"><div class="spinner-border text-warning" role="status"></div></div>';
-    new bootstrap.Modal(document.getElementById('accidentDetailModal')).show();
+    var modal = bootstrap.Modal.getOrCreateInstance(document.getElementById('accidentDetailModal'));
+    modal.show();
     
     <?php echo "var accData = " . json_encode($receivedAccidents) . ";"; ?>
     var record = accData.find(r => r.id == accId);
@@ -1204,6 +1327,57 @@ function showAddCustodyForm(evidenceId) {
 
 function hideAddCustodyForm(evidenceId) {
     document.getElementById(`addCustodyForm_${evidenceId}`).style.display = 'none';
+}
+
+// Dropdown Dynamic Handlers for Evidence Creation
+function handleWitnessSelect(select) {
+    const customWrap = document.getElementById('customWitnessWrap');
+    const customInput = document.getElementById('customWitnessInput');
+    const descInput = document.getElementById('witnessDescriptionInput');
+    
+    if (select.value === '__custom__') {
+        customWrap.style.display = 'block';
+        customInput.required = true;
+        customInput.focus();
+    } else {
+        customWrap.style.display = 'none';
+        customInput.required = false;
+        customInput.value = '';
+        
+        // Auto-fill witness description if registered witness selected
+        const selectedOpt = select.options[select.selectedIndex];
+        const statement = selectedOpt.getAttribute('data-statement') || '';
+        if (statement && (!descInput.value || descInput.value.trim() === '')) {
+            descInput.value = statement;
+        }
+    }
+}
+
+function handleSourceDeptSelect(select) {
+    const wrap = document.getElementById('customSourceDeptWrap');
+    if (select.value === 'Other') {
+        wrap.style.display = 'block';
+    } else {
+        wrap.style.display = 'none';
+    }
+}
+
+function handleReceivedFromSelect(select) {
+    const wrap = document.getElementById('customReceivedFromWrap');
+    if (select.value === 'Other') {
+        wrap.style.display = 'block';
+    } else {
+        wrap.style.display = 'none';
+    }
+}
+
+function handleStorageLocSelect(select) {
+    const wrap = document.getElementById('customStorageLocWrap');
+    if (select.value === 'Other') {
+        wrap.style.display = 'block';
+    } else {
+        wrap.style.display = 'none';
+    }
 }
 </script>
 

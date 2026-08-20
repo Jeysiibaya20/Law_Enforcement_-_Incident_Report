@@ -812,8 +812,8 @@ try {
         <div class="row g-3 mb-4">
             <div class="col-md-6">
                 <div class="card h-100 border-primary shadow-sm">
-                    <div class="card-header bg-primary text-white fw-bold">
-                        <i class="fas fa-cloud-upload-alt me-2"></i>Group 7: Photo & Video Upload Simulator
+                    <div class="card-header bg-primary text-white fw-bold d-flex align-items-center" style="background-color: #0d6efd !important; color: #ffffff !important;">
+                        <h6 class="mb-0 text-white fw-bold"><i class="fas fa-cloud-upload-alt me-2 text-white"></i>Group 7: Photo & Video Upload Simulator</h6>
                     </div>
                     <div class="card-body">
                         <p class="small text-muted">Test transmission of collected crime/accident scene photos and surveillance videos to Group 7's Photo and Videos Upload endpoint.</p>
@@ -835,8 +835,8 @@ try {
             </div>
             <div class="col-md-6">
                 <div class="card h-100 border-success shadow-sm">
-                    <div class="card-header bg-success text-white fw-bold">
-                        <i class="fas fa-sync-alt me-2"></i>Group 2: CCTV Request & Acknowledgement Cycle
+                    <div class="card-header bg-success text-white fw-bold d-flex align-items-center" style="background-color: #198754 !important; color: #ffffff !important;">
+                        <h6 class="mb-0 text-white fw-bold"><i class="fas fa-sync-alt me-2 text-white"></i>Group 2: CCTV Request & Acknowledgement Cycle</h6>
                     </div>
                     <div class="card-body">
                         <p class="small text-muted">Group 1 requests CCTV camera retrieval from Group 2 (Accident & Violation Reporting), and Group 2 acknowledges the request with fulfilled video/photo evidence.</p>
@@ -1059,9 +1059,9 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
         <!-- External Integration Log Table -->
-        <div class="card">
-            <div class="card-header bg-card fw-bold">
-                <i class="fas fa-history me-2 text-primary"></i>Integration Log History (`external_integration_log`)
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-dark text-white fw-bold d-flex align-items-center" style="background-color: #1e293b !important; color: #ffffff !important;">
+                <h6 class="mb-0 text-white fw-bold"><i class="fas fa-history me-2 text-warning"></i>Recent External Integration Log (`external_integration_log`)</h6>
             </div>
             <div class="card-body p-0">
                 <div class="table-responsive">

@@ -634,12 +634,15 @@ require_once '../includes/navbar.php';
 <div class="modal fade" id="viewSuspectDetailModal" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content border-0 shadow">
-            <div class="modal-header" style="background: linear-gradient(135deg, #dc3545 0%, #c82333 100%); color: white;">
+            <div class="modal-header bg-danger text-white">
                 <h5 class="modal-title"><i class="fas fa-user-ninja me-2"></i>Suspect Profile (Data Privacy Protected)</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body" id="suspectDetailBody">
                 <div class="text-center py-4"><div class="spinner-border text-danger" role="status"></div></div>
+            </div>
+            <div class="modal-footer bg-light">
+                <button type="button" class="btn btn-secondary px-4 fw-semibold" data-bs-dismiss="modal"><i class="fas fa-times me-1"></i> Close</button>
             </div>
         </div>
     </div>
@@ -649,12 +652,15 @@ require_once '../includes/navbar.php';
 <div class="modal fade" id="viewWitnessDetailModal" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content border-0 shadow">
-            <div class="modal-header" style="background: linear-gradient(135deg, #0dcaf0 0%, #0bacce 100%); color: white;">
+            <div class="modal-header bg-info text-white">
                 <h5 class="modal-title"><i class="fas fa-eye me-2"></i>Witness Profile (Privacy Protected)</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body" id="witnessDetailBody">
                 <div class="text-center py-4"><div class="spinner-border text-info" role="status"></div></div>
+            </div>
+            <div class="modal-footer bg-light">
+                <button type="button" class="btn btn-secondary px-4 fw-semibold" data-bs-dismiss="modal"><i class="fas fa-times me-1"></i> Close</button>
             </div>
         </div>
     </div>
@@ -727,7 +733,8 @@ function viewSuspectDetail(s, unmasked) {
     html += '</div>';
 
     body.innerHTML = html;
-    new bootstrap.Modal(document.getElementById('viewSuspectDetailModal')).show();
+    var modal = bootstrap.Modal.getOrCreateInstance(document.getElementById('viewSuspectDetailModal'));
+    modal.show();
 }
 
 function viewWitnessDetail(w, unmasked) {
@@ -746,7 +753,7 @@ function viewWitnessDetail(w, unmasked) {
     if (isProtected) {
         html += '<span class="badge bg-danger"><i class="fas fa-shield-alt me-1"></i>PROTECTED WITNESS</span> ';
     }
-    html += '<span class="badge bg-info text-dark">' + (w.witness_type || 'Direct Witness') + '</span>';
+    html += '<span class="badge bg-info text-white">' + (w.witness_type || 'Direct Witness') + '</span>';
     html += '</div>';
 
     html += '<div class="col-md-8">';
@@ -780,7 +787,8 @@ function viewWitnessDetail(w, unmasked) {
     html += '</div>';
 
     body.innerHTML = html;
-    new bootstrap.Modal(document.getElementById('viewWitnessDetailModal')).show();
+    var modal = bootstrap.Modal.getOrCreateInstance(document.getElementById('viewWitnessDetailModal'));
+    modal.show();
 }
 </script>
 

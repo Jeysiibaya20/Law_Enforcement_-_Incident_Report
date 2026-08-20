@@ -1674,48 +1674,52 @@ p {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-/* Card Header Visibility Fix - Universal */
-.card .card-header,
+/* Card Header System - Respects background utility classes */
 .card-header {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.95) 100%) !important;
-    border-bottom: 2px solid var(--main-color) !important;
-    box-shadow: 0 2px 4px rgba(139, 111, 71, 0.15) !important;
+    padding: 0.85rem 1.25rem;
+    background-color: var(--bg-card, #ffffff);
+    border-bottom: 1px solid var(--border, #e2e8f0);
+    color: var(--text-primary, #1e293b);
     position: relative;
 }
 
-.card .card-header::before,
-.card-header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: var(--gradient-primary);
-    z-index: 1;
-}
-
-.card .card-title,
 .card-title {
-    color: var(--text-primary) !important;
-    font-weight: 700 !important;
-    text-shadow: 0 1px 2px rgb(250, 250, 250);
-    position: relative;
-    z-index: 2;
+    color: inherit;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.05rem;
 }
 
-.card .card-title i,
 .card-title i {
-    color: var(--main-color) !important;
-    text-shadow: 0 1px 2px rgb(247, 247, 247);
+    margin-right: 0.5rem;
 }
 
-/* Specific fixes for different card types */
-.enhanced-card .card-header {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.9) 100%) !important;
-}
+/* Background Color Overrides for Colored Headers */
+.card-header.bg-primary, .card .card-header.bg-primary { background: #0d6efd !important; color: #ffffff !important; border-bottom: none !important; }
+.card-header.bg-primary *, .card-header.bg-primary .card-title, .card-header.bg-primary i { color: #ffffff !important; text-shadow: none !important; }
 
-/* Stats cards should keep their colored backgrounds */
+.card-header.bg-success, .card .card-header.bg-success { background: #198754 !important; color: #ffffff !important; border-bottom: none !important; }
+.card-header.bg-success *, .card-header.bg-success .card-title, .card-header.bg-success i { color: #ffffff !important; text-shadow: none !important; }
+
+.card-header.bg-danger, .card .card-header.bg-danger { background: #dc3545 !important; color: #ffffff !important; border-bottom: none !important; }
+.card-header.bg-danger *, .card-header.bg-danger .card-title, .card-header.bg-danger i { color: #ffffff !important; text-shadow: none !important; }
+
+.card-header.bg-dark, .card .card-header.bg-dark { background: #1e293b !important; color: #ffffff !important; border-bottom: none !important; }
+.card-header.bg-dark *, .card-header.bg-dark .card-title, .card-header.bg-dark i { color: #ffffff !important; text-shadow: none !important; }
+
+.card-header.bg-info, .card .card-header.bg-info { background: #0dcaf0 !important; color: #ffffff !important; border-bottom: none !important; }
+.card-header.bg-info *, .card-header.bg-info .card-title, .card-header.bg-info i { color: #ffffff !important; text-shadow: none !important; }
+
+.card-header.bg-warning, .card .card-header.bg-warning { background: #ffc107 !important; color: #212529 !important; border-bottom: none !important; }
+.card-header.bg-warning *, .card-header.bg-warning .card-title, .card-header.bg-warning i { color: #212529 !important; text-shadow: none !important; }
+
+.card-header.bg-card, .card .card-header.bg-card { background: var(--bg-card, #ffffff) !important; color: var(--text-primary, #1e293b) !important; }
+.card-header.bg-white, .card .card-header.bg-white { background: #ffffff !important; color: var(--text-primary, #1e293b) !important; }
+.card-header.bg-light, .card .card-header.bg-light { background: #f8fafc !important; color: var(--text-primary, #1e293b) !important; }
+
+/* Stats cards */
 .stats-card.enhanced-card {
     background: var(--gradient-primary) !important;
 }
@@ -1726,136 +1730,13 @@ p {
     box-shadow: none !important;
 }
 
-.stats-card.enhanced-card .card-header::before {
-    display: none !important;
-}
-
 .stats-card.enhanced-card .card-title,
-.stats-card.enhanced-card .card-title i {
-    color: var(--text-white) !important;
-    text-shadow: 0 1px 2px rgb(245, 241, 241);
-}
-
-/* Ensure stats content maintains white text on colored backgrounds */
-.stats-card.enhanced-card .stats-content {
-    color: var(--text-white);
-}
-
-.stats-card.enhanced-card .stats-number {
-    color: var(--text-white) !important;
-}
-
-.stats-card.enhanced-card .stats-label {
-    color: rgba(255, 255, 255, 0.9) !important;
-}
-
-.stats-card.enhanced-card .stats-trend {
-    color: var(--text-white) !important;
-}
-
-.stats-card.enhanced-card .stats-trend i,
-.stats-card.enhanced-card .stats-trend span {
-    color: var(--text-white) !important;
-    text-shadow: 0 1px 2px rgb(236, 232, 232);
-}
-
-/* Override Bootstrap text color classes on stats cards */
-.stats-card.enhanced-card .text-success,
-.stats-card.enhanced-card .text-warning,
-.stats-card.enhanced-card .text-info,
-.stats-card.enhanced-card .text-danger,
-.stats-card.enhanced-card .text-primary,
-.stats-card.enhanced-card .text-secondary {
-    color: var(--text-white) !important;
-    text-shadow: 0 1px 2px rgb(255, 255, 255);
-}
-
-/* Ensure all text elements on colored stats cards are white */
-.stats-card.enhanced-card .stats-content *,
+.stats-card.enhanced-card .card-title i,
+.stats-card.enhanced-card .stats-content,
 .stats-card.enhanced-card .stats-number,
 .stats-card.enhanced-card .stats-label,
 .stats-card.enhanced-card .stats-trend {
-    color: var(--text-white) !important;
-}
-
-/* But allow specific colored elements to override */
-.stats-card.enhanced-card .stats-trend i,
-.stats-card.enhanced-card .stats-trend span {
-    color: var(--text-white) !important;
-    text-shadow: 0 1px 2px rgb(243, 226, 226);
-}
-
-/* Ensure all card headers are visible */
-.card-header h5,
-.card-header .card-title,
-.card-header h6,
-.card-header h4,
-.card-header h3 {
-    color: var(--text-primary) !important;
-    font-weight: 700 !important;
-    text-shadow: 0 1px 2px rgba(243, 243, 243, 0.966);
-}
-
-/* Ensure regular cards have dark text on white backgrounds */
-.card:not(.stats-card) .card-body,
-.card:not(.stats-card) .card-body * {
-    color: var(--text-primary) !important;
-}
-
-.card:not(.stats-card) .stats-number,
-.card:not(.stats-card) .stats-label {
-    color: var(--text-primary) !important;
-}
-
-/* Specific fix for regular cards with stats elements */
-.card .stats-number {
-    color: rgb(236, 230, 230) !important;
-    font-weight: 700;
-}
-
-.card .stats-label {
-    color: rgb(255, 255, 255); !important;
-    font-weight: 500;
-}
-
-/* Fix for any remaining invisible headers */
-.card-header * {
-    color: var(--text-primary) !important;
-}
-
-/* Override any conflicting styles */
-.card-header .mb-0 {
-    color: var(--text-primary) !important;
-    font-weight: 700 !important;
-}
-
-/* Ensure icons are visible */
-.card-header i {
-    color: var(--main-color) !important;
-    text-shadow: 0 1px 2px rgba(253, 253, 253, 0.938);
-}
-
-/* Override any white text on regular cards */
-.card:not(.stats-card) .card-body,
-.card:not(.stats-card) .card-body p,
-.card:not(.stats-card) .card-body div,
-.card:not(.stats-card) .card-body span,
-.card:not(.stats-card) .card-body h1,
-.card:not(.stats-card) .card-body h2,
-.card:not(.stats-card) .card-body h3,
-.card:not(.stats-card) .card-body h4,
-.card:not(.stats-card) .card-body h5,
-.card:not(.stats-card) .card-body h6 {
-    color: var(--text-primary) !important;
-}
-
-/* Ensure card body text is always visible */
-.card-body {
-    color: var(--text-primary) !important;
-}
-
-.card-body * {
-    color: inherit !important;
+    color: var(--text-white, #ffffff) !important;
 }
 
 /* Enhanced Table Headers */
@@ -2851,100 +2732,143 @@ p {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-/* Modal overrides for dark theme */
+/* ========================================
+   MODAL STYLES (High-Contrast & Accessible)
+   ======================================== */
 .modal-content {
-  background-color: var(--panel);
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-}
-
-.modal-header {
-  border-bottom: 1px solid var(--border);
-  background-color: #0b1220;
-  color: var(--text);
-}
-
-.modal-title {
-  font-weight: 600;
-  font-size: 18px;
-}
-
-.modal-footer {
-  border-top: 1px solid var(--border);
-  background-color: #0b1220;
-}
-
-.btn-close {
-  background-color: var(--accent-red);
-  border-radius: 50%;
-  opacity: 0.8;
-}
-
-.btn-close:hover {
-  opacity: 1;
-}
-
-/* Form controls inside modal */
-.form-label {
-  color: var(--text-secondary);
-  font-size: 14px;
-  margin-bottom: 4px;
-}
-
-.form-control,
-.form-select {
-  background-color: rgba(255, 255, 255, 0.95);
-  color: var(--text-primary);
-  border: 2px solid rgba(139, 111, 71, 0.2);
-  border-radius: var(--border-radius-sm);
-  padding: 10px;
-}
-
-/* FORCE solid modal background and readable backdrop
-     This override ensures modals are not transparent and remain legible
-     across included theme/partial styles that may set transparency. */
-.modal-content {
-    background-color: var(--panel, #ffffff) !important;
-    color: var(--text, #000000) !important;
-    border: 1px solid var(--border, #ddd) !important;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.25) !important;
+    background-color: var(--bg-card, #ffffff) !important;
+    color: var(--text-primary, #1e293b) !important;
+    border: 1px solid var(--border, rgba(0, 0, 0, 0.15)) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.28) !important;
     backdrop-filter: none !important;
     opacity: 1 !important;
 }
 
+.modal-header {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border, #e2e8f0);
+    background-color: var(--bg-card, #ffffff);
+    color: var(--text-primary, #1e293b);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Modal Header Themes */
+.modal-header.bg-primary { background: #0d6efd !important; color: #ffffff !important; }
+.modal-header.bg-success { background: #198754 !important; color: #ffffff !important; }
+.modal-header.bg-danger { background: #dc3545 !important; color: #ffffff !important; }
+.modal-header.bg-dark { background: #1e293b !important; color: #ffffff !important; }
+.modal-header.bg-info { background: #0dcaf0 !important; color: #ffffff !important; }
+.modal-header.bg-warning { background: #ffc107 !important; color: #212529 !important; }
+
+.modal-header.bg-primary .modal-title, .modal-header.bg-primary i,
+.modal-header.bg-success .modal-title, .modal-header.bg-success i,
+.modal-header.bg-danger .modal-title, .modal-header.bg-danger i,
+.modal-header.bg-dark .modal-title, .modal-header.bg-dark i,
+.modal-header.bg-info .modal-title, .modal-header.bg-info i {
+    color: #ffffff !important;
+}
+
+.modal-header.bg-warning .modal-title, .modal-header.bg-warning i {
+    color: #212529 !important;
+}
+
+.modal-title {
+    font-weight: 700;
+    font-size: 1.15rem;
+    margin: 0;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.modal-title i {
+    margin-right: 0.5rem;
+}
+
+.modal-body {
+    padding: 1.25rem;
+    color: var(--text-primary, #1e293b);
+    background-color: var(--bg-card, #ffffff);
+}
+
+.modal-footer {
+    padding: 0.85rem 1.25rem;
+    border-top: 1px solid var(--border, #e2e8f0);
+    background-color: var(--bg-card, #f8fafc);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+/* Close Button Universal Visibility */
+.btn-close {
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat !important;
+    opacity: 0.65 !important;
+    cursor: pointer !important;
+    padding: 0.5rem !important;
+    box-sizing: content-box !important;
+    width: 1em !important;
+    height: 1em !important;
+    border: none !important;
+    z-index: 1056 !important;
+}
+
+.btn-close:hover {
+    opacity: 1 !important;
+    transform: scale(1.1);
+    transition: transform 0.15s ease;
+}
+
+.btn-close-white,
+.modal-header.bg-primary .btn-close,
+.modal-header.bg-success .btn-close,
+.modal-header.bg-danger .btn-close,
+.modal-header.bg-dark .btn-close,
+.modal-header.bg-info .btn-close,
+.modal-header[style*="linear-gradient"] .btn-close {
+    filter: brightness(0) invert(1) !important;
+    opacity: 0.9 !important;
+}
+
 .modal-backdrop {
-    background-color: rgba(0,0,0,0.45) !important;
+    background-color: rgba(0, 0, 0, 0.55) !important;
 }
 
-/* If specific micro-modals set transparent backgrounds, prefer their card-bg variables */
-.message-content-modal .modal-content,
-.notification-modal .modal-content {
-    background-color: var(--card-bg-1, #ffffff) !important;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.15) !important;
+.modal-backdrop.show {
+    opacity: 0.55 !important;
 }
 
-.form-control:focus,
-.form-select:focus {
-  border-color: var(--main-color);
-  box-shadow: 0 0 0 3px rgba(113, 171, 189, 0.1);
+/* Form controls inside modal */
+.modal-body .form-label {
+    color: var(--text-primary, #334155);
+    font-size: 0.88rem;
+    font-weight: 600;
+    margin-bottom: 4px;
 }
 
-/* Modal buttons */
+.modal-body .form-control,
+.modal-body .form-select {
+    background-color: #ffffff;
+    color: #1e293b;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+}
+
+.modal-body .form-control:focus,
+.modal-body .form-select:focus {
+    border-color: var(--main-color, #0d6efd);
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+}
+
 .modal-footer .btn {
-  min-width: 100px;
-}
-
-.modal-footer .btn-primary {
-  background-color: #2e856e !important;
-  border-color: #2e856e !important;
-  color: #fff !important;
-}
-
-.modal-footer .btn-secondary {
-  background-color: #e2e8f0 !important;
-  border-color: #cbd5e1 !important;
-  color: #334155 !important;
+    min-width: 90px;
+    font-weight: 600;
+    border-radius: 6px;
 }
 
 /* ========================================
