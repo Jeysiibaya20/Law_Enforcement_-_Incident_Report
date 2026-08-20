@@ -115,8 +115,71 @@ try {
         INDEX idx_complaint_id (complaint_id)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
 
+    // 7. Received Accident & Violation Reports (from Group 2)
+    $pdo->exec("CREATE TABLE IF NOT EXISTS received_accident_reports (
+        id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+        report_id VARCHAR(100) NULL,
+        ticket_number VARCHAR(100) NULL,
+        incident_type VARCHAR(150) DEFAULT 'Traffic Accident / Violation',
+        violator_name VARCHAR(255) NULL,
+        vehicle_details VARCHAR(255) NULL,
+        plate_number VARCHAR(50) NULL,
+        violation_type VARCHAR(255) NULL,
+        fine_amount DECIMAL(10, 2) DEFAULT 0.00,
+        severity_level VARCHAR(50) DEFAULT 'Medium',
+        collision_type VARCHAR(100) NULL,
+        location VARCHAR(255) NULL,
+        barangay VARCHAR(100) NULL,
+        district VARCHAR(100) NULL,
+        narrative LONGTEXT NULL,
+        casualties_count INT DEFAULT 0,
+        property_damage_estimate DECIMAL(12, 2) DEFAULT 0.00,
+        reporting_officer VARCHAR(150) NULL,
+        incident_date_time DATETIME NULL,
+        evidence_media TEXT NULL,
+        status VARCHAR(50) DEFAULT 'Logged & Classified',
+        raw_payload LONGTEXT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        INDEX idx_report_id (report_id),
+        INDEX idx_ticket_number (ticket_number)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+    // 8. Suspect & Witness Data Privacy Audit Log
+    $pdo->exec("CREATE TABLE IF NOT EXISTS suspect_witness_privacy_audit (
+        id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+        user_id INT NULL,
+        action VARCHAR(100) NOT NULL,
+        target_type VARCHAR(50) NOT NULL,
+        target_id INT NULL,
+        details TEXT NULL,
+        ip_address VARCHAR(45) NULL,
+        user_agent VARCHAR(255) NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        INDEX idx_target (target_type, target_id),
+        INDEX idx_user (user_id)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+    // Check & add columns to cctv_requests for Group 2 Acknowledgment workflow
+    $cctvCols = [
+        'acknowledged_at' => 'DATETIME NULL',
+        'acknowledged_by' => 'VARCHAR(150) NULL',
+        'acknowledgement_notes' => 'TEXT NULL',
+        'assigned_camera_operator' => 'VARCHAR(150) NULL',
+        'fulfilled_evidence_url' => 'TEXT NULL',
+        'fulfilled_photo_url' => 'TEXT NULL',
+        'fulfilled_video_url' => 'TEXT NULL'
+    ];
+    foreach ($cctvCols as $col => $type) {
+        $chk = $pdo->prepare("SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'cctv_requests' AND COLUMN_NAME = ?");
+        $chk->execute([$col]);
+        if ((int)$chk->fetchColumn() === 0) {
+            $pdo->exec("ALTER TABLE cctv_requests ADD COLUMN {$col} {$type}");
+        }
+    }
+
     echo "Integration database tables created/verified successfully.\n";
 } catch (Exception $e) {
     echo "Error setting up integration tables: " . $e->getMessage() . "\n";
     exit(1);
 }
+

@@ -602,25 +602,106 @@ function getWitnessUpdates($witness_id) {
 }
 
 /**
- * Get case summary with suspects and witnesses
+ * Mask personal sensitive information (Republic Act 10173 - Data Privacy Act compliant)
  */
-function getCaseSuspectWitnessSummary($case_id) {
-    global $pdo;
-    
+function maskPersonalInfo(?string $text, string $type = 'name'): string {
+    if (empty($text)) {
+        return 'N/A';
+    }
+    $text = trim($text);
+
+    switch ($type) {
+        case 'name':
+            $parts = explode(' ', $text);
+            $maskedParts = [];
+            foreach ($parts as $p) {
+                $len = mb_strlen($p);
+                if ($len <= 2) {
+                    $maskedParts[] = mb_substr($p, 0, 1) . '*';
+                } else {
+                    $maskedParts[] = mb_substr($p, 0, 1) . str_repeat('*', max(1, $len - 2)) . mb_substr($p, -1);
+                }
+            }
+            return implode(' ', $maskedParts);
+
+        case 'phone':
+        case 'contact':
+            $len = strlen($text);
+            if ($len <= 4) return str_repeat('*', $len);
+            return substr($text, 0, 3) . '-***-' . substr($text, -4);
+
+        case 'email':
+            if (strpos($text, '@') !== false) {
+                list($user, $domain) = explode('@', $text, 2);
+                $maskedUser = (strlen($user) > 2) ? substr($user, 0, 2) . '***' : substr($user, 0, 1) . '***';
+                return $maskedUser . '@' . $domain;
+            }
+            return '***@***.***';
+
+        case 'address':
+            // Keep general city/province or first few letters, mask street specifics
+            $parts = explode(',', $text);
+            if (count($parts) > 1) {
+                return '[REDACTED STREET], ' . trim(end($parts));
+            }
+            return (mb_strlen($text) > 6) ? mb_substr($text, 0, 4) . '*** [REDACTED]' : '*** [REDACTED]';
+
+        case 'id_number':
+            $len = strlen($text);
+            if ($len <= 4) return '***-****';
+            return '***-***-' . substr($text, -4);
+
+        case 'statement':
+            if (mb_strlen($text) > 40) {
+                return mb_substr($text, 0, 30) . '... [CONFIDENTIAL STATEMENT PROTECTED]';
+            }
+            return '[CONFIDENTIAL STATEMENT PROTECTED]';
+
+        default:
+            return (mb_strlen($text) > 3) ? mb_substr($text, 0, 2) . '***' : '***';
+    }
+}
+
+/**
+ * Log Data Privacy access or modification audit trail
+ */
+function logPrivacyAudit(?PDO $pdo, ?int $userId, string $action, string $targetType, ?int $targetId = null, string $details = ''): void {
+    if (!$pdo) {
+        global $pdo;
+    }
+    if (!$pdo instanceof PDO) {
+        return;
+    }
     try {
-        $suspects = getSuspectsByCase($case_id);
-        $witnesses = getWitnessesByCase($case_id);
-        
-        return [
-            'suspects_count' => count($suspects),
-            'witnesses_count' => count($witnesses),
-            'suspects' => $suspects,
-            'witnesses' => $witnesses
-        ];
+        $ip = $_SERVER['REMOTE_ADDR'] ?? '127.0.0.1';
+        $ua = substr($_SERVER['HTTP_USER_AGENT'] ?? 'System', 0, 250);
+        $stmt = $pdo->prepare("INSERT INTO suspect_witness_privacy_audit (user_id, action, target_type, target_id, details, ip_address, user_agent) VALUES (?, ?, ?, ?, ?, ?, ?)");
+        $stmt->execute([$userId, $action, $targetType, $targetId, $details, $ip, $ua]);
     } catch (Exception $e) {
-        error_log("Error getting case summary: " . $e->getMessage());
+        error_log("Privacy audit log notice: " . $e->getMessage());
+    }
+}
+
+/**
+ * Get Data Privacy audit logs
+ */
+function getPrivacyAuditLogs(PDO $pdo, int $limit = 25): array {
+    try {
+        $stmt = $pdo->prepare("
+            SELECT a.*, COALESCE(s.fullname, u.username, 'Admin / System') AS performer_name, s.role AS user_role
+            FROM suspect_witness_privacy_audit a
+            LEFT JOIN signup s ON a.user_id = s.user_id
+            LEFT JOIN users u ON a.user_id = u.user_id
+            ORDER BY a.id DESC LIMIT ?
+        ");
+        $stmt->bindValue(1, $limit, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } catch (Exception $e) {
+        error_log("Failed to fetch privacy audit logs: " . $e->getMessage());
         return [];
     }
 }
 
 ?>
+

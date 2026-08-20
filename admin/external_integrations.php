@@ -94,9 +94,100 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 
+    if ($action === 'simulate_group2_accident') {
+        $sampleAccident = [
+            'report_id' => trim($_POST['report_id'] ?? ('ACC-REP-' . date('Ymd') . '-' . rand(100, 999))),
+            'ticket_number' => trim($_POST['ticket_number'] ?? ('TKT-' . date('Ymd') . '-' . rand(100, 999))),
+            'incident_type' => trim($_POST['incident_type'] ?? 'Vehicular Collision / Reckless Imprudence'),
+            'violator_name' => trim($_POST['violator_name'] ?? 'Juan Dela Cruz'),
+            'vehicle_details' => trim($_POST['vehicle_details'] ?? 'Toyota Vios (Silver)'),
+            'plate_number' => trim($_POST['plate_number'] ?? 'NBD-5421'),
+            'violation_type' => trim($_POST['violation_type'] ?? 'Reckless Driving & Over-speeding'),
+            'fine_amount' => floatval($_POST['fine_amount'] ?? 2500.00),
+            'severity_level' => $_POST['severity_level'] ?? 'High',
+            'collision_type' => trim($_POST['collision_type'] ?? 'Side-impact Collision (T-Bone)'),
+            'location' => trim($_POST['location'] ?? 'Quezon Ave. cor. Timog Ave., Quezon City'),
+            'narrative' => trim($_POST['narrative'] ?? 'Sedan beat red light and collided with motorcycle at intersection. Paramedics called to scene.'),
+            'casualties_count' => intval($_POST['casualties_count'] ?? 1),
+            'property_damage_estimate' => floatval($_POST['property_damage_estimate'] ?? 45000.00),
+            'reporting_officer' => trim($_POST['reporting_officer'] ?? 'Traffic Enforcer Officer #44')
+        ];
+        try {
+            $res = $integrator->processIncomingAccidentReport($sampleAccident);
+            $message = "Successfully received Group 2 Accident Ticket (#" . $res['ticket_number'] . ") and classified into Incident Logging module! Record ID: #" . $res['record_id'];
+            $messageType = "success";
+        } catch (Exception $e) {
+            $message = "Error receiving accident report: " . $e->getMessage();
+            $messageType = "danger";
+        }
+    }
+
+    if ($action === 'simulate_group2_cctv_request') {
+        $cctvReqData = [
+            'case_number' => trim($_POST['case_number'] ?? ('CASE-' . date('Ymd') . '-042')),
+            'incident_type' => trim($_POST['incident_type'] ?? 'Vehicular Collision'),
+            'camera_location' => trim($_POST['camera_location'] ?? 'Quezon Ave. cor. EDSA, Quezon City'),
+            'incident_date' => $_POST['incident_date'] ?? date('Y-m-d'),
+            'incident_time' => $_POST['incident_time'] ?? date('H:i:s'),
+            'vehicle_plate' => trim($_POST['vehicle_plate'] ?? 'NBD-5421'),
+            'priority' => $_POST['priority'] ?? 'High',
+            'reason' => trim($_POST['reason'] ?? 'Retrieve intersection traffic camera recordings of collision.')
+        ];
+        try {
+            $res = $integrator->dispatchCctvRequestToGroup2($cctvReqData);
+            $message = "Dispatched CCTV request to Group 2 (Accident & Violation Reporting). Request ID: " . $res['request_id'];
+            $messageType = "success";
+        } catch (Exception $e) {
+            $message = "Error dispatching CCTV request: " . $e->getMessage();
+            $messageType = "danger";
+        }
+    }
+
+    if ($action === 'simulate_group2_ack') {
+        $ackSample = [
+            'request_id' => trim($_POST['request_id'] ?? ('REQ-CCTV-' . date('Ymd') . '-101')),
+            'acknowledged_by' => trim($_POST['acknowledged_by'] ?? 'Group 2 Surveillance Operator #08'),
+            'acknowledgement_notes' => trim($_POST['acknowledgement_notes'] ?? 'Request acknowledged. Traffic camera feeds from Northbound QC Ave retrieved and ready for transmission.'),
+            'assigned_camera_operator' => trim($_POST['assigned_camera_operator'] ?? 'Operator #08 (Group 2)')
+        ];
+        try {
+            $res = $integrator->acknowledgeCctvRequest($ackSample);
+            $message = "Group 2 acknowledged CCTV Request #" . $res['request_id'] . " successfully!";
+            $messageType = "success";
+        } catch (Exception $e) {
+            $message = "Error processing CCTV acknowledgement: " . $e->getMessage();
+            $messageType = "danger";
+        }
+    }
+
+    if ($action === 'simulate_group7_upload') {
+        $g7Sample = [
+            'evidence_id' => rand(10, 99),
+            'evidence_number' => 'EVD-' . date('Y') . '-' . rand(1000, 9999),
+            'case_number' => 'CASE-' . date('Ymd') . '-001',
+            'description' => 'Accident scene still photos and dashcam video recording',
+            'media_type' => 'Photo & Video',
+            'photos' => [
+                ['filename' => 'accident_scene_front.jpg', 'url' => 'https://report.alertaraqc.com/uploads/evidence/sample_photo_01.jpg']
+            ],
+            'videos' => [
+                ['filename' => 'traffic_cam_playback.mp4', 'url' => 'https://report.alertaraqc.com/uploads/evidence/sample_video_01.mp4']
+            ]
+        ];
+        try {
+            $res = $integrator->dispatchToGroup7EvidenceUpload($g7Sample);
+            $message = "Dispatched Photo & Video payload to Group 7 Upload API (" . htmlspecialchars(getIntegrationSetting('group7_evidence_upload_api_url', 'https://inspection.alertaraqc.com/api/upload_evidence.php')) . ")!";
+            $messageType = "success";
+        } catch (Exception $e) {
+            $message = "Error uploading to Group 7: " . $e->getMessage();
+            $messageType = "danger";
+        }
+    }
+
     if ($action === 'save_integration_settings') {
         setIntegrationSetting('cctv_request_api_url', $_POST['cctv_request_api_url'] ?? '');
         setIntegrationSetting('group7_inspection_api_url', $_POST['group7_inspection_api_url'] ?? '');
+        setIntegrationSetting('group7_evidence_upload_api_url', $_POST['group7_evidence_upload_api_url'] ?? '');
         setIntegrationSetting('group5_crime_map_api_url', $_POST['group5_crime_map_api_url'] ?? '');
         setIntegrationSetting('group3_resource_api_url', $_POST['group3_resource_api_url'] ?? '');
         setIntegrationSetting('campaign_api_url', $_POST['campaign_api_url'] ?? '');
@@ -135,6 +226,7 @@ $logs = [];
 $receivedFootage = [];
 $receivedTips = [];
 $receivedCampaigns = [];
+$receivedAccidents = [];
 
 try {
     $stmt = $pdo->query("SELECT * FROM external_integration_log ORDER BY id DESC LIMIT 20");
@@ -155,6 +247,12 @@ try {
     $stmtC = $pdo->query("SELECT * FROM received_campaigns ORDER BY id DESC LIMIT 25");
     $receivedCampaigns = $stmtC->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) { $receivedCampaigns = []; }
+
+try {
+    $stmtA = $pdo->query("SELECT * FROM received_accident_reports ORDER BY id DESC LIMIT 20");
+    $receivedAccidents = $stmtA->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) { $receivedAccidents = []; }
+
 ?>
 
 <div class="main-content">
@@ -179,32 +277,40 @@ try {
         <!-- Partner Integration API Specifications Banner -->
         <div class="card mb-4 bg-light border-primary shadow-sm">
             <div class="card-header bg-primary text-white fw-bold d-flex align-items-center">
-                <i class="fas fa-network-wired me-2"></i> Partner Integration Specifications & Inbound Webhook URLs
+                <i class="fas fa-network-wired me-2"></i> Inter-Group Integration Specifications & Inbound Webhook URLs
             </div>
             <div class="card-body">
                 <div class="row g-3">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="p-3 bg-white border rounded h-100">
-                            <span class="badge bg-danger mb-2">OUTGOING DISPATCH</span>
-                            <h6 class="fw-bold text-dark mb-1">CCTV Request Target</h6>
+                            <span class="badge bg-success mb-2">INCOMING (GROUP 2)</span>
+                            <h6 class="fw-bold text-dark mb-1">Accident & Violation Report</h6>
+                            <code class="small text-break">/api/receive_accident_report.php</code>
+                            <p class="small text-muted mt-2 mb-0">Receives Accident Tickets & Traffic Reports from Group 2; auto-logs into Incident records.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white border rounded h-100">
+                            <span class="badge bg-primary mb-2">OUTGOING (GROUP 7)</span>
+                            <h6 class="fw-bold text-dark mb-1">Photo & Video Upload API</h6>
+                            <code class="small text-break"><?= htmlspecialchars($integrationSettings['group7_evidence_upload_api_url'] ?? 'https://inspection.alertaraqc.com/api/upload_evidence.php') ?></code>
+                            <p class="small text-muted mt-2 mb-0">Dispatches photos & video evidence directly to Group 7 Inspection Cloud.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white border rounded h-100">
+                            <span class="badge bg-danger mb-2">OUTGOING (GROUP 2)</span>
+                            <h6 class="fw-bold text-dark mb-1">Request CCTV from Group 2</h6>
                             <code class="small text-break"><?= htmlspecialchars($integrationSettings['cctv_request_api_url'] ?? '') ?></code>
-                            <p class="small text-muted mt-2 mb-0">Dispatches automated CCTV footage requests to surveillance partner team.</p>
+                            <p class="small text-muted mt-2 mb-0">Dispatches automated CCTV footage & traffic camera retrieval queries to Group 2.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="p-3 bg-white border rounded h-100">
-                            <span class="badge bg-success mb-2">INCOMING WEBHOOK</span>
-                            <h6 class="fw-bold text-dark mb-1">Receive CCTV Footage</h6>
+                            <span class="badge bg-success mb-2">INCOMING (GROUP 2)</span>
+                            <h6 class="fw-bold text-dark mb-1">Receive Fulfilled CCTV Evidence</h6>
                             <code class="small text-break">/api/cctv_footage_receive.php</code>
-                            <p class="small text-muted mt-2 mb-0">Partner POSTs fulfilled CCTV footage & video links directly to this system.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="p-3 bg-white border rounded h-100">
-                            <span class="badge bg-success mb-2">INCOMING WEBHOOK</span>
-                            <h6 class="fw-bold text-dark mb-1">Receive Resolved Tips</h6>
-                            <code class="small text-break">/api/receive_resolved_tips.php</code>
-                            <p class="small text-muted mt-2 mb-0">Partner POSTs resolved tips to log & classify into Incident module.</p>
+                            <p class="small text-muted mt-2 mb-0">Group 2 acknowledges & sends fulfilled camera evidence, photos, and videos.</p>
                         </div>
                     </div>
                 </div>
@@ -218,22 +324,30 @@ try {
                 <span class="badge bg-warning text-dark"><i class="fas fa-plug me-1"></i>Integration Ready</span>
             </div>
             <div class="card-body">
-                <p class="small text-muted mb-4">Input or update the destination API URLs for external partner systems. All modules are pre-configured to route payloads to these target endpoints as soon as external APIs go live.</p>
+                <p class="small text-muted mb-4">Input or update destination API URLs for external partner systems. All modules are pre-configured to route payloads to these target endpoints as soon as external APIs go live.</p>
 
                 <form method="POST">
                     <input type="hidden" name="action" value="save_integration_settings">
 
                     <div class="row g-3">
                         <div class="col-md-6">
-                            <label class="form-label fw-bold text-dark"><i class="fas fa-video text-success me-2"></i>1. Partner CCTV Request API URL</label>
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-video text-success me-2"></i>1. Group 2 CCTV Request Target API URL</label>
                             <div class="input-group">
                                 <input type="url" name="cctv_request_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['cctv_request_api_url'] ?? '') ?>" placeholder="https://surveillance.alertaraqc.com/api/cctv_requests_receive.php" required>
                             </div>
-                            <small class="text-muted">Target endpoint for CCTV footage & still photo requests.</small>
+                            <small class="text-muted">Target endpoint for CCTV footage & traffic camera requests.</small>
                         </div>
 
                         <div class="col-md-6">
-                            <label class="form-label fw-bold text-dark"><i class="fas fa-calendar-check text-primary me-2"></i>2. Group 7 Inspection Scheduling API URL</label>
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-camera text-primary me-2"></i>2. Group 7 Photo & Video Upload API URL</label>
+                            <div class="input-group">
+                                <input type="url" name="group7_evidence_upload_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['group7_evidence_upload_api_url'] ?? '') ?>" placeholder="https://inspection.alertaraqc.com/api/upload_evidence.php">
+                            </div>
+                            <small class="text-muted">Target endpoint for sending photos & video evidence files.</small>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-calendar-check text-primary me-2"></i>3. Group 7 Inspection Scheduling API URL</label>
                             <div class="input-group">
                                 <input type="url" name="group7_inspection_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['group7_inspection_api_url'] ?? '') ?>" placeholder="https://inspection.alertaraqc.com/api/schedule_inspection.php">
                             </div>
@@ -241,7 +355,7 @@ try {
                         </div>
 
                         <div class="col-md-6">
-                            <label class="form-label fw-bold text-dark"><i class="fas fa-map-marked-alt text-info me-2"></i>3. Group 5 Crime Mapping GIS API URL</label>
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-map-marked-alt text-info me-2"></i>4. Group 5 Crime Mapping GIS API URL</label>
                             <div class="input-group">
                                 <input type="url" name="group5_crime_map_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['group5_crime_map_api_url'] ?? '') ?>" placeholder="https://crimemap.alertaraqc.com/api/update_heatmap.php">
                             </div>
@@ -249,7 +363,7 @@ try {
                         </div>
 
                         <div class="col-md-6">
-                            <label class="form-label fw-bold text-dark"><i class="fas fa-ambulance text-warning me-2"></i>4. Group 3 EMS & Resource Allocation API URL</label>
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-ambulance text-warning me-2"></i>5. Group 3 EMS & Resource Allocation API URL</label>
                             <div class="input-group">
                                 <input type="url" name="group3_resource_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['group3_resource_api_url'] ?? '') ?>" placeholder="https://dispatch.alertaraqc.com/api/assign_officer.php">
                             </div>
@@ -257,7 +371,7 @@ try {
                         </div>
 
                         <div class="col-md-6">
-                            <label class="form-label fw-bold text-dark"><i class="fas fa-bullhorn text-danger me-2"></i>5. Public Safety Campaign API URL (Group 1)</label>
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-bullhorn text-danger me-2"></i>6. Public Safety Campaign API URL (Group 1)</label>
                             <div class="input-group">
                                 <input type="url" name="campaign_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['campaign_api_url'] ?? '') ?>" placeholder="https://campaign.alertaraqc.com/api/v1/campaigns/public" required>
                             </div>
@@ -619,6 +733,251 @@ try {
                 </div>
             </div>
         </div>
+
+        <!-- Group 2: Accident & Violation Reports Live Stream (`received_accident_reports`) -->
+        <div class="card mb-4 border-danger shadow-sm">
+            <div class="card-header bg-danger text-white fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2">
+                <div>
+                    <i class="fas fa-car-crash me-2"></i>Group 2: Accident & Violation Reports Received (`received_accident_reports`)
+                    <span class="badge bg-white text-danger ms-2"><?= count($receivedAccidents) ?> Synced Record(s)</span>
+                </div>
+                <div class="d-flex gap-2">
+                    <button type="button" class="btn btn-sm btn-light text-danger fw-bold" data-bs-toggle="modal" data-bs-target="#simulateAccidentModal">
+                        <i class="fas fa-plus-circle me-1"></i>Simulate Inbound Accident Report & Ticket (Group 2)
+                    </button>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive" style="max-height: 380px;">
+                    <table class="table table-hover align-middle mb-0" style="font-size: 0.84rem;">
+                        <thead class="table-light sticky-top">
+                            <tr>
+                                <th>TICKET #</th>
+                                <th>VIOLATOR & VEHICLE</th>
+                                <th>VIOLATION / COLLISION</th>
+                                <th>FINE (PHP)</th>
+                                <th>SEVERITY</th>
+                                <th>LOCATION</th>
+                                <th>RECEIVED AT</th>
+                                <th class="text-center">ACTION</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php if (!empty($receivedAccidents)): ?>
+                                <?php foreach ($receivedAccidents as $acc): ?>
+                                    <tr>
+                                        <td>
+                                            <span class="badge bg-dark">#<?= htmlspecialchars($acc['ticket_number'] ?: 'N/A') ?></span>
+                                            <div class="small text-muted font-monospace"><?= htmlspecialchars($acc['report_id'] ?: '') ?></div>
+                                        </td>
+                                        <td>
+                                            <strong><?= htmlspecialchars($acc['violator_name'] ?: 'Unknown') ?></strong>
+                                            <div class="small text-muted"><?= htmlspecialchars($acc['vehicle_details'] ?: '') ?> &bull; <code><?= htmlspecialchars($acc['plate_number'] ?: 'NO PLATE') ?></code></div>
+                                        </td>
+                                        <td>
+                                            <span class="fw-semibold text-danger"><?= htmlspecialchars($acc['violation_type'] ?: 'Traffic Violation') ?></span>
+                                            <div class="small text-muted"><?= htmlspecialchars($acc['collision_type'] ?: 'Accident Incident') ?></div>
+                                        </td>
+                                        <td class="fw-bold text-success">&#8369;<?= number_format((float)$acc['fine_amount'], 2) ?></td>
+                                        <td>
+                                            <span class="badge bg-<?= match($acc['severity_level']) {
+                                                'Critical' => 'danger',
+                                                'High' => 'warning text-dark',
+                                                default => 'info'
+                                            } ?>"><?= htmlspecialchars($acc['severity_level'] ?: 'High') ?></span>
+                                        </td>
+                                        <td><small class="text-truncate d-block" style="max-width: 200px;"><?= htmlspecialchars($acc['location']) ?></small></td>
+                                        <td><?= date('M d, Y H:i', strtotime($acc['created_at'])) ?></td>
+                                        <td class="text-center">
+                                            <button type="button" class="btn btn-xs btn-outline-danger py-0 px-2 fw-bold" onclick="showAccidentDetails(<?= htmlspecialchars(json_encode($acc), ENT_QUOTES, 'UTF-8') ?>)">
+                                                <i class="fas fa-eye me-1"></i>Inspect
+                                            </button>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php else: ?>
+                                <tr>
+                                    <td colspan="8" class="text-center text-muted py-4">
+                                        No Group 2 accident reports received yet. Inbound API endpoint: <code>/api/receive_accident_report.php</code>.
+                                    </td>
+                                </tr>
+                            <?php endif; ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Inter-Group Action Simulators (Group 7 Upload & Group 2 CCTV Cycle) -->
+        <div class="row g-3 mb-4">
+            <div class="col-md-6">
+                <div class="card h-100 border-primary shadow-sm">
+                    <div class="card-header bg-primary text-white fw-bold">
+                        <i class="fas fa-cloud-upload-alt me-2"></i>Group 7: Photo & Video Upload Simulator
+                    </div>
+                    <div class="card-body">
+                        <p class="small text-muted">Test transmission of collected crime/accident scene photos and surveillance videos to Group 7's Photo and Videos Upload endpoint.</p>
+                        <form method="POST">
+                            <input type="hidden" name="action" value="simulate_group7_upload">
+                            <div class="mb-2">
+                                <label class="form-label small fw-bold">Target API Endpoint</label>
+                                <input type="text" class="form-control form-control-sm font-monospace" value="<?= htmlspecialchars($integrationSettings['group7_evidence_upload_api_url'] ?? 'https://inspection.alertaraqc.com/api/upload_evidence.php') ?>" readonly>
+                            </div>
+                            <div class="p-2 bg-light rounded border small mb-3">
+                                <strong>Payload Contains:</strong> Photos (JPG/PNG), Videos (MP4/WebM), Evidence Reference Number, and Case Hash.
+                            </div>
+                            <button type="submit" class="btn btn-sm btn-primary w-100 fw-bold">
+                                <i class="fas fa-paper-plane me-1"></i> Test Dispatch Photos & Videos to Group 7
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 border-success shadow-sm">
+                    <div class="card-header bg-success text-white fw-bold">
+                        <i class="fas fa-sync-alt me-2"></i>Group 2: CCTV Request & Acknowledgement Cycle
+                    </div>
+                    <div class="card-body">
+                        <p class="small text-muted">Group 1 requests CCTV camera retrieval from Group 2 (Accident & Violation Reporting), and Group 2 acknowledges the request with fulfilled video/photo evidence.</p>
+                        <div class="d-flex gap-2">
+                            <form method="POST" class="w-50">
+                                <input type="hidden" name="action" value="simulate_group2_cctv_request">
+                                <button type="submit" class="btn btn-sm btn-outline-success w-100 fw-bold">
+                                    <i class="fas fa-satellite-dish me-1"></i> 1. Dispatch Request
+                                </button>
+                            </form>
+                            <form method="POST" class="w-50">
+                                <input type="hidden" name="action" value="simulate_group2_ack">
+                                <button type="submit" class="btn btn-sm btn-success w-100 fw-bold">
+                                    <i class="fas fa-check-double me-1"></i> 2. Group 2 Acknowledge
+                                </button>
+                            </form>
+                        </div>
+                        <div class="mt-2 small text-muted">
+                            Data flow: <code>Group 1 (Request CCTV) &rarr; Group 2 (Acknowledge) &rarr; Group 1 (Receive Evidence, Photos, Videos)</code>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Modal: Simulate Group 2 Accident Report -->
+<div class="modal fade" id="simulateAccidentModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title"><i class="fas fa-car-crash me-2"></i>Simulate Inbound Accident Report & Ticket (Group 2)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <form method="POST">
+                <input type="hidden" name="action" value="simulate_group2_accident">
+                <div class="modal-body">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Ticket Number *</label>
+                            <input type="text" name="ticket_number" class="form-control" value="TKT-<?= date('Ymd') ?>-<?= rand(100, 999) ?>" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Violator Full Name *</label>
+                            <input type="text" name="violator_name" class="form-control" value="Juan Dela Cruz" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Vehicle Details</label>
+                            <input type="text" name="vehicle_details" class="form-control" value="Toyota Vios (Silver)">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">License Plate Number</label>
+                            <input type="text" name="plate_number" class="form-control" value="NBD-5421">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Violation Type</label>
+                            <input type="text" name="violation_type" class="form-control" value="Reckless Driving & Red Light Violation">
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label fw-semibold">Fine Amount (PHP)</label>
+                            <input type="number" step="0.01" name="fine_amount" class="form-control" value="2500.00">
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label fw-semibold">Severity</label>
+                            <select name="severity_level" class="form-select">
+                                <option value="High" selected>High</option>
+                                <option value="Critical">Critical</option>
+                                <option value="Medium">Medium</option>
+                            </select>
+                        </div>
+                        <div class="col-md-8">
+                            <label class="form-label fw-semibold">Incident Location *</label>
+                            <input type="text" name="location" class="form-control" value="Quezon Ave. cor. Timog Ave., Quezon City" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Casualties Count</label>
+                            <input type="number" name="casualties_count" class="form-control" value="1">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Narrative & Field Officer Notes</label>
+                            <textarea name="narrative" class="form-control" rows="2">Sedan beat red light and collided with motorcycle at intersection. Paramedics dispatched to scene.</textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-danger fw-bold"><i class="fas fa-paper-plane me-1"></i> Post Inbound Accident Report</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal: View Accident Report Details -->
+<div class="modal fade" id="accidentDetailModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title"><i class="fas fa-car-crash me-2"></i>Group 2 Accident Ticket & Report Details</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-md-6"><strong>Ticket Number:</strong> <span id="mAccTicket" class="badge bg-dark"></span></div>
+                    <div class="col-md-6"><strong>Severity:</strong> <span id="mAccSeverity" class="badge bg-danger"></span></div>
+                    <div class="col-md-6"><strong>Violator:</strong> <span id="mAccViolator" class="fw-bold"></span></div>
+                    <div class="col-md-6"><strong>Plate Number:</strong> <code id="mAccPlate"></code></div>
+                    <div class="col-md-6"><strong>Vehicle:</strong> <span id="mAccVehicle"></span></div>
+                    <div class="col-md-6"><strong>Fine Amount:</strong> <span id="mAccFine" class="fw-bold text-success"></span></div>
+                    <div class="col-md-6"><strong>Violation Type:</strong> <span id="mAccViolation"></span></div>
+                    <div class="col-md-6"><strong>Collision Type:</strong> <span id="mAccCollision"></span></div>
+                    <div class="col-12"><strong>Location:</strong> <span id="mAccLocation"></span></div>
+                    <div class="col-12">
+                        <strong>Narrative / Summary:</strong>
+                        <div id="mAccNarrative" class="p-3 bg-light rounded mt-1 border text-dark"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function showAccidentDetails(acc) {
+    document.getElementById('mAccTicket').textContent = '#' + (acc.ticket_number || acc.id);
+    document.getElementById('mAccSeverity').textContent = acc.severity_level || 'High';
+    document.getElementById('mAccViolator').textContent = acc.violator_name || 'N/A';
+    document.getElementById('mAccPlate').textContent = acc.plate_number || 'N/A';
+    document.getElementById('mAccVehicle').textContent = acc.vehicle_details || 'N/A';
+    document.getElementById('mAccFine').textContent = 'PHP ' + Number(acc.fine_amount || 0).toLocaleString('en-US', {minimumFractionDigits: 2});
+    document.getElementById('mAccViolation').textContent = acc.violation_type || 'N/A';
+    document.getElementById('mAccCollision').textContent = acc.collision_type || 'N/A';
+    document.getElementById('mAccLocation').textContent = acc.location || 'N/A';
+    document.getElementById('mAccNarrative').textContent = acc.narrative || 'No narrative provided.';
+
+    new bootstrap.Modal(document.getElementById('accidentDetailModal')).show();
+}
+</script>
+
 
 <!-- Campaign Details Modal -->
 <div class="modal fade" id="campaignDetailModal" tabindex="-1" aria-hidden="true">

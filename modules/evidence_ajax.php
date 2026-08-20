@@ -184,28 +184,117 @@ if ($action === 'view' && $id) {
             </div>
         </div>
         <div class="col-md-4">
-            <h6>Attachments (<?php echo count($attachments); ?>)</h6>
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <h6 class="mb-0">Attachments (<?php echo count($attachments); ?>)</h6>
+                <?php if (!empty($attachments)): ?>
+                    <button type="button" class="btn btn-xs btn-outline-success py-0 px-2 fw-bold" onclick="forwardToGroup7(<?php echo $evidence['id']; ?>)">
+                        <i class="bi bi-cloud-upload"></i> Send to Group 7
+                    </button>
+                <?php endif; ?>
+            </div>
+            <div id="group7StatusAlert_<?php echo $evidence['id']; ?>" class="mb-2" style="display:none;"></div>
             <?php if (empty($attachments)): ?>
-                <p class="text-muted">No attachments</p>
+                <p class="text-muted small">No attachments uploaded.</p>
             <?php else: ?>
-                <div class="list-group">
-                    <?php foreach ($attachments as $attachment): ?>
-                        <a href="<?php echo htmlspecialchars($attachment['file_path']); ?>"
-                           target="_blank"
-                           class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                            <div>
-                                <i class="bi bi-file-earmark"></i>
-                                <?php echo htmlspecialchars($attachment['original_filename']); ?>
-                                <br><small class="text-muted"><?php echo formatFileSize($attachment['file_size']); ?></small>
+                <div class="list-group mb-3">
+                    <?php foreach ($attachments as $attachment): 
+                        $ext = strtolower(pathinfo($attachment['stored_filename'] ?: $attachment['file_path'], PATHINFO_EXTENSION));
+                        $isImage = in_array($ext, ['jpg', 'jpeg', 'png', 'gif', 'webp']);
+                        $isVideo = in_array($ext, ['mp4', 'webm', 'ogg', 'mov', 'avi']);
+                    ?>
+                        <div class="list-group-item p-2">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-truncate" style="max-width: 180px;">
+                                    <i class="bi bi-<?php echo $isImage ? 'image' : ($isVideo ? 'camera-video' : 'file-earmark'); ?> text-primary me-1"></i>
+                                    <strong><?php echo htmlspecialchars($attachment['original_filename']); ?></strong>
+                                    <br><small class="text-muted"><?php echo formatFileSize($attachment['file_size']); ?></small>
+                                </div>
+                                <a href="<?php echo htmlspecialchars($attachment['file_path']); ?>" target="_blank" class="btn btn-sm btn-outline-secondary py-0 px-2">
+                                    <i class="bi bi-download"></i>
+                                </a>
                             </div>
-                            <i class="bi bi-download"></i>
-                        </a>
+                            <?php if ($isImage): ?>
+                                <div class="mt-2 text-center bg-light p-1 rounded border">
+                                    <img src="<?php echo htmlspecialchars($attachment['file_path']); ?>" alt="Evidence Photo" class="img-fluid rounded" style="max-height: 120px; object-fit: contain;">
+                                </div>
+                            <?php elseif ($isVideo): ?>
+                                <div class="mt-2 text-center bg-dark p-1 rounded">
+                                    <video src="<?php echo htmlspecialchars($attachment['file_path']); ?>" controls class="w-100 rounded" style="max-height: 140px;"></video>
+                                </div>
+                            <?php endif; ?>
+                        </div>
                     <?php endforeach; ?>
                 </div>
             <?php endif; ?>
         </div>
     </div>
     <?php
+} elseif ($action === 'send_to_group7' && $id) {
+    header('Content-Type: application/json; charset=utf-8');
+    require_once '../modules/OperationalModuleIntegrator.php';
+
+    $stmt = $pdo->prepare("SELECT * FROM evidence_records WHERE id = ?");
+    $stmt->execute([$id]);
+    $evidence = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    if (!$evidence) {
+        echo json_encode(['success' => false, 'error' => 'Evidence record not found']);
+        exit;
+    }
+
+    $attStmt = $pdo->prepare("SELECT * FROM evidence_attachments WHERE evidence_id = ? AND is_deleted = 0");
+    $attStmt->execute([$id]);
+    $attachments = $attStmt->fetchAll(PDO::FETCH_ASSOC);
+
+    $photos = [];
+    $videos = [];
+    foreach ($attachments as $a) {
+        $ext = strtolower(pathinfo($a['stored_filename'] ?: $a['file_path'], PATHINFO_EXTENSION));
+        if (in_array($ext, ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+            $photos[] = [
+                'filename' => $a['original_filename'],
+                'file_url' => $a['file_path'],
+                'size' => $a['file_size']
+            ];
+        } elseif (in_array($ext, ['mp4', 'webm', 'ogg', 'mov', 'avi'])) {
+            $videos[] = [
+                'filename' => $a['original_filename'],
+                'file_url' => $a['file_path'],
+                'size' => $a['file_size']
+            ];
+        }
+    }
+
+    $integrator = new OperationalModuleIntegrator($pdo);
+    $payload = [
+        'evidence_id' => $evidence['id'],
+        'evidence_number' => $evidence['evidence_number'],
+        'case_number' => $evidence['case_number'],
+        'description' => $evidence['item_description'],
+        'media_type' => (!empty($photos) && !empty($videos)) ? 'Photo & Video' : (!empty($photos) ? 'Photo' : 'Video'),
+        'photos' => $photos,
+        'videos' => $videos,
+        'uploaded_by' => $_SESSION['user_id']
+    ];
+
+    try {
+        $result = $integrator->dispatchToGroup7EvidenceUpload($payload);
+
+        // Add chain of custody entry
+        $cStmt = $pdo->prepare("INSERT INTO chain_of_custody (evidence_id, action_type, action_date, location, purpose, notes, performed_by) VALUES (?, 'Transferred to Group 7', NOW(), 'Group 7 Inspection Cloud', 'Dispatched photos/videos to Group 7 Upload API', ?, ?)");
+        $cStmt->execute([$id, "Forwarded " . count($photos) . " photo(s) and " . count($videos) . " video(s) to Group 7", $_SESSION['user_id']]);
+
+        echo json_encode([
+            'success' => true,
+            'message' => 'Evidence media (Photos & Videos) dispatched to Group 7 successfully!',
+            'photos_count' => count($photos),
+            'videos_count' => count($videos),
+            'result' => $result
+        ]);
+    } catch (Exception $e) {
+        echo json_encode(['success' => false, 'error' => $e->getMessage()]);
+    }
+    exit;
 } elseif ($action === 'chain' && $id) {
     // Get chain of custody
     $stmt = $pdo->prepare("
@@ -281,4 +370,4 @@ function formatFileSize($bytes) {
     }
     return round($bytes, 2) . ' ' . $units[$i];
 }
-?>
+?>

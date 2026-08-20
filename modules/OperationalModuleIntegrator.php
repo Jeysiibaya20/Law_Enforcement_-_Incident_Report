@@ -69,10 +69,53 @@ class OperationalModuleIntegrator {
                 INDEX idx_tip_id (tip_id),
                 INDEX idx_incident_id (incident_id)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+            $this->pdo->exec("CREATE TABLE IF NOT EXISTS received_accident_reports (
+                id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                report_id VARCHAR(100) NULL,
+                ticket_number VARCHAR(100) NULL,
+                incident_type VARCHAR(150) DEFAULT 'Traffic Accident / Violation',
+                violator_name VARCHAR(255) NULL,
+                vehicle_details VARCHAR(255) NULL,
+                plate_number VARCHAR(50) NULL,
+                violation_type VARCHAR(255) NULL,
+                fine_amount DECIMAL(10, 2) DEFAULT 0.00,
+                severity_level VARCHAR(50) DEFAULT 'Medium',
+                collision_type VARCHAR(100) NULL,
+                location VARCHAR(255) NULL,
+                barangay VARCHAR(100) NULL,
+                district VARCHAR(100) NULL,
+                narrative LONGTEXT NULL,
+                casualties_count INT DEFAULT 0,
+                property_damage_estimate DECIMAL(12, 2) DEFAULT 0.00,
+                reporting_officer VARCHAR(150) NULL,
+                incident_date_time DATETIME NULL,
+                evidence_media TEXT NULL,
+                status VARCHAR(50) DEFAULT 'Logged & Classified',
+                raw_payload LONGTEXT NULL,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                INDEX idx_report_id (report_id),
+                INDEX idx_ticket_number (ticket_number)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+            $this->pdo->exec("CREATE TABLE IF NOT EXISTS suspect_witness_privacy_audit (
+                id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                user_id INT NULL,
+                action VARCHAR(100) NOT NULL,
+                target_type VARCHAR(50) NOT NULL,
+                target_id INT NULL,
+                details TEXT NULL,
+                ip_address VARCHAR(45) NULL,
+                user_agent VARCHAR(255) NULL,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                INDEX idx_target (target_type, target_id),
+                INDEX idx_user (user_id)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
         } catch (Exception $e) {
             error_log("Schema initialization notice: " . $e->getMessage());
         }
     }
+
 
     /**
      * Process Raw Inbound Data & Generate Standardized Module Payloads
@@ -622,6 +665,241 @@ class OperationalModuleIntegrator {
         ], true);
     }
 
+    /**
+     * Process incoming Accident Ticket & Report from Group 2 (Accident and Violation Reporting)
+     */
+    public function processIncomingAccidentReport(array $data): array {
+        $reportId = trim($data['report_id'] ?? $data['id'] ?? ('ACC-REP-' . date('Ymd') . '-' . rand(1000, 9999)));
+        $ticketNumber = trim($data['ticket_number'] ?? $data['ticket_no'] ?? $data['accident_ticket'] ?? ('TKT-' . date('Ymd') . '-' . rand(100, 999)));
+        $incidentType = trim($data['incident_type'] ?? $data['violation_type'] ?? 'Traffic Accident / Violation');
+        $violatorName = trim($data['violator_name'] ?? $data['driver_name'] ?? $data['party_name'] ?? 'Unspecified Driver / Party');
+        $vehicleDetails = trim($data['vehicle_details'] ?? $data['vehicle_model'] ?? $data['vehicle'] ?? '');
+        $plateNumber = trim($data['plate_number'] ?? $data['plate_no'] ?? '');
+        $violationType = trim($data['violation_type'] ?? $incidentType);
+        $fineAmount = floatval($data['fine_amount'] ?? $data['penalty_fee'] ?? 0.00);
+        $severityLevel = trim($data['severity_level'] ?? $data['severity'] ?? $data['urgency'] ?? 'Medium');
+        $collisionType = trim($data['collision_type'] ?? $data['accident_type'] ?? 'Vehicular Collision');
+        $location = trim($data['location'] ?? $data['accident_location'] ?? 'Quezon City');
+        $barangay = trim($data['barangay'] ?? '');
+        $district = trim($data['district'] ?? $this->extractDistrict($location));
+        $narrative = trim($data['narrative'] ?? $data['report'] ?? $data['description'] ?? $data['accident_details'] ?? '');
+        $casualtiesCount = intval($data['casualties_count'] ?? $data['casualties'] ?? $data['injured_count'] ?? 0);
+        $propertyDamage = floatval($data['property_damage_estimate'] ?? $data['damage_estimate'] ?? 0.00);
+        $officerName = trim($data['reporting_officer'] ?? $data['officer_name'] ?? 'Traffic Enforcement Officer');
+        $dateTime = trim($data['incident_date_time'] ?? $data['date_time'] ?? $data['timestamp'] ?? date('Y-m-d H:i:s'));
+        
+        $evidenceMedia = '';
+        if (!empty($data['photos']) || !empty($data['videos']) || !empty($data['evidence_media']) || !empty($data['evidence'])) {
+            $mediaArr = $data['photos'] ?? $data['videos'] ?? $data['evidence_media'] ?? $data['evidence'];
+            $evidenceMedia = is_array($mediaArr) ? json_encode($mediaArr, JSON_UNESCAPED_SLASHES) : (string)$mediaArr;
+        }
+
+        if (empty($narrative) && empty($violationType)) {
+            throw new Exception('Missing accident report narrative or violation description in incoming payload.');
+        }
+
+        $recordId = null;
+        $caseNo = null;
+
+        if ($this->pdo instanceof PDO) {
+            $stmt = $this->pdo->prepare("INSERT INTO received_accident_reports 
+                (report_id, ticket_number, incident_type, violator_name, vehicle_details, plate_number, violation_type, fine_amount, severity_level, collision_type, location, barangay, district, narrative, casualties_count, property_damage_estimate, reporting_officer, incident_date_time, evidence_media, status, raw_payload) 
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Logged & Classified', ?)");
+            $stmt->execute([
+                $reportId,
+                $ticketNumber,
+                $incidentType,
+                $violatorName,
+                $vehicleDetails,
+                $plateNumber,
+                $violationType,
+                $fineAmount,
+                $severityLevel,
+                $collisionType,
+                $location,
+                $barangay,
+                $district,
+                $narrative,
+                $casualtiesCount,
+                $propertyDamage,
+                $officerName,
+                $dateTime,
+                $evidenceMedia,
+                json_encode($data, JSON_UNESCAPED_UNICODE)
+            ]);
+            $recordId = $this->pdo->lastInsertId();
+
+            // Automatically mirror and classify into the central incidents table
+            try {
+                $checkIncidents = $this->pdo->query("SHOW TABLES LIKE 'incidents'");
+                if ($checkIncidents && $checkIncidents->rowCount() > 0) {
+                    $caseNo = 'ACC-' . date('Ymd') . '-' . substr(strtoupper(bin2hex(random_bytes(2))), 0, 4);
+                    $fullNarrative = "[Group 2 Accident Ticket: {$ticketNumber} | Report: {$reportId}]\n"
+                        . "Violator/Party: {$violatorName} (Plate: " . ($plateNumber ?: 'N/A') . ")\n"
+                        . "Collision Type: {$collisionType} | Severity: {$severityLevel} | Casualties: {$casualtiesCount}\n"
+                        . "Damage Est: PHP " . number_format($propertyDamage, 2) . " | Fine: PHP " . number_format($fineAmount, 2) . "\n"
+                        . "Narrative: " . $narrative;
+
+                    $urgency = in_array($severityLevel, ['Critical', 'High', 'Medium', 'Low']) ? $severityLevel : 'Medium';
+
+                    $incStmt = $this->pdo->prepare("INSERT INTO incidents (case_no, narrative, incident_type, incident_subtype, auto_classification, urgency_level, location, status, reporter_name, incident_date, created_at) VALUES (?, ?, 'Other', 'Traffic Accident / Violation', 'Group 2 Accident Ticket', ?, ?, 'Submitted', ?, ?, NOW())");
+                    $incStmt->execute([
+                        $caseNo,
+                        $fullNarrative,
+                        $urgency,
+                        $location,
+                        $officerName,
+                        date('Y-m-d', strtotime($dateTime))
+                    ]);
+                }
+            } catch (Exception $e) {
+                error_log("Notice: Could not mirror accident report to main incidents table: " . $e->getMessage());
+            }
+
+            $this->saveLog('incoming_accident_report', 'Group 2 Accident System', $data, [
+                'status' => 'success',
+                'record_id' => $recordId,
+                'ticket_number' => $ticketNumber,
+                'report_id' => $reportId,
+                'case_no' => $caseNo
+            ], 'logged_and_classified');
+        }
+
+        return [
+            'success' => true,
+            'message' => 'Accident ticket and report successfully received, stored, and classified into Incident Logging module.',
+            'record_id' => $recordId,
+            'report_id' => $reportId,
+            'ticket_number' => $ticketNumber,
+            'case_no' => $caseNo,
+            'incident_type' => $incidentType,
+            'severity_level' => $severityLevel,
+            'received_at' => date('Y-m-d H:i:s')
+        ];
+    }
+
+    /**
+     * Dispatch Photos and Videos to Group 7 (Photo and Videos Upload API)
+     */
+    public function dispatchToGroup7EvidenceUpload(array $evidenceData): array {
+        $endpoint = getIntegrationSetting('group7_evidence_upload_api_url', 'https://inspection.alertaraqc.com/api/upload_evidence.php');
+
+        $payload = [
+            'evidence_id' => $evidenceData['evidence_id'] ?? $evidenceData['id'] ?? null,
+            'evidence_number' => $evidenceData['evidence_number'] ?? ('EVD-' . date('Y') . '-' . rand(1000, 9999)),
+            'case_number' => $evidenceData['case_number'] ?? '',
+            'media_type' => $evidenceData['media_type'] ?? 'Photo/Video',
+            'photos' => $evidenceData['photos'] ?? [],
+            'videos' => $evidenceData['videos'] ?? [],
+            'description' => $evidenceData['description'] ?? $evidenceData['item_description'] ?? '',
+            'uploaded_by' => $evidenceData['uploaded_by'] ?? 'Group 1 Evidence Custodian',
+            'timestamp' => date('c')
+        ];
+
+        $result = dispatchPayloadToEndpoint($endpoint, $payload, [], $this->timeout);
+        $status = $result['success'] ? 'success' : 'failed';
+
+        if ($this->pdo instanceof PDO) {
+            $this->saveLog('outgoing_group7_evidence_upload', $endpoint, $payload, $result, $status);
+        }
+
+        return $result;
+    }
+
+    /**
+     * Group 1 requests CCTV from Group 2 (Accident & Violation Reporting)
+     */
+    public function dispatchCctvRequestToGroup2(array $requestData): array {
+        $endpoint = getIntegrationSetting('cctv_request_api_url', $this->partnerCctvEndpoint);
+        
+        $payload = [
+            'request_id' => $requestData['request_id'] ?? ('REQ-CCTV-' . date('Ymd') . '-' . rand(100, 999)),
+            'sender' => 'Group 1 Law Enforcement & Incident Report System',
+            'recipient' => 'Group 2 Accident and Violation Reporting',
+            'case_number' => $requestData['case_number'] ?? '',
+            'incident_type' => $requestData['incident_type'] ?? 'Accident / Traffic Incident',
+            'camera_location' => $requestData['camera_location'] ?? $requestData['location'] ?? 'Quezon City',
+            'incident_date' => $requestData['incident_date'] ?? date('Y-m-d'),
+            'incident_time' => $requestData['incident_time'] ?? date('H:i:s'),
+            'time_window_minutes' => $requestData['time_window_minutes'] ?? 30,
+            'vehicle_plate' => $requestData['vehicle_plate'] ?? null,
+            'priority' => $requestData['priority'] ?? 'High',
+            'reason' => $requestData['reason'] ?? 'Investigation and evidence retrieval for incident report',
+            'requested_at' => date('c')
+        ];
+
+        $result = dispatchPayloadToEndpoint($endpoint, $payload, [], $this->timeout);
+        $status = $result['success'] ? 'success' : 'sent_or_simulated';
+
+        if ($this->pdo instanceof PDO) {
+            try {
+                $stmt = $this->pdo->prepare("INSERT INTO cctv_requests (request_type, camera_location, incident_date, incident_time, priority, reason, status, requested_at) VALUES ('Footage & Still Photos', ?, ?, ?, ?, ?, 'Dispatched to Group 2', NOW())");
+                $stmt->execute([
+                    $payload['camera_location'],
+                    $payload['incident_date'],
+                    $payload['incident_time'],
+                    $payload['priority'],
+                    $payload['reason']
+                ]);
+            } catch (Exception $e) {
+                error_log("Notice: " . $e->getMessage());
+            }
+
+            $this->saveLog('outgoing_group2_cctv_request', $endpoint, $payload, $result, $status);
+        }
+
+        return [
+            'success' => true,
+            'request_id' => $payload['request_id'],
+            'status' => 'Dispatched to Group 2',
+            'result' => $result
+        ];
+    }
+
+    /**
+     * Group 2 Acknowledges CCTV Request from Group 1
+     */
+    public function acknowledgeCctvRequest(array $ackData): array {
+        $requestId = trim($ackData['request_id'] ?? $ackData['cctv_request_id'] ?? '');
+        $acknowledgedBy = trim($ackData['acknowledged_by'] ?? $ackData['operator_name'] ?? 'Group 2 CCTV Operator');
+        $ackNotes = trim($ackData['acknowledgement_notes'] ?? $ackData['notes'] ?? 'Request received and camera search queued.');
+        $assignedOperator = trim($ackData['assigned_camera_operator'] ?? $acknowledgedBy);
+        $status = trim($ackData['status'] ?? 'Acknowledged by Group 2');
+
+        if (empty($requestId)) {
+            throw new Exception('Missing request_id in CCTV acknowledgement payload.');
+        }
+
+        if ($this->pdo instanceof PDO) {
+            try {
+                if (is_numeric($requestId)) {
+                    $stmt = $this->pdo->prepare("UPDATE cctv_requests SET status = ?, acknowledged_at = NOW(), acknowledged_by = ?, acknowledgement_notes = ?, assigned_camera_operator = ? WHERE id = ?");
+                    $stmt->execute([$status, $acknowledgedBy, $ackNotes, $assignedOperator, intval($requestId)]);
+                } else {
+                    $stmt = $this->pdo->prepare("UPDATE cctv_requests SET status = ?, acknowledged_at = NOW(), acknowledged_by = ?, acknowledgement_notes = ?, assigned_camera_operator = ? WHERE reason LIKE ? OR additional_details LIKE ?");
+                    $stmt->execute([$status, $acknowledgedBy, $ackNotes, $assignedOperator, "%{$requestId}%", "%{$requestId}%"]);
+                }
+            } catch (Exception $e) {
+                error_log("Notice updating cctv_requests acknowledgement: " . $e->getMessage());
+            }
+
+            $this->saveLog('incoming_group2_cctv_acknowledgement', 'Group 2 Surveillance Desk', $ackData, [
+                'status' => 'acknowledged',
+                'request_id' => $requestId,
+                'acknowledged_by' => $acknowledgedBy
+            ], 'acknowledged');
+        }
+
+        return [
+            'success' => true,
+            'message' => 'CCTV request acknowledgement from Group 2 processed successfully.',
+            'request_id' => $requestId,
+            'status' => $status,
+            'acknowledged_by' => $acknowledgedBy,
+            'acknowledged_at' => date('Y-m-d H:i:s')
+        ];
+    }
+
     private function saveLog(string $direction, string $targetUrl, array $payload, array $response, string $status): void {
         try {
             $stmt = $this->pdo->prepare("INSERT INTO external_integration_log (direction, target_url, payload, response_body, status) VALUES (?, ?, ?, ?, ?)");
@@ -633,3 +911,4 @@ class OperationalModuleIntegrator {
         }
     }
 }
+

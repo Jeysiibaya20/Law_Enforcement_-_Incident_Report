@@ -252,11 +252,44 @@ if ($action === 'receive_emergency_call') {
     }
 }
 
-if ($action === 'receive_anonymous_tip') {
+if ($action === 'receive_accident_report') {
     require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
     $integrator = new OperationalModuleIntegrator($pdo);
     try {
-        $result = $integrator->processIncomingAnonymousTip($payload);
+        $result = $integrator->processIncomingAccidentReport($payload);
+        jsonResponse($result, 200);
+    } catch (Exception $e) {
+        jsonResponse(['success' => false, 'error' => $e->getMessage()], 400);
+    }
+}
+
+if ($action === 'send_to_group7_evidence') {
+    require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+    $integrator = new OperationalModuleIntegrator($pdo);
+    try {
+        $result = $integrator->dispatchToGroup7EvidenceUpload($payload);
+        jsonResponse($result, 200);
+    } catch (Exception $e) {
+        jsonResponse(['success' => false, 'error' => $e->getMessage()], 400);
+    }
+}
+
+if ($action === 'dispatch_group2_cctv_request') {
+    require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+    $integrator = new OperationalModuleIntegrator($pdo);
+    try {
+        $result = $integrator->dispatchCctvRequestToGroup2($payload);
+        jsonResponse($result, 200);
+    } catch (Exception $e) {
+        jsonResponse(['success' => false, 'error' => $e->getMessage()], 400);
+    }
+}
+
+if ($action === 'ack_cctv_request') {
+    require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+    $integrator = new OperationalModuleIntegrator($pdo);
+    try {
+        $result = $integrator->acknowledgeCctvRequest($payload);
         jsonResponse($result, 200);
     } catch (Exception $e) {
         jsonResponse(['success' => false, 'error' => $e->getMessage()], 400);
@@ -264,3 +297,4 @@ if ($action === 'receive_anonymous_tip') {
 }
 
 jsonResponse(['success' => false, 'error' => 'Invalid action'], 400);
+

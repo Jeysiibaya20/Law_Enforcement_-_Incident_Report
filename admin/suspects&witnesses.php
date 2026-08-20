@@ -345,8 +345,63 @@ include '../includes/navbar.php';
                 </div>
             </div>
         </div>
+
+        <!-- Data Privacy Access Audit Trail Table -->
+        <div class="card mt-4 shadow-sm border-dark">
+            <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+                <h5 class="card-title mb-0"><i class="fas fa-history text-warning me-2"></i>Recent Data Privacy Access Audit Logs (`suspect_witness_privacy_audit`)</h5>
+                <a href="../modules/Suspect&Witness.php" class="btn btn-sm btn-warning text-dark fw-bold">
+                    <i class="fas fa-external-link-alt me-1"></i> Open Suspect & Witness Workspace
+                </a>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0" style="font-size: 0.85rem;">
+                        <thead class="table-light">
+                            <tr>
+                                <th>ID</th>
+                                <th>Action</th>
+                                <th>Target Type</th>
+                                <th>Investigator</th>
+                                <th>IP Address</th>
+                                <th>Activity Notes</th>
+                                <th>Timestamp</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php 
+                            $recentAudits = getPrivacyAuditLogs($pdo, 10);
+                            if (empty($recentAudits)): 
+                            ?>
+                                <tr><td colspan="7" class="text-center text-muted py-3">No privacy access audit logs recorded yet.</td></tr>
+                            <?php else: ?>
+                                <?php foreach ($recentAudits as $ra): ?>
+                                    <tr>
+                                        <td><strong>#<?= htmlspecialchars($ra['id']) ?></strong></td>
+                                        <td>
+                                            <span class="badge bg-<?= match($ra['action']) {
+                                                'UNMASK_VIEW' => 'warning text-dark',
+                                                'CREATE_SUSPECT', 'CREATE_WITNESS' => 'success',
+                                                default => 'secondary'
+                                            } ?>"><?= htmlspecialchars($ra['action']) ?></span>
+                                        </td>
+                                        <td><code><?= htmlspecialchars($ra['target_type']) ?></code></td>
+                                        <td><?= htmlspecialchars($ra['performer_name']) ?></td>
+                                        <td><code><?= htmlspecialchars($ra['ip_address']) ?></code></td>
+                                        <td><?= htmlspecialchars($ra['details']) ?></td>
+                                        <td><?= date('M d, Y H:i:s', strtotime($ra['created_at'])) ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 
 </body>
 </html>
+
