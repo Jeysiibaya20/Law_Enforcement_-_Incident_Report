@@ -104,6 +104,22 @@ require_once '../includes/header.php';
                                 <small class="text-muted d-block mt-1">action=users — Retrieve system registered accounts.</small>
                             </button>
 
+                            <button class="list-group-item list-group-item-action py-3 px-3 border-bottom rounded-3 mb-2 api-test-btn" data-action="emergency_calls" data-method="GET">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <strong><span class="badge bg-danger me-2">GET</span>📞 Emergency Calls (Aldrin's Group)</strong>
+                                    <i class="fas fa-play text-primary"></i>
+                                </div>
+                                <small class="text-muted d-block mt-1">action=emergency_calls — Fetch received emergency calls log.</small>
+                            </button>
+
+                            <button class="list-group-item list-group-item-action py-3 px-3 border-bottom rounded-3 mb-2 api-test-btn" data-action="cctv_requests" data-method="GET">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <strong><span class="badge bg-success me-2">GET</span>📹 CCTV Requests (Marto's Group)</strong>
+                                    <i class="fas fa-play text-primary"></i>
+                                </div>
+                                <small class="text-muted d-block mt-1">action=cctv_requests — Fetch CCTV footage requests records.</small>
+                            </button>
+
                             <button class="list-group-item list-group-item-action py-3 px-3 border-bottom rounded-3 mb-2 api-test-btn" data-action="notifications" data-method="GET">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <strong><span class="badge bg-danger me-2">GET</span>Header Notifications</strong>

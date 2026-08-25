@@ -98,24 +98,117 @@ class OperationalModuleIntegrator {
                 INDEX idx_ticket_number (ticket_number)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
 
-            $this->pdo->exec("CREATE TABLE IF NOT EXISTS suspect_witness_privacy_audit (
+            $this->pdo->exec("CREATE TABLE IF NOT EXISTS received_emergency_calls (
                 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-                user_id INT NULL,
-                action VARCHAR(100) NOT NULL,
-                target_type VARCHAR(50) NOT NULL,
-                target_id INT NULL,
-                details TEXT NULL,
-                ip_address VARCHAR(45) NULL,
-                user_agent VARCHAR(255) NULL,
+                call_id VARCHAR(100) NULL,
+                call_timestamp DATETIME NULL,
+                caller_name VARCHAR(255) NULL,
+                caller_location VARCHAR(255) NULL,
+                emergency_level VARCHAR(50) DEFAULT 'High',
+                incident_description LONGTEXT NULL,
+                incident_type VARCHAR(150) DEFAULT 'Emergency Call',
+                district VARCHAR(100) NULL,
+                case_no VARCHAR(100) NULL,
+                status VARCHAR(50) DEFAULT 'Logged & Dispatched',
+                raw_payload LONGTEXT NULL,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                INDEX idx_target (target_type, target_id),
-                INDEX idx_user (user_id)
+                INDEX idx_call_id (call_id),
+                INDEX idx_case_no (case_no)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+            // Ensure modern CCTV request table columns exist
+            $this->pdo->exec("CREATE TABLE IF NOT EXISTS cctv_requests (
+                id INT(11) NOT NULL AUTO_INCREMENT,
+                request_id_code VARCHAR(100) DEFAULT NULL,
+                requested_by INT(11) DEFAULT NULL,
+                requesting_agency VARCHAR(255) DEFAULT 'Digital Blotter System',
+                contact_person VARCHAR(255) DEFAULT NULL,
+                position_designation VARCHAR(255) DEFAULT NULL,
+                contact_number VARCHAR(100) DEFAULT NULL,
+                email_address VARCHAR(255) DEFAULT NULL,
+                office_unit VARCHAR(255) DEFAULT NULL,
+                case_reference VARCHAR(255) DEFAULT NULL,
+                related_complaint_id VARCHAR(255) DEFAULT NULL,
+                legal_basis VARCHAR(255) DEFAULT 'Law enforcement request',
+                purpose_reason TEXT DEFAULT NULL,
+                supporting_document VARCHAR(255) DEFAULT NULL,
+                incident_location VARCHAR(255) DEFAULT NULL,
+                camera_id VARCHAR(255) DEFAULT NULL,
+                location_description VARCHAR(255) DEFAULT NULL,
+                incident_date DATE DEFAULT NULL,
+                incident_time TIME DEFAULT NULL,
+                incident_type VARCHAR(100) DEFAULT 'Footage',
+                footage_start_time TIME DEFAULT NULL,
+                footage_end_time TIME DEFAULT NULL,
+                incident_description TEXT DEFAULT NULL,
+                delivery_method VARCHAR(100) DEFAULT 'Secure download link',
+                official_use_confirmed TINYINT(1) DEFAULT 1,
+                privacy_terms_agreed TINYINT(1) DEFAULT 1,
+                priority VARCHAR(50) NOT NULL DEFAULT 'Normal',
+                reason TEXT DEFAULT NULL,
+                additional_details TEXT DEFAULT NULL,
+                monitoring_office VARCHAR(100) DEFAULT NULL,
+                monitoring_notes TEXT DEFAULT NULL,
+                review_notes TEXT DEFAULT NULL,
+                rejection_reason TEXT DEFAULT NULL,
+                fulfillment_notes TEXT DEFAULT NULL,
+                acknowledged_at DATETIME DEFAULT NULL,
+                acknowledged_by VARCHAR(150) DEFAULT NULL,
+                acknowledgement_notes TEXT DEFAULT NULL,
+                assigned_camera_operator VARCHAR(150) DEFAULT NULL,
+                status VARCHAR(50) NOT NULL DEFAULT 'Pending',
+                requested_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                updated_at DATETIME DEFAULT NULL,
+                PRIMARY KEY (id)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+            $cctvColChecks = [
+                'request_id_code' => 'VARCHAR(100) DEFAULT NULL',
+                'requesting_agency' => 'VARCHAR(255) DEFAULT "Digital Blotter System"',
+                'contact_person' => 'VARCHAR(255) DEFAULT NULL',
+                'position_designation' => 'VARCHAR(255) DEFAULT NULL',
+                'contact_number' => 'VARCHAR(100) DEFAULT NULL',
+                'email_address' => 'VARCHAR(255) DEFAULT NULL',
+                'office_unit' => 'VARCHAR(255) DEFAULT NULL',
+                'case_reference' => 'VARCHAR(255) DEFAULT NULL',
+                'related_complaint_id' => 'VARCHAR(255) DEFAULT NULL',
+                'legal_basis' => 'VARCHAR(255) DEFAULT "Law enforcement request"',
+                'purpose_reason' => 'TEXT DEFAULT NULL',
+                'supporting_document' => 'VARCHAR(255) DEFAULT NULL',
+                'incident_location' => 'VARCHAR(255) DEFAULT NULL',
+                'camera_id' => 'VARCHAR(255) DEFAULT NULL',
+                'location_description' => 'VARCHAR(255) DEFAULT NULL',
+                'incident_date' => 'DATE DEFAULT NULL',
+                'incident_time' => 'TIME DEFAULT NULL',
+                'incident_type' => 'VARCHAR(100) DEFAULT "Footage"',
+                'footage_start_time' => 'TIME DEFAULT NULL',
+                'footage_end_time' => 'TIME DEFAULT NULL',
+                'incident_description' => 'TEXT DEFAULT NULL',
+                'delivery_method' => 'VARCHAR(100) DEFAULT "Secure download link"',
+                'official_use_confirmed' => 'TINYINT(1) DEFAULT 1',
+                'privacy_terms_agreed' => 'TINYINT(1) DEFAULT 1',
+                'priority' => 'VARCHAR(50) NOT NULL DEFAULT "Normal"',
+                'reason' => 'TEXT DEFAULT NULL',
+                'additional_details' => 'TEXT DEFAULT NULL',
+                'monitoring_office' => 'VARCHAR(100) DEFAULT NULL',
+                'monitoring_notes' => 'TEXT DEFAULT NULL',
+                'review_notes' => 'TEXT DEFAULT NULL',
+                'rejection_reason' => 'TEXT DEFAULT NULL',
+                'fulfillment_notes' => 'TEXT DEFAULT NULL'
+            ];
+
+            foreach ($cctvColChecks as $cCol => $cDef) {
+                try {
+                    $chk = $this->pdo->query("SHOW COLUMNS FROM cctv_requests LIKE '{$cCol}'");
+                    if (!$chk || $chk->rowCount() === 0) {
+                        $this->pdo->exec("ALTER TABLE cctv_requests ADD COLUMN {$cCol} {$cDef}");
+                    }
+                } catch (Exception $ex) {}
+            }
         } catch (Exception $e) {
             error_log("Schema initialization notice: " . $e->getMessage());
         }
     }
-
 
     /**
      * Process Raw Inbound Data & Generate Standardized Module Payloads
@@ -625,23 +718,181 @@ class OperationalModuleIntegrator {
     }
 
     /**
-     * Process incoming Emergency Call from Group 3 (Emergency Call Receiving and Logging)
+     * Process incoming Emergency Call from Aldrin's Group (Emergency Call Receiving and Logging)
+     * Fields supported: Call ID, Timestamp, Caller, Location, Emergency Level, Incident Description
      */
     public function processIncomingEmergencyCall(array $data): array {
-        $callId = trim($data['call_id'] ?? $data['id'] ?? ('CALL-' . date('Ymd') . '-' . rand(1000, 9999)));
-        $timestamp = trim($data['timestamp'] ?? $data['date_time'] ?? date('Y-m-d H:i:s'));
-        $location = trim($data['caller_location'] ?? $data['location'] ?? 'Quezon City');
-        $emergencyLevel = trim($data['emergency_level'] ?? 'High');
-        $description = trim($data['incident_description'] ?? $data['description'] ?? '');
+        $callId = trim($data['Call ID'] ?? $data['call_id'] ?? $data['callId'] ?? $data['CallId'] ?? $data['id'] ?? ('CALL-' . date('Ymd') . '-' . rand(1000, 9999)));
+        $timestamp = trim($data['Timestamp'] ?? $data['timestamp'] ?? $data['date_time'] ?? $data['dateTime'] ?? $data['call_time'] ?? date('Y-m-d H:i:s'));
+        $caller = trim($data['Caller'] ?? $data['caller'] ?? $data['caller_name'] ?? $data['name'] ?? $data['complainant_name'] ?? $data['reporter_name'] ?? 'Emergency Caller');
+        $location = trim($data['Location'] ?? $data['location'] ?? $data['caller_location'] ?? $data['address'] ?? 'Quezon City');
+        $emergencyLevel = ucfirst(strtolower(trim($data['Emergency Level'] ?? $data['emergency_level'] ?? $data['EmergencyLevel'] ?? $data['urgency'] ?? $data['priority'] ?? $data['severity'] ?? 'High')));
+        $description = trim($data['Incident Description'] ?? $data['incident_description'] ?? $data['IncidentDescription'] ?? $data['description'] ?? $data['details'] ?? $data['narrative'] ?? '');
 
-        return $this->processInbound([
-            'source' => 'group_3_emergency_call',
+        if (empty($description) && empty($location)) {
+            throw new Exception('Missing incident description or location in incoming emergency call payload.');
+        }
+
+        $formattedTime = date('Y-m-d H:i:s', strtotime($timestamp));
+        if ($formattedTime === false || $formattedTime === '1970-01-01 00:00:00') {
+            $formattedTime = date('Y-m-d H:i:s');
+        }
+
+        $incidentType = $this->inferIncidentType($description);
+        $district = $this->extractDistrict($location);
+
+        $recordId = null;
+        $caseNo = null;
+
+        if ($this->pdo instanceof PDO) {
+            $caseNo = 'CALL-' . date('Ymd') . '-' . substr(strtoupper(bin2hex(random_bytes(2))), 0, 4);
+
+            $stmt = $this->pdo->prepare("INSERT INTO received_emergency_calls 
+                (call_id, call_timestamp, caller_name, caller_location, emergency_level, incident_description, incident_type, district, case_no, status, raw_payload) 
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'Logged & Dispatched', ?)");
+            $stmt->execute([
+                $callId,
+                $formattedTime,
+                $caller,
+                $location,
+                $emergencyLevel,
+                $description,
+                $incidentType,
+                $district,
+                $caseNo,
+                json_encode($data, JSON_UNESCAPED_UNICODE)
+            ]);
+            $recordId = $this->pdo->lastInsertId();
+
+            // Automatically mirror into central incidents table for Law Enforcement & Incident Logging module
+            try {
+                $checkIncidents = $this->pdo->query("SHOW TABLES LIKE 'incidents'");
+                if ($checkIncidents && $checkIncidents->rowCount() > 0) {
+                    $fullNarrative = "[Aldrin Emergency Call #{$callId}]\n"
+                        . "Caller: {$caller}\n"
+                        . "Emergency Level: {$emergencyLevel}\n"
+                        . "Location: {$location}\n"
+                        . "Incident Details: " . $description;
+
+                    $urgency = in_array($emergencyLevel, ['Critical', 'High', 'Medium', 'Low']) ? $emergencyLevel : 'High';
+
+                    $incStmt = $this->pdo->prepare("INSERT INTO incidents (case_no, narrative, incident_type, incident_subtype, auto_classification, urgency_level, location, status, reporter_name, incident_date, created_at) VALUES (?, ?, 'Other', 'Emergency Call', 'Aldrin Call Receiving System', ?, ?, 'Submitted', ?, ?, NOW())");
+                    $incStmt->execute([
+                        $caseNo,
+                        $fullNarrative,
+                        $urgency,
+                        $location,
+                        $caller,
+                        date('Y-m-d', strtotime($formattedTime))
+                    ]);
+                }
+            } catch (Exception $e) {
+                error_log("Notice: Could not mirror emergency call to incidents table: " . $e->getMessage());
+            }
+
+            // Save integration log
+            $this->saveLog('incoming_emergency_call', 'Aldrin Emergency Call System', $data, [
+                'status' => 'success',
+                'record_id' => $recordId,
+                'call_id' => $callId,
+                'case_no' => $caseNo
+            ], 'logged_and_dispatched');
+        }
+
+        return [
+            'success' => true,
+            'message' => 'Emergency call received and logged successfully into Law Enforcement System.',
+            'record_id' => $recordId,
             'call_id' => $callId,
-            'timestamp' => $timestamp,
+            'case_no' => $caseNo,
+            'caller' => $caller,
             'location' => $location,
             'emergency_level' => $emergencyLevel,
-            'description' => $description
-        ], true);
+            'incident_type' => $incidentType,
+            'timestamp' => $formattedTime,
+            'received_at' => date('Y-m-d H:i:s')
+        ];
+    }
+
+    /**
+     * Process incoming CCTV footage request from Marto's Surveillance Group or Partner Agencies
+     */
+    public function processIncomingCctvRequest(array $data): array {
+        $agency = trim($data['requesting_agency'] ?? $data['agency'] ?? $data['Requesting Agency'] ?? 'Digital Blotter System');
+        $contactPerson = trim($data['contact_person'] ?? $data['contact'] ?? $data['Contact Person'] ?? 'Admin Requester');
+        $position = trim($data['position_designation'] ?? $data['position'] ?? $data['Position'] ?? '');
+        $contactNumber = trim($data['contact_number'] ?? $data['contact_no'] ?? $data['Contact Number'] ?? '');
+        $email = trim($data['email_address'] ?? $data['email'] ?? $data['Email'] ?? '');
+        $officeUnit = trim($data['office_unit'] ?? $data['office'] ?? $data['Office / Unit'] ?? '');
+        $caseRef = trim($data['case_reference'] ?? $data['case_ref'] ?? $data['Case Reference'] ?? '');
+        $complaintId = trim($data['related_complaint_id'] ?? $data['complaint_id'] ?? $data['Complaint ID'] ?? '');
+        $legalBasis = trim($data['legal_basis'] ?? $data['Legal Basis'] ?? 'Law enforcement request');
+        $purpose = trim($data['purpose_reason'] ?? $data['purpose'] ?? $data['reason'] ?? $data['Purpose'] ?? '');
+        $incidentLoc = trim($data['incident_location'] ?? $data['location'] ?? $data['Incident Location'] ?? 'Quezon City');
+        $camera = trim($data['camera_id'] ?? $data['camera'] ?? $data['Camera'] ?? 'CAM-001 — Main Entrance Camera');
+        $locDesc = trim($data['location_description'] ?? $data['Location Description'] ?? '');
+        $incidentDate = trim($data['incident_date'] ?? $data['Incident Date'] ?? date('Y-m-d'));
+        $incidentType = trim($data['incident_type'] ?? $data['Incident Type'] ?? 'Footage');
+        $startTime = trim($data['footage_start_time'] ?? $data['start_time'] ?? $data['Footage Start Time'] ?? '00:00:00');
+        $endTime = trim($data['footage_end_time'] ?? $data['end_time'] ?? $data['Footage End Time'] ?? '23:59:59');
+        $incidentDesc = trim($data['incident_description'] ?? $data['description'] ?? $data['Incident Description'] ?? '');
+        $delivery = trim($data['delivery_method'] ?? $data['Delivery Method'] ?? 'Secure download link');
+
+        if (empty($purpose) && empty($incidentDesc)) {
+            throw new Exception('Missing purpose or incident description in CCTV footage request payload.');
+        }
+
+        $recordId = null;
+        $reqCode = null;
+
+        if ($this->pdo instanceof PDO) {
+            $reqCode = 'CCTV-REQ-' . date('Y') . '-' . rand(1000, 9999);
+
+            $stmt = $this->pdo->prepare("INSERT INTO cctv_requests 
+                (request_id_code, requesting_agency, contact_person, position_designation, contact_number, email_address, office_unit, case_reference, related_complaint_id, legal_basis, purpose_reason, incident_location, camera_id, location_description, incident_date, incident_type, footage_start_time, footage_end_time, incident_description, delivery_method, reason, camera_location, status, requested_at) 
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Pending', NOW())");
+            $stmt->execute([
+                $reqCode,
+                $agency,
+                $contactPerson,
+                $position,
+                $contactNumber,
+                $email,
+                $officeUnit,
+                $caseRef,
+                $complaintId,
+                $legalBasis,
+                $purpose,
+                $incidentLoc,
+                $camera,
+                $locDesc,
+                $incidentDate,
+                $incidentType,
+                $startTime,
+                $endTime,
+                $incidentDesc,
+                $delivery,
+                $purpose,
+                $incidentLoc
+            ]);
+            $recordId = $this->pdo->lastInsertId();
+
+            $this->saveLog('incoming_cctv_request', 'Marto CCTV Surveillance Partner', $data, [
+                'status' => 'success',
+                'record_id' => $recordId,
+                'request_id_code' => $reqCode
+            ], 'received_and_queued');
+        }
+
+        return [
+            'success' => true,
+            'message' => 'CCTV Footage Request received and recorded successfully.',
+            'record_id' => $recordId,
+            'request_id_code' => $reqCode,
+            'requesting_agency' => $agency,
+            'status' => 'Pending',
+            'received_at' => date('Y-m-d H:i:s')
+        ];
     }
 
     /**

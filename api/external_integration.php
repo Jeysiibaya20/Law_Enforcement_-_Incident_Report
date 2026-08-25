@@ -208,6 +208,17 @@ if ($action === 'receive_cctv_footage') {
     }
 }
 
+if ($action === 'receive_cctv_request') {
+    require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+    $integrator = new OperationalModuleIntegrator($pdo);
+    try {
+        $result = $integrator->processIncomingCctvRequest($payload);
+        jsonResponse($result, 200);
+    } catch (Exception $e) {
+        jsonResponse(['success' => false, 'error' => $e->getMessage()], 400);
+    }
+}
+
 if ($action === 'receive_resolved_tip') {
     require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
     $integrator = new OperationalModuleIntegrator($pdo);

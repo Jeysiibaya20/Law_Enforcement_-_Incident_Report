@@ -94,6 +94,53 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 
+    if ($action === 'simulate_incoming_call') {
+        $callSample = [
+            'Call ID' => trim($_POST['call_id'] ?? ('CALL-' . date('Ymd') . '-' . rand(100, 999))),
+            'Timestamp' => $_POST['timestamp'] ?? date('Y-m-d H:i:s'),
+            'Caller' => trim($_POST['caller'] ?? 'Aldrin Test Caller'),
+            'Location' => trim($_POST['location'] ?? 'Susano Road, Brgy San Agustin, Quezon City'),
+            'Emergency Level' => $_POST['emergency_level'] ?? 'High',
+            'Incident Description' => trim($_POST['incident_description'] ?? 'Physical commotion and disturbance reported by resident near commercial area.')
+        ];
+        try {
+            $res = $integrator->processIncomingEmergencyCall($callSample);
+            $message = "Successfully received Emergency Call from Aldrin's Group (#" . $res['call_id'] . ")! Mirrored to Case #" . $res['case_no'] . " and logged into database.";
+            $messageType = "success";
+        } catch (Exception $e) {
+            $message = "Error receiving emergency call: " . $e->getMessage();
+            $messageType = "danger";
+        }
+    }
+
+    if ($action === 'simulate_incoming_cctv_request') {
+        $cctvReqSample = [
+            'requesting_agency' => trim($_POST['requesting_agency'] ?? 'PNP Station 4 - Novaliches'),
+            'contact_person' => trim($_POST['contact_person'] ?? 'P/Cpt. Ramos'),
+            'contact_number' => trim($_POST['contact_number'] ?? '09181234567'),
+            'email_address' => trim($_POST['email_address'] ?? 'ramos@pnp.gov.ph'),
+            'case_reference' => trim($_POST['case_reference'] ?? ('INV-' . date('Y') . '-001')),
+            'legal_basis' => $_POST['legal_basis'] ?? 'Law enforcement request',
+            'purpose_reason' => trim($_POST['purpose_reason'] ?? 'Investigation of robbery incident along Susano Road.'),
+            'incident_location' => trim($_POST['incident_location'] ?? 'Susano Road cor. Ramirez St., Quezon City'),
+            'camera_id' => $_POST['camera_id'] ?? 'CAM-002 — Susano Road North',
+            'incident_date' => $_POST['incident_date'] ?? date('Y-m-d'),
+            'incident_type' => $_POST['incident_type'] ?? 'Theft / Robbery',
+            'footage_start_time' => $_POST['footage_start_time'] ?? '14:00',
+            'footage_end_time' => $_POST['footage_end_time'] ?? '15:30',
+            'incident_description' => trim($_POST['incident_description'] ?? 'Suspects fled on motorcycle heading north.'),
+            'delivery_method' => $_POST['delivery_method'] ?? 'Secure download link'
+        ];
+        try {
+            $res = $integrator->processIncomingCctvRequest($cctvReqSample);
+            $message = "Successfully received CCTV Request from Partner System! Request Code: " . $res['request_id_code'];
+            $messageType = "success";
+        } catch (Exception $e) {
+            $message = "Error receiving CCTV request: " . $e->getMessage();
+            $messageType = "danger";
+        }
+    }
+
     if ($action === 'simulate_group2_accident') {
         $sampleAccident = [
             'report_id' => trim($_POST['report_id'] ?? ('ACC-REP-' . date('Ymd') . '-' . rand(100, 999))),
@@ -252,6 +299,13 @@ try {
     $stmtA = $pdo->query("SELECT * FROM received_accident_reports ORDER BY id DESC LIMIT 20");
     $receivedAccidents = $stmtA->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) { $receivedAccidents = []; }
+
+$receivedCalls = [];
+try {
+    $stmtCalls = $pdo->query("SELECT * FROM received_emergency_calls ORDER BY id DESC LIMIT 20");
+    $receivedCalls = $stmtCalls->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) { $receivedCalls = []; }
+
 
 ?>
 

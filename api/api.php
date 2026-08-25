@@ -431,26 +431,94 @@ switch ($action) {
         break;
 
     // ===========================================
-    // 7. AI CHATBOT & NLP INTEGRATION
+    // 8. EMERGENCY CALLS (ALDRIN'S GROUP)
     // ===========================================
-    case 'chatbot':
-    case 'chat':
-        $message = trim($inputData['message'] ?? $inputData['query'] ?? '');
-        if (empty($message)) {
-            sendJsonResponse('error', 'message parameter required', null, 400);
-        }
-
-        // Include Chatbot API processing if available
-        $chatbot_file = __DIR__ . '/chatbot_api.php';
-        if (file_exists($chatbot_file)) {
-            $_POST['message'] = $message;
-            include $chatbot_file;
-            exit();
-        } else {
-            sendJsonResponse('success', 'Chatbot response', [
-                'reply' => "Thank you for contacting Alertara PH. How can we assist you with your report?",
-                'language' => 'en'
+    case 'emergency_calls':
+    case 'get_emergency_calls':
+        try {
+            $limit = min((int)($inputData['limit'] ?? 50), 200);
+            $stmt = $pdo->prepare("SELECT * FROM received_emergency_calls ORDER BY id DESC LIMIT ?");
+            $stmt->bindValue(1, $limit, PDO::PARAM_INT);
+            $stmt->execute();
+            $calls = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            sendJsonResponse('success', 'Emergency calls retrieved successfully', [
+                'count' => count($calls),
+                'calls' => $calls
             ]);
+        } catch (Exception $e) {
+            sendJsonResponse('error', 'Error fetching emergency calls: ' . $e->getMessage(), null, 500);
+        }
+        break;
+
+    case 'receive_emergency_call':
+    case 'create_emergency_call':
+        require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+        $integrator = new OperationalModuleIntegrator($pdo);
+        try {
+            $result = $integrator->processIncomingEmergencyCall($inputData);
+            sendJsonResponse('success', 'Emergency call received and processed', $result, 200);
+        } catch (Exception $e) {
+            sendJsonResponse('error', $e->getMessage(), null, 400);
+        }
+        break;
+
+    // ===========================================
+    // 9. CCTV REQUESTS & INTEGRATION (MARTO'S GROUP)
+    // ===========================================
+    case 'cctv_requests':
+    case 'get_cctv_requests':
+        try {
+            $limit = min((int)($inputData['limit'] ?? 50), 200);
+            $statusFilter = trim($inputData['status'] ?? '');
+            if ($statusFilter !== '') {
+                $stmt = $pdo->prepare("SELECT * FROM cctv_requests WHERE status = ? ORDER BY id DESC LIMIT ?");
+                $stmt->bindValue(1, $statusFilter, PDO::PARAM_STR);
+                $stmt->bindValue(2, $limit, PDO::PARAM_INT);
+                $stmt->execute();
+            } else {
+                $stmt = $pdo->prepare("SELECT * FROM cctv_requests ORDER BY id DESC LIMIT ?");
+                $stmt->bindValue(1, $limit, PDO::PARAM_INT);
+                $stmt->execute();
+            }
+            $requests = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            sendJsonResponse('success', 'CCTV requests retrieved successfully', [
+                'count' => count($requests),
+                'requests' => $requests
+            ]);
+        } catch (Exception $e) {
+            sendJsonResponse('error', 'Error fetching CCTV requests: ' . $e->getMessage(), null, 500);
+        }
+        break;
+
+    case 'receive_cctv_request':
+    case 'cctv_request_create':
+        require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+        $integrator = new OperationalModuleIntegrator($pdo);
+        try {
+            $result = $integrator->processIncomingCctvRequest($inputData);
+            sendJsonResponse('success', 'CCTV request received and processed', $result, 200);
+        } catch (Exception $e) {
+            sendJsonResponse('error', $e->getMessage(), null, 400);
+        }
+        break;
+
+    case 'cctv_request_update_status':
+        $reqId = (int)($inputData['id'] ?? $inputData['request_id'] ?? 0);
+        $newStatus = trim($inputData['status'] ?? 'Approved');
+        $reviewNotes = trim($inputData['review_notes'] ?? $inputData['monitoring_notes'] ?? '');
+        $rejectionReason = trim($inputData['rejection_reason'] ?? '');
+        if (!$reqId) {
+            sendJsonResponse('error', 'id or request_id is required', null, 400);
+        }
+        try {
+            $stmt = $pdo->prepare("UPDATE cctv_requests SET status = ?, review_notes = COALESCE(NULLIF(?, ''), review_notes), rejection_reason = COALESCE(NULLIF(?, ''), rejection_reason), updated_at = NOW() WHERE id = ?");
+            $stmt->execute([$newStatus, $reviewNotes, $rejectionReason, $reqId]);
+            sendJsonResponse('success', "CCTV request #{$reqId} status updated to {$newStatus}", [
+                'id' => $reqId,
+                'status' => $newStatus
+            ]);
+        } catch (Exception $e) {
+            sendJsonResponse('error', 'Database error: ' . $e->getMessage(), null, 500);
         }
         break;
 
