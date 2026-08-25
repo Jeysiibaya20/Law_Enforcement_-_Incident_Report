@@ -609,14 +609,22 @@ class OperationalModuleIntegrator {
             return ['success' => false, 'message' => 'cURL PHP extension required'];
         }
 
+        $secret = getIntegrationSetting('external_api_secret', '');
+        $headers = [
+            'Accept: application/json',
+            'X-Partner-Client: AlertaraQC-Incident-System/2.0'
+        ];
+        if (!empty($secret)) {
+            $headers[] = 'Authorization: Bearer ' . $secret;
+            $headers[] = 'X-API-KEY: ' . $secret;
+            $headers[] = 'X-External-Secret: ' . $secret;
+        }
+
         $ch = curl_init($endpoint);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_TIMEOUT, $this->timeout);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, [
-            'Accept: application/json',
-            'X-Partner-Client: AlertaraQC-Incident-System/2.0'
-        ]);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
         $responseRaw = curl_exec($ch);
         $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);

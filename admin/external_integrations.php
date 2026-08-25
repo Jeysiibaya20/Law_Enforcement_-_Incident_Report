@@ -727,7 +727,7 @@ try {
                                             <tr>
                                                 <td class="fw-bold">#<?= htmlspecialchars($rf['request_id'] ?: $rf['id']) ?></td>
                                                 <td><?= htmlspecialchars(($rf['location'] ?: 'QC') . ' (' . ($rf['camera_id'] ?: 'CAM') . ')') ?></td>
-                                                <td><?= date('M d H:i', strtotime($rf['created_at'])) ?></td>
+                                                <td><?= date('M d H:i', strtotime($rf['received_at'] ?? $rf['created_at'] ?? 'now')) ?></td>
                                                 <td class="text-center">
                                                     <button type="button" class="btn btn-xs btn-outline-success py-0 px-2 fw-bold" onclick="showCctvDetails(<?= htmlspecialchars(json_encode($rf), ENT_QUOTES, 'UTF-8') ?>)">
                                                         <i class="fas fa-eye me-1"></i>View Details

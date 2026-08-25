@@ -84,18 +84,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 // Fetch integration metrics & logs
 try {
-    $totalAccidents = (int)$pdo->query("SELECT COUNT(*) FROM group2_accident_reports")->fetchColumn();
-    $totalCctvRequests = (int)$pdo->query("SELECT COUNT(*) FROM group2_cctv_requests")->fetchColumn();
-    $totalGroup7Uploads = (int)$pdo->query("SELECT COUNT(*) FROM group7_upload_dispatches")->fetchColumn();
-    $totalIntegrationLogs = (int)$pdo->query("SELECT COUNT(*) FROM module_integration_logs")->fetchColumn();
+    $totalAccidents = (int)$pdo->query("SELECT COUNT(*) FROM received_accident_reports")->fetchColumn();
+    $totalCctvRequests = (int)$pdo->query("SELECT COUNT(*) FROM cctv_requests")->fetchColumn();
+    $totalEmergencyCalls = (int)$pdo->query("SELECT COUNT(*) FROM received_emergency_calls")->fetchColumn();
+    $totalGroup7Uploads = (int)$pdo->query("SELECT COUNT(*) FROM cctv_footage_received")->fetchColumn();
+    $totalIntegrationLogs = (int)$pdo->query("SELECT COUNT(*) FROM external_integration_log")->fetchColumn();
 
-    $recentAccidents = $pdo->query("SELECT * FROM group2_accident_reports ORDER BY created_at DESC LIMIT 50")->fetchAll(PDO::FETCH_ASSOC);
-    $recentCctvRequests = $pdo->query("SELECT * FROM group2_cctv_requests ORDER BY created_at DESC LIMIT 50")->fetchAll(PDO::FETCH_ASSOC);
-    $recentGroup7Dispatches = $pdo->query("SELECT * FROM group7_upload_dispatches ORDER BY created_at DESC LIMIT 50")->fetchAll(PDO::FETCH_ASSOC);
-    $recentIntegrationLogs = $pdo->query("SELECT * FROM module_integration_logs ORDER BY created_at DESC LIMIT 50")->fetchAll(PDO::FETCH_ASSOC);
+    $recentAccidents = $pdo->query("SELECT * FROM received_accident_reports ORDER BY id DESC LIMIT 50")->fetchAll(PDO::FETCH_ASSOC);
+    $recentCctvRequests = $pdo->query("SELECT * FROM cctv_requests ORDER BY id DESC LIMIT 50")->fetchAll(PDO::FETCH_ASSOC);
+    $recentEmergencyCalls = $pdo->query("SELECT * FROM received_emergency_calls ORDER BY id DESC LIMIT 50")->fetchAll(PDO::FETCH_ASSOC);
+    $recentGroup7Dispatches = $pdo->query("SELECT * FROM cctv_footage_received ORDER BY id DESC LIMIT 50")->fetchAll(PDO::FETCH_ASSOC);
+    $recentIntegrationLogs = $pdo->query("SELECT * FROM external_integration_log ORDER BY id DESC LIMIT 50")->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) {
-    $totalAccidents = 0; $totalCctvRequests = 0; $totalGroup7Uploads = 0; $totalIntegrationLogs = 0;
-    $recentAccidents = []; $recentCctvRequests = []; $recentGroup7Dispatches = []; $recentIntegrationLogs = [];
+    $totalAccidents = 0; $totalCctvRequests = 0; $totalEmergencyCalls = 0; $totalGroup7Uploads = 0; $totalIntegrationLogs = 0;
+    $recentAccidents = []; $recentCctvRequests = []; $recentEmergencyCalls = []; $recentGroup7Dispatches = []; $recentIntegrationLogs = [];
 }
 ?>
 
@@ -578,26 +580,33 @@ try {
                                             <tr><td colspan="8" class="text-center text-muted py-4">No CCTV requests or acknowledgments logged.</td></tr>
                                         <?php else: ?>
                                             <?php foreach ($recentCctvRequests as $idx => $cctv): ?>
+                                                <?php 
+                                                    $reqCode = $cctv['request_id_code'] ?: ('CCTV-REQ-' . $cctv['id']);
+                                                    $caseRef = $cctv['case_reference'] ?: 'N/A';
+                                                    $loc = $cctv['incident_location'] ?: ($cctv['camera_location'] ?? 'N/A');
+                                                    $cam = $cctv['camera_id'] ?: 'General Area';
+                                                    $footUrl = $cctv['fulfilled_video_url'] ?? '';
+                                                ?>
                                                 <tr>
                                                     <td><?= $idx + 1 ?></td>
-                                                    <td><strong class="text-primary"><?= htmlspecialchars($cctv['request_id']) ?></strong></td>
-                                                    <td><?= htmlspecialchars($cctv['case_number'] ?? 'N/A') ?></td>
-                                                    <td><small><?= htmlspecialchars($cctv['location'] ?? 'N/A') ?></small></td>
-                                                    <td><code><?= htmlspecialchars($cctv['camera_id'] ?? 'Auto') ?></code></td>
-                                                    <td><span class="badge bg-<?= strpos($cctv['status'], 'Acknowledged') !== false ? 'success' : 'warning text-dark' ?>"><?= htmlspecialchars($cctv['status']) ?></span></td>
+                                                    <td><strong class="text-primary"><?= htmlspecialchars($reqCode) ?></strong></td>
+                                                    <td><?= htmlspecialchars($caseRef) ?></td>
+                                                    <td><small><?= htmlspecialchars($loc) ?></small></td>
+                                                    <td><code><?= htmlspecialchars($cam) ?></code></td>
+                                                    <td><span class="badge bg-<?= strpos($cctv['status'], 'Approved') !== false || strpos($cctv['status'], 'Fulfilled') !== false ? 'success' : 'warning text-dark' ?>"><?= htmlspecialchars($cctv['status']) ?></span></td>
                                                     <td>
-                                                        <?php if (!empty($cctv['footage_url'])): ?>
-                                                            <button type="button" class="btn btn-sm btn-outline-info" onclick="openMediaPlayerSubModal('<?= htmlspecialchars($cctv['footage_url']) ?>', '<?= htmlspecialchars($cctv['request_id']) ?>')">
+                                                        <?php if (!empty($footUrl)): ?>
+                                                            <button type="button" class="btn btn-sm btn-outline-info" onclick="openMediaPlayerSubModal('<?= htmlspecialchars($footUrl) ?>', '<?= htmlspecialchars($reqCode) ?>')">
                                                                 <i class="fas fa-play-circle me-1"></i> Watch
                                                             </button>
                                                         <?php else: ?>
-                                                            <span class="text-muted small">Pending Stream</span>
+                                                            <span class="text-muted small">Pending Footage</span>
                                                         <?php endif; ?>
                                                     </td>
                                                     <td>
-                                                        <button type="button" class="btn btn-sm btn-outline-success" onclick="openCctvAcknowledgeSubModal('<?= htmlspecialchars($cctv['request_id']) ?>')">
-                                                            <i class="fas fa-handshake me-1"></i> Acknowledge
-                                                        </button>
+                                                        <a href="Request_form.php" class="btn btn-sm btn-outline-success" title="Manage Request">
+                                                            <i class="fas fa-eye me-1"></i> Manage
+                                                        </a>
                                                     </td>
                                                 </tr>
                                             <?php endforeach; ?>
@@ -612,44 +621,46 @@ try {
                     <div class="tab-pane fade" id="tab-group7" role="tabpanel">
                         <div class="p-3">
                             <div class="d-flex justify-content-between align-items-center mb-3">
-                                <h6 class="fw-bold mb-0 text-dark"><i class="fas fa-cloud-upload-alt text-primary me-2"></i>Outbound Photos & Videos Sent to Group 7</h6>
-                                <button type="button" class="btn btn-sm btn-primary" onclick="openGroup7MediaUploadSubModal()">
-                                    <i class="fas fa-upload me-1"></i> Dispatch New Media to Group 7
-                                </button>
+                                <h6 class="fw-bold mb-0 text-dark"><i class="fas fa-video text-primary me-2"></i>Inbound CCTV Surveillance Footage Received</h6>
+                                <a href="Request_form.php" class="btn btn-sm btn-primary">
+                                    <i class="fas fa-plus-circle me-1"></i> New Footage Request
+                                </a>
                             </div>
                             <div class="table-responsive">
                                 <table class="table table-hover align-middle mb-0">
                                     <thead class="table-light">
                                         <tr>
                                             <th>#</th>
-                                            <th>Evidence Ref</th>
-                                            <th>Case #</th>
-                                            <th>File Name</th>
-                                            <th>Media Type</th>
-                                            <th>Dispatched By</th>
+                                            <th>Request Code</th>
+                                            <th>Incident Ref</th>
+                                            <th>Camera Code</th>
+                                            <th>Location</th>
                                             <th>Status</th>
-                                            <th>Date Dispatched</th>
-                                            <th>Preview</th>
+                                            <th>Date Received</th>
+                                            <th>Footage Stream</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <?php if (empty($recentGroup7Dispatches)): ?>
-                                            <tr><td colspan="9" class="text-center text-muted py-4">No media dispatched to Group 7 yet.</td></tr>
+                                            <tr><td colspan="8" class="text-center text-muted py-4">No CCTV footage received yet.</td></tr>
                                         <?php else: ?>
                                             <?php foreach ($recentGroup7Dispatches as $idx => $g7): ?>
                                                 <tr>
                                                     <td><?= $idx + 1 ?></td>
-                                                    <td><strong>#EV-<?= $g7['evidence_id'] ?></strong></td>
-                                                    <td><?= htmlspecialchars($g7['case_number'] ?? 'N/A') ?></td>
-                                                    <td><code><?= htmlspecialchars($g7['file_name'] ?? 'media_clip.mp4') ?></code></td>
-                                                    <td><span class="badge bg-light text-dark border"><?= htmlspecialchars($g7['evidence_type'] ?? 'Media') ?></span></td>
-                                                    <td><small><?= htmlspecialchars($g7['dispatched_by'] ?? 'Officer') ?></small></td>
-                                                    <td><span class="badge bg-success"><?= htmlspecialchars($g7['status'] ?? 'Delivered') ?></span></td>
-                                                    <td><small class="text-muted"><?= date('M d, Y H:i', strtotime($g7['created_at'])) ?></small></td>
+                                                    <td><strong><?= htmlspecialchars($g7['request_id'] ?? 'REQ-' . $g7['id']) ?></strong></td>
+                                                    <td><span class="badge bg-light text-dark border"><?= htmlspecialchars($g7['incident_id'] ?: 'INC-REF') ?></span></td>
+                                                    <td><code><?= htmlspecialchars($g7['camera_id'] ?? 'CAM-QC') ?></code></td>
+                                                    <td><small><?= htmlspecialchars($g7['location'] ?? 'Quezon City') ?></small></td>
+                                                    <td><span class="badge bg-success"><?= htmlspecialchars($g7['status'] ?? 'Received') ?></span></td>
+                                                    <td><small class="text-muted"><?= date('M d, Y H:i', strtotime($g7['received_at'] ?? $g7['created_at'] ?? 'now')) ?></small></td>
                                                     <td>
-                                                        <button type="button" class="btn btn-sm btn-outline-primary" onclick="openMediaPlayerSubModal('<?= htmlspecialchars($g7['file_url'] ?? '') ?>', '<?= htmlspecialchars($g7['file_name'] ?? '') ?>')">
-                                                            <i class="fas fa-eye me-1"></i> View
-                                                        </button>
+                                                        <?php if (!empty($g7['cctv_url'])): ?>
+                                                            <a href="<?= htmlspecialchars($g7['cctv_url']) ?>" target="_blank" class="btn btn-sm btn-outline-primary">
+                                                                <i class="fas fa-play-circle me-1"></i> Stream
+                                                            </a>
+                                                        <?php else: ?>
+                                                            <span class="text-muted small">No Stream URL</span>
+                                                        <?php endif; ?>
                                                     </td>
                                                 </tr>
                                             <?php endforeach; ?>
