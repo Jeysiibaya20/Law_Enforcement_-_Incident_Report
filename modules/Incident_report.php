@@ -245,9 +245,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_incident'])) {
             ];
         } else {
             throw new Exception($workflow_result['error'] ?? 'Failed to process incident');
-        }
-
-        header("Location: incident_report.php?view=submitted");
+        }        header("Location: Incident_report.php?view=submitted");
         exit;
 
     } catch (Exception $e) {
@@ -256,7 +254,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_incident'])) {
 }
 
 // --- ADMIN UPDATE HANDLER ---
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) && (($_SESSION['role'] ?? '') === 'Admin')) {
+$isAdminOrOfficer = in_array(strtolower($_SESSION['role'] ?? ''), ['admin', 'officer']) || !empty($_SESSION['admin_user_id']);
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) && $isAdminOrOfficer) {
     try {
         $incident_id = intval($_POST['incident_id'] ?? 0);
         $status = $_POST['status'] ?? 'Submitted';
@@ -268,7 +268,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) &&
         $admin_notes = trim($_POST['admin_notes'] ?? '');
         $assigned_to = !empty($_POST['assigned_to']) ? intval($_POST['assigned_to']) : null;
         
-        $updated_by = $_SESSION['user_id'];
+        $updated_by = $_SESSION['user_id'] ?? ($_SESSION['admin_user_id'] ?? 1);
 
         $sql = "UPDATE incidents SET 
                 status = ?, 
@@ -281,7 +281,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) &&
                 routing_status = ?,
                 forwarding_notes = ?,
                 updated_by = ?,
-                updated_at = NOW()
+                updated_at = NOW() 
                 WHERE id = ?";
 
         $stmt = $pdo->prepare($sql);
@@ -302,38 +302,88 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) &&
             ];
         }
 
-        header("Location: incident_report.php");
+        header("Location: Incident_report.php");
         exit;
 
     } catch (Exception $e) {
         $_SESSION['message'] = ['type' => 'danger', 'text' => 'Error: ' . $e->getMessage()];
+        header("Location: Incident_report.php");
+        exit;
     }
 }
 
 // --- ADMIN FORWARDING HANDLER ---
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['forward_incident']) && (($_SESSION['role'] ?? '') === 'Admin')) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['forward_incident']) && $isAdminOrOfficer) {
     try {
         $incident_id = intval($_POST['incident_id'] ?? 0);
         $group = $_POST['forward_to_group'] ?? '';
         $notes = trim($_POST['forward_notes'] ?? '');
+        $active_user_id = $_SESSION['user_id'] ?? ($_SESSION['admin_user_id'] ?? 1);
 
         if (!$incident_id || !$group) {
             throw new Exception('Please select a destination group.');
         }
 
-        $routing_manager->forwardIncident($incident_id, $group, $_SESSION['user_id'], $notes);
-        $_SESSION['message'] = ['type' => 'success', 'text' => 'Incident forwarded successfully to ' . $group . '.'];
-        header("Location: incident_report.php");
+        // Fetch incident data
+        $stmtInc = $pdo->prepare("SELECT * FROM incidents WHERE id = ?");
+        $stmtInc->execute([$incident_id]);
+        $inc = $stmtInc->fetch(PDO::FETCH_ASSOC);
+
+        if (!$inc) {
+            throw new Exception('Incident record not found.');
+        }
+
+        $caseNo = $inc['case_no'] ?? ('INC-' . $incident_id);
+        $groupLabels = [
+            'GRP4' => 'GRP4 - Emergency Response Hub',
+            'GRP5' => 'GRP5 - Community Complaints & Inspection',
+            'GRP6' => 'GRP6 - Crime Analytics & GIS Mapping'
+        ];
+        $targetGroupName = $groupLabels[$group] ?? $group;
+
+        // Perform internal forward logging
+        $routing_manager->forwardIncident($incident_id, $group, $active_user_id, $notes);
+
+        // Dispatch to partner API
+        try {
+            $integrator = new OperationalModuleIntegrator($pdo);
+            $forwardPayload = [
+                'case_no' => $caseNo,
+                'incident_id' => $incident_id,
+                'incident_type' => $inc['incident_type'] ?? 'General Incident',
+                'incident_subtype' => $inc['incident_subtype'] ?? '',
+                'location' => $inc['location'] ?? '',
+                'incident_date' => $inc['incident_date'] ?? date('Y-m-d'),
+                'incident_time' => $inc['incident_time'] ?? date('H:i:s'),
+                'narrative' => $inc['narrative'] ?? $inc['description'] ?? '',
+                'forwarded_to' => $targetGroupName,
+                'forward_notes' => $notes,
+                'forwarded_at' => date('Y-m-d H:i:s')
+            ];
+
+            if ($group === 'GRP6') {
+                $integrator->dispatchToGroup5CrimeMapApi($forwardPayload);
+            } elseif ($group === 'GRP4') {
+                $integrator->dispatchToGroup3ResourceApi($forwardPayload);
+            } elseif ($group === 'GRP5') {
+                $integrator->dispatchToGroup7InspectionApi($forwardPayload);
+            }
+        } catch (Exception $e) {
+            error_log("Notice: Remote dispatch note: " . $e->getMessage());
+        }
+
+        $_SESSION['message'] = ['type' => 'success', 'text' => "✅ Case #{$caseNo} successfully forwarded to {$targetGroupName}!"];
+        header("Location: Incident_report.php");
         exit;
     } catch (Exception $e) {
         $_SESSION['message'] = ['type' => 'danger', 'text' => '❌ Error forwarding incident: ' . $e->getMessage()];
-        header("Location: incident_report.php");
+        header("Location: Incident_report.php");
         exit;
     }
 }
 
 // --- DELETE INCIDENT HANDLER ---
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['action'] === 'delete_incident' && (($_SESSION['role'] ?? '') === 'Admin')) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['action'] === 'delete_incident' && $isAdminOrOfficer) {
     try {
         $incident_id = intval($_POST['incident_id'] ?? 0);
         
@@ -347,9 +397,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
         
         foreach ($attachments as $attachment) {
             try {
-                $attachment_manager->deleteAttachment($attachment['id'], $_SESSION['user_id']);
+                $attachment_manager->deleteAttachment($attachment['id'], $_SESSION['user_id'] ?? 1);
             } catch (Exception $e) {
-                // Log but continue with incident deletion
                 error_log("Failed to delete attachment {$attachment['id']}: " . $e->getMessage());
             }
         }
@@ -367,12 +416,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
             throw new Exception('Failed to delete incident or incident not found');
         }
         
-        header("Location: incident_report.php");
+        header("Location: Incident_report.php");
         exit;
         
     } catch (Exception $e) {
         $_SESSION['message'] = ['type' => 'danger', 'text' => '❌ Error deleting incident: ' . $e->getMessage()];
-        header("Location: incident_report.php");
+        header("Location: Incident_report.php");
         exit;
     }
 }
@@ -754,7 +803,7 @@ require_once '../includes/navbar.php'; ?>
 <div class="modal fade" id="newIncidentModal" tabindex="-1" aria-labelledby="newIncidentModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <form method="POST" action="incident_report.php" enctype="multipart/form-data">
+            <form method="POST" action="Incident_report.php" enctype="multipart/form-data">
                 <div class="modal-header bg-danger text-white">
                     <h5 class="modal-title" id="newIncidentModalLabel">
                         <i class="bi bi-file-earmark-plus"></i> Report New Incident
@@ -1130,7 +1179,7 @@ require_once '../includes/navbar.php'; ?>
 <div class="modal fade" id="editIncidentModal" tabindex="-1" aria-labelledby="editIncidentModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <form method="POST" action="incident_report.php?action=edit_admin">
+            <form method="POST" action="Incident_report.php?action=edit_admin">
                 <div class="modal-header bg-warning text-dark">
                     <h5 class="modal-title" id="editIncidentModalLabel">
                         <i class="bi bi-pencil-square"></i> Edit & Correct Classification (Admin)
@@ -1248,7 +1297,7 @@ require_once '../includes/navbar.php'; ?>
 <div class="modal fade" id="forwardIncidentModal" tabindex="-1" aria-labelledby="forwardIncidentModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <form method="POST" action="incident_report.php">
+            <form method="POST" action="Incident_report.php">
                 <div class="modal-header bg-info text-white">
                     <h5 class="modal-title" id="forwardIncidentModalLabel"><i class="bi bi-send"></i> Forward Incident</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -1286,7 +1335,7 @@ require_once '../includes/navbar.php'; ?>
 <div class="modal fade" id="userEditIncidentModal" tabindex="-1" aria-labelledby="userEditIncidentModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <form method="POST" action="incident_report.php?action=edit_user" enctype="multipart/form-data">
+            <form method="POST" action="Incident_report.php?action=edit_user" enctype="multipart/form-data">
                 <div class="modal-header bg-primary text-white">
                     <h5 class="modal-title" id="userEditIncidentModalLabel">
                         <i class="bi bi-pencil-square"></i> Edit Your Incident Report

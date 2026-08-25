@@ -143,22 +143,7 @@ class IncidentRoutingManager {
 
     private function ensureIncidentStatusOptions() {
         try {
-            $check = $this->pdo->query("SHOW COLUMNS FROM incidents LIKE 'status'");
-            if ($check->rowCount() === 0) {
-                return;
-            }
-            $column = $check->fetch(PDO::FETCH_ASSOC);
-            if (empty($column['Type'])) {
-                return;
-            }
-            $type = $column['Type'];
-            if (strpos($type, 'Pending') === false || strpos($type, 'Forwarded') === false) {
-                $newType = str_replace("'Archived'", "'Pending','Submitted','Under Review','Verified','Forwarded','Resolved','Closed','Archived'", $type);
-                if ($newType === $type) {
-                    $newType = "enum('Draft','Pending','Submitted','Under Review','Verified','Forwarded','Resolved','Closed','Archived')";
-                }
-                $this->pdo->exec("ALTER TABLE incidents MODIFY COLUMN status {$newType}");
-            }
+            $this->pdo->exec("ALTER TABLE incidents MODIFY COLUMN status ENUM('Draft','Pending','Submitted','Under Review','Verified','Forwarded','Resolved','Closed','Archived') DEFAULT 'Draft'");
         } catch (Exception $e) {
             error_log('IncidentRoutingManager status schema error: ' . $e->getMessage());
         }
