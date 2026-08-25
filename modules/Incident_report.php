@@ -398,29 +398,81 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
         if (!$incident_id) {
             throw new Exception('Invalid incident ID');
         }
+
+        $pdo->beginTransaction();
         
-        // First, delete any attachments associated with this incident
-        $attachment_manager = new AttachmentManager($pdo);
-        $attachments = $attachment_manager->getAttachments('incident', $incident_id);
-        
-        foreach ($attachments as $attachment) {
-            try {
-                $attachment_manager->deleteAttachment($attachment['id'], $_SESSION['user_id'] ?? 1);
-            } catch (Exception $e) {
-                error_log("Failed to delete attachment {$attachment['id']}: " . $e->getMessage());
+        // 1. Delete attachments associated with this incident
+        try {
+            $attachment_manager = new AttachmentManager($pdo);
+            $attachments = $attachment_manager->getAttachments('incident', $incident_id);
+            
+            foreach ($attachments as $attachment) {
+                try {
+                    $attachment_manager->deleteAttachment($attachment['id'], $_SESSION['user_id'] ?? 1);
+                } catch (Exception $e) {
+                    error_log("Failed to delete attachment {$attachment['id']}: " . $e->getMessage());
+                }
             }
-        }
-        
-        // Delete the incident
+        } catch (Exception $e) {}
+
+        // 2. Unlink or clean up foreign-keyed child records
+        // Blotters: unlink incident_id so the blotter record is preserved without FK failure
+        try {
+            $pdo->prepare("UPDATE blotters SET incident_id = NULL WHERE incident_id = ?")->execute([$incident_id]);
+        } catch (Exception $e) {}
+
+        // Case assignments
+        try {
+            $pdo->prepare("DELETE FROM case_assignments WHERE incident_id = ?")->execute([$incident_id]);
+        } catch (Exception $e) {}
+
+        // NLP analysis cache
+        try {
+            $pdo->prepare("DELETE FROM nlp_analysis_cache WHERE incident_id = ?")->execute([$incident_id]);
+        } catch (Exception $e) {}
+
+        // Notifications
+        try {
+            $pdo->prepare("DELETE FROM notifications WHERE incident_id = ?")->execute([$incident_id]);
+        } catch (Exception $e) {}
+
+        // Review requests
+        try {
+            $pdo->prepare("DELETE FROM review_requests WHERE incident_id = ?")->execute([$incident_id]);
+        } catch (Exception $e) {}
+
+        // System alerts
+        try {
+            $pdo->prepare("DELETE FROM system_alerts WHERE incident_id = ?")->execute([$incident_id]);
+        } catch (Exception $e) {}
+
+        // Incident forwards
+        try {
+            $pdo->prepare("DELETE FROM incident_forwards WHERE incident_id = ?")->execute([$incident_id]);
+        } catch (Exception $e) {}
+
+        // Incident history
+        try {
+            $pdo->prepare("DELETE FROM incident_history WHERE incident_id = ?")->execute([$incident_id]);
+        } catch (Exception $e) {}
+
+        // Evidence items: unlink incident_id
+        try {
+            $pdo->prepare("UPDATE evidence_items SET incident_id = NULL WHERE incident_id = ?")->execute([$incident_id]);
+        } catch (Exception $e) {}
+
+        // 3. Delete the incident
         $stmt = $pdo->prepare("DELETE FROM incidents WHERE id = ?");
         $success = $stmt->execute([$incident_id]);
         
         if ($success && $stmt->rowCount() > 0) {
+            $pdo->commit();
             $_SESSION['message'] = [
                 'type' => 'success',
                 'text' => '✅ Incident case deleted successfully!'
             ];
         } else {
+            $pdo->rollBack();
             throw new Exception('Failed to delete incident or incident not found');
         }
         
@@ -428,6 +480,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
         exit;
         
     } catch (Exception $e) {
+        if ($pdo->inTransaction()) {
+            $pdo->rollBack();
+        }
         $_SESSION['message'] = ['type' => 'danger', 'text' => '❌ Error deleting incident: ' . $e->getMessage()];
         header("Location: Incident_report.php");
         exit;
