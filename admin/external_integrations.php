@@ -1189,15 +1189,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
         <!-- External Integration Log Table -->
         <div class="card shadow-sm border-0 rounded-3 overflow-hidden mb-4">
-            <div class="card-header py-3 px-4 d-flex justify-content-between align-items-center" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #ffffff !important;">
+            <div class="card-header py-3 px-4 d-flex justify-content-between align-items-center" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important; color: #ffffff !important;">
                 <div class="d-flex align-items-center gap-2">
-                    <i class="fas fa-network-wired text-info fs-5"></i>
+                    <i class="fas fa-network-wired text-warning fs-5"></i>
                     <div>
-                        <h6 class="mb-0 text-white fw-bold">Integration Network Activity & Exchange Log</h6>
-                        <small class="text-white-50" style="font-size: 0.78rem;">Live audit trail of all transmitted and received API payloads</small>
+                        <h6 class="mb-0 text-white fw-bold" style="color: #ffffff !important; font-family: inherit;">Integration Network Activity & Exchange Log</h6>
+                        <small class="text-white" style="font-size: 0.78rem; opacity: 0.9; color: #ffffff !important;">Live audit trail of all transmitted and received API payloads</small>
                     </div>
                 </div>
-                <span class="badge bg-primary bg-opacity-25 text-primary border border-primary-subtle px-3 py-2 rounded-pill">
+                <span class="badge bg-white text-success rounded-pill px-3 py-1.5 fw-bold shadow-sm" style="color: #1b4332 !important; background-color: #ffffff !important;">
                     <?= count($logs ?? []) ?> Transactions Logged
                 </span>
             </div>
