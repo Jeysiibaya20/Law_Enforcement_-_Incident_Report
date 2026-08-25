@@ -417,11 +417,18 @@ include '../includes/header.php';
     font-size: 0.82rem;
     font-weight: 600;
     padding: 5px 14px;
+    background-color: #ffffff !important;
+    color: #1b4332 !important;
+    border: 1px solid rgba(255,255,255,0.4) !important;
 }
 .view-btn-group .btn.active {
-    background-color: #0d6efd;
-    color: #fff;
-    border-color: #0d6efd;
+    background-color: #1b4332 !important;
+    color: #ffffff !important;
+    border-color: #1b4332 !important;
+}
+.view-btn-group .btn:hover:not(.active) {
+    background-color: #f0fdf4 !important;
+    color: #1b4332 !important;
 }
 .evidence-card-item {
     border: 1px solid rgba(0,0,0,0.09);
@@ -608,22 +615,22 @@ include '../includes/header.php';
             </div>
 
             <!-- Evidence Records Card with Dual View: Table (10 per page) & Carousel (10 per slide) -->
-            <div class="card shadow-sm mb-4">
-                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center flex-wrap gap-2 py-3">
+            <div class="card shadow-sm border-0 rounded-3 overflow-hidden mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center flex-wrap gap-2 py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important; color: #ffffff !important;">
                     <div class="d-flex align-items-center gap-2">
-                        <h5 class="mb-0 fw-bold"><i class="bi bi-file-earmark-lock me-1"></i> Evidence Catalog</h5>
-                        <span class="badge bg-white text-primary fw-bold" id="totalRecordsBadge"><?= count($evidence_records) ?> records</span>
+                        <h5 class="mb-0 fw-bold text-white"><i class="bi bi-file-earmark-lock me-2 text-warning"></i> Evidence Catalog</h5>
+                        <span class="badge bg-white text-success rounded-pill px-3 py-1.5 fw-bold shadow-sm" style="color: #1b4332 !important; background-color: #ffffff !important;" id="totalRecordsBadge"><?= count($evidence_records) ?> records</span>
                     </div>
                     
                     <div class="d-flex align-items-center gap-2 flex-wrap">
                         <!-- Search Box -->
                         <div class="input-group input-group-sm" style="width: 220px;">
-                            <span class="input-group-text bg-light text-dark border-0"><i class="bi bi-search"></i></span>
-                            <input type="text" id="evidenceSearchInput" class="form-control border-0" placeholder="Search all columns..." onkeyup="filterEvidenceRecords()">
+                            <span class="input-group-text bg-white text-muted border-0"><i class="bi bi-search"></i></span>
+                            <input type="text" id="evidenceSearchInput" class="form-control border-0 shadow-sm" style="color: #1e293b !important; background: #ffffff !important;" placeholder="Search all columns..." onkeyup="filterEvidenceRecords()">
                         </div>
 
                         <!-- Rows per page selector -->
-                        <select id="pageSizeSelect" class="form-select form-select-sm" style="width: auto;" onchange="changePageSize(this.value)">
+                        <select id="pageSizeSelect" class="form-select form-select-sm border-0 shadow-sm fw-bold" style="width: auto; color: #1e293b !important; background-color: #ffffff !important;" onchange="changePageSize(this.value)">
                             <option value="10" selected>10 per page</option>
                             <option value="25">25 per page</option>
                             <option value="50">50 per page</option>
@@ -631,7 +638,7 @@ include '../includes/header.php';
                         </select>
 
                         <!-- View Switcher -->
-                        <div class="btn-group btn-group-sm view-btn-group" role="group">
+                        <div class="btn-group btn-group-sm view-btn-group shadow-sm" role="group">
                             <button type="button" class="btn btn-light active" id="btnTableView" onclick="switchEvidenceView('table')">
                                 <i class="bi bi-table me-1"></i> Table View
                             </button>
