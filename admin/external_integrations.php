@@ -1188,40 +1188,79 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
         <!-- External Integration Log Table -->
-        <div class="card shadow-sm mb-4">
-            <div class="card-header bg-dark text-white fw-bold d-flex align-items-center" style="background-color: #1e293b !important; color: #ffffff !important;">
-                <h6 class="mb-0 text-white fw-bold"><i class="fas fa-history me-2 text-warning"></i>Recent External Integration Log (`external_integration_log`)</h6>
+        <div class="card shadow-sm border-0 rounded-3 overflow-hidden mb-4">
+            <div class="card-header py-3 px-4 d-flex justify-content-between align-items-center" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #ffffff !important;">
+                <div class="d-flex align-items-center gap-2">
+                    <i class="fas fa-network-wired text-info fs-5"></i>
+                    <div>
+                        <h6 class="mb-0 text-white fw-bold">Integration Network Activity & Exchange Log</h6>
+                        <small class="text-white-50" style="font-size: 0.78rem;">Live audit trail of all transmitted and received API payloads</small>
+                    </div>
+                </div>
+                <span class="badge bg-primary bg-opacity-25 text-primary border border-primary-subtle px-3 py-2 rounded-pill">
+                    <?= count($logs ?? []) ?> Transactions Logged
+                </span>
             </div>
             <div class="card-body p-0">
                 <div class="table-responsive">
-                    <table class="table table-hover align-middle mb-0" style="font-size: 0.85rem;">
-                        <thead class="table-light">
-                            <tr>
-                                <th>ID</th>
-                                <th>Direction</th>
-                                <th>Target / Endpoint</th>
-                                <th>Status</th>
-                                <th>Timestamp</th>
-                                <th>Details</th>
+                    <table class="table table-hover align-middle mb-0" style="font-size: 0.88rem;">
+                        <thead style="background-color: #f8fafc; border-bottom: 2px solid #e2e8f0;">
+                            <tr class="text-secondary" style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.5px;">
+                                <th class="ps-4 py-3">Log ID</th>
+                                <th class="py-3">Direction</th>
+                                <th class="py-3">Target / Endpoint URL</th>
+                                <th class="py-3">Status</th>
+                                <th class="py-3">Timestamp</th>
+                                <th class="pe-4 py-3 text-end">Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php if (!empty($logs)): ?>
                                 <?php foreach ($logs as $l): ?>
+                                    <?php
+                                        $dir = strtolower($l['direction'] ?? '');
+                                        $isIncoming = (strpos($dir, 'incoming') !== false || strpos($dir, 'inbound') !== false);
+                                        $st = strtolower($l['status'] ?? '');
+                                        $statusClass = 'bg-secondary-subtle text-secondary';
+                                        $statusIcon = 'fa-info-circle';
+                                        $statusText = strtoupper($l['status'] ?? 'RECORDED');
+
+                                        if (strpos($st, 'success') !== false || strpos($st, 'processed') !== false || strpos($st, 'acknowledged') !== false) {
+                                            $statusClass = 'bg-success-subtle text-success border border-success-subtle';
+                                            $statusIcon = 'fa-check-circle';
+                                        } elseif (strpos($st, 'sent') !== false || strpos($st, 'simulated') !== false || strpos($st, 'logged') !== false) {
+                                            $statusClass = 'bg-primary-subtle text-primary border border-primary-subtle';
+                                            $statusIcon = 'fa-paper-plane';
+                                        } elseif (strpos($st, 'fail') !== false || strpos($st, 'offline') !== false || strpos($st, 'error') !== false) {
+                                            $statusClass = 'bg-warning-subtle text-warning-emphasis border border-warning-subtle';
+                                            $statusIcon = 'fa-clock';
+                                            $statusText = 'OFFLINE / LOGGED';
+                                        }
+                                    ?>
                                     <tr>
-                                        <td>#<?= (int)$l['id'] ?></td>
+                                        <td class="ps-4 fw-semibold text-dark">#<?= (int)$l['id'] ?></td>
                                         <td>
-                                            <span class="badge <?= $l['direction'] === 'incoming' ? 'bg-primary' : 'bg-success' ?>">
-                                                <?= htmlspecialchars(strtoupper($l['direction'])) ?>
+                                            <?php if ($isIncoming): ?>
+                                                <span class="badge rounded-pill bg-primary-subtle text-primary border border-primary-subtle px-2.5 py-1.5 fw-semibold">
+                                                    <i class="fas fa-arrow-down me-1"></i>INBOUND
+                                                </span>
+                                            <?php else: ?>
+                                                <span class="badge rounded-pill bg-info-subtle text-dark border border-info-subtle px-2.5 py-1.5 fw-semibold">
+                                                    <i class="fas fa-arrow-up me-1"></i>OUTBOUND
+                                                </span>
+                                            <?php endif; ?>
+                                        </td>
+                                        <td class="text-truncate font-monospace text-muted" style="max-width: 280px;" title="<?= htmlspecialchars($l['target_url'] ?? '') ?>">
+                                            <?= htmlspecialchars($l['target_url'] ?: 'Internal System Receiver') ?>
+                                        </td>
+                                        <td>
+                                            <span class="badge rounded-pill <?= $statusClass ?> px-2.5 py-1.5 fw-semibold">
+                                                <i class="fas <?= $statusIcon ?> me-1"></i><?= $statusText ?>
                                             </span>
                                         </td>
-                                        <td class="text-truncate" style="max-width: 250px;"><?= htmlspecialchars($l['target_url'] ?: 'System Ingestion') ?></td>
-                                        <td>
-                                            <span class="badge bg-secondary"><?= htmlspecialchars($l['status']) ?></span>
-                                        </td>
-                                        <td><?= date('M d, Y g:i a', strtotime($l['created_at'])) ?></td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-primary btn-sm fw-bold" onclick="showLogDetails(<?= htmlspecialchars(json_encode($l), ENT_QUOTES, 'UTF-8') ?>)">
+                                        <td class="text-muted"><small><i class="far fa-clock me-1 text-muted"></i><?= date('M d, Y · g:i a', strtotime($l['created_at'])) ?></small></td>
+                                        <td class="pe-4 text-end">
+                                            <button type="button" class="btn btn-outline-primary btn-sm rounded-pill px-3 fw-semibold shadow-sm" onclick="showLogDetails(<?= htmlspecialchars(json_encode($l), ENT_QUOTES, 'UTF-8') ?>)">
                                                 <i class="fas fa-code me-1"></i>Payload & Logs
                                             </button>
                                         </td>
@@ -1229,7 +1268,10 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <?php endforeach; ?>
                             <?php else: ?>
                                 <tr>
-                                    <td colspan="6" class="text-center text-muted py-4">No integration logs recorded yet.</td>
+                                    <td colspan="6" class="text-center text-muted py-5">
+                                        <i class="fas fa-inbox fs-2 text-muted mb-2 d-block"></i>
+                                        No integration logs recorded yet.
+                                    </td>
                                 </tr>
                             <?php endif; ?>
                         </tbody>
