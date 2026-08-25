@@ -1211,13 +1211,13 @@ include '../includes/header.php';
 
 <!-- View Evidence Modal -->
 <div class="modal fade" id="viewEvidenceModal" tabindex="-1">
-    <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-            <div class="modal-header bg-primary text-white">
-                <h5 class="modal-title"><i class="bi bi-eye"></i> Evidence Details</h5>
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-3 overflow-hidden">
+            <div class="modal-header py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important; color: white;">
+                <h5 class="modal-title fw-bold"><i class="bi bi-eye text-warning me-2"></i> Evidence Details</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body" id="evidenceDetails">
+            <div class="modal-body p-4" id="evidenceDetails">
                 <!-- Content will be loaded here -->
             </div>
         </div>
@@ -1226,13 +1226,13 @@ include '../includes/header.php';
 
 <!-- Chain of Custody Modal -->
 <div class="modal fade" id="chainOfCustodyModal" tabindex="-1">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header bg-primary text-white">
-                <h5 class="modal-title"><i class="bi bi-link"></i> Chain of Custody</h5>
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-3 overflow-hidden">
+            <div class="modal-header py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important; color: white;">
+                <h5 class="modal-title fw-bold"><i class="bi bi-link text-warning me-2"></i> Chain of Custody</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body" id="chainOfCustodyDetails">
+            <div class="modal-body p-4" id="chainOfCustodyDetails">
                 <!-- Content will be loaded here -->
             </div>
         </div>
@@ -1762,6 +1762,94 @@ function showAddCustodyForm(evidenceId) {
 
 function hideAddCustodyForm(evidenceId) {
     document.getElementById(`addCustodyForm_${evidenceId}`).style.display = 'none';
+}
+
+function submitUpdateStatusAjax(event, evidenceId) {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const originalText = submitBtn.innerHTML;
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span> Saving...';
+
+    fetch('evidence_ajax.php?action=update_status', {
+        method: 'POST',
+        body: formData
+    })
+    .then(r => r.json())
+    .then(data => {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalText;
+        if (data.success) {
+            // Update status badge inside modal
+            const badge = document.getElementById(`evidenceStatusBadge_${evidenceId}`);
+            if (badge) {
+                badge.textContent = data.new_status;
+                badge.className = 'badge bg-' + (data.new_status === 'Released' ? 'success' : (data.new_status === 'Destroyed' ? 'danger' : 'primary'));
+            }
+            // Show inline success message
+            const alertBox = document.getElementById(`updateStatusAlert_${evidenceId}`);
+            if (alertBox) {
+                alertBox.style.display = 'block';
+                alertBox.className = 'alert alert-success py-2 small mb-2';
+                alertBox.innerHTML = '<i class="bi bi-check-circle me-1"></i> ' + data.message;
+                setTimeout(() => { alertBox.style.display = 'none'; }, 3500);
+            }
+            hideUpdateStatusForm(evidenceId);
+            // Also refresh location if updated
+            const locInput = form.querySelector('input[name="location"]');
+            if (locInput) {
+                const locDisplay = document.getElementById(`evidenceLocDisplay_${evidenceId}`);
+                if (locDisplay) locDisplay.textContent = locInput.value;
+            }
+        } else {
+            alert('Error: ' + (data.error || 'Failed to update status'));
+        }
+    })
+    .catch(err => {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalText;
+        alert('Network error while updating status.');
+    });
+}
+
+function submitAddCustodyAjax(event, evidenceId) {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const originalText = submitBtn.innerHTML;
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span> Saving...';
+
+    fetch('evidence_ajax.php?action=add_custody', {
+        method: 'POST',
+        body: formData
+    })
+    .then(r => r.json())
+    .then(data => {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalText;
+        if (data.success) {
+            const alertBox = document.getElementById(`addCustodyAlert_${evidenceId}`);
+            if (alertBox) {
+                alertBox.style.display = 'block';
+                alertBox.className = 'alert alert-success py-2 small mb-2';
+                alertBox.innerHTML = '<i class="bi bi-check-circle me-1"></i> ' + data.message;
+                setTimeout(() => { alertBox.style.display = 'none'; }, 3500);
+            }
+            form.reset();
+            hideAddCustodyForm(evidenceId);
+        } else {
+            alert('Error: ' + (data.error || 'Failed to add custody entry'));
+        }
+    })
+    .catch(err => {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalText;
+        alert('Network error while adding custody entry.');
+    });
 }
 
 // Dropdown Dynamic Handlers for Evidence Creation

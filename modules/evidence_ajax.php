@@ -24,6 +24,104 @@ $_SESSION['user_id'] = $adminId;
 $action = $_GET['action'] ?? '';
 $id = $_GET['id'] ?? 0;
 
+if ($action === 'update_status') {
+    $evidenceId = intval($_POST['evidence_id'] ?? 0);
+    $newStatus = trim($_POST['new_status'] ?? 'Collected');
+    $location = trim($_POST['location'] ?? '');
+    $notes = trim($_POST['status_notes'] ?? '');
+
+    if (!$evidenceId) {
+        echo json_encode(['success' => false, 'error' => 'Invalid evidence ID']);
+        exit;
+    }
+
+    try {
+        $stmt = $pdo->prepare("UPDATE evidence_records SET status = ?, storage_location = COALESCE(NULLIF(?, ''), storage_location) WHERE id = ?");
+        $stmt->execute([$newStatus, $location, $evidenceId]);
+
+        // Ensure chain_of_custody column type
+        try {
+            $pdo->exec("ALTER TABLE chain_of_custody MODIFY COLUMN action_type VARCHAR(100) NOT NULL DEFAULT 'Transferred'");
+        } catch (Exception $ignored) {}
+
+        // Add chain of custody entry
+        $performedBy = !empty($_SESSION['user_id']) ? $_SESSION['user_id'] : 1;
+        $custodyStmt = $pdo->prepare("INSERT INTO chain_of_custody (evidence_id, action_type, action_date, location, purpose, notes, performed_by) VALUES (?, 'Transferred', NOW(), ?, ?, ?, ?)");
+        $custodyStmt->execute([
+            $evidenceId,
+            $location ?: 'Evidence Room',
+            'Status updated to ' . $newStatus,
+            $notes ?: ('Status changed to ' . $newStatus),
+            $performedBy
+        ]);
+
+        echo json_encode([
+            'success' => true,
+            'message' => 'Evidence status successfully updated to ' . $newStatus,
+            'new_status' => $newStatus,
+            'evidence_id' => $evidenceId
+        ]);
+    } catch (Exception $e) {
+        echo json_encode(['success' => false, 'error' => $e->getMessage()]);
+    }
+    exit;
+}
+
+if ($action === 'add_custody') {
+    $evidenceId = intval($_POST['evidence_id'] ?? 0);
+    $actionType = trim($_POST['action_type'] ?? 'Transferred');
+    $fromPerson = trim($_POST['from_person'] ?? '');
+    $toPerson = trim($_POST['to_person'] ?? '');
+    $actionDate = trim($_POST['action_date'] ?? date('Y-m-d'));
+    $actionTime = trim($_POST['action_time'] ?? date('H:i:s'));
+    $location = trim($_POST['location'] ?? 'Evidence Vault');
+    $purpose = trim($_POST['purpose'] ?? 'Custody Handover');
+    $witness = trim($_POST['witness'] ?? '');
+    $custodyNotes = trim($_POST['custody_notes'] ?? '');
+
+    if (!$evidenceId) {
+        echo json_encode(['success' => false, 'error' => 'Invalid evidence ID']);
+        exit;
+    }
+
+    try {
+        // Ensure chain_of_custody column type
+        try {
+            $pdo->exec("ALTER TABLE chain_of_custody MODIFY COLUMN action_type VARCHAR(100) NOT NULL DEFAULT 'Transferred'");
+        } catch (Exception $ignored) {}
+
+        $performedBy = !empty($_SESSION['user_id']) ? $_SESSION['user_id'] : 1;
+        $custodyStmt = $pdo->prepare("
+            INSERT INTO chain_of_custody
+            (evidence_id, action_type, from_person_name, to_person_name, action_date,
+             location, purpose, notes, performed_by, witness_name)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ");
+        $datetime = $actionDate . ' ' . ($actionTime ?: '00:00:00');
+        $custodyStmt->execute([
+            $evidenceId,
+            $actionType,
+            $fromPerson ?: 'Previous Custodian',
+            $toPerson ?: 'Authorized Officer',
+            $datetime,
+            $location,
+            $purpose,
+            $custodyNotes,
+            $performedBy,
+            $witness ?: null
+        ]);
+
+        echo json_encode([
+            'success' => true,
+            'message' => 'Chain of Custody entry added successfully!',
+            'evidence_id' => $evidenceId
+        ]);
+    } catch (Exception $e) {
+        echo json_encode(['success' => false, 'error' => $e->getMessage()]);
+    }
+    exit;
+}
+
 if ($action === 'view' && $id) {
     // Get evidence details
     $stmt = $pdo->prepare("
@@ -52,18 +150,22 @@ if ($action === 'view' && $id) {
     <div class="row">
         <div class="col-md-8">
             <div class="d-flex justify-content-between align-items-center mb-3">
-                <h6>Evidence Information</h6>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary" onclick="showUpdateStatusForm(<?php echo $evidence['id']; ?>)">
-                        <i class="bi bi-pencil"></i> Update Status
+                <h6 class="fw-bold text-dark mb-0"><i class="bi bi-shield-check text-success me-1"></i> Evidence Information</h6>
+                <div class="d-flex gap-2">
+                    <button type="button" class="btn btn-sm btn-outline-success fw-bold shadow-sm" onclick="showUpdateStatusForm(<?php echo $evidence['id']; ?>)">
+                        <i class="bi bi-pencil me-1"></i> Update Status
                     </button>
-                    <button class="btn btn-sm btn-outline-secondary" onclick="showAddCustodyForm(<?php echo $evidence['id']; ?>)">
-                        <i class="bi bi-plus-circle"></i> Add Custody Entry
+                    <button type="button" class="btn btn-sm btn-success fw-bold shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;" onclick="showAddCustodyForm(<?php echo $evidence['id']; ?>)">
+                        <i class="bi bi-plus-circle me-1"></i> Add Custody Entry
                     </button>
                 </div>
             </div>
-            <table class="table table-sm">
-                <tr><th>Evidence Number:</th><td><?php echo htmlspecialchars($evidence['evidence_number']); ?></td></tr>
+
+            <div id="updateStatusAlert_<?php echo $evidence['id']; ?>" style="display: none;"></div>
+            <div id="addCustodyAlert_<?php echo $evidence['id']; ?>" style="display: none;"></div>
+
+            <table class="table table-sm align-middle">
+                <tr><th style="width: 32%;">Evidence Number:</th><td class="fw-bold text-dark font-monospace"><?php echo htmlspecialchars($evidence['evidence_number']); ?></td></tr>
                 <tr><th>Type:</th><td><?php echo htmlspecialchars($evidence['evidence_type']); ?></td></tr>
                 <tr><th>Case:</th><td><?php echo htmlspecialchars($evidence['case_number'] ?: 'N/A'); ?></td></tr>
                 <tr><th>Description:</th><td><?php echo nl2br(htmlspecialchars($evidence['item_description'])); ?></td></tr>
@@ -74,15 +176,15 @@ if ($action === 'view' && $id) {
                 <tr><th>Collection Date:</th><td><?php echo date('M d, Y H:i', strtotime($evidence['collection_date'])); ?></td></tr>
                 <tr><th>Collected By:</th><td><?php echo htmlspecialchars($evidence['collector_name']); ?></td></tr>
                 <tr><th>Condition:</th><td><?php echo htmlspecialchars($evidence['condition']); ?></td></tr>
-                <tr><th>Storage Location:</th><td><?php echo htmlspecialchars($evidence['storage_location']); ?></td></tr>
-                <tr><th>Stored File Folder:</th><td>uploads/evidence/</td></tr>
-                <tr><th>Security Level:</th><td><?php echo htmlspecialchars($evidence['security_level']); ?></td></tr>
+                <tr><th>Storage Location:</th><td id="evidenceLocDisplay_<?php echo $evidence['id']; ?>"><?php echo htmlspecialchars($evidence['storage_location']); ?></td></tr>
+                <tr><th>Stored File Folder:</th><td><code>uploads/evidence/</code></td></tr>
+                <tr><th>Security Level:</th><td><span class="badge bg-secondary"><?php echo htmlspecialchars($evidence['security_level']); ?></span></td></tr>
                 <tr><th>Status:</th><td>
-                    <span class="badge bg-<?php
+                    <span id="evidenceStatusBadge_<?php echo $evidence['id']; ?>" class="badge bg-<?php
                         echo match($evidence['status']) {
                             'Collected' => 'primary',
                             'In Storage' => 'info',
-                            'In Transit' => 'warning',
+                            'In Transit' => 'warning text-dark',
                             'Released' => 'success',
                             'Destroyed' => 'danger',
                             'Lost' => 'dark',
@@ -96,14 +198,14 @@ if ($action === 'view' && $id) {
             </table>
 
             <!-- Update Status Form (hidden by default) -->
-            <div id="updateStatusForm_<?php echo $evidence['id']; ?>" style="display: none;" class="mt-3 p-3 border rounded">
-                <h6>Update Evidence Status</h6>
-                <form method="POST" action="evidence_collection.php">
+            <div id="updateStatusForm_<?php echo $evidence['id']; ?>" style="display: none;" class="mt-3 p-3 border rounded shadow-sm bg-light">
+                <h6 class="fw-bold text-success mb-3"><i class="bi bi-pencil-square me-1"></i> Update Evidence Status</h6>
+                <form onsubmit="submitUpdateStatusAjax(event, <?php echo $evidence['id']; ?>)">
                     <input type="hidden" name="evidence_id" value="<?php echo $evidence['id']; ?>">
-                    <div class="row">
+                    <div class="row g-2 mb-2">
                         <div class="col-md-6">
-                            <label class="form-label">New Status</label>
-                            <select name="new_status" class="form-select" required>
+                            <label class="form-label small fw-bold">New Status</label>
+                            <select name="new_status" class="form-select form-select-sm" required>
                                 <option value="Collected" <?php echo $evidence['status'] === 'Collected' ? 'selected' : ''; ?>>Collected</option>
                                 <option value="In Storage" <?php echo $evidence['status'] === 'In Storage' ? 'selected' : ''; ?>>In Storage</option>
                                 <option value="In Transit" <?php echo $evidence['status'] === 'In Transit' ? 'selected' : ''; ?>>In Transit</option>
@@ -113,29 +215,31 @@ if ($action === 'view' && $id) {
                             </select>
                         </div>
                         <div class="col-md-6">
-                            <label class="form-label">Location</label>
-                            <input type="text" name="location" class="form-control" value="<?php echo htmlspecialchars($evidence['storage_location']); ?>">
+                            <label class="form-label small fw-bold">Location / Vault</label>
+                            <input type="text" name="location" class="form-control form-control-sm" value="<?php echo htmlspecialchars($evidence['storage_location']); ?>">
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Notes</label>
-                        <textarea name="status_notes" class="form-control" rows="2"></textarea>
+                        <label class="form-label small fw-bold">Status Update Notes</label>
+                        <textarea name="status_notes" class="form-control form-control-sm" rows="2" placeholder="State reason for status update..."></textarea>
                     </div>
-                    <button type="submit" name="update_status" class="btn btn-primary btn-sm">Update Status</button>
-                    <button type="button" class="btn btn-secondary btn-sm" onclick="hideUpdateStatusForm(<?php echo $evidence['id']; ?>)">Cancel</button>
+                    <div class="d-flex justify-content-end gap-2">
+                        <button type="button" class="btn btn-outline-success btn-sm px-3 fw-semibold" onclick="hideUpdateStatusForm(<?php echo $evidence['id']; ?>)">Cancel</button>
+                        <button type="submit" class="btn btn-success btn-sm px-3 fw-bold shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;"><i class="bi bi-check-lg me-1"></i> Save Status</button>
+                    </div>
                 </form>
             </div>
 
             <!-- Add Custody Entry Form (hidden by default) -->
-            <div id="addCustodyForm_<?php echo $evidence['id']; ?>" style="display: none;" class="mt-3 p-3 border rounded">
-                <h6>Add Chain of Custody Entry</h6>
-                <form method="POST" action="evidence_collection.php">
+            <div id="addCustodyForm_<?php echo $evidence['id']; ?>" style="display: none;" class="mt-3 p-3 border rounded shadow-sm bg-light">
+                <h6 class="fw-bold text-success mb-3"><i class="bi bi-link-45deg me-1"></i> Add Chain of Custody Entry</h6>
+                <form onsubmit="submitAddCustodyAjax(event, <?php echo $evidence['id']; ?>)">
                     <input type="hidden" name="evidence_id" value="<?php echo $evidence['id']; ?>">
-                    <div class="row">
+                    <div class="row g-2 mb-2">
                         <div class="col-md-6">
-                            <label class="form-label">Action Type</label>
-                            <select name="action_type" class="form-select" required>
-                                <option value="Transferred">Transferred</option>
+                            <label class="form-label small fw-bold">Action Type</label>
+                            <select name="action_type" class="form-select form-select-sm" required>
+                                <option value="Transferred" selected>Transferred</option>
                                 <option value="Accessed">Accessed</option>
                                 <option value="Stored">Stored</option>
                                 <option value="Retrieved">Retrieved</option>
@@ -144,42 +248,46 @@ if ($action === 'view' && $id) {
                             </select>
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label">Date</label>
-                            <input type="date" name="action_date" class="form-control" required value="<?php echo date('Y-m-d'); ?>">
+                            <label class="form-label small fw-bold">Date</label>
+                            <input type="date" name="action_date" class="form-control form-control-sm" required value="<?php echo date('Y-m-d'); ?>">
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label">Time</label>
-                            <input type="time" name="action_time" class="form-control">
+                            <label class="form-label small fw-bold">Time</label>
+                            <input type="time" name="action_time" class="form-control form-control-sm" value="<?php echo date('H:i'); ?>">
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row g-2 mb-2">
                         <div class="col-md-6">
-                            <label class="form-label">From Person</label>
-                            <input type="text" name="from_person" class="form-control" placeholder="Previous custodian">
+                            <label class="form-label small fw-bold">From Person</label>
+                            <input type="text" name="from_person" class="form-control form-control-sm" placeholder="Previous custodian" value="<?php echo htmlspecialchars($evidence['collector_name'] ?: 'Custody Officer'); ?>">
                         </div>
                         <div class="col-md-6">
-                            <label class="form-label">To Person</label>
-                            <input type="text" name="to_person" class="form-control" placeholder="New custodian" required>
+                            <label class="form-label small fw-bold">To Person *</label>
+                            <input type="text" name="to_person" class="form-control form-control-sm" placeholder="New custodian name" required>
                         </div>
                     </div>
-                    <div class="mb-3">
-                        <label class="form-label">Location</label>
-                        <input type="text" name="location" class="form-control" value="<?php echo htmlspecialchars($evidence['storage_location']); ?>">
+                    <div class="row g-2 mb-2">
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Location</label>
+                            <input type="text" name="location" class="form-control form-control-sm" value="<?php echo htmlspecialchars($evidence['storage_location']); ?>">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Purpose</label>
+                            <input type="text" name="purpose" class="form-control form-control-sm" placeholder="e.g. Court presentation, Forensic review">
+                        </div>
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label small fw-bold">Witness Name</label>
+                        <input type="text" name="witness" class="form-control form-control-sm" placeholder="Optional witness name">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Purpose</label>
-                        <input type="text" name="purpose" class="form-control" placeholder="Reason for action">
+                        <label class="form-label small fw-bold">Custody Notes</label>
+                        <textarea name="custody_notes" class="form-control form-control-sm" rows="2" placeholder="Any additional remarks..."></textarea>
                     </div>
-                    <div class="mb-3">
-                        <label class="form-label">Witness</label>
-                        <input type="text" name="witness" class="form-control" placeholder="Witness name (optional)">
+                    <div class="d-flex justify-content-end gap-2">
+                        <button type="button" class="btn btn-outline-success btn-sm px-3 fw-semibold" onclick="hideAddCustodyForm(<?php echo $evidence['id']; ?>)">Cancel</button>
+                        <button type="submit" class="btn btn-success btn-sm px-3 fw-bold shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;"><i class="bi bi-save me-1"></i> Save Entry</button>
                     </div>
-                    <div class="mb-3">
-                        <label class="form-label">Notes</label>
-                        <textarea name="custody_notes" class="form-control" rows="2"></textarea>
-                    </div>
-                    <button type="submit" name="add_custody_entry" class="btn btn-primary btn-sm">Add Entry</button>
-                    <button type="button" class="btn btn-secondary btn-sm" onclick="hideAddCustodyForm(<?php echo $evidence['id']; ?>)">Cancel</button>
                 </form>
             </div>
         </div>
