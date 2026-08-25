@@ -318,7 +318,7 @@ try {
             </div>
             <div class="d-flex gap-2">
                 <a href="../modules/department_integrations.php" class="btn btn-success fw-bold shadow-sm" style="background-color: #2e856e; border-color: #2e856e;"><i class="fas fa-cubes me-1"></i> Department Hub</a>
-                <a href="dashboard.php" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left me-1"></i> Dashboard</a>
+                <a href="dashboard.php" class="btn btn-outline-success btn-sm fw-semibold"><i class="bi bi-arrow-left me-1"></i> Dashboard</a>
             </div>
         </div>
 
@@ -330,14 +330,14 @@ try {
         <?php endif; ?>
 
         <!-- Partner Integration API Specifications Banner -->
-        <div class="card mb-4 bg-light border-primary shadow-sm">
-            <div class="card-header bg-primary text-white fw-bold d-flex align-items-center">
-                <i class="fas fa-network-wired me-2"></i> Inter-Group Integration Specifications & Inbound Webhook URLs
+        <div class="card mb-4 border-0 shadow-sm rounded-3 overflow-hidden">
+            <div class="card-header text-white fw-bold d-flex align-items-center py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                <i class="fas fa-network-wired me-2 text-warning"></i> Inter-Group Integration Specifications & Inbound Webhook URLs
             </div>
             <div class="card-body">
                 <div class="row g-3">
                     <div class="col-md-3">
-                        <div class="p-3 bg-white border rounded h-100">
+                        <div class="p-3 bg-white border border-success-subtle rounded-3 h-100 shadow-sm">
                             <span class="badge bg-success mb-2">INCOMING (GROUP 2)</span>
                             <h6 class="fw-bold text-dark mb-1">Accident & Violation Report</h6>
                             <code class="small text-break">/api/receive_accident_report.php</code>
@@ -345,23 +345,23 @@ try {
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="p-3 bg-white border rounded h-100">
-                            <span class="badge bg-primary mb-2">OUTGOING (GROUP 7)</span>
+                        <div class="p-3 bg-white border border-success-subtle rounded-3 h-100 shadow-sm">
+                            <span class="badge bg-success mb-2">OUTGOING (GROUP 7)</span>
                             <h6 class="fw-bold text-dark mb-1">Photo & Video Upload API</h6>
                             <code class="small text-break"><?= htmlspecialchars($integrationSettings['group7_evidence_upload_api_url'] ?? 'https://inspection.alertaraqc.com/api/upload_evidence.php') ?></code>
                             <p class="small text-muted mt-2 mb-0">Dispatches photos & video evidence directly to Group 7 Inspection Cloud.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="p-3 bg-white border rounded h-100">
-                            <span class="badge bg-danger mb-2">OUTGOING (GROUP 2)</span>
+                        <div class="p-3 bg-white border border-success-subtle rounded-3 h-100 shadow-sm">
+                            <span class="badge bg-success mb-2">OUTGOING (GROUP 2)</span>
                             <h6 class="fw-bold text-dark mb-1">Request CCTV from Group 2</h6>
                             <code class="small text-break"><?= htmlspecialchars($integrationSettings['cctv_request_api_url'] ?? '') ?></code>
                             <p class="small text-muted mt-2 mb-0">Dispatches automated CCTV footage & traffic camera retrieval queries to Group 2.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="p-3 bg-white border rounded h-100">
+                        <div class="p-3 bg-white border border-success-subtle rounded-3 h-100 shadow-sm">
                             <span class="badge bg-success mb-2">INCOMING (GROUP 2)</span>
                             <h6 class="fw-bold text-dark mb-1">Receive Fulfilled CCTV Evidence</h6>
                             <code class="small text-break">/api/cctv_footage_receive.php</code>
@@ -373,10 +373,10 @@ try {
         </div>
 
         <!-- Integration Ready Endpoint Manager Form -->
-        <div class="card mb-4 border-dark shadow-sm">
-            <div class="card-header bg-dark text-white fw-bold d-flex justify-content-between align-items-center">
+        <div class="card mb-4 border-0 shadow-sm rounded-3 overflow-hidden">
+            <div class="card-header text-white fw-bold d-flex justify-content-between align-items-center py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
                 <span><i class="fas fa-sliders-h me-2 text-warning"></i>Integration Ready Endpoint Manager (Configure API Target URLs)</span>
-                <span class="badge bg-warning text-dark"><i class="fas fa-plug me-1"></i>Integration Ready</span>
+                <span class="badge bg-warning text-dark px-3 py-1.5 rounded-pill"><i class="fas fa-plug me-1"></i>Integration Ready</span>
             </div>
             <div class="card-body">
                 <p class="small text-muted mb-4">Input or update destination API URLs for external partner systems. All modules are pre-configured to route payloads to these target endpoints as soon as external APIs go live.</p>
@@ -460,17 +460,17 @@ try {
         </div>
 
         <!-- Live Public Safety Campaigns Card (campaign.alertaraqc.com) -->
-        <div class="card mb-4 border-warning shadow-sm" id="campaignsSection">
-            <div class="card-header bg-warning text-dark fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2">
+        <div class="card mb-4 border-0 shadow-sm rounded-3 overflow-hidden" id="campaignsSection">
+            <div class="card-header text-white fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2 py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
                 <div>
-                    <i class="fas fa-bullhorn me-2"></i>Live Public Safety Campaigns (`campaign.alertaraqc.com`)
-                    <span class="badge bg-success text-white ms-2"><?= count($receivedCampaigns) ?> Synced Campaign(s)</span>
+                    <i class="fas fa-bullhorn me-2 text-warning"></i>Live Public Safety Campaigns (`campaign.alertaraqc.com`)
+                    <span class="badge bg-white text-success ms-2 rounded-pill px-3 py-1.5"><?= count($receivedCampaigns) ?> Synced Campaign(s)</span>
                 </div>
                 <div class="d-flex gap-2 align-items-center">
                     <input type="text" id="campaignSearchInput" class="form-control form-control-sm" placeholder="Filter campaigns..." style="width: 220px;">
                     <form method="POST" class="d-inline mb-0">
                         <input type="hidden" name="action" value="fetch_campaigns">
-                        <button type="submit" class="btn btn-sm btn-success fw-bold px-3 shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important; color: #ffffff !important;">
+                        <button type="submit" class="btn btn-sm btn-light text-success fw-bold px-3 shadow-sm">
                             <i class="fas fa-sync-alt me-1"></i>Fetch Live Campaigns
                         </button>
                     </form>
@@ -499,12 +499,12 @@ try {
                                             <strong><?= htmlspecialchars($c['title']) ?></strong>
                                             <div class="small text-muted text-truncate" style="max-width: 380px;"><?= htmlspecialchars($c['description']) ?></div>
                                         </td>
-                                        <td><span class="badge bg-secondary"><?= htmlspecialchars(ucfirst($c['category'])) ?></span></td>
+                                        <td><span class="badge bg-success bg-opacity-10 text-success border border-success-subtle"><?= htmlspecialchars(ucfirst($c['category'])) ?></span></td>
                                         <td><?= htmlspecialchars($c['geographical_scope'] ?: 'Barangay') ?></td>
                                         <td><span class="badge bg-success"><?= htmlspecialchars($c['status']) ?></span></td>
                                         <td><?= date('M d, Y g:i a', strtotime($c['fetched_at'])) ?></td>
                                         <td class="text-center">
-                                            <button type="button" class="btn btn-sm btn-outline-primary fw-bold py-0 px-2" onclick="showCampaignDetails(<?= htmlspecialchars(json_encode($c), ENT_QUOTES, 'UTF-8') ?>)">
+                                            <button type="button" class="btn btn-sm btn-outline-success fw-bold py-0 px-2" onclick="showCampaignDetails(<?= htmlspecialchars(json_encode($c), ENT_QUOTES, 'UTF-8') ?>)">
                                                 <i class="fas fa-eye me-1"></i>View Details
                                             </button>
                                         </td>
@@ -570,9 +570,9 @@ try {
         <div class="row">
             <!-- Test Payload Processor Form -->
             <div class="col-lg-5 mb-4">
-                <div class="card h-100">
-                    <div class="card-header bg-card fw-bold">
-                        <i class="fas fa-sliders-h me-2 text-primary"></i>Simulate Inbound Data Integration
+                <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="card-header text-white fw-bold d-flex align-items-center py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                        <i class="fas fa-sliders-h me-2 text-warning"></i>Simulate Inbound Data Integration
                     </div>
                     <div class="card-body">
                         <form method="POST">
@@ -634,42 +634,42 @@ try {
 
             <!-- Standardized Output Inspector -->
             <div class="col-lg-7 mb-4">
-                <div class="card h-100">
-                    <div class="card-header bg-card fw-bold d-flex justify-content-between align-items-center">
-                        <span><i class="fas fa-project-diagram me-2 text-success"></i>Standardized Downstream Module Payloads</span>
+                <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="card-header text-white fw-bold d-flex justify-content-between align-items-center py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                        <span><i class="fas fa-project-diagram me-2 text-warning"></i>Standardized Downstream Module Payloads</span>
                         <?php if ($testResult): ?>
-                            <span class="badge bg-success rounded-pill">Processed</span>
+                            <span class="badge bg-white text-success rounded-pill px-3 py-1.5">Processed</span>
                         <?php endif; ?>
                     </div>
                     <div class="card-body">
                         <?php if ($testResult): ?>
                             <!-- Executive Incident Summary -->
-                            <div class="p-3 mb-3 bg-light rounded border">
-                                <h6 class="fw-bold text-dark mb-1"><i class="fas fa-file-alt me-2 text-primary"></i>Executive Incident Summary</h6>
+                            <div class="p-3 mb-3 bg-light rounded border border-success-subtle">
+                                <h6 class="fw-bold text-dark mb-1"><i class="fas fa-file-alt me-2 text-success"></i>Executive Incident Summary</h6>
                                 <p class="small text-secondary mb-2"><?= htmlspecialchars($testResult['executive_incident_summary']['summary']) ?></p>
                                 <div class="d-flex gap-2 align-items-center">
                                     <span class="badge bg-danger">Risk Level: <?= htmlspecialchars($testResult['executive_incident_summary']['risk_level']) ?></span>
-                                    <span class="badge bg-dark">Score: <?= (int)$testResult['executive_incident_summary']['urgency_score'] ?>/100</span>
+                                    <span class="badge bg-success">Score: <?= (int)$testResult['executive_incident_summary']['urgency_score'] ?>/100</span>
                                 </div>
                             </div>
 
                             <!-- Tabs for Group Payloads -->
                             <ul class="nav nav-tabs nav-fill mb-3" id="payloadTabs" role="tablist">
                                 <li class="nav-item">
-                                    <button class="nav-link active btn-sm" id="g7-tab" data-bs-toggle="tab" data-bs-target="#g7" type="button">Group 7 Inspection</button>
+                                    <button class="nav-link active btn-sm fw-semibold" id="g7-tab" data-bs-toggle="tab" data-bs-target="#g7" type="button">Group 7 Inspection</button>
                                 </li>
                                 <li class="nav-item">
-                                    <button class="nav-link btn-sm" id="g5-tab" data-bs-toggle="tab" data-bs-target="#g5" type="button">Group 5 Crime Map</button>
+                                    <button class="nav-link btn-sm fw-semibold" id="g5-tab" data-bs-toggle="tab" data-bs-target="#g5" type="button">Group 5 Crime Map</button>
                                 </li>
                                 <li class="nav-item">
-                                    <button class="nav-link btn-sm" id="g3-tab" data-bs-toggle="tab" data-bs-target="#g3" type="button">Group 3 Resource</button>
+                                    <button class="nav-link btn-sm fw-semibold" id="g3-tab" data-bs-toggle="tab" data-bs-target="#g3" type="button">Group 3 Resource</button>
                                 </li>
                                 <li class="nav-item">
-                                    <button class="nav-link btn-sm" id="cctv-tab" data-bs-toggle="tab" data-bs-target="#cctv" type="button">Partner CCTV API</button>
+                                    <button class="nav-link btn-sm fw-semibold" id="cctv-tab" data-bs-toggle="tab" data-bs-target="#cctv" type="button">Partner CCTV API</button>
                                 </li>
                             </ul>
 
-                            <div class="tab-content border p-3 rounded bg-dark text-light" id="payloadTabContent">
+                            <div class="tab-content border p-3 rounded text-light" style="background: #0f172a;" id="payloadTabContent">
                                 <div class="tab-pane fade show active" id="g7">
                                     <pre class="mb-0 text-success font-monospace" style="font-size: 0.825rem;"><?= htmlspecialchars(json_encode($testResult['module_specific_payloads']['group_7_inspection_scheduling'], JSON_PRETTY_PRINT)) ?></pre>
                                 </div>
@@ -684,7 +684,7 @@ try {
                                     <form method="POST" class="mt-3">
                                         <input type="hidden" name="action" value="dispatch_cctv_direct">
                                         <input type="hidden" name="cctv_payload_json" value="<?= htmlspecialchars(json_encode($testResult['module_specific_payloads']['cctv_partner_surveillance_api'])) ?>">
-                                        <button type="submit" class="btn btn-sm btn-success">
+                                        <button type="submit" class="btn btn-sm btn-success fw-bold shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">
                                             <i class="fas fa-paper-plane me-1"></i> Dispatch to Partner CCTV API
                                         </button>
                                     </form>
@@ -692,8 +692,8 @@ try {
                             </div>
                         <?php else: ?>
                             <div class="text-center py-5 text-muted">
-                                <i class="fas fa-network-wired fa-3x mb-3 opacity-50"></i>
-                                <h5>No active payload simulation</h5>
+                                <i class="fas fa-network-wired fa-3x mb-3 text-success opacity-50"></i>
+                                <h5 class="fw-bold text-dark">No active payload simulation</h5>
                                 <p class="small">Use the form on the left to simulate inbound data from Group 3 or Group 4 modules.</p>
                             </div>
                         <?php endif; ?>
@@ -705,10 +705,10 @@ try {
         <!-- Received Partner Data Records (Inbound CCTV Footage & Resolved Tips) -->
         <div class="row g-3 mb-4">
             <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-success">
-                    <div class="card-header bg-success text-white fw-bold d-flex justify-content-between align-items-center">
-                        <span><i class="fas fa-video me-2"></i>Received CCTV Footage (`cctv_footage_received`)</span>
-                        <span class="badge bg-white text-success"><?= count($receivedFootage) ?> record(s)</span>
+                <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+                    <div class="card-header text-white fw-bold d-flex justify-content-between align-items-center py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                        <span><i class="fas fa-video me-2 text-warning"></i>Received CCTV Footage (`cctv_footage_received`)</span>
+                        <span class="badge bg-white text-success rounded-pill px-3 py-1.5"><?= count($receivedFootage) ?> record(s)</span>
                     </div>
                     <div class="card-body p-0">
                         <div class="table-responsive" style="max-height: 300px;">
@@ -725,7 +725,7 @@ try {
                                     <?php if (!empty($receivedFootage)): ?>
                                         <?php foreach ($receivedFootage as $rf): ?>
                                             <tr>
-                                                <td class="fw-bold">#<?= htmlspecialchars($rf['request_id'] ?: $rf['id']) ?></td>
+                                                <td class="fw-bold text-success">#<?= htmlspecialchars($rf['request_id'] ?: $rf['id']) ?></td>
                                                 <td><?= htmlspecialchars(($rf['location'] ?: 'QC') . ' (' . ($rf['camera_id'] ?: 'CAM') . ')') ?></td>
                                                 <td><?= date('M d H:i', strtotime($rf['received_at'] ?? $rf['created_at'] ?? 'now')) ?></td>
                                                 <td class="text-center">
@@ -746,10 +746,10 @@ try {
             </div>
 
             <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-info">
-                    <div class="card-header bg-info text-dark fw-bold d-flex justify-content-between align-items-center">
-                        <span><i class="fas fa-lightbulb me-2"></i>Received Resolved Tips (`received_resolved_tips`)</span>
-                        <span class="badge bg-dark text-white"><?= count($receivedTips) ?> record(s)</span>
+                <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+                    <div class="card-header text-white fw-bold d-flex justify-content-between align-items-center py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                        <span><i class="fas fa-lightbulb me-2 text-warning"></i>Received Resolved Tips (`received_resolved_tips`)</span>
+                        <span class="badge bg-white text-success rounded-pill px-3 py-1.5"><?= count($receivedTips) ?> record(s)</span>
                     </div>
                     <div class="card-body p-0">
                         <div class="table-responsive" style="max-height: 300px;">
@@ -767,12 +767,12 @@ try {
                                     <?php if (!empty($receivedTips)): ?>
                                         <?php foreach ($receivedTips as $rt): ?>
                                             <tr>
-                                                <td class="fw-bold">#<?= htmlspecialchars($rt['tip_id'] ?: $rt['id']) ?></td>
+                                                <td class="fw-bold text-success">#<?= htmlspecialchars($rt['tip_id'] ?: $rt['id']) ?></td>
                                                 <td><?= htmlspecialchars($rt['title'] ?: $rt['incident_type']) ?></td>
                                                 <td><?= htmlspecialchars($rt['resolved_by'] ?: 'Operator') ?></td>
                                                 <td><?= date('M d H:i', strtotime($rt['created_at'])) ?></td>
                                                 <td class="text-center">
-                                                    <button type="button" class="btn btn-xs btn-outline-info text-dark py-0 px-2 fw-bold" onclick="showTipDetails(<?= htmlspecialchars(json_encode($rt), ENT_QUOTES, 'UTF-8') ?>)">
+                                                    <button type="button" class="btn btn-xs btn-outline-success py-0 px-2 fw-bold" onclick="showTipDetails(<?= htmlspecialchars(json_encode($rt), ENT_QUOTES, 'UTF-8') ?>)">
                                                         <i class="fas fa-eye me-1"></i>View Details
                                                     </button>
                                                 </td>
@@ -790,15 +790,15 @@ try {
         </div>
 
         <!-- Emergency Calls & Incident Ingestion Live Stream (`received_emergency_calls`) -->
-        <div class="card mb-4 border-warning shadow-sm">
-            <div class="card-header bg-warning text-dark fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2">
+        <div class="card mb-4 border-0 shadow-sm rounded-3 overflow-hidden">
+            <div class="card-header text-white fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2 py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
                 <div>
-                    <i class="fas fa-phone-alt me-2 text-danger"></i>Emergency Calls & Incident Ingestion Stream (`received_emergency_calls`)
-                    <span class="badge bg-dark text-white ms-2"><?= count($receivedCalls) ?> Ingested Record(s)</span>
+                    <i class="fas fa-phone-alt me-2 text-warning"></i>Emergency Calls & Incident Ingestion Stream (`received_emergency_calls`)
+                    <span class="badge bg-white text-success ms-2 rounded-pill px-3 py-1.5"><?= count($receivedCalls) ?> Ingested Record(s)</span>
                 </div>
                 <div class="d-flex gap-2">
-                    <button type="button" class="btn btn-sm btn-dark text-white fw-bold" data-bs-toggle="modal" data-bs-target="#simulateCallModal">
-                        <i class="fas fa-plus-circle me-1 text-warning"></i>Simulate Inbound Emergency Call
+                    <button type="button" class="btn btn-sm btn-light text-success fw-bold shadow-sm" data-bs-toggle="modal" data-bs-target="#simulateCallModal">
+                        <i class="fas fa-plus-circle me-1 text-success"></i>Simulate Inbound Emergency Call
                     </button>
                 </div>
             </div>
@@ -864,15 +864,15 @@ try {
         </div>
 
         <!-- Group 2: Accident & Violation Reports Live Stream (`received_accident_reports`) -->
-        <div class="card mb-4 border-danger shadow-sm">
-            <div class="card-header bg-danger text-white fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2">
+        <div class="card mb-4 border-0 shadow-sm rounded-3 overflow-hidden">
+            <div class="card-header text-white fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2 py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
                 <div>
-                    <i class="fas fa-car-crash me-2"></i>Group 2: Accident & Violation Reports Received (`received_accident_reports`)
-                    <span class="badge bg-white text-danger ms-2"><?= count($receivedAccidents) ?> Synced Record(s)</span>
+                    <i class="fas fa-car-crash me-2 text-warning"></i>Group 2: Accident & Violation Reports Received (`received_accident_reports`)
+                    <span class="badge bg-white text-success ms-2 rounded-pill px-3 py-1.5"><?= count($receivedAccidents) ?> Synced Record(s)</span>
                 </div>
                 <div class="d-flex gap-2">
-                    <button type="button" class="btn btn-sm btn-light text-danger fw-bold" data-bs-toggle="modal" data-bs-target="#simulateAccidentModal">
-                        <i class="fas fa-plus-circle me-1"></i>Simulate Inbound Accident Report & Ticket (Group 2)
+                    <button type="button" class="btn btn-sm btn-light text-success fw-bold shadow-sm" data-bs-toggle="modal" data-bs-target="#simulateAccidentModal">
+                        <i class="fas fa-plus-circle me-1 text-success"></i>Simulate Inbound Accident Report & Ticket (Group 2)
                     </button>
                 </div>
             </div>
@@ -896,7 +896,7 @@ try {
                                 <?php foreach ($receivedAccidents as $acc): ?>
                                     <tr>
                                         <td>
-                                            <span class="badge bg-dark">#<?= htmlspecialchars($acc['ticket_number'] ?: 'N/A') ?></span>
+                                            <span class="badge bg-success">#<?= htmlspecialchars($acc['ticket_number'] ?: 'N/A') ?></span>
                                             <div class="small text-muted font-monospace"><?= htmlspecialchars($acc['report_id'] ?: '') ?></div>
                                         </td>
                                         <td>
@@ -913,12 +913,12 @@ try {
                                                 'Critical' => 'danger',
                                                 'High' => 'warning text-dark',
                                                 default => 'info'
-                                            } ?>"><?= htmlspecialchars($acc['severity_level'] ?: 'High') ?></span>
+                                             } ?>"><?= htmlspecialchars($acc['severity_level'] ?: 'High') ?></span>
                                         </td>
                                         <td><small class="text-truncate d-block" style="max-width: 200px;"><?= htmlspecialchars($acc['location']) ?></small></td>
                                         <td><?= date('M d, Y H:i', strtotime($acc['created_at'])) ?></td>
                                         <td class="text-center">
-                                            <button type="button" class="btn btn-xs btn-outline-danger py-0 px-2 fw-bold" onclick="showAccidentDetails(<?= htmlspecialchars(json_encode($acc), ENT_QUOTES, 'UTF-8') ?>)">
+                                            <button type="button" class="btn btn-xs btn-outline-success py-0 px-2 fw-bold" onclick="showAccidentDetails(<?= htmlspecialchars(json_encode($acc), ENT_QUOTES, 'UTF-8') ?>)">
                                                 <i class="fas fa-eye me-1"></i>Inspect
                                             </button>
                                         </td>
@@ -940,9 +940,9 @@ try {
         <!-- Inter-Group Action Simulators (Group 7 Upload & Group 2 CCTV Cycle) -->
         <div class="row g-3 mb-4">
             <div class="col-md-6">
-                <div class="card h-100 border-primary shadow-sm">
-                    <div class="card-header bg-primary text-white fw-bold d-flex align-items-center" style="background-color: #0d6efd !important; color: #ffffff !important;">
-                        <h6 class="mb-0 text-white fw-bold"><i class="fas fa-cloud-upload-alt me-2 text-white"></i>Group 7: Photo & Video Upload Simulator</h6>
+                <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="card-header text-white fw-bold d-flex align-items-center py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                        <h6 class="mb-0 text-white fw-bold"><i class="fas fa-cloud-upload-alt me-2 text-warning"></i>Group 7: Photo & Video Upload Simulator</h6>
                     </div>
                     <div class="card-body">
                         <p class="small text-muted">Test transmission of collected crime/accident scene photos and surveillance videos to Group 7's Photo and Videos Upload endpoint.</p>
@@ -955,7 +955,7 @@ try {
                             <div class="p-2 bg-light rounded border small mb-3">
                                 <strong>Payload Contains:</strong> Photos (JPG/PNG), Videos (MP4/WebM), Evidence Reference Number, and Case Hash.
                             </div>
-                            <button type="submit" class="btn btn-sm btn-primary w-100 fw-bold">
+                            <button type="submit" class="btn btn-sm btn-success w-100 fw-bold shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">
                                 <i class="fas fa-paper-plane me-1"></i> Test Dispatch Photos & Videos to Group 7
                             </button>
                         </form>
@@ -963,9 +963,9 @@ try {
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card h-100 border-success shadow-sm">
-                    <div class="card-header bg-success text-white fw-bold d-flex align-items-center" style="background-color: #198754 !important; color: #ffffff !important;">
-                        <h6 class="mb-0 text-white fw-bold"><i class="fas fa-sync-alt me-2 text-white"></i>Group 2: CCTV Request & Acknowledgement Cycle</h6>
+                <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="card-header text-white fw-bold d-flex align-items-center py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                        <h6 class="mb-0 text-white fw-bold"><i class="fas fa-sync-alt me-2 text-warning"></i>Group 2: CCTV Request & Acknowledgement Cycle</h6>
                     </div>
                     <div class="card-body">
                         <p class="small text-muted">Group 1 requests CCTV camera retrieval from Group 2 (Accident & Violation Reporting), and Group 2 acknowledges the request with fulfilled video/photo evidence.</p>
@@ -978,7 +978,7 @@ try {
                             </form>
                             <form method="POST" class="w-50">
                                 <input type="hidden" name="action" value="simulate_group2_ack">
-                                <button type="submit" class="btn btn-sm btn-success w-100 fw-bold">
+                                <button type="submit" class="btn btn-sm btn-success w-100 fw-bold shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">
                                     <i class="fas fa-check-double me-1"></i> 2. Group 2 Acknowledge
                                 </button>
                             </form>
@@ -1285,18 +1285,18 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- Integration Log Payload & Details Modal -->
 <div class="modal fade" id="logDetailModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header bg-dark text-white">
-                <h5 class="modal-title" id="mLogTitle"><i class="fas fa-network-wired text-primary me-2"></i>Integration Log Details</h5>
+        <div class="modal-content border-0 rounded-3 overflow-hidden shadow-lg">
+            <div class="modal-header text-white fw-bold py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                <h5 class="modal-title" id="mLogTitle"><i class="fas fa-network-wired text-warning me-2"></i>Integration Log Details</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <div class="row g-3">
                     <div class="col-md-4">
-                        <strong>Log Entry ID:</strong> <span id="mLogId" class="badge bg-dark"></span>
+                        <strong>Log Entry ID:</strong> <span id="mLogId" class="badge bg-success"></span>
                     </div>
                     <div class="col-md-4">
-                        <strong>Direction / Action:</strong> <span id="mLogDirection" class="badge bg-primary"></span>
+                        <strong>Direction / Action:</strong> <span id="mLogDirection" class="badge bg-success bg-opacity-10 text-success border border-success-subtle"></span>
                     </div>
                     <div class="col-md-4">
                         <strong>Status:</strong> <span id="mLogStatus" class="badge bg-success"></span>
@@ -1305,18 +1305,18 @@ document.addEventListener('DOMContentLoaded', function() {
                         <strong>Target Endpoint / Destination URL:</strong>
                         <div class="input-group input-group-sm mt-1">
                             <input type="text" id="mLogTargetUrl" class="form-control font-monospace" readonly>
-                            <button type="button" class="btn btn-outline-secondary" onclick="navigator.clipboard.writeText(document.getElementById('mLogTargetUrl').value); alert('Target URL copied!');">
+                            <button type="button" class="btn btn-outline-success" onclick="navigator.clipboard.writeText(document.getElementById('mLogTargetUrl').value); alert('Target URL copied!');">
                                 <i class="fas fa-copy me-1"></i>Copy
                             </button>
                         </div>
                     </div>
                     <div class="col-12">
                         <strong>Transmitted Payload (Request Body JSON):</strong>
-                        <pre id="mLogPayload" class="bg-dark text-warning p-3 rounded mt-1 font-monospace" style="max-height: 250px; overflow-y: auto; font-size: 0.82rem; white-space: pre-wrap;"></pre>
+                        <pre id="mLogPayload" class="p-3 rounded mt-1 font-monospace text-warning" style="background: #0f172a; max-height: 250px; overflow-y: auto; font-size: 0.82rem; white-space: pre-wrap;"></pre>
                     </div>
                     <div class="col-12">
                         <strong>API Endpoint Response (Response Body JSON):</strong>
-                        <pre id="mLogResponse" class="bg-dark text-info p-3 rounded mt-1 font-monospace" style="max-height: 200px; overflow-y: auto; font-size: 0.82rem; white-space: pre-wrap;"></pre>
+                        <pre id="mLogResponse" class="p-3 rounded mt-1 font-monospace text-info" style="background: #0f172a; max-height: 200px; overflow-y: auto; font-size: 0.82rem; white-space: pre-wrap;"></pre>
                     </div>
                     <div class="col-12 text-end text-muted small">
                         Logged At: <span id="mLogTimestamp"></span>
@@ -1324,7 +1324,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -1333,18 +1333,18 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- CCTV Footage Detail Modal -->
 <div class="modal fade" id="cctvDetailModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header bg-success text-white">
-                <h5 class="modal-title" id="mCctvTitle"><i class="fas fa-video me-2"></i>Received CCTV Footage Record</h5>
+        <div class="modal-content border-0 rounded-3 overflow-hidden shadow-lg">
+            <div class="modal-header text-white fw-bold py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                <h5 class="modal-title" id="mCctvTitle"><i class="fas fa-video text-warning me-2"></i>Received CCTV Footage Record</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <div class="row g-3">
                     <div class="col-md-6">
-                        <strong>Request Reference ID:</strong> <span id="mCctvReqId" class="badge bg-dark"></span>
+                        <strong>Request Reference ID:</strong> <span id="mCctvReqId" class="badge bg-success"></span>
                     </div>
                     <div class="col-md-6">
-                        <strong>Incident Case ID:</strong> <span id="mCctvIncidentId" class="badge bg-primary"></span>
+                        <strong>Incident Case ID:</strong> <span id="mCctvIncidentId" class="badge bg-success bg-opacity-10 text-success border border-success-subtle"></span>
                     </div>
                     <div class="col-md-6">
                         <strong>Location / Barangay:</strong> <span id="mCctvLocation"></span>
@@ -1356,14 +1356,14 @@ document.addEventListener('DOMContentLoaded', function() {
                         <strong>Footage Stream / Video URL:</strong>
                         <div class="input-group input-group-sm mt-1">
                             <input type="text" id="mCctvUrl" class="form-control font-monospace" readonly>
-                            <a id="mCctvOpenBtn" href="#" target="_blank" class="btn btn-success fw-bold">
+                            <a id="mCctvOpenBtn" href="#" target="_blank" class="btn btn-success fw-bold shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">
                                 <i class="fas fa-external-link-alt me-1"></i>Open Video Stream
                             </a>
                         </div>
                     </div>
                     <div class="col-12">
                         <strong>Operator Notes / Verification:</strong>
-                        <div id="mCctvNotes" class="p-3 bg-light rounded mt-1 border text-dark" style="font-size: 0.9rem;"></div>
+                        <div id="mCctvNotes" class="p-3 bg-light rounded mt-1 border border-success-subtle text-dark" style="font-size: 0.9rem;"></div>
                     </div>
                     <div class="col-12 text-end text-muted small">
                         Received At: <span id="mCctvTimestamp"></span>
@@ -1371,7 +1371,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -1380,18 +1380,18 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- Resolved Tip Detail Modal -->
 <div class="modal fade" id="tipDetailModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header bg-info text-dark">
-                <h5 class="modal-title" id="mTipTitle"><i class="fas fa-lightbulb me-2"></i>Received Resolved Tip Record</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-content border-0 rounded-3 overflow-hidden shadow-lg">
+            <div class="modal-header text-white fw-bold py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                <h5 class="modal-title" id="mTipTitle"><i class="fas fa-lightbulb text-warning me-2"></i>Received Resolved Tip Record</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <div class="row g-3">
                     <div class="col-md-6">
-                        <strong>Tip Reference ID:</strong> <span id="mTipId" class="badge bg-dark"></span>
+                        <strong>Tip Reference ID:</strong> <span id="mTipId" class="badge bg-success"></span>
                     </div>
                     <div class="col-md-6">
-                        <strong>Incident Type:</strong> <span id="mTipType" class="badge bg-secondary"></span>
+                        <strong>Incident Type:</strong> <span id="mTipType" class="badge bg-success bg-opacity-10 text-success border border-success-subtle"></span>
                     </div>
                     <div class="col-md-6">
                         <strong>Resolved By:</strong> <span id="mTipResolvedBy" class="fw-semibold"></span>
@@ -1401,15 +1401,15 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <div class="col-12">
                         <strong>Resolution Summary & Narrative:</strong>
-                        <div id="mTipSummary" class="p-3 bg-light rounded mt-1 border text-dark" style="font-size: 0.9rem; line-height: 1.5; white-space: pre-line;"></div>
+                        <div id="mTipSummary" class="p-3 bg-light rounded mt-1 border border-success-subtle text-dark" style="font-size: 0.9rem; line-height: 1.5; white-space: pre-line;"></div>
                     </div>
                     <div class="col-12">
-                        <small class="text-muted"><i class="fas fa-info-circle me-1"></i>Ingested from Group 4 Anonymous Tip Line System</small>
+                        <small class="text-muted"><i class="fas fa-info-circle me-1 text-success"></i>Ingested from Group 4 Anonymous Tip Line System</small>
                     </div>
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>

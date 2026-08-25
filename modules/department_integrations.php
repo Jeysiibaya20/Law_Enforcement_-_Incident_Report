@@ -344,7 +344,7 @@ try {
                 <div class="card dept-card h-100 p-3 shadow-sm">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div class="d-flex align-items-center gap-2">
-                            <div class="dept-icon-box bg-secondary text-white"><i class="fas fa-bullhorn"></i></div>
+                            <div class="dept-icon-box bg-success text-white"><i class="fas fa-bullhorn"></i></div>
                             <div>
                                 <h6 class="fw-bold mb-0 text-dark">Public Safety & Awareness</h6>
                                 <small class="text-muted">Advisories & Community Alerts</small>
@@ -355,7 +355,7 @@ try {
                     <p class="small text-muted mb-3">Publishes verified incident warnings and community awareness campaigns to social and mobile channels.</p>
                     <div class="d-flex justify-content-between align-items-center pt-2 border-top">
                         <span class="small text-muted">Channel: <code>api/publish_campaign.php</code></span>
-                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="openInspectDeptModal('group6')">
+                        <button type="button" class="btn btn-sm btn-outline-success" onclick="openInspectDeptModal('group6')">
                             <i class="fas fa-eye me-1"></i> Manage
                         </button>
                     </div>
@@ -723,15 +723,15 @@ try {
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content border-0 shadow-lg" style="border-radius: 12px; overflow: hidden;">
             <div class="modal-header text-white" style="background: linear-gradient(135deg, #1b5a56, #2e856e);">
-                <h5 class="modal-title fw-bold" id="inspectDeptTitle"><i class="fas fa-building me-2"></i>Department Management</h5>
+                <h5 class="modal-title fw-bold" id="inspectDeptTitle"><i class="fas fa-building me-2 text-warning"></i>Department Management</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body p-4" id="inspectDeptBody">
                 <!-- Dynamically injected via JS -->
             </div>
             <div class="modal-footer bg-light">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success" id="inspectDeptActionBtn"><i class="fas fa-bolt me-1"></i>Trigger Action</button>
+                <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success fw-bold shadow-sm" style="background-color: #2e856e; border-color: #2e856e;" id="inspectDeptActionBtn"><i class="fas fa-bolt me-1"></i>Trigger Action</button>
             </div>
         </div>
     </div>
@@ -741,19 +741,19 @@ try {
 <div class="modal fade submodal-stack" id="payloadViewerSubModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content border-0 shadow-lg" style="border-radius: 12px; overflow: hidden; border: 2px solid #2e856e !important;">
-            <div class="modal-header text-white" style="background: #1e293b;">
+            <div class="modal-header text-white" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
                 <h5 class="modal-title fw-bold" id="payloadViewerTitle"><i class="fas fa-code me-2 text-warning"></i>Raw JSON Payload Inspector</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body p-4 bg-dark text-light">
+            <div class="modal-body p-4 text-light" style="background: #0f172a;">
                 <div class="d-flex justify-content-between align-items-center mb-2">
                     <span class="small text-muted">Formatted JSON schema representation</span>
-                    <button type="button" class="btn btn-sm btn-outline-warning" onclick="copyPayloadToClipboard()"><i class="fas fa-copy me-1"></i>Copy JSON</button>
+                    <button type="button" class="btn btn-sm btn-outline-warning fw-bold" onclick="copyPayloadToClipboard()"><i class="fas fa-copy me-1"></i>Copy JSON</button>
                 </div>
-                <pre class="p-3 bg-black rounded text-success" id="payloadPreArea" style="max-height: 400px; overflow-y: auto; font-family: monospace; font-size: 0.85rem; border: 1px solid #334155;"></pre>
+                <pre class="p-3 bg-black rounded text-success" id="payloadPreArea" style="max-height: 400px; overflow-y: auto; font-family: monospace; font-size: 0.85rem; border: 1px solid #1e293b;"></pre>
             </div>
             <div class="modal-footer bg-light">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+                <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Back</button>
             </div>
         </div>
     </div>
@@ -764,7 +764,7 @@ try {
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content border-0 shadow-lg" style="border-radius: 12px; overflow: hidden; border: 2px solid #2e856e !important;">
             <div class="modal-header text-white" style="background: linear-gradient(135deg, #1b5a56, #2e856e);">
-                <h5 class="modal-title fw-bold"><i class="fas fa-paper-plane me-2"></i>Live API Dispatcher</h5>
+                <h5 class="modal-title fw-bold"><i class="fas fa-paper-plane me-2 text-warning"></i>Live API Dispatcher</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
             <form method="POST">
@@ -802,8 +802,8 @@ try {
                     </div>
                 </div>
                 <div class="modal-footer bg-light">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="submit" class="btn btn-success px-4 fw-bold" style="background-color: #2e856e; border-color: #2e856e;">
+                    <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-success px-4 fw-bold shadow-sm" style="background-color: #2e856e; border-color: #2e856e;">
                         <i class="fas fa-send me-1"></i> Send Request to Group 2
                     </button>
                 </div>
@@ -817,7 +817,7 @@ try {
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content border-0 shadow-lg" style="border-radius: 12px; overflow: hidden; border: 2px solid #2e856e !important;">
             <div class="modal-header text-white" style="background: linear-gradient(135deg, #1b5a56, #2e856e);">
-                <h5 class="modal-title fw-bold"><i class="fas fa-handshake me-2"></i>Group 2 CCTV Acknowledgment</h5>
+                <h5 class="modal-title fw-bold"><i class="fas fa-handshake me-2 text-warning"></i>Group 2 CCTV Acknowledgment</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
             <form method="POST">
@@ -846,8 +846,8 @@ try {
                     </div>
                 </div>
                 <div class="modal-footer bg-light">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="submit" class="btn btn-success fw-bold" style="background-color: #2e856e; border-color: #2e856e;">
+                    <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-success fw-bold shadow-sm" style="background-color: #2e856e; border-color: #2e856e;">
                         <i class="fas fa-check-circle me-1"></i> Save Acknowledgment
                     </button>
                 </div>
@@ -860,8 +860,8 @@ try {
 <div class="modal fade submodal-stack" id="mediaPlayerSubModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content border-0 shadow-lg bg-dark text-white" style="border-radius: 12px; overflow: hidden; border: 2px solid #2e856e !important;">
-            <div class="modal-header border-secondary">
-                <h5 class="modal-title fw-bold text-success" id="mediaPlayerTitle"><i class="fas fa-play-circle me-2"></i>Media Evidence Stream</h5>
+            <div class="modal-header border-secondary" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                <h5 class="modal-title fw-bold text-white" id="mediaPlayerTitle"><i class="fas fa-play-circle me-2 text-warning"></i>Media Evidence Stream</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body p-4 text-center">
@@ -881,7 +881,7 @@ try {
                 </div>
             </div>
             <div class="modal-footer border-secondary">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -892,7 +892,7 @@ try {
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content border-0 shadow-lg" style="border-radius: 12px; overflow: hidden; border: 2px solid #2e856e !important;">
             <div class="modal-header text-white" style="background: linear-gradient(135deg, #1b5a56, #2e856e);">
-                <h5 class="modal-title fw-bold"><i class="fas fa-cloud-upload-alt me-2"></i>Dispatch Media to Group 7</h5>
+                <h5 class="modal-title fw-bold"><i class="fas fa-cloud-upload-alt me-2 text-warning"></i>Dispatch Media to Group 7</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
             <form method="POST">
@@ -925,8 +925,8 @@ try {
                     </div>
                 </div>
                 <div class="modal-footer bg-light">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="submit" class="btn btn-primary fw-bold">
+                    <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-success fw-bold shadow-sm" style="background-color: #2e856e; border-color: #2e856e;">
                         <i class="fas fa-paper-plane me-1"></i> Dispatch to Group 7
                     </button>
                 </div>

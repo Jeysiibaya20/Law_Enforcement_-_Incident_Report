@@ -861,8 +861,8 @@ try {
                         <textarea id="manage_rejection" name="rejection_reason" class="form-control" rows="2" placeholder="State reason if rejecting..."></textarea>
                     </div>
                     <div class="d-flex justify-content-end gap-2 pt-2 border-top">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-success fw-bold"><i class="fas fa-save me-1"></i> Save Changes</button>
+                        <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-success fw-bold shadow-sm" style="background-color: #2e856e; border-color: #2e856e;"><i class="fas fa-save me-1"></i> Save Changes</button>
                     </div>
                 </form>
             </div>
