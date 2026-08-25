@@ -237,7 +237,7 @@ try {
             <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
                 <h1 class="h2 fw-bold text-dark mb-0"><i class="fas fa-clipboard-list text-success me-2"></i>Blotter Management</h1>
                 <div class="d-flex gap-2">
-                    <a href="../modules/blotter_create.php" class="btn btn-success fw-bold px-3 shadow-sm" style="background-color: #2e856e; border-color: #2e856e;">
+                    <a href="blotter_create.php" class="btn btn-success fw-bold px-3 shadow-sm" style="background-color: #2e856e; border-color: #2e856e;">
                         <i class="bi bi-plus-circle me-1"></i> Create New Blotter
                     </a>
                     <a href="dashboard.php" class="btn btn-outline-secondary">

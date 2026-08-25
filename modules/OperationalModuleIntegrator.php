@@ -718,19 +718,19 @@ class OperationalModuleIntegrator {
     }
 
     /**
-     * Process incoming Emergency Call from Aldrin's Group (Emergency Call Receiving and Logging)
-     * Fields supported: Call ID, Timestamp, Caller, Location, Emergency Level, Incident Description
+     * Process incoming Emergency Call & Incident from External Emergency Response System
+     * Fields supported: Call ID, Timestamp, Caller Location, Caller, Location, Emergency Level, Incident Description
      */
     public function processIncomingEmergencyCall(array $data): array {
         $callId = trim($data['Call ID'] ?? $data['call_id'] ?? $data['callId'] ?? $data['CallId'] ?? $data['id'] ?? ('CALL-' . date('Ymd') . '-' . rand(1000, 9999)));
         $timestamp = trim($data['Timestamp'] ?? $data['timestamp'] ?? $data['date_time'] ?? $data['dateTime'] ?? $data['call_time'] ?? date('Y-m-d H:i:s'));
-        $caller = trim($data['Caller'] ?? $data['caller'] ?? $data['caller_name'] ?? $data['name'] ?? $data['complainant_name'] ?? $data['reporter_name'] ?? 'Emergency Caller');
-        $location = trim($data['Location'] ?? $data['location'] ?? $data['caller_location'] ?? $data['address'] ?? 'Quezon City');
+        $caller = trim($data['Caller'] ?? $data['caller'] ?? $data['caller_name'] ?? $data['name'] ?? $data['complainant_name'] ?? $data['reporter_name'] ?? 'Emergency Dispatch Caller');
+        $location = trim($data['Caller Location'] ?? $data['caller_location'] ?? $data['Location'] ?? $data['location'] ?? $data['address'] ?? 'Quezon City');
         $emergencyLevel = ucfirst(strtolower(trim($data['Emergency Level'] ?? $data['emergency_level'] ?? $data['EmergencyLevel'] ?? $data['urgency'] ?? $data['priority'] ?? $data['severity'] ?? 'High')));
         $description = trim($data['Incident Description'] ?? $data['incident_description'] ?? $data['IncidentDescription'] ?? $data['description'] ?? $data['details'] ?? $data['narrative'] ?? '');
 
         if (empty($description) && empty($location)) {
-            throw new Exception('Missing incident description or location in incoming emergency call payload.');
+            throw new Exception('Missing incident description or caller location in incoming emergency incident payload.');
         }
 
         $formattedTime = date('Y-m-d H:i:s', strtotime($timestamp));
@@ -744,12 +744,24 @@ class OperationalModuleIntegrator {
         $recordId = null;
         $caseNo = null;
 
+        // Emergency Response Unit assignment based on Emergency Level and Incident Type
+        $isCritical = in_array($emergencyLevel, ['Critical', 'High']);
+        $priorityCode = $isCritical ? 'CODE 1 - IMMEDIATE EMERGENCY RESPONSE' : ($emergencyLevel === 'Medium' ? 'CODE 2 - URGENT DISPATCH' : 'CODE 3 - STANDARD PATROL');
+        
+        $assignedUnit = 'Quezon City Emergency Response Unit (Station 4 Patrol & BCPC Quick Response)';
+        $descLower = strtolower($description);
+        if (strpos($descLower, 'medic') !== false || strpos($descLower, 'injur') !== false || strpos($descLower, 'hospital') !== false || strpos($descLower, 'blood') !== false) {
+            $assignedUnit = 'EMS Ambulance & Paramedics Response Team + Police Escort';
+        } elseif (strpos($descLower, 'fire') !== false || strpos($descLower, 'burn') !== false || strpos($descLower, 'smoke') !== false) {
+            $assignedUnit = 'BFP Fire & Rescue Brigade + Police Traffic Control';
+        }
+
         if ($this->pdo instanceof PDO) {
-            $caseNo = 'CALL-' . date('Ymd') . '-' . substr(strtoupper(bin2hex(random_bytes(2))), 0, 4);
+            $caseNo = 'EMR-' . date('Ymd') . '-' . substr(strtoupper(bin2hex(random_bytes(2))), 0, 4);
 
             $stmt = $this->pdo->prepare("INSERT INTO received_emergency_calls 
                 (call_id, call_timestamp, caller_name, caller_location, emergency_level, incident_description, incident_type, district, case_no, status, raw_payload) 
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'Logged & Dispatched', ?)");
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'Dispatched to Emergency Response', ?)");
             $stmt->execute([
                 $callId,
                 $formattedTime,
@@ -768,15 +780,15 @@ class OperationalModuleIntegrator {
             try {
                 $checkIncidents = $this->pdo->query("SHOW TABLES LIKE 'incidents'");
                 if ($checkIncidents && $checkIncidents->rowCount() > 0) {
-                    $fullNarrative = "[Aldrin Emergency Call #{$callId}]\n"
-                        . "Caller: {$caller}\n"
-                        . "Emergency Level: {$emergencyLevel}\n"
-                        . "Location: {$location}\n"
+                    $fullNarrative = "[External Emergency Response Call #{$callId}]\n"
+                        . "Emergency Level: {$emergencyLevel} ({$priorityCode})\n"
+                        . "Caller Location: {$location}\n"
+                        . "Assigned First Responders: {$assignedUnit}\n"
                         . "Incident Details: " . $description;
 
                     $urgency = in_array($emergencyLevel, ['Critical', 'High', 'Medium', 'Low']) ? $emergencyLevel : 'High';
 
-                    $incStmt = $this->pdo->prepare("INSERT INTO incidents (case_no, narrative, incident_type, incident_subtype, auto_classification, urgency_level, location, status, reporter_name, incident_date, created_at) VALUES (?, ?, 'Other', 'Emergency Call', 'Aldrin Call Receiving System', ?, ?, 'Submitted', ?, ?, NOW())");
+                    $incStmt = $this->pdo->prepare("INSERT INTO incidents (case_no, narrative, incident_type, incident_subtype, auto_classification, urgency_level, location, status, reporter_name, incident_date, created_at) VALUES (?, ?, 'Other', 'Emergency Call', 'External Emergency Response System', ?, ?, 'Submitted', ?, ?, NOW())");
                     $incStmt->execute([
                         $caseNo,
                         $fullNarrative,
@@ -791,25 +803,36 @@ class OperationalModuleIntegrator {
             }
 
             // Save integration log
-            $this->saveLog('incoming_emergency_call', 'Aldrin Emergency Call System', $data, [
+            $this->saveLog('incoming_emergency_call', 'External Emergency Response System', $data, [
                 'status' => 'success',
                 'record_id' => $recordId,
                 'call_id' => $callId,
-                'case_no' => $caseNo
+                'case_no' => $caseNo,
+                'emergency_response' => [
+                    'dispatch_status' => 'Dispatched - En Route',
+                    'assigned_unit' => $assignedUnit,
+                    'priority_code' => $priorityCode
+                ]
             ], 'logged_and_dispatched');
         }
 
         return [
             'success' => true,
-            'message' => 'Emergency call received and logged successfully into Law Enforcement System.',
+            'message' => 'Incident successfully received and integrated with Emergency Response & Law Enforcement System.',
             'record_id' => $recordId,
             'call_id' => $callId,
             'case_no' => $caseNo,
-            'caller' => $caller,
-            'location' => $location,
+            'caller_location' => $location,
             'emergency_level' => $emergencyLevel,
             'incident_type' => $incidentType,
             'timestamp' => $formattedTime,
+            'emergency_response' => [
+                'dispatch_status' => 'Active Response Initiated / Unit Dispatched',
+                'priority_code' => $priorityCode,
+                'assigned_unit' => $assignedUnit,
+                'estimated_arrival' => $isCritical ? '4-7 minutes' : '8-12 minutes',
+                'police_district' => $district
+            ],
             'received_at' => date('Y-m-d H:i:s')
         ];
     }

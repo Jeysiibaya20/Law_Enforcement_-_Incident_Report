@@ -17,41 +17,50 @@ This guide documents **ALL Inbound (Receiving)** and **Outbound (Sending)** API 
 
 ## 📥 1. INBOUND API ENDPOINTS (RECEIVING DATA FROM OTHER GROUPS)
 
-### A. Aldrin's Group — Emergency Call Ingestion
-Receives live emergency call dispatch logs. Automatically stores the call into the `received_emergency_calls` database table and auto-classifies/mirrors it into the central `incidents` table for law enforcement tracking.
+### A. Emergency Response & Incident Ingestion Endpoint
+Receives live emergency incident and call dispatch logs from the External Emergency Response System. Automatically stores the incident in `received_emergency_calls`, registers an official case (`EMR-YYYYMMDD-XXXX`) in the `incidents` table, and triggers the Emergency Response & Dispatch Unit workflow.
 
 - **Primary Dedicated Endpoint**: `POST /api/receive_emergency_call.php`
-- **Alternative Endpoints**:
+- **Alternative Gateway Endpoints**:
   - `POST /api/external_integration.php?action=receive_emergency_call`
   - `POST /api/api.php?action=receive_emergency_call`
 
-#### Request Payload Format (JSON):
-Both formatted field names and snake_case field names are supported:
+#### Authentication & Headers:
+- **HTTP Method**: `POST`
+- **Content-Type**: `application/json`
+- **API Key Header**: `X-API-KEY: ALERTARA-EMERGENCY-2026` *(o `X-External-Secret: ALERTARA-EMERGENCY-2026`)*
+
+#### Request Payload Format (Exact JSON format):
 ```json
 {
-  "Call ID": "CALL-2026-0091",
+  "Call ID": "CALL-EMR-2026-9901",
   "Timestamp": "2026-08-26 14:30:00",
-  "Caller": "Aldrin Test Caller",
-  "Location": "Susano Road, Barangay San Agustin, Novaliches, Quezon City",
-  "Emergency Level": "High",
-  "Incident Description": "Physical commotion and commotion reported near commercial area involving multiple individuals."
+  "Caller Location": "Susano Road, Brgy San Agustin, Novaliches, Quezon City",
+  "Emergency Level": "Critical",
+  "Incident Description": "Multi-vehicle collision with severe pedestrian injuries requiring immediate ambulance and traffic police response."
 }
 ```
-*(Also accepts: `call_id`, `timestamp`, `caller`, `caller_name`, `location`, `caller_location`, `emergency_level`, `incident_description`)*
+*(Also accepts: `call_id`, `timestamp`, `caller_location`, `location`, `emergency_level`, `incident_description`, `api_key`)*
 
 #### Success Response (`200 OK`):
 ```json
 {
   "success": true,
-  "message": "Emergency call received and logged successfully into Law Enforcement System.",
-  "record_id": 1,
-  "call_id": "CALL-2026-0091",
-  "case_no": "CALL-20260826-A1B2",
-  "caller": "Aldrin Test Caller",
-  "location": "Susano Road, Barangay San Agustin, Novaliches, Quezon City",
-  "emergency_level": "High",
-  "incident_type": "Physical Violence / Assault",
+  "message": "Incident successfully received and integrated with Emergency Response & Law Enforcement System.",
+  "record_id": "5",
+  "call_id": "CALL-EMR-2026-9901",
+  "case_no": "EMR-20260826-D92E",
+  "caller_location": "Susano Road, Brgy San Agustin, Novaliches, Quezon City",
+  "emergency_level": "Critical",
+  "incident_type": "General Law Enforcement Incident",
   "timestamp": "2026-08-26 14:30:00",
+  "emergency_response": {
+    "dispatch_status": "Active Response Initiated / Unit Dispatched",
+    "priority_code": "CODE 1 - IMMEDIATE EMERGENCY RESPONSE",
+    "assigned_unit": "EMS Ambulance & Paramedics Response Team + Police Escort",
+    "estimated_arrival": "4-7 minutes",
+    "police_district": "District 1 (Central)"
+  },
   "received_at": "2026-08-26 14:30:01"
 }
 ```

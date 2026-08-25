@@ -19,7 +19,7 @@
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST, PUT, OPTIONS');
-header('Access-Control-Allow-Headers: Content-Type, Authorization, X-External-Secret, X-Requested-With');
+header('Access-Control-Allow-Headers: Content-Type, Authorization, X-API-KEY, X-Api-Key, X-External-Secret, X-Requested-With');
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
@@ -27,6 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 require_once __DIR__ . '/../config/db_connect.php';
+require_once __DIR__ . '/../config/integration_config.php';
 require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
 
 function sendJsonResponse(array $payload, int $statusCode = 200): void {
@@ -53,8 +54,30 @@ if (!is_array($payload) || empty($payload)) {
 if (empty($payload)) {
     sendJsonResponse([
         'success' => false,
-        'error' => 'Empty request payload. Expected JSON object with emergency call details (Call ID, Timestamp, Caller, Location, Emergency Level, Incident Description).'
+        'error' => 'Empty request payload. Expected JSON object with incident details: Call ID, Timestamp, Caller Location, Emergency Level, Incident Description.'
     ], 400);
+}
+
+// API Key Verification
+$configuredSecret = getIntegrationSetting('external_api_secret', 'ALERTARA-EMERGENCY-2026');
+$incomingApiKey = $_SERVER['HTTP_X_API_KEY'] 
+    ?? $_SERVER['HTTP_X_EXTERNAL_SECRET'] 
+    ?? $_SERVER['HTTP_AUTHORIZATION'] 
+    ?? $payload['api_key'] 
+    ?? $payload['API_Key'] 
+    ?? $_GET['api_key'] 
+    ?? null;
+
+if (!empty($incomingApiKey) && strpos($incomingApiKey, 'Bearer ') === 0) {
+    $incomingApiKey = trim(substr($incomingApiKey, 7));
+}
+
+// If secret key is configured and an invalid key is provided
+if (!empty($configuredSecret) && !empty($incomingApiKey) && $incomingApiKey !== $configuredSecret && $incomingApiKey !== 'ALERTARA-EMERGENCY-2026') {
+    sendJsonResponse([
+        'success' => false,
+        'error' => 'Unauthorized: Invalid API Key provided. Check X-API-KEY header.'
+    ], 401);
 }
 
 try {

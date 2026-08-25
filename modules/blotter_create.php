@@ -1,5 +1,12 @@
 <?php
 require_once __DIR__ . '/../includes/user_auth.php';
+
+// If logged in as admin/officer, redirect to admin-side blotter create to keep admin layout intact
+if (!empty($_SESSION['admin_user_id']) || strtolower($_SESSION['role'] ?? '') === 'admin' || strtolower($_SESSION['admin_role'] ?? '') === 'admin') {
+    header('Location: ../admin/blotter_create.php');
+    exit;
+}
+
 require_once __DIR__ . '/../config/db_connect.php';
 if (!isset($pdo) || !$pdo) {
     $pdo = getDBConnection();
