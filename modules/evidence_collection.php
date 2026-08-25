@@ -430,6 +430,50 @@ include '../includes/header.php';
     background-color: #f0fdf4 !important;
     color: #1b4332 !important;
 }
+.filter-chip {
+    font-size: 0.8rem;
+    transition: all 0.2s ease-in-out;
+}
+.filter-chip.active {
+    background-color: #1b4332 !important;
+    border-color: #1b4332 !important;
+    color: #ffffff !important;
+}
+.filter-chip:hover:not(.active) {
+    background-color: #e6f4ea !important;
+    color: #1b4332 !important;
+}
+.table-evidence {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.table-evidence thead th {
+    background-color: #f8fafc;
+    color: #334155;
+    font-size: 0.76rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding: 12px 14px;
+    border-bottom: 2px solid #e2e8f0;
+    white-space: nowrap;
+}
+.table-evidence tbody td {
+    padding: 12px 14px;
+    vertical-align: middle;
+    border-bottom: 1px solid #f1f5f9;
+    color: #1e293b;
+    font-size: 0.875rem;
+}
+.table-evidence tbody tr:hover {
+    background-color: #f8fafc;
+}
+.tag-evidence-no {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-weight: 700;
+    color: #1b4332;
+    white-space: nowrap;
+}
 .evidence-card-item {
     border: 1px solid rgba(0,0,0,0.09);
     border-radius: 12px;
@@ -624,9 +668,9 @@ include '../includes/header.php';
                     
                     <div class="d-flex align-items-center gap-2 flex-wrap">
                         <!-- Search Box -->
-                        <div class="input-group input-group-sm" style="width: 220px;">
+                        <div class="input-group input-group-sm" style="width: 230px;">
                             <span class="input-group-text bg-white text-muted border-0"><i class="bi bi-search"></i></span>
-                            <input type="text" id="evidenceSearchInput" class="form-control border-0 shadow-sm" style="color: #1e293b !important; background: #ffffff !important;" placeholder="Search all columns..." onkeyup="filterEvidenceRecords()">
+                            <input type="text" id="evidenceSearchInput" class="form-control border-0 shadow-sm" style="color: #1e293b !important; background: #ffffff !important;" placeholder="Search tag, case, keyword..." onkeyup="filterEvidenceRecords()">
                         </div>
 
                         <!-- Rows per page selector -->
@@ -649,30 +693,39 @@ include '../includes/header.php';
                     </div>
                 </div>
 
+                <!-- Quick Filter Chips Toolbar -->
+                <div class="bg-light px-4 py-2 border-bottom d-flex align-items-center justify-content-between flex-wrap gap-2">
+                    <div class="d-flex align-items-center gap-1.5 flex-wrap">
+                        <span class="small fw-bold text-muted me-1"><i class="bi bi-funnel text-success me-1"></i>Filter:</span>
+                        <button type="button" class="btn btn-xs btn-outline-secondary rounded-pill px-3 py-1 fw-bold filter-chip active" onclick="applyStatusFilter('all', this)">All (<?= count($evidence_records) ?>)</button>
+                        <button type="button" class="btn btn-xs btn-outline-secondary rounded-pill px-3 py-1 fw-semibold filter-chip" onclick="applyStatusFilter('collected', this)">📥 Collected</button>
+                        <button type="button" class="btn btn-xs btn-outline-secondary rounded-pill px-3 py-1 fw-semibold filter-chip" onclick="applyStatusFilter('in storage', this)">📦 In Storage</button>
+                        <button type="button" class="btn btn-xs btn-outline-secondary rounded-pill px-3 py-1 fw-semibold filter-chip" onclick="applyStatusFilter('in transit', this)">🚚 In Transit</button>
+                        <button type="button" class="btn btn-xs btn-outline-secondary rounded-pill px-3 py-1 fw-semibold filter-chip" onclick="applyStatusFilter('released', this)">✅ Released</button>
+                    </div>
+                    <small class="text-muted"><i class="bi bi-shield-check text-success me-1"></i>Official Evidentiary Custody Registry</small>
+                </div>
+
                 <div class="card-body p-0">
                     <!-- ================= TABLE VIEW ================= -->
                     <div id="evidenceTableView" class="p-3">
                         <div class="table-responsive">
-                            <table class="table table-striped table-hover align-middle mb-0" id="evidenceTable">
-                                <thead class="table-light">
+                            <table class="table table-hover table-evidence align-middle mb-0" id="evidenceTable">
+                                <thead>
                                     <tr>
-                                        <th>#</th>
-                                        <th>Evidence #</th>
-                                        <th>Type & Security</th>
-                                        <th>Case #</th>
-                                        <th>Description</th>
-                                        <th>Source Dept & Ref</th>
-                                        <th>Location & Storage</th>
-                                        <th>Witness</th>
-                                        <th>Status</th>
-                                        <th>Collector & Date</th>
-                                        <th>Files</th>
-                                        <th style="min-width: 170px;">Actions</th>
+                                        <th style="width: 40px;">#</th>
+                                        <th style="min-width: 170px;">Evidence Tag</th>
+                                        <th style="min-width: 220px;">Item Description</th>
+                                        <th style="min-width: 180px;">Source / Incident Case</th>
+                                        <th style="min-width: 170px;">Storage & Location</th>
+                                        <th style="min-width: 140px;">Custodian & Date</th>
+                                        <th style="min-width: 130px;">Status</th>
+                                        <th style="min-width: 160px; text-align: center;">Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody id="evidenceTableBody">
                                     <?php if (empty($evidence_records)): ?>
-                                        <tr class="no-records-row"><td colspan="12" class="text-center text-muted py-5"><i class="bi bi-inbox fs-2 d-block mb-2 text-secondary"></i> No evidence records found. Create one to get started.</td></tr>
+                                        <tr class="no-records-row"><td colspan="8" class="text-center text-muted py-5"><i class="bi bi-inbox fs-2 d-block mb-2 text-secondary"></i> No evidence records found. Create one to get started.</td></tr>
                                     <?php else: ?>
                                     <?php foreach ($evidence_records as $idx => $evidence): ?>
                                         <tr class="evidence-row" 
@@ -685,75 +738,101 @@ include '../includes/header.php';
                                             data-witness="<?= htmlspecialchars(strtolower($evidence['witness_name'] ?? '')) ?>"
                                             data-status="<?= htmlspecialchars(strtolower($evidence['status'])) ?>">
                                             <td class="text-muted small fw-bold"><?= $idx + 1 ?></td>
+                                            
+                                            <!-- Evidence Tag & Security -->
                                             <td>
-                                                <span class="fw-bold text-primary"><?= htmlspecialchars($evidence['evidence_number']) ?></span>
-                                            </td>
-                                            <td>
-                                                <span class="badge bg-light text-dark border d-block mb-1"><?= htmlspecialchars($evidence['evidence_type']) ?></span>
-                                                <small class="badge bg-<?= match($evidence['security_level'] ?? 'Medium') { 'High', 'Confidential' => 'danger', 'Medium' => 'warning text-dark', default => 'secondary' } ?>">
-                                                    <?= htmlspecialchars($evidence['security_level'] ?? 'Medium') ?>
-                                                </small>
-                                            </td>
-                                            <td>
-                                                <strong><?= htmlspecialchars($evidence['case_number'] ?: 'N/A') ?></strong>
-                                            </td>
-                                            <td style="max-width: 220px;">
-                                                <span class="d-block text-truncate fw-semibold" style="max-width: 220px;" title="<?= htmlspecialchars($evidence['item_description']) ?>">
-                                                    <?= htmlspecialchars($evidence['item_description']) ?>
-                                                </span>
-                                                <small class="text-muted">Cond: <span class="badge bg-secondary"><?= htmlspecialchars($evidence['condition'] ?? 'Good') ?></span></small>
-                                            </td>
-                                            <td>
-                                                <span class="d-block fw-semibold small text-info"><?= htmlspecialchars($evidence['source_department'] ?: 'Internal Unit') ?></span>
-                                                <?php if (!empty($evidence['source_reference'])): ?>
-                                                    <small class="text-muted d-block">Ref: <code><?= htmlspecialchars($evidence['source_reference']) ?></code></small>
-                                                <?php endif; ?>
-                                                <?php if (!empty($evidence['received_from'])): ?>
-                                                    <small class="text-muted d-block">From: <?= htmlspecialchars($evidence['received_from']) ?></small>
-                                                <?php endif; ?>
-                                            </td>
-                                            <td>
-                                                <small class="d-block text-truncate" style="max-width: 160px;"><i class="bi bi-geo-alt text-danger me-1"></i><?= htmlspecialchars($evidence['location_found'] ?: 'Not recorded') ?></small>
-                                                <small class="d-block text-truncate text-muted" style="max-width: 160px;"><i class="bi bi-box text-warning me-1"></i><?= htmlspecialchars($evidence['storage_location'] ?: 'Vault A-1') ?></small>
-                                            </td>
-                                            <td>
-                                                <?php if (!empty($evidence['witness_name'])): ?>
-                                                    <span class="badge bg-primary text-white d-block mb-1 text-truncate" style="max-width: 140px;" title="<?= htmlspecialchars($evidence['witness_name']) ?>">
-                                                        <i class="bi bi-person me-1"></i><?= htmlspecialchars($evidence['witness_name']) ?>
+                                                <div class="d-flex align-items-center gap-1 mb-1">
+                                                    <span class="tag-evidence-no fs-6"><?= htmlspecialchars($evidence['evidence_number']) ?></span>
+                                                    <a href="javascript:void(0)" class="text-muted small" title="Copy Evidence Tag" onclick="copyEvidenceTag('<?= htmlspecialchars(addslashes($evidence['evidence_number'])) ?>', this)">
+                                                        <i class="bi bi-clipboard"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="d-flex gap-1 flex-wrap">
+                                                    <span class="badge bg-light text-dark border"><?= htmlspecialchars($evidence['evidence_type']) ?></span>
+                                                    <span class="badge bg-<?= match($evidence['security_level'] ?? 'Medium') { 'High', 'Confidential' => 'danger', 'Medium' => 'warning text-dark', default => 'secondary' } ?>">
+                                                        <?= htmlspecialchars($evidence['security_level'] ?? 'Medium') ?>
                                                     </span>
+                                                </div>
+                                            </td>
+
+                                            <!-- Item Description -->
+                                            <td>
+                                                <div class="fw-bold text-dark text-truncate" style="max-width: 240px;" title="<?= htmlspecialchars($evidence['item_description']) ?>">
+                                                    <?= htmlspecialchars($evidence['item_description']) ?>
+                                                </div>
+                                                <div class="small text-muted mt-0.5">
+                                                    Condition: <span class="badge bg-light text-dark border"><?= htmlspecialchars($evidence['condition'] ?? 'Good') ?></span>
+                                                </div>
+                                            </td>
+
+                                            <!-- Source / Incident Case -->
+                                            <td>
+                                                <div class="small fw-semibold text-dark text-truncate" style="max-width: 200px;" title="<?= htmlspecialchars($evidence['source_department'] ?: 'Internal Unit') ?>">
+                                                    <i class="bi bi-building text-success me-1"></i><?= htmlspecialchars($evidence['source_department'] ?: 'Internal Unit') ?>
+                                                </div>
+                                                <?php if (!empty($evidence['case_number'])): ?>
+                                                    <div class="small text-muted font-monospace"><i class="bi bi-folder text-warning me-1"></i><?= htmlspecialchars($evidence['case_number']) ?></div>
                                                 <?php else: ?>
-                                                    <span class="text-muted small">None</span>
+                                                    <small class="text-muted fst-italic">No linked case</small>
+                                                <?php endif; ?>
+                                                <?php if (!empty($evidence['source_reference'])): ?>
+                                                    <small class="text-muted d-block text-truncate" style="max-width: 200px;">Ref: <code><?= htmlspecialchars($evidence['source_reference']) ?></code></small>
                                                 <?php endif; ?>
                                             </td>
+
+                                            <!-- Storage & Location -->
                                             <td>
-                                                <span class="badge bg-<?= match($evidence['status']) {
+                                                <div class="small text-dark text-truncate" style="max-width: 180px;" title="<?= htmlspecialchars($evidence['storage_location'] ?: 'Vault A-1') ?>">
+                                                    <i class="bi bi-box-seam text-warning me-1"></i><strong><?= htmlspecialchars($evidence['storage_location'] ?: 'Vault A-1') ?></strong>
+                                                </div>
+                                                <?php if (!empty($evidence['location_found'])): ?>
+                                                    <small class="text-muted d-block text-truncate" style="max-width: 180px;" title="<?= htmlspecialchars($evidence['location_found']) ?>">
+                                                        <i class="bi bi-geo-alt text-danger me-1"></i><?= htmlspecialchars($evidence['location_found']) ?>
+                                                    </small>
+                                                <?php endif; ?>
+                                            </td>
+
+                                            <!-- Custodian & Date -->
+                                            <td>
+                                                <div class="small fw-semibold text-dark text-truncate" style="max-width: 140px;">
+                                                    <i class="bi bi-person-badge text-primary me-1"></i><?= htmlspecialchars($evidence['collector_name'] ?: 'Duty Officer') ?>
+                                                </div>
+                                                <small class="text-muted d-block"><?= date('M d, Y', strtotime($evidence['collection_date'])) ?></small>
+                                            </td>
+
+                                            <!-- Status & Files -->
+                                            <td>
+                                                <span class="badge rounded-pill bg-<?= match($evidence['status']) {
                                                     'Collected' => 'primary',
-                                                    'In Storage' => 'info',
+                                                    'In Storage' => 'info text-dark',
                                                     'In Transit' => 'warning text-dark',
                                                     'Released' => 'success',
                                                     'Destroyed' => 'danger',
                                                     'Lost' => 'dark',
                                                     default => 'secondary'
-                                                } ?>"><?= htmlspecialchars($evidence['status']) ?></span>
+                                                } ?> px-2.5 py-1 fw-semibold status-badge-<?= $evidence['id'] ?>"><?= htmlspecialchars($evidence['status']) ?></span>
+                                                
+                                                <?php if ($evidence['attachment_count'] > 0): ?>
+                                                    <div class="small text-success fw-semibold mt-1">
+                                                        <i class="bi bi-paperclip me-1"></i><?= $evidence['attachment_count'] ?> file(s)
+                                                    </div>
+                                                <?php else: ?>
+                                                    <div class="small text-muted mt-1">0 files</div>
+                                                <?php endif; ?>
                                             </td>
-                                            <td>
-                                                <small class="fw-semibold d-block"><?= htmlspecialchars($evidence['collector_name'] ?: 'Officer') ?></small>
-                                                <small class="text-muted"><?= date('M d, Y', strtotime($evidence['collection_date'])) ?></small>
-                                            </td>
-                                            <td>
-                                                <span class="badge bg-secondary"><i class="bi bi-paperclip me-1"></i><?= $evidence['attachment_count'] ?></span>
-                                            </td>
-                                            <td>
-                                                <div class="action-btn-group d-flex gap-1 flex-wrap">
-                                                    <button class="btn btn-sm btn-outline-primary" onclick="viewEvidence(<?= $evidence['id'] ?>)" title="View Details">
-                                                        <i class="bi bi-eye"></i> View
+
+                                            <!-- Actions -->
+                                            <td style="text-align: center;">
+                                                <div class="d-inline-flex gap-1 align-items-center">
+                                                    <button type="button" class="btn btn-sm btn-outline-success fw-bold px-2 py-1 shadow-sm" onclick="viewEvidence(<?= $evidence['id'] ?>)" title="View Full Evidence Details">
+                                                        <i class="bi bi-eye me-1"></i>Details
                                                     </button>
-                                                    <button class="btn btn-sm btn-outline-secondary" onclick="viewChainOfCustody(<?= $evidence['id'] ?>)" title="Chain of Custody">
-                                                        <i class="bi bi-link-45deg"></i> Chain
+                                                    <button type="button" class="btn btn-sm btn-outline-secondary px-2 py-1 shadow-sm" onclick="viewChainOfCustody(<?= $evidence['id'] ?>)" title="View Chain of Custody Log">
+                                                        <i class="bi bi-link-45deg"></i>
                                                     </button>
                                                     <?php if ($evidence['attachment_count'] > 0): ?>
-                                                    <button class="btn btn-sm btn-outline-success" onclick="openSendToGroup7Modal(<?= $evidence['id'] ?>, '<?= htmlspecialchars(addslashes($evidence['evidence_number'])) ?>', '<?= htmlspecialchars(addslashes($evidence['case_number'] ?: 'N/A')) ?>', <?= intval($evidence['attachment_count']) ?>)" title="Send Photos & Videos to Group 7">
-                                                        <i class="bi bi-cloud-upload"></i> Group 7
+                                                    <button type="button" class="btn btn-sm btn-success px-2 py-1 shadow-sm fw-bold" style="background-color: #2e856e !important; border-color: #2e856e !important;" onclick="openSendToGroup7Modal(<?= $evidence['id'] ?>, '<?= htmlspecialchars(addslashes($evidence['evidence_number'])) ?>', '<?= htmlspecialchars(addslashes($evidence['case_number'] ?: 'N/A')) ?>', <?= intval($evidence['attachment_count']) ?>)" title="Forward Photos & Videos to Group 7">
+                                                        <i class="bi bi-cloud-upload"></i>
                                                     </button>
                                                     <?php endif; ?>
                                                 </div>
@@ -2024,6 +2103,41 @@ function changePageSize(size) {
     renderTablePagination();
 }
 
+let currentStatusFilter = 'all';
+
+function applyStatusFilter(status, btn) {
+    currentStatusFilter = (status || 'all').toLowerCase();
+    
+    // Update chip styling
+    document.querySelectorAll('.filter-chip').forEach(c => {
+        c.classList.remove('active');
+        c.classList.remove('btn-success');
+        c.classList.add('btn-outline-secondary');
+    });
+    if (btn) {
+        btn.classList.add('active');
+        btn.classList.remove('btn-outline-secondary');
+    }
+    
+    filterEvidenceRecords();
+}
+
+function copyEvidenceTag(text, el) {
+    if (!navigator.clipboard) return;
+    navigator.clipboard.writeText(text).then(() => {
+        const origTitle = el.getAttribute('title') || '';
+        el.setAttribute('title', 'Copied!');
+        const icon = el.querySelector('i');
+        if (icon) {
+            icon.className = 'bi bi-check-lg text-success';
+            setTimeout(() => {
+                icon.className = 'bi bi-clipboard text-muted';
+                el.setAttribute('title', origTitle);
+            }, 2000);
+        }
+    });
+}
+
 function filterEvidenceRecords() {
     const query = (document.getElementById('evidenceSearchInput')?.value || '').toLowerCase().trim();
     const allRows = document.querySelectorAll('#evidenceTableBody tr.evidence-row');
@@ -2031,6 +2145,7 @@ function filterEvidenceRecords() {
     
     filteredRows = [];
     allRows.forEach(row => {
+        const rowStatus = (row.getAttribute('data-status') || '').toLowerCase();
         const text = (
             (row.getAttribute('data-evidence-no') || '') + ' ' +
             (row.getAttribute('data-case') || '') + ' ' +
@@ -2038,10 +2153,13 @@ function filterEvidenceRecords() {
             (row.getAttribute('data-desc') || '') + ' ' +
             (row.getAttribute('data-source') || '') + ' ' +
             (row.getAttribute('data-witness') || '') + ' ' +
-            (row.getAttribute('data-status') || '')
+            rowStatus
         ).toLowerCase();
         
-        if (!query || text.includes(query)) {
+        const matchesStatus = (currentStatusFilter === 'all' || rowStatus === currentStatusFilter);
+        const matchesQuery = (!query || text.includes(query));
+        
+        if (matchesStatus && matchesQuery) {
             filteredRows.push(row);
         } else {
             row.style.display = 'none';
@@ -2051,7 +2169,8 @@ function filterEvidenceRecords() {
     // Filter carousel cards as well
     allCards.forEach(card => {
         const cardText = card.textContent.toLowerCase();
-        if (!query || cardText.includes(query)) {
+        const matchesQuery = (!query || cardText.includes(query));
+        if (matchesQuery) {
             card.style.display = '';
         } else {
             card.style.display = 'none';
