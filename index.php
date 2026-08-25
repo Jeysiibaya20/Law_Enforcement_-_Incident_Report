@@ -255,7 +255,6 @@ html, body {
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
-    animation: floatCard 4s ease-in-out infinite;
     width: 165px;
     height: 155px;
     justify-content: center;
@@ -284,19 +283,16 @@ html, body {
 .card-1 { 
     top: 10%; 
     left: 8%; 
-    animation-delay: 0s;
 }
 
 .card-2 { 
     top: 35%; 
     right: 8%; 
-    animation-delay: 1.3s;
 }
 
 .card-3 { 
     bottom: 10%; 
     left: 22%; 
-    animation-delay: 2.6s;
 }
 
 .overview-section, .modules-section, .features-section { 
@@ -798,13 +794,6 @@ html, body {
         min-height: auto !important;
         padding: 1rem 0;
     }
-}
-
-@keyframes floatCard {
-    0%, 100% { transform: translateY(0) rotate(0); }
-    25% { transform: translateY(-10px) rotate(1deg); }
-    50% { transform: translateY(-5px) rotate(-1deg); }
-    75% { transform: translateY(-15px) rotate(.5deg); }
 }
 
 html {

@@ -309,7 +309,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     margin: 0 auto 1.5rem;
     font-size: 2.5rem;
     color: var(--text-white);
-    animation: float;
     box-shadow: var(--shadow-lg);
     overflow: hidden;
 }
@@ -468,15 +467,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     to {
         transform: translateY(0);
         opacity: 1;
-    }
-}
-
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-10px);
     }
 }
 

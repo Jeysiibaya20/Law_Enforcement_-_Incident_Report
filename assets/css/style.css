@@ -580,7 +580,6 @@ p {
 .sidebar-logo:hover {
     transform: scale(1.05);
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
-    animation: float 6s ease-in-out infinite;
 }
 
 .sidebar-logo-image {
@@ -1155,15 +1154,6 @@ p {
 @keyframes shimmer {
     0% { transform: translateX(-100%); }
     100% { transform: translateX(100%); }
-}
-
-@keyframes float {
-    0%, 100% { 
-        transform: translateY(0px); 
-    }
-    50% { 
-        transform: translateY(-5px); 
-    }
 }
 
 @keyframes rotate {
@@ -2244,7 +2234,6 @@ p {
     background-position: center;
     background-color: rgb(236, 230, 230);
     opacity: 0.8;
-    animation: float 8s ease-in-out infinite;
     z-index: 1;
     border-radius: 20px;
 }
@@ -2343,7 +2332,6 @@ p {
     align-items: center;
     text-align: center;
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
-    animation: float 9s ease-in-out infinite;
     will-change: transform;
 }
 
@@ -2592,7 +2580,7 @@ p {
 }
 
 .float {
-    animation: float 8s ease-in-out infinite;
+    transition: transform 0.3s ease;
 }
 
 /* Enhanced Animation Keyframes */

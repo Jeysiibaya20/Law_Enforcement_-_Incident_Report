@@ -223,7 +223,6 @@ body { font-family: 'Quicksand', 'Segoe UI', sans-serif; background: var(--prima
     margin: 0 auto 1.5rem;
     font-size: 2.5rem;
     color: var(--text-white);
-    animation: float 6s ease-in-out infinite;
     box-shadow: var(--shadow-lg);
     overflow: hidden;
 }
@@ -361,11 +360,6 @@ body { font-family: 'Quicksand', 'Segoe UI', sans-serif; background: var(--prima
 @keyframes fadeInDown {
     from { transform: translateY(-10px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
-}
-
-@keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
 }
 
 @media (max-width: 768px) {
