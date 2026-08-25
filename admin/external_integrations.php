@@ -1260,7 +1260,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                         </td>
                                         <td class="text-muted"><small><i class="far fa-clock me-1 text-muted"></i><?= date('M d, Y · g:i a', strtotime($l['created_at'])) ?></small></td>
                                         <td class="pe-4 text-end">
-                                            <button type="button" class="btn btn-outline-primary btn-sm rounded-pill px-3 fw-semibold shadow-sm" onclick="showLogDetails(<?= htmlspecialchars(json_encode($l), ENT_QUOTES, 'UTF-8') ?>)">
+                                            <button type="button" class="btn btn-outline-success btn-sm rounded-pill px-3 fw-semibold shadow-sm" onclick="showLogDetails(<?= htmlspecialchars(json_encode($l), ENT_QUOTES, 'UTF-8') ?>)">
                                                 <i class="fas fa-code me-1"></i>Payload & Logs
                                             </button>
                                         </td>
