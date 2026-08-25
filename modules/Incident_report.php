@@ -478,12 +478,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_user_incident'
             throw new Exception('Failed to update incident report');
         }
         
-        header("Location: incident_report.php");
+        header("Location: Incident_report.php");
         exit;
         
     } catch (Exception $e) {
         $_SESSION['message'] = ['type' => 'danger', 'text' => '❌ Error updating incident: ' . $e->getMessage()];
-        header("Location: incident_report.php");
+        header("Location: Incident_report.php");
         exit;
     }
 }
@@ -493,12 +493,13 @@ $incidents = [];
 $filter_status = $_GET['status'] ?? '';
 $filter_urgency = $_GET['urgency'] ?? '';
 $user_role = $_SESSION['role'] ?? 'User';
-$user_id = $_SESSION['user_id'] ?? null;
+$isAdminUser = in_array(strtolower($_SESSION['role'] ?? ''), ['admin', 'officer']) || !empty($_SESSION['admin_user_id']);
+$user_id = $_SESSION['user_id'] ?? ($_SESSION['admin_user_id'] ?? null);
 
 try {
     $sql = "SELECT i.*, 
-                   CONCAT(u.username, ' (', u.fullname, ')') as created_by_name,
-                   CONCAT(u2.username, ' (', u2.fullname, ')') as assigned_to_name,
+                   CONCAT(COALESCE(u.username, ''), ' (', COALESCE(u.fullname, ''), ')') as created_by_name,
+                   CONCAT(COALESCE(u2.username, ''), ' (', COALESCE(u2.fullname, ''), ')') as assigned_to_name,
                    i.nlp_sentiment,
                    i.nlp_threat_level,
                    i.nlp_severity_score,
@@ -511,36 +512,25 @@ try {
             LEFT JOIN notifications n ON i.id = n.incident_id
             WHERE 1=1";
 
+    $params = [];
     // Role-based filtering
-    if ($user_role === 'User') {
+    if (!$isAdminUser && $user_id) {
         $sql .= " AND (i.created_by = ? OR i.status IN ('Verified', 'Resolved'))";
+        $params[] = $user_id;
     }
 
     if (!empty($filter_status)) {
         $sql .= " AND i.status = ?";
+        $params[] = $filter_status;
     }
     if (!empty($filter_urgency)) {
         $sql .= " AND i.urgency_level = ?";
+        $params[] = $filter_urgency;
     }
 
     $sql .= " GROUP BY i.id ORDER BY i.created_at DESC";
 
     $stmt = $pdo->prepare($sql);
-    $params = [];
-    $param_idx = 0;
-
-    if ($user_role === 'User') {
-        $params[] = $user_id;
-        $param_idx++;
-    }
-
-    if (!empty($filter_status)) {
-        $params[] = $filter_status;
-    }
-    if (!empty($filter_urgency)) {
-        $params[] = $filter_urgency;
-    }
-
     $stmt->execute($params);
     $incidents = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
@@ -740,22 +730,22 @@ require_once '../includes/navbar.php'; ?>
                             <?php else: ?>
                                 <?php foreach ($incidents as $incident): ?>
                                     <tr>
-                                        <td><strong><?php echo htmlspecialchars($incident['case_no']); ?></strong></td>
+                                        <td><strong><?php echo htmlspecialchars($incident['case_no'] ?? ''); ?></strong></td>
                                         <td>
-                                            <?php echo htmlspecialchars($incident['reporter_name']); ?>
-                                            <br><small class="text-muted"><?php echo ucfirst($incident['reporter_type']); ?></small>
+                                            <?php echo htmlspecialchars($incident['reporter_name'] ?? ''); ?>
+                                            <br><small class="text-muted"><?php echo ucfirst($incident['reporter_type'] ?? ''); ?></small>
                                         </td>
                                         <td>
-                                            <?php echo render_incident_type_badge($incident['auto_classification']); ?>
-                                            <?php if ($incident['manual_classification']): ?>
+                                            <?php echo render_incident_type_badge($incident['auto_classification'] ?? ''); ?>
+                                            <?php if (!empty($incident['manual_classification'])): ?>
                                                 <br><small class="text-muted">Corrected: <?php echo htmlspecialchars($incident['manual_classification']); ?></small>
                                             <?php endif; ?>
                                         </td>
                                         <td>
-                                            <small><?php echo date('M d, Y', strtotime($incident['incident_date'])); ?></small>
+                                            <small><?php echo !empty($incident['incident_date']) ? date('M d, Y', strtotime($incident['incident_date'])) : 'N/A'; ?></small>
                                             <br><small><?php echo $incident['incident_time'] ?? 'N/A'; ?></small>
                                         </td>
-                                        <td><small><?php echo htmlspecialchars(substr($incident['location'], 0, 30)); ?></small></td>
+                                        <td><small><?php echo htmlspecialchars(substr($incident['location'] ?? '', 0, 30)); ?></small></td>
                                         <td>
                                             <div style="font-size: 0.85em;">
                                                 <span class="badge bg-info-subtle text-info"><?php echo htmlspecialchars($incident['nlp_threat_level'] ?? 'N/A'); ?></span>
@@ -763,25 +753,25 @@ require_once '../includes/navbar.php'; ?>
                                                 <br><small class="text-muted">Conf: <?php echo number_format($incident['nlp_confidence_score'] ?? 0, 1); ?>%</small>
                                             </div>
                                         </td>
-                                        <td><?php echo render_urgency_badge($incident['urgency_level'], $incident['is_high_risk']); ?></td>
-                                        <td><?php echo render_status_badge($incident['status']); ?></td>
+                                        <td><?php echo render_urgency_badge($incident['urgency_level'] ?? 'Medium', $incident['is_high_risk'] ?? 0); ?></td>
+                                        <td><?php echo render_status_badge($incident['status'] ?? 'Submitted'); ?></td>
                                         <td>
                                             <button class="btn btn-sm btn-outline-primary" title="View Details" data-bs-toggle="modal" data-bs-target="#viewIncidentModal" onclick="loadIncidentDetails(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
                                                 <i class="bi bi-eye"></i>
                                             </button>
                                             <?php 
-                                            $canEdit = ($user_role === 'Admin') || (isset($_SESSION['user_id']) && $incident['created_by'] == $_SESSION['user_id']);
+                                             $canEdit = $isAdminUser || (isset($_SESSION['user_id']) && ($incident['created_by'] ?? null) == $_SESSION['user_id']);
                                             if ($canEdit): 
                                             ?>
-                                                <button class="btn btn-sm btn-outline-warning" title="Edit Report" data-bs-toggle="modal" data-bs-target="#<?php echo ($user_role === 'Admin') ? 'editIncidentModal' : 'userEditIncidentModal'; ?>" onclick="<?php echo ($user_role === 'Admin') ? 'loadIncidentForEdit' : 'loadIncidentForUserEdit'; ?>(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
+                                                <button class="btn btn-sm btn-outline-warning" title="Edit Report" data-bs-toggle="modal" data-bs-target="#<?php echo $isAdminUser ? 'editIncidentModal' : 'userEditIncidentModal'; ?>" onclick="<?php echo $isAdminUser ? 'loadIncidentForEdit' : 'loadIncidentForUserEdit'; ?>(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
                                                     <i class="bi bi-pencil"></i>
                                                 </button>
                                             <?php endif; ?>
-                                            <?php if ($user_role === 'Admin'): ?>
+                                            <?php if ($isAdminUser): ?>
                                                 <button class="btn btn-sm btn-outline-info" title="Forward Incident" data-bs-toggle="modal" data-bs-target="#forwardIncidentModal" onclick="loadIncidentForForwarding(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
                                                     <i class="bi bi-send"></i>
                                                 </button>
-                                                <button class="btn btn-sm btn-outline-danger" title="Delete Case" onclick="deleteIncident(<?php echo $incident['id']; ?>, '<?php echo htmlspecialchars($incident['case_no']); ?>')">
+                                                <button class="btn btn-sm btn-outline-danger" title="Delete Case" onclick="deleteIncident(<?php echo $incident['id']; ?>, '<?php echo htmlspecialchars($incident['case_no'] ?? ''); ?>')">
                                                     <i class="bi bi-trash"></i>
                                                 </button>
                                             <?php endif; ?>
