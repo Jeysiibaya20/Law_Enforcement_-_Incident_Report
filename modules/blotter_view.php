@@ -6,6 +6,11 @@ require '../includes/attachment_manager.php';
 
 $base_url = '../';
 $page_title = 'View Blotter';
+
+// Determine if citizen/resident or admin/officer is viewing
+$isResident = !empty($_SESSION['resident_user_id']) || (!empty($_SESSION['user_id']) && empty($_SESSION['admin_user_id']) && (strpos(strtolower($_SESSION['role'] ?? ''), 'admin') === false && strpos(strtolower($_SESSION['role'] ?? ''), 'officer') === false));
+$backUrl = $isResident ? 'my_reports.php' : 'Blotter.php';
+
 require '../includes/header.php';
 require '../includes/navbar.php';
 
@@ -99,14 +104,14 @@ $isPrintMode = isset($_GET['print']) && $_GET['print'] == 1;
 <div class="main-content">
 <div class="content-container">
 
-<div class="d-flex justify-content-between align-items-center mb-4">
-    <h1 class="h2">Blotter Details</h1>
-    <div class="action-buttons">
-        <button class="btn btn-primary" onclick="window.print()">
-            <i class="bi bi-printer"></i> Print
+<div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+    <h1 class="h2 mb-0">Blotter Details</h1>
+    <div class="action-buttons d-flex gap-2">
+        <button class="btn btn-outline-success fw-bold" onclick="window.print()">
+            <i class="bi bi-printer me-1"></i> Print Record
         </button>
-        <a href="Blotter.php" class="btn btn-secondary">
-            <i class="bi bi-arrow-left"></i> Back
+        <a href="<?= $backUrl ?>" class="btn btn-success fw-bold shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">
+            <i class="bi bi-arrow-left me-1"></i> <?= $isResident ? 'Back to Dashboard' : 'Back to Blotter List' ?>
         </a>
     </div>
 </div>
@@ -371,8 +376,8 @@ $isPrintMode = isset($_GET['print']) && $_GET['print'] == 1;
 
 <!-- Action Buttons -->
 <div class="d-flex gap-2 justify-content-center mb-4">
-    <a href="Blotter.php" class="btn btn-secondary">
-        <i class="bi bi-list"></i> Back to List
+    <a href="<?= $backUrl ?>" class="btn btn-success px-4 py-2 fw-bold shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">
+        <i class="bi bi-arrow-left me-1"></i> <?= $isResident ? 'Back to My Reports' : 'Back to Blotter List' ?>
     </a>
 </div>
 

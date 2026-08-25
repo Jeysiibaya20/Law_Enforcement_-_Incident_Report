@@ -18,10 +18,28 @@ $in_subfolder = (strpos($script_dir, '/modules') !== false) || (strpos($script_d
 $base_url = isset($base_url) ? $base_url : ($in_subfolder ? '../' : '');
 
 $current_page = strtolower(basename($_SERVER['PHP_SELF']));
-$is_user_page = (in_array($current_page, ['landing.php', 'index.php', 'my_reports.php', 'blotter_create.php', 'user_profile.php', 'learning.php']) || !empty($force_public_sidebar)) && strpos($_SERVER['PHP_SELF'] ?? '', '/admin/') === false && !in_array($current_page, ['request_form.php', 'incident_report.php']);
+$script_path = str_replace('\\', '/', $_SERVER['PHP_SELF'] ?? '');
+$is_admin_dir = (strpos($script_path, '/admin/') !== false);
+
+$has_admin_session = !empty($_SESSION['admin_user_id']);
+$has_resident_session = !empty($_SESSION['resident_user_id']);
+$session_role = strtolower(trim($_SESSION['admin_role'] ?? $_SESSION['role'] ?? ''));
+$is_admin_or_officer = (strpos($session_role, 'admin') !== false || strpos($session_role, 'officer') !== false || strpos($session_role, 'official') !== false);
+
+if ($is_admin_dir) {
+    $is_user_page = false;
+} elseif ($has_resident_session && !$has_admin_session && !$is_admin_or_officer) {
+    $is_user_page = true;
+} elseif (!empty($force_public_sidebar)) {
+    $is_user_page = true;
+} elseif (in_array($current_page, ['landing.php', 'index.php', 'my_reports.php', 'blotter_create.php', 'blotter_view.php', 'user_profile.php', 'learning.php'])) {
+    $is_user_page = !$has_admin_session || !$is_admin_or_officer;
+} else {
+    $is_user_page = false;
+}
 
 if ($is_user_page) {
-    $is_logged_in = !empty($_SESSION['resident_user_id']);
+    $is_logged_in = !empty($_SESSION['resident_user_id']) || (!empty($_SESSION['user_id']) && !$has_admin_session);
     $full_name = $_SESSION['fullname'] ?? $_SESSION['first_name'] ?? 'Resident';
     $role = 'user';
     $display_role = 'Resident';
