@@ -18,7 +18,7 @@ class ReviewRequestSystem {
     
     public function __construct($pdo) {
         $this->pdo = $pdo;
-        require_once 'NotificationSystem.php';
+        require_once __DIR__ . '/NotificationSystem.php';
         $this->notification_system = new NotificationSystem($pdo);
     }
     

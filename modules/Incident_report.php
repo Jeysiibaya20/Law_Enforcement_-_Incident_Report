@@ -27,16 +27,16 @@ if ($userId) {
 }
 
 if ($userId && strtolower($_SESSION['role'] ?? '') !== 'admin' && !$userApproved) {
-    require_once '../includes/header.php';
+    require_once __DIR__ . '/../includes/header.php';
     echo '<div class="main-content"><div class="content-container">';
     echo '<div class="alert alert-warning"><h4>Access Locked</h4><p>Your account is pending administrator approval. The incident reporting module is locked until an administrator approves your account.</p></div>';
     echo '</div></div>';
-    require_once '../includes/footer.php';
+    require_once __DIR__ . '/../includes/footer.php';
     exit;
 }
 
 // Load NLP and Workflow systems (needed before processing POST requests)
-require_once 'NaturalLanguageProcessor.php';
+require_once __DIR__ . '/NaturalLanguageProcessor.php';
 require_once __DIR__ . '/IncidentWorkflowManager.php';
 require_once __DIR__ . '/IncidentRoutingManager.php';
 require_once __DIR__ . '/NotificationSystem.php';
@@ -586,8 +586,8 @@ function render_incident_type_badge($type) {
 
 ?>
 
-<?php require_once '../includes/header.php';
-require_once '../includes/navbar.php'; ?>
+<?php require_once __DIR__ . '/../includes/header.php';
+require_once __DIR__ . '/../includes/navbar.php'; ?>
 
 <div class="main-content">
     <div class="content-container">
@@ -1643,5 +1643,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<?php require_once '../includes/footer.php'; ?>
+<?php require_once __DIR__ . '/../includes/footer.php'; ?>
 
