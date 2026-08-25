@@ -18,13 +18,13 @@ class IncidentWorkflowManager {
     private $nlp;
 
     private function getRoutingManager() {
-        require_once 'IncidentRoutingManager.php';
+        require_once __DIR__ . '/IncidentRoutingManager.php';
         return new IncidentRoutingManager($this->pdo);
     }
     
     public function __construct($pdo) {
         $this->pdo = $pdo;
-        require_once 'NaturalLanguageProcessor.php';
+        require_once __DIR__ . '/NaturalLanguageProcessor.php';
     }
     
     /**

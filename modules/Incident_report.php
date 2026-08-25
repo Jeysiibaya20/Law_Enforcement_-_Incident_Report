@@ -42,109 +42,117 @@ require_once __DIR__ . '/IncidentRoutingManager.php';
 require_once __DIR__ . '/NotificationSystem.php';
 require_once __DIR__ . '/ReviewRequestSystem.php';
 require_once __DIR__ . '/../includes/attachment_manager.php';
+require_once __DIR__ . '/../config/integration_config.php';
+require_once __DIR__ . '/OperationalModuleIntegrator.php';
 
 $routing_manager = new IncidentRoutingManager($pdo);
 $routing_manager->ensureSchema();
 
-// Utility function: Capitalize first letter
-function capitalize_first($text) {
-    return ucfirst(strtolower($text));
+if (!function_exists('capitalize_first')) {
+    function capitalize_first($text) {
+        return ucfirst(strtolower($text));
+    }
 }
 
 // --- INCIDENT CLASSIFICATION ENGINE ---
-class IncidentClassifier {
-    private static $abuse_keywords = ['abuse', 'hit', 'punch', 'slap', 'hurt', 'mistreat', 'cruelty', 'beating', 'severe'];
-    private static $neglect_keywords = ['neglect', 'abandon', 'unsupervised', 'malnourish', 'unhygenic', 'no care', 'abandoned'];
-    private static $violence_keywords = ['violence', 'fight', 'attack', 'stab', 'shoot', 'kill', 'murder', 'assault', 'violent', 'rape', 'sexual'];
-    private static $theft_keywords = ['theft', 'steal', 'robbery', 'burglary', 'shoplifting', 'stolen', 'missing items'];
-    private static $emergency_keywords = ['emergency', 'urgent', 'critical', 'life-threatening', 'severe', 'immediate', 'danger', 'dangerous'];
+if (!class_exists('IncidentClassifier')) {
+    class IncidentClassifier {
+        private static $abuse_keywords = ['abuse', 'hit', 'punch', 'slap', 'hurt', 'mistreat', 'cruelty', 'beating', 'severe'];
+        private static $neglect_keywords = ['neglect', 'abandon', 'unsupervised', 'malnourish', 'unhygenic', 'no care', 'abandoned'];
+        private static $violence_keywords = ['violence', 'fight', 'attack', 'stab', 'shoot', 'kill', 'murder', 'assault', 'violent', 'rape', 'sexual'];
+        private static $theft_keywords = ['theft', 'steal', 'robbery', 'burglary', 'shoplifting', 'stolen', 'missing items'];
+        private static $emergency_keywords = ['emergency', 'urgent', 'critical', 'life-threatening', 'severe', 'immediate', 'danger', 'dangerous'];
 
-    public static function classifyIncident($narrative, $selected_type) {
-        $narrative_lower = strtolower($narrative);
-        $scores = [];
+        public static function classifyIncident($narrative, $selected_type) {
+            $narrative_lower = strtolower($narrative);
+            $scores = [];
 
-        // Score each category based on keyword matches
-        $scores['Abuse'] = self::matchKeywords($narrative_lower, self::$abuse_keywords);
-        $scores['Neglect'] = self::matchKeywords($narrative_lower, self::$neglect_keywords);
-        $scores['Violence'] = self::matchKeywords($narrative_lower, self::$violence_keywords);
-        $scores['Theft'] = self::matchKeywords($narrative_lower, self::$theft_keywords);
+            // Score each category based on keyword matches
+            $scores['Abuse'] = self::matchKeywords($narrative_lower, self::$abuse_keywords);
+            $scores['Neglect'] = self::matchKeywords($narrative_lower, self::$neglect_keywords);
+            $scores['Violence'] = self::matchKeywords($narrative_lower, self::$violence_keywords);
+            $scores['Theft'] = self::matchKeywords($narrative_lower, self::$theft_keywords);
 
-        // Add weight to selected type
-        if (!empty($selected_type) && isset($scores[$selected_type])) {
-            $scores[$selected_type] += 2;
+            // Add weight to selected type
+            if (!empty($selected_type) && isset($scores[$selected_type])) {
+                $scores[$selected_type] += 2;
+            }
+
+            // Find highest scoring classification
+            arsort($scores);
+            $top_classification = key($scores);
+
+            return !empty($top_classification) ? $top_classification : ($selected_type ?: 'Other');
         }
 
-        // Find highest scoring classification
-        arsort($scores);
-        $top_classification = key($scores);
+        public static function detectHighRisk($narrative, $incident_type) {
+            $narrative_lower = strtolower($narrative);
+            
+            // Check for emergency keywords or violence/abuse in narrative
+            $has_emergency = count(array_filter(self::$emergency_keywords, function($keyword) use ($narrative_lower) {
+                return strpos($narrative_lower, $keyword) !== false;
+            })) > 0;
 
-        return !empty($top_classification) ? $top_classification : ($selected_type ?: 'Other');
-    }
+            $has_violence = count(array_filter(array_merge(self::$violence_keywords, self::$abuse_keywords), function($keyword) use ($narrative_lower) {
+                return strpos($narrative_lower, $keyword) !== false;
+            })) > 0;
 
-    public static function detectHighRisk($narrative, $incident_type) {
-        $narrative_lower = strtolower($narrative);
-        
-        // Check for emergency keywords or violence/abuse in narrative
-        $has_emergency = count(array_filter(self::$emergency_keywords, function($keyword) use ($narrative_lower) {
-            return strpos($narrative_lower, $keyword) !== false;
-        })) > 0;
+            $is_violence_type = in_array($incident_type, ['Violence', 'Assault']);
 
-        $has_violence = count(array_filter(array_merge(self::$violence_keywords, self::$abuse_keywords), function($keyword) use ($narrative_lower) {
-            return strpos($narrative_lower, $keyword) !== false;
-        })) > 0;
-
-        $is_violence_type = in_array($incident_type, ['Violence', 'Assault']);
-
-        return ($has_emergency || $has_violence || $is_violence_type) ? 1 : 0;
-    }
-
-    public static function calculateUrgency($is_high_risk, $incident_type) {
-        if ($is_high_risk) {
-            return 'Critical';
+            return ($has_emergency || $has_violence || $is_violence_type) ? 1 : 0;
         }
-        
-        switch ($incident_type) {
-            case 'Violence':
-            case 'Assault':
-                return 'High';
-            case 'Abuse':
-            case 'Neglect':
-                return 'High';
-            case 'Theft':
-                return 'Medium';
-            default:
-                return 'Medium';
-        }
-    }
 
-    private static function matchKeywords($text, $keywords) {
-        $count = 0;
-        foreach ($keywords as $keyword) {
-            if (strpos($text, $keyword) !== false) {
-                $count++;
+        public static function calculateUrgency($is_high_risk, $incident_type) {
+            if ($is_high_risk) {
+                return 'Critical';
+            }
+            
+            switch ($incident_type) {
+                case 'Violence':
+                case 'Assault':
+                    return 'High';
+                case 'Abuse':
+                case 'Neglect':
+                    return 'High';
+                case 'Theft':
+                    return 'Medium';
+                default:
+                    return 'Medium';
             }
         }
-        return $count;
+
+        private static function matchKeywords($text, $keywords) {
+            $count = 0;
+            foreach ($keywords as $keyword) {
+                if (strpos($text, $keyword) !== false) {
+                    $count++;
+                }
+            }
+            return $count;
+        }
     }
 }
 
 // --- MESSAGE DISPLAY FUNCTION ---
-function display_message() {
-    if (isset($_SESSION['message'])) {
-        $type = $_SESSION['message']['type'];
-        $text = $_SESSION['message']['text'];
-        echo "<div class='alert alert-{$type} alert-dismissible fade show' role='alert'>
-                <i class='bi bi-" . ($type === 'success' ? 'check-circle' : 'exclamation-circle') . "-fill me-2'></i>
-                {$text}
-                <button type='button' class='btn-close' data-bs-dismiss='alert'></button>
-              </div>";
-        unset($_SESSION['message']);
+if (!function_exists('display_message')) {
+    function display_message() {
+        if (isset($_SESSION['message'])) {
+            $type = $_SESSION['message']['type'];
+            $text = $_SESSION['message']['text'];
+            echo "<div class='alert alert-{$type} alert-dismissible fade show' role='alert'>
+                    <i class='bi bi-" . ($type === 'success' ? 'check-circle' : 'exclamation-circle') . "-fill me-2'></i>
+                    {$text}
+                    <button type='button' class='btn-close' data-bs-dismiss='alert'></button>
+                  </div>";
+            unset($_SESSION['message']);
+        }
     }
 }
 
-// --- GENERATE CASE NUMBER ---
-function generate_case_number() {
-    return 'INC-' . date('Ymd') . '-' . strtoupper(substr(md5(time() . rand()), 0, 5));
+if (!function_exists('generate_case_number')) {
+    function generate_case_number() {
+        return 'INC-' . date('Ymd') . '-' . strtoupper(substr(md5(time() . rand()), 0, 5));
+    }
 }
 
 // --- FORM SUBMISSION HANDLER ---
@@ -539,49 +547,55 @@ try {
 }
 
 // --- STATUS AND URGENCY BADGE RENDERING ---
-function render_status_badge($status) {
-    $classes = [
-        'Draft' => 'bg-secondary-subtle text-secondary',
-        'Pending' => 'bg-primary-subtle text-primary',
-        'Submitted' => 'bg-primary-subtle text-primary',
-        'Under Review' => 'bg-warning-subtle text-warning',
-        'Verified' => 'bg-info-subtle text-info',
-        'Forwarded' => 'bg-info-subtle text-info',
-        'Resolved' => 'bg-success-subtle text-success',
-        'Closed' => 'bg-dark-subtle text-dark',
-        'Archived' => 'bg-secondary-subtle text-secondary'
-    ];
-    $class = $classes[$status] ?? 'bg-secondary-subtle text-secondary';
-    return "<span class='badge {$class}'>{$status}</span>";
-}
-
-function render_urgency_badge($urgency, $is_high_risk = false) {
-    if ($is_high_risk) {
-        return "<span class='badge bg-danger-subtle text-danger'><i class='bi bi-exclamation-triangle-fill me-1'></i>{$urgency}</span>";
+if (!function_exists('render_status_badge')) {
+    function render_status_badge($status) {
+        $classes = [
+            'Draft' => 'bg-secondary-subtle text-secondary',
+            'Pending' => 'bg-primary-subtle text-primary',
+            'Submitted' => 'bg-primary-subtle text-primary',
+            'Under Review' => 'bg-warning-subtle text-warning',
+            'Verified' => 'bg-info-subtle text-info',
+            'Forwarded' => 'bg-info-subtle text-info',
+            'Resolved' => 'bg-success-subtle text-success',
+            'Closed' => 'bg-dark-subtle text-dark',
+            'Archived' => 'bg-secondary-subtle text-secondary'
+        ];
+        $class = $classes[$status] ?? 'bg-secondary-subtle text-secondary';
+        return "<span class='badge {$class}'>{$status}</span>";
     }
-    
-    $classes = [
-        'Critical' => 'bg-danger-subtle text-danger',
-        'High' => 'bg-warning-subtle text-warning',
-        'Medium' => 'bg-primary-subtle text-primary',
-        'Low' => 'bg-success-subtle text-success'
-    ];
-    $class = $classes[$urgency] ?? 'bg-secondary-subtle text-secondary';
-    return "<span class='badge {$class}'>{$urgency}</span>";
 }
 
-function render_incident_type_badge($type) {
-    $colors = [
-        'Abuse' => 'danger',
-        'Neglect' => 'warning',
-        'Violence' => 'dark',
-        'Theft' => 'info',
-        'Assault' => 'danger',
-        'Domestic' => 'warning',
-        'Other' => 'secondary'
-    ];
-    $color = $colors[$type] ?? 'secondary';
-    return "<span class='badge bg-{$color}-subtle text-{$color}'>{$type}</span>";
+if (!function_exists('render_urgency_badge')) {
+    function render_urgency_badge($urgency, $is_high_risk = false) {
+        if ($is_high_risk) {
+            return "<span class='badge bg-danger-subtle text-danger'><i class='bi bi-exclamation-triangle-fill me-1'></i>{$urgency}</span>";
+        }
+        
+        $classes = [
+            'Critical' => 'bg-danger-subtle text-danger',
+            'High' => 'bg-warning-subtle text-warning',
+            'Medium' => 'bg-primary-subtle text-primary',
+            'Low' => 'bg-success-subtle text-success'
+        ];
+        $class = $classes[$urgency] ?? 'bg-secondary-subtle text-secondary';
+        return "<span class='badge {$class}'>{$urgency}</span>";
+    }
+}
+
+if (!function_exists('render_incident_type_badge')) {
+    function render_incident_type_badge($type) {
+        $colors = [
+            'Abuse' => 'danger',
+            'Neglect' => 'warning',
+            'Violence' => 'dark',
+            'Theft' => 'info',
+            'Assault' => 'danger',
+            'Domestic' => 'warning',
+            'Other' => 'secondary'
+        ];
+        $color = $colors[$type] ?? 'secondary';
+        return "<span class='badge bg-{$color}-subtle text-{$color}'>{$type}</span>";
+    }
 }
 
 ?>
