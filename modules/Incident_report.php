@@ -843,9 +843,36 @@ require_once '../includes/navbar.php'; ?>
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Location *</label>
-                        <input type="text" name="location" class="form-control" required placeholder="Street address, landmark, or area">
-                    </div>
+                        <label class="form-label fw-bold text-dark"><i class="fas fa-map-marked-alt text-danger me-1"></i>Incident Location (Quezon City) *</label>
+                        <div class="row g-2 p-3 bg-light rounded-3 border">
+                            <div class="col-md-3">
+                                <label class="form-label small fw-semibold text-dark">District (QC) *</label>
+                                <select id="inc_rep_district" class="form-select form-select-sm" required>
+                                    <option value="">Select District</option>
+                                    <option value="1">District 1</option>
+                                    <option value="2">District 2</option>
+                                    <option value="3">District 3</option>
+                                    <option value="4">District 4</option>
+                                    <option value="5">District 5</option>
+                                    <option value="6">District 6</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label small fw-semibold text-dark">Barangay (QC) *</label>
+                                <select id="inc_rep_barangay" class="form-select form-select-sm" required disabled>
+                                    <option value="">Select District first</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <label class="form-label small fw-semibold text-dark">Bldg / Unit #</label>
+                                <input type="text" id="inc_rep_house" class="form-control form-control-sm" placeholder="e.g. #12">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label small fw-semibold text-dark">Street / Landmark *</label>
+                                <input type="text" id="inc_rep_street" class="form-control form-control-sm" placeholder="e.g. Commonwealth Ave" required>
+                            </div>
+                            <input type="hidden" id="inc_rep_location" name="location" required>
+                        </div>
                     </div>
 
                     <!-- Incident Narrative -->
@@ -1562,6 +1589,19 @@ function removeUserEditAttachment(button) {
         });
     }
 }
+</script>
+
+<script src="../assets/js/address-selector.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    initQCAddressSelector({
+        districtSelectId: 'inc_rep_district',
+        barangaySelectId: 'inc_rep_barangay',
+        streetInputId: 'inc_rep_street',
+        houseNumberInputId: 'inc_rep_house',
+        targetCombinedInputId: 'inc_rep_location'
+    });
+});
 </script>
 
 <?php require_once '../includes/footer.php'; ?>

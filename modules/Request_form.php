@@ -351,10 +351,37 @@ try {
                             <!-- SECTION 3: FOOTAGE REQUESTED -->
                             <div class="mb-4">
                                 <h5 class="fw-bold text-dark border-bottom pb-2 mb-3">3. Footage Requested</h5>
-                                <div class="row g-3">
                                     <div class="col-12">
-                                        <label for="incident_location" class="form-label fw-semibold">Incident Location <span class="text-danger">*</span></label>
-                                        <input type="text" id="incident_location" name="incident_location" class="form-control" placeholder="Street, landmark, or barangay area" value="<?php echo htmlspecialchars($_POST['incident_location'] ?? ''); ?>" required>
+                                        <label class="form-label fw-semibold"><i class="fas fa-map-marked-alt text-success me-1"></i>Incident Location (Quezon City) <span class="text-danger">*</span></label>
+                                        <div class="row g-2 p-3 bg-light rounded-3 border">
+                                            <div class="col-md-3">
+                                                <label class="form-label small fw-semibold text-dark">District (QC) *</label>
+                                                <select id="req_district" class="form-select form-select-sm" required>
+                                                    <option value="">Select District</option>
+                                                    <option value="1">District 1</option>
+                                                    <option value="2">District 2</option>
+                                                    <option value="3">District 3</option>
+                                                    <option value="4">District 4</option>
+                                                    <option value="5">District 5</option>
+                                                    <option value="6">District 6</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label class="form-label small fw-semibold text-dark">Barangay (QC) *</label>
+                                                <select id="req_barangay" class="form-select form-select-sm" required disabled>
+                                                    <option value="">Select District first</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <label class="form-label small fw-semibold text-dark">Bldg / Unit #</label>
+                                                <input type="text" id="req_house" class="form-control form-control-sm" placeholder="e.g. #12">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label class="form-label small fw-semibold text-dark">Street / Specific Landmark *</label>
+                                                <input type="text" id="req_street" class="form-control form-control-sm" placeholder="e.g. Susano Road" required>
+                                            </div>
+                                            <input type="hidden" id="incident_location" name="incident_location" value="<?php echo htmlspecialchars($_POST['incident_location'] ?? ''); ?>" required>
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="camera_id" class="form-label fw-semibold">Camera</label>
@@ -1073,6 +1100,19 @@ document.addEventListener('DOMContentLoaded', function(){
             var manageModal = bootstrap.Modal.getOrCreateInstance(modalEl);
             manageModal.show();
         });
+    });
+});
+</script>
+
+<script src="../assets/js/address-selector.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    initQCAddressSelector({
+        districtSelectId: 'req_district',
+        barangaySelectId: 'req_barangay',
+        streetInputId: 'req_street',
+        houseNumberInputId: 'req_house',
+        targetCombinedInputId: 'incident_location'
     });
 });
 </script>

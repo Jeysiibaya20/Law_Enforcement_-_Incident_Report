@@ -337,9 +337,37 @@ require '../includes/header.php';
                     <small class="text-muted">Optional email address</small>
                 </div>
                 <div class="col-12">
-                    <label class="form-label fw-bold">Complainant Home Address</label>
-                    <input type="text" name="complainant_address" autocomplete="off" class="form-control" placeholder="Complainant's home address" value="<?= htmlspecialchars($_POST['complainant_address'] ?? ($userRole !== 'admin' ? $defaultComplainantAddress : '')) ?>">
-                    <small class="text-muted">Optional full address</small>
+                    <label class="form-label fw-bold"><i class="fas fa-map-marker-alt text-success me-1"></i>Complainant Home Address</label>
+                    <div class="row g-2 p-3 bg-light rounded-3 border">
+                        <div class="col-md-3">
+                            <label class="form-label small fw-semibold text-dark">District (Quezon City)</label>
+                            <select id="comp_district" class="form-select form-select-sm">
+                                <option value="">Select District</option>
+                                <option value="1">District 1</option>
+                                <option value="2">District 2</option>
+                                <option value="3">District 3</option>
+                                <option value="4">District 4</option>
+                                <option value="5">District 5</option>
+                                <option value="6">District 6</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label small fw-semibold text-dark">Barangay (Quezon City)</label>
+                            <select id="comp_barangay" class="form-select form-select-sm" disabled>
+                                <option value="">Select District first</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label small fw-semibold text-dark">House / Unit #</label>
+                            <input type="text" id="comp_house" class="form-control form-control-sm" placeholder="e.g. #123">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label small fw-semibold text-dark">Street Name</label>
+                            <input type="text" id="comp_street" class="form-control form-control-sm" placeholder="e.g. Susano Road">
+                        </div>
+                        <input type="hidden" id="complainant_address" name="complainant_address" value="<?= htmlspecialchars($_POST['complainant_address'] ?? ($userRole !== 'admin' ? $defaultComplainantAddress : '')) ?>">
+                    </div>
+                    <small class="text-muted">Full residential address in Quezon City.</small>
                 </div>
 
                 <div class="col-12 mt-4">
@@ -361,8 +389,37 @@ require '../includes/header.php';
                 </div>
 
                 <div class="col-12">
-                    <label class="form-label fw-bold">Respondent Home Address <span class="text-danger">*</span></label>
-                    <input type="text" id="respondent_address" name="respondent_address" autocomplete="off" class="form-control" placeholder="Respondent's home address" value="<?= htmlspecialchars($_POST['respondent_address'] ?? '') ?>" required>
+                    <label class="form-label fw-bold text-danger"><i class="fas fa-map-marker-alt text-danger me-1"></i>Respondent Home Address <span class="text-danger">*</span></label>
+                    <div class="row g-2 p-3 bg-light rounded-3 border border-danger-subtle">
+                        <div class="col-md-3">
+                            <label class="form-label small fw-semibold text-dark">District (Quezon City) *</label>
+                            <select id="resp_district" class="form-select form-select-sm" required>
+                                <option value="">Select District</option>
+                                <option value="1">District 1</option>
+                                <option value="2">District 2</option>
+                                <option value="3">District 3</option>
+                                <option value="4">District 4</option>
+                                <option value="5">District 5</option>
+                                <option value="6">District 6</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label small fw-semibold text-dark">Barangay (Quezon City) *</label>
+                            <select id="resp_barangay" class="form-select form-select-sm" required disabled>
+                                <option value="">Select District first</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label small fw-semibold text-dark">House / Unit #</label>
+                            <input type="text" id="resp_house" class="form-control form-control-sm" placeholder="e.g. #45">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label small fw-semibold text-dark">Street Name *</label>
+                            <input type="text" id="resp_street" class="form-control form-control-sm" placeholder="e.g. Quirino Highway" required>
+                        </div>
+                        <input type="hidden" id="respondent_address" name="respondent_address" value="<?= htmlspecialchars($_POST['respondent_address'] ?? '') ?>" required>
+                    </div>
+                    <small class="text-muted">Required for formal summons and mediation notifications.</small>
                 </div>
 
                 <div class="col-12 mt-4">
@@ -429,8 +486,37 @@ require '../includes/header.php';
                 </div>
 
                 <div class="col-12">
-                    <label class="form-label fw-bold">Location</label>
-                    <input type="text" name="location" class="form-control" placeholder="Address or area where incident occurred" value="<?= htmlspecialchars($_POST['location'] ?? '') ?>">
+                    <label class="form-label fw-bold text-primary"><i class="fas fa-map-marked-alt text-primary me-1"></i>Incident Location (Quezon City) <span class="text-danger">*</span></label>
+                    <div class="row g-2 p-3 bg-light rounded-3 border border-primary-subtle">
+                        <div class="col-md-3">
+                            <label class="form-label small fw-semibold text-dark">District (Quezon City) *</label>
+                            <select id="inc_district" class="form-select form-select-sm" required>
+                                <option value="">Select District</option>
+                                <option value="1">District 1</option>
+                                <option value="2">District 2</option>
+                                <option value="3">District 3</option>
+                                <option value="4">District 4</option>
+                                <option value="5">District 5</option>
+                                <option value="6">District 6</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label small fw-semibold text-dark">Barangay (Quezon City) *</label>
+                            <select id="inc_barangay" class="form-select form-select-sm" required disabled>
+                                <option value="">Select District first</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label small fw-semibold text-dark">Bldg / Unit / Area</label>
+                            <input type="text" id="inc_house" class="form-control form-control-sm" placeholder="e.g. Near Mall / #12">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label small fw-semibold text-dark">Street / Specific Landmark *</label>
+                            <input type="text" id="inc_street" class="form-control form-control-sm" placeholder="e.g. Commonwealth Ave cor Tandang Sora" required>
+                        </div>
+                        <input type="hidden" id="location" name="location" value="<?= htmlspecialchars($_POST['location'] ?? '') ?>" required>
+                    </div>
+                    <small class="text-muted">Exact location where the reported incident took place.</small>
                 </div>
 
                 <div class="col-12">
@@ -772,6 +858,38 @@ if (descriptionEl) {
         }
     }
 
+</script>
+
+<script src="../assets/js/address-selector.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Complainant Address Selector
+    initQCAddressSelector({
+        districtSelectId: 'comp_district',
+        barangaySelectId: 'comp_barangay',
+        streetInputId: 'comp_street',
+        houseNumberInputId: 'comp_house',
+        targetCombinedInputId: 'complainant_address'
+    });
+
+    // Respondent Address Selector
+    initQCAddressSelector({
+        districtSelectId: 'resp_district',
+        barangaySelectId: 'resp_barangay',
+        streetInputId: 'resp_street',
+        houseNumberInputId: 'resp_house',
+        targetCombinedInputId: 'respondent_address'
+    });
+
+    // Incident Location Selector
+    initQCAddressSelector({
+        districtSelectId: 'inc_district',
+        barangaySelectId: 'inc_barangay',
+        streetInputId: 'inc_street',
+        houseNumberInputId: 'inc_house',
+        targetCombinedInputId: 'location'
+    });
+});
 </script>
 
 <?php require '../includes/footer.php'; ?>
