@@ -585,6 +585,56 @@ class OperationalModuleIntegrator {
     }
 
     /**
+     * Process incoming Inspection Document / Report payload from inspection.alertaraqc.com
+     */
+    public function processIncomingInspectionDocument(array $data): array {
+        $requestId = trim($data['request_id'] ?? $data['document_request_id'] ?? ('REQ-DOC-' . date('Ymd') . '-' . rand(100, 999)));
+        $documentId = trim($data['document_id'] ?? $data['doc_id'] ?? $data['certificate_id'] ?? ('DOC-' . date('Y') . '-' . rand(1000, 9999)));
+        $caseNo = trim($data['case_no'] ?? $data['blotter_no'] ?? $data['incident_id'] ?? '');
+        $documentType = trim($data['document_type'] ?? $data['type'] ?? 'Inspection Report');
+        $location = trim($data['business_or_location'] ?? $data['location'] ?? $data['establishment_name'] ?? '');
+        $inspector = trim($data['inspector_name'] ?? $data['officer'] ?? 'Field Inspector');
+        $status = trim($data['inspection_status'] ?? $data['status'] ?? 'Completed');
+        $findings = trim($data['findings'] ?? $data['notes'] ?? $data['remarks'] ?? $data['description'] ?? '');
+        $score = trim($data['compliance_score'] ?? $data['score'] ?? 'N/A');
+        $certUrl = trim($data['certificate_url'] ?? $data['document_url'] ?? $data['pdf_url'] ?? '');
+        $evidenceUrls = trim($data['evidence_urls'] ?? $data['media_url'] ?? '');
+        $inspDate = trim($data['inspection_date'] ?? date('Y-m-d'));
+
+        if (empty($findings) && empty($documentType)) {
+            throw new Exception('Missing required document findings or document_type in inspection payload.');
+        }
+
+        $recordId = null;
+        if ($this->pdo instanceof PDO) {
+            $stmt = $this->pdo->prepare("INSERT INTO received_inspection_documents 
+                (request_id, document_id, case_no, document_type, business_or_location, inspector_name, inspection_status, findings, compliance_score, certificate_url, evidence_urls, inspection_date, raw_payload)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+            $stmt->execute([
+                $requestId, $documentId, $caseNo, $documentType, $location, $inspector, $status, $findings, $score, $certUrl, $evidenceUrls, $inspDate, json_encode($data, JSON_UNESCAPED_UNICODE)
+            ]);
+            $recordId = $this->pdo->lastInsertId();
+
+            $this->saveLog('incoming_inspection_document', 'https://inspection.alertaraqc.com', $data, [
+                'status' => 'success',
+                'record_id' => $recordId,
+                'document_id' => $documentId
+            ], 'received');
+        }
+
+        return [
+            'success' => true,
+            'message' => 'Inspection document payload received and stored in Law Enforcement portal successfully.',
+            'record_id' => $recordId,
+            'request_id' => $requestId,
+            'document_id' => $documentId,
+            'case_no' => $caseNo,
+            'document_type' => $documentType,
+            'received_at' => date('Y-m-d H:i:s')
+        ];
+    }
+
+    /**
      * Dispatch Payload to Public Safety Campaign API (Group 1)
      */
     public function dispatchToCampaignApi(array $campaignPayload): array {

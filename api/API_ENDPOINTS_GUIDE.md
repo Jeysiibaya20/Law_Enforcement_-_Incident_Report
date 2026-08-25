@@ -181,7 +181,51 @@ Receives vehicular accident tickets, violation fees, and damage estimates from G
 
 ---
 
-### E. Group 4 — Resolved Tips & Community Complaints
+### E. Group 7 / Inspection Department — Documents & Compliance Clearance Receiving
+Receives field inspection results, building safety certificates, clearance documents, and compliance findings from the Inspection Department (`inspection.alertaraqc.com`).
+
+- **Primary Dedicated Endpoint**: `POST /api/receive_inspection_document.php`
+- **Alternative**: `POST /api/external_integration.php?action=receive_inspection_document`
+
+#### Authentication & Headers:
+- **HTTP Method**: `POST`
+- **Content-Type**: `application/json`
+- **API Key Header**: `X-API-KEY: ALERTARA-EMERGENCY-2026`
+
+#### Request Payload Format (JSON):
+```json
+{
+  "request_id": "REQ-DOC-2026-081",
+  "document_id": "CERT-INSP-9921",
+  "case_no": "BLT-20260825-01",
+  "document_type": "Barangay Commercial Safety Clearance",
+  "business_or_location": "Nova Plaza Mall, Susano Road, Brgy. San Agustin, QC",
+  "inspector_name": "Engr. Bautista / BFP QC Inspection Team",
+  "inspection_status": "Passed / Certified Compliant",
+  "findings": "All fire exits cleared, emergency lighting functional, CCTV perimeters operational.",
+  "compliance_score": "98/100",
+  "certificate_url": "https://inspection.alertaraqc.com/storage/certs/CERT_9921.pdf",
+  "inspection_date": "2026-08-26"
+}
+```
+
+#### Success Response (`200 OK`):
+```json
+{
+  "success": true,
+  "message": "Inspection document payload received and stored in Law Enforcement portal successfully.",
+  "record_id": "1",
+  "request_id": "REQ-DOC-2026-081",
+  "document_id": "CERT-INSP-9921",
+  "case_no": "BLT-20260825-01",
+  "document_type": "Barangay Commercial Safety Clearance",
+  "received_at": "2026-08-26 14:00:00"
+}
+```
+
+---
+
+### F. Group 4 — Resolved Tips & Community Complaints
 Receives verified community tips and complaints.
 
 - **Resolved Tips Endpoint**: `POST /api/receive_resolved_tips.php` (or `action=receive_resolved_tip`)
@@ -193,11 +237,11 @@ Receives verified community tips and complaints.
 
 Our system automatically formats and dispatches payloads to partner endpoints configured in the **Integration Settings Registry** (`config/integration_config.php` & `admin/external_integrations.php`):
 
-| Target External Group | Function / Purpose | Config Key | Default / Configured URL |
+| Target External Group | Function / Purpose | Config Key | Target API Endpoint URL |
 | :--- | :--- | :--- | :--- |
-| **Marto's CCTV Group** | Send CCTV Query / Request | `cctv_request_api_url` | `https://surveillance.alertaraqc.com/api/cctv_requests_receive.php` |
-| **Group 7 Inspection** | Dispatch Photo & Video Media Files | `group7_evidence_upload_api_url` | `https://inspection.alertaraqc.com/api/upload_evidence.php` |
-| **Group 7 Inspection** | Field Inspection Scheduling | `group7_inspection_api_url` | `https://inspection.alertaraqc.com/api/schedule_inspection.php` |
+| **Inspection Department (Group 7)** | Send Document / Evidence Request | `group7_inspection_api_url` | `https://inspection.alertaraqc.com/api/documents/request` |
+| **Marto's CCTV Group** | Send CCTV Query / Request | `cctv_request_api_url` | `https://policy.alertaraqc.com/api/cctv_requests_receive.php` |
+| **Group 7 Evidence Cloud** | Dispatch Photos & Videos | `group7_evidence_upload_api_url` | `https://inspection.alertaraqc.com/api/upload_evidence.php` |
 | **Group 5 Crime Map** | Spatial Coordinates & Heatmap | `group5_crime_map_api_url` | `https://crimemap.alertaraqc.com/api/update_heatmap.php` |
 | **Group 3 EMS / Police** | Officer & Resource Allocation | `group3_resource_api_url` | `https://dispatch.alertaraqc.com/api/assign_officer.php` |
 | **Group 1 Campaigns** | Public Safety Campaigns Sync | `campaign_api_url` | `https://campaign.alertaraqc.com/api/v1/campaigns/public` |
