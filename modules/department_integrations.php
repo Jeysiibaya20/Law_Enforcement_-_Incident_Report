@@ -222,15 +222,61 @@ try {
         <!-- Designated Departments Directory -->
         <h5 class="fw-bold text-dark mb-3"><i class="fas fa-building me-2 text-success"></i>Designated Partner Departments</h5>
         <div class="row g-3 mb-4">
+            <!-- Aldrin Emergency Response Card -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card dept-card h-100 p-3 border-danger shadow-sm">
+                    <div class="d-flex justify-content-between align-items-start mb-3">
+                        <div class="d-flex align-items-center gap-2">
+                            <div class="dept-icon-box bg-danger text-white"><i class="fas fa-phone-alt"></i></div>
+                            <div>
+                                <h6 class="fw-bold mb-0 text-dark">Emergency Response Hub</h6>
+                                <small class="text-muted">Inbound Incident Calls & Dispatch</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-success fw-bold">Active Stream</span>
+                    </div>
+                    <p class="small text-muted mb-3">Receives live emergency calls with Call ID, Timestamp, Caller Location, and Emergency Level; auto-mirrors cases to law enforcement.</p>
+                    <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                        <span class="small text-muted">Channel: <code>api/receive_emergency_call.php</code></span>
+                        <a href="../admin/external_integrations.php" class="btn btn-sm btn-outline-danger">
+                            <i class="fas fa-cog me-1"></i> Stream
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marto CCTV Surveillance Card -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card dept-card h-100 p-3 border-success shadow-sm">
+                    <div class="d-flex justify-content-between align-items-start mb-3">
+                        <div class="d-flex align-items-center gap-2">
+                            <div class="dept-icon-box bg-success text-white"><i class="fas fa-video"></i></div>
+                            <div>
+                                <h6 class="fw-bold mb-0 text-dark">CCTV Surveillance Hub</h6>
+                                <small class="text-muted">Footage Requests & Feed Ingestion</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-success fw-bold">Connected</span>
+                    </div>
+                    <p class="small text-muted mb-3">Facilitates formal 4-section CCTV footage requests and receives verified video playback clips and camera timestamps.</p>
+                    <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                        <span class="small text-muted">Channel: <code>api/receive_cctv_request.php</code></span>
+                        <a href="Request_form.php" class="btn btn-sm btn-outline-success">
+                            <i class="fas fa-file-video me-1"></i> Form
+                        </a>
+                    </div>
+                </div>
+            </div>
+
             <!-- Group 2 Card -->
             <div class="col-md-6 col-lg-4">
-                <div class="card dept-card h-100 p-3">
+                <div class="card dept-card h-100 p-3 border-warning shadow-sm">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div class="d-flex align-items-center gap-2">
                             <div class="dept-icon-box bg-warning text-dark"><i class="fas fa-car"></i></div>
                             <div>
-                                <h6 class="fw-bold mb-0 text-dark">Group 2: Accident & Violation</h6>
-                                <small class="text-muted">Inbound Tickets & CCTV Feed</small>
+                                <h6 class="fw-bold mb-0 text-dark">Traffic & Violation Dept</h6>
+                                <small class="text-muted">Accident Tickets & Enforcement</small>
                             </div>
                         </div>
                         <span class="badge status-online fw-bold">Online</span>
@@ -238,7 +284,7 @@ try {
                     <p class="small text-muted mb-3">Receives live traffic incident tickets and coordinates bidirectional CCTV footage requests and acknowledgments.</p>
                     <div class="d-flex justify-content-between align-items-center pt-2 border-top">
                         <span class="small text-muted">Channel: <code>api/receive_accident_report.php</code></span>
-                        <button type="button" class="btn btn-sm btn-outline-success" onclick="openInspectDeptModal('group2')">
+                        <button type="button" class="btn btn-sm btn-outline-warning text-dark fw-bold" onclick="openInspectDeptModal('group2')">
                             <i class="fas fa-eye me-1"></i> Manage
                         </button>
                     </div>
@@ -247,12 +293,12 @@ try {
 
             <!-- Group 7 Card -->
             <div class="col-md-6 col-lg-4">
-                <div class="card dept-card h-100 p-3">
+                <div class="card dept-card h-100 p-3 shadow-sm">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div class="d-flex align-items-center gap-2">
                             <div class="dept-icon-box bg-primary text-white"><i class="fas fa-camera"></i></div>
                             <div>
-                                <h6 class="fw-bold mb-0 text-dark">Group 7: Photo & Videos Upload</h6>
+                                <h6 class="fw-bold mb-0 text-dark">Group 7: Photo & Video Cloud</h6>
                                 <small class="text-muted">Outbound Media & Evidence</small>
                             </div>
                         </div>
@@ -261,30 +307,7 @@ try {
                     <p class="small text-muted mb-3">Automatically dispatches collected scene photos, surveillance footage clips, and chain of custody digital evidence.</p>
                     <div class="d-flex justify-content-between align-items-center pt-2 border-top">
                         <span class="small text-muted">Channel: <code>api/dispatch_evidence_group7.php</code></span>
-                        <button type="button" class="btn btn-sm btn-outline-success" onclick="openInspectDeptModal('group7')">
-                            <i class="fas fa-eye me-1"></i> Manage
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Group 3 Card -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card dept-card h-100 p-3">
-                    <div class="d-flex justify-content-between align-items-start mb-3">
-                        <div class="d-flex align-items-center gap-2">
-                            <div class="dept-icon-box bg-danger text-white"><i class="fas fa-ambulance"></i></div>
-                            <div>
-                                <h6 class="fw-bold mb-0 text-dark">Group 3: Resource & EMS Dispatch</h6>
-                                <small class="text-muted">Emergency Services</small>
-                            </div>
-                        </div>
-                        <span class="badge status-online fw-bold">Active</span>
-                    </div>
-                    <p class="small text-muted mb-3">Dispatches high-urgency incidents to medical first responders, ambulance units, and tactical police support.</p>
-                    <div class="d-flex justify-content-between align-items-center pt-2 border-top">
-                        <span class="small text-muted">Channel: <code>api/dispatch_resource.php</code></span>
-                        <button type="button" class="btn btn-sm btn-outline-success" onclick="openInspectDeptModal('group3')">
+                        <button type="button" class="btn btn-sm btn-outline-primary" onclick="openInspectDeptModal('group7')">
                             <i class="fas fa-eye me-1"></i> Manage
                         </button>
                     </div>
@@ -292,13 +315,13 @@ try {
             </div>
 
             <!-- Group 5 Card -->
-            <div class="col-md-6 col-lg-6">
-                <div class="card dept-card h-100 p-3">
+            <div class="col-md-6 col-lg-4">
+                <div class="card dept-card h-100 p-3 shadow-sm">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div class="d-flex align-items-center gap-2">
                             <div class="dept-icon-box bg-info text-white"><i class="fas fa-map-marked-alt"></i></div>
                             <div>
-                                <h6 class="fw-bold mb-0 text-dark">Group 5: Crime Mapping & Hotspots</h6>
+                                <h6 class="fw-bold mb-0 text-dark">Group 5: Crime Mapping & GIS</h6>
                                 <small class="text-muted">Geo-Spatial Analytics</small>
                             </div>
                         </div>
@@ -307,21 +330,21 @@ try {
                     <p class="small text-muted mb-3">Synchronizes geo-coordinates, incident classifications, and crime densities for district-wide heatmap generation.</p>
                     <div class="d-flex justify-content-between align-items-center pt-2 border-top">
                         <span class="small text-muted">Channel: <code>api/sync_crimemap.php</code></span>
-                        <button type="button" class="btn btn-sm btn-outline-success" onclick="openInspectDeptModal('group5')">
+                        <button type="button" class="btn btn-sm btn-outline-info" onclick="openInspectDeptModal('group5')">
                             <i class="fas fa-eye me-1"></i> Manage
                         </button>
                     </div>
                 </div>
             </div>
 
-            <!-- Group 6 Card -->
-            <div class="col-md-6 col-lg-6">
-                <div class="card dept-card h-100 p-3">
+            <!-- Group 6 / Public Safety Card -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card dept-card h-100 p-3 shadow-sm">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div class="d-flex align-items-center gap-2">
                             <div class="dept-icon-box bg-secondary text-white"><i class="fas fa-bullhorn"></i></div>
                             <div>
-                                <h6 class="fw-bold mb-0 text-dark">Group 6: Public Safety Bulletins</h6>
+                                <h6 class="fw-bold mb-0 text-dark">Public Safety & Awareness</h6>
                                 <small class="text-muted">Advisories & Community Alerts</small>
                             </div>
                         </div>
@@ -330,7 +353,7 @@ try {
                     <p class="small text-muted mb-3">Publishes verified incident warnings and community awareness campaigns to social and mobile channels.</p>
                     <div class="d-flex justify-content-between align-items-center pt-2 border-top">
                         <span class="small text-muted">Channel: <code>api/publish_campaign.php</code></span>
-                        <button type="button" class="btn btn-sm btn-outline-success" onclick="openInspectDeptModal('group6')">
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="openInspectDeptModal('group6')">
                             <i class="fas fa-eye me-1"></i> Manage
                         </button>
                     </div>

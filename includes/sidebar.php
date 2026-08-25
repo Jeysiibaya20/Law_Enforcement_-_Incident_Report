@@ -93,6 +93,12 @@ $avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'h
                             </a>
                         </li>
                         <li class="sidebar-menu-item">
+                            <a href="<?php echo $base_url; ?>admin/audit_trail.php" class="sidebar-link sidebar-accent-reports <?php echo $current_page === 'audit_trail.php' ? 'active' : ''; ?>">
+                                <i class="fas fa-history sidebar-icon" aria-hidden="true"></i>
+                                <span>Audit Trail</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-menu-item">
                             <a href="<?php echo $base_url; ?>admin/settings.php" class="sidebar-link sidebar-accent-settings <?php echo ($current_page === 'settings.php' && !isset($_GET['tab'])) ? 'active' : ''; ?>">
                                 <i class="fas fa-cog sidebar-icon" aria-hidden="true"></i>
                                 <span>Settings</span>

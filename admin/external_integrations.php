@@ -789,6 +789,80 @@ try {
             </div>
         </div>
 
+        <!-- Emergency Calls & Incident Ingestion Live Stream (`received_emergency_calls`) -->
+        <div class="card mb-4 border-warning shadow-sm">
+            <div class="card-header bg-warning text-dark fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2">
+                <div>
+                    <i class="fas fa-phone-alt me-2 text-danger"></i>Emergency Calls & Incident Ingestion Stream (`received_emergency_calls`)
+                    <span class="badge bg-dark text-white ms-2"><?= count($receivedCalls) ?> Ingested Record(s)</span>
+                </div>
+                <div class="d-flex gap-2">
+                    <button type="button" class="btn btn-sm btn-dark text-white fw-bold" data-bs-toggle="modal" data-bs-target="#simulateCallModal">
+                        <i class="fas fa-plus-circle me-1 text-warning"></i>Simulate Inbound Emergency Call
+                    </button>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive" style="max-height: 350px;">
+                    <table class="table table-hover align-middle mb-0" style="font-size: 0.84rem;">
+                        <thead class="table-light sticky-top">
+                            <tr>
+                                <th>CALL ID</th>
+                                <th>CALLER & LOCATION</th>
+                                <th>INCIDENT DETAILS</th>
+                                <th>EMERGENCY LEVEL</th>
+                                <th>MIRRORED CASE #</th>
+                                <th>TIMESTAMP</th>
+                                <th class="text-center">STATUS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php if (!empty($receivedCalls)): ?>
+                                <?php foreach ($receivedCalls as $rc): ?>
+                                    <tr>
+                                        <td>
+                                            <span class="badge bg-danger font-monospace">#<?= htmlspecialchars($rc['call_id'] ?: 'CALL') ?></span>
+                                        </td>
+                                        <td>
+                                            <strong><?= htmlspecialchars($rc['caller_name'] ?: 'Caller') ?></strong>
+                                            <div class="small text-muted text-truncate" style="max-width: 220px;">
+                                                <i class="fas fa-map-marker-alt text-danger me-1"></i><?= htmlspecialchars($rc['caller_location'] ?: 'QC') ?>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="fw-semibold text-dark text-truncate" style="max-width: 280px;" title="<?= htmlspecialchars($rc['incident_description']) ?>">
+                                                <?= htmlspecialchars($rc['incident_description']) ?>
+                                            </div>
+                                            <small class="text-muted"><?= htmlspecialchars($rc['incident_type'] ?: 'Emergency Call') ?></small>
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-<?= match($rc['emergency_level']) {
+                                                'Critical' => 'danger',
+                                                'High' => 'warning text-dark',
+                                                'Medium' => 'info text-dark',
+                                                default => 'success'
+                                            } ?>"><?= htmlspecialchars($rc['emergency_level'] ?: 'High') ?></span>
+                                        </td>
+                                        <td>
+                                            <code class="fw-bold text-primary"><?= htmlspecialchars($rc['case_no'] ?: 'N/A') ?></code>
+                                        </td>
+                                        <td><?= date('M d, Y H:i', strtotime($rc['call_timestamp'] ?: $rc['created_at'])) ?></td>
+                                        <td class="text-center">
+                                            <span class="badge bg-success bg-opacity-10 text-success border border-success">
+                                                <i class="fas fa-check-circle me-1"></i><?= htmlspecialchars($rc['status'] ?: 'Dispatched') ?>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php else: ?>
+                                <tr><td colspan="7" class="text-center text-muted py-4">No emergency calls received yet. Ready to ingest via <code>POST /api/receive_emergency_call.php</code>.</td></tr>
+                            <?php endif; ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
         <!-- Group 2: Accident & Violation Reports Live Stream (`received_accident_reports`) -->
         <div class="card mb-4 border-danger shadow-sm">
             <div class="card-header bg-danger text-white fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2">
