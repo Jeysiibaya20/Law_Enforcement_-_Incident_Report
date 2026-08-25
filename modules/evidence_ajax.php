@@ -280,9 +280,15 @@ if ($action === 'view' && $id) {
     try {
         $result = $integrator->dispatchToGroup7EvidenceUpload($payload);
 
+        // Ensure chain_of_custody table has proper column width
+        try {
+            $pdo->exec("ALTER TABLE chain_of_custody MODIFY COLUMN action_type VARCHAR(100) NOT NULL DEFAULT 'Transferred'");
+        } catch (Exception $ignored) {}
+
         // Add chain of custody entry
-        $cStmt = $pdo->prepare("INSERT INTO chain_of_custody (evidence_id, action_type, action_date, location, purpose, notes, performed_by) VALUES (?, 'Transferred to Group 7', NOW(), 'Group 7 Inspection Cloud', 'Dispatched photos/videos to Group 7 Upload API', ?, ?)");
-        $cStmt->execute([$id, "Forwarded " . count($photos) . " photo(s) and " . count($videos) . " video(s) to Group 7", $_SESSION['user_id']]);
+        $performedBy = !empty($_SESSION['user_id']) ? $_SESSION['user_id'] : 1;
+        $cStmt = $pdo->prepare("INSERT INTO chain_of_custody (evidence_id, action_type, action_date, location, purpose, notes, performed_by) VALUES (?, 'Transferred', NOW(), 'Group 7 Inspection Cloud', 'Dispatched photos/videos to Group 7 Upload API', ?, ?)");
+        $cStmt->execute([$id, "Forwarded " . count($photos) . " photo(s) and " . count($videos) . " video(s) to Group 7", $performedBy]);
 
         echo json_encode([
             'success' => true,

@@ -1297,44 +1297,44 @@ include '../includes/header.php';
 <!-- Forward to Group 7 Confirmation Modal -->
 <div class="modal fade" id="sendToGroup7ConfirmModal" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content border-0 shadow">
-            <div class="modal-header" style="background: linear-gradient(135deg, #0d6efd 0%, #0b5ed7 100%); color: white;">
-                <h5 class="modal-title"><i class="bi bi-cloud-upload me-2"></i>Forward Evidence to Group 7</h5>
+        <div class="modal-content border-0 shadow-lg rounded-3 overflow-hidden">
+            <div class="modal-header py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important; color: white;">
+                <h5 class="modal-title fw-bold"><i class="bi bi-cloud-upload text-warning me-2"></i>Forward Evidence to Group 7</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body p-4">
                 <div class="text-center mb-3">
-                    <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
-                        <i class="bi bi-cloud-arrow-up" style="font-size: 2rem; color: #0d6efd;"></i>
+                    <div class="rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px; background: rgba(46, 133, 110, 0.12);">
+                        <i class="bi bi-cloud-arrow-up" style="font-size: 2rem; color: #2e856e;"></i>
                     </div>
                 </div>
                 <div class="alert alert-info py-2 small">
                     <i class="bi bi-info-circle me-1"></i> This will dispatch all photo and video attachments to <strong>Group 7 (Photo and Videos Upload / Inspection)</strong> via their cloud API.
                 </div>
-                <div class="bg-light rounded p-3 mb-3">
-                    <div class="detail-row d-flex justify-content-between">
-                        <span class="detail-label">Evidence Number:</span>
-                        <span class="detail-value fw-bold" id="g7ConfirmEvidenceNo">—</span>
+                <div class="bg-light rounded p-3 mb-3 border">
+                    <div class="detail-row d-flex justify-content-between mb-1">
+                        <span class="detail-label text-muted">Evidence Number:</span>
+                        <span class="detail-value fw-bold text-dark" id="g7ConfirmEvidenceNo">—</span>
+                    </div>
+                    <div class="detail-row d-flex justify-content-between mb-1">
+                        <span class="detail-label text-muted">Case Number:</span>
+                        <span class="detail-value text-dark" id="g7ConfirmCaseNo">—</span>
                     </div>
                     <div class="detail-row d-flex justify-content-between">
-                        <span class="detail-label">Case Number:</span>
-                        <span class="detail-value" id="g7ConfirmCaseNo">—</span>
-                    </div>
-                    <div class="detail-row d-flex justify-content-between">
-                        <span class="detail-label">Attachments:</span>
-                        <span class="detail-value" id="g7ConfirmAttachCount">—</span>
+                        <span class="detail-label text-muted">Attachments:</span>
+                        <span class="detail-value text-success fw-semibold" id="g7ConfirmAttachCount">—</span>
                     </div>
                 </div>
-                <div class="flow-arrow border rounded p-2 bg-white">
-                    <span class="badge text-white" style="background-color: #2e856e;"><i class="bi bi-shield-check me-1"></i>Group 1 (You)</span>
-                    <i class="bi bi-arrow-right-circle-fill text-primary" style="font-size: 1.3rem;"></i>
-                    <span class="badge bg-primary"><i class="bi bi-cloud-upload me-1"></i>Group 7 (Photo/Video)</span>
+                <div class="flow-arrow border rounded p-2 bg-white d-flex align-items-center justify-content-between">
+                    <span class="badge text-white px-3 py-2" style="background-color: #2e856e;"><i class="bi bi-shield-check me-1"></i>Group 1 (You)</span>
+                    <i class="bi bi-arrow-right-circle-fill text-success" style="font-size: 1.4rem;"></i>
+                    <span class="badge bg-success bg-opacity-25 text-success border border-success-subtle px-3 py-2"><i class="bi bi-cloud-upload me-1"></i>Group 7 (Photo/Video)</span>
                 </div>
                 <div id="g7DispatchResult" class="mt-3" style="display: none;"></div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary fw-bold" id="g7ConfirmSendBtn" onclick="confirmSendToGroup7()">
+            <div class="modal-footer bg-light">
+                <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-success fw-bold shadow-sm px-4" style="background-color: #2e856e !important; border-color: #2e856e !important;" id="g7ConfirmSendBtn" onclick="confirmSendToGroup7()">
                     <i class="bi bi-send me-1"></i> Dispatch to Group 7
                 </button>
             </div>
