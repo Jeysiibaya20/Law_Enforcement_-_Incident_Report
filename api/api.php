@@ -255,28 +255,53 @@ switch ($action) {
         break;
 
     case 'create_blotter':
-        $complainant = trim($inputData['complainant_name'] ?? '');
-        $incidentType = trim($inputData['incident_type'] ?? '');
-        $location = trim($inputData['location'] ?? '');
-        $narrative = trim($inputData['narrative'] ?? '');
+        $complainant = trim($inputData['complainant_name'] ?? $inputData['complainant'] ?? $inputData['name'] ?? '');
+        $incidentType = trim($inputData['incident_type'] ?? $inputData['type'] ?? $inputData['complaint_type'] ?? 'General Complaint');
+        $location = trim($inputData['location'] ?? $inputData['incident_location'] ?? $inputData['complainant_address'] ?? 'Quezon City');
+        $narrative = trim($inputData['narrative'] ?? $inputData['description'] ?? $inputData['details'] ?? $inputData['description_of_complaint'] ?? '');
+        
+        $complainantContact = trim($inputData['complainant_contact'] ?? $inputData['contact_number'] ?? '');
+        $complainantAddress = trim($inputData['complainant_address'] ?? $inputData['address'] ?? '');
+        $complainantEmail = trim($inputData['complainant_email'] ?? $inputData['email'] ?? '');
+        
+        $respondent = trim($inputData['respondent_name'] ?? $inputData['defendant_name'] ?? $inputData['respondent'] ?? $inputData['defendant'] ?? '');
+        $respondentContact = trim($inputData['respondent_contact'] ?? $inputData['defendant_contact'] ?? '');
+        $respondentAddress = trim($inputData['respondent_address'] ?? $inputData['defendant_address'] ?? '');
+        
+        $incidentDate = !empty($inputData['incident_date']) ? date('Y-m-d', strtotime($inputData['incident_date'])) : (!empty($inputData['date']) ? date('Y-m-d', strtotime($inputData['date'])) : date('Y-m-d'));
+        $incidentTime = !empty($inputData['incident_time']) ? date('H:i:s', strtotime($inputData['incident_time'])) : (!empty($inputData['time']) ? date('H:i:s', strtotime($inputData['time'])) : date('H:i:s'));
+        $priority = in_array(ucfirst(strtolower($inputData['priority'] ?? '')), ['High', 'Medium', 'Low']) ? ucfirst(strtolower($inputData['priority'])) : 'Medium';
 
-        if (empty($complainant) || empty($incidentType)) {
-            sendJsonResponse('error', 'complainant_name and incident_type are required', null, 400);
+        if (empty($complainant)) {
+            sendJsonResponse('error', 'complainant_name is required', null, 400);
         }
 
         try {
             $blotterNo = 'BLT-' . date('Ymd') . '-' . rand(1000, 9999);
             $stmt = $pdo->prepare("
-                INSERT INTO blotters (blotter_no, complainant_name, incident_type, location, narrative, status, created_at)
-                VALUES (?, ?, ?, ?, ?, 'Pending', NOW())
+                INSERT INTO blotters (
+                    blotter_no, complainant_name, complainant_contact, complainant_email, complainant_address,
+                    respondent_name, respondent_contact, respondent_address,
+                    incident_type, incident_date, incident_time, location, description,
+                    priority, status, created_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Pending', NOW())
             ");
-            $stmt->execute([$blotterNo, $complainant, $incidentType, $location, $narrative]);
+            $stmt->execute([
+                $blotterNo, $complainant, $complainantContact, $complainantEmail, $complainantAddress,
+                $respondent, $respondentContact, $respondentAddress,
+                $incidentType, $incidentDate, $incidentTime, $location, $narrative ?: 'No detailed narrative provided.',
+                $priority
+            ]);
             $newId = $pdo->lastInsertId();
 
             sendJsonResponse('success', 'Blotter entry filed successfully', [
-                'id'         => $newId,
-                'blotter_no' => $blotterNo,
-                'status'     => 'Pending'
+                'id'            => $newId,
+                'blotter_no'    => $blotterNo,
+                'status'        => 'Pending',
+                'complainant'   => $complainant,
+                'respondent'    => $respondent,
+                'incident_type' => $incidentType,
+                'description'   => $narrative
             ], 201);
         } catch (Exception $e) {
             sendJsonResponse('error', 'Failed to create blotter: ' . $e->getMessage(), null, 500);
