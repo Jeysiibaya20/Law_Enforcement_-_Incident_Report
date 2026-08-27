@@ -769,14 +769,33 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
         </div>
 
         <!-- Incidents Table -->
-        <div class="card enhanced-card shadow-sm">
-            <div class="card-header bg-white fw-bold">
-                <i class="bi bi-list-check me-2"></i>Incident Reports
+        <div class="card enhanced-card shadow-sm border-0">
+            <div class="card-header bg-white fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2 py-3 px-4">
+                <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-list-check fs-5 text-success"></i>
+                    <span class="fs-6">Incident Reports</span>
+                    <span class="badge bg-success bg-opacity-10 text-success border border-success-subtle rounded-pill px-2.5 py-1" id="totalIncidentsBadge"><?php echo count($incidents); ?> Records</span>
+                </div>
+                <div class="d-flex align-items-center gap-2 flex-wrap">
+                    <div class="input-group input-group-sm" style="width: 240px;">
+                        <span class="input-group-text bg-light text-secondary"><i class="bi bi-search"></i></span>
+                        <input type="text" id="incidentTableSearch" class="form-control" placeholder="Search incidents..." oninput="filterIncidentTable()">
+                    </div>
+                    <div class="d-flex align-items-center gap-1 text-muted small">
+                        <span>Show:</span>
+                        <select id="incidentPageSize" class="form-select form-select-sm" style="width: 75px;" onchange="changeIncidentPageSize(this.value)">
+                            <option value="10" selected>10</option>
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select>
+                    </div>
+                </div>
             </div>
-            <div class="card-body">
+            <div class="card-body p-0">
                 <div class="table-responsive">
-                    <table class="table table-hover mb-0">
-                        <thead>
+                    <table class="table table-hover align-middle mb-0" id="incidentsTable">
+                        <thead class="table-light">
                             <tr>
                                 <th>Case #</th>
                                 <th>Reporter</th>
@@ -786,19 +805,25 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
                                 <th>🤖 AI Analysis</th>
                                 <th>Urgency</th>
                                 <th>Status</th>
-                                <th>Actions</th>
+                                <th class="text-center">Actions</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="incidentsTableBody">
                             <?php if (empty($incidents)): ?>
-                                <tr>
-                                    <td colspan="8" class="text-center text-muted py-4">
+                                <tr id="noIncidentsRow">
+                                    <td colspan="9" class="text-center text-muted py-4">
                                         <i class="bi bi-inbox"></i> No incident reports found
                                     </td>
                                 </tr>
                             <?php else: ?>
                                 <?php foreach ($incidents as $incident): ?>
-                                    <tr>
+                                    <tr class="incident-row" 
+                                        data-case="<?php echo strtolower(htmlspecialchars($incident['case_no'] ?? '')); ?>"
+                                        data-reporter="<?php echo strtolower(htmlspecialchars($incident['reporter_name'] ?? '')); ?>"
+                                        data-location="<?php echo strtolower(htmlspecialchars($incident['location'] ?? '')); ?>"
+                                        data-type="<?php echo strtolower(htmlspecialchars($incident['auto_classification'] ?? '')); ?>"
+                                        data-urgency="<?php echo strtolower(htmlspecialchars($incident['urgency_level'] ?? '')); ?>"
+                                        data-status="<?php echo strtolower(htmlspecialchars($incident['status'] ?? '')); ?>">
                                         <td><strong><?php echo htmlspecialchars($incident['case_no'] ?? ''); ?></strong></td>
                                         <td>
                                             <?php echo htmlspecialchars($incident['reporter_name'] ?? ''); ?>
@@ -824,26 +849,28 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
                                         </td>
                                         <td><?php echo render_urgency_badge($incident['urgency_level'] ?? 'Medium', $incident['is_high_risk'] ?? 0); ?></td>
                                         <td><?php echo render_status_badge($incident['status'] ?? 'Submitted'); ?></td>
-                                        <td>
-                                            <button class="btn btn-sm btn-outline-primary" title="View Details" data-bs-toggle="modal" data-bs-target="#viewIncidentModal" onclick="loadIncidentDetails(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
-                                                <i class="bi bi-eye"></i>
-                                            </button>
-                                            <?php 
-                                             $canEdit = $isAdminUser || (isset($_SESSION['user_id']) && ($incident['created_by'] ?? null) == $_SESSION['user_id']);
-                                            if ($canEdit): 
-                                            ?>
-                                                <button class="btn btn-sm btn-outline-warning" title="Edit Report" data-bs-toggle="modal" data-bs-target="#<?php echo $isAdminUser ? 'editIncidentModal' : 'userEditIncidentModal'; ?>" onclick="<?php echo $isAdminUser ? 'loadIncidentForEdit' : 'loadIncidentForUserEdit'; ?>(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
-                                                    <i class="bi bi-pencil"></i>
+                                        <td class="text-center">
+                                            <div class="btn-group btn-group-sm">
+                                                <button class="btn btn-outline-primary" title="View Details" data-bs-toggle="modal" data-bs-target="#viewIncidentModal" onclick="loadIncidentDetails(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
+                                                    <i class="bi bi-eye"></i>
                                                 </button>
-                                            <?php endif; ?>
-                                            <?php if ($isAdminUser): ?>
-                                                <button class="btn btn-sm btn-outline-info" title="Forward Incident" data-bs-toggle="modal" data-bs-target="#forwardIncidentModal" onclick="loadIncidentForForwarding(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
-                                                    <i class="bi bi-send"></i>
-                                                </button>
-                                                <button class="btn btn-sm btn-outline-danger" title="Delete Case" onclick="deleteIncident(<?php echo $incident['id']; ?>, '<?php echo htmlspecialchars($incident['case_no'] ?? ''); ?>')">
-                                                    <i class="bi bi-trash"></i>
-                                                </button>
-                                            <?php endif; ?>
+                                                <?php 
+                                                 $canEdit = $isAdminUser || (isset($_SESSION['user_id']) && ($incident['created_by'] ?? null) == $_SESSION['user_id']);
+                                                if ($canEdit): 
+                                                ?>
+                                                    <button class="btn btn-outline-warning" title="Edit Report" data-bs-toggle="modal" data-bs-target="#<?php echo $isAdminUser ? 'editIncidentModal' : 'userEditIncidentModal'; ?>" onclick="<?php echo $isAdminUser ? 'loadIncidentForEdit' : 'loadIncidentForUserEdit'; ?>(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
+                                                        <i class="bi bi-pencil"></i>
+                                                    </button>
+                                                <?php endif; ?>
+                                                <?php if ($isAdminUser): ?>
+                                                    <button class="btn btn-outline-info" title="Forward Incident" data-bs-toggle="modal" data-bs-target="#forwardIncidentModal" onclick="loadIncidentForForwarding(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
+                                                        <i class="bi bi-send"></i>
+                                                    </button>
+                                                    <button class="btn btn-outline-danger" title="Delete Case" onclick="deleteIncident(<?php echo $incident['id']; ?>, '<?php echo htmlspecialchars($incident['case_no'] ?? ''); ?>')">
+                                                        <i class="bi bi-trash"></i>
+                                                    </button>
+                                                <?php endif; ?>
+                                            </div>
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>
@@ -851,6 +878,16 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
                         </tbody>
                     </table>
                 </div>
+            </div>
+            <div class="card-footer bg-white border-top d-flex justify-content-between align-items-center flex-wrap gap-2 py-3 px-4">
+                <div class="small text-muted" id="incidentPaginationInfo">
+                    Showing 0 to 0 of 0 entries
+                </div>
+                <nav aria-label="Incident Table Pagination">
+                    <ul class="pagination pagination-sm mb-0" id="incidentPaginationControls">
+                        <!-- Populated by JS -->
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
@@ -1697,11 +1734,128 @@ function removeUserEditAttachment(button) {
         });
     }
 }
+
+// Incident Table Pagination & Live Filter
+let currentIncidentPage = 1;
+let incidentRowsPerPage = 10;
+let filteredIncidentRows = [];
+
+function initIncidentTable() {
+    const allRows = document.querySelectorAll('#incidentsTableBody tr.incident-row');
+    filteredIncidentRows = Array.from(allRows);
+    renderIncidentPagination();
+}
+
+function filterIncidentTable() {
+    const query = (document.getElementById('incidentTableSearch')?.value || '').toLowerCase().trim();
+    const allRows = document.querySelectorAll('#incidentsTableBody tr.incident-row');
+    
+    filteredIncidentRows = [];
+    allRows.forEach(row => {
+        const text = (
+            (row.getAttribute('data-case') || '') + ' ' +
+            (row.getAttribute('data-reporter') || '') + ' ' +
+            (row.getAttribute('data-location') || '') + ' ' +
+            (row.getAttribute('data-type') || '') + ' ' +
+            (row.getAttribute('data-urgency') || '') + ' ' +
+            (row.getAttribute('data-status') || '')
+        ).toLowerCase();
+        
+        if (!query || text.includes(query)) {
+            filteredIncidentRows.push(row);
+        }
+    });
+    
+    currentIncidentPage = 1;
+    renderIncidentPagination();
+}
+
+function changeIncidentPageSize(size) {
+    incidentRowsPerPage = parseInt(size) || 10;
+    currentIncidentPage = 1;
+    renderIncidentPagination();
+}
+
+function goToIncidentPage(page) {
+    currentIncidentPage = page;
+    renderIncidentPagination();
+}
+
+function renderIncidentPagination() {
+    const total = filteredIncidentRows.length;
+    const totalPages = Math.ceil(total / incidentRowsPerPage) || 1;
+    if (currentIncidentPage > totalPages) currentIncidentPage = totalPages;
+    if (currentIncidentPage < 1) currentIncidentPage = 1;
+    
+    const startIdx = (currentIncidentPage - 1) * incidentRowsPerPage;
+    const endIdx = Math.min(startIdx + incidentRowsPerPage, total);
+    
+    // Hide all rows first
+    const allRows = document.querySelectorAll('#incidentsTableBody tr.incident-row');
+    allRows.forEach(r => r.style.display = 'none');
+    
+    const noRow = document.getElementById('noIncidentsRow');
+    if (total === 0) {
+        if (!noRow) {
+            const tr = document.createElement('tr');
+            tr.id = 'noIncidentsRow';
+            tr.innerHTML = '<td colspan="9" class="text-center text-muted py-4"><i class="bi bi-search me-1"></i> No matching incident reports found</td>';
+            document.getElementById('incidentsTableBody').appendChild(tr);
+        } else {
+            noRow.style.display = '';
+        }
+    } else {
+        if (noRow) noRow.style.display = 'none';
+        for (let i = startIdx; i < endIdx; i++) {
+            if (filteredIncidentRows[i]) filteredIncidentRows[i].style.display = '';
+        }
+    }
+    
+    // Update pagination info label
+    const infoEl = document.getElementById('incidentPaginationInfo');
+    if (infoEl) {
+        if (total === 0) {
+            infoEl.textContent = 'Showing 0 to 0 of 0 entries';
+        } else {
+            infoEl.textContent = `Showing ${startIdx + 1} to ${endIdx} of ${total} entries`;
+        }
+    }
+    
+    // Render pagination buttons
+    const controls = document.getElementById('incidentPaginationControls');
+    if (!controls) return;
+    
+    let html = '';
+    // Previous button
+    html += `<li class="page-item ${currentIncidentPage === 1 ? 'disabled' : ''}">
+        <a class="page-link" href="javascript:void(0)" onclick="goToIncidentPage(${currentIncidentPage - 1})"><i class="bi bi-chevron-left"></i></a>
+    </li>`;
+    
+    for (let p = 1; p <= totalPages; p++) {
+        if (totalPages > 7 && Math.abs(p - currentIncidentPage) > 2 && p !== 1 && p !== totalPages) {
+            if (p === 2 || p === totalPages - 1) {
+                html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
+            }
+            continue;
+        }
+        html += `<li class="page-item ${p === currentIncidentPage ? 'active' : ''}">
+            <a class="page-link" href="javascript:void(0)" onclick="goToIncidentPage(${p})">${p}</a>
+        </li>`;
+    }
+    
+    // Next button
+    html += `<li class="page-item ${currentIncidentPage >= totalPages ? 'disabled' : ''}">
+        <a class="page-link" href="javascript:void(0)" onclick="goToIncidentPage(${currentIncidentPage + 1})"><i class="bi bi-chevron-right"></i></a>
+    </li>`;
+    
+    controls.innerHTML = html;
+}
 </script>
 
 <script src="../assets/js/address-selector.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    initIncidentTable();
     initQCAddressSelector({
         districtSelectId: 'inc_rep_district',
         barangaySelectId: 'inc_rep_barangay',
