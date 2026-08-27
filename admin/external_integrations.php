@@ -573,7 +573,7 @@ try {
                                         <td><span class="badge bg-success bg-opacity-10 text-success border border-success-subtle"><?= htmlspecialchars(ucfirst($c['category'])) ?></span></td>
                                         <td><?= htmlspecialchars($c['geographical_scope'] ?: 'Barangay') ?></td>
                                         <td><span class="badge bg-success"><?= htmlspecialchars($c['status']) ?></span></td>
-                                        <td><?= date('M d, Y g:i a', strtotime($c['fetched_at'])) ?></td>
+                                        <td><?= date('M d, Y g:i a', strtotime($c['received_at'] ?? $c['fetched_at'] ?? 'now')) ?></td>
                                         <td class="text-center">
                                             <button type="button" class="btn btn-sm btn-outline-success fw-bold py-0 px-2" onclick="showCampaignDetails(<?= htmlspecialchars(json_encode($c), ENT_QUOTES, 'UTF-8') ?>)">
                                                 <i class="fas fa-eye me-1"></i>View Details

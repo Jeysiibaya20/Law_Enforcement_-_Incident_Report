@@ -130,11 +130,19 @@ class OperationalModuleIntegrator {
                 certificate_url TEXT NULL,
                 evidence_urls LONGTEXT NULL,
                 inspection_date DATE NULL,
+                raw_payload LONGTEXT NULL,
                 received_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 INDEX idx_doc_id (document_id),
                 INDEX idx_case_no (case_no),
                 INDEX idx_request_id (request_id)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+            try {
+                $chkRaw = $this->pdo->query("SHOW COLUMNS FROM received_inspection_documents LIKE 'raw_payload'");
+                if (!$chkRaw || $chkRaw->rowCount() === 0) {
+                    $this->pdo->exec("ALTER TABLE received_inspection_documents ADD COLUMN raw_payload LONGTEXT NULL");
+                }
+            } catch (Exception $ex) {}
 
             $this->pdo->exec("CREATE TABLE IF NOT EXISTS received_campaigns (
                 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
