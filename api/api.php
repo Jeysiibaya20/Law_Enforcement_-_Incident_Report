@@ -255,56 +255,119 @@ switch ($action) {
         break;
 
     case 'create_blotter':
-        $complainant = trim($inputData['complainant_name'] ?? $inputData['complainant'] ?? $inputData['name'] ?? '');
-        $incidentType = trim($inputData['incident_type'] ?? $inputData['type'] ?? $inputData['complaint_type'] ?? 'General Complaint');
+    case 'create_incident':
+    case 'create_report':
+    case 'create_complaint':
+    case 'incident':
+    case 'report':
+    case 'complaint':
+        $complainant = trim($inputData['complainant_name'] ?? $inputData['reporter_name'] ?? $inputData['complainant'] ?? $inputData['name'] ?? 'Citizen Complainant');
+        
+        $rawIncidentType = trim($inputData['incident_type'] ?? $inputData['type'] ?? $inputData['complaint_type'] ?? 'Other');
+        $validTypes = ['Abuse', 'Neglect', 'Violence', 'Theft', 'Assault', 'Domestic', 'Other'];
+        $normType = ucfirst(strtolower($rawIncidentType));
+        $incidentType = in_array($normType, $validTypes) ? $normType : 'Other';
+        $incidentSubtype = trim($inputData['incident_subtype'] ?? $inputData['subtype'] ?? $rawIncidentType);
+        
         $location = trim($inputData['location'] ?? $inputData['incident_location'] ?? $inputData['complainant_address'] ?? 'Quezon City');
         $narrative = trim($inputData['narrative'] ?? $inputData['description'] ?? $inputData['details'] ?? $inputData['description_of_complaint'] ?? '');
         
-        $complainantContact = trim($inputData['complainant_contact'] ?? $inputData['contact_number'] ?? '');
+        $complainantContact = trim($inputData['complainant_contact'] ?? $inputData['contact_number'] ?? $inputData['reporter_phone'] ?? $inputData['phone'] ?? '');
         $complainantAddress = trim($inputData['complainant_address'] ?? $inputData['address'] ?? '');
-        $complainantEmail = trim($inputData['complainant_email'] ?? $inputData['email'] ?? '');
+        $complainantEmail = trim($inputData['complainant_email'] ?? $inputData['email'] ?? $inputData['reporter_email'] ?? '');
         
-        $respondent = trim($inputData['respondent_name'] ?? $inputData['defendant_name'] ?? $inputData['respondent'] ?? $inputData['defendant'] ?? '');
+        $respondent = trim($inputData['respondent_name'] ?? $inputData['defendant_name'] ?? $inputData['suspect_name'] ?? $inputData['respondent'] ?? $inputData['defendant'] ?? '');
         $respondentContact = trim($inputData['respondent_contact'] ?? $inputData['defendant_contact'] ?? '');
         $respondentAddress = trim($inputData['respondent_address'] ?? $inputData['defendant_address'] ?? '');
         
         $incidentDate = !empty($inputData['incident_date']) ? date('Y-m-d', strtotime($inputData['incident_date'])) : (!empty($inputData['date']) ? date('Y-m-d', strtotime($inputData['date'])) : date('Y-m-d'));
         $incidentTime = !empty($inputData['incident_time']) ? date('H:i:s', strtotime($inputData['incident_time'])) : (!empty($inputData['time']) ? date('H:i:s', strtotime($inputData['time'])) : date('H:i:s'));
-        $priority = in_array(ucfirst(strtolower($inputData['priority'] ?? '')), ['High', 'Medium', 'Low']) ? ucfirst(strtolower($inputData['priority'])) : 'Medium';
+        
+        $rawUrgency = ucfirst(strtolower($inputData['urgency_level'] ?? $inputData['urgency'] ?? $inputData['priority'] ?? 'Medium'));
+        $urgency = in_array($rawUrgency, ['Critical', 'High', 'Medium', 'Low']) ? $rawUrgency : 'Medium';
+        $priority = in_array($rawUrgency, ['High', 'Medium', 'Low']) ? $rawUrgency : 'Medium';
 
         if (empty($complainant)) {
-            sendJsonResponse('error', 'complainant_name is required', null, 400);
+            sendJsonResponse('error', 'complainant_name / reporter_name is required', null, 400);
         }
 
         try {
-            $blotterNo = 'BLT-' . date('Ymd') . '-' . rand(1000, 9999);
-            $stmt = $pdo->prepare("
-                INSERT INTO blotters (
-                    blotter_no, complainant_name, complainant_contact, complainant_email, complainant_address,
-                    respondent_name, respondent_contact, respondent_address,
-                    incident_type, incident_date, incident_time, location, description,
-                    priority, status, created_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Pending', NOW())
+            // 1. PRIMARY DESTINATION: Insert into INCIDENTS table (Incident Report Module)
+            $caseNo = 'INC-' . date('Ymd') . '-' . rand(1000, 9999);
+            $stmtInc = $pdo->prepare("
+                INSERT INTO incidents (
+                    case_no, narrative, incident_type, incident_subtype,
+                    location, incident_date, incident_time, urgency_level,
+                    status, reporter_name, reporter_phone, reporter_email,
+                    victim_name, suspect_name, report_type, routing_group, routing_status,
+                    auto_classification, created_at
+                ) VALUES (
+                    ?, ?, ?, ?,
+                    ?, ?, ?, ?,
+                    'Submitted', ?, ?, ?,
+                    ?, ?, 'External Forwarded Complaint', 'Group 1', 'Pending',
+                    'External Department Referral', NOW()
+                )
             ");
-            $stmt->execute([
-                $blotterNo, $complainant, $complainantContact, $complainantEmail, $complainantAddress,
-                $respondent, $respondentContact, $respondentAddress,
-                $incidentType, $incidentDate, $incidentTime, $location, $narrative ?: 'No detailed narrative provided.',
-                $priority
+            $stmtInc->execute([
+                $caseNo,
+                $narrative ?: 'External forwarded complaint from partner department.',
+                $incidentType,
+                $incidentSubtype,
+                $location,
+                $incidentDate,
+                $incidentTime,
+                $urgency,
+                $complainant,
+                $complainantContact,
+                $complainantEmail,
+                $complainant,
+                $respondent
             ]);
-            $newId = $pdo->lastInsertId();
+            $incidentId = (int)$pdo->lastInsertId();
 
-            sendJsonResponse('success', 'Blotter entry filed successfully', [
-                'id'            => $newId,
+            // 2. Also create linked record in BLOTTERS table
+            $blotterNo = 'BLT-' . date('Ymd') . '-' . rand(1000, 9999);
+            try {
+                $stmtBlt = $pdo->prepare("
+                    INSERT INTO blotters (
+                        blotter_no, complainant_name, complainant_contact, complainant_email, complainant_address,
+                        respondent_name, respondent_contact, respondent_address,
+                        incident_type, incident_date, incident_time, location, description,
+                        priority, status, incident_id, created_from_incident, created_at
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Pending', ?, 1, NOW())
+                ");
+                $stmtBlt->execute([
+                    $blotterNo, $complainant, $complainantContact, $complainantEmail, $complainantAddress,
+                    $respondent, $respondentContact, $respondentAddress,
+                    $incidentType, $incidentDate, $incidentTime, $location, $narrative ?: 'No detailed narrative provided.',
+                    $priority, $incidentId
+                ]);
+            } catch (Exception $exBlt) {
+                error_log("Notice creating linked blotter: " . $exBlt->getMessage());
+            }
+
+            // Log into System Audit Trail
+            try {
+                require_once __DIR__ . '/../includes/audit_logger.php';
+                logAuditTrail('EXTERNAL_INCIDENT_REPORT_FILED', 'External API', $caseNo, "Filed external incident report for {$complainant} (Type: {$incidentType}, Case: {$caseNo}, Blotter: {$blotterNo}).", 'SUCCESS', $pdo);
+            } catch (Exception $e) {}
+
+            sendJsonResponse('success', 'Incident report successfully filed and registered into Incident Logging module', [
+                'id'            => $incidentId,
+                'incident_id'   => $incidentId,
+                'case_no'       => $caseNo,
                 'blotter_no'    => $blotterNo,
-                'status'        => 'Pending',
-                'complainant'   => $complainant,
-                'respondent'    => $respondent,
+                'destination'   => 'Incident Report Registry',
+                'status'        => 'Submitted',
+                'reporter_name' => $complainant,
+                'suspect_name'  => $respondent,
                 'incident_type' => $incidentType,
-                'description'   => $narrative
+                'location'      => $location,
+                'narrative'     => $narrative
             ], 201);
         } catch (Exception $e) {
-            sendJsonResponse('error', 'Failed to create blotter: ' . $e->getMessage(), null, 500);
+            sendJsonResponse('error', 'Failed to create incident report: ' . $e->getMessage(), null, 500);
         }
         break;
 
