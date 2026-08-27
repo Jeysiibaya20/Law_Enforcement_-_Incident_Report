@@ -166,6 +166,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <div class="setup-card">
     <div class="setup-header">
+        <img src="../assets/css/tara.png" alt="Alertara PH Logo" style="height: 48px; width: auto; margin-bottom: 10px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">
         <h4 class="fw-bold mb-1"><i class="fas fa-shield-alt me-2"></i>Set Up Authenticator 2FA</h4>
         <p class="small text-white-50 mb-0">100% Offline 2-Factor Authentication (No Email Needed)</p>
     </div>

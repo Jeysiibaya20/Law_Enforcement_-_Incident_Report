@@ -237,13 +237,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                                                     </div>
                                                     <i class="bi <?= AttachmentManager::getFileIcon($attachment['mime_type']) ?> fs-4 me-3 text-primary"></i>
                                                     <div class="flex-grow-1">
-                                                        <label for="attachment_<?= $attachment['id'] ?>" class="text-decoration-none fw-bold cursor-pointer">
-                                                            <?= htmlspecialchars($attachment['original_filename']) ?>
-                                                        </label>
+                                                        <div class="d-flex justify-content-between align-items-start gap-2 mb-1">
+                                                            <label for="attachment_<?= $attachment['id'] ?>" class="text-decoration-none fw-bold cursor-pointer mb-0">
+                                                                <?= htmlspecialchars($attachment['original_filename']) ?>
+                                                            </label>
+                                                            <?= AttachmentManager::getLevelBadge($attachment['attachment_level'] ?? '') ?>
+                                                        </div>
                                                         <?php if (!empty($attachment['description'])): ?>
                                                             <p class="text-muted small mb-1"><?= htmlspecialchars($attachment['description']) ?></p>
                                                         <?php endif; ?>
-                                                        <small class="text-muted">
+                                                        <small class="text-muted d-block">
                                                             <?= AttachmentManager::formatFileSize($attachment['file_size']) ?> • 
                                                             <?= date('M d, Y H:i', strtotime($attachment['uploaded_at'])) ?>
                                                         </small>

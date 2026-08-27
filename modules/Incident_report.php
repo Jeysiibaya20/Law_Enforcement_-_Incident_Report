@@ -700,44 +700,64 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
             $pending = count(array_filter($incidents, fn($i) => in_array($i['status'], ['Submitted', 'Pending'], true)));
             ?>
             <div class="col-12 col-sm-6 col-xl-3">
-                <article class="dashboard-analytics-card analytics-tone-notif h-100">
-                    <div class="dashboard-analytics-head">
-                        <span class="dashboard-analytics-label">Total Reports</span>
-                        <span class="dashboard-analytics-icon"><i class="bi bi-file-earmark-check"></i></span>
-                    </div>
-                    <div class="dashboard-analytics-value"><?php echo $total; ?></div>
-                    <div class="dashboard-analytics-sub">All incident records</div>
-                </article>
+                <a href="Incident_report.php" class="text-decoration-none" title="View all incident records">
+                    <article class="dashboard-analytics-card analytics-tone-notif h-100 shadow-sm" style="cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">
+                        <div class="dashboard-analytics-head">
+                            <span class="dashboard-analytics-label">Total Reports</span>
+                            <span class="dashboard-analytics-icon"><i class="bi bi-file-earmark-check"></i></span>
+                        </div>
+                        <div class="dashboard-analytics-value"><?php echo $total; ?></div>
+                        <div class="dashboard-analytics-sub d-flex justify-content-between align-items-center">
+                            <span>All incident records</span>
+                            <i class="bi bi-arrow-right-circle opacity-75"></i>
+                        </div>
+                    </article>
+                </a>
             </div>
             <div class="col-12 col-sm-6 col-xl-3">
-                <article class="dashboard-analytics-card analytics-tone-danger h-100">
-                    <div class="dashboard-analytics-head">
-                        <span class="dashboard-analytics-label">Critical Cases</span>
-                        <span class="dashboard-analytics-icon"><i class="bi bi-exclamation-triangle-fill"></i></span>
-                    </div>
-                    <div class="dashboard-analytics-value"><?php echo $critical; ?></div>
-                    <div class="dashboard-analytics-sub">Immediate response</div>
-                </article>
+                <a href="Incident_report.php?urgency=Critical" class="text-decoration-none" title="Filter Critical urgency cases">
+                    <article class="dashboard-analytics-card analytics-tone-danger h-100 shadow-sm" style="cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">
+                        <div class="dashboard-analytics-head">
+                            <span class="dashboard-analytics-label">Critical Cases</span>
+                            <span class="dashboard-analytics-icon"><i class="bi bi-exclamation-triangle-fill"></i></span>
+                        </div>
+                        <div class="dashboard-analytics-value"><?php echo $critical; ?></div>
+                        <div class="dashboard-analytics-sub d-flex justify-content-between align-items-center">
+                            <span>Immediate response</span>
+                            <i class="bi bi-arrow-right-circle opacity-75"></i>
+                        </div>
+                    </article>
+                </a>
             </div>
             <div class="col-12 col-sm-6 col-xl-3">
-                <article class="dashboard-analytics-card analytics-tone-pending h-100">
-                    <div class="dashboard-analytics-head">
-                        <span class="dashboard-analytics-label">High-Risk Cases</span>
-                        <span class="dashboard-analytics-icon"><i class="bi bi-shield-exclamation"></i></span>
-                    </div>
-                    <div class="dashboard-analytics-value"><?php echo $high_risk; ?></div>
-                    <div class="dashboard-analytics-sub">Requires monitoring</div>
-                </article>
+                <a href="Incident_report.php?urgency=High" class="text-decoration-none" title="Filter High-Risk cases">
+                    <article class="dashboard-analytics-card analytics-tone-pending h-100 shadow-sm" style="cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">
+                        <div class="dashboard-analytics-head">
+                            <span class="dashboard-analytics-label">High-Risk Cases</span>
+                            <span class="dashboard-analytics-icon"><i class="bi bi-shield-exclamation"></i></span>
+                        </div>
+                        <div class="dashboard-analytics-value"><?php echo $high_risk; ?></div>
+                        <div class="dashboard-analytics-sub d-flex justify-content-between align-items-center">
+                            <span>Requires monitoring</span>
+                            <i class="bi bi-arrow-right-circle opacity-75"></i>
+                        </div>
+                    </article>
+                </a>
             </div>
             <div class="col-12 col-sm-6 col-xl-3">
-                <article class="dashboard-analytics-card analytics-tone-info h-100">
-                    <div class="dashboard-analytics-head">
-                        <span class="dashboard-analytics-label">Pending Review</span>
-                        <span class="dashboard-analytics-icon"><i class="bi bi-clock-history"></i></span>
-                    </div>
-                    <div class="dashboard-analytics-value"><?php echo $pending; ?></div>
-                    <div class="dashboard-analytics-sub">Awaiting verification</div>
-                </article>
+                <a href="Incident_report.php?status=Pending" class="text-decoration-none" title="Filter Pending verification reports">
+                    <article class="dashboard-analytics-card analytics-tone-info h-100 shadow-sm" style="cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">
+                        <div class="dashboard-analytics-head">
+                            <span class="dashboard-analytics-label">Pending Review</span>
+                            <span class="dashboard-analytics-icon"><i class="bi bi-clock-history"></i></span>
+                        </div>
+                        <div class="dashboard-analytics-value"><?php echo $pending; ?></div>
+                        <div class="dashboard-analytics-sub d-flex justify-content-between align-items-center">
+                            <span>Awaiting verification</span>
+                            <i class="bi bi-arrow-right-circle opacity-75"></i>
+                        </div>
+                    </article>
+                </a>
             </div>
         </div>
 
@@ -1077,22 +1097,34 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
                         <input type="text" name="suspect_name" class="form-control" placeholder="If known">
                     </div>
 
-                    <!-- Attachments Section -->
+                    <!-- Attachments Section with Multi-Level Categorization -->
                     <hr>
-                    <h6 class="mb-3"><i class="bi bi-paperclip"></i> Attachments (Optional)</h6>
+                    <h6 class="mb-3"><i class="bi bi-paperclip"></i> Classified Attachments (Optional)</h6>
                     <div id="incidentAttachmentsContainer">
-                        <div class="attachment-item border rounded p-3 mb-3">
+                        <div class="attachment-item border rounded p-3 mb-3 bg-light">
                             <div class="row g-3">
-                                <div class="col-md-6">
-                                    <label class="form-label">File</label>
+                                <div class="col-md-4">
+                                    <label class="form-label fw-semibold">Attachment Level / Type</label>
+                                    <select name="attachment_levels[]" class="form-select">
+                                        <option value="Valid ID / Government ID">🪪 Valid ID / Government ID</option>
+                                        <option value="Physical / Digital Evidence" selected>🛡️ Physical / Digital Evidence</option>
+                                        <option value="CCTV Footage & Screenshot">📹 CCTV Footage & Screenshot</option>
+                                        <option value="Witness Affidavit & Statement">📜 Witness Affidavit / Statement</option>
+                                        <option value="Medical / Medico-Legal Report">🏥 Medical / Medico-Legal</option>
+                                        <option value="Barangay / Police Certification">🏛️ Barangay / Police Certification</option>
+                                        <option value="Documentary / Other Proof">📁 Documentary / Other Proof</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label fw-semibold">File Upload</label>
                                     <input type="file" name="attachments[]" class="form-control" accept="image/*,.pdf,.doc,.docx,.xls,.xlsx,.txt">
                                 </div>
-                                <div class="col-md-5">
-                                    <label class="form-label">Description</label>
-                                    <input type="text" name="attachment_descriptions[]" class="form-control" placeholder="Brief description of the file">
+                                <div class="col-md-3">
+                                    <label class="form-label fw-semibold">Description / Label</label>
+                                    <input type="text" name="attachment_descriptions[]" class="form-control" placeholder="e.g. Driver License, Photo Proof">
                                 </div>
                                 <div class="col-md-1 d-flex align-items-end">
-                                    <button type="button" class="btn btn-outline-danger" onclick="removeIncidentAttachment(this)">
+                                    <button type="button" class="btn btn-outline-danger w-100" onclick="removeIncidentAttachment(this)" title="Remove item">
                                         <i class="bi bi-trash"></i>
                                     </button>
                                 </div>

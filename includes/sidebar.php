@@ -259,6 +259,12 @@ $avatar_url = !empty($_SESSION['user_picture']) ? $_SESSION['user_picture'] : 'h
                             </a>
                         </li>
                         <li class="sidebar-menu-item">
+                            <a href="<?php echo $base_url; ?>admin/archive.php" class="sidebar-link sidebar-accent-reports <?php echo $current_page === 'archive.php' ? 'active' : ''; ?>">
+                                <i class="fas fa-archive sidebar-icon" aria-hidden="true"></i>
+                                <span>Archive & Retention</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-menu-item">
                             <a href="<?php echo $base_url; ?>admin/setup_automated_reports.php" class="sidebar-link sidebar-accent-auto <?php echo $current_page === 'setup_automated_reports.php' ? 'active' : ''; ?>">
                                 <i class="fas fa-robot sidebar-icon" aria-hidden="true"></i>
                                 <span>Automated Reports</span>

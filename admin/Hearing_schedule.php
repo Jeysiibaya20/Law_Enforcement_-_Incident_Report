@@ -15,20 +15,26 @@ $status_filter = trim($_GET['status'] ?? '');
 $where = [];
 $params = [];
 
+$unscheduled = !empty($_GET['unscheduled']);
+
 if ($search !== '') {
     $where[] = '(blotter_no LIKE ? OR complainant_name LIKE ? OR respondent_name LIKE ? OR incident_type LIKE ? OR location LIKE ?)';
     $term = '%' . $search . '%';
     $params = array_merge($params, [$term, $term, $term, $term, $term]);
 }
 
-if ($date_from !== '') {
-    $where[] = 'hearing_date >= ?';
-    $params[] = $date_from;
-}
+if ($unscheduled) {
+    $where[] = '(hearing_date IS NULL OR hearing_date = "" OR hearing_date = "0000-00-00")';
+} else {
+    if ($date_from !== '') {
+        $where[] = 'hearing_date >= ?';
+        $params[] = $date_from;
+    }
 
-if ($date_to !== '') {
-    $where[] = 'hearing_date <= ?';
-    $params[] = $date_to;
+    if ($date_to !== '') {
+        $where[] = 'hearing_date <= ?';
+        $params[] = $date_to;
+    }
 }
 
 if ($status_filter !== '') {
@@ -63,7 +69,7 @@ try {
         SUM(CASE WHEN hearing_date >= CURDATE() THEN 1 ELSE 0 END) AS upcoming,
         SUM(CASE WHEN hearing_date = CURDATE() THEN 1 ELSE 0 END) AS today,
         SUM(CASE WHEN hearing_date < CURDATE() THEN 1 ELSE 0 END) AS past,
-        SUM(CASE WHEN hearing_date IS NULL AND hearing_time IS NULL AND hearing_location IS NULL THEN 1 ELSE 0 END) AS unscheduled
+        SUM(CASE WHEN hearing_date IS NULL OR hearing_date = '' OR hearing_date = '0000-00-00' THEN 1 ELSE 0 END) AS unscheduled
         FROM blotters");
     $summary = $summaryStmt->fetch(PDO::FETCH_ASSOC);
 } catch (Exception $e) {
@@ -74,6 +80,7 @@ function buildPageUrl($pageNum, $search, $date_from, $date_to, $status_filter) {
     $p = [
         'page' => $pageNum
     ];
+    if (!empty($_GET['unscheduled'])) $p['unscheduled'] = '1';
     if ($search !== '') $p['search'] = $search;
     if ($date_from !== '') $p['date_from'] = $date_from;
     if ($date_to !== '') $p['date_to'] = $date_to;
@@ -83,50 +90,71 @@ function buildPageUrl($pageNum, $search, $date_from, $date_to, $status_filter) {
 ?>
 <div class="main-content" style="background:#fff; color:#000;">
     <div class="content-container">
-        <div class="d-flex justify-content-between align-items-center mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
             <div>
-                <h1 class="h2" style="color:#000;">Hearing Schedule</h1>
+                <h1 class="h2 fw-bold" style="color:#000;">Hearing Schedule</h1>
                 <p class="text-muted mb-0" style="color:#000;">Manage upcoming hearings, review schedule details, and connect each hearing to its recorded result.</p>
             </div>
-            <a href="hearing_result.php" class="btn btn-primary"><i class="bi bi-card-checklist me-1"></i>View Hearing Results</a>
+            <a href="hearing_result.php" class="btn btn-primary fw-semibold"><i class="bi bi-card-checklist me-1"></i>View Hearing Results</a>
         </div>
 
+        <!-- Clickable Stat Boxes -->
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3 mb-4">
             <div class="col">
-                <div class="card border-0 shadow-sm" style="background:#fff; color:#000;">
-                    <div class="card-body">
-                        <h6 class="text-uppercase mb-2" style="font-size:0.82rem; letter-spacing:.08em;">Upcoming Hearings</h6>
-                        <div class="display-6 fw-bold"><?= intval($summary['upcoming']) ?></div>
-                        <p class="mb-0 text-muted" style="color:#000;">Hearings scheduled today or later.</p>
+                <a href="Hearing_schedule.php?date_from=<?= date('Y-m-d') ?>" class="text-decoration-none text-dark" title="Filter Upcoming hearings">
+                    <div class="card border shadow-sm h-100" style="background:#fff; color:#000; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none'; this.style.boxShadow=''">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h6 class="text-uppercase text-primary fw-bold mb-0" style="font-size:0.82rem; letter-spacing:.08em;">Upcoming Hearings</h6>
+                                <i class="bi bi-calendar-check text-primary fs-5"></i>
+                            </div>
+                            <div class="display-6 fw-bold"><?= intval($summary['upcoming']) ?></div>
+                            <p class="mb-0 text-muted small">Scheduled today or later &rarr;</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card border-0 shadow-sm" style="background:#fff; color:#000;">
-                    <div class="card-body">
-                        <h6 class="text-uppercase mb-2" style="font-size:0.82rem; letter-spacing:.08em;">Today</h6>
-                        <div class="display-6 fw-bold"><?= intval($summary['today']) ?></div>
-                        <p class="mb-0 text-muted" style="color:#000;">Hearings happening today.</p>
+                <a href="Hearing_schedule.php?date_from=<?= date('Y-m-d') ?>&date_to=<?= date('Y-m-d') ?>" class="text-decoration-none text-dark" title="Filter Today's hearings">
+                    <div class="card border shadow-sm h-100" style="background:#fff; color:#000; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none'; this.style.boxShadow=''">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h6 class="text-uppercase text-success fw-bold mb-0" style="font-size:0.82rem; letter-spacing:.08em;">Today</h6>
+                                <i class="bi bi-clock text-success fs-5"></i>
+                            </div>
+                            <div class="display-6 fw-bold"><?= intval($summary['today']) ?></div>
+                            <p class="mb-0 text-muted small">Happening today &rarr;</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card border-0 shadow-sm" style="background:#fff; color:#000;">
-                    <div class="card-body">
-                        <h6 class="text-uppercase mb-2" style="font-size:0.82rem; letter-spacing:.08em;">Past Hearings</h6>
-                        <div class="display-6 fw-bold"><?= intval($summary['past']) ?></div>
-                        <p class="mb-0 text-muted" style="color:#000;">Hearings already held.</p>
+                <a href="Hearing_schedule.php?date_to=<?= date('Y-m-d', strtotime('-1 day')) ?>" class="text-decoration-none text-dark" title="Filter Past hearings">
+                    <div class="card border shadow-sm h-100" style="background:#fff; color:#000; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none'; this.style.boxShadow=''">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h6 class="text-uppercase text-secondary fw-bold mb-0" style="font-size:0.82rem; letter-spacing:.08em;">Past Hearings</h6>
+                                <i class="bi bi-archive text-secondary fs-5"></i>
+                            </div>
+                            <div class="display-6 fw-bold"><?= intval($summary['past']) ?></div>
+                            <p class="mb-0 text-muted small">Hearings already held &rarr;</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card border-0 shadow-sm" style="background:#fff; color:#000;">
-                    <div class="card-body">
-                        <h6 class="text-uppercase mb-2" style="font-size:0.82rem; letter-spacing:.08em;">Unscheduled</h6>
-                        <div class="display-6 fw-bold"><?= intval($summary['unscheduled']) ?></div>
-                        <p class="mb-0 text-muted" style="color:#000;">Records that still need hearing details.</p>
+                <a href="Hearing_schedule.php?unscheduled=1" class="text-decoration-none text-dark" title="Filter Unscheduled blotters">
+                    <div class="card border shadow-sm h-100" style="background:#fff; color:#000; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none'; this.style.boxShadow=''">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h6 class="text-uppercase text-warning fw-bold mb-0" style="font-size:0.82rem; letter-spacing:.08em;">Unscheduled</h6>
+                                <i class="bi bi-question-circle text-warning fs-5"></i>
+                            </div>
+                            <div class="display-6 fw-bold"><?= intval($summary['unscheduled']) ?></div>
+                            <p class="mb-0 text-muted small">Needs hearing details &rarr;</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 

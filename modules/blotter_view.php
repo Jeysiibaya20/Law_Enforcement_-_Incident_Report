@@ -282,18 +282,21 @@ $isPrintMode = isset($_GET['print']) && $_GET['print'] == 1;
                         </div>
                         <i class="bi <?= AttachmentManager::getFileIcon($attachment['mime_type']) ?> me-2"></i>
                         <div class="flex-grow-1">
-                            <label for="attachment_<?= $attachment['id'] ?>" class="cursor-pointer">
-                                <a href="download_attachment.php?type=blotter&file=<?= htmlspecialchars($attachment['stored_filename']) ?>&action=view" 
-                                   target="_blank" class="text-decoration-none">
-                                    <?= htmlspecialchars($attachment['original_filename']) ?>
-                                </a>
-                            </label>
+                            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+                                <label for="attachment_<?= $attachment['id'] ?>" class="cursor-pointer mb-0">
+                                    <a href="download_attachment.php?type=blotter&file=<?= htmlspecialchars($attachment['stored_filename']) ?>&action=view" 
+                                       target="_blank" class="text-decoration-none fw-semibold">
+                                        <?= htmlspecialchars($attachment['original_filename']) ?>
+                                    </a>
+                                </label>
+                                <?= AttachmentManager::getLevelBadge($attachment['attachment_level'] ?? '') ?>
+                            </div>
                             <?php if (!empty($attachment['description'])): ?>
-                                <br><small class="text-muted"><?= htmlspecialchars($attachment['description']) ?></small>
+                                <small class="text-muted d-block"><?= htmlspecialchars($attachment['description']) ?></small>
                             <?php endif; ?>
-                            <br><small class="text-muted">
+                            <small class="text-muted d-block">
                                 <?= AttachmentManager::formatFileSize($attachment['file_size']) ?> • 
-                                Uploaded by <?= htmlspecialchars($attachment['uploaded_by_name']) ?> on 
+                                Uploaded by <?= htmlspecialchars($attachment['uploaded_by_name'] ?? 'Officer') ?> on 
                                 <?= date('M d, Y H:i', strtotime($attachment['uploaded_at'])) ?>
                             </small>
                         </div>
@@ -312,18 +315,21 @@ $isPrintMode = isset($_GET['print']) && $_GET['print'] == 1;
                         </div>
                         <i class="bi <?= AttachmentManager::getFileIcon($attachment['mime_type']) ?> me-2"></i>
                         <div class="flex-grow-1">
-                            <label for="attachment_<?= $attachment['id'] ?>" class="cursor-pointer">
-                                <a href="download_attachment.php?type=blotter&file=<?= htmlspecialchars($attachment['stored_filename']) ?>&action=view" 
-                                   target="_blank" class="text-decoration-none">
-                                    <?= htmlspecialchars($attachment['original_filename']) ?>
-                                </a>
-                            </label>
+                            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+                                <label for="attachment_<?= $attachment['id'] ?>" class="cursor-pointer mb-0">
+                                    <a href="download_attachment.php?type=blotter&file=<?= htmlspecialchars($attachment['stored_filename']) ?>&action=view" 
+                                       target="_blank" class="text-decoration-none fw-semibold">
+                                        <?= htmlspecialchars($attachment['original_filename']) ?>
+                                    </a>
+                                </label>
+                                <?= AttachmentManager::getLevelBadge($attachment['attachment_level'] ?? '') ?>
+                            </div>
                             <?php if (!empty($attachment['description'])): ?>
-                                <br><small class="text-muted"><?= htmlspecialchars($attachment['description']) ?></small>
+                                <small class="text-muted d-block"><?= htmlspecialchars($attachment['description']) ?></small>
                             <?php endif; ?>
-                            <br><small class="text-muted">
+                            <small class="text-muted d-block">
                                 <?= AttachmentManager::formatFileSize($attachment['file_size']) ?> • 
-                                Uploaded by <?= htmlspecialchars($attachment['uploaded_by_name']) ?> on 
+                                Uploaded by <?= htmlspecialchars($attachment['uploaded_by_name'] ?? 'Officer') ?> on 
                                 <?= date('M d, Y H:i', strtotime($attachment['uploaded_at'])) ?>
                             </small>
                         </div>

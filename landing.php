@@ -111,24 +111,34 @@ require_once "includes/navbar.php";
                 </a>
             </div>
             <div class="col-12 col-md-4">
-                <article class="dashboard-analytics-card analytics-tone-pending h-100">
-                    <div class="dashboard-analytics-head">
-                        <span class="dashboard-analytics-label">Active Cases</span>
-                        <span class="dashboard-analytics-icon"><i class="fas fa-spinner"></i></span>
-                    </div>
-                    <div class="dashboard-analytics-value"><?php echo $activeCases; ?></div>
-                    <div class="dashboard-analytics-sub">Currently in progress</div>
-                </article>
+                <a href="modules/my_reports.php" class="text-decoration-none" title="View active in-progress cases">
+                    <article class="dashboard-analytics-card analytics-tone-pending h-100" style="cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">
+                        <div class="dashboard-analytics-head">
+                            <span class="dashboard-analytics-label">Active Cases</span>
+                            <span class="dashboard-analytics-icon"><i class="fas fa-spinner"></i></span>
+                        </div>
+                        <div class="dashboard-analytics-value"><?php echo $activeCases; ?></div>
+                        <div class="dashboard-analytics-sub d-flex justify-content-between align-items-center">
+                            <span>Currently in progress</span>
+                            <i class="fas fa-chevron-right opacity-75"></i>
+                        </div>
+                    </article>
+                </a>
             </div>
             <div class="col-12 col-md-4">
-                <article class="dashboard-analytics-card analytics-tone-subs h-100">
-                    <div class="dashboard-analytics-head">
-                        <span class="dashboard-analytics-label">My Clearances</span>
-                        <span class="dashboard-analytics-icon"><i class="fas fa-file-contract"></i></span>
-                    </div>
-                    <div class="dashboard-analytics-value"><?php echo $myClearances; ?></div>
-                    <div class="dashboard-analytics-sub">Requested certificates</div>
-                </article>
+                <a href="modules/Request_form.php" class="text-decoration-none" title="Request clearances and certificates">
+                    <article class="dashboard-analytics-card analytics-tone-subs h-100" style="cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">
+                        <div class="dashboard-analytics-head">
+                            <span class="dashboard-analytics-label">My Clearances</span>
+                            <span class="dashboard-analytics-icon"><i class="fas fa-file-contract"></i></span>
+                        </div>
+                        <div class="dashboard-analytics-value"><?php echo $myClearances; ?></div>
+                        <div class="dashboard-analytics-sub d-flex justify-content-between align-items-center">
+                            <span>Requested certificates</span>
+                            <i class="fas fa-chevron-right opacity-75"></i>
+                        </div>
+                    </article>
+                </a>
             </div>
         </div>
 

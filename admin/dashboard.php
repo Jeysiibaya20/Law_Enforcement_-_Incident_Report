@@ -83,41 +83,61 @@ require_once '../includes/header.php';
                 <!-- ====== Analytics Strip (Gradient Cards) ====== -->
                 <section class="dashboard-analytics-strip" aria-label="Dashboard analytics">
                     <div class="dashboard-analytics-grid">
-                        <article class="dashboard-analytics-card analytics-tone-subs">
-                            <div class="dashboard-analytics-head">
-                                <span class="dashboard-analytics-label">Total Users</span>
-                                <span class="dashboard-analytics-icon"><i class="fas fa-users"></i></span>
-                            </div>
-                            <div class="dashboard-analytics-value"><?php echo $totalUsers; ?></div>
-                            <div class="dashboard-analytics-sub">Registered accounts</div>
-                        </article>
+                        <a href="users.php" class="text-decoration-none" title="Manage registered users">
+                            <article class="dashboard-analytics-card analytics-tone-subs" style="cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">
+                                <div class="dashboard-analytics-head">
+                                    <span class="dashboard-analytics-label">Total Users</span>
+                                    <span class="dashboard-analytics-icon"><i class="fas fa-users"></i></span>
+                                </div>
+                                <div class="dashboard-analytics-value"><?php echo $totalUsers; ?></div>
+                                <div class="dashboard-analytics-sub d-flex justify-content-between align-items-center">
+                                    <span>Registered accounts</span>
+                                    <i class="fas fa-chevron-right opacity-75"></i>
+                                </div>
+                            </article>
+                        </a>
 
-                        <article class="dashboard-analytics-card analytics-tone-notif">
-                            <div class="dashboard-analytics-head">
-                                <span class="dashboard-analytics-label">Total Blotters</span>
-                                <span class="dashboard-analytics-icon"><i class="fas fa-clipboard-list"></i></span>
-                            </div>
-                            <div class="dashboard-analytics-value"><?php echo $totalBlotters; ?></div>
-                            <div class="dashboard-analytics-sub">All recorded blotters</div>
-                        </article>
+                        <a href="blotters.php" class="text-decoration-none" title="View all blotters">
+                            <article class="dashboard-analytics-card analytics-tone-notif" style="cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">
+                                <div class="dashboard-analytics-head">
+                                    <span class="dashboard-analytics-label">Total Blotters</span>
+                                    <span class="dashboard-analytics-icon"><i class="fas fa-clipboard-list"></i></span>
+                                </div>
+                                <div class="dashboard-analytics-value"><?php echo $totalBlotters; ?></div>
+                                <div class="dashboard-analytics-sub d-flex justify-content-between align-items-center">
+                                    <span>All recorded blotters</span>
+                                    <i class="fas fa-chevron-right opacity-75"></i>
+                                </div>
+                            </article>
+                        </a>
 
-                        <article class="dashboard-analytics-card analytics-tone-pending">
-                            <div class="dashboard-analytics-head">
-                                <span class="dashboard-analytics-label">Pending Blotters</span>
-                                <span class="dashboard-analytics-icon"><i class="fas fa-clock"></i></span>
-                            </div>
-                            <div class="dashboard-analytics-value"><?php echo $pendingBlotters; ?></div>
-                            <div class="dashboard-analytics-sub">Awaiting action</div>
-                        </article>
+                        <a href="blotters.php?status=Pending" class="text-decoration-none" title="Filter Pending blotters">
+                            <article class="dashboard-analytics-card analytics-tone-pending" style="cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">
+                                <div class="dashboard-analytics-head">
+                                    <span class="dashboard-analytics-label">Pending Blotters</span>
+                                    <span class="dashboard-analytics-icon"><i class="fas fa-clock"></i></span>
+                                </div>
+                                <div class="dashboard-analytics-value"><?php echo $pendingBlotters; ?></div>
+                                <div class="dashboard-analytics-sub d-flex justify-content-between align-items-center">
+                                    <span>Awaiting action</span>
+                                    <i class="fas fa-chevron-right opacity-75"></i>
+                                </div>
+                            </article>
+                        </a>
 
-                        <article class="dashboard-analytics-card analytics-tone-success">
-                            <div class="dashboard-analytics-head">
-                                <span class="dashboard-analytics-label">Verified Users</span>
-                                <span class="dashboard-analytics-icon"><i class="fas fa-user-check"></i></span>
-                            </div>
-                            <div class="dashboard-analytics-value"><?php echo $verifiedUsers; ?></div>
-                            <div class="dashboard-analytics-sub">Email verified</div>
-                        </article>
+                        <a href="account_approvals.php" class="text-decoration-none" title="Review user approvals">
+                            <article class="dashboard-analytics-card analytics-tone-success" style="cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">
+                                <div class="dashboard-analytics-head">
+                                    <span class="dashboard-analytics-label">Verified Users</span>
+                                    <span class="dashboard-analytics-icon"><i class="fas fa-user-check"></i></span>
+                                </div>
+                                <div class="dashboard-analytics-value"><?php echo $verifiedUsers; ?></div>
+                                <div class="dashboard-analytics-sub d-flex justify-content-between align-items-center">
+                                    <span>Approvals & status</span>
+                                    <i class="fas fa-chevron-right opacity-75"></i>
+                                </div>
+                            </article>
+                        </a>
                     </div>
                 </section>
 
