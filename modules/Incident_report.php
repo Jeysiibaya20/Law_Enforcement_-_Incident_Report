@@ -1545,49 +1545,89 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
 </div>
 
 <script>
+function setElText(id, text) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = text || '—';
+}
+
+function setElHtml(id, html) {
+    const el = document.getElementById(id);
+    if (el) el.innerHTML = html;
+}
+
+function setElVal(id, val) {
+    const el = document.getElementById(id);
+    if (el) el.value = val || '';
+}
+
 function loadIncidentDetails(incident) {
-    document.getElementById('view_case_no').textContent = incident.case_no;
-    document.getElementById('view_status').innerHTML = '<span class="badge bg-info-subtle text-info">' + incident.status + '</span>';
-    document.getElementById('view_routing_group').textContent = incident.routing_group || 'Not forwarded yet';
-    document.getElementById('view_auto_class').textContent = incident.auto_classification;
-    document.getElementById('view_urgency').innerHTML = '<span class="badge bg-warning-subtle text-warning">' + incident.urgency_level + '</span>';
-    document.getElementById('view_reporter').textContent = incident.reporter_name;
-    document.getElementById('view_reporter_type').textContent = incident.reporter_type;
-    document.getElementById('view_incident_date').textContent = incident.incident_date;
-    document.getElementById('view_incident_time').textContent = incident.incident_time || 'N/A';
-    document.getElementById('view_location').textContent = incident.location;
-    document.getElementById('view_narrative').textContent = incident.narrative;
+    if (!incident) return;
     
-    // Populate signature fields
-    document.getElementById('sig_reporter_name').textContent = incident.reporter_name || 'Report By';
-    document.getElementById('sig_date').textContent = new Date(incident.created_at).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-    document.getElementById('record_date').textContent = 'Record Date: ' + new Date(incident.created_at).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    setElText('view_case_no', incident.case_no || 'N/A');
     
-    // Display NLP analysis
-    document.getElementById('view_nlp_threat').innerHTML = '<span class="badge bg-warning-subtle text-warning">' + (incident.nlp_threat_level || 'N/A') + '</span>';
-    document.getElementById('view_nlp_severity').textContent = (incident.nlp_severity_score || 0).toFixed(1) + '/100';
-    document.getElementById('view_nlp_confidence').textContent = (incident.nlp_confidence_score || 0).toFixed(1) + '%';
-    document.getElementById('view_nlp_sentiment').textContent = incident.nlp_sentiment || 'Neutral';
+    // Status badge
+    let statusClass = 'bg-secondary';
+    const st = (incident.status || 'Pending').toLowerCase();
+    if (st.includes('resolved') || st.includes('verified')) statusClass = 'bg-success';
+    else if (st.includes('review') || st.includes('investigation')) statusClass = 'bg-info text-dark';
+    else if (st.includes('pending') || st.includes('submitted')) statusClass = 'bg-warning text-dark';
+    setElHtml('view_status', '<span class="badge ' + statusClass + '">' + (incident.status || 'Pending') + '</span>');
     
-    // Parse and display emotions
+    setElText('view_auto_class', incident.auto_classification || incident.incident_type || 'General Incident');
+    
+    let urgClass = 'bg-secondary';
+    const urg = (incident.urgency_level || 'Medium').toLowerCase();
+    if (urg === 'critical') urgClass = 'bg-danger';
+    else if (urg === 'high') urgClass = 'bg-warning text-dark';
+    else if (urg === 'medium') urgClass = 'bg-info text-dark';
+    setElHtml('view_urgency', '<span class="badge ' + urgClass + '">' + (incident.urgency_level || 'Medium') + '</span>');
+    
+    setElText('view_reporter', incident.reporter_name || 'Anonymous / Citizen');
+    setElText('view_reporter_type', incident.reporter_type || 'Citizen');
+    setElText('view_incident_date', incident.incident_date || 'N/A');
+    setElText('view_incident_time', incident.incident_time || 'N/A');
+    setElText('view_location', incident.location || 'Not Specified');
+    setElText('view_narrative', incident.narrative || 'No description provided.');
+    
+    // Signature fields
+    setElText('sig_reporter_name', incident.reporter_name || 'Reporting Officer/User');
+    const createdDate = incident.created_at ? new Date(incident.created_at).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : new Date().toLocaleDateString();
+    setElText('sig_date', createdDate);
+    
+    // NLP Analysis
+    const threat = incident.nlp_threat_level || 'Low';
+    let threatBadge = 'bg-secondary';
+    if (threat === 'Critical') threatBadge = 'bg-danger';
+    else if (threat === 'High') threatBadge = 'bg-warning text-dark';
+    else if (threat === 'Medium') threatBadge = 'bg-info text-dark';
+    else if (threat === 'Low') threatBadge = 'bg-success';
+    setElHtml('view_nlp_threat', '<span class="badge ' + threatBadge + '">' + threat + '</span>');
+    
+    setElText('view_nlp_severity', (Number(incident.nlp_severity_score) || 0).toFixed(1) + '/100');
+    setElText('view_nlp_confidence', (Number(incident.nlp_confidence_score) || 0).toFixed(1) + '%');
+    setElText('view_nlp_sentiment', incident.nlp_sentiment || 'Neutral');
+    
+    // Parse emotions
     let emotions = [];
     if (incident.nlp_emotions) {
         try {
-            emotions = JSON.parse(incident.nlp_emotions);
+            emotions = typeof incident.nlp_emotions === 'string' ? JSON.parse(incident.nlp_emotions) : incident.nlp_emotions;
         } catch (e) {
             emotions = [incident.nlp_emotions];
         }
     }
-    document.getElementById('view_nlp_emotions').innerHTML = emotions.length > 0 ? 
-        emotions.map(e => '<span class="badge bg-secondary-subtle text-secondary">' + e + '</span>').join(' ') : 
-        '<small class="text-muted">None</small>';
+    if (Array.isArray(emotions) && emotions.length > 0) {
+        setElHtml('view_nlp_emotions', emotions.map(function(e) { return '<span class="badge bg-secondary me-1">' + e + '</span>'; }).join(''));
+    } else {
+        setElHtml('view_nlp_emotions', '<small class="text-muted">None detected</small>');
+    }
     
     let victimInfo = incident.victim_name || 'Not provided';
     if (incident.victim_age) victimInfo += ', Age: ' + incident.victim_age;
     if (incident.victim_gender) victimInfo += ', ' + incident.victim_gender;
-    document.getElementById('view_victim').textContent = victimInfo;
+    setElText('view_victim', victimInfo);
     
-    document.getElementById('view_suspect').textContent = incident.suspect_name || 'Not provided';
+    setElText('view_suspect', incident.suspect_name || 'Not provided');
 }
 
 // Print incident report
@@ -1628,22 +1668,40 @@ function printIncidentReport() {
 }
 
 function loadIncidentForEdit(incident) {
-    document.getElementById('edit_incident_id').value = incident.id;
-    document.getElementById('edit_case_no').value = incident.case_no;
-    document.getElementById('edit_status').value = incident.status;
-    document.getElementById('edit_auto_class').value = incident.auto_classification;
-    document.getElementById('edit_manual_class').value = incident.manual_classification || '';
-    document.getElementById('edit_urgency').value = incident.urgency_level;
-    document.getElementById('edit_high_risk').checked = incident.is_high_risk === 1;
-    document.getElementById('edit_admin_notes').value = incident.admin_notes || '';
-    document.getElementById('edit_assigned_to').value = incident.assigned_to || '';
-    document.getElementById('edit_routing_group').value = incident.routing_group || '';
-    document.getElementById('edit_routing_notes').value = incident.forwarding_notes || '';
+    if (!incident) return;
+    setElVal('edit_incident_id', incident.id);
+    setElVal('edit_case_no', incident.case_no);
+    setElVal('edit_status', incident.status);
+    setElVal('edit_auto_class', incident.auto_classification);
+    setElVal('edit_manual_class', incident.manual_classification || '');
+    setElVal('edit_urgency', incident.urgency_level);
+    const hr = document.getElementById('edit_high_risk');
+    if (hr) hr.checked = incident.is_high_risk === 1 || incident.is_high_risk === '1';
+    setElVal('edit_admin_notes', incident.admin_notes || '');
+    setElVal('edit_assigned_to', incident.assigned_to || '');
+    setElVal('edit_routing_group', incident.routing_group || '');
+    setElVal('edit_routing_notes', incident.forwarding_notes || '');
+}
+
+function loadIncidentForUserEdit(incident) {
+    if (!incident) return;
+    setElVal('user_edit_incident_id', incident.id);
+    setElVal('user_edit_case_no', incident.case_no);
+    setElVal('user_edit_incident_type', incident.incident_type || incident.auto_classification || 'Other');
+    setElVal('user_edit_incident_date', incident.incident_date);
+    setElVal('user_edit_incident_time', incident.incident_time);
+    setElVal('user_edit_location', incident.location);
+    setElVal('user_edit_narrative', incident.narrative);
+    setElVal('user_edit_victim_name', incident.victim_name || '');
+    setElVal('user_edit_victim_age', incident.victim_age || '');
+    setElVal('user_edit_victim_gender', incident.victim_gender || '');
+    setElVal('user_edit_suspect_name', incident.suspect_name || '');
 }
 
 function loadIncidentForForwarding(incident) {
-    document.getElementById('forward_incident_id').value = incident.id;
-    document.getElementById('forward_case_no').value = incident.case_no;
+    if (!incident) return;
+    setElVal('forward_incident_id', incident.id);
+    setElVal('forward_case_no', incident.case_no);
 }
 
 // Attachment management functions
