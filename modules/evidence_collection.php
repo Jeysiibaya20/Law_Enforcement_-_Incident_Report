@@ -264,10 +264,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             require_once '../modules/OperationalModuleIntegrator.php';
             $integrator = new OperationalModuleIntegrator($pdo);
 
+            $caseNo = trim($_POST['case_number'] ?? '');
+            if ($caseNo === '__custom__' || empty($caseNo)) {
+                if (!empty($_POST['custom_case_number'])) {
+                    $caseNo = trim($_POST['custom_case_number']);
+                }
+            }
+
+            $camLocation = trim($_POST['camera_location'] ?? '');
+            if ($camLocation === '__custom__' || empty($camLocation)) {
+                if (!empty($_POST['custom_camera_location'])) {
+                    $camLocation = trim($_POST['custom_camera_location']);
+                }
+            }
+
             $cctvData = [
-                'case_number' => trim($_POST['case_number'] ?? ''),
+                'case_number' => $caseNo,
                 'incident_type' => trim($_POST['incident_type'] ?? 'Traffic Accident / Violation'),
-                'camera_location' => trim($_POST['camera_location'] ?? 'Quezon City'),
+                'camera_location' => $camLocation ?: 'Quezon City',
                 'incident_date' => $_POST['incident_date'] ?? date('Y-m-d'),
                 'incident_time' => $_POST['incident_time'] ?? date('H:i:s'),
                 'vehicle_plate' => trim($_POST['vehicle_plate'] ?? ''),
@@ -1320,60 +1334,148 @@ include '../includes/header.php';
 
 <!-- Request CCTV from Group 2 Modal -->
 <div class="modal fade" id="requestGroup2CctvModal" tabindex="-1">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header bg-success text-white">
-                <h5 class="modal-title"><i class="bi bi-camera-video"></i> Request CCTV from Group 2 (Accident & Violation Reporting)</h5>
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-3 overflow-hidden">
+            <div class="modal-header text-white" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                <h5 class="modal-title fw-bold"><i class="bi bi-camera-video me-2 text-warning"></i>Request CCTV from Group 2 (Accident & Violation Reporting)</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
             <form method="POST">
                 <input type="hidden" name="request_group2_cctv" value="1">
-                <div class="modal-body">
-                    <div class="alert alert-info py-2 small">
+                <div class="modal-body p-4">
+                    <div class="alert alert-info py-2 small mb-3">
                         <i class="bi bi-info-circle me-1"></i> Dispatches an official CCTV request to Group 2's Surveillance and Accident Unit. Group 2 will acknowledge and transmit fulfilled evidence, photos, and video recordings.
                     </div>
                     <div class="row g-3">
                         <div class="col-md-6">
-                            <label class="form-label fw-semibold">Related Case Number</label>
-                            <input type="text" name="case_number" class="form-control" placeholder="e.g. CASE-2026-0042">
+                            <label for="g2_case_number" class="form-label fw-semibold d-flex justify-content-between align-items-center">
+                                <span>Related Case / Blotter Reference</span>
+                                <small class="text-muted fw-normal">Select or type custom</small>
+                            </label>
+                            <select name="case_number" id="g2_case_number" class="form-select shadow-sm" onchange="handleG2CaseSelect(this)">
+                                <option value="">-- Select Case / Blotter Record (or None) --</option>
+                                <?php if (!empty($refBlotters)): ?>
+                                    <optgroup label="📋 Active Blotter Records">
+                                        <?php foreach ($refBlotters as $rb): ?>
+                                            <option value="<?php echo htmlspecialchars($rb['blotter_no']); ?>"
+                                                data-type="<?php echo htmlspecialchars($rb['incident_type'] ?? ''); ?>"
+                                                data-location="<?php echo htmlspecialchars($rb['location'] ?? ''); ?>">
+                                                <?php echo htmlspecialchars($rb['blotter_no'] . ' — ' . ($rb['incident_type'] ?: 'Blotter') . ' (' . ($rb['complainant_name'] ?: 'Complainant') . ')'); ?>
+                                            </option>
+                                        <?php endforeach; ?>
+                                    </optgroup>
+                                <?php endif; ?>
+                                <?php if (!empty($cases)): ?>
+                                    <optgroup label="⚖️ Assigned Cases">
+                                        <?php foreach ($cases as $ca): ?>
+                                            <option value="<?php echo htmlspecialchars($ca['case_number']); ?>"
+                                                data-type="<?php echo htmlspecialchars($ca['incident_type'] ?? ''); ?>"
+                                                data-location="">
+                                                <?php echo htmlspecialchars($ca['case_number'] . ' — ' . ($ca['incident_type'] ?: 'Case')); ?>
+                                            </option>
+                                        <?php endforeach; ?>
+                                    </optgroup>
+                                <?php endif; ?>
+                                <?php if (!empty($refAccidents)): ?>
+                                    <optgroup label="🚗 Traffic Accident Tickets">
+                                        <?php foreach ($refAccidents as $ra): ?>
+                                            <option value="<?php echo htmlspecialchars($ra['ticket_number'] ?: ('TCK-' . $ra['id'])); ?>"
+                                                data-type="Traffic Accident / Violation"
+                                                data-location="<?php echo htmlspecialchars($ra['location'] ?? ''); ?>">
+                                                <?php echo htmlspecialchars(($ra['ticket_number'] ?: 'Accident #' . $ra['id']) . ' — ' . ($ra['violation_type'] ?: 'Traffic Accident')); ?>
+                                            </option>
+                                        <?php endforeach; ?>
+                                    </optgroup>
+                                <?php endif; ?>
+                                <option value="__custom__">➕ Other / Enter Custom Case Number...</option>
+                            </select>
+                            <div id="g2_custom_case_wrap" class="mt-2" style="display: none;">
+                                <div class="input-group input-group-sm">
+                                    <span class="input-group-text bg-light text-secondary"><i class="bi bi-pencil"></i></span>
+                                    <input type="text" id="custom_case_number" name="custom_case_number" class="form-control" placeholder="Type custom case number (e.g. CASE-2026-0042)">
+                                </div>
+                            </div>
                         </div>
+
                         <div class="col-md-6">
-                            <label class="form-label fw-semibold">Incident Type</label>
-                            <input type="text" name="incident_type" class="form-control" value="Traffic Accident / Violation">
-                        </div>
-                        <div class="col-md-6">
-                            <label class="form-label fw-semibold">Camera Location / Intersection *</label>
-                            <input type="text" name="camera_location" class="form-control" placeholder="e.g. Quezon Ave. cor. EDSA, Barangay Central" required>
-                        </div>
-                        <div class="col-md-6">
-                            <label class="form-label fw-semibold">Vehicle Plate / Description</label>
-                            <input type="text" name="vehicle_plate" class="form-control" placeholder="e.g. ABC-1234 (Black Sedan)">
-                        </div>
-                        <div class="col-md-4">
-                            <label class="form-label fw-semibold">Incident Date</label>
-                            <input type="date" name="incident_date" class="form-control" value="<?php echo date('Y-m-d'); ?>">
-                        </div>
-                        <div class="col-md-4">
-                            <label class="form-label fw-semibold">Estimated Time</label>
-                            <input type="time" name="incident_time" class="form-control" value="<?php echo date('H:i'); ?>">
-                        </div>
-                        <div class="col-md-4">
-                            <label class="form-label fw-semibold">Urgency Priority</label>
-                            <select name="priority" class="form-select">
-                                <option value="High" selected>High (Accident / Hit & Run)</option>
-                                <option value="Critical">Critical (Severe Casualties)</option>
-                                <option value="Medium">Medium</option>
+                            <label for="g2_incident_type" class="form-label fw-semibold">Incident Type</label>
+                            <select name="incident_type" id="g2_incident_type" class="form-select shadow-sm">
+                                <option value="Traffic Accident / Violation" selected>Traffic Accident / Violation</option>
+                                <option value="Hit and Run / Vehicular Collision">Hit and Run / Vehicular Collision</option>
+                                <option value="Reckless Imprudence & Property Damage">Reckless Imprudence & Property Damage</option>
+                                <option value="Illegal Parking / Traffic Obstruction">Illegal Parking / Traffic Obstruction</option>
+                                <option value="Physical Assault & Street Commotion">Physical Assault & Street Commotion</option>
+                                <option value="Robbery / Theft Incident">Robbery / Theft Incident</option>
+                                <option value="Suspicious Vehicle / Unauthorized Activity">Suspicious Vehicle / Unauthorized Activity</option>
+                                <option value="Homicide / Serious Crime Investigation">Homicide / Serious Crime Investigation</option>
+                                <option value="Public Safety & Emergency Surveillance">Public Safety & Emergency Surveillance</option>
+                                <option value="Other">Other Incident Type</option>
                             </select>
                         </div>
+
+                        <div class="col-md-6">
+                            <label for="g2_camera_location" class="form-label fw-semibold d-flex justify-content-between align-items-center">
+                                <span>Camera Location / Intersection <span class="text-danger">*</span></span>
+                                <small class="text-muted fw-normal">Select surveillance zone</small>
+                            </label>
+                            <select name="camera_location" id="g2_camera_location" class="form-select shadow-sm" onchange="handleG2LocationSelect(this)" required>
+                                <option value="">-- Select Camera Location / Intersection --</option>
+                                <optgroup label="🚦 Quezon City Surveillance Hotspots">
+                                    <option value="Quirino Highway cor. Susano Road, Novaliches, QC" selected>Quirino Highway cor. Susano Road, Novaliches, QC</option>
+                                    <option value="Quezon Memorial Circle, Elliptical Road, QC">Quezon Memorial Circle, Elliptical Road, QC</option>
+                                    <option value="Commonwealth Ave. cor. Tandang Sora Ave., QC">Commonwealth Ave. cor. Tandang Sora Ave., QC</option>
+                                    <option value="EDSA cor. Quezon Ave. Junction, QC">EDSA cor. Quezon Ave. Junction, QC</option>
+                                    <option value="Katipunan Ave. cor. Aurora Blvd., QC">Katipunan Ave. cor. Aurora Blvd., QC</option>
+                                    <option value="Banawe St. cor. Quezon Ave., QC">Banawe St. cor. Quezon Ave., QC</option>
+                                    <option value="Mindanao Ave. cor. Congressional Ave., QC">Mindanao Ave. cor. Congressional Ave., QC</option>
+                                    <option value="Novaliches Bayan Proper / General Luis St., QC">Novaliches Bayan Proper / General Luis St., QC</option>
+                                    <option value="Visayas Ave. cor. Central Ave., QC">Visayas Ave. cor. Central Ave., QC</option>
+                                    <option value="Timog Ave. cor. Tomas Morato Ave., QC">Timog Ave. cor. Tomas Morato Ave., QC</option>
+                                </optgroup>
+                                <option value="__custom__">➕ Other / Enter Specific Intersection or Landmark...</option>
+                            </select>
+                            <div id="g2_custom_loc_wrap" class="mt-2" style="display: none;">
+                                <div class="input-group input-group-sm">
+                                    <span class="input-group-text bg-light text-secondary"><i class="bi bi-geo-alt"></i></span>
+                                    <input type="text" id="custom_camera_location" name="custom_camera_location" class="form-control" placeholder="Type custom intersection or landmark (e.g. Quezon Ave. cor EDSA)">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Vehicle Plate / Description</label>
+                            <input type="text" name="vehicle_plate" id="g2_vehicle_plate" class="form-control shadow-sm" placeholder="e.g. ABC-1234 (Black Sedan)">
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Incident Date</label>
+                            <input type="date" name="incident_date" id="g2_incident_date" class="form-control shadow-sm" value="<?php echo date('Y-m-d'); ?>">
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Estimated Time</label>
+                            <input type="time" name="incident_time" id="g2_incident_time" class="form-control shadow-sm" value="<?php echo date('H:i'); ?>">
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Urgency Priority</label>
+                            <select name="priority" class="form-select shadow-sm">
+                                <option value="High" selected>High (Accident / Hit & Run)</option>
+                                <option value="Critical">Critical (Severe Casualties / Urgent)</option>
+                                <option value="Medium">Medium (Follow-up Investigation)</option>
+                                <option value="Low">Low (Standard Archival Query)</option>
+                            </select>
+                        </div>
+
                         <div class="col-12">
-                            <label class="form-label fw-semibold">Specific Request Reason / Instructions *</label>
-                            <textarea name="reason" class="form-control" rows="3" required placeholder="Describe vehicle movement, direction of travel, and camera angle requested..."></textarea>
+                            <label class="form-label fw-semibold">Specific Request Reason / Instructions <span class="text-danger">*</span></label>
+                            <textarea name="reason" id="g2_reason" class="form-control shadow-sm" rows="3" required placeholder="Describe vehicle movement, direction of travel, and camera angle requested..."></textarea>
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="submit" class="btn btn-success fw-bold"><i class="bi bi-send me-1"></i> Dispatch Request to Group 2</button>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-secondary px-3" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-success fw-bold px-4" style="background-color: #2e856e !important; border-color: #2e856e !important;"><i class="bi bi-send me-1"></i> Dispatch Request to Group 2</button>
                 </div>
             </form>
         </div>
@@ -2241,6 +2343,54 @@ function renderTablePagination() {
 function goToTablePage(page) {
     currentTablePage = page;
     renderTablePagination();
+}
+
+function handleG2CaseSelect(selectEl) {
+    const customWrap = document.getElementById('g2_custom_case_wrap');
+    const customInput = document.getElementById('custom_case_number');
+    const val = selectEl.value;
+
+    if (val === '__custom__') {
+        if (customWrap) customWrap.style.display = 'block';
+        if (customInput) customInput.focus();
+    } else {
+        if (customWrap) customWrap.style.display = 'none';
+        if (val) {
+            const opt = selectEl.options[selectEl.selectedIndex];
+            const type = opt.getAttribute('data-type');
+            const loc = opt.getAttribute('data-location');
+
+            // Select matching incident type if available
+            const typeSelect = document.getElementById('g2_incident_type');
+            if (typeSelect && type) {
+                for (let i = 0; i < typeSelect.options.length; i++) {
+                    if (typeSelect.options[i].value.toLowerCase().includes(type.toLowerCase()) || type.toLowerCase().includes(typeSelect.options[i].value.toLowerCase())) {
+                        typeSelect.selectedIndex = i;
+                        break;
+                    }
+                }
+            }
+
+            // Fill reason placeholder/suggestion if empty
+            const reasonEl = document.getElementById('g2_reason');
+            if (reasonEl && !reasonEl.value.trim()) {
+                reasonEl.value = `Retrieval of intersection and roadway surveillance camera recording relevant to Blotter / Case ${val} (${type || 'traffic incident'}).`;
+            }
+        }
+    }
+}
+
+function handleG2LocationSelect(selectEl) {
+    const customWrap = document.getElementById('g2_custom_loc_wrap');
+    const customInput = document.getElementById('custom_camera_location');
+    const val = selectEl.value;
+
+    if (val === '__custom__') {
+        if (customWrap) customWrap.style.display = 'block';
+        if (customInput) customInput.focus();
+    } else {
+        if (customWrap) customWrap.style.display = 'none';
+    }
 }
 
 document.addEventListener('DOMContentLoaded', function() {

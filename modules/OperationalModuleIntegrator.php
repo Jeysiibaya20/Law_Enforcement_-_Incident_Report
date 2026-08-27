@@ -1325,19 +1325,46 @@ class OperationalModuleIntegrator {
     public function dispatchCctvRequestToGroup2(array $requestData): array {
         $endpoint = getIntegrationSetting('cctv_request_api_url', $this->partnerCctvEndpoint);
         
+        $caseNo = $requestData['case_number'] ?? '';
+        $loc = $requestData['camera_location'] ?? $requestData['location'] ?? 'Quezon City';
+        $incDate = $requestData['incident_date'] ?? date('Y-m-d');
+        $incTime = $requestData['incident_time'] ?? date('H:i:s');
+        $incType = $requestData['incident_type'] ?? 'Accident / Traffic Incident';
+        $reason = $requestData['reason'] ?? 'Investigation and evidence retrieval for incident report';
+        $priority = $requestData['priority'] ?? 'High';
+        $reqId = $requestData['request_id'] ?? ('REQ-CCTV-' . date('Ymd') . '-' . rand(100, 999));
+
         $payload = [
-            'request_id' => $requestData['request_id'] ?? ('REQ-CCTV-' . date('Ymd') . '-' . rand(100, 999)),
+            'request_id' => $reqId,
+            'requesting_agency' => 'Digital Blotter System',
+            'agency' => 'Digital Blotter System',
+            'contact_person' => 'Police Investigator Desk',
+            'contact_number' => '0917-555-0188',
+            'email_address' => 'blotter@qc.gov.ph',
+            'email' => 'blotter@qc.gov.ph',
+            'case_reference' => $caseNo,
+            'case_ref' => $caseNo,
+            'legal_basis' => 'Official Criminal Case Investigation under QC Law Enforcement Department',
+            'location' => $loc,
+            'incident_location' => $loc,
+            'camera' => 'CAM-001',
+            'incident_date' => $incDate,
+            'incident_type' => $incType,
+            'footage_start_time' => date('H:i:s', strtotime($incTime) - 1800),
+            'footage_end_time' => date('H:i:s', strtotime($incTime) + 1800),
+            'footage_window' => [
+                'date' => $incDate,
+                'start' => date('H:i', strtotime($incTime) - 1800),
+                'end' => date('H:i', strtotime($incTime) + 1800)
+            ],
+            'vehicle_plate' => $requestData['vehicle_plate'] ?? null,
+            'priority' => $priority,
+            'purpose' => $reason,
+            'incident_description' => $reason,
+            'reason' => $reason,
+            'delivery_method' => 'Secure download link',
             'sender' => 'Group 1 Law Enforcement & Incident Report System',
             'recipient' => 'Group 2 Accident and Violation Reporting',
-            'case_number' => $requestData['case_number'] ?? '',
-            'incident_type' => $requestData['incident_type'] ?? 'Accident / Traffic Incident',
-            'camera_location' => $requestData['camera_location'] ?? $requestData['location'] ?? 'Quezon City',
-            'incident_date' => $requestData['incident_date'] ?? date('Y-m-d'),
-            'incident_time' => $requestData['incident_time'] ?? date('H:i:s'),
-            'time_window_minutes' => $requestData['time_window_minutes'] ?? 30,
-            'vehicle_plate' => $requestData['vehicle_plate'] ?? null,
-            'priority' => $requestData['priority'] ?? 'High',
-            'reason' => $requestData['reason'] ?? 'Investigation and evidence retrieval for incident report',
             'requested_at' => date('c')
         ];
 
@@ -1348,11 +1375,11 @@ class OperationalModuleIntegrator {
             try {
                 $stmt = $this->pdo->prepare("INSERT INTO cctv_requests (request_type, camera_location, incident_date, incident_time, priority, reason, status, requested_at) VALUES ('Footage & Still Photos', ?, ?, ?, ?, ?, 'Dispatched to Group 2', NOW())");
                 $stmt->execute([
-                    $payload['camera_location'],
-                    $payload['incident_date'],
-                    $payload['incident_time'],
-                    $payload['priority'],
-                    $payload['reason']
+                    $loc,
+                    $incDate,
+                    $incTime,
+                    $priority,
+                    $reason
                 ]);
             } catch (Exception $e) {
                 error_log("Notice: " . $e->getMessage());
