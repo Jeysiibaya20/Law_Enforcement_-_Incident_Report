@@ -113,7 +113,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Section 2: Case Information
         $case_reference = trim($_POST['case_reference'] ?? '');
+        if ($case_reference === '__custom__' || empty($case_reference)) {
+            if (!empty($_POST['custom_case_reference'])) {
+                $case_reference = trim($_POST['custom_case_reference']);
+            }
+        }
         $related_complaint_id = trim($_POST['related_complaint_id'] ?? '');
+        if ($related_complaint_id === '__custom__' || empty($related_complaint_id)) {
+            if (!empty($_POST['custom_related_complaint_id'])) {
+                $related_complaint_id = trim($_POST['custom_related_complaint_id']);
+            }
+        }
         $legal_basis = trim($_POST['legal_basis'] ?? '');
         $purpose_reason = trim($_POST['purpose_reason'] ?? '');
 
@@ -243,6 +253,45 @@ try {
 } catch (Exception $e) {
     $request_records = [];
 }
+
+// Fetch Blotters & Incidents for Case Information Dropdowns
+$blotter_cases = [];
+try {
+    $stmt_blotters = $pdo->query("SELECT blotter_no, incident_type, complainant_name, location, incident_date FROM blotters WHERE blotter_no IS NOT NULL AND blotter_no != '' ORDER BY id DESC LIMIT 50");
+    $blotter_cases = $stmt_blotters->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) {
+    $blotter_cases = [];
+}
+
+$incident_cases = [];
+try {
+    $stmt_incidents = $pdo->query("SELECT case_no, incident_type, reporter_name, location, incident_date FROM incidents WHERE case_no IS NOT NULL AND case_no != '' ORDER BY id DESC LIMIT 50");
+    $incident_cases = $stmt_incidents->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) {
+    $incident_cases = [];
+}
+
+// Fetch Community Complaints for Dropdowns
+$complaint_records = [];
+try {
+    $stmt_complaints = $pdo->query("SELECT complaint_id as ref_code, complainant_name, incident_type, location, date_time FROM received_community_complaints WHERE complaint_id IS NOT NULL AND complaint_id != '' ORDER BY id DESC LIMIT 50");
+    $complaint_records = $stmt_complaints->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) {
+    $complaint_records = [];
+}
+
+if (empty($complaint_records)) {
+    // Generate helpful complaint references from blotters & incidents if table is empty
+    foreach ($blotter_cases as $b) {
+        $cleanId = preg_replace('/[^0-9A-Za-z]/', '', $b['blotter_no']);
+        $complaint_records[] = [
+            'ref_code' => 'COMP-' . substr($cleanId, -6),
+            'complainant_name' => $b['complainant_name'] ?: 'Complainant',
+            'incident_type' => $b['incident_type'] ?: 'Blotter Report',
+            'location' => $b['location'] ?: 'Quezon City'
+        ];
+    }
+}
 ?>
 
 <div class="main-content">
@@ -322,32 +371,109 @@ try {
                                 <h5 class="fw-bold text-dark border-bottom pb-2 mb-3">2. Case Information</h5>
                                 <div class="row g-3">
                                     <div class="col-md-6">
-                                        <label for="case_reference" class="form-label fw-semibold">Case / Blotter Reference</label>
-                                        <input type="text" id="case_reference" name="case_reference" class="form-control" placeholder="e.g. DB-2026-001" value="<?php echo htmlspecialchars($_POST['case_reference'] ?? ''); ?>">
+                                        <label for="case_reference" class="form-label fw-semibold d-flex justify-content-between align-items-center">
+                                            <span>Case / Blotter Reference</span>
+                                            <small class="text-muted fw-normal">Select from records or enter custom</small>
+                                        </label>
+                                        <select id="case_reference" name="case_reference" class="form-select shadow-sm" onchange="handleCaseRefChange(this)">
+                                            <option value="">-- Select Case / Blotter Reference (or None) --</option>
+                                            <?php if (!empty($blotter_cases)): ?>
+                                                <optgroup label="📋 Active Barangay Blotter Records">
+                                                    <?php foreach ($blotter_cases as $b): ?>
+                                                        <?php 
+                                                            $bCode = htmlspecialchars($b['blotter_no']); 
+                                                            $selected = (($_POST['case_reference'] ?? '') === $b['blotter_no']) ? 'selected' : '';
+                                                        ?>
+                                                        <option value="<?php echo $bCode; ?>" 
+                                                            data-type="<?php echo htmlspecialchars($b['incident_type'] ?? ''); ?>"
+                                                            data-location="<?php echo htmlspecialchars($b['location'] ?? ''); ?>"
+                                                            data-date="<?php echo htmlspecialchars($b['incident_date'] ?? ''); ?>"
+                                                            data-reporter="<?php echo htmlspecialchars($b['complainant_name'] ?? ''); ?>"
+                                                            <?php echo $selected; ?>>
+                                                            <?php echo $bCode . ' — ' . htmlspecialchars($b['incident_type'] ?: 'Incident') . ' (' . htmlspecialchars($b['complainant_name'] ?: 'Complainant') . ')'; ?>
+                                                        </option>
+                                                    <?php endforeach; ?>
+                                                </optgroup>
+                                            <?php endif; ?>
+                                            <?php if (!empty($incident_cases)): ?>
+                                                <optgroup label="⚖️ Law Enforcement & Incident Cases">
+                                                    <?php foreach ($incident_cases as $inc): ?>
+                                                        <?php 
+                                                            $incCode = htmlspecialchars($inc['case_no']); 
+                                                            $selected = (($_POST['case_reference'] ?? '') === $inc['case_no']) ? 'selected' : '';
+                                                        ?>
+                                                        <option value="<?php echo $incCode; ?>"
+                                                            data-type="<?php echo htmlspecialchars($inc['incident_type'] ?? ''); ?>"
+                                                            data-location="<?php echo htmlspecialchars($inc['location'] ?? ''); ?>"
+                                                            data-date="<?php echo htmlspecialchars($inc['incident_date'] ?? ''); ?>"
+                                                            data-reporter="<?php echo htmlspecialchars($inc['reporter_name'] ?? ''); ?>"
+                                                            <?php echo $selected; ?>>
+                                                            <?php echo $incCode . ' — ' . htmlspecialchars($inc['incident_type'] ?: 'Case') . ' (' . htmlspecialchars($inc['reporter_name'] ?: 'Reporter') . ')'; ?>
+                                                        </option>
+                                                    <?php endforeach; ?>
+                                                </optgroup>
+                                            <?php endif; ?>
+                                            <option value="__custom__" <?php echo (($_POST['case_reference'] ?? '') === '__custom__' || (!empty($_POST['custom_case_reference']))) ? 'selected' : ''; ?>>➕ Other / Enter Custom Case Reference...</option>
+                                        </select>
+                                        <div id="custom_case_ref_wrap" class="mt-2" style="display: <?php echo (($_POST['case_reference'] ?? '') === '__custom__' || (!empty($_POST['custom_case_reference']))) ? 'block' : 'none'; ?>;">
+                                            <div class="input-group input-group-sm">
+                                                <span class="input-group-text bg-light text-secondary"><i class="fas fa-edit"></i></span>
+                                                <input type="text" id="custom_case_reference" name="custom_case_reference" class="form-control" placeholder="Type custom case reference (e.g. DB-2026-001)" value="<?php echo htmlspecialchars($_POST['custom_case_reference'] ?? ''); ?>">
+                                            </div>
+                                        </div>
                                     </div>
+
                                     <div class="col-md-6">
-                                        <label for="related_complaint_id" class="form-label fw-semibold">Related Complaint ID</label>
-                                        <input type="text" id="related_complaint_id" name="related_complaint_id" class="form-control" placeholder="e.g. COMP-2026-362" value="<?php echo htmlspecialchars($_POST['related_complaint_id'] ?? ''); ?>">
+                                        <label for="related_complaint_id" class="form-label fw-semibold d-flex justify-content-between align-items-center">
+                                            <span>Related Complaint ID</span>
+                                            <small class="text-muted fw-normal">Select complaint reference</small>
+                                        </label>
+                                        <select id="related_complaint_id" name="related_complaint_id" class="form-select shadow-sm" onchange="handleComplaintChange(this)">
+                                            <option value="">-- Select Related Complaint ID (or None) --</option>
+                                            <?php if (!empty($complaint_records)): ?>
+                                                <optgroup label="📣 Citizen & Community Complaints">
+                                                    <?php foreach ($complaint_records as $comp): ?>
+                                                        <?php 
+                                                            $cRef = htmlspecialchars($comp['ref_code']); 
+                                                            $selected = (($_POST['related_complaint_id'] ?? '') === $comp['ref_code']) ? 'selected' : '';
+                                                        ?>
+                                                        <option value="<?php echo $cRef; ?>" <?php echo $selected; ?>>
+                                                            <?php echo $cRef . ' — ' . htmlspecialchars($comp['complainant_name'] ?? 'Citizen') . ' (' . htmlspecialchars($comp['incident_type'] ?? 'Report') . ')'; ?>
+                                                        </option>
+                                                    <?php endforeach; ?>
+                                                </optgroup>
+                                            <?php endif; ?>
+                                            <option value="__custom__" <?php echo (($_POST['related_complaint_id'] ?? '') === '__custom__' || (!empty($_POST['custom_related_complaint_id']))) ? 'selected' : ''; ?>>➕ Other / Enter Custom Complaint ID...</option>
+                                        </select>
+                                        <div id="custom_complaint_wrap" class="mt-2" style="display: <?php echo (($_POST['related_complaint_id'] ?? '') === '__custom__' || (!empty($_POST['custom_related_complaint_id']))) ? 'block' : 'none'; ?>;">
+                                            <div class="input-group input-group-sm">
+                                                <span class="input-group-text bg-light text-secondary"><i class="fas fa-edit"></i></span>
+                                                <input type="text" id="custom_related_complaint_id" name="custom_related_complaint_id" class="form-control" placeholder="Type custom complaint ID (e.g. COMP-2026-362)" value="<?php echo htmlspecialchars($_POST['custom_related_complaint_id'] ?? ''); ?>">
+                                            </div>
+                                        </div>
                                     </div>
+
                                     <div class="col-12">
                                         <label for="legal_basis" class="form-label fw-semibold">Legal Basis <span class="text-danger">*</span></label>
-                                        <select id="legal_basis" name="legal_basis" class="form-select" required>
-                                            <option value="">Select legal basis</option>
+                                        <select id="legal_basis" name="legal_basis" class="form-select shadow-sm" required>
+                                            <option value="">-- Select Legal Basis --</option>
                                             <option value="Law enforcement request" <?php echo ($_POST['legal_basis'] ?? 'Law enforcement request') === 'Law enforcement request' ? 'selected' : ''; ?>>Law enforcement request</option>
                                             <option value="Court Order / Subpoena" <?php echo ($_POST['legal_basis'] ?? '') === 'Court Order / Subpoena' ? 'selected' : ''; ?>>Court Order / Subpoena</option>
                                             <option value="Investigation" <?php echo ($_POST['legal_basis'] ?? '') === 'Investigation' ? 'selected' : ''; ?>>Investigation</option>
                                             <option value="Barangay Blotter referral" <?php echo ($_POST['legal_basis'] ?? '') === 'Barangay Blotter referral' ? 'selected' : ''; ?>>Barangay Blotter referral</option>
                                             <option value="Official Inquest" <?php echo ($_POST['legal_basis'] ?? '') === 'Official Inquest' ? 'selected' : ''; ?>>Official Inquest</option>
+                                            <option value="Traffic & Accident Investigation" <?php echo ($_POST['legal_basis'] ?? '') === 'Traffic & Accident Investigation' ? 'selected' : ''; ?>>Traffic & Accident Investigation</option>
+                                            <option value="Public Safety & Emergency Surveillance" <?php echo ($_POST['legal_basis'] ?? '') === 'Public Safety & Emergency Surveillance' ? 'selected' : ''; ?>>Public Safety & Emergency Surveillance</option>
                                             <option value="Other" <?php echo ($_POST['legal_basis'] ?? '') === 'Other' ? 'selected' : ''; ?>>Other</option>
                                         </select>
                                     </div>
                                     <div class="col-12">
                                         <label for="purpose_reason" class="form-label fw-semibold">Purpose / Reason for Request <span class="text-danger">*</span></label>
-                                        <textarea id="purpose_reason" name="purpose_reason" class="form-control" rows="3" placeholder="Explain why the footage is needed" required><?php echo htmlspecialchars($_POST['purpose_reason'] ?? ''); ?></textarea>
+                                        <textarea id="purpose_reason" name="purpose_reason" class="form-control shadow-sm" rows="3" placeholder="Explain why the footage is needed" required><?php echo htmlspecialchars($_POST['purpose_reason'] ?? ''); ?></textarea>
                                     </div>
                                     <div class="col-12">
                                         <label for="supporting_document" class="form-label fw-semibold">Supporting Document (optional)</label>
-                                        <input type="file" id="supporting_document" name="supporting_document" class="form-control" accept=".pdf,image/*">
+                                        <input type="file" id="supporting_document" name="supporting_document" class="form-control shadow-sm" accept=".pdf,image/*">
                                         <div class="form-text text-muted small">Court order, referral letter, or blotter copy (PDF or image).</div>
                                     </div>
                                 </div>
@@ -1042,6 +1168,57 @@ function submitModalDecision(status) {
     document.getElementById('modalQuickStatusVal').value = status;
     document.getElementById('modalQuickRejectReason').value = rejectReason;
     document.getElementById('modalQuickStatusForm').submit();
+}
+
+function handleCaseRefChange(selectEl) {
+    const customWrap = document.getElementById('custom_case_ref_wrap');
+    const customInput = document.getElementById('custom_case_reference');
+    const val = selectEl.value;
+
+    if (val === '__custom__') {
+        if (customWrap) customWrap.style.display = 'block';
+        if (customInput) customInput.focus();
+    } else {
+        if (customWrap) customWrap.style.display = 'none';
+        if (val) {
+            const opt = selectEl.options[selectEl.selectedIndex];
+            const incDate = opt.getAttribute('data-date');
+            const incType = opt.getAttribute('data-type');
+            const reporter = opt.getAttribute('data-reporter');
+            const loc = opt.getAttribute('data-location');
+
+            // Auto-fill incident date if empty
+            const dateEl = document.getElementById('incident_date');
+            if (dateEl && !dateEl.value && incDate) {
+                dateEl.value = incDate;
+            }
+
+            // Auto-fill purpose/reason hint if empty
+            const purposeEl = document.getElementById('purpose_reason');
+            if (purposeEl && !purposeEl.value.trim()) {
+                purposeEl.value = `Official investigation and footage review for ${val} (${incType || 'reported incident'}).`;
+            }
+
+            // Auto-fill incident description if empty
+            const descEl = document.getElementById('incident_description');
+            if (descEl && !descEl.value.trim()) {
+                descEl.value = `Verification of CCTV camera feed for Blotter / Case ${val} involving ${reporter || 'complainant'} at ${loc || 'Quezon City'}.`;
+            }
+        }
+    }
+}
+
+function handleComplaintChange(selectEl) {
+    const customWrap = document.getElementById('custom_complaint_wrap');
+    const customInput = document.getElementById('custom_related_complaint_id');
+    const val = selectEl.value;
+
+    if (val === '__custom__') {
+        if (customWrap) customWrap.style.display = 'block';
+        if (customInput) customInput.focus();
+    } else {
+        if (customWrap) customWrap.style.display = 'none';
+    }
 }
 
 document.addEventListener('DOMContentLoaded', function(){
