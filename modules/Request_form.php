@@ -36,15 +36,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         'request_id' => $reqCode,
                         'incident_id' => 'INC-' . $rec['id'],
                         'requesting_agency' => $rec['requesting_agency'] ?: 'Digital Blotter System',
+                        'agency' => $rec['requesting_agency'] ?: 'Digital Blotter System',
                         'contact_person' => $rec['contact_person'] ?: 'Admin Requester',
                         'contact_number' => $rec['contact_number'] ?: '',
                         'email_address' => $rec['email_address'] ?: '',
                         'case_reference' => $rec['case_reference'] ?: '',
                         'legal_basis' => $rec['legal_basis'] ?: 'Law enforcement request',
                         'location' => $rec['incident_location'] ?: ($rec['camera_location'] ?: 'Quezon City'),
+                        'incident_location' => $rec['incident_location'] ?: ($rec['camera_location'] ?: 'Quezon City'),
                         'camera' => $rec['camera_id'] ?: 'CAM-001 — Main Entrance Camera',
                         'incident_date' => $rec['incident_date'] ?: date('Y-m-d'),
                         'incident_type' => $rec['incident_type'] ?: 'Footage',
+                        'footage_start_time' => $rec['footage_start_time'] ?: ($rec['incident_time'] ?: '00:00:00'),
+                        'footage_end_time' => $rec['footage_end_time'] ?: '23:59:59',
                         'timestamp_range' => [
                             'start_time' => ($rec['incident_date'] ?: date('Y-m-d')) . ' ' . ($rec['footage_start_time'] ?: ($rec['incident_time'] ?: '00:00:00')),
                             'end_time' => ($rec['incident_date'] ?: date('Y-m-d')) . ' ' . ($rec['footage_end_time'] ?: '23:59:59')
@@ -58,7 +62,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $stmtUp = $pdo->prepare("UPDATE cctv_requests SET status = 'Dispatched', updated_at = NOW() WHERE id = ?");
                     $stmtUp->execute([$req_id]);
 
-                    $message = "Dispatched Request #" . htmlspecialchars($reqCode) . " to Partner CCTV API (" . htmlspecialchars($res['endpoint']) . "). Result: " . ($res['success'] ? 'Success (200 OK Sent)' : 'Target Endpoint Recorded');
+                    $partnerMsg = $res['response']['message'] ?? ($res['success'] ? 'Footage request received by partner surveillance.' : 'Dispatched.');
+                    $message = "Dispatched Request #" . htmlspecialchars($reqCode) . " to Partner CCTV API (" . htmlspecialchars($res['endpoint']) . "). HTTP " . ($res['http_code'] ?: '200') . ": " . htmlspecialchars($partnerMsg);
                     $message_type = $res['success'] ? 'success' : 'info';
                 }
             } catch (Exception $e) {
@@ -590,6 +595,8 @@ try {
                                                                 data-description="<?php echo htmlspecialchars($record['incident_description'] ?: ($record['reason'] ?: '—')); ?>"
                                                                 data-delivery="<?php echo htmlspecialchars($record['delivery_method'] ?: 'Secure download link'); ?>"
                                                                 data-supporting="<?php echo htmlspecialchars($record['supporting_document'] ?: 'None'); ?>"
+                                                                data-fulfilled-photos="<?php echo htmlspecialchars($record['fulfilled_photo_url'] ?: ($record['fulfilled_evidence_url'] ?: '')); ?>"
+                                                                data-fulfilled-video="<?php echo htmlspecialchars($record['fulfilled_video_url'] ?: ''); ?>"
                                                                 data-review-notes="<?php echo htmlspecialchars($record['review_notes'] ?: ($record['monitoring_notes'] ?: '—')); ?>"
                                                                 data-date-submitted="<?php echo htmlspecialchars(date('M d, Y, h:i A', strtotime($record['requested_at']))); ?>"
                                                                 data-status="<?php echo htmlspecialchars($record['status'] ?? 'Pending'); ?>"
@@ -791,6 +798,10 @@ try {
                 <div class="row mb-2">
                     <div class="col-5 text-secondary fw-semibold">Supporting Document</div>
                     <div class="col-7 text-dark" id="modalSupportingDoc">—</div>
+                </div>
+                <div class="row mb-2" id="modalFulfilledRow" style="display:none;">
+                    <div class="col-5 text-secondary fw-semibold">Fulfilled Footage / Media</div>
+                    <div class="col-7 text-dark" id="modalFulfilledMedia">—</div>
                 </div>
                 <div class="row mb-2">
                     <div class="col-5 text-secondary fw-semibold">Review Notes</div>
@@ -1057,6 +1068,9 @@ document.addEventListener('DOMContentLoaded', function(){
             const dateSub = this.getAttribute('data-date-submitted') || '—';
             const status = this.getAttribute('data-status') || 'Pending';
 
+            const fulfilledPhotos = this.getAttribute('data-fulfilled-photos') || '';
+            const fulfilledVideo = this.getAttribute('data-fulfilled-video') || '';
+
             document.getElementById('modalQuickReqId').value = id;
             document.getElementById('modalReqId').textContent = reqId;
             document.getElementById('modalAgency').textContent = agency;
@@ -1070,7 +1084,63 @@ document.addEventListener('DOMContentLoaded', function(){
             document.getElementById('modalFootageWindow').textContent = footageWindow;
             document.getElementById('modalDescription').textContent = desc;
             document.getElementById('modalDelivery').textContent = delivery;
-            document.getElementById('modalSupportingDoc').textContent = supporting;
+
+            // Supporting document rendering
+            const suppEl = document.getElementById('modalSupportingDoc');
+            if (supporting && supporting !== 'None' && supporting !== '—') {
+                const isImg = /\.(jpg|jpeg|png|gif|webp)$/i.test(supporting);
+                const isPdf = /\.pdf$/i.test(supporting);
+                const fileUrl = supporting.startsWith('http') || supporting.startsWith('/') ? supporting : `../uploads/cctv_docs/${supporting}`;
+                
+                if (isImg) {
+                    suppEl.innerHTML = `<div class="mt-1">
+                        <a href="${fileUrl}" target="_blank" class="d-inline-block text-decoration-none">
+                            <img src="${fileUrl}" alt="Supporting Document" class="img-thumbnail rounded shadow-sm" style="max-height: 120px; object-fit: cover;">
+                            <div class="small text-primary mt-1"><i class="fas fa-external-link-alt me-1"></i>View Full Image</div>
+                        </a>
+                    </div>`;
+                } else if (isPdf) {
+                    suppEl.innerHTML = `<a href="${fileUrl}" target="_blank" class="btn btn-sm btn-outline-danger mt-1">
+                        <i class="fas fa-file-pdf me-1"></i> Open PDF Document (${supporting})
+                    </a>`;
+                } else {
+                    suppEl.innerHTML = `<a href="${fileUrl}" target="_blank" class="btn btn-sm btn-outline-secondary mt-1">
+                        <i class="fas fa-paperclip me-1"></i> Download File (${supporting})
+                    </a>`;
+                }
+            } else {
+                suppEl.textContent = 'None attached';
+            }
+
+            // Fulfilled media rendering
+            const fulfilledRow = document.getElementById('modalFulfilledRow');
+            const fulfilledMediaEl = document.getElementById('modalFulfilledMedia');
+            if (fulfilledPhotos || fulfilledVideo) {
+                fulfilledRow.style.display = '';
+                let fHtml = '<div class="d-flex flex-wrap gap-2 mt-1">';
+                if (fulfilledPhotos) {
+                    const photosArr = fulfilledPhotos.startsWith('[') ? JSON.parse(fulfilledPhotos) : fulfilledPhotos.split(',');
+                    photosArr.forEach(p => {
+                        const pUrl = p.trim();
+                        if (pUrl) {
+                            fHtml += `<a href="${pUrl}" target="_blank" class="d-inline-block">
+                                <img src="${pUrl}" class="img-thumbnail rounded shadow-sm" style="height: 70px; width: 70px; object-fit: cover;" alt="Fulfilled CCTV Evidence">
+                            </a>`;
+                        }
+                    });
+                }
+                if (fulfilledVideo) {
+                    fHtml += `<a href="${fulfilledVideo}" target="_blank" class="btn btn-sm btn-outline-primary d-inline-flex align-items-center">
+                        <i class="fas fa-play-circle me-1"></i> Play CCTV Video
+                    </a>`;
+                }
+                fHtml += '</div>';
+                fulfilledMediaEl.innerHTML = fHtml;
+            } else {
+                fulfilledRow.style.display = 'none';
+                fulfilledMediaEl.innerHTML = '—';
+            }
+
             document.getElementById('modalReviewNotes').textContent = reviewNotes;
             document.getElementById('modalDateSubmitted').textContent = dateSub;
 
@@ -1078,6 +1148,7 @@ document.addEventListener('DOMContentLoaded', function(){
             if (status === 'Approved' || status === 'Fulfilled') badgeClass = 'bg-success text-white';
             else if (status === 'Under Review') badgeClass = 'bg-info text-white';
             else if (status === 'Rejected') badgeClass = 'bg-danger text-white';
+            else if (status === 'Dispatched') badgeClass = 'bg-primary text-white';
 
             document.getElementById('modalStatusBadge').innerHTML = `<span class="badge ${badgeClass} px-2 py-1">${status}</span>`;
 

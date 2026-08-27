@@ -523,6 +523,92 @@ switch ($action) {
         break;
 
     // ===========================================
+    // 10. INSPECTION DOCUMENTS & ATTACHED PHOTOS (GROUP 7)
+    // ===========================================
+    case 'inspection_documents':
+    case 'get_inspection_documents':
+        try {
+            $limit = min((int)($inputData['limit'] ?? 50), 200);
+            $stmt = $pdo->prepare("SELECT * FROM received_inspection_documents ORDER BY id DESC LIMIT ?");
+            $stmt->bindValue(1, $limit, PDO::PARAM_INT);
+            $stmt->execute();
+            $documents = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            sendJsonResponse('success', 'Inspection documents and photo media retrieved successfully', [
+                'count' => count($documents),
+                'inspection_documents' => $documents
+            ]);
+        } catch (Exception $e) {
+            sendJsonResponse('error', 'Error fetching inspection documents: ' . $e->getMessage(), null, 500);
+        }
+        break;
+
+    case 'receive_inspection_document':
+        require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+        $integrator = new OperationalModuleIntegrator($pdo);
+        try {
+            $result = $integrator->processIncomingInspectionDocument($inputData);
+            sendJsonResponse('success', 'Inspection document and media received and processed', $result, 200);
+        } catch (Exception $e) {
+            sendJsonResponse('error', $e->getMessage(), null, 400);
+        }
+        break;
+
+    // ===========================================
+    // 11. ACCIDENT REPORTS & EVIDENCE (GROUP 2)
+    // ===========================================
+    case 'accident_reports':
+    case 'get_accident_reports':
+        try {
+            $limit = min((int)($inputData['limit'] ?? 50), 200);
+            $stmt = $pdo->prepare("SELECT * FROM received_accident_reports ORDER BY id DESC LIMIT ?");
+            $stmt->bindValue(1, $limit, PDO::PARAM_INT);
+            $stmt->execute();
+            $accidents = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            sendJsonResponse('success', 'Accident reports and tickets retrieved successfully', [
+                'count' => count($accidents),
+                'accident_reports' => $accidents
+            ]);
+        } catch (Exception $e) {
+            sendJsonResponse('error', 'Error fetching accident reports: ' . $e->getMessage(), null, 500);
+        }
+        break;
+
+    // ===========================================
+    // 12. RECEIVED CCTV FOOTAGE & RESOLVED TIPS
+    // ===========================================
+    case 'received_cctv_footage':
+        try {
+            $limit = min((int)($inputData['limit'] ?? 50), 200);
+            $stmt = $pdo->prepare("SELECT * FROM cctv_footage_received ORDER BY id DESC LIMIT ?");
+            $stmt->bindValue(1, $limit, PDO::PARAM_INT);
+            $stmt->execute();
+            $footage = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            sendJsonResponse('success', 'Received CCTV footage records retrieved successfully', [
+                'count' => count($footage),
+                'cctv_footage' => $footage
+            ]);
+        } catch (Exception $e) {
+            sendJsonResponse('error', 'Error fetching CCTV footage: ' . $e->getMessage(), null, 500);
+        }
+        break;
+
+    case 'received_tips':
+        try {
+            $limit = min((int)($inputData['limit'] ?? 50), 200);
+            $stmt = $pdo->prepare("SELECT * FROM received_resolved_tips ORDER BY id DESC LIMIT ?");
+            $stmt->bindValue(1, $limit, PDO::PARAM_INT);
+            $stmt->execute();
+            $tips = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            sendJsonResponse('success', 'Received resolved tips retrieved successfully', [
+                'count' => count($tips),
+                'resolved_tips' => $tips
+            ]);
+        } catch (Exception $e) {
+            sendJsonResponse('error', 'Error fetching resolved tips: ' . $e->getMessage(), null, 500);
+        }
+        break;
+
+    // ===========================================
     // DEFAULT UNKNOWN ACTION HANDLER
     // ===========================================
     default:

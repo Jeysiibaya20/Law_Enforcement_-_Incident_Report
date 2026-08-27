@@ -129,23 +129,24 @@ if (!defined('ALERTARA_INTEGRATION_CONFIG_LOADED')) {
     /**
      * Dispatch payload via cURL HTTP POST to any configured target URL
      */
-    function dispatchPayloadToEndpoint(string $targetUrl, array $payload, array $customHeaders = [], int $timeout = 15): array {
+    function dispatchPayloadToEndpoint(string $targetUrl, array $payload, array $customHeaders = [], int $timeout = 25): array {
         if (empty($targetUrl)) {
             throw new Exception("No target endpoint URL configured.");
         }
 
         $secret = getIntegrationSetting('external_api_secret');
+        $effectiveSecret = !empty($secret) ? $secret : 'ALERTARA-EMERGENCY-2026';
 
         $headers = array_merge([
             'Content-Type: application/json',
             'Accept: application/json',
-            'X-Partner-Client: AlertaraQC-Incident-System/2.0'
+            'X-Partner-Client: AlertaraQC-Incident-System/2.0',
+            'X-API-KEY: ' . $effectiveSecret,
+            'X-API-Key: ' . $effectiveSecret,
+            'Authorization: Bearer ' . $effectiveSecret,
+            'X-External-Secret: ' . $effectiveSecret,
+            'X-Webhook-Secret: ' . $effectiveSecret
         ], $customHeaders);
-
-        if (!empty($secret)) {
-            $headers[] = 'X-External-Secret: ' . $secret;
-            $headers[] = 'X-Webhook-Secret: ' . $secret;
-        }
 
         if (!function_exists('curl_init')) {
             return [
@@ -162,14 +163,17 @@ if (!defined('ALERTARA_INTEGRATION_CONFIG_LOADED')) {
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload, JSON_UNESCAPED_UNICODE));
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 15);
         curl_setopt($ch, CURLOPT_TIMEOUT, $timeout);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
 
         $rawResponse = curl_exec($ch);
         $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         $curlError = curl_error($ch);
-        curl_close($ch);
+        if (is_resource($ch) || (is_object($ch) && $ch instanceof \CurlHandle)) {
+            @curl_close($ch);
+        }
 
         $decodedResponse = json_decode($rawResponse, true) ?: ['raw_response' => $rawResponse];
         $isSuccess = ($httpCode >= 200 && $httpCode < 300);

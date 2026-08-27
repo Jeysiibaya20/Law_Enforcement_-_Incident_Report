@@ -264,11 +264,124 @@ class OperationalModuleIntegrator {
     }
 
     /**
-     * Dispatch Payload Directly to Partner Surveillance API
+     * Decode and save base64 image data to local uploads/external_media folder if present
+     */
+    public function saveBase64MediaIfPresent(string $mediaInput): string {
+        $trimmed = trim($mediaInput);
+        if (preg_match('/^data:image\/(\w+);base64,(.+)$/si', $trimmed, $matches)) {
+            $ext = strtolower($matches[1]);
+            if ($ext === 'jpeg') $ext = 'jpg';
+            $data = base64_decode($matches[2]);
+            if ($data !== false) {
+                $dir = __DIR__ . '/../uploads/external_media/';
+                if (!is_dir($dir)) {
+                    @mkdir($dir, 0755, true);
+                }
+                $filename = 'EXT_IMG_' . date('Ymd_His') . '_' . rand(1000, 9999) . '.' . $ext;
+                if (@file_put_contents($dir . $filename, $data) !== false) {
+                    return 'uploads/external_media/' . $filename;
+                }
+            }
+        }
+        return $trimmed;
+    }
+
+    /**
+     * Normalize incoming media (URLs, arrays, comma-separated lists, base64) into JSON array or string
+     */
+    public function normalizeMediaUrls($rawMedia): string {
+        if (empty($rawMedia)) {
+            return '';
+        }
+
+        $list = [];
+        if (is_array($rawMedia)) {
+            foreach ($rawMedia as $item) {
+                if (is_string($item) && trim($item) !== '') {
+                    $list[] = $this->saveBase64MediaIfPresent($item);
+                } elseif (is_array($item)) {
+                    $val = $item['url'] ?? $item['file_path'] ?? $item['src'] ?? $item['photo'] ?? '';
+                    if (!empty($val)) {
+                        $list[] = $this->saveBase64MediaIfPresent($val);
+                    }
+                }
+            }
+        } elseif (is_string($rawMedia)) {
+            $decoded = json_decode($rawMedia, true);
+            if (is_array($decoded)) {
+                return $this->normalizeMediaUrls($decoded);
+            }
+            if (strpos($rawMedia, ',') !== false && !preg_match('/^data:image/i', $rawMedia)) {
+                $parts = explode(',', $rawMedia);
+                foreach ($parts as $p) {
+                    if (trim($p) !== '') {
+                        $list[] = $this->saveBase64MediaIfPresent(trim($p));
+                    }
+                }
+            } else {
+                $list[] = $this->saveBase64MediaIfPresent($rawMedia);
+            }
+        }
+
+        if (empty($list)) {
+            return '';
+        }
+
+        if (count($list) === 1) {
+            return $list[0];
+        }
+
+        return json_encode(array_values(array_unique($list)), JSON_UNESCAPED_SLASHES);
+    }
+
+    /**
+     * Dispatch Payload Directly to Partner Surveillance API (Marto's Group / policy.alertaraqc.com)
      */
     public function dispatchToPartnerCctvApi(array $cctvPayload): array {
         $endpoint = getIntegrationSetting('cctv_request_api_url', $this->partnerCctvEndpoint);
-        $params = $cctvPayload['request_parameters'] ?? $cctvPayload;
+        $raw = $cctvPayload['request_parameters'] ?? $cctvPayload;
+
+        // Standardize top-level fields for Marto CCTV API / Policy endpoint
+        $reqDate = $raw['incident_date'] ?? date('Y-m-d');
+        $startTime = $raw['footage_start_time'] ?? ($raw['timestamp_range']['start_time'] ?? '00:00:00');
+        $endTime = $raw['footage_end_time'] ?? ($raw['timestamp_range']['end_time'] ?? '23:59:59');
+
+        // Extract HH:mm
+        if (strlen($startTime) > 5 && strpos($startTime, ':') !== false) {
+            $parts = explode(' ', $startTime);
+            $timePart = end($parts);
+            $startTime = substr($timePart, 0, 5);
+        }
+        if (strlen($endTime) > 5 && strpos($endTime, ':') !== false) {
+            $parts = explode(' ', $endTime);
+            $timePart = end($parts);
+            $endTime = substr($timePart, 0, 5);
+        }
+
+        $params = array_merge($raw, [
+            'request_id' => $raw['request_id'] ?? ('CCTV-REQ-' . date('Y') . '-' . rand(1000, 9999)),
+            'agency' => $raw['requesting_agency'] ?? ($raw['agency'] ?? 'Digital Blotter System'),
+            'requesting_agency' => $raw['requesting_agency'] ?? ($raw['agency'] ?? 'Digital Blotter System'),
+            'contact_person' => $raw['contact_person'] ?? ($raw['contact'] ?? 'Admin Requester'),
+            'contact_number' => $raw['contact_number'] ?? ($raw['contact_no'] ?? ''),
+            'email_address' => $raw['email_address'] ?? ($raw['email'] ?? ''),
+            'case_reference' => $raw['case_reference'] ?? ($raw['case_ref'] ?? ''),
+            'legal_basis' => $raw['legal_basis'] ?? 'Law enforcement request',
+            'location' => $raw['location'] ?? ($raw['incident_location'] ?? 'Quezon City'),
+            'incident_location' => $raw['incident_location'] ?? ($raw['location'] ?? 'Quezon City'),
+            'camera' => $raw['camera'] ?? ($raw['camera_id'] ?? 'CAM-001 — Main Entrance Camera'),
+            'incident_date' => $reqDate,
+            'footage_start_time' => $startTime,
+            'footage_end_time' => $endTime,
+            'footage_window' => [
+                'date' => $reqDate,
+                'start' => $startTime,
+                'end' => $endTime
+            ],
+            'purpose' => $raw['purpose'] ?? ($raw['purpose_reason'] ?? ($raw['reason'] ?? 'Incident footage verification')),
+            'incident_description' => $raw['incident_description'] ?? ($raw['description'] ?? ($raw['reason'] ?? 'Footage request verification')),
+            'delivery_method' => $raw['delivery_method'] ?? 'Secure download link'
+        ]);
 
         $result = dispatchPayloadToEndpoint($endpoint, $params, [], $this->timeout);
         $status = $result['success'] ? 'success' : 'partner_api_offline_or_failed';
@@ -487,7 +600,8 @@ class OperationalModuleIntegrator {
     public function processIncomingCctvFootage(array $data): array {
         $requestId = trim($data['request_id'] ?? $data['cctv_request_id'] ?? '');
         $incidentId = trim($data['incident_id'] ?? $data['case_id'] ?? '');
-        $cctvUrl = trim($data['cctv_url'] ?? $data['video_url'] ?? $data['media_url'] ?? $data['file_path'] ?? '');
+        $rawCctv = $data['cctv_url'] ?? $data['video_url'] ?? $data['media_url'] ?? $data['file_path'] ?? $data['footage_url'] ?? $data['photos'] ?? '';
+        $cctvUrl = $this->normalizeMediaUrls($rawCctv);
         $cameraId = trim($data['camera_id'] ?? $data['camera_code'] ?? 'CAM-SURV-QC');
         $location = trim($data['location'] ?? $data['camera_location'] ?? '');
         $notes = trim($data['notes'] ?? $data['remarks'] ?? $data['description'] ?? '');
@@ -536,7 +650,8 @@ class OperationalModuleIntegrator {
         $district = trim($data['district'] ?? $this->extractDistrict($location));
         $resolvedBy = trim($data['resolved_by'] ?? $data['officer_name'] ?? 'Surveillance Unit');
         $resolutionNotes = trim($data['resolution_notes'] ?? $data['action_taken'] ?? '');
-        $evidenceUrl = trim($data['evidence_url'] ?? $data['media_url'] ?? '');
+        $rawEvidence = $data['evidence_url'] ?? $data['media_url'] ?? $data['photos'] ?? $data['images'] ?? $data['attached_evidence'] ?? '';
+        $evidenceUrl = $this->normalizeMediaUrls($rawEvidence);
         $resolvedAt = trim($data['resolved_at'] ?? date('Y-m-d H:i:s'));
 
         if (empty($description) && empty($title)) {
@@ -597,8 +712,15 @@ class OperationalModuleIntegrator {
         $status = trim($data['inspection_status'] ?? $data['status'] ?? 'Completed');
         $findings = trim($data['findings'] ?? $data['notes'] ?? $data['remarks'] ?? $data['description'] ?? '');
         $score = trim($data['compliance_score'] ?? $data['score'] ?? 'N/A');
-        $certUrl = trim($data['certificate_url'] ?? $data['document_url'] ?? $data['pdf_url'] ?? '');
-        $evidenceUrls = trim($data['evidence_urls'] ?? $data['media_url'] ?? '');
+        
+        // Certificate link/image
+        $certRaw = trim($data['certificate_url'] ?? $data['certificate'] ?? $data['cert_url'] ?? $data['document_url'] ?? $data['pdf_url'] ?? $data['clearance_url'] ?? '');
+        $certUrl = $this->saveBase64MediaIfPresent($certRaw);
+
+        // Inspection evidence photos / images
+        $evidenceRaw = $data['evidence_urls'] ?? $data['photos'] ?? $data['images'] ?? $data['pictures'] ?? $data['evidence_photos'] ?? $data['media_url'] ?? $data['evidence_media'] ?? $data['attached_photos'] ?? $data['attachments'] ?? $data['scene_photos'] ?? '';
+        $evidenceUrls = $this->normalizeMediaUrls($evidenceRaw);
+        
         $inspDate = trim($data['inspection_date'] ?? date('Y-m-d'));
 
         if (empty($findings) && empty($documentType)) {
@@ -630,6 +752,8 @@ class OperationalModuleIntegrator {
             'document_id' => $documentId,
             'case_no' => $caseNo,
             'document_type' => $documentType,
+            'certificate_url' => $certUrl,
+            'evidence_urls' => $evidenceUrls,
             'received_at' => date('Y-m-d H:i:s')
         ];
     }
@@ -1020,11 +1144,8 @@ class OperationalModuleIntegrator {
         $officerName = trim($data['reporting_officer'] ?? $data['officer_name'] ?? 'Traffic Enforcement Officer');
         $dateTime = trim($data['incident_date_time'] ?? $data['date_time'] ?? $data['timestamp'] ?? date('Y-m-d H:i:s'));
         
-        $evidenceMedia = '';
-        if (!empty($data['photos']) || !empty($data['videos']) || !empty($data['evidence_media']) || !empty($data['evidence'])) {
-            $mediaArr = $data['photos'] ?? $data['videos'] ?? $data['evidence_media'] ?? $data['evidence'];
-            $evidenceMedia = is_array($mediaArr) ? json_encode($mediaArr, JSON_UNESCAPED_SLASHES) : (string)$mediaArr;
-        }
+        $rawMedia = $data['photos'] ?? $data['videos'] ?? $data['evidence_media'] ?? $data['evidence'] ?? $data['images'] ?? $data['attached_photos'] ?? '';
+        $evidenceMedia = $this->normalizeMediaUrls($rawMedia);
 
         if (empty($narrative) && empty($violationType)) {
             throw new Exception('Missing accident report narrative or violation description in incoming payload.');
