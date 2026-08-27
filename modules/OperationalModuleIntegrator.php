@@ -874,13 +874,16 @@ class OperationalModuleIntegrator {
             try {
                 $checkBlotter = $this->pdo->query("SHOW TABLES LIKE 'blotters'");
                 if ($checkBlotter && $checkBlotter->rowCount() > 0) {
-                    $bStmt = $this->pdo->prepare("INSERT INTO blotters (blotter_no, complainant_name, incident_type, location, incident_narrative, status, created_at) VALUES (?, ?, ?, ?, ?, ?, NOW())");
+                    $bStmt = $this->pdo->prepare("INSERT INTO blotters (blotter_no, complainant_name, incident_type, location, incident_date, incident_time, description, priority, status, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
                     $bStmt->execute([
                         'BLOTTER-' . date('Y') . '-' . rand(1000, 9999),
                         $name,
                         $type,
                         $location,
+                        date('Y-m-d'),
+                        date('H:i:s'),
                         "[Group 4 Complaint #{$complaintId}] " . $description,
+                        'Medium',
                         'Pending'
                     ]);
                 }
