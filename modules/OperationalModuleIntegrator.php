@@ -285,6 +285,12 @@ class OperationalModuleIntegrator {
                     }
                 } catch (Exception $ex) {}
             }
+
+            try {
+                $this->pdo->exec("ALTER TABLE cctv_requests MODIFY COLUMN status VARCHAR(100) NOT NULL DEFAULT 'Pending'");
+                $this->pdo->exec("ALTER TABLE cctv_requests MODIFY COLUMN priority VARCHAR(50) NOT NULL DEFAULT 'Normal'");
+                $this->pdo->exec("ALTER TABLE cctv_requests MODIFY COLUMN request_type VARCHAR(100) DEFAULT 'Footage & Still Photos'");
+            } catch (Exception $ex) {}
         } catch (Exception $e) {
             error_log("Schema initialization notice: " . $e->getMessage());
         }
@@ -1396,16 +1402,28 @@ class OperationalModuleIntegrator {
 
         if ($this->pdo instanceof PDO) {
             try {
-                $stmt = $this->pdo->prepare("INSERT INTO cctv_requests (request_type, camera_location, incident_date, incident_time, priority, reason, status, requested_at) VALUES ('Footage & Still Photos', ?, ?, ?, ?, ?, 'Dispatched to Group 2', NOW())");
+                $reqBy = $_SESSION['user_id'] ?? $_SESSION['admin_user_id'] ?? null;
+                $contactName = $_SESSION['fullname'] ?? $_SESSION['admin_fullname'] ?? 'Police Investigator Desk';
+
+                $stmt = $this->pdo->prepare("INSERT INTO cctv_requests 
+                    (request_id_code, requested_by, requesting_agency, contact_person, case_reference, request_type, incident_type, camera_location, incident_location, incident_date, incident_time, priority, reason, purpose_reason, status, requested_at) 
+                    VALUES (?, ?, 'Digital Blotter System', ?, ?, 'Footage & Still Photos', ?, ?, ?, ?, ?, ?, ?, ?, 'Dispatched to Group 2', NOW())");
                 $stmt->execute([
+                    $reqId,
+                    $reqBy,
+                    $contactName,
+                    $caseNo,
+                    $incType,
+                    $loc,
                     $loc,
                     $incDate,
                     $incTime,
                     $priority,
+                    $reason,
                     $reason
                 ]);
             } catch (Exception $e) {
-                error_log("Notice: " . $e->getMessage());
+                error_log("Notice saving cctv request: " . $e->getMessage());
             }
 
             $this->saveLog('outgoing_group2_cctv_request', $endpoint, $payload, $result, $status);

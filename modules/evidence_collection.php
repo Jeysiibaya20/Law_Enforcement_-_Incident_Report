@@ -329,7 +329,7 @@ $evidence_records = $evidence_stmt->fetchAll();
 // Fetch received CCTV evidence from Group 2
 $receivedCctvEvidence = [];
 try {
-    $cctvStmt = $pdo->query("SELECT * FROM cctv_requests WHERE status LIKE '%Acknowledged%' OR status LIKE '%Dispatched%' OR acknowledged_at IS NOT NULL ORDER BY id DESC LIMIT 15");
+    $cctvStmt = $pdo->query("SELECT * FROM cctv_requests ORDER BY id DESC LIMIT 50");
     $receivedCctvEvidence = $cctvStmt->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) { $receivedCctvEvidence = []; }
 
@@ -363,7 +363,7 @@ try {
 
 $refCctvRequests = [];
 try {
-    $stmt = $pdo->query("SELECT id, request_id, case_number, incident_type, camera_location, vehicle_plate, status FROM cctv_requests ORDER BY id DESC LIMIT 30");
+    $stmt = $pdo->query("SELECT id, request_id_code, case_reference, incident_type, camera_location, status FROM cctv_requests ORDER BY id DESC LIMIT 30");
     $refCctvRequests = $stmt->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) { $refCctvRequests = []; }
 
@@ -643,7 +643,7 @@ include '../includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="integration-status-card bg-white shadow-sm" onclick="document.querySelector('#requestGroup2CctvModal .btn-close')?.click(); new bootstrap.Modal(document.getElementById('requestGroup2CctvModal')).show();">
+                    <div class="integration-status-card bg-white shadow-sm" data-bs-toggle="modal" data-bs-target="#receivedCctvEvidenceModal">
                         <div class="d-flex align-items-center justify-content-between mb-2">
                             <span class="dept-badge bg-success text-white">TO/FROM GROUP 2</span>
                             <span class="status-dot <?= count($receivedCctvEvidence) > 0 ? 'connected' : 'pending' ?>"></span>
@@ -1545,59 +1545,100 @@ include '../includes/header.php';
 
 <!-- Received CCTV Evidence from Group 2 Modal -->
 <div class="modal fade" id="receivedCctvEvidenceModal" tabindex="-1">
-    <div class="modal-dialog modal-xl">
-        <div class="modal-content border-0 shadow">
-            <div class="modal-header" style="background: linear-gradient(135deg, #198754 0%, #157347 100%); color: white;">
-                <h5 class="modal-title"><i class="bi bi-inbox me-2"></i>Received Evidence & CCTV from Group 2</h5>
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-3 overflow-hidden">
+            <div class="modal-header py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important; color: white;">
+                <div class="d-flex align-items-center justify-content-between w-100 me-3 flex-wrap gap-2">
+                    <h5 class="modal-title fw-bold mb-0 text-white"><i class="bi bi-camera-video me-2 text-warning"></i>Dispatched CCTV Requests & Retrieval Status (Group 2)</h5>
+                    <button type="button" class="btn btn-sm btn-light text-success fw-bold shadow-sm" onclick="document.querySelector('#receivedCctvEvidenceModal .btn-close')?.click(); new bootstrap.Modal(document.getElementById('requestGroup2CctvModal')).show();">
+                        <i class="bi bi-plus-circle me-1"></i>New CCTV Request
+                    </button>
+                </div>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body">
-                <div class="alert alert-success py-2 small mb-3">
-                    <i class="bi bi-check-circle me-1"></i> Evidence, photos, and videos received from <strong>Group 2 (Accident and Violation Reporting)</strong> after CCTV requests are acknowledged.
+            <div class="modal-body p-4">
+                <div class="alert alert-info py-2 small mb-3">
+                    <i class="bi bi-info-circle me-1"></i> Tracks all surveillance requests dispatched to <strong>Group 2 (Accident and Violation Reporting)</strong>. Acknowledged requests receive fulfilled evidence, photos, and video recordings.
                 </div>
                 <?php if (empty($receivedCctvEvidence)): ?>
                     <div class="text-center py-5">
-                        <i class="bi bi-inbox" style="font-size: 3rem; color: #ccc;"></i>
-                        <p class="text-muted mt-2">No CCTV requests or received evidence yet.<br>Use "Request CCTV (Group 2)" to start.</p>
+                        <i class="bi bi-camera-video" style="font-size: 3.5rem; color: #ccc;"></i>
+                        <h6 class="fw-bold mt-3 text-secondary">No CCTV requests dispatched yet</h6>
+                        <p class="text-muted small">Click "New CCTV Request" to dispatch an official camera retrieval request to Group 2.</p>
+                        <button type="button" class="btn btn-sm btn-success fw-bold" onclick="document.querySelector('#receivedCctvEvidenceModal .btn-close')?.click(); new bootstrap.Modal(document.getElementById('requestGroup2CctvModal')).show();">
+                            <i class="bi bi-plus-circle me-1"></i>Request CCTV Now
+                        </button>
                     </div>
                 <?php else: ?>
-                    <div class="table-responsive">
-                        <table class="table table-hover table-sm align-middle">
-                            <thead class="table-light">
+                    <div class="table-responsive" style="max-height: 480px;">
+                        <table class="table table-hover align-middle mb-0" style="font-size: 0.85rem;">
+                            <thead class="table-light sticky-top">
                                 <tr>
-                                    <th>ID</th>
-                                    <th>Camera Location</th>
-                                    <th>Priority</th>
-                                    <th>Status</th>
-                                    <th>Acknowledged By</th>
-                                    <th>Notes</th>
-                                    <th>Evidence</th>
-                                    <th>Actions</th>
+                                    <th>REQUEST CODE</th>
+                                    <th>CASE / BLOTTER</th>
+                                    <th>CAMERA LOCATION</th>
+                                    <th>INCIDENT DATE/TIME</th>
+                                    <th>PRIORITY</th>
+                                    <th>STATUS</th>
+                                    <th>OPERATOR / NOTES</th>
+                                    <th>PROOF MEDIA</th>
+                                    <th class="text-center">ACTION</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <?php foreach ($receivedCctvEvidence as $cctv): ?>
                                 <tr>
-                                    <td><strong>#<?= $cctv['id'] ?></strong></td>
-                                    <td><?= htmlspecialchars($cctv['camera_location'] ?: 'N/A') ?></td>
-                                    <td><span class="badge bg-<?= ($cctv['priority'] ?? '') === 'Critical' ? 'danger' : (($cctv['priority'] ?? '') === 'High' ? 'warning text-dark' : 'secondary') ?>"><?= htmlspecialchars($cctv['priority'] ?? 'Normal') ?></span></td>
-                                    <td><span class="badge bg-<?= strpos($cctv['status'], 'Acknowledged') !== false ? 'success' : 'info' ?>"><?= htmlspecialchars($cctv['status']) ?></span></td>
-                                    <td><small><?= htmlspecialchars($cctv['acknowledged_by'] ?: 'Pending...') ?></small></td>
-                                    <td><small class="text-muted"><?= htmlspecialchars(substr($cctv['acknowledgement_notes'] ?: $cctv['reason'] ?: '', 0, 60)) ?>...</small></td>
                                     <td>
-                                        <?php if (!empty($cctv['fulfilled_photo_url'])): ?>
-                                            <a href="<?= htmlspecialchars($cctv['fulfilled_photo_url']) ?>" target="_blank" class="btn btn-xs btn-outline-success py-0 px-1"><i class="bi bi-image"></i></a>
-                                        <?php endif; ?>
-                                        <?php if (!empty($cctv['fulfilled_video_url'])): ?>
-                                            <a href="<?= htmlspecialchars($cctv['fulfilled_video_url']) ?>" target="_blank" class="btn btn-xs btn-outline-primary py-0 px-1"><i class="bi bi-camera-video"></i></a>
-                                        <?php endif; ?>
-                                        <?php if (empty($cctv['fulfilled_photo_url']) && empty($cctv['fulfilled_video_url'])): ?>
-                                            <span class="text-muted small">Awaiting</span>
-                                        <?php endif; ?>
+                                        <span class="badge bg-dark font-monospace"><?= htmlspecialchars($cctv['request_id_code'] ?: ('REQ-CCTV-' . str_pad($cctv['id'], 4, '0', STR_PAD_LEFT))) ?></span>
                                     </td>
                                     <td>
-                                        <button class="btn btn-sm btn-outline-info" onclick="viewCctvDetail(<?= $cctv['id'] ?>)" title="View Details">
-                                            <i class="bi bi-eye"></i>
+                                        <span class="badge bg-primary bg-opacity-10 text-primary border border-primary font-monospace">
+                                            <?= htmlspecialchars($cctv['case_reference'] ?: 'GENERAL') ?>
+                                        </span>
+                                        <div class="small text-muted text-truncate" style="max-width: 140px;"><?= htmlspecialchars($cctv['incident_type'] ?: 'Traffic Incident') ?></div>
+                                    </td>
+                                    <td>
+                                        <div class="fw-semibold text-dark text-truncate" style="max-width: 220px;" title="<?= htmlspecialchars($cctv['camera_location'] ?: $cctv['incident_location'] ?: 'Quezon City') ?>">
+                                            <?= htmlspecialchars($cctv['camera_location'] ?: $cctv['incident_location'] ?: 'Quezon City') ?>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div><small class="fw-semibold"><?= !empty($cctv['incident_date']) ? date('M d, Y', strtotime($cctv['incident_date'])) : '—' ?></small></div>
+                                        <div class="small text-muted"><?= !empty($cctv['incident_time']) ? date('h:i A', strtotime($cctv['incident_time'])) : '' ?></div>
+                                    </td>
+                                    <td>
+                                        <span class="badge bg-<?= ($cctv['priority'] ?? '') === 'Critical' ? 'danger' : (($cctv['priority'] ?? '') === 'High' ? 'warning text-dark' : 'secondary') ?>">
+                                            <?= htmlspecialchars($cctv['priority'] ?? 'Normal') ?>
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="badge bg-<?= strpos($cctv['status'], 'Acknowledged') !== false ? 'success' : (strpos($cctv['status'], 'Dispatched') !== false ? 'info text-dark' : 'secondary') ?>">
+                                            <?= htmlspecialchars($cctv['status']) ?>
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <div class="small fw-semibold"><?= htmlspecialchars($cctv['acknowledged_by'] ?: 'Awaiting Group 2') ?></div>
+                                        <div class="small text-muted text-truncate" style="max-width: 180px;" title="<?= htmlspecialchars($cctv['acknowledgement_notes'] ?: $cctv['reason'] ?: '') ?>">
+                                            <?= htmlspecialchars($cctv['acknowledgement_notes'] ?: $cctv['reason'] ?: '') ?>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <?php if (!empty($cctv['fulfilled_photo_url']) || !empty($cctv['fulfilled_video_url'])): ?>
+                                            <div class="d-flex gap-1">
+                                                <?php if (!empty($cctv['fulfilled_photo_url'])): ?>
+                                                    <a href="<?= htmlspecialchars($cctv['fulfilled_photo_url']) ?>" target="_blank" class="btn btn-xs btn-outline-success py-0 px-1" title="View Photo Evidence"><i class="bi bi-image"></i> Photo</a>
+                                                <?php endif; ?>
+                                                <?php if (!empty($cctv['fulfilled_video_url'])): ?>
+                                                    <a href="<?= htmlspecialchars($cctv['fulfilled_video_url']) ?>" target="_blank" class="btn btn-xs btn-outline-primary py-0 px-1" title="View Video Recording"><i class="bi bi-camera-video"></i> Video</a>
+                                                <?php endif; ?>
+                                            </div>
+                                        <?php else: ?>
+                                            <span class="badge bg-light text-muted border">In Queue</span>
+                                        <?php endif; ?>
+                                    </td>
+                                    <td class="text-center">
+                                        <button class="btn btn-sm btn-outline-success py-1 px-2 fw-semibold" onclick="viewCctvDetail(<?= htmlspecialchars(json_encode($cctv), ENT_QUOTES, 'UTF-8') ?>)" title="View Details">
+                                            <i class="bi bi-eye me-1"></i>View
                                         </button>
                                     </td>
                                 </tr>
@@ -1616,14 +1657,14 @@ include '../includes/header.php';
 
 <!-- CCTV Detail View Modal -->
 <div class="modal fade" id="cctvDetailModal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content border-0 shadow">
-            <div class="modal-header bg-success text-white">
-                <h5 class="modal-title"><i class="bi bi-camera-video me-2"></i>CCTV Request Details</h5>
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-3 overflow-hidden">
+            <div class="modal-header py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important; color: white;">
+                <h5 class="modal-title fw-bold text-white"><i class="bi bi-camera-video me-2 text-warning"></i>CCTV Request & Surveillance Details</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body" id="cctvDetailBody">
-                <div class="text-center py-4"><div class="spinner-border text-primary" role="status"></div></div>
+            <div class="modal-body p-4" id="cctvDetailBody">
+                <!-- Loaded dynamically via viewCctvDetail(cctv) -->
             </div>
             <div class="modal-footer bg-light">
                 <button type="button" class="btn btn-secondary px-4 fw-semibold" data-bs-dismiss="modal"><i class="bi bi-x-lg me-1"></i> Close</button>
@@ -2404,6 +2445,70 @@ function handleG2LocationSelect(selectEl) {
     } else {
         if (customWrap) customWrap.style.display = 'none';
     }
+}
+
+function viewCctvDetail(cctv) {
+    if (!cctv) return;
+    const reqCode = cctv.request_id_code || ('REQ-CCTV-' + String(cctv.id).padStart(4, '0'));
+    const caseRef = cctv.case_reference || 'GENERAL';
+    const loc = cctv.camera_location || cctv.incident_location || 'Quezon City';
+    const dateStr = cctv.incident_date ? `${cctv.incident_date} ${cctv.incident_time || ''}` : (cctv.requested_at || 'N/A');
+    const priority = cctv.priority || 'Normal';
+    const status = cctv.status || 'Dispatched to Group 2';
+    const reason = cctv.purpose_reason || cctv.reason || 'No description provided.';
+    const ackBy = cctv.acknowledged_by || 'Pending Group 2 Camera Operator';
+    const ackNotes = cctv.acknowledgement_notes || 'Awaiting camera search and footage retrieval.';
+    
+    let mediaHtml = '<span class="text-muted small">No evidence footage uploaded yet by Group 2 surveillance desk.</span>';
+    if (cctv.fulfilled_photo_url || cctv.fulfilled_video_url) {
+        mediaHtml = '<div class="d-flex gap-2 flex-wrap">';
+        if (cctv.fulfilled_photo_url) {
+            mediaHtml += `<a href="${cctv.fulfilled_photo_url}" target="_blank" class="btn btn-sm btn-success fw-bold"><i class="bi bi-image me-1"></i> Open Still Photo Evidence</a>`;
+        }
+        if (cctv.fulfilled_video_url) {
+            mediaHtml += `<a href="${cctv.fulfilled_video_url}" target="_blank" class="btn btn-sm btn-primary fw-bold"><i class="bi bi-camera-video me-1"></i> Open Video Footage Recording</a>`;
+        }
+        mediaHtml += '</div>';
+    }
+
+    const html = `
+        <div class="row g-3">
+            <div class="col-md-6">
+                <strong>Request Code:</strong> <span class="badge bg-dark font-monospace fs-6">${reqCode}</span>
+            </div>
+            <div class="col-md-6">
+                <strong>Related Case / Blotter:</strong> <span class="badge bg-primary font-monospace">${caseRef}</span>
+            </div>
+            <div class="col-md-6">
+                <strong>Target Camera Location:</strong> <div class="fw-semibold text-dark">${loc}</div>
+            </div>
+            <div class="col-md-6">
+                <strong>Incident Datetime:</strong> <div>${dateStr}</div>
+            </div>
+            <div class="col-md-6">
+                <strong>Urgency Priority:</strong> <span class="badge bg-warning text-dark">${priority}</span>
+            </div>
+            <div class="col-md-6">
+                <strong>Current Status:</strong> <span class="badge bg-success">${status}</span>
+            </div>
+            <div class="col-12">
+                <strong>Request Reason & Instructions:</strong>
+                <div class="p-3 bg-light rounded mt-1 border border-success-subtle text-dark" style="font-size: 0.9rem; white-space: pre-line;">${reason}</div>
+            </div>
+            <div class="col-md-6">
+                <strong>Surveillance Desk / Operator:</strong> <div class="small text-dark">${ackBy}</div>
+            </div>
+            <div class="col-md-6">
+                <strong>Operator Notes:</strong> <div class="small text-muted">${ackNotes}</div>
+            </div>
+            <div class="col-12">
+                <strong>Fulfilled Proof & Media:</strong>
+                <div class="p-3 bg-light rounded mt-1 border">${mediaHtml}</div>
+            </div>
+        </div>
+    `;
+    document.getElementById('cctvDetailBody').innerHTML = html;
+    new bootstrap.Modal(document.getElementById('cctvDetailModal')).show();
 }
 
 document.addEventListener('DOMContentLoaded', function() {
