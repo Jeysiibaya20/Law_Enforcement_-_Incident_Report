@@ -45,10 +45,18 @@ $sql .= ' ORDER BY CASE WHEN hearing_date IS NULL THEN 1 ELSE 0 END, hearing_dat
 try {
     $stmt = $pdo->prepare($sql);
     $stmt->execute($params);
-    $hearings = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    $all_hearings = $stmt->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) {
-    $hearings = [];
+    $all_hearings = [];
 }
+
+$page = max(1, intval($_GET['page'] ?? 1));
+$per_page = 10;
+$total_rows = count($all_hearings);
+$total_pages = max(1, ceil($total_rows / $per_page));
+if ($page > $total_pages) $page = $total_pages;
+$offset = ($page - 1) * $per_page;
+$hearings = array_slice($all_hearings, $offset, $per_page);
 
 try {
     $summaryStmt = $pdo->query("SELECT
@@ -60,6 +68,17 @@ try {
     $summary = $summaryStmt->fetch(PDO::FETCH_ASSOC);
 } catch (Exception $e) {
     $summary = ['upcoming' => 0, 'today' => 0, 'past' => 0, 'unscheduled' => 0];
+}
+
+function buildPageUrl($pageNum, $search, $date_from, $date_to, $status_filter) {
+    $p = [
+        'page' => $pageNum
+    ];
+    if ($search !== '') $p['search'] = $search;
+    if ($date_from !== '') $p['date_from'] = $date_from;
+    if ($date_to !== '') $p['date_to'] = $date_to;
+    if ($status_filter !== '') $p['status'] = $status_filter;
+    return 'Hearing_schedule.php?' . http_build_query($p);
 }
 ?>
 <div class="main-content" style="background:#fff; color:#000;">
@@ -145,9 +164,16 @@ try {
         </div>
 
         <div class="card" style="background:#fff; color:#000; border:1px solid #e9ecef;">
-            <div class="card-header" style="background:#fff; color:#000; border-bottom:1px solid #e9ecef;">
-                <h5 class="mb-0">Powerful Hearing Schedule</h5>
-                <small class="text-muted" style="color:#000;">Track hearing events, monitor dates, and launch hearing results from one dashboard.</small>
+            <div class="card-header d-flex justify-content-between align-items-center flex-wrap gap-2 py-3 px-4" style="background:#fff; color:#000; border-bottom:1px solid #e9ecef;">
+                <div>
+                    <h5 class="mb-0 fw-bold">Powerful Hearing Schedule</h5>
+                    <small class="text-muted" style="color:#000;">Track hearing events, monitor dates, and launch hearing results from one dashboard.</small>
+                </div>
+                <div>
+                    <span class="badge bg-primary rounded-pill px-3 py-2 fw-bold">
+                        Showing <?= count($hearings) ?> of <?= $total_rows ?> Schedule(s)
+                    </span>
+                </div>
             </div>
             <div class="card-body p-0">
                 <div class="table-responsive">
@@ -197,6 +223,56 @@ try {
                     </table>
                 </div>
             </div>
+            <?php if ($total_pages > 1): ?>
+                <div class="card-footer bg-white border-top py-3 px-4 d-flex justify-content-between align-items-center flex-wrap gap-2">
+                    <div class="small text-muted">
+                        Showing <strong><?= $total_rows > 0 ? ($offset + 1) : 0 ?></strong> to <strong><?= min($offset + $per_page, $total_rows) ?></strong> of <strong><?= $total_rows ?></strong> entries (10 per page)
+                    </div>
+                    <nav aria-label="Hearing schedule pagination">
+                        <ul class="pagination pagination-sm mb-0">
+                            <!-- Previous Page -->
+                            <li class="page-item <?= ($page <= 1) ? 'disabled' : '' ?>">
+                                <a class="page-link" href="<?= ($page > 1) ? buildPageUrl($page - 1, $search, $date_from, $date_to, $status_filter) : '#' ?>" tabindex="-1">
+                                    <i class="bi bi-chevron-left me-1"></i>Prev
+                                </a>
+                            </li>
+
+                            <!-- Page numbers -->
+                            <?php 
+                                $startPage = max(1, $page - 2);
+                                $endPage = min($total_pages, $page + 2);
+                                if ($startPage > 1): ?>
+                                    <li class="page-item"><a class="page-link" href="<?= buildPageUrl(1, $search, $date_from, $date_to, $status_filter) ?>">1</a></li>
+                                    <?php if ($startPage > 2): ?><li class="page-item disabled"><span class="page-link">&hellip;</span></li><?php endif; ?>
+                            <?php endif; ?>
+
+                            <?php for ($i = $startPage; $i <= $endPage; $i++): ?>
+                                <li class="page-item <?= ($i === $page) ? 'active' : '' ?>">
+                                    <a class="page-link" href="<?= buildPageUrl($i, $search, $date_from, $date_to, $status_filter) ?>"><?= $i ?></a>
+                                </li>
+                            <?php endfor; ?>
+
+                            <?php if ($endPage < $total_pages): ?>
+                                <?php if ($endPage < $total_pages - 1): ?><li class="page-item disabled"><span class="page-link">&hellip;</span></li><?php endif; ?>
+                                <li class="page-item"><a class="page-link" href="<?= buildPageUrl($total_pages, $search, $date_from, $date_to, $status_filter) ?>"><?= $total_pages ?></a></li>
+                            <?php endif; ?>
+
+                            <!-- Next Page -->
+                            <li class="page-item <?= ($page >= $total_pages) ? 'disabled' : '' ?>">
+                                <a class="page-link" href="<?= ($page < $total_pages) ? buildPageUrl($page + 1, $search, $date_from, $date_to, $status_filter) : '#' ?>">
+                                    Next<i class="bi bi-chevron-right ms-1"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            <?php else: ?>
+                <div class="card-footer bg-white border-top py-2 px-4 small text-muted">
+                    Showing <strong><?= count($hearings) ?></strong> of <strong><?= $total_rows ?></strong> entries (10 per page)
+                </div>
+            <?php endif; ?>
         </div>
     </div>
 </div>
+
+<?php require_once '../includes/footer.php'; ?>
