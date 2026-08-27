@@ -170,18 +170,23 @@ require_once '../includes/header.php';
                     <div class="form-group">
                         <label for="username" class="form-label">
                             <i class="bi bi-person"></i>
-                            Username
+                            Username or Email
                         </label>
                         <input type="text" class="form-control" id="username" name="username" 
                                value="<?php echo htmlspecialchars($_POST['username'] ?? ''); ?>" 
-                               placeholder="Enter your username" required>
+                               placeholder="Enter your username or email" required>
                     </div>
                     
                     <div class="form-group">
-                        <label for="password" class="form-label">
-                            <i class="bi bi-lock"></i>
-                            Password
-                        </label>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                            <label for="password" class="form-label" style="margin-bottom: 0;">
+                                <i class="bi bi-lock"></i>
+                                Password
+                            </label>
+                            <a href="forgot.php" class="forgot-password-link" style="color: #2e856e; font-size: 0.88rem; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.3rem;">
+                                <i class="bi bi-key" style="font-size: 0.95rem;"></i> Forgot Password?
+                            </a>
+                        </div>
                         <input type="password" class="form-control" id="password" name="password" 
                                placeholder="Enter your password" required>
                     </div>
@@ -191,26 +196,12 @@ require_once '../includes/header.php';
                         <span>Sign In</span>
                     </button>
                     
-<div class="signup-container">
-  <a href="signup_multistep.php" class="login-scd">
-    <i class="bi bi-box-arrow-in-right"></i>
-    <span>Sign up</span>
-  </a>
-</div>
-
-  <p></p>
-   <p></p>
-  <p>Don't have an account?</p>
-
-  <!-- Forgot Password Button -->
-  <a href="forgot.php" class="forgot-password-btn">
-    <i class="bi bi-key"></i>
-    <span>Forgot Password?</span>
-  </a>
-</div>
-
-
-
+                    <div class="signup-prompt" style="text-align: center; margin-top: 1.25rem; font-size: 0.95rem; color: #4b5563;">
+                        <span>Don't have an account?</span>
+                        <a href="signup_multistep.php" style="color: #2e856e; font-weight: 700; text-decoration: none; margin-left: 0.25rem;">
+                            Sign Up
+                        </a>
+                    </div>
                 </form>
                 
                 <div class="login-footer">
@@ -415,50 +406,51 @@ require_once '../includes/header.php';
 
 .login-form .form-control {
     width: 100%;
-    padding: 1rem 1.25rem;
-    border: 4px solid #e5e5e5;
-    border-radius: var(--border-radius-sm);
-    font-size: 1rem;
-    background: rgba(255, 255, 255, 0.9);
-    transition: var(--transition);
-    font-family: 'Quicksand', sans-serif;
+    padding: 0.85rem 1.15rem;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    background: #ffffff;
+    transition: all 0.2s ease;
+    font-family: inherit;
+    box-sizing: border-box;
+    color: #1e293b;
 }
 
 .login-form .form-control:focus {
     outline: none;
-    border-color: var(--main-color);
-    box-shadow: 0 0 0 3px rgba(139, 111, 71, 0.1);
-    background: var(--text-white);
+    border-color: #2e856e;
+    box-shadow: 0 0 0 3px rgba(46, 133, 110, 0.18);
+    background: #ffffff;
 }
 
 .login-form .form-control::placeholder {
-    color: var(--text-light);
-    font-style: italic;
+    color: #94a3b8;
+    font-style: normal;
 }
 
 .login-btn {
-    background: #4c8a89;
-    color: var(--text-white);
+    background: #2e856e;
+    color: #ffffff;
     border: none;
-    padding: 1rem 2rem;
-    border-radius: var(--border-radius-sm);
+    padding: 0.85rem 2rem;
+    border-radius: 8px;
     font-size: 1rem;
     font-weight: 600;
-    font-family: 'Quicksand', sans-serif;
     cursor: pointer;
-    transition: var(--transition);
+    transition: all 0.2s ease;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    margin-top: 1rem;
-    box-shadow: var(--shadow-md);
+    margin-top: 0.5rem;
+    box-shadow: 0 4px 12px rgba(46, 133, 110, 0.25);
 }
 
 .login-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
-    background: var(--gradient-accent);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(46, 133, 110, 0.35);
+    background: #246d5a;
 }
 
 .login-btn:active {

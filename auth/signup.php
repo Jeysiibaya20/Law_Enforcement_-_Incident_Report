@@ -224,22 +224,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <!-- Step 1: Personal Information -->
                     <div class="signup-step" data-step="1">
                     <h3>1. Personal Information</h3>
-                    <div class="form-row" style="display:flex; gap:0.75rem;">
-                        <div class="form-group" style="flex:1;">
+                    <div class="form-row" style="display:flex; gap:1.25rem; margin-bottom:1.15rem;">
+                        <div class="form-group" style="flex:1 1 0; min-width:0; margin-bottom:0;">
                             <label for="first_name" class="form-label">First Name *</label>
                             <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First name" required autocomplete="given-name" autocapitalize="words">
                         </div>
-                        <div class="form-group" style="flex:1;">
+                        <div class="form-group" style="flex:1 1 0; min-width:0; margin-bottom:0;">
                             <label for="middle_name" class="form-label">Middle Name</label>
                             <input type="text" class="form-control" id="middle_name" name="middle_name" placeholder="Optional" autocomplete="additional-name" autocapitalize="words">
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group" style="margin-bottom:1.15rem;">
                         <label for="last_name" class="form-label">Last Name *</label>
                         <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last name" required autocomplete="family-name" autocapitalize="words">
                     </div>
-                    <div class="form-row" style="display:flex; gap:0.75rem;">
-                        <div class="form-group" style="flex:1;">
+                    <div class="form-row" style="display:flex; gap:1.25rem; margin-bottom:1.15rem;">
+                        <div class="form-group" style="flex:1 1 0; min-width:0; margin-bottom:0;">
                             <label for="sex" class="form-label">Sex *</label>
                             <select name="sex" id="sex" class="form-control" required>
                                 <option value="">Select Sex</option>
@@ -248,9 +248,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <option value="Other">Other</option>
                             </select>
                         </div>
-                        <div class="form-group" style="flex:1;">
+                        <div class="form-group" style="flex:1 1 0; min-width:0; margin-bottom:0;">
                             <label for="dob" class="form-label">Date of Birth *</label>
-                            <input type="date" class="form-control" id="dob" name="dob" required autocomplete="bday">
+                            <input type="date" class="form-control" id="dob" name="dob" max="<?php echo date('Y-m-d'); ?>" min="1900-01-01" required autocomplete="bday">
                         </div>
                     </div>
 
