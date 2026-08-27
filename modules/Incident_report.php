@@ -797,15 +797,15 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
                     <table class="table table-hover align-middle mb-0" id="incidentsTable">
                         <thead class="table-light">
                             <tr>
-                                <th>Case #</th>
-                                <th>Reporter</th>
-                                <th>Classification</th>
-                                <th>Date/Time</th>
-                                <th>Location</th>
-                                <th>🤖 AI Analysis</th>
-                                <th>Urgency</th>
-                                <th>Status</th>
-                                <th class="text-center">Actions</th>
+                                <th style="white-space: nowrap; width: 13%;">Case #</th>
+                                <th style="width: 14%;">Reporter</th>
+                                <th style="white-space: nowrap; width: 14%;">Classification</th>
+                                <th style="white-space: nowrap; width: 11%;">Date/Time</th>
+                                <th style="width: 16%;">Location</th>
+                                <th style="white-space: nowrap; width: 11%;">🤖 AI Analysis</th>
+                                <th style="white-space: nowrap; width: 8%;">Urgency</th>
+                                <th style="white-space: nowrap; width: 8%;">Status</th>
+                                <th class="text-center" style="white-space: nowrap; width: 5%;">Actions</th>
                             </tr>
                         </thead>
                         <tbody id="incidentsTableBody">
@@ -824,10 +824,12 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
                                         data-type="<?php echo strtolower(htmlspecialchars($incident['auto_classification'] ?? '')); ?>"
                                         data-urgency="<?php echo strtolower(htmlspecialchars($incident['urgency_level'] ?? '')); ?>"
                                         data-status="<?php echo strtolower(htmlspecialchars($incident['status'] ?? '')); ?>">
-                                        <td><strong><?php echo htmlspecialchars($incident['case_no'] ?? ''); ?></strong></td>
+                                        <td class="text-nowrap"><strong><?php echo htmlspecialchars($incident['case_no'] ?? ''); ?></strong></td>
                                         <td>
-                                            <?php echo htmlspecialchars($incident['reporter_name'] ?? ''); ?>
-                                            <br><small class="text-muted"><?php echo ucfirst($incident['reporter_type'] ?? ''); ?></small>
+                                            <div class="fw-semibold text-truncate" style="max-width: 140px;" title="<?php echo htmlspecialchars($incident['reporter_name'] ?? ''); ?>">
+                                                <?php echo htmlspecialchars($incident['reporter_name'] ?? ''); ?>
+                                            </div>
+                                            <small class="text-muted"><?php echo ucfirst($incident['reporter_type'] ?? 'Citizen'); ?></small>
                                         </td>
                                         <td>
                                             <?php echo render_incident_type_badge($incident['auto_classification'] ?? ''); ?>
@@ -835,21 +837,24 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
                                                 <br><small class="text-muted">Corrected: <?php echo htmlspecialchars($incident['manual_classification']); ?></small>
                                             <?php endif; ?>
                                         </td>
-                                        <td>
-                                            <small><?php echo !empty($incident['incident_date']) ? date('M d, Y', strtotime($incident['incident_date'])) : 'N/A'; ?></small>
-                                            <br><small><?php echo $incident['incident_time'] ?? 'N/A'; ?></small>
+                                        <td class="text-nowrap">
+                                            <small class="fw-semibold"><?php echo !empty($incident['incident_date']) ? date('M d, Y', strtotime($incident['incident_date'])) : 'N/A'; ?></small>
+                                            <br><small class="text-muted"><?php echo $incident['incident_time'] ?? 'N/A'; ?></small>
                                         </td>
-                                        <td><small><?php echo htmlspecialchars(substr($incident['location'] ?? '', 0, 30)); ?></small></td>
                                         <td>
-                                            <div style="font-size: 0.85em;">
-                                                <span class="badge bg-info-subtle text-info"><?php echo htmlspecialchars($incident['nlp_threat_level'] ?? 'N/A'); ?></span>
-                                                <br><small class="text-muted">Score: <?php echo number_format($incident['nlp_severity_score'] ?? 0, 1); ?>/100</small>
-                                                <br><small class="text-muted">Conf: <?php echo number_format($incident['nlp_confidence_score'] ?? 0, 1); ?>%</small>
+                                            <div class="text-truncate" style="max-width: 160px;" title="<?php echo htmlspecialchars($incident['location'] ?? ''); ?>">
+                                                <small><?php echo htmlspecialchars($incident['location'] ?: 'Not Specified'); ?></small>
                                             </div>
                                         </td>
-                                        <td><?php echo render_urgency_badge($incident['urgency_level'] ?? 'Medium', $incident['is_high_risk'] ?? 0); ?></td>
-                                        <td><?php echo render_status_badge($incident['status'] ?? 'Submitted'); ?></td>
-                                        <td class="text-center">
+                                        <td class="text-nowrap">
+                                            <div style="font-size: 0.82em;">
+                                                <span class="badge bg-info-subtle text-info"><?php echo htmlspecialchars($incident['nlp_threat_level'] ?? 'N/A'); ?></span>
+                                                <br><small class="text-muted">Score: <?php echo number_format($incident['nlp_severity_score'] ?? 0, 1); ?>/100</small>
+                                            </div>
+                                        </td>
+                                        <td class="text-nowrap"><?php echo render_urgency_badge($incident['urgency_level'] ?? 'Medium', $incident['is_high_risk'] ?? 0); ?></td>
+                                        <td class="text-nowrap"><?php echo render_status_badge($incident['status'] ?? 'Submitted'); ?></td>
+                                        <td class="text-center text-nowrap">
                                             <div class="btn-group btn-group-sm">
                                                 <button class="btn btn-outline-primary" title="View Details" data-bs-toggle="modal" data-bs-target="#viewIncidentModal" onclick="loadIncidentDetails(<?php echo htmlspecialchars(json_encode($incident)); ?>)">
                                                     <i class="bi bi-eye"></i>
