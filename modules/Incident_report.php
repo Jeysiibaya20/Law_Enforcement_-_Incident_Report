@@ -307,12 +307,34 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) &&
         }
 
         if ($success) {
+            // Dispatch real-time status update to Policy API (Maeren Marto: policy.alertaraqc.com/api/complaints_status_receive.php)
+            try {
+                $stmtIncRef = $pdo->prepare("SELECT case_no, incident_type, location, narrative FROM incidents WHERE id = ?");
+                $stmtIncRef->execute([$incident_id]);
+                $incData = $stmtIncRef->fetch(PDO::FETCH_ASSOC);
+
+                $integrator = new OperationalModuleIntegrator($pdo);
+                $integrator->dispatchComplaintStatusUpdate([
+                    'case_no' => $incData['case_no'] ?? ('INC-' . $incident_id),
+                    'complaint_id' => $incData['case_no'] ?? ('INC-' . $incident_id),
+                    'reference_no' => $incData['case_no'] ?? ('INC-' . $incident_id),
+                    'status' => $status,
+                    'urgency_level' => $urgency_level,
+                    'incident_type' => $manual_classification ?: ($incData['incident_type'] ?? 'General Incident'),
+                    'location' => $incData['location'] ?? '',
+                    'admin_notes' => $admin_notes,
+                    'updated_by' => $_SESSION['fullname'] ?? ($_SESSION['username'] ?? 'Law Enforcement Admin')
+                ]);
+            } catch (Exception $exSync) {
+                error_log("Notice dispatching status to Policy: " . $exSync->getMessage());
+            }
+
             require_once __DIR__ . '/../includes/audit_logger.php';
-            logAuditTrail('INCIDENT_UPDATE', 'Incident Registry', (string)$incident_id, "Updated incident report ID #{$incident_id}: status {$status}, urgency {$urgency_level}.", 'SUCCESS', $pdo);
+            logAuditTrail('INCIDENT_UPDATE', 'Incident Registry', (string)$incident_id, "Updated incident report ID #{$incident_id}: status {$status}, urgency {$urgency_level}. Dispatched status sync to Policy.", 'SUCCESS', $pdo);
 
             $_SESSION['message'] = [
                 'type' => 'success',
-                'text' => 'Incident classification and details updated successfully!'
+                'text' => 'Incident classification and status updated successfully! Status synced to partner department.'
             ];
         }
 
@@ -826,21 +848,20 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
                     <table class="table table-hover align-middle mb-0" id="incidentsTable">
                         <thead class="table-light">
                             <tr>
-                                <th style="white-space: nowrap; width: 13%;">Case #</th>
-                                <th style="width: 14%;">Reporter</th>
-                                <th style="white-space: nowrap; width: 14%;">Classification</th>
-                                <th style="white-space: nowrap; width: 11%;">Date/Time</th>
-                                <th style="width: 16%;">Location</th>
-                                <th style="white-space: nowrap; width: 11%;">🤖 AI Analysis</th>
-                                <th style="white-space: nowrap; width: 8%;">Urgency</th>
-                                <th style="white-space: nowrap; width: 8%;">Status</th>
-                                <th class="text-center" style="white-space: nowrap; width: 5%;">Actions</th>
+                                <th style="white-space: nowrap; width: 14%;">Case #</th>
+                                <th style="width: 16%;">Reporter</th>
+                                <th style="white-space: nowrap; width: 15%;">Classification</th>
+                                <th style="white-space: nowrap; width: 13%;">Date / Time</th>
+                                <th style="width: 22%;">Location</th>
+                                <th style="white-space: nowrap; width: 10%;">Urgency</th>
+                                <th style="white-space: nowrap; width: 10%;">Status</th>
+                                <th class="text-center" style="white-space: nowrap; width: 6%;">Actions</th>
                             </tr>
                         </thead>
                         <tbody id="incidentsTableBody">
                             <?php if (empty($incidents)): ?>
                                 <tr id="noIncidentsRow">
-                                    <td colspan="9" class="text-center text-muted py-4">
+                                    <td colspan="8" class="text-center text-muted py-4">
                                         <i class="bi bi-inbox"></i> No incident reports found
                                     </td>
                                 </tr>
@@ -873,12 +894,6 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
                                         <td>
                                             <div class="text-truncate" style="max-width: 160px;" title="<?php echo htmlspecialchars($incident['location'] ?? ''); ?>">
                                                 <small><?php echo htmlspecialchars($incident['location'] ?: 'Not Specified'); ?></small>
-                                            </div>
-                                        </td>
-                                        <td class="text-nowrap">
-                                            <div style="font-size: 0.82em;">
-                                                <span class="badge bg-info-subtle text-info"><?php echo htmlspecialchars($incident['nlp_threat_level'] ?? 'N/A'); ?></span>
-                                                <br><small class="text-muted">Score: <?php echo number_format($incident['nlp_severity_score'] ?? 0, 1); ?>/100</small>
                                             </div>
                                         </td>
                                         <td class="text-nowrap"><?php echo render_urgency_badge($incident['urgency_level'] ?? 'Medium', $incident['is_high_risk'] ?? 0); ?></td>
@@ -942,11 +957,6 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
                 </div>
 
                 <div class="modal-body" style="max-height: 600px; overflow-y: auto;">
-                    <div class="alert alert-info">
-                        <i class="bi bi-info-circle-fill me-2"></i>
-                        <strong>Automated Classification:</strong> Your incident report will be automatically classified and analyzed for urgency level.
-                    </div>
-
                     <!-- Reporter Information -->
                     <h6 class="mb-3"><i class="bi bi-person-fill"></i> Reporter Information</h6>
                     <div class="row mb-3">
@@ -1196,34 +1206,6 @@ require_once __DIR__ . '/../includes/navbar.php'; ?>
                     <div class="col-md-6">
                         <h6>Urgency Level</h6>
                         <p id="view_urgency"></p>
-                    </div>
-                </div>
-
-                <div class="alert alert-info">
-                    <h6><i class="bi bi-robot"></i> 🤖 AI Analysis Results</h6>
-                    <div class="row mb-2">
-                        <div class="col-md-4">
-                            <small><strong>Threat Level:</strong></small>
-                            <p id="view_nlp_threat" class="mb-0"><span class="badge bg-warning">Loading...</span></p>
-                        </div>
-                        <div class="col-md-4">
-                            <small><strong>Severity Score:</strong></small>
-                            <p id="view_nlp_severity" class="mb-0">-</p>
-                        </div>
-                        <div class="col-md-4">
-                            <small><strong>Confidence:</strong></small>
-                            <p id="view_nlp_confidence" class="mb-0">-</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <small><strong>Sentiment:</strong></small>
-                            <p id="view_nlp_sentiment" class="mb-0">-</p>
-                        </div>
-                        <div class="col-md-8">
-                            <small><strong>Emotions Detected:</strong></small>
-                            <p id="view_nlp_emotions" class="mb-0"><small class="text-muted">None</small></p>
-                        </div>
                     </div>
                 </div>
 

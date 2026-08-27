@@ -380,9 +380,73 @@ switch ($action) {
         try {
             $stmt = $pdo->prepare("UPDATE blotters SET status = ? WHERE id = ?");
             $stmt->execute([$newStatus, $id]);
-            sendJsonResponse('success', "Blotter #{$id} status updated to '{$newStatus}'");
+            
+            // Sync status to Policy API
+            try {
+                $bRow = $pdo->query("SELECT blotter_no, complainant_name, incident_type, incident_id FROM blotters WHERE id = " . $id)->fetch(PDO::FETCH_ASSOC);
+                require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+                $integrator = new OperationalModuleIntegrator($pdo);
+                $integrator->dispatchComplaintStatusUpdate([
+                    'case_no' => $bRow['blotter_no'] ?? ('BLT-' . $id),
+                    'blotter_no' => $bRow['blotter_no'] ?? '',
+                    'status' => $newStatus,
+                    'incident_type' => $bRow['incident_type'] ?? 'General Incident',
+                    'updated_by' => 'API System User'
+                ]);
+            } catch (Exception $e) {}
+
+            sendJsonResponse('success', "Blotter #{$id} status updated to '{$newStatus}' and synced to partner department.");
         } catch (Exception $e) {
             sendJsonResponse('error', 'Failed to update blotter status: ' . $e->getMessage(), null, 500);
+        }
+        break;
+
+    case 'update_incident_status':
+    case 'update_case_status':
+    case 'update_status':
+        $id = (int)($inputData['id'] ?? $inputData['incident_id'] ?? 0);
+        $caseNo = trim($inputData['case_no'] ?? '');
+        $newStatus = trim($inputData['status'] ?? '');
+        $adminNotes = trim($inputData['admin_notes'] ?? $inputData['notes'] ?? $inputData['remarks'] ?? '');
+
+        if ((!$id && empty($caseNo)) || empty($newStatus)) {
+            sendJsonResponse('error', 'id or case_no and status parameters required', null, 400);
+        }
+
+        try {
+            if ($id > 0) {
+                $stmt = $pdo->prepare("UPDATE incidents SET status = ?, admin_notes = COALESCE(NULLIF(?, ''), admin_notes), updated_at = NOW() WHERE id = ?");
+                $stmt->execute([$newStatus, $adminNotes, $id]);
+                $inc = $pdo->query("SELECT case_no, incident_type, location FROM incidents WHERE id = " . $id)->fetch(PDO::FETCH_ASSOC);
+            } else {
+                $stmt = $pdo->prepare("UPDATE incidents SET status = ?, admin_notes = COALESCE(NULLIF(?, ''), admin_notes), updated_at = NOW() WHERE case_no = ?");
+                $stmt->execute([$newStatus, $adminNotes, $caseNo]);
+                $inc = $pdo->prepare("SELECT id, case_no, incident_type, location FROM incidents WHERE case_no = ?");
+                $inc->execute([$caseNo]);
+                $inc = $inc->fetch(PDO::FETCH_ASSOC);
+            }
+
+            // Sync status to Policy API (Maeren Marto)
+            try {
+                require_once __DIR__ . '/../modules/OperationalModuleIntegrator.php';
+                $integrator = new OperationalModuleIntegrator($pdo);
+                $integrator->dispatchComplaintStatusUpdate([
+                    'case_no' => $inc['case_no'] ?? $caseNo,
+                    'complaint_id' => $inc['case_no'] ?? $caseNo,
+                    'reference_no' => $inc['case_no'] ?? $caseNo,
+                    'status' => $newStatus,
+                    'incident_type' => $inc['incident_type'] ?? 'General Incident',
+                    'admin_notes' => $adminNotes,
+                    'updated_by' => 'API System User'
+                ]);
+            } catch (Exception $e) {}
+
+            sendJsonResponse('success', "Incident status updated to '{$newStatus}' and synced to partner department.", [
+                'case_no' => $inc['case_no'] ?? $caseNo,
+                'status'  => $newStatus
+            ]);
+        } catch (Exception $e) {
+            sendJsonResponse('error', 'Failed to update incident status: ' . $e->getMessage(), null, 500);
         }
         break;
 

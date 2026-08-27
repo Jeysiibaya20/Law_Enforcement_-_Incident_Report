@@ -547,6 +547,88 @@ class OperationalModuleIntegrator {
     }
 
     /**
+     * Dispatch Complaint / Incident Status Updates back to Partner Policy API (Maeren Marto / policy.alertaraqc.com)
+     */
+    public function dispatchComplaintStatusUpdate(array $statusData): array {
+        $endpoint = getIntegrationSetting('policy_complaint_status_api_url', 'https://policy.alertaraqc.com/api/complaints_status_receive.php');
+        
+        $caseNo = $statusData['case_no'] ?? ($statusData['incident_id'] ?? ($statusData['complaint_id'] ?? 'INC-UNKNOWN'));
+        $complaintId = $statusData['complaint_id'] ?? ($statusData['id'] ?? ($statusData['case_no'] ?? $caseNo));
+        $blotterNo = $statusData['blotter_no'] ?? '';
+        $rawStatus = trim($statusData['status'] ?? 'Processing');
+        $adminNotes = $statusData['admin_notes'] ?? ($statusData['notes'] ?? ($statusData['remarks'] ?? 'Status updated by Law Enforcement officer.'));
+        $updatedBy = $statusData['updated_by'] ?? ($_SESSION['admin_name'] ?? ($_SESSION['fullname'] ?? 'Law Enforcement Admin'));
+
+        // Exact allowed statuses on policy.alertaraqc.com/api/complaints_status_receive.php:
+        // 'Pending', 'Processing', 'Resolved', 'Rejected', 'Forwarded to Digital Blotter', 'Forwarded to Incident Logging'
+        $allowedPolicyStatuses = [
+            'Pending', 'Processing', 'Resolved', 'Rejected', 
+            'Forwarded to Digital Blotter', 'Forwarded to Incident Logging'
+        ];
+
+        if (in_array($rawStatus, $allowedPolicyStatuses)) {
+            $mappedStatus = $rawStatus;
+        } else {
+            switch (strtolower($rawStatus)) {
+                case 'submitted':
+                case 'received':
+                    $mappedStatus = 'Forwarded to Incident Logging';
+                    break;
+                case 'under review':
+                case 'under investigation':
+                case 'verified':
+                case 'draft':
+                    $mappedStatus = 'Processing';
+                    break;
+                case 'forwarded':
+                    $mappedStatus = !empty($blotterNo) ? 'Forwarded to Digital Blotter' : 'Forwarded to Incident Logging';
+                    break;
+                case 'resolved':
+                case 'closed':
+                case 'settled':
+                case 'archived':
+                    $mappedStatus = 'Resolved';
+                    break;
+                case 'rejected':
+                case 'dismissed':
+                    $mappedStatus = 'Rejected';
+                    break;
+                default:
+                    $mappedStatus = 'Processing';
+                    break;
+            }
+        }
+
+        $payload = [
+            'complaint_id'   => $complaintId,
+            'id'             => $complaintId,
+            'case_no'        => $caseNo,
+            'reference_no'   => $caseNo,
+            'tracking_code'  => $caseNo,
+            'blotter_no'     => $blotterNo,
+            'status'         => $mappedStatus,
+            'internal_status'=> $rawStatus,
+            'urgency_level'  => $statusData['urgency_level'] ?? ($statusData['urgency'] ?? 'Medium'),
+            'incident_type'  => $statusData['incident_type'] ?? 'General Incident',
+            'admin_notes'    => $adminNotes,
+            'remarks'        => $adminNotes,
+            'notes'          => $adminNotes,
+            'updated_by'     => $updatedBy,
+            'updated_at'     => date('Y-m-d H:i:s'),
+            'system'         => 'Alertara Law Enforcement & Incident System (Group 1)'
+        ];
+
+        $result = dispatchPayloadToEndpoint($endpoint, $payload, [], $this->timeout);
+        $logStatus = $result['success'] ? 'status_synced' : 'sync_offline_or_failed';
+
+        if ($this->pdo instanceof PDO) {
+            $this->saveLog('outgoing_policy_status_sync', $endpoint, $payload, $result, $logStatus);
+        }
+
+        return $result;
+    }
+
+    /**
      * Dispatch payloads to all connected external modules at once
      */
     public function dispatchToAllConnectedModules(array $modulePayloads): array {

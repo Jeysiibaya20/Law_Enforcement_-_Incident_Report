@@ -297,6 +297,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 
+    if ($action === 'dispatch_policy_status_sync') {
+        $statusPayload = [
+            'case_no' => trim($_POST['case_no'] ?? ('INC-' . date('Ymd') . '-001')),
+            'complaint_id' => trim($_POST['case_no'] ?? ('INC-' . date('Ymd') . '-001')),
+            'reference_no' => trim($_POST['case_no'] ?? ('INC-' . date('Ymd') . '-001')),
+            'blotter_no' => trim($_POST['blotter_no'] ?? ('BLT-' . date('Ymd') . '-001')),
+            'status' => trim($_POST['status'] ?? 'Under Review'),
+            'urgency_level' => trim($_POST['urgency_level'] ?? 'Medium'),
+            'incident_type' => trim($_POST['incident_type'] ?? 'General Incident'),
+            'admin_notes' => trim($_POST['admin_notes'] ?? 'Updated by Law Enforcement officer via External Integrations.'),
+            'updated_by' => $_SESSION['fullname'] ?? ($_SESSION['username'] ?? 'Law Enforcement Admin')
+        ];
+        $res = $integrator->dispatchComplaintStatusUpdate($statusPayload);
+        if ($res['success']) {
+            $message = "Successfully dispatched complaint status update to Policy API (" . htmlspecialchars($integrationSettings['policy_complaint_status_api_url'] ?? 'policy.alertaraqc.com') . ") with HTTP " . $res['http_code'] . " OK!";
+            $messageType = "success";
+        } else {
+            $message = "Status update dispatched to Policy API. Result code: " . ($res['http_code'] ?: 'Offline/Endpoint unreachable') . ". " . ($res['curl_error'] ? ('Error: ' . $res['curl_error']) : '');
+            $messageType = "warning";
+        }
+    }
+
     if ($action === 'fetch_campaigns') {
         $cRes = $integrator->fetchPublicCampaigns();
         if ($cRes['success']) {
@@ -498,6 +520,17 @@ try {
                     </div>
                     <div class="col-md-3">
                         <div class="p-3 bg-white border border-success-subtle rounded-3 h-100 shadow-sm">
+                            <span class="badge bg-success mb-2">OUTGOING (POLICY / MARTO)</span>
+                            <h6 class="fw-bold text-dark mb-1">Status Sync to Policy</h6>
+                            <code class="small text-break"><?= htmlspecialchars($integrationSettings['policy_complaint_status_api_url'] ?? 'https://policy.alertaraqc.com/api/complaints_status_receive.php') ?></code>
+                            <p class="small text-muted mt-2 mb-0">Dispatches real-time status updates back to Maeren Marto's Policy portal.</p>
+                            <button type="button" class="btn btn-outline-info btn-sm mt-2 w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#dispatchPolicyStatusModal">
+                                <i class="fas fa-sync-alt me-1"></i> Test Status Sync
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white border border-success-subtle rounded-3 h-100 shadow-sm">
                             <span class="badge bg-success mb-2">OUTGOING (GROUP 2)</span>
                             <h6 class="fw-bold text-dark mb-1">Request CCTV from Group 2</h6>
                             <code class="small text-break"><?= htmlspecialchars($integrationSettings['cctv_request_api_url'] ?? '') ?></code>
@@ -530,7 +563,15 @@ try {
                         </div>
 
                         <div class="col-md-6">
-                            <label class="form-label fw-bold text-dark"><i class="fas fa-video text-success me-2"></i>2. Group 2 CCTV Request Target API URL</label>
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-sync-alt text-info me-2"></i>2. Policy (Maeren Marto) Status Sync Target API URL</label>
+                            <div class="input-group">
+                                <input type="url" name="policy_complaint_status_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['policy_complaint_status_api_url'] ?? 'https://policy.alertaraqc.com/api/complaints_status_receive.php') ?>" placeholder="https://policy.alertaraqc.com/api/complaints_status_receive.php" required>
+                            </div>
+                            <small class="text-muted">Target endpoint for real-time status update reflection to Maeren Marto's system.</small>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-video text-success me-2"></i>3. Group 2 CCTV Request Target API URL</label>
                             <div class="input-group">
                                 <input type="url" name="cctv_request_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['cctv_request_api_url'] ?? '') ?>" placeholder="https://surveillance.alertaraqc.com/api/cctv_requests_receive.php" required>
                             </div>
@@ -2431,6 +2472,73 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="modal-footer">
                 <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Close</button>
             </div>
+        </div>
+    </div>
+</div>
+
+<!-- Dispatch Policy Status Sync Modal (Maeren Marto: policy.alertaraqc.com) -->
+<div class="modal fade" id="dispatchPolicyStatusModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 rounded-3 overflow-hidden shadow-lg">
+            <div class="modal-header text-white fw-bold py-3 px-4" style="background: linear-gradient(135deg, #0d3b66 0%, #005f73 100%) !important;">
+                <h5 class="modal-title"><i class="fas fa-sync-alt text-warning me-2"></i>Dispatch Complaint Status Sync &rarr; Policy (Maeren Marto)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="POST">
+                <input type="hidden" name="action" value="dispatch_policy_status_sync">
+                <div class="modal-body p-4">
+                    <p class="text-muted small mb-3">
+                        <i class="fas fa-info-circle text-info me-1"></i>
+                        Dispatches a real-time status update callback to Maeren Marto's Policy server at <code><?= htmlspecialchars($integrationSettings['policy_complaint_status_api_url'] ?? 'https://policy.alertaraqc.com/api/complaints_status_receive.php') ?></code> so complaint status changes in our system automatically reflect back on their dashboard.
+                    </p>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Case / Complaint Reference # <span class="text-danger">*</span></label>
+                            <input type="text" name="case_no" class="form-control font-monospace" value="INC-<?= date('Ymd') ?>-001" placeholder="e.g. INC-20260828-4152" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Linked Blotter # (Optional)</label>
+                            <input type="text" name="blotter_no" class="form-control font-monospace" value="BLT-<?= date('Ymd') ?>-001" placeholder="e.g. BLT-20260828-6216">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">New Status <span class="text-danger">*</span></label>
+                            <select name="status" class="form-select fw-semibold" required>
+                                <option value="Submitted">Submitted (Received & Logged)</option>
+                                <option value="Under Review" selected>Under Review (Being Assessed)</option>
+                                <option value="Verified">Verified (Confirmed by Officer)</option>
+                                <option value="Forwarded">Forwarded (Sent for Investigation)</option>
+                                <option value="Pending">Pending (Awaiting Action)</option>
+                                <option value="Resolved">Resolved (Case Settled / Completed)</option>
+                                <option value="Closed">Closed (Case Concluded)</option>
+                                <option value="Archived">Archived (Stored in Records)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Urgency Level</label>
+                            <select name="urgency_level" class="form-select">
+                                <option value="Low">Low</option>
+                                <option value="Medium" selected>Medium</option>
+                                <option value="High">High</option>
+                                <option value="Critical">Critical</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12">
+                            <label class="form-label small fw-bold">Incident / Complaint Category</label>
+                            <input type="text" name="incident_type" class="form-control" value="Public Safety & Disturbance" placeholder="e.g. Public Disturbance, Noise, Transport Complaint">
+                        </div>
+                        <div class="col-md-12">
+                            <label class="form-label small fw-bold">Resolution Notes / Officer Remarks</label>
+                            <textarea name="admin_notes" class="form-control" rows="3" placeholder="Explain the actions taken or current progress on this complaint...">Case evaluated by Law Enforcement intake officer. Assigned to barangay patrol unit for on-site inspection and conciliation.</textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer bg-light py-3 px-4">
+                    <button type="button" class="btn btn-secondary px-3" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-info text-white px-4 fw-bold shadow-sm">
+                        <i class="fas fa-paper-plane me-2"></i>Send Status Sync to Policy API
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
 </div>

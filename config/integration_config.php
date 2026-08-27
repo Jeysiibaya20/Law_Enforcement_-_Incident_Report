@@ -15,6 +15,7 @@ if (!defined('ALERTARA_INTEGRATION_CONFIG_LOADED')) {
     function getDefaultIntegrationSettings(): array {
         return [
             'cctv_request_api_url' => 'https://policy.alertaraqc.com/api/cctv_requests_receive.php',
+            'policy_complaint_status_api_url' => 'https://policy.alertaraqc.com/api/complaints_status_receive.php',
             'tftr_violation_api_url' => 'https://tftr.alertaraqc.com/api/violations/violation_report_api.php',
             'group7_inspection_api_url' => 'https://inspection.alertaraqc.com/api/documents/request',
             'group5_crime_map_api_url' => 'https://crimemap.alertaraqc.com/api/update_heatmap.php',
