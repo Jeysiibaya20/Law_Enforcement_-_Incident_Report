@@ -273,6 +273,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 
+    if ($action === 'simulate_incoming_tftr_complaint') {
+        $sampleTftr = [
+            'complaint_no' => trim($_POST['complaint_no'] ?? ('TFTR-CMP-' . date('Ymd') . '-' . rand(1000, 9999))),
+            'date' => $_POST['date'] ?? date('Y-m-d'),
+            'time' => $_POST['time'] ?? date('H:i:s'),
+            'complainant_name' => trim($_POST['complainant_name'] ?? 'Maria Clara Santos'),
+            'complainant_address' => trim($_POST['complainant_address'] ?? '123 Aurora Blvd, Barangay Immaculate Concepcion, Quezon City'),
+            'complainant_contact' => trim($_POST['complainant_contact'] ?? '0917-888-1234'),
+            'defendant_name' => trim($_POST['defendant_name'] ?? 'Pedro Gomez (PUV Driver)'),
+            'defendant_address' => trim($_POST['defendant_address'] ?? 'Brgy. Central, Quezon City'),
+            'defendant_contact' => trim($_POST['defendant_contact'] ?? '0918-999-5678'),
+            'complaint_type' => trim($_POST['complaint_type'] ?? 'Overcharging / Reckless Driving / Traffic Violation'),
+            'description' => trim($_POST['description'] ?? 'The PUV driver excessively overcharged passengers above the standard LTFRB tariff rate and engaged in reckless driving along Commonwealth Avenue.')
+        ];
+        try {
+            $res = $integrator->processIncomingTftrComplaint($sampleTftr);
+            $message = "Successfully received and registered TFTR Citizen Complaint (#" . htmlspecialchars($res['complaint_no']) . ") from Mikko's system! Mirrored to Blotter #" . htmlspecialchars($res['mirrored_blotter_no']) . " and Incident Case #" . htmlspecialchars($res['mirrored_case_no']);
+            $messageType = "success";
+        } catch (Exception $e) {
+            $message = "Error receiving TFTR complaint: " . $e->getMessage();
+            $messageType = "danger";
+        }
+    }
+
     if ($action === 'fetch_campaigns') {
         $cRes = $integrator->fetchPublicCampaigns();
         if ($cRes['success']) {
@@ -412,6 +436,12 @@ try {
     $receivedViolations = $stmtViol->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) { $receivedViolations = []; }
 
+$receivedTftrComplaints = [];
+try {
+    $stmtTftr = $pdo->query("SELECT * FROM received_tftr_complaints ORDER BY id DESC LIMIT 30");
+    $receivedTftrComplaints = $stmtTftr->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) { $receivedTftrComplaints = []; }
+
 
 ?>
 
@@ -444,6 +474,14 @@ try {
                 <div class="row g-3">
                     <div class="col-md-3">
                         <div class="p-3 bg-white border border-success-subtle rounded-3 h-100 shadow-sm">
+                            <span class="badge bg-success mb-2">INCOMING (TFTR / MIKKO)</span>
+                            <h6 class="fw-bold text-dark mb-1">Citizen Complaints & Violations</h6>
+                            <code class="small text-break">/api/receive_tftr_complaint.php</code>
+                            <p class="small text-muted mt-2 mb-0">Receives TFTR Citizen Complaints (Complainant, Defendant, Details) from Mikko's system.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white border border-success-subtle rounded-3 h-100 shadow-sm">
                             <span class="badge bg-success mb-2">INCOMING (GROUP 2)</span>
                             <h6 class="fw-bold text-dark mb-1">Accident & Violation Report</h6>
                             <code class="small text-break">/api/receive_accident_report.php</code>
@@ -452,10 +490,10 @@ try {
                     </div>
                     <div class="col-md-3">
                         <div class="p-3 bg-white border border-success-subtle rounded-3 h-100 shadow-sm">
-                            <span class="badge bg-success mb-2">OUTGOING (GROUP 7)</span>
-                            <h6 class="fw-bold text-dark mb-1">Photo & Video Upload API</h6>
-                            <code class="small text-break"><?= htmlspecialchars($integrationSettings['group7_evidence_upload_api_url'] ?? 'https://inspection.alertaraqc.com/api/upload_evidence.php') ?></code>
-                            <p class="small text-muted mt-2 mb-0">Dispatches photos & video evidence directly to Group 7 Inspection Cloud.</p>
+                            <span class="badge bg-success mb-2">OUTGOING (TFTR / MIKKO)</span>
+                            <h6 class="fw-bold text-dark mb-1">TFTR Violation Sync Endpoint</h6>
+                            <code class="small text-break"><?= htmlspecialchars($integrationSettings['tftr_violation_api_url'] ?? 'https://tftr.alertaraqc.com/api/violations/violation_report_api.php') ?></code>
+                            <p class="small text-muted mt-2 mb-0">Syncs road traffic violations directly with Mikko's TFTR portal.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -464,14 +502,6 @@ try {
                             <h6 class="fw-bold text-dark mb-1">Request CCTV from Group 2</h6>
                             <code class="small text-break"><?= htmlspecialchars($integrationSettings['cctv_request_api_url'] ?? '') ?></code>
                             <p class="small text-muted mt-2 mb-0">Dispatches automated CCTV footage & traffic camera retrieval queries to Group 2.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="p-3 bg-white border border-success-subtle rounded-3 h-100 shadow-sm">
-                            <span class="badge bg-success mb-2">INCOMING (GROUP 2)</span>
-                            <h6 class="fw-bold text-dark mb-1">Receive Fulfilled CCTV Evidence</h6>
-                            <code class="small text-break">/api/cctv_footage_receive.php</code>
-                            <p class="small text-muted mt-2 mb-0">Group 2 acknowledges & sends fulfilled camera evidence, photos, and videos.</p>
                         </div>
                     </div>
                 </div>
@@ -492,7 +522,15 @@ try {
 
                     <div class="row g-3">
                         <div class="col-md-6">
-                            <label class="form-label fw-bold text-dark"><i class="fas fa-video text-success me-2"></i>1. Group 2 CCTV Request Target API URL</label>
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-traffic-light text-warning me-2"></i>1. TFTR (Mikko) Violation API Endpoint URL</label>
+                            <div class="input-group">
+                                <input type="url" name="tftr_violation_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['tftr_violation_api_url'] ?? 'https://tftr.alertaraqc.com/api/violations/violation_report_api.php') ?>" placeholder="https://tftr.alertaraqc.com/api/violations/violation_report_api.php">
+                            </div>
+                            <small class="text-muted">Target endpoint for syncing road traffic violations with Mikko's TFTR system.</small>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-video text-success me-2"></i>2. Group 2 CCTV Request Target API URL</label>
                             <div class="input-group">
                                 <input type="url" name="cctv_request_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['cctv_request_api_url'] ?? '') ?>" placeholder="https://surveillance.alertaraqc.com/api/cctv_requests_receive.php" required>
                             </div>
@@ -500,7 +538,7 @@ try {
                         </div>
 
                         <div class="col-md-6">
-                            <label class="form-label fw-bold text-dark"><i class="fas fa-camera text-primary me-2"></i>2. Group 7 Photo & Video Upload API URL</label>
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-camera text-primary me-2"></i>3. Group 7 Photo & Video Upload API URL</label>
                             <div class="input-group">
                                 <input type="url" name="group7_evidence_upload_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['group7_evidence_upload_api_url'] ?? '') ?>" placeholder="https://inspection.alertaraqc.com/api/upload_evidence.php">
                             </div>
@@ -508,7 +546,7 @@ try {
                         </div>
 
                         <div class="col-md-6">
-                            <label class="form-label fw-bold text-dark"><i class="fas fa-calendar-check text-primary me-2"></i>3. Group 7 Inspection Scheduling API URL</label>
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-calendar-check text-primary me-2"></i>4. Group 7 Inspection Scheduling API URL</label>
                             <div class="input-group">
                                 <input type="url" name="group7_inspection_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['group7_inspection_api_url'] ?? '') ?>" placeholder="https://inspection.alertaraqc.com/api/schedule_inspection.php">
                             </div>
@@ -516,7 +554,7 @@ try {
                         </div>
 
                         <div class="col-md-6">
-                            <label class="form-label fw-bold text-dark"><i class="fas fa-map-marked-alt text-info me-2"></i>4. Group 5 Crime Mapping GIS API URL</label>
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-map-marked-alt text-info me-2"></i>5. Group 5 Crime Mapping GIS API URL</label>
                             <div class="input-group">
                                 <input type="url" name="group5_crime_map_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['group5_crime_map_api_url'] ?? '') ?>" placeholder="https://crimemap.alertaraqc.com/api/update_heatmap.php">
                             </div>
@@ -524,7 +562,7 @@ try {
                         </div>
 
                         <div class="col-md-6">
-                            <label class="form-label fw-bold text-dark"><i class="fas fa-ambulance text-warning me-2"></i>5. Group 3 EMS & Resource Allocation API URL</label>
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-ambulance text-warning me-2"></i>6. Group 3 EMS & Resource Allocation API URL</label>
                             <div class="input-group">
                                 <input type="url" name="group3_resource_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['group3_resource_api_url'] ?? '') ?>" placeholder="https://dispatch.alertaraqc.com/api/assign_officer.php">
                             </div>
@@ -532,7 +570,7 @@ try {
                         </div>
 
                         <div class="col-md-6">
-                            <label class="form-label fw-bold text-dark"><i class="fas fa-bullhorn text-danger me-2"></i>6. Public Safety Campaign API URL (Group 1)</label>
+                            <label class="form-label fw-bold text-dark"><i class="fas fa-bullhorn text-danger me-2"></i>7. Public Safety Campaign API URL (Group 1)</label>
                             <div class="input-group">
                                 <input type="url" name="campaign_api_url" class="form-control" value="<?= htmlspecialchars($integrationSettings['campaign_api_url'] ?? '') ?>" placeholder="https://campaign.alertaraqc.com/api/v1/campaigns/public" required>
                             </div>
@@ -1269,6 +1307,99 @@ try {
                                 <tr>
                                     <td colspan="9" class="text-center text-muted py-4">
                                         No CCTV road or vendor violation reports received yet. Inbound API endpoint: <code>/api/receive_violation_report.php</code>.
+                                    </td>
+                                </tr>
+                            <?php endif; ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- TFTR Citizen Complaints & Traffic Violations Live Stream (`received_tftr_complaints`) -->
+        <div class="card mb-4 border-0 shadow-sm rounded-3 overflow-hidden" id="tftrComplaintsSection">
+            <div class="card-header text-white fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2 py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                <div>
+                    <i class="fas fa-bullhorn me-2 text-warning"></i>TFTR: Citizen Complaints & Traffic Violations Received (`received_tftr_complaints` - tftr.alertaraqc.com)
+                    <span class="badge bg-white text-success ms-2 rounded-pill px-3 py-1.5"><?= count($receivedTftrComplaints) ?> Synced Complaint(s)</span>
+                </div>
+                <div class="d-flex gap-2">
+                    <button type="button" class="btn btn-sm btn-light text-success fw-bold shadow-sm" data-bs-toggle="modal" data-bs-target="#simulateTftrComplaintModal">
+                        <i class="fas fa-plus-circle me-1 text-success"></i>Simulate Inbound TFTR Complaint (Mikko)
+                    </button>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive" style="max-height: 420px;">
+                    <table class="table table-hover align-middle mb-0" style="font-size: 0.84rem;">
+                        <thead class="table-light sticky-top">
+                            <tr>
+                                <th>COMPLAINT #</th>
+                                <th>COMPLAINANT & CONTACT</th>
+                                <th>DEFENDANT / RESPONDENT</th>
+                                <th>COMPLAINT TYPE</th>
+                                <th>DATE & TIME</th>
+                                <th>DETAILS SUMMARY</th>
+                                <th>STATUS</th>
+                                <th>RECEIVED AT</th>
+                                <th class="text-center">ACTION</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php if (!empty($receivedTftrComplaints)): ?>
+                                <?php foreach ($receivedTftrComplaints as $cmp): ?>
+                                    <tr>
+                                        <td>
+                                            <span class="badge bg-success font-monospace">#<?= htmlspecialchars($cmp['complaint_no'] ?: 'TFTR-' . $cmp['id']) ?></span>
+                                            <?php if (!empty($cmp['mirrored_blotter_no'])): ?>
+                                                <div class="small text-muted font-monospace"><a href="blotters.php?search=<?= urlencode($cmp['mirrored_blotter_no']) ?>" class="text-decoration-none text-success fw-semibold"><i class="fas fa-folder-open me-1"></i><?= htmlspecialchars($cmp['mirrored_blotter_no']) ?></a></div>
+                                            <?php endif; ?>
+                                        </td>
+                                        <td>
+                                            <strong class="text-dark"><i class="fas fa-user text-success me-1"></i><?= htmlspecialchars($cmp['complainant_name'] ?: 'Citizen') ?></strong>
+                                            <div class="small text-muted text-truncate" style="max-width: 180px;" title="<?= htmlspecialchars($cmp['complainant_address'] ?: '') ?>"><i class="fas fa-map-marker-alt me-1"></i><?= htmlspecialchars($cmp['complainant_address'] ?: 'N/A') ?></div>
+                                            <div class="small text-muted font-monospace"><i class="fas fa-phone me-1"></i><?= htmlspecialchars($cmp['complainant_contact'] ?: 'N/A') ?></div>
+                                        </td>
+                                        <td>
+                                            <strong class="text-danger"><i class="fas fa-user-tag text-danger me-1"></i><?= htmlspecialchars($cmp['defendant_name'] ?: 'Under Investigation') ?></strong>
+                                            <?php if (!empty($cmp['defendant_address']) && $cmp['defendant_address'] !== 'N/A'): ?>
+                                                <div class="small text-muted text-truncate" style="max-width: 180px;" title="<?= htmlspecialchars($cmp['defendant_address']) ?>"><?= htmlspecialchars($cmp['defendant_address']) ?></div>
+                                            <?php endif; ?>
+                                            <?php if (!empty($cmp['defendant_contact']) && $cmp['defendant_contact'] !== 'N/A'): ?>
+                                                <div class="small text-muted font-monospace"><i class="fas fa-phone me-1"></i><?= htmlspecialchars($cmp['defendant_contact']) ?></div>
+                                            <?php endif; ?>
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-warning text-dark border border-warning-subtle">
+                                                <?= htmlspecialchars($cmp['complaint_type'] ?: 'Traffic Violation') ?>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div><strong><?= date('M d, Y', strtotime($cmp['incident_date'])) ?></strong></div>
+                                            <div class="small text-muted font-monospace"><?= htmlspecialchars($cmp['incident_time'] ?: '') ?></div>
+                                        </td>
+                                        <td>
+                                            <div class="text-truncate" style="max-width: 220px;" title="<?= htmlspecialchars($cmp['description'] ?: '') ?>">
+                                                <?= htmlspecialchars($cmp['description'] ?: 'No details provided.') ?>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-success bg-opacity-10 text-success border border-success fw-bold">
+                                                <?= htmlspecialchars($cmp['status'] ?: 'Received') ?>
+                                            </span>
+                                        </td>
+                                        <td><?= date('M d, Y H:i', strtotime($cmp['created_at'])) ?></td>
+                                        <td class="text-center">
+                                            <button type="button" class="btn btn-xs btn-outline-success py-1 px-2 fw-bold" onclick="showTftrComplaintDetails(<?= htmlspecialchars(json_encode($cmp), ENT_QUOTES, 'UTF-8') ?>)">
+                                                <i class="fas fa-eye me-1"></i>Inspect
+                                            </button>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php else: ?>
+                                <tr>
+                                    <td colspan="9" class="text-center text-muted py-4">
+                                        No TFTR citizen complaints received yet. Inbound API endpoint: <code>/api/receive_tftr_complaint.php</code>.
                                     </td>
                                 </tr>
                             <?php endif; ?>
@@ -2304,6 +2435,160 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </div>
 
+<!-- Simulate Inbound TFTR Complaint Modal (Matches Mikko's Complaint Form Fields) -->
+<div class="modal fade" id="simulateTftrComplaintModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 rounded-3 overflow-hidden shadow-lg">
+            <div class="modal-header text-white fw-bold py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                <h5 class="modal-title"><i class="fas fa-bullhorn text-warning me-2"></i>Simulate Inbound TFTR Complaint (tftr.alertaraqc.com)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="POST">
+                <input type="hidden" name="action" value="simulate_incoming_tftr_complaint">
+                <div class="modal-body p-4">
+                    <p class="text-muted small mb-3">
+                        <i class="fas fa-info-circle text-success me-1"></i>
+                        Simulates an inbound Citizen Complaint from Mikko's TFTR portal (<code>tftr.alertaraqc.com</code>). Ingests into <code>received_tftr_complaints</code>, mirrors to <code>blotters</code>, and generates an <code>incidents</code> record.
+                    </p>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Date <span class="text-danger">*</span></label>
+                            <input type="date" name="date" class="form-control" value="<?= date('Y-m-d') ?>" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Time <span class="text-danger">*</span></label>
+                            <input type="time" name="time" class="form-control" value="<?= date('H:i') ?>" required>
+                        </div>
+                        <div class="col-md-12">
+                            <label class="form-label small fw-bold">Complainant's Name <span class="text-danger">*</span></label>
+                            <input type="text" name="complainant_name" class="form-control" value="Maria Clara Santos" placeholder="Full name of complainant" required>
+                        </div>
+                        <div class="col-md-12">
+                            <label class="form-label small fw-bold">Complainant's Address <span class="text-danger">*</span></label>
+                            <input type="text" name="complainant_address" class="form-control" value="123 Aurora Blvd, Barangay Immaculate Concepcion, Quezon City" placeholder="Complete residential address" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Complainant's Contact Number <span class="text-danger">*</span></label>
+                            <input type="text" name="complainant_contact" class="form-control" value="0917-888-1234" placeholder="e.g. 0917-xxx-xxxx" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Complaint Type <span class="text-danger">*</span></label>
+                            <select name="complaint_type" class="form-select" required>
+                                <option value="Overcharging Fare / LTFRB Tariff Violation" selected>Overcharging Fare / LTFRB Tariff Violation</option>
+                                <option value="Reckless Driving & Public Endangerment">Reckless Driving & Public Endangerment</option>
+                                <option value="Refusal to Convey Passengers / Snubbing">Refusal to Convey Passengers / Snubbing</option>
+                                <option value="Arrogant / Discourteous PUV Driver">Arrogant / Discourteous PUV Driver</option>
+                                <option value="Road Obstruction / Illegal Terminal / Illegal Parking">Road Obstruction / Illegal Terminal / Illegal Parking</option>
+                                <option value="Street Vendor Obstruction / Illegal Vending">Street Vendor Obstruction / Illegal Vending</option>
+                                <option value="Noise Disturbance / Modified Muffler / Smoke Belching">Noise Disturbance / Modified Muffler / Smoke Belching</option>
+                                <option value="Other Traffic & Transport Complaint">Other Traffic & Transport Complaint</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12">
+                            <label class="form-label small fw-bold">Defendant's Name</label>
+                            <input type="text" name="defendant_name" class="form-control" value="Pedro Gomez (PUV Jeepney Driver - Plate: NYZ-4321)" placeholder="Full name or vehicle plate / identifier of defendant">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Defendant's Address</label>
+                            <input type="text" name="defendant_address" class="form-control" value="Barangay Central, Quezon City" placeholder="Address or operator terminal of defendant">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Defendant's Contact Number</label>
+                            <input type="text" name="defendant_contact" class="form-control" value="0918-999-5678" placeholder="Phone or operator contact if known">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label small fw-bold">Description of Complaint <span class="text-danger">*</span></label>
+                            <textarea name="description" class="form-control" rows="3" placeholder="Please provide detailed information about your complaint..." required>The PUV driver excessively overcharged passengers PHP 35.00 for a standard 4km route, verbally insulted passengers when questioned, and drove aggressively along Commonwealth Avenue.</textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-outline-secondary px-4" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-success fw-bold px-4 shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">
+                        <i class="fas fa-save me-1"></i>Ingest & Register TFTR Complaint
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- TFTR Complaint Details Inspection Modal -->
+<div class="modal fade" id="tftrComplaintDetailModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 rounded-3 overflow-hidden shadow-lg">
+            <div class="modal-header text-white fw-bold py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                <h5 class="modal-title" id="mCmpTitle"><i class="fas fa-bullhorn text-warning me-2"></i>TFTR Citizen Complaint Details</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <!-- Complainant & Defendant Cards -->
+                <div class="row g-3 mb-3">
+                    <div class="col-md-6">
+                        <div class="card h-100 border border-success-subtle shadow-sm">
+                            <div class="card-header bg-success bg-opacity-10 text-success fw-bold py-2">
+                                <i class="fas fa-user-check me-2"></i>Complainant Information
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="mb-2"><strong>Name:</strong> <span id="mCmpComplainantName" class="text-dark fw-bold"></span></div>
+                                <div class="mb-2"><strong>Address:</strong> <span id="mCmpComplainantAddress" class="text-muted small"></span></div>
+                                <div><strong>Contact No:</strong> <span id="mCmpComplainantContact" class="font-monospace text-success fw-semibold"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card h-100 border border-danger-subtle shadow-sm">
+                            <div class="card-header bg-danger bg-opacity-10 text-danger fw-bold py-2">
+                                <i class="fas fa-user-times me-2"></i>Defendant / Respondent Information
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="mb-2"><strong>Name:</strong> <span id="mCmpDefendantName" class="text-danger fw-bold"></span></div>
+                                <div class="mb-2"><strong>Address:</strong> <span id="mCmpDefendantAddress" class="text-muted small"></span></div>
+                                <div><strong>Contact No:</strong> <span id="mCmpDefendantContact" class="font-monospace text-dark"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Complaint Specs -->
+                <div class="row g-3 mb-3">
+                    <div class="col-md-6">
+                        <strong>Complaint Type:</strong>
+                        <div id="mCmpType" class="badge bg-warning text-dark border border-warning-subtle mt-1 fs-6"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Incident Date & Time:</strong>
+                        <div class="mt-1 text-dark fw-semibold"><span id="mCmpDate"></span> &bull; <span id="mCmpTime" class="font-monospace"></span></div>
+                    </div>
+                    <div class="col-12">
+                        <strong>Full Narrative & Description of Complaint:</strong>
+                        <div id="mCmpDescription" class="p-3 bg-light rounded mt-1 border border-success-subtle text-dark" style="font-size: 0.9rem; line-height: 1.5; white-space: pre-line;"></div>
+                    </div>
+                </div>
+
+                <!-- Linked Registry Info -->
+                <div class="p-3 bg-light rounded border d-flex justify-content-between align-items-center flex-wrap gap-2">
+                    <div>
+                        <span class="text-muted small">Mirrored Blotter Record:</span>
+                        <span id="mCmpMirroredBlotter" class="badge bg-success font-monospace ms-1 fs-6"></span>
+                    </div>
+                    <div>
+                        <span class="text-muted small">Incident Case No:</span>
+                        <span id="mCmpMirroredCase" class="badge bg-info font-monospace ms-1"></span>
+                    </div>
+                    <div>
+                        <span class="text-muted small">Received At:</span>
+                        <span id="mCmpReceivedAt" class="font-monospace small text-dark ms-1"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Universal Photo / Image Lightbox Modal -->
 <div class="modal fade" id="imageLightboxModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered">
@@ -2563,6 +2848,29 @@ function showViolationDetails(viol) {
     }
 
     var modal = new bootstrap.Modal(document.getElementById('violationDetailModal'));
+    modal.show();
+}
+
+function showTftrComplaintDetails(cmp) {
+    document.getElementById('mCmpTitle').innerHTML = '<i class="fas fa-bullhorn text-warning me-2"></i>TFTR Complaint #' + (cmp.complaint_no || cmp.id || '');
+    document.getElementById('mCmpComplainantName').textContent = cmp.complainant_name || 'Anonymous Citizen';
+    document.getElementById('mCmpComplainantAddress').textContent = cmp.complainant_address || 'Not specified';
+    document.getElementById('mCmpComplainantContact').textContent = cmp.complainant_contact || 'N/A';
+    
+    document.getElementById('mCmpDefendantName').textContent = cmp.defendant_name || 'Under Investigation';
+    document.getElementById('mCmpDefendantAddress').textContent = cmp.defendant_address || 'Not specified';
+    document.getElementById('mCmpDefendantContact').textContent = cmp.defendant_contact || 'N/A';
+
+    document.getElementById('mCmpType').textContent = cmp.complaint_type || 'Traffic / Transport Complaint';
+    document.getElementById('mCmpDate').textContent = cmp.incident_date || 'N/A';
+    document.getElementById('mCmpTime').textContent = cmp.incident_time || 'N/A';
+    document.getElementById('mCmpDescription').textContent = cmp.description || 'No detailed complaint description recorded.';
+
+    document.getElementById('mCmpMirroredBlotter').textContent = '#' + (cmp.mirrored_blotter_no || 'N/A');
+    document.getElementById('mCmpMirroredCase').textContent = '#' + (cmp.mirrored_case_no || 'N/A');
+    document.getElementById('mCmpReceivedAt').textContent = cmp.created_at || 'N/A';
+
+    var modal = new bootstrap.Modal(document.getElementById('tftrComplaintDetailModal'));
     modal.show();
 }
 </script>

@@ -175,25 +175,47 @@ class OperationalModuleIntegrator {
 
             $this->pdo->exec("CREATE TABLE IF NOT EXISTS received_violation_reports (
                 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-                violation_id VARCHAR(100) NULL,
-                public_violation_id VARCHAR(100) NULL,
-                road_name VARCHAR(255) NULL,
-                subject_type VARCHAR(100) DEFAULT 'Vehicle',
-                plate_number VARCHAR(50) NULL,
+                violation_id VARCHAR(100) NOT NULL,
+                public_violation_id VARCHAR(100) NOT NULL,
+                road_name VARCHAR(255) NOT NULL,
+                subject_type VARCHAR(50) NOT NULL DEFAULT 'Vehicle',
+                plate_number VARCHAR(100) NULL,
                 vehicle_type VARCHAR(100) NULL,
-                violation_datetime DATETIME NULL,
+                violation_datetime DATETIME NOT NULL,
                 location_details TEXT NULL,
-                description LONGTEXT NULL,
-                verification_status VARCHAR(100) DEFAULT 'Verified',
-                offense_level VARCHAR(100) DEFAULT '1st Offense',
+                description TEXT NOT NULL,
+                verification_status VARCHAR(50) NOT NULL DEFAULT 'Verified',
+                offense_level VARCHAR(50) NOT NULL DEFAULT '1st Offense',
                 cloudinary_url TEXT NULL,
                 mirrored_case_no VARCHAR(100) NULL,
                 raw_payload LONGTEXT NULL,
-                received_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                INDEX idx_viol_id (violation_id),
-                INDEX idx_pub_id (public_violation_id),
-                INDEX idx_plate (plate_number),
-                INDEX idx_road (road_name)
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                INDEX idx_vio_id (violation_id),
+                INDEX idx_pub_vio_id (public_violation_id),
+                INDEX idx_plate (plate_number)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+            $this->pdo->exec("CREATE TABLE IF NOT EXISTS received_tftr_complaints (
+                id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                complaint_no VARCHAR(100) UNIQUE NOT NULL,
+                incident_date DATE NOT NULL,
+                incident_time VARCHAR(20) DEFAULT '00:00:00',
+                complainant_name VARCHAR(255) NOT NULL,
+                complainant_address TEXT NULL,
+                complainant_contact VARCHAR(100) NULL,
+                defendant_name VARCHAR(255) NULL,
+                defendant_address TEXT NULL,
+                defendant_contact VARCHAR(100) NULL,
+                complaint_type VARCHAR(150) NOT NULL,
+                description LONGTEXT NOT NULL,
+                status VARCHAR(100) DEFAULT 'Received from TFTR',
+                mirrored_blotter_no VARCHAR(100) NULL,
+                mirrored_case_no VARCHAR(100) NULL,
+                raw_payload LONGTEXT NULL,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                INDEX idx_complaint_no (complaint_no),
+                INDEX idx_complainant (complainant_name),
+                INDEX idx_date (incident_date)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
 
             // Ensure modern CCTV request table columns exist
@@ -1578,6 +1600,123 @@ class OperationalModuleIntegrator {
             'cloudinary_url' => $cloudinaryUrl,
             'mirrored_case_no' => $caseNo,
             'received_at' => date('Y-m-d H:i:s')
+        ];
+    }
+
+    /**
+     * Process Inbound Citizen Complaint & Violation Report from Mikko / TFTR
+     */
+    public function processIncomingTftrComplaint(array $data): array {
+        $complaintNo = trim($data['complaint_no'] ?? $data['complaint_id'] ?? $data['reference_no'] ?? ('TFTR-CMP-' . date('Ymd') . '-' . rand(1000, 9999)));
+        $incidentDate = !empty($data['date']) ? date('Y-m-d', strtotime($data['date'])) : (!empty($data['incident_date']) ? date('Y-m-d', strtotime($data['incident_date'])) : date('Y-m-d'));
+        $incidentTime = trim($data['time'] ?? $data['incident_time'] ?? date('H:i:s'));
+        $complainantName = trim($data['complainant_name'] ?? $data['complainant'] ?? $data['name'] ?? 'Citizen Complainant');
+        $complainantAddress = trim($data['complainant_address'] ?? $data['address'] ?? 'Not Specified');
+        $complainantContact = trim($data['complainant_contact'] ?? $data['contact_number'] ?? $data['complainant_contact_number'] ?? $data['phone'] ?? 'N/A');
+        $defendantName = trim($data['defendant_name'] ?? $data['defendant'] ?? $data['respondent_name'] ?? 'Unidentified / Under Investigation');
+        $defendantAddress = trim($data['defendant_address'] ?? $data['respondent_address'] ?? 'N/A');
+        $defendantContact = trim($data['defendant_contact'] ?? $data['defendant_contact_number'] ?? 'N/A');
+        $complaintType = trim($data['complaint_type'] ?? $data['type'] ?? $data['violation_type'] ?? 'Traffic & Transport Violation / Dispute');
+        $description = trim($data['description'] ?? $data['description_of_complaint'] ?? $data['narrative'] ?? 'Citizen complaint filed via TFTR system.');
+        $status = trim($data['status'] ?? 'Received from TFTR');
+
+        $recordId = null;
+        $mirroredBlotterNo = 'BLT-' . date('Y') . '-' . strtoupper(substr(md5($complaintNo . time()), 0, 6));
+        $mirroredCaseNo = 'INC-' . date('Ymd') . '-' . strtoupper(substr(md5(time() . rand()), 0, 5));
+
+        if ($this->pdo instanceof PDO) {
+            $stmt = $this->pdo->prepare("INSERT INTO received_tftr_complaints 
+                (complaint_no, incident_date, incident_time, complainant_name, complainant_address, complainant_contact, defendant_name, defendant_address, defendant_contact, complaint_type, description, status, mirrored_blotter_no, mirrored_case_no, raw_payload)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+            $stmt->execute([
+                $complaintNo,
+                $incidentDate,
+                $incidentTime,
+                $complainantName,
+                $complainantAddress,
+                $complainantContact,
+                $defendantName,
+                $defendantAddress,
+                $defendantContact,
+                $complaintType,
+                $description,
+                $status,
+                $mirroredBlotterNo,
+                $mirroredCaseNo,
+                json_encode($data, JSON_UNESCAPED_UNICODE)
+            ]);
+            $recordId = $this->pdo->lastInsertId();
+
+            // Automatically mirror into Digital Blotter
+            try {
+                $blotterNarrative = "[TFTR Inbound Complaint: {$complaintNo}]\n"
+                    . "Complainant: {$complainantName} (Address: {$complainantAddress} | Contact: {$complainantContact})\n"
+                    . "Defendant: {$defendantName} (Address: {$defendantAddress} | Contact: {$defendantContact})\n"
+                    . "Complaint Type: {$complaintType}\n"
+                    . "Details: {$description}";
+
+                $bStmt = $this->pdo->prepare("INSERT INTO blotters 
+                    (blotter_no, complainant_name, respondent_name, incident_type, incident_date, incident_time, location, description, status, priority, created_from_incident)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'Pending', 'Medium', 1)");
+                $bStmt->execute([
+                    $mirroredBlotterNo,
+                    $complainantName,
+                    $defendantName,
+                    $complaintType,
+                    $incidentDate,
+                    $incidentTime,
+                    $complainantAddress,
+                    $blotterNarrative
+                ]);
+            } catch (Exception $e) {
+                error_log("Notice mirroring TFTR complaint to blotters: " . $e->getMessage());
+            }
+
+            // Automatically mirror into Incident Logging module
+            try {
+                $incStmt = $this->pdo->prepare("INSERT INTO incidents 
+                    (case_no, narrative, incident_type, incident_subtype, auto_classification, urgency_level, location, status, reporter_name, reporter_phone, incident_date, created_at)
+                    VALUES (?, ?, 'Other', 'TFTR Transport Complaint', 'Traffic & Transport Registry', 'Medium', ?, 'Submitted', ?, ?, ?, NOW())");
+                $incStmt->execute([
+                    $mirroredCaseNo,
+                    $description,
+                    $complainantAddress,
+                    $complainantName,
+                    $complainantContact,
+                    $incidentDate
+                ]);
+            } catch (Exception $e) {
+                error_log("Notice mirroring TFTR complaint to incidents: " . $e->getMessage());
+            }
+
+            // Log into System Audit Trail
+            try {
+                require_once __DIR__ . '/../includes/audit_logger.php';
+                logAuditTrail('TFTR_COMPLAINT_RECEIVED', 'External Integrations', $complaintNo, "Received TFTR Complaint from Mikko's system ({$complaintType} - {$complainantName} vs. {$defendantName}). Mirrored to Blotter {$mirroredBlotterNo}.", 'SUCCESS', $this->pdo);
+            } catch (Exception $e) {
+                error_log("Audit logger notice: " . $e->getMessage());
+            }
+
+            $this->saveLog('incoming_tftr_complaint', 'TFTR System (Mikko)', $data, [
+                'status' => 'success',
+                'complaint_no' => $complaintNo,
+                'record_id' => $recordId,
+                'mirrored_blotter_no' => $mirroredBlotterNo,
+                'mirrored_case_no' => $mirroredCaseNo
+            ], 'success');
+        }
+
+        return [
+            'success' => true,
+            'message' => 'TFTR citizen complaint successfully received, registered, and mirrored into Digital Blotter.',
+            'complaint_no' => $complaintNo,
+            'record_id' => $recordId,
+            'mirrored_blotter_no' => $mirroredBlotterNo,
+            'mirrored_case_no' => $mirroredCaseNo,
+            'complainant' => $complainantName,
+            'defendant' => $defendantName,
+            'complaint_type' => $complaintType,
+            'timestamp' => date('Y-m-d H:i:s')
         ];
     }
 
