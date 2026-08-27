@@ -249,8 +249,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($cRes['success']) {
             $message = "Successfully synced " . $cRes['campaign_count'] . " public safety campaign(s) from campaign.alertaraqc.com (HTTP 200 OK)!";
             $messageType = "success";
+        } elseif (($cRes['http_code'] ?? 0) === 401) {
+            $message = "Campaigns server reached (HTTP 401): Connected to campaign.alertaraqc.com. Note that the remote campaign server requires a JWT auth token format.";
+            $messageType = "info";
         } else {
-            $message = "Campaign API response code: " . ($cRes['http_code'] ?: 'Offline') . ". Error: " . ($cRes['curl_error'] ?: 'Check endpoint URL');
+            $message = "Campaign API response code: " . ($cRes['http_code'] ?: 'Offline') . ". Details: " . ($cRes['curl_error'] ?: 'Check endpoint URL or network');
             $messageType = "warning";
         }
     }

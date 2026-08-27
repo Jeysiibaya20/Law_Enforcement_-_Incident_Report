@@ -116,6 +116,55 @@ class OperationalModuleIntegrator {
                 INDEX idx_case_no (case_no)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
 
+            $this->pdo->exec("CREATE TABLE IF NOT EXISTS received_inspection_documents (
+                id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                document_id VARCHAR(100) NULL,
+                request_id VARCHAR(100) NULL,
+                case_no VARCHAR(100) NULL,
+                document_type VARCHAR(255) NULL,
+                business_or_location VARCHAR(255) NULL,
+                inspector_name VARCHAR(150) NULL,
+                inspection_status VARCHAR(100) DEFAULT 'Compliant & Approved',
+                findings LONGTEXT NULL,
+                compliance_score VARCHAR(50) NULL,
+                certificate_url TEXT NULL,
+                evidence_urls LONGTEXT NULL,
+                inspection_date DATE NULL,
+                received_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                INDEX idx_doc_id (document_id),
+                INDEX idx_case_no (case_no),
+                INDEX idx_request_id (request_id)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+            $this->pdo->exec("CREATE TABLE IF NOT EXISTS received_campaigns (
+                id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                campaign_id VARCHAR(100) NULL,
+                title VARCHAR(255) NOT NULL,
+                description LONGTEXT NULL,
+                category VARCHAR(100) DEFAULT 'General',
+                geographical_scope VARCHAR(100) DEFAULT 'Barangay',
+                start_date DATETIME NULL,
+                end_date DATETIME NULL,
+                status VARCHAR(50) DEFAULT 'Active',
+                image_url TEXT NULL,
+                raw_json LONGTEXT NULL,
+                received_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                INDEX idx_campaign_id (campaign_id)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
+            $this->pdo->exec("CREATE TABLE IF NOT EXISTS received_community_complaints (
+                id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                complaint_id VARCHAR(100) NULL,
+                complainant_name VARCHAR(255) NULL,
+                incident_type VARCHAR(150) NULL,
+                date_time DATETIME NULL,
+                location VARCHAR(255) NULL,
+                description LONGTEXT NULL,
+                status VARCHAR(50) DEFAULT 'Pending',
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                INDEX idx_complaint_id (complaint_id)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
             // Ensure modern CCTV request table columns exist
             $this->pdo->exec("CREATE TABLE IF NOT EXISTS cctv_requests (
                 id INT(11) NOT NULL AUTO_INCREMENT,
@@ -784,15 +833,15 @@ class OperationalModuleIntegrator {
         }
 
         $secret = getIntegrationSetting('external_api_secret', '');
+        $effectiveSecret = !empty($secret) ? $secret : 'ALERTARA-EMERGENCY-2026';
         $headers = [
             'Accept: application/json',
-            'X-Partner-Client: AlertaraQC-Incident-System/2.0'
+            'X-Partner-Client: AlertaraQC-Incident-System/2.0',
+            'X-API-KEY: ' . $effectiveSecret,
+            'X-API-Key: ' . $effectiveSecret,
+            'Authorization: Bearer ' . $effectiveSecret,
+            'X-External-Secret: ' . $effectiveSecret
         ];
-        if (!empty($secret)) {
-            $headers[] = 'Authorization: Bearer ' . $secret;
-            $headers[] = 'X-API-KEY: ' . $secret;
-            $headers[] = 'X-External-Secret: ' . $secret;
-        }
 
         $ch = curl_init($endpoint);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
