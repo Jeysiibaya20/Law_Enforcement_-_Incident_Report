@@ -8,6 +8,12 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
+require_once __DIR__ . '/../includes/audit_logger.php';
+$loggedAdminId = $_SESSION['admin_user_id'] ?? null;
+if ($loggedAdminId) {
+    logAuditTrail('ADMIN_LOGOUT', 'Authentication', (string)$loggedAdminId, 'Administrator logged out of session.');
+}
+
 // Clear admin session variables
 unset(
     $_SESSION['admin_user_id'],

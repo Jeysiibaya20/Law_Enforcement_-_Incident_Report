@@ -247,6 +247,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Handle file uploads
             handleFileUpload('blotter', $blotter_id, $_SESSION['user_id'] ?? null);
             
+            require_once __DIR__ . '/../includes/audit_logger.php';
+            logAuditTrail('BLOTTER_CREATE', 'Digital Blotter', (string)$blotter_no, "Created blotter record for {$complainant} vs {$respondent} ({$incident_type} at {$location}).", 'SUCCESS', $pdo);
+
             $_SESSION['flash'] = ['type' => 'success', 'message' => "Blotter #{$blotter_no} created successfully."];
             $isAdminUser = !empty($_SESSION['admin_user_id']) || (strtolower($_SESSION['role'] ?? '') === 'admin');
             if ($isAdminUser) {

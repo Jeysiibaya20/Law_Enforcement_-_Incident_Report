@@ -240,8 +240,37 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         setIntegrationSetting('campaign_api_url', $_POST['campaign_api_url'] ?? '');
         setIntegrationSetting('external_api_secret', $_POST['external_api_secret'] ?? '');
         setIntegrationSetting('auto_dispatch_cctv', !empty($_POST['auto_dispatch_cctv']) ? '1' : '0');
+
+        require_once __DIR__ . '/../includes/audit_logger.php';
+        logAuditTrail('SETTINGS_UPDATE', 'Integration Registry', 'API_CONFIG', 'Saved target integration endpoints and API secret key.', 'SUCCESS', $pdo);
+
         $message = "Integration API settings updated successfully! Target endpoints are saved and ready.";
         $messageType = "success";
+    }
+
+    if ($action === 'simulate_incoming_violation_report') {
+        $sampleViolation = [
+            'violation_id' => trim($_POST['violation_id'] ?? ('VIO-' . date('Ymd') . '-' . rand(1000, 9999))),
+            'public_violation_id' => trim($_POST['public_violation_id'] ?? ('PUB-VIO-' . date('Y') . '-' . rand(10000, 99999))),
+            'road_name' => trim($_POST['road_name'] ?? 'Quezon Avenue cor. EDSA'),
+            'subject_type' => trim($_POST['subject_type'] ?? 'Vehicle'),
+            'plate_number' => trim($_POST['plate_number'] ?? 'ABC-1234'),
+            'vehicle_type' => trim($_POST['vehicle_type'] ?? 'Private Sedan'),
+            'violation_datetime' => !empty($_POST['violation_datetime']) ? $_POST['violation_datetime'] : date('Y-m-d H:i:s'),
+            'location_details' => trim($_POST['location_details'] ?? 'Northbound lane intersection camera #04'),
+            'description' => trim($_POST['description'] ?? 'Illegal obstruction / beating the red light on designated pedestrian lane.'),
+            'verification_status' => trim($_POST['verification_status'] ?? 'Verified'),
+            'offense_level' => trim($_POST['offense_level'] ?? '1st Offense'),
+            'cloudinary_url' => trim($_POST['cloudinary_url'] ?? 'https://res.cloudinary.com/demo/image/upload/v1680000000/traffic_cctv_sample.jpg')
+        ];
+        try {
+            $res = $integrator->processIncomingViolationReport($sampleViolation);
+            $message = "Successfully received CCTV Road & Vendor Violation Report (#" . htmlspecialchars($res['violation_id']) . ") with Cloudinary Evidence! Public ID: " . htmlspecialchars($res['public_violation_id']) . ". Mirrored to Case: " . htmlspecialchars($res['mirrored_case_no']);
+            $messageType = "success";
+        } catch (Exception $e) {
+            $message = "Error receiving CCTV violation report: " . $e->getMessage();
+            $messageType = "danger";
+        }
     }
 
     if ($action === 'fetch_campaigns') {
@@ -376,6 +405,12 @@ try {
     $stmtInsp = $pdo->query("SELECT * FROM received_inspection_documents ORDER BY id DESC LIMIT 30");
     $receivedInspections = $stmtInsp->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) { $receivedInspections = []; }
+
+$receivedViolations = [];
+try {
+    $stmtViol = $pdo->query("SELECT * FROM received_violation_reports ORDER BY id DESC LIMIT 30");
+    $receivedViolations = $stmtViol->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) { $receivedViolations = []; }
 
 
 ?>
@@ -1134,6 +1169,106 @@ try {
                                 <tr>
                                     <td colspan="9" class="text-center text-muted py-4">
                                         No inspection documents received yet. Inbound API endpoint: <code>/api/receive_inspection_document.php</code>.
+                                    </td>
+                                </tr>
+                            <?php endif; ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- CCTV Road & Vendor Violation Reports Live Stream (`received_violation_reports`) -->
+        <div class="card mb-4 border-0 shadow-sm rounded-3 overflow-hidden" id="violationsSection">
+            <div class="card-header text-white fw-bold d-flex justify-content-between align-items-center flex-wrap gap-2 py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                <div>
+                    <i class="fas fa-video-slash me-2 text-warning"></i>CCTV Road & Vendor Violation Reports (`received_violation_reports`)
+                    <span class="badge bg-white text-success ms-2 rounded-pill px-3 py-1.5"><?= count($receivedViolations) ?> Synced Violation(s)</span>
+                </div>
+                <div class="d-flex gap-2">
+                    <button type="button" class="btn btn-sm btn-light text-success fw-bold shadow-sm" data-bs-toggle="modal" data-bs-target="#simulateViolationModal">
+                        <i class="fas fa-plus-circle me-1 text-success"></i>Simulate Inbound CCTV Violation Report (Cloudinary Proof)
+                    </button>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive" style="max-height: 420px;">
+                    <table class="table table-hover align-middle mb-0" style="font-size: 0.84rem;">
+                        <thead class="table-light sticky-top">
+                            <tr>
+                                <th>VIOLATION ID</th>
+                                <th>PUBLIC TRACKING</th>
+                                <th>SUBJECT & TYPE</th>
+                                <th>PLATE / DETAILS</th>
+                                <th>ROAD & LOCATION</th>
+                                <th>OFFENSE & STATUS</th>
+                                <th>CLOUDINARY MEDIA PROOF</th>
+                                <th>DATETIME / CASE</th>
+                                <th class="text-center">ACTION</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php if (!empty($receivedViolations)): ?>
+                                <?php foreach ($receivedViolations as $viol): ?>
+                                    <tr>
+                                        <td>
+                                            <span class="badge bg-danger font-monospace">#<?= htmlspecialchars($viol['violation_id'] ?: 'VIO-' . $viol['id']) ?></span>
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-primary bg-opacity-10 text-primary border border-primary font-monospace">
+                                                <?= htmlspecialchars($viol['public_violation_id'] ?: 'PUB-VIO-' . $viol['id']) ?>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-<?= ($viol['subject_type'] === 'Vendor') ? 'warning text-dark' : 'info' ?>">
+                                                <?= htmlspecialchars($viol['subject_type'] ?: 'Vehicle') ?>
+                                            </span>
+                                            <div class="small text-muted"><?= htmlspecialchars($viol['vehicle_type'] ?: 'N/A') ?></div>
+                                        </td>
+                                        <td>
+                                            <strong class="text-dark font-monospace"><?= htmlspecialchars($viol['plate_number'] ?: 'NO PLATE') ?></strong>
+                                        </td>
+                                        <td>
+                                            <strong><?= htmlspecialchars($viol['road_name'] ?: 'Quezon City Road') ?></strong>
+                                            <div class="small text-muted text-truncate" style="max-width: 200px;" title="<?= htmlspecialchars($viol['location_details'] ?: '') ?>">
+                                                <?= htmlspecialchars($viol['location_details'] ?: '') ?>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-secondary"><?= htmlspecialchars($viol['offense_level'] ?: '1st Offense') ?></span>
+                                            <div class="small text-success fw-bold"><?= htmlspecialchars($viol['verification_status'] ?: 'Verified') ?></div>
+                                        </td>
+                                        <td>
+                                            <?php if (!empty($viol['cloudinary_url'])): ?>
+                                                <div class="d-flex align-items-center gap-2">
+                                                    <a href="javascript:void(0)" onclick="openLightbox('<?= htmlspecialchars($viol['cloudinary_url'], ENT_QUOTES) ?>', 'CCTV Violation Evidence - <?= htmlspecialchars($viol['violation_id'] . ' ' . $viol['road_name'], ENT_QUOTES) ?>')">
+                                                        <img src="<?= htmlspecialchars($viol['cloudinary_url']) ?>" alt="Cloudinary Proof" class="rounded border shadow-sm" style="width: 44px; height: 44px; object-fit: cover;" onerror="this.src='https://res.cloudinary.com/demo/image/upload/v1680000000/sample.jpg'">
+                                                    </a>
+                                                    <a href="<?= htmlspecialchars($viol['cloudinary_url']) ?>" target="_blank" class="small text-decoration-none text-primary" title="Open in Cloudinary">
+                                                        <i class="fas fa-external-link-alt"></i>
+                                                    </a>
+                                                </div>
+                                            <?php else: ?>
+                                                <span class="text-muted small">No media attached</span>
+                                            <?php endif; ?>
+                                        </td>
+                                        <td>
+                                            <div><small><?= !empty($viol['violation_datetime']) ? date('M d, Y H:i', strtotime($viol['violation_datetime'])) : date('M d, Y H:i', strtotime($viol['received_at'])) ?></small></div>
+                                            <?php if (!empty($viol['mirrored_case_no'])): ?>
+                                                <div class="small text-success font-monospace"><?= htmlspecialchars($viol['mirrored_case_no']) ?></div>
+                                            <?php endif; ?>
+                                        </td>
+                                        <td class="text-center">
+                                            <button type="button" class="btn btn-xs btn-outline-success py-1 px-2 fw-bold" onclick="showViolationDetails(<?= htmlspecialchars(json_encode($viol), ENT_QUOTES, 'UTF-8') ?>)">
+                                                <i class="fas fa-eye me-1"></i>Inspect & Proof
+                                            </button>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php else: ?>
+                                <tr>
+                                    <td colspan="9" class="text-center text-muted py-4">
+                                        No CCTV road or vendor violation reports received yet. Inbound API endpoint: <code>/api/receive_violation_report.php</code>.
                                     </td>
                                 </tr>
                             <?php endif; ?>
@@ -2028,6 +2163,147 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </div>
 
+<!-- Simulate Inbound CCTV Road & Vendor Violation Modal -->
+<div class="modal fade" id="simulateViolationModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 rounded-3 overflow-hidden shadow-lg">
+            <div class="modal-header text-white fw-bold py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                <h5 class="modal-title"><i class="fas fa-video-slash text-warning me-2"></i>Simulate Inbound CCTV Road & Vendor Violation (Cloudinary Proof)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="POST">
+                <input type="hidden" name="action" value="simulate_incoming_violation_report">
+                <div class="modal-body p-4">
+                    <p class="text-muted small mb-3">
+                        <i class="fas fa-info-circle text-success me-1"></i>
+                        Simulates an inbound CCTV Traffic/Vendor Violation report payload from external surveillance unit with Cloudinary evidence URL. Ingests into <code>received_violation_reports</code> and mirrors to <code>incidents</code>.
+                    </p>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Internal Violation ID</label>
+                            <input type="text" name="violation_id" class="form-control font-monospace" value="VIO-<?= date('Ymd') ?>-<?= rand(1000, 9999) ?>" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Public Violation ID (for Residents/Users)</label>
+                            <input type="text" name="public_violation_id" class="form-control font-monospace" value="PUB-VIO-<?= date('Y') ?>-<?= rand(10000, 99999) ?>" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Road Name / Highway</label>
+                            <input type="text" name="road_name" class="form-control" value="Quezon Avenue cor. Timog Ave." required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Subject Type (Vehicle / Vendor)</label>
+                            <select name="subject_type" class="form-select">
+                                <option value="Vehicle" selected>Vehicle (Car / Motorcycle / Truck / Bus)</option>
+                                <option value="Vendor">Vendor (Street Stall / Illegal Sidewalk Vendor)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Plate Number / Vendor ID</label>
+                            <input type="text" name="plate_number" class="form-control font-monospace" value="NBD-5829" placeholder="e.g. NBD-5829 or Stall #12">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Vehicle / Stall Type</label>
+                            <input type="text" name="vehicle_type" class="form-control" value="Motorcycle (Underbone / Scooter)">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Violation Date & Time</label>
+                            <input type="datetime-local" name="violation_datetime" class="form-control" value="<?= date('Y-m-d\TH:i') ?>">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Offense Level</label>
+                            <select name="offense_level" class="form-select">
+                                <option value="1st Offense" selected>1st Offense</option>
+                                <option value="2nd Offense">2nd Offense</option>
+                                <option value="3rd Offense (Habitual)">3rd Offense (Habitual)</option>
+                                <option value="Critical / Reckless">Critical / Reckless</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label small fw-bold">Location Details / Landmark</label>
+                            <input type="text" name="location_details" class="form-control" value="Intersection surveillance camera pole #18 near pedestrian overpass" required>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label small fw-bold">Violation Description</label>
+                            <textarea name="description" class="form-control" rows="2" required>Motorcycle driver counter-flowing in pedestrian crosswalk while red light signal is active.</textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Verification Status</label>
+                            <select name="verification_status" class="form-select">
+                                <option value="Verified" selected>Verified</option>
+                                <option value="Pending Review">Pending Review</option>
+                                <option value="Under Investigation">Under Investigation</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-bold">Cloudinary Image / Video URL</label>
+                            <input type="url" name="cloudinary_url" class="form-control" value="https://res.cloudinary.com/demo/image/upload/v1680000000/traffic_cctv_sample.jpg" placeholder="https://res.cloudinary.com/...">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-outline-secondary px-4" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-success fw-bold px-4 shadow-sm" style="background-color: #2e856e !important; border-color: #2e856e !important;">
+                        <i class="fas fa-save me-1"></i>Ingest & Save Violation Report
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Violation Report & Cloudinary Preview Modal -->
+<div class="modal fade" id="violationDetailModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 rounded-3 overflow-hidden shadow-lg">
+            <div class="modal-header text-white fw-bold py-3 px-4" style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;">
+                <h5 class="modal-title" id="mViolTitle"><i class="fas fa-video-slash text-warning me-2"></i>CCTV Violation Record</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <strong>Violation ID:</strong> <span id="mViolId" class="badge bg-danger font-monospace fs-6"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Public Tracking ID (User View):</strong> <span id="mViolPubId" class="badge bg-primary font-monospace fs-6"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Subject Type:</strong> <span id="mViolSubject" class="badge bg-info"></span> (<span id="mViolVehicleType"></span>)
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Plate / Identifier:</strong> <span id="mViolPlate" class="fw-bold font-monospace text-dark"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Road Name:</strong> <span id="mViolRoad" class="fw-semibold"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Offense Level:</strong> <span id="mViolOffense" class="badge bg-secondary"></span> &bull; <span id="mViolStatus" class="badge bg-success"></span>
+                    </div>
+                    <div class="col-12">
+                        <strong>Location Details:</strong>
+                        <div id="mViolLocation" class="text-muted small"></div>
+                    </div>
+                    <div class="col-12">
+                        <strong>Violation Description:</strong>
+                        <div id="mViolDescription" class="p-3 bg-light rounded mt-1 border border-success-subtle text-dark" style="font-size: 0.9rem; line-height: 1.5; white-space: pre-line;"></div>
+                    </div>
+                    <div class="col-12" id="mViolMediaSection" style="display:none;">
+                        <strong>Cloudinary Evidentiary Proof:</strong>
+                        <div id="mViolMediaContent" class="mt-2 text-center p-3 bg-light rounded border"></div>
+                    </div>
+                    <div class="col-12 text-end text-muted small">
+                        Recorded Datetime: <span id="mViolDatetime"></span> | Mirrored Incident: <span id="mViolMirroredCase" class="badge bg-success font-monospace"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-success px-4 fw-semibold" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Universal Photo / Image Lightbox Modal -->
 <div class="modal fade" id="imageLightboxModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered">
@@ -2255,6 +2531,38 @@ function showInspectionDetails(insp) {
     }
 
     var modal = new bootstrap.Modal(document.getElementById('inspectionDetailModal'));
+    modal.show();
+}
+
+function showViolationDetails(viol) {
+    document.getElementById('mViolTitle').innerHTML = '<i class="fas fa-video-slash text-warning me-2"></i>Violation Record #' + (viol.violation_id || viol.id || '');
+    document.getElementById('mViolId').textContent = '#' + (viol.violation_id || viol.id || 'N/A');
+    document.getElementById('mViolPubId').textContent = '#' + (viol.public_violation_id || 'N/A');
+    document.getElementById('mViolSubject').textContent = viol.subject_type || 'Vehicle';
+    document.getElementById('mViolVehicleType').textContent = viol.vehicle_type || 'N/A';
+    document.getElementById('mViolPlate').textContent = viol.plate_number || 'NO PLATE';
+    document.getElementById('mViolRoad').textContent = viol.road_name || 'Quezon City Roadway';
+    document.getElementById('mViolOffense').textContent = viol.offense_level || '1st Offense';
+    document.getElementById('mViolStatus').textContent = viol.verification_status || 'Verified';
+    document.getElementById('mViolLocation').textContent = viol.location_details || viol.road_name || 'N/A';
+    document.getElementById('mViolDescription').textContent = viol.description || 'No detailed description provided.';
+    document.getElementById('mViolDatetime').textContent = viol.violation_datetime || viol.received_at || 'N/A';
+    document.getElementById('mViolMirroredCase').textContent = viol.mirrored_case_no || 'N/A';
+
+    var mediaSec = document.getElementById('mViolMediaSection');
+    var mediaCont = document.getElementById('mViolMediaContent');
+    if (viol.cloudinary_url) {
+        mediaSec.style.display = 'block';
+        var cUrl = viol.cloudinary_url;
+        mediaCont.innerHTML = '<a href="javascript:void(0)" onclick="openLightbox(\'' + cUrl.replace(/'/g, "\\'") + '\', \'CCTV Violation Evidence - ' + (viol.violation_id || '').replace(/'/g, "\\'") + '\')">' +
+            '<img src="' + cUrl + '" alt="Cloudinary Evidence" class="img-fluid rounded shadow-sm" style="max-height: 220px; object-fit: contain;">' +
+            '<div class="small text-primary mt-2"><i class="fas fa-search-plus me-1"></i>Click to Zoom Cloudinary Footage / Photo Proof</div></a>';
+    } else {
+        mediaSec.style.display = 'none';
+        mediaCont.innerHTML = '';
+    }
+
+    var modal = new bootstrap.Modal(document.getElementById('violationDetailModal'));
     modal.show();
 }
 </script>

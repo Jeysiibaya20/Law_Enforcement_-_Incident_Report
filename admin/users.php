@@ -33,25 +33,32 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action'])) {
     try {
         $action = $_POST['action'];
         $user_id = intval($_POST['user_id']);
+        require_once __DIR__ . '/../includes/audit_logger.php';
         
         if ($action === 'toggle_verify') {
             $new_status = intval($_POST['new_status']);
             $pdo->prepare("UPDATE signup SET email_verified = ? WHERE user_id = ?")->execute([$new_status, $user_id]);
+            logAuditTrail('USER_UPDATE', 'User Management', (string)$user_id, "Toggled email verification to {$new_status} for User ID #{$user_id}.", 'SUCCESS', $pdo);
             $_SESSION['flash'] = ['type' => 'success', 'message' => 'User verification status updated.'];
         } elseif ($action === 'approve_account') {
             $pdo->prepare("UPDATE signup SET admin_approved = 1 WHERE user_id = ?")->execute([$user_id]);
+            logAuditTrail('USER_APPROVE', 'User Management', (string)$user_id, "Approved resident account ID #{$user_id}.", 'SUCCESS', $pdo);
             $_SESSION['flash'] = ['type' => 'success', 'message' => 'Account approved.'];
         } elseif ($action === 'reject_account') {
             $pdo->prepare("UPDATE signup SET admin_approved = -1 WHERE user_id = ?")->execute([$user_id]);
+            logAuditTrail('USER_REJECT', 'User Management', (string)$user_id, "Rejected resident account ID #{$user_id}.", 'SUCCESS', $pdo);
             $_SESSION['flash'] = ['type' => 'warning', 'message' => 'Account rejected.'];
         } elseif ($action === 'unreject_account') {
             $pdo->prepare("UPDATE signup SET admin_approved = 0 WHERE user_id = ?")->execute([$user_id]);
+            logAuditTrail('USER_UPDATE', 'User Management', (string)$user_id, "Reset approval status for User ID #{$user_id}.", 'SUCCESS', $pdo);
             $_SESSION['flash'] = ['type' => 'success', 'message' => 'Account rejection has been undone.'];
         } elseif ($action === 'ban') {
             $pdo->prepare("UPDATE signup SET banned = 1 WHERE user_id = ?")->execute([$user_id]);
+            logAuditTrail('USER_BAN', 'User Management', (string)$user_id, "Banned User ID #{$user_id}.", 'SUCCESS', $pdo);
             $_SESSION['flash'] = ['type' => 'warning', 'message' => 'User has been banned.'];
         } elseif ($action === 'unban') {
             $pdo->prepare("UPDATE signup SET banned = 0 WHERE user_id = ?")->execute([$user_id]);
+            logAuditTrail('USER_UNBAN', 'User Management', (string)$user_id, "Unbanned User ID #{$user_id}.", 'SUCCESS', $pdo);
             $_SESSION['flash'] = ['type' => 'success', 'message' => 'User has been unbanned.'];
         } elseif ($action === 'delete') {
             $countStmt = $pdo->prepare("SELECT COUNT(*) FROM incidents WHERE created_by = ? OR assigned_to = ? OR updated_by = ?");
@@ -75,6 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action'])) {
                 }
 
                 $pdo->prepare("DELETE FROM signup WHERE user_id = ?")->execute([$user_id]);
+                logAuditTrail('USER_DELETE', 'User Management', (string)$user_id, "Deleted User ID #{$user_id}.", 'SUCCESS', $pdo);
                 $_SESSION['flash'] = ['type' => 'warning', 'message' => 'User account deleted.'];
             }
         }

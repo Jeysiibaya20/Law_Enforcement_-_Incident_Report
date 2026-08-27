@@ -214,6 +214,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_SESSION['user_id']
             ]);
 
+            require_once '../includes/audit_logger.php';
+            logAuditTrail('EVIDENCE_CREATE', 'Evidence Management', $evidence_number, "Collected new evidence item ({$_POST['evidence_type']}: {$_POST['item_description']}) for Case {$_POST['case_number']}.", 'SUCCESS', $pdo);
+
             $message = "Evidence record created successfully with number: " . $evidence_number;
             $message_type = 'success';
         } elseif (isset($_POST['update_status'])) {
@@ -234,6 +237,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_POST['status_notes'],
                 $_SESSION['user_id']
             ]);
+
+            require_once '../includes/audit_logger.php';
+            logAuditTrail('EVIDENCE_UPDATE', 'Evidence Management', (string)$_POST['evidence_id'], "Changed evidence status to {$_POST['new_status']}.", 'SUCCESS', $pdo);
 
             $message = "Evidence status updated successfully";
             $message_type = 'success';
@@ -257,6 +263,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_SESSION['user_id'],
                 $_POST['witness']
             ]);
+
+            require_once '../includes/audit_logger.php';
+            logAuditTrail('CHAIN_OF_CUSTODY_ADD', 'Evidence Management', (string)$_POST['evidence_id'], "Added chain of custody entry: {$_POST['action_type']} from {$_POST['from_person']} to {$_POST['to_person']}.", 'SUCCESS', $pdo);
 
             $message = "Chain of custody entry added successfully";
             $message_type = 'success';
@@ -290,6 +299,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             ];
 
             $res = $integrator->dispatchCctvRequestToGroup2($cctvData);
+
+            require_once '../includes/audit_logger.php';
+            logAuditTrail('CCTV_REQUEST_DISPATCH', 'Partner Surveillance', $caseNo, "Dispatched CCTV footage request for Case {$caseNo} at {$camLocation}.", 'SUCCESS', $pdo);
+
             $message = "CCTV retrieval request successfully dispatched to Group 2 (Accident & Violation Reporting)! Request ID: " . htmlspecialchars($res['request_id']);
             $message_type = 'success';
         }

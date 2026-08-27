@@ -132,6 +132,34 @@ require_once "includes/navbar.php";
             </div>
         </div>
 
+        <!-- CCTV Road & Vendor Violation Public Tracker -->
+        <div class="card shadow-sm border-0 mb-4" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(46,133,110,0.2) !important;">
+            <div class="card-header py-3 text-white d-flex justify-content-between align-items-center" style="background: linear-gradient(135deg, #1b5a56, #2e856e) !important;">
+                <h5 class="mb-0 fw-bold"><i class="fas fa-video me-2"></i>Public CCTV Violation & Citation Tracker</h5>
+                <span class="badge bg-white text-success fw-bold px-2 py-1">Resident Lookup</span>
+            </div>
+            <div class="card-body p-4">
+                <p class="text-secondary small mb-3">
+                    Enter your <strong>Public Violation ID</strong> (e.g. <code>PUB-VIO-2026-XXXXX</code>), <strong>Violation ID</strong>, or vehicle <strong>Plate Number</strong> to inspect road citation records, offense levels, and CCTV footage proof.
+                </p>
+                <form id="publicTrackForm" onsubmit="trackViolationSubmit(event)" class="row g-2 align-items-center">
+                    <div class="col-12 col-md-9">
+                        <div class="input-group">
+                            <span class="input-group-text bg-light border-end-0"><i class="fas fa-search text-muted"></i></span>
+                            <input type="text" id="publicTrackInput" class="form-control border-start-0" placeholder="e.g. PUB-VIO-2026-10492 or Plate ABC-1234" required>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <button type="submit" class="btn btn-success w-100 fw-bold shadow-sm" style="background-color: #2e856e; border-color: #2e856e;">
+                            <i class="fas fa-search me-1"></i> Track Status
+                        </button>
+                    </div>
+                </form>
+
+                <div id="violationTrackResult" class="mt-4" style="display: none;"></div>
+            </div>
+        </div>
+
         <!-- Recent Reports -->
         <div class="card shadow-sm border-0">
             <div class="card-header bg-card fw-bold d-flex justify-content-between align-items-center">
@@ -174,5 +202,69 @@ require_once "includes/navbar.php";
         </div>
     </div>
 </div>
+
+<script>
+async function trackViolationSubmit(e) {
+    e.preventDefault();
+    const query = document.getElementById('publicTrackInput').value.trim();
+    const resDiv = document.getElementById('violationTrackResult');
+    if (!query) return;
+
+    resDiv.style.display = 'block';
+    resDiv.innerHTML = '<div class="text-center py-3 text-muted"><i class="fas fa-spinner fa-spin me-2"></i>Searching violation records...</div>';
+
+    try {
+        const resp = await fetch('api/track_public_violation.php?query=' + encodeURIComponent(query));
+        const data = await resp.json();
+
+        if (data.success && data.data) {
+            const v = data.data;
+            let imgHtml = '';
+            if (v.cloudinary_url) {
+                imgHtml = `
+                <div class="mt-3 text-center p-2 bg-light rounded border">
+                    <div class="small fw-bold text-muted mb-2"><i class="fas fa-camera me-1"></i>CCTV Evidentiary Proof (Cloudinary)</div>
+                    <a href="${v.cloudinary_url}" target="_blank">
+                        <img src="${v.cloudinary_url}" alt="Violation Proof" class="img-fluid rounded shadow-sm" style="max-height: 220px; object-fit: contain;">
+                    </a>
+                    <div class="mt-1"><a href="${v.cloudinary_url}" target="_blank" class="small text-primary"><i class="fas fa-external-link-alt me-1"></i>View Full Resolution</a></div>
+                </div>`;
+            }
+
+            resDiv.innerHTML = `
+                <div class="alert alert-success border-0 shadow-sm rounded-3 p-3">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-2 pb-2 border-bottom">
+                        <div>
+                            <span class="badge bg-success font-monospace fs-6">Tracking ID: ${v.public_violation_id || v.violation_id}</span>
+                            <span class="badge bg-secondary ms-1">${v.subject_type || 'Vehicle'}</span>
+                        </div>
+                        <span class="badge bg-danger">${v.offense_level || '1st Offense'}</span>
+                    </div>
+                    <div class="row g-2 small text-dark">
+                        <div class="col-md-6"><strong>Road / Location:</strong> ${v.road_name} (${v.location_details || 'N/A'})</div>
+                        <div class="col-md-6"><strong>Plate / Identifier:</strong> <span class="font-monospace fw-bold">${v.plate_number || 'N/A'}</span> (${v.vehicle_type || 'N/A'})</div>
+                        <div class="col-md-6"><strong>Status:</strong> <span class="badge bg-info text-dark">${v.verification_status || 'Verified'}</span></div>
+                        <div class="col-md-6"><strong>Recorded Datetime:</strong> ${v.violation_datetime || v.received_at || 'N/A'}</div>
+                        <div class="col-12 mt-2"><strong>Violation Description:</strong> <div class="p-2 bg-white rounded border mt-1">${v.description || 'No details provided.'}</div></div>
+                    </div>
+                    ${imgHtml}
+                </div>
+            `;
+        } else {
+            resDiv.innerHTML = `
+                <div class="alert alert-warning border-0 shadow-sm rounded-3 p-3">
+                    <i class="fas fa-exclamation-triangle me-2"></i>${data.message || 'No violation record found matching the specified query.'}
+                </div>
+            `;
+        }
+    } catch (err) {
+        resDiv.innerHTML = `
+            <div class="alert alert-danger border-0 shadow-sm rounded-3 p-3">
+                <i class="fas fa-times-circle me-2"></i>Failed to fetch status. Please check your internet connection.
+            </div>
+        `;
+    }
+}
+</script>
 
 <?php require_once 'includes/footer.php'; ?>

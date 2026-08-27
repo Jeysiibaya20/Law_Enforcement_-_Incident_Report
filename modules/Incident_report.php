@@ -251,9 +251,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_incident'])) {
                           Case #: <strong>{$case_no}</strong><br>
                           <small>System has automatically classified and formatted data for connected integration modules (Group 3, Group 5, Group 7, and CCTV Partner API).</small>"
             ];
+
+            require_once __DIR__ . '/../includes/audit_logger.php';
+            logAuditTrail('INCIDENT_CREATE', 'Incident Registry', $case_no, "Filed incident report ({$incident_type} at {$location}) with automatic AI classification.", 'SUCCESS', $pdo);
         } else {
             throw new Exception($workflow_result['error'] ?? 'Failed to process incident');
-        }        header("Location: Incident_report.php?view=submitted");
+        }        header("Location: Incident_report.php?view=submitted");
         exit;
 
     } catch (Exception $e) {
@@ -304,6 +307,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_incident']) &&
         }
 
         if ($success) {
+            require_once __DIR__ . '/../includes/audit_logger.php';
+            logAuditTrail('INCIDENT_UPDATE', 'Incident Registry', (string)$incident_id, "Updated incident report ID #{$incident_id}: status {$status}, urgency {$urgency_level}.", 'SUCCESS', $pdo);
+
             $_SESSION['message'] = [
                 'type' => 'success',
                 'text' => 'Incident classification and details updated successfully!'
@@ -379,6 +385,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['forward_incident']) &
         } catch (Exception $e) {
             error_log("Notice: Remote dispatch note: " . $e->getMessage());
         }
+
+        require_once __DIR__ . '/../includes/audit_logger.php';
+        logAuditTrail('INCIDENT_FORWARD', 'Incident Registry', $caseNo, "Forwarded incident Case #{$caseNo} to {$targetGroupName}.", 'SUCCESS', $pdo);
 
         $_SESSION['message'] = ['type' => 'success', 'text' => "✅ Case #{$caseNo} successfully forwarded to {$targetGroupName}!"];
         header("Location: Incident_report.php");

@@ -8,6 +8,12 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
+require_once __DIR__ . '/../includes/audit_logger.php';
+$loggedUserId = $_SESSION['resident_user_id'] ?? $_SESSION['user_id'] ?? null;
+if ($loggedUserId) {
+    logAuditTrail('USER_LOGOUT', 'Authentication', (string)$loggedUserId, 'Resident logged out of system.');
+}
+
 // Clear resident session variables
 unset(
     $_SESSION['resident_user_id'],

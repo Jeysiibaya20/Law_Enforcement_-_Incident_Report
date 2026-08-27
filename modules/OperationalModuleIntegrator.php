@@ -173,6 +173,29 @@ class OperationalModuleIntegrator {
                 INDEX idx_complaint_id (complaint_id)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
 
+            $this->pdo->exec("CREATE TABLE IF NOT EXISTS received_violation_reports (
+                id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                violation_id VARCHAR(100) NULL,
+                public_violation_id VARCHAR(100) NULL,
+                road_name VARCHAR(255) NULL,
+                subject_type VARCHAR(100) DEFAULT 'Vehicle',
+                plate_number VARCHAR(50) NULL,
+                vehicle_type VARCHAR(100) NULL,
+                violation_datetime DATETIME NULL,
+                location_details TEXT NULL,
+                description LONGTEXT NULL,
+                verification_status VARCHAR(100) DEFAULT 'Verified',
+                offense_level VARCHAR(100) DEFAULT '1st Offense',
+                cloudinary_url TEXT NULL,
+                mirrored_case_no VARCHAR(100) NULL,
+                raw_payload LONGTEXT NULL,
+                received_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                INDEX idx_viol_id (violation_id),
+                INDEX idx_pub_id (public_violation_id),
+                INDEX idx_plate (plate_number),
+                INDEX idx_road (road_name)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
             // Ensure modern CCTV request table columns exist
             $this->pdo->exec("CREATE TABLE IF NOT EXISTS cctv_requests (
                 id INT(11) NOT NULL AUTO_INCREMENT,
@@ -1437,6 +1460,106 @@ class OperationalModuleIntegrator {
             'status' => $status,
             'acknowledged_by' => $acknowledgedBy,
             'acknowledged_at' => date('Y-m-d H:i:s')
+        ];
+    }
+
+    /**
+     * Process Inbound CCTV Road & Vendor Violation Report
+     */
+    public function processIncomingViolationReport(array $data): array {
+        $violationId = trim($data['violation_id'] ?? ('VIO-' . date('Ymd') . '-' . rand(1000, 9999)));
+        $publicViolationId = trim($data['public_violation_id'] ?? ('PUB-VIO-' . date('Y') . '-' . rand(10000, 99999)));
+        $roadName = trim($data['road_name'] ?? $data['road'] ?? $data['location'] ?? 'Quezon City Roadway');
+        $subjectType = trim($data['subject_type'] ?? 'Vehicle'); // Vehicle or Vendor
+        $plateNumber = trim($data['plate_number'] ?? $data['plate'] ?? ($subjectType === 'Vendor' ? 'Vendor-N/A' : 'N/A'));
+        $vehicleType = trim($data['vehicle_type'] ?? $data['vehicle'] ?? ($subjectType === 'Vendor' ? 'Street Vendor / Stall' : 'Motor Vehicle'));
+        $violationDatetime = !empty($data['violation_datetime']) ? date('Y-m-d H:i:s', strtotime($data['violation_datetime'])) : date('Y-m-d H:i:s');
+        $locationDetails = trim($data['location_details'] ?? $data['location'] ?? $roadName);
+        $description = trim($data['description'] ?? $data['violation_description'] ?? 'Traffic/road obstruction or vendor violation detected by CCTV surveillance.');
+        $verificationStatus = trim($data['verification_status'] ?? $data['status'] ?? 'Verified');
+        $offenseLevel = trim($data['offense_level'] ?? '1st Offense');
+        $cloudinaryUrl = trim($data['cloudinary_url'] ?? $data['media_url'] ?? $data['image_url'] ?? '');
+
+        $recordId = null;
+        $caseNo = 'VIO-' . date('Ymd') . '-' . substr(strtoupper(bin2hex(random_bytes(2))), 0, 4);
+
+        if ($this->pdo instanceof PDO) {
+            $stmt = $this->pdo->prepare("INSERT INTO received_violation_reports 
+                (violation_id, public_violation_id, road_name, subject_type, plate_number, vehicle_type, violation_datetime, location_details, description, verification_status, offense_level, cloudinary_url, mirrored_case_no, raw_payload)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+            $stmt->execute([
+                $violationId,
+                $publicViolationId,
+                $roadName,
+                $subjectType,
+                $plateNumber,
+                $vehicleType,
+                $violationDatetime,
+                $locationDetails,
+                $description,
+                $verificationStatus,
+                $offenseLevel,
+                $cloudinaryUrl,
+                $caseNo,
+                json_encode($data, JSON_UNESCAPED_UNICODE)
+            ]);
+            $recordId = $this->pdo->lastInsertId();
+
+            // Automatically mirror into Incident Logging module
+            try {
+                $checkIncidents = $this->pdo->query("SHOW TABLES LIKE 'incidents'");
+                if ($checkIncidents && $checkIncidents->rowCount() > 0) {
+                    $narrative = "[CCTV Violation Report: {$violationId} | Public Tracking: {$publicViolationId}]\n"
+                        . "Subject Type: {$subjectType} | Plate/ID: {$plateNumber} | Type: {$vehicleType}\n"
+                        . "Road/Location: {$roadName} ({$locationDetails})\n"
+                        . "Offense Level: {$offenseLevel} | Verification: {$verificationStatus}\n"
+                        . "Evidence Media (Cloudinary): " . ($cloudinaryUrl ?: 'None attached') . "\n"
+                        . "Description: {$description}";
+
+                    $urgency = (strpos(strtolower($offenseLevel), '3rd') !== false || strpos(strtolower($offenseLevel), 'critical') !== false) ? 'High' : 'Medium';
+
+                    $incStmt = $this->pdo->prepare("INSERT INTO incidents (case_no, narrative, incident_type, incident_subtype, auto_classification, urgency_level, location, status, reporter_name, incident_date, created_at) VALUES (?, ?, 'Other', 'CCTV Road & Vendor Violation', 'CCTV Surveillance Unit', ?, ?, 'Submitted', 'CCTV Violation Monitoring', ?, NOW())");
+                    $incStmt->execute([
+                        $caseNo,
+                        $narrative,
+                        $urgency,
+                        $roadName . ' - ' . $locationDetails,
+                        date('Y-m-d', strtotime($violationDatetime))
+                    ]);
+                }
+            } catch (Exception $e) {
+                error_log("Notice mirroring violation report to incidents: " . $e->getMessage());
+            }
+
+            // Save integration log
+            $this->saveLog('incoming_violation_report', 'CCTV Road & Vendor Surveillance Unit', $data, [
+                'status' => 'success',
+                'record_id' => $recordId,
+                'violation_id' => $violationId,
+                'public_violation_id' => $publicViolationId,
+                'case_no' => $caseNo
+            ], 'logged_and_classified');
+
+            // Log into System Audit Trail
+            require_once __DIR__ . '/../includes/audit_logger.php';
+            logAuditTrail('INBOUND_VIOLATION_REPORT', 'CCTV Surveillance Unit', $violationId, "Received {$subjectType} violation on {$roadName} (Plate: {$plateNumber}, Offense: {$offenseLevel}). Public ID: {$publicViolationId}.", 'SUCCESS', $this->pdo);
+        }
+
+        return [
+            'success' => true,
+            'message' => 'CCTV road/vendor violation report successfully received, stored, and mirrored to incident registry.',
+            'record_id' => $recordId,
+            'violation_id' => $violationId,
+            'public_violation_id' => $publicViolationId,
+            'road_name' => $roadName,
+            'subject_type' => $subjectType,
+            'plate_number' => $plateNumber,
+            'vehicle_type' => $vehicleType,
+            'offense_level' => $offenseLevel,
+            'verification_status' => $verificationStatus,
+            'cloudinary_url' => $cloudinaryUrl,
+            'mirrored_case_no' => $caseNo,
+            'received_at' => date('Y-m-d H:i:s')
         ];
     }
 

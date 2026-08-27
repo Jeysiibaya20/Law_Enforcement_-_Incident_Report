@@ -115,6 +115,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_SESSION['first_name'] = trim(explode(' ', $user['fullname'] ?? $user['username'])[0]);
         $_SESSION['fullname'] = $user['fullname'] ?? $user['username'];
 
+        require_once __DIR__ . '/../includes/audit_logger.php';
+        logAuditTrail('USER_LOGIN', 'Authentication', (string)$user['user_id'], 'Resident logged into system.', 'SUCCESS', $pdo);
+
         header('Location: ../modules/my_reports.php');
         exit();
 

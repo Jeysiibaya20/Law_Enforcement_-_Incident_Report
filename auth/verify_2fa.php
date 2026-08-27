@@ -67,15 +67,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 if (!empty($_SESSION['pending_2fa_username'])) $_SESSION['username'] = $_SESSION['pending_2fa_username'];
                 if (!empty($_SESSION['pending_2fa_email'])) $_SESSION['email'] = $_SESSION['pending_2fa_email'];
 
+                require_once __DIR__ . '/../includes/audit_logger.php';
+
                 if (strpos($role, 'admin') !== false || strpos($role, 'officer') !== false) {
                     $_SESSION['admin_user_id'] = $pendingUser;
                     $_SESSION['admin_fullname'] = $_SESSION['pending_2fa_username'] ?? 'Admin';
                     $_SESSION['admin_role'] = ucfirst($role);
                     $redirectUrl = '../admin/dashboard.php';
+                    logAuditTrail('ADMIN_LOGIN', 'Authentication', (string)$pendingUser, 'Administrator session authenticated via 2FA.', 'SUCCESS', $pdo);
                 } else {
                     $_SESSION['resident_user_id'] = $pendingUser;
                     $_SESSION['fullname'] = $_SESSION['pending_2fa_username'] ?? 'Resident';
                     $redirectUrl = '../modules/my_reports.php';
+                    logAuditTrail('USER_LOGIN', 'Authentication', (string)$pendingUser, 'Resident session authenticated via 2FA.', 'SUCCESS', $pdo);
                 }
 
                 // Clean up pending vars

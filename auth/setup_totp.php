@@ -52,17 +52,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $role = strtolower($_SESSION['pending_2fa_role'] ?? 'user');
                 $_SESSION['user_id'] = $userId;
                 
+                require_once __DIR__ . '/../includes/audit_logger.php';
+
                 if (strpos($role, 'admin') !== false || strpos($role, 'officer') !== false) {
                     $_SESSION['admin_user_id'] = $userId;
                     $_SESSION['admin_fullname'] = $_SESSION['pending_2fa_username'] ?? 'Admin';
                     $_SESSION['admin_username'] = $_SESSION['pending_2fa_username'] ?? 'Admin';
                     $_SESSION['admin_role'] = ucfirst($role);
                     $redirectUrl = '../admin/dashboard.php';
+                    logAuditTrail('ADMIN_LOGIN', 'Authentication', (string)$userId, 'Administrator completed TOTP 2FA setup and logged in.', 'SUCCESS', $pdo);
                 } else {
                     $_SESSION['resident_user_id'] = $userId;
                     $_SESSION['fullname'] = $_SESSION['pending_2fa_username'] ?? 'Resident';
                     $_SESSION['username'] = $_SESSION['pending_2fa_username'] ?? 'Resident';
                     $redirectUrl = '../modules/my_reports.php';
+                    logAuditTrail('USER_LOGIN', 'Authentication', (string)$userId, 'Resident completed TOTP 2FA setup and logged in.', 'SUCCESS', $pdo);
                 }
                 
                 unset($_SESSION['pending_2fa_user'], $_SESSION['pending_2fa_method'], $_SESSION['setup_totp_secret'], $_SESSION['one_time_setup_user'], $_SESSION['pending_2fa_role'], $_SESSION['pending_2fa_username'], $_SESSION['pending_2fa_email']);

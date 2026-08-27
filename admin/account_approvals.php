@@ -27,12 +27,16 @@ try {
 // Handle approve/reject POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && isset($_POST['user_id'])) {
     $targetId = (int)$_POST['user_id'];
+    require_once __DIR__ . '/../includes/audit_logger.php';
+
     if ($_POST['action'] === 'approve') {
         $stmt = $pdo->prepare("UPDATE signup SET admin_approved = 1 WHERE user_id = ?");
         $stmt->execute([$targetId]);
+        logAuditTrail('USER_APPROVE', 'User Management', (string)$targetId, "Approved resident account ID #{$targetId}.", 'SUCCESS', $pdo);
     } elseif ($_POST['action'] === 'reject') {
         $stmt = $pdo->prepare("UPDATE signup SET admin_approved = -1 WHERE user_id = ?");
         $stmt->execute([$targetId]);
+        logAuditTrail('USER_REJECT', 'User Management', (string)$targetId, "Rejected resident account ID #{$targetId}.", 'SUCCESS', $pdo);
     }
     // simple redirect to avoid resubmission
     header('Location: ' . $_SERVER['PHP_SELF']);
